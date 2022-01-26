@@ -1,0 +1,36 @@
+#backtoblog,.login-action-register .message:first-of-type{display:none!important}
+body{background-image:url('/wp-content/uploads/bkg-login-2021.jpg')!important;background-attachment:fixed!important;background-position:center center!important;background-repeat:no-repeat!important;background-size:cover!important;font-family:'Open-Sans',sans-serif}
+a{color:#0E316E}
+a:active,a:hover,body.login #nav a:hover,body.login #nav a:focus{color:#FFFFFF!important;text-decoration:underline}
+#login{padding:.5em}
+#login form p{width:100%}
+body.login form,body.login .message,body.login #login_error{background:#FFFFFF;border:0!important;border-radius:12px;box-shadow:0 0 24px rgba(0,0,0,.1)}
+body.login .message,body.login #login_error{padding:10px!important;border:0!important;border-radius:6px;text-align:center}
+body.login .message{background:#1F4483;color:#FFFFFF}
+body.login .message a{color:#FFFFFF!important}
+body.login #login_error{background:#FF5151;color:#FFFFFF;padding-bottom:0}
+body.login #login_error a{display:inline-block;width:100%;font-weight:700;color:#FFFFFF!important}
+body.login div#login h1 a{margin:20px auto!important;background-image:url('/wp-content/uploads/gd-ima_h-one_stroke-dark-128h.png')!important;background-size:contain;width:193px!important;height:64px!important;pointer-events:none!important}
+body.login label{margin-bottom:0;color:#555555;font-size:110%;font-family:'Neo-Sans',sans-serif;font-weight:400}
+body.login form{padding-bottom:25px}
+body:not(.login-action-lostpassword).login form{border-bottom-left-radius:0;border-bottom-right-radius:0}
+body.login form .forgetmenot{margin-bottom:20px!important}
+body.login form .forgetmenot label{font-size:100%;position:relative;top:5px}
+body.login form .input,body.login form input[type='checkbox'],body.login input[type='text'],body.login input[type='password']{margin-top:5px;padding:6px 12px;font-size:20px;color:#333333;font-family:'Open-Sans',sans-serif;background:#FAFAFA;border:0!important;border-radius:6px;box-shadow:none!important;outline:none!important}
+body.login input[type='text'],body.login input[type='password'],body.login form input[type='checkbox']{border:2px solid #EAEAEA!important}
+body.login form input[type='checkbox']{width:20px;height:20px;border-radius:4px}
+body.login .button.wp-hide-pw{top:6px;color:#0E316E!important;box-shadow:none!important;border:none!important;outline:none!important}
+body.login #nav{margin-top:0;padding:0 0 30px}
+body:not(.login-action-lostpassword).login #nav:before{content:'Los datos de acceso son independientes de la red corporativa. Si no recordás tu contraseña, podés recuperar el acceso en el enlace debajo.';display:block;padding:15px 15px 5px;font-style:italic;font-size:.9em;line-height:1.4;background:#0E316E;color:#FFFFFF}
+body.login #nav a{display:block;padding:20px 0;box-shadow:none!important;font-size:120%;font-family:'Neo-Sans',sans-serif;font-weight:500;color:#FAFAFA;outline:none;text-decoration:none}
+body:not(.login-action-lostpassword).login #nav a{padding:0 20px 15px;box-shadow:none!important;color:#FFFFFF;background:#0E316E;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
+input[type='radio']:checked:before,input[type='checkbox']:checked:before{width:22px;height:22px;font-size:22px;color:#0E316E;position:relative;top:1px}
+#wp-submit{float:none;display:inline;padding:.5em .8em;font-family:'Neo-Sans',sans-serif;font-size:1.3em;line-height:1.25;font-weight:500;white-space:normal;text-shadow:none;border-radius:12px}
+#wlcms-login-wrapper{background:none}
+#nav{text-align:center}
+.wp-core-ui .button-group.button-large .button,.wp-core-ui .button.button-large{background:#F0582B!important;border:0!important;border-radius:12px;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important}
+.wp-core-ui .button-group.button-large .button:hover,.wp-core-ui .button.button-large:hover{background:#1F4483!important;transform:translateY(1px)}
+.wp-core-ui .button-group.button-large .button:active,.wp-core-ui .button.button-large:active{transform:translateY(0)}
+@media only screen and (min-width:800px){
+	#login{width:400px}
+}
