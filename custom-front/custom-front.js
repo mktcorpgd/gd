@@ -550,13 +550,10 @@ jQuery(document).ready(function() {
 	// BÚSQUEDAS INTERNAS - Agregar título, UN y botón CTA
 	if ( jQuery('article').hasClass('category-busquedas-internas') ) {
 		var post_title = jQuery('.page-title').text();
-		var job_role = post_title.substring(0,post_title.indexOf('(')-1);
+		/*var job_role = post_title.substring(0,post_title.indexOf('(')-1);
 		jQuery('#post-content>figure>table tr:first td:last').text(job_role);
 		var job_unit = post_title.substring(post_title.indexOf('(')+1,post_title.indexOf(')'))
-		jQuery('#post-content>figure>table tr:nth-child(2) td:last').text(job_unit);
-		console.log(post_title);
-		console.log(job_role);
-		console.log(job_unit);
+		jQuery('#post-content>figure>table tr:nth-child(2) td:last').text(job_unit);*/
 		var mails_rrhh = '';
 		jQuery('#post-content>figure>table tr:last td:last a').each(function(i) {
 			mails_rrhh += jQuery(this).attr('href').substring(jQuery(this).attr('href').indexOf('mailto:')+7,jQuery(this).attr('href').length)+';';
