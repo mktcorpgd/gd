@@ -1071,6 +1071,8 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 .button-busquedas a{color:#FFFFFF!important}
 body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/']{float:left}
 body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/finalizada/']{color:#999999}
+#content [class*='busquedas'] .buttons>.sc-button+a{font-size:.9em;line-height:2}
+
 
 /* Casos */
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
@@ -1219,7 +1221,7 @@ input[type='button'],input[type='submit'],input[type='reset'],button,.button{col
 input[type='button'],input[type='submit'],input[type='reset'],button,.button{background-color:#F0582B;border-color:#F0582B}
 input[type='button']:hover,input[type='submit']:hover,input[type='reset']:hover,button:hover,.button:hover{background-color:#F0582B;border-color:#F0582B;color:#FFFFFF}
 .post-loop.post-columns{margin:0 0 24px 4%}
-body #content .sc-button{padding:.6em .6em;font-size:1.2em;background-color:#F0582B;color:#FFFFFF}
+body #content .sc-button{padding:.5em .6em;font-size:1.2em;background-color:#F0582B;color:#FFFFFF}
 
 img[src*='-dark-']{background:#999999}
 .eo-widget-cal-wrap+.widget_ref{margin:.6em 0 0}
