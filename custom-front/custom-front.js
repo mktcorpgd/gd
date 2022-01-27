@@ -549,13 +549,16 @@ jQuery(document).ready(function() {
 
 	// BÚSQUEDAS INTERNAS - Agregar título, UN y botón CTA
 	if ( jQuery('article').hasClass('category-busquedas-internas') ) {
+		var post_title = jQuery('.page-title').text();
+		var job_role = post_title.substring(0,post_title.indexOf('(')-1);
+		var job_unit = post_title.substring(post_title.indexOf('(')+1,post_title.indexOf(')'))
 		var mail_rrhh = '';
 		jQuery('#post-content>table tr:last td:last a').each(function(i) {
 			mail_rrhh = jQuery(this).attr('href');
 			mail_rrhh = mail_rrhh.substring(mail_rrhh.indexOf('mailto:')+7,mail_rrhh.length)+',';
 		});
 		mail_rrhh = mail_rrhh.substring(0,mail_rrhh.length-1);
-		jQuery('<div class="buttons"><a href="mailto:'+mail_rrhh+'?subject=Título" target="_blank" class=a"sc-button blue small"><a >Envianos tu CV</a></div>').insertAfter('#post-content>table');
+		jQuery('<div class="buttons"><a href="mailto:'+mail_rrhh+'?subject='+post_title+'" target="_blank" class=a"sc-button blue small"><a >Envianos tu CV</a></div>').insertAfter('#post-content>.wp-block-table');
 	}
 
 });
