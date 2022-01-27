@@ -179,8 +179,8 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail{float:none}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{display:grid}
 .gp-blog-wrapper.gp-blog-columns-2 .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop .post-text,body.search .gp-blog-wrapper .post-loop .post-text{border-top:2px solid #CCCCCC}
-article.category-busquedas-internas #post-content .lider_rrhh{text-transform:capitalize}
-article.category-busquedas-internas #post-content .lider_rrhh:after{content:', ';display:inline-block}
+article.category-busquedas-internas #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:capitalize}
+article.category-busquedas-internas #post-content .lider_rrhh:not(:first-child){margin-left:.4em;border-left:1px solid #EAEAEA}
 
 /* Regalos
 @keyframes highlight_bkg{from{background:#FFFFFF}to{background:#F1D300}}
