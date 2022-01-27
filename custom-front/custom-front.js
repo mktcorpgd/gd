@@ -556,6 +556,7 @@ jQuery(document).ready(function() {
 		jQuery('#post-content>figure>table tr:nth-child(2) td:last').text(job_unit);*/
 		var mails_rrhh = jQuery('#post-content>figure>table tr:last td:last').text();
 		var arr_mails_rrhh = mails_rrhh.split(';');
+		jQuery('#post-content>figure>table tr:last td:last').empty();
 		jQuery.each(arr_mails_rrhh, function(i) {
 			var mail_rrhh = arr_mails_rrhh[i];
 			var nom_rrhh = arr_mails_rrhh[i].substring(0,arr_mails_rrhh[i].indexOf('.'));
