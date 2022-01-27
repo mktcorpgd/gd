@@ -555,8 +555,8 @@ jQuery(document).ready(function() {
 		var job_unit = post_title.substring(post_title.indexOf('(')+1,post_title.indexOf(')'))
 		jQuery('#post-content>figure>table tr:nth-child(2) td:last').text(job_unit);*/
 		var mails_rrhh = jQuery('#post-content>figure>table tr:last td:last').text();
-		var arr_mails_rrhh = mails_rrhh.split(',');
-		arr_mails_rrhh.each(function(i) {
+		var arr_mails_rrhh = mails_rrhh.split(';');
+		jQuery.each( arr_mails_rrhh, function(i) {
 			console.log(arr_mails_rrhh[i]);
 		});
 		console.log('mails_rrhh='+mails_rrhh);
