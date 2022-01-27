@@ -547,6 +547,14 @@ jQuery(document).ready(function() {
 	// VIDEOS - Cambiar texto "load more"
 	jQuery('.yotu-pagination-more').text('Ver más');
 
+	// BUSQUEDAS INTERNAS - Cambio de título en página de archivo
+	if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2797') ) {
+		jQuery('.page-title').text('Búsquedas internas activas');
+	}
+	else if ( jQuery('body').hasClass('archive') && (jQuery('body').hasClass('category-2798') {
+		jQuery('.page-title').text('Búsquedas internas finalizadas');
+	}
+
 	// BÚSQUEDAS INTERNAS - Agregar título, UN y botón CTA
 	if ( jQuery('article').hasClass('category-busquedas-internas') ) {
 		var post_title = jQuery('.page-title').text();
