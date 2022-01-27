@@ -563,7 +563,7 @@ jQuery(document).ready(function() {
 		});
 		console.log(mails_rrhh);
 		mails_rrhh = mails_rrhh.substring(0,mails_rrhh.length-1);
-		jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button blue small">Envianos tu CV</a></div>').insertAfter('#post-content>figure>table');
+		jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button blue medium">Envianos tu CV</a></div>').insertAfter('#post-content>figure>table');
 	}
 
 });
