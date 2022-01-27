@@ -555,9 +555,7 @@ jQuery(document).ready(function() {
 		var job_unit = post_title.substring(post_title.indexOf('(')+1,post_title.indexOf(')'))
 		jQuery('#post-content>figure>table tr:nth-child(2) td:last').text(job_unit);*/
 		var mails_rrhh = '';
-		jQuery('#post-content>figure>table tr:last td:last a').each(function(i) {
-			mails_rrhh += jQuery(this).attr('href').substring(jQuery(this).attr('href').indexOf('mailto:')+7,jQuery(this).attr('href').length)+';';
-		});
+		jQuery('#post-content>figure>table tr:last td:last').replaceWith(jQuery('<a />').attr({'href':'mailto:'+url,'target':'_blank'}).html(url) );
 		console.log(mails_rrhh);
 		mails_rrhh = mails_rrhh.substring(0,mails_rrhh.length-1);
 		jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button blue medium">Envianos tu CV</a></div>').insertAfter('#post-content>figure>table');
