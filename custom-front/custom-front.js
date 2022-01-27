@@ -551,7 +551,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2797') ) {
 		jQuery('.page-title').text('Búsquedas internas activas');
 	}
-	else if ( jQuery('body').hasClass('archive') && (jQuery('body').hasClass('category-2798') {
+	else if ( jQuery('body').hasClass('archive') && (jQuery('body').hasClass('category-2798') ) {
 		jQuery('.page-title').text('Búsquedas internas finalizadas');
 	}
 
