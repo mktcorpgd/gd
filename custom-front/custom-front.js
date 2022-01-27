@@ -551,21 +551,25 @@ jQuery(document).ready(function() {
 	if ( jQuery('article').hasClass('category-busquedas-internas') ) {
 		var post_title = jQuery('.page-title').text();
 		/*var job_role = post_title.substring(0,post_title.indexOf('(')-1);
-		jQuery('#post-content>figure>table tr:first td:last').text(job_role);
+		jQuery('#post-content table tr:first td:last').text(job_role);
 		var job_unit = post_title.substring(post_title.indexOf('(')+1,post_title.indexOf(')'))
-		jQuery('#post-content>figure>table tr:nth-child(2) td:last').text(job_unit);*/
-		var mails_rrhh = jQuery('#post-content>figure>table tr:last td:last').text();
+		jQuery('#post-content table tr:nth-child(2) td:last').text(job_unit);*/
+		var mails_rrhh = jQuery('#post-content table tr:last td:last').text();
 		var arr_mails_rrhh = mails_rrhh.split(';');
-		jQuery('#post-content>figure>table tr:last td:last').empty();
+		jQuery('#post-content table tr:last td:last').empty();
 		jQuery.each(arr_mails_rrhh, function(i) {
 			var mail_rrhh = arr_mails_rrhh[i];
 			var nom_rrhh = arr_mails_rrhh[i].substring(0,arr_mails_rrhh[i].indexOf('.'));
 			var ape_rrhh = arr_mails_rrhh[i].substring(arr_mails_rrhh[i].indexOf('.')+1,arr_mails_rrhh[i].indexOf('@'));
-			jQuery('#post-content>figure>table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
+			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
 		});
-		console.log('mails_rrhh='+mails_rrhh);
 		mails_rrhh = mails_rrhh.substring(0,mails_rrhh.length-1);
-		jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button blue medium">Envianos tu CV</a></div>').insertAfter('#post-content>figure>table');
+		if ( jQuery('article').hasClass('category-busqueda-activa') ) {
+			jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Envianos tu CV</a><br /><a href="/categoria/busqueda-activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
+		}
+		else {
+			jQuery('<div class="buttons"><a href="/categoria/busqueda-activa/" class="sc-button">Ver búsquedas activas</a></div>').insertAfter('#post-content table');
+		}
 	}
 
 });
