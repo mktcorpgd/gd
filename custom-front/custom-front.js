@@ -555,7 +555,6 @@ jQuery(document).ready(function() {
 			mail_rrhh = jQuery(this).attr('href')+',';
 		});
 		mail_rrhh = mail_rrhh.substring(0,mail_rrhh.length-1);
-		console.log(mail_rrhh);
 		jQuery('<div class="buttons"><a href="mailto:'+mail_rrhh+'?subject=Título" target="_blank" class=a"sc-button blue small"><a >Envianos tu CV</a></div>').insertAfter('#post-content>table');
 	}
 
