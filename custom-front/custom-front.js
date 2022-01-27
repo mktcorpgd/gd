@@ -56,6 +56,59 @@ jQuery(document).ready(function() {
 		});
 	}
 
+	// MENÚ - Agregar clase si figura #wpadminbar
+	if ( jQuery('#wpadminbar').length > 0 ) {
+		jQuery('#header').addClass('plus-adminbar');
+	}
+
+	// MENÚ - Ajustar para mobile
+	if ( jQuery('body').hasClass('gp-mobile') ) {
+		jQuery('#header').css('top','46px');
+		jQuery('#menu40gd').css('top','110px');
+	}
+	else {
+		jQuery('#header').css('top','32px');
+		jQuery('#menu40gd').css('top','84px');
+	}
+	var prevScrollpos = jQuery(window).scrollTop();
+	jQuery(window).scroll(function() {
+		var currentScrollPos = jQuery(window).scrollTop();
+		if ( prevScrollpos > currentScrollPos || currentScrollPos < 60 ) {
+			if ( jQuery('#wpadminbar').length > 0 ) {
+				if ( jQuery('body').hasClass('gp-mobile') ) {
+					jQuery('#header').css('top','46px');
+					jQuery('#menu40gd').css('top','110px');
+				}
+				else {
+					jQuery('#header').css('top','32px');
+					jQuery('#menu40gd').css('top','84px');
+				}
+			}
+			else {
+				jQuery('#header').css('top','0');
+			}
+		}
+		else {
+			if ( jQuery('body').hasClass('gp-mobile') ) {
+				if ( jQuery('#header').height() > 64 ) {
+					jQuery('#header').css('top','-550px');
+					jQuery('#menu40gd').css('top','46px');
+				}
+				else {
+					jQuery('#header').css('top','-64px');
+					jQuery('#menu40gd').css('top','46px');
+				}
+			}
+			else {
+				if ( jQuery(window).scrollTop() != 0 ) {
+					jQuery('#header').css('top','-64px');
+					jQuery('#menu40gd').css('top','32px');
+				}
+			}
+		}
+		prevScrollpos = currentScrollPos;
+	});
+	
 	// FIX WP 5.5 - Prevenir scrollup con toggles
 	jQuery('h3.toggle a').click(function(e) {
 		e.preventDefault();
@@ -160,8 +213,6 @@ jQuery(document).ready(function() {
 		jQuery.magnificPopup.close();
 		e.preventDefault();
 	});*/
-
-
 
 	// CONTENIDOS - Ocultar párrafos con espacios en blanco
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
@@ -282,20 +333,6 @@ jQuery(document).ready(function() {
 		});
 	});
 
-
-	jQuery('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
-	jQuery(document).on('click','.widget .widgettitle .topopup',function(e) {
-		e.preventDefault();
-		var get_widget = jQuery(this).parent().parent().attr('id');
-		var cloned_widget = jQuery('#'+get_widget).clone();
-		jQuery.magnificPopup.open({
-			items: {
-				src: cloned_widget,
-			},
-			type: 'inline'
-		});
-	});
-
 	// CONTENIDOS - Ver foto al clickear en figcaption
 	jQuery('.blocks-gallery-item figcaption').on('click',function(e) {
 		e.preventDefault();
@@ -305,59 +342,6 @@ jQuery(document).ready(function() {
 	// MANTENIMIENTO - Cambiar idioma del botón en barra de administración
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=Off]').text('Mantenimiento desactivado');
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=On]').text('Mantenimiento activado');
-
-	// MENÚ - Agregar clase si figura #wpadminbar
-	if ( jQuery('#wpadminbar').length > 0 ) {
-		jQuery('#header').addClass('plus-adminbar');
-	}
-
-	// MENÚ - Ajustar para mobile
-	if ( jQuery('body').hasClass('gp-mobile') ) {
-		jQuery('#header').css('top','46px');
-		jQuery('#menu40gd').css('top','110px');
-	}
-	else {
-		jQuery('#header').css('top','32px');
-		jQuery('#menu40gd').css('top','84px');
-	}
-	var prevScrollpos = jQuery(window).scrollTop();
-	jQuery(window).scroll(function() {
-		var currentScrollPos = jQuery(window).scrollTop();
-		if ( prevScrollpos > currentScrollPos || currentScrollPos < 60 ) {
-			if ( jQuery('#wpadminbar').length > 0 ) {
-				if ( jQuery('body').hasClass('gp-mobile') ) {
-					jQuery('#header').css('top','46px');
-					jQuery('#menu40gd').css('top','110px');
-				}
-				else {
-					jQuery('#header').css('top','32px');
-					jQuery('#menu40gd').css('top','84px');
-				}
-			}
-			else {
-				jQuery('#header').css('top','0');
-			}
-		}
-		else {
-			if ( jQuery('body').hasClass('gp-mobile') ) {
-				if ( jQuery('#header').height() > 64 ) {
-					jQuery('#header').css('top','-550px');
-					jQuery('#menu40gd').css('top','46px');
-				}
-				else {
-					jQuery('#header').css('top','-64px');
-					jQuery('#menu40gd').css('top','46px');
-				}
-			}
-			else {
-				if ( jQuery(window).scrollTop() != 0 ) {
-					jQuery('#header').css('top','-64px');
-					jQuery('#menu40gd').css('top','32px');
-				}
-			}
-		}
-		prevScrollpos = currentScrollPos;
-	});
 
 	// FORMULARIOS - [IMPORTANTE PARA MAILCHIMP] Agregar textos para la opción free_text en checkbox
 	jQuery('.wpcf7-free-text').blur(function(e) {
@@ -451,6 +435,65 @@ jQuery(document).ready(function() {
 	jQuery('<a href="/categoria/nacimientos/" class="sc-button blue small">Ver más nacimientos</a>').insertAfter('.sidebar .sociales.nacimientos');
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
 
+	// LATERAL - Desplegables
+	jQuery('#custom_html-11 .toggle-box').show();
+	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery('#custom_html-24 .toggle-box').show();
+	jQuery('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery(document).on('click','.toggle',function(e) {
+		jQuery(this).next('.toggle-box').slideToggle();
+		if ( jQuery(this).find('i').hasClass('fa-plus-square') ) {
+			jQuery(this).find('i').removeClass('fa-plus-square').addClass('fa-minus-square');
+		}
+		else if ( jQuery(this).find('i').hasClass('fa-minus-square') ) {
+			jQuery(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
+		}
+	});
+
+	// LATERAL - Expandir widget
+	jQuery('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
+	jQuery(document).on('click','.widget .widgettitle .topopup',function(e) {
+		e.preventDefault();
+		var get_widget = jQuery(this).parent().parent().attr('id');
+		var cloned_widget = jQuery('#'+get_widget).clone();
+		jQuery.magnificPopup.open({
+			items: {
+				src: cloned_widget,
+			},
+			type: 'inline'
+		});
+	});
+	
+	// LATERAL - Convertir a galería las referencias
+	jQuery('.widget_ref').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		mainClass: 'mfp-img-mobile',
+		tClose: 'Cerrar (Esc)',
+		tLoading: 'Cargando...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1],
+			tPrev: 'Anterior (tecla ←)',
+			tNext: 'Siguiente (tecla →)',
+			tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
+		},
+		image: {
+			tError: 'La imagen no pudo ser cargada.',
+			titleSrc: function(item) {
+				return item.el.siblings('figcaption').html();
+			},
+		},
+		ajax: {
+			tError: 'La solicitud falló.'
+		}
+	});
+
+	// FOOTER - Copyright
+	var yy = new Date().getFullYear();
+	jQuery('<div class="bottom_logos"><a href="https://somos.grupodatco.com"><img src="/wp-content/uploads/gd-ima_h-one_color.svg" width="191" height="64" alt="40 años de Grupo Datco" /></a><br />© '+yy+' &bull; Somos Grupo Datco<br /><a href="https://www.linkedin.com/company/grupodatco" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Grupo Datco</a> &middot; <a href="https://www.linkedin.com/showcase/baitcon-gd" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Baitcon</a> &middot; <a href="https://www.linkedin.com/showcase/silicanetworks" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Silica Networks</a> &middot; <a href="https://twitter.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Grupo Datco</a> &middot; <a href="https://twitter.com/baitcon_gd" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Baitcon</a> &middot; <a href="https://www.youtube.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Grupo Datco</a></div>').appendTo('#copyright');
+
 	// EVENTOS - Agregar enlace a eventos del mes en menú y calendario
 	var yy = new Date().getFullYear();
 	var mm = ('0'+(new Date().getMonth()+1)).slice(-2);
@@ -504,49 +547,15 @@ jQuery(document).ready(function() {
 	// VIDEOS - Cambiar texto "load more"
 	jQuery('.yotu-pagination-more').text('Ver más');
 
-	// Desplegables
-	jQuery('#custom_html-11 .toggle-box').show();
-	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	jQuery('#custom_html-24 .toggle-box').show();
-	jQuery('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	jQuery(document).on('click','.toggle',function(e) {
-		jQuery(this).next('.toggle-box').slideToggle();
-		if ( jQuery(this).find('i').hasClass('fa-plus-square') ) {
-			jQuery(this).find('i').removeClass('fa-plus-square').addClass('fa-minus-square');
-		}
-		else if ( jQuery(this).find('i').hasClass('fa-minus-square') ) {
-			jQuery(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
-		}
-	});
-
-	// LATERAL - Convertir a galería las referencias
-	jQuery('.widget_ref').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		mainClass: 'mfp-img-mobile',
-		tClose: 'Cerrar (Esc)',
-		tLoading: 'Cargando...',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1],
-			tPrev: 'Anterior (tecla ←)',
-			tNext: 'Siguiente (tecla →)',
-			tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
-		},
-		image: {
-			tError: 'La imagen no pudo ser cargada.',
-			titleSrc: function(item) {
-				return item.el.siblings('figcaption').html();
-			},
-		},
-		ajax: {
-			tError: 'La solicitud falló.'
-		}
-	});
-
-	// FOOTER - Copyright
-	var yy = new Date().getFullYear();
-	jQuery('<div class="bottom_logos"><a href="https://somos.grupodatco.com"><img src="/wp-content/uploads/gd-ima_h-one_color.svg" width="191" height="64" alt="40 años de Grupo Datco" /></a><br />© '+yy+' &bull; Somos Grupo Datco<br /><a href="https://www.linkedin.com/company/grupodatco" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Grupo Datco</a> &middot; <a href="https://www.linkedin.com/showcase/baitcon-gd" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Baitcon</a> &middot; <a href="https://www.linkedin.com/showcase/silicanetworks" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Silica Networks</a> &middot; <a href="https://twitter.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Grupo Datco</a> &middot; <a href="https://twitter.com/baitcon_gd" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Baitcon</a> &middot; <a href="https://www.youtube.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Grupo Datco</a></div>').appendTo('#copyright');
+	// BÚSQUEDAS INTERNAS - Agregar título, UN y botón CTA
+	if ( jQuery('article').hasClass('category-busqueda-interna') ) {
+		var mail_href = '';
+		jQuery('#post-content>table tr:last td:last a').each(function(i) {
+			mail_rrhh = jQuery(this).attr('href')+',';
+		});
+		mail_rrhh = mail_rrhh.substring(0,mail_rrhh.length-1);
+		console.log(mail_rrhh);
+		jQuery('<div class="buttons"><a href="mailto:'+mail_rrhh+'?subject=Título" target="_blank" class=a"sc-button blue small"><a >Envianos tu CV</a></div>').insertAfter('#post-content>table');
+	}
 
 });
