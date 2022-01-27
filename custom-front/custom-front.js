@@ -559,7 +559,7 @@ jQuery(document).ready(function() {
 		console.log(job_unit);
 		var mails_rrhh = '';
 		jQuery('#post-content>figure>table tr:last td:last a').each(function(i) {
-			mails_rrhh += jQuery(this).attr('href').substring(jQuery(this).attr('href').indexOf('mailto:')+7,jQuery(this).attr('href').length)+',';
+			mails_rrhh += jQuery(this).attr('href').substring(jQuery(this).attr('href').indexOf('mailto:')+7,jQuery(this).attr('href').length)+';';
 		});
 		console.log(mails_rrhh);
 		mails_rrhh = mails_rrhh.substring(0,mails_rrhh.length-1);
