@@ -358,7 +358,6 @@ body.page h1+.gp-post-meta+#post-content{margin-top:1em}
 body.home h1+.gp-post-meta+#post-content{margin-top:0}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .post-loop .gp-meta-cats a{line-height:1.25;font-weight:400}
-body.archive .post-loop .gp-meta-cats a[href$='/categoria/busquedas-internas/']{float:left}
 .gp-meta-cats a:hover,article .eo-event-meta>li a[rel='tag']:hover{color:#F0582B!important}
 .gp-meta-date,.eo-event-date{display:block;margin:0;line-height:1.25;font-style:normal;font-weight:400;color:#333333}
 .eo-event-date{font-size:.9em;font-weight:700}
@@ -1068,6 +1067,8 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content [class*='busquedas'] table tr:first-child td:last-child {border-top-right-radius:12px!important}
 .button-busquedas{display:inline-block;text-align:center;font-size:1.3em;margin:0 auto;background:#0E316E!important;color:#FFFFFF}
 .button-busquedas a{color:#FFFFFF!important}
+body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/']{float:left}
+body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/finalizada/']{color:#666666}
 
 /* Casos */
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
