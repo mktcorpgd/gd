@@ -548,6 +548,7 @@ jQuery(document).ready(function() {
 	jQuery('.yotu-pagination-more').text('Ver más');
 
 	// BÚSQUEDAS INTERNAS - Agregar título, UN y botón CTA
+	console.log(jQuery('article').hasClass('category-busqueda-interna'));
 	if ( jQuery('article').hasClass('category-busqueda-interna') ) {
 		var mail_href = '';
 		jQuery('#post-content>table tr:last td:last a').each(function(i) {
