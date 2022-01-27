@@ -554,17 +554,16 @@ jQuery(document).ready(function() {
 		jQuery('#post-content>figure>table tr:first td:last').text(job_role);
 		var job_unit = post_title.substring(post_title.indexOf('(')+1,post_title.indexOf(')'))
 		jQuery('#post-content>figure>table tr:nth-child(2) td:last').text(job_unit);
-		var mail_rrhh = '';
 		console.log(post_title);
 		console.log(job_role);
 		console.log(job_unit);
+		var mails_rrhh = '';
 		jQuery('#post-content>figure>table tr:last td:last a').each(function(i) {
-			mail_rrhh = jQuery(this).attr('href');
-			mail_rrhh = mail_rrhh.substring(mail_rrhh.indexOf('mailto:')+7,mail_rrhh.length)+',';
+			mails_rrhh += jQuery(this).attr('href').substring(jQuery(this).attr('href').indexOf('mailto:')+7,jQuery(this).attr('href').length)+',';
 		});
-		console.log(mail_rrhh);
-		mail_rrhh = mail_rrhh.substring(0,mail_rrhh.length-1);
-		jQuery('<div class="buttons"><a href="mailto:'+mail_rrhh+'?subject='+post_title+'" target="_blank" class=a"sc-button blue small">Envianos tu CV</a></div>').insertAfter('#post-content>figure>table');
+		console.log(mails_rrhh);
+		mails_rrhh = mails_rrhh.substring(0,mails_rrhh.length-1);
+		jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class=a"sc-button blue small">Envianos tu CV</a></div>').insertAfter('#post-content>figure>table');
 	}
 
 });
