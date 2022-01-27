@@ -1068,7 +1068,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 .button-busquedas{display:inline-block;text-align:center;font-size:1.3em;margin:0 auto;background:#0E316E!important;color:#FFFFFF}
 .button-busquedas a{color:#FFFFFF!important}
 body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/']{float:left}
-body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/finalizada/']{color:#666666}
+body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/finalizada/']{color:#999999}
 
 /* Casos */
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
