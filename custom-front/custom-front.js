@@ -558,6 +558,9 @@ jQuery(document).ready(function() {
 		var arr_mails_rrhh = mails_rrhh.split(';');
 		jQuery.each( arr_mails_rrhh, function(i) {
 			console.log(arr_mails_rrhh[i]);
+			var nom_rrhh = arr_mails_rrhh[i].substring(0,arr_mails_rrhh[i].indexOf('.'));
+			var ape_rrhh = arr_mails_rrhh[i].substring(arr_mails_rrhh[i].indexOf('.')+1,arr_mails_rrhh[i].indexOf('@'));
+			jQuery('#post-content>figure>table tr:last td:last').append('<div class="rrhh'+i+'"> <span class="nom_rrhh">'+nom_rrhh+'</span> <span class="ape_rrhh">'+ape_rrhh+'</span></div>');
 		});
 		console.log('mails_rrhh='+mails_rrhh);
 		mails_rrhh = mails_rrhh.substring(0,mails_rrhh.length-1);
