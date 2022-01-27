@@ -30,23 +30,6 @@ jQuery.fn.capitalize = function(e) {
 	return this;
 };
 
-
-// Desplegables
-jQuery('#custom_html-11 .toggle-box').show();
-jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-jQuery('#custom_html-24 .toggle-box').show();
-jQuery('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-jQuery(document).on('click','.toggle',function(e) {
-	jQuery(this).next('.toggle-box').slideToggle();
-	if ( jQuery(this).find('i').hasClass('fa-plus-square') ) {
-		jQuery(this).find('i').removeClass('fa-plus-square').addClass('fa-minus-square');
-	}
-	else if ( jQuery(this).find('i').hasClass('fa-minus-square') ) {
-		jQuery(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
-	}
-});
-
-
 // Código personalizado una vez enviado el formulario
 jQuery(document).on('wpcf7submit',function(e) {
 	jQuery('.wpcf7-form.sending .wpcf7-submit').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
@@ -57,21 +40,21 @@ jQuery(document).on('wpcf7submit',function(e) {
 
 jQuery(document).ready(function() {
 
-	function podiumAnimate() {
-		jQuery('.bronze .podium').animate({
-			'height': '20px'
-		},1500);
-		jQuery('.gold .podium').animate({
-			'height': '120px'
-		},1500);
-		jQuery('.silver .podium').animate({
-			'height': '60px'
-		},1500);
-		jQuery('.competition-podium .name').delay(1000).animate({
-			'opacity': '1'
-		},500);
+	// HOME - Si tiene más de 1700 px, colapsar contenido de pestañas
+	if ( jQuery('body').hasClass('home') ) {
+		jQuery(document).on('click','.ui-tabs-tab',function(e) {
+			jQuery('.sc-tab-panel[aria-hidden=true] .gp-blog-wrapper').removeClass('more-content');
+			if ( jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').height() > 1700 ) {
+				jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').addClass('more-content');
+				jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper+.sc-button.large').addClass('expand');
+			}
+		});
+		jQuery(document).on('click','.sc-button.large.expand',function(e) {
+			e.preventDefault();
+			jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').removeClass('more-content');
+			jQuery(this).removeClass('expand');
+		});
 	}
-	setTimeout(podiumAnimate,1000);
 
 	// FIX WP 5.5 - Prevenir scrollup con toggles
 	jQuery('h3.toggle a').click(function(e) {
@@ -87,146 +70,6 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		jQuery(this).siblings('ul').slideToggle('fast');
 	});
-
-	// 40 GD:
-
-	// Trivias: mover título de puntaje:
-	jQuery('.ays_score').each(function(i) {
-		jQuery(this).insertBefore('.ays_score_message:eq('+i+')');
-	});
-
-	if ( jQuery('body').hasClass('page-id-31537') ) {
-
-		jQuery('.open-popup-link').magnificPopup({
-			type:'inline',
-			midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
-		  });
-		  
-		// Mostrar contenidos por ajax:
-		jQuery('.slick-slide').each(function(i) {
-			var href_link = jQuery('.content-title',this).find('a').attr('href');
-			if ( (jQuery(this).height() > 150 && jQuery(window).width() > 960) || (jQuery(this).height() > 140 && jQuery(window).width() < 960) ) {
-				jQuery(this).addClass('more-info');
-				jQuery('.content-details',this).prepend('<a class="masklink" href="'+href_link+'"></a>');
-			}
-		});
-		jQuery('.more-info .content-details a,.post-loop a').magnificPopup({
-			type: 'ajax',
-			ajax: {
-				cursor: 'mfp-ajax-cur',
-				tError: 'El contenido no pudo ser cargado.'
-			},
-			tClose: 'Cerrar (Esc)',
-			tLoading: 'Cargando...',
-			callbacks: {
-				parseAjax: function(mfpResponse) {
-					mfpResponse.data = jQuery(mfpResponse.data).find('#content');
-				},
-				ajaxContentAdded: function() {
-					if ( jQuery('#comment').length ) {
-						jQuery('#comment').attr({
-							'placeholder':'Escribir un comentario...'
-						});
-					}
-				}
-			}
-		});
-		jQuery('#post-content a.sc-button.small[href*="/categoria"]').magnificPopup({
-			type: 'ajax',
-			ajax: {
-				cursor: 'mfp-ajax-cur',
-				tError: 'El contenido no pudo ser cargado.'
-			},
-			tClose: 'Cerrar (Esc)',
-			tLoading: 'Cargando...',
-			callbacks: {
-				parseAjax: function(mfpResponse) {
-					mfpResponse.data = jQuery(mfpResponse.data).find('#content .padder');
-				}
-			}
-		});
-
-		// Abrir contador
-		/*if ( jQuery.cookie('suprise-viewed') != 'yes' ) {
-			jQuery('#open-surprise').magnificPopup({
-				items: {
-					src: '.container_countdown',
-					type: 'inline'
-				},
-				mainClass: 'mfp-fade',
-				zoom: {
-					enabled: true,
-					duration: 3000,
-					easing: 'ease-in-out',
-				},
-				callbacks: {
-					open: function() {
-						jQuery.cookie('suprise-viewed','yes',{expires:7});
-					},
-					close: function() {
-						jQuery('.container_countdown').removeClass('mfp-hide');
-					}					
-				}
-			});
-			jQuery(document).scroll(function() {
-				var y = jQuery(this).scrollTop();
-				if ( y > 800 && jQuery('body').hasClass('complete') ) {
-					if ( jQuery.cookie('suprise-viewed') != 'yes' ) {
-						jQuery('#open-surprise').trigger('click');
-					}
-				}
-			});
-		}
-		else {
-			jQuery('.container_countdown').removeClass('mfp-hide');
-		}*/
-		 
-		// Ir hacia parte de la página
-		jQuery('a[href^=#goto]').on('click',function(e) {
-			var goto_selector = jQuery(this).attr('href').substring(5,jQuery(this).attr('href').length);
-			jQuery('html,body').animate({
-				scrollTop: jQuery('#'+goto_selector).offset().top-100},
-				'slow',
-				'easeInBounce'
-			);
-			e.preventDefault();
-		});
-
-		// Mover menú personalizado
-		jQuery('#menu40gd').insertAfter('#header');
-		
-		if ( window.location.href.indexOf('#open-') > -1 ) {
-			var href_link = window.location.href;
-			href_link = href_link.substring(href_link.indexOf('#open-')+6,href_link.length);
-			href_link = href_link.split('_');
-			jQuery(window).load(function(){
-				jQuery.magnificPopup.open({
-					items: {
-						src: 'https://somos.grupodatco.com/'+href_link[0]+'/'+href_link[1],
-						type: 'ajax'
-					},
-					ajax: {
-						cursor: 'mfp-ajax-cur',
-						tError: 'El contenido no pudo ser cargado.'
-					},
-					tClose: 'Cerrar (Esc)',
-					tLoading: 'Cargando...',
-					callbacks: {
-						parseAjax: function(mfpResponse) {
-							mfpResponse.data = jQuery(mfpResponse.data).find('#content');
-						},
-						ajaxContentAdded: function() {
-							if ( jQuery('#comment').length ) {
-								jQuery('#comment').attr({
-									'placeholder':'Escribir un comentario...'
-								});
-							}
-						}
-					}
-				});
-			});
-		}
-	}
 
 	// GOOGLE FORMS
 	if ( jQuery('iframe[src*="docs.google.com/forms"]').length ) {
@@ -287,7 +130,7 @@ jQuery(document).ready(function() {
 		}
 	});
   
-	// GENERAL - Si hay cumpleaños:}
+	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
 		var bday_img = Math.floor(Math.random()*1)+1;
 		jQuery('.bdays_today img').attr('src','/wp-content/uploads/birthday-gd'+bday_img+'.gif');
@@ -318,80 +161,7 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});*/
 
-	// CONTENIDOS - Agregar botones de interacción si es un organigrama
-	if ( jQuery('.dragscroll').length ) {
-		jQuery('<div class="zoom-org"><div class="buttons"><button class="sc-button" id="in"><i class="fas fa-search-plus"></i>Acercar</button><button class="sc-button" id="out"><i class="fas fa-search-minus"></i>Alejar</button><button class="sc-button" id="fullscreen"><i class="fas fa-expand"></i><span>Pantalla completa</span></button></div></div>').insertBefore('.dragscroll');
-		jQuery('#in').click(function(e) {
-			var str = jQuery('.dragscroll .jOrgChart').css('transform');
-			var x = str.split(',');
-			var scale = x[0];
-			scale = scale.substring(scale.indexOf('(')+1,scale.length);
-			var scalein = parseFloat(scale)+0.1;
-			jQuery('.dragscroll .jOrgChart').css('transform','scale('+scalein+')');
-		});
-		jQuery('#out').click(function(e) {
-			var str = jQuery('.dragscroll .jOrgChart').css('transform');
-			var x = str.split(',');
-			var scale = x[0];
-			scale = scale.substring(scale.indexOf('(')+1,scale.length);
-			var scaleout = parseFloat(scale)-0.1;
-			if ( scaleout > .1 ) {
-				jQuery('.dragscroll .jOrgChart').css('transform','scale('+scaleout+')');
-			}
-		});
-		jQuery('#fullscreen').click(function(e) {
-			if (
-				document.fullscreenElement ||
-				document.webkitFullscreenElement ||
-				document.mozFullScreenElement ||
-				document.msFullscreenElement
-			) {
-				jQuery('#fullscreen .fas').attr('class','fas fa-expand');
-				jQuery('#fullscreen span').text('Pantalla completa');
-				jQuery('#post-content').removeClass('fullscreen');
-				if ( document.exitFullscreen ) {
-					document.exitFullscreen();
-				} else if ( document.mozCancelFullScreen ) {
-					document.mozCancelFullScreen();
-				} else if ( document.webkitExitFullscreen ) {
-					document.webkitExitFullscreen();
-				} else if ( document.msExitFullscreen ) {
-					document.msExitFullscreen();
-				}
-			}
-			else {
-				element = jQuery('#post-content').get(0);
-				jQuery('#fullscreen .fas').attr('class','fas fa-compress');
-				jQuery('#fullscreen span').text('Salir de pantalla completa');
-				jQuery('#post-content').addClass('fullscreen');
-				if ( element.requestFullscreen ) {
-					element.requestFullscreen();
-				} else if ( element.mozRequestFullScreen) {
-					element.mozRequestFullScreen();
-				} else if ( element.webkitRequestFullscreen ) {
-					element.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
-				} else if ( element.msRequestFullscreen ) {
-					element.msRequestFullscreen();
-				}
-			}
-		});
-		document.addEventListener('fullscreenchange', exitHandler);
-		document.addEventListener('webkitfullscreenchange', exitHandler);
-		document.addEventListener('mozfullscreenchange', exitHandler);
-		document.addEventListener('MSFullscreenChange', exitHandler);
-		function exitHandler() {
-			if ( !document.fullscreenElement && !document.webkitIsFullScreen && !document.mozFullScreen && !document.msFullscreenElement ) {
-				jQuery('#fullscreen .fas').attr('class','fas fa-expand');
-				jQuery('#fullscreen span').text('Pantalla completa');
-				jQuery('#post-content').removeClass('fullscreen');
-			}
-		}
-		jQuery('.org_nolink').click(function(e) {
-			e.preventDefault();
-		});
-		var scrollPosition = (jQuery('#post-content').width()/2 + jQuery('.dragscroll').width())/2;
-		jQuery('.dragscroll').scrollLeft(scrollPosition);
-	}
+
 
 	// CONTENIDOS - Ocultar párrafos con espacios en blanco
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
@@ -675,22 +445,6 @@ jQuery(document).ready(function() {
 		});
 	});
 
-	// HOME - Si tiene más de 1700 px, colapsar contenido de pestañas
-	if ( jQuery('body').hasClass('home') ) {
-		jQuery(document).on('click','.ui-tabs-tab',function(e) {
-			jQuery('.sc-tab-panel[aria-hidden=true] .gp-blog-wrapper').removeClass('more-content');
-			if ( jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').height() > 1700 ) {
-				jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').addClass('more-content');
-				jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper+.sc-button.large').addClass('expand');
-			}
-		});
-		jQuery(document).on('click','.sc-button.large.expand',function(e) {
-			e.preventDefault();
-			jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').removeClass('more-content');
-			jQuery(this).removeClass('expand');
-		});
-	}
-
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/categoria/certificaciones/" class="sc-button blue small">Ver más certificaciones</a>').insertAfter('.sidebar .sociales.certificaciones');
 	jQuery('<a href="/categoria/ingresos/" class="sc-button blue small">Ver más ingresos</a>').insertAfter('.sidebar .sociales.ingresos');
@@ -747,10 +501,23 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});
 
-	
 	// VIDEOS - Cambiar texto "load more"
 	jQuery('.yotu-pagination-more').text('Ver más');
 
+	// Desplegables
+	jQuery('#custom_html-11 .toggle-box').show();
+	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery('#custom_html-24 .toggle-box').show();
+	jQuery('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery(document).on('click','.toggle',function(e) {
+		jQuery(this).next('.toggle-box').slideToggle();
+		if ( jQuery(this).find('i').hasClass('fa-plus-square') ) {
+			jQuery(this).find('i').removeClass('fa-plus-square').addClass('fa-minus-square');
+		}
+		else if ( jQuery(this).find('i').hasClass('fa-minus-square') ) {
+			jQuery(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
+		}
+	});
 
 	// LATERAL - Convertir a galería las referencias
 	jQuery('.widget_ref').magnificPopup({
@@ -777,7 +544,6 @@ jQuery(document).ready(function() {
 			tError: 'La solicitud falló.'
 		}
 	});
-
 
 	// FOOTER - Copyright
 	var yy = new Date().getFullYear();
