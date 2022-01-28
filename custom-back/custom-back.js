@@ -31,7 +31,7 @@ jQuery(document).ready(function(){
 	jQuery('#password td').append('<p class="description"><strong>Esta contraseña no reemplaza la de red corporativa.</strong> <a href="https://somos.grupodatco.com/it/correo-electronico/cambiar-la-contrasena-corporativa/">Conocé cómo cambiarla</a>.</p>');
 
 	// USUARIOS-Perfil - Deshabilitar ciertos campos y mover otros
-	jQuery('body.profile-php.no-customize-support input:not([name=gdBIRTH_mc]):not([name=gdPHONE_mc])').attr('disabled','disabled');
+	jQuery('body.profile-php.no-customize-support :input:not([name=gdBIRTH_mc]):not([name=gdPHONE_mc])').attr('disabled','disabled');
 	jQuery('.user-job-title-wrap').insertBefore('.user-unit-wrap');
 	
 	// USUARIOS - Mostrar campos para organigrama si está el checkbox marcado
