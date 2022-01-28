@@ -572,7 +572,7 @@ jQuery(document).ready(function() {
 			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
 		});
 		if ( jQuery('article').hasClass('category-activa') ) {
-			jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Envianos tu CV</a><br /><em style="font-size:.8em">En caso de que tu perfil aplique para la búsqueda, nos pondremos en contacto con vos.</em><br b/><a href="/categoria/busquedas-internas/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
+			jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Envianos tu CV</a><div>En caso de que tu perfil aplique para la búsqueda, nos pondremos en contacto con vos.</em></div><a href="/categoria/busquedas-internas/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
 		}
 		else {
 			jQuery('<div class="buttons"><a href="/categoria/busquedas-internas/activa/" class="sc-button">Ver búsquedas activas</a></div>').insertAfter('#post-content table');
