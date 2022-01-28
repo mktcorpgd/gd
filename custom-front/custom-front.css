@@ -20,6 +20,7 @@ body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-s
 textarea{height:90px}
 a{color:#F0582B}
 a:hover{color:#1F4483}
+#content a:hover{text-decoration:underline}
 input,textarea,input[type='password'],#content .widget[class*='widget_bp_'] h3{background-color:#F6F6F6;border-color:#F6F6F6}
 input[type='submit'],select,textarea,button{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important;outline:none!important}
 input[type='text']{-webkit-appearance:none}
@@ -1073,7 +1074,8 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/']{float:left}
 body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/finalizada/']{color:#999999}
 #content [class*='busquedas'] .buttons>.sc-button~a{font-size:.9em;line-height:2}
-.sc-button~div em{font-size:.8em}
+#content [class*='busquedas'] .buttons>.sc-button~div{margin-bottom:.5em}
+#content [class*='busquedas'] .buttons>.sc-button~div em{font-size:.8em}
 
 /* Casos */
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
