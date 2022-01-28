@@ -547,16 +547,16 @@ jQuery(document).ready(function() {
 	// VIDEOS - Cambiar texto "load more"
 	jQuery('.yotu-pagination-more').text('Ver más');
 
-	// BUSQUEDAS INTERNAS - Cambio de título en página de archivo
+	// BUSQUEDAS LABORALES - Cambio de título en página de archivo
 	if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2797') ) {
-		jQuery('.page-title').text('Búsquedas internas activas');
+		jQuery('.page-title').text('Búsquedas laborales activas');
 	}
 	else if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2798') ) {
-		jQuery('.page-title').text('Búsquedas internas finalizadas');
+		jQuery('.page-title').text('Búsquedas laborales finalizadas');
 	}
 
-	// BÚSQUEDAS INTERNAS - Agregar título, UN y botón CTA
-	if ( jQuery('article').hasClass('category-busquedas-internas') ) {
+	// BÚSQUEDAS LABORALES - Agregar título, UN y botón CTA
+	if ( jQuery('article').hasClass('category-busquedas-laborales') ) {
 		var post_title = jQuery('.page-title').text();
 		/*var job_role = post_title.substring(0,post_title.indexOf('(')-1);
 		jQuery('#post-content table tr:first td:last').text(job_role);
@@ -572,10 +572,10 @@ jQuery(document).ready(function() {
 			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
 		});
 		if ( jQuery('article').hasClass('category-activa') ) {
-			jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Envianos tu CV</a><div><em>En caso de que tu perfil aplique para la búsqueda, nos pondremos en contacto con vos.</em></div><a href="/categoria/busquedas-internas/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
+			jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Enviar / Referir CV</a><div><em>En caso de que tu perfil aplique para la búsqueda, nos pondremos en contacto con vos.</em></div><a href="/categoria/busquedas-laborales/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
 		}
 		else {
-			jQuery('<div class="buttons"><a href="/categoria/busquedas-internas/activa/" class="sc-button">Ver búsquedas activas</a></div>').insertAfter('#post-content table');
+			jQuery('<div class="buttons"><a href="/categoria/busquedas-laborales/activa/" class="sc-button">Ver búsquedas activas</a></div>').insertAfter('#post-content table');
 		}
 	}
 
