@@ -609,7 +609,7 @@ body.single .gp-post-meta{display:inline-block}
 .padder.content-post-thumbnail{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 .post-thumbnail.single-thumbnail{width:100%;border-top-left-radius:12px;border-top-right-radius:12px;background:#AAAAAA!important;text-align:center;opacity:1;overflow:hidden}
 body.single #content p:last-child{padding-bottom:10px}
-#content-wrapper .buttons,.mfp-content .buttons{clear:both;margin:.5em 0 1em!important;text-align:center;color:#CCCCCC!important}
+#content-wrapper .buttons,.mfp-content .buttons{clear:both;margin:.5em 0 1em!important;text-align:center}
 #content-wrapper table+.buttons{margin:1em 0 0!important}
 body.single #content article.category-certificaciones .post-thumbnail img{width:auto!important;border:2px solid #DDDDDD!important;border-radius:12px!important}
 
@@ -1033,6 +1033,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 .gp-pagination ul.page-numbers li a:hover{text-decoration:none!important}
 
 /* Tablas */
+.wp-block-table{overflow:hidden}
 #content table{margin-bottom:0;padding:0!important;border-collapse:separate}
 #content table th,#content table td{line-height:1.5}
 #content table th{border-top:1px solid rgba(0,0,0,.2)!important;border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important;color:#FFFFFF;background:#0E316E}
