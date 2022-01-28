@@ -571,7 +571,6 @@ jQuery(document).ready(function() {
 			var ape_rrhh = arr_mails_rrhh[i].substring(arr_mails_rrhh[i].indexOf('.')+1,arr_mails_rrhh[i].indexOf('@'));
 			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
 		});
-		mails_rrhh = mails_rrhh.substring(0,mails_rrhh.length-1);
 		if ( jQuery('article').hasClass('category-activa') ) {
 			jQuery('<div class="buttons"><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Envianos tu CV</a><br /><a href="/categoria/busquedas-internas/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
 		}
