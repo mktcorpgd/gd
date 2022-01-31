@@ -180,8 +180,8 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail{float:none}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{display:grid}
 .gp-blog-wrapper.gp-blog-columns-2 .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text,body.search .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text{border-top:2px solid #CCCCCC}
-article.category-busquedas-internas #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:capitalize}
-article.category-busquedas-internas #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
+article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:capitalize}
+article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
 /* Regalos
 @keyframes highlight_bkg{from{background:#FFFFFF}to{background:#F1D300}}
@@ -521,7 +521,7 @@ ul#lcp_instance_0.busquedas {border:none!important;}
 #custom_html-21,#custom_html-3{text-align:center}
 #custom_html-11, #custom_html-24{padding-top:12px!important}
 #custom_html-11 > div > h3{font-size:1.1em!important}
-#custom_html-24 > div > h3{font-size:1.3em!important;font-weight:500!important;color:#F0582B!important;}
+#custom_html-24 > div > h3{font-size:1.2em!important;font-weight:500!important;color:#F0582B!important;}
 #custom_html-11 > div > h3 > i, #custom_html-24 > div > h3 > i{width:20px}
 #custom_html-11 > div > h3 > i.fa-minus-square:before, #custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
 #custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'!important}
@@ -1071,8 +1071,8 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content [class*='busquedas'] table tr:first-child td:last-child {border-top-right-radius:12px!important}
 .button-busquedas{display:inline-block;text-align:center;font-size:1.3em;margin:0 auto;background:#0E316E!important;color:#FFFFFF}
 .button-busquedas a{color:#FFFFFF!important}
-body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/']{float:left}
-body.archive .post-loop .gp-meta-cats a[href$='/busquedas-internas/finalizada/']{color:#999999}
+body.archive .post-loop .gp-meta-cats a[href$='/busquedas-laborales/']{float:left}
+body.archive .post-loop .gp-meta-cats a[href$='/busquedas-laborales/finalizada/']{color:#999999}
 #content [class*='busquedas'] .buttons>.sc-button~a{font-size:.9em;line-height:2}
 #content [class*='busquedas'] .buttons>.sc-button~div{margin-bottom:.5em}
 #content [class*='busquedas'] .buttons>.sc-button~div em{font-size:.8em}
