@@ -572,7 +572,7 @@ jQuery(document).ready(function() {
 			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
 		});
 		if ( jQuery('article').hasClass('category-activa') ) {
-			jQuery('<div class="buttons"><div class="info"><em>Podés postularte directamente enviándonos tu CV o referir a un amigo/a. En caso de que el perfil aplique para la búsqueda, nos pondremos en contacto.</em></div><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Enviar / Referir CV</a><br /><a href="/categoria/busquedas-laborales/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
+			jQuery('<div class="buttons"><div class="info"><em>Podés postularte directamente enviándonos tu CV o referir a un amigo/a.<br />En caso de que el perfil aplique para la búsqueda, nos pondremos en contacto.</em></div><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Enviar CV</a><br /><a href="/categoria/busquedas-laborales/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
 		}
 		else {
 			jQuery('<div class="buttons"><a href="/categoria/busquedas-laborales/activa/" class="sc-button">Ver búsquedas activas</a></div>').insertAfter('#post-content table');
