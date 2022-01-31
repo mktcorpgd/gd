@@ -842,10 +842,10 @@ body.page-id-31537 #ghostpool_post_wrapper_1 .post-thumbnail.wrap,body.page-id-3
 body.page-id-31537 #ghostpool_post_wrapper_1 .post-text,body.page-id-31537 #ghostpool_post_wrapper_4 .post-text{float:left;padding:.5em .8em!important;border-top:1px solid #CCCCCC;border-left:none;background:#FFFFFF}
 body.page-id-31537 #post-content .sc-tab-panel{float:left}
 body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-cats,body.single article.category-40gd-en-primera-persona h1+.gp-entry-meta .gp-meta-cats{display:block;margin-left:0;padding-left:0;border-left:none!important}
-#tab-Los80 #photos-17 .gg-link .grid-gallery-caption{margin:0}
-#tab-Los80 #photos-17 .gg-link:not:(:first-child) .grid-gallery-caption{border-radius:0}
-#tab-Los80 #photos-17 .gg-link:last-child){border-top-right-radius:12px}
-#tab-Los80 #photos-17 .gg-link:last-child){border-bottom-right-radius:12px}
+#tab-Los80 #photos-17 .gg-link:first-child{border-top-left-radius:12px}
+#tab-Los80 #photos-17 .gg-link:first-child{border-bottom-left-radius:12px}
+#tab-Los80 #photos-17 .gg-link:last-child{border-top-right-radius:12px}
+#tab-Los80 #photos-17 .gg-link:last-child{border-bottom-right-radius:12px}
 
 /* Trivias
 [id^="ays_finish_quiz_"] div.step div.ays-abs-fs{width:100%}
