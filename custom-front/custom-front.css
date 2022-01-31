@@ -842,7 +842,7 @@ body.page-id-31537 #ghostpool_post_wrapper_1 .post-thumbnail.wrap,body.page-id-3
 body.page-id-31537 #ghostpool_post_wrapper_1 .post-text,body.page-id-31537 #ghostpool_post_wrapper_4 .post-text{float:left;padding:.5em .8em!important;border-top:1px solid #CCCCCC;border-left:none;background:#FFFFFF}
 body.page-id-31537 #post-content .sc-tab-panel{float:left}
 body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-cats,body.single article.category-40gd-en-primera-persona h1+.gp-entry-meta .gp-meta-cats{display:block;margin-left:0;padding-left:0;border-left:none!important}
-#tab-Los80{width:1900px;height:250px;overflow-x:auto}
+#tab-Los80{width:1900px;height:250px;overflow-y:hidden;overflow-x:auto}
 #tab-Los80 img{float:left}
 
 /* Trivias
@@ -1109,7 +1109,7 @@ body.page-id-26272 #content .post-loop .post-text p{font-size:.9em!important}
 body.page-id-26272 .gp-blog-wrapper:not([class*='gp-blog-columns']) section{border:2px solid #DDDDDD!important}
 
 /* Pestañas */
-#post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
+#post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5}
 #post-content .sc-tab-panel>p{margin-bottom:0!important;padding-bottom:0!important}
 .sc-tab-panel{padding:0;background:none}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#666666;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
