@@ -31,10 +31,9 @@ body.page-id-31537 .yotu-videos>ul{margin-bottom:0!important}
 body.page-id-31537 #content .yotu-videos .yotu-video h3{font-size:1.1em!important}
 body.page-id-31537 .yotu-column-3 li{padding-bottom:0!important}
 body.page-id-31537 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0!important}
-body.page-id-31537 .wp-block-column #timelinegd{margin-top:0}
 body.page-id-31537 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0!important}
 body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-columns:not(.no-bkg) .wp-block-column{margin:1em .5em 0;padding:0 1em .5em;border-radius:24px}
-body.page-id-31537 .wp-block-column #timelinegd{padding-top:.9em}
+body.page-id-31537 .wp-block-column #timelinegd{margin-top:0;padding-top:.9em}
 body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-column .wp-block-column:not(.no-bkg){background:rgba(255,255,255,.8)}
 body.page-id-31537 .party ul{margin-bottom:0!important}
 body.page-id-31537 .wp-block-columns.no-bkg .wp-block-column{margin:0 .5em;padding:0;background:none}
@@ -89,7 +88,6 @@ body.page-id-31537 #post-content>ul{margin-top:1em!important;margin-bottom:2em!i
 .grid-gallery-caption figcaption .gg-image-caption{display:none}
 .grid-gallery-caption figcaption .grid-gallery-figcaption-wrap:after{display:grid;padding:.4em .8em;content:'Mandanos el epígrafe de esta foto a gd40@datco.net';position:relative}*/
 body.page-id-31537 #ghostpool_post_wrapper_1 .post-thumbnail.wrap,body.page-id-31537 #ghostpool_post_wrapper_4 .post-thumbnail.wrap,body.page-id-31537 #ghostpool_post_wrapper_4 .post-thumbnail.wrap{width:100%;max-width:100%}  
-body.page-id-31537 #ghostpool_post_wrapper_1 .post-text,body.page-id-31537 #ghostpool_post_wrapper_4 .post-text{float:left;padding:.5em .8em!important;border-top:1px solid #CCCCCC;border-left:none;background:#FFFFFF}
 body.page-id-31537 #post-content .sc-tab-panel{float:left;margin-bottom:1em}
 body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-cats,body.single article.category-40gd-en-primera-persona h1+.gp-entry-meta .gp-meta-cats{display:block;margin-left:0;padding-left:0;border-left:none!important}
 body.page-id-31537 .wp-block-separator{background:none}
