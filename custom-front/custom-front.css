@@ -1014,7 +1014,7 @@ body.page-id-26272 #content .post-loop .post-text p{font-size:.9em!important}
 body.page-id-26272 .gp-blog-wrapper:not([class*='gp-blog-columns']) section{border:2px solid #DDDDDD!important}
 
 /* Pestañas */
-#post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5}
+#post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
 #post-content .sc-tab-panel>p{margin-bottom:0!important;padding-bottom:0!important}
 .sc-tab-panel{padding:0;background:none}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#666666;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
