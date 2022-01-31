@@ -773,7 +773,8 @@ body.page-id-31537 .yotuwp.yotu-playlist{padding-bottom:10px}
 body.page-id-31537 .youtube .wp-block-column .yotuwp.yotu-playlist{padding-bottom:0}
 body.page-id-31537 .youtube .wp-block-column iframe{margin-top:0!important;border-radius:24px!important}
 body.page-id-31537 .youtube .yotu-wrapper-player,body.page-id-31537 .youtube .yotu-wrapper-player iframe{margin:0!important;max-height:360px}
-body.page-id-31537 .yotu-button-prs{padding:.4em .9em!important;font-size:.9em;line-height:1.15}
+body.page-id-31537 .yotu-button-prs{padding:.4em .9em!important;font-family:'Neo-Sans',sans-serif;font-size:.9em;font-weight:400!important;line-height:1.15}
+body.page-id-31537 .yotu-playlist .yotu-pagination a.yotu-active::after{color:#999999;top:-3px}
 body.page-id-31537 .yotu-button-prs:hover{text-decoration:none}
 body.page-id-31537 .youtube .yotu-wrapper-player{padding-bottom:20px}
 body.page-id-31537 .yotu-mode-grid ul li{transition:all .1s ease-in-out!important;margin:0;padding:0;background:#F0582B;border-radius:12px;box-shadow:0 2px 0 0 rgba(0,0,0,.2);overflow:hidden}
