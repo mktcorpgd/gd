@@ -36,7 +36,6 @@ h2{font-size:1.8em}
 h3{font-size:1.4em}
 h3:not(.toggle) i[class*='fa-']{display:inline-block;margin-left:10px;font-size:80%;opacity:.6}
 video{outline:none!important;cursor:pointer}
-#post-content p{line-height:1.6}
 blockquote{margin:0;padding:0;text-align:center;font-size:1.2em;line-height:1.5;font-style:italic;overflow:inherit}
 body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border-top:64px solid #0E316E}
 .not-visible{visibility:hidden}
@@ -408,6 +407,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 
 /* Contenido */
 #post-content,.entry-content{margin-bottom:2em;overflow:visible}
+#post-content p,#post-content li{font-size:1.2em;line-height:1.6}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 #content h1{margin-bottom:.2em!important;font-weight:500!important;line-height:1.15!important;color:#333333}
 .neosans li{font-size:1.1em!important}
@@ -1450,7 +1450,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .columns.two .tp h3{top:6vw;font-size:6vw!important;text-align:left}
 	#content .columns.two .tp h5{top:12vw;font-size:5vw;text-align:left}
 	#content .columns.two .tp ul li:last-child{margin-top:14px!important;line-height:18px!important}
-	#post-content p{font-size:1.2em}
 	.wpcf7 .columns>label .wpcf7-checkbox,.wpcf7 .columns>label .wpcf7-radio{grid-template-columns:1fr;font-size:18px}
 	#content p.dropcap:not(.ays-fs-title):first-of-type:first-letter,body.page-id-31537 .mfp-content #post-content p:not(.ays-fs-title):first-child:first-letter{margin:11px 0 -5px 0;font-size:320%}
 	.wpcf7 .columns>label>span{line-height:1.5}
