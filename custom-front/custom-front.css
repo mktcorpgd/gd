@@ -1201,6 +1201,7 @@ body.archive .eo-event-meta li,body.archive .eo-event-meta li a,body.search .eo-
 #copyright{padding-top:0;color:#777777}
 .bottom_logos{padding:0 0 20px;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.2em;line-height:1.5}
 .bottom_logos a{color:#0E316E;display:inline-block;margin:.4em}
+.bottom_logos a img{width:50%}
 
 /* Noficaciones Push */
 prompticon3{margin-right:0!important;padding:0!important;width:50px!important;height:50px!important;right:0!important;border:none;background:#0E316E!important;border-radius:0!important;border-top-left-radius:24px!important;border-bottom-left-radius:24px!important;filter:none!important;transform:scale(1)!important}
