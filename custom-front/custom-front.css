@@ -37,6 +37,7 @@ h3{font-size:1.4em}
 h3:not(.toggle) i[class*='fa-']{display:inline-block;margin-left:10px;font-size:80%;opacity:.6}
 video{outline:none!important;cursor:pointer}
 blockquote{margin:0;padding:0;text-align:center;font-size:1.2em;line-height:1.5;font-style:italic;overflow:inherit}
+p{margin-bottom:20px;line-height:1.5}
 body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border-top:64px solid #0E316E}
 .not-visible{visibility:hidden}
 .padder,.widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
