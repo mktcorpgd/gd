@@ -572,7 +572,7 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .textwidget .toggle-box ul:not(.ui-tabs-nav) li{margin:0}
 .textwidget .toggle-box ul:not(.ui-tabs-nav) li .fab{min-width:20px;text-align:center}
 #text-7 .textwidget{text-align:center}
-.widget .widgettitle a:hover,.bottom_logos a:hover{opacity:1}
+.widget .widgettitle a:hover{opacity:1}
 .widget .avatar,.widget .author{display:inline-block}
 .widget .textwidget li:not(.ui-tabs-tab):not(.birthday_name){margin-bottom:5px!important;line-height:1.4}
 .widget .textwidget li:not(.ui-tabs-tab):not(.birthday_name):first-child{margin-top:5px!important}
@@ -1200,7 +1200,8 @@ body.archive .eo-event-meta li,body.archive .eo-event-meta li a,body.search .eo-
 #footer-widgets .widget{background:none!important;margin:20px 0 0}
 #copyright{padding-top:0;color:#777777}
 .bottom_logos{padding:0 0 20px;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.2em;line-height:1.5}
-.bottom_logos a{color:#0E316E;display:inline-block;margin:.4em}
+.bottom_logos a{color:#555555;display:inline-block;margin:.4em}
+.bottom_logos a:hover{color:#1F4483}
 .bottom_logos a img{width:50%}
 
 /* Noficaciones Push */
