@@ -456,8 +456,8 @@ body.archive #content h1,body.search #content h1{margin-top:.2em}
 #content li.blocks-gallery-item{margin-left:0;margin-bottom:20px}
 #content .rsc_message{text-align:center;font-style:italic}
 #content .rsc_message{margin:20px;padding-top:20px;padding-bottom:20px;background:#FFFFFF;border-radius:12px}
-#content .rsc_message>a,#content p a,#content li:not(.slick-slide):not(.ui-tabs-tab) a:not(.comment-reply-link),#post-content p a,#post-content li>a{color:#F0582B}
-#content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
+#content .rsc_message>a,#content p a,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link),#post-content p a,#post-content li>a{color:#F0582B}
+#content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
 body:not(.home):not(.archive):not(.search):not(.page-id-31537) .padder{box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 #content .gp-blog-wrapper .post-loop .post-text p{margin-top:.2em;font-size:.9em!important;line-height:1.4!important}
 .post-thumbnail.single-thumbnail img{width:60%}
