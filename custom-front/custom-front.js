@@ -385,6 +385,13 @@ jQuery(document).ready(function() {
 				jQuery(this).text(input_value);
 			}
 		}
+		if ( jQuery(this).text().indexOf('—') > -1 ) {
+			var input_value = jQuery(this).text();
+			if ( input_value != '—' ) {
+				input_value = input_value.substring(input_value.indexOf('—')+1,input_value.length);
+				jQuery(this).text(input_value).val(input_value);
+			}
+		}
 	});
 	
 	// FORMULARIOS - Agregar clase "last" en el último bloque de 1 columna
