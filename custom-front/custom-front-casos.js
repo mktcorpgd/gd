@@ -27,19 +27,6 @@ jQuery(document).ready(function() {
 		copyPostContent();
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
-		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
-		if ( input_name == 'UN' || input_name == 'UAC' ) {
-			jQuery('#content .padder').addClass('category-casos-'+jQuery(this).val());
-			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
-				return jQuery(el).text();
-			});
-			txt_comma = selMulti.join(', ');
-			jQuery('.wpcf7-'+input_name).text(txt_comma);
-			jQuery('input[name='+input_name+'TXT]').val(txt_comma);
-		}
-		else {
-			jQuery('.wpcf7-'+input_name).text(jQuery('option:selected',this).text());
-		}
 		copyPostContent();
 	});
 
