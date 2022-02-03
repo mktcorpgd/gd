@@ -76,6 +76,7 @@ body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
 .bp-wrapper .item-list .activity-header p>a{display:inline-block!important}
 body.single #content p img,.page #content .columns.two div img,#content iframe,.embed{border-radius:12px!important}
 #nav .menu>li:last-child,.post-loop.first-column,.bp-wrapper #item-header #item-header-content{margin-left:0!important}
+#nav .menu>li.separator{margin-left:5px!important;padding-left:5px;border-left:2px solid rgba(255,255,255,.4)}
 table,table.tablesorter thead tr .header,td:not(.line){border:0!important}
 h3.toggle i:before,.activity-time-since{color:#666666}
 .post-columns .post-text,.datepick-inline .datepick,.datepick-inline .date_available,.datepick-today{background:none!important}
