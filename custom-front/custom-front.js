@@ -369,22 +369,6 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	jQuery(document).on('change','.wpcf7-select',function() {
-		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
-		if ( input_name == 'UN' || input_name == 'UAC' ) {
-			jQuery('#content .padder').addClass('category-casos-'+jQuery(this).val());
-			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
-				return jQuery(el).text();
-			});
-			txt_comma = selMulti.join(', ');
-			jQuery('.wpcf7-'+input_name).text(txt_comma);
-			jQuery('input[name='+input_name+'TXT]').val(txt_comma);
-		}
-		else {
-			jQuery('.wpcf7-'+input_name).text(jQuery('option:selected',this).text());
-		}
-	});
-
 	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
 	jQuery('.wpcf7-select option').each(function(i) {
 		if ( jQuery(this).text().indexOf(';') > -1 ) {
@@ -409,7 +393,23 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-	
+	jQuery(document).on('change','.wpcf7-select',function() {
+		var input_name = jQuery(this).attr('name');
+		console.log(input_name.indexOf('[]') > -1);
+		if ( input_name.indexOf('[]') > -1 ) {
+			jQuery('#content .padder').addClass('category-casos-'+jQuery(this).val());
+			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
+				return jQuery(el).text();
+			});
+			var txt_comma = selMulti.join(', ');
+			jQuery('.wpcf7-'+input_name).text(txt_comma);
+			jQuery('input[name='+input_name+'TXT]').val(txt_comma);
+		}
+		else {
+			jQuery('.wpcf7-'+input_name).text(jQuery('option:selected',this).text());
+		}
+	});
+
 	// FORMULARIOS - Agregar clase "last" en el último bloque de 1 columna
 	jQuery('.columns.one:last').addClass('last');
 
