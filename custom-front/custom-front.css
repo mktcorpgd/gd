@@ -255,7 +255,7 @@ input[type='text'].highlight,textarea.highlight{font-weight:400;font-size:1.1em!
 /* Formularios */
 .wpcf7 div[data-id='gd-edificios'] .columns{position:relative}
 .wpcf7 div[data-id='gd-edificios'] .columns>div[data-class='wpcf7cf_group']{position:absolute;top:0;left:0}
-.wpcf7 .columns>label>span,.wpcf7 .columns>div[data-class='wpcf7cf_group']>label>span{margin-top:5px;line-height:1.15}
+.wpcf7 .columns>label>span,.wpcf7 .columns>div[data-class='wpcf7cf_group']>label>span{margin-top:5px;font-size:1rem;line-height:1.15}
 .wpcf7 div[data-id='gd-edificios'] .columns>div.wpcf7cf-hidden:first-child{display:block!important;opacity:.4;pointer-events:none}
 .wpcf7 .columns>label>span[class*='GIFT']{margin-bottom:5px}
 .wpcf7 .columns>label>span[class*='ORG']{position:relative}
@@ -273,7 +273,7 @@ input[type='text'].highlight,textarea.highlight{font-weight:400;font-size:1.1em!
 .wpcf7 .wpcf7-form>.columns.one.last{margin-bottom:0}
 #wpcf7-f18793-p25343-o1 input[type='submit']{margin-top:0}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin-left:0!important}
-.wpcf7 .columns>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{display:block;margin-top:10px;width:100%;line-height:1.25;font-family:'Neo-Sans',sans-serif;font-weight:400}
+.wpcf7 .columns>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{display:block;margin-top:10px;width:100%;font-size:.9em;line-height:1.25;font-family:'Neo-Sans',sans-serif;font-weight:400}
 .wpcf7 .columns>label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 .columns>label.divider{padding-top:25px;border-top:1px solid #DDDDDD}
 .wpcf7 .columns>label>label.spacer{clear:both;display:block;margin-top:0!important;padding-top:5px}
