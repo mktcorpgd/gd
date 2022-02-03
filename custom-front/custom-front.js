@@ -385,7 +385,7 @@ jQuery(document).ready(function() {
 				jQuery(this).text(input_value);
 			}
 		}
-		if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).attr('name') != 'CC_UNIT' ) {
+		if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).parent().attr('name') != 'CC_UNIT' ) {
 			var input_value = jQuery(this).text();
 			if ( input_value != '—' ) {
 				input_value = input_value.substring(input_value.indexOf('—')+2,input_value.length);
