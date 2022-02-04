@@ -89,17 +89,6 @@ jQuery(document).ready(function() {
 		jQuery('.container_countdown').removeClass('mfp-hide');
 	}*/
 		
-	// Ir hacia parte de la página
-	jQuery('a[href^=#goto]').on('click',function(e) {
-		var goto_selector = jQuery(this).attr('href').substring(5,jQuery(this).attr('href').length);
-		jQuery('html,body').animate({
-			scrollTop: jQuery('#'+goto_selector).offset().top-100},
-			'slow',
-			'easeInBounce'
-		);
-		e.preventDefault();
-	});
-
 	// Mover menú personalizado
 	jQuery('#menu40gd').insertAfter('#header');
 	

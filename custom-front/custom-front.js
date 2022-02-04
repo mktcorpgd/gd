@@ -339,6 +339,17 @@ jQuery(document).ready(function() {
 		jQuery(this).prev('a').trigger('click');
 	});
 
+	// Ir hacia parte de la página
+	jQuery('a[href^=#goto]').on('click',function(e) {
+		var goto_selector = jQuery(this).attr('href').substring(5,jQuery(this).attr('href').length);
+		jQuery('html,body').animate({
+			scrollTop: jQuery('#'+goto_selector).offset().top-100},
+			'slow',
+			'easeInBounce'
+		);
+		e.preventDefault();
+	});
+		
 	// MANTENIMIENTO - Cambiar idioma del botón en barra de administración
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=Off]').text('Mantenimiento desactivado');
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=On]').text('Mantenimiento activado');
