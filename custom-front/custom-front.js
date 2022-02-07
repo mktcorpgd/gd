@@ -406,18 +406,22 @@ jQuery(document).ready(function() {
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name');
-		console.log(input_name.indexOf('[]') > -1);
 		if ( input_name.indexOf('[]') > -1 ) {
-			jQuery('#content .padder').addClass('category-casos-'+jQuery(this).val());
 			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
 				return jQuery(el).text();
 			});
-			var txt_comma = selMulti.join(', ');
-			jQuery('.wpcf7-'+input_name).text(txt_comma);
-			jQuery('input[name='+input_name+'TXT]').val(txt_comma);
+			var txt_comma = selMulti.join('; ');
+			if ( jQuery('.wpcf7-'+input_name).length ) {
+				jQuery('.wpcf7-'+input_name).text(txt_comma);
+			}
+			if ( jQuery('input[name='+input_name+'TXT]').length ) {
+				jQuery('input[name='+input_name+'TXT]').val(txt_comma);
+			}
 		}
 		else {
-			jQuery('.wpcf7-'+input_name).text(jQuery('option:selected',this).text());
+			if ( jQuery('.wpcf7-'+input_name).length ) {
+				jQuery('.wpcf7-'+input_name).text(jQuery('option:selected',this).text());
+			}
 		}
 	});
 
