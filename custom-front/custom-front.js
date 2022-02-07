@@ -404,6 +404,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
+	
 	// FORMULARIOS - Agregar clase "last" en el último bloque de 1 columna
 	jQuery('.columns.one:last').addClass('last');
 
