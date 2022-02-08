@@ -639,7 +639,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-40gd-trivias .post-text p{-webkit-line-clamp:3}
 .gp-blog-wrapper.gp-blog-columns-2 .post-loop .post-text h2 a{-webkit-line-clamp:3}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-thumbnail{float:left;border-radius:0}
-.gp-blog-wrapper.gp-blog-columns-2 .post-thumbnail.wrap{float:none}
+.gp-blog-wrapper.gp-blog-columns-2 .post-thumbnail.wrap{float:none;border-bottom:2px solid #EAEAEA}
 .post-thumbnail.wrap{float:none;width:100%}
 .post-loop .gp-loop-meta{margin:0!important;position:relative;font-size:.75rem;line-height:1.25}
 .post-loop .gp-loop-meta strong{font-weight:400}
