@@ -582,6 +582,8 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .widget .textwidget li:last-child{margin-bottom:0!important}
 .widget .sociales li{margin-bottom:0!important;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #DDDDDD}
 .widget .sociales li:last-child{border-bottom:none!important}
+.widget .activas li{margin-bottom:0!important;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #DDDDDD}
+.widget .activas li:last-child{border-bottom:none!important}
 
 /* Buscadores */
 .is-search-sections .meta{margin:0}
