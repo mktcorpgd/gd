@@ -471,9 +471,6 @@ input_name= input_name.substring(0,input_name.length-2);
 	});
 
 	// BOTONES - Agregar botones de archivo
-	jQuery('<a href="/categoria/certificaciones/" class="sc-button blue small">Ver más certificaciones</a>').insertAfter('.sidebar .sociales.certificaciones');
-	jQuery('<a href="/categoria/ingresos/" class="sc-button blue small">Ver más ingresos</a>').insertAfter('.sidebar .sociales.ingresos');
-	jQuery('<a href="/categoria/nacimientos/" class="sc-button blue small">Ver más nacimientos</a>').insertAfter('.sidebar .sociales.nacimientos');
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
 
 	// LATERAL - Desplegables
