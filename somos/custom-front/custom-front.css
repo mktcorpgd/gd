@@ -186,37 +186,6 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:capitalize}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
-/* Drive */
-#UseyourDrive{margin:0 -30px}
-#UseyourDrive .entry-info-button, .UseyourDrive .entry-info-button{width:16px}
-#UseyourDrive .nav-title,#UseyourDrive .tippy-content, .UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
-#UseyourDrive .folders-container .entry-info-name{font-size:1.2em;line-height:1.2}
-#UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
-#UseyourDrive .entry-info-button:hover, #UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
-#UseyourDrive .tippy-box, .UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
-#UseyourDrive .tippy-content li>a, .UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
-#UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500!important}
-#UseyourDrive .files .entry{border-radius:12px}
-#UseyourDrive .wpcp-thumb-view .folders-container{margin-bottom:5px}
-#UseyourDrive .entry-info, .UseyourDrive .entry-info{height:40px}
-#UseyourDrive .entry-info-icon, .UseyourDrive .entry-info-icon{top:-1px}
-#UseyourDrive .entry.hasfocus:not(.no-entries) .entry_link, #UseyourDrive .entry.popupopen .entry_link, #UseyourDrive .entry:not(.no-entries):hover .entry_link{text-decoration:none;font-weight:400!important}
-#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{padding:0;text-align:left;line-height:1.2}
-#UseyourDrive .tippy-content li i, .UseyourDrive .tippy-content li i{margin-right:0}
-#UseyourDrive .hasfocus:not(.no-entries), #UseyourDrive .isdragged, #UseyourDrive .isselected, #UseyourDrive .popupopen{transform:scale(1)}
-#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
-#UseyourDrive .tippy-content .nav-sorting-list a:after, #UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
-#UseyourDrive .entry, #UseyourDrive .image-container{box-shadow:0 1px 0 2px rgba(0,0,0,.1)}
-#UseyourDrive .entry:hover, #UseyourDrive .image-container{box-shadow:0 4px 12px 0px #F0582B}
-#UseyourDrive .tippy-content li, .UseyourDrive .tippy-content li{margin-bottom:0!important}
-#UseyourDrive .tippy-content li>a:hover, .UseyourDrive .tippy-content li>a:hover{color:#FFFFFF!important;text-decoration:none!important}
-#UseyourDrive .nav-header, #UseyourDrive .selected-folder{background:#F6F6F6!important}
-#UseyourDrive .nav-header{border:none}
-#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
-#UseyourDrive .tippy-content .description-textbox .description-file-info i, .UseyourDrive .tippy-content .description-textbox .description-file-info i{display:none}
-#UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
-#UseyourDrive .folder .entry-info-name, #UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{font-weight:400!important}
-
 /* Comentarios */
 #comments{clear:both;margin-top:20px;padding:0}
 .comments-area{margin:0 auto;width:100%}
@@ -615,6 +584,35 @@ body.single #content p:last-child{padding-bottom:10px}
 body.single #content article.category-certificaciones .post-thumbnail img{width:auto!important;border:2px solid #DDDDDD!important;border-radius:12px!important}
 
 /* Drive */
+#UseyourDrive{margin:0 -30px}
+#UseyourDrive .entry-info-button, .UseyourDrive .entry-info-button{width:16px}
+#UseyourDrive .nav-title,#UseyourDrive .tippy-content, .UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .folders-container .entry-info-name{font-size:1.2em;line-height:1.2}
+#UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
+#UseyourDrive .entry-info-button:hover, #UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
+#UseyourDrive .tippy-box, .UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
+#UseyourDrive .tippy-content li>a, .UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500!important}
+#UseyourDrive .files .entry{border-radius:12px}
+#UseyourDrive .wpcp-thumb-view .folders-container{margin-bottom:5px}
+#UseyourDrive .entry-info, .UseyourDrive .entry-info{height:40px}
+#UseyourDrive .entry-info-icon, .UseyourDrive .entry-info-icon{top:-1px}
+#UseyourDrive .entry.hasfocus:not(.no-entries) .entry_link, #UseyourDrive .entry.popupopen .entry_link, #UseyourDrive .entry:not(.no-entries):hover .entry_link{text-decoration:none;font-weight:400!important}
+#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{padding:0;text-align:left;line-height:1.2}
+#UseyourDrive .tippy-content li i, .UseyourDrive .tippy-content li i{margin-right:0}
+#UseyourDrive .hasfocus:not(.no-entries), #UseyourDrive .isdragged, #UseyourDrive .isselected, #UseyourDrive .popupopen{transform:scale(1)}
+#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
+#UseyourDrive .tippy-content .nav-sorting-list a:after, #UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
+#UseyourDrive .entry, #UseyourDrive .image-container{box-shadow:0 1px 0 2px rgba(0,0,0,.1)}
+#UseyourDrive .entry:hover, #UseyourDrive .image-container{box-shadow:0 4px 12px 0px #F0582B}
+#UseyourDrive .tippy-content li, .UseyourDrive .tippy-content li{margin-bottom:0!important}
+#UseyourDrive .tippy-content li>a:hover, .UseyourDrive .tippy-content li>a:hover{color:#FFFFFF!important;text-decoration:none!important}
+#UseyourDrive .nav-header, #UseyourDrive .selected-folder{background:#F6F6F6!important}
+#UseyourDrive .nav-header{border:none}
+#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
+#UseyourDrive .tippy-content .description-textbox .description-file-info i, .UseyourDrive .tippy-content .description-textbox .description-file-info i{display:none}
+#UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
+#UseyourDrive .folder .entry-info-name, #UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{font-weight:400!important}
 .info-material{padding:1.2em 0!important;color:#666666;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0!important}
 .file-container .info-material{margin-top:20px!important}
