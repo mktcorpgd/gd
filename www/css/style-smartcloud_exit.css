@@ -1,0 +1,16 @@
+/* Smartime */
+::-moz-selection{background:#2AA779!important;color:#FFFFFF}::selection{background:#2AA779!important;color:#FFFFFF}
+body.branding .on-top:not(.bkg) .fusion-logo{max-width:220px}
+.fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-top-header .fusion-header,body.single-avada_portfolio .fusion-page-title-bar,.fusion-modal.contacto-rapido .fusion-fullwidth{background:#2AA779!important}
+.fusion-toggle-heading,.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,input[type='submit'],.wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.fusion-main-menu .fusion-menu-item-button .menu-text:hover span{color:#9B619E!important}
+.fusion-accordian .panel-title a:hover,.panel-title a:hover .fusion-toggle-heading,.panel-title a:hover .fusion-toggle-icon-wrapper,.sidebar .widget .heading h4,.sidebar .widget .widget-title,.fusion-modal .modal-header .modal-title{color:#2AA779!important}
+.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,input[type='submit'],.wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{border-color:#9B619E!important}
+#content .button-default:hover, #content .button-default:focus, .wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover, input[type='submit']:not(.sending):focus{background:#9B619E!important;border-color:#9B619E!important}
+
+/* Desktop */
+@media (min-width:920px) {
+}
+
+/* Mobile */
+@media (max-width:920px) {
+}

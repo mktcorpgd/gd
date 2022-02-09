@@ -1,0 +1,69 @@
+.fusion-social-links-footer,.fusion-pricing-table .panel-body{display:none!important}
+#sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
+::-moz-selection{background:#7E1F4B!important;color:#FFFFFF}::selection{background:#E94180!important;color:#FFFFFF}
+body a{color:#7E1F4B}
+body a:hover{color:#340018}
+.fusion-title a:hover{text-decoration:underline}
+.modal .wpcf7 .fusion-one-full>a>i,.modal .wpcf7 .fusion-one-full>a>img,.fusion-copyright-notice p.legales,#footer > div > div > div.fusion-copyright-notice > div > div > span:nth-child(6){display:none}
+#legales,#legales .panel-body p span{display:inline-block!important}
+#wrapper.header-transparent.bkg div.fusion-header-v2{background:#7E1F4B!important}
+.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{color:#7E1F4B;border-color:#7E1F4B}
+.modal .modal-title,.wpcf7 .wpcf7-submit,.wpcf7 .fusion-one-full>a{color:#7E1F4B!important}
+.fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover,.fusion-pricingtable-column .panel-container:hover .fusion-button{border-color:#340018;background:#340018;color:#FFFFFF}
+.fusion-pricing-table .list-group .list-group-item:hover{background:#340018!important}
+.fusion-pricingtable-column .panel-container:hover .fusion-button .fusion-button-text{color:#FFFFFF}
+.wpcf7 input:not([type='submit']).highlight,select.highlight,.white select.highlight{background:#7E1F4B!important;border:2px solid #7E1F4B!important}
+.wpcf7 input:not([type='submit']).highlight:hover,select.highlight:hover{border-color:#340018!important;background:#340018!important;}
+#content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover{background:#340018!important}
+#main{padding-left:0!important;padding-right:0!important}
+#main .fusion-fullwidth{padding-left:24px!important;padding-right:24px!important}
+.fusion-fullwidth.fullwidth-box:not(.no-overlay).video-background:after{background:rgba(0,0,0,0)!important}
+#main>.fusion-row{max-width:100%!important}
+.fusion-contactofibra .widget .widget-title,.fusion-contactofibra i,.fusion-contactofibra .fusion-one-full>a,.fusion-reading-box-container .reading-box h2,.fusion-reading-box-container .reading-box h2,.fusion-reading-box-container .reading-box .reading-box-description,.fusion-social-links-footer .fusion-social-networks a.fusion-mail,#sidebar .fusion-layout-column.fusion-one-full,.fusion-widget-area .wpcf7 .fusion-one-full,.fusion-widget-area .wpcf7 .fusion-one-full>a,.fusion-widget-area .wpcf7 .fusion-one-full>a i,.fusion-content-boxes a{color:#FFFFFF!important}
+#wrapper.header-transparent .fusion-title.fusion-title-1 h1{line-height:1.1!important}
+.fusion-pricing-table .panel-body{padding:0!important}
+.fusion-pricing-table .panel-heading{padding:10px 5px 8px!important}
+.fusion-pricing-table .panel-heading h3{font-size:1.6em}
+.fusion-pricing-table .list-group .list-group-item{font-size:.8em}
+.fusion-pricing-table .list-group .list-group-item{background:rgba(126,31,75,.7)!important;color:#FFFFFF}
+.sep-boxed-pricing .panel-container,.fusion-pricing-table .fusion-panel{background:none!important}
+.fusion-accordian .panel-title{font-size:.75em}
+.fusion-reading-box-container .reading-box{border:3px solid #FFFFFF!important}
+.fusion-reading-box-container .reading-box h2{font-size:2em!important;margin-bottom:20px}
+.fusion-reading-box-container .reading-box .reading-box-additional{padding:0!important;background:none;color:#FFFFFF;}
+#sidebar p{margin:25px 0 5px}
+body:not(.home) .tfs-slider .buttons .fusion-button,body:not(.home) .tfs-slider .buttons .fusion-button:hover,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button:hover{border:2px solid #340018!important}
+#mapvf-cobertura{height:400px;border:2px solid #7E1F4B;border-radius:12px}
+#mapvf-cobertura.warning{border:2px solid #F19C00}
+#mapvf-cobertura.sent{border:2px solid #419466}
+#pac{margin:10px 5%;padding:8px 11px;width:90%;font-family:'Open-Sans',sans-serif;font-size:1.4em;border:2px solid #7E1F4B;border-radius:6px;background-color:#FFFFFF;box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
+.fusion-content-boxes a{text-decoration:underline}
+.controls.pac-target-input.warning,.controls.pac-target-input.sent{font-weight:bold}
+.controls.pac-target-input.warning{border-color:#F19C00!important;background:#F19C00!important;color:#FFFFFF!important}
+.controls.pac-target-input.sent,.wpcf7 input:not([type='submit']).highlight.sent{border-color:#419466!important;background:#419466!important;color:#FFFFFF!important}
+.controls.pac-target-input.sent::placeholder,.controls.pac-target-input.warning::placeholder{color:#FFFFFF}
+.fusion-footer{background:none!important}
+#legales{text-align:center}
+#legales .panel-title a{display:inline-block}
+div.wpcf7 .wpcf7-form-control-wrap[class*='ADDRESS']:before,div.wpcf7 .wpcf7-form-control-wrap[class*='SERVICE']:before{color:#FFFFFF}
+.wpcf7-form-control-wrap.ADDRESS:before{background:#7E1F4B!important}
+.fusion-pricing-table .panel-footer{padding:0!important}
+body:not(.home) .fusion-fullwidth.fullwidth-box .fusion-pricing-table .fusion-button.button-flat:not(.no-text){width:100%;color:#7E1F4B!important;border-radius:0!important;border:none!important}
+.full-boxed-pricing .standout .panel-container{margin:0!important}
+.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link{width:50%}
+
+/* Desktop */
+@media (min-width:920px) {
+	.only-mobile{display:none}
+	.fusion-pricingtable-column.standout .panel-container{top:10px}
+	.fusion-pricing-table>div:nth-child(1)>.panel-container{border-top-right-radius:0;border-bottom-right-radius:0}
+	.fusion-pricing-table>div:nth-child(3)>.panel-container{border-top-left-radius:0;border-bottom-left-radius:0}
+}
+
+/* Mobile */
+@media (max-width:920px) {
+	.flexslider{width:300%!important}
+	#post-23901 > div.project-content > div > div.fusion-fullwidth.fullwidth-box.fusion-builder-row-2.nonhundred-percent-fullwidth.non-hundred-percent-height-scrolling > div > div.fusion-layout-column.fusion_builder_column.fusion-builder-column-4.fusion_builder_column_1_2.\31 _2.fusion-one-half.fusion-column-first > div{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
+	#post-23901 > div.project-content > div > div.fusion-fullwidth.fullwidth-box.fusion-builder-row-2.nonhundred-percent-fullwidth.non-hundred-percent-height-scrolling > div > div.fusion-layout-column.fusion_builder_column.fusion-builder-column-5.fusion_builder_column_1_2.\31 _2.fusion-one-half.fusion-column-last > div{border-bottom-left-radius:12px!important}
+	#wrapper .fusion-mobile-menu-design-modern .fusion-modal-text-link-button a[data-target='.fusion-modal.arrepentimiento']{margin:0!important;border:none!important;font-weight:400}
+}

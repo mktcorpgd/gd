@@ -1,0 +1,24 @@
+/* Branding: Sersat */
+::-moz-selection{background:#43C297!important;color:#FFFFFF}::selection{background:#43C297!important;color:#FFFFFF}
+#wrapper.header-transparent.sersat .fusion-header.bkg{background:#43C297!important}
+#wrapper.header-transparent.sersat .fusion-header:not(.on-top) .sub-menu,#wrapper.header-transparent.sersat .fusion-megamenu-wrapper .fusion-megamenu-submenu,#wrapper.header-transparent.sersat .fusion-header.bkg .fusion-mobile-nav-holder .sub-menu,#boxed-wrapper.sersat .fusion-header .sub-menu,#boxed-wrapper.sersat .fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#0B685F!important}
+#wrapper.sersat #content .button-default:hover,#wrapper.sersat input[type='submit']:not(.sending):hover,#boxed-wrapper.sersat~.modal input[type='submit']:not(.sending):hover{background:#43C297!important}
+#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text),#wrapper.sersat .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.sersat input[type='submit']:not(.sending),#wrapper.sersat .wpcf7-form input[type='submit']:not(.sending),#wrapper.sersat #main #comment-submit,#boxed-wrapper.sersat~.modal input[type='submit']:not(.sending),#boxed-wrapper.sersat~.modal .wpcf7-form input[type='submit']:not(.sending){border-color:#43C297!important;color:#43C297}
+#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,#wrapper.sersat .fusion-main-menu .fusion-menu-item-button .menu-text:hover span,#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left,#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{color:#43C297}
+#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
+#wrapper.sersat ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6,#boxed-wrapper.sersat~.modal .modal-title,#wrapper.sersat #agenda h2,#wrapper.sersat .fusion-checklist .fusion-li-icon{color:#109B84!important}
+#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text):hover,#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text):focus,#wrapper.sersat .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover{background-color:#43C297!important}
+#wrapper.sersat .post-content .fusion-text a,#wrapper.sersat .wpcf7 .fusion-one-full a,#wrapper.sersat .fusion-accordian .panel-title a,#wrapper.sersat .toggle-content a,#wrapper.sersat .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,#boxed-wrapper.sersat~.modal .wpcf7 .fusion-one-full>a{color:#109B84}
+#wrapper.sersat .post-content .fusion-text a:hover,#wrapper.sersat .post-content .fusion-text a:active,#wrapper.sersat .wpcf7 .fusion-one-full a:hover,#wrapper.sersat .wpcf7 .fusion-one-full a:active,#wrapper.sersat .fusion-accordian .panel-title a:hover,#wrapper.sersat .toggle-content a:hover,#boxed-wrapper.sersat~.modal .wpcf7 .fusion-one-full>a:hover{color:#43C297!important}
+.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#43C297!important}
+#wrapper.sersat .box-buttons .fusion-portfolio-content .fusion-button,#wrapper.sersat .box-buttons .fusion-post-content .fusion-button{color:#43C297!important}
+#wrapper.sersat #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#wrapper.sersat #content .box-buttons .fusion-post-content .fusion-button:hover{background:#12B59A!important}
+.fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#12B59A!important}
+.fusion-fullwidth.fullwidth-box.gradient-st:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-st:after{background:linear-gradient(270deg,rgba(16,155,132,0) 50%,rgba(16,155,132,1) 100%)!important}
+.fusion-modal.contacto-rapido .fusion-fullwidth{background:#109B84!important}
+.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid rgba(67,194,152,0.6)!important}
+
+/* Mobile */
+@media (max-width:920px) {
+    .fusion-fullwidth.fullwidth-box.gradient-st:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-st:after{background:linear-gradient(0deg,rgba(16,155,132,0) 50%,rgba(16,155,132,1) 100%)!important}
+}

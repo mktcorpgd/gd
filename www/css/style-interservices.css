@@ -1,0 +1,26 @@
+/* Branding: Interservices */
+::-moz-selection{background:#F44E02!important;color:#FFFFFF}::selection{background:#F44E02!important;color:#FFFFFF}
+#wrapper.header-transparent.interservices .fusion-header.bkg{background:#BF250D!important}
+#wrapper.header-transparent.interservices .fusion-header:not(.on-top) .sub-menu,#wrapper.header-transparent.interservices .fusion-megamenu-wrapper .fusion-megamenu-submenu,#wrapper.header-transparent.interservices .fusion-header.bkg .fusion-mobile-nav-holder .sub-menu,#boxed-wrapper.interservices .fusion-header .sub-menu,#boxed-wrapper.interservices .fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#B42818!important}
+#wrapper.interservices #content .button-default:hover,#wrapper.interservices input[type='submit']:not(.sending):hover,#boxed-wrapper.interservices~.modal input[type='submit']:not(.sending):hover,#wrapper.interservices #content .button-default:focus,#wrapper.interservices input[type='submit']:not(.sending):focus,#boxed-wrapper.interservices~.modal input[type='submit']:not(.sending):focus{background:#F44E02!important}
+#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text),#wrapper.interservices .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.interservices input[type='submit']:not(.sending),#wrapper.interservices .wpcf7-form input[type='submit']:not(.sending),#wrapper.interservices #main #comment-submit,#boxed-wrapper.interservices~.modal input[type='submit']:not(.sending),#boxed-wrapper.interservices~.modal .wpcf7-form input[type='submit']:not(.sending){border-color:#F44E02!important;color:#F44E02}
+#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,#wrapper.interservices .fusion-main-menu .fusion-menu-item-button .menu-text:hover span,#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left,#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{color:#F44E02}
+#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
+#wrapper.interservices ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6,#boxed-wrapper.interservices~.modal .modal-title,#wrapper.interservices #agenda h2,#wrapper.interservices .fusion-checklist .fusion-li-icon{color:#BF250D!important}
+#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text):hover,#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text):focus,#wrapper.interservices .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover{background-color:#F44E02!important}
+#wrapper.interservices .post-content .fusion-text a,#wrapper.interservices .wpcf7 .fusion-one-full a,#wrapper.interservices .fusion-accordian .panel-title a,#wrapper.interservices .toggle-content a,#wrapper.interservices .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,#boxed-wrapper.interservices~.modal .wpcf7 .fusion-one-full>a{color:#BF250D}
+#wrapper.interservices .post-content .fusion-text a:hover,#wrapper.interservices .post-content .fusion-text a:active,#wrapper.interservices .wpcf7 .fusion-one-full a:hover,#wrapper.interservices .wpcf7 .fusion-one-full a:active,#wrapper.interservices .fusion-accordian .panel-title a:hover,#wrapper.interservices .toggle-content a:hover,#boxed-wrapper.interservices~.modal .wpcf7 .fusion-one-full>a:hover{color:#F44E02!important}
+.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#F44E02!important}
+#wrapper.interservices .box-buttons .fusion-portfolio-content .fusion-button,#wrapper.interservices .box-buttons .fusion-post-content .fusion-button{color:#F44E02!important}
+#wrapper.interservices #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#wrapper.interservices #content .box-buttons .fusion-post-content .fusion-button:hover{background:#E02C10!important}
+.fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#E02C10!important}
+.fusion-fullwidth.fullwidth-box.gradient-i:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-i:after{background:linear-gradient(270deg,rgba(191,37,13,0) 50%,rgba(191,37,13,1) 100%)!important}
+.fusion-modal.contacto-rapido .fusion-fullwidth{background:#BF250D!important}
+.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid rgba(244,79,2,0.6)!important}
+#accordion-26161-1 .panel-title a{display:block;font-size:1.6em!important}
+#accordion-26161-1 .panel-title a .fusion-toggle-heading{font-weight:500!important}
+
+/* Mobile */
+@media (max-width:920px) {
+    .fusion-fullwidth.fullwidth-box.gradient-i:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-i:after{background:linear-gradient(0deg,rgba(191,37,13,0) 50%,rgba(191,37,13,1) 100%)!important}
+}
