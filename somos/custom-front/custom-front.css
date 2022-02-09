@@ -570,7 +570,7 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .textwidget .toggle-box h6{margin-top:.5em;margin-bottom:0;font-size:.9em}
 .toggle-box{margin:5px 0 0;overflow:visible}
 .textwidget .toggle-box{margin:0}
-.textwidget .toggle-box+.toggle{margin-top:15px}
+.textwidget .toggle-box+.toggle{margin-top:5px}
 .textwidget .toggle-box ul:not(.ui-tabs-nav){margin:.2em 0 .4em 0}
 .textwidget .toggle-box ul:not(.ui-tabs-nav) li{margin:0}
 .textwidget .toggle-box ul:not(.ui-tabs-nav) li .fab{min-width:20px;text-align:center}
