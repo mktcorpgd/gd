@@ -186,41 +186,36 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:capitalize}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
-/* Regalos
-@keyframes highlight_bkg{from{background:#FFFFFF}to{background:#F1D300}}
-@keyframes highlight_link{from{background:rgba(0,0,0,0)}to{background:rgba(0,0,0,.1)}}
-#gift_list tr.highlight td{background:#F1D300;border-color:rgba(0,0,0,.05)!important;animation-duration:1s;animation-name:highlight_bkg;animation-iteration-count:infinite;animation-direction:alternate}
-#gift_list tr td{font-size:90%}
-.mfp-table .mfp-content{max-height:600px;overflow-y:auto;overflow-x:hidden}
-.gift_details .columns{text-align:center}
-.gift_details .columns.two{width:65%}
-.gift_details{font-weight:400;background:#0E316E;border-radius:12px;border-top-left-radius:0;border-top-right-radius:0}
-.gift_item_org,.gift_item_org option{text-transform:capitalize}
-.gift_item_org~.gift_details{padding:0;width:32px;height:45px;position:absolute;top:5px;right:0;background:none;z-index:20}
-.gift_item_org~.gift_details a{display:block;height:100%;width:32px;color:#FFFFFF!important;text-align:center;line-height:45px;border-top-right-radius:12px;border-bottom-right-radius:12px;position:absolute;top:0;right:0;animation-duration:.5s;animation-name:highlight_link;animation-iteration-count:infinite;animation-direction:alternate}
-.gift_item_org~.gift_details a:hover{background:rgba(0,0,0,.5)}
-.gift_details span:not(.gift_photo),.gift_details>em{display:block;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-weight:400}
-.gift_details span:not(.gift_photo){margin:10px 0;text-align:left}
-.gift_details>em{padding:2px 0 3px;font-size:80%;text-align:center}
-.gift_details:not(.closed){padding:4px 8px 6px 6px}
-.gift_details:not(.closed) li{margin-top:5px!important;margin-bottom:5px!important}
-select~.gift_details:not(.closed){padding:0}
-.gift_details .gift_cost{font-weight:400!important}
-.gift_details .gift_item{margin-top:10px!important}
-.gift_details .gift_item strong{font-size:1.6em;line-height:1.2;font-family:'Neo-Sans',sans-serif;text-transform:none;letter-spacing:0;font-weight:400!important}
-.gift_details,.gift_details span.gift_descrip{float:left;width:100%}
-.gift_details .gift_descrip{margin-top:0!important;padding-bottom:10px;padding-right:10px;font-size:90%;line-height:1.6;text-align:left}
-.gift_item_sel{margin-bottom:0!important;border-bottom-left-radius:0!important;border-bottom-right-radius:0!important;border-color:#0E316E!important}
-.gift_item_org.warning,.gift_item_org.warning:hover{background:#F1D300!important;border-color:#F1D300!important}
-.gift_item_org.warning{padding-right:30px!important}
-.gift_buttons{float:left;width:100%;margin:15px 0 5px;text-align:center}
-.gift_buttons a{display:inline-block;margin:0!important;color:#F0582B;background:#FFFFFF;border:2px solid #F0582B}
-.gift_buttons a:hover{color:#FFFFFF;background:#F0582B}
-input[type='text'].highlight,textarea.highlight{font-weight:400;font-size:1.1em!important}
-.gift_buttons a:first-child{border-top-right-radius:0;border-bottom-right-radius:0}
-.gift_buttons a:last-child{border-top-left-radius:0;border-bottom-left-radius:0;margin-right:0!important}
-#content .gift_photo{display:block;padding:15px 20px 10px}
-#content .gift_photo img{min-width:120px;min-height:120px;max-height:200px;background:url('https://somos.grupodatco.com/wp-content/uploads/gd-loading.svg') no-repeat center center;border-radius:12px!important;cursor:zoom-in}*/
+/* Drive */
+#UseyourDrive{margin:0 -30px}
+#UseyourDrive .entry-info-button, .UseyourDrive .entry-info-button{width:16px}
+#UseyourDrive .nav-title,#UseyourDrive .tippy-content, .UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .folders-container .entry-info-name{font-size:1.2em;line-height:1.2}
+#UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
+#UseyourDrive .entry-info-button:hover, #UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
+#UseyourDrive .tippy-box, .UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
+#UseyourDrive .tippy-content li>a, .UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500!important}
+#UseyourDrive .files .entry{border-radius:12px}
+#UseyourDrive .wpcp-thumb-view .folders-container{margin-bottom:5px}
+#UseyourDrive .entry-info, .UseyourDrive .entry-info{height:40px}
+#UseyourDrive .entry-info-icon, .UseyourDrive .entry-info-icon{top:-1px}
+#UseyourDrive .entry.hasfocus:not(.no-entries) .entry_link, #UseyourDrive .entry.popupopen .entry_link, #UseyourDrive .entry:not(.no-entries):hover .entry_link{text-decoration:none;font-weight:400!important}
+#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{padding:0;text-align:left;line-height:1.2}
+#UseyourDrive .tippy-content li i, .UseyourDrive .tippy-content li i{margin-right:0}
+#UseyourDrive .hasfocus:not(.no-entries), #UseyourDrive .isdragged, #UseyourDrive .isselected, #UseyourDrive .popupopen{transform:scale(1)}
+#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
+#UseyourDrive .tippy-content .nav-sorting-list a:after, #UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
+#UseyourDrive .entry, #UseyourDrive .image-container{box-shadow:0 1px 0 2px rgba(0,0,0,.1)}
+#UseyourDrive .entry:hover, #UseyourDrive .image-container{box-shadow:0 4px 12px 0px #F0582B}
+#UseyourDrive .tippy-content li, .UseyourDrive .tippy-content li{margin-bottom:0!important}
+#UseyourDrive .tippy-content li>a:hover, .UseyourDrive .tippy-content li>a:hover{color:#FFFFFF!important;text-decoration:none!important}
+#UseyourDrive .nav-header, #UseyourDrive .selected-folder{background:#F6F6F6!important}
+#UseyourDrive .nav-header{border:none}
+#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
+#UseyourDrive .tippy-content .description-textbox .description-file-info i, .UseyourDrive .tippy-content .description-textbox .description-file-info i{display:none}
+#UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
+#UseyourDrive .folder .entry-info-name, #UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{font-weight:400!important}
 
 /* Comentarios */
 #comments{clear:both;margin-top:20px;padding:0}
