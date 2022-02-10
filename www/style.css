@@ -1116,6 +1116,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:20px}
 	.table-1,.table-2,.tkt-slctr-tbl-wrap-dv{overflow:inherit}
 	.fusion-page-title-bar .fusion-page-title-row h1{line-height:1.1!important}
+	body.post-template-default.single-format-standard .fusion-page-title-bar .fusion-page-title-row h1{width:75%}
 	.tfs-slider ul.slides li:not(.slide-id-39229) .slide-content-container .slide-content{width:67%!important}
 	.tfs-slider ul.slides li.slide-id-42383 .slide-content-container .slide-content{width:55%!important}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}

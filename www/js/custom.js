@@ -355,6 +355,11 @@ jQuery(document).ready(function() {
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
 	}
+	if ( jQuery('body.single article.format-video').length ) {
+		var video_tag = jQuery('.meta-tags a[rel=tag]').text();
+		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
+		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/https://img.youtube.com/vi/'+video_tag+'/0.jpg)');
+	}
 
 	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
 	if ( jQuery('body').hasClass('single-format-standard') ) {
