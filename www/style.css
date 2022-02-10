@@ -130,7 +130,7 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 body.error404.fusion-page-title-bar .fusion-page-title-row,body.blog.fusion-page-title-bar .fusion-page-title-row{padding-bottom:0}
 .fusion-header-wrapper{width:100%;top:0}
 .fusion-header-wrapper:not(.not-sticky){position:fixed!important}
-body.customize-support .fusion-header-wrapper{top:32px}
+body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 #wrapper:not(.header-transparent) .fusion-header.on-top,.fusion-header:not(.on-top),.fusion-header.on-top.bkg,#wrapper.header-transparent .fusion-header.on-top.bkg{box-shadow:0 4px 16px 0 rgba(0,0,0,.4)!important}
 .fusion-header-wrapper.on-top:not(.bkg) .fusion-header .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']){background:rgba(0,0,0,.9)!important}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft{border:none!important}
@@ -1182,7 +1182,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.ua-mobile .modal-open{position:absolute!important;overflow:auto!important}
 	.modal .modal-dialog{margin-left:10px;margin-right:10px}
 	.modal .modal-title{font-size:1.4em}
-	body.customize-support .fusion-header-wrapper{top:46px}
+	body.customize-support .fusion-header-wrapper:not(.not-sticky){top:46px}
 	.fusion-title.fusion-sep-none .title-heading-right,.fusion-text{text-align:left!important}
 	.fusion-portfolio-content-wrapper{opacity:1!important}
 	.border-top{border-top:1px solid #EAEAEA}
