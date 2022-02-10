@@ -364,8 +364,6 @@ jQuery(document).ready(function() {
 		video_tag = video_tag.substring(video_tag.indexOf('yt-')+3,video_tag.length);
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(https://img.youtube.com/vi/'+video_tag+'/0.jpg)');
-		// Ocultar todas las categorías que no sean Recursos
-		jQuery('.widget.widget_categories #cat option:not([value=164]):not([value=666]):not([value=268]):not([value=738]):not([value=183]):not([value=284]):not([value=265])').hide();
 	}
 
 	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
