@@ -130,6 +130,7 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 body.error404.fusion-page-title-bar .fusion-page-title-row,body.blog.fusion-page-title-bar .fusion-page-title-row{padding-bottom:0}
 .fusion-header-wrapper{width:100%;top:0}
 .fusion-header-wrapper.not-sticky{position:absolute!important}
+.fusion-header-wrapper.not-sticky .fusion-header.bkg{background:none!important;box-shadow:none!important}
 .fusion-header-wrapper:not(.not-sticky){position:fixed!important}
 body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 #wrapper:not(.header-transparent) .fusion-header.on-top,.fusion-header:not(.on-top),.fusion-header.on-top.bkg,#wrapper.header-transparent .fusion-header.on-top.bkg{box-shadow:0 4px 16px 0 rgba(0,0,0,.4)!important}
