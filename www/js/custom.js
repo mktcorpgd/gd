@@ -357,8 +357,13 @@ jQuery(document).ready(function() {
 	}
 	if ( jQuery('body.single article.format-video').length ) {
 		var video_tag = jQuery('.meta-tags a[rel=tag]').text();
+		video_tag = video_tag.substring(video_tag.indexOf('yt-')+3,video_tag.length);
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(https://img.youtube.com/vi/'+video_tag+'/0.jpg)');
+		// SIDEBAR - Nunca
+		jQuery('.widget.widget_categories #cat option:not([class')
+
+
 	}
 
 	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
