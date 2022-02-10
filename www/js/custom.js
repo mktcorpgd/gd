@@ -349,21 +349,23 @@ jQuery(document).ready(function() {
 			}
 		});
 	}
+
+	// ENLACES - Personalización
 	if ( jQuery('body.single article.format-link').length ) {
 		var link_href = window.location.pathname;
 		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
 	}
+
+	// VIDEOS - Personalización
 	if ( jQuery('body.single article.format-video').length ) {
 		var video_tag = jQuery('.meta-tags a[rel=tag]').text();
 		video_tag = video_tag.substring(video_tag.indexOf('yt-')+3,video_tag.length);
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(https://img.youtube.com/vi/'+video_tag+'/0.jpg)');
-		// SIDEBAR - Nunca
-		jQuery('.widget.widget_categories #cat option:not([class')
-
-
+		// Ocultar todas las categorías que no sean Recursos
+		jQuery('.widget.widget_categories #cat option').hide();
 	}
 
 	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
