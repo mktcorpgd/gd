@@ -482,7 +482,7 @@ ul#lcp_instance_0.busquedas {border:none!important;}
 .bdays_upcom .birthday_name{margin:0!important;border-bottom:0}
 .bdays_upcom .birthday>.birthday_name:last-child,.birthdays-widget .birthday_name:last-child{border-bottom:0!important}
 .bdays_today .widgettitle{display:none}
-.birthdays-widget img{margin-top:30px;width:100%!important;border-bottom:1px solid #DDDDDD}
+.birthdays-widget img{margin-top:30px;width:100%!important;border-bottom:1px solid #DDDDDD;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 .mfp-close,.mfp-arrow{position:fixed}
 .mfp-close{right:1em}
 #custom_html-21,#custom_html-3{text-align:center}
@@ -642,7 +642,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-40gd-trivias .post-text p{-webkit-line-clamp:3}
 .gp-blog-wrapper.gp-blog-columns-2 .post-loop .post-text h2 a{-webkit-line-clamp:3}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-thumbnail{float:left;border-radius:0}
-.gp-blog-wrapper.gp-blog-columns-2 .post-thumbnail.wrap{float:none;border-bottom:2px solid #EAEAEA}
+.gp-blog-wrapper.gp-blog-columns-2 .post-thumbnail.wrap{float:none;border-bottom:2px solid #EAEAEA;border-radius:0}
 .post-thumbnail.wrap{float:none;width:100%}
 .post-loop .gp-loop-meta{margin:0!important;position:relative;font-size:.75rem;line-height:1.25}
 .post-loop .gp-loop-meta strong{font-weight:400}
