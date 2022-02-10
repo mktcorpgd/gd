@@ -163,7 +163,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{background:#FFFFFF}
-.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop .post-text,body.search .gp-blog-wrapper .post-loop .post-text,body.archive article.event{clear:both;padding:.5em .8em!important;border-top:2px solid #CCCCCC}
+.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop .post-text,body.search .gp-blog-wrapper .post-loop .post-text{clear:both;padding:.5em .8em!important;border-top:2px solid #CCCCCC}
 body.page-template-default .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text{border-top:none}
 .gp-blog-wrapper section,body:not(.single-event) article.event{float:left;margin:0;width:100%!important;border-radius:12px;overflow:hidden}
 .gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
@@ -631,8 +631,8 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 
 /* Post Loop */
 .post-loop,article.event{margin:0!important;padding:0!important;border:none!important;box-shadow:0 2px 0 0 rgba(0,0,0,.2)}
-.post-loop h2 a{color:#0E316E}
-.post-loop:hover h2 a{color:#F0582B}
+.post-loop h2 a,article.event h2 a{color:#0E316E}
+.post-loop:hover h2 a,article.event:hover h2 a{color:#F0582B}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop[class*='category-casos-de'] .post-text{padding:10px 15px!important}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{margin-top:0!important;margin-bottom:0!important;line-height:1.25}
 .gp-blog-wrapper .post-loop .post-text h2 a{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
