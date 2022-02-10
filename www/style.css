@@ -128,8 +128,8 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 .fusion-logo>img[src*='flag']{display:inline-block;margin-right:15px!important;width:32px;height:32px;position:relative;top:8px;border-radius:32px;box-shadow:0 0 0 2px rgba(255,255,255,.6)}
 .fusion-megamenu-wrapper .fusion-megamenu-border{border-bottom:none}
 body.error404.fusion-page-title-bar .fusion-page-title-row,body.blog.fusion-page-title-bar .fusion-page-title-row{padding-bottom:0}
-.fusion-header-wrapper{width:100%}
-.fusion-header-wrapper:not(.not-sticky){position:fixed!important;top:0}
+.fusion-header-wrapper{width:100%;top:0}
+.fusion-header-wrapper:not(.not-sticky){position:fixed!important}
 body.customize-support .fusion-header-wrapper{top:32px}
 #wrapper:not(.header-transparent) .fusion-header.on-top,.fusion-header:not(.on-top),.fusion-header.on-top.bkg,#wrapper.header-transparent .fusion-header.on-top.bkg{box-shadow:0 4px 16px 0 rgba(0,0,0,.4)!important}
 .fusion-header-wrapper.on-top:not(.bkg) .fusion-header .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']){background:rgba(0,0,0,.9)!important}
