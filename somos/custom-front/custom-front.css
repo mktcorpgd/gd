@@ -594,6 +594,9 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .tippy-content li>a, .UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500!important}
 #UseyourDrive .files .entry{border-radius:12px}
+#UseyourDrive .ajax-filelist .entry.folder:first-child{border-bottom-left-radius:6px;border-bottom-right-radius:6px}
+#UseyourDrive .ajax-filelist .entry.folder:last-child{border-top-left-radius:6px;border-top-right-radius:6px}
+#UseyourDrive .ajax-filelist .entry~.entry.folder{border-radius:6px}
 #UseyourDrive .wpcp-thumb-view .folders-container{margin-bottom:5px}
 #UseyourDrive .entry-info, .UseyourDrive .entry-info{height:40px}
 #UseyourDrive .entry-info-icon, .UseyourDrive .entry-info-icon{top:-1px}
