@@ -776,6 +776,7 @@ body.single-avada_portfolio #wrapper.header-transparent .fusion-header-wrapper~#
 body #wrapper .fusion-fullwidth.header-transparent{background-size:cover}
 
 /* Content boxes */
+.fusion-content-boxes.text-align-left *{text-align:left!important}
 .fusion-content-boxes.content-boxes-icon-on-side .heading{margin-bottom:10px}
 .fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon{text-align:center}
 .fusion-content-boxes.no-heading-title .heading{margin:0!important}
