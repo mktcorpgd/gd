@@ -42,6 +42,8 @@ h2 em,h3 em{font-style:normal;text-decoration:underline}
 .uppercase{text-transform:uppercase}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
+.fusion-content-boxes.text-align-left *{text-align:left!important}
+.fusion-content-boxes.text-align-left .icon{display:inline-block}
 .to-top-container #toTop{width:48px;height:48px;line-height:48px;bottom:15px!important;right:15px!important;background:rgba(255,255,255,.2);border-radius:48px}
 .to-top-right #toTop{right:85px}
 #toTop:before{color:rgba(0,0,0,.4);font-size:30px;line-height:45px}
@@ -776,7 +778,6 @@ body.single-avada_portfolio #wrapper.header-transparent .fusion-header-wrapper~#
 body #wrapper .fusion-fullwidth.header-transparent{background-size:cover}
 
 /* Content boxes */
-.fusion-content-boxes.text-align-left *{text-align:left!important}
 .fusion-content-boxes.content-boxes-icon-on-side .heading{margin-bottom:10px}
 .fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon{text-align:center}
 .fusion-content-boxes.no-heading-title .heading{margin:0!important}
