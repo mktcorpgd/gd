@@ -43,7 +43,7 @@ h2 em,h3 em{font-style:normal;text-decoration:underline}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 .fusion-content-boxes.text-align-left *{text-align:left!important}
-.fusion-content-boxes.text-align-left .icon{display:inline-block}
+.fusion-content-boxes.text-align-left .icon{display:inline-block;margin-left:5px}
 .to-top-container #toTop{width:48px;height:48px;line-height:48px;bottom:15px!important;right:15px!important;background:rgba(255,255,255,.2);border-radius:48px}
 .to-top-right #toTop{right:85px}
 #toTop:before{color:rgba(0,0,0,.4);font-size:30px;line-height:45px}
@@ -894,6 +894,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-social-links-footer .fusion-social-networks{margin-top:0!important}
 .project-content>div>div>div>div:nth-child(1)>div>p:nth-child(1){font-size:18px;font-style:italic;margin-bottom:2em}
 .project-content>div>div>div>div>div>p:nth-child(1)+p{border-top:4px solid #FAFAFA;margin-bottom:0;padding-top:2.4em}
+.fusion-content-boxes.shadow{box-shadow:0 30px 80px rgba(0,0,0,.15), 0 20px 70px rgba(0,0,0,.1)}
 
 /* Toggle */
 .fusion-accordian .panel-heading h4 a div.fusion-toggle-icon-wrapper i{position:relative;bottom:1px}
