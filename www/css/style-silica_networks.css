@@ -47,9 +47,17 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 .fusion-fullwidth .parallax-inner{background-color:transparent!important;z-index:0!important}
 body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,#497718,rgba(255,255,255,.7));z-index:1}
 #wrapper .full-boxed-pricing .panel-wrapper{padding:0 1em}
-.fusion-pricing-table .list-group-item:before{content:'\f00c'}
-.fusion-pricing-table .list-group-item{text-align:left}
-.fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 1px 0 rgba(0,0,0,.4), 0 2px 7px rgba(0,0,0,.5), 0 12px 22px rgba(0,0,0,.6)}
+.fusion-pricing-table .list-group-item{text-align:left;list-style-type:'👉';padding-inline-start: 1ch;}
+.fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 10px 20px rgba(0,0,0,.2)}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(1) .panel-container{border-top:4px solid #AADC23}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(1) .panel-container .panel-heading h3{color:#AADC23}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(2) .panel-container{border-top:4px solid #88B226}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(2) .panel-container .panel-heading h3{color:#88B226}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(3) .panel-container{border-top:4px solid #497719}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(3) .panel-container .panel-heading h3{color:#497719}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(4) .panel-container{border-top:4px solid #324B1C}
+.fusion-pricingtable-column:not(.standout) .panel-wrapper:nth-child(4) .panel-container .panel-heading h3{color:#324B1C}
+.fusion-pricing-table .list-group .list-group-item{background:#FFFFFF!important;border:none!important}
 .full-boxed-pricing{background:none!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border-bottom:1px solid #EAEAEA}
