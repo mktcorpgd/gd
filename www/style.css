@@ -895,7 +895,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-social-links-footer .fusion-social-networks{margin-top:0!important}
 .project-content>div>div>div>div:nth-child(1)>div>p:nth-child(1){font-size:18px;font-style:italic;margin-bottom:2em}
 .project-content>div>div>div>div>div>p:nth-child(1)+p{border-top:4px solid #FAFAFA;margin-bottom:0;padding-top:2.4em}
-.fusion-content-boxes.box-shadow .fusion-column{padding:2e3em}
+.fusion-content-boxes.box-shadow .fusion-column{padding:2em 3em}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper{box-shadow:0 30px 80px rgba(0,0,0,.15), 0 20px 70px rgba(0,0,0,.1);border-radius:24px}
 .fusion-content-boxes .fusion-read-more-button{float:right;margin-top:0}
 
