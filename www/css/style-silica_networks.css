@@ -60,7 +60,8 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .fusion-pricing-table .list-group .list-group-item{background:#FFFFFF!important;border:none!important}
 .full-boxed-pricing{background:none!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
-.fusion-tabs:not(.tab-filters) .nav-tabs{border-bottom:1px solid #EAEAEA}
+.fusion-tabs:not(.tab-filters) .nav-tabs{border-bottom:1px solid #EAEAEA!important}
+.fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#aadc23,#497719)!important;color:#FFFFFF}
 
 /* Desktop */
 @media (min-width:920px) {
