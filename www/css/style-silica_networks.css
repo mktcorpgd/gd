@@ -48,7 +48,11 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,#497718,rgba(255,255,255,.7));z-index:1}
 #wrapper .full-boxed-pricing .panel-wrapper{padding:0 1em}
 .fusion-pricing-table .list-group-item:before{content:'\f00c'}
-.fusion-pricing-table .list-group-item{display:table-cell;text-align:left}
+.fusion-pricing-table .list-group-item{text-align:left}
+.fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 1px 0 rgba(0,0,0,.4), 0 2px 7px rgba(0,0,0,.5), 0 12px 22px rgba(0,0,0,.6)}
+.full-boxed-pricing{background:none!important}
+.post-content .fusion-tabs:not(.tab-filters){border:none!important}
+.fusion-tabs:not(.tab-filters) .nav-tabs{border-bottom:1px solid #EAEAEA}
 
 /* Desktop */
 @media (min-width:920px) {
