@@ -1,5 +1,5 @@
 /* Silica Networks */
-body.page-id-24258 .fusion-main-menu>ul>li:last-child,body.page-id-32849 .tfs-slider .slide-content-container .caption,body.archive.tax-portfolio_category .fusion-image-wrapper{display:none!important}
+body.page-id-24258 .fusion-main-menu>ul>li:last-child,body.page-id-32849 .tfs-slider .slide-content-container .caption,body.archive.tax-portfolio_category .fusion-image-wrapper,.fusion-pricing-table .panel-body.pricing-row{display:none!important}
 body.page-id-32849 .overlay-link{visibility:hidden}
 ::-moz-selection{background:#87B227!important;color:#FFFFFF}::selection{background:#87B227!important;color:#FFFFFF}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#497718!important}
@@ -46,6 +46,9 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 .fusion-fullwidth.fullwidth-box.bg-parallax-parent .fusion-column-wrapper{background-size:contain!important}
 .fusion-fullwidth .parallax-inner{background-color:transparent!important;z-index:0!important}
 body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,#497718,rgba(255,255,255,.7));z-index:1}
+#wrapper .full-boxed-pricing .panel-wrapper{padding:0 1em}
+.fusion-pricing-table .list-group-item:before{content:'\f00c'}
+.fusion-pricing-table .list-group-item{display:table-cell;text-align:left}
 
 /* Desktop */
 @media (min-width:920px) {
