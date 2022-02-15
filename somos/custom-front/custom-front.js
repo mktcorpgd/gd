@@ -406,17 +406,17 @@ jQuery(document).ready(function() {
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name');
+		console.log(input_name);
 		if ( input_name.indexOf('[]') > -1 ) {
 			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
 				return jQuery(el).text();
 			});
 			var txt_comma = selMulti.join('; ');
-input_name= input_name.substring(0,input_name.length-2);
+			input_name= input_name.substring(0,input_name.length-2);
 			console.log(jQuery('.wpcf7-'+input_name).length);
 			if ( jQuery('.wpcf7-'+input_name).length ) {
 				jQuery('.wpcf7-'+input_name).text(txt_comma);
 			}
-			console.log(jQuery('input[name='+input_name+'TXT]').length);
 			if ( jQuery('input[name='+input_name+'TXT]').length ) {
 				jQuery('input[name='+input_name+'TXT]').val(txt_comma);
 			}
