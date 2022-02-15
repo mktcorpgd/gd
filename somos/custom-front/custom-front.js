@@ -406,24 +406,27 @@ jQuery(document).ready(function() {
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name');
-		console.log(input_name);
+		// Si es un select multiple
 		if ( input_name.indexOf('[]') > -1 ) {
 			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
 				return jQuery(el).text();
 			});
-			var txt_comma = selMulti.join('; ');
+			var val_comma = selMulti.join('; ');
 			input_name= input_name.substring(0,input_name.length-2);
-			console.log(jQuery('.wpcf7-'+input_name).length);
 			if ( jQuery('.wpcf7-'+input_name).length ) {
-				jQuery('.wpcf7-'+input_name).text(txt_comma);
+				jQuery('.wpcf7-'+input_name).text(val_comma);
 			}
 			if ( jQuery('input[name='+input_name+'TXT]').length ) {
-				jQuery('input[name='+input_name+'TXT]').val(txt_comma);
+				jQuery('input[name='+input_name+'TXT]').val(val_comma);
 			}
 		}
 		else {
+			var val_single = jQuery('option:selected',this).text();
 			if ( jQuery('.wpcf7-'+input_name).length ) {
-				jQuery('.wpcf7-'+input_name).text(jQuery('option:selected',this).text());
+				jQuery('.wpcf7-'+input_name).text(val_single);
+			}
+			if ( jQuery('input[name='+input_name+'TXT]').length ) {
+				jQuery('input[name='+input_name+'TXT]').val(val_single);
 			}
 		}
 	});
