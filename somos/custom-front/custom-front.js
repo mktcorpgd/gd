@@ -388,7 +388,6 @@ jQuery(document).ready(function() {
 				var input_name = jQuery(this).parent().attr('name').replace(/[[]]/g,'');
 				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
 				input_value = input_value.substring(0,input_value.indexOf(';'));
-				jQuery('input[name='+input_name+'TXT]').val(input_value);
 				jQuery(this).attr('data-cat-id',id_cat);
 				if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1' ) {
 					jQuery(this).val(id_cat);
