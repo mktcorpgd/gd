@@ -1,8 +1,10 @@
 jQuery(document).ready(function() {
 
+
 	// Deshabilitar pasos 2 y 3 del formulario
 	jQuery('.wpcf7-form>.step2 :input,.wpcf7-form>.step3 :input').prop('disabled',true);
 	jQuery('.wpcf7-form>.step3 input[type=submit]').prop('disabled',true);
+
 
 	// Cambiar tarjetas según empresa elegida
 	jQuery('select[name=ORG]').change(function() {
@@ -26,6 +28,7 @@ jQuery(document).ready(function() {
 		}).fadeIn('fast');
 	});
 
+
 	// Asignación de nombre, apellido, email, usuario y QR
 	var fname = jQuery('#usrfname').text();
 	var lname = jQuery('#usrlname').text();
@@ -40,6 +43,7 @@ jQuery(document).ready(function() {
 		src: 'https://qr.gdat.co/d/'+username+'/10/H/5',
 		alt: 'QR '+fname+' '+lname
 	});
+
 
 	// Datos de oficina
 	var tp_data = new Array();
@@ -87,6 +91,7 @@ jQuery(document).ready(function() {
 	tp_address['pr_san'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />Hato Rey, San Juan<br />Puerto Rico';
 	tp_phone['pr_san'] = '+1 (787) 302-2509';
 
+
 	// 1. Habilitar oficina después de seleccionar empresa
 	jQuery('.wpcf7 select[name=ORG]').change(function(){
 		jQuery('.wpcf7-form>div.step2').css('opacity','1');
@@ -100,6 +105,7 @@ jQuery(document).ready(function() {
 		var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text();
 		jQuery('input[name=USERNAME]').val(username);
 	});
+
 
 	// 2. Habilitar el resto después de seleccionar oficina
 	jQuery('.wpcf7 select[name=OFFICE]').change(function(){
@@ -152,6 +158,7 @@ jQuery(document).ready(function() {
 		jQuery('.wpcf7-form>.step3,.wpcf7-submit').show().removeClass('disabled');
 	});
 
+
 	// Copiar valores en previsualización según ingreso en campos
 	jQuery(document).on('input','.wpcf7 input',function(){
 		var span_class = jQuery(this).attr('name').toLowerCase();
@@ -202,4 +209,5 @@ jQuery(document).ready(function() {
 		}
 	});
 
+	
 });

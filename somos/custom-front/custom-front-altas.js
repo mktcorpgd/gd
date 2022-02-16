@@ -1,5 +1,6 @@
 jQuery(document).ready(function() {
 
+
 	// Cambiar tarjetas según empresa elegida
 	jQuery('select[name=MODCONT]').change(function() {
 		var modcont = jQuery(this,'option:selected').val();
@@ -12,4 +13,5 @@ jQuery(document).ready(function() {
 		}
 	});
 
+	
 });

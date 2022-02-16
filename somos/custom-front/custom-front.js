@@ -30,6 +30,7 @@ jQuery.fn.capitalize = function(e) {
 	return this;
 };
 
+
 // Código personalizado una vez enviado el formulario
 jQuery(document).on('wpcf7submit',function(e) {
 	jQuery('.wpcf7-form.sending .wpcf7-submit').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
@@ -40,7 +41,8 @@ jQuery(document).on('wpcf7submit',function(e) {
 
 jQuery(document).ready(function() {
 
-	// HOME - Si tiene más de 1700 px, colapsar contenido de pestañas
+
+	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
 	if ( jQuery('body').hasClass('home') ) {
 		jQuery(document).on('click','.ui-tabs-tab',function(e) {
 			jQuery('.sc-tab-panel[aria-hidden=true] .gp-blog-wrapper').removeClass('more-content');
@@ -56,10 +58,12 @@ jQuery(document).ready(function() {
 		});
 	}
 
+
 	// MENÚ - Agregar clase si figura #wpadminbar
 	if ( jQuery('#wpadminbar').length > 0 ) {
 		jQuery('#header').addClass('plus-adminbar');
 	}
+
 
 	// MENÚ - Ajustar para mobile
 	if ( jQuery('body').hasClass('gp-mobile') ) {
@@ -109,10 +113,12 @@ jQuery(document).ready(function() {
 		prevScrollpos = currentScrollPos;
 	});
 	
+
 	// FIX WP 5.5 - Prevenir scrollup con toggles
 	jQuery('h3.toggle a').click(function(e) {
 		e.preventDefault();
 	});
+
 
 	// FIX WP 5.5 - Mobile: arreglar visualización menú y botón
 	jQuery('#mobile-nav-button').click(function(e) {
@@ -123,6 +129,7 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		jQuery(this).siblings('ul').slideToggle('fast');
 	});
+
 
 	// GOOGLE FORMS
 	if ( jQuery('iframe[src*="docs.google.com/forms"]').length ) {
@@ -152,6 +159,7 @@ jQuery(document).ready(function() {
 		
 	}
 
+
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr({
 		'placeholder':'Escribir un comentario...'
@@ -165,6 +173,7 @@ jQuery(document).ready(function() {
 		jQuery(this).attr('tmp_title',title);
 		jQuery(this).attr('title','');
 	});
+
 
 	// BUSCADOR - Si es mobile: buscador dentro del header
 	if ( jQuery(window).width() < 960 ) {
@@ -182,7 +191,8 @@ jQuery(document).ready(function() {
 			jQuery('#logo+.is-search-form.is-form-id-26276').insertBefore('.is-link-container').show();
 		}
 	});
-  
+
+
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
 		var bday_img = Math.floor(Math.random()*1)+1;
@@ -191,6 +201,7 @@ jQuery(document).ready(function() {
 	jQuery('.bdays_upcom').click(function(e){
 		jQuery(this).removeClass('collapse');
 	});
+
 
 	// CASOS - Si es miércoles: avisar para carga de casos
 	/*var today = new Date();
@@ -214,9 +225,11 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});*/
 
+
 	// CONTENIDOS - Ocultar párrafos con espacios en blanco
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
+
 
 	// CONTENIDOS - Referencia de Internet Explorer para módulos de Dropbox
 	if ( jQuery('.UseyourDrive').length && !jQuery('body').hasClass('fullwidth')) {
@@ -226,12 +239,14 @@ jQuery(document).ready(function() {
 			jQuery('.yotu-playlist').prepend('<div class="info-material"><i class="fas fa-info-circle"></i><strong style="font-weight:600"><a href="https://www.youtube.com/grupodatco" target="_blank">Nuestro canal de YouTube</a> funciona como único repositorio para videos públicos e internos. Todo material de video interno o no autorizado a difundir públicamente son visibles sólo en nuestro portal.</strong><br />Tip: la descarga de un video de YouTube puede hacerse desde <a href="https://www.y2mate.com/es1/youtube" target="_blank">y2mate.com</a>.</div>');
 	}
 
+
 	// CONTENIDOS - Agregar clase "dropcap" si el primer párrafo es mayor a 150 caracteres
 	if ( !jQuery('body').hasClass('page') ) {
 		if ( jQuery('#post-content p:first').text().length > 180 ) {
 			jQuery('#post-content p:first').addClass('dropcap');
 		}
 	}
+
 
 	// CONTENIDOS - Convertir a popup
 	jQuery('.wp-block-gallery').magnificPopup({
@@ -302,42 +317,14 @@ jQuery(document).ready(function() {
 			tError: 'La solicitud falló.'
 		}
 	});
-	jQuery('.party .wp-block-column,.sc-tab-panel').each(function(i) {
-		jQuery('.party .wp-block-column:eq('+i+') .grid-gallery-caption,.sc-tab-panel:eq('+i+') .grid-gallery-caption').magnificPopup({
-			type: 'image',
-			callbacks: {
-				elementParse: function(item) {
-					item.src = item.el.parent().attr('href');
-				}
-			},
-			mainClass: 'mfp-img-mobile',
-			tClose: 'Cerrar (Esc)',
-			tLoading: 'Cargando...',
-			gallery: {
-				enabled: true,
-				navigateByImgClick: true,
-				preload: [0,1],
-				tPrev: 'Anterior (tecla ←)',
-				tNext: 'Siguiente (tecla →)',
-				tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
-			},
-			image: {
-				tError: 'La imagen no pudo ser cargada.',
-				titleSrc: function(item) {
-					return item.el.text();
-				},
-			},
-			ajax: {
-				tError: 'La solicitud falló.'
-			}
-		});
-	});
+
 
 	// CONTENIDOS - Ver foto al clickear en figcaption
 	jQuery('.blocks-gallery-item figcaption').on('click',function(e) {
 		e.preventDefault();
 		jQuery(this).prev('a').trigger('click');
 	});
+
 
 	// Ir hacia parte de la página
 	jQuery('a[href^=#goto]').on('click',function(e) {
@@ -349,10 +336,11 @@ jQuery(document).ready(function() {
 		);
 		e.preventDefault();
 	});
-		
+
 	// MANTENIMIENTO - Cambiar idioma del botón en barra de administración
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=Off]').text('Mantenimiento desactivado');
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=On]').text('Mantenimiento activado');
+
 
 	// FORMULARIOS - [IMPORTANTE PARA MAILCHIMP] Agregar textos para la opción free_text en checkbox
 	jQuery('.wpcf7-free-text').blur(function(e) {
@@ -363,12 +351,14 @@ jQuery(document).ready(function() {
 		jQuery(this).parent().find('input[type=checkbox]').val(jQuery(this).attr('data-text')+': '+jQuery(this).val());
 	});
 
+
 	// FORMULARIOS - Al clickear submit mostrar sending
 	jQuery(document).on('submit','.wpcf7-form',function() {
 		jQuery(this).addClass('sending');
 		jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name',jQuery('.wpcf7-form.sending .wpcf7-submit').val());
 		jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
 	});
+
 
 	// FORMULARIOS - Agregar clase en .wpcf7-form-control-wrap si es un select
 	jQuery('.wpcf7-form-control-wrap').each(function(i) {
@@ -379,6 +369,7 @@ jQuery(document).ready(function() {
 			jQuery('.wpcf7-form-control-wrap:eq('+i+')').addClass('wpcf7-form-control-date');
 		}
 	});
+
 
 	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
 	jQuery('.wpcf7-select option').each(function(i) {
@@ -430,27 +421,33 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// FORMULARIOS - Agregar clase "last" en el último bloque de 1 columna
 	jQuery('.columns.one:last').addClass('last');
+
 
 	// FORMULARIOS - Convertir a mayúsculas
 	jQuery('input[name*=ORG]').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toUpperCase());
 	});
 
+
 	// FORMULARIOS - Convertir a minúsculas
 	jQuery('input[name*=EMAIL],input[name=RESPBOSS]').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toLowerCase());
 	});
+
 
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery('input[name*=FNAME],input[name*=LNAME],input[name*=ADDRESS]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
 
-	// FORMULARIOS - Deshabilitar si tiene 
+
+	// FORMULARIOS - Deshabilitar si tiene |
 	jQuery('option:contains(|)').attr('disabled','disabled');
 	
+
 	// FORMULARIOS - Ir hacia el primer error
 	jQuery(document).on('click','.wpcf7-response-output',function(e) {
 		jQuery('html, body').animate({
@@ -460,10 +457,12 @@ jQuery(document).ready(function() {
 		);
 	});
 
+
 	// FORMULARIOS - Ir al :input al clickear en aviso de error
 	jQuery(document).on('click','label.error',function(e) {
 		jQuery(this).parent().find(':input').focus();
 	});
+
 
 	// FORMULARIOS - Limpiar espacios al salir del campo
 	jQuery(document).on('blur','.wpcf7 input',function(){
@@ -472,8 +471,10 @@ jQuery(document).ready(function() {
 		});
 	});
 
+
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
+
 
 	// LATERAL - Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();
@@ -490,6 +491,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// LATERAL - Expandir widget
 	jQuery('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
 	jQuery(document).on('click','.widget .widgettitle .topopup',function(e) {
@@ -504,6 +506,7 @@ jQuery(document).ready(function() {
 		});
 	});
 	
+
 	// LATERAL - Convertir a galería las referencias
 	jQuery('.widget_ref').magnificPopup({
 		delegate: 'a',
@@ -530,9 +533,11 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// FOOTER - Copyright
 	var yy = new Date().getFullYear();
 	jQuery('<div class="bottom_logos"><a href="https://somos.grupodatco.com"><img src="/wp-content/uploads/gd-ima_h-one_color.svg" width="191" height="64" alt="40 años de Grupo Datco" /></a><br />© '+yy+' &bull; Somos Grupo Datco<br /><a href="https://www.linkedin.com/company/grupodatco" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Grupo Datco</a> &middot; <a href="https://www.linkedin.com/showcase/baitcon-gd" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Baitcon</a> &middot; <a href="https://www.linkedin.com/showcase/silicanetworks" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Silica Networks</a> &middot; <a href="https://twitter.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Grupo Datco</a> &middot; <a href="https://twitter.com/baitcon_gd" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Baitcon</a> &middot; <a href="https://www.youtube.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Grupo Datco</a></div>').appendTo('#copyright');
+
 
 	// EVENTOS - Agregar enlace a eventos del mes en menú y calendario
 	var yy = new Date().getFullYear();
@@ -544,8 +549,10 @@ jQuery(document).ready(function() {
 	jQuery('#menu-item-18425>a').attr('href','/eventos/fecha/'+yy+'/'+mm+'/');
 	jQuery('#eo_calendar_widget-7 .widget_ref').after('<a href="/eventos/fecha/'+yy+'/'+mm+'/" class="sc-button blue small">Ver eventos del mes</a>');
 
+
 	// EVENTOS - Agregar referencias para calendario de eventos y capacitaciones
 	jQuery('#eo_calendar_widget-7_content').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="no-participamos" href="/eventos/categoria/no-participamos/">No participamos</a></div>');
+
 
 	// EVENTOS - Convertir textos http en link:
 	if ( jQuery('article.event').length ) {
@@ -557,10 +564,12 @@ jQuery(document).ready(function() {
 		});
 	}
 
+
 	// EVENTOS - Quitar link de venue
 	if ( jQuery('body').hasClass('archive') ) {
 		jQuery('.eo-event-meta li:first-child strong+a:not([rel=tag])').contents().unwrap();
 	}
+
 
 	// EVENTOS - Sumar/Restar año y mes al clickear en links de cambio de mes
 	jQuery(document).on('click','#wp-calendar tfoot a',function(e) {
@@ -570,10 +579,12 @@ jQuery(document).ready(function() {
 		jQuery('#eo_calendar_widget-7 .widget_ref+a').attr('href','/eventos/fecha/'+yy+'/'+mm+'/');
 	});
 
+
 	// TARJETAS DIGITALES - Si tiene más de una...
 	if ( jQuery('.bcard').length > 1 ) {
 		jQuery('#text-4 .widgettitle').text('Mis tarjetas digitales');
 	}
+
 
 	// TARJETAS DIGITALES - Si no tiene una asignada...
 	if ( jQuery('.bcard').length == -1 ) {
@@ -584,8 +595,10 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});
 
+
 	// VIDEOS - Cambiar texto "load more"
 	jQuery('.yotu-pagination-more').text('Ver más');
+
 
 	// BUSQUEDAS LABORALES - Cambio de título en página de archivo
 	if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2797') ) {
@@ -595,13 +608,10 @@ jQuery(document).ready(function() {
 		jQuery('.page-title').text('Búsquedas laborales finalizadas');
 	}
 
+
 	// BÚSQUEDAS LABORALES - Agregar título, UN y botón CTA
 	if ( jQuery('article').hasClass('category-busquedas-laborales') ) {
 		var post_title = jQuery('.page-title').text();
-		/*var job_role = post_title.substring(0,post_title.indexOf('(')-1);
-		jQuery('#post-content table tr:first td:last').text(job_role);
-		var job_unit = post_title.substring(post_title.indexOf('(')+1,post_title.indexOf(')'))
-		jQuery('#post-content table tr:nth-child(2) td:last').text(job_unit);*/
 		var mails_rrhh = jQuery('#post-content table tr:last td:last').text();
 		var arr_mails_rrhh = mails_rrhh.split(';');
 		jQuery('#post-content table tr:last td:last').empty();
@@ -619,4 +629,5 @@ jQuery(document).ready(function() {
 		}
 	}
 
+	
 });

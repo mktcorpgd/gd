@@ -1,12 +1,3 @@
-/**
- * @fileoverview dragscroll - scroll area by dragging
- * @version 0.0.8
- * 
- * @license MIT, see http://github.com/asvd/dragscroll
- * @copyright 2015 asvd <heliosframework@gmail.com> 
- */
-
-
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(['exports'], factory);
@@ -90,9 +81,11 @@
     exports.reset = reset;
 }));
 
+
 jQuery(document).ready(function() {
 
-	// CONTENIDOS - Agregar botones de interacción si es un organigrama
+
+	// Agregar botones de interacción si es un organigrama
 	if ( jQuery('.dragscroll').length ) {
 		jQuery('<div class="zoom-org"><div class="buttons"><button class="sc-button" id="in"><i class="fas fa-search-plus"></i>Acercar</button><button class="sc-button" id="out"><i class="fas fa-search-minus"></i>Alejar</button><button class="sc-button" id="fullscreen"><i class="fas fa-expand"></i><span>Pantalla completa</span></button></div></div>').insertBefore('.dragscroll');
 		jQuery('#in').click(function(e) {
@@ -167,4 +160,5 @@ jQuery(document).ready(function() {
 		jQuery('.dragscroll').scrollLeft(scrollPosition);
 	}
 
+	
 });
