@@ -84,6 +84,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #the-list th#userlogin{width:160px!important}
 #the-list .row-actions{color:transparent}
 .jOrgChart .node{padding-top:30px;background:#EAEAEA}
+.jOrgChart .close{left:-8px!important}
 .jOrgChart tr,.jOrgChart td{border:none!important;border-radius:0!important}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
