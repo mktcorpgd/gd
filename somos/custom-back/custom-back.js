@@ -43,7 +43,6 @@ jQuery(document).ready(function(){
 	
 
 	// USUARIOS - Mostrar campos para organigrama si está el checkbox marcado
-	jQuery('#team_member').val(this.checked);
 	jQuery('#team_member').change(function() {
 		if(this.checked) {
 			jQuery('.user-job-url-bcard-wrap,.fh-profile-upload-options').show();
@@ -51,7 +50,6 @@ jQuery(document).ready(function(){
 		else {
 			jQuery('.user-job-url-bcard-wrap,.fh-profile-upload-options').hide();
 		}
-		jQuery('#team_member').val(this.checked);        
 	});
 
 	
