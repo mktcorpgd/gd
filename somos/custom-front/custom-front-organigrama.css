@@ -26,7 +26,6 @@ body.fullwidth #post-content:not(.fullscreen) .dragscroll{max-height:450px}
 body.fullwidth #post-content:not(.fullscreen) .dragscroll .orgChart{max-height:400px}
 body.fullwidth .dragscroll .orgChart.chart_32264{transform:translate(-80px,-220px)}
 body.fullwidth .dragscroll .orgChart.chart_26343{transform:translate(160px,-240px)}
-body.fullwidth .dragscroll .orgChart.chart_30683{transform:translate(-60px,-360px)}
 body.fullwidth .dragscroll .orgChart .jOrgChart{padding:5em}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll{max-height:300px}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll .orgChart{max-height:250px}
