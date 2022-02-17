@@ -24,7 +24,7 @@ div#chart,div.orgChart{margin:0;padding:0}
 body.fullwidth .dragscroll{padding:4em 0}
 body.fullwidth #post-content:not(.fullscreen) .dragscroll{max-height:450px}
 body.fullwidth #post-content:not(.fullscreen) .dragscroll .orgChart{max-height:400px}
-body.fullwidth .dragscroll .orgChart.chart_32264{transform:translate(-610px,-220px)}
+body.fullwidth .dragscroll .orgChart.chart_32264{transform:translate(-210px,-220px)}
 body.fullwidth .dragscroll .orgChart.chart_26343{transform:translate(-130px,-180px)}
 body.fullwidth .dragscroll .orgChart .jOrgChart{padding:5em}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll{max-height:300px}
