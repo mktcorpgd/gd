@@ -26,6 +26,7 @@ jQuery(document).ready(function() {
 	var tp_data = new Array();
 	var tp_phone = new Array();
 	var tp_address = new Array();
+	var tp_web = new Array();
 	jQuery('.tpdata').each(function(i) {
 		var span_value = jQuery('.tpdata:eq('+i+')').text();
 		var span_class = jQuery('.tpdata:eq('+i+')').attr('class');
