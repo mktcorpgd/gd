@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
 			var checkbox_checked = jQuery(this).val();
 			console.log(radio_checked);
 			console.log(checkbox_checked);
-			//jQuery('input[name=OPC]:checked').val(radio_checked+' + '+checkbox_checked);
+			jQuery('input[name=OPC]:checked').val(radio_checked+' + '+checkbox_checked);
 		}
 	});
 
