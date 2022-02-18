@@ -13,5 +13,18 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
+	// Si se marca checkbox: agregar valor a [OPC]
+	jQuery('#check_freelance').change(function() {
+		var opc_checked = jQuery('input[name=OPC]:checked').val();
+		if ( this.checked ) {
+			jQuery('input[name=OPC]').val(opc_checked+' - '+jQuery(this).val());
+		}
+		else {
+
+			jQuery('input[name=OPC]').val(opc_checked);
+		}
+	});
+
 	
 });
