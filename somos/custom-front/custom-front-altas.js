@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
 		if ( this.checked ) {
 			jQuery(this).val(' + '+this.value);
 		}
-		console.log(jQuery('input[name=SCRCHECK[]]').val());
+		console.log(this.value);
 	});
 
 	
