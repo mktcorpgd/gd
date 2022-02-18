@@ -17,12 +17,9 @@ jQuery(document).ready(function() {
 	// Si se marca checkbox: agregar valor a [OPC]
 	jQuery('#check_freelance').change(function() {
 		if ( this.checked ) {
-			jQuery('input[name=SCRCHECK]').val(' + '+this.value);
+			jQuery(this).val(' + '+this.value);
 		}
-		else {
-			jQuery('input[name=SCRCHECK]').empty();
-		}
-		console.log(jQuery('input[name=SCRCHECK]').val());
+		console.log(jQuery('input[name=SCRCHECK[]]').val());
 	});
 
 	
