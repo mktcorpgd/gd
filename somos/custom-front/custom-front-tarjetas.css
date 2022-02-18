@@ -36,16 +36,20 @@
 #content .columns .tp.digital #mobile-logo{height:48px;background:none!important;border:none!important;border-radius:0!important}
 #content .columns .tp.digital #mobile-content{padding-top:20px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background:linear-gradient(135deg,#2F4793 0%,#74CBF3 100%)}
+#content .columns .tp.digital.zerog_networks #mobile-content{background:linear-gradient(135deg,#692D87 0%,#4D1968 100%)}
 #content .columns .tp.digital.baitcon #mobile-content{background:linear-gradient(135deg,#673681 0%,#B3659A 100%)}
 #content .columns .tp.digital.datco #mobile-content{background:linear-gradient(135deg,#2080BB 0%,#80BDDF 100%)}
+#content .columns .tp.digital.datco_soluciones #mobile-content{background:linear-gradient(135deg,#E4B500 0%,#FFD121 100%)}
 #content .columns .tp.digital.focus #mobile-content{background:linear-gradient(135deg,#433E75 0%,#6C79B8 100%)}
 #content .columns .tp.digital.interservices #mobile-content{background:linear-gradient(135deg,#B42818 0%,#ED7402 100%)}
 #content .columns .tp.digital.sersat #mobile-content{background:linear-gradient(135deg,#0B685F 0%,#039A83 100%)}
 #content .columns .tp.digital.silica_networks #mobile-content{background:linear-gradient(135deg,#5B7B33 0%,#CDCC0F 100%)}
 #content .columns .tp.digital.velocom #mobile-content{background:linear-gradient(135deg,#A12951 0%,#EE82A0 100%)}
 #content .columns.two .tp h3,#content .columns.two .tp h5,#content .columns.two .tp.grupo_datco h3,#content .columns.two .tp.grupo_datco h5{color:#0E316E}
+#content .columns.two .tp.zerog_networks h3,#content .columns.two .tp.zerog_networks h5{color:#692D87}
 #content .columns.two .tp.baitcon h3,#content .columns.two .tp.baitcon h5{color:#89388D}
 #content .columns.two .tp.datco h3,#content .columns.two .tp.datco h5{color:#1C8DCE}
+#content .columns.two .tp.datco_soluciones h3,#content .columns.two .tp.datco_soluciones h5{color:#FBC700}
 #content .columns.two .tp.focus h3,#content .columns.two .tp.focus h5{color:#39457E}
 #content .columns.two .tp.interservices h3,#content .columns.two .tp.interservices h5{color:#BF250D}
 #content .columns.two .tp.sersat h3,#content .columns.two .tp.sersat h5{color:#109B84}
