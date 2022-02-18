@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 		}
 		else {
 			jQuery('select[name^=ACCESS] option[value="Usuario de red"],select[name^=ACCESS] option[value="Email"]').prop('selected', true)
-			jQuery('select[name^=ACCESSinput[name=OPC]'] option[value="Screentime"]').prop('selected', false)
+			jQuery('select[name^=ACCESSinput[name=OPC]] option[value="Screentime"]').prop('selected', false)
 		}
 	});
 
