@@ -17,11 +17,11 @@ jQuery(document).ready(function() {
 	// Si se marca checkbox: agregar valor a [OPC]
 	jQuery('#check_freelance').change(function() {
 		var radio_checked = jQuery('input[name=OPC]:checked').val();
-		console.log(radio_checked);
 		if ( this.checked ) {
 			var checkbox_checked = jQuery(this).val();
-			jQuery('input[name=OPC]').val(radio_checked+' + '+checkbox_checked);
-			console.log(jQuery('input[name=OPC]').val());
+			console.log(checkbox_checked);
+			jQuery('input[name=OPC]:checked').val(radio_checked+' + '+checkbox_checked);
+			console.log(jQuery('input[name=OPC]:checked').val());
 		}
 	});
 
