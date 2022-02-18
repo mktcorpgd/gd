@@ -362,6 +362,7 @@ jQuery(document).ready(function() {
 		if ( site_id == 5 ) {
 			link_href = link_href.substring(2,link_id.length);
 		}
+		console.log(link_href);
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
 	}
