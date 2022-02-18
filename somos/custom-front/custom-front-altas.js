@@ -18,7 +18,7 @@ jQuery(document).ready(function() {
 	jQuery('#check_freelance input').change(function() {
 		if ( this.checked ) {
 			var checkbox_checked = jQuery(this).val();
-			jQuery('input[name=SRCCHECK]').val(' + '+checkbox_checked);
+			jQuery(this).val(' + '+checkbox_checked);
 		}
 	});
 
