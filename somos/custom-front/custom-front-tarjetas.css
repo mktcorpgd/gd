@@ -33,7 +33,7 @@
 #content .columns .tp.digital li{margin:0 auto 15px!important;padding:6px;width:90%;height:auto;line-height:1.4!important;background:rgba(0,0,0,.2);border-radius:6px;color:#FFFFFF}
 #content .columns .tp.digital li:nth-child(2){margin-bottom:0!important}
 #content .columns .tp.digital li:nth-child(3){padding:0!important;background:none}
-#content .columns .tp.digital #mobile-logo{height:48px;background:none!important;border:none!important;border-radius:0!important}
+#content .columns .tp.digital #mobile-logo{height:36px;background:none!important;border:none!important;border-radius:0!important}
 #content .columns .tp.digital #mobile-content{padding-top:20px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background:linear-gradient(135deg,#2F4793 0%,#74CBF3 100%)}
 #content .columns .tp.digital.zerog_networks #mobile-content{background:linear-gradient(135deg,#692D87 0%,#4D1968 100%)}
