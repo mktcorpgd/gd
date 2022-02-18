@@ -110,7 +110,7 @@ jQuery(document).ready(function() {
 		}
 		var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text();
 		jQuery('input[name=USERNAME]').val(username);
-		jQuery('.tpdata.web').text(tp_phone[ctry_office]);
+		jQuery('.tpdata.web').text(tp_web[tp_org]);
 	});
 
 
