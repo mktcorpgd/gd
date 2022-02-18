@@ -339,7 +339,7 @@ jQuery(document).ready(function() {
 					link_id = link_href.substring(link_href.indexOf('whitepaper-')+11,link_href.length-1);
 					link_type = 'whitepaper';
 				}
-				if ( site_id == 'sites/5' ) {
+				if ( site_id == 'sites/5/' ) {
 					link_id = link_id.substring(3,link_id.length);
 				}
 				jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(/wp-content/uploads/'+site_id+link_type+'-'+link_id+'-pdf-large.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');
@@ -358,7 +358,7 @@ jQuery(document).ready(function() {
 		var link_href = window.location.pathname;
 		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
 		console.log('site_id='+site_id);
-		if ( site_id == 'sites/5' ) {
+		if ( site_id == 'sites/5/' ) {
 			link_href = link_href.substring(3,link_id.length);
 		}
 		console.log('link_href='+link_href);
