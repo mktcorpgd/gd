@@ -339,6 +339,7 @@ jQuery(document).ready(function() {
 					link_id = link_href.substring(link_href.indexOf('whitepaper-')+11,link_href.length-1);
 					link_type = 'whitepaper';
 				}
+				console.log(site_id);
 				if ( site_id == 5 ) {
 					console.log(link_id);
 					link_id = link_id.substring(3,link_id.length);
