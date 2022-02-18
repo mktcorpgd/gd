@@ -359,6 +359,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('body.single article.format-link').length ) {
 		var link_href = window.location.pathname;
 		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
+		if ( site_id == 5 ) {
+			link_href = link_href.substring(2,link_id.length);
+		}
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
 	}
