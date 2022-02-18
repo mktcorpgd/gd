@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
 
 
 	// Si se marca checkbox: agregar valor a [OPC]
-	jQuery('#check_freelance').change(function() {
+	jQuery('#check_freelance input').change(function() {
 		if ( this.checked ) {
 			var radio_checked = jQuery('input[name=OPC]:checked').val();
 			var checkbox_checked = jQuery(this).val();
