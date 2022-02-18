@@ -9,11 +9,11 @@ jQuery(document).ready(function() {
 	// Cambiar tarjetas según empresa elegida
 	jQuery('select[name=ORG]').change(function() {
 		var tp_org = jQuery('select[name=ORG] option:selected').val();
-		tp_org = tp_org.replace(/ /g,"_").toLowerCase();
+		tp_org = tp_org.replace(/ /g,'_').toLowerCase();
 		if ( tp_org.indexOf('(') != -1 ) {
 			tp_org = tp_org.substring(0,tp_org.indexOf('(')-1);
-			tp_org = tp_org.replace('0','zero');
 		}
+		tp_org = tp_org.replace(/0/g,'zero').toLowerCase();
 		jQuery('.tp').removeClass().addClass('tp '+tp_org);
 		if ( jQuery('body').hasClass('page-id-24225') ) {
 			jQuery('.tp').addClass('digital');
