@@ -248,7 +248,7 @@ body.search-no-results .fusion-title-size-two{margin-bottom:5px!important}
 #main .search-page-search-form-bottom{margin-top:30px;padding-top:30px}
 
 /* Contenido */
-#content img[src*='flag-'],.modal img[src*='flag-']{margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
+#content img[src*='flag-']:not([class*='alignnone']),.modal img[src*='flag-']:not([class*='alignnone']){margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
 body.single-format-link #content{width:100%!important}
 body.single-format-link .widget-title{font-weight:500!important}
 body.single-format-standard:not(.single-avada_portfolio) article.category-blog{padding-top:0}
