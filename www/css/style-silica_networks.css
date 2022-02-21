@@ -9,6 +9,7 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-button:not(.button-custom):not(.menu-text),.fusion-button:not(.button-custom):not(.menu-text):visited,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{border-color:#87B227!important;color:#87B227}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{border-color:#87B227;background:#87B227;color:#FFFFFF}
 .fusion-button:not(.button-custom):not(.menu-text){background:#87B227}
+.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{color:#FFFFFF}
 .fusion-button:not(.button-custom):not(.menu-text):hover{background:#497718}
 .fusion-button:not(.button-custom):not(.menu-text):hover .fusion-button-text{color:#FFFFFF!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#87B227}
