@@ -855,7 +855,6 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-two-third iframe[src*='youtube.com']{height:290px}
 .fusion-one-full iframe[src*='youtube.com']{height:360px}
 .fusion-posts-container.fusion-blog-layout-grid-2 iframe[src*='youtube.com']{height:230px}
-.fusion-column-wrapper iframe[src*='youtube.com']{border:2px solid #EAEAEA}
 .fusion-blog-layout-grid .post-content iframe{border-radius:0;border:none!important}
 .fusion-blog-layout-grid article.format-video .fusion-post-content-wrapper,.fusion-blog-layout-grid article.format-video .fusion-post-content-container,.fusion-blog-layout-grid article.format-video .fusion-post-content-container .fusion-fullwidth{background:#FAFAFA!important}
 .fusion-blog-layout-grid article.format-video .fusion-post-content.post-content{background:#FFFFFF}
