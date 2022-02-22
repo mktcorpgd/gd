@@ -777,7 +777,6 @@ jQuery(document).ready(function() {
 	if ( jQuery('.fusion-pricing-table').length ) {
 		jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
 			var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
-			console.log(title_pricing);
 			if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing);
 				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
@@ -792,11 +791,11 @@ jQuery(document).ready(function() {
 			if ( jQuery('select[name="SPEED"]').length ) {
 				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 					var speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
+					jQuery('select[name="SPEED"]').val(speed_pricing);
 				}
-				else {
-					var speed_pricing = title_pricing;
+				else { 
+					jQuery('select[name="SPEED"]').val(title_pricing);
 				}
-				jQuery('select[name="SPEED"]').val(speed_pricing);
 			}
 			if ( jQuery('body').hasClass('postid-23901') ) {
 				jQuery('.fusion-modal.contacto-rapido .modal-title').text('Solicitar '+title_pricing);
@@ -804,7 +803,7 @@ jQuery(document).ready(function() {
 			if ( jQuery('select[name="SERVICE"]').length ) {
 				console.log(jQuery('body').hasClass('page-id-78'));
 				if ( jQuery('body').hasClass('page-id-78') ) {
-					title_pricing = jQuery('.fusion-tabs .nav-tabs .active .fusion-tab-heading').text();
+					title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
 				}
 				console.log(title_pricing);
 				jQuery('.fusion-modal.in .modal-title').text('Solicitar '+title_pricing);
