@@ -48,7 +48,7 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 .fusion-fullwidth .parallax-inner{background-color:transparent!important;z-index:0!important}
 body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,#497718,rgba(255,255,255,.7));z-index:1}
 #wrapper .full-boxed-pricing .panel-wrapper{padding:0 1em}
-.fusion-pricing-table .list-group-item{text-align:left;list-style-type:'👉';padding-inline-start: 1ch;}
+.fusion-pricing-table .list-group-item{text-align:left;list-style-type:'👉';padding-inline-start: 1ch}
 .fusion-pricingtable-column .panel-container{box-shadow:0 10px 20px rgba(0,0,0,.2)}
 .fusion-pricingtable-column .panel-wrapper:nth-child(1) .panel-container{border-top:4px solid #AADC23}
 .fusion-pricingtable-column .panel-wrapper:nth-child(1) .panel-container .panel-heading h3{color:#AADC23}
@@ -67,8 +67,7 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .fusion-tabs .nav-tabs li.active a .fusion-tab-heading{color:#FFFFFF!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading{font-size:1.6em!important;font-weight:400!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs li .tab-link:hover{background:none!important}
-.fusion-tabs:not(.tab-filters) .nav{padding:0 3em;box-sizing:border-box;}
-.fusion-tabs:not(.tab-filters) .nav-tabs{box-shadow:inset 0 -20px 20px -20px rgba(0,0,0,.15)}
+.fusion-tabs:not(.tab-filters) .nav{padding:0 3em;background:none;box-sizing:border-box}
 .fusion-tabs.classic.horizontal-tabs .nav-tabs>.active>.tab-link{border-top-left-radius:12px!important;border-top-right-radius:12px!important}
 
 /* Desktop */
