@@ -812,7 +812,7 @@ jQuery(document).ready(function() {
 
 
 	// PRECIOS - Si tiene "--" tachar fila y bajar opacidad
-	jQuery('.list-group-item normal-row').each(function(i){
+	jQuery('.list-group-item').each(function(i){
 		if ( jQuery(this).indexOf('–') > -1 ) {
 			jQuery(this).css('text-decoration','line-through');
 		}
