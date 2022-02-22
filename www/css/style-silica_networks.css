@@ -53,22 +53,23 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .fusion-pricing-table .panel-body, .fusion-pricing-table .list-group-item{padding:.6em 1em!important}
 .fusion-pricing-table .list-group-item{text-align:left;list-style-type:'👉';padding-inline-start: 1ch}
 .fusion-pricingtable-column .panel-container{box-shadow:0 10px 20px rgba(0,0,0,.2)}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel{border-top:4px solid #AADC23}
+#wrapper .full-boxed-pricing .panel-wrapper .fusion-panel{border-top-width:12px;border-top-style:solid}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel{border-top-color:#AADC23}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel .panel-heading h3{color:#AADC23}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel{border-top:4px solid #88B226}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel{border-top-color:#88B226}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel .panel-heading h3{color:#88B226}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel{border-top:4px solid #497719}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel{border-top-color:#497719}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel .panel-heading h3{color:#497719}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel{border-top:4px solid #324B1C}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel{border-top-color:#324B1C}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel .panel-heading h3{color:#324B1C}
-.fusion-pricing-table .list-group .list-group-item{background:#FFFFFF!important;border:none!important}
+.fusion-pricing-table .list-group .list-group-item,.fusion-pricing-table .panel-wrapper:hover .fusion-panel{background:#FFFFFF!important;border:none!important}
 .full-boxed-pricing{background:none!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
 .fusion-tabs:not(.tab-filters) .nav{background:none;box-sizing:border-box}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border-bottom:1px solid #EAEAEA!important}
 .fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#aadc23,#497719)!important}
 .fusion-tabs .nav-tabs li a{background:none!important}
-.fusion-tabs .nav-tabs li.active a .fusion-tab-heading{color:#FFFFFF}
+.fusion-tabs .nav-tabs li.active a .fusion-tab-heading{color:#FFFFFF!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading{font-size:1.6em!important;font-weight:400!important}
 .fusion-tabs.classic.horizontal-tabs .nav-tabs .tab-link{border-top-left-radius:12px!important;border-top-right-radius:12px!important}
 
