@@ -49,18 +49,18 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,#497718,rgba(255,255,255,.7));z-index:1}
 #wrapper .full-boxed-pricing .panel-wrapper{padding:0 1em}
 .fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 10px 40px rgba(0,0,0,.15)}
-.full-boxed-pricing .panel-wrapper:hover .panel-heading,.panel-wrapper:hover .list-group-item{background:none}
+.full-boxed-pricing .panel-wrapper:hover .panel-heading,.panel-wrapper:hover .list-group-item{background:none!important}
 .fusion-pricing-table .panel-body, .fusion-pricing-table .list-group-item{padding:.6em 1em!important}
 .fusion-pricing-table .list-group-item{text-align:left;list-style-type:'👉';padding-inline-start: 1ch}
 .fusion-pricingtable-column .panel-container{box-shadow:0 10px 20px rgba(0,0,0,.2)}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1){border-top:4px solid #AADC23}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .panel-heading h3{color:#AADC23}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2){border-top:4px solid #88B226}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .panel-heading h3{color:#88B226}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3){border-top:4px solid #497719}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .panel-heading h3{color:#497719}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(4){border-top:4px solid #324B1C}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .panel-heading h3{color:#324B1C}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel{border-top:4px solid #AADC23}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel .panel-heading h3{color:#AADC23}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel{border-top:4px solid #88B226}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel .panel-heading h3{color:#88B226}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel{border-top:4px solid #497719}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel .panel-heading h3{color:#497719}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel{border-top:4px solid #324B1C}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel .panel-heading h3{color:#324B1C}
 .fusion-pricing-table .list-group .list-group-item{background:#FFFFFF!important;border:none!important}
 .full-boxed-pricing{background:none!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
