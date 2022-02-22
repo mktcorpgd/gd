@@ -802,9 +802,12 @@ jQuery(document).ready(function() {
 				jQuery('.fusion-modal.contacto-rapido .modal-title').text('Solicitar '+title_pricing);
 			}
 			if ( jQuery('select[name="SERVICE"]').length ) {
+				console.log(jQuery('body').hasClass('page-id-78'));
 				if ( jQuery('body').hasClass('page-id-78') ) {
 					title_pricing = jQuery('.fusion-tabs .nav-tabs .active .fusion-tab-heading').text();
 				}
+				console.log(title_pricing);
+				jQuery('.fusion-modal.in .modal-title').text('Solicitar '+title_pricing);
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
 		});
