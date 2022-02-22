@@ -816,7 +816,10 @@ jQuery(document).ready(function() {
 		console.log(jQuery(this).text().indexOf('–') > -1);
 		if ( jQuery(this).text().indexOf('–') > -1 ) {
 			jQuery(this).text().substring(1,jQuery(this).length);
-			jQuery(this).css('text-decoration','line-through');
+			jQuery(this).css({
+				'text-decoration':'line-through',
+				'opacity':0.6
+			});
 		}
 	});
 
