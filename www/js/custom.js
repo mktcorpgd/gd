@@ -777,6 +777,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.fusion-pricing-table').length ) {
 		jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
 			var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
+			console.log(title_pricing);
 			if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing);
 				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
@@ -790,10 +791,10 @@ jQuery(document).ready(function() {
 			}
 			if ( jQuery('select[name="SPEED"]').length ) {
 				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
-					speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
+					var speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
 				}
 				else {
-					speed_pricing = title_pricing;
+					var speed_pricing = title_pricing;
 				}
 				jQuery('select[name="SPEED"]').val(speed_pricing);
 			}
@@ -816,7 +817,6 @@ jQuery(document).ready(function() {
 
 	// PRECIOS - Si tiene "--" tachar fila y bajar opacidad
 	jQuery('.list-group-item').each(function(i){
-		console.log(jQuery(this).text().indexOf('–') > -1);
 		if ( jQuery(this).text().indexOf('–') > -1 ) {
 			jQuery(this).text(jQuery(this).text().substring(1,jQuery(this).text().length));
 			jQuery(this).css({
