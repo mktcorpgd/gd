@@ -62,7 +62,7 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel .panel-heading h3{color:#497719}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel{border-top-color:#324B1C}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel .panel-heading h3{color:#324B1C}
-.fusion-pricing-table .list-group .list-group-item,.fusion-pricing-table .panel-wrapper:hover .fusion-panel{background:#FFFFFF!important;border:none!important}
+.fusion-pricing-table .list-group .list-group-item,.fusion-pricing-table .panel-wrapper:hover .fusion-panel{background:#FFFFFF!important}
 .full-boxed-pricing{background:none!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
 .fusion-tabs:not(.tab-filters) .nav{background:none;box-sizing:border-box}
