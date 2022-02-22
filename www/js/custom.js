@@ -788,11 +788,11 @@ jQuery(document).ready(function() {
 					jQuery('select[name="TITLE"]').val(title_pricing);
 				}
 				if ( jQuery('select[name="SPEED"]').length ) {
-					if ( jQuery('body').hasClass('postid-25090') ) {
-						speed_pricing = title_pricing;
+					if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
+						speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
 					}
 					else {
-						speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
+						speed_pricing = title_pricing;
 					}
 					jQuery('select[name="SPEED"]').val(speed_pricing);
 				}
@@ -801,6 +801,9 @@ jQuery(document).ready(function() {
 				jQuery('.fusion-modal.contacto-rapido .modal-title').text('Solicitar '+title_pricing);
 			}
 			if ( jQuery('select[name="SERVICE"]').length ) {
+				if ( jQuery('body').hasClass('page-id-78') ) {
+					title_pricing = jQuery('.fusion-tabs .nav-tabs .active .fusion-tab-heading').text();
+				}
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
 		});
