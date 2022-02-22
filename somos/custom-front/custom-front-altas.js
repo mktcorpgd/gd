@@ -25,8 +25,8 @@ jQuery(document).ready(function() {
 
 	// Cambiar automáticamente por comas
 	jQuery(document).on('keyup','input[name=RESPBOSS]',function() {
-		jQuery(this).val(jQuery(this).val().replace(/;/g,','));
-		jQuery(this).val(jQuery(this).val().replace(/ /g,','));
+		jQuery(this).val(jQuery(this).val().replace(/;/g,', '));
+		jQuery(this).val(jQuery(this).val().replace(/ /g,', '));
 	});
 
 	
