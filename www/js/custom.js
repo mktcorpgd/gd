@@ -809,7 +809,7 @@ jQuery(document).ready(function() {
 			}
 			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
 				console.log('ok');
-				jQuery(this).find('.fusion-button').click();
+				// jQuery(this).find('.fusion-panel fusion-button').click();
 			});
 		});
 		jQuery('.integer-part').each(function() {
