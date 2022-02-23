@@ -808,6 +808,7 @@ jQuery(document).ready(function() {
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
 			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+				console.log('ok');
 				jQuery(this).find('.fusion-button').click();
 			});
 		});
