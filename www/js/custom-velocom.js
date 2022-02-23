@@ -1,14 +1,17 @@
 // Función para normalizar textos
 var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
 
+
 // HEADER - Transformar teléfonos con link:
 jQuery('.fusion-contact-info-phone-number').each(function(i) {
 	var value = jQuery(this).text();
 	jQuery(this).html('<a href="tel:'+value+'">'+value+'</a>');
 });
 
+
 // GENERAL - Función para obtener variables GET
 jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
+
 
 // CONTENIDO - Cambios para páginas de Internet: mostrar/ocultar según variable GET <lugar>
 if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
@@ -56,6 +59,7 @@ if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-
 	}*/
 }
 
+
 // CONTENIDO - Si cambia la localidad recargar con información respectiva
 jQuery('select[name*=LOC]').change(function() {
 	if ( window.location.href == 'https://www.velocom.com.ar/' || (jQuery('body').hasClass('postid-24725')) || (jQuery('body').hasClass('postid-23640')) || (jQuery('body').hasClass('postid-24906')) ) {
@@ -81,42 +85,6 @@ jQuery('select[name*=LOC]').change(function() {
 	}
 });
 
-// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
-if ( jQuery('.fusion-pricing-table').length ) {
-	jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
-		var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
-		if ( !jQuery('body').hasClass('postid-23901') ) {
-			jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing);
-			var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
-			var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-			if ( lugar_class != 'null' ) {
-				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing+' en '+lugar_name);
-			}
-			if ( jQuery('select[name="TITLE"]').length ) {
-				jQuery('select[name="TITLE"]').val(title_pricing);
-			}
-			if ( jQuery('select[name="SPEED"]').length ) {
-				if ( jQuery('body').hasClass('postid-25090') ) {
-					speed_pricing = title_pricing;
-				}
-				else {
-					speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
-				}
-				jQuery('select[name="SPEED"]').val(speed_pricing);
-			}
-		}
-		if ( jQuery('body').hasClass('postid-23901') ) {
-			jQuery('.fusion-modal.contacto-rapido .modal-title').text('Solicitar '+title_pricing);
-		}
-		if ( jQuery('select[name="SERVICE"]').length ) {
-			jQuery('select[name="SERVICE"]').val(title_pricing);
-		}
-	});
-	jQuery('.integer-part').each(function() {
-		var text = jQuery(this).text();
-		jQuery(this).text(text.replace(',','.')); 
-	});
-}
 
 // FORMULARIO - Domicilio a través de Google Maps
 inputs_address = document.getElementsByClassName('address_maps');
@@ -126,7 +94,6 @@ for (var i = 0; i < inputs_address.length; i++) {
 		selected = true;
 	});
 }
-
 var selected = false;
 jQuery('.address_maps').on('focus', function() {
 	if( selected != true ) {

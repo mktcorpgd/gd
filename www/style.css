@@ -1015,7 +1015,8 @@ html[lang*='en'] .collapsed-post-content .fusion-post-content:before{content:'ï
 /* Otros */
 .no-margin,.wpcf7 .nomargin,.nomargin>div.vendors,.fusion-content-boxes.nomargin .fusion-column,.fusion-accordian .fusion-toggle-heading,.fusion_builder_column_3_4 .fusion_builder_column_1_1 h4,.fusion_builder_column_3_4 .fusion_builder_column_1_3 h4,.fusion-portfolio-grid .fusion-post-content-wrapper,.fusion-portfolio-layout-grid .fusion-post-content-wrapper,body.home .fusion-posts-container-no.fusion-no-meta-info.fusion-blog-layout-grid .fusion-post-content-wrapper h2{margin:0!important}
 .no-margin .fusion-content-widget-area .widget{margin-bottom:10px!important}
-.no-margin-h3{margin-top:5px}
+.no-margin-h3 h3,.no-margin-h4 h4{margin-top:5px!important}
+.padding1em .fusion-column-wrapper{padding:1em!important}
 .no-border,.modal-content,.tfs-slider .overlay-link,.tab-filters .nav li a,.nav-tabs a,.fusion-filters li a,.nav-tabs a{border:0!important}
 .fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
 .mejs-container *{font-family:'Open-Sans',sans-serif}
@@ -1041,6 +1042,7 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 .post-content ul li:first-child,.post-content ol li:first-child{margin-top:0}
 .post-content .fusion-text p a:hover,.post-content .fusion-text ol li a:hover,.post-content .fusion-text ul li a:hover,.toggle-content a:hover,.modal-a:not(.fusion-button):hover,.table-1 td a:hover,.table-2 td a:hover{text-decoration:underline!important}
 .toggle-content p:last-child,.toggle-content p+ul{margin-bottom:5px!important}
+.toggle-content p{margin-bottom:0}
 
 /* Propiedades combinadas */
 .wpcf7-form-control-wrap,.fusion-blog-layout-grid .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{display:block}
