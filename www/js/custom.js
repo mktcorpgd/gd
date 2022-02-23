@@ -808,9 +808,10 @@ jQuery(document).ready(function() {
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
 		});
-		console.log(jQuery('body').hasClass('page-id-78') && jQuery('body').hasClass('site-id-5'));
 		if ( jQuery('body').hasClass('page-id-78') && jQuery('body').hasClass('site-id-5') ) {
 			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+				jQuery('select[name="SPEED"]').val(title_pricing);
+				jQuery('select[name="SERVICE"]').val(title_pricing);
 				jQuery('#open-consultar-internet').trigger('click');
 			});	
 		}
