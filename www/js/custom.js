@@ -808,9 +808,11 @@ jQuery(document).ready(function() {
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
 		});
-		jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
-			jQuery(this).find('.fusion-panel .panel-footer .fusion-button').trigger('click');
-		});
+		if ( jQuery('body').hasClass('page-id-78') && jQuery('body').hasClass('site-id-5') ) {
+			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+				jQuery('#open-consultar-internet').trigger('click');
+			});	
+		}
 		jQuery('.integer-part').each(function() {
 			var text = jQuery(this).text();
 			jQuery(this).text(text.replace(',','.')); 
