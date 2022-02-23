@@ -809,7 +809,7 @@ jQuery(document).ready(function() {
 			}
 		});
 		jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
-			var speed_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
+			var speed_pricing = jQuery(this).find('.panel-heading .title-row').text();
 			if ( jQuery('body').hasClass('page-id-78') ) {
 				var title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
 			}
