@@ -807,9 +807,10 @@ jQuery(document).ready(function() {
 				jQuery('.fusion-modal.in .modal-title').text('Solicitar '+title_pricing);
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
-			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
-				e.preventDefault();
+			jQuery(document).on('click','.fusion-pricingtable-column .panel-container',function(e) {
 				console.log('ok');
+				e.preventDefault();
+				e.stopPropagation();		
 			});
 		});
 		jQuery('.integer-part').each(function() {
