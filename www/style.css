@@ -1039,9 +1039,6 @@ body.page.page-template-100-width .post-content>.fusion-fullwidth.radius2x{borde
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .radius-rounded{border-radius:256px!important}
 span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
-.post-content p:last-child{margin-bottom:0!important}
-.post-content ul,.post-content ol{margin-top:0}
-.post-content ul li:first-child,.post-content ol li:first-child{margin-top:0}
 .post-content .fusion-text p a:hover,.post-content .fusion-text ol li a:hover,.post-content .fusion-text ul li a:hover,.toggle-content a:hover,.modal-a:not(.fusion-button):hover,.table-1 td a:hover,.table-2 td a:hover{text-decoration:underline!important}
 .toggle-content p:last-child,.toggle-content p+ul{margin-bottom:5px!important}
 .toggle-content p{margin-bottom:0}
