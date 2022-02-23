@@ -807,7 +807,7 @@ jQuery(document).ready(function() {
 				jQuery('.fusion-modal.in .modal-title').text('Solicitar '+title_pricing);
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
-			jQuery('.fusion-pricingtable-column .panel-container .list-group-item').click(function(e) {
+			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
 				e.preventDefault();
 				console.log('ok');
 			});
