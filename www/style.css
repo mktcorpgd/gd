@@ -45,6 +45,7 @@ h2 em,h3 em{font-style:normal;text-decoration:underline}
 .fusion-content-boxes.text-align-left *{text-align:left!important}
 .fusion-content-boxes.text-align-left .icon,.fusion-content-boxes.text-align-left .icon i{display:inline-block!important}
 .fusion-content-boxes.text-align-left .icon{margin-left:5px}
+.fusion-content-boxes .content-container p{margin-bottom:10px}
 .to-top-container #toTop{width:48px;height:48px;line-height:48px;bottom:15px!important;right:15px!important;background:rgba(255,255,255,.2);border-radius:48px}
 .to-top-right #toTop{right:85px}
 #toTop:before{color:rgba(0,0,0,.4);font-size:30px;line-height:45px}
