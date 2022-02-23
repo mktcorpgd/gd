@@ -78,7 +78,7 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 @media (min-width:920px) {
 	.fusion-modal.contacto-rapido .modal-lg{width:1200px}
 	.fusion-tabs:not(.tab-filters) .nav{padding:0 8em}
-	.fusion-modal.consultar-internet .modal-dialog{width:800px}
+	.fusion-modal.consultar-internet .modal-dialog,.width-800{width:800px}
 }
 
 /* Mobile */
