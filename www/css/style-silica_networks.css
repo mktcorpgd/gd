@@ -52,7 +52,8 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .full-boxed-pricing .panel-wrapper:hover .panel-heading,.panel-wrapper:hover .list-group-item{background:none!important}
 .fusion-pricing-table .panel-body, .fusion-pricing-table .list-group-item{padding:.6em 1em!important}
 .fusion-pricing-table .list-group-item{text-align:left;list-style-type:'👉';padding-inline-start: 1ch}
-.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out;box-shadow:0 10px 20px rgba(0,0,0,.2);cursor:pointer}
+.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out;box-shadow:0 10px 20px rgba(0,0,0,.2)}
+.fusion-pricingtable-column .panel-container .list-group-item{cursor:pointer}
 .fusion-pricingtable-column .panel-container:hover{box-shadow:0 10px 30px rgba(0,0,0,.3)}
 #wrapper .full-boxed-pricing .panel-wrapper .fusion-panel{border-top-width:12px;border-top-style:solid}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel{border-top-color:#AADC23}
