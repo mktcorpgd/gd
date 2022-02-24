@@ -72,7 +72,7 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .fusion-tabs:not(.tab-filters) .nav-tabs{border-bottom:1px solid #EAEAEA!important}
 .fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#aadc23,#497719)!important}
 .fusion-tabs .nav-tabs li a{background:none!important}
-.fusion-tabs .nav-tabs li.active a .fusion-tab-heading{color:#FFFFFF!important}
+.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-modal.contacto-rapido .modal-title{color:#FFFFFF!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading{font-size:1.6em!important;font-weight:400!important}
 .fusion-tabs.classic.horizontal-tabs .nav-tabs .tab-link{border-top-left-radius:12px!important;border-top-right-radius:12px!important}
 .fusion-counters-box .fusion-counter-box .counter-box-container{padding:5px 20px 20px}
