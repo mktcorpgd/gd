@@ -14,7 +14,7 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#87B227!important}
 .wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#87B227!important}
 .related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a{color:#87B227}
-#content .button-default:hover,.fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .button-default:hover{background:#497718!important}
+#content .button-default:hover,.fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .button-default,.fusion-pricingtable-column .panel-container:hover .fusion-button{background:#497718!important}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#5B7B33!important}
 body:not(.home) .fusion-posts-container article.category-c-productos-servicios .fusion-post-content{padding-bottom:53px!important}
 .w80 .wpcf7 .wpcf7-submit:hover{background:#87B227!important;border-color:#FFFFFF!important}
@@ -52,7 +52,8 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .full-boxed-pricing .panel-wrapper:hover .panel-heading,.panel-wrapper:hover .list-group-item{background:none!important}
 .fusion-pricing-table .panel-body, .fusion-pricing-table .list-group-item{padding:.6em 1em!important}
 .fusion-pricing-table .list-group-item{text-align:left;list-style-type:'👉';padding-inline-start: 1ch}
-.fusion-pricingtable-column .panel-container{box-shadow:0 10px 20px rgba(0,0,0,.2)}
+.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out;box-shadow:0 10px 20px rgba(0,0,0,.2);cursor:pointer}
+.fusion-pricingtable-column .panel-container:hover{box-shadow:0 10px 30px rgba(0,0,0,.3)}
 #wrapper .full-boxed-pricing .panel-wrapper .fusion-panel{border-top-width:12px;border-top-style:solid}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel{border-top-color:#AADC23}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel .panel-heading h3{color:#AADC23}
@@ -72,12 +73,14 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .fusion-tabs .nav-tabs li.active a .fusion-tab-heading{color:#FFFFFF!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading{font-size:1.6em!important;font-weight:400!important}
 .fusion-tabs.classic.horizontal-tabs .nav-tabs .tab-link{border-top-left-radius:12px!important;border-top-right-radius:12px!important}
+.fusion-counters-box .fusion-counter-box .counter-box-container{padding:5px 20px 20px}
 
 /* Desktop */
 @media (min-width:920px) {
 	.fusion-modal.contacto-rapido .modal-lg{width:1200px}
 	.fusion-tabs:not(.tab-filters) .nav{padding:0 8em}
 	.fusion-modal.consultar-internet .modal-dialog{width:800px}
+	.width-800 .tab-content{margin:0 auto;width:800px}
 }
 
 /* Mobile */

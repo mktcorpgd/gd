@@ -808,6 +808,15 @@ jQuery(document).ready(function() {
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
 		});
+		jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+			var speed_pricing = jQuery(this).find('.panel-heading .title-row').text();
+			if ( jQuery('body').hasClass('page-id-78') ) {
+				var title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
+			}
+			jQuery('select[name="SPEED"]').val(speed_pricing);
+			jQuery('select[name="SERVICE"]').val(title_pricing);
+			jQuery('#open-consultar-internet').trigger('click');
+		});	
 		jQuery('.integer-part').each(function() {
 			var text = jQuery(this).text();
 			jQuery(this).text(text.replace(',','.')); 
