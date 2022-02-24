@@ -32,8 +32,8 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 #wrapper:not(.gradient-s) .tfs-slider .background:after,#wrapper:not(.gradient-s) .tfs-slider li .mobile_video_image:after{background:linear-gradient(270deg,rgba(0,0,0,.4) 50%,rgba(0,0,0,.8) 100%)!important}
 .box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:#87B227!important}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#87B227!important}
-.fusion-modal.contacto-rapido .modal-dialog,.fusion-modal.contacto-rapido .modal-content,.fusion-modal.contacto-rapido .fusion-fullwidth{background:rgba(0,0,0,.8)!important}
-.fusion-modal.contacto-rapido .modal-dialog{background:transparent!important}
+.fusion-modal.contacto-rapido .modal-dialog{background:rgba(0,0,0,.8)!important}
+.fusion-modal.contacto-rapido .modal-content,.fusion-modal.contacto-rapido .fusion-fullwidth{background:transparent!important}
 .fusion-modal.contacto-rapido .fusion-fullwidth{padding:0!important}
 .fusion-content-boxes.no-heading-title h5{color:#497718}
 #content .tfs-slider video{border-color:#497718}
