@@ -1,5 +1,5 @@
 /* Silica Networks */
-body.page-id-24258 .fusion-main-menu>ul>li:last-child,body.page-id-32849 .tfs-slider .slide-content-container .caption,body.archive.tax-portfolio_category .fusion-image-wrapper,.fusion-pricing-table .panel-body.pricing-row,body.page-id-20929 .hidden-contacto .fusion-button-wrapper:first-child+.fusion-button-wrapper{display:none!important}
+body.page-id-24258 .fusion-main-menu>ul>li:last-child,body.page-id-32849 .tfs-slider .slide-content-container .caption,body.archive.tax-portfolio_category .fusion-image-wrapper,.fusion-pricing-table .panel-body.pricing-row,body.page-id-20929 .hidden-contacto .fusion-button-wrapper:first-child+.fusion-button-wrapper,.fusion-modal.contacto-rapido h1{display:none!important}
 body.page-id-32849 .overlay-link{visibility:hidden}
 ::-moz-selection{background:#87B227!important;color:#FFFFFF}::selection{background:#87B227!important;color:#FFFFFF}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#497718!important}
@@ -31,7 +31,7 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 #wrapper:not(.gradient-s) .tfs-slider .background:after,#wrapper:not(.gradient-s) .tfs-slider li .mobile_video_image:after{background:linear-gradient(270deg,rgba(0,0,0,.4) 50%,rgba(0,0,0,.8) 100%)!important}
 .box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:#87B227!important}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#87B227!important}
-.fusion-modal.contacto-rapido .fusion-fullwidth{background:#497718!important}
+.fusion-modal.contacto-rapido,.fusion-modal.contacto-rapido .fusion-fullwidth{background:#222222!important}
 .fusion-content-boxes.no-heading-title h5{color:#497718}
 #content .tfs-slider video{border-color:#497718}
 #main #comment-submit,.wpcf7 .fusion-one-full>a{color:#87B227}
