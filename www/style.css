@@ -112,7 +112,7 @@ body.single-avada_portfolio .sidebar .widget .heading h4,.fusion-sidebar-inner-c
 .modal-backdrop.in{opacity:.5!important;transition:none!important}
 .modal{transition:none!important;opacity:1!important;z-index:99999}
 .modal .modal-dialog{margin:60px auto 0;border-radius:12px;transition:all .1s ease-in-out!important;opacity:0;visibility:hidden}
-.modal.in .modal-dialog{opacity:1;visibility:visible}
+.modal.in .modal-dialog{box-shadow:0 5px 25px rgba(0,0,0,.4);opacity:1;visibility:visible}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
 .modal-content{padding:1.4em 1em;box-shadow:none;border-radius:12px}
 .modal .modal-title{padding-right:50px;font-family:'Neo-Sans',sans-serif!important;font-weight:500!important;width:auto}
