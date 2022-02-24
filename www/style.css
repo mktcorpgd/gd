@@ -14,7 +14,7 @@ article.category-c-nosotros .fusion-single-line-meta,
 .related-posts .fusion-carousel-meta span:not(.fusion-date),
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,.fusion-portfolio-meta a[href*='/c-solo-contacto'],body.single-avada_portfolio .related-posts .fusion-carousel-meta,
 body.archive .fusion-post-wrapper .meta-tags,
-.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']){display:none!important}
+.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']),body.page-id-20929 .hidden-contacto{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales .panel-body p span,body.no-partners .fusion-footer .partners{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
