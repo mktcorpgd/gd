@@ -1,5 +1,5 @@
 /* Silica Networks */
-body.page-id-24258 .fusion-main-menu>ul>li:last-child,body.page-id-32849 .tfs-slider .slide-content-container .caption,body.archive.tax-portfolio_category .fusion-image-wrapper,.fusion-pricing-table .panel-body.pricing-row{display:none!important}
+body.page-id-24258 .fusion-main-menu>ul>li:last-child,body.page-id-32849 .tfs-slider .slide-content-container .caption,body.archive.tax-portfolio_category .fusion-image-wrapper,.fusion-pricing-table .panel-body.pricing-row,body.page-id-20929 .hidden-contacto .fusion-button-wrapper:first-child+.fusion-button-wrapper{display:none!important}
 body.page-id-32849 .overlay-link{visibility:hidden}
 ::-moz-selection{background:#87B227!important;color:#FFFFFF}::selection{background:#87B227!important;color:#FFFFFF}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#497718!important}
@@ -74,6 +74,7 @@ body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-grad
 .fusion-tabs .nav-tabs li .fusion-tab-heading{font-size:1.6em!important;font-weight:400!important}
 .fusion-tabs.classic.horizontal-tabs .nav-tabs .tab-link{border-top-left-radius:12px!important;border-top-right-radius:12px!important}
 .fusion-counters-box .fusion-counter-box .counter-box-container{padding:5px 20px 20px}
+
 
 /* Desktop */
 @media (min-width:920px) {
