@@ -220,6 +220,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 #comments .commentlist li .gp-comment-meta strong{font-weight:500}
 #comments .commentlist li .gp-comment-content{margin:0!important}
 #comments .commentlist li .gp-comment-content .gp-comment-description>p{margin-bottom:5px!important;padding-bottom:0;font-size:.9em;line-height:1.5}
+#comments .commentlist li [itemprop='author']:after{content:'—'!important}
 
 /* Formularios */
 .wpcf7 .columns>label>span,.wpcf7 .columns>div[data-class='wpcf7cf_group']>label>span{margin-top:5px;font-size:1rem;line-height:1.15}
