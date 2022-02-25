@@ -787,7 +787,7 @@ section[class*='mexico'] .post-text h2:before,article[class*='mexico'] .post-thu
 section[class*='peru'] .post-text h2:before,article[class*='peru'] .post-thumbnail:before,#tab-Per .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-gd_pe.svg)!important}
 section[class*='puerto-rico'] .post-text h2:before,article[class*='puerto-rico'] .post-thumbnail:before,#tab-PuertoRico .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-gd_pr.svg)!important}
 section[class*='category-40gd'] .post-text h2:before{top:30px}
-section[class*='regional'] .post-text h2:before,article[class*='regional'] .post-thumbnail:before,[class*='argentina'][class*='chile'] .post-text h2:before,[class*='argentina'][class*='chile'] .post-thumbnail:before{background-color:#0E316E;background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-gd_regional.svg)}
+section[class*='regional'] .post-text h2:before,article[class*='regional'] .post-thumbnail:before,[class*='argentina'][class*='chile'] .post-text h2:before,[class*='argentina'][class*='chile'] .post-thumbnail:before{background-color:#0E316E;background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-gd_regional.svg)!important}
 
 /* Home */
 body.home #post-content{margin-bottom:0}
