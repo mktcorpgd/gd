@@ -1227,7 +1227,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body.page-id-31537 .mfp-content .post-loop .post-thumbnail{margin-bottom:0!important;border-width:0 1px 0 0!important}
 	body.home .post-loop[class*='category-40gd']{border-radius:6px!important}
 	body.home .gp-blog-wrapper+.post-loop{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
-	body.single article:not([class*='category-politicas-procesos']) h1+.gp-entry-meta .gp-meta-cats{margin:0;padding:0;border:none}
 }
 
 /* Mobile */
@@ -1425,25 +1424,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	#countdown li{font-size:1.125rem;padding:.75rem}
 	#countdown li span{font-size:3.375rem}
-	/* GD 40 */
-	body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-column .wp-block-column{margin:1em 0 0}
-	body.page-id-31537 .wp-block-column>h4{margin-left:-1.05rem!important;margin-right:-1.05rem!important;font-size:1.2em}
-	body.page-id-31537 #menu40gd{left:0}
-	body.page-id-31537 #menu40gd ul li{line-height:1.5}
-	body.page-id-31537 #menu40gd ul li:not(:last-child){border-right:none}
-	body.page-id-31537 #menu40gd>span{display:none}
-	body.page-id-31537 #menu40gd .sc-button{padding:.3em .25em!important;font-size:.75em!important;border-radius:6px!important}
-	body.page-id-31537 #content-wrapper{margin-top:5em}
-	body.page-id-31537 #content h1{font-size:1.9em!important}
-	#countdown li{padding-left:0;padding-right:0}
-	#post-content .container_countdown h2,#countdown li span{font-size:2em}
-	#post-content .container_countdown h2{margin-top:.4em!important}
-	.grid-gallery-caption,.grid-gallery-caption img{height:auto!important}
-	body.page-id-31537 .content-details{-webkit-line-clamp:4}
-	body.page-id-31537 .mfp-content h1{font-size:2em!important}
-	.competition-podium{grid-template-columns:1fr}
-	.competition-podium,.competition-podium .podium-block .podium{height:auto!important}
-	body.home .post-loop[class*='category-40gd'] .post-text:before{top:-40px;border:2px solid #FFFFFF;border-right:none;border-top-left-radius:6px}
+	body.single article:not([class*='category-politicas-procesos']) h1+.gp-entry-meta .gp-meta-cats{margin:0;padding:0;border:none}
 }
 @media (max-width:960px) and (orientation:landscape) {
 	#content .columns.two .tp h2{bottom:17vw;font-size:6.5vw}
