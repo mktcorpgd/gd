@@ -109,7 +109,7 @@ body .bk_forms .hasDatepick{display:block!important}
 .html5_player_container{border-radius:12px}
 #content p.dropcap:not(.ays-fs-title):first-of-type:first-letter,body.page-id-31537 .mfp-content #post-content p:not(.ays-fs-title):first-child:first-letter{display:inline-block;float:left;margin:6px 0 0 -2px;padding:0 2px 0 0;font-size:300%;height:.8em;line-height:.85em;color:#0E316E;font-weight:400;font-family:'Neo-Sans',sans-serif}
 #content p.dropcap:not(.ays-fs-title):first-of-type:first-letter,body.page-id-31537 .mfp-content #post-content p:not(.ays-fs-title):first-child:first-letter{display:inline-block;float:left;margin:6px 0 0 -2px;padding:0 2px 0 0;font-size:300%;height:.8em;line-height:.85em;color:#0E316E;font-weight:400;font-family:'Neo-Sans',sans-serif}
-#content p.dropcap.entrada-bienvenida{font-size:100%;}
+#content .entrada-bienvenida.dropcap{font-size:100%;}
 
 /* Admin */
 body.role-administrator .wp-block-column.only-admin{padding:0!important;margin:0!important;background:none!important;border:4px dashed #999999}
