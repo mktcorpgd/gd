@@ -1,6 +1,4 @@
-*/Prueba Git cara de papa*/
 /* Ocultar */
-/* pRUEBA */
 .search-page-search-form>p,.error-page .fusion-error-page-search>h3,.error-page .fusion-error-page-search>p,.mc4wp-checkbox,.alert-custom.no-close .close,html .resultsMoreLi,body.home .fusion-blog-shortcode .fusion-post-contsent-container p,.hidden,.fusion-post-content-wrapper>div>div>p>a,.panel-collapse .panel-strong+br,.fusion-loading-msg,.fusion-content-sep,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.error-page .fusion-column:first-child,.useful-links,body.error404 .searchform .search-button,body.error404 h3,body.home .fusion-blog-layout-grid-wrapper .fusion-post-content-container,body:not(.postid-37899) #main.width-100 #sidebar,.logged-in-as,#respond .fusion-title,.comment-form-cookies-consent,.wpcf7-submit+.fusion-slider-loading,.mobile-only,.fusion-search-button.search-button,.fusion-button:before,.fusion-button:after,.fusion-footer-widget-area a:before,.select-arrow,#inicio .fusion-content-boxes.content-boxes-icon-on-top .fusion-read-more:after,body.blog article.category-trabajo,.fusion-portfolio .fusion-portfolio-grid.fusion-portfolio-four .fusion-button i,.fusion-portfolio .fusion-portfolio-grid.fusion-portfolio-five .fusion-button i,.no-featured-image .fusion-image-wrapper,.no-tags .meta-tags,.c-solo-contacto .fusion-button.button-left,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-button.button-left,#custom_html-4 .widget-title,.no-buttons .fusion-post-content,div.wpcf7 .ajax-loader,.fusion-load-more-button.fusion-blog-button:before,.fusion-load-more-button.fusion-blog-button:after,body.page-id-34645 .fusion-footer-widget-area,body.page-id-33753 .fusion-footer-widget-area,#post-404page>.post-content>.fusion-title,.fusion-footer-widget-area ul li a:after,.fusion-megamenu-bullet,.c-solo-contacto .more-link,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,body.page-id-27099 .fusion-footer-widget-area .widget_nav_menu,.fusion-portfolio-content .fusion-text~p .more-link,.commentlist .the-comment .comment-text em+br,.fusion-sharing-box.share-box h4,body.single article.post.format-link .fusion-post-slideshow,.fusion-breadcrumbs>span:first-child,.fusion-breadcrumbs>span:first-child+.fusion-breadcrumb-sep,.fusion-breadcrumbs .fusion-breadcrumb-item:last-child,.fusion-breadcrumbs>span:nth-last-child(3)+.fusion-breadcrumb-sep,.no-read-button .button-left,#wrapper:not(.country-flag) .country-flag.menu-item.hidden,
 body.search #sidebar,
 body.search article.avada_portfolio .fusion-single-line-meta>span:first-child,
@@ -44,19 +42,23 @@ h2 em,h3 em{font-style:normal;text-decoration:underline}
 .uppercase{text-transform:uppercase}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
+.fusion-content-boxes.text-align-left *{text-align:left!important}
+.fusion-content-boxes.text-align-left .icon,.fusion-content-boxes.text-align-left .icon i{display:inline-block!important}
+.fusion-content-boxes.text-align-left .icon{margin-left:5px}
+.fusion-content-boxes .content-container p{margin-bottom:10px}
 .to-top-container #toTop{width:48px;height:48px;line-height:48px;bottom:15px!important;right:15px!important;background:rgba(255,255,255,.2);border-radius:48px}
 .to-top-right #toTop{right:85px}
 #toTop:before{color:rgba(0,0,0,.4);font-size:30px;line-height:45px}
 .to-top-container #toTop:hover:before{color:rgba(0,0,0,.6)}
 h3 img[src*='flag-']{width:22px;height:22px;top:4px}
 h4 img[src*='flag-']{top:4px!important}
-.bkg-cover,.bkg-cover .fusion-column-wrapper{background-size:cover!important}
+.bkg-cover,.bkg-cover .fusion-column-wrapper{background-size:cover!important;background-attachment:fixed!important}
 .bkg-contain,.bkg-contain .fusion-column-wrapper{background-size:contain!important}
 .bkg-size70,.bkg-size70 .fusion-column-wrapper{background-size:70%!important}
 .bkg-size80,.bkg-size80 .fusion-column-wrapper{background-size:80%!important}
 #nav ul li ul li a,#reviews #comments>h2,#sticky-nav ul li ul li a,#wrapper #nav ul li ul li>a,#wrapper #sticky-nav ul li ul li>a,.avada-container h3,.comment-form input[type='submit'],.ei-title h3,.fusion-blog-shortcode .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body #main .tribe-events .datepicker,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price,.fusion-image-wrapper .fusion-rollover .fusion-rollover-content a,.fusion-load-more-button,.fusion-main-menu .sub-menu,.fusion-main-menu .sub-menu li a,.fusion-megamenu-widgets-container,.fusion-megamenu-wrapper .fusion-megamenu-submenu>a:hover,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-page-title-bar h3,.gform_page_footer input[type=button],.meta .fusion-date,.more,.post-content blockquote,.review blockquote div strong,.review blockquote q,[type=submit].ticket-selector-submit-btn,.wpcf7-form input[type='submit'],body{font-family:'Open-Sans',sans-serif}
 body.single .post-content article.post h3{font-size:1.6em!important}
-.white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,.white .fusion-accordian .fusion-toggle-icon-unboxed .fusion-panel .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li{color:#FFFFFF!important}
+.white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,.white .fusion-accordian .fusion-toggle-icon-unboxed .fusion-panel .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li,.white .toggle-content a{color:#FFFFFF!important}
 .bkg-white{background:#FFFFFF}
 .list-style-none .fusion-text ul,.list-style-none .fusion-text ul li{margin:0;padding:0;list-style:none}
 .nicescroll-rails{background:rgba(0,0,0,.4)!important}
@@ -110,7 +112,7 @@ body.single-avada_portfolio .sidebar .widget .heading h4,.fusion-sidebar-inner-c
 .modal-backdrop.in{opacity:.5!important;transition:none!important}
 .modal{transition:none!important;opacity:1!important;z-index:99999}
 .modal .modal-dialog{margin:60px auto 0;border-radius:12px;transition:all .1s ease-in-out!important;opacity:0;visibility:hidden}
-.modal.in .modal-dialog{opacity:1;visibility:visible}
+.modal.in .modal-dialog{box-shadow:0 5px 25px rgba(0,0,0,.4);opacity:1;visibility:visible}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
 .modal-content{padding:1.4em 1em;box-shadow:none;border-radius:12px}
 .modal .modal-title{padding-right:50px;font-family:'Neo-Sans',sans-serif!important;font-weight:500!important;width:auto}
@@ -119,7 +121,7 @@ body.single-avada_portfolio .sidebar .widget .heading h4,.fusion-sidebar-inner-c
 .modal .modal-body a:not(.fusion-button):hover{text-decoration:underline}
 .modal-body .fusion-fullwidth{border-radius:12px}
 body:not(.page-id-39954):not(.page-id-41066).site-id-1 .fusion-modal.contacto-rapido .modal-body,body.site-id-5 .fusion-modal.contacto-rapido .modal-body,body.site-id-6 .fusion-modal.contacto-rapido .modal-body,body.site-id-25 .fusion-modal.contacto-rapido .modal-body{padding:0}
-body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth,body.site-id-5 .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth,body.site-id-6 .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth,body.site-id-25 .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth{padding:24px 20px 0!important}
+body:not(.page-id-39954):not(.page-id-41066):not(.site-id-5) .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth,body.site-id-6 .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth,body.site-id-25 .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth{padding:24px 20px 0!important}
 body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .modal-body img,body.site-id-5 .fusion-modal.contacto-rapido .modal-body img,body.site-id-6 .fusion-modal.contacto-rapido .modal-body img,body.site-id-25 .fusion-modal.contacto-rapido .modal-body img{border:none!important}
 .fusion-modal .modal-header{margin-bottom:1em;min-height:auto!important;height:auto!important;padding:0!important;border:none!important}
 .modal-header .close{transition:color .1s ease-in-out;margin:0!important;padding:0;width:40px;height:40px;line-height:1;position:absolute;top:5px;right:5px;color:rgba(34,34,34,.6);background:none!important;border:none!important;cursor:pointer}
@@ -230,7 +232,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .fusion-main-menu .fusion-main-menu-search-open a:after{color:rgba(255,255,255,.4)!important;font-weight:900}
 .fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents{padding:0;width:100%!important;position:fixed;top:66px;left:0;box-shadow:0 0 24px -4px rgba(0,0,0,.2)!important;border:0!important}
 .fusion-main-menu>ul>li.current-menu-item>a .menu-text:not(.fusion-button){border:0!important}
-.menu-item .menu-text>img[src*='-white.svg'],.fusion-mobile-nav-item .menu-text>img[src*='-white.svg'],.fusion-footer-widget-area ul li img[src*='-white.svg']{width:18px;height:18px;max-width:18px}
+.menu-item .menu-text>img[src*='-white.svg'],.fusion-mobile-nav-item .menu-text>img[src*='-white.svg'],.fusion-footer-widget-area ul li img[src*='-white.svg']{width:18px;max-width:18px}
 .menu-item .menu-text>img,.fusion-mobile-nav-item .menu-text>img{vertical-align:middle}
 .menu-item .menu-text>img[src*='whatsapp']{margin-right:3px;width:20px;height:20px;max-width:20px;position:relative;top:-2px}
 .menu-item.social-link .menu-text>img[src*='whatsapp']{margin-right:0}
@@ -247,7 +249,7 @@ body.search-no-results .fusion-title-size-two{margin-bottom:5px!important}
 #main .search-page-search-form-bottom{margin-top:30px;padding-top:30px}
 
 /* Contenido */
-#content img[src*='flag-'],.modal img[src*='flag-']{margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
+#content img[src*='flag-']:not([class*='alignnone']),.modal img[src*='flag-']:not([class*='alignnone']){margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
 body.single-format-link #content{width:100%!important}
 body.single-format-link .widget-title{font-weight:500!important}
 body.single-format-standard:not(.single-avada_portfolio) article.category-blog{padding-top:0}
@@ -396,13 +398,13 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7 .fusion-one-full>a{display:inline-block;padding:4px 0;font-family:'Neo-Sans',sans-serif;font-size:95%;font-weight:500!important;text-align:center;line-height:1.15;opacity:.9}
 .wpcf7 .fusion-one-full>a:hover{opacity:1}
 .wpcf7 div.wpcf7-response-output{position:relative;text-align:center!important}
-.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:100%;border:0!important;border-radius:6px;box-shadow:none!important;font-size:.875em!important;line-height:1.1;font-style:italic;margin:0!important;padding:0!important;text-align:center!important;text-transform:none!important}
+.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner,.wpcf7 form div.wpcf7-response{width:100%;border:0!important;border-radius:6px;box-shadow:none!important;font-size:.875em!important;line-height:1.1;font-style:italic;margin:0!important;padding:0!important;text-align:center!important;text-transform:none!important}
 .wpcf7-response-inner{margin:0 auto!important;padding:5px 4px!important;width:95%;line-height:1.3}
 input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em!important}
 .fusion-title+.wpcf7-response-inner{border-bottom-left-radius:0;border-bottom-right-radius:0}
-.wpcf7 form.invalid div.wpcf7-response-output,.wpcf7 form.sent div.wpcf7-response-output{margin:5px 0 0!important;padding:4px!important}
+.wpcf7 form.invalid div.wpcf7-response-output,.wpcf7 form.sent div.wpcf7-response-output,.wpcf7 form div.wpcf7-response{margin:5px 0 0!important;padding:4px!important}
 .wpcf7 form.invalid div.wpcf7-response-output{background-color:#FF5151!important;color:#FFFFFF!important}
-.wpcf7 form div.wpcf7-response-output.info{margin:0 0 5px!important;padding:4px!important;background-color:#F19C00!important;color:#FFFFFF!important}
+.wpcf7 form div.wpcf7-response.info{margin:0 0 5px!important;padding:4px!important;background-color:#F19C00!important;color:#FFFFFF!important}
 .wpcf7 form.sent div.wpcf7-response-output,.wpcf7-response-inner.sent{background-color:#419466!important;color:#FFFFFF!important}
 .wpcf7-response-inner.warning{background-color:#F19C00!important;color:#FFFFFF!important}
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
@@ -439,6 +441,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:12px}
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:6px}
 .fusion-button-default-size,.fusion-portfolio-one .fusion-button{-webkit-appearance:none;background:#FFFFFF;font-style:normal}
+#content .button-default:hover{text-decoration:none}
 .fusion-button.button-flat:not(.no-text),.wpcf7 input[type='submit']{margin-left:auto;margin-right:auto;border-radius:12px!important}
 .fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text){display:inline-block;margin-right:10px;margin-bottom:10px}
 .fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text)>span{font-weight:500}
@@ -478,9 +481,9 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-footer-widget-area ul{margin:15px 0}
 .fusion-footer-widget-area ul li{padding:5px 0!important;border:0!important}
 .fusion-footer-widget-area .widget_nav_menu li.social-link{display:inline-block;padding-right:10px!important}
-.fusion-footer-widget-area ul li a{font-size:.8em;line-height:1.1;font-weight:400!important;font-family:'Neo-Sans',sans-serif}
-.fusion-footer-widget-area ul li a:hover{text-decoration:underline}
-.fusion-footer-widget-area ul li a>span{display:block;margin-top:0;font-family:'Open-Sans',sans-serif;font-weight:400;font-size:65%;line-height:1.3;opacity:.8}
+.fusion-footer-widget-area ul li:not(.social-link) a{font-size:.9em;line-height:1.1;font-weight:400!important;font-family:'Neo-Sans',sans-serif}
+.fusion-footer-widget-area ul li:not(.social-link) a:hover{text-decoration:underline}
+.fusion-footer-widget-area ul li:not(.social-link) a>span{display:block;margin-top:0;font-family:'Open-Sans',sans-serif;font-weight:400;font-size:65%;line-height:1.3;opacity:.8}
 .fusion-footer-widget-area ul li.logo-footer{margin-top:5px!important}
 .fusion-footer-widget-area .current-menu-item>a{color:#FFFFFF!important}
 .fusion-footer-widget-area .wpcf7 .fusion-layout-column{margin-bottom:0}
@@ -552,7 +555,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .markers .marker-link.fusion-button:nth-child(3){width:33%;border-bottom-left-radius:0!important;border-top-left-radius:0!important;border-bottom-right-radius:0!important}
 
 /* Botones */
-.tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:hover{padding:.6em .7em!important;font-size:1.4em!important;border:none!important}
+.tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{padding:.6em .7em!important;font-size:1.4em!important;border:none!important}
 .fusion-button{border-style:solid!important}
 .fusion-button.left-margin{margin-left:2em!important}
 .fusion-button_size-large #main #comment-submit,.fusion-button_size-large #main .comment-submit,.fusion-button_size-large #reviews input#submit,.fusion-button_size-large .comment-form input[type='submit'],.fusion-button_size-large .fusion-button-default-size,.fusion-button_size-large .fusion-portfolio-one .fusion-button,.fusion-button_size-large .post-password-form input[type='submit'],.fusion-button_size-large .slidingbar-area .button-default,.fusion-button_size-large .ticket-selector-submit-btn[type='submit'],.fusion-button_size-large .tml-submit-wrap input[type='submit'],.fusion-button_size-large .wpcf7-form input[type='submit'],.fusion-button_size-large .wpcf7-submit{font-size:1.1em;line-height:1}
@@ -686,7 +689,7 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper{border-bottom-right-radius:48px;border-bottom:2px solid #EAEAEA}
 .fusion-blog-layout-grid .fusion-post-content-container p,.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p,.fusion-portfolio-grid .fusion-post-content .fusion-title,.fusion-portfolio-grid .fusion-post-content .fusion-content-boxes{padding:0px 20px 14px;margin-bottom:0}
 .fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.9em}
-.content-container ul{margin-top:0;margin-bottom:0;padding-left:20px}
+.content-container ul{margin-top:0;padding-left:20px}
 .fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper img{height:64px;margin:20px auto 0;width:auto}
 body.archive .fusion-portfolio-layout-grid .fusion-post-content p{padding-left:0;padding-right:0}
 .fusion-portfolio-post .fusion-portfolio-content-wrapper{position:relative;box-shadow:none}
@@ -854,7 +857,6 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-two-third iframe[src*='youtube.com']{height:290px}
 .fusion-one-full iframe[src*='youtube.com']{height:360px}
 .fusion-posts-container.fusion-blog-layout-grid-2 iframe[src*='youtube.com']{height:230px}
-.fusion-column-wrapper iframe[src*='youtube.com']{border:2px solid #EAEAEA}
 .fusion-blog-layout-grid .post-content iframe{border-radius:0;border:none!important}
 .fusion-blog-layout-grid article.format-video .fusion-post-content-wrapper,.fusion-blog-layout-grid article.format-video .fusion-post-content-container,.fusion-blog-layout-grid article.format-video .fusion-post-content-container .fusion-fullwidth{background:#FAFAFA!important}
 .fusion-blog-layout-grid article.format-video .fusion-post-content.post-content{background:#FFFFFF}
@@ -894,6 +896,14 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-social-links-footer .fusion-social-networks{margin-top:0!important}
 .project-content>div>div>div>div:nth-child(1)>div>p:nth-child(1){font-size:18px;font-style:italic;margin-bottom:2em}
 .project-content>div>div>div>div>div>p:nth-child(1)+p{border-top:4px solid #FAFAFA;margin-bottom:0;padding-top:2.4em}
+.fusion-content-boxes.box-shadow .fusion-column{padding:1em 2em}
+.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper{padding:2em}
+.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper{transition:all .1s ease-in-out;box-shadow:0 30px 80px rgba(0,0,0,.15);border-radius:24px}
+.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{box-shadow:0 30px 100px rgba(0,0,0,.3);cursor:pointer}
+.fusion-content-boxes .fusion-read-more-button{float:right;margin-top:0}
+.fusion-content-boxes.content-boxes-icon-on-top .content-container{margin-bottom:0}
+.fusion-content-boxes .content-wrapper-background{padding:25px}
+.fusion-content-boxes .content-container img.aligncenter{margin-bottom:20px}
 
 /* Toggle */
 .fusion-accordian .panel-heading h4 a div.fusion-toggle-icon-wrapper i{position:relative;bottom:1px}
@@ -1009,6 +1019,8 @@ html[lang*='en'] .collapsed-post-content .fusion-post-content:before{content:'ï
 /* Otros */
 .no-margin,.wpcf7 .nomargin,.nomargin>div.vendors,.fusion-content-boxes.nomargin .fusion-column,.fusion-accordian .fusion-toggle-heading,.fusion_builder_column_3_4 .fusion_builder_column_1_1 h4,.fusion_builder_column_3_4 .fusion_builder_column_1_3 h4,.fusion-portfolio-grid .fusion-post-content-wrapper,.fusion-portfolio-layout-grid .fusion-post-content-wrapper,body.home .fusion-posts-container-no.fusion-no-meta-info.fusion-blog-layout-grid .fusion-post-content-wrapper h2{margin:0!important}
 .no-margin .fusion-content-widget-area .widget{margin-bottom:10px!important}
+.no-margin-h3 h3,.no-margin-h4 h4{margin-top:5px!important}
+.padding1em .fusion-column-wrapper{padding:1em!important}
 .no-border,.modal-content,.tfs-slider .overlay-link,.tab-filters .nav li a,.nav-tabs a,.fusion-filters li a,.nav-tabs a{border:0!important}
 .fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
 .mejs-container *{font-family:'Open-Sans',sans-serif}
@@ -1029,11 +1041,9 @@ body.page.page-template-100-width .post-content>.fusion-fullwidth.radius2x{borde
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .radius-rounded{border-radius:256px!important}
 span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
-.post-content p:last-child{margin-bottom:0!important}
-.post-content ul,.post-content ol{margin-top:0}
-.post-content ul li:first-child,.post-content ol li:first-child{margin-top:0}
 .post-content .fusion-text p a:hover,.post-content .fusion-text ol li a:hover,.post-content .fusion-text ul li a:hover,.toggle-content a:hover,.modal-a:not(.fusion-button):hover,.table-1 td a:hover,.table-2 td a:hover{text-decoration:underline!important}
 .toggle-content p:last-child,.toggle-content p+ul{margin-bottom:5px!important}
+.toggle-content p{margin-bottom:0}
 
 /* Propiedades combinadas */
 .wpcf7-form-control-wrap,.fusion-blog-layout-grid .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{display:block}
@@ -1110,7 +1120,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.no-padding-left-right .fusion-column{padding-left:0!important;padding-right:0!important}
 	.no-margin-bottom.no-description.fusion-columns-2 .fusion-column{margin-bottom:10px!important}
 	.hero-img{padding-top:5%!important;padding-bottom:5%!important}
-	.hero-img .fusion-layout-column{width:75%}
 	.hero-img .fusion-title-2{margin-bottom:0!important}
 	#inicio .fusion-content-boxes.content-boxes-icon-on-top .content-container,#inicio .fusion-content-boxes .fusion-column,#inicio .fusion-content-boxes.content-boxes-icon-on-top .heading{margin-bottom:0!important}
 	body.single-format-link .fusion-one-full .wpcf7{margin:0 auto;width:60%}
@@ -1157,6 +1166,8 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-pricingtable-column.standout .panel-container{padding:0!important;top:30px;box-shadow:0 0 24px rgba(0,0,0,.6)}
 	.fusion-pricingtable-column:not(.standout) .panel-container{margin-top:2em}
 	.fusion-main-menu .country-flag{display:inline-block}
+	body #boxed-wrapper #wrapper .fusion-fullwidth.header-transparent.hundred-percent-height{height:calc(100vh)!important}
+	body #wpadminbar~#boxed-wrapper #wrapper .fusion-fullwidth.header-transparent.hundred-percent-height{height:calc(100vh - 32px)!important}
 }
 
 /* Mobile */
@@ -1264,7 +1275,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-mobile-nav-item.country-flag .menu-text>img{width:30px;height:30px;max-width:30px;max-height:30px;border-radius:16px}
 	.fusion-mobile-nav-item.country-flag .sub-menu{display:grid;grid-template-columns:25% 25% 25% 25%}
 	.fusion-mobile-nav-item.country-flag .sub-menu li{padding:1em 1em 0 0}
-	.fusion-mobile-nav-item.country-flag .sub-menu li a img{border-radius:32px}
+	.fusion-mobile-nav-item.country-flag .sub-menu li a img{width:70%;border-radius:32px}
 	.fusion-mobile-menu-search{margin:10px -32px -20px!important}
 	.fusion-mobile-menu-icons a{margin-left:24px!important}
 	.fusion-mobile-menu-icons a,.fusion-mobile-menu-icons a:after,.fusion-mobile-menu-icons a:before,html .fusion-open-submenu{color:#FFFFFF!important}
@@ -1277,7 +1288,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-mobile-nav-item a{padding:9px 0;font-size:1.5em!important;letter-spacing:0!important;line-height:1.3;border-bottom:0!important;height:auto!important}
 	.fusion-mobile-nav-item.highlight>a>span{border-bottom:2.5px solid #FFFFFF}
 	.fusion-mobile-menu-design-modern .button-header a,.fusion-mobile-menu-design-modern .button-header-no-borders a,.fusion-mobile-menu-design-modern .fusion-modal-text-link-button a{margin:10px;border:2px solid #FFFFFF!important;border-radius:12px}
-	.fusion-mobile-nav-item .fusion-open-submenu:before{position:absolute;top:3px}
+	.fusion-mobile-nav-item .fusion-open-submenu:before{position:absolute;top:5px}
 	.fusion-mobile-nav-item .fusion-open-submenu[href='#']{width:48px}
 	.fusion-mobile-nav-item .fusion-open-submenu[href='#']:before{right:14px}
 	.fusion-mobile-nav-item .sub-menu .fusion-open-submenu[href='#']{padding-right:0!important;width:100%;max-height:47px}

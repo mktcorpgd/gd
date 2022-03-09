@@ -1,30 +1,10 @@
 jQuery(document).ready(function() {
 
+
 	// Deshabilitar pasos 2 y 3 del formulario
 	jQuery('.wpcf7-form>.step2 :input,.wpcf7-form>.step3 :input').prop('disabled',true);
 	jQuery('.wpcf7-form>.step3 input[type=submit]').prop('disabled',true);
 
-	// Cambiar tarjetas según empresa elegida
-	jQuery('select[name=ORG]').change(function() {
-		var tp_org = jQuery('select[name=ORG] option:selected').val();
-		tp_org = tp_org.replace(/ /g,"_").toLowerCase();
-		if ( tp_org.indexOf('(') != -1 ) {
-			tp_org = tp_org.substring(0,tp_org.indexOf('(')-1);
-		}
-		jQuery('.tp').removeClass().addClass('tp '+tp_org);
-		if ( jQuery('body').hasClass('page-id-24225') ) {
-			jQuery('.tp').addClass('digital');
-		}
-			jQuery('#mobile-logo').fadeOut('fast', function() {
-			jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
-		}).fadeIn('fast');
-			jQuery('#tp_frente').fadeOut('fast', function() {
-			jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente.png');
-		}).fadeIn('fast');
-		jQuery('#tp_dorso').fadeOut('fast', function() {
-			jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso.png');
-		}).fadeIn('fast');
-	});
 
 	// Asignación de nombre, apellido, email, usuario y QR
 	var fname = jQuery('#usrfname').text();
@@ -41,15 +21,27 @@ jQuery(document).ready(function() {
 		alt: 'QR '+fname+' '+lname
 	});
 
-	// Datos de oficina
+
+	// Datos de tarjetas
 	var tp_data = new Array();
 	var tp_phone = new Array();
 	var tp_address = new Array();
+	var tp_web = new Array();
 	jQuery('.tpdata').each(function(i) {
 		var span_value = jQuery('.tpdata:eq('+i+')').text();
 		var span_class = jQuery('.tpdata:eq('+i+')').attr('class');
 		tp_data[span_class] = span_value;
 	});
+	tp_web['zerog_networks'] = '0gnetworks.com.ar';
+	tp_web['grupo_datco'] = 'www.grupodatco.com';
+	tp_web['baitcon'] = 'www.baitcon.com';
+	tp_web['datco'] = 'datco.grupodatco.com';
+	tp_web['datco_soluciones'] = 'www.grupodatco.com';
+	tp_web['focus'] = 'focus.grupodatco.com';
+	tp_web['interservices'] = 'interservices.grupodatco.com';
+	tp_web['sersat'] = 'sersat.grupodatco.com';
+	tp_web['silica_networks'] = 'www.silicanetworks.com';
+	tp_web['velocom'] = 'www.velocom.com.ar';
 	tp_address['ar_cat'] = 'Cátulo Castillo 3251 (C1261ACB)<br />Piso X<br />Distrito Tecnológico, CABA<br />Argentina';
 	tp_phone['ar_cat'] = '+54 (11) 4103-1300';
 	tp_address['ar_san'] = 'San Martín 640 (C1004AAN)<br />Piso X<br />Microcentro, CABA<br />Argentina';
@@ -87,8 +79,28 @@ jQuery(document).ready(function() {
 	tp_address['pr_san'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />Hato Rey, San Juan<br />Puerto Rico';
 	tp_phone['pr_san'] = '+1 (787) 302-2509';
 
+
 	// 1. Habilitar oficina después de seleccionar empresa
 	jQuery('.wpcf7 select[name=ORG]').change(function(){
+		var tp_org = jQuery('select[name=ORG] option:selected').val();
+		tp_org = tp_org.replace(/ /g,'_').toLowerCase();
+		if ( tp_org.indexOf('(') != -1 ) {
+			tp_org = tp_org.substring(0,tp_org.indexOf('(')-1);
+		}
+		tp_org = tp_org.replace(/0/g,'zero').toLowerCase();
+		jQuery('.tp').removeClass().addClass('tp '+tp_org);
+		if ( jQuery('body').hasClass('page-id-24225') ) {
+			jQuery('.tp').addClass('digital');
+		}
+			jQuery('#mobile-logo').fadeOut('fast', function() {
+			jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
+		}).fadeIn('fast');
+			jQuery('#tp_frente').fadeOut('fast', function() {
+			jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente.png');
+		}).fadeIn('fast');
+		jQuery('#tp_dorso').fadeOut('fast', function() {
+			jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso.png');
+		}).fadeIn('fast');
 		jQuery('.wpcf7-form>div.step2').css('opacity','1');
 		jQuery('.wpcf7-form>div.step2 :input').prop('disabled',false);
 		jQuery('.wpcf7-form>.step2').removeClass('step2');
@@ -99,7 +111,9 @@ jQuery(document).ready(function() {
 		}
 		var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text();
 		jQuery('input[name=USERNAME]').val(username);
+		jQuery('.tpdata.web').text(tp_web[tp_org]);
 	});
+
 
 	// 2. Habilitar el resto después de seleccionar oficina
 	jQuery('.wpcf7 select[name=OFFICE]').change(function(){
@@ -152,6 +166,7 @@ jQuery(document).ready(function() {
 		jQuery('.wpcf7-form>.step3,.wpcf7-submit').show().removeClass('disabled');
 	});
 
+
 	// Copiar valores en previsualización según ingreso en campos
 	jQuery(document).on('input','.wpcf7 input',function(){
 		var span_class = jQuery(this).attr('name').toLowerCase();
@@ -202,4 +217,5 @@ jQuery(document).ready(function() {
 		}
 	});
 
+	
 });

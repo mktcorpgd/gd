@@ -93,3 +93,25 @@ body.page-id-31537 #post-content .sc-tab-panel{float:left;margin-bottom:1em}
 body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-cats,body.single article.category-40gd-en-primera-persona h1+.gp-entry-meta .gp-meta-cats{display:block;margin-left:0;padding-left:0;border-left:none!important}
 body.page-id-31537 .wp-block-separator{background:none}
 body.page-id-31537 .grid-gallery .grid-gallery-photos{border-radius:12px}
+
+/* Mobile */
+@media (max-width:960px) {
+	body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-column .wp-block-column{margin:1em 0 0}
+	body.page-id-31537 .wp-block-column>h4{margin-left:-1.05rem!important;margin-right:-1.05rem!important;font-size:1.2em}
+	body.page-id-31537 #menu40gd{left:0}
+	body.page-id-31537 #menu40gd ul li{line-height:1.5}
+	body.page-id-31537 #menu40gd ul li:not(:last-child){border-right:none}
+	body.page-id-31537 #menu40gd>span{display:none}
+	body.page-id-31537 #menu40gd .sc-button{padding:.3em .25em!important;font-size:.75em!important;border-radius:6px!important}
+	body.page-id-31537 #content-wrapper{margin-top:5em}
+	body.page-id-31537 #content h1{font-size:1.9em!important}
+	#countdown li{padding-left:0;padding-right:0}
+	#post-content .container_countdown h2,#countdown li span{font-size:2em}
+	#post-content .container_countdown h2{margin-top:.4em!important}
+	.grid-gallery-caption,.grid-gallery-caption img{height:auto!important}
+	body.page-id-31537 .content-details{-webkit-line-clamp:4}
+	body.page-id-31537 .mfp-content h1{font-size:2em!important}
+	.competition-podium{grid-template-columns:1fr}
+	.competition-podium,.competition-podium .podium-block .podium{height:auto!important}
+	body.home .post-loop[class*='category-40gd'] .post-text:before{top:-40px;border:2px solid #FFFFFF;border-right:none;border-top-left-radius:6px}
+}

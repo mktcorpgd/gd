@@ -339,6 +339,9 @@ jQuery(document).ready(function() {
 					link_id = link_href.substring(link_href.indexOf('whitepaper-')+11,link_href.length-1);
 					link_type = 'whitepaper';
 				}
+				if ( site_id == 'sites/5/' ) {
+					link_id = link_href.substring(3,link_href.length);
+				}
 				jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(/wp-content/uploads/'+site_id+link_type+'-'+link_id+'-pdf-large.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');
 			}
 			else if ( jQuery(this).hasClass('format-video') ) {
@@ -354,6 +357,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('body.single article.format-link').length ) {
 		var link_href = window.location.pathname;
 		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
+		if ( site_id == 'sites/5/' ) {
+			link_href = link_href.substring(3,link_href.length);
+		}
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
 	}
@@ -377,7 +383,6 @@ jQuery(document).ready(function() {
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
 		new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
-		console.log(window.location.href.indexOf('?ctry') > -1);
 		jQuery('input[name=RESP]').val(new_resp);
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
@@ -398,11 +403,13 @@ jQuery(document).ready(function() {
 		jQuery('input[name=RESP_BCC]').val(new_resps);
 	}
 
+	
 	// FORMULARIOS - Si existe: asignar copiar oculta
 	if ( jQuery('body.single-avada_portfolio').length ) {
 		jQuery('input[name=BREADCRUMB]').val(jQuery('.fusion-breadcrumbs').text());
 	}
 	
+
 	// FORMULARIOS - Abrir formulario de contacto
 	if ( window.location.href.indexOf('#contacto') > -1 ) {
 		jQuery('#open-contacto-rapido').trigger('click');
@@ -411,12 +418,14 @@ jQuery(document).ready(function() {
 		jQuery('#open-oferta-librestream').trigger('click');
 	}
 
+
 	// FORMULARIOS - Agregar clase para mostrar color default cuando se selecciona
 	jQuery('.wpcf7-select:not(.highlight)').change(function() {
 		if ( !jQuery(this).hasClass('selected') ) {
 			jQuery(this).addClass('selected');
 		}
 	});
+
 
 	// FORMULARIOS - Agregar clase para selects con highlight
 	jQuery('.wpcf7-select').each(function(i) {
@@ -425,10 +434,12 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// FORMULARIOS - Convertir a mayúsculas
 	jQuery('input[name*="ORG"]').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toUpperCase());
 	});
+
 
 	// FORMULARIOS - Convertir a minúsculas
 	jQuery('input[name*="EMAIL"]').on('input',function(e) {
@@ -437,6 +448,7 @@ jQuery(document).ready(function() {
 	jQuery('.comment-author').each(function(i) {
 		jQuery(this).find('strong').text(jQuery(this).find('strong').text().toLowerCase());
 	});
+
 
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery.fn.capitalize = function(e) {
@@ -452,7 +464,8 @@ jQuery(document).ready(function() {
 	jQuery('input[name*="FNAME"],input[name*="LNAME"],input[name*="ROLE"]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
-	
+
+
 	// FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
 	jQuery('.wpcf7-submit:not([readonly])').on('click',function(e) {
 		if ( jQuery(this).val().indexOf('...') === -1 ) {
@@ -474,6 +487,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// FORMULARIOS - Guardar URL y título en inputs
 	if ( jQuery('input[name="TITLE"]').length ) {
 		var entry_title = jQuery('.entry-title:first').text();
@@ -489,7 +503,7 @@ jQuery(document).ready(function() {
 			}
 		}
 		// Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
-		if ( jQuery('body').hasClass('page-id-42955') || jQuery('body').hasClass('page-id-26163') || jQuery('body').hasClass('page-id-39457') || jQuery('body').hasClass('page-id-39485') || jQuery('body').hasClass('page-id-26159') || jQuery('body').hasClass('page-id-26161') || jQuery('body').hasClass('page-id-26165') || jQuery('body').hasClass('site-id-5') || jQuery('body').hasClass('site-id-6') || jQuery('body').hasClass('site-id-16') || jQuery('body').hasClass('site-id-25') || jQuery('body').hasClass('site-id-26') ) {
+		if ( jQuery('body').hasClass('page-id-42955') || jQuery('body').hasClass('page-id-26163') || jQuery('body').hasClass('page-id-39457') || jQuery('body').hasClass('page-id-39485') || jQuery('body').hasClass('page-id-26159') || jQuery('body').hasClass('page-id-26161') || jQuery('body').hasClass('page-id-26165') ) {
 			var src_input = jQuery('input[name*="SRC"]').val();
 			jQuery('input[name*="SRC"]').val(src_input+'+UN');
 		}
@@ -501,12 +515,14 @@ jQuery(document).ready(function() {
 		}
 	}
 
+
 	// FORMULARIOS - Limpiar espacios iniciales y finales al cambiar/salir de campo (blur)
 	jQuery(document).on('blur','.wpcf7 input',function() {
 		jQuery('input').each(function() {
 			this.value = jQuery(this).val().trim();
 		})
 	});
+
 
 	// FORMULARIOS - Limpiar alerta "requerido" al escribir en el campo
 	jQuery('.wpcf7-form-control-wrap input').on('input', function(e) {
@@ -526,6 +542,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// FORMULARIOS - Comprobar si hay campos opcionales
 	jQuery('.wpcf7-form-control:not(.wpcf7-submit):not(.hidden):not([type=hidden]').each(function(i) {
 		if ( jQuery(this).hasClass('wpcf7-validates-as-required') ) {
@@ -538,6 +555,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
+
 
 	// BOTONES - Agregar botones en cajas para categorías
 	if ( jQuery('.fusion-portfolio').length ) {
@@ -623,6 +641,7 @@ jQuery(document).ready(function() {
 		});
 	}
 
+
 	// SIDEBAR - Si existe link a datasheet: asignar URL
 	var url = window.location.pathname;
 	url = url.substring(0,url.length-1);
@@ -641,6 +660,7 @@ jQuery(document).ready(function() {
 		});
 	}
 
+
 	// SIDEBAR - Si existe un CTA diferente:
 	if ( jQuery('#content>article.portfolio_tags-demo-form').length ) {
 		jQuery('.sidebar h4').text('Quiero solicitar una demo');
@@ -653,10 +673,12 @@ jQuery(document).ready(function() {
 		jQuery('input[name=SUBJ]').attr('value','reunión');
 	}
 
+
 	// SIDEBAR - Si existe un CTA, fijar lateral
 	if ( jQuery('#sidebar h3.cta').length ) {
 		jQuery('body').addClass('sidebar-cta');
 	}
+
 
 	// MODAL - Convertir link de menú para activar modal
 	if ( jQuery('li[class*="fusion-modal-text-link"]').length ) {
@@ -669,6 +691,7 @@ jQuery(document).ready(function() {
 			jQuery('li[class*="fusion-modal-text-link"]:eq('+i+') a').attr('data-target','.fusion-modal.'+modal_target);
 		});
 	}
+
 
 	// MODAL - Trasladar nombre de producto/servicio a ventana modal
 	jQuery('.button-right.fusion-modal-text-link,.entry-title .fusion-modal-text-link,.fusion-image-wrapper .fusion-modal-text-link').on('click',function(e) {
@@ -710,10 +733,12 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});
 
+
 	// PORTFOLIO - Cambiar orden de meta en grilla
 	jQuery('.fusion-portfolio-content').each(function(i) {
 		jQuery('.fusion-portfolio-content:eq('+i+') .fusion-portfolio-meta').insertBefore('.fusion-portfolio-content:eq('+i+') .fusion-post-title');
 	});
+
 
 	// PESTAÑAS - Si tiene #tab en la URL, scrollear hasta las pestañas
 	if ( window.location.href.indexOf('#tab') > -1 ) {
@@ -736,13 +761,79 @@ jQuery(document).ready(function() {
 		}
 	}
 
+
 	// FOOTER - Mover bloque de partners
 	if ( jQuery('#partners_footer').length && !jQuery('body').hasClass('page-id-45066') ) {
 		jQuery('#partners_footer').insertBefore('.fusion-footer-widget-area');
 	}
 
+
 	// FOOTER - Asignar año y ID
 	jQuery('.fusion-footer').attr('id','fusion-footer');
 	jQuery('.fusion-copyright-notice span.cur_year').text((new Date).getFullYear());
+
+
+	// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
+	if ( jQuery('.fusion-pricing-table').length ) {
+		jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
+			var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
+			if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
+				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing);
+				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
+				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+				if ( lugar_class != 'null' ) {
+					jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing+' en '+lugar_name);
+				}
+			}
+			if ( jQuery('select[name="TITLE"]').length ) {
+				jQuery('select[name="TITLE"]').val(title_pricing);
+			}
+			if ( jQuery('select[name="SPEED"]').length ) {
+				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
+					var speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
+					jQuery('select[name="SPEED"]').val(speed_pricing);
+				}
+				else { 
+					jQuery('select[name="SPEED"]').val(title_pricing);
+				}
+			}
+			if ( jQuery('body').hasClass('postid-23901') ) {
+				jQuery('.fusion-modal.contacto-rapido .modal-title').text('Solicitar '+title_pricing);
+			}
+			if ( jQuery('select[name="SERVICE"]').length ) {
+				if ( jQuery('body').hasClass('page-id-78') ) {
+					title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
+				}
+				jQuery('.fusion-modal.in .modal-title').text('Solicitar '+title_pricing);
+				jQuery('select[name="SERVICE"]').val(title_pricing);
+			}
+		});
+		jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+			var speed_pricing = jQuery(this).find('.panel-heading .title-row').text();
+			if ( jQuery('body').hasClass('page-id-78') ) {
+				var title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
+			}
+			jQuery('select[name="SPEED"]').val(speed_pricing);
+			jQuery('select[name="SERVICE"]').val(title_pricing);
+			jQuery('#open-consultar-internet').trigger('click');
+		});	
+		jQuery('.integer-part').each(function() {
+			var text = jQuery(this).text();
+			jQuery(this).text(text.replace(',','.')); 
+		});
+	}
+
+
+	// PRECIOS - Si tiene "--" tachar fila y bajar opacidad
+	jQuery('.list-group-item').each(function(i){
+		if ( jQuery(this).text().indexOf('–') > -1 ) {
+			jQuery(this).text(jQuery(this).text().substring(1,jQuery(this).text().length));
+			jQuery(this).css({
+				'text-decoration':'line-through',
+				'opacity':0.6
+			});
+		}
+	});
+
 
 });

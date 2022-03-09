@@ -1,15 +1,49 @@
 jQuery(document).ready(function() {
 	
+
 	// Trivias: mover título de puntaje:
 	jQuery('.ays_score').each(function(i) {
 		jQuery(this).insertBefore('.ays_score_message:eq('+i+')');
 	});
 
+
+	// Lightbox
 	jQuery('.open-popup-link').magnificPopup({
 		type:'inline',
-		midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+		midClick: true
+	});
+	jQuery('.party .wp-block-column,.sc-tab-panel').each(function(i) {
+		jQuery('.party .wp-block-column:eq('+i+') .grid-gallery-caption,.sc-tab-panel:eq('+i+') .grid-gallery-caption').magnificPopup({
+			type: 'image',
+			callbacks: {
+				elementParse: function(item) {
+					item.src = item.el.parent().attr('href');
+				}
+			},
+			mainClass: 'mfp-img-mobile',
+			tClose: 'Cerrar (Esc)',
+			tLoading: 'Cargando...',
+			gallery: {
+				enabled: true,
+				navigateByImgClick: true,
+				preload: [0,1],
+				tPrev: 'Anterior (tecla ←)',
+				tNext: 'Siguiente (tecla →)',
+				tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
+			},
+			image: {
+				tError: 'La imagen no pudo ser cargada.',
+				titleSrc: function(item) {
+					return item.el.text();
+				},
+			},
+			ajax: {
+				tError: 'La solicitud falló.'
+			}
 		});
-		
+	});
+
+
 	// Mostrar contenidos por ajax:
 	jQuery('.slick-slide').each(function(i) {
 		var href_link = jQuery('.content-title',this).find('a').attr('href');
@@ -54,6 +88,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// Abrir contador
 	/*if ( jQuery.cookie('suprise-viewed') != 'yes' ) {
 		jQuery('#open-surprise').magnificPopup({
@@ -88,10 +123,12 @@ jQuery(document).ready(function() {
 	else {
 		jQuery('.container_countdown').removeClass('mfp-hide');
 	}*/
-		
+
+
 	// Mover menú personalizado
 	jQuery('#menu40gd').insertAfter('#header');
-	
+
+
 	// Mostrar nota en ventana modal
 	if ( window.location.href.indexOf('#open-') > -1 ) {
 		var href_link = window.location.href;
@@ -124,4 +161,6 @@ jQuery(document).ready(function() {
 			});
 		});
 	}
+
+	
 });

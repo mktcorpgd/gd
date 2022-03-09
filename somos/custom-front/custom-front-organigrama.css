@@ -20,13 +20,12 @@
 div#chart,div.orgChart{margin:0;padding:0}
 .dragscroll{margin:0 -30px;padding:10px;max-height:100%;position:relative;background:#FAFAFA;border:4px solid #F0582B;border-top:none;overflow:scroll;cursor:grab}
 .dragscroll .orgChart{transition:all .2s ease-in-out}
-.dragscroll .orgChart .jOrgChart{transition:all .2s ease-in-out;transform:scale(.5)}
-body.fullwidth .dragscroll{padding:10em 0}
+.dragscroll .orgChart .jOrgChart{transition:all .2s ease-in-out;transform:scale(.7)}
+body.fullwidth .dragscroll{padding:4em 0}
 body.fullwidth #post-content:not(.fullscreen) .dragscroll{max-height:450px}
 body.fullwidth #post-content:not(.fullscreen) .dragscroll .orgChart{max-height:400px}
-body.fullwidth .dragscroll .orgChart.chart_32264{transform:translate(-260px,-470px)}
-body.fullwidth .dragscroll .orgChart.chart_26343{transform:translate(160px,-240px)}
-body.fullwidth .dragscroll .orgChart.chart_30683{transform:translate(-60px,-360px)}
+body.fullwidth .dragscroll .orgChart.chart_32264{transform:translate(-210px,-220px)}
+body.fullwidth .dragscroll .orgChart.chart_26343{transform:translate(-130px,-180px)}
 body.fullwidth .dragscroll .orgChart .jOrgChart{padding:5em}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll{max-height:300px}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll .orgChart{max-height:250px}

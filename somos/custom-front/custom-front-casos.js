@@ -3,6 +3,7 @@ function convertToSlug(Text) {
 	return Text.toLowerCase().replace(/[^\w ]+/g,'').replace(/ +/g,'-');
 }
 
+
 // Copiar contenido para entrada
 function copyPostContent() {
 	jQuery('.wpcf7 input[name=TITCASO]').val(jQuery('.wpcf7 h2').text());
@@ -11,10 +12,13 @@ function copyPostContent() {
 	jQuery('.wpcf7 input[name=CONTCASO]').val(jQuery('.wpcf7 .wpcf7-CONTCASO').html());
 }
 
+
 jQuery(document).ready(function() {
+
 
 	// Agregar clase para simular formato de caso en tabla
 	jQuery('#content .padder').addClass('category-casos-de-referencia');
+
 
 	// Al escribir o seleccionar reemplazar valores en la celda correspondiente de la tabla
 	jQuery(document).on('input','.wpcf7-text,.wpcf7-number,.wpcf7-textarea,.wpcf7-date',function() {
@@ -30,9 +34,11 @@ jQuery(document).ready(function() {
 		copyPostContent();
 	});
 
+
 	// Convertir a letras capitales
 	jQuery('input[name*=NOMCASO]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
 
+	
 });
