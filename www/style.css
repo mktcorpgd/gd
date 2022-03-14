@@ -473,6 +473,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important;background:#FAFAFA}
 
 /* Footer */
+.grecaptcha-badge{bottom:80px;box-shadow:0 0 24px rgba(0,0,0,.2);border-radius:12px 0px 0px 12px}
 .fusion-footer-widget-area{padding:32px!important}
 .fusion-widget-area .sub-menu{margin-left:0!important}
 .fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:90%;font-weight:500}
@@ -716,6 +717,7 @@ body.single-avada_portfolio #main{padding-top:0}
 body.single-avada_portfolio .sidebar{margin-top:2em}
 
 /* Blog */
+.fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-grid{height:auto!important}
 .fusion-blog-layout-grid article.fusion-post-grid h2{margin:0!important;font-weight:500!important}
 article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after,body.single article[class*='noticias'][class*='tag-']>.fusion-flexslider:after{content:'Nota de prensa';display:inline-block;padding:4px 8px;position:absolute;top:0;right:0;font-size:.9em;font-family:'Neo-Sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
 body.single article[class*='noticias'][class*='tag-']>.fusion-flexslider:after{padding:5px 10px;font-size:1.2em;left:0;right:auto;border-top-right-radius:0;border-bottom-right-radius:12px;border-bottom-left-radius:0}
