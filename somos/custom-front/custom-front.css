@@ -634,7 +634,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 .ilightbox-button.smooth{background-color:transparent;border:none}
 .ilightbox-holder.smooth.UseyourDrive{border-radius:12px;overflow:hidden}
 .ilightbox-header .tippy-content{padding-left:0;padding-right:0}
-#UseyourDrive .files .ajax-filelist{min-height:auto}
+#UseyourDrive .files .ajax-filelist{min-height:120px}
 
 /* Post Loop */
 .post-loop,article.event{margin:0!important;padding:0!important;border:none!important;box-shadow:0 2px 0 0 rgba(0,0,0,.2)}
