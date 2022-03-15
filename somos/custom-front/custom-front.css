@@ -900,25 +900,26 @@ body.archive .post-loop .gp-meta-cats a[href$='/busquedas-laborales/finalizada/'
 #content .category-casos-un-silica-comunicaciones table td:first-child,#content .category-casos-un-silica-infraestructura table td:first-child{background:#87B217}
 #content .category-casos-un-velocom table td:first-child{background:#AE1A57}
 #content .category-casos-un-iop table td:first-child,#content .category-casos-un-iot table td:first-child{background:#0E316E}
-#content [class*=category-casos-de-] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
-#content [class*=category-casos-de-] table td:first-child{padding-bottom:10px!important;line-height:1;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-weight:400}
-#content [class*=category-casos-de-] table td:first-child strong{font-weight:500!important}
-#content [class*=category-casos-de-] table tr:first-child td:first-child{border-top-left-radius:12px}
-#content [class*=category-casos-de-] table tr:first-child td:last-child{border-top-right-radius:12px}
-#content [class*=category-casos-de-] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.1)!important;border-bottom-left-radius:12px}
-#content [class*=category-casos-de-] table tr:last-child td:last-child{border-bottom-right-radius:12px}
-article[class*=category-casos-de-] .gp-meta-date,section[class*=category-casos-de-] .gp-meta-date{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-style:normal;font-weight:400}
-article[class*=category-casos-de-] .gp-meta-date{font-size:1.4em;position:relative;top:4px}
+#content [class*='category-casos-de-'] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
+#content [class*='category-casos-de-'] table td:first-child{padding-bottom:10px!important;line-height:1;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-weight:400}
+#content [class*='category-casos-de-'] table td:first-child strong{font-weight:500!important}
+#content [class*='category-casos-de-'] table tr:first-child td:first-child{border-top-left-radius:12px}
+#content [class*='category-casos-de-'] table tr:first-child td:last-child{border-top-right-radius:12px}
+#content [class*='category-casos-de-'] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.1)!important;border-bottom-left-radius:12px}
+#content [class*='category-casos-de-'] table tr:last-child td:last-child{border-bottom-right-radius:12px}
+article[class*='category-casos-de-'] .gp-meta-date,section[class*='category-casos-de-'] .gp-meta-date{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-style:normal;font-weight:400}
+article[class*='category-casos-de-'] .gp-meta-date{font-size:1.4em;position:relative;top:4px}
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,body.page-id-29106 #content:before,body.page-id-29106 #content:after,body.page-id-26272 #content:before,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno';display:block;width:100%;background:#0E316E;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
 article.category-casos-de-referencia .padder,body.page-id-29106 #content .padder,body.page-id-26272 #content .padder,#tab-Casosdeuso #UseyourDrive{border-radius:0!important;border-left:4px solid #0E316E;border-right:4px solid #0E316E}
 body.page-id-29106 #content .post-thumbnail.single-thumbnail{border-top-left-radius:0!important;border-top-right-radius:0!important}
 #tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{font-size:.8em;border-radius:0!important}
 .white-popup{margin:20px auto;width:auto;max-width:570px;padding:20px;position:relative;background:#FFFFFF;border-radius:12px}
-body.archive article[class*=category-casos-de-] .gp-meta-date,body.archive section[class*=category-casos-de-] .gp-meta-date,body.search article[class*=category-casos-de-] .gp-meta-date,body.search section[class*=category-casos-de-] .gp-meta-date{margin-bottom:5px}
+body.archive article[class*='category-casos-de-'] .gp-meta-date,body.archive section[class*='category-casos-de-'] .gp-meta-date,body.search article[class*='category-casos-de-'] .gp-meta-date,body.search section[class*='category-casos-de-'] .gp-meta-date{margin-bottom:5px}
 body.page-id-26272 .post-loop .post-text{max-height:initial}
 body.page-id-26272 #content .post-loop .post-text h2,body.page-id-26272 #content .post-loop .post-text p{margin:0!important;padding:0!important}
 body.page-id-26272 #content .post-loop .post-text p{font-size:.9em!important}
 body.page-id-26272 .gp-blog-wrapper:not([class*='gp-blog-columns']) section{border:2px solid #DDDDDD!important}
+body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop[class*='category-casos'] .post-text{border-left:none!important}
 
 /* Pestañas */
 #post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
@@ -1196,7 +1197,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.is-search-form.is-form-id-26276 input[type='text']{margin-bottom:0!important;box-shadow:0 10px 10px -8px rgba(0,0,0,.4)!important}
 	.is-search-form.is-form-id-26276 input[type='text']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
 	#nav .menu .sub-menu{width:190px!important}
-	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not([class*='category-40gd']) .post-text{clear:both;padding:0 .6em .3em!important}
+	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not([class*='category-40gd']):not([class*='category-casos']) .post-text{clear:both;padding:0 .6em .3em!important}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text{border-left:2px solid #CCCCCC}
 	.sidebar{font-size:14px!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content{max-height:1570px;position:relative;overflow:hidden}
@@ -1408,12 +1409,12 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0!important}
 	.jOrgChart .node{min-width:90px}
-	#content [class*=category-casos-de-] table tr td{display:block}
-	#content [class*=category-casos-de-] table tr:first-child td:first-child{border-top-right-radius:12px}
-	#content [class*=category-casos-de-] table tr:first-child td:last-child{border-left:1px solid #CCCCCC!important;border-top:none!important;border-bottom:none!important;border-top-right-radius:0}
+	#content [class*='category-casos-de-'] table tr td{display:block}
+	#content [class*='category-casos-de-'] table tr:first-child td:first-child{border-top-right-radius:12px}
+	#content [class*='category-casos-de-'] table tr:first-child td:last-child{border-left:1px solid #CCCCCC!important;border-top:none!important;border-bottom:none!important;border-top-right-radius:0}
 	#content table td:last-child{border-left:1px solid #CCCCCC!important;border-bottom:none!important}
-	#content [class*=category-casos-de-] table tr:last-child td:first-child{border-bottom-left-radius:0}
-	#content [class*=category-casos-de-] table tr:last-child td:last-child{border-bottom-left-radius:12px}
+	#content [class*='category-casos-de-'] table tr:last-child td:first-child{border-bottom-left-radius:0}
+	#content [class*='category-casos-de-'] table tr:last-child td:last-child{border-bottom-left-radius:12px}
 	#commentform textarea{padding:10px 20px!important;border-radius:0!important;border-right:none!important;border-left:none!important}
 	body.archive .padder,body.search .padder{padding-left:0;padding-right:0;padding-bottom:0;background:#EAEAEA}
 	body.archive .gp-blog-wrapper .gp-meta-cats a,body.search .gp-blog-wrapper .gp-meta-cats a{margin-top:0;line-height:1.3}
