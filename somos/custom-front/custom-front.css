@@ -181,7 +181,6 @@ body.page-template-default .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:hover,body:not(.single-event) article.event:hover{transform:translateY(-2px)}
 .gp-blog-wrapper section:hover h2 a,body:not(.single-event) article.event:hover h2 a{color:#F0582B;text-decoration:underline}
 .gp-blog-wrapper section h2,body:not(.single-event) article.event h2{display:block;margin-bottom:0;font-size:1.2em;line-height:1.3;font-weight:500}
-.gp-blog-wrapper:not([class*='gp-blog-columns']) section.post-41522 h2{font-size:1em}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section{background:#0E316E;cursor:pointer}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) .post-loop .post-thumbnail img{background:none}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section:hover{background:#F0582B}
@@ -925,6 +924,8 @@ body.page-id-26272 #content .post-loop .post-text h2,body.page-id-26272 #content
 body.page-id-26272 #content .post-loop .post-text p{font-size:.9em!important}
 body.page-id-26272 .gp-blog-wrapper:not([class*='gp-blog-columns']) section,body.page-id-41477 .gp-blog-wrapper:not([class*='gp-blog-columns']) section{border:1px solid #EAEAEA!important}
 body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop[class*='category-casos'] .post-text,body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop[class*='category-salesforce'] .post-text{border:none!important}
+.gp-blog-wrapper:not([class*='gp-blog-columns']) section.post-41522,.gp-blog-wrapper:not([class*='gp-blog-columns']) section.post-41521,.gp-blog-wrapper:not([class*='gp-blog-columns']) section.post-41539{margin-left:5%!important;width:95%!important}
+.gp-blog-wrapper:not([class*='gp-blog-columns']) section.post-41522 h2,.gp-blog-wrapper:not([class*='gp-blog-columns']) section.post-41521 h2,.gp-blog-wrapper:not([class*='gp-blog-columns']) section.post-41539 h2{font-size:1em}
 
 /* Pestañas */
 #post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
