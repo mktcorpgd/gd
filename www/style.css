@@ -473,6 +473,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important;background:#FAFAFA}
 
 /* Footer */
+.grecaptcha-badge{bottom:80px;box-shadow:0 0 24px rgba(0,0,0,.2);border-radius:12px 0px 0px 12px}
 .fusion-footer-widget-area{padding:32px!important}
 .fusion-widget-area .sub-menu{margin-left:0!important}
 .fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:90%;font-weight:500}
