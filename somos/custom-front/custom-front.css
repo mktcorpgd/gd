@@ -919,7 +919,7 @@ body.page-id-26272 .post-loop .post-text{max-height:initial}
 body.page-id-26272 #content .post-loop .post-text h2,body.page-id-26272 #content .post-loop .post-text p{margin:0!important;padding:0!important}
 body.page-id-26272 #content .post-loop .post-text p{font-size:.9em!important}
 body.page-id-26272 .gp-blog-wrapper:not([class*='gp-blog-columns']) section{border:2px solid #DDDDDD!important}
-body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop[class*='category-casos'] .post-text{border-left:none!important}
+body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop[class*='category-casos'] .post-text{border:none!important}
 
 /* Pestañas */
 #post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
