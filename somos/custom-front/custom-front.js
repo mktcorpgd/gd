@@ -59,6 +59,14 @@ jQuery(document).ready(function() {
 	}
 
 
+	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
+	if ( jQuery('body').hasClass('page-id-41477') ) {
+		jQuery('.post-loop h2 a').each(function(i) {
+			jQuery(this).html().replace(/|/,'<br />');
+		});
+	}
+	
+
 	// MENÚ - Agregar clase si figura #wpadminbar
 	if ( jQuery('#wpadminbar').length > 0 ) {
 		jQuery('#header').addClass('plus-adminbar');
