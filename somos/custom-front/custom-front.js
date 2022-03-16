@@ -66,7 +66,7 @@ jQuery(document).ready(function() {
 			var new_title = jQuery(this).text();
 			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
 			jQuery(this).text(new_title);
-			jQuery(this).replace(/(?:\r\n|\r|\n)/g, '<br>');
+			jQuery(this).text().replace(/(?:\r\n|\r|\n)/g, '<br>');
 		});
 	}
 	
