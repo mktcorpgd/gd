@@ -918,6 +918,8 @@ body.page-id-29106 #content .post-thumbnail.single-thumbnail{border-top-left-rad
 body.archive article[class*=category-casos-de-] .gp-meta-date,body.archive section[class*=category-casos-de-] .gp-meta-date,body.search article[class*=category-casos-de-] .gp-meta-date,body.search section[class*=category-casos-de-] .gp-meta-date{margin-bottom:5px}
 body .post-loop:not(.has-post-thumbnail) .post-text{max-height:initial}
 body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-thumbnail){border:1px solid #DDDDDD!important}
+body.page-id-41477 .gp-blog-wrapper .post-loop .post-text h2 a{font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif}
+body.page-id-41477 .gp-blog-wrapper{display:grid;grid-template-columns:1fr 1fr;grid-gap:.2em .4em!important}
 
 /* Pestañas */
 #post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
