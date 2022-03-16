@@ -919,6 +919,7 @@ body.archive article[class*=category-casos-de-] .gp-meta-date,body.archive secti
 body .post-loop:not(.has-post-thumbnail) .post-text{max-height:initial}
 body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-thumbnail){border:1px solid #DDDDDD!important}
 body.page-id-41477 .gp-blog-wrapper .post-loop .post-text h2 a{font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif;text-align:center}
+body.page-id-41477 .gp-blog-wrapper .post-loop .post-text .icon{font-size:2em}
 body.page-id-41477 .gp-blog-wrapper{display:grid;grid-template-columns:1fr 1fr;grid-gap:.2em .8em!important}
 body.page-id-41477 .gp-blog-wrapper section:hover h2 a{text-decoration:none!important}
 
