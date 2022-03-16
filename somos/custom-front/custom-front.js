@@ -585,7 +585,7 @@ jQuery(document).ready(function() {
 
 	// EVENTOS - Convertir textos http en link:
 	if ( jQuery('article.event').length ) {
-		var linkable_content = jQuery('.entry-content').html().replace(/(https?:\/\/[^ ;|\\*'"!,()<>]+\/?)/g,'<a href="$1">$1</a>');
+		var linkable_content = jQuery('.entry-content').html().replace(/(https?:\/\/[^ ;|\\*'"!,()<>]+\/?)/g,'<a href="$1" target="_blank">$1</a>');
 		jQuery('.entry-content').html(linkable_content);
 	}
 
