@@ -62,6 +62,9 @@ jQuery(document).ready(function() {
 	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
 	if ( jQuery('body').hasClass('page-id-41477') ) {
 		jQuery('.post-loop h2 a').each(function(i) {
+			var new_title = jQuery(this).text();
+			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
+			jQuery(this).text(new_title);
 			jQuery(this).html().replace(/|/,'<br />');
 		});
 	}
