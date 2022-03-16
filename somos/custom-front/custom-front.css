@@ -332,6 +332,7 @@ body.page h1+.gp-post-meta+#post-content{margin-top:1em}
 body.home h1+.gp-post-meta+#post-content{margin-top:0}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .post-loop .gp-meta-cats a{line-height:1.25;font-weight:400}
+.eo-event-meta a:not([rel='tag']){font-size:.8em;color:#666;text-decoration:none;pointer-events:none}
 .gp-meta-cats a:hover,article .eo-event-meta>li a[rel='tag']:hover{color:#F0582B!important}
 .gp-meta-date,.eo-event-date{display:block;margin:0;line-height:1.25;font-style:normal;font-weight:400;color:#333333}
 .eo-event-date{font-size:.9em;font-weight:700}
