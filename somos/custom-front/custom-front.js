@@ -75,9 +75,14 @@ jQuery(document).ready(function() {
 			jQuery(this).html('<span class="icon">'+icon+'</span><br />'+new_title);
 		});
 
-		jQuery('.post-loop.tag-tutorial-main').hover(function(){
-			jQuery(this).siblings('.tag-tutorial-sub').removeClass('hidden');
-		});
+		jQuery('.post-loop.tag-tutorial-main').hover(
+			function() {
+				jQuery(this).siblings('.tag-tutorial-sub').removeClass('hidden');
+			}, function() {
+				jQuery(this).siblings('.tag-tutorial-sub').addClass('hidden');
+			}
+		  );
+		  
 	}
 	
 
