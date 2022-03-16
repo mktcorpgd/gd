@@ -77,6 +77,7 @@ jQuery(document).ready(function() {
 		jQuery('.post-loop.tag-tutorial-sub5').addClass('hidden');
 		jQuery('.post-loop.tag-tutorial-main').hover(
 			function() {
+				console.log(jQuery(this).index()+1);
 				jQuery(this).siblings('.tag-tutorial-sub'+jQuery(this).index()+1).removeClass('hidden');
 			}, function() {
 				jQuery(this).siblings('.tag-tutorial-sub'+jQuery(this).index()+1).addClass('hidden');
