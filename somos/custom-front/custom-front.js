@@ -74,6 +74,10 @@ jQuery(document).ready(function() {
 			new_title = new_title.substring(new_title.indexOf('|')+1,new_title.length)
 			jQuery(this).html('<span class="icon">'+icon+'</span><br />'+new_title);
 		});
+
+		jQuery('.post-loop.tag-tutorial-main').hover(function(){
+			jQuery(this).siblings('.tag-tutorial-sub').removeClass('hidden');
+		});
 	}
 	
 
