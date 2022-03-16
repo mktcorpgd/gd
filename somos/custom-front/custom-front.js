@@ -70,7 +70,8 @@ jQuery(document).ready(function() {
 			var new_title = jQuery(this).text();
 			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
 			jQuery(this).text(new_title);
-			jQuery(this).html(nl2br(new_title));
+			var icon = new_title.substring(new_title.indexOf('|')+1,1);
+			jQuery(this).html(icon+'<br />'+new_title);
 		});
 	}
 	
