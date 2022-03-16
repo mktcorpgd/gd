@@ -65,7 +65,6 @@ jQuery(document).ready(function() {
 
 	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
 	if ( jQuery('body').hasClass('page-id-41477') ) {
-		jQuery('.post-loop.tag-tutorial-sub').addClass('hidden');
 		jQuery('.post-loop h2 a').each(function(i) {
 			var new_title = jQuery(this).text();
 			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
@@ -75,6 +74,7 @@ jQuery(document).ready(function() {
 			jQuery(this).html('<span class="icon">'+icon+'</span><br />'+new_title);
 		});
 
+		jQuery('.post-loop.tag-tutorial-sub5').addClass('hidden');
 		jQuery('.post-loop.tag-tutorial-main').hover(
 			function() {
 				jQuery(this).siblings('.tag-tutorial-sub'+jQuery(this).index()+1).removeClass('hidden');
