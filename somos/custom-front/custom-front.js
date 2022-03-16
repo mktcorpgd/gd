@@ -65,7 +65,7 @@ jQuery(document).ready(function() {
 
 	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
 	if ( jQuery('body').hasClass('page-id-41477') ) {
-		jQuery('.post-loop h2 a').each(function(i) {
+		jQuery('.post-loop:not(.tag-tutorial-sub) h2 a').each(function(i) {
 			var new_title = jQuery(this).text();
 			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
 			jQuery(this).text(new_title);
@@ -78,9 +78,9 @@ jQuery(document).ready(function() {
 		jQuery('.post-loop.tag-tutorial-main').hover(
 			function() {
 				var real_index = jQuery(this).index()+1;
-				console.log(real_index);
 				jQuery(this).siblings('.tag-tutorial-sub'+real_index).removeClass('hidden');
 			}, function() {
+				var real_index = jQuery(this).index()+1;
 				jQuery(this).siblings('.tag-tutorial-sub'+real_index).addClass('hidden');
 			}
 		  );
@@ -585,12 +585,8 @@ jQuery(document).ready(function() {
 
 	// EVENTOS - Convertir textos http en link:
 	if ( jQuery('article.event').length ) {
-		jQuery('.entry-content p').each(function() {
-			var str = jQuery(this).html();
-			var urlRegex = /(http?:\/\/[^\s]+)/g;
-			var replaced_text = str.replace(urlRegex,'<a href="$1" target="_blank">$1</a>');
-			jQuery(this).html(replaced_text);
-		});
+		var linkable_content = jQuery('.entry-content').html().replace(/(https?:\/\/[^ ;|\\*'"!,()<>]+\/?)/g,'<a href="$1">$1</a>');
+		jQuery('.entry-content').html(linkable_content);
 	}
 
 
