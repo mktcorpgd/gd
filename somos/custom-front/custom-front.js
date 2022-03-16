@@ -77,10 +77,11 @@ jQuery(document).ready(function() {
 		jQuery('.post-loop.tag-tutorial-sub5').addClass('hidden');
 		jQuery('.post-loop.tag-tutorial-main').hover(
 			function() {
-				console.log('.tag-tutorial-sub'+jQuery(this).index()+1);
-				jQuery(this).siblings('.tag-tutorial-sub'+jQuery(this).index()+1).removeClass('hidden');
+				var real_index = jQuery(this).index()+1;
+				console.log(real_index);
+				jQuery(this).siblings('.tag-tutorial-sub'+real_index).removeClass('hidden');
 			}, function() {
-				jQuery(this).siblings('.tag-tutorial-sub'+jQuery(this).index()+1).addClass('hidden');
+				jQuery(this).siblings('.tag-tutorial-sub'+real_index).addClass('hidden');
 			}
 		  );
 		  
