@@ -58,6 +58,10 @@ jQuery(document).ready(function() {
 		});
 	}
 
+    function nl2br (str, is_xhtml) {     
+        var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br/>' : '<br>';      
+        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag +'$2');  
+    }  
 
 	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
 	if ( jQuery('body').hasClass('page-id-41477') ) {
@@ -66,7 +70,7 @@ jQuery(document).ready(function() {
 			var new_title = jQuery(this).text();
 			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
 			jQuery(this).text(new_title);
-			jQuery(this).text().replace(/(?:\r\n|\r|\n)/g, '<br>');
+			jQuery(this).html(nl2br(new_title));
 		});
 	}
 	
