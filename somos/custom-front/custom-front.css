@@ -1026,7 +1026,7 @@ body.page-id-41477 .gp-blog-wrapper section:hover h2 a{text-decoration:none!impo
 .sc-button:hover{border-radius:12px;font-weight:500}
 a.button.fullwidth,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{width:100%}
 a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{padding:.8em 1em;font-size:1.2em;text-align:center;border-radius:12px}
-#respond #submit{margin:.5em 0 .5em;padding:.5em .8em!important;display:inline-block;background:#0E316E;border:none!important}
+#respond #submit{float:right;margin:.5em 0 .5em;padding:.5em .8em!important;display:inline-block;background:#0E316E;border:none!important;border-top-left-radius:0!important;border-top-right-radius:0!important}
 #respond #submit:hover{background:#1F4483!important}
 .commentlist #respond #submit{margin-right:1em}
 .wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{display:block;width:fit-content;padding:0 15px;line-height:44px!important}
