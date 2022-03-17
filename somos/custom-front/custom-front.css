@@ -204,7 +204,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 #comments .must-log-in{padding:0 30px 15px;color:#FFFFFF;background:#0E316E;font-size:90%;line-height:1.25!important}
 #comments .must-log-in a{color:#FFFFFF;text-decoration:none}
 #comments .must-log-in a:hover{text-decoration:underline}
-#commentform textarea{margin-bottom:0!important;height:3.6em;font-size:1em!important;resize:none}
+#commentform textarea{margin-bottom:0!important;height:3.6em;font-size:1em!important;border-bottom-right-radius:0!important;resize:none}
 #commentform textarea,#commentform .comment-form-comment,#comments .must-log-in{margin-top:0!important}
 .commentlist #respond{display:inline-block;width:100%;margin:0 0 20px;padding:.5em .5em 0 1em;background:#EAEAEA;border-radius:6px 12px 12px 12px}
 #respond p{margin-bottom:0!important}
@@ -976,7 +976,7 @@ body.page-id-41477 .gp-blog-wrapper section:hover h2 a{text-decoration:none!impo
 #page-wrapper{overflow:visible}
 #page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper .button,#page-wrapper .sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.start_button{font-family:'Neo-Sans',sans-serif;background:#F0582B!important;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important;font-weight:500;color:#FFFFFF!important;text-shadow:none!important;outline:none!important}
 #page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper .button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.start_button{font-size:1.2em!important}
-#page-wrapper input[type='button']:hover,#page-wrapper input[type='submit']:hover,#page-wrapper input[type='reset']:hover,#page-wrapper .sc-button:hover,#page-wrapper .button:hover,#page-wrapper #post-content .sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,.start_button:hover{transform:translateY(1px);color:#FFFFFF;background:#1F4483!important;box-shadow:0 3px 6px -3px #1F4483!important;text-decoration:none!important}
+#page-wrapper input[type='button']:hover,#page-wrapper input[type='submit']:hover,#page-wrapper input[type='reset']:hover,#page-wrapper .sc-button:hover,#page-wrapper .button:hover,#page-wrapper #post-content .sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,.start_button:hover{color:#FFFFFF;background:#1F4483!important;box-shadow:0 3px 6px -3px #1F4483!important;text-decoration:none!important}
 #page-wrapper input[type='button']:active,#page-wrapper input[type='submit']:active,#page-wrapper input[type='reset']:hover,#page-wrapper .button:active,#page-wrapper #post-content .sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,.start_button:active{background:#1F4483!important}
 #page-wrapper #post-content .sc-button.disabled,#page-wrapper #post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC!important;background:#CCCCCC!important;opacity:1!important}
 .sc-button{transition:all .1s ease-in-out;cursor:pointer}
