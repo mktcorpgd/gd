@@ -820,7 +820,7 @@ body.home .post-loop .gp-loop-meta span a{margin:0;font-weight:400;color:#666666
 body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
 body.home #content .post-loop.category-40gd iframe{border-radius:0!important}
 body.home .post-loop .post-thumbnail img{background:#1549A1}
-body.home .post-loop[class*='category-40gd']:before{display:inline-block;padding:.4em .5em;position:absolute;top:0;right:0;content:'#GD40';line-height:1;font-size:.6em;background:rgba(0,0,0,.3);border-bottom-left-radius:6px;color:#FFFFFF;font-weight:500;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif}
+/*body.home .post-loop[class*='category-40gd']:before{display:inline-block;padding:.4em .5em;position:absolute;top:0;right:0;content:'#GD40';line-height:1;font-size:.6em;background:rgba(0,0,0,.3);border-bottom-left-radius:6px;color:#FFFFFF;font-weight:500;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif}*/
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text{padding:.5em .8em!important}
 body.home .post-loop.category-40gd+.gp-blog-wrapper .post-loop[class*='category-40gd']{margin-top:.6em!important}
 body.home .post-loop.category-40gd+.gp-blog-wrapper .post-loop[class*='category-40gd']:first-child{border-top-left-radius:6px!important;border-top-right-radius:6px!important}
@@ -1226,16 +1226,11 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:40% 60%}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:20px}
-	/* GD 40 */
+	/* GD 40 
 	body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) section[class*='category-40gd']{grid-template-columns:30% 70%!important}
-	body.page-id-31537 .is-search-form{display:none!important}
-	body.page-id-31537 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-thumbnail) .post-text{padding:.4em .6em!important}
-	body.page-id-31537 #content-wrapper{margin-top:6em;margin-bottom:0}
-	body.page-id-31537 #content .post-loop iframe{max-height:167px}
-	body.page-id-31537 .mfp-content .post-loop .post-thumbnail{margin-bottom:0!important;border-width:0 1px 0 0!important}
 	body.home .post-loop[class*='category-40gd']{border-radius:6px!important}
 	body.home .gp-blog-wrapper+.post-loop{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
-	body.single-event #content .eo-event-meta li:first-child{font-size:2em}
+	body.single-event #content .eo-event-meta li:first-child{font-size:2em}*/
 }
 
 /* Mobile */
@@ -1279,8 +1274,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content p.dropcap:not(.ays-fs-title):first-of-type:first-letter,body.page-id-31537 .mfp-content #post-content p:not(.ays-fs-title):first-child:first-letter{margin:11px 0 -5px 0;font-size:320%}
 	.wpcf7 .columns>label>span{line-height:1.5}
 	.wpcf7 .columns>label .wpcf7-radio.one,.wpcf7 .columns>label .wpcf7-checkbox.one,.wpcf7 .columns>label .wpcf7-radio.two,.wpcf7 .columns>label .wpcf7-checkbox.two,.wpcf7 .columns>label .wpcf7-radio.three,.wpcf7 .columns>label .wpcf7-checkbox.three,.wpcf7 .columns>label .wpcf7-radio.four,.wpcf7 .columns>label .wpcf7-checkbox.four,.wpcf7 .columns>label .wpcf7-radio.five,.wpcf7 .columns>label .wpcf7-checkbox.five,.wpcf7 .columns>label .wpcf7-radio.six,.wpcf7 .columns>label .wpcf7-checkbox.six,.gp-blog-wrapper[class*='gp-blog-columns']{width:100%;grid-template-columns:1fr}
-	#page-wrapper .toggle-box>.sc-button{font-size:.6rem!important}
-	#content .columns .tp.digital #mobile-content{left:41px}
+	#page-wrapper .toggle-box>.sc-button{font-size:1rem!important}
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
 	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
 	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
@@ -1396,8 +1390,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#copyright{font-size:14px;line-height:24px}
 	.birthdays-widget img{width:30%}
 	.widget .widgettitle{font-size:20px!important}
-	#respond #submit{margin-right:20px;padding:11px 10px!important}
-	a.button.fullwidth,#respond #submit{margin-top:0;padding:6px 10px!important;width:100%;font-size:20px!important;border-radius:0!important}
+	a.button.fullwidth,#respond #submit{margin-top:0;width:100%;border-radius:0!important}
 	body .widget button:not(.mfp-close){line-height:26px!important;padding:8px 0;right:10px}
 	.sc-button.medium{font-size:1.1em!important}
 	.sc-button.small{font-size:1em!important}
