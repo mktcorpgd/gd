@@ -1103,6 +1103,8 @@ body.single-event #content .eo-event-meta li:nth-child(2){font-weight:400}
 body.single-event #content .eo-event-meta time{font-weight:500}
 body:not(.single-event) .eo-event-meta,body:not(.single-event) .eo-event-meta li{margin:0!important;padding:0;list-style:none}
 body:not(.single-event) .eo-event-meta li:first-child{margin:.1em 0!important}
+body:not(.single-event) .eo-event-meta li:last-child{font-size:0}
+body:not(.single-event) .eo-event-meta li:last-child a{margin-top:0;font-weight:400}
 body.archive .eo-event-meta li a[rel='tag'],body.search .eo-event-meta li a[rel='tag']{display:inline-block;margin-top:5px!important}
 body.archive .eo-event-meta li span[itemprop='location'],body.search .eo-event-meta li span[itemprop='location']{font-size:.9em;line-height:1.25}
 body.archive .eo-event-meta li,body.archive .eo-event-meta li a,body.search .eo-event-meta li,body.search .eo-event-meta li a{margin:0!important;line-height:1!important}
