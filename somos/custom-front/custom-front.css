@@ -640,7 +640,8 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 .ilightbox-header .tippy-content{padding-left:0;padding-right:0}
 
 /* Post Loop */
-.post-loop,body:not(.single-event) article.event{margin:0!important;padding:0!important;border:none!important;box-shadow:0 2px 0 0 rgba(0,0,0,.2)}
+.post-loop,article.event{margin:0!important;padding:0!important;border:none!important;box-shadow:0 2px 0 0 rgba(0,0,0,.2)}
+body.single-event {box-shadow:none}
 .post-loop h2 a,article.event h2 a{color:#0E316E}
 .post-loop:hover h2 a,article.event:hover h2 a{color:#F0582B}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{margin-top:0!important;margin-bottom:0!important;line-height:1.25}
