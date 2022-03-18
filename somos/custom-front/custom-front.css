@@ -997,7 +997,7 @@ body.page-id-41477 .gp-blog-wrapper section:hover h2 a{text-decoration:none!impo
 #page-wrapper .sc-button.large{font-size:1.3em!important;line-height:1.2}
 .sc-button.xlarge{margin-bottom:15px;padding-bottom:15px;font-size:32px;line-height:1;box-shadow:0 14px 18px -18px rgba(0,0,0,.5)}
 #page-wrapper .widget .blue.sc-button{padding:.3em .6em!important;box-sizing:border-box;text-align:center;font-size:.8rem!important;font-weight:400;color:#FFFFFF!important;background:#F0582B;box-shadow:0 2px 0px 0 rgba(0,0,0,.2)!important}
-#page-wrapper .toggle-box>.sc-button{margin-bottom:10px;font-family: 'Neo-Sans',sans-serif;padding:.3em .6em!important;box-sizing:border-box;text-align:center;font-size:.8rem!important;font-weight:300;margin-left: 0px;color:#FFFFFF!important;background:#F0582B;box-shadow:0 2px 0px 0 rgba(0,0,0,.2)!important}
+#page-wrapper .toggle-box>.sc-button{margin-bottom:1em;font-family: 'Neo-Sans',sans-serif;padding:.3em .6em!important;box-sizing:border-box;text-align:center;font-size:.8rem!important;font-weight:300;margin-left: 0px;color:#FFFFFF!important;background:#F0582B;box-shadow:0 2px 0px 0 rgba(0,0,0,.2)!important}
 .widget ul+.blue.sc-button{margin-top:.4em!important}
 .widget .blue.sc-button.inline{border-color:#FFFFFF!important;border:none;box-shadow:none!important}
 .widget .blue.sc-button.inline i{padding-right:0}
@@ -1117,8 +1117,7 @@ body.archive .eo-event-meta li,body.archive .eo-event-meta li a,body.search .eo-
 .bottom_logos{padding:0 0 20px;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.2em;line-height:1.5}
 .bottom_logos a{color:#555555;display:inline-block;margin:.4em}
 .bottom_logos a:hover{color:#1F4483}
-.bottom_logos a img{width:40%;opacity:.8}
-.bottom_logos a img:hover{opacity:1}
+.bottom_logos a img{width:50%}
 
 /* Noficaciones Push */
 prompticon3{margin-right:0!important;padding:0!important;width:50px!important;height:50px!important;right:0!important;border:none;background:#0E316E!important;border-radius:0!important;border-top-left-radius:24px!important;border-bottom-left-radius:24px!important;filter:none!important;transform:scale(1)!important}
@@ -1428,6 +1427,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	#countdown li{font-size:1.125rem;padding:.75rem}
 	#countdown li span{font-size:3.375rem}
+	#page-wrapper .widget .blue.sc-button{font-size:1rem!important;}
 }
 @media (max-width:960px) and (orientation:landscape) {
 	#content .columns.two .tp h2{bottom:17vw;font-size:6.5vw}
