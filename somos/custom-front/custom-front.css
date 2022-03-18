@@ -346,6 +346,7 @@ article.event-category-no-participamos .eo-event-meta>li a[rel='tag']{color:#D50
 article.event-category-no-participamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#D50000}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:3px 8px;background:#F6F6F6;border-radius:12px;border:none;text-decoration:none;line-height:normal}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,article.event .entry-header+.entry-content .eo-event-meta>li a[rel='tag']{margin-left:3px;margin-right:3px}
+article.event .entry-header+.entry-content .eo-event-meta>li:first-child a[rel='tag']{margin-left:0}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
 .gp-meta-cats a{color:#0E316E}
 h1+.gp-meta-cats a{border-color:#0E316E}
@@ -384,7 +385,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 #content h1{margin-bottom:.2em!important;font-weight:500!important;line-height:1.15!important;color:#333333}
 .neosans li{font-size:1.1em!important}
-body.page #content h1,body.single-event h1{text-align:center}
+body.page #content h1{text-align:center}
 body.archive #content h1,body.search #content h1{margin-top:.2em}
 #post-content h2+p:last-child{margin-bottom:15px!important}
 #post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
@@ -639,7 +640,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 .ilightbox-header .tippy-content{padding-left:0;padding-right:0}
 
 /* Post Loop */
-.post-loop,article.event{margin:0!important;padding:0!important;border:none!important;box-shadow:0 2px 0 0 rgba(0,0,0,.2)}
+.post-loop,body:not(.single-event) article.event{margin:0!important;padding:0!important;border:none!important;box-shadow:0 2px 0 0 rgba(0,0,0,.2)}
 .post-loop h2 a,article.event h2 a{color:#0E316E}
 .post-loop:hover h2 a,article.event:hover h2 a{color:#F0582B}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{margin-top:0!important;margin-bottom:0!important;line-height:1.25}
@@ -1086,7 +1087,6 @@ img[src*='-dark-']{background:#999999}
 #wp-calendar caption,#wp-calendar thead tr th{background-color:#FFFFFF!important;font-size:10px}
 #wp-calendar caption,.datepick-inline .datepick-header{font-weight:400!important;margin-bottom:0;padding:0!important}
 #wp-calendar caption,.datepick-inline .datepick-header span{font-family:'Neo-Sans',sans-serif;color:#666666!important;font-size:14px!important;line-height:23px!important;text-align:center;text-shadow:none!important;text-transform:uppercase}
-.eventorganiser-event-meta+p{margin-top:20px;text-align:center}
 .datepick-inline .datepick-header{text-shadow:none!important}
 .daysi{background:#0E316E!important;border-radius:50%;color:#FFFFFF!important;display:block}
 .datepick-inline .datepick-header{font-weight:400!important;text-shadow:none!important}
@@ -1096,15 +1096,13 @@ img[src*='-dark-']{background:#999999}
 .post-columns .post-text h2,.widget li,.activity-inner p{margin:0!important}
 .eo-events-nav{margin:20px 0;text-align:center}
 .eo-events-nav a:hover{text-decoration:underline}
-body.single-event #content .eo-event-meta{margin:0 0 15px!important;width:100%!important;font-size:.75rem;text-align:center}
+body.single-event #content .eo-event-meta{margin:0 0 15px!important;width:100%!important;font-size:.9rem}
 body.single-event #content .eo-event-meta li{margin:0 0 10px!important;list-style:none}
 body.single-event #content .eo-event-meta li:first-child{margin-bottom:0!important;font-weight:400;font-family:'Neo-Sans',sans-serif}
-body.single-event #content .eo-event-meta li:nth-child(2){font-weight:400}
+body.single-event #content .eo-event-meta li:nth-child(2){font-size:1.2em;font-weight:400}
 body.single-event #content .eo-event-meta time{font-weight:500}
 body:not(.single-event) .eo-event-meta,body:not(.single-event) .eo-event-meta li{margin:0!important;padding:0;list-style:none}
-body:not(.single-event) .eo-event-meta li:first-child{margin:.1em 0!important}
-body:not(.single-event) .eo-event-meta li:last-child{display:inline-block;margin-top:.1rem!important;font-size:0}
-body:not(.single-event) .eo-event-meta li a{margin-top:0;font-weight:400}
+body:not(.single-event) .eo-event-meta li a{font-weight:400}
 body.archive .eo-event-meta li a[rel='tag'],body.search .eo-event-meta li a[rel='tag']{display:inline-block;margin-top:5px!important}
 body.archive .eo-event-meta li span[itemprop='location'],body.search .eo-event-meta li span[itemprop='location']{font-size:.9em;line-height:1.25}
 body.archive .eo-event-meta li,body.archive .eo-event-meta li a,body.search .eo-event-meta li,body.search .eo-event-meta li a{margin:0!important;line-height:1!important}
