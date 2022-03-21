@@ -58,36 +58,7 @@ jQuery(document).ready(function() {
 		});
 	}
 
-    function nl2br (str, is_xhtml) {     
-        var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br/>' : '<br>';      
-        return (str + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1'+ breakTag +'$2');  
-    }  
-
-	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
-	if ( jQuery('body').hasClass('page-id-41477') ) {
-		jQuery('.post-loop:not(.tag-tutorial-sub) h2 a').each(function(i) {
-			var new_title = jQuery(this).text();
-			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
-			jQuery(this).text(new_title);
-			var icon = new_title.substring(new_title.indexOf('|')-1,1);
-			new_title = new_title.substring(new_title.indexOf('|')+1,new_title.length)
-			jQuery(this).html('<span class="icon">'+icon+'</span><br />'+new_title);
-		});
-
-		jQuery('.post-loop.tag-tutorial-sub5').addClass('hidden');
-		jQuery('.post-loop.tag-tutorial-main').hover(
-			function() {
-				var real_index = jQuery(this).index()+1;
-				jQuery(this).siblings('.tag-tutorial-sub'+real_index).removeClass('hidden');
-			}, function() {
-				var real_index = jQuery(this).index()+1;
-				jQuery(this).siblings('.tag-tutorial-sub'+real_index).addClass('hidden');
-			}
-		  );
-		  
-	}
 	
-
 	// MENÚ - Agregar clase si figura #wpadminbar
 	if ( jQuery('#wpadminbar').length > 0 ) {
 		jQuery('#header').addClass('plus-adminbar');
