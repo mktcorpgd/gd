@@ -781,8 +781,8 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 .post-loop .post-thumbnail img{padding:0!important;background:#1549A1}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail img{max-width:158px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail a{display:block;box-sizing:content-box;padding-left:38px;padding-right:38px;width:162px;height:89px;background:#0E316E;border-right:1px solid #DDDDDD}
-.post-loop.category-salesforce .post-thumbnail img{max-width:197px}
-.post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;padding-left:38px;padding-right:38px;width:162px;height:89px;background:#0E316E;border-right:1px solid #DDDDDD}
+.post-loop.category-salesforce .post-thumbnail img{max-width:297px}
+.post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;height:100px;background:#0E316E;border-right:1px solid #DDDDDD}
 .post-loop.category-salesforce{border-width:2px;border-color:#0E316E}
 .post-loop.category-destacados{border-width:2px;border-color:#0E316E}
 .post-loop.category-destacados .post-thumbnail{position:relative}
