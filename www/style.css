@@ -735,7 +735,7 @@ body.single article[class*='noticias'][class*='tag-']>.fusion-flexslider:after{b
 /* Portfolio */
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.5em!important}
 .fusion-portfolio .fusion-post-content{float:left}
-.fusion-portfolio .fusion-portfolio-content .fusion-buttons{padding-bottom:.6em;z-index:10}
+.fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:.3em;padding-bottom:.6em;z-index:10}
 .fusion-portfolio .fusion-buttons .fusion-button{padding:8px 15px!important}
 .fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;line-height:1.4!important;border:none!important;background:#FFFFFF!important;font-family:'Neo-Sans',sans-serif}
 .fusion-portfolio .fusion-buttons .fusion-button.button-left{border-bottom-left-radius:0!important;border-top-left-radius:0!important}
@@ -1356,7 +1356,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	body.search article.fusion-post-grid.format-standard:not(.avada_portfolio) .fusion-image-wrapper{max-height:75px}
 	.partners-logos .fusion-imageframe{margin:1em!important;max-width:120px!important}
 	.fusion-button-wrapper{margin:0 10px}
-	.fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:.6em;position:relative}
 	.fusion-sharing-box,.fusion-sharing-box .fusion-social-networks{text-align:center}
 	.comment-form .form-submit{text-align:left}
 	html:not(.avada-has-site-width-percent) .fusion-page-title-bar,html:not(.avada-has-site-width-percent) #main,html:not(.avada-has-site-width-percent) .fusion-footer-copyright-area,html:not(.avada-has-site-width-percent) .fusion-footer-widget-area,html:not(.avada-has-site-width-percent) .fusion-sliding-bar-position-bottom .fusion-sliding-bar,html:not(.avada-has-site-width-percent) .fusion-sliding-bar-position-top .fusion-sliding-bar,html:not(.avada-has-site-width-percent) .tfs-slider .slide-content-container{padding-left:20px;padding-right:20px}
