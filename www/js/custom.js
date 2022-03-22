@@ -783,7 +783,6 @@ jQuery(document).ready(function() {
 				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 				var title_pricing = jQuery(this).find('.fusion-button-text').text();
-				console.log(title_pricing);
 				if ( lugar_class != 'null' ) {
 					jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing+' en '+lugar_name);
 				}
@@ -796,7 +795,6 @@ jQuery(document).ready(function() {
 				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 					var speed_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
 					speed_pricing = speed_pricing.substring(6,speed_pricing.length);
-					console.log(speed_pricing);
 					jQuery('select[name="SPEED"]').val(speed_pricing);
 				}
 				else { 
@@ -814,19 +812,23 @@ jQuery(document).ready(function() {
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
 		});
-		jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
-			var speed_pricing = jQuery(this).find('.panel-heading .title-row').text();
-			if ( jQuery('body').hasClass('page-id-78') ) {
-				var title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
-			}
-			jQuery('select[name="SPEED"]').val(speed_pricing);
-			jQuery('select[name="SERVICE"]').val(title_pricing);
-			jQuery('#open-consultar-internet').trigger('click');
-		});	
 		jQuery('.integer-part').each(function() {
 			var text = jQuery(this).text();
 			jQuery(this).text(text.replace(',','.')); 
 		});
+		// Silica
+		if ( jQuery('body').hasClass('site-id-5') ) {
+			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+				var speed_pricing = jQuery(this).find('.panel-heading .title-row').text();
+				if ( jQuery('body').hasClass('page-id-78') ) {
+					var title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
+				}
+				jQuery('select[name="SPEED"]').val(speed_pricing);
+				jQuery('select[name="SERVICE"]').val(title_pricing);
+				jQuery('#open-consultar-internet').trigger('click');
+			});
+		}
+
 	}
 
 
