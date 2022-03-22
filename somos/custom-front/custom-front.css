@@ -263,6 +263,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .columns>label .wpcf7-checkbox,.wpcf7 .columns>label .wpcf7-radio{margin:0;display:grid;grid-gap:5px;grid-template-columns:1fr 1fr;font-size:14px;text-transform:none;letter-spacing:0}
 .wpcf7 .columns.one.threecheck>label .wpcf7-checkbox,.wpcf7 .columns.one.threecheck>label .wpcf7-radio{grid-template-columns:.9fr .9fr 1fr}
 .wpcf7 .columns.one.fourcheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fourcheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr}
+.wpcf7 .columns.one.fivecheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fivecheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr 1fr}
 .wpcf7 .columns>label .wpcf7-checkbox.highlight .wpcf7-list-item-label,.wpcf7 .columns>label .wpcf7-radio.highlight .wpcf7-list-item-label{font-weight:400!important}
 .wpcf7 .columns>label .wpcf7-radio.one,.wpcf7 .columns>label .wpcf7-checkbox.one{grid-template-columns:1fr}
 .wpcf7 .columns>label .wpcf7-radio.two,.wpcf7 .columns>label .wpcf7-checkbox.two{grid-template-columns:1fr 1fr}
