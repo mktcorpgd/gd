@@ -781,6 +781,7 @@ jQuery(document).ready(function() {
 				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing);
 				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+				var title_pricing = jQuery(this).find('.fusion-button-text').text();
 				if ( lugar_class != 'null' ) {
 					jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing+' en '+lugar_name);
 				}
@@ -789,8 +790,10 @@ jQuery(document).ready(function() {
 				jQuery('select[name="TITLE"]').val(title_pricing);
 			}
 			if ( jQuery('select[name="SPEED"]').length ) {
+				// Velocom
 				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
-					var speed_pricing = jQuery(this).attr('title');
+					var speed_pricing = jQuery(this).find('.fusion-button-text').text();
+					speed_pricing = speed_pricing.substring(9,speed_pricing.length);
 					jQuery('select[name="SPEED"]').val(speed_pricing);
 				}
 				else { 
