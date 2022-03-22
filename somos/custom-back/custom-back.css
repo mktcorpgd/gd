@@ -60,7 +60,7 @@ li.wp-not-current-submenu ul.wp-submenu.wp-submenu-wrap{box-shadow:0 2px 0 0 rgb
 #adminmenuback,#adminmenuwrap{position:relative}
 li.wp-has-submenu.wp-has-current-submenu>a+ul{padding-top:0!important}
 #adminmenuwrap{margin-bottom:30px;border-bottom-right-radius:8px}
-#adminmenuwrap:after{content:'';display:inline-block;margin:0 20% 10px;width:60%;height:32px;background-image:url('/wp-content/uploads/gd-iso-one_stroke-dark.svg');background-size:contain;background-repeat:no-repeat;background-position:center center}
+#adminmenuwrap:after{content:'';display:inline-block;margin:0 20% 10px;width:60%;height:32px;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-iso-one_stroke-dark.svg');background-size:contain;background-repeat:no-repeat;background-position:center center}
 #menu-management .menu-edit,#menu-settings-column .accordion-container,.comment-ays,.feature-filter,.imgedit-group,.manage-menus,.menu-item-handle,.popular-tags,.stuffbox,.widget-inside,.widget-top,.widgets-holder-wrap,.wp-editor-container,p.popular-tags,table.widefat,.postbox{margin-top:5px;box-shadow:none!important}
 .wp-editor-container{border-top-right-radius:0!important}
 #contextual-help-link-wrap,#screen-options-link-wrap{box-shadow:none!important;border-bottom-left-radius:8px;border-bottom-right-radius:8px}
@@ -112,12 +112,16 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full{display:inline-block;padding:1% 0 0;width:100%}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half{display:inline-block;padding:1% 2.75% 0 0;width:45%}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_third{display:inline-block;padding:1% 0 0;width:33%}
+.about-text~.one_third{margin-top:0;padding-top:0}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full li a,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half li a,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_third li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full li a i,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half li a i{padding-right:6px;width:24px;text-align:center}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half li span,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half li span{display:block;margin:0 0 10px;font-family:'Neo-Sans',sans-serif;font-size:.9em;color:#777777;font-weight:400;text-transform:uppercase;letter-spacing:1px}
-.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full figure{margin-left:0}
-.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full iframe{box-sizing:border-box;display:block;margin:1em 0 3em!important;width:75%;border-radius:12px;border:none;cursor:pointer}
-#available-widgets .widget .widget-top,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full iframe,div#widgets-right .widgets-holder-wrap{box-shadow:0 1px 0 0 rgba(0,0,0,.3)}
+.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full figure{margin-left:0;margin-bottom:0}
+.about-wrap .one_full .about-text{margin-top:0}
+.about-text~.one_third h3{margin-bottom:.2em;font-size:1.6em!important}
+.about-text~.one_third h3+.about-text{margin-top:0}
+.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full iframe{box-sizing:border-box;display:block;margin:1em 0 0!important;width:100%;border-radius:12px;border:2px solid #EAEAEA;cursor:pointer;box-shadow:0 14px 24px -12px #F0582B!important}
+#available-widgets .widget .widget-top,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_full iframe,div#widgets-right .widgets-holder-wrap{box-shadow:0 2px 0 0 rgb(0 0 0 / 20%)}
 #wpbody-content>div.wrap.about-wrap>div>div.wrap.about-wrap>div:nth-child(4)>div,#wpbody-content>div.wrap.about-wrap>div>div.wrap.about-wrap>div:nth-child(5)>div{border-radius:6px;overflow:hidden}
 .widgets-holder-wrap:not(.inactive-sidebar){border-radius:6px}
 .widgets-holder-wrap .widget-inside{margin-top:0}

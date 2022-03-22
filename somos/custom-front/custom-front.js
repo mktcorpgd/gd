@@ -58,18 +58,7 @@ jQuery(document).ready(function() {
 		});
 	}
 
-
-	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
-	if ( jQuery('body').hasClass('page-id-41477') ) {
-		jQuery('.post-loop h2 a').each(function(i) {
-			var new_title = jQuery(this).text();
-			new_title = new_title.substring(new_title.indexOf('.')+2,new_title.length);
-			jQuery(this).text(new_title);
-			jQuery(this).html().replace(/|/,'<br />');
-		});
-	}
 	
-
 	// MENÚ - Agregar clase si figura #wpadminbar
 	if ( jQuery('#wpadminbar').length > 0 ) {
 		jQuery('#header').addClass('plus-adminbar');
@@ -565,14 +554,10 @@ jQuery(document).ready(function() {
 	jQuery('#eo_calendar_widget-7_content').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="no-participamos" href="/eventos/categoria/no-participamos/">No participamos</a></div>');
 
 
-	// EVENTOS - Convertir textos http en link:
+	// EVENTOS - Convertir textos en descripción con "http" en link:
 	if ( jQuery('article.event').length ) {
-		jQuery('.entry-content p').each(function() {
-			var str = jQuery(this).html();
-			var urlRegex = /(http?:\/\/[^\s]+)/g;
-			var replaced_text = str.replace(urlRegex,'<a href="$1" target="_blank">$1</a>');
-			jQuery(this).html(replaced_text);
-		});
+		var linkable_content = jQuery('.entry-content p').html().replace(/(https?:\/\/[^ ;|\\*'"!,()<>]+\/?)/g,'<a href="$1" target="_blank">$1</a>');
+		jQuery('.entry-content p').html(linkable_content);
 	}
 
 

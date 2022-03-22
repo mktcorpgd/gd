@@ -93,3 +93,38 @@ body.page-id-31537 #post-content .sc-tab-panel{float:left;margin-bottom:1em}
 body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-cats,body.single article.category-40gd-en-primera-persona h1+.gp-entry-meta .gp-meta-cats{display:block;margin-left:0;padding-left:0;border-left:none!important}
 body.page-id-31537 .wp-block-separator{background:none}
 body.page-id-31537 .grid-gallery .grid-gallery-photos{border-radius:12px}
+
+/* Desktop */
+@media (min-width:960px) {
+	body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) section[class*='category-40gd']{grid-template-columns:30% 70%!important}
+	body.page-id-31537 .is-search-form{display:none!important}
+	body.page-id-31537 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-thumbnail) .post-text{padding:.4em .6em!important}
+	body.page-id-31537 #content-wrapper{margin-top:6em;margin-bottom:0}
+	body.page-id-31537 #content .post-loop iframe{max-height:167px}
+	body.page-id-31537 .mfp-content .post-loop .post-thumbnail{margin-bottom:0!important;border-width:0 1px 0 0!important}
+	body.home .post-loop[class*='category-40gd']{border-radius:6px!important}
+	body.home .gp-blog-wrapper+.post-loop{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
+	body.single-event #content .eo-event-meta li:first-child{font-size:2em}
+}
+
+/* Mobile */
+@media (max-width:960px) {
+	body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-column .wp-block-column{margin:1em 0 0}
+	body.page-id-31537 .wp-block-column>h4{margin-left:-1.05rem!important;margin-right:-1.05rem!important;font-size:1.2em}
+	body.page-id-31537 #menu40gd{left:0}
+	body.page-id-31537 #menu40gd ul li{line-height:1.5}
+	body.page-id-31537 #menu40gd ul li:not(:last-child){border-right:none}
+	body.page-id-31537 #menu40gd>span{display:none}
+	body.page-id-31537 #menu40gd .sc-button{padding:.3em .25em!important;font-size:.75em!important;border-radius:6px!important}
+	body.page-id-31537 #content-wrapper{margin-top:5em}
+	body.page-id-31537 #content h1{font-size:1.9em!important}
+	#countdown li{padding-left:0;padding-right:0}
+	#post-content .container_countdown h2,#countdown li span{font-size:2em}
+	#post-content .container_countdown h2{margin-top:.4em!important}
+	.grid-gallery-caption,.grid-gallery-caption img{height:auto!important}
+	body.page-id-31537 .content-details{-webkit-line-clamp:4}
+	body.page-id-31537 .mfp-content h1{font-size:2em!important}
+	.competition-podium{grid-template-columns:1fr}
+	.competition-podium,.competition-podium .podium-block .podium{height:auto!important}
+	body.home .post-loop[class*='category-40gd'] .post-text:before{top:-40px;border:2px solid #FFFFFF;border-right:none;border-top-left-radius:6px}
+}

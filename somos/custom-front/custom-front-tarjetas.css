@@ -21,7 +21,7 @@
 #content .columns.two .tp h3{top:18px;font-size:22px;text-align:left}
 #content .columns.two .tp h5{top:42px;font-size:18px;text-align:left;font-weight:400}
 #content .columns .tp.digital{margin:5px auto 0;padding:30px 15px;background:#F6F6F6;border:2px solid #CCCCCC;border-radius:12px;text-align:center}
-#content .columns .tp.digital #mobile-content{display:inline-block;width:252px;height:376px;position:absolute;top:120px;left:180px;z-index:10;overflow:auto}
+#content .columns .tp.digital #mobile-content{display:inline-block;width:252px;height:376px;border-radius:6px;position:absolute;top:120px;left:180px;z-index:10;overflow:auto}
 #content .columns .tp.digital #mobile-frame{width:296px;height:575px;background:none!important;border:none!important;border-radius:0!important}
 #content .columns .tp.digital ul{width:100%;text-align:center}
 #content .columns .tp.digital h2,#content .columns .tp.digital h4,#content .columns .tp.digital h5{color:#FFFFFF!important}
@@ -55,3 +55,8 @@
 #content .columns.two .tp.sersat h3,#content .columns.two .tp.sersat h5{color:#109B84}
 #content .columns.two .tp.silica_networks h3,#content .columns.two .tp.silica_networks h5{color:#87B217}
 #content .columns.two .tp.velocom h3,#content .columns.two .tp.velocom h5{color:#AE1A57}
+
+/* Mobile */
+@media (max-width:960px) {
+	#content .columns .tp.digital #mobile-content{left:49px}
+}
