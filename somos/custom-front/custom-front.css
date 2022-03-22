@@ -781,12 +781,13 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 .post-loop .post-thumbnail img{padding:0!important;background:#1549A1}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail img{max-width:158px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail a{display:block;box-sizing:content-box;padding-left:38px;padding-right:38px;width:162px;height:89px;background:#0E316E;border-right:1px solid #DDDDDD}
-.post-loop.category-salesforce .post-thumbnail img{max-width:297px}
+.post-loop.category-salesforce .post-thumbnail img{max-width:297px, background-color:transparent;}
 .post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;height:100px;background:#0E316E;border-right:1px solid #DDDDDD}
 .post-loop.category-salesforce{border-width:2px;border-color:#0E316E}
 .post-loop.category-destacados{border-width:2px;border-color:#0E316E}
 .post-loop.category-destacados .post-thumbnail{position:relative}
 .post-loop.category-destacados .post-thumbnail:after{display:inline-block;content:'\f005';width:24px;height:24px;position:absolute;top:0;left:0;font-weight:900;font-family:'Font Awesome 5 Pro';background:#0E316E;border-bottom-right-radius:12px;color:#FFFFFF;font-size:12px;line-height:24px;text-align:center}
+.post-loop.category-salesforce .post-text h2 a{text-align:center;}
 .post-loop.category-certificaciones .post-text h2,
 .post-loop.category-graduaciones .post-text h2,
 .post-loop.category-ingresos .post-text h2,
