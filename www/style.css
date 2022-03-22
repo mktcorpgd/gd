@@ -985,15 +985,13 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs .nav-tabs li a:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
 
-.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article{float:left;display:block!important;width:100%!important;height:auto!important;position:initial!important;top:0!important;left:0!important}
+.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article{height:auto!important}
 .collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article.expanded{height:auto!important}
 .collapsed-post-content .fusion-portfolio.fusion-portfolio-two .fusion-portfolio-wrapper{display:grid;grid-template-columns:50% 50%;height:auto!important}
-.collapsed-post-content .fusion-portfolio.fusion-portfolio-three .fusion-portfolio-wrapper{display:grid;grid-template-columns:33.33% 33.33% 33.33%;height:auto!important}
 .collapsed-post-content .fusion-post-content{cursor:pointer;position:relative;z-index:10}
 .collapsed-post-content .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif;font-weight:400}
 html[lang*='es'] .collapsed-post-content .fusion-post-content:before{content:' Más información'}
 html[lang*='en'] .collapsed-post-content .fusion-post-content:before{content:' More information'}
-.collapsed-post-content .fusion-portfolio-wrapper .fusion-col-spacing .visible{height:auto!important}
 .collapsed-post-content .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
 .collapsed-post-content .fusion-portfolio:hover .fusion-portfolio-wrapper .fusion-post-content:before{text-decoration:underline!important}
 .collapsed-post-content .fusion-post-content:not(.visible) p,.collapsed-post-content .fusion-post-content:not(.visible) ul,.collapsed-post-content .fusion-post-content:not(.visible) ul li,.collapsed-post-content .fusion-post-content:not(.visible) blockquote{display:none}
