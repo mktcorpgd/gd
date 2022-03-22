@@ -795,6 +795,7 @@ jQuery(document).ready(function() {
 				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 					var speed_pricing = jQuery(this).find('.fusion-button-text').text();
 					speed_pricing = speed_pricing.substring(9,speed_pricing.length);
+					console.log(speed_pricing);
 					jQuery('select[name="SPEED"]').val(speed_pricing);
 				}
 				else { 
