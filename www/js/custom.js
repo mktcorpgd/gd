@@ -786,19 +786,21 @@ jQuery(document).ready(function() {
 				if ( lugar_class != 'null' ) {
 					jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing+' en '+lugar_name);
 				}
-				if ( jQuery('select[name="TITLE"]').length ) {
-					jQuery('select[name="TITLE"]').val(title_pricing);
-				}	
 			}
-			else {
-				if ( jQuery('select[name="TITLE"]').length ) {
-					jQuery('select[name="TITLE"]').val(title_pricing);
-				}
+			if ( jQuery('select[name="TITLE"]').length ) {
+				jQuery('select[name="TITLE"]').val(title_pricing);
 			}
 			if ( jQuery('select[name="SPEED"]').length ) {
-				jQuery('select[name="SPEED"]').val(title_pricing);
+				// Velocom
+				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
+					var speed_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
+					speed_pricing = speed_pricing.substring(6,speed_pricing.length);
+					jQuery('select[name="SPEED"]').val(speed_pricing);
+				}
+				else { 
+					jQuery('select[name="SPEED"]').val(title_pricing);
+				}
 			}
-			// Velocom Fibra
 			if ( jQuery('body').hasClass('postid-23901') ) {
 				jQuery('.fusion-modal.contacto-rapido .modal-title').text('Solicitar '+title_pricing);
 			}
