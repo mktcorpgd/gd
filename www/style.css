@@ -998,6 +998,7 @@ html[lang*='en'] .collapsed-post-content .fusion-post-content:before{content:'�
 .collapsed-post-content .fusion-post-content:not(.visible){height:24px;overflow:hidden}
 .collapsed-post-content .fusion-post-content.visible{height:auto}
 .collapsed-post-content article.expanded .fusion-post-content.visible blockquote{padding-top:0;padding-bottom:0}
+.collapsed-post-content .fusion-post-content p{margin-bottom:0!important;padding-bottom:0!important}
 .collapsed-post-content .fusion-post-content ul{margin-top:5px}
 .collapsed-post-content article.expanded .fusion-post-content.visible:before{content:' Ocultar información'}
 
