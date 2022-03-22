@@ -790,7 +790,7 @@ jQuery(document).ready(function() {
 			}
 			if ( jQuery('select[name="SPEED"]').length ) {
 				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
-					var speed_pricing = jQuery(this).parent().parent().parent().find('.title-row').text().substring(6,title_pricing.length);
+					var speed_pricing = jQuery(this).attr('title');
 					jQuery('select[name="SPEED"]').val(speed_pricing);
 				}
 				else { 
