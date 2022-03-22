@@ -777,6 +777,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.fusion-pricing-table').length ) {
 		jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
 			var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
+			// Velocom
 			if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing);
 				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
