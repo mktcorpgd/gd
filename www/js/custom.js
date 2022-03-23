@@ -249,6 +249,11 @@ jQuery(document).ready(function() {
 		jQuery('.collapsed-post-content article:not(.expanded)').toggleClass('opacity');
 		e.stopPropagation();
 	});
+	jQuery('html').click(function(e) {
+		if( !jQuery(e.target).hasClass('expanded') ) {
+			jQuery('.collapsed-post-content article').removeClass('expanded').removeClass('opacity');
+		}
+	});
 	var zindex = 100;
 	jQuery('.collapsed-post-content article').each(function(i) {
 		zindex--;
