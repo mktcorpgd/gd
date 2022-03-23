@@ -9,7 +9,7 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-button:not(.button-custom):not(.menu-text):visited,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button{border-color:#87B227!important;color:#87B227}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{border-color:#497718;background:#497718;color:#FFFFFF}
 .fusion-button:not(.button-custom):not(.menu-text),.wpcf7 .wpcf7-form input[type='submit']:not(.sending){background:#87B227;color:#FFFFFF!important}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{color:#FFFFFF!important}
+.fusion-button:not(.button-custom):not(.menu-text):not(.button-left):not(.button-right) .fusion-button-text{color:#FFFFFF!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#87B227}
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#87B227!important}
 .wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#87B227!important}
