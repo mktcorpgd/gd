@@ -278,7 +278,7 @@ jQuery(document).ready(function() {
 	jQuery('.collapsed-post-content .fusion-post-content').on('click',function(e) {
 		jQuery(this).toggleClass('visible');
 		jQuery(this).parent().parent().parent('article').toggleClass('expanded');
-		jQuery('.collapsed-post-content article').toggleClass('opacity');
+		jQuery('.collapsed-post-content article:not(.expanded)').toggleClass('opacity');
 		e.stopPropagation();
 	});
 	var zindex = 100;
