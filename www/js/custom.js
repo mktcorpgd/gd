@@ -11,11 +11,9 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	// BAITCON
 	if ( e.detail.contactFormId == 27561 ) {
 		event_action = 'Contacto';
-		//gtag('event','conversion',{'send_to':'AW-795022436/xjlcCKO96dQBEOSojPsC'}); // Google Ads
 	}
 	else if ( e.detail.contactFormId == 27563 ) {
 		event_action = 'Recurso';
-		//gtag('event','conversion',{'send_to':'AW-795022436/xjlcCKO96dQBEOSojPsC'}); // Google Ads
 	}
 	else if ( e.detail.contactFormId == 28530 ) {
 		event_action = 'Newsletter';
@@ -24,49 +22,10 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	// GRUPO DATCO
 	else if ( e.detail.contactFormId == 35652 ) {
 		event_action = 'Contacto';
-		gtag('event', 'conversion', {'send_to': 'AW-702371100/IUM3COexydYBEJyq9c4C'});
 	}
 	else if ( e.detail.contactFormId == 22540 ) {
 		event_action = 'Recurso';
 	}
-	/*else if ( e.detail.contactFormId == 42054 ) {
-		event_action = '[DIT-FuruMin20] Contacto';
-	}
-	else if ( e.detail.contactFormId == 39956 ) {
-		event_action = '[GD-RSO20] Contacto';
-		gtag('event','conversion',{'send_to':'AW-702371100/IUM3COexydYBEJyq9c4C'}); // Google Ads
-		jQuery('#wpcf7-f39956-p39954-o1').append('<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=101840&conversionId=2535337&fmt=gif" />'); // LinkedIn
-	}
-	/*
-	else if ( e.detail.contactFormId == 40006 || e.detail.contactFormId == 41564 ) {
-		event_action = '[GD-RSO20] Recurso';
-		pdf_link = 'https://www.grupodatco.com/wp-content/uploads/GD-Como_brindar_seguridad_en_el_regreso_al_lugar_de_trabajo.pdf';
-		/*if ( jQuery('#wpcf7-f41564-p41524-o1').length ) {
-			jQuery('<a href="'+pdf_link+'" target="_blank">Haz clic aquí para descargar</a>').insertAfter('#wpcf7-f41564-p41524-o1 .wpcf7-response-output');
-		}
-		if ( jQuery('#wpcf7-f40006-p39954-o1').length ) {
-			jQuery('#wpcf7-f40006-p39954-o1').append('<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=101840&conversionId=3127105&fmt=gif" />'); // LinkedIn
-			jQuery('<a href="'+pdf_link+'" target="_blank">Haz clic aquí para descargar</a>').insertAfter('#wpcf7-f40006-p39954-o1 .wpcf7-response-output');
-		}
-		if ( jQuery('#wpcf7-f40006-o1').length ) {
-			jQuery('#wpcf7-f40006-o1').append('<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=101840&conversionId=3127105&fmt=gif" />'); // LinkedIn
-			jQuery('<a href="'+pdf_link+'" target="_blank">Haz clic aquí para descargar</a>').insertAfter('#wpcf7-f40006-o1 .wpcf7-response-output');
-		}
-		if ( jQuery('#wpcf7-f40006-p39954-o2').length ) {
-			jQuery('#wpcf7-f40006-p39954-o2').append('<img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=101840&conversionId=2535353&fmt=gif" />'); // LinkedIn
-			jQuery('<a href="'+pdf_link+'" target="_blank">Haz clic aquí para descargar</a>').insertAfter('#wpcf7-f40006-p39954-o2 .wpcf7-response-output');
-		}
-		gtag('event','conversion',{'send_to':'AW-702371100/q49mCMbbp9YBEJyq9c4C'}); // Google Ads
-	}
-	else if ( e.detail.contactFormId == 41564 ) {
-		event_action = '[GD-RSO20] Recurso (sidebar)';
-	}
-	else if ( e.detail.contactFormId == 37918 ) {
-		event_action = '[IOP-Librest20] Contacto';
-	}
-	else if ( e.detail.contactFormId == 41777 ) {
-		event_action = '[IOP-Realw20] Contacto';
-	}*/
 
 	// RED CAPRICORNIO
 	else if ( e.detail.contactFormId == 25323 ) {
