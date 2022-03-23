@@ -986,7 +986,6 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
 
 .fusion-fullwidth.collapsed-post-content{z-index:99}
-.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article{transition:all .2s ease-in-out}
 .collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article.expanded{height:auto!important}
 .collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article:not(.expanded) .fusion-buttons{opacity:0;height:0}
 .collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article.expanded .fusion-buttons{opacity:1;height:auto}
