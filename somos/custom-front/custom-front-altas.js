@@ -20,6 +20,9 @@ jQuery(document).ready(function() {
 			var checkbox_checked = jQuery(this).val();
 			jQuery(this).val('+'+checkbox_checked);
 		}
+		else {
+			jQuery(this).val('');
+		}
 	});
 
 
