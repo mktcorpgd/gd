@@ -11,6 +11,15 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	// BAITCON
 	if ( e.detail.contactFormId == 27561 ) {
 		event_action = 'Contacto';
+		var callback = function () {
+			if (typeof(url) != 'undefined') {
+				window.location = url;
+			}
+		};
+		gtag('event', 'conversion', {
+			'send_to': 'AW-10869955594/qOq2CMqV_asDEIq4mb8o',
+			'event_callback': callback
+		});		
 	}
 	else if ( e.detail.contactFormId == 27563 ) {
 		event_action = 'Recurso';
