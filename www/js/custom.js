@@ -251,7 +251,7 @@ jQuery(document).ready(function() {
 	});
 	jQuery('html').click(function(e) {
 		if( !jQuery(e.target).hasClass('expanded') ) {
-			jQuery('.collapsed-post-content article').removeClass('expanded').removeClass('opacity');
+			jQuery('.collapsed-post-content article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 		}
 	});
 	var zindex = 100;
