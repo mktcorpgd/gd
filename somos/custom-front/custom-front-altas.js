@@ -15,10 +15,13 @@ jQuery(document).ready(function() {
 
 
 	// Si se marca checkbox: agregar valor a [OPC]
-	jQuery('#check_freelance input').change(function() {
+	jQuery('.wpcf7-checkbox input').change(function() {
 		if ( this.checked ) {
-			var checkbox_checked = jQuery(this).val();
+			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 			jQuery(this).val('+'+checkbox_checked);
+		}
+		else {
+			jQuery(this).val('');
 		}
 	});
 
