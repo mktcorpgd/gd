@@ -993,19 +993,19 @@ body.home .tab-filters .tab-pane{background:none!important}
 .collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article.opacity:not(.expanded){opacity:.8}
 .collapsed-post-content .fusion-portfolio.fusion-portfolio-two .fusion-portfolio-wrapper{display:grid;grid-template-columns:50% 50%;height:auto!important}
 .collapsed-post-content .fusion-post-content{transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
-.collapsed-post-content .fusion-post-content article:not(.expanded) p{opacity:0}
-.collapsed-post-content .fusion-post-content article.expanded p{opacity:1}
-.collapsed-post-content .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif;font-weight:400}
-html[lang*='es'] .collapsed-post-content .fusion-post-content:before{content:' Más información'}
-html[lang*='en'] .collapsed-post-content .fusion-post-content:before{content:' More information'}
+.collapsed-post-content article:not(.expanded) .fusion-post-content{height:24px;overflow:hidden}
+.collapsed-post-content article:not(.expanded) *{opacity:0}
+.collapsed-post-content article.expanded *{opacity:1}
+.collapsed-post-content article.expanded .fusion-post-content{height:auto}
+.collapsed-post-content article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
+.collapsed-post-content article .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif;font-weight:400}
+html[lang*='es'] .collapsed-post-content article:not(.expanded) .fusion-post-content:before{content:' Más información'}
+html[lang*='en'] .collapsed-post-content article:not(.expanded) .fusion-post-content:before{content:' More information'}
+.collapsed-post-content article.expanded .fusion-post-content:before{content:' Ocultar información'}
 .collapsed-post-content .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
 .collapsed-post-content .fusion-portfolio:hover .fusion-portfolio-wrapper .fusion-post-content:before{text-decoration:underline!important}
-.collapsed-post-content .fusion-post-content:not(.visible){height:24px;overflow:hidden}
-.collapsed-post-content .fusion-post-content.visible{height:auto}
-.collapsed-post-content article.expanded .fusion-post-content.visible blockquote{padding-top:0;padding-bottom:0}
 .collapsed-post-content .fusion-post-content p{margin-bottom:0!important;padding-bottom:0!important}
 .collapsed-post-content .fusion-post-content ul{margin-top:5px}
-.collapsed-post-content article.expanded .fusion-post-content.visible:before{content:' Ocultar información'}
 
 /* Paginación */
 .pagination{margin:20px 0 0!important;width:100%;text-align:center}

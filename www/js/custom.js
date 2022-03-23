@@ -244,7 +244,6 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	jQuery('.collapsed-post-content .fusion-post-content').on('click',function(e) {
-		jQuery(this).toggleClass('visible');
 		jQuery(this).parent().parent().parent('article').toggleClass('expanded');
 		jQuery('.collapsed-post-content article').toggleClass('opacity');
 		e.stopPropagation();
