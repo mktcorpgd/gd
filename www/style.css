@@ -985,25 +985,25 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs .nav-tabs li a:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
 
-.fusion-fullwidth.collapsed-post-content{z-index:99}
-.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article.expanded{height:auto!important}
-.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article:not(.expanded) .fusion-buttons{opacity:0;height:0}
-.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article.expanded .fusion-buttons{opacity:1;height:auto}
-.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper article.opacity:not(.expanded){opacity:.8}
-.collapsed-post-content article .fusion-post-content{transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
-.collapsed-post-content article:not(.expanded) .fusion-post-content{height:24px;overflow:hidden}
-.collapsed-post-content article:not(.expanded) .fusion-post-content *{opacity:0}
-.collapsed-post-content article.expanded .fusion-post-content{height:auto}
-.collapsed-post-content article.expanded .fusion-post-content *{opacity:1}
-.collapsed-post-content article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-.collapsed-post-content article .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif;font-weight:400}
-html[lang*='es'] .collapsed-post-content article:not(.expanded) .fusion-post-content:before{content:' Más información'}
-html[lang*='en'] .collapsed-post-content article:not(.expanded) .fusion-post-content:before{content:' More information'}
-.collapsed-post-content article.expanded .fusion-post-content:before{content:' Ocultar información'}
-.collapsed-post-content .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
-.collapsed-post-content .fusion-portfolio:hover .fusion-portfolio-wrapper .fusion-post-content:before{text-decoration:underline!important}
-.collapsed-post-content .fusion-post-content p{margin-bottom:0!important;padding-bottom:0!important}
-.collapsed-post-content .fusion-post-content ul{margin-top:5px}
+.fusion-fullwidth.box-buttons{z-index:99}
+.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.expanded{height:auto!important}
+.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article:not(.expanded) .fusion-buttons{opacity:0;height:0}
+.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.expanded .fusion-buttons{opacity:1;height:auto}
+.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.opacity:not(.expanded){opacity:.8}
+.box-buttons article .fusion-post-content{transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
+.box-buttons article:not(.expanded) .fusion-post-content{height:24px;overflow:hidden}
+.box-buttons article:not(.expanded) .fusion-post-content *{opacity:0}
+.box-buttons article.expanded .fusion-post-content{height:auto}
+.box-buttons article.expanded .fusion-post-content *{opacity:1}
+.box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
+.box-buttons article .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif;font-weight:400}
+html[lang*='es'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' Más información'}
+html[lang*='en'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' More information'}
+.box-buttons article.expanded .fusion-post-content:before{content:' Ocultar información'}
+.box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
+.box-buttons .fusion-portfolio:hover .fusion-portfolio-wrapper .fusion-post-content:before{text-decoration:underline!important}
+.box-buttons .fusion-post-content p{margin-bottom:0!important;padding-bottom:0!important}
+.box-buttons .fusion-post-content ul{margin-top:5px}
 
 /* Paginación */
 .pagination{margin:20px 0 0!important;width:100%;text-align:center}
@@ -1301,7 +1301,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-mobile-nav-item .sub-menu .fusion-open-submenu[href='#']{padding-right:0!important;width:100%;max-height:47px}
 	.fusion-mobile-nav-item .sub-menu .fusion-open-submenu[href='#']:before{padding-right:14px;text-align:right;top:0;right:0}
 	body.has-sidebar #content{margin-bottom:0!important}
-	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols,.collapsed-post-content .fusion-portfolio .fusion-portfolio-wrapper{display:grid;grid-template-columns:100%!important}
+	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols,.box-buttons .fusion-portfolio .fusion-portfolio-wrapper{display:grid;grid-template-columns:100%!important}
 	body:not(.page-template-100-width) #sliders-container .fusion-page-title-bar{position:relative}
 	.fusion-page-title-bar{padding-top:1em!important}
 	body.single-avada_portfolio .fusion-page-title-bar{padding:5px 20px 10px!important}

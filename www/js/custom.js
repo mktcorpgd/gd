@@ -243,18 +243,18 @@ jQuery(document).ready(function() {
 	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
-	jQuery('.collapsed-post-content .fusion-post-content').on('click',function(e) {
+	jQuery('.box-buttons .fusion-post-content').on('click',function(e) {
 		jQuery(this).parent().parent().parent('article').toggleClass('expanded');
-		jQuery('.collapsed-post-content article').toggleClass('opacity');
+		jQuery('.box-buttons article').toggleClass('opacity');
 		e.stopPropagation();
 	});
 	jQuery('html').click(function(e) {
 		if( !jQuery(e.target).hasClass('expanded') ) {
-			jQuery('.collapsed-post-content article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+			jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 		}
 	});
 	var zindex = 100;
-	jQuery('.collapsed-post-content article').each(function(i) {
+	jQuery('.box-buttons article').each(function(i) {
 		zindex--;
 		jQuery(this).css('z-index',zindex);
 	});
