@@ -451,7 +451,7 @@ article.category-salesforce .nav-posts{text-align:right}
 article .nav-posts .next-post{text-align:right}
 #post-content+.nav-posts{margin-bottom:2em}
 #content .nav-posts h5{margin:0!important;font-size:.9em}
-#content .nav-posts h6{margin:0 0 .4em!important;font-size:.7em}
+#content .nav-posts h6{margin:0 0 .1em!important;font-size:.7em}
 .nav-posts select{width:auto!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
 
 /* Sidebar */
