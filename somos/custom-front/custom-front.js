@@ -472,6 +472,16 @@ jQuery(document).ready(function() {
 	});
 
 
+	// FORMULARIOS - Ir a página en cambio de select para .nav-posts
+	jQuery(document).on('change','.nav-posts select', function() {
+		var url = jQuery(this).val();
+		if (url) {
+			window.location = url;
+		}
+		return false;
+	});
+
+
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
 
