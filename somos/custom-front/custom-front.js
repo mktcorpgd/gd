@@ -473,7 +473,6 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Ir a página en cambio de select para .nav-posts
-	console.log(window.location.href);
 	jQuery('.nav-posts select').val(window.location.href);
 	jQuery(document).on('change','.nav-posts select', function() {
 			var url = jQuery(this).val();

@@ -28,7 +28,8 @@ a{color:#F0582B}
 a:hover{color:#1F4483}
 #content a:hover{text-decoration:underline}
 input,textarea,input[type='password'],#content .widget[class*='widget_bp_'] h3{background-color:#F6F6F6;border-color:#F6F6F6}
-input[type='submit'],select,textarea,button{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important;outline:none!important}
+input[type='submit'],select,textarea,button{outline:none!important}
+input[type='submit'],textarea,button{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important;outline:none!important}
 input[type='text']{-webkit-appearance:none}
 select{cursor:pointer}
 hr{width:100%;height:4px;margin:20px 0;padding:0;position:relative;background:#EAEAEA;border:0;clear:both}
