@@ -446,7 +446,9 @@ body:not(.home):not(.archive):not(.search):not(.page-id-31537) .padder{box-shado
 .post-thumbnail.single-thumbnail img{width:60%}
 article .nav-posts{margin-bottom:1em}
 article:not(.category-salesforce) .nav-posts{display:grid;grid-template-columns:1fr 1fr}
+article:not(.category-salesforce) .nav-posts{grid-column-gap:1em}
 article.category-salesforce .nav-posts{text-align:right}
+article .nav-posts .next-post{text-align:right}
 #post-content+.nav-posts{margin-bottom:2em}
 #content .nav-posts h5{margin:0!important;font-size:.9em}
 #content .nav-posts h6{margin:0!important;font-size:.6em;text-transform:uppercase}
