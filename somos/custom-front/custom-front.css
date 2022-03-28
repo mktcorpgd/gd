@@ -444,16 +444,16 @@ body:not(.home):not(.archive):not(.search):not(.page-id-31537) .padder{box-shado
 #content .gp-blog-wrapper .post-loop .post-text p{margin-top:.1em;margin-bottom:.1em;font-size:.9em!important;line-height:1.4!important}
 .post-thumbnail.single-thumbnail img{width:60%}
 article .nav-posts{margin-bottom:1em}
+article .nav-posts .next-post{text-align:right}
 article:not(.category-salesforce) .nav-posts{display:grid;grid-template-columns:1fr 1fr}
 article:not(.category-salesforce) .nav-posts{grid-column-gap:1em}
-article .nav-posts .next-post{text-align:right}
 #post-content+.nav-posts{margin-bottom:2em}
 #content .nav-posts h5{margin:0!important;font-size:.9em}
 #content .nav-posts h6{margin:0 0 .1em!important;font-size:.7em}
 .nav-posts select{width:auto!important}
-article.category-salesforce #post-content+.nav-posts{text-align:right}
 #post-content>.nav-posts,#post-content>.nav-posts select{margin:0!important}
 #post-content>.nav-posts select{padding:.2em!important;font-size:.6em!important}
+#post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
 
 /* Sidebar */
