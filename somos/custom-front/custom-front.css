@@ -29,8 +29,7 @@ a:hover{color:#1F4483}
 #content a:hover{text-decoration:underline}
 input,textarea,input[type='password'],#content .widget[class*='widget_bp_'] h3{background-color:#F6F6F6;border-color:#F6F6F6}
 input[type='submit'],select,textarea,button{outline:none!important}
-input[type='submit'],textarea,button{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important;outline:none!important}
-input[type='text']{-webkit-appearance:none}
+input[type='submit'],input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],textarea,button,.wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 select{cursor:pointer}
 hr{width:100%;height:4px;margin:20px 0;padding:0;position:relative;background:#EAEAEA;border:0;clear:both}
 h1,h2,h3,h4,h5,h6{margin-bottom:15px;line-height:125%}
@@ -53,7 +52,6 @@ body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border
 .sc-divider{float:left;margin:30px 0;border-width:3px}
 .sc-divider.small{margin:15px 0!important;border-width:1px}
 .sc-divider.clear{margin:5px 0!important}
-input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,button{-webkit-appearance:none!important}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-checkbox.large label,.wpcf7-radio.large label,.wpcf7-select,.wpcf7-select:not([multiple]) option{cursor:pointer}
 h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-family:'Neo-Sans',sans-serif!important}
 h1,h2,h3,h4,.widget .widgettitle,.neosans li{font-weight:500}
@@ -277,7 +275,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7>.wpcf7-form>.gift_label{padding-top:10px;border-top:1px solid #DDDDDD}
 .wpcf7>.wpcf7-form>h3+.gift_label{padding-top:0;border-top:none}
 .wpcf7>.wpcf7-form>h3+.gift_label>.gift_buttons{top:0}
-.wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0;-webkit-appearance:none}
+.wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
 body form.sending:before{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;font-size:24px;background-color:rgba(255,255,255,.6);background-repeat:no-repeat;background-position:center 90%;z-index:10}
 body form.sending{cursor:wait}
