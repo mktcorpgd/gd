@@ -447,12 +447,12 @@ article .nav-posts{margin-bottom:1em}
 article .nav-posts .next-post{text-align:right}
 article:not(.category-salesforce) .nav-posts{display:grid;grid-template-columns:1fr 1fr}
 article:not(.category-salesforce) .nav-posts{grid-column-gap:1em}
-.nav-posts+article.category-salesforce .wp-block-image img{border-radius:0 12px 12px 12px!important}
+article.category-salesforce .nav-posts+.wp-block-image img{border-radius:0 12px 12px 12px!important}
 #post-content+.nav-posts{margin-bottom:2em}
 #content .nav-posts h5{margin:0!important;font-size:.9em}
 #content .nav-posts h6{margin:0 0 .1em!important;font-size:.7em}
 .nav-posts select{width:auto!important}
-article.category-salesforce #post-content>.nav-posts{margin:0 0 .5em!important}
+article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{margin:0!important;padding:.2em!important;font-size:.6em!important;border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
