@@ -87,7 +87,9 @@ jQuery(document).ready(function() {
 		if ( tp_org.indexOf('(') != -1 ) {
 			tp_org = tp_org.substring(0,tp_org.indexOf('(')-1);
 		}
-		tp_org = tp_org.replace(/0/g,'zero').toLowerCase();
+		if ( tp_org.indexOf('zero') != -1 ) {
+			tp_org = tp_org.replace(/0/g,'zero').toLowerCase();
+		}
 		jQuery('.tp').removeClass().addClass('tp '+tp_org);
 		if ( jQuery('body').hasClass('page-id-24225') ) {
 			jQuery('.tp').addClass('digital');
