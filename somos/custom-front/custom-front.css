@@ -775,6 +775,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 .slick-slide.more-info .timeline-post:after{content:'+';display:inline-block;width:1em;height:1em;line-height:1em;text-align:center;font-weight:bold;border-top-left-radius:6px;position:absolute;bottom:0;right:0;background:#F0582B;color:#FFFFFF}
 .slick-slide.more-info:hover .timeline-post:after{background:#1F4483}
 .content-details .yotu-playlist{padding:0}
+body.post-template-default .yotu-playlist{padding-bottom:0}
 .content-details .yotu-playlist .yotu-wrapper-player{margin-top:0;box-shadow:none}
 .content-details .yotu-videos{display:none!important}
 .cool-timeline-horizontal .timeline-post iframe{max-height:auto!important;min-height:auto!important}
