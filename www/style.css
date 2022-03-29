@@ -660,7 +660,7 @@ body:not(.home) .fusion-fullwidth.fullwidth-box.header-transparent:not(.no-overl
 /* Blog/Portfolio */
 .fusion-portfolio-content-wrapper .fusion-portfolio-content{margin:0!important}
 .fusion-blog-shortcode .fusion-portfolio-grid .fusion-post-content-wrapper{background-color:#FFFFFF}
-.fusion-blog-layout-grid .fusion-flexslider+.fusion-post-content-wrapper{border-top:1px solid #EAEAEA}
+.fusion-blog-layout-grid .fusion-post-grid.has-post-thumbnail .fusion-flexslider+.fusion-post-content-wrapper{border-top:1px solid #EAEAEA}
 .fusion-post-content-wrapper>div>div>p a i{font-size:14px;margin-left:2px;opacity:.3}
 .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{color:#333333!important;padding:16px 20px 8px!important}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:16px 20px 0!important}
@@ -676,7 +676,7 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-grid.fusion-portfolio-five .fusion-post-content p{padding:0 16px 20px!important;font-size:80%;line-height:1.6;font-weight:400}
 .fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{padding:0 0 8px!important}
 .fusion-title-size-two+.fusion-blog-layout-grid-wrapper .fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a{padding:20px 24px!important}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper{border:0!important;background:#FFFFFF;box-shadow:0 2px 0 1px rgba(0,0,0,.2);position:relative;z-index:10;overflow:hidden}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper{border:1px solid rgba(0,0,0,.2)!important;background:#FFFFFF;box-shadow:0 3px 0 0 rgba(0,0,0,.2);position:relative;z-index:10;overflow:hidden}
 .fusion-blog-layout-grid .fusion-post-wrapper{border-radius:12px}
 .fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper{border-top-right-radius:6px;border-bottom-right-radius:48px!important;border-bottom-left-radius:6px;border-top-left-radius:24px}
 .no-featured-image .fusion-portfolio-content-wrapper,body.archive.tax-portfolio_category .fusion-portfolio-content-wrapper{border-bottom-right-radius:36px;border-top-left-radius:24px}
