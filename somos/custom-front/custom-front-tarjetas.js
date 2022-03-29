@@ -94,8 +94,8 @@ jQuery(document).ready(function() {
 		if ( jQuery('body').hasClass('page-id-24225') ) {
 			jQuery('.tp').addClass('digital');
 		}
-			jQuery('#mobile-logo').fadeOut('fast', function() {
-			jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
+		jQuery('#mobile-logo').fadeOut('fast', function() {
+		jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
 		}).fadeIn('fast');
 			jQuery('#tp_frente').fadeOut('fast', function() {
 			jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente.png');
