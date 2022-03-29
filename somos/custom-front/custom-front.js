@@ -236,7 +236,7 @@ jQuery(document).ready(function() {
 		jQuery('.UseyourDrive').append('<div class="info-material"><i class="fas fa-info-circle"></i><strong style="font-weight:600">Por nuevos contenidos o material desactualizado, por favor <a href="mailto:somos@datco.net" style="text-decoration:underline">contactanos</a></strong>.<br />La descarga de archivos funciona con <a href="http://www.google.com/chrome/" target="_blank">Google Chrome</a>, <a href="http://www.microsoft.com/es-ar/windows/microsoft-edge" target="_blank">Microsoft Edge</a>, <a href="http://www.mozilla.org/es-AR/" target="_blank">Mozilla Firefox</a> u <a href="https://www.opera.com/es" target="_blank">Opera</a>.</div>');
 	}
 	if ( jQuery('.yotu-playlist').length && !jQuery('body').hasClass('fullwidth')) {
-		if ( jQuery('body.post-template-default').hasClass('category-salesforce') ) {
+		if ( !jQuery('body.post-template-default article').hasClass('category-salesforce') ) {
 			jQuery('.yotu-playlist').prepend('<div class="info-material"><i class="fas fa-info-circle"></i><strong style="font-weight:600"><a href="https://www.youtube.com/grupodatco" target="_blank">Nuestro canal de YouTube</a> funciona como único repositorio para videos públicos e internos. Todo material de video interno o no autorizado a difundir públicamente son visibles sólo en nuestro portal.</strong><br />Tip: la descarga de un video de YouTube puede hacerse desde <a href="https://www.y2mate.com/es1/youtube" target="_blank">y2mate.com</a>.</div>');
 		}
 	}
