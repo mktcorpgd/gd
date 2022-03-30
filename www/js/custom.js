@@ -290,7 +290,7 @@ jQuery(document).ready(function() {
 			site_id = '';
 		}
 	}
-	if ( jQuery('.fusion-post-grid').length ) {
+	if ( jQuery('.fusion-posts-container').length ) {
 		jQuery('.fusion-post-grid:not(.has-post-thumbnail)').each(function(i) {
 			var link_href = jQuery(this).find('h2 a').attr('href');
 			if ( jQuery(this).hasClass('format-link') ) {
@@ -315,7 +315,9 @@ jQuery(document).ready(function() {
 				if ( site_id == 'sites/5/' ) {
 					link_id = link_href.substring(3,link_href.length);
 				}
-				jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(/wp-content/uploads/'+site_id+link_type+'-'+link_id+'-pdf-large.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');
+				if ( jQuery(this).hasClass('category-articulos') || jQuery(this).hasClass('category-datasheets') || jQuery(this).hasClass('category-guias') || jQuery(this).hasClass('category-whitepapers') ) {
+					jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(/wp-content/uploads/'+site_id+link_type+'-'+link_id+'-pdf-large.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');
+				}
 			}
 			else if ( jQuery(this).hasClass('format-video') ) {
 				var link_href = jQuery(this).find('h2 a').attr('href');
