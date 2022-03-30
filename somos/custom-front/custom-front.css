@@ -795,11 +795,10 @@ body.post-template-default .yotu-playlist{padding-bottom:0}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li{min-height:100px}
 .ctl_info a{color:#555555!important}
 #timelinegd{margin-bottom:1em;overflow:hidden}
-.post-loop .post-thumbnail img{padding:0!important;background:#1549A1}
+.post-loop .post-thumbnail img{padding:0!important;background:#0E316E}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail img{max-width:158px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail a{display:block;box-sizing:content-box;padding-left:38px;padding-right:38px;width:162px;height:89px;background:#0E316E;border-right:1px solid #DDDDDD}
 body.page-id-41477 .post-loop.category-salesforce .post-thumbnail img{max-width:297px}
-.post-loop.category-salesforce .post-thumbnail img{background-color:transparent}
 body.page-id-41477 .post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;background:#0E316E}
 .post-loop.category-salesforce{border-width:2px;border-color:#0E316E}
 .post-loop.category-destacados{border-width:2px;border-color:#0E316E}
