@@ -314,6 +314,7 @@ jQuery(document).ready(function() {
 				}
 				if ( site_id == 'sites/5/' ) {
 					link_id = link_href.substring(3,link_href.length);
+					console.log(link_id);
 				}
 				jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(/wp-content/uploads/'+site_id+link_type+'-'+link_id+'-pdf-large.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');
 			}
