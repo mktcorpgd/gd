@@ -56,7 +56,6 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#89388D!important}
 .fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid rgba(85,33,86,0.6)!important}
 .fusion-content-boxes.shadow>.fusion-column>.col{border-bottom:3px solid rgba(138,57,142,0.6)!important}
-body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,#874493,rgba(255,255,255,.7));z-index:1}
 
 /* Desktop */
 @media (min-width:920px) {
