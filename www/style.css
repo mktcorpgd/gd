@@ -410,7 +410,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner.warning .menu-text.fusion-button{color:#F1B500}
 #content .wpcf7-response-inner .menu-text.fusion-button:hover{color:#FFFFFF;background:none!important}
 .wpcf7-spam{background-color:#F1B500!important;color:#FFFFFF!important}
-.fusion-column-wrapper .wpcf7 input:not([type='submit']),.fusion-column-wrapper .wpcf7 select,.widget select,.fusion-column-wrapper .wpcf7 textarea{width:100%!important;background:#FFFFFF;position:relative;z-index:1}
+.fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']),.fusion-column-wrapper .wpcf7 select,.widget select,.fusion-column-wrapper .wpcf7 textarea{width:100%!important;background:#FFFFFF;position:relative;z-index:1}
 .wpcf7{position:relative}
 .white .wpcf7 .fusion-one-full>a{color:#FFFFFF!important}
 .white .fusion-content-widget-area .widget{margin-bottom:0!important}
@@ -1085,7 +1085,7 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 #reviews input#submit,.button-default,.button.default,.fusion-button-default,.wpcf7 input[type='submit'],.wpcf7-submit,.button-round,.fusion-.fusion-button-round,.fusion-button-round,.button-round.button-xlarge,.fusion-.fusion-button-round.button-xlarge,.fusion-button-round.button-xlarge{border-radius:12px!important}
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.comment-form input[type="submit"],.fusion-button-default-size,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type="submit"],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type="submit"],.wpcf7-form input[type="submit"],.wpcf7-submit{padding:.6em 1.2em;line-height:1.1;font-size:1.1em;font-weight:500;border:none}
 .wpcf7-form input[type="submit"],.wpcf7-submit{padding:.45em 0.65em;font-size:1.23em}
-.fusion-column-wrapper .wpcf7 input:not([type='submit']):hover,.fusion-column-wrapper .wpcf7 select:not(.highlight):not(:disabled):hover,.fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.white .fusion-one-full input,.white .fusion-one-full select,.white .fusion-one-full textarea{background:#FFFFFF!important}
+.fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']):hover,.fusion-column-wrapper .wpcf7 select:not(.highlight):not(:disabled):hover,.fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.white .fusion-one-full input,.white .fusion-one-full select,.white .fusion-one-full textarea{background:#FFFFFF!important}
 .white .wpcf7 input:not([type='submit']),body.error404 .searchform input,.white .fusion-column-wrapper .wpcf7 select:not(:disabled):hover,.white .fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.fusion-tabs:not(.tab-filters) .nav{background:#FAFAFA}
 .fusion-widget-area .wpcf7-form-control-wrap,#sidebar .wpcf7-form-control-wrap,.modal .wpcf7-form-control-wrap,.fusion-fullwidth.nonhundred-percent-fullwidth .wpcf7 .wpcf7-form-control-wrap{box-shadow:none!important}
 .fusion-google-map .infoBox{width:auto!important}
