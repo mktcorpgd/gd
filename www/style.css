@@ -659,7 +659,7 @@ body:not(.home) .fusion-fullwidth.fullwidth-box.header-transparent:not(.no-overl
 /* Blog/Portfolio */
 .fusion-portfolio-content-wrapper .fusion-portfolio-content{margin:0!important}
 .fusion-blog-shortcode .fusion-portfolio-grid .fusion-post-content-wrapper{background-color:#FFFFFF}
-.fusion-blog-layout-grid .fusion-post-grid.has-post-thumbnail .fusion-flexslider+.fusion-post-content-wrapper{border-top:1px solid #EAEAEA}
+.fusion-blog-layout-grid .fusion-post-grid.has-post-thumbnail .fusion-flexslider+.fusion-post-content-wrapper,.fusion-blog-layout-grid .fusion-post-grid.post_format-post-format-link .fusion-flexslider+.fusion-post-content-wrapper,.fusion-blog-layout-grid .fusion-post-grid.post_format-post-format-video .fusion-flexslider+.fusion-post-content-wrapper{border-top:1px solid #EAEAEA}
 .fusion-post-content-wrapper>div>div>p a i{font-size:14px;margin-left:2px;opacity:.3}
 .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{color:#333333!important;padding:16px 20px 8px!important}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:16px 20px 0!important}

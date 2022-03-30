@@ -160,7 +160,7 @@ jQuery(document).ready(function() {
 	var lang = jQuery('html').attr('lang').substring(0,2);
 
 	// MENÚ - Si tiene la clase: converitr en transparente el fondo del header y si hay agregar clases para degradados
-	if ( jQuery('.fusion-builder-row-1.header-transparent').length ) {
+	if ( jQuery('body.page-template-100-width .post-content .header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
 	jQuery('.fusion-header').addClass('on-top');
@@ -311,9 +311,6 @@ jQuery(document).ready(function() {
 				if ( jQuery(this).hasClass('category-whitepapers') ) {
 					link_id = link_href.substring(link_href.indexOf('whitepaper-')+11,link_href.length-1);
 					link_type = 'whitepaper';
-				}
-				if ( site_id == 'sites/5/' ) {
-					console.log(link_id);
 				}
 				jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(/wp-content/uploads/'+site_id+link_type+'-'+link_id+'-pdf-large.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');
 			}
