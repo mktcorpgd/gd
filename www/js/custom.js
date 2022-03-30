@@ -337,6 +337,9 @@ jQuery(document).ready(function() {
 		}
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
+		if ( jQuery('body.single-format-link article').hasClass('category-guias') ) {
+			jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" alt="Guía" />').insertBefore('.wpcf7');
+		}
 	}
 
 	// VIDEOS - Personalización

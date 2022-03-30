@@ -729,6 +729,7 @@ article.fusion-post-grid.has-post-thumbnail[class*='category-recursos'] .fusion-
 .fusion-post-grid.format-link:not(.has-post-thumbnail) .fusion-image-wrapper{height:147px}
 .fusion-post-grid.format-video:not(.has-post-thumbnail) .fusion-image-wrapper{height:205px}
 .fusion-post-grid.category-articulos .fusion-image-wrapper,.fusion-post-grid.category-datasheets .fusion-image-wrapper,.fusion-post-grid.category-guias .fusion-image-wrapper,.fusion-post-grid.category-whitepapers .fusion-image-wrapper{filter:blur(1px);transform:rotate(5deg) scale(1.2)}
+body.single-format-link .post-content .fusion-widget-area img.preview{margin-right:2em;border-radius:12px;border:2px solid rgba(0,0,0,.2)}
 
 /* Portfolio */
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.4em!important}
@@ -1127,7 +1128,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.hero-img{padding-top:5%!important;padding-bottom:5%!important}
 	.hero-img .fusion-title-2{margin-bottom:0!important}
 	#inicio .fusion-content-boxes.content-boxes-icon-on-top .content-container,#inicio .fusion-content-boxes .fusion-column,#inicio .fusion-content-boxes.content-boxes-icon-on-top .heading{margin-bottom:0!important}
-	body.single-format-link .fusion-one-full .wpcf7{margin:0 auto;width:60%}
+	body.single-format-link .fusion-one-full .wpcf7{margin:0 auto;float:left}
 	.fusion-fullwidth.white .fusion-one-full .wpcf7,.fusion-one-full.white .wpcf7{margin:0 auto;width:50%}
 	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:20px}
 	.table-1,.table-2,.tkt-slctr-tbl-wrap-dv{overflow:inherit}
