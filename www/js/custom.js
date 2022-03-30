@@ -329,7 +329,7 @@ jQuery(document).ready(function() {
 	}
 
 	// ENLACES - Personalización
-	if ( jQuery('body.single article.format-link').length ) {
+	if ( jQuery('body.single-format-link').length ) {
 		var link_href = window.location.pathname;
 		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
 		if ( site_id == 'sites/5/' ) {
