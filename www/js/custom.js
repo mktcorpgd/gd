@@ -160,7 +160,7 @@ jQuery(document).ready(function() {
 	var lang = jQuery('html').attr('lang').substring(0,2);
 
 	// MENÚ - Si tiene la clase: converitr en transparente el fondo del header y si hay agregar clases para degradados
-	if ( jQuery('.header-transparent').length ) {
+	if ( jQuery('.fusion-builder-row-1.header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
 	jQuery('.fusion-header').addClass('on-top');
