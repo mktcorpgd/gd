@@ -860,7 +860,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-fullwidth.msg-inv.ok{background:#419466!important}
 .post-content iframe,.modal iframe{width:100%!important;box-shadow:0 0 0 2px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
 .fusion-two-third iframe[src*='youtube.com']{height:290px}
-.fusion-one-full iframe[src*='youtube.com']{height:360px}
+.fusion-one-full:not(.fullscreen) iframe[src*='youtube.com']{height:360px}
 .fusion-posts-container.fusion-blog-layout-grid-2 iframe[src*='youtube.com']{height:230px}
 .fusion-blog-layout-grid .post-content iframe{border-radius:0;border:none!important}
 .fusion-blog-layout-grid article.format-video .fusion-post-content-wrapper,.fusion-blog-layout-grid article.format-video .fusion-post-content-container,.fusion-blog-layout-grid article.format-video .fusion-post-content-container .fusion-fullwidth{background:#FAFAFA!important}
