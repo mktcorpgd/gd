@@ -1032,7 +1032,7 @@ html[lang*='en'] .box-buttons article:not(.expanded) .fusion-post-content:before
 .no-margin-h3 h3,.no-margin-h4 h4{margin-top:5px!important}
 .padding1em .fusion-column-wrapper{padding:1em!important}
 .no-border,.modal-content,.tfs-slider .overlay-link,.tab-filters .nav li a,.nav-tabs a,.fusion-filters li a,.nav-tabs a{border:0!important}
-.fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
+.fusion-layout-column:not(.no-radius) .fusion-video,.fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
 .mejs-container *{font-family:'Open-Sans',sans-serif}
 .mejs-time{padding:14px 6px 0;font-size:13px}
 .fusion-video.no-radius{border-radius:0}
