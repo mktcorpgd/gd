@@ -1081,7 +1081,7 @@ img[src*='-dark-']{background:#999999}
 .widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
 .widget_ref a.patrocinamos,#wp-calendar tbody td.eo-event-cat-patrocinamos a{background:#5580BF}
 .widget_ref a.asistimos,#wp-calendar tbody td.eo-event-cat-asistimos a{background:#338A6C}
-.widget_ref a.no-participamos,#wp-calendar tbody td.eo-event-cat-no-participamos a{background:#D50000}
+.widget_ref a.no-participamos,#wp-calendar tbody td.eo-event-cat-no-participamos a{background:#FFB201}
 
 /* Eventos */
 #wp-calendar tbody td a{position:relative;text-decoration:none;z-index:9}
