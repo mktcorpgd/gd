@@ -1069,7 +1069,7 @@ input[type='button']:hover,input[type='submit']:hover,input[type='reset']:hover,
 .post-loop.post-columns{margin:0 0 24px 4%}
 body #content .sc-button{padding:.5em .6em;font-size:1.2em;background-color:#F0582B;color:#FFFFFF}
 body #content .sc-button.xlarge{background-color:#0E316E!important}
-body #content .sc-button.xlarge:hover{background-color:#F0582B!important}
+body #page-wrapper #content .sc-button.xlarge:hover{background-color:#F0582B!important}
 
 img[src*='-dark-']{background:#999999}
 .eo-widget-cal-wrap+.widget_ref{margin:.6em 0 0}
