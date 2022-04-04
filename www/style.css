@@ -726,7 +726,8 @@ article.fusion-post-grid.has-post-thumbnail[class*='category-recursos'] .fusion-
 .fusion-post-grid .fusion-image-wrapper a{display:block;width:100%;height:100%}
 .fusion-post-grid.format-link:not(.has-post-thumbnail) .fusion-image-wrapper{height:147px}
 .fusion-post-grid.format-video:not(.has-post-thumbnail) .fusion-image-wrapper{height:205px}
-.fusion-post-grid.category-articulos .fusion-image-wrapper,.fusion-post-grid.category-datasheets .fusion-image-wrapper,.fusion-post-grid.category-guias .fusion-image-wrapper,.fusion-post-grid.category-whitepapers .fusion-image-wrapper{filter:blur(1px);transform:rotate(5deg) scale(1.2)}
+.fusion-post-grid.category-articulos,.fusion-post-grid.category-datasheets,.fusion-post-grid.category-guias,.fusion-post-grid.category-whitepapers{height:auto!important}
+.fusion-post-grid.category-articulos .entry-title,.fusion-post-grid.category-datasheets .entry-title,.fusion-post-grid.category-guias .entry-title,.fusion-post-grid.category-whitepapers .entry-title{display:none}
 
 /* Recursos */
 body.single-format-link .post-content .fusion-widget-area img.preview{float:left;margin-right:2em;border-radius:12px;border:2px solid rgba(0,0,0,.2)}
