@@ -304,10 +304,6 @@ jQuery(document).ready(function() {
 					link_id = link_href.substring(link_href.indexOf('datasheet-')+10,link_href.length-1);
 					link_type = 'datasheet';
 				}
-				if ( jQuery(this).hasClass('category-guias') ) {
-					link_id = link_href.substring(link_href.indexOf('guia-')+5,link_href.length-1);
-					link_type = 'guia';
-				}
 				if ( jQuery(this).hasClass('category-whitepapers') ) {
 					link_id = link_href.substring(link_href.indexOf('whitepaper-')+11,link_href.length-1);
 					link_type = 'whitepaper';
