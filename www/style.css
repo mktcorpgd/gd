@@ -715,9 +715,8 @@ body.single-avada_portfolio #main{padding-top:0}
 
 /* Blog */
 .fusion-blog-layout-grid article.fusion-post-grid.has-post-thumbnail h2{margin:0!important;font-weight:500!important}
-article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-recursos'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-casos'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-datasheets'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-guias'] .fusion-post-wrapper:after,article.fusion-post-grid.post_format-post-format-video[class*='category-videos'] .fusion-post-wrapper:after,article.fusion-post-grid.post_format-post-format-video[class*='category-webinars'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-whitepapers'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-articulos'] .fusion-post-wrapper:after{display:inline-block;padding:4px 8px;position:absolute;top:0;right:0;font-size:.9em;font-family:'Neo-Sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
+article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:inline-block;padding:4px 8px;position:absolute;top:0;right:0;font-size:.9em;font-family:'Neo-Sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
 article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{content:'Nota de prensa'}
-article.fusion-post-grid.has-post-thumbnail[class*='category-recursos'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-casos'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-datasheets'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-guias'] .fusion-post-wrapper:after,article.fusion-post-grid.post_format-post-format-video[class*='category-videos'] .fusion-post-wrapper:after,article.fusion-post-grid.post_format-post-format-video[class*='category-webinars'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-whitepapers'] .fusion-post-wrapper:after,article.fusion-post-grid.has-post-thumbnail[class*='category-articulos'] .fusion-post-wrapper:after{content:'Recurso'}
 .fusion-blog-archive .fusion-post-content-container .fusion-layout-column,.fusion-blog-archive .fusion-post-content-container p{margin:0!important;padding:0!important}
 .fusion-blog-archive article .fusion-video{margin-bottom:0!important;border-radius:0!important;border:none!important}
 .fusion-video{margin-bottom:20px;max-width:1280px;max-height:720px;width:100%}
@@ -726,8 +725,6 @@ article.fusion-post-grid.has-post-thumbnail[class*='category-recursos'] .fusion-
 .fusion-post-grid .fusion-image-wrapper a{display:block;width:100%;height:100%}
 .fusion-post-grid.format-link:not(.has-post-thumbnail) .fusion-image-wrapper{height:147px}
 .fusion-post-grid.format-video:not(.has-post-thumbnail) .fusion-image-wrapper{height:205px}
-.fusion-post-grid.category-articulos,.fusion-post-grid.category-datasheets,.fusion-post-grid.category-guias,.fusion-post-grid.category-whitepapers{height:auto!important}
-.fusion-post-grid.category-articulos .entry-title,.fusion-post-grid.category-datasheets .entry-title,.fusion-post-grid.category-guias .entry-title,.fusion-post-grid.category-whitepapers .entry-title{display:none}
 
 /* Recursos */
 body.single-format-link .post-content .fusion-widget-area img.preview{float:left;margin-right:2em;border-radius:12px;border:2px solid rgba(0,0,0,.2)}
