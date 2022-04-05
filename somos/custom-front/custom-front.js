@@ -495,16 +495,15 @@ jQuery(document).ready(function() {
 	jQuery('input[name^=CANT]').on('keyup mouseup',function(e) {
 		var num_index = jQuery(this).attr('name');
 		num_index = num_index.substr(num_index.length-1,1);
-		console.log(jQuery(this).val() < 11);
 		if ( jQuery(this).val() < 11 ) { 
-			var merch_val = jQuery('select[name=MERCH'+num_index+']').val();
+			var merch_val = jQuery('select[name=MERCH'+num_index+'] option:selected').val();
 			merch_val = merch_val.substring(0,merch_val.indexOf('(')-2);
 			console.log(merch_val);
-			var merch_price = jQuery('select[name=MERCH'+num_index+']').val();
+			var merch_price = jQuery('select[name=MERCH'+num_index+'] option:selected').val();
 			merch_price = merch_price.substring(merch_price.indexOf('(')+1,merch_price.indexOf(')'));
 			console.log(merch_price);
-			jQuery('select[name=MERCH'+num_index+']').attr('data-price',merch_price);
-			jQuery('select[name=MERCH'+num_index+']').val(merch_val);
+			jQuery('select[name=MERCH'+num_index+'] option:selected').attr('data-price',merch_price);
+			jQuery('select[name=MERCH'+num_index+'] option:selected').val(merch_val);
 		}
 		else {
 			jQuery('select[name=MERCH'+num_index+']').removeAttr('data-price');
