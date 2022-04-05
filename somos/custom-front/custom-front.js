@@ -396,7 +396,7 @@ jQuery(document).ready(function() {
 					input_value = input_value.substring(input_value.indexOf('—')+2,input_value.length);
 				}
 				else {
-					input_value = input_value.substring(input_value.indexOf('—')+1,input_value.length);
+					input_value = input_value.substring(input_value.indexOf('—'),input_value.length);
 				}
 				jQuery(this).text(input_value).val(input_value);
 			}
