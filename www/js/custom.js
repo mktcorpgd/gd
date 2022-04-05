@@ -123,7 +123,7 @@ function scrollHeaderTransp() {
 		if ( jQuery('.header-transparent').length ) {
 			jQuery('#wrapper,.fusion-header').addClass('bkg');
 		}
-		jQuery('#wrapper,.fusion-header').addClass('on-top');
+		jQuery('#wrapper,.fusion-header').removeClass('on-top');
 	}
 }
 
