@@ -498,7 +498,7 @@ jQuery(document).ready(function() {
 		console.log(num_index);
 		if ( jQuery(this).val() < 11 ) { 
 			var merch_val = jQuery('input[name=MERCH'+num_index+']').val();
-			merch_val = merch_val.substring(0,merch_val.indexOF('(')-2);
+			merch_val = merch_val.substring(0,merch_val.indexOf('(')-2);
 			console.log(merch_val);
 			var merch_price = jQuery('input[name=MERCH'+num_index+']').val();
 			merch_price = merch_price.substring(merch_price.indexOf('(')+1,merch_price.indexOf(')'));
