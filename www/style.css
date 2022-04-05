@@ -843,6 +843,7 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_uy.svg')}
 .fusion-single-line-meta,.fusion-portfolio-meta{padding:5px 20px 15px}
+article.category-guias .fusion-single-line-meta{padding-top:10px}
 .fusion-single-line-meta>span:not(.meta-tags),.fusion-single-line-meta a,.fusion-portfolio-meta a,.fusion-carousel-meta span,.fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a{border-bottom:0!important;color:#666666!important;font-size:1em;text-decoration:none}
 .fusion-single-line-meta a:hover,.fusion-portfolio-meta a:hover,.fusion-meta-info-wrapper a:hover{text-decoration:underline}
 .fusion-portfolio-meta span{display:inline-block;color:#AAAAAA!important}
