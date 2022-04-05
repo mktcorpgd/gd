@@ -492,16 +492,22 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Ocultar precio si cantidad es menor a 10
-	jQuery('input[name$=CANT]').on('input',function(e) {
+	jQuery('input[name^=CANT]').on('input',function(e) {
 		var num_index = jQuery(this).attr('name');
 		num_index = num_index.substr(num_index.length-1,1);
+		console.log(num_index);
 		if ( jQuery(this).val() < 11 ) { 
 			var merch_val = jQuery('input[name=MERCH'+num_index+']').val();
 			merch_val = merch_val.substring(0,merch_val.indexOF('(')-2);
+			console.log(merch_val);
 			var merch_price = jQuery('input[name=MERCH'+num_index+']').val();
 			merch_price = merch_price.substring(merch_price.indexOf('(')+1,merch_price.indexOf(')'));
+			console.log(merch_price);
 			jQuery('input[name=MERCH'+num_index+']').attr('data-price',merch_price);
 			jQuery('input[name=MERCH'+num_index+']').val(merch_val);
+		}
+		else {
+			jQuery('input[name=MERCH'+num_index+']').removeAttr('data-price');
 		}
 		jQuery(this).val(jQuery(this).val().toUpperCase());
 	});
