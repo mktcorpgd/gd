@@ -166,7 +166,8 @@ jQuery(document).ready(function() {
 	jQuery('.fusion-header').addClass('on-top');
 	scrollHeaderTransp();
 	jQuery(window).scroll(function() {
-		scrollHeaderTransp()
+		scrollHeaderTransp();
+		console.log('scroll');
 	});
 	if ( jQuery('.gradient-gd').length ) {
 		jQuery('#wrapper').addClass('gradient-gd');
