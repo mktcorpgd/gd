@@ -495,7 +495,7 @@ jQuery(document).ready(function() {
 	jQuery('input[name^=CANT]').on('keyup mouseup',function(e) {
 		var num_index = jQuery(this).attr('name');
 		num_index = num_index.substr(num_index.length-1,1);
-		console.log(num_index);
+		console.log(jQuery(this).val() < 11);
 		if ( jQuery(this).val() < 11 ) { 
 			var merch_val = jQuery('input[name=MERCH'+num_index+']').val();
 			merch_val = merch_val.substring(0,merch_val.indexOf('(')-2);
@@ -509,7 +509,6 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('input[name=MERCH'+num_index+']').removeAttr('data-price');
 		}
-		jQuery(this).val(jQuery(this).val().toUpperCase());
 	});
 
 
