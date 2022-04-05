@@ -330,7 +330,7 @@ jQuery(document).ready(function() {
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
 		//jQuery('.wpcf7 .fusion-one-half').addClass('.fusion-one-full').removeClass('fusion-one-half');
 		//jQuery('.mc4wp-PHONE,.mc4wp-ROLE,.mc4wp-ORG').remove();
-		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('.wpcf7');
+		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
 	}
 
 	// VIDEOS - Personalización
