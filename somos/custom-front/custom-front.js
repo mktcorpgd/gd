@@ -492,7 +492,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Ocultar precio si cantidad es menor a 10
-	jQuery('input[name^=CANT]').on('change',function(e) {
+	jQuery('input[name^=CANT]').on('keyup mouseup',function(e) {
 		var num_index = jQuery(this).attr('name');
 		num_index = num_index.substr(num_index.length-1,1);
 		console.log(num_index);
