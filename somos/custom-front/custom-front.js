@@ -392,7 +392,7 @@ jQuery(document).ready(function() {
 			var input_value = jQuery(this).text();
 			if ( input_value != '—' ) {
 				jQuery(this).attr('disabled','disabled');
-				if ( jQuery(this).parent().attr('name') != 'CC_UNIT' ) {
+				if ( jQuery(this).parent().attr('name') == 'CC_UNIT' ) {
 					input_value = input_value.substring(input_value.indexOf('—')+2,input_value.length);
 				}
 				else {
@@ -488,6 +488,22 @@ jQuery(document).ready(function() {
 			window.location = url;
 		}
 		return false;
+	});
+
+
+	// FORMULARIOS - Ocultar precio si cantidad es menor a 10
+	jQuery('input[name$=CANT]').on('input',function(e) {
+		var num_index = jQuery(this).attr('name');
+		num_index = num_index.substr(num_index.length-1,1);
+		if ( jQuery(this).val() < 11 ) { 
+			var merch_val = jQuery('input[name=MERCH'+num_index+']').val();
+			merch_val = merch_val.substring(0,merch_val.indexOF('(')-2);
+			var merch_price = jQuery('input[name=MERCH'+num_index+']').val();
+			merch_price = merch_price.substring(merch_price.indexOf('(')+1,merch_price.indexOf(')'));
+			jQuery('input[name=MERCH'+num_index+']').attr('data-price',merch_price);
+			jQuery('input[name=MERCH'+num_index+']').val(merch_val);
+		}
+		jQuery(this).val(jQuery(this).val().toUpperCase());
 	});
 
 
