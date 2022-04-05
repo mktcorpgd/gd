@@ -167,7 +167,6 @@ jQuery(document).ready(function() {
 	scrollHeaderTransp();
 	jQuery(window).scroll(function() {
 		scrollHeaderTransp();
-		console.log('scroll');
 	});
 	if ( jQuery('.gradient-gd').length ) {
 		jQuery('#wrapper').addClass('gradient-gd');
