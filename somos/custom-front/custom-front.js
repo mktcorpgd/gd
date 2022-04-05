@@ -492,7 +492,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Ocultar precio si cantidad es menor a 10
-	jQuery('input[name^=CANT]').on('keyup',function(e) {
+	/*jQuery('input[name^=CANT]').on('keyup',function(e) {
 		var num_index = jQuery(this).attr('name');
 		num_index = num_index.substr(num_index.length-1,1);
 		if ( jQuery(this).val() < 11 ) { 
@@ -506,7 +506,7 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('select[name=MERCH'+num_index+']').removeAttr('data-price');
 		}
-	});
+	});*/
 
 
 	// BOTONES - Agregar botones de archivo
