@@ -593,8 +593,8 @@ jQuery(document).ready(function() {
 
 	// EVENTOS - Convertir textos en descripción con "http" en link:
 	if ( jQuery('article.event').length ) {
-		var linkable_content = jQuery('.entry-content p').html().replace(/(https?:\/\/[^ ;|\\*'"!,()<>]+\/?)/g,'<a href="$1" target="_blank">$1</a>');
-		jQuery('.entry-content p').html(linkable_content);
+		var re = /(https?:\/\/(([-\w\.]+)+(:\d+)?(\/([\w/_\.]*(\?\S+)?)?)?))/ig;    
+		jQuery('.entry-content p').html(jQuery('.entry-content p').html().replace(re,'<a href="$1" title="">$1</a>'));
 	}
 
 
