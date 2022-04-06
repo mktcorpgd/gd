@@ -588,7 +588,7 @@ jQuery(document).ready(function() {
 
 
 	// EVENTOS - Agregar referencias para calendario de eventos y capacitaciones
-	jQuery('#eo_calendar_widget-7_content').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="no-participamos" href="/eventos/categoria/otros-eventos/">Otros eventos</a></div>');
+	jQuery('#eo_calendar_widget-7_content').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="otros-eventos" href="/eventos/categoria/otros-eventos/">Otros eventos</a></div>');
 
 
 	// EVENTOS - Convertir textos en descripción con "http" en link:
