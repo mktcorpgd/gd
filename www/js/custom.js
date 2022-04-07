@@ -328,17 +328,7 @@ jQuery(document).ready(function() {
 		}
 		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
-		//jQuery('.wpcf7 .fusion-one-half').addClass('.fusion-one-full').removeClass('fusion-one-half');
-		//jQuery('.mc4wp-PHONE,.mc4wp-ROLE,.mc4wp-ORG').remove();
 		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
-	}
-
-	// VIDEOS - Personalización
-	if ( jQuery('body.single article.format-video').length ) {
-		var video_tag = jQuery('.meta-tags a[rel=tag]').text();
-		video_tag = video_tag.substring(video_tag.indexOf('yt-')+3,video_tag.length);
-		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
-		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(https://img.youtube.com/vi/'+video_tag+'/0.jpg)');
 	}
 
 	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
