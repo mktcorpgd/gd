@@ -152,6 +152,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .table-inner-structure{max-height:500px}
 .user-tags label+label{padding-left:20px}
 .form-table .form-required.form-invalid td:after{position:relative;bottom:2px}
+body.wp-admin.post-type-event .row-title{pointer-events:none}
 
 /* Noficaciones Push */
 prompticon3{margin-right:0!important;padding:0!important;width:50px!important;height:50px!important;right:0!important;border:none;background:#0E316E!important;border-radius:0!important;border-top-left-radius:24px!important;border-bottom-left-radius:24px!important;filter:none!important;transform:scale(1)!important}
