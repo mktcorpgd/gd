@@ -278,59 +278,6 @@ jQuery(document).ready(function() {
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
 
-	// CONTENIDOS - Si es un datasheet, mostrar encabezado con preview
-	if ( jQuery('.fusion-post-grid').length || jQuery('body.single article.format-link').length ) {
-		var site_id = jQuery('body').attr('class');
-		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
-		site_id = site_id.trim();
-		if ( site_id != 1 ) {
-			site_id = 'sites/'+site_id+'/';
-		}
-		else {
-			site_id = '';
-		}
-	}
-	if ( jQuery('.fusion-posts-container').length ) {
-		jQuery('.fusion-post-grid:not(.has-post-thumbnail)').each(function(i) {
-			var link_href = jQuery(this).find('h2 a').attr('href');
-			if ( jQuery(this).hasClass('format-link') ) {
-				var link_id = '';
-				var link_type = '';
-				if ( jQuery(this).hasClass('category-articulos') ) {
-					link_id = link_href.substring(link_href.indexOf('articulo-')+9,link_href.length-1);
-					link_type = 'articulo';
-				}
-				if ( jQuery(this).hasClass('category-datasheets') ) {
-					link_id = link_href.substring(link_href.indexOf('datasheet-')+10,link_href.length-1);
-					link_type = 'datasheet';
-				}
-				if ( jQuery(this).hasClass('category-whitepapers') ) {
-					link_id = link_href.substring(link_href.indexOf('whitepaper-')+11,link_href.length-1);
-					link_type = 'whitepaper';
-				}
-				jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(/wp-content/uploads/'+site_id+link_type+'-'+link_id+'-pdf-large.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');
-			}
-			else if ( jQuery(this).hasClass('format-video') ) {
-				var link_href = jQuery(this).find('h2 a').attr('href');
-				var video_tag = jQuery(this).find('.meta-tags a:contains("yt-")').text();
-				video_tag = video_tag.substring(video_tag.indexOf('yt-')+3,video_tag.length);
-				jQuery(this).find('.fusion-post-wrapper').prepend('<div class="fusion-flexslider flexslider fusion-post-slideshow"><ul class="slides"><li class="flex-active-slide" style="width: 100%; float: left; margin-right: -100%; position: relative; opacity: 1; display: block; z-index: 2;"><div class="fusion-image-wrapper" style="background-image:url(https://img.youtube.com/vi/'+video_tag+'/0.jpg)"><a href="'+link_href+'"></a></div></li></ul></div>');	
-			}
-		});
-	}
-
-	// ENLACES - Personalización
-	if ( jQuery('body.single-format-link').length ) {
-		var link_href = window.location.pathname;
-		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
-		if ( site_id == 'sites/5/' ) {
-			link_href = link_href.substring(3,link_href.length);
-		}
-		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
-		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
-		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
-	}
-
 	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
 	if ( jQuery('body').hasClass('single-format-standard') ) {
 		if ( jQuery('#content>article').hasClass('category-blog') || jQuery('#content>article').hasClass('category-noticias') || jQuery('#content>article').hasClass('category-casos') || jQuery('.not-stucked').length ) {
