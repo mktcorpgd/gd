@@ -394,7 +394,6 @@ jQuery(document).ready(function() {
 					input_value = input_value.substring(input_value.indexOf('—')+2,input_value.length);
 				}
 				else {
-					jQuery(this).attr('disabled','disabled');
 					input_value = input_value.substring(input_value.indexOf('—'),input_value.length);
 				}
 				jQuery(this).text(input_value).val(input_value);
@@ -452,7 +451,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Deshabilitar si tiene |
-	jQuery('option:contains(|)').attr('disabled','disabled');
+	//jQuery('option:contains(|),option:contains(—)').attr('disabled','disabled');
 	
 
 	// FORMULARIOS - Ir hacia el primer error
