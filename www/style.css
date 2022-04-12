@@ -685,13 +685,12 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a:hover{text-decoration:underline}
 .fusion-blog-layout-grid .fusion-image-wrapper,.fusion-blog-layout-grid .fusion-image-wrapper img,.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper img,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper img{position:relative}
 .fusion-blog-layout-grid .fusion-image-wrapper img{border-radius:0}
-.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper{border-bottom-right-radius:48px;border-bottom:2px solid #EAEAEA}
+.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper{border-bottom-right-radius:48px;border-bottom-left-radius:24px;border-bottom:2px solid #EAEAEA}
 .fusion-blog-layout-grid .fusion-post-content-container p,.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p,.fusion-portfolio-grid .fusion-post-content .fusion-title,.fusion-portfolio-grid .fusion-post-content .fusion-content-boxes{padding:0px 20px 14px;margin-bottom:0}
 .fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.9em}
 .content-container ul{margin-top:0;padding-left:20px}
 .fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper img{height:64px;margin:20px auto 0;width:auto}
 body.archive .fusion-portfolio-layout-grid .fusion-post-content p{padding-left:0;padding-right:0}
-.fusion-portfolio-post .fusion-portfolio-content-wrapper{position:relative;box-shadow:none}
 .fusion-portfolio-content .fusion-button i,.fusion-buttons .fusion-button i{margin:0!important;color:#666666;font-size:14px;position:relative;bottom:1px;right:5px}
 .fusion-portfolio-content .fusion-button:hover i,.fusion-buttons .fusion-button:hover i{color:#FFFFFF!important}
 .postid-37750 .fusion-fullwidth.fusion-builder-row-2{z-index:1000}
@@ -999,12 +998,12 @@ body.home .tab-filters .tab-pane{background:none!important}
 .box-buttons article.expanded .fusion-post-content{height:auto}
 .box-buttons article.expanded .fusion-post-content *{opacity:1}
 .box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-.box-buttons article .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-family:'Font Awesome 5 Pro','Open-Sans',sans-serif;font-weight:400}
+.box-buttons article .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-size:.9em;font-family:'Font Awesome 5 Pro','Open-Sans',sans-serif;font-weight:400}
 html[lang*='es'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' Más información'}
 html[lang*='en'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' More information'}
 .box-buttons article.expanded .fusion-post-content:before{content:' Ocultar información'}
 .box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
-.box-buttons .fusion-portfolio:hover .fusion-portfolio-wrapper .fusion-post-content:before{text-decoration:underline!important}
+.box-buttons .fusion-portfolio-wrapper:hover .fusion-post-content:before{text-decoration:underline!important}
 .box-buttons .fusion-post-content p{margin-bottom:0!important;padding-bottom:0!important}
 .box-buttons .fusion-post-content ul{margin-top:5px}
 
@@ -1129,7 +1128,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.no-margin-bottom.fusion-columns-1 .heading,.no-margin-bottom.fusion-columns-2 .heading,.no-margin-bottom.fusion-columns-3 .heading{margin-bottom:5px!important}
 	.no-padding-left-right .fusion-column{padding-left:0!important;padding-right:0!important}
 	.no-margin-bottom.no-description.fusion-columns-2 .fusion-column{margin-bottom:10px!important}
-	.hero-img{padding-top:5%!important;padding-bottom:5%!important}
+	.hero-img{padding:1em 3em 1em 0!important}
 	.hero-img .fusion-title-2{margin-bottom:0!important}
 	#inicio .fusion-content-boxes.content-boxes-icon-on-top .content-container,#inicio .fusion-content-boxes .fusion-column,#inicio .fusion-content-boxes.content-boxes-icon-on-top .heading{margin-bottom:0!important}
 	body.single-format-link .fusion-one-full .wpcf7{margin:1em auto 0;float:left}
