@@ -476,13 +476,13 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 /* Footer */
 .fusion-footer-widget-area{padding:32px!important}
 .fusion-widget-area .sub-menu{margin-left:0!important}
-.fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:90%;font-family:'Neo-Sans',sans-serif;font-weight:500}
+.fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:80%;text-transform:uppercase}
 .fusion-footer-widget-area p a{text-decoration:underline}
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:#FFFFFF}
 .fusion-footer-widget-area ul{margin:15px 0}
 .fusion-footer-widget-area ul li{padding:5px 0!important;border:0!important}
 .fusion-footer-widget-area .widget_nav_menu li.social-link{display:inline-block;padding-right:10px!important}
-.fusion-footer-widget-area ul li:not(.social-link) a{font-size:.85em;line-height:1.2}
+.fusion-footer-widget-area ul li:not(.social-link) a{font-size:.8em;line-height:1.2}
 .fusion-footer-widget-area ul li:not(.social-link) a:hover{text-decoration:underline}
 .fusion-footer-widget-area ul li:not(.social-link) a:hover span{text-decoration:none}
 .fusion-footer-widget-area ul li:not(.social-link) a>span{display:block;margin-top:0;font-family:'Open-Sans',sans-serif;font-weight:400;font-size:80%;line-height:1.3;color:rgba(255,255,255,.7)}
@@ -959,10 +959,10 @@ body.single-avada_portfolio .related-posts .fusion-carousel-title-below-image .f
 /* Tabs */
 .tab-filters .nav ul,.fusion-filters{margin-bottom:2em!important;line-height:1.3!important;border-radius:6px 6px 12px 12px;box-shadow:0 1px 0 2px rgba(0,0,0,.2)!important;overflow:hidden}
 .fusion-filter.fusion-active a{line-height:inherit}
-.tab-filters li:hover,.fusion-filters li:hover{background:#FEFEFE}
-.tab-filters li,.fusion-filters li{background:#EAEAEA;font-family:'Open-Sans',sans-serif;text-align:center}
-.tab-filters li .fontawesome-icon{margin-right:5px!important}
-.tab-filters li .nav a,.fusion-filters li a{width:100%;text-decoration:none!important}
+.tab-filters .nav li:hover,.fusion-filters li:hover{background:#FEFEFE}
+.tab-filters .nav li,.fusion-filters li{background:#EAEAEA;font-family:'Open-Sans',sans-serif;text-align:center}
+.tab-filters .nav li .fontawesome-icon{margin-right:5px!important}
+.tab-filters .nav li a,.fusion-filters li a{width:100%;text-decoration:none!important}
 .tab-filters .nav-tabs{margin-bottom:1em!important}
 body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.7em 1em}
@@ -1099,7 +1099,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 .fusion-megamenu .fusion-megamenu-title a:hover,.tab-filters .nav{background:none!important}
 .fusion-counters-box .content-box-percentage,#main .white .fusion-columns-6 .content-box-heading{font-family:'Neo-Sans',sans-serif;font-weight:500!important}
 .fusion-modal.cargando .modal-p,.fusion-footer .fusion-columns{margin:0}
-.tab-filters li.fusion-active,.tab-filters li.active,.fusion-filters li.fusion-active{background:#FFFFFF}
+.tab-filters .nav li.fusion-active,.tab-filters .nav li.active,.fusion-filters li.fusion-active{background:#FFFFFF}
 
 /* Desktop */
 @media (min-width:920px) {
