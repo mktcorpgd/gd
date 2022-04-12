@@ -476,15 +476,16 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 /* Footer */
 .fusion-footer-widget-area{padding:32px!important}
 .fusion-widget-area .sub-menu{margin-left:0!important}
-.fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:90%;font-weight:500}
+.fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:90%;font-family:'Neo-Sans',sans-serif;font-weight:500}
 .fusion-footer-widget-area p a{text-decoration:underline}
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:#FFFFFF}
 .fusion-footer-widget-area ul{margin:15px 0}
 .fusion-footer-widget-area ul li{padding:5px 0!important;border:0!important}
 .fusion-footer-widget-area .widget_nav_menu li.social-link{display:inline-block;padding-right:10px!important}
-.fusion-footer-widget-area ul li:not(.social-link) a{font-size:.9em;line-height:1.1;font-weight:400!important;font-family:'Neo-Sans',sans-serif}
+.fusion-footer-widget-area ul li:not(.social-link) a{font-size:.85em;line-height:1.2}
 .fusion-footer-widget-area ul li:not(.social-link) a:hover{text-decoration:underline}
-.fusion-footer-widget-area ul li:not(.social-link) a>span{display:block;margin-top:0;font-family:'Open-Sans',sans-serif;font-weight:400;font-size:65%;line-height:1.3;opacity:.8}
+.fusion-footer-widget-area ul li:not(.social-link) a:hover span{text-decoration:none}
+.fusion-footer-widget-area ul li:not(.social-link) a>span{display:block;margin-top:0;font-family:'Open-Sans',sans-serif;font-weight:400;font-size:80%;line-height:1.3;color:rgba(255,255,255,.7)}
 .fusion-footer-widget-area ul li.logo-footer{margin-top:5px!important}
 .fusion-footer-widget-area .current-menu-item>a{color:#FFFFFF!important}
 .fusion-footer-widget-area .wpcf7 .fusion-layout-column{margin-bottom:0}
@@ -685,7 +686,7 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a:hover{text-decoration:underline}
 .fusion-blog-layout-grid .fusion-image-wrapper,.fusion-blog-layout-grid .fusion-image-wrapper img,.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper img,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper img{position:relative}
 .fusion-blog-layout-grid .fusion-image-wrapper img{border-radius:0}
-.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper{border-bottom-right-radius:48px;border-bottom-left-radius:24px;border-bottom:2px solid #EAEAEA}
+.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-post-grid .fusion-image-wrapper{border-bottom-right-radius:48px;border-bottom-left-radius:24px;border-bottom:2px solid #EAEAEA}
 .fusion-blog-layout-grid .fusion-post-content-container p,.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p,.fusion-portfolio-grid .fusion-post-content .fusion-title,.fusion-portfolio-grid .fusion-post-content .fusion-content-boxes{padding:0px 20px 14px;margin-bottom:0}
 .fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.9em}
 .content-container ul{margin-top:0;padding-left:20px}
@@ -891,7 +892,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:#FFFFFF}
 .fusion-button.button-flat:not(.button-left):not(.button-right),.fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.wpcf7-submit{box-shadow:0 2px 4px rgba(0,0,0,.1)!important}
 .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{font-weight:500}
+.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{font-weight:700}
 .fusion-button:not(.button-custom):not(.menu-text){background:#FAFAFA}
 .fusion-header-wrapper .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
 .box-company h5,.fusion-one-third.box-company h5{font-size:1.2em!important;margin:0!important}
