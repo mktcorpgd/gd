@@ -29,10 +29,10 @@ jQuery(document).ready(function() {
 	// Deshabilitar si no tiene LinkedIn
 	jQuery('.LKDNOT input').change(function() {
 		if ( this.checked ) {
-			jQuery('.LKDURL input').val('No tiene').css('opacity','.5');
+			jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
 		}
 		else {
-			jQuery('.LKDURL input').val('').css('opacity','1');
+			jQuery('.LKDURL input').val('').removeAttr('disabled');
 		}
 	});
 
