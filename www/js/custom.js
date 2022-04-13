@@ -159,8 +159,8 @@ jQuery(document).ready(function() {
 	// GENERAL - Guardar código de idioma
 	var lang = jQuery('html').attr('lang').substring(0,2);
 
-	// MENÚ - Si tiene la clase: converitr en transparente el fondo del header y si hay agregar clases para degradados
-	if ( jQuery('body.page-template-100-width .post-content .header-transparent').length ) {
+	// MENÚ - Si tiene la clase: convertir en transparente el fondo del header
+	if ( jQuery('.post-content .header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
 	jQuery('.fusion-header').addClass('on-top');
