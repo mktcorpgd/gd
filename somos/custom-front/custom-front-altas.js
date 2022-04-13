@@ -5,11 +5,11 @@ jQuery(document).ready(function() {
 	jQuery('select[name=MODCONT]').change(function() {
 		var modcont = jQuery(this,'option:selected').val();
 		if ( modcont == 'Freelance' || modcont == 'Consultor externo' ) {
-			jQuery('select[name^=ACCESS] option[value="Red"],select[name^=ACCESS] option[value="Email"],select[name^=ACCESS] option[value="Screentime"]').prop('selected', true)
+			jQuery('select[name^=ACCESS] option[value="Red"],select[name^=ACCESS] option[value="Email"],select[name^=ACCESS] option[value="Screentime"]').prop('selected',true)
 		}
 		else {
-			jQuery('select[name^=ACCESS] option[value="Red"],select[name^=ACCESS] option[value="Email"]').prop('selected', true)
-			jQuery('select[name^=ACCESSinput[name=OPC]] option[value="Screentime"]').prop('selected', false)
+			jQuery('select[name^=ACCESS] option[value="Red"],select[name^=ACCESS] option[value="Email"]').prop('selected',true);
+			jQuery('select[name^=ACCESS] option[value="Screentime"]').prop('selected',false);
 		}
 	});
 
