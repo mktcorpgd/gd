@@ -278,6 +278,28 @@ jQuery(document).ready(function() {
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
 
+	// CONTENIDOS - Mostrar preview
+	if ( jQuery('body.single-format-link').length ) {
+		var site_id = jQuery('body').attr('class');
+		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
+		site_id = site_id.trim();
+		if ( site_id != 1 ) {
+			site_id = 'sites/'+site_id+'/';
+		}
+		else {
+			site_id = '';
+		}
+		var link_href = window.location.pathname;
+		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
+		if ( site_id == 'sites/5/' ) {
+			link_href = link_href.substring(3,link_href.length);
+		}
+		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
+		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
+		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+	}
+
+
 	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
 	if ( jQuery('body').hasClass('single-format-standard') ) {
 		if ( jQuery('#content>article').hasClass('category-blog') || jQuery('#content>article').hasClass('category-noticias') || jQuery('#content>article').hasClass('category-casos') || jQuery('.not-stucked').length ) {
