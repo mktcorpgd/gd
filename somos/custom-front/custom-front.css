@@ -331,6 +331,8 @@ html body .ff-form .ff-powered{transform:scale(0)}
 #ff-compose{padding:20px 0 0;text-align:center}
 label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_datetimepicker{border:none;border-radius:12px}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box{border:none;border-radius:6px}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover{background:#F0582B!important}
 
 /* Meta */
 .gp-meta-cats{margin:.1em 0 0;color:#888888;font-weight:normal;font-family:'Open-Sans',sans-serif;font-size:0}
@@ -491,7 +493,7 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 ul#lcp_instance_0.busquedas {border:none!important;}
 .textwidget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 .bdays_upcom{margin-top:.4em;position:relative;border-top:2px solid #CCCCCC}
-#custom_html-24 .textwidget li, #custom_html-11 .textwidget li,#custom_html-8 .textwidget li,#custom_html-3 .textwidget li,#custom_html-2 .textwidget li,.bdays_upcom li{padding-right:5px}
+#custom_html-24 .textwidget li,#custom_html-11 .textwidget li,#custom_html-8 .textwidget li,#custom_html-3 .textwidget li,#custom_html-2 .textwidget li,.bdays_upcom li{padding-right:5px}
 #custom_html-5.widget ul li:last-child:not(.ui-state-default){margin-bottom:0!important}
 .textwidget a{color:#0E316E}
 .textwidget a:hover{color:#F0582B}
@@ -519,11 +521,11 @@ ul#lcp_instance_0.busquedas {border:none!important;}
 .mfp-close,.mfp-arrow{position:fixed}
 .mfp-close{right:1em}
 #custom_html-21,#custom_html-3{text-align:center}
-#custom_html-11, #custom_html-24{padding-top:12px!important}
+#custom_html-11,#custom_html-24{padding-top:12px!important}
 #custom_html-11 > div > h3{font-size:1.1em!important}
 #custom_html-24 > div > h3{font-size:1.2em!important;font-weight:500!important;color:#F0582B!important;}
-#custom_html-11 > div > h3 > i, #custom_html-24 > div > h3 > i{width:20px}
-#custom_html-11 > div > h3 > i.fa-minus-square:before, #custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
+#custom_html-11 > div > h3 > i,#custom_html-24 > div > h3 > i{width:20px}
+#custom_html-11 > div > h3 > i.fa-minus-square:before,#custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
 #custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'!important}
 #custom_html-11 > div > h3:nth-child(3) > i:before{content:'\f77c'!important}
 #custom_html-11 > div > h3:nth-child(5) > i:before{content:'\f559'!important}
@@ -618,37 +620,37 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 
 /* Drive */
 #UseyourDrive{margin:0 -30px}
-#UseyourDrive .entry-info-button, .UseyourDrive .entry-info-button{width:16px}
-#UseyourDrive .nav-title,#UseyourDrive .tippy-content, .UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
+#UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;font-size:1.2em;line-height:1.2}
 #UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
-#UseyourDrive .entry-info-button:hover, #UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
-#UseyourDrive .tippy-box, .UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
-#UseyourDrive .tippy-content li>a, .UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .entry-info-button:hover,#UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
+#UseyourDrive .tippy-box,.UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
+#UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500!important}
 #UseyourDrive .files .entry{border-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:first-child{border-top-left-radius:12px;border-top-right-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:last-child{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 #UseyourDrive .wpcp-thumb-view .folders-container{margin-bottom:5px}
-#UseyourDrive .entry-info, .UseyourDrive .entry-info{height:40px}
-#UseyourDrive .entry-info-icon, .UseyourDrive .entry-info-icon{top:-1px}
-#UseyourDrive .entry.hasfocus:not(.no-entries) .entry_link, #UseyourDrive .entry.popupopen .entry_link, #UseyourDrive .entry:not(.no-entries):hover .entry_link{text-decoration:none;font-weight:400!important}
-#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{padding:0;text-align:left;line-height:1.2}
-#UseyourDrive .tippy-content li i, .UseyourDrive .tippy-content li i{margin-right:0}
-#UseyourDrive .hasfocus:not(.no-entries), #UseyourDrive .isdragged, #UseyourDrive .isselected, #UseyourDrive .popupopen{transform:scale(1)}
-#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
-#UseyourDrive .tippy-content .nav-sorting-list a:after, #UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
-#UseyourDrive .entry, #UseyourDrive .image-container{box-shadow:0 1px 0 2px rgba(0,0,0,.1)}
-#UseyourDrive .entry:hover, #UseyourDrive .image-container{box-shadow:0 4px 12px 0px #F0582B}
-#UseyourDrive .tippy-content li, .UseyourDrive .tippy-content li{margin-bottom:0!important}
-#UseyourDrive .tippy-content li>a:hover, .UseyourDrive .tippy-content li>a:hover{color:#FFFFFF!important;text-decoration:none!important}
+#UseyourDrive .entry-info,.UseyourDrive .entry-info{height:40px}
+#UseyourDrive .entry-info-icon,.UseyourDrive .entry-info-icon{top:-1px}
+#UseyourDrive .entry.hasfocus:not(.no-entries) .entry_link,#UseyourDrive .entry.popupopen .entry_link,#UseyourDrive .entry:not(.no-entries):hover .entry_link{text-decoration:none;font-weight:400!important}
+#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{padding:0;text-align:left;line-height:1.2}
+#UseyourDrive .tippy-content li i,.UseyourDrive .tippy-content li i{margin-right:0}
+#UseyourDrive .hasfocus:not(.no-entries),#UseyourDrive .isdragged,#UseyourDrive .isselected,#UseyourDrive .popupopen{transform:scale(1)}
+#UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
+#UseyourDrive .tippy-content .nav-sorting-list a:after,#UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
+#UseyourDrive .entry,#UseyourDrive .image-container{box-shadow:0 1px 0 2px rgba(0,0,0,.1)}
+#UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 4px 12px 0px #F0582B}
+#UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0!important}
+#UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF!important;text-decoration:none!important}
 #UseyourDrive .nav-header,#UseyourDrive .selected-folder{background:#F6F6F6!important}
 #UseyourDrive .nav-header{border:none}
-#UseyourDrive .tippy-content .description-textbox .description-file-info, .UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
-#UseyourDrive .tippy-content .description-textbox .description-file-info i, .UseyourDrive .tippy-content .description-textbox .description-file-info i{display:none}
+#UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
+#UseyourDrive .tippy-content .description-textbox .description-file-info i,.UseyourDrive .tippy-content .description-textbox .description-file-info i{display:none}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
-#UseyourDrive .folder .entry-info-name, #UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name, .UseyourDrive .entry-info-name{font-weight:400!important}
+#UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400!important}
 .info-material{padding:1.2em 0!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0!important}
 .file-container .info-material{margin-top:20px!important}
