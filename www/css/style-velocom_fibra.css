@@ -33,10 +33,10 @@ body a:hover{color:#340018}
 .fusion-reading-box-container .reading-box .reading-box-additional{padding:0!important;background:none;color:#FFFFFF;}
 #sidebar p{margin:25px 0 5px}
 body:not(.home) .tfs-slider .buttons .fusion-button,body:not(.home) .tfs-slider .buttons .fusion-button:hover,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button:hover{border:2px solid #340018!important}
-#mapvf-cobertura{height:400px;border:2px solid #7E1F4B;border-radius:12px}
+#mapvf-cobertura{height:400px;border-radius:12px}
 #mapvf-cobertura.warning{border:2px solid #F19C00}
 #mapvf-cobertura.sent{border:2px solid #419466}
-#pac{margin:10px 5%;padding:8px 11px;width:90%;font-family:'Open-Sans',sans-serif;font-size:1.4em;border:2px solid #7E1F4B;border-radius:6px;background-color:#FFFFFF;box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
+#pac{margin:10px 5%;padding:8px 11px;width:90%;font-family:'Open-Sans',sans-serif;font-size:1.4em;border-radius:6px;background-color:#FFFFFF;box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
 .fusion-content-boxes a{text-decoration:underline}
 .controls.pac-target-input.warning,.controls.pac-target-input.sent{font-weight:bold}
 .controls.pac-target-input.warning{border-color:#F19C00!important;background:#F19C00!important;color:#FFFFFF!important}
