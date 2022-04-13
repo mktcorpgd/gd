@@ -348,8 +348,8 @@ article.event-category-patrocinamos .eo-event-meta>li a[rel='tag']{color:#5580BF
 article.event-category-patrocinamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#5580BF;color:#FFFFFF!important}
 article.event-category-asistimos .eo-event-meta>li a[rel='tag']{color:#338A6C!important}
 article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#338A6C;color:#FFFFFF!important}
-article.event-category-otros-eventos .eo-event-meta>li a[rel='tag']{color:#D50000}
-article.event-category-otros-eventos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#D50000;color:#FFFFFF!important}
+article.event-category-otros-eventos .eo-event-meta>li a[rel='tag']{color:#F18C10}
+article.event-category-otros-eventos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:#FFFFFF!important}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:3px 8px;background:#F6F6F6;border-radius:12px;border:none;text-decoration:none;line-height:normal}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,article.event .entry-header+.entry-content .eo-event-meta>li a[rel='tag']{margin-left:3px;margin-right:3px}
 article.event .entry-header+.entry-content .eo-event-meta>li:first-child a[rel='tag']{margin-left:0}
@@ -1081,7 +1081,7 @@ img[src*='-dark-']{background:#999999}
 .widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
 .widget_ref a.patrocinamos,#wp-calendar tbody td.eo-event-cat-patrocinamos a{background:#5580BF}
 .widget_ref a.asistimos,#wp-calendar tbody td.eo-event-cat-asistimos a{background:#338A6C}
-.widget_ref a.otros-eventos,#wp-calendar tbody td.eo-event-cat-otros-eventos a{background:#888888}
+.widget_ref a.otros-eventos,#wp-calendar tbody td.eo-event-cat-otros-eventos a{background:#F18C10}
 
 /* Eventos */
 #wp-calendar tbody td a{position:relative;text-decoration:none;z-index:9}
@@ -1089,10 +1089,10 @@ img[src*='-dark-']{background:#999999}
 #wp-calendar tbody td:not(.eo-event-past) a{font-weight:400}
 #wp-calendar tbody td.eo-event-cat-propios.eo-event-cat-patrocinamos a{background:linear-gradient(135deg,#0E316E 50%,#5580BF 50%)}
 #wp-calendar tbody td.eo-event-cat-propios.eo-event-cat-asistimos a{background:linear-gradient(135deg,#0E316E 50%,#338A6C 50%)}
-#wp-calendar tbody td.eo-event-cat-propios.eo-event-cat-otros-eventos a{background:linear-gradient(135deg,#0E316E 50%,#888888 50%)}
+#wp-calendar tbody td.eo-event-cat-propios.eo-event-cat-otros-eventos a{background:linear-gradient(135deg,#0E316E 50%,#F18C10 50%)}
 #wp-calendar tbody td.eo-event-cat-patrocinamos.eo-event-cat-asistimos a{background:linear-gradient(135deg,#5580BF 50%,#338A6C 50%)}
-#wp-calendar tbody td.eo-event-cat-patrocinamos.eo-event-cat-otros-eventos a{background:linear-gradient(135deg,#338A6C 50%,#888888 50%)}
-#wp-calendar tbody td.eo-event-cat-asistimos.eo-event-cat-otros-eventos a{background:linear-gradient(135deg,#338A6C 50%,#888888 50%)}
+#wp-calendar tbody td.eo-event-cat-patrocinamos.eo-event-cat-otros-eventos a{background:linear-gradient(135deg,#338A6C 50%,#F18C10 50%)}
+#wp-calendar tbody td.eo-event-cat-asistimos.eo-event-cat-otros-eventos a{background:linear-gradient(135deg,#338A6C 50%,#F18C10 50%)}
 #wp-calendar tbody td.eo-event-past a,#wp-calendar tbody td.eo-past-date a{background:#BBBBBB!important;text-decoration:line-through}
 #wp-calendar{padding:0!important;position:relative}
 #wp-calendar thead th,#wp-calendar tbody td{padding:0!important}
