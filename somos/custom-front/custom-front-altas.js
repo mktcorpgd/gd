@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
 	
 
 	// Deshabilitar si no tiene LinkedIn
-	jQuery('.LKDURL input').change(function() {
+	jQuery('.LKDNOT input').change(function() {
 		if ( this.checked ) {
 			jQuery('.LKDURL input').val('No tiene').css('opacity','.5');
 		}
