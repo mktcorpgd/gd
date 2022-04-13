@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// Agregar opcionales
+	// Checkbox - Bajas: Adicionales
 	jQuery('.check_add input').change(function() {
 		if ( this.checked ) {
 			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
@@ -24,6 +24,9 @@ jQuery(document).ready(function() {
 			jQuery(this).val('');
 		}
 	});
+
+
+	// Checkbox - Bajas: Freelance
 	jQuery('.ISFRL input').change(function() {
 		if ( this.checked ) {
 			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
