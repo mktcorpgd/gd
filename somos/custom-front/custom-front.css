@@ -64,8 +64,8 @@ textarea{line-height:1.3}
 input[type='date']{padding:5px 10px!important}
 input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,input[type='tel']:hover,input[type='number']:hover,textarea:hover,select:hover{background:#FFFFFF!important;border:1px solid #999999!important}
 input[type='text']:focus,input[type='date']:focus,input[type='email']:focus,input[type='tel']:focus,input[type='number']:focus,textarea:focus,select:focus{background:#FFFFFF!important;border:1px solid #777777!important}
-input[readonly],input[readonly]:hover,input[readonly]:focus,textarea[readonly],textarea[readonly]:hover,textarea[readonly]:focus{background:#FFFFFF!important;border:1px dashed #CCCCCC!important;font-style:italic!important}
-input[readonly],textarea[readonly]{cursor:default}
+input[disabled],input[disabled]:hover,input[disabled]:focus,textarea[disabled],textarea[disabled]:hover,textarea[disabled]:focus{background:#FFFFFF!important;border:1px dashed #CCCCCC!important;font-style:italic!important}
+input[disabled],textarea[disabled]{cursor:default}
 select{position:relative}
 .hiddendata+.sc-divider{margin:0 0 40px!important}
 html body .ui-widget-content{border:0!important}
@@ -330,6 +330,7 @@ html body .ff-form .ff-powered{transform:scale(0)}
 #ff-id-1504819344{text-align:center}
 #ff-compose{padding:20px 0 0;text-align:center}
 label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
+.xdsoft_datetimepicker{border:none;border-radius:12px}
 
 /* Meta */
 .gp-meta-cats{margin:.1em 0 0;color:#888888;font-weight:normal;font-family:'Open-Sans',sans-serif;font-size:0}
@@ -789,7 +790,7 @@ body.post-template-default .yotu-playlist{padding-bottom:0}
 .clt_caru_slider .slick-slide{transition:all .1s ease-in-out}
 .cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post{background:#FFFFFF!important;border-radius:12px;background:none;overflow:hidden;border:2px solid #0E316E}
 .timeline-post{position:relative}
-.slick-slide.more-info .timeline-post{cursor:pointer}
+.slick-slide.more-info .timeline-post,.walcf7-timepicker{cursor:pointer}
 .slick-slide:not(.more-info) .timeline-post{pointer-events:none}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list span.ctl-story-time{font-weight:400;text-transform:uppercase}
 .cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide:hover .timeline-post{border:2px solid #F0582B}
