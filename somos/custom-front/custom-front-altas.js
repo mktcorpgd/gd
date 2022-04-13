@@ -24,6 +24,15 @@ jQuery(document).ready(function() {
 			jQuery(this).val('');
 		}
 	});
+	jQuery('.ISFRL input').change(function() {
+		if ( this.checked ) {
+			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
+			jQuery(this).val(' ('+checkbox_checked+')');
+		}
+		else {
+			jQuery(this).val('');
+		}
+	});
 	
 
 	// Deshabilitar si no tiene LinkedIn
