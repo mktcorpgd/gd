@@ -1051,7 +1051,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-t
 .widget .blue.sc-button:hover{background:#1F4483!important;border-color:#1F4483!important;color:#FFFFFF!important;text-decoration:none}
 .widget .blue.sc-button.inline:hover,#custom_html-23 .bcard~a.sc-button-social:hover{color:#F0582B}
 .widget .blue.sc-button.inline:hover{box-shadow:none!important}
-.sc-button,input[type='button'],input[type='submit'],input[type='reset'],button,a.button,input.button,#respond #submit,.sc-button{padding:.4em .6em;background-image:none;border:0;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1em;border-radius:12px!important;font-weight:500;line-height:normal}
+.sc-button,#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper button,a.button,input.button,#respond #submit,.sc-button{padding:.4em .6em;background-image:none;border:0;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1em;border-radius:12px!important;font-weight:500;line-height:normal}
 .sc-button:hover{border-radius:12px;font-weight:500}
 a.button.fullwidth,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{width:100%}
 a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{padding:.8em 1em;font-size:1.2em;text-align:center;border-radius:12px}
@@ -1064,12 +1064,12 @@ a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit'],.yotu-playlist .
 .widget .button{display:inline-block;margin:0 0 10px;min-width:70%}
 .yotu-pagination{padding-top:0!important}
 body .widget button:not(.mfp-close){background-color:transparent;border:0;box-shadow:none;color:#0E316E;line-height:17px;position:absolute;right:20px;width:10%}
-input[type='button']:hover,input[type='submit']:hover,input[type='reset']:hover,button:not(.mfp-arrow):not(.mfp-close):hover,.button:not(.mfp-arrow):not(.mfp-close):hover{background:#F0582B;border-color:#F0582B}
+#page-wrapper input[type='button']:hover,#page-wrapper input[type='submit']:hover,#page-wrapper input[type='reset']:hover,#page-wrapper button:hover,.button:hover{background:#F0582B;border-color:#F0582B}
 .buttons-download{text-align:center}
 .padder .buttons-download{margin-bottom:15px}
-input[type='button'],input[type='submit'],input[type='reset'],button,.button{color:#FFFFFF}
-input[type='button'],input[type='submit'],input[type='reset'],button,.button{background-color:#F0582B;border-color:#F0582B}
-input[type='button']:hover,input[type='submit']:hover,input[type='reset']:hover,button:hover,.button:hover{background-color:#F0582B;border-color:#F0582B;color:#FFFFFF}
+#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper button,.button{color:#FFFFFF}
+#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper button,.button{background-color:#F0582B;border-color:#F0582B}
+#page-wrapper input[type='button']:hover,#page-wrapper input[type='submit']:hover,#page-wrapper input[type='reset']:hover,button:hover,.button:hover{background-color:#F0582B;border-color:#F0582B;color:#FFFFFF}
 .post-loop.post-columns{margin:0 0 24px 4%}
 body #content .sc-button{padding:.5em .6em;font-size:1.2em;background-color:#F0582B;color:#FFFFFF}
 body #content .sc-button.xlarge{background-color:#0E316E!important}
