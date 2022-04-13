@@ -28,7 +28,7 @@ body a:hover{color:#340018}
 .fusion-pricing-table .list-group .list-group-item{background:rgba(126,31,75,.7)!important;color:#FFFFFF}
 .sep-boxed-pricing .panel-container,.fusion-pricing-table .fusion-panel{background:none!important}
 .fusion-accordian .panel-title{font-size:.75em}
-.fusion-reading-box-container .reading-box{border:3px solid #FFFFFF!important}
+.fusion-reading-box-container .reading-box{border:none!important}
 .fusion-reading-box-container .reading-box h2{font-size:2em!important;margin-bottom:20px}
 .fusion-reading-box-container .reading-box .reading-box-additional{padding:0!important;background:none;color:#FFFFFF;}
 #sidebar p{margin:25px 0 5px}
