@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// Si se marca checkbox: agregar valor a [OPC]
+	// Agregar opcionales
 	jQuery('.check_add input').change(function() {
 		if ( this.checked ) {
 			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
@@ -22,6 +22,17 @@ jQuery(document).ready(function() {
 		}
 		else {
 			jQuery(this).val('');
+		}
+	});
+	
+
+	// Deshabilitar si no tiene LinkedIn
+	jQuery('.LKDURL input').change(function() {
+		if ( this.checked ) {
+			jQuery('.LKDURL input').val('No tiene').css('opacity','.5');
+		}
+		else {
+			jQuery('.LKDURL input').val('').css('opacity','1');
 		}
 	});
 
