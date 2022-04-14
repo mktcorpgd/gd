@@ -26,7 +26,8 @@ body{color:#333333;font-size:16px;line-height:1.6}
 #reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:#333333}
 .fusion-fullwidth:not(.radius2x){color:#333333}
 input,select,textarea{font-family:'Open-Sans',sans-serif!important;color:#333333}
-input:not([type='checkbox']):not([type='radio']),select,textarea,button{-webkit-appearance:none!important;outline:none!important;resize:none!important}
+input:not([type='checkbox']):not([type='radio']),textarea,button{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
+input:not([type='checkbox']):not([type='radio']),select,textarea,button{outline:none!important;resize:none!important}
 sup{line-height:1!important}
 select{color:#666666!important;cursor:pointer}
 select:not(.highlight) option:not(:checked),.wpcf7-select.selected{color:#333333!important}
