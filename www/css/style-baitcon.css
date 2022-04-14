@@ -12,7 +12,7 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#FFFFFF}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#A142A6}
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#552156!important}
-#content .button-default:hover,#content .button-default:focus,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,input[type='submit']:not(.sending):focus{background:#552156!important}
+#content .button-default:hover,#content .button-default:focus,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,input[type='submit']:not(.sending):focus{background:#A142A6!important}
 .fusion-header,#wrapper.header-transparent .fusion-header.bkg,#wrapper.header-transparent .fusion-header.bkg{background:#89388D!important}
 .fusion-fullwidth.fullwidth-box.gradient-b:after{background:linear-gradient(270deg,rgba(137,56,141,0) 50%,rgba(137,56,141,1) 100%)!important}
 .fusion-fullwidth.fullwidth-box.video-background.gradient-b:after{background:linear-gradient(270deg,rgba(0,0,0,.4) 50%,rgba(137,56,141,1) 100%)!important}
