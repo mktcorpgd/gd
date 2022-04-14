@@ -7,12 +7,12 @@ body.customize-support #wrapper{padding-top:91px}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#AE1857!important}
 body.single-avada_portfolio .fusion-page-title-bar{background:#AE1857!important}
 body.single-avada_portfolio .fusion-page-title-bar h1,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span,.fusion-contact-info,.fusion-contact-info a,.fusion-secondary-menu,.fusion-secondary-menu a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs{color:#FFFFFF!important}
-.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{border-color:#F23F81!important;background:#F23F81;color:#FFFFFF!important}
+.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{border-color:#E94180!important;background:#E94180;color:#FFFFFF!important}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{border-color:#CD346C;background:#CD346C}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover span{background:none;color:#F23F81}
+.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover span{background:none;color:#E94180}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#CD346C}
-.fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#F23F81!important}
-#content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover{background:#F23F81!important}
+.fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#E94180!important}
+#content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover{background:#E94180!important}
 .fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#E94180!important}
 body.postid-22064 #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content:not(.fusion-sidebar-stuck){margin-top:40px}
 .fusion-header,.fusion-secondary-header{background:none!important}
@@ -42,22 +42,22 @@ div.fusion-header-v2,#wrapper.header-transparent.bkg div.fusion-header-v2{backgr
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#802144!important}
 .hero-img:not(.fusion-parallax-none) h1.entry-title{color:#B22E5F!important}
 .hero-img:not(.fusion-parallax-none) h1.entry-title+p{color:#555555!important}
-.fusion-mobile-menu-icons a:before{color:#F23F81}
-.wpcf7 input:not([type='submit']).highlight,select.highlight,.white select.highlight{font-weight:400;border:2px solid #F23F81!important;color:#FFFFFF!important;background:#F23F81!important}
+.fusion-mobile-menu-icons a:before{color:#E94180}
+.wpcf7 input:not([type='submit']).highlight,select.highlight,.white select.highlight{font-weight:400;border:2px solid #E94180!important;color:#FFFFFF!important;background:#E94180!important}
 .wpcf7 input:not([type='submit']).highlight::placeholder{color:#FFFFFF!important}
 .wpcf7 input:not([type='submit']).highlight:hover,select.highlight:hover{border-color:#CD346C!important;background:#CD346C!important;color:#FFFFFF!important}
-.parent-highlight.wpcf7-form-control-wrap:not(.wpcf7-acceptance):before{background:#F23F81!important}
-.wpcf7 .wpcf7-submit,.wpcf7 .fusion-one-full>a{border-color:#F23F81!important;color:#F23F81!important}
-.wpcf7 .wpcf7-submit:hover{background-color:#F23F81!important}
+.parent-highlight.wpcf7-form-control-wrap:not(.wpcf7-acceptance):before{background:#E94180!important}
+.wpcf7 .wpcf7-submit,.wpcf7 .fusion-one-full>a{border-color:#E94180!important;color:#E94180!important}
+.wpcf7 .wpcf7-submit:hover{background-color:#E94180!important}
 .wpcf7 .fusion-one-full>p i,.tfs-slider .heading h2,.project-content>div>div>div>div>div>ul>li>div>h6,.fusion-accordian .panel-title a:hover .fa-fusion-box,.fusion-one-third h2,.fusion-one-half h2{color:#ae1857}
-.wpcf7 .fusion-one-full>p a,.fusion-footer-widget-column .textwidget p a{color:#F23F81}
+.wpcf7 .fusion-one-full>p a,.fusion-footer-widget-column .textwidget p a{color:#E94180}
 .wpcf7 .fusion-one-full>p:hover i,.wpcf7 .fusion-one-full>p a:hover,.fusion-footer-widget-column .textwidget p a:hover{color:#CD346C}
 .tfs-slider .caption .price,#sidebar div.wpcf7 .wpcf7-form-control-wrap[class*='LOC']:before,#sidebar div.wpcf7 .wpcf7-form-control-wrap[class*='SPEED']:before,.modal div.wpcf7 .wpcf7-form-control-wrap[class$='LOC']:before,.modal div.wpcf7 .wpcf7-form-control-wrap[class*='SPEED']:before{color:#FFFFFF}
 div.wpcf7 .wpcf7-form-control-wrap[class*='SPEEDOPC']:before{color:#999999!important}
 .post-content p strong a:hover,.post-content p>a:hover,.post-content p>a:active,.post-content ol li a:hover,.post-content ol li a:active,.post-content ul li a:hover,.post-content ul li a:active,.wpcf7 .fusion-one-full a:hover,.wpcf7 .fusion-one-full a:active,.toggle-content a:hover,.toggle-content a:hover,.table-1 td a:hover,.table-2 td a:hover{color:#CD346C}
-#main #comment-submit{color:#F23F81}
-#main #comment-submit:hover{background-color:#F23F81}
-.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-content-boxes .heading .heading-link:hover .content-box-heading{color:#F23F81!important}
+#main #comment-submit{color:#E94180}
+#main #comment-submit:hover{background-color:#E94180}
+.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-content-boxes .heading .heading-link:hover .content-box-heading{color:#E94180!important}
 .box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:#E94180!important}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#CD346C!important}
 table th{background:#B22E5F;color:#FFFFFF}
@@ -81,7 +81,7 @@ body.home .post-content .wpcf7-select-parent .wpcf7-select.highlight,.tfs-slider
 .pac-item{padding:.3em .6em;cursor:pointer}
 .pac-item-query,.pac-item-query+span{float:left;line-height:1.5}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
-body:not(.home) .tfs-slider .buttons .fusion-button,body:not(.home) .tfs-slider .buttons .fusion-button:hover,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button:hover{border:2px solid #F23F81!important}
+body:not(.home) .tfs-slider .buttons .fusion-button,body:not(.home) .tfs-slider .buttons .fusion-button:hover,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button:hover{border:2px solid #E94180!important}
 .fusion-modal.cargando .modal-lg{width:fit-content}
 .fusion-modal.cargando .modal-content{padding:1.4em 2em}
 body.page-id-24138 .post-content p{text-align:justify}
