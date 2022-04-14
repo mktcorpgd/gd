@@ -193,7 +193,6 @@ li[class*=fusion-modal-text-link] a{cursor:pointer}
 .fusion-main-menu>ul>li.partner img{max-width:60px;vertical-align:middle}
 .fusion-main-menu>ul>li>a{padding-top:0!important;padding-bottom:0!important;height:66px!important;line-height:65px!important}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
-.fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a{font-size:18px!important;letter-spacing:0}
 .fusion-main-menu>ul>li.partner a,.fusion-megamenu-title a{background:none!important}
 .fusion-megamenu-title a{cursor:default}
 .fusion-main-menu .fusion-dropdown-menu .sub-menu li a,.fusion-main-menu .sub-menu li a,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled{font-family:'Open-Sans',sans-serif!important;font-weight:400!important}
@@ -209,7 +208,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .fusion-main-menu>ul>li.wpml-ls-item>a .fusion-caret{margin-left:4px}
 #menu-header>li.menu-item.menu-item-language a{font-weight:400}
 .fusion-main-menu .button-large .fusion-button-text-left{padding-left:24px!important}
-.fusion-main-menu .fusion-button{padding:10px!important;color:#FFFFFF;font-size:18px;border-width:0}
+.fusion-main-menu .fusion-button{color:#FFFFFF;font-size:1em;border-width:0}
 .fusion-main-menu .fusion-button span[class*='button-icon']{font-size:80%;top:-2px}
 .fusion-main-menu .sub-menu{padding-bottom:5px;min-width:100%;width:auto!important;background:none!important;border-bottom-left-radius:6px;border-bottom-right-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)!important;z-index:100}
 .fusion-main-menu .country-flag.menu-item .sub-menu{min-width:auto}
