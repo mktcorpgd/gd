@@ -390,11 +390,13 @@ jQuery(document).ready(function() {
 		if ( jQuery(this).text().indexOf('—') > -1 ) {
 			var input_value = jQuery(this).text();
 			if ( input_value != '—' ) {
-				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 && !jQuery('body').hasClass('page-id-40285') ) {
-					input_value = input_value.substring(input_value.indexOf('—')+2,input_value.length);
-				}
-				else {
-					input_value = input_value.substring(input_value.indexOf('—'),input_value.length);
+				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 && jQuery('body').hasClass('page-id-26272') ) {
+					if ( input_value.indexOf(';') > -1 ) {
+						input_value = input_value.substring(input_value.indexOf('—')+2,input_value.indexOf(';'));
+					}
+					else {
+						input_value = input_value.substring(input_value.indexOf('—')+2,length);
+					}
 				}
 				jQuery(this).text(input_value).val(input_value);
 			}
