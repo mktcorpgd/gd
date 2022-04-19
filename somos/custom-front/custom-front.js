@@ -470,6 +470,11 @@ jQuery(document).ready(function() {
 	});
 
 
+	jQuery('.wpcf7 .columns>label').click(function(e) {
+		jQuery(this).find('input').focus();
+	});
+
+
 	// FORMULARIOS - Limpiar espacios al salir del campo
 	jQuery(document).on('blur','.wpcf7 input:not([type=checkbox])',function(){
 		jQuery('input').each(function(){
