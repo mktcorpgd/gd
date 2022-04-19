@@ -471,7 +471,7 @@ jQuery(document).ready(function() {
 
 
 	jQuery('.wpcf7 .columns>label').click(function(e) {
-		jQuery(this).find('input').focus();
+		jQuery(this).find(':input').focus();
 	});
 
 
