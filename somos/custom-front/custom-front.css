@@ -96,7 +96,7 @@ body .bk_forms .hasDatepick{display:block!important}
 .gp-mobile #wpadminbar{position:fixed;top:0;z-index:999999}
 .sub-menu,.gp-mobile .post-text{width:auto!important}
 .wp-block-media-text.text-to-top{align-items:normal}
-.wp-block-image figcaption{font-style:italic;line-height:1.25}
+.wp-block-image figcaption{padding:.4em 0!important;font-style:italic;line-height:1.25;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background:rgba(0,0,0,.4)!important}
 .wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
 .wp-block-embed__wrapper>.twitter-tweet{margin:0 auto}
 .wp-block-embed__wrapper>.twitter-tweet .tweet-InformationCircle-widgetParent{margin:0!important}
@@ -458,6 +458,7 @@ article .nav-posts .next-post{text-align:right}
 article:not(.category-salesforce) .nav-posts{display:grid;grid-template-columns:1fr 1fr}
 article:not(.category-salesforce) .nav-posts{grid-column-gap:1em}
 article.category-salesforce .nav-posts+.wp-block-image img{border-radius:0 12px 12px 12px!important}
+.wp-block-image img{border:none!important}
 #post-content+.nav-posts{margin-bottom:2em}
 #content .nav-posts h5{margin:0!important;font-size:.9em}
 #content .nav-posts h6{margin:0 0 .1em!important;font-size:.7em}
@@ -1176,9 +1177,9 @@ notification_image{margin-left:0!important}
 notification_image img{background:#0E316E!important}
 
 /* Imágenes */
-#content .wp-block-image img[src*='qr-']{width:150px;height:150px;border:1px solid #CCCCCC;border-radius:6px}
+#content .wp-block-image img[src*='qr-']{width:150px;height:150px;border-radius:6px}
 #content figure.no-borders img{border:none!important}
-#content .columns.two div img[id*='tp']{width:100%!important;border:0;border:2px solid #CCCCCC;border-radius:24px!important}
+#content .columns.two div img[id*='tp']{width:100%!important;border:0;border-radius:24px!important}
 img.mfp-img[src*='-ima_'],img.mfp-img[src*='-iso']{padding:10px}
 img.mfp-img{max-height:90vh!important}
 #content img.thumbnail{border:1px solid #DDDDDD;box-sizing:border-box;padding:25px!important}
