@@ -743,6 +743,8 @@ body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-a
 .fusion-portfolio .fusion-buttons .fusion-button{padding:8px 15px!important}
 .fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;line-height:1.4!important;border:none!important;background:#FFFFFF!important;font-family:'Open-Sans',sans-serif}
 .fusion-portfolio .fusion-buttons .fusion-button.button-left{border-bottom-left-radius:0!important;border-top-left-radius:0!important}
+.fusion-buttons .fusion-button.button-left{border-radius:0!important}
+.fusion-buttons .fusion-button.button-right{border-top-left-radius:0!important;border-bottom-left-radius:0!important}
 .fusion-buttons .fusion-button.button-right span{font-weight:400!important}
 .fusion-buttons .fusion-button.button-left span,.fusion-portfolio .c-solo-contacto .fusion-button.button-right span,.fusion-portfolio .tag-solo-contacto .fusion-button.button-right span{font-weight:700!important;border-bottom:2px solid}
 .fusion-portfolio .c-solo-contacto .fusion-button.button-flat:not(.no-text),.fusion-portfolio .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-button.button-flat:not(.no-text),.no-read-button .fusion-button.button-flat:not(.no-text){border-top-left-radius:0!important;border-bottom-left-radius:0!important}
