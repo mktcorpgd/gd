@@ -1227,6 +1227,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	body.single article>.flexslider{margin-left:-20px;margin-right:-20px;max-width:none!important;border-radius:0}
 	.fusion-fullwidth-center-content{height:100%!important}
 	.fusion-button.button-flat,.wpcf7 input[type='submit']{border-radius:12px!important}
+	.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
 	.fusion-portfolio .fusion-buttons .fusion-button{padding:8px 20px!important}
 	.fusion-portfolio .fusion-portfolio-content .fusion-button,.fusion-portfolio .fusion-buttons .fusion-button{text-align:left;position:relative;width:100%!important;border-radius:0 12px 12px 0!important}
 	.fusion-portfolio .fusion-post-content{padding-bottom:0}
