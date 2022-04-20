@@ -743,8 +743,6 @@ body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-a
 .fusion-portfolio .fusion-buttons .fusion-button{padding:8px 15px!important}
 .fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;line-height:1.4!important;border:none!important;background:#FFFFFF!important;font-family:'Open-Sans',sans-serif}
 .fusion-portfolio .fusion-buttons .fusion-button.button-left{border-bottom-left-radius:0!important;border-top-left-radius:0!important}
-.fusion-buttons .fusion-button.button-left{border-radius:0!important}
-.fusion-buttons .fusion-button.button-right{border-top-left-radius:0!important;border-bottom-left-radius:0!important}
 .fusion-buttons .fusion-button.button-right span{font-weight:400!important}
 .fusion-buttons .fusion-button.button-left span,.fusion-portfolio .c-solo-contacto .fusion-button.button-right span,.fusion-portfolio .tag-solo-contacto .fusion-button.button-right span{font-weight:700!important;border-bottom:2px solid}
 .fusion-portfolio .c-solo-contacto .fusion-button.button-flat:not(.no-text),.fusion-portfolio .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-button.button-flat:not(.no-text),.no-read-button .fusion-button.button-flat:not(.no-text){border-top-left-radius:0!important;border-bottom-left-radius:0!important}
@@ -1180,6 +1178,8 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons article.expanded .fusion-post-content:before{content:' Ocultar información'}
 	.box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
 	.box-buttons .fusion-portfolio-content-wrapper:hover .fusion-post-content:before{text-decoration:underline!important}
+	.fusion-buttons .fusion-button.button-left{border-radius:0!important}
+	.fusion-buttons .fusion-button.button-right{border-top-left-radius:0!important;border-bottom-left-radius:0!important}
 }
 
 /* Mobile */
@@ -1364,6 +1364,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	body.search article.fusion-post-grid.format-standard:not(.avada_portfolio) .fusion-image-wrapper{max-height:75px}
 	.partners-logos .fusion-imageframe{margin:1em!important;max-width:120px!important}
 	.fusion-button-wrapper{margin:0 10px}
+	.fusion-buttons .fusion-button{margin-bottom:.4em!important}
 	.fusion-sharing-box,.fusion-sharing-box .fusion-social-networks{text-align:center}
 	.comment-form .form-submit{text-align:left}
 	html:not(.avada-has-site-width-percent) .fusion-page-title-bar,html:not(.avada-has-site-width-percent) #main,html:not(.avada-has-site-width-percent) .fusion-footer-copyright-area,html:not(.avada-has-site-width-percent) .fusion-footer-widget-area,html:not(.avada-has-site-width-percent) .fusion-sliding-bar-position-bottom .fusion-sliding-bar,html:not(.avada-has-site-width-percent) .fusion-sliding-bar-position-top .fusion-sliding-bar,html:not(.avada-has-site-width-percent) .tfs-slider .slide-content-container{padding-left:20px;padding-right:20px}
