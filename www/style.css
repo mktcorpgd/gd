@@ -1228,7 +1228,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-fullwidth-center-content{height:100%!important}
 	.fusion-button.button-flat,.wpcf7 input[type='submit']{border-radius:12px!important}
 	.fusion-portfolio .fusion-buttons .fusion-button{padding:8px 20px!important}
-	.fusion-portfolio .fusion-portfolio-content .fusion-button,.fusion-portfolio .fusion-buttons .fusion-button{text-align:left;position:relative;width:100%!important;border-radius:0!important}
+	.fusion-portfolio .fusion-portfolio-content .fusion-button,.fusion-portfolio .fusion-buttons .fusion-button{text-align:left;position:relative;width:100%!important;border-radius:0 12px 12px 0!important}
 	.fusion-portfolio .fusion-post-content{padding-bottom:0}
 	.fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,body.search .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{padding:20px 20px 5px!important}
 	.post .fusion-post-title-meta-wrap .fusion-meta-info{margin-top:inherit;margin:0 -20px;padding:10px 20px}
