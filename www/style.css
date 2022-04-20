@@ -1178,7 +1178,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-buttons .fusion-button.button-left{border-radius:0!important}
 	.fusion-buttons .fusion-button.button-right{border-top-left-radius:0!important;border-bottom-left-radius:0!important}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.9em}
-	.box-buttons .fusion-post-content p{margin-bottom:0!important;padding-bottom:0!important}
+	.box-buttons .fusion-post-content p{padding-bottom:0!important}
 }
 
 /* Mobile */
