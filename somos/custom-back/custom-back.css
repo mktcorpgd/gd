@@ -4,7 +4,7 @@ tr.user-capabilities-wrap,#toplevel_page_contact-form-listing,#menu-posts-slide,
 #webpushr-bell-optin > promptbox3 > promptpopup > popup_poweredby,notification_time,
 body:not(.customize-support) .user-tags,.user-language-wrap,#your-profile h2,
 #editor > div > div.edit-post-layout.is-mode-visual.is-sidebar-opened.has-metaboxes.interface-interface-skeleton.has-footer > div.interface-interface-skeleton__editor > div.interface-interface-skeleton__body > div.interface-interface-skeleton__sidebar > div > div.components-panel > div:nth-child(4) > div.editor-post-taxonomies__hierarchical-terms-list > div:nth-child(1),#editor > div > div.edit-post-layout.is-mode-visual.is-sidebar-opened.has-metaboxes.interface-interface-skeleton.has-footer > div.interface-interface-skeleton__editor > div.interface-interface-skeleton__body > div.interface-interface-skeleton__sidebar > div > div.components-panel > div:nth-child(4) > div.editor-post-taxonomies__hierarchical-terms-list > div:nth-child(2),#editor > div > div.edit-post-layout.is-mode-visual.is-sidebar-opened.has-metaboxes.interface-interface-skeleton.has-footer > div.interface-interface-skeleton__editor > div.interface-interface-skeleton__body > div.interface-interface-skeleton__sidebar > div > div.components-panel > div:nth-child(4) > div.editor-post-taxonomies__hierarchical-terms-list > div:nth-child(3),#editor > div > div.edit-post-layout.is-mode-visual.is-sidebar-opened.has-metaboxes.interface-interface-skeleton.has-footer > div.interface-interface-skeleton__editor > div.interface-interface-skeleton__body > div.interface-interface-skeleton__sidebar > div > div.components-panel > div:nth-child(4) > div.editor-post-taxonomies__hierarchical-terms-list > div:nth-child(4),
-body.wp-admin.post-type-event .row-actions{display:none!important}
+body.wp-admin.post-type-event .row-actions,#email-description{display:none!important}
 .editor-writing-flow{display:inline}
 #wpbody-content>div.wrap.about-wrap>h1,#wpbody-content>div.wrap.about-wrap>h1+hr,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content #step-5 .one_half:first-of-type .browse-file:first-child,body.no-customize-support #muck_box,.toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
 body{color:#333333}
@@ -24,7 +24,7 @@ input[disabled],input[readonly]{color:#666666;opacity:.8;background:#FAFAFA;bord
 #poststuff .stuffbox>h3,#poststuff h2,#poststuff h3.hndle{font-size:16px}
 span.description{display:block}
 #username-changer-link{position:relative;bottom:2px;left:2px}
-input+span.description,select+span.description{display:inline-block;position:relative;left:5px}
+input+span.description,select+span.description{display:inline-block;position:relative;left:5px;font-style:italic}
 span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;line-height:20px}
 .nav-menus-php .item-edit{height:38px;overflow:hidden}
 #wpadminbar .ab-icon{font-family:'dashicons'}
