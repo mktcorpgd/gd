@@ -243,7 +243,7 @@ jQuery(document).ready(function() {
 	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
-	if ( jQuery(window).width() < 920 ) {
+	if ( jQuery(window).width() > 920 ) {
 		jQuery('.box-buttons .fusion-post-content').on('click',function(e) {
 			jQuery(this).parent().parent().parent('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
