@@ -97,7 +97,6 @@ body .bk_forms .hasDatepick{display:block!important}
 .gp-mobile #wpadminbar{position:fixed;top:0;z-index:999999}
 .sub-menu,.gp-mobile .post-text{width:auto!important}
 .wp-block-media-text.text-to-top{align-items:normal}
-{padding:.4em 0!important;font-style:italic;line-height:1.25;border-bottom-left-radius:6px;border-bottom-right-radius:6px;background:rgba(0,0,0,.4)!important}
 .wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
 .wp-block-embed__wrapper>.twitter-tweet{margin:0 auto}
 .wp-block-embed__wrapper>.twitter-tweet .tweet-InformationCircle-widgetParent{margin:0!important}
