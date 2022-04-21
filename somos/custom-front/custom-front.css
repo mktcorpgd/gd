@@ -112,9 +112,9 @@ body .bk_forms .hasDatepick{display:block!important}
 .wp-caption{margin-bottom:0;text-align:center}
 .html5_player_container{border-radius:12px}
 #content article[class*='category-regional'][class*='category-grupo-datco'][class*='category-invitaciones'][class*='category-argentina'][class*='category-brasil'][class*='category-chile'][class*='category-mexico'][class*='category-peru'][class*='category-puerto-rico'] p.dropcap:not(.ays-fs-title):first-of-type:first-letter,body.page-id-31537 .mfp-content #post-content p:not(.ays-fs-title):first-child:first-letter{display:inline-block;float:left;margin:6px 0 0 -2px;padding:0 2px 0 0;font-size:300%;height:.8em;line-height:.85em;color:#0E316E;font-weight:400;font-family:'Neo-Sans',sans-serif}
-span.resaltado-naranja {color:#f0582b}
-span.resaltado-azul {color:#3c73b5}
-span.resaltado-verde {color:#76923C;}
+span.resaltado-naranja{color:#f0582B}
+span.resaltado-azul{color:#3C73B5}
+span.resaltado-verde{color:#76923C}
 
 /* Admin */
 body.role-administrator .wp-block-column.only-admin{padding:0!important;margin:0!important;background:none!important;border:4px dashed #999999}
@@ -310,10 +310,11 @@ input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
 textarea+.wpcf7-not-valid-tip{bottom:1px}
 body .wpcf7-validation-errors a{display:block;color:#FFFFFF!important;text-decoration:none!important}
 body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
-.wpcf7-response-output{float:left;margin:0 0 10px!important;padding:5px 10px!important;width:100%;box-sizing:border-box;border:none!important;border-radius:6px!important;color:#FFFFFF!important;text-align:center;text-shadow:none!important;font-weight:400;font-style:italic;font-size:16px;line-height:1.5!important}
+.wpcf7-response-output,.wpcf7-response-info{float:left;margin:0 0 10px!important;padding:5px 10px!important;width:100%;box-sizing:border-box;border:none!important;border-radius:6px!important;color:#FFFFFF!important;text-align:center;text-shadow:none!important;font-weight:400;font-style:italic;font-size:16px;line-height:1.5!important}
 .wpcf7-form.invalid .wpcf7-response-output{background-color:#FF5151;position:relative;z-index:999;cursor:pointer}
 .wpcf7-form.sent .wpcf7-response-output{background-color:#419466!important}
 .wpcf7-form .wpcf7-response-output.alert{background-color:#F1B500!important}
+.wpcf7-form .wpcf7-response-info{background-color:#F0582B!important}
 html body .ff-form .ff-powered{transform:scale(0)}
 .ff-form .ff-button-bar{padding-top:80px;position:relative;text-align:center}
 .ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:44px!important;position:absolute;bottom:30px}
@@ -493,14 +494,14 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 .is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF!important}
 .is-search-form.is-form-id-26276 input:focus,.error404 .gp-search .gp-search-bar:focus,body.search-no-results .gp-search-bar:focus{color:#FFFFFF!important}
 .textwidget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;margin-top:-10px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
-ul#lcp_instance_0.busquedas {border:none!important;}
+ul#lcp_instance_0.busquedas {border:none!important}
 .textwidget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 .bdays_upcom{margin-top:.4em;position:relative;border-top:2px solid #CCCCCC}
 #custom_html-24 .textwidget li,#custom_html-11 .textwidget li,#custom_html-8 .textwidget li,#custom_html-3 .textwidget li,#custom_html-2 .textwidget li,.bdays_upcom li{padding-right:5px}
 #custom_html-5.widget ul li:last-child:not(.ui-state-default){margin-bottom:0!important}
 .textwidget a{color:#0E316E}
 .textwidget a:hover{color:#F0582B}
-.widget .activa li i{border-bottom: 1px solid #DDDDDD;padding-bottom: 10px;}
+.widget .activa li i{border-bottom: 1px solid #DDDDDD;padding-bottom: 10px}
 .widget .avatar{text-align:right;width:33%!important}
 .widget .author{box-sizing:border-box!important;margin:4px 0 0;padding-left:6px;vertical-align:top;width:67%!important}
 .widget .avatar img{border-radius:50%;height:48px;width:48px}
@@ -526,7 +527,7 @@ ul#lcp_instance_0.busquedas {border:none!important;}
 #custom_html-21,#custom_html-3{text-align:center}
 #custom_html-11,#custom_html-24{padding-top:12px!important}
 #custom_html-11 > div > h3{font-size:1.1em!important}
-#custom_html-24 > div > h3{font-size:1.2em!important;font-weight:500!important;color:#F0582B!important;}
+#custom_html-24 > div > h3{font-size:1.2em!important;font-weight:500!important;color:#F0582B!important}
 #custom_html-11 > div > h3 > i,#custom_html-24 > div > h3 > i{width:20px}
 #custom_html-11 > div > h3 > i.fa-minus-square:before,#custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
 #custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'!important}
@@ -1459,7 +1460,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	#countdown li{font-size:1.125rem;padding:.75rem}
 	#countdown li span{font-size:3.375rem}
-	#page-wrapper .widget .blue.sc-button{font-size:1rem!important;}
+	#page-wrapper .widget .blue.sc-button{font-size:1rem!important}
 }
 @media (max-width:960px) and (orientation:landscape) {
 	#content .columns.two .tp h2{bottom:17vw;font-size:6.5vw}
