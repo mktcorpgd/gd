@@ -395,9 +395,6 @@ jQuery(document).ready(function() {
 				}
 				jQuery(this).text(input_value).val(input_value);
 			}
-			else {
-				jQuery(this).attr('disabled','disabled');
-			}
 		}
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
