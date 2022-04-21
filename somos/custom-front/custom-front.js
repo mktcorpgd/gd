@@ -391,7 +391,7 @@ jQuery(document).ready(function() {
 			}
 			jQuery(this).text(input_value).val(input_value);
 		}
-		if ( jQuery(this).text().indexOf('—') > -1 ) {
+		if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—' ) {
 			jQuery(this).attr('disabled','disabled');
 		}
 	});
@@ -490,15 +490,15 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
-	jQuery('select[name^=CANT]').on('change',function(e) {
-		var sel_index = jQuery(this).attr('name');
-		sel_index = sel_index.substring(sel_index.indexOf('CANT')+4,sel_index.length);
+	jQuery('input[name^=CANT]').on('keyup',function(e) {
+		var inp_index = jQuery(this).attr('name');
+		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery(this).val() > 10 ) {
-			console.log(jQuery('select[name=CANT'+sel_index+'] .wpcf7-response-info').length);
-			jQuery('<div class="wpcf7-response-info">Este ítem tendrá costo</div>').insertAfter(this);
+			console.log(jQuery('input[name=CANT'+sel_index+'] .wpcf7-response-info').length);
+			jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter(this);
 		}
 		else {
-			jQuery('select[name=CANT'+sel_index+'] .wpcf7-response-info').remove();
+			jQuery('input[name=CANT'+sel_index+'] .wpcf7-response-info').remove();
 		}
 	});
 
