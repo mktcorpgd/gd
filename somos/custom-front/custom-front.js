@@ -494,22 +494,11 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Ocultar precio si cantidad es menor a 10
-	/*jQuery('input[name^=CANT]').on('keyup',function(e) {
-		var num_index = jQuery(this).attr('name');
-		num_index = num_index.substr(num_index.length-1,1);
-		if ( jQuery(this).val() < 11 ) { 
-			var merch_val = jQuery('select[name=MERCH'+num_index+'] option:selected').val();
-			merch_val = merch_val.substring(0,merch_val.indexOf('(')-1);
-			var merch_price = jQuery('select[name=MERCH'+num_index+'] option:selected').val();
-			merch_price = merch_price.substring(merch_price.indexOf('(')+1,merch_price.indexOf(')'));
-			jQuery('select[name=MERCH'+num_index+'] option:selected').attr('data-price',merch_price);
-			jQuery('select[name=MERCH'+num_index+'] option:selected').text(merch_val).attr('value',merch_val);
-		}
-		else {
-			jQuery('select[name=MERCH'+num_index+']').removeAttr('data-price');
-		}
-	});*/
+	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
+	jQuery('select[name^=MERCH]').on('change',function(e) {
+		var opt_index = jQuery(this).index();
+		console.log(opt_index);
+	});
 
 
 	// BOTONES - Agregar botones de archivo
