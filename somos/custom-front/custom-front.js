@@ -507,7 +507,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-	jQuery('input[name^=MERCH]').change(function(e) {
+	jQuery('select[name^=MERCH]').change(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
 		var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
