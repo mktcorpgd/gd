@@ -495,6 +495,7 @@ jQuery(document).ready(function() {
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
+			console.log('opt_index='+opt_index);
 			if ( jQuery(this).val() > 10 && opt_index < 5 ) {
 				opt_index = opt_index+5;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
