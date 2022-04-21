@@ -497,7 +497,7 @@ jQuery(document).ready(function() {
 		console.log(inp_index);
 		if ( jQuery(this).val() > 10 ) {
 			console.log(jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length);
-			jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter(this);
+			jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter('.MERCH'+inp_index+' select');
 		}
 		else {
 			jQuery('.MERCH'+inp_index+' .wpcf7-response-info').remove();
