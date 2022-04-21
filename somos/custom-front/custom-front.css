@@ -89,9 +89,8 @@ h3.toggle i:before,.activity-time-since{color:#888888}
 .gallery-item img{width:100%!important}
 .wp-block-gallery .wp-block-image{border-radius:6px;overflow:hidden}
 #content .blocks-gallery-item img,.wp-block-image img,#post-content .blocks-gallery-item img{margin:0!important}
-.blocks-gallery-image figcaption,.blocks-gallery-item figcaption,.wp-block-image figcaption{padding:.2em .3em!important;line-height:1.5;bottom:-5px;background:rgba(0,0,0,.5)!important;cursor:zoom-in;border:1px solid #CCCCCC;border-bottom-left-radius:12px;border-bottom-right-radius:12px;border-top:none}
+.blocks-gallery-image figcaption,.blocks-gallery-item figcaption,.wp-block-image figcaption{padding:.4em .3em!important;line-height:1.25;font-style:italic;background:rgba(0,0,0,.5)!important;cursor:zoom-in}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
-.blocks-gallery-grid+figcaption{line-height:1.5;font-style:italic;text-align:center}
 .padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.padder td a:hover,.widget li a:hover{text-decoration:underline}
 body .bk_forms .hasDatepick{display:block!important}
 .gp-mobile #wpadminbar{position:fixed;top:0;z-index:999999}
