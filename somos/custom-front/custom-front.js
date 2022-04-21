@@ -496,7 +496,7 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
 	jQuery('select[name^=MERCH]').on('change',function(e) {
-		var opt_index = jQuery(this).index();
+		var opt_index = jQuery(this).find('option:selected').index();
 		console.log(opt_index);
 	});
 
