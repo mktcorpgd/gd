@@ -493,15 +493,12 @@ jQuery(document).ready(function() {
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
-		if ( jQuery(this).val() > 10 ) {
-			if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
-				var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
+		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
+			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
+			if ( jQuery(this).val() > 10 ) {
 				opt_index = opt_index+5;
 			}
-		}
-		else {
-			if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
-				var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
+			else {
 				opt_index = opt_index-5;
 			}
 		}
