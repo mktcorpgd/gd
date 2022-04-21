@@ -493,12 +493,13 @@ jQuery(document).ready(function() {
 	jQuery('input[name^=CANT]').on('keyup',function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
+		console.log(inp_index);
 		if ( jQuery(this).val() > 10 ) {
-			console.log(jQuery('input[name=CANT'+inp_index+'] .wpcf7-response-info').length);
+			console.log(jQuery('.CANT'+inp_index+' .wpcf7-response-info').length);
 			jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter(this);
 		}
 		else {
-			jQuery('input[name=CANT'+inp_index+'] .wpcf7-response-info').remove();
+			jQuery('.CANT'+inp_index+' .wpcf7-response-info').remove();
 		}
 	});
 
