@@ -490,17 +490,17 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
-	jQuery('input[name^=CANT]').on('keyup',function(e) {
+	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		console.log(inp_index);
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		console.log(inp_index);
 		if ( jQuery(this).val() > 10 ) {
-			console.log(jQuery('.CANT'+inp_index+' .wpcf7-response-info').length);
+			console.log(jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length);
 			jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter(this);
 		}
 		else {
-			jQuery('.CANT'+inp_index+' .wpcf7-response-info').remove();
+			jQuery('.MERCH'+inp_index+' .wpcf7-response-info').remove();
 		}
 	});
 
