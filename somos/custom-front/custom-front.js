@@ -513,6 +513,7 @@ jQuery(document).ready(function() {
 		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
 		if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
 			jQuery('.CANT'+inp_index+' input').val(10);
+		}
 	});
 
 	// BOTONES - Agregar botones de archivo
