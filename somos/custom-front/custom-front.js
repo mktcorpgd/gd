@@ -493,6 +493,7 @@ jQuery(document).ready(function() {
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		console.log(inp_index);
+		/*
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		console.log(inp_index);
 		if ( jQuery(this).val() > 10 ) {
@@ -501,7 +502,7 @@ jQuery(document).ready(function() {
 		}
 		else {
 			jQuery('.MERCH'+inp_index+' .wpcf7-response-info').remove();
-		}
+		}*/
 	});
 
 
