@@ -498,7 +498,13 @@ jQuery(document).ready(function() {
 	jQuery('select[name^=MERCH]').on('change',function(e) {
 		var opt_index = jQuery(this).prop('selectedIndex');
 		if ( opt_index == 1 || opt_index == 2 || opt_index == 3 || opt_index == 4 ) {
+			console.log(jQuery(this).find('.wpcf7-response-info').length);
+			/*if ( jQuery(this).find('.wpcf7-response-info').length == -1 ) {
+			}*/
 			jQuery('<div class="wpcf7-response-info">Sin costo hasta 10 unidades</div>').insertAfter(this);
+		}
+		else {
+			jQuery('.wpcf7-response-info').remove();
 		}
 	});
 
