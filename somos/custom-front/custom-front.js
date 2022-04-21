@@ -494,11 +494,11 @@ jQuery(document).ready(function() {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery(this).val() > 10 ) {
-			console.log(jQuery('input[name=CANT'+sel_index+'] .wpcf7-response-info').length);
+			console.log(jQuery('input[name=CANT'+inp_index+'] .wpcf7-response-info').length);
 			jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter(this);
 		}
 		else {
-			jQuery('input[name=CANT'+sel_index+'] .wpcf7-response-info').remove();
+			jQuery('input[name=CANT'+inp_index+'] .wpcf7-response-info').remove();
 		}
 	});
 
