@@ -501,8 +501,8 @@ jQuery(document).ready(function() {
 			else {
 				opt_index = opt_index-5;
 			}
+			jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 		}
-		jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 	});
 
 
