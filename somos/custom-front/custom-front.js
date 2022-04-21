@@ -498,7 +498,7 @@ jQuery(document).ready(function() {
 			opt_index = opt_index+5;
 			jQuery('.MERCH'+inp_index+' select:option:eq('+opt_index+')').attr('selected','selected');
 			*/
-			if ( jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length ) {
+			if ( !jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length ) {
 				jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter('.MERCH'+inp_index+' select');
 			}
 		}
