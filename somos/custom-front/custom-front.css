@@ -231,7 +231,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 
 /* Formularios */
 .wpcf7 .columns>label>span,.wpcf7 .columns>div[data-class='wpcf7cf_group']>label>span{margin-top:5px;font-size:1rem;line-height:1.15}
-.wpcf7 .columns label[for='OBJ']+div[data-class='wpcf7cf_group']{margin-top:0!important}
+.wpcf7 .columns label+div[data-class='wpcf7cf_group']{margin-top:0!important}
 .wpcf7 .columns>label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
 .wpcf7 .columns>label>span[class*='GIFT']{margin-bottom:5px}
 .wpcf7 .columns>label>span[class*='ORG']{position:relative}
