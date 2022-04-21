@@ -375,26 +375,24 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
 	jQuery('.wpcf7-select option').each(function(i) {
 		if ( jQuery(this).text().indexOf(';') > -1 ) {
-			var input_value = jQuery(this).text();
-			if ( input_value != '—' ) {
-				var input_name = jQuery(this).parent().attr('name').replace(/[[]]/g,'');
-				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
-				input_value = input_value.substring(0,input_value.indexOf(';'));
-				jQuery(this).attr('data-cat-id',id_cat);
-				if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1' ) {
-					jQuery(this).val(id_cat);
-				}
-				jQuery(this).text(input_value);
+			var input_name = jQuery(this).parent().attr('name').replace(/[[]]/g,'');
+			var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
+			input_value = input_value.substring(0,input_value.indexOf(';'));
+			jQuery(this).attr('data-cat-id',id_cat);
+			if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1' ) {
+				jQuery(this).val(id_cat);
 			}
+			jQuery(this).text(input_value);
+		}
+		if ( jQuery(this).text().indexOf('-') > -1 ) {
+			var input_value = jQuery(this).text();
+			if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 && jQuery('body').hasClass('page-id-26272') ) {
+				input_value = input_value.substring(input_value.indexOf('-')+2,input_value.length);
+			}
+			jQuery(this).text(input_value).val(input_value);
 		}
 		if ( jQuery(this).text().indexOf('—') > -1 ) {
-			var input_value = jQuery(this).text();
-			if ( input_value != '—' ) {
-				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 && jQuery('body').hasClass('page-id-26272') ) {
-					input_value = input_value.substring(input_value.indexOf('—')+2,input_value.length);
-				}
-				jQuery(this).text(input_value).val(input_value);
-			}
+			jQuery(this).attr('disabled','disabled');
 		}
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
@@ -492,19 +490,15 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
-	jQuery('select[name^=MERCH]').on('change',function(e) {
+	jQuery('select[name^=CANT]').on('change',function(e) {
 		var sel_index = jQuery(this).attr('name');
-		sel_index = sel_index.substring(sel_index.indexOf('MERCH')+5,sel_index.length);
-		console.log('sel_index='+sel_index);
-		var opt_index = jQuery(this).prop('selectedIndex');
-		if ( opt_index == 1 || opt_index == 2 || opt_index == 3 || opt_index == 4 ) {
-			console.log(jQuery('select[name=MERCH'+sel_index+']').find('.wpcf7-response-info').length);
-			/*if ( jQuery(this).find('.wpcf7-response-info').length == -1 ) {
-			}*/
-			jQuery('<div class="wpcf7-response-info">Sin costo hasta 10 unidades</div>').insertAfter(this);
+		sel_index = sel_index.substring(sel_index.indexOf('CANT')+4,sel_index.length);
+		if ( jQuery(this).val() > 10 ) {
+			console.log(jQuery('select[name=CANT'+sel_index+'] .wpcf7-response-info').length);
+			jQuery('<div class="wpcf7-response-info">Este ítem tendrá costo</div>').insertAfter(this);
 		}
 		else {
-			jQuery('.wpcf7-response-info').remove();
+			jQuery('select[name=CANT'+sel_index+'] .wpcf7-response-info').remove();
 		}
 	});
 
