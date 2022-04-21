@@ -508,7 +508,12 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-
+	jQuery('input[name^=MERCH]').change(function(e) {
+		var inp_index = jQuery(this).attr('name');
+		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
+		if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
+			jQuery('.CANT'+inp_index+' input').val(10);
+	});
 
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
