@@ -494,6 +494,9 @@ jQuery(document).ready(function() {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery(this).val() > 10 ) {
+			console.log(jQuery('.MERCH'+inp_index+' select').prop('selectedIndex'));
+			console.log(jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0);
+			console.log(jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0);
 			if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 				console.log('opt_index='+opt_index);
 				opt_index = opt_index+5;
