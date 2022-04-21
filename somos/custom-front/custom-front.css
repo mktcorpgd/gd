@@ -410,6 +410,7 @@ body.archive #content h1,body.search #content h1{margin-top:.2em}
 #content .columns.four.shorter{width:20%}
 #content .columns.four.expanded{width:27%}
 #content .columns.three.expanded{width:66%}
+#content .columns.threex2{width:68%}
 #content h3:not(.toggle),#content h4,#content h5,.mfp-content h3:not(.toggle),.mfp-content h4,.mfp-content h5{margin-top:25px!important}
 #content .wpcf7 h3:not(.toggle),#content .wpcf7 h4,#content .wpcf7 h5{margin-bottom:0!important}
 #content .sc-tab-panel h5{margin-bottom:.25em}
