@@ -497,9 +497,8 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
 	jQuery('select[name^=MERCH]').on('change',function(e) {
 		var opt_index = jQuery(this).prop('selectedIndex');
-		console.log(opt_index);
 		if ( opt_index == 1 || opt_index == 2 || opt_index == 3 || opt_index == 4 ) {
-			jQuery('<div class="wpcf7-response-info">¡Sin costo hasta 10 unidades!</div>').insertAfter(this);
+			jQuery('<div class="wpcf7-response-info">Sin costo hasta 10 unidades</div>').insertAfter(this);
 		}
 	});
 
