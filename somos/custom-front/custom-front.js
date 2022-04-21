@@ -495,10 +495,10 @@ jQuery(document).ready(function() {
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery(this).val() > 10 ) {
 			if ( jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == -1 ) {
-				var opt_index = jQuery('.MERCH'+inp_index+' option:selected').index();
+				var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 				console.log('opt_index='+opt_index);
-				opt_index = opt_index+5;
-				console.log('opt_index='+opt_index);
+				//opt_index = opt_index+5;
+				//console.log('opt_index='+opt_index);
 				jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter('.MERCH'+inp_index+' select');
 			}
 		}
