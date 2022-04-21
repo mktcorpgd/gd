@@ -493,11 +493,10 @@ jQuery(document).ready(function() {
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
-		console.log('inp_index='+inp_index);
-		console.log(jQuery('.MERCH'+inp_index+' select').prop('selectedIndex'));
+		console.log(jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length);
 		if ( jQuery(this).val() > 10 ) {
-			if ( jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == -1 ) {
-				//console.log('opt_index='+opt_index);
+			if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == -1 ) {
+				console.log('opt_index='+opt_index);
 				//opt_index = opt_index+5;
 				//console.log('opt_index='+opt_index);
 				jQuery('<div class="wpcf7-response-info">Se aplicará un costo por este ítem</div>').insertAfter('.MERCH'+inp_index+' select');
