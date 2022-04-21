@@ -498,7 +498,7 @@ jQuery(document).ready(function() {
 			if ( jQuery(this).val() > 10 && opt_index < 5 ) {
 				opt_index = opt_index+5;
 			}
-			else {
+			else if ( jQuery(this).val() < 10 && opt_index > 5 ) {
 				opt_index = opt_index-5;
 			}
 			jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
