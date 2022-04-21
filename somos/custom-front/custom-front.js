@@ -512,7 +512,7 @@ jQuery(document).ready(function() {
 		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
 		var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 		if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
-			if ( opt_index > 5 && opt_index <= 10 ) {
+			if ( opt_index <= 5 ) {
 				jQuery('.CANT'+inp_index+' input').val(10);
 			}
 		}
