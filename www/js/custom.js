@@ -427,7 +427,6 @@ jQuery(document).ready(function() {
 		if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
 			if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
 				jQuery('input[name*="SRC"]').val(window.location.href);
-				jQuery('input[name*="SRC"]').val(jQuery('body').data('referer'));
 			}
 			else if ( jQuery('input[name="HREF"]').length ) {
 				jQuery('input[name="HREF"]').val(window.location.href);
