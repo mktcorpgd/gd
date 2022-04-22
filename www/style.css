@@ -825,7 +825,7 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .fusion-meta-info-wrapper,.fusion-meta-info-wrapper .meta-tags,.fusion-single-line-meta{font-size:0}
 .fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a,.fusion-single-line-meta span:not(.meta-tags),.fusion-single-line-meta a{font-size:.7rem!important}
 .fusion-meta-info-wrapper>.fusion-inline-sep+a[rel='tag'],.fusion-single-line-meta>.fusion-inline-sep+a[rel*='tag']{padding-right:.3em!important}
-.fusion-meta-info-wrapper>a~a,.fusion-single-line-meta>a~a{padding:0 .3em!important}
+.fusion-meta-info-wrapper>a~a,.fusion-single-line-meta>a~a{padding:0 .6em!important}
 .meta-tags{margin-left:10px}
 .meta-tags a{cursor:text;text-decoration:none!important}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:#666666}
@@ -845,7 +845,7 @@ article.category-guias .fusion-single-line-meta{padding-top:10px}
 .fusion-single-line-meta a:hover,.fusion-portfolio-meta a:hover,.fusion-meta-info-wrapper a:hover{text-decoration:underline}
 .fusion-portfolio-meta span{display:inline-block;color:#AAAAAA!important}
 .fusion-single-line-meta a:not([rel='author']):hover,.fusion-portfolio-meta a:hover{text-decoration:underline}
-.post .fusion-meta-info{padding:0;border:0!important;background:none}
+.post .fusion-meta-info{margin-bottom:.5em;padding:0;border:0!important;background:none}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{text-decoration:none;color:#666666}
 .post .fusion-meta-info a:not[rel='author']:hover,.fusion-breadcrumbs span a:hover span{text-decoration:underline!important}
 body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;border-top-right-radius:12px}
