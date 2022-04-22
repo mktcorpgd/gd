@@ -7,7 +7,7 @@ body a:hover{color:#340018}
 .modal .wpcf7 .fusion-one-full>a>i,.modal .wpcf7 .fusion-one-full>a>img,.fusion-copyright-notice p.legales,#footer > div > div > div.fusion-copyright-notice > div > div > span:nth-child(6){display:none}
 #legales,#legales .panel-body p span{display:inline-block!important}
 #wrapper.header-transparent.bkg div.fusion-header-v2{background:#7E1F4B!important}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{color:#7E1F4B;border-color:#7E1F4B}
+.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{color:#FFFFFF;background-color:#7E1F4B;border-color:#7E1F4B}
 .modal .modal-title,.wpcf7 .wpcf7-submit,.wpcf7 .fusion-one-full>a{color:#7E1F4B!important}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover,.fusion-pricingtable-column .panel-container:hover .fusion-button{border-color:#340018;background:#340018;color:#FFFFFF}
 .fusion-pricing-table .list-group .list-group-item:hover{background:#340018!important}
