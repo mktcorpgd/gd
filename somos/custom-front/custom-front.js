@@ -471,8 +471,8 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Limpiar espacios al salir del campo
-	jQuery(document).on('blur','.wpcf7 input:not([type=checkbox])',function(){
-		jQuery('input').each(function(){
+	jQuery(document).on('blur','.wpcf7 input[type=text]',function(){
+		jQuery('.wpcf7 input[type=text]').each(function(){
 			this.value = jQuery(this).val().trim();
 		});
 	});
