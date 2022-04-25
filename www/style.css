@@ -1283,10 +1283,8 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link{display:inline-block;width:33.33%}
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link .menu-text{width:100%;text-align:center}
 	.fusion-mobile-nav-item>.sub-menu>li.fusion-mobile-nav-item{font-size:90%}
-	.fusion-mobile-nav-item.country-flag .menu-text>img{width:30px;height:30px;max-width:30px;max-height:30px;border-radius:16px}
-	.fusion-mobile-nav-item.country-flag .sub-menu{display:grid;grid-template-columns:25% 25% 25% 25%}
-	.fusion-mobile-nav-item.country-flag .sub-menu li{padding:1em 1em 0 0}
-	.fusion-mobile-nav-item.country-flag .sub-menu li a img{width:70%;border-radius:32px}
+	.fusion-mobile-nav-item.country-flag span img{width:30px;height:30px;max-width:30px;max-height:30px;border-radius:16px}
+	.fusion-mobile-nav-item.country-flag a{display:block}
 	.fusion-mobile-menu-search{margin:10px -32px -20px!important}
 	.fusion-mobile-menu-icons a{margin-left:24px!important}
 	.fusion-mobile-menu-icons a,.fusion-mobile-menu-icons a:after,.fusion-mobile-menu-icons a:before,html .fusion-open-submenu{color:#FFFFFF!important}
