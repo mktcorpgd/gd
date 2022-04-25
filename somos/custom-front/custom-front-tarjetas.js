@@ -131,16 +131,16 @@ jQuery(document).ready(function() {
 		var office = RemoveAccents(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
 		var ctry_office = ctry+'_'+office;
 		console.log(ctry_office);
-		if ( ctry_office == 'cl_san' ) {
+		if ( ctry_office == 'cl_santiago' ) {
 			jQuery('input[name=CTRYMAIL]').val('cristian.silva@datco.cl')
 		}
 		else {
 			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
 		}
-		if ( ctry_office == 'ar_dis' || ctry_office == 'ar_mic' || ctry_office == 'ar_bar' ) {
+		if ( ctry_office == 'ar_caba - catulo castillo' || ctry_office == 'ar_caba - san martin' || ctry_office == 'ar_interior - bariloche' ) {
 			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('hidden').addClass('visible');
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('three columns3').addClass('four columns4');
-			if ( ctry_office == 'ar_bar' ) {
+			if ( ctry_office == 'ar_interior - bariloche' ) {
 				jQuery('input[name=FLOOR]').val(2);
 			}
 		}
