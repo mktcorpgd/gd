@@ -124,8 +124,9 @@ jQuery(document).ready(function() {
 				jQuery('.step3:first').focus();
 			});
 		}
-		var ctry = jQuery(this).val().substring(0,2).toLowerCase();
-		var office = RemoveAccents(jQuery(this).val().substring(jQuery(this).val().indexOf('-')+2,jQuery(this).val().length).toLowerCase());
+		var this_value = jQuery(this).val();
+		var ctry = this_value.substring(0,2).toLowerCase();
+		var office = RemoveAccents(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
 		var ctry_office = ctry+'_'+office;
 		console.log(ctry_office);
 		if ( ctry_office == 'cl_san' ) {
