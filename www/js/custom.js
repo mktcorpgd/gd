@@ -313,12 +313,12 @@ jQuery(document).ready(function() {
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
 		new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
-		jQuery('input[name=RESP]').val(new_resp);
+		jQuery('input[name="RESP"]').val(new_resp);
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
 		ctry_url = urlParams.get('ctry');
-		jQuery('input[name=RESP]').val(ctry_url+'@grupodatco.com');
+		jQuery('input[name="RESP"]').val(ctry_url+'@grupodatco.com');
 	}	
 
 	// FORMULARIOS - Si existe: asignar copiar oculta
@@ -330,13 +330,13 @@ jQuery(document).ready(function() {
 			new_resps += new_resp_bcc+', ';
 		});
 		new_resps = new_resps.substring(0,new_resps.length-2);
-		jQuery('input[name=RESP_BCC]').val(new_resps);
+		jQuery('input[name="RESP_BCC"]').val(new_resps);
 	}
 
 	
 	// FORMULARIOS - Si existe: asignar copiar oculta
 	if ( jQuery('body.single-avada_portfolio').length ) {
-		jQuery('input[name=BREADCRUMB]').val(jQuery('.fusion-breadcrumbs').text());
+		jQuery('input[name="BREADCRUMB"]').val(jQuery('.fusion-breadcrumbs').text());
 	}
 	
 
@@ -426,7 +426,7 @@ jQuery(document).ready(function() {
 		});
 		if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
 			if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
-				jQuery('input[name*="SRC"]').val(window.location.href);
+				jQuery('input[name*="SRC"]').val(jQuery('body').attr('data-refer')+'=>'+window.location.href);
 			}
 			else if ( jQuery('input[name="HREF"]').length ) {
 				jQuery('input[name="HREF"]').val(window.location.href);
@@ -595,12 +595,12 @@ jQuery(document).ready(function() {
 	if ( jQuery('#content>article.portfolio_tags-demo-form').length ) {
 		jQuery('.sidebar h4').text('Quiero solicitar una demo');
 		jQuery('.fusion-modal.contacto-rapido .modal-title').text('Quiero solicitar una demo para '+jQuery('span.entry-title').text());
-		jQuery('input[name=SUBJ]').attr('value','demo');
+		jQuery('input[name="SUBJ"]').attr('value','demo');
 	}
 	if ( jQuery('#content>article.portfolio_tags-reunion-form').length ) {
 		jQuery('.sidebar h4').text('Quiero agendar una reunión');
 		jQuery('.fusion-modal.contacto-rapido .modal-title').text('Quiero agendar una reunión para conocer '+jQuery('span.entry-title').text());
-		jQuery('input[name=SUBJ]').attr('value','reunión');
+		jQuery('input[name="SUBJ"]').attr('value','reunión');
 	}
 
 

@@ -147,8 +147,8 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-secondary-header a{display:inline-block;padding:5px 10px!important;text-align:center;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 .fusion-secondary-header a:hover{text-decoration:underline}
 #wrapper{padding-top:66px}
-.country-flag.menu-item span{font-weight:400!important;text-transform:uppercase;position:relative;top:1px}
-.country-flag.menu-item img[src*='flag-']{width:18px;height:18px;position:relative;top:-1px;border-radius:32px}
+.country-flag.menu-item span{font-weight:400!important;top:1px}
+.country-flag.menu-item img[src*='flag-']{margin-right:4px;width:18px;height:18px;position:relative;top:-1px;border-radius:32px}
 .country-flag.menu-item .sub-menu img[src*='flag-']{position:relative;top:1px}
 
 /* Menú */
@@ -825,7 +825,7 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .fusion-meta-info-wrapper,.fusion-meta-info-wrapper .meta-tags,.fusion-single-line-meta{font-size:0}
 .fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a,.fusion-single-line-meta span:not(.meta-tags),.fusion-single-line-meta a{font-size:.7rem!important}
 .fusion-meta-info-wrapper>.fusion-inline-sep+a[rel='tag'],.fusion-single-line-meta>.fusion-inline-sep+a[rel*='tag']{padding-right:.3em!important}
-.fusion-meta-info-wrapper>a~a,.fusion-single-line-meta>a~a{padding:0 .3em!important}
+.fusion-meta-info-wrapper>a~a,.fusion-single-line-meta>a~a{padding:0 .6em!important}
 .meta-tags{margin-left:10px}
 .meta-tags a{cursor:text;text-decoration:none!important}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:#666666}
@@ -845,7 +845,7 @@ article.category-guias .fusion-single-line-meta{padding-top:10px}
 .fusion-single-line-meta a:hover,.fusion-portfolio-meta a:hover,.fusion-meta-info-wrapper a:hover{text-decoration:underline}
 .fusion-portfolio-meta span{display:inline-block;color:#AAAAAA!important}
 .fusion-single-line-meta a:not([rel='author']):hover,.fusion-portfolio-meta a:hover{text-decoration:underline}
-.post .fusion-meta-info{padding:0;border:0!important;background:none}
+.post .fusion-meta-info{margin-bottom:.5em;padding:0;border:0!important;background:none}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{text-decoration:none;color:#666666}
 .post .fusion-meta-info a:not[rel='author']:hover,.fusion-breadcrumbs span a:hover span{text-decoration:underline!important}
 body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;border-top-right-radius:12px}
@@ -1283,10 +1283,8 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link{display:inline-block;width:33.33%}
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link .menu-text{width:100%;text-align:center}
 	.fusion-mobile-nav-item>.sub-menu>li.fusion-mobile-nav-item{font-size:90%}
-	.fusion-mobile-nav-item.country-flag .menu-text>img{width:30px;height:30px;max-width:30px;max-height:30px;border-radius:16px}
-	.fusion-mobile-nav-item.country-flag .sub-menu{display:grid;grid-template-columns:25% 25% 25% 25%}
-	.fusion-mobile-nav-item.country-flag .sub-menu li{padding:1em 1em 0 0}
-	.fusion-mobile-nav-item.country-flag .sub-menu li a img{width:70%;border-radius:32px}
+	.fusion-mobile-nav-item.country-flag span img{width:30px;height:30px;max-width:30px;max-height:30px;border-radius:16px}
+	.fusion-mobile-nav-item.country-flag a{display:block}
 	.fusion-mobile-menu-search{margin:10px -32px -20px!important}
 	.fusion-mobile-menu-icons a{margin-left:24px!important}
 	.fusion-mobile-menu-icons a,.fusion-mobile-menu-icons a:after,.fusion-mobile-menu-icons a:before,html .fusion-open-submenu{color:#FFFFFF!important}
