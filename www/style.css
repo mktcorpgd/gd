@@ -147,8 +147,8 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-secondary-header a{display:inline-block;padding:5px 10px!important;text-align:center;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 .fusion-secondary-header a:hover{text-decoration:underline}
 #wrapper{padding-top:66px}
-.country-flag.menu-item span{font-weight:400!important;text-transform:uppercase;position:relative;top:1px}
-.country-flag.menu-item img[src*='flag-']{width:18px;height:18px;position:relative;top:-1px;border-radius:32px}
+.country-flag.menu-item span{font-weight:400!important;top:1px}
+.country-flag.menu-item img[src*='flag-']{margin-right:4px;width:18px;height:18px;position:relative;top:-1px;border-radius:32px}
 .country-flag.menu-item .sub-menu img[src*='flag-']{position:relative;top:1px}
 
 /* Menú */
