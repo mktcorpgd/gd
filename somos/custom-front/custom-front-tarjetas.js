@@ -127,6 +127,7 @@ jQuery(document).ready(function() {
 		var ctry = jQuery(this).val().substr(0,2).toLowerCase();
 		var office = RemoveAccents(jQuery(this).val().substr(5,3).toLowerCase());
 		var ctry_office = ctry+'_'+office;
+		console.log(ctry_office);
 		if ( ctry_office == 'cl_san' ) {
 			jQuery('input[name=CTRYMAIL]').val('cristian.silva@datco.cl')
 		}
