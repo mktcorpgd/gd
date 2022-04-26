@@ -18,26 +18,25 @@ jQuery(document).ready(function() {
 	jQuery('.check_add input[type=checkbox]').change(function() {
 		var id_checkbox = jQuery(this).parent().parent().parent().attr('id');
 		console.log(id_checkbox);
-		if ( this.checked ) {
-			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-			jQuery(this).val('*'+checkbox_checked);
+		if ( id_checkbox == 'LKDNOT' ) {
+			if ( this.checked ) {
+				jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
+			}
+			else {
+				jQuery('.LKDURL input').val('').removeAttr('disabled');
+			}	
 		}
 		else {
-			jQuery(this).val('');
+			if ( this.checked ) {
+				var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
+				jQuery(this).val('*'+checkbox_checked);
+			}
+			else {
+				jQuery(this).val('');
+			}	
 		}
 	});
 	
-
-	// Checkbox: deshabilitar si no tiene LinkedIn
-	jQuery('.LKDNOT input').change(function() {
-		if ( this.checked ) {
-			jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
-		}
-		else {
-			jQuery('.LKDURL input').val('').removeAttr('disabled');
-		}
-	});
-
 
 	// Cambiar automáticamente por comas
 	jQuery(document).on('keyup','input[name=RESPBOSS]',function() {
