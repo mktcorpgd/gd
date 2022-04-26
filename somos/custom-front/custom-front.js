@@ -470,12 +470,12 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Limpiar espacios al salir del campo
+	/*/ FORMULARIOS - Limpiar espacios al salir del campo
 	jQuery(document).on('blur','.wpcf7 input[type=text]',function(){
 		jQuery('.wpcf7 input[type=text]').each(function(){
 			this.value = jQuery(this).val().trim();
 		});
-	});
+	});*/
 
 
 	// FORMULARIOS - Ir a página en cambio de select para .nav-posts
