@@ -15,22 +15,10 @@ jQuery(document).ready(function() {
 
 
 	// Checkbox - Bajas: Adicionales
-	jQuery('.check_add input').change(function() {
+	jQuery('.check_add input[type=checkbox]').change(function() {
 		if ( this.checked ) {
 			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-			jQuery(this).val('+'+checkbox_checked);
-		}
-		else {
-			jQuery(this).val('');
-		}
-	});
-
-
-	// Checkbox - Bajas: Freelance
-	jQuery('.ISFRL input').change(function() {
-		if ( this.checked ) {
-			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-			jQuery(this).val(' ('+checkbox_checked+')');
+			jQuery(this).val('*'+checkbox_checked);
 		}
 		else {
 			jQuery(this).val('');
@@ -38,7 +26,7 @@ jQuery(document).ready(function() {
 	});
 	
 
-	// Deshabilitar si no tiene LinkedIn
+	// Checkbox: deshabilitar si no tiene LinkedIn
 	jQuery('.LKDNOT input').change(function() {
 		if ( this.checked ) {
 			jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
