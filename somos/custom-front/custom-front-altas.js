@@ -16,7 +16,7 @@ jQuery(document).ready(function() {
 
 	// Checkbox - Bajas: Adicionales
 	jQuery('.check_add input[type=checkbox]').change(function() {
-		var id_checkbox = jQuery(this).parentsUntil('.check_add').attr('id');
+		var id_checkbox = jQuery(this).parent().parent().attr('id');
 		console.log(id_checkbox);
 		if ( this.checked ) {
 			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
