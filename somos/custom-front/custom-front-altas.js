@@ -16,9 +16,8 @@ jQuery(document).ready(function() {
 
 	// Checkbox - Bajas: Adicionales
 	jQuery('.check_add input[type=checkbox]').change(function() {
-		var id_checkbox = jQuery(this).parent().parent().parent().attr('id');
-		console.log(id_checkbox);
-		if ( id_checkbox == 'LKDNOT' ) {
+		var name_checkbox = jQuery(this).attr('name');
+		if ( name_checkbox == 'LKDNOT' ) {
 			if ( this.checked ) {
 				jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
 			}
