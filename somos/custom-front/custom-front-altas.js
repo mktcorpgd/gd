@@ -14,16 +14,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// Checkbox - Bajas: Adicionales
-	jQuery('.check_add input[type=checkbox]').change(function() {
-		if ( this.checked ) {
-			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-			jQuery(this).val('*'+checkbox_checked);
-		}
-		else {
-			jQuery(this).val('');
-		}
-	});
 	
 
 	// Checkbox: deshabilitar si no tiene LinkedIn
