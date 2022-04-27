@@ -15,39 +15,28 @@ jQuery(document).ready(function() {
 
 
 	// Checkbox - Bajas: Adicionales
-	jQuery('.check_add input').change(function() {
-		if ( this.checked ) {
-			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-			jQuery(this).val('+'+checkbox_checked);
+	jQuery('.check_add input[type=checkbox]').change(function() {
+		var name_checkbox = jQuery(this).attr('name');
+		console.log(name_checkbox);
+		if ( name_checkbox == 'LKDNOT[]' ) {
+			if ( this.checked ) {
+				jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
+			}
+			else {
+				jQuery('.LKDURL input').val('').removeAttr('disabled');
+			}	
 		}
 		else {
-			jQuery(this).val('');
-		}
-	});
-
-
-	// Checkbox - Bajas: Freelance
-	jQuery('.ISFRL input').change(function() {
-		if ( this.checked ) {
-			var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-			jQuery(this).val(' ('+checkbox_checked+')');
-		}
-		else {
-			jQuery(this).val('');
+			if ( this.checked ) {
+				var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
+				jQuery(this).val('*'+checkbox_checked);
+			}
+			else {
+				jQuery(this).val('');
+			}	
 		}
 	});
 	
-
-	// Deshabilitar si no tiene LinkedIn
-	jQuery('.LKDNOT input').change(function() {
-		if ( this.checked ) {
-			jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
-		}
-		else {
-			jQuery('.LKDURL input').val('').removeAttr('disabled');
-		}
-	});
-
 
 	// Cambiar automáticamente por comas
 	jQuery(document).on('keyup','input[name=RESPBOSS]',function() {

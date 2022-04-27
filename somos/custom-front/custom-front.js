@@ -443,10 +443,6 @@ jQuery(document).ready(function() {
 	jQuery('input[name*=FNAME],input[name*=LNAME]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
-
-
-	// FORMULARIOS - Deshabilitar si tiene |
-	//jQuery('option:contains(|),option:contains(—)').attr('disabled','disabled');
 	
 
 	// FORMULARIOS - Ir hacia el primer error
@@ -462,11 +458,6 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Ir al :input al clickear en aviso de error
 	jQuery(document).on('click','label.error',function(e) {
 		jQuery(this).parent().find(':input').focus();
-	});
-
-
-	jQuery('.wpcf7 .columns>label').click(function(e) {
-		jQuery(this).find(':input').focus();
 	});
 
 
