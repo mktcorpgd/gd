@@ -1284,6 +1284,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-menu .fusion-mobile-nav-item.social-link{display:block;margin-top:10px;margin-bottom:15px}
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link{display:inline-block;width:33.33%}
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link .menu-text{width:100%;text-align:center}
+	.fusion-mobile-nav-item.social-link .menu-text i{font-size:22px}
 	.fusion-mobile-nav-item>.sub-menu>li.fusion-mobile-nav-item{font-size:90%}
 	.fusion-mobile-nav-item.country-flag span img{margin-right:5px;width:24px;height:24px;border-radius:16px}
 	.fusion-mobile-nav-item.country-flag.menu-item-has-children>a>span img{position:relative;top:-2px}
