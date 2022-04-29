@@ -6,15 +6,15 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 body.single-avada_portfolio .fusion-page-title-bar{background:#87B227!important}
 body.single-avada_portfolio .fusion-page-title-bar h1{color:#FFFFFF!important}
 body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:rgba(255,255,255,.8)}
+.fusion-button:not(.button-custom):not(.menu-text),.wpcf7 .wpcf7-form input[type='submit']:not(.sending){background:#87B227;color:#FFFFFF!important}
 .fusion-button:not(.button-custom):not(.menu-text):visited,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button{border-color:#87B227!important;color:#87B227}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{border-color:#497718;background:#497718;color:#FFFFFF}
-.fusion-button:not(.button-custom):not(.menu-text),.wpcf7 .wpcf7-form input[type='submit']:not(.sending){background:#87B227;color:#FFFFFF!important}
 .fusion-button:not(.button-custom):not(.menu-text):not(.button-left):not(.button-right) .fusion-button-text{color:#FFFFFF!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#497718}
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#87B227!important}
 .wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#87B227!important}
 .related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a{color:#87B227}
-#content .button-default:hover,.fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .button-default,.fusion-pricingtable-column .panel-container:hover .fusion-button,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover{background:#497718!important}
+#content .button-default:hover,.fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .button-default,.fusion-pricingtable-column .panel-container:hover .fusion-button,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,#content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#497718!important}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#5B7B33!important}
 body:not(.home) .fusion-posts-container article.category-c-productos-servicios .fusion-post-content{padding-bottom:53px!important}
 .white .fusion-one-full input[type='submit']{background:#87B227!important;border-color:#FFFFFF!important}
@@ -30,7 +30,6 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 #wrapper.gradient-s .tfs-slider .background:after,#wrapper.gradient-s .tfs-slider li .mobile_video_image:after{background:linear-gradient(270deg,rgba(0,0,0,.6) 50%,#497718 100%)!important}
 #wrapper:not(.gradient-s) .tfs-slider .background:after,#wrapper:not(.gradient-s) .tfs-slider li .mobile_video_image:after{background:linear-gradient(270deg,rgba(0,0,0,.4) 50%,rgba(0,0,0,.8) 100%)!important}
 .box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:#87B227!important}
-#content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#87B227!important}
 .fusion-modal.contacto-rapido .modal-header .close{color:rgba(255,255,255,.6)}
 .fusion-modal.contacto-rapido .modal-header .close:hover{color:rgba(255,255,255,.8)}
 .fusion-modal.contacto-rapido .modal-dialog{background:#222222!important}
