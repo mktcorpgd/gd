@@ -235,7 +235,8 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .fusion-main-menu .fusion-main-menu-search-open a:after{color:rgba(255,255,255,.4)!important;font-weight:900}
 .fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents{padding:0;width:100%!important;position:fixed;top:66px;left:0;box-shadow:0 0 24px -4px rgba(0,0,0,.2)!important;border:0!important}
 .fusion-main-menu>ul>li.current-menu-item>a .menu-text:not(.fusion-button){border:0!important}
-.menu-item .menu-text>img[src*='-white.svg'],.fusion-mobile-nav-item .menu-text>img[src*='-white.svg'],.fusion-footer-widget-area ul li img[src*='-white.svg']{width:18px;max-width:18px}
+.menu-item .menu-text>img[src*='-white.svg'],.fusion-mobile-nav-item .menu-text>img[src*='-white.svg'],.fusion-footer-widget-area ul li img[src*='-white.svg']{width:18px;max-width:initial!important}
+.fusion-mobile-nav-item .menu-text>img[src*='-white.svg']{width:28px!important}
 .menu-item .menu-text>img,.fusion-mobile-nav-item .menu-text>img{vertical-align:middle}
 .menu-item .menu-text>img[src*='whatsapp']{margin-right:3px;width:20px;height:20px;max-width:20px;position:relative;top:-2px}
 .menu-item.social-link .menu-text>img[src*='whatsapp']{margin-right:0}
@@ -687,7 +688,6 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a:hover{text-decoration:underline}
 .fusion-blog-layout-grid .fusion-image-wrapper,.fusion-blog-layout-grid .fusion-image-wrapper img,.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper img,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper img{position:relative}
 .fusion-blog-layout-grid .fusion-image-wrapper img{border-radius:0}
-.fusion-portfolio-grid .fusion-post-slideshow,.fusion-portfolio-layout-grid .fusion-post-slideshow,.fusion-post-grid .fusion-post-slideshow{background-color:#FFFFFF}
 .fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-post-grid .fusion-image-wrapper{border-bottom-right-radius:48px;border-bottom-left-radius:24px;border-bottom:2px solid #EAEAEA}
 .fusion-blog-layout-grid .fusion-post-content-container p,.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p,.fusion-portfolio-grid .fusion-post-content .fusion-title,.fusion-portfolio-grid .fusion-post-content .fusion-content-boxes{padding:0px 20px 14px;margin-bottom:0}
 .content-container ul{margin-top:0;padding-left:20px}
@@ -1189,8 +1189,9 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']),#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .background-image,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .mobile_video_image,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .background,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .flexslider,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .flexslider .slides li,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .mobile_video_image{max-height:120vh!important;height:120vh!important}
 	.fullwidth-center a{padding-left:0!important}
 	.fullwidth-center .menu-text{display:block;text-align:center}
-	.fullwidth-center img[src*='.svg']{display:inline-block;top:0;max-width:40px!important;max-height:40px!important;width:40px!important;height:40px!important}
-	.fullwidth-center img[src*='partner']{max-width:64px!important;width:64px!important}
+	.fullwidth-center img[src*='.svg']{display:inline-block;top:0;width:36px!important}
+	.fullwidth-center img[src*='partner']{width:60px!important}
+	.fullwidth-center img[src*='sap_gold']{width:70px!important}
 	#wrapper.header-transparent .fusion-header:not(.bkg) .fusion-mobile-nav-holder,#wrapper.header-transparent .fusion-header.on-top:not(.bkg) .fusion-mobile-nav-holder{background:rgba(0,0,0,.9)!important}
 	#wrapper .fusion-header .fusion-mobile-nav-holder .sub-menu{background:none!important}
 	#wrapper.header-transparent .imageframe-align-center~.fusion-title.fusion-title-1{margin-top:20px!important}
@@ -1275,7 +1276,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder{padding-top:10px!important;padding-bottom:10px!important;position:relative;top:10px}
 	.fusion-mobile-menu-design-modern .fusion-header{padding-top:10px!important;padding-bottom:10px!important}
 	.fusion-mobile-menu-icons{margin-top:14px!important;position:absolute}
-	.fusion-mobile-nav-item:not(.partner) .fusion-megamenu-icon,.fusion-mobile-nav-item:not(.partner) .menu-text>img{width:30px;max-width:30px;height:20px;max-height:20px;text-align:center;position:relative}
+	.fusion-mobile-nav-item:not(.partner) .fusion-megamenu-icon{width:30px;max-width:30px;height:20px;max-height:20px;text-align:center;position:relative}
 	.fusion-mobile-nav-item:not(.partner) .fusion-megamenu-icon{margin-right:5px;top:-1px}
 	.fusion-mobile-nav-item.partner a{padding:10px 0;text-align:center}
 	.fusion-mobile-nav-item:not(.social-link){width:100%!important;font-size:14px}
@@ -1283,8 +1284,10 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-menu .fusion-mobile-nav-item.social-link{display:block;margin-top:10px;margin-bottom:15px}
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link{display:inline-block;width:33.33%}
 	.fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link .menu-text{width:100%;text-align:center}
+	.fusion-mobile-nav-item.social-link .menu-text i{font-size:22px}
 	.fusion-mobile-nav-item>.sub-menu>li.fusion-mobile-nav-item{font-size:90%}
-	.fusion-mobile-nav-item.country-flag span img{width:30px;height:30px;max-width:30px;max-height:30px;border-radius:16px}
+	.fusion-mobile-nav-item.country-flag span img{margin-right:5px;width:24px;height:24px;border-radius:16px}
+	.fusion-mobile-nav-item.country-flag.menu-item-has-children>a>span img{position:relative;top:-2px}
 	.fusion-mobile-nav-item.country-flag a{display:block}
 	.fusion-mobile-menu-search{margin:10px -32px -20px!important}
 	.fusion-mobile-menu-icons a{margin-left:24px!important}

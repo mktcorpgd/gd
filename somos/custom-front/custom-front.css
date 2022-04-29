@@ -627,6 +627,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 
 /* Drive */
 #UseyourDrive{margin:0 -30px}
+#UseyourDrive .ajax-filelist{min-height:auto}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;font-size:1.2em;line-height:1.2}
