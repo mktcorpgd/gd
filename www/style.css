@@ -740,8 +740,7 @@ body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-a
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.4em!important}
 .fusion-portfolio .fusion-post-content{float:left}
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:.3em;padding-bottom:.6em;z-index:10}
-.fusion-portfolio .fusion-buttons .fusion-button{padding:8px 15px!important}
-.fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;line-height:1.4!important;border:none!important;font-family:'Open-Sans',sans-serif}
+.fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;font-family:'Open-Sans',sans-serif}
 .fusion-buttons .fusion-button.button-right span{font-weight:400!important}
 .fusion-buttons .fusion-button.button-left span,.fusion-portfolio .c-solo-contacto .fusion-button.button-right span,.fusion-portfolio .tag-solo-contacto .fusion-button.button-right span{font-weight:700!important}
 .fusion-portfolio .c-solo-contacto .fusion-button.button-flat:not(.no-text),.fusion-portfolio .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-button.button-flat:not(.no-text),.no-read-button .fusion-button.button-flat:not(.no-text){border-top-left-radius:0!important;border-bottom-left-radius:0!important}
@@ -891,8 +890,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:#FFFFFF}
 .fusion-button.button-flat:not(.button-left):not(.button-right),.fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.wpcf7-submit{box-shadow:0 2px 4px rgba(0,0,0,.1)!important}
 .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{font-weight:700}
-.fusion-button:not(.button-custom):not(.menu-text){background:#FAFAFA}
+.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#FFFFFF;font-weight:700}
 .fusion-header-wrapper .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
 .box-company h5,.fusion-one-third.box-company h5{font-size:1.2em!important;margin:0!important}
 .box-company .fusion-title-size-five{margin-bottom:0!important}
@@ -974,7 +972,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.vertical-tabs .nav{border-right:2px solid #CCCCCC}
 .fusion-tabs.vertical-tabs .tab-content{background:#FFFFFF}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
-.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-size:1em!important}
+.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-size:.9em!important;white-space:nowrap}
 .fusion-tabs .nav-tabs li a{background:#EAEAEA!important;border:none;border-radius:0!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border:none!important;overflow:hidden}
 .fusion-tabs:not(.tab-filters) .nav-tabs li .tab-link .fusion-tab-heading{letter-spacing:0;position:relative}

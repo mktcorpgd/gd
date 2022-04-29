@@ -9,7 +9,6 @@ body.single-avada_portfolio .fusion-page-title-bar h1{color:#FFFFFF!important}
 body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:rgba(255,255,255,.8)}
 .fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{border-color:#552156;background:#552156;color:#FFFFFF!important}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{border-color:#A142A6;background:#A142A6;color:#FFFFFF}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#FFFFFF}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#A142A6}
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#552156!important}
 #content .button-default:hover,#content .button-default:focus,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,input[type='submit']:not(.sending):focus{background:#A142A6!important}
@@ -50,7 +49,6 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 .fusion-tabs .nav-tabs li a:hover{color:#552156}
 .fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#552156}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{color:#552156!important}
-.box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:#552156!important}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#A142A6!important}
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#89388D!important}
 .fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid rgba(85,33,86,0.6)!important}
