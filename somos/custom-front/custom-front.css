@@ -961,7 +961,7 @@ body.page-id-29106 #content .post-thumbnail.single-thumbnail{border-top-left-rad
 .white-popup{margin:20px auto;width:auto;max-width:570px;padding:20px;position:relative;background:#FFFFFF;border-radius:12px}
 body.archive article[class*=category-casos-de-] .gp-meta-date,body.archive section[class*=category-casos-de-] .gp-meta-date,body.search article[class*=category-casos-de-] .gp-meta-date,body.search section[class*=category-casos-de-] .gp-meta-date{margin-bottom:5px}
 body .post-loop:not(.has-post-thumbnail) .post-text{max-height:initial}
-body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-thumbnail){border:1px solid #DDDDDD!important}
+body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px solid #DDDDDD!important}
 
 /* Pestañas */
 #post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
@@ -1260,7 +1260,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-gap:7px 15px!important}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
-	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:40% 60%}
+	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:40% 60%}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.4em .9em}
 	/* GD 40 
 	body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) section[class*='category-40gd']{grid-template-columns:30% 70%!important}
