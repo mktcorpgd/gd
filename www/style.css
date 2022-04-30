@@ -324,8 +324,6 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,bod
 .legales{margin-top:10px!important}
 .fusion-post-wrapper h2 a:hover,.fusion-portfolio-content-wrapper h2 a:hover{text-decoration:underline!important}
 .fusion-sharing-box+#text-17{width:80%;margin:0 auto}
-.legales .panel-title.toggle{text-align:center}
-.legales .panel-title.toggle a{display:inline}
 .fusion-portfolio-content h2{float:left;width:100%;position:relative;z-index:10}
 .fusion-image-wrapper:hover+.fusion-portfolio-content h2 a{text-decoration:underline}
 #boxed-wrapper,.slider{overflow:initial!important}
