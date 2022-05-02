@@ -32,7 +32,7 @@ jQuery(document).ready(function() {
 		var span_class = jQuery('.tpdata:eq('+i+')').attr('class');
 		tp_data[span_class] = span_value;
 	});
-	tp_web['zerog_networks'] = '0gnetworks.com.ar';
+	//tp_web['zerog_networks'] = '0gnetworks.com.ar';
 	tp_web['grupo_datco'] = 'www.grupodatco.com';
 	tp_web['baitcon'] = 'www.baitcon.com';
 	tp_web['datco'] = 'datco.grupodatco.com';
