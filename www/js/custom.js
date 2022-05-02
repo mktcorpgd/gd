@@ -706,6 +706,7 @@ jQuery(document).ready(function() {
 	// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
 	if ( jQuery('.fusion-pricing-table').length ) {
 		jQuery('.fusion-pricing-table .fusion-panel').click(function(e) {
+			e.stopImmediatePropagation();
 			jQuery(this).find('.fusion-button').trigger('click');
 		});
 		jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
