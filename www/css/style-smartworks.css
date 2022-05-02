@@ -6,7 +6,7 @@ body.branding .on-top:not(.bkg) .fusion-logo{max-width:220px}
 .fusion-toggle-heading,.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,input[type='submit'],.wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.fusion-main-menu .fusion-menu-item-button .menu-text:hover span,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#9B619E!important}
 .fusion-accordian .panel-title a:hover,.panel-title a:hover .fusion-toggle-heading,.panel-title a:hover .fusion-toggle-icon-wrapper,.sidebar .widget .heading h4,.sidebar .widget .widget-title,.fusion-modal .modal-header .modal-title,.fusion-tabs h3,.fusion-reading-box-container .reading-box h2{color:#206BA6!important}
 .fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,input[type='submit'],.wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:#206BA6!important;color:#FFFFFF!important}
-#content .button-default:hover, #content .button-default:focus, .wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover, input[type='submit']:not(.sending):focus{background:#9B619E!important;border-color:#9B619E!important}
+#content .button-default:hover, #content .button-default:focus, .wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover, input[type='submit']:not(.sending):focus{background:#9B619E!important}
 .fusion-content-boxes h5.content-box-heading{font-size:1.2em!important}
 
 /* Desktop */
