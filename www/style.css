@@ -526,7 +526,8 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .full-boxed-pricing .fusion-panel{border-right:none!important}
 .full-boxed-pricing .panel-container{background:none}
 .fusion-pricing-table .panel-footer{padding:0!important}
-.fusion-pricing-table .standout .panel-body{padding:.5em!important;font-size:1.2em}
+.fusion-pricing-table .standout{padding:.5em!important;font-size:1.1em}
+.fusion-pricing-table .standout .panel-body{padding:.5em!important}
 
 
 /* Persona */
