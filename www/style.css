@@ -517,7 +517,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .full-boxed-pricing.fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
 .fusion-pricing-table .panel-body .price .time{font-size:1em!important}
 .fusion-pricing-table .fusion-button.fusion-button-default-size{width:100%!important;border-radius:0!important;box-shadow:none;margin-bottom:0!important}
-.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out}
+.fusion-pricingtable-column .panel-container{cursor:pointer;transition:all .1s ease-in-out}
 .fusion-pricingtable-column .panel-container:hover{transform:scale(1.025)}
 .fusion-pricingtable-column.standout .panel-container{padding:0!important;box-shadow:0 0 24px rgba(0,0,0,.6)}
 .fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 0 12px rgba(0,0,0,.4)}
