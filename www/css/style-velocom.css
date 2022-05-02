@@ -85,7 +85,7 @@ body:not(.home) .tfs-slider .buttons .fusion-button,body:not(.home) .tfs-slider 
 .fusion-modal.cargando .modal-lg{width:fit-content}
 .fusion-modal.cargando .modal-content{padding:1.4em 2em}
 body.page-id-24138 .post-content p{text-align:justify}
-.fusion-pricing-table .standout .panel-heading{padding-bottom:0}
+.fusion-pricing-table .panel-heading,.fusion-pricing-table .standout .panel-heading{padding-bottom:0}
 .fusion-pricing-table .fusion-panel .panel-body,.fusion-pricing-table .panel-wrapper .panel-heading,.fusion-pricing-table .panel-wrapper .list-group-item,.full-boxed-pricing .panel-wrapper:hover .panel-heading.panel-wrapper:hover .list-group-item{background:none!important}
 .fusion-pricing-table .fusion-panel{background:#FAFAFA}
 .fusion-pricing-table .fusion-panel:hover{background:#FFFFFF}
