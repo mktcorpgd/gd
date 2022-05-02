@@ -30,12 +30,13 @@
 #content .columns .tp.digital h5{margin:0 auto!important;padding:5px 10px;display:inline-block;width:auto;letter-spacing:1px;text-transform:uppercase;background:rgba(0,0,0,.1);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-weight:400;font-size:80%}
 #content .tp:not(.digital) li:not(.ui-state-default){margin-top:0!important;margin-bottom:0!important;padding-bottom:0!important;font-size:16px;line-height:16px!important}
 #content .tp li:not(.ui-state-default){font-weight:400}
-#content .columns .tp.digital li{margin:0 auto 15px!important;padding:6px;width:90%;height:auto;line-height:1.4!important;background:rgba(0,0,0,.2);border:1px solid #FFB201;border-radius:6px;color:#FFFFFF}
+#content .columns .tp.digital li{margin:0 auto 15px!important;padding:6px;width:90%;height:auto;line-height:1.4!important;background:rgba(0,0,0,.2);border-radius:6px;color:#FFFFFF}
 #content .columns .tp.digital li:nth-child(2){margin-bottom:0!important}
 #content .columns .tp.digital li:nth-child(3){padding:0!important;background:none;border:none}
 #content .columns .tp.digital #mobile-logo{height:36px;background:none!important;border:none!important;border-radius:0!important}
 #content .columns .tp.digital #mobile-content{padding-top:20px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.4);background-image:url('https://www.grupodatco.com/qr-bcard/img/grupo_datco-bkg_1920_1080.png');background-position:center left;background-size:cover;background-blend-mode:multiply}
+#content .columns .tp.digital.grupo_datco li{border:1px solid #FFB201}
 #content .columns .tp.digital.baitcon #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/baitcon-bkg_1920_1080.png')}
 #content .columns .tp.digital.datco #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/datco-bkg_1920_1080.png')}
 #content .columns .tp.digital.focus #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/focus-bkg_1920_1080.png')}
