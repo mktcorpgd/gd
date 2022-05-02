@@ -1,5 +1,6 @@
-/* Smartime */
+/* Smartworks */
 ::-moz-selection{background:#206BA6!important;color:#FFFFFF}::selection{background:#206BA6!important;color:#FFFFFF}
+body a{color:#206BA6}
 body.branding .on-top:not(.bkg) .fusion-logo{max-width:220px}
 .fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-top-header .fusion-header,body.single-avada_portfolio .fusion-page-title-bar,.fusion-modal.contacto-rapido .fusion-fullwidth{background:#206BA6!important}
 .fusion-toggle-heading,.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,input[type='submit'],.wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.fusion-main-menu .fusion-menu-item-button .menu-text:hover span,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#9B619E!important}
