@@ -70,16 +70,16 @@ jQuery(document).ready(function() {
 	tp_phone['ar_interior - rosario'] = '+54 (341) 485-3803';
 	tp_address['ar_interior - san luis'] = '';
 	tp_phone['ar_interior - san luis'] = '';
-	tp_address['br_sao'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
-	tp_phone['br_sao'] = '+55 (19) 3037-1623';
-	tp_address['cl_san'] = 'Av. El Bosque Norte (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
-	tp_phone['cl_san'] = '+56 (2) 2253-5200';
-	tp_address['mx_ciu'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
-	tp_phone['mx_ciu'] = '+52 (55) 5279-9930';
-	tp_address['pe_lim'] = 'Av. Camino Real 355 (15073)<br />Piso 2<br />San Isidro, Lima<br />Perú';
-	tp_phone['pe_lim'] = '+51 (1) 616-0770';
-	tp_address['pr_san'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />Hato Rey, San Juan<br />Puerto Rico';
-	tp_phone['pr_san'] = '+1 (787) 302-2509';
+	tp_address['br_sao paulo'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
+	tp_phone['br_sao paulo'] = '+55 (19) 3037-1623';
+	tp_address['cl_santiago'] = 'Av. El Bosque Norte (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
+	tp_phone['cl_santiago'] = '+56 (2) 2253-5200';
+	tp_address['mx_ciudad de mexico'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
+	tp_phone['mx_ciudad de mexico'] = '+52 (55) 5279-9930';
+	tp_address['pe_lima'] = 'Av. Camino Real 355 (15073)<br />Piso 2<br />San Isidro, Lima<br />Perú';
+	tp_phone['pe_lima'] = '+51 (1) 616-0770';
+	tp_address['pr_san juan'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />Hato Rey, San Juan<br />Puerto Rico';
+	tp_phone['pr_san juan'] = '+1 (787) 302-2509';
 
 
 	// 1. Habilitar oficina después de seleccionar empresa
