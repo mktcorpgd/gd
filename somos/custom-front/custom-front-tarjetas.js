@@ -36,7 +36,6 @@ jQuery(document).ready(function() {
 	tp_web['grupo_datco'] = 'www.grupodatco.com';
 	tp_web['baitcon'] = 'www.baitcon.com';
 	tp_web['datco'] = 'datco.grupodatco.com';
-	tp_web['datco_soluciones'] = 'www.grupodatco.com';
 	tp_web['focus'] = 'focus.grupodatco.com';
 	tp_web['interservices'] = 'interservices.grupodatco.com';
 	tp_web['sersat'] = 'sersat.grupodatco.com';
@@ -130,7 +129,6 @@ jQuery(document).ready(function() {
 		var ctry = this_value.substring(0,2).toLowerCase();
 		var office = RemoveAccents(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
 		var ctry_office = ctry+'_'+office;
-		console.log(ctry_office);
 		if ( ctry_office == 'cl_santiago' ) {
 			jQuery('input[name=CTRYMAIL]').val('cristian.silva@datco.cl')
 		}
