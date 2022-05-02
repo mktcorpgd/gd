@@ -707,7 +707,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.fusion-pricing-table').length ) {
 		jQuery('.fusion-pricing-table .fusion-panel').click(function(e) {
 			e.stopImmediatePropagation();
-			jQuery(this).find('.fusion-button').trigger('click');
+			console.log('ok');
 		});
 		jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
 			var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
