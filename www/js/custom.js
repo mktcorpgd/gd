@@ -713,7 +713,7 @@ jQuery(document).ready(function() {
 			var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
 			// Velocom
 			if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
-				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing);
+				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text(title_pricing);
 				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 				var title_pricing = jQuery(this).find('.fusion-button-text').text();
