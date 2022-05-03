@@ -15,7 +15,7 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 body.single-avada_portfolio .fusion-page-title-bar{background:#0E316E!important}
 body.single-avada_portfolio .fusion-page-title-bar h1{color:#FFFFFF!important}
 body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:rgba(255,255,255,.8)}
-.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,input[type='submit'],.wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{border-color:#F0582B;background:#F0582B!important;color:#FFFFFF!important}
+.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.fusion-fullwith:not(.white) input[type='submit'],.fusion-fullwith:not(.white) .wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{border-color:#F0582B;background:#F0582B!important;color:#FFFFFF!important}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{background:#1F4483!important}
 .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover span,.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left{background:none;color:#FFFFFF}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover span{background:none;color:#F0582B}
@@ -114,13 +114,7 @@ body.branding .fusion-modal.contacto-rapido .fusion-fullwidth>.fusion-builder-ro
 	body.page-id-39954 #pilares-4 .fusion-read-more-button{visibility:hidden;display:block;margin-top:0;width:100%;height:100%;position:absolute;top:0;left:0;}
 	#menu-item-39974{transition:all .4s ease-in-out;overflow:hidden;width:150px}
 	.fusion-header.on-top:not(.bkg) #menu-item-39974{width:0}
-	body.home .tfs-slider ul.slides li .slide-content-container{padding-left:70px!important;padding-right:70px!important}
-	body.home .tfs-slider ul.slides li.slide-id-39229 .slide-content-container .slide-content{width:55%!important}
-	body.home .tfs-slider ul.slides li.slide-id-39215 .slide-content-container .slide-content{width:60%!important}
-	body.home .tfs-slider ul.slides li.slide-id-43506 .slide-content-container .slide-content{width:62%!important}
-	body.home .tfs-slider ul.slides li.slide-id-44630 .slide-content-container .slide-content{width:72%!important}
-	body.home .tfs-slider ul.slides li.slide-id-44633 .slide-content-container .slide-content{width:74%!important}
-	body.branding .modal-content{margin:0 auto;max-width:900px}
+	body.branding .modal-dialog{max-width:900px}
 	.pilares .fusion-column-wrapper .fusion-text{height:0;transition:all 1s ease-in-out;overflow:hidden}
 }
 

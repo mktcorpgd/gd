@@ -324,8 +324,6 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,bod
 .legales{margin-top:10px!important}
 .fusion-post-wrapper h2 a:hover,.fusion-portfolio-content-wrapper h2 a:hover{text-decoration:underline!important}
 .fusion-sharing-box+#text-17{width:80%;margin:0 auto}
-.legales .panel-title.toggle{text-align:center}
-.legales .panel-title.toggle a{display:inline}
 .fusion-portfolio-content h2{float:left;width:100%;position:relative;z-index:10}
 .fusion-image-wrapper:hover+.fusion-portfolio-content h2 a{text-decoration:underline}
 #boxed-wrapper,.slider{overflow:initial!important}
@@ -516,9 +514,11 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-pricing-table .panel-wrapper:hover{cursor:inherit}
 .fusion-pricing-table .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block!important}
 .fusion-pricing-table .panel-body .price .currency,.fusion-pricing-table .panel-body .price .time{color:#666666;font-weight:500}
-.full-boxed-pricing.fusion-pricing-table .standout .panel-heading h3{font-size:2.2em;color:#FFFFFF}
+.full-boxed-pricing.fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
 .fusion-pricing-table .panel-body .price .time{font-size:1em!important}
 .fusion-pricing-table .fusion-button.fusion-button-default-size{width:100%!important;border-radius:0!important;box-shadow:none;margin-bottom:0!important}
+.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out}
+.fusion-pricingtable-column .panel-container:hover{transform:scale(1.025)}
 .fusion-pricingtable-column.standout .panel-container{padding:0!important;box-shadow:0 0 24px rgba(0,0,0,.6)}
 .fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 0 12px rgba(0,0,0,.4)}
 .sep-boxed-pricing .panel-wrapper{padding:0 1em}
@@ -526,7 +526,8 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .full-boxed-pricing .fusion-panel{border-right:none!important}
 .full-boxed-pricing .panel-container{background:none}
 .fusion-pricing-table .panel-footer{padding:0!important}
-.fusion-pricing-table .standout .panel-body{padding:.5em!important;font-size:1.2em}
+.fusion-pricing-table .standout{font-size:1.1em}
+.fusion-pricing-table .standout .panel-body{padding:.5em!important}
 
 
 /* Persona */
@@ -971,7 +972,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.vertical-tabs .nav{border-right:2px solid #CCCCCC}
 .fusion-tabs.vertical-tabs .tab-content{background:#FFFFFF}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
-.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-size:.9em!important;white-space:nowrap}
+.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-family:'Open-Sans',sans-serif;font-size:.9em!important;white-space:nowrap}
 .fusion-tabs .nav-tabs li a{background:#EAEAEA!important;border:none;border-radius:0!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border:none!important;overflow:hidden}
 .fusion-tabs:not(.tab-filters) .nav-tabs li .tab-link .fusion-tab-heading{letter-spacing:0;position:relative}
@@ -1116,8 +1117,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.table-1,.table-2,.tkt-slctr-tbl-wrap-dv{overflow:inherit}
 	.fusion-page-title-bar .fusion-page-title-row h1{line-height:1.1!important}
 	body.post-template-default.single-format-standard .fusion-page-title-bar .fusion-page-title-row h1{width:75%}
-	.tfs-slider ul.slides li:not(.slide-id-39229) .slide-content-container .slide-content{width:67%!important}
-	.tfs-slider ul.slides li.slide-id-42383 .slide-content-container .slide-content{width:55%!important}
+	.tfs-slider ul.slides li:not(.slide-id-39229) .slide-content-container .slide-content{padding-right:20%!important}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
 	.modal-lg{width:1200px}
 	body #wrapper #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck{margin-top:30px}

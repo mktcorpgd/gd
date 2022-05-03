@@ -51,6 +51,8 @@ div.wpcf7 .wpcf7-form-control-wrap[class*='ADDRESS']:before,div.wpcf7 .wpcf7-for
 body:not(.home) .fusion-fullwidth.fullwidth-box .fusion-pricing-table .fusion-button.button-flat:not(.no-text){width:100%;color:#7E1F4B!important;border-radius:0!important;border:none!important}
 .full-boxed-pricing .standout .panel-container{margin:0!important}
 .fusion-menu:not([id*=landing]) .fusion-mobile-nav-item.social-link{width:50%}
+.legales .panel-title.toggle{text-align:center}
+.legales .panel-title.toggle a{display:inline}
 
 /* Desktop */
 @media (min-width:920px) {
