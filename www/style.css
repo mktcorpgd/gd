@@ -398,8 +398,8 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7 .fusion-one-full>a{display:inline-block;padding:4px 0;font-family:'Open-Sans',sans-serif;font-size:95%;font-weight:400!important;text-align:center;line-height:1.15;opacity:.9}
 .wpcf7 .fusion-one-full>a:hover{opacity:1}
 .wpcf7-form.init div.wpcf7-response-output{padding:0!important}
-.wpcf7-form:not(.init) div.wpcf7-response-output{margin:5px 0 0!important;padding:4px!important;position:relative;text-align:center!important;background-color:#FF5151!important;color:#FFFFFF!important}
-.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:100%;border:0!important;border-radius:6px;box-shadow:none!important;font-size:.875em!important;line-height:1.1;font-style:italic;text-align:center!important;text-transform:none!important}
+.wpcf7-form:not(.init) div.wpcf7-response-output{margin:.3em auto 0!important;padding:.3em .4em!important;position:relative;text-align:center!important;background-color:#FF5151!important;color:#FFFFFF!important}
+.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:fit-content;border:0!important;border-radius:6px;box-shadow:none!important;font-size:.875em!important;line-height:1.1;font-style:italic;text-align:center!important;text-transform:none!important}
 .wpcf7-response-inner{margin:0 auto!important;padding:5px 4px!important;width:95%;line-height:1.3}
 input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em!important}
 .fusion-title+.wpcf7-response-inner{border-bottom-left-radius:0;border-bottom-right-radius:0}
