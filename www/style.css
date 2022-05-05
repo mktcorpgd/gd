@@ -374,7 +374,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-free-text{float:left;margin-top:10px!important}
 .wpcf7-free-text:not([disabled]){display:block}
 .wpcf7-not-valid:not(.highlight),.white .fusion-layout-column .wpcf7-not-valid:not(.highlight){background:#FFF2F2!important}
-.wpcf7-form input[type='submit'],.wpcf7-submit,#respond input[type='submit']{background-color:#FAFAFA;font-style:normal;white-space:normal}
+.wpcf7-form input[type='submit'],.wpcf7-submit,#respond input[type='submit']{font-style:normal;white-space:normal}
 .wpcf7-form input[type='submit']{width:auto!important}
 .wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:'Neo-Sans',sans-serif;line-height:1.5;font-weight:400!important;border-radius:3px;background:rgba(255,255,255,.6);color:#FF5151!important;font-size:.65em!important;z-index:1}
 .wpcf7-not-valid-tip:hover{background:rgba(255,255,255,.9)}
