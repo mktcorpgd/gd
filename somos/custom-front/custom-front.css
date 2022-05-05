@@ -470,7 +470,8 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{margin:0!important;padding:.2em!important;font-size:.6em!important;border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
-
+body.post-template-default.single article.category-baitcon #content h1{color:#89388D}
+body.post-template-default.single article.category-baitcon .padder{border-top:12px solid #89388D;background-image:url('/wp-content/uplodas/b-iso-one_stroke-dark.svg');background-position:10% 90%;background-repeat:no-repeat;}
 /* Sidebar */
 .sidebar .widget{overflow:hidden;margin-bottom:15px;padding:0 15px 15px!important;border-top-left-radius:12px;border-top-right-radius:6px;border-bottom-right-radius:12px;border-bottom-left-radius:6px}
 .widget #wp-calendar caption,.widget .datepick-inline .datepick-header span{font-size:1em!important}
