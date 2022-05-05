@@ -295,9 +295,9 @@ body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusio
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar h1{font-size:3.4em}
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar h1,body.single .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar a,body.single .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar span{color:#FFFFFF!important}
 body.single blockquote h2,body.single blockquote h3,body.single blockquote h4,body.single blockquote h5,body.single blockquote h6{margin-top:0!important}
-body.single .fusion-text h3{font-size:1.4em;line-height:1.25!important}
-body.single .fusion-text h4{font-size:1.3em;line-height:1.25!important}
-body.single .fusion-text h5{font-size:1.1em;line-height:1.25!important;color:#555555!important}
+body.single .fusion-text h3{font-size:1.4em!important;line-height:1.25!important}
+body.single .fusion-text h4{font-size:1.3em!important;line-height:1.25!important}
+body.single .fusion-text h5{font-size:1.1em!important;line-height:1.25!important;color:#555555!important}
 body.single .fusion-text h4,body.single .fusion-text h4 b,body.single .fusion-text h4 strong{font-weight:400!important}
 body.single:not(.single-avada_portfolio) .post-content>div>div>div{margin-bottom:0!important}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type{padding:30px 30px 30px 50px;border-bottom-left-radius:24px;border-left:6em solid #EAEAEA}
@@ -350,7 +350,7 @@ body.single-avada_portfolio .header-transparent #content{width:100%}
 .flexslider .slides .caption img{display:inline-block!important;margin-top:15px;max-width:200px;width:auto!important}
 .flexslider .slides .caption img[src*='flag-']{margin:.75em .2em 0;width:1.2em!important;height:1.2em!important;border-radius:48px}
 .flexslider .slides .caption a+img[src*='partner']{margin:12px 0 0 30px}
-.post-content .fusion-text h4{margin:1em 0 .5em}
+.post-content .fusion-text h4{margin:2em 0 .5em}
 
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
