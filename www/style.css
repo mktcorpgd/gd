@@ -472,7 +472,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 #respond textarea{border-bottom-left-radius:0!important;font-size:1.2em!important;font-style:italic}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
-#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important;background:#FAFAFA}
+#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important}
 
 /* Footer */
 .fusion-footer-widget-area{padding:32px!important}
@@ -888,7 +888,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-load-more-button.fusion-blog-button,#respond input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{height:auto;border-radius:12px!important;border-style:solid!important;border-width:0!important;font-family:'Open-Sans',sans-serif!important;font-weight:700!important;letter-spacing:1px}
 .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{padding:.45em .65em!important;margin-left:auto;margin-right:auto;width:fit-content;font-weight:400;font-size:1.15em!important;line-height:1.25!important;letter-spacing:0;text-transform:none!important}
 .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:#FFFFFF}
-.fusion-button.button-flat:not(.button-left):not(.button-right),.fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.wpcf7-submit{box-shadow:0 2px 4px rgba(0,0,0,.1)!important}
+.fusion-button.button-flat:not(.button-left):not(.button-right),.fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.wpcf7-submit,#main #comment-submit{box-shadow:0 2px 4px rgba(0,0,0,.1)!important}
 .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
 .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#FFFFFF;font-weight:700}
 .fusion-header-wrapper .fusion-button:not(.button-custom):not(.menu-text){border-width:0}

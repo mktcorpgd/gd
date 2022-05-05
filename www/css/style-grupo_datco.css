@@ -25,6 +25,7 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-top-header .fusion-header{background:#0E316E!important}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#0E316E!important}
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.table-2 thead tr td,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#0E316E!important}
+.related-posts .fusion-carousel .fusion-carousel-item .fusion-carousel-title a{color:#0E316E}
 .related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a{color:#F0582B}
 .fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background-color:#0E316E!important}
 input[type='submit']:hover,.wpcf7-submit:hover,.fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper .fusion-image-wrapper{background-color:#F0582B!important}
