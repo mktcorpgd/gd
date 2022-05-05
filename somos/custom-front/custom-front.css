@@ -472,7 +472,7 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
 body.post-template-default.single #content article.category-baitcon h1{color:#89388D}
 body.post-template-default.single #content article.category-baitcon .padder{padding-top:1em;border-top:12px solid #89388D}
-body.post-template-default.single #content article.category-baitcon .padder:after{content:'';display:inline-block;padding:10px;width:32px;height:32px;position:absolute;top:0;right:0;background-color:#89388D;background-image:url('https://somos.grupodatco.com/wp-content/uploads/b-iso-one_stroke-dark.svg');background-position:center center;background-size:32px 32px;background-repeat:no-repeat}
+body.post-template-default.single #content article.category-baitcon .padder:after{content:'';display:inline-block;padding:10px;width:32px;height:32px;position:absolute;top:0;right:0;background-color:#89388D;background-image:url('https://somos.grupodatco.com/wp-content/uploads/b-iso-one_stroke-dark.svg');background-position:center center;background-size:32px 32px;border-bottom-left-radius:12px;border-top-right-radius:6px;background-repeat:no-repeat}
 /* Sidebar */
 .sidebar .widget{overflow:hidden;margin-bottom:15px;padding:0 15px 15px!important;border-top-left-radius:12px;border-top-right-radius:6px;border-bottom-right-radius:12px;border-bottom-left-radius:6px}
 .widget #wp-calendar caption,.widget .datepick-inline .datepick-header span{font-size:1em!important}
