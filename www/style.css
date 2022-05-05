@@ -469,7 +469,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .commentlist .children{border-left:30px solid #FAFAFA;padding-left:10px}
 .single .comments-container{margin-top:40px}
 #comments .fusion-title{margin-bottom:5px!important}
-#respond textarea{margin-bottom:5px!important;font-size:1.2em!important;font-style:italic}
+#respond textarea{border-bottom-left-radius:0!important;font-size:1.2em!important;font-style:italic}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important;background:#FAFAFA}
@@ -573,7 +573,7 @@ body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_
 .buttons .fusion-button:hover{border-style:solid!important;border-width:0!important}
 .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{position:relative;bottom:1px;font-size:80%}
 .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
-#main #comment-submit{margin-top:5px}
+#main #comment-submit{margin-top:0;border-top-left-radius:0!important;border-top-right-radius:0!important}
 .fusion-button.button-flat.chevron-down{padding:0;border-radius:64px!important}
 .fusion-button.button-flat.chevron-down i{margin:0!important;font-size:1.4em}
 #bbp_user_edit_submit,.bbp-submit-wrapper .button,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.single_add_to_cart_button,.wpcf7-form .wpcf7-submit.button-small,.wpcf7-form .wpcf7-submit.fusion-button-small{padding:.6em .8em;font-size:.9em;line-height:1}
