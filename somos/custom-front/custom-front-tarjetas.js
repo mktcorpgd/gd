@@ -10,8 +10,7 @@ jQuery(document).ready(function() {
 	var fname = jQuery('#usrfname').text();
 	var lname = jQuery('#usrlname').text();
 	var email = jQuery('#usremail').text();
-	var username = jQuery('#wp-admin-bar-user-info .username').text();
-	username = username.replace(/\s+/g, '-').toLowerCase();
+	var username = jQuery('#wp-admin-bar-user-info .username').text().toLowerCase().replace(' ','-');
 	jQuery('span.fname').text(fname);
 	jQuery('span.lname').text(lname);
 	jQuery('span.email').text(email);
@@ -112,8 +111,8 @@ jQuery(document).ready(function() {
 				jQuery('.wpcf7 select[name=OFFICE]').focus();
 			});
 		}
-		var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text();
-		jQuery('input[name=USERNAME]').val(username).replace(' ','-');
+		var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text().replace(' ','-');
+		jQuery('input[name=USERNAME]').val(username);
 		jQuery('.tpdata.web').text(tp_web[tp_org]);
 	});
 
