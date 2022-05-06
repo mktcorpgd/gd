@@ -2,7 +2,7 @@
 ::-moz-selection{background:#5668BF!important;color:#FFFFFF}::selection{background:#5668BF!important;color:#FFFFFF}
 #wrapper.header-transparent.focus .fusion-header.bkg{background:#39457E!important}
 #wrapper.header-transparent.focus .fusion-header:not(.on-top) .sub-menu,#wrapper.header-transparent.focus .fusion-megamenu-wrapper .fusion-megamenu-submenu,#wrapper.header-transparent.focus .fusion-header.bkg .fusion-mobile-nav-holder .sub-menu,#boxed-wrapper.focus .fusion-header .sub-menu,#boxed-wrapper.focus .fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#433E75!important}
-#wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,#wrapper.focus .fusion-main-menu .fusion-menu-item-button .menu-text:hover span,#wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left,#wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{color:#5668BF}
+#wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,#wrapper.focus .fusion-main-menu .fusion-menu-item-button .menu-text:hover span,#wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left,#wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{color:#FFFFFF}
 #wrapper.focus .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
 #wrapper.focus ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6,#boxed-wrapper.focus~.modal .modal-title,#wrapper.focus #agenda h2,#wrapper.focus .fusion-checklist .fusion-li-icon{color:#39457E!important}
 #wrapper.focus .fusion-button:not(.button-custom):not(.menu-text),#wrapper.focus .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.focus input[type='submit']:not(.sending),#wrapper.focus .wpcf7-form input[type='submit']:not(.sending),#wrapper.focus #main #comment-submit,#boxed-wrapper.focus~.modal input[type='submit']:not(.sending),#boxed-wrapper.focus~.modal .wpcf7-form input[type='submit']:not(.sending){border-color:#5668BF;background:#5668BF!important;color:#FFFFFF}
@@ -25,7 +25,7 @@
 #boxed-wrapper.focus~.modal .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a{padding-right:60px!important}
 .fusion-tabs .nav-tabs li a .fusion-tab-heading{white-space:nowrap}
 #wrapper.focus .box-buttons .fusion-portfolio-content .fusion-button,#wrapper.focus .box-buttons .fusion-post-content .fusion-button{color:#5668BF!important}
-#wrapper.focus #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#wrapper.focus #content .box-buttons .fusion-post-content .fusion-button:hover{background:#4958A3!important}
+#wrapper.focus #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#wrapper.focus #content .box-buttons .fusion-post-content .fusion-button:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#4958A3!important}
 .fusion-fullwidth.fullwidth-box.gradient-f:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-f:after{background:linear-gradient(270deg,rgba(57,69,126,0) 50%,rgba(57,69,126,1) 100%)!important}
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#39457E!important}
