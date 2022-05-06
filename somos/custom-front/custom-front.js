@@ -498,12 +498,13 @@ jQuery(document).ready(function() {
 		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 			// Si la cantidad es mayor a 10 y es un objeto sin costo, se convierte con costo
+			console.log(jQuery(this).val() <= 10 && cuantos_son < opt_index > cuantos_son*2);
 			if ( jQuery(this).val() > 10 && opt_index <= cuantos_son ) {
 				opt_index = opt_index+cuantos_son;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
 			// Si la cantidad es menor o igual a 10 y es un objeto sin costo, se convierte sin costo
-			else if ( jQuery(this).val() <= 10 && opt_index > cuantos_son ) {
+			else if ( jQuery(this).val() <= 10 && cuantos_son < opt_index > cuantos_son*2 ) {
 				opt_index = opt_index-cuantos_son;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
