@@ -113,7 +113,7 @@ jQuery(document).ready(function() {
 			});
 		}
 		var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text();
-		jQuery('input[name=USERNAME]').val(username);
+		jQuery('input[name=USERNAME]').val(username).replace(/[ -]+/g,'-');
 		jQuery('.tpdata.web').text(tp_web[tp_org]);
 	});
 
