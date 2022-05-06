@@ -485,12 +485,13 @@ jQuery(document).ready(function() {
 	jQuery('.MERCH1 option').each(function(i) {
 		if ( jQuery(this).val() != '—Con costo' ) {
 			cuantos_son++;
-			console.log(cuantos_son);
 		}
 		else {
+			cuantos_son = cuantos_son-2;
 			return false;
 		}
 	});
+	console.log(cuantos_son);
 	var items_scosto = 7;
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
