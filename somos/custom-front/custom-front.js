@@ -506,6 +506,7 @@ jQuery(document).ready(function() {
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
 			else if ( jQuery(this).val() <= 10 && opt_index > cuantos_son ) {
+				opt_index = opt_index-cuantos_son;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
 		}
