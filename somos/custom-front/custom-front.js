@@ -491,20 +491,20 @@ jQuery(document).ready(function() {
 			return false;
 		}
 	});
+	var limit_obj_scosto = obj_scosto*2+1;
+	console.log('limit_obj_scosto='+limit_obj_scosto);
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-			// Si la cantidad es mayor a 10 y es un objeto sin costo, se convierte con costo
-			var limit_obj_scosto = obj_scosto*2;
-			console.log('limit_obj_scosto='+limit_obj_scosto);
+			// Si la cantidad es mayor a 10, se convierte con costo
 			if ( jQuery(this).val() > 10 && opt_index <= obj_scosto ) {
 				opt_index = opt_index+obj_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
-			// Si la cantidad es menor o igual a 10 y es un objeto sin costo, se convierte sin costo
-			else if ( jQuery(this).val() <= 10 && obj_scosto < opt_index > obj_scosto*2 ) {
+			// Si la cantidad es menor o igual a 10 y es un objeto elegido que no tiene costo, se convierte sin costo
+			else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
 				opt_index = opt_index-obj_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
