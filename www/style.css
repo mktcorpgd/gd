@@ -295,9 +295,9 @@ body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusio
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar h1{font-size:3.4em}
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar h1,body.single .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar a,body.single .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar span{color:#FFFFFF!important}
 body.single blockquote h2,body.single blockquote h3,body.single blockquote h4,body.single blockquote h5,body.single blockquote h6{margin-top:0!important}
-body.single .fusion-text h3{font-size:1.4em;line-height:1.25!important}
-body.single .fusion-text h4{font-size:1.3em;line-height:1.25!important}
-body.single .fusion-text h5{font-size:1.1em;line-height:1.25!important;color:#555555!important}
+body.single .fusion-text h3{font-size:1.4em!important;line-height:1.25!important}
+body.single .fusion-text h4{font-size:1.3em!important;line-height:1.25!important}
+body.single .fusion-text h5{font-size:1.1em!important;line-height:1.25!important;color:#555555!important}
 body.single .fusion-text h4,body.single .fusion-text h4 b,body.single .fusion-text h4 strong{font-weight:400!important}
 body.single:not(.single-avada_portfolio) .post-content>div>div>div{margin-bottom:0!important}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type{padding:30px 30px 30px 50px;border-bottom-left-radius:24px;border-left:6em solid #EAEAEA}
@@ -350,7 +350,7 @@ body.single-avada_portfolio .header-transparent #content{width:100%}
 .flexslider .slides .caption img{display:inline-block!important;margin-top:15px;max-width:200px;width:auto!important}
 .flexslider .slides .caption img[src*='flag-']{margin:.75em .2em 0;width:1.2em!important;height:1.2em!important;border-radius:48px}
 .flexslider .slides .caption a+img[src*='partner']{margin:12px 0 0 30px}
-.post-content .fusion-text h4{margin:1em 0 .5em}
+.post-content .fusion-text h4{margin:2em 0 .5em}
 
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
@@ -374,7 +374,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-free-text{float:left;margin-top:10px!important}
 .wpcf7-free-text:not([disabled]){display:block}
 .wpcf7-not-valid:not(.highlight),.white .fusion-layout-column .wpcf7-not-valid:not(.highlight){background:#FFF2F2!important}
-.wpcf7-form input[type='submit'],.wpcf7-submit,#respond input[type='submit']{background-color:#FAFAFA;font-style:normal;white-space:normal}
+.wpcf7-form input[type='submit'],.wpcf7-submit,#respond input[type='submit']{font-style:normal;white-space:normal}
 .wpcf7-form input[type='submit']{width:auto!important}
 .wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:'Neo-Sans',sans-serif;line-height:1.5;font-weight:400!important;border-radius:3px;background:rgba(255,255,255,.6);color:#FF5151!important;font-size:.65em!important;z-index:1}
 .wpcf7-not-valid-tip:hover{background:rgba(255,255,255,.9)}
@@ -398,8 +398,8 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7 .fusion-one-full>a{display:inline-block;padding:4px 0;font-family:'Open-Sans',sans-serif;font-size:95%;font-weight:400!important;text-align:center;line-height:1.15;opacity:.9}
 .wpcf7 .fusion-one-full>a:hover{opacity:1}
 .wpcf7-form.init div.wpcf7-response-output{padding:0!important}
-.wpcf7-form:not(.init) div.wpcf7-response-output{margin:5px 0 0!important;padding:4px!important;position:relative;text-align:center!important;background-color:#FF5151!important;color:#FFFFFF!important}
-.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:100%;border:0!important;border-radius:6px;box-shadow:none!important;font-size:.875em!important;line-height:1.1;font-style:italic;text-align:center!important;text-transform:none!important}
+.wpcf7-form:not(.init) div.wpcf7-response-output{margin:.3em auto 0!important;padding:.3em .4em!important;position:relative;text-align:center!important;background-color:#FF5151!important;color:#FFFFFF!important}
+.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:fit-content;border:0!important;border-radius:6px;box-shadow:none!important;font-size:.875em!important;line-height:1.1;font-style:italic;text-align:center!important;text-transform:none!important}
 .wpcf7-response-inner{margin:0 auto!important;padding:5px 4px!important;width:95%;line-height:1.3}
 input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em!important}
 .fusion-title+.wpcf7-response-inner{border-bottom-left-radius:0;border-bottom-right-radius:0}
@@ -469,10 +469,10 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .commentlist .children{border-left:30px solid #FAFAFA;padding-left:10px}
 .single .comments-container{margin-top:40px}
 #comments .fusion-title{margin-bottom:5px!important}
-#respond textarea{margin-bottom:5px!important;font-size:1.2em!important;font-style:italic}
+#respond textarea{border-bottom-left-radius:0!important;font-size:1.2em!important;font-style:italic}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
-#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important;background:#FAFAFA}
+#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important}
 
 /* Footer */
 .fusion-footer-widget-area{padding:32px!important}
@@ -562,7 +562,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 
 /* Botones */
 .tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{padding:.6em .7em!important;font-size:1.4em!important;border:none!important}
-.fusion-button{border-style:solid!important}
+.fusion-button{border-style:none!important}
 .fusion-button.left-margin{margin-left:2em!important}
 .fusion-button_size-large #main #comment-submit,.fusion-button_size-large #main .comment-submit,.fusion-button_size-large #reviews input#submit,.fusion-button_size-large .comment-form input[type='submit'],.fusion-button_size-large .fusion-button-default-size,.fusion-button_size-large .fusion-portfolio-one .fusion-button,.fusion-button_size-large .post-password-form input[type='submit'],.fusion-button_size-large .slidingbar-area .button-default,.fusion-button_size-large .ticket-selector-submit-btn[type='submit'],.fusion-button_size-large .tml-submit-wrap input[type='submit'],.fusion-button_size-large .wpcf7-form input[type='submit'],.fusion-button_size-large .wpcf7-submit{font-size:1.1em;line-height:1}
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{font-family:'Open-Sans','Font Awesome 5 Pro',sans-serif}
@@ -573,7 +573,7 @@ body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_
 .buttons .fusion-button:hover{border-style:solid!important;border-width:0!important}
 .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{position:relative;bottom:1px;font-size:80%}
 .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
-#main #comment-submit{margin-top:5px}
+#main #comment-submit{margin-top:0;border-top-left-radius:0!important;border-top-right-radius:0!important}
 .fusion-button.button-flat.chevron-down{padding:0;border-radius:64px!important}
 .fusion-button.button-flat.chevron-down i{margin:0!important;font-size:1.4em}
 #bbp_user_edit_submit,.bbp-submit-wrapper .button,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.single_add_to_cart_button,.wpcf7-form .wpcf7-submit.button-small,.wpcf7-form .wpcf7-submit.fusion-button-small{padding:.6em .8em;font-size:.9em;line-height:1}
@@ -715,7 +715,7 @@ body.archive .fusion-portfolio-layout-grid .fusion-post-content p{padding-left:0
 
 /* Blog */
 .fusion-blog-layout-grid article.fusion-post-grid.has-post-thumbnail h2{margin:0!important;font-weight:500!important}
-article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:inline-block;padding:4px 8px;position:absolute;top:0;right:0;font-size:.9em;font-family:'Open-Sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
+article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:inline-block;padding:.1em .5em .1em .4em;position:absolute;top:0;right:0;font-size:.8em;font-family:'Open-Sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
 article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{content:'Nota de prensa'}
 .fusion-blog-archive .fusion-post-content-container .fusion-layout-column,.fusion-blog-archive .fusion-post-content-container p{margin:0!important;padding:0!important}
 .fusion-blog-archive article .fusion-video{margin-bottom:0!important;border-radius:0!important;border:none!important}
@@ -888,7 +888,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-load-more-button.fusion-blog-button,#respond input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{height:auto;border-radius:12px!important;border-style:solid!important;border-width:0!important;font-family:'Open-Sans',sans-serif!important;font-weight:700!important;letter-spacing:1px}
 .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{padding:.45em .65em!important;margin-left:auto;margin-right:auto;width:fit-content;font-weight:400;font-size:1.15em!important;line-height:1.25!important;letter-spacing:0;text-transform:none!important}
 .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:#FFFFFF}
-.fusion-button.button-flat:not(.button-left):not(.button-right),.fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.wpcf7-submit{box-shadow:0 2px 4px rgba(0,0,0,.1)!important}
+.fusion-button.button-flat:not(.button-left):not(.button-right),.fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.wpcf7-submit,#main #comment-submit{box-shadow:0 2px 4px rgba(0,0,0,.1)!important}
 .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
 .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#FFFFFF;font-weight:700}
 .fusion-header-wrapper .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
@@ -972,7 +972,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.vertical-tabs .nav{border-right:2px solid #CCCCCC}
 .fusion-tabs.vertical-tabs .tab-content{background:#FFFFFF}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
-.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-family:'Open-Sans',sans-serif;font-size:.9em!important;white-space:nowrap}
+.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-family:'Open-Sans',sans-serif;font-size:.9rem!important;white-space:nowrap}
 .fusion-tabs .nav-tabs li a{background:#EAEAEA!important;border:none;border-radius:0!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border:none!important;overflow:hidden}
 .fusion-tabs:not(.tab-filters) .nav-tabs li .tab-link .fusion-tab-heading{letter-spacing:0;position:relative}
@@ -1187,6 +1187,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fullwidth-center img[src*='.svg']{display:inline-block;top:0;width:36px!important}
 	.fullwidth-center img[src*='partner']{width:60px!important}
 	.fullwidth-center img[src*='sap_gold']{width:70px!important}
+	.fusion-body .fusion-flex-container.fusion-builder-row-1{padding-left:0;padding-right:0}
 	#wrapper.header-transparent .fusion-header:not(.bkg) .fusion-mobile-nav-holder,#wrapper.header-transparent .fusion-header.on-top:not(.bkg) .fusion-mobile-nav-holder{background:rgba(0,0,0,.9)!important}
 	#wrapper .fusion-header .fusion-mobile-nav-holder .sub-menu{background:none!important}
 	#wrapper.header-transparent .imageframe-align-center~.fusion-title.fusion-title-1{margin-top:20px!important}
