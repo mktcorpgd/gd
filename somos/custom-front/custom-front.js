@@ -481,18 +481,19 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
+	var items_scosto = 7;
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-			if ( jQuery(this).val() > 10 && opt_index <= 5 ) {
-				opt_index = opt_index+5;
+			if ( jQuery(this).val() > 10 && opt_index <= items_scosto ) {
+				opt_index = opt_index+items_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
 			else if ( jQuery(this).val() < 10 ) {
-				if ( opt_index > 5 && opt_index <= 10 ) {
-					opt_index = opt_index-5;
+				if ( opt_index > items_scosto && opt_index <= 10 ) {
+					opt_index = opt_index-items_scosto;
 					jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 				}
 			}
@@ -500,10 +501,10 @@ jQuery(document).ready(function() {
 	});
 	jQuery('select[name^=MERCH]').change(function(e) {
 		var inp_index = jQuery(this).attr('name');
-		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
+		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+items_scosto5,inp_index.length);
 		var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 		if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
-			if ( opt_index <= 5 ) {
+			if ( opt_index <= items_scosto ) {
 				jQuery('.CANT'+inp_index+' input').val(10);
 			}
 		}
