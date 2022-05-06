@@ -481,31 +481,31 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
-	var cuantos_son = 0;
+	var obj_scosto = 0;
 	jQuery('.MERCH1 option').each(function(i) {
 		if ( jQuery(this).val() != '—Con costo' ) {
-			cuantos_son++;
+			obj_scosto++;
 		}
 		else {
-			cuantos_son--;
+			obj_scosto--;
 			return false;
 		}
 	});
-	console.log(cuantos_son);
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 			// Si la cantidad es mayor a 10 y es un objeto sin costo, se convierte con costo
-			console.log(jQuery(this).val() <= 10 && cuantos_son < opt_index > cuantos_son*2);
-			if ( jQuery(this).val() > 10 && opt_index <= cuantos_son ) {
-				opt_index = opt_index+cuantos_son;
+			var limit_obj_scosto = obj_scosto*2;
+			console.log('limit_obj_scosto='+limit_obj_scosto);
+			if ( jQuery(this).val() > 10 && opt_index <= obj_scosto ) {
+				opt_index = opt_index+obj_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
 			// Si la cantidad es menor o igual a 10 y es un objeto sin costo, se convierte sin costo
-			else if ( jQuery(this).val() <= 10 && cuantos_son < opt_index > cuantos_son*2 ) {
-				opt_index = opt_index-cuantos_son;
+			else if ( jQuery(this).val() <= 10 && obj_scosto < opt_index > obj_scosto*2 ) {
+				opt_index = opt_index-obj_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
 		}
@@ -515,7 +515,7 @@ jQuery(document).ready(function() {
 		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
 		var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 		if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
-			if ( opt_index <= cuantos_son ) {
+			if ( opt_index <= obj_scosto ) {
 				jQuery('.CANT'+inp_index+' input').val(10);
 			}
 		}
