@@ -350,7 +350,8 @@ body.home h1+.gp-post-meta+#post-content{margin-top:0}
 .post-loop .gp-meta-cats a{line-height:1.25;font-weight:400}
 .eo-event-meta a:not([rel='tag']){color:#666!important;text-decoration:none;pointer-events:none}
 .gp-meta-cats a:hover,article .eo-event-meta>li a[rel='tag']:hover{color:#F0582B!important}
-.gp-meta-date,.eo-event-date{display:block;margin:0;line-height:1.25;font-style:normal;font-weight:400;color:#333333}
+.gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;line-height:1.25;font-style:normal;font-weight:400;color:#333333}
+.gp-meta-comments{border-left:1px solid #EAEAEA}
 .eo-event-date{font-size:.9em;font-family:'Neo-Sans',sans-serif;font-weight:500}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-patrocinamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-otros-eventos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{color:#FFFFFF!important}
 article.event-category-propios .eo-event-meta>li a[rel='tag']{color:#0E316E!important}
@@ -691,9 +692,8 @@ body.single-event article.event{box-shadow:none}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-thumbnail{float:left;border-radius:0}
 .gp-blog-wrapper.gp-blog-columns-2 .post-thumbnail.wrap{float:none;border-bottom:2px solid #EAEAEA;border-radius:0}
 .post-thumbnail.wrap{float:none;width:100%}
-.post-loop .gp-loop-meta{margin:0!important;position:relative;font-size:.75rem;line-height:1.25}
+.post-loop .gp-loop-meta{margin:0!important;position:relative;color:#888888;font-size:.75rem;line-height:1.25}
 .post-loop .gp-loop-meta strong{font-weight:400}
-.post-loop .gp-loop-meta .gp-meta-date{margin:.1em 0;color:#888888}
 .post-loop.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 
 /* Trivias
