@@ -481,6 +481,16 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
+	var cuantos_son = 0;
+	jQuery('.MERCH1 option').each(function(i) {
+		if ( jQuery(this).val() != '—Con costo' ) {
+			cuantos_son++;
+			console.log(cuantos_son);
+		}
+		else {
+			return false;
+		}
+	});
 	var items_scosto = 7;
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
