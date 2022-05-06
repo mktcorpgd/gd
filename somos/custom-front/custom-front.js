@@ -501,7 +501,7 @@ jQuery(document).ready(function() {
 	});
 	jQuery('select[name^=MERCH]').change(function(e) {
 		var inp_index = jQuery(this).attr('name');
-		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+items_scosto5,inp_index.length);
+		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+items_scosto,inp_index.length);
 		var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 		if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
 			if ( opt_index <= items_scosto ) {
