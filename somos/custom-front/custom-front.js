@@ -497,12 +497,14 @@ jQuery(document).ready(function() {
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-			// Si la cantidad es mayor a 10, se convierte en un gasto con costo
+			// Si la cantidad es mayor a 10 y es un objeto sin costo, se convierte con costo
+			console.log(jQuery(this).val() > 10 && opt_index <= cuantos_son);
 			if ( jQuery(this).val() > 10 && opt_index <= cuantos_son ) {
 				opt_index = opt_index+cuantos_son;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
-			// Si la cantidad es menor o igual a 10, se convierte en un gasto sin costo
+			// Si la cantidad es menor o igual a 10 y es un objeto sin costo, se convierte sin costo
+			console.log(jQuery(this).val() <= 10 && opt_index > cuantos_son);
 			else if ( jQuery(this).val() <= 10 && opt_index > cuantos_son ) {
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
