@@ -499,12 +499,12 @@ jQuery(document).ready(function() {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
 			// Si la cantidad es mayor a 10 y es un objeto sin costo, se convierte con costo
 			console.log(jQuery(this).val() > 10 && opt_index <= cuantos_son);
+			// Si la cantidad es menor o igual a 10 y es un objeto sin costo, se convierte sin costo
+			console.log(jQuery(this).val() <= 10 && opt_index > cuantos_son);
 			if ( jQuery(this).val() > 10 && opt_index <= cuantos_son ) {
 				opt_index = opt_index+cuantos_son;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
-			// Si la cantidad es menor o igual a 10 y es un objeto sin costo, se convierte sin costo
-			console.log(jQuery(this).val() <= 10 && opt_index > cuantos_son);
 			else if ( jQuery(this).val() <= 10 && opt_index > cuantos_son ) {
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
