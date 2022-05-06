@@ -714,7 +714,7 @@ jQuery(document).ready(function() {
 				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 				var title_pricing = jQuery(this).find('.fusion-button-text').text();
 				if ( lugar_class != 'null' ) {
-					jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text('Solicitar '+title_pricing+' en '+lugar_name);
+					jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text(title_pricing+' en '+lugar_name);
 				}
 			}
 			if ( jQuery('select[name="TITLE"]').length ) {
