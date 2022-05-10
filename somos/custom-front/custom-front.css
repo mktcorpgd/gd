@@ -208,7 +208,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 #comments .must-log-in a:hover{text-decoration:underline}
 #commentform textarea{margin-bottom:0!important;height:3.6em;font-size:1em!important;border-bottom-right-radius:0!important;resize:none}
 #commentform textarea,#commentform .comment-form-comment,#comments .must-log-in{margin-top:0!important}
-.commentlist #respond{display:inline-block;width:100%;margin:0 0 20px;padding:.5em .5em 0 1em;background:#EAEAEA;border-radius:6px 12px 12px 12px}
+.commentlist #respond{display:inline-block;width:100%;margin:0 0 20px;padding:.5em .5em 0 .5em;background:#EAEAEA;border-radius:6px 12px 12px 12px}
 #respond p{margin-bottom:0!important}
 #respond p.form-submit{margin:0 0 10px!important;padding:0;width:100%}
 #comments h3,#comments .commentlist{margin-bottom:30px}
@@ -1074,7 +1074,7 @@ a.button.fullwidth,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-m
 a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{padding:.8em 1em;font-size:1.2em;text-align:center;border-radius:12px}
 #respond #submit{float:right;margin:0 0 .5em;padding:.5em .8em!important;display:inline-block;background:#0E316E;border:none!important;border-top-left-radius:0!important;border-top-right-radius:0!important}
 #respond #submit:hover{background:#1F4483!important}
-.commentlist #respond #submit{margin-right:1em}
+.commentlist #respond #submit{margin-bottom:0}
 .wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{display:block;width:fit-content;padding:0 15px!important;line-height:44px!important}
 .wpcf7 input[type='submit']{margin:20px auto 0!important}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important}
