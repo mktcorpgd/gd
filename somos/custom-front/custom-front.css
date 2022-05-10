@@ -46,7 +46,7 @@ body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border
 .not-visible{visibility:hidden}
 .padder,.widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
 .widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-color:#FFFFFF}
-.wp-block-separator{border:none!important}
+.wp-block-separator{float:left;border:none!important}
 .author span{text-transform:uppercase}
 .sc-divider{float:left;margin:30px 0;border-width:3px}
 .sc-divider.small{margin:15px 0!important;border-width:1px}
@@ -471,9 +471,7 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{margin:0!important;padding:.2em!important;font-size:.6em!important;border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
-body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-baitcon'],body.post-template-default.single #content article[class*='category-datco'],body.post-template-default.single #content article[class*='category-focus'],body.post-template-default.single #content article[class*='category-interservices'],body.post-template-default.single #content article[class*='category-sersat'],body.post-template-default.single #content article[class*='category-silica-networks'],body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
-body.post-template-default.single #content article.category-grupo-datco h1{color:#0E316E}
-body.post-template-default.single #content article.category-grupo-datco .padder{border-top-color:#0E316E}
+body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-baitcon'] .padder,body.post-template-default.single #content article[class*='category-datco'] .padder,body.post-template-default.single #content article[class*='category-focus'] .padder,body.post-template-default.single #content article[class*='category-interservices'] .padder,body.post-template-default.single #content article[class*='category-sersat'] .padder,body.post-template-default.single #content article[class*='category-silica-networks'] .padder,body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 body.post-template-default.single #content article.category-baitcon h1{color:#89388D}
 body.post-template-default.single #content article.category-baitcon .padder{border-top-color:#89388D}
 body.post-template-default.single #content article.category-datco h1{color:#1C8DCE}
@@ -488,6 +486,8 @@ body.post-template-default.single #content article.category-silica-networks h1{c
 body.post-template-default.single #content article.category-silica-networks .padder{border-top-color:#497718}
 body.post-template-default.single #content article.category-velocom h1{color:#AE1A57}
 body.post-template-default.single #content article.category-velocom .padder{border-top-color:#AE1A57}
+body.post-template-default.single #content article.category-grupo-datco h1{color:#0E316E}
+body.post-template-default.single #content article.category-grupo-datco .padder{border-top-color:#0E316E}
 
 /* Sidebar */
 .sidebar .widget{overflow:hidden;margin-bottom:15px;padding:0 15px 15px!important;border-top-left-radius:12px;border-top-right-radius:6px;border-bottom-right-radius:12px;border-bottom-left-radius:6px}
