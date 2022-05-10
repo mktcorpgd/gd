@@ -89,7 +89,7 @@ h3.toggle i:before,.activity-time-since{color:#888888}
 .gallery-item img{width:100%!important}
 .wp-block-gallery .wp-block-image{border-radius:6px;overflow:hidden}
 #content .blocks-gallery-item img,.wp-block-image img,#post-content .blocks-gallery-item img{margin:0!important}
-.blocks-gallery-image figcaption,.blocks-gallery-item figcaption,.wp-block-image figcaption{width:90%;padding:.4em .3em!important;line-height:1.25;font-style:italic;background:rgba(0,0,0,.5)!important;border-top-right-radius:12px;cursor:zoom-in}
+.blocks-gallery-image figcaption,.blocks-gallery-item figcaption,.wp-block-image figcaption{width:90%!important;padding:.4em .3em!important;line-height:1.25;font-style:italic;background:rgba(0,0,0,.5)!important;border-top-right-radius:12px;cursor:zoom-in}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
 .padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.padder td a:hover,.widget li a:hover{text-decoration:underline}
 body .bk_forms .hasDatepick{display:block!important}
@@ -111,7 +111,6 @@ body .bk_forms .hasDatepick{display:block!important}
 #content+h3{text-align:center}
 .wp-caption{margin-bottom:0;text-align:center}
 .html5_player_container{border-radius:12px}
-#content article[class*='category-regional'][class*='category-grupo-datco'][class*='category-invitaciones'][class*='category-argentina'][class*='category-brasil'][class*='category-chile'][class*='category-mexico'][class*='category-peru'][class*='category-puerto-rico'] p.dropcap:not(.ays-fs-title):first-of-type:first-letter,body.page-id-31537 .mfp-content #post-content p:not(.ays-fs-title):first-child:first-letter{display:inline-block;float:left;margin:6px 0 0 -2px;padding:0 2px 0 0;font-size:300%;height:.8em;line-height:.85em;color:#0E316E;font-weight:400;font-family:'Neo-Sans',sans-serif}
 span.resaltado-naranja{color:#f0582B}
 span.resaltado-azul{color:#3C73B5}
 span.resaltado-verde{color:#76923C}
@@ -209,7 +208,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 #comments .must-log-in a:hover{text-decoration:underline}
 #commentform textarea{margin-bottom:0!important;height:3.6em;font-size:1em!important;border-bottom-right-radius:0!important;resize:none}
 #commentform textarea,#commentform .comment-form-comment,#comments .must-log-in{margin-top:0!important}
-.commentlist #respond{display:inline-block;width:100%;margin:0 0 20px;padding:.5em .5em 0 1em;background:#EAEAEA;border-radius:6px 12px 12px 12px}
+.commentlist #respond{display:inline-block;width:100%;margin:0 0 20px;padding:.5em .5em 0 .5em;background:#EAEAEA;border-radius:6px 12px 12px 12px}
 #respond p{margin-bottom:0!important}
 #respond p.form-submit{margin:0 0 10px!important;padding:0;width:100%}
 #comments h3,#comments .commentlist{margin-bottom:30px}
@@ -472,21 +471,23 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{margin:0!important;padding:.2em!important;font-size:.6em!important;border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
-body.post-template-default.single #content article.category-baitcon .padder{padding-top:1em}
+body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-baitcon'],body.post-template-default.single #content article[class*='category-datco'],body.post-template-default.single #content article[class*='category-focus'],body.post-template-default.single #content article[class*='category-interservices'],body.post-template-default.single #content article[class*='category-sersat'],body.post-template-default.single #content article[class*='category-silica-networks'],body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
+body.post-template-default.single #content article.category-grupo-datco h1{color:#0E316E}
+body.post-template-default.single #content article.category-grupo-datco .padder{border-top-color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1{color:#89388D}
-body.post-template-default.single #content article.category-baitcon .padder{padding-top:1em;border-top:12px solid #89388D}
+body.post-template-default.single #content article.category-baitcon .padder{border-top-color:#89388D}
 body.post-template-default.single #content article.category-datco h1{color:#1C8DCE}
-body.post-template-default.single #content article.category-datco .padder{padding-top:1em;border-top:12px solid #1C8DCE}
+body.post-template-default.single #content article.category-datco .padder{border-top-color:#1C8DCE}
 body.post-template-default.single #content article.category-focus h1{color:#39457E}
-body.post-template-default.single #content article.category-focus .padder{padding-top:1em;border-top:12px solid #39457E}
+body.post-template-default.single #content article.category-focus .padder{border-top-color:#39457E}
 body.post-template-default.single #content article.category-interservices h1{color:#BF250D}
-body.post-template-default.single #content article.category-interservices .padder{padding-top:1em;border-top:12px solid #BF250D}
+body.post-template-default.single #content article.category-interservices .padder{border-top-color:#BF250D}
 body.post-template-default.single #content article.category-sersat h1{color:#109B84}
-body.post-template-default.single #content article.category-sersat .padder{padding-top:1em;border-top:12px solid #109B84}
+body.post-template-default.single #content article.category-sersat .padder{border-top-color:#109B84}
 body.post-template-default.single #content article.category-silica-networks h1{color:#497718}
-body.post-template-default.single #content article.category-silica-networks .padder{padding-top:1em;border-top:12px solid #497718}
+body.post-template-default.single #content article.category-silica-networks .padder{border-top-color:#497718}
 body.post-template-default.single #content article.category-velocom h1{color:#AE1A57}
-body.post-template-default.single #content article.category-velocom .padder{padding-top:1em;border-top:12px solid #AE1A57}
+body.post-template-default.single #content article.category-velocom .padder{border-top-color:#AE1A57}
 
 /* Sidebar */
 .sidebar .widget{overflow:hidden;margin-bottom:15px;padding:0 15px 15px!important;border-top-left-radius:12px;border-top-right-radius:6px;border-bottom-right-radius:12px;border-bottom-left-radius:6px}
@@ -776,16 +777,6 @@ li.ays_lb_li:not(:first-child):nth-child(odd){background:#F6F6F6!important}
 */
 
 /* Timeline */
-.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a{font-family:'Neo-Sans',sans-serif;font-size:1em}
-.cool-timeline-horizontal{padding-bottom:1em}
-.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title{min-height:auto;padding:0}
-.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a{display:block;padding:.2em .8em .3em}
-.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2{min-height:auto;padding:.4em .8em}
-.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title{display:block}
-.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post,.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post .ctl_info{color:#555555}
-.cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li.slick-slide.slick-current:after,.cool-timeline-horizontal.ht-design-2 .clt_carousel_slider ul.slick-slider .slick-list li.slick-slide:after{border-bottom-color:#0E316E}
-.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title{border-top-left-radius:9px;border-top-right-radius:9px;background:#0E316E}
-.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post .ctl_info,.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post .content-details,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post .content-details,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post .content-details,#post-content .content-details p{line-height:1.4;font-size:1em;font-family:'Open-Sans',sans-serif}
 .content-details{font-size:.9em!important}
 .content-details{white-space:normal;display:-webkit-box!important;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
 .content-details p{font-size:1em!important}
@@ -1083,7 +1074,7 @@ a.button.fullwidth,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-m
 a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{padding:.8em 1em;font-size:1.2em;text-align:center;border-radius:12px}
 #respond #submit{float:right;margin:0 0 .5em;padding:.5em .8em!important;display:inline-block;background:#0E316E;border:none!important;border-top-left-radius:0!important;border-top-right-radius:0!important}
 #respond #submit:hover{background:#1F4483!important}
-.commentlist #respond #submit{margin-right:1em}
+.commentlist #respond #submit{margin-bottom:0}
 .wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{display:block;width:fit-content;padding:0 15px!important;line-height:44px!important}
 .wpcf7 input[type='submit']{margin:20px auto 0!important}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important}
