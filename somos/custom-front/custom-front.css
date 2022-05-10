@@ -111,7 +111,6 @@ body .bk_forms .hasDatepick{display:block!important}
 #content+h3{text-align:center}
 .wp-caption{margin-bottom:0;text-align:center}
 .html5_player_container{border-radius:12px}
-#content article[class*='category-regional'][class*='category-grupo-datco'][class*='category-invitaciones'][class*='category-argentina'][class*='category-brasil'][class*='category-chile'][class*='category-mexico'][class*='category-peru'][class*='category-puerto-rico'] p.dropcap:not(.ays-fs-title):first-of-type:first-letter,body.page-id-31537 .mfp-content #post-content p:not(.ays-fs-title):first-child:first-letter{display:inline-block;float:left;margin:6px 0 0 -2px;padding:0 2px 0 0;font-size:300%;height:.8em;line-height:.85em;color:#0E316E;font-weight:400;font-family:'Neo-Sans',sans-serif}
 span.resaltado-naranja{color:#f0582B}
 span.resaltado-azul{color:#3C73B5}
 span.resaltado-verde{color:#76923C}
@@ -472,7 +471,7 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{margin:0!important;padding:.2em!important;font-size:.6em!important;border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
-body.post-template-default.single #content article[class*='category-grupo-datco'][class*='category-baitcon'][class*='category-datco'][class*='category-focus'][class*='category-interservices'][class*='category-sersat'][class*='category-silica-networks'][class*='category-velocom'] .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
+body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-baitcon'],body.post-template-default.single #content article[class*='category-datco'],body.post-template-default.single #content article[class*='category-focus'],body.post-template-default.single #content article[class*='category-interservices'],body.post-template-default.single #content article[class*='category-sersat'],body.post-template-default.single #content article[class*='category-silica-networks'],body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 body.post-template-default.single #content article.category-grupo-datco h1{color:#0E316E}
 body.post-template-default.single #content article.category-grupo-datco .padder{border-top-color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1{color:#89388D}
