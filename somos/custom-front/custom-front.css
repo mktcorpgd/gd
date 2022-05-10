@@ -472,21 +472,23 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{margin:0!important;padding:.2em!important;font-size:.6em!important;border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
-body.post-template-default.single #content article.category-baitcon .padder{padding-top:1em}
+body.post-template-default.single #content article[class*='category-grupo-datco'][class*='category-baitcon'][class*='category-datco'][class*='category-focus'][class*='category-interservices'][class*='category-sersat'][class*='category-silica-networks'][class*='category-velocom'] .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
+body.post-template-default.single #content article.category-grupo-datco h1{color:#0E316E}
+body.post-template-default.single #content article.category-grupo-datco .padder{border-top-color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1{color:#89388D}
-body.post-template-default.single #content article.category-baitcon .padder{padding-top:1em;border-top:12px solid #89388D}
+body.post-template-default.single #content article.category-baitcon .padder{border-top-color:#89388D}
 body.post-template-default.single #content article.category-datco h1{color:#1C8DCE}
-body.post-template-default.single #content article.category-datco .padder{padding-top:1em;border-top:12px solid #1C8DCE}
+body.post-template-default.single #content article.category-datco .padder{border-top-color:#1C8DCE}
 body.post-template-default.single #content article.category-focus h1{color:#39457E}
-body.post-template-default.single #content article.category-focus .padder{padding-top:1em;border-top:12px solid #39457E}
+body.post-template-default.single #content article.category-focus .padder{border-top-color:#39457E}
 body.post-template-default.single #content article.category-interservices h1{color:#BF250D}
-body.post-template-default.single #content article.category-interservices .padder{padding-top:1em;border-top:12px solid #BF250D}
+body.post-template-default.single #content article.category-interservices .padder{border-top-color:#BF250D}
 body.post-template-default.single #content article.category-sersat h1{color:#109B84}
-body.post-template-default.single #content article.category-sersat .padder{padding-top:1em;border-top:12px solid #109B84}
+body.post-template-default.single #content article.category-sersat .padder{border-top-color:#109B84}
 body.post-template-default.single #content article.category-silica-networks h1{color:#497718}
-body.post-template-default.single #content article.category-silica-networks .padder{padding-top:1em;border-top:12px solid #497718}
+body.post-template-default.single #content article.category-silica-networks .padder{border-top-color:#497718}
 body.post-template-default.single #content article.category-velocom h1{color:#AE1A57}
-body.post-template-default.single #content article.category-velocom .padder{padding-top:1em;border-top:12px solid #AE1A57}
+body.post-template-default.single #content article.category-velocom .padder{border-top-color:#AE1A57}
 
 /* Sidebar */
 .sidebar .widget{overflow:hidden;margin-bottom:15px;padding:0 15px 15px!important;border-top-left-radius:12px;border-top-right-radius:6px;border-bottom-right-radius:12px;border-bottom-left-radius:6px}
