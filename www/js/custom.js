@@ -446,6 +446,9 @@ jQuery(document).ready(function() {
 		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
 		site_id = site_id.trim();
 		console.log(site_id);
+		if ( site_id == 1 ) {
+			jQuery('input[name=MKTSRC]').val('MKT-GD');
+		}
 	}
 
 
