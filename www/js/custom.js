@@ -446,7 +446,7 @@ jQuery(document).ready(function() {
 		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
 		site_id = site_id.trim();
 		var page_id = jQuery('body').attr('class');
-		page_id = page_id.substr(site_id.indexOf('page-id-')+8,2);
+		page_id = page_id.substr(page_id.indexOf('page-id-')+8,2);
 		page_id = page_id.trim();
 		var leadmkt = '';
 		console.log('site_id='+site_id);
