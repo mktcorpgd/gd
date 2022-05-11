@@ -449,8 +449,6 @@ jQuery(document).ready(function() {
 		page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
 		page_id = page_id.trim();
 		var leadmkt = '';
-		console.log('site_id='+site_id);
-		console.log('page_id='+page_id);
 		// Asignar origen según sitio web
 		if ( site_id == 1 ) { // GD - grupodatco.com
 			if ( page_id == 43399 ) { // IOP
