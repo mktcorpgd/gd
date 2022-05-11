@@ -70,7 +70,7 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .full-boxed-pricing{background:none!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
 .fusion-tabs:not(.tab-filters) .nav{background:none;box-sizing:border-box}
-.fusion-tabs:not(.tab-filters) .nav-tabs{border-bottom:1px solid #EAEAEA!important}
+.fusion-tabs:not(.tab-filters):not(.vertical-tabs) .nav-tabs{border-bottom:1px solid #EAEAEA!important}
 .fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#aadc23,#497719)!important}
 .fusion-tabs .nav-tabs li a{background:none!important}
 .fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-modal.contacto-rapido .modal-title{color:#FFFFFF!important}
@@ -78,12 +78,13 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .fusion-tabs.classic.horizontal-tabs .nav-tabs .tab-link{border-top-left-radius:12px!important;border-top-right-radius:12px!important}
 .fusion-counters-box .fusion-counter-box .counter-box-container{padding:5px 20px 20px}
 .fusion-footer-widget-area{background-color:#222222!important}
+.fusion-tabs.clean .nav-tabs li{border-radius:12px;overflow:hidden}
+.fusion-tabs.vertical-tabs .nav-tabs li .fusion-tab-heading{font-size:1.2em}
 
 
 /* Desktop */
 @media (min-width:920px) {
 	.fusion-modal.contacto-rapido .modal-lg{width:1200px}
-	.fusion-tabs:not(.tab-filters) .nav{padding:0 8em}
 	.fusion-modal.consultar-internet .modal-dialog{width:800px}
 	.width-800 .tab-content{margin:0 auto;width:800px}
 }
