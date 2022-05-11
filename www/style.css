@@ -355,7 +355,8 @@ body.single-avada_portfolio .header-transparent #content{width:100%}
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
 div.wpcf7>form .fusion-one-half.fusion-column-last p{margin-right:0}
-div.wpcf7{margin:0 auto;padding:0;max-width:500px}
+div.wpcf7{margin:0 auto;padding:0}
+.fusion-one-full div.wpcf7{max-width:500px}
 div.wpcf7:before{display:block;margin-top:-.6em;width:100%;margin-bottom:5px;font-size:.7em;line-height:1.6;font-style:italic}
 .white div.wpcf7:before{color:#FFFFFF}
 .fusion-layout-column.fusion-three-fifth div.wpcf7{max-width:100%}
