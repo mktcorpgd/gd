@@ -1,7 +1,6 @@
 // GENERAL - Función para obtener variables GET
 jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
 
-
 // FORMULARIOS - Ejecutar al confirmar envío de mail
 document.addEventListener('wpcf7mailsent', function(e) {
 
@@ -223,7 +222,7 @@ jQuery(document).ready(function() {
 		},2000);
 		e.preventDefault();
 	});
-	jQuery('.hidde_link').on({
+	jQuery('.hidden_link').on({
 		mouseenter: function () {
 			jQuery('.fusion-image-switch img:last-child').css('opacity',1);
 		},
@@ -443,6 +442,10 @@ jQuery(document).ready(function() {
 				jQuery('.fusion-header a[href*=mailto]').attr('href',mail_href+'?subject=Contacto desde '+window.location);
 			}
 		}
+		var site_id = jQuery('body').attr('class');
+		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
+		site_id = site_id.trim();
+		console.log(site_id);
 	}
 
 
