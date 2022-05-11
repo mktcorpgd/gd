@@ -478,7 +478,7 @@ jQuery(document).ready(function() {
 				leadmkt = 'GD';
 			}
 		}
-		else if ( site_id == 5 ) { // silicanetworks.com (SCO)
+		else if ( site_id == 5 ) { // silicanetworks.com
 			leadmkt = 'SCO';
 		}
 		else if ( site_id == 16 ) { // smartime.com.ar
