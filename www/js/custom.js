@@ -445,10 +445,58 @@ jQuery(document).ready(function() {
 		var site_id = jQuery('body').attr('class');
 		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
 		site_id = site_id.trim();
-		console.log(site_id);
-		if ( site_id == 1 ) {
-			jQuery('input[name=MKTSRC]').val('MKT-GD');
+		var page_id = jQuery('body').attr('class');
+		page_id = page_id.substr(site_id.indexOf('page-id-')+8,2);
+		page_id = page_id.trim();
+		var leadmkt = '';
+		console.log('site_id='+site_id);
+		console.log('page_id='+page_id);
+		// Asignar origen según sitio web
+		if ( site_id == 1 ) { // GD - grupodatco.com
+			if ( page_id == 43399 ) { // IOP
+				leadmkt = 'IOP';
+			}
+			else if ( page_id == 23431 ) { // IOT
+				leadmkt = 'IOT';
+			}
+			else if ( page_id == 26159 ) { // DSW
+				leadmkt = 'DSW';
+			}
+			else if ( page_id == 26163 ) { // DIT
+				leadmkt = 'DIT';
+			}
+			else if ( page_id == 26159 ) { // F
+				leadmkt = 'F';
+			}
+			else if ( page_id == 26161 ) { // I
+				leadmkt = 'I';
+			}
+			else if ( page_id == 26165 ) { // ST
+				leadmkt = 'ST';
+			}
+			else {
+				leadmkt = 'GD';
+			}
 		}
+		else if ( site_id == 5 ) { // silicanetworks.com (SCO)
+			leadmkt = 'SCO';
+		}
+		else if ( site_id == 16 ) { // smartime.com.ar
+			leadmkt = 'IOP';
+		}
+		else if ( site_id == 25 ) { // baitcon.com
+			leadmkt = 'B';
+		}
+		else if ( site_id == 26 ) { // redcapricornio.net
+			leadmkt = 'SIT';
+		}
+		else if ( site_id == 28 ) { // velocomfibra.com.ar
+			leadmkt = 'V';
+		}
+		else {
+			leadmkt = 'GD';
+		}
+		jQuery('input[name=LEADMKT]').val('MKT-'+leadmkt);
 	}
 
 
