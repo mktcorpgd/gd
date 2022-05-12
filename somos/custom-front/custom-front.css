@@ -474,8 +474,8 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-baitcon'] .padder,body.post-template-default.single #content article[class*='category-datco'] .padder,body.post-template-default.single #content article[class*='category-focus'] .padder,body.post-template-default.single #content article[class*='category-interservices'] .padder,body.post-template-default.single #content article[class*='category-sersat'] .padder,body.post-template-default.single #content article[class*='category-silica-networks'] .padder,body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 body.post-template-default.single #content article.category-baitcon h1{color:#89388D}
 body.post-template-default.single #content article.category-baitcon .padder{border-top-color:#89388D}
-body.post-template-default.single #content article.category-datco h1{color:#1C8DCE}
-body.post-template-default.single #content article.category-datco .padder{border-top-color:#1C8DCE}
+body.post-template-default.single #content article[class^='category-datco'] h1{color:#1C8DCE}
+body.post-template-default.single #content article[class^='category-datco'] .padder{border-top-color:#1C8DCE}
 body.post-template-default.single #content article.category-focus h1{color:#39457E}
 body.post-template-default.single #content article.category-focus .padder{border-top-color:#39457E}
 body.post-template-default.single #content article.category-interservices h1{color:#BF250D}
