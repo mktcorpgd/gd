@@ -475,16 +475,16 @@ body.post-template-default.single #content article.category-novedades[class*='ca
 body.page-id-11286 .padder,body.page-id-11289 .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 body.post-template-default.single #content article.category-novedades.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
 body.post-template-default.single #content article.category-novedades.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
-body.post-template-default.single #content article.category-novedades[class*='category-datco'] h1,body.page-id-11286 #content h1{color:#1C8DCE}
-body.post-template-default.single #content article.category-novedades[class*='category-datco'] .padder,body.page-id-11286 .padder{border-top-color:#1C8DCE}
-body.post-template-default.single #content article.category-novedades.category-focus h1{color:#39457E}
-body.post-template-default.single #content article.category-novedades.category-focus .padder{border-top-color:#39457E}
-body.post-template-default.single #content article.category-novedades.category-interservices h1{color:#BF250D}
-body.post-template-default.single #content article.category-novedades.category-interservices .padder{border-top-color:#BF250D}
-body.post-template-default.single #content article.category-novedades.category-sersat h1{color:#109B84}
-body.post-template-default.single #content article.category-novedades.category-sersat .padder{border-top-color:#109B84}
-body.post-template-default.single #content article.category-novedades.category-silica-networks h1{color:#497718}
-body.post-template-default.single #content article.category-novedades.category-silica-networks .padder{border-top-color:#497718}
+body.post-template-default.single #content article.category-novedades[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1{color:#1C8DCE}
+body.post-template-default.single #content article.category-novedades[class*='category-datco'] .padder,body.page-id-11286 .padder,body.page-id-11302 .padder{border-top-color:#1C8DCE}
+body.post-template-default.single #content article.category-novedades.category-focus h1,body.page-id-11299 #content h1{color:#39457E}
+body.post-template-default.single #content article.category-novedades.category-focus .padder,body.page-id-11299 #content .padder{border-top-color:#39457E}
+body.post-template-default.single #content article.category-novedades.category-interservices h1,body.page-id-11305 #content h1{color:#BF250D}
+body.post-template-default.single #content article.category-novedades.category-interservices .padder,body.page-id-11305 .padder{border-top-color:#BF250D}
+body.post-template-default.single #content article.category-novedades.category-sersat h1,body.page-id-11308 #content h1{color:#109B84}
+body.post-template-default.single #content article.category-novedades.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
+body.post-template-default.single #content article.category-novedades.category-silica-networks h1,body.page-id-11283 #content h1,body.page-id-15096 #content h1{color:#497718}
+body.post-template-default.single #content article.category-novedades.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
 body.post-template-default.single #content article.category-novedades.category-velocom h1{color:#AE1A57}
 body.post-template-default.single #content article.category-novedades.category-velocom .padder{border-top-color:#AE1A57}
 body.post-template-default.single #content article.category-novedades.category-grupo-datco h1,body.post-template-default.single #content article.category-novedades.category-iop h1,body.post-template-default.single #content article.category-novedades.category-grupo-datco h1{color:#0E316E}
