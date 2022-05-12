@@ -115,7 +115,6 @@ body.page-id-31537 .grid-gallery .grid-gallery-photos{border-radius:12px}
 	body.home .post-loop[class*='category-40gd']{border-radius:6px!important}
 	body.home .gp-blog-wrapper+.post-loop{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
 	body.single-event #content .eo-event-meta li:first-child{font-size:2em}
-	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:43% 57%}
 }
 
 /* Mobile */
