@@ -184,11 +184,13 @@ body.page-template-default .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop
 .gp-blog-wrapper section:hover h2 a,body:not(.single-event) article.event:hover h2 a{color:#F0582B;text-decoration:underline}
 .gp-blog-wrapper section h2,body:not(.single-event) article.event h2{display:block;margin-bottom:0;font-size:1.2em;line-height:1.3;font-weight:500}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section{background:#0E316E;cursor:pointer}
+body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11289{background:#89388D}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11286,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11302{background:#1C8DCE}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11299{background:#39457E}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11305{background:#BF250D}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11308{background:#109B84}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11283,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-15096{background:#497718}
+body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11277{background:#AE1A57}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) .post-loop .post-thumbnail img{background:none}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section:hover{background:#F0582B}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section h2{height:100%;margin-bottom:0;font-size:1.1em;line-height:1.15;font-weight:500}
