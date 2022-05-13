@@ -350,8 +350,6 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 body.single article.category-beneficios:not(.category-nuevo-beneficio) .gp-meta-cats{padding-left:0;border-left:none}
 body.single article:not([class*='category-politicas-procesos']) h1+.gp-entry-meta .gp-meta-cats{margin:1em 0 1em 12px;padding-left:15px;border-left:2px solid #EAEAEA}
 body.page h1+.gp-post-meta{margin:0 0 1em!important;width:100%;text-align:center}
-body.page h1+.gp-post-meta+#post-content{margin-top:1em}
-body.home h1+.gp-post-meta+#post-content{margin-top:0}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .post-loop .gp-meta-cats a{line-height:1.25;font-weight:400}
 .eo-event-meta a:not([rel='tag']){color:#666!important;text-decoration:none;pointer-events:none}
