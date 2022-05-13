@@ -146,10 +146,10 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu .sub-menu{transition:all .1s ease-in-out;display:block;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-top-left-radius:6px;border-top-right-radius:6px;padding:4px 0;top:36px!important;left:10px;visibility:hidden;opacity:0}
 #nav .menu .sub-menu li{line-height:1.2;text-align:left!important}
 #nav .menu .sub-menu li:last-child{border-bottom:0!important}
-#nav .menu li.menu-item-has-children:after,#nav .menu>li>.sub-menu>li>a>i{display:grid;align-items:center;width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 5 Pro';color:rgba(255,255,255,.6);position:absolute;top:2px;right:1px;cursor:pointer}
+#nav .menu li.menu-item-has-children:after,#nav .menu>li>.sub-menu>li>a>i{display:grid;align-items:center;width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 5 Pro';color:rgba(255,255,255,.6);position:absolute;top:2px;right:3px;cursor:pointer}
 #nav .menu li.menu-item-has-children:after{content:'\f107'}
 #nav .menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
-#nav .menu li.menu-item-has-children>a{padding-right:20px!important}
+#nav .menu li.menu-item-has-children>a{padding-right:17px!important}
 #nav .menu .sub-menu li a{margin:0;padding:.3em 1em .3em .5em;box-sizing:border-box!important;color:#FFFFFF!important;text-transform:none;font-weight:400;font-size:.9em;letter-spacing:0;border:none;border-radius:0}
 #nav .menu .sub-menu>li:last-child,#nav .menu .sub-menu>li:last-child a{border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 #nav .menu .sub-menu li a:hover,#nav .menu>li>.sub-menu>li.menu-item-has-children:hover>a{background:rgba(0,0,0,.1)!important;color:#FFFFFF!important}
