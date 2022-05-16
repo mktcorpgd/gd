@@ -405,7 +405,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe{display:block;width:100%;max-height:320px}
 
 /* Contenido */
-#post-content,.entry-content{margin-bottom:2em;overflow:visible}
+#post-content,.entry-content{margin-top:1em;margin-bottom:2em;overflow:visible}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 #content h1{margin-bottom:.2em!important;font-weight:500!important;line-height:1.15!important;color:#333333}
 .neosans li{font-size:1.1em!important}
