@@ -856,7 +856,7 @@ section[class*='regional'] .post-text h2:before,section[class*='argentina'][clas
 section[class*='category-40gd'] .post-text h2:before{top:30px}
 
 /* Home */
-body.home #post-content{margin-bottom:0}
+body.home #post-content{margin-top:0;margin-bottom:0}
 body.home .padder,body.archive .padder,body.search .padder{padding:0!important;background:none}
 body.home #content-wrapper,body.archive #content-wrapper,body.search #content-wrapper{margin-bottom:0!important}
 body.home .sc-tab-panel{margin-bottom:0;padding:0;background:none}
