@@ -14,8 +14,6 @@ body.single-avada_portfolio .fusion-page-title-bar h1,body.single-avada_portfoli
 #content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#01A7B7!important}
 .fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#01A7B7!important}
 .fusion-header,#wrapper.header-transparent .fusion-header.bkg,#wrapper.header-transparent .fusion-header.bkg{background:#01A7B7!important}
-.fusion-fullwidth.fullwidth-box.gradient-smartime:after{background:linear-gradient(270deg,rgba(154,97,158,0) 50%,#01A7B7)!important}
-.fusion-fullwidth.fullwidth-box.video-background.gradient-smartime:after{background:linear-gradient(270deg,rgba(0,0,0,.4) 50%,#01A7B7)!important}
 .fusion-header .sub-menu{background:#9A619E!important}
 body:not(.home) .fusion-posts-container article.category-c-productos-servicios .fusion-post-content{padding-bottom:53px!important}
 .w80 .wpcf7 .wpcf7-submit:hover{background:#01A7B7!important;border-color:#FFFFFF!important}
@@ -38,6 +36,4 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 
 /* Mobile */
 @media (max-width:920px) {
-    .fusion-fullwidth.fullwidth-box.gradient-smartime:after{background:linear-gradient(0deg,rgba(154,97,158,0) 50%,#01A7B7)!important}
-    .fusion-fullwidth.fullwidth-box.video-background.gradient-smartime:after{background:linear-gradient(0deg,rgba(0,0,0,.4) 50%,#01A7B7)!important}
 }
