@@ -32,9 +32,6 @@ input[type='submit']:hover,.wpcf7-submit:hover,.fusion-blog-layout-grid .fusion-
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type="submit"],.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type="submit"],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type="submit"],.wpcf7-form input[type="submit"],.wpcf7-submit,input.button-default{background:#F0582B;color:#FFFFFF}
 .bkg-img-color{background-color:#F0582B}
 .gradient-gray{background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.2) 200%)}
-.fusion-fullwidth.fullwidth-box.gradient-gd:after{background:linear-gradient(270deg,rgba(14,49,110,.4) 50%,rgba(14,49,110,1))!important}
-.fusion-fullwidth.fullwidth-box.video-background.gradient-gd:after{background:linear-gradient(270deg,rgba(0,0,0,.4) 50%,rgba(14,49,110,1))!important}
-.fusion-fullwidth.fullwidth-box.gradient-gd:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-gd:after{background:linear-gradient(270deg,rgba(0,0,0,.4) 60%,rgba(14,49,110,1) 100%)!important}
 .w80 .wpcf7 .wpcf7-submit:hover{border-color:#FFFFFF!important}
 .fusion-highlight,.datasheet-link{color:#F0582B}
 .post-content p strong a:hover,.post-content p>a:hover,.post-content p>a:active,.post-content ol li a:hover,.post-content ol li a:active,.post-content ul li a:hover,.post-content ul li a:active,.wpcf7 .fusion-one-full a:hover,.wpcf7 .fusion-one-full a:active{color:#1F4483}
@@ -56,7 +53,6 @@ input[type='submit']:hover,.wpcf7-submit:hover,.fusion-blog-layout-grid .fusion-
 .brand-block>.fusion-column-wrapper>.fusion-column-content-centered{background:#0E316E}
 #wrapper.header-transparent .fusion-header.bkg{background:#0E316E!important}
 .sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck #text-7{margin-top:0}
-.box-img:after,body.home .tfs-slider li:not(.slide-id-43450) .background-image:after{background:linear-gradient(270deg,rgba(0,0,0,.6) 50%,rgba(14,49,110,1) 100%)!important}
 .box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:#F0582B!important}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#1F4483!important}
 body.home #wrapper #main .fusion-post-grid.category-blog .blog-shortcode-post-title{font-size:1.4em}
@@ -126,7 +122,4 @@ body.branding .fusion-modal.contacto-rapido .fusion-fullwidth>.fusion-builder-ro
 	.fusion-portfolio-post[class*='sitios4_0-'] h2 a{padding-right:60px!important}
 	#menu-footer-soluciones-2-2{margin-top:0}
 	#wrapper > div.fusion-footer > footer.fusion-footer-widget-area.fusion-widget-area > div > div > div:nth-child(1),#menu-footer-soluciones-1-2{margin-bottom:0!important}
-	.box-img:after,body.home .tfs-slider .background-image:after{background:linear-gradient(0deg,rgba(0,0,0,.4) 50%,rgba(14,49,110,1) 100%)!important}
-	.fusion-fullwidth.fullwidth-box.gradient-gd:after{background:linear-gradient(0deg,rgba(14,49,110,.4) 50%,rgba(14,49,110,1))!important}
-	.fusion-fullwidth.fullwidth-box.video-background.gradient-gd:after{background:linear-gradient(0deg,rgba(0,0,0,.4) 50%,rgba(14,49,110,1))!important}
 }
