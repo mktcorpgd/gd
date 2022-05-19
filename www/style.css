@@ -892,7 +892,7 @@ a[rel='author']:hover{text-decoration:none!important}
 .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:#FFFFFF}
 .fusion-button.button-flat:not(.button-left):not(.button-right),.fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.wpcf7-submit,#main #comment-submit{box-shadow:0 2px 4px rgba(0,0,0,.1)!important}
 .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#FFFFFF;font-weight:700}
+.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#FFFFFF;font-weight:600}
 .fusion-header-wrapper .fusion-button:not(.button-custom):not(.menu-text){border-width:0}
 .box-company h5,.fusion-one-third.box-company h5{font-size:1.2em!important;margin:0!important}
 .box-company .fusion-title-size-five{margin-bottom:0!important}
