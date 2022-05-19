@@ -1063,7 +1063,7 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 .fusion-footer-copyright-area{padding-top:15px!important;padding-bottom:30px!important;background:#222222!important}
 .fusion-footer-copyright-area a:not(.fusion-social-network-icon):hover,.fusion-copyright-notice p a:hover{text-decoration:underline}
 .fusion-copyright-notice,.fusion-copyright-notice a{color:#EAEAEA!important}
-.fusion-copyright-notice>div{display:grid;grid-template:50% 50%}
+.fusion-copyright-notice>div{display:grid;grid-template-columns:50% 50%}
 .fusion-copyright-notice>div>div:nth-child(1){text-align:left}
 .fusion-copyright-notice>div>div:nth-child(2){text-align:right;font-size:.8em}
 #footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
