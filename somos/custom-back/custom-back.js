@@ -29,10 +29,6 @@ jQuery(document).ready(function(){
 	}
 
 
-	// USUARIOS - Convertir en campos obligatorios
-	jQuery('#createuser .form-field.form-required+.form-field:not(.form-required),#createuser .form-field.form-required+.form-field:not(.form-required)+.form-field:not(.form-required),#createuser .user-job-title-wrap').addClass('form-required');
-
-
 	// USUARIOS - Leyenda para contraseña
 	jQuery('#password td').append('<p class="description"><strong>Esta contraseña no reemplaza la de red corporativa.</strong> <a href="https://somos.grupodatco.com/it/correo-electronico/cambiar-la-contrasena-corporativa/">Conocé cómo cambiarla</a>.</p>');
 
