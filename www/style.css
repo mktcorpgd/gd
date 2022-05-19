@@ -478,7 +478,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important}
 
 /* Footer */
-.fusion-footer-widget-area{padding:32px!important}
+.fusion-footer-widget-area{padding:32px!important;background:#222222!important}
 .fusion-widget-area .sub-menu{margin-left:0!important}
 .fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:80%;text-transform:uppercase}
 .fusion-footer-widget-area p a{text-decoration:underline}
@@ -653,14 +653,14 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 /* Overlays */
 body:not(.home) .fusion-fullwidth.fullwidth-box.header-transparent:not(.no-overlay):after,
 .fusion-fullwidth.fullwidth-box:not(.no-overlay).video-background:after,
-.fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video-image:after,.fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video:after,
+.fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video-image:after,
 .project-description>h3+.radius2x:after,
 .fusion-fullwidth.hero-img:after,
 .fusion-fullwidth.fullwidth-box.tfs-slider:after,
 .tfs-slider li .background:after,.tfs-slider li .mobile_video_image:after{content:'';display:block!important;width:100%;height:100%;position:absolute;left:0;bottom:0;width:100%}
 .fusion-fullwidth.fullwidth-box.header-transparent:not(.no-overlay):not(.fusion-builder-row-2):not(.video-background):after,
 .fusion-fullwidth.fullwidth-box:not(.no-overlay).video-background:after,
-.fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video-image:after,.fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video:after,
+.fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video-image:after,
 .project-description>h3+.radius2x:after,.fusion-fullwidth.hero-img:after,.fusion-fullwidth.fullwidth-box.tfs-slider:after,.tfs-slider li:not(.slide-id-43450) .background:after,.tfs-slider li .mobile_video_image:after{background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.9));z-index:2}
 .fusion-fullwidth.fullwidth-box.overlay-darker:after{background:rgba(0,0,0,.6)!important}
 .fusion-fullwidth.fullwidth-box.overlay-gd:after{background:linear-gradient(180deg,rgba(117,202,243,.1),rgba(47,72,148,1))!important}
@@ -1060,8 +1060,9 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 .no-margin-heading.fusion-content-boxes .content-container h5{margin:5px 0;font-size:1.2em}
 .no-margin-heading.fusion-content-boxes.fusion-columns-3 .fusion-column{margin-bottom:1em}
 .wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text select,.fusion-copyright-content .fusion-one-half:last-of-type{text-align:right}
-.fusion-footer-copyright-area{padding-top:15px!important;padding-bottom:30px!important;background:#FEFEFE!important}
+.fusion-footer-copyright-area{padding-top:15px!important;padding-bottom:30px!important;background:#222222!important}
 .fusion-footer-copyright-area a:not(.fusion-social-network-icon):hover,.fusion-copyright-notice p a:hover{text-decoration:underline}
+.fusion-copyright-notice,.fusion-copyright-notice a{color:#EAEAEA!important}
 #footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
 #reviews input#submit,.button-default,.button.default,.fusion-button-default,.wpcf7 input[type='submit'],.wpcf7-submit,.button-round,.fusion-.fusion-button-round,.fusion-button-round,.button-round.button-xlarge,.fusion-.fusion-button-round.button-xlarge,.fusion-button-round.button-xlarge{border-radius:12px!important}
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.comment-form input[type="submit"],.fusion-button-default-size,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type="submit"],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type="submit"],.wpcf7-form input[type="submit"],.wpcf7-submit{padding:.6em 1.2em;line-height:1.1;font-size:1.1em;font-weight:700;border:none}
