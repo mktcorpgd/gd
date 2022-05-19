@@ -552,7 +552,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-google-map .infoBox .fusion-info-box{border-radius:6px!important;box-shadow:0 0 24px 0 rgba(0,0,0,.4)!important;font-family:'Open-Sans',sans-serif;font-size:14px!important;line-height:1.6em!important;padding:12px 18px!important;white-space:nowrap}
 .fusion-google-map .infoBox .fusion-info-box span{display:block!important}
 .fusion-google-map .infoBox .fusion-info-box strong{display:block;font-family:'Neo-Sans',sans-serif;font-size:18px;font-weight:500!important}
-.fusion-google-map .infoBox img{margin:4px!important;opacity:.4!important}
+.fusion-google-map .infoBox img{margin:4px!important;opacity:.4!important;border-radius:12px}
 .fusion-google-map .infoBox .fusion-info-box a{display:inline-block;color:#FFFFFF!important;text-decoration:none;line-height:140%}
 .fusion-google-map .infoBox .fusion-info-box a:hover{color:#FFFFFF!important;text-decoration:underline}
 .fusion-google-map .infoBox .fa{font-size:16px;position:relative;top:2px}
