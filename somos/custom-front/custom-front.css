@@ -1347,7 +1347,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body #content span.big-cap{padding-top:14px;font-size:104px;line-height:65px}
 	body.single .gp-meta-date{margin-bottom:.4em;font-size:16px;line-height:1.5}
 	h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a{margin:4px 4px 0 0!important}
-	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag'],.post-loop .gp-meta-date{margin-bottom:0!important;font-size:.8rem}
+	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag'],.post-loop .gp-meta-date{margin-bottom:0!important}
 	#header{min-height:64px;padding:0!important;overflow:hidden}
 	#header .is-search-form.is-form-id-26276{margin:0 auto;padding:0!important;width:70%}
 	#header .is-search-form.is-form-id-26276 input[type='text']{width:100%!important;position:relative;top:8px;left:0;color:#FFFFFF!important;font-size:1.1em!important;line-height:1!important;background:rgba(0,0,0,.2)!important;border:0!important;border-radius:32px!important;vertical-align:middle}
@@ -1370,7 +1370,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-loop .post-text h2:before{width:1em!important;height:1em!important}
 	.post-loop .post-thumbnail+.post-text h2:before{top:-16px!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
-	.post-loop .gp-loop-meta{font-size:1rem}
+	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-right:.4em;margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a:before{width:18px;height:18px;top:9px}
 	.padder.content-post-thumbnail #post-content .ui-tabs{margin:30px -20px}
