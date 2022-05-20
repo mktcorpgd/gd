@@ -31,7 +31,7 @@ input:not([type='checkbox']):not([type='radio']),select,textarea,button{outline:
 sup{line-height:1!important}
 select{color:#666666!important;cursor:pointer}
 select:not(.highlight) option:not(:checked),.wpcf7-select.selected{color:#333333!important}
-.post-content p b,.post-content p strong{font-weight:700!important}
+.post-content p b,.post-content p strong{font-weight:600!important}
 iframe{width:100%}
 video{outline:none!important;cursor:pointer}
 h1 em,h2 em,h3 em,h4 em,h5 em,h6 em{font-style:normal!important}
@@ -445,7 +445,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 #content .button-default:hover{text-decoration:none}
 .fusion-button.button-flat:not(.no-text),.wpcf7 input[type='submit']{margin-left:auto;margin-right:auto;border-radius:6px 6px 12px 12px!important}
 .fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text){display:inline-block;margin-right:10px;margin-bottom:10px}
-.fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text)>span{font-weight:700}
+.fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text)>span{font-weight:600}
 .wpcf7 .wpcf7-submit{font-family:'Open-Sans',sans-serif!important}
 .modal-.wpcf7 .wpcf7-submit{margin-bottom:0}
 #wpcf7-f40006-o1 .wpcf7-response-output.success,#wpcf7-f40006-p39954-o2 .wpcf7-response-output.success{margin-bottom:0!important}
