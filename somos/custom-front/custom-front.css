@@ -1372,7 +1372,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-right:.4em;margin-bottom:.4em}
-	body.home #post-content .ui-tabs .ui-tabs-nav li a:before{width:22px;height:22px;top:10px}
+	body.home #post-content .ui-tabs .ui-tabs-nav li a:before{width:18px;height:18px;top:9px}
 	.padder.content-post-thumbnail #post-content .ui-tabs{margin:30px -20px}
 	.sub-menu li{margin-left:0!important}
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
@@ -1416,7 +1416,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#text-2.widget ul li.notoggle{padding-left:11px}
 	.textwidget h3.toggle a{padding-left:10px}
 	#text-2.widget .toggle-box ul:not(.ui-tabs-nav){margin:5px 0 5px 12px}
-	.ui-tabs .ui-tabs-nav li a{font-size:1em!important;text-align:center}
+	.ui-tabs .ui-tabs-nav li a{font-size:.825em!important;text-align:center}
 	.sc-tabs .sc-tab-panel,.textwidget .toggle-box>div{font-size:1em!important;line-height:1.5!important}
 	.widget_ref h6{font-size:18px;margin:20px 0 10px}
 	#custom_html-10 .widget_ref a{font-size:18px}
