@@ -1365,7 +1365,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-responsive .gp-blog-wrapper section{border-radius:12px!important}
 	.gp-responsive .gp-blog-wrapper section.category-40gd{border-radius:12px 12px 6px 6px!important}
 	.gp-responsive .gp-blog-wrapper+section.category-40gd{border-radius:6px 6px 12px 12px!important}
-	.post-loop .post-text p{width:100%;margin-bottom:0!important;padding:0;line-height:1.5!important}
+	#content .gp-blog-wrapper .post-loop .post-text p,.post-loop .post-text p{width:100%;margin-bottom:0!important;padding:0;line-height:1.5!important}
 	.post-loop .post-text h2{padding-right:0!important;font-size:1.4em!important;line-height:1.15!important}
 	.post-loop .post-text h2:before{width:1em!important;height:1em!important}
 	.post-loop .post-thumbnail+.post-text h2:before{top:-16px!important}
