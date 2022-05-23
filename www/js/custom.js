@@ -449,7 +449,7 @@ jQuery(document).ready(function() {
 		page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
 		page_id = page_id.trim();
 		var leadmkt = '';
-		var typemkt = jQuery('.wpcf7').attr('id');
+		var idform = jQuery('.wpcf7').attr('id');
 		// Asignar origen según sitio web
 		if ( site_id == 1 ) { // GD - grupodatco.com
 			if ( page_id == 43399 ) { // IOP
@@ -478,15 +478,17 @@ jQuery(document).ready(function() {
 			}
 		}
 		else if ( site_id == 5 ) { // silicanetworks.com
-			typemkt = typemkt.substring(typemkt.indexOf('wpcf7-')+6,typemkt.length);
-			console.log(typemkt);
-			typemkt = typemkt.substring(0,typemkt.indexOf('-'));
-			console.log(typemkt);
-			if ( typemkt == 'f31529' ) {
-				typemkt = 'SCO-Recurso'
+			leadmkt = 'SCO'
+			idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
+			idform = idform.substring(0,idform.indexOf('-'));
+			var src = jQuery('input[name*="SRC"]').val();
+			if ( idform == 'f31529' ) {
+				src = src+'-Recurso';
+				jQuery('input[name*="SRC"]').val(src);
 			}
 			else {
-				leadmkt = 'SCO-Contacto';
+				src = src+'-Contacto';
+				jQuery('input[name*="SRC"]').val(src);
 			}
 		}
 		else if ( site_id == 16 ) { // smartime.com.ar
