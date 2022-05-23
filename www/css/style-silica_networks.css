@@ -78,6 +78,7 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .fusion-portfolio-element.no-featured-image .fusion-portfolio-post .fusion-portfolio-content-wrapper h2 a{padding-top:0!important;padding-left:8px!important;padding-bottom:0!important}
 .box-buttons .fusion-portfolio-element.no-featured-image article .fusion-post-content:before{padding:0 28px}
 .box-buttons .fusion-portfolio-element.no-featured-image .fusion-post-content p{margin-left:6px;padding-left:12px;border-left:8px solid rgba(0,0,0,.2);border-radius:6px}
+.post-content div blockquote{border-radius:0 32px;background:#87B227;border:none!important}
 
 /* Desktop */
 @media (min-width:920px) {
