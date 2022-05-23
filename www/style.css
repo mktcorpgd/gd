@@ -715,6 +715,7 @@ body.archive .fusion-portfolio-layout-grid .fusion-post-content p{padding-left:0
 .post-content .fusion-portfolio-content ul li{margin-bottom:5px;padding-right:24px;text-align:left!important;font-size:.85em;line-height:1.3;font-family:'Open-Sans',sans-serif!important}
 #wrapper #main .project-content .blog-shortcode-post-title{font-size:1.2em}
 .fusion-portfolio-grid.fusion-portfolio-text{padding:1px}
+.fusion-portfolio-element:not(.no-featured-image) .fusion-portfolio-post{border-left:4px solid}
 
 /* Blog */
 .fusion-blog-layout-grid article.fusion-post-grid.has-post-thumbnail h2{margin:0!important;font-weight:500!important}

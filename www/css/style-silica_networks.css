@@ -59,8 +59,8 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel .panel-heading h3{color:#AADC23}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel{border-top-color:#88B226}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel .panel-heading h3{color:#88B226}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel{border-top-color:#497719}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel .panel-heading h3{color:#497719}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel{border-top-color:#497718}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel .panel-heading h3{color:#497718}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel{border-top-color:#324B1C}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel .panel-heading h3{color:#324B1C}
 .fusion-pricing-table .list-group .list-group-item,.fusion-pricing-table .panel-wrapper:hover .fusion-panel{background:#FFFFFF!important}
@@ -68,14 +68,14 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
 .fusion-tabs:not(.tab-filters) .nav{background:none;box-sizing:border-box}
 .fusion-tabs:not(.tab-filters):not(.clean) .nav-tabs{border-bottom:1px solid #EAEAEA!important}
-.fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#aadc23,#497719)!important}
+.fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#AADC23,#497718)!important}
 .fusion-tabs .nav-tabs li a{background:none!important}
 .fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-modal.contacto-rapido .modal-title{color:#FFFFFF!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading{font-size:1.3em!important;font-weight:400!important}
 .fusion-counters-box .fusion-counter-box .counter-box-container{padding:5px 20px 20px}
 .fusion-footer-widget-area{background-color:#222222!important}
 .fusion-tabs.clean .nav-tabs li{border-radius:12px;overflow:hidden}
-
+.fusion-portfolio-element:not(.no-featured-image) .fusion-portfolio-post{border-left-color:#87B227}
 
 /* Desktop */
 @media (min-width:920px) {
