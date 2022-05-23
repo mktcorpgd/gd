@@ -75,6 +75,8 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .fusion-tabs.clean .nav-tabs li{border-radius:12px;overflow:hidden}
 .fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid rgba(73,119,24,0.6)!important}
 .fusion-portfolio-element.no-featured-image .fusion-portfolio-post .fusion-portfolio-content-wrapper{border-left:12px solid rgba(73,119,24,0.6)!important}
+.fusion-portfolio-element.no-featured-image .fusion-portfolio-post .fusion-portfolio-content-wrapper h2{    border-left:12px solid #87B227!important;border-radius:6px;margin-left:-4px!important}
+.fusion-portfolio-element.no-featured-image .fusion-portfolio-post .fusion-portfolio-content-wrapper h2 a{padding-left:12px!important}
 
 /* Desktop */
 @media (min-width:920px) {
