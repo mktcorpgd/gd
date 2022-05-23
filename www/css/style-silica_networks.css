@@ -42,7 +42,7 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#87B227}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#87B227!important}
 #text-11{margin-bottom:20px!important}
-.fusion-fullwidth.fullwidth-box.bg-parallax-parent{background-image:url('https://www.silicanetworks.com/wp-content/uploads/sites/5/bkg-s-servicios-2.jpg')!important;z-index:initial!important}
+.fusion-fullwidth.fullwidth-box.bg-parallax-parent{z-index:initial!important;overflow:visible}
 .fusion-fullwidth.fullwidth-box.bg-parallax-parent .fusion-column-wrapper{background-size:contain!important}
 .fusion-fullwidth .parallax-inner{background-color:transparent!important;z-index:0!important}
 #wrapper .full-boxed-pricing .panel-wrapper{padding:0 1em}
