@@ -502,6 +502,13 @@ jQuery(document).ready(function() {
 		}
 		else if ( site_id == 25 ) { // baitcon.com
 			leadmkt = 'B';
+			if ( idform == 'f27563' ) {
+				src = src+'+Recurso';
+			}
+			else {
+				src = src+'+Contacto';
+			}
+			jQuery('input[name*="SRC"]').val(src);	
 		}
 		else if ( site_id == 26 ) { // redcapricornio.net
 			leadmkt = 'SIT';
