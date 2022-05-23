@@ -483,11 +483,11 @@ jQuery(document).ready(function() {
 			idform = idform.substring(0,idform.indexOf('-'));
 			var src = jQuery('input[name*="SRC"]').val();
 			if ( idform == 'f31529' ) {
-				src = src+'-Recurso';
+				src = src+'+Recurso';
 				jQuery('input[name*="SRC"]').val(src);
 			}
 			else {
-				src = src+'-Contacto';
+				src = src+'+Contacto';
 				jQuery('input[name*="SRC"]').val(src);
 			}
 		}
