@@ -581,6 +581,7 @@ body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_
 .fusion-button.button-flat.chevron-down i{margin:0!important;font-size:1.4em}
 #bbp_user_edit_submit,.bbp-submit-wrapper .button,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.single_add_to_cart_button,.wpcf7-form .wpcf7-submit.button-small,.wpcf7-form .wpcf7-submit.fusion-button-small{padding:.6em .8em;font-size:.9em;line-height:1}
 .fusion-button:not(.button-custom):not(.menu-text):focus span{color:#FFFFFF!important}
+.fusion-fullwidth.fullwidth-box.bg-parallax-parent{overflow:visible}
 
 /* Slider */
 .flex-viewport{height:auto!important}
