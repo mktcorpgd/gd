@@ -1250,7 +1250,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 
 /* Desktop */
 @media (min-width:960px) {
-	h1,.page-title{font-size:2.4em!important}
+	h1,.page-title{font-size:2em!important}
 	li.only-mobile,#mobile-nav-button{display:none!important}
 	#nav .menu>li{margin:0!important}
 	.is-search-form.is-form-id-26276 input[type='text']{margin-bottom:0!important;box-shadow:0 10px 10px -8px rgba(0,0,0,.4)!important}
