@@ -450,6 +450,9 @@ jQuery(document).ready(function() {
 		page_id = page_id.trim();
 		var leadmkt = '';
 		var idform = jQuery('.wpcf7').attr('id');
+		idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
+		idform = idform.substring(0,idform.indexOf('-'));
+		var src = jQuery('input[name*="SRC"]').val();
 		// Asignar origen según sitio web
 		if ( site_id == 1 ) { // GD - grupodatco.com
 			if ( page_id == 43399 ) { // IOP
@@ -475,21 +478,24 @@ jQuery(document).ready(function() {
 			}
 			else {
 				leadmkt = 'GD';
+				if ( idform == 'f35652' ) {
+					src = src+'+Recurso';
+				}
+				else {
+					src = src+'+Contacto';
+				}
+				jQuery('input[name*="SRC"]').val(src);	
 			}
 		}
 		else if ( site_id == 5 ) { // silicanetworks.com
 			leadmkt = 'SCO'
-			idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
-			idform = idform.substring(0,idform.indexOf('-'));
-			var src = jQuery('input[name*="SRC"]').val();
 			if ( idform == 'f31529' ) {
 				src = src+'+Recurso';
-				jQuery('input[name*="SRC"]').val(src);
 			}
 			else {
 				src = src+'+Contacto';
-				jQuery('input[name*="SRC"]').val(src);
 			}
+			jQuery('input[name*="SRC"]').val(src);
 		}
 		else if ( site_id == 16 ) { // smartime.com.ar
 			leadmkt = 'IOP';
