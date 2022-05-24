@@ -65,6 +65,7 @@ body.single .post-content article.post h3{font-size:1.6em!important}
 .list-style-none .fusion-text ul,.list-style-none .fusion-text ul li{margin:0;padding:0;list-style:none}
 .nicescroll-rails{background:rgba(0,0,0,.4)!important}
 .nicescroll-cursors{background:rgba(255,255,255,.8)!important;border-radius:0!important}
+.fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-grid{display:inline-block!important}
 
 /* Íconos */
 .fusion-icon-search:before{content:'\f002';font-family:'Font Awesome 5 Pro'}
