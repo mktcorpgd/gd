@@ -179,6 +179,9 @@ jQuery(document).ready(function() {
 			if ( floor.length > 0 ) {
 				arr_address[1] = 'Piso '+floor;
 			}
+			else {
+				arr_address[1] = '';
+			}
 			var address = arr_address.join(';');
 			jQuery('input[name=ADDRESS]').val(address);
 			jQuery('.tpdata.address').html(address.replace(/;/g, '<br />'));
