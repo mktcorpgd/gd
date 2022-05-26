@@ -670,7 +670,7 @@ body:not(.home) .fusion-fullwidth.fullwidth-box.header-transparent:not(.no-overl
 .fusion-portfolio-content-wrapper .fusion-portfolio-content{margin:0!important}
 .fusion-blog-shortcode .fusion-portfolio-grid .fusion-post-content-wrapper{background-color:#FFFFFF}
 .fusion-post-content-wrapper>div>div>p a i{font-size:14px;margin-left:2px;opacity:.3}
-.fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{color:#333333!important;padding:16px 20px 8px!important}
+.fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{color:#333333!important;padding:12px 20px 8px!important}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:16px 20px 0!important}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta + h2 a{padding-top:0!important}
 #main .post h2 a{color:#333333}
