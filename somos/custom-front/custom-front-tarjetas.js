@@ -180,7 +180,7 @@ jQuery(document).ready(function() {
 				arr_address[1] = 'Piso '+floor;
 			}
 			else {
-				arr_address[1] = '-';
+				arr_address[1] = '';
 			}
 			var address = arr_address.join(';');
 			jQuery('input[name=ADDRESS]').val(address);
