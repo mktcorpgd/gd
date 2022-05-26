@@ -176,6 +176,7 @@ jQuery(document).ready(function() {
 		if ( span_class == 'floor' ) {
 			var floor = jQuery(this).val();
 			var arr_address = jQuery('input[name=ADDRESS]').val().split(';');
+			console.log(floor);
 			arr_address[1] = 'Piso '+floor;
 			var address = arr_address.join(';');
 			jQuery('input[name=ADDRESS]').val(address);
