@@ -25,8 +25,8 @@ body.page-id-31537 .yotu-button-prs{padding:.4em .9em!important;font-family:'Neo
 body.page-id-31537 .yotu-playlist .yotu-pagination a.yotu-active::after{color:#999999;top:-3px}
 body.page-id-31537 .yotu-button-prs:hover{text-decoration:none!important}
 body.page-id-31537 .youtube .yotu-wrapper-player{padding-bottom:20px}
-body.page-id-31537 .yotu-mode-grid ul li{transition:all .1s ease-in-out!important;margin:0;padding:0;background:#D5523C;border-radius:12px;box-shadow:0 2px 0 0 rgba(0,0,0,.2);overflow:hidden}
-body.page-id-31537 .yotu-mode-grid ul li:hover{box-shadow:0 14px 24px -12px #D5523C;transform:translateY(-2px)}
+body.page-id-31537 .yotu-mode-grid ul li{transition:all .1s ease-in-out!important;margin:0;padding:0;background:#F0582B;border-radius:12px;box-shadow:0 2px 0 0 rgba(0,0,0,.2);overflow:hidden}
+body.page-id-31537 .yotu-mode-grid ul li:hover{box-shadow:0 14px 24px -12px #F0582B;transform:translateY(-2px)}
 body.page-id-31537 .yotu-mode-grid .yotu-video-title{padding-top:5px!important;padding-left:0!important}
 body.page-id-31537 .yotu-videos>ul{margin-bottom:0!important}
 body.page-id-31537 #content .yotu-videos .yotu-video h3{font-size:1.1em!important}
@@ -78,7 +78,7 @@ body.page-id-31537 .message{font-size:4rem;display:none;padding:1rem}
 body.page-id-31537 .emoji{padding:0 .25rem}
 body.page-id-31537 #menu40gd{width:100%;text-align:center;position:fixed;left:15px;z-index:90}
 body.page-id-31537 #menu40gd ul,body.page-id-31537 #menu40gd ul li{display:inline-block;margin:0;padding:0;list-style:none}
-body.page-id-31537 #menu40gd ul{padding:.5em!important;font-family:'Neo-Sans',sans-serif;font-weight:500;box-shadow:0 2px 8px 0 rgba(0,0,0,.4);background:#D5523C;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;font-size:1.1em!important;text-align:center;transition:top .1s ease-in-out}
+body.page-id-31537 #menu40gd ul{padding:.5em!important;font-family:'Neo-Sans',sans-serif;font-weight:500;box-shadow:0 2px 8px 0 rgba(0,0,0,.4);background:#F0582B;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;font-size:1.1em!important;text-align:center;transition:top .1s ease-in-out}
 body.page-id-31537 #menu40gd ul li:not(:last-child){border-right:2px solid rgba(255,255,255,.2)}
 body.page-id-31537 #menu40gd a{margin:.2em .1em;padding:.3em .4em!important;color:#FFFFFF;font-weight:400;background:none}
 body.page-id-31537 #menu40gd a:hover{text-decoration:underline}
