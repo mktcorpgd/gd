@@ -29,7 +29,7 @@ input[type='radio']:checked:before,input[type='checkbox']:checked:before{width:2
 #wp-submit{float:none;display:inline;padding:.5em .8em;font-family:'Neo-Sans',sans-serif;font-size:1.3em;line-height:1.25;font-weight:500;white-space:normal;text-shadow:none;border-radius:12px}
 #wlcms-login-wrapper{background:none}
 #nav{text-align:center}
-.wp-core-ui .button-group.button-large .button,.wp-core-ui .button.button-large{background:#D5523C!important;border:0!important;border-radius:12px;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important}
+.wp-core-ui .button-group.button-large .button,.wp-core-ui .button.button-large{background:#F0582B!important;border:0!important;border-radius:12px;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important}
 .wp-core-ui .button-group.button-large .button:hover,.wp-core-ui .button.button-large:hover{background:#1F4483!important;transform:translateY(1px)}
 .wp-core-ui .button-group.button-large .button:active,.wp-core-ui .button.button-large:active{transform:translateY(0)}
 @media only screen and (min-width:800px){
