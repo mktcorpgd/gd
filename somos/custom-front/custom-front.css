@@ -359,7 +359,7 @@ body.page h1+.gp-post-meta{margin:0 0 1em!important;width:100%;text-align:center
 .gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;line-height:1.25;font-style:normal;font-weight:400}
 .gp-meta-comments{margin-right:0;margin-left:.3rem;padding-left:.5rem;border-left:1px solid #EAEAEA;font-family:'Font Awesome 5 Pro','Open-Sans',sans-serif}
 #content .gp-meta-comments a:hover{color:#F0582B;text-decoration:none!important}
-.eo-event-date{font-size:.9em;font-family:'Neo-Sans',sans-serif;font-weight:500}
+.eo-event-date{margin:.2em 0;font-family:'Neo-Sans',sans-serif;font-weight:500}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-patrocinamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-otros-eventos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{color:#FFFFFF!important}
 article.event-category-propios .eo-event-meta>li a[rel='tag']{color:#0E316E!important}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#0E316E;color:#FFFFFF!important}
@@ -1162,6 +1162,7 @@ body:not(.single-event) .eo-event-meta li a{font-weight:400}
 body.archive .eo-event-meta li a[rel='tag'],body.search .eo-event-meta li a[rel='tag']{display:inline-block;margin-top:5px!important}
 body.archive .eo-event-meta li span[itemprop='location'],body.search .eo-event-meta li span[itemprop='location']{font-size:.9em;line-height:1.25}
 body.archive .eo-event-meta li,body.archive .eo-event-meta li a,body.search .eo-event-meta li,body.search .eo-event-meta li a{margin:0!important;line-height:1!important}
+body.archive .eo-event-meta li:first-child{margin:.2em 0!important;font-size:.9em}
 
 /* Footer */
 #footer{background:#F0F0ED!important;margin-top:0!important;padding:0}

@@ -644,15 +644,6 @@ jQuery(document).ready(function() {
 	jQuery('.yotu-pagination-more').text('Ver más');
 
 
-	// BUSQUEDAS LABORALES - Cambio de título en página de archivo
-	if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2797') ) {
-		jQuery('.page-title').text('Búsquedas laborales activas');
-	}
-	else if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2798') ) {
-		jQuery('.page-title').text('Búsquedas laborales finalizadas');
-	}
-
-
 	// BÚSQUEDAS LABORALES - Agregar título, UN y botón CTA
 	if ( jQuery('article').hasClass('category-busquedas-laborales') ) {
 		var post_title = jQuery('.page-title').text();
