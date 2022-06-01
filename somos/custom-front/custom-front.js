@@ -491,9 +491,7 @@ jQuery(document).ready(function() {
 			return false;
 		}
 	});
-	console.log('obj_scosto='+obj_scosto)
-	var limit_obj = jQuery('.MERCH1 option').size();
-	console.log('limit_obj='+limit_obj)
+	var limit_obj = obj_scosto*2-2;
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
