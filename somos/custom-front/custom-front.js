@@ -492,8 +492,8 @@ jQuery(document).ready(function() {
 		}
 	});
 	console.log('obj_scosto='+obj_scosto)
-	var limit_obj_scosto = jQuery('.MERCH1 option').size();
-	console.log('limit_obj_scosto='+limit_obj_scosto)
+	var limit_obj = jQuery('.MERCH1 option').size();
+	console.log('limit_obj='+limit_obj)
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
@@ -505,7 +505,7 @@ jQuery(document).ready(function() {
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
 			// Si la cantidad es menor o igual a 10 y es un objeto elegido que no tiene costo, se convierte sin costo
-			else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
+			else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj) ) {
 				opt_index = opt_index-obj_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
