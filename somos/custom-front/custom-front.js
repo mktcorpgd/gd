@@ -627,15 +627,12 @@ jQuery(document).ready(function() {
 	});
 
 
-	// TARJETAS DIGITALES - Si tiene más de una...
+	// TARJETAS DIGITALES - Si tiene/no tiene...
 	if ( jQuery('.bcard').length > 1 ) {
 		jQuery('#text-4 .widgettitle').text('Mis tarjetas digitales');
 	}
-
-
-	// TARJETAS DIGITALES - Si no tiene una asignada...
 	if ( jQuery('.bcard').length == 0 ) {
-		jQuery('.menu .bcard-link a').text('Solicitar tarjeta digital').attr('href','/marketing/recursos/tarjeta-digital/');
+		jQuery('.menu .bcard-link a').text('').attr('href','/marketing/recursos/tarjeta-digital/');
 	}
 	jQuery('#nav .bcard-link a').click(function(e) {
 		jQuery('#custom_html-23 > h3 > a').click();
