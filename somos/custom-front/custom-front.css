@@ -163,7 +163,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li:hover a i{color:rgba(255,255,255,1)}
 #nav .menu>.current-menu-item:hover>a,#nav .menu>.current-menu-item:hover>a{box-shadow:none}
 #nav .menu li a{display:block;padding:10px;font-family:'Font Awesome 5 Pro','Neo-Sans',sans-serif;font-size:1em;font-weight:400}
-#nav .menu li a i{padding-right:6px;color:rgba(255,255,255,.6)}
+#nav .menu li a i:not(.fa-id-card){padding-right:6px;color:rgba(255,255,255,.6)}
 #nav>.menu>.current-menu-item>a i{color:#FFFFFF!important}
 
 /* Columnas */
