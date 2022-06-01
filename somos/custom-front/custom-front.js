@@ -491,7 +491,7 @@ jQuery(document).ready(function() {
 			return false;
 		}
 	});
-	var limit_obj_scosto = obj_scosto*2+2;
+	var limit_obj_scosto = obj_scosto*2;
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
