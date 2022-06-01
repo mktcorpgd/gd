@@ -487,7 +487,7 @@ jQuery(document).ready(function() {
 			obj_scosto++;
 		}
 		else {
-			obj_scosto-2;
+			obj_scosto = obj_scosto-2;
 			return false;
 		}
 	});
