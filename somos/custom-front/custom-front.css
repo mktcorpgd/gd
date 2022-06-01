@@ -200,7 +200,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail{float:none}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{display:grid}
 .gp-blog-wrapper.gp-blog-columns-2 .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text,body.search .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text{border-top:2px solid #CCCCCC}
-article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:capitalize}
+article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase;}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
 /* Comentarios */
