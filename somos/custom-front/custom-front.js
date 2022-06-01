@@ -480,7 +480,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
+	// FORMULARIOS - Cambiar opción por ítem con costo según cantidad
 	var obj_scosto = 0;
 	jQuery('.MERCH1 option').each(function(i) {
 		if ( jQuery(this).val() != '—Con costo' ) {
@@ -497,13 +497,13 @@ jQuery(document).ready(function() {
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
 		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
 			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-			// Si la cantidad es mayor a 11, se convierte con costo
-			if ( jQuery(this).val() > 11 && opt_index <= obj_scosto ) {
+			// Si la cantidad es mayor a 10, se convierte con costo
+			if ( jQuery(this).val() > 10 && opt_index <= obj_scosto ) {
 				opt_index = opt_index+obj_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
 			}
 			// Si la cantidad es menor o igual a 11 y es un objeto elegido que no tiene costo, se convierte sin costo
-			else if ( jQuery(this).val() <= 11 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
+			else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
 				opt_index = opt_index-obj_scosto;
 				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
 			}
@@ -520,6 +520,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
+	
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
 
