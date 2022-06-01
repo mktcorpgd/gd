@@ -663,7 +663,7 @@ jQuery(document).ready(function() {
 			var mail_rrhh = arr_mails_rrhh[i];
 			var nom_rrhh = arr_mails_rrhh[i].substring(0,arr_mails_rrhh[i].indexOf('.'));
 			var ape_rrhh = arr_mails_rrhh[i].substring(arr_mails_rrhh[i].indexOf('.')+1,arr_mails_rrhh[i].indexOf('@'));
-			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
+			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+mail_rrhh+'</a>');
 		});
 		if ( jQuery('article').hasClass('category-activa') ) {
 			jQuery('<div class="buttons"><div class="info"><em>Podés postularte directamente enviándonos tu CV o referir a un amigo/a.<br />En caso de que el perfil aplique para la búsqueda, nos pondremos en contacto.</em></div><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Enviar CV</a><br /><a href="/categoria/busquedas-laborales/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
