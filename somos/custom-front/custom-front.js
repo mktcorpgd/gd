@@ -491,6 +491,7 @@ jQuery(document).ready(function() {
 			return false;
 		}
 	});
+	console.log('obj_scosto='+obj_scosto);
 	var limit_obj_scosto = obj_scosto*2+1;
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
@@ -520,7 +521,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	
+
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
 
