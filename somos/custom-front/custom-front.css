@@ -272,7 +272,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .columns.two.step1>label strong,.wpcf7 .columns.two.step1+.columns.two>label strong,.wpcf7 .columns.two.step2>label strong{margin-top:0!important}
 .wpcf7 .columns .wpcf7-list-item-label{padding-left:3px;position:relative;bottom:1px;line-height:1.3;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 .columns strong .wpcf7-list-item-label{font-weight:700}
-.wpcf7 .columns>label .wpcf7-checkbox,.wpcf7 .columns>label .wpcf7-radio{margin:0;display:grid;grid-gap:5px;grid-template-columns:1fr 1fr;font-size:14px;text-transform:none;letter-spacing:0}
+.wpcf7 .columns>label .wpcf7-checkbox,.wpcf7 .columns>label .wpcf7-radio{margin:0;display:grid;grid-gap:5px;grid-template-columns:1fr 1fr;grid-template-areas:"pages pages";font-size:14px;text-transform:none;letter-spacing:0}
 .wpcf7 .columns.one.threecheck>label .wpcf7-checkbox,.wpcf7 .columns.one.threecheck>label .wpcf7-radio{grid-template-columns:.9fr .9fr 1fr}
 .wpcf7 .columns.one.fourcheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fourcheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr}
 .wpcf7 .columns.one.fivecheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fivecheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr 1fr}
@@ -896,7 +896,7 @@ body.home .gp-blog-wrapper[class*='category-40gd'] .post-loop .post-text h2{padd
 .wp-pagenavi .current,.wp-pagenavi.cat-navi a:hover,.wp-pagenavi.comment-navi a:hover,.wp-pagenavi .page:hover,.wp-pagenavi.post-navi span,.wp-pagenavi.post-navi a span:hover,.page-links>span:hover,.page-links>a:hover{background:#EAEAEA!important}
 .gallery-view-section{background:#FCFCFC!important;border-radius:12px}
 #container #content,.padder{padding:30px}
-.gp-pagination{float:left;display:block;width:100%;margin:1em 0}
+.gp-pagination{width:100%;margin:1em 0;grid-area:pages;grid-row:initial}
 .gp-pagination ul.page-numbers{margin:0!important;text-align:center;overflow:visible}
 .gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.2em .8em;color:#999999;font-size:16px;line-height:2;font-weight:400;font-family:'Neo-Sans',sans-serif;box-shadow:0 4px 12px -6px rgba(0,0,0,.5);border-radius:12px}
 ul.page-numbers .page-numbers.current{background:#EAEAEA}
@@ -1341,7 +1341,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper{padding:.5em .4em .4em!important}
 	.gp-blog-wrapper+.post-loop{float:none;display:block;margin:.5em auto .4em!important;width:96%;clear:both}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-thumbnail{border-right:none!important}
-	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:5px}
+	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:5px}
 	body.page-id-15131 #content .columns.five{left:0;margin:20px 0 10px}
 	body.page-id-15131 #content .columns.five>div em{font-size:22px!important;line-height:1}
 	body.single .post-thumbnail{width:100%;left:0;border-radius:12px}
