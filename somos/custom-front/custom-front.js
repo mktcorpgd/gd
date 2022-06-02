@@ -480,18 +480,19 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Mostrar aviso si eligen opciones: "bolsa", "lapicera" o "cuaderno"
+	// FORMULARIOS - Cambiar opción por ítem con costo según cantidad
 	var obj_scosto = 0;
 	jQuery('.MERCH1 option').each(function(i) {
 		if ( jQuery(this).val() != '—Con costo' ) {
 			obj_scosto++;
 		}
 		else {
-			obj_scosto--;
+			obj_scosto = obj_scosto-1;
 			return false;
 		}
 	});
 	var limit_obj_scosto = obj_scosto*2+1;
+	console.log('limit_obj_scosto='+limit_obj_scosto);
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
 		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
@@ -519,6 +520,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
+
 
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
@@ -624,33 +626,21 @@ jQuery(document).ready(function() {
 	});
 
 
-	// TARJETAS DIGITALES - Si tiene más de una...
+	// TARJETAS DIGITALES - Si tiene/no tiene...
 	if ( jQuery('.bcard').length > 1 ) {
 		jQuery('#text-4 .widgettitle').text('Mis tarjetas digitales');
+		jQuery('#nav .bcard-link a').click(function(e) {
+			jQuery('#custom_html-23 > h3 > a').click();
+			e.preventDefault();
+		});	
 	}
-
-
-	// TARJETAS DIGITALES - Si no tiene una asignada...
 	if ( jQuery('.bcard').length == 0 ) {
-		jQuery('.menu .bcard-link a').text('Solicitar tarjeta digital').attr('href','/marketing/recursos/tarjeta-digital/');
+		jQuery('.menu .bcard-link a').text('').attr('href','/marketing/recursos/tarjeta-digital/');
 	}
-	jQuery('#nav .bcard-link a').click(function(e) {
-		jQuery('#custom_html-23 > h3 > a').click();
-		e.preventDefault();
-	});
 
 
 	// VIDEOS - Cambiar texto "load more"
 	jQuery('.yotu-pagination-more').text('Ver más');
-
-
-	// BUSQUEDAS LABORALES - Cambio de título en página de archivo
-	if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2797') ) {
-		jQuery('.page-title').text('Búsquedas laborales activas');
-	}
-	else if ( jQuery('body').hasClass('archive') && jQuery('body').hasClass('category-2798') ) {
-		jQuery('.page-title').text('Búsquedas laborales finalizadas');
-	}
 
 
 	// BÚSQUEDAS LABORALES - Agregar título, UN y botón CTA
@@ -661,15 +651,13 @@ jQuery(document).ready(function() {
 		jQuery('#post-content table tr:last td:last').empty();
 		jQuery.each(arr_mails_rrhh, function(i) {
 			var mail_rrhh = arr_mails_rrhh[i];
-			var nom_rrhh = arr_mails_rrhh[i].substring(0,arr_mails_rrhh[i].indexOf('.'));
-			var ape_rrhh = arr_mails_rrhh[i].substring(arr_mails_rrhh[i].indexOf('.')+1,arr_mails_rrhh[i].indexOf('@'));
-			jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+nom_rrhh+' '+ape_rrhh+'</a>');
+				jQuery('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+mails_rrhh+'</a>');
 		});
-		if ( jQuery('article').hasClass('category-activa') ) {
-			jQuery('<div class="buttons"><div class="info"><em>Podés postularte directamente enviándonos tu CV o referir a un amigo/a.<br />En caso de que el perfil aplique para la búsqueda, nos pondremos en contacto.</em></div><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Enviar CV</a><br /><a href="/categoria/busquedas-laborales/activa/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
+		if ( jQuery('article').hasClass('category-busquedas-laborales-activas') ) {
+			jQuery('<div class="buttons"><div class="info"><em>Podés postularte directamente enviándonos tu CV o referir a un amigo/a.<br />En caso de que el perfil aplique para la búsqueda, nos pondremos en contacto.</em></div><a href="mailto:'+mails_rrhh+'?subject='+post_title+'" target="_blank" class="sc-button">Enviar CV</a><br /><a href="/categoria/busquedas-laborales-activas/">Ver otras búsquedas activas</a></div>').insertAfter('#post-content table');
 		}
 		else {
-			jQuery('<div class="buttons"><a href="/categoria/busquedas-laborales/activa/" class="sc-button">Ver búsquedas activas</a></div>').insertAfter('#post-content table');
+			jQuery('<div class="buttons"><a href="/categoria/busquedas-laborales-activas/" class="sc-button">Ver búsquedas activas</a></div>').insertAfter('#post-content table');
 		}
 	}
 
