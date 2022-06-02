@@ -89,8 +89,8 @@ body.page-id-24138 .post-content p{text-align:justify}
 
 /* Desktop */
 @media (min-width:920px) {
-	.fusion-modal.contacto-rapido .modal-lg{width:1200px}
-	.fusion-modal.contacto-rapido .modal-sm{width:800px}
+	.fusion-modal.contacto-rapido-internet .modal-lg{width:900px}
+	.fusion-modal.contacto-rapido-internet .modal-sm{width:700px}
 	body #wrapper #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck{margin-top:50px}
 	body.home .post-content .wpcf7-select-parent .wpcf7-select.highlight,.tfs-slider select.highlight{font-size:2em!important}
 	body.home .post-content select.highlight option,.tfs-slider select.highlight option{font-size:.5em}
