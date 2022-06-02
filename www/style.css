@@ -144,7 +144,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-header-wrapper.on-top:not(.bkg) .fusion-header .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']){background:rgba(0,0,0,.9)!important}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft{border:none!important}
 .fusion-contact-info,.fusion-secondary-header a{height:auto!important;line-height:initial!important}
-.fusion-secondary-header a{display:inline-block;padding:5px 10px!important;text-align:center;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+.fusion-secondary-header a{line-height:2!important;font-family:'Neo-Sans',sans-serif}
 .fusion-secondary-header a:hover{text-decoration:underline}
 #wrapper{padding-top:66px}
 .country-flag.menu-item span{font-weight:400!important;top:1px}
