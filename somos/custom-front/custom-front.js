@@ -492,7 +492,7 @@ jQuery(document).ready(function() {
 		}
 	});
 	console.log('obj_scosto='+obj_scosto);
-	var limit_obj_scosto = obj_scosto*2-1;
+	var limit_obj_scosto = obj_scosto*2+1;
 	console.log('limit_obj_scosto='+limit_obj_scosto);
 	jQuery('input[name^=CANT]').keyup(function(e) {
 		var inp_index = jQuery(this).attr('name');
