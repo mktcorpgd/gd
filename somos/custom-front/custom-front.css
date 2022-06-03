@@ -975,7 +975,7 @@ article.category-casos-de-referencia .padder,body.page-id-29106 #content .padder
 body.page-id-29106 #content .post-thumbnail.single-thumbnail{border-top-left-radius:0!important;border-top-right-radius:0!important}
 #tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{font-size:.8em;border-radius:0!important}
 .white-popup{margin:20px auto;width:auto;max-width:570px;padding:20px;position:relative;background:#FFFFFF;border-radius:12px}
-body.archive article[class*=category-casos-de-] .gp-meta-date,body.archive section[class*=category-casos-de-] .gp-meta-date,body.search article[class*=category-casos-de-] .gp-meta-date,body.search section[class*=category-casos-de-] .gp-meta-date{margin-bottom:5px}
+body.archive article[class*=category-casos-de-] .gp-meta-date,body.archive section[class*=category-casos-de-] .gp-meta-date,body.search article[class*=category-casos-de-] .gp-meta-date,body.search section[class*=category-casos-de-] .gp-meta-date{margin:.2em 0}
 body .post-loop:not(.has-post-thumbnail) .post-text{max-height:initial}
 body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px solid #DDDDDD!important}
 
