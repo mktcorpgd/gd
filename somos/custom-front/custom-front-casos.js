@@ -8,7 +8,7 @@ function convertToSlug(Text) {
 function copyPostContent() {
 	jQuery('.wpcf7 input[name=TITCASO]').val(jQuery('.wpcf7 h2').text());
 	jQuery('.wpcf7 input[name=SLUGCASO]').val(convertToSlug(jQuery('.wpcf7 input[name=TITCASO]').val()));
-	jQuery('.wpcf7 input[name=CATSCASO]').val('2370,'+jQuery('.wpcf7-select[name*=UN]').attr('data-cat-id')+','+jQuery('.wpcf7-select[name*=UAC]').attr('data-cat-id'));
+	jQuery('.wpcf7 input[name=CATSCASO]').val('2370,'+jQuery('.wpcf7-select[name*=UN] option:selected').attr('data-cat-id')+','+jQuery('.wpcf7-select[name*=UAC] opti:onselected').attr('data-cat-id'));
 	jQuery('.wpcf7 input[name=CONTCASO]').val(jQuery('.wpcf7 .wpcf7-CONTCASO').html());
 }
 
