@@ -10,16 +10,18 @@ function copyPostContent() {
 	jQuery('.wpcf7 input[name=SLUGCASO]').val(convertToSlug(jQuery('.wpcf7 input[name=TITCASO]').val()));
 	var cats_uns = '';
 	jQuery('.wpcf7-select[name*=UN] option:selected').each(function() {
-		cats_uns += jQuery(this).attr('data-cat-id')+',';
-		console.log('cats_uns='+cats_uns);
+		if ( jQuery(this).attr('data-cat-id') !== undefined ) {
+			cats_uns += jQuery(this).attr('data-cat-id')+',';
+			console.log('cats_uns='+cats_uns);
+		}
 	});
-	console.log('cats_uns='+cats_uns);
 	var cats_uacs = '';
 	jQuery('.wpcf7-select[name*=UAC] option:selected').each(function() {
-		cats_uacs += jQuery(this).attr('data-cat-id')+',';
-		console.log('cats_uacs='+cats_uacs);
+		if ( jQuery(this).attr('data-cat-id') !== undefined ) {
+			cats_uacs += jQuery(this).attr('data-cat-id')+',';
+			console.log('cats_uacs='+cats_uacs);
+		}
 	});
-	console.log('cats_uacs='+cats_uacs);
 	jQuery('.wpcf7 input[name=CATSCASO]').val('2370,'+cats_uns+','+cats_uacs);
 	jQuery('.wpcf7 input[name=CONTCASO]').val(jQuery('.wpcf7 .wpcf7-CONTCASO').html());
 }
