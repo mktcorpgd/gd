@@ -12,16 +12,17 @@ function copyPostContent() {
 	jQuery('.wpcf7-select[name*=UN] option:selected').each(function() {
 		if ( jQuery(this).attr('data-cat-id') !== undefined ) {
 			cats_uns += jQuery(this).attr('data-cat-id')+',';
-			console.log('cats_uns='+cats_uns);
 		}
 	});
+	cats_uns = cats_uns.substring(0,cats_uns.length-1);
 	var cats_uacs = '';
 	jQuery('.wpcf7-select[name*=UAC] option:selected').each(function() {
 		if ( jQuery(this).attr('data-cat-id') !== undefined ) {
 			cats_uacs += jQuery(this).attr('data-cat-id')+',';
-			console.log('cats_uacs='+cats_uacs);
 		}
 	});
+	cats_uacs = cats_uacs.substring(0,cats_uacs.length-1);
+	console.log('2370,'+cats_uns+','+cats_uacs);
 	jQuery('.wpcf7 input[name=CATSCASO]').val('2370,'+cats_uns+','+cats_uacs);
 	jQuery('.wpcf7 input[name=CONTCASO]').val(jQuery('.wpcf7 .wpcf7-CONTCASO').html());
 }
