@@ -8,7 +8,20 @@ function convertToSlug(Text) {
 function copyPostContent() {
 	jQuery('.wpcf7 input[name=TITCASO]').val(jQuery('.wpcf7 h2').text());
 	jQuery('.wpcf7 input[name=SLUGCASO]').val(convertToSlug(jQuery('.wpcf7 input[name=TITCASO]').val()));
-	jQuery('.wpcf7 input[name=CATSCASO]').val('2370,'+jQuery('.wpcf7-select[name*=UN] option:selected').data('cat-id')+','+jQuery('.wpcf7-select[name*=UAC] option:selected').data('cat-id'));
+	var cats_uns = 0;
+	jQuery('.wpcf7-select[name*=UN] option:selected').each(function() {
+		cats_uns = jQuery(this).attr('data-cat-id')+',';
+	});
+	cats_uns = cats_uns.substring(0,cats_uns.length-1);
+	console.log('cats_uns='+cats_uns);
+	var cats_uacs = 0;
+	jQuery('.wpcf7-select[name*=UAC] option:selected').each(function() {
+		cats_uacs = jQuery(this).attr('data-cat-id')+',';
+	});
+	cats_uacs = cats_uacs.substring(0,cats_uacs.length-1);
+	console.log('cats_uacs='+cats_uacs);
+	jQuery('.wpcf7 input[name=CATSCASO]').val('2370,'+cats_uns+','+cats_uacs);
+	jQuery('.wpcf7-select[name*=UN] option:selected').attr('data-cat-id')
 	jQuery('.wpcf7 input[name=CONTCASO]').val(jQuery('.wpcf7 .wpcf7-CONTCASO').html());
 }
 
