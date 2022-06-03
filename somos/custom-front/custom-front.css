@@ -1169,10 +1169,9 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0!important;font-size:.9e
 #footer{background:#F0F0ED!important;margin-top:0!important;padding:0}
 #footer-widgets .widget{background:none!important;margin:20px 0 0}
 #copyright{padding-top:0;color:#777777}
-.bottom_logos{padding:0 0 20px;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.2em;line-height:1.5}
-.bottom_logos a{color:#555555;display:inline-block;margin:.4em}
+.bottom_logos{padding:0 0 20px;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.1em;line-height:1.5}
+.bottom_logos a{color:#555555;display:inline-block;margin:.4em 0 0;font-size:.8em}
 .bottom_logos a:hover{color:#1F4483}
-.bottom_logos a img{width:50%}
 
 /* Noficaciones Push */
 prompticon3{margin-right:0!important;padding:0!important;width:50px!important;height:50px!important;right:0!important;border:none;background:#0E316E!important;border-radius:0!important;border-top-left-radius:24px!important;border-bottom-left-radius:24px!important;filter:none!important;transform:scale(1)!important}
@@ -1280,6 +1279,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.4em .9em}
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:45% 55%}
+	.bottom_logos a img{width:96px}
 }
 
 /* Mobile */
@@ -1478,6 +1478,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#countdown li{font-size:1.125rem;padding:.75rem}
 	#countdown li span{font-size:3.375rem}
 	#page-wrapper .widget .blue.sc-button{font-size:1rem!important}
+	.bottom_logos a img{width:150px}
 }
 @media (max-width:960px) and (orientation:landscape) {
 	#content .columns.two .tp h2{bottom:17vw;font-size:6.5vw}
