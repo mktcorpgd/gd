@@ -909,6 +909,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 /* Tablas */
 .wp-block-table{overflow:hidden}
 #content table{margin-bottom:0;padding:0!important;border-collapse:separate}
+#content table tbody tr{background:none!important}
 #content table th,#content table td{line-height:1.5}
 #content table th{border-top:1px solid rgba(0,0,0,.2)!important;border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important;color:#FFFFFF;background:#0E316E}
 #content article[class*='category-casos-'] table th,#content article[class*='category-casos-'] table td>strong{font-family:'Neo-Sans',sans-serif}
@@ -917,11 +918,14 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)!important}
 #content table td{border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 #content table td p{line-height:1.5}
+#content table tbody td strong{font-weight:600!important}
 #content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{width:30%;border-left:1px solid #CCCCCC!important}
 #content table tr:first-child td{border-top:1px solid #CCCCCC!important}
 #content table thead+tbody tr:first-child td{border-top:none!important}
 #content table tr:last-child td{border-bottom:1px solid #CCCCCC!important}
 #content table th:first-child{border-top-left-radius:12px}
+#content table>tbody>tr:first-child>td:first-child{border-top-left-radius:12px}
+#content table>tbody>tr:first-child>td:firlastst-child{border-top-right-radius:12px}
 #content table th:last-child{border-top-right-radius:12px;border-right:1px solid #0E316E!important}
 #content table td:last-child{border-right:1px solid #CCCCCC!important}
 #content table tr:last-child td:first-child{border-bottom-left-radius:12px}
