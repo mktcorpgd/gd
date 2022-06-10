@@ -397,6 +397,7 @@ jQuery(document).ready(function() {
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name');
+		console.log(input_name);
 		// Si es un select multiple
 		if ( input_name.indexOf('[]') > -1 ) {
 			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
