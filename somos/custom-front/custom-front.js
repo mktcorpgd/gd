@@ -418,6 +418,9 @@ jQuery(document).ready(function() {
 				jQuery('.wpcf7-'+input_name).text(val_single);
 			}
 			if ( jQuery('input[name='+input_name+'TXT]').length ) {
+				if ( input_name == 'CC_UNIT' ) {
+					val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
+				}
 				jQuery('input[name='+input_name+'TXT]').val(val_single);
 			}
 		}
