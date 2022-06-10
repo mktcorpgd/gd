@@ -421,6 +421,7 @@ jQuery(document).ready(function() {
 				if ( input_name == 'CC_UNIT' ) {
 					val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
 				}
+				console.log(val_single);
 				jQuery('input[name='+input_name+'TXT]').val(val_single);
 			}
 		}
