@@ -966,7 +966,7 @@ body.archive .post-loop .gp-meta-cats a[href$='/busquedas-laborales/finalizada/'
 #content .category-casos-un-velocom table td:first-child{background:#AE1A57}
 #content .category-casos-un-iop table td:first-child,#content .category-casos-un-iot table td:first-child{background:#0E316E}
 #content [class*=category-casos-de-] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
-#content [class*=category-casos-de-] table td:first-child{padding-bottom:10px!important;line-height:1;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-weight:400}
+#content [class*=category-casos-de-] table td:first-child{padding-bottom:10px!important;line-height:1;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-weight:600}
 #content [class*=category-casos-de-] table td:first-child strong{font-weight:500!important}
 #content [class*=category-casos-de-] table tr:first-child td:first-child{border-top-left-radius:12px}
 #content [class*=category-casos-de-] table tr:first-child td:last-child{border-top-right-radius:12px}
