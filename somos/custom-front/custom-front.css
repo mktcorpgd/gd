@@ -919,7 +919,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content table td{border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 #content table td p{line-height:1.5}
 #content table tbody td strong{font-weight:600!important}
-#content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{width:30%;border-left:1px solid #CCCCCC!important}
+#content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{border-left:1px solid #CCCCCC!important}
 #content table tr:first-child td{border-top:1px solid #CCCCCC!important}
 #content table thead+tbody tr:first-child td{border-top:none!important}
 #content table tr:last-child td{border-bottom:1px solid #CCCCCC!important}
