@@ -358,7 +358,7 @@ body.page h1+.gp-post-meta{margin:0 0 1em!important;width:100%;text-align:center
 .eo-event-meta a:not([rel='tag']){color:#666!important;text-decoration:none;pointer-events:none}
 .gp-meta-cats a:hover,article .eo-event-meta>li a[rel='tag']:hover{color:#F0582B!important}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;line-height:1.25;font-style:normal;font-weight:400}
-.gp-meta-comments{margin-right:0;margin-left:.3rem;padding-left:.5rem;border-left:1px solid #EAEAEA;font-family:'Font Awesome 6 Pro','Open-Sans',sans-serif}
+.gp-meta-comments{margin-right:0;margin-left:.3rem;padding-left:.5rem;border-left:1px solid #EAEAEA;font-family:'Open-Sans','Font Awesome 6 Pro',sans-serif}
 #content .gp-meta-comments a:hover{color:#F0582B;text-decoration:none!important}
 .eo-event-date{margin:.2em 0;font-family:'Neo-Sans',sans-serif;font-weight:500}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-patrocinamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-otros-eventos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{color:#FFFFFF!important}
