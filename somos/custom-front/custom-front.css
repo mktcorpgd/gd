@@ -1066,7 +1066,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #custom_html-23 a{text-decoration:none}
 #custom_html-23 a:hover img{transform:translateY(0);box-shadow:0 -4px 14px -1px rgba(0,0,0,.2)!important}
 #custom_html-23 a:hover .url_public_bcard{box-shadow:0 0 14px -1px rgba(0,0,0,.2)!important}
-.bcard{display:block;margin:0 auto;width:65%;max-width:300px}
+.bcard{display:block;margin:0 auto;width:65%;max-width:200px}
 .bcard~.bcard{margin-top:10px}
 .bcard~a.sc-button-social{display:inline-block;margin:.2em .2em 0;color:#0E316E;font-size:1.5em}
 .bcard img{transform:translateY(5px);float:left;border:2px solid #0E316E;border-bottom:none;box-shadow:0 -4px 12px -2px rgba(0,0,0,.4)!important;border-top-left-radius:12px;border-top-right-radius:12px}
