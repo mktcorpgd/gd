@@ -745,7 +745,7 @@ body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-a
 div.pdfemb-viewer{background:#0E316E;border:none;border-radius:12px}
 div.pdfemb-viewer .pdfemb-inner,div.pdfemb-viewer .pdfemb-inner canvas{margin:0!important;width:100%!important}
 div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{border:none;background:none}
-div.pdfemb-toolbar div{color:#333333;font-family:'Open-Sans',sans-serif}
+div.pdfemb-toolbar div{color:#FFFFFF;font-family:'Open-Sans',sans-serif}
 div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled]{font-size:1em}
 div.pdfemb-toolbar button.pdfemb-next::before,div.pdfemb-toolbar button.pdfemb-prev::before{font-family:'Font Awesome 5 Pro',sans-serif}
 div.pdfemb-toolbar button.pdfemb-next::before{content:''}
