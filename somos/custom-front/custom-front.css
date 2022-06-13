@@ -36,7 +36,7 @@ h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong{font-weight:500!impo
 h1,h2,h3,h4,h5,h6,.widget .widgettitle,label{color:#333333}
 h2 a{color:#222222;text-align:left}
 h3 a{color:#F0582B;text-decoration:none}
-h2{font-size:1.5em}
+h2{font-size:1.4em}
 h3{font-size:1.3em}
 h3:not(.toggle) i[class*='fa-']{display:inline-block;margin-left:10px;font-size:80%;opacity:.6}
 video{outline:none!important;cursor:pointer}
@@ -46,7 +46,7 @@ body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border
 .not-visible{visibility:hidden}
 .padder,.widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
 .widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-color:#FFFFFF}
-.wp-block-separator{border:none!important}
+.wp-block-separator{display:inline-block;border:none!important}
 .author span{text-transform:uppercase}
 .sc-divider{margin:30px 0;border-width:3px}
 .sc-divider.small{margin:15px 0!important;border-width:1px}
@@ -304,7 +304,7 @@ div.wpcf7 input[type='file']:disabled{cursor:default}
 div.wpcf7 .wpcf7-submit:disabled{cursor:not-allowed}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151!important}
 .wpcf7-radio.wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
-.wpcf7-form{display:block;width:100%;position:relative}
+.wpcf7-form{display:inline-block;width:100%;position:relative}
 .wpcf7-form>.step2{opacity:.5}
 .wpcf7-form>.step3.disabled .tp{z-index:-1}
 .wpcf7-form>.step3 .tp span,.wpcf7-form>.step3.disabled input[type='submit']{cursor:default}
@@ -416,6 +416,7 @@ body.page #content h1{text-align:center}
 body.archive #content h1,body.search #content h1{margin-top:.2em}
 #post-content h2+p:last-child{margin-bottom:15px!important}
 #post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
+#post-content .wp-block-separator+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
 #post-content h4+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
 #content .columns h1,#content .columns h2,#content .columns h3,#content .columns h4,#content .columns h5,#content .columns h6{margin:0!important;padding-bottom:5px}
 #content .columns h4{padding-bottom:0}
