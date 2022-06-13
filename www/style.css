@@ -742,10 +742,11 @@ body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusio
 body.single-format-link .fusion-content-widget-area .widget{margin-bottom:0!important}
 body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-align:center}
 .pdfemb-pagescontainer{margin:0}
-div.pdfemb-viewer{border:none;border-radius:12px}
+div.pdfemb-viewer{background:#0E316E;border:none;border-radius:12px}
 div.pdfemb-viewer .pdfemb-inner,div.pdfemb-viewer .pdfemb-inner canvas{margin:0!important;width:100%!important}
-div.pdfemb-toolbar button, div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{border:none;background:none}
+div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{border:none;background:none}
 div.pdfemb-toolbar div{color:#333333;font-family:'Open-Sans',sans-serif}
+div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled]{font-size:1em}
 div.pdfemb-toolbar button.pdfemb-next::before,div.pdfemb-toolbar button.pdfemb-prev::before{font-family:'Font Awesome 5 Pro',sans-serif}
 div.pdfemb-toolbar button.pdfemb-next::before{content:''}
 div.pdfemb-toolbar button.pdfemb-prev::before{content:''}
