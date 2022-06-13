@@ -741,6 +741,8 @@ body.single-format-link .fusion-page-title-wrapper{display:block}
 body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusion-page-title-secondary{margin:0;width:100%;text-align:center!important}
 body.single-format-link .fusion-content-widget-area .widget{margin-bottom:0!important}
 body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-align:center}
+div.pdfemb-viewer{border:none;border-radius:12px}
+div.pdfemb-viewer .pdfemb-inner,div.pdfemb-viewer .pdfemb-inner canvas{margin:0!important;width:100%!important}
 
 /* Portfolio */
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.4em!important}
