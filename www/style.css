@@ -15,7 +15,7 @@ article.category-c-nosotros .fusion-single-line-meta,
 .related-posts .fusion-carousel-meta span:not(.fusion-date),
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,.fusion-portfolio-meta a[href*='/c-solo-contacto'],body.single-avada_portfolio .related-posts .fusion-carousel-meta,
 body.archive .fusion-post-wrapper .meta-tags,
-.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']),article.fusion-post-grid.category-guias h2.fusion-post-title,article.category-guias .related-posts .fusion-carousel-title,body.single-format-video article .fusion-flexslider{display:none!important}
+.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']),article.fusion-post-grid.category-guias h2.fusion-post-title,article.category-guias .related-posts .fusion-carousel-title,body.single-format-video article .fusion-flexslider,.pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales .panel-body p span,body.no-partners .fusion-footer .partners{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
@@ -741,8 +741,14 @@ body.single-format-link .fusion-page-title-wrapper{display:block}
 body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusion-page-title-secondary{margin:0;width:100%;text-align:center!important}
 body.single-format-link .fusion-content-widget-area .widget{margin-bottom:0!important}
 body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-align:center}
+.pdfemb-pagescontainer{margin:0}
 div.pdfemb-viewer{border:none;border-radius:12px}
 div.pdfemb-viewer .pdfemb-inner,div.pdfemb-viewer .pdfemb-inner canvas{margin:0!important;width:100%!important}
+div.pdfemb-toolbar button, div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{border:none;background:none}
+div.pdfemb-toolbar div{color:#333333;font-family:'Open-Sans',sans-serif}
+div.pdfemb-toolbar button.pdfemb-next::before,div.pdfemb-toolbar button.pdfemb-prev::before{font-family:'Font Awesome 5 Pro',sans-serif}
+div.pdfemb-toolbar button.pdfemb-next::before{content:''}
+div.pdfemb-toolbar button.pdfemb-prev::before{content:''}
 
 /* Portfolio */
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.4em!important}
