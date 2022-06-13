@@ -631,7 +631,7 @@ jQuery(document).ready(function() {
 
 
 	// TARJETAS DIGITALES - Si tiene/no tiene...
-	if ( jQuery('.bcard').length > 1 ) {
+	if ( jQuery('.bcard').length ) {
 		jQuery('#text-4 .widgettitle').text('Mis tarjetas digitales');
 		jQuery('#nav .bcard-link a').click(function(e) {
 			jQuery('#custom_html-23 > h3 > a').click();
