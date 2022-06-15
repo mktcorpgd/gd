@@ -132,13 +132,13 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Header */
 #header{width:100%!important;margin-bottom:10px!important;padding:5px 15px;background:#0E316E!important;border-bottom:2px solid #FFB201;box-shadow:0 4px 16px 0 rgba(0,0,0,.4);border-radius:0!important;position:fixed;left:0!important;transform:none!important;transition:top .1s ease-in-out;z-index:9999}
-#logo{margin-top:0!important;position:fixed;z-index:9999}
-#logo a{transition:all 1s ease-in-out!important;display:block;width:40px;height:40px;background:url('https://somos.grupodatco.com/wp-content/uploads/gd-iso-one_stroke-dark.svg')}
+#logo.default-logo{margin-top:5px;margin-right:5px}
+#logo a{transition:all 1s ease-in-out!important;display:block;width:32px;height:32px;background:url('https://somos.grupodatco.com/wp-content/uploads/gd-iso-one_stroke-dark.svg')}
 #logo a:hover{transform:scale(1.1) rotate(720deg) translateX(5px)}
 #gd40{position:absolute;top:2px;left:10px;font-size:1em;font-family:'Neo-Sans',sans-serif;color:#FFFFFF;opacity:.8}
 
 /* Menú */
-#nav{float:none}
+#nav{float:left}
 #nav .bcard-link{float:right!important}
 #nav .bcard-link i{padding-right:0!important}
 #nav>.menu>li>a{border-radius:6px!important}
