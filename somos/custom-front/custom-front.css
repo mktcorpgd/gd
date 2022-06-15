@@ -159,8 +159,8 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu .sub-menu li ul{margin-top:-10px;left:40px;border-top-left-radius:0;border-top-right-radius:12px}
 #nav .gp-nav-edge .sub-menu{right:auto}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
-#nav .menu li a:hover,#mobile-nav .menu li a:hover{background:rgba(0,0,0,.3)!important}
-#nav .menu li:hover>a{background:rgba(0,0,0,.3)!important}
+#nav .menu li a:hover,#mobile-nav .menu li a:hover{background:rgba(0,0,0,.1)!important}
+#nav .menu li:hover>a{background:rgba(0,0,0,.1)!important}
 #nav .menu li:hover a i{color:rgba(255,255,255,1)}
 #nav .menu>.current-menu-item:hover>a,#nav .menu>.current-menu-item:hover>a{box-shadow:none}
 #nav .menu li a{display:block;padding:10px;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
@@ -168,6 +168,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav>.menu>.current-menu-item>a i{color:#FFFFFF!important}
 #wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:2px}
 #wpadminbar #wp-admin-bar-my-sites>.ab-item:before,#wpadminbar #wp-admin-bar-site-name>.ab-item:before{top:0}
+#wpadminbar .ab-icon{margin-right:2px}
 
 /* Columnas */
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
