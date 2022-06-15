@@ -630,19 +630,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// TARJETAS DIGITALES - Si tiene/no tiene...
-	if ( jQuery('.bcard').length ) {
-		jQuery('#text-4 .widgettitle').text('Mis tarjetas digitales');
-		jQuery('#nav .bcard-link a').click(function(e) {
-			jQuery('#custom_html-23 > h3 > a').click();
-			e.preventDefault();
-		});	
-	}
-	if ( jQuery('.bcard').length == 0 ) {
-		jQuery('.menu .bcard-link a').text('').attr('href','/marketing/recursos/tarjeta-digital/');
-	}
-
-
 	// VIDEOS - Cambiar texto "load more"
 	jQuery('.yotu-pagination-more').text('Ver más');
 
