@@ -443,7 +443,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:6px}
 .fusion-button-default-size,.fusion-portfolio-one .fusion-button{-webkit-appearance:none;background:#FFFFFF;font-style:normal}
 #content .button-default:hover{text-decoration:none}
-.fusion-button.button-flat:not(.no-text),.wpcf7 input[type='submit']{margin-left:auto;margin-right:auto;border-radius:6px 6px 12px 12px!important}
+.fusion-button.button-flat:not(.no-text),.wpcf7 input[type='submit']{margin-left:auto;margin-right:auto;border-radius:12px!important}
 .fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text){display:inline-block;margin-right:10px;margin-bottom:10px}
 .fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text)>span{font-weight:600}
 .wpcf7 .wpcf7-submit{font-family:'Open-Sans',sans-serif!important}
@@ -753,7 +753,8 @@ div.pdfemb-toolbar button:before{font-family:'Font Awesome 5 Pro',sans-serif}
 div.pdfemb-toolbar button.pdfemb-next:before{content:''}
 div.pdfemb-toolbar button.pdfemb-prev:before{content:''}
 div.pdfemb-toolbar button.pdfemb-download:before{content:''}
-.pdfemb-page-num{padding:0;border-radius:6px;font-size:.7em;line-height:1.25;color:#333333}
+.pdfemb-page-num{padding:0;}
+input.pdfemb-page-num{border-radius:6px;color:#333333}
 
 /* Portfolio */
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.4em!important}
