@@ -53,10 +53,10 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out;box-shadow:0 10px 20px rgba(0,0,0,.2);cursor:pointer}
 .fusion-pricingtable-column .panel-container:hover{box-shadow:0 10px 30px rgba(0,0,0,.3)}
 #wrapper .full-boxed-pricing .panel-wrapper .fusion-panel{border-top-width:12px;border-top-style:solid}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel{border-top-color:#AADC23}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel .panel-heading h3{color:#AADC23}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel{border-top-color:#88B226}
-#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel .panel-heading h3{color:#88B226}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel{border-top-color:#AADB23}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(1) .fusion-panel .panel-heading h3{color:#AADB23}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel{border-top-color:#87B227}
+#wrapper .full-boxed-pricing .panel-wrapper:nth-child(2) .fusion-panel .panel-heading h3{color:#87B227}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel{border-top-color:#497718}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(3) .fusion-panel .panel-heading h3{color:#497718}
 #wrapper .full-boxed-pricing .panel-wrapper:nth-child(4) .fusion-panel{border-top-color:#324B1C}
@@ -66,7 +66,7 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .post-content .fusion-tabs:not(.tab-filters){border:none!important}
 .fusion-tabs:not(.tab-filters) .nav{background:none;box-sizing:border-box}
 .fusion-tabs:not(.tab-filters):not(.clean) .nav-tabs{border-bottom:1px solid #EAEAEA!important}
-.fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#AADC23,#497718)!important}
+.fusion-tabs .nav-tabs li.active a.tab-link{background:linear-gradient(to bottom right,#AADB23,#497718)!important}
 .fusion-tabs .nav-tabs li a{background:none!important}
 .fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-modal.contacto-rapido .modal-title{color:#FFFFFF!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading{font-size:1.3em!important;font-weight:400!important}
@@ -79,6 +79,8 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .box-buttons .fusion-portfolio-element.no-featured-image article .fusion-post-content:before{padding:0 28px}
 .box-buttons .fusion-portfolio-element.no-featured-image .fusion-post-content p{margin-left:6px;padding-left:12px;border-left:8px solid rgba(0,0,0,.2);border-radius:6px}
 .post-content div blockquote{border-radius:0 32px;background:#87B227!important;border:none!important}
+.fusion-portfolio-post.destacados{border:2px solid #87B227}
+.fusion-portfolio-post.destacados .fusion-portfolio-content-wrapper{display:grid;grid-template-columns:25% 75%}
 
 /* Desktop */
 @media (min-width:920px) {
