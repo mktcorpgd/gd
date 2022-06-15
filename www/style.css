@@ -742,7 +742,7 @@ body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusio
 body.single-format-link .fusion-content-widget-area .widget{margin-bottom:0!important}
 body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-align:center}
 .pdfemb-pagescontainer{margin:0}
-div.pdfemb-viewer{background:#333333;border:none;border-radius:12px}
+div.pdfemb-viewer{display:block;margin:0 auto;background:#333333;border:none;border-radius:12px}
 div.pdfemb-viewer .pdfemb-inner,div.pdfemb-viewer .pdfemb-inner canvas{margin:0!important;width:100%!important}
 div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{box-shadow:none;border:none;background:none}
 div.pdfemb-toolbar-top{display:grid;grid-template-columns:10% 10% 70% 10%}
