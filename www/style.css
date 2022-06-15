@@ -5,7 +5,7 @@ body.search article.avada_portfolio .fusion-single-line-meta>span:first-child,
 body.search article.avada_portfolio .fusion-single-line-meta>span:first-child+.fusion-inline-sep,
 body.single-format-link #sidebar,body.single-format-link #main h4.widget-title,.no-title .widget-title,.fusion-mobile-menu-sep,.fusion-header-separator,
 body.single-avada_portfolio #partners_footer,
-body.category-guias #partners_footer,
+body.category-tips-para-empresas #partners_footer,
 body.single-avada_portfolio .header-transparent #sidebar,
 .fusion-info-box strong+br,.fusion-modal.contacto-rapido .modal-body .fusion-fullwidth .fusion-column-wrapper>.fusion-title.fusion-title-size-five,#sidebar .wpcf7+.fusion-layout-column.fusion-one-half,
 body.single-format-link .post .fusion-meta-info,body.single-format-video .post .fusion-meta-info,
@@ -15,7 +15,7 @@ article.category-c-nosotros .fusion-single-line-meta,
 .related-posts .fusion-carousel-meta span:not(.fusion-date),
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,.fusion-portfolio-meta a[href*='/c-solo-contacto'],body.single-avada_portfolio .related-posts .fusion-carousel-meta,
 body.archive .fusion-post-wrapper .meta-tags,
-.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']),article.fusion-post-grid.category-guias h2.fusion-post-title,article.category-guias .related-posts .fusion-carousel-title,body.single-format-video article .fusion-flexslider,.pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile{display:none!important}
+.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']),article.fusion-post-grid.category-tips-para-empresas h2.fusion-post-title,article.category-tips-para-empresas .related-posts .fusion-carousel-title,body.single-format-video article .fusion-flexslider,.pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales .panel-body p span,body.no-partners .fusion-footer .partners{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
@@ -859,7 +859,7 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_uy.svg')}
 .fusion-single-line-meta,.fusion-portfolio-meta{padding:5px 20px 15px}
-article.category-guias .fusion-single-line-meta{padding-top:10px}
+article.category-tips-para-empresas .fusion-single-line-meta{padding-top:10px}
 .fusion-single-line-meta>span:not(.meta-tags),.fusion-single-line-meta a,.fusion-portfolio-meta a,.fusion-carousel-meta span,.fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a{border-bottom:0!important;color:#666666!important;font-size:1em;text-decoration:none}
 .fusion-single-line-meta a:hover,.fusion-portfolio-meta a:hover,.fusion-meta-info-wrapper a:hover{text-decoration:underline}
 .fusion-portfolio-meta span{display:inline-block;color:#AAAAAA!important}
