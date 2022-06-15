@@ -28,7 +28,7 @@ span.description{display:block}
 input+span.description,select+span.description{display:inline-block;position:relative;left:5px;font-style:italic}
 span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;line-height:20px}
 .nav-menus-php .item-edit{height:38px;overflow:hidden}
-#wpadminbar .ab-icon{font-family:'dashicons';margin-right:2px}
+#wpadminbar .ab-icon{margin-right:2px!important}
 #wpwrap.wp-responsive-open,div#post-body.metabox-holder.columns-1{overflow-x:visible!important}
 #adminmenu,#adminmenu .wp-submenu,#adminmenuback,#adminmenuwrap{width:165px}
 #adminmenu .wp-not-current-submenu .wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu{width:170px}
