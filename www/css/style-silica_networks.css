@@ -94,4 +94,5 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 	body.postid-31175 .fusion-li-item-content{font-size:18px}
 	#nav_menu-5,#nav_menu-11,#nav_menu-6,#nav_menu-7{width:100%}
 	.fusion-mobile-nav-item.social-link{width:100%!important}
+	.fusion-portfolio.destacados .fusion-portfolio-content-wrapper{grid-template-columns:100%}
 }
