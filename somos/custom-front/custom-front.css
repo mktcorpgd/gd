@@ -129,8 +129,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #wpadminbar #wp-admin-bar-user-info .username{color:rgba(255,255,255,.6)!important}
 #wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}
 #wpadminbar .ab-icon, #wpadminbar .ab-item:before, #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon, .wp-admin-bar-arrow{margin-right:2px!important}
-#wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:2px}
-#wpadminbar #wp-admin-bar-my-sites>.ab-item:before,#wpadminbar #wp-admin-bar-site-name>.ab-item:before{top:0}
+#wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:3px}
 
 /* Header */
 #header{width:100%!important;margin-bottom:10px!important;padding:5px 15px;background:#0E316E!important;border-bottom:2px solid #FFB201;box-shadow:0 4px 16px 0 rgba(0,0,0,.4);border-radius:0!important;position:fixed;left:0!important;transform:none!important;transition:top .1s ease-in-out;z-index:9999}
