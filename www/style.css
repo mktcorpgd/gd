@@ -1155,7 +1155,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.post-content p img[class*='alignleft']{margin-right:30px!important}
 	.technologies .fusion-column{margin-bottom:24px;padding-left:18px!important;padding-right:18px!important}
 	#commentform{padding-right:7em}
-	.fusion-portfolio .fusion-buttons .fusion-button.button-left{padding-left:20px!important}
 	.fusion-portfolio .c-solo-contacto .fusion-button.button-flat:not(.no-text),.fusion-portfolio .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-button.button-flat:not(.no-text),.no-read-button .fusion-button.button-flat:not(.no-text){padding-left:20px!important}
 	.fusion-layout-column.sticky{position:sticky;top:90px}
 	body.customize-support .fusion-layout-column.sticky{position:sticky;top:120px}
@@ -1195,7 +1194,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons .fusion-portfolio-content-wrapper:hover .fusion-post-content:before{text-decoration:underline!important}
 	.fusion-buttons .fusion-button.button-left{border-radius:0!important}
 	.fusion-buttons .fusion-button.button-right{border-top-left-radius:0!important;border-bottom-left-radius:0!important}
-	.fusion-portfolio.destacados .fusion-buttons .fusion-button.button-left{border-top-left-radius:12px!important;border-bottom-left-radius:12px!important}
+	.fusion-portfolio.destacados .fusion-buttons .fusion-button.button-left{margin-left:10px;border-top-left-radius:12px!important;border-bottom-left-radius:12px!important}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.9em}
 	.box-buttons .fusion-post-content p{padding-bottom:0!important}
 	.tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{font-size:1.2em!important}
@@ -1393,7 +1392,9 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
     .fusion-layout-column .flexslider{height:auto!important}
     .fusion-slider-sc .flex-direction-nav a{width:40px;height:50px;top:60%}
     .fusion-slider-sc .flex-direction-nav li{font-size:1.4em!important}
-	.fusion-blog-layout-grid.fusion-blog-layout-grid-3.fusion-blog-equal-heights{grid-template-columns:100%;}
+	.fusion-blog-layout-grid.fusion-blog-layout-grid-3.fusion-blog-equal-heights
+	{grid-template-columns:100%}
+	.fusion-portfolio .fusion-buttons .fusion-button.button-left{padding-left:20px!important}
 }
 
 /* Mobile (vertical) */
