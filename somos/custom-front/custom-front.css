@@ -56,7 +56,6 @@ h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-family:'Neo-San
 h1,h2,h3,h4,.widget .widgettitle,.neosans li{font-weight:500}
 h5,h6{font-weight:400}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif!important}
-#wpadminbar .ab-icon{margin-right:2px!important}
 abbr[title]{border-bottom:0!important;cursor:inherit!important;text-decoration:none!important}
 input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:0 0 10px!important;padding:.5em .6em!important;width:100%!important;background:#F6F6F6!important;border:1px solid #CCCCCC!important;border-radius:6px!important;box-shadow:none!important;box-sizing:border-box!important;font-family:'Open-Sans',sans-serif!important;font-size:.9em!important;line-height:1.2;letter-spacing:-.01em!important}
 select{padding:.37em .6em!important}
@@ -129,6 +128,9 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #wpadminbar .ab-top-menu>li.hover>.ab-item,#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover a,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover span,#wpadminbar .ab-top-menu li:hover>.ab-item:before,#wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,#wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,#wpadminbar>#wp-toolbar li.hover span.ab-label,#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a,#wpadminbar .quicklinks .menupop ul li a:focus,#wpadminbar .quicklinks .menupop ul li a:focus strong,#wpadminbar .quicklinks .menupop ul li a:hover,#wpadminbar .quicklinks .menupop ul li a:hover strong,#wpadminbar .quicklinks .menupop.hover ul li a:focus,#wpadminbar .quicklinks .menupop.hover ul li a:hover,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover,#wpadminbar li #adminbarsearch.adminbar-focused:before,#wpadminbar li .ab-item:focus .ab-icon:before,#wpadminbar li .ab-item:focus:before,#wpadminbar li a:focus .ab-icon:before,#wpadminbar li.hover .ab-icon:before,#wpadminbar li.hover .ab-item:before,#wpadminbar li:hover #adminbarsearch:before,#wpadminbar li:hover .ab-icon:before,#wpadminbar li:hover .ab-item:before,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover{background:none!important;color:#FFFFFF!important}
 #wpadminbar #wp-admin-bar-user-info .username{color:rgba(255,255,255,.6)!important}
 #wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}
+#wpadminbar .ab-icon, #wpadminbar .ab-item:before, #wpadminbar>#wp-toolbar>#wp-admin-bar-root-default .ab-icon, .wp-admin-bar-arrow{margin-right:2px!important}
+#wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:2px}
+#wpadminbar #wp-admin-bar-my-sites>.ab-item:before,#wpadminbar #wp-admin-bar-site-name>.ab-item:before{top:0}
 
 /* Header */
 #header{width:100%!important;margin-bottom:10px!important;padding:5px 15px;background:#0E316E!important;border-bottom:2px solid #FFB201;box-shadow:0 4px 16px 0 rgba(0,0,0,.4);border-radius:0!important;position:fixed;left:0!important;transform:none!important;transition:top .1s ease-in-out;z-index:9999}
@@ -166,9 +168,6 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li a{display:block;padding:10px;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu li a i:not(.fa-id-card){padding-right:6px;color:rgba(255,255,255,.6)}
 #nav>.menu>.current-menu-item>a i{color:#FFFFFF!important}
-#wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:2px}
-#wpadminbar #wp-admin-bar-my-sites>.ab-item:before,#wpadminbar #wp-admin-bar-site-name>.ab-item:before{top:0}
-#wpadminbar .ab-icon{margin-right:2px}
 
 /* Columnas */
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
