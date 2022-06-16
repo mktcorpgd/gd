@@ -662,7 +662,7 @@ body:not(.home) .fusion-fullwidth.fullwidth-box.header-transparent:not(.no-overl
 .fusion-fullwidth.fullwidth-box.header-transparent:not(.no-overlay):not(.fusion-builder-row-2):not(.video-background):after,
 .fusion-fullwidth.fullwidth-box:not(.no-overlay).video-background:after,
 .fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video-image:after,
-.project-description>h3+.radius2x:after,.fusion-fullwidth.hero-img:after,.fusion-fullwidth.fullwidth-box.tfs-slider:after,.tfs-slider li .background:after,.tfs-slider li .mobile_video_image:after{background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(0,0,0,.6));z-index:2}
+.project-description>h3+.radius2x:after,.fusion-fullwidth.hero-img:after,.fusion-fullwidth.fullwidth-box.tfs-slider:after,.tfs-slider li .background:after,.tfs-slider li .mobile_video_image:after{background:rgba(0,0,0,.5);z-index:2}
 .fusion-fullwidth.fullwidth-box.overlay-darker:after{background:rgba(0,0,0,.6)!important}
 #sliders-container .fusion-title.fusion-title-size-one.fusion-sep-none .title-heading-left{margin-bottom:16px!important;line-height:1.1!important}
 
