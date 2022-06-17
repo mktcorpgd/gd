@@ -454,7 +454,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .mc4wp-checkbox-contact-form-7{cursor:pointer}
 .mc4wp-checkbox-contact-form-7 span{font-size:.9em}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
-.white .mc4wp-checkbox-contact-form-7~em{color:#FFFFFF!important}
+.white .mc4wp-checkbox-contact-form-7~em,.white .mc4wp-checkbox-contact-form-7~em a{color:#FFFFFF!important}
 
 /* Comentarios */
 #commentform{float:left;width:100%;clear:both}
