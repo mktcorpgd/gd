@@ -563,7 +563,7 @@ ul#lcp_instance_0.busquedas {border:none!important}
 #custom_html-11,#custom_html-24{padding-top:12px!important}
 #custom_html-11 > div > h3{font-size:1.1em!important}
 #custom_html-24 > div > h3{font-size:1.2em!important;font-weight:500!important;color:#F0582B!important}
-#custom_html-11 > div > h3 > i,#custom_html-24 > div > h3 > i{width:20px}
+#custom_html-11 > div > h3 > i,#custom_html-24 > div > h3 > i{width:25px}
 #custom_html-11 > div > h3 > i.fa-minus-square:before,#custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
 #custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'!important}
 #custom_html-11 > div > h3:nth-child(3) > i:before{content:'\f77c'!important}
@@ -1180,7 +1180,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0!important;font-size:.9e
 #footer{background:#F0F0ED!important;margin-top:0!important;padding:0}
 #footer-widgets .widget{background:none!important;margin:20px 0 0}
 #copyright{padding-top:0;color:#777777}
-.bottom_logos{padding:0 0 20px;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.2em;line-height:1.5}
+.bottom_logos{padding:0 1em 1em;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.2em;line-height:1.5}
 .bottom_logos a{color:#555555;display:inline-block;margin:.4em 0 0;font-size:.9em}
 .bottom_logos a:hover{color:#1F4483}
 
@@ -1305,7 +1305,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input,textarea,select,#sidebar .menu li .menu-subtitle{font-size:18px!important;line-height:1.6em!important}
 	.wpcf7-form-control-date input{height:53px}
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
-	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{padding:12px 10px!important}
+	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea{padding:.6em .4em!important}
+	select{padding:.675em .4em!important}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
 	h1,h2,h3,h4,h5,h6{line-height:120%!important}
 	.widget .widgettitle{line-height:125%!important}
@@ -1425,7 +1426,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-thumbnail,.post-thumbnail img{width:100%!important}
 	#fl_home .fa{position:relative;bottom:2px}
 	.birthdays-widget ul.birthday_list .birthday_name{font-size:24px!important}
-	h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{font-size:1.2em}
 	#text-2.widget ul li.notoggle{padding-left:11px}
 	.textwidget h3.toggle a{padding-left:10px}
 	#text-2.widget .toggle-box ul:not(.ui-tabs-nav){margin:5px 0 5px 12px}
@@ -1445,7 +1445,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.widget{margin:1em 0 0 0!important;font-size:18px}
 	#sidebar-right{margin-top:0!important}
 	#mobile-nav .menu li a{font-size:1.1em}
-	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:18px!important}
+	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.2em!important}
 	.widget .vevent abbr{position:relative;top:5px}
 	#copyright{font-size:14px;line-height:24px}
 	.birthdays-widget img{width:30%}
