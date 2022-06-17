@@ -1312,7 +1312,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.widget .textwidget li{font-size:1.1em}
 	#post-content .ui-tabs .ui-tabs-nav{box-shadow:none}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
-	body #post-content .ui-tabs .ui-tabs-nav li a{border-radius:12px;box-shadow:0 8px 10px -8px rgba(0,0,0,.4)}
 	.wpcf7 .columns{margin-bottom:10px!important}
 	.wpcf7-form .wpcf7-not-valid-tip{top:56px;right:15px;font-size:14px}
 	.wpcf7-select+.wpcf7-not-valid-tip{top:58px}
@@ -1470,6 +1469,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#UseyourDrive .ajax-filelist{font-size:1em}
 	#UseyourDrive .wpcp-thumb-view .entry{margin:.4em 0}
 	#UseyourDrive .nav-title{flex:auto;order:initial}
+	#UseyourDrive .nav-home{flex:auto}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0!important}
 	.jOrgChart .node{min-width:90px}
