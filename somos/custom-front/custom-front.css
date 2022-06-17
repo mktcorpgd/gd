@@ -659,7 +659,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 
 /* Drive */
 #UseyourDrive{margin:0 -30px}
-#UseyourDrive .ajax-filelist{min-height:auto}
+#UseyourDrive .ajax-filelist{min-height:auto;font-size:.9em}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;font-size:1.2em;line-height:1.2}
@@ -691,7 +691,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .tippy-content .description-textbox .description-file-info i,.UseyourDrive .tippy-content .description-textbox .description-file-info i{display:none}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400!important}
-.info-material{padding:1.2em 0!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
+#UseyourDrive div.info-material{padding:1.2em .8em;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0!important}
 .file-container .info-material{margin-top:20px!important}
 .info-material i{display:inline-block;margin-right:5px;color:#0E316E}
@@ -1467,6 +1467,9 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content code,.widget code{font-size:18px;line-height:24px}
 	#UseyourDrive{margin-left:-20px;margin-right:-20px}
 	#UseyourDrive .uyd-grid .folders-container .entry.folder:before,#UseyourDrive .entry.folder .entry_icon:before,#UseyourDrive .files.layout-list .entry_link:before{font-size:1.4em}
+	#UseyourDrive .ajax-filelist{font-size:1em}
+	#UseyourDrive .wpcp-thumb-view .entry{margin:.4em 0}
+	#UseyourDrive .nav-title{flex:auto;order:initial}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0!important}
 	.jOrgChart .node{min-width:90px}
