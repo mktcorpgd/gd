@@ -347,7 +347,7 @@ html body .ff-form .ff-powered{transform:scale(0)}
 label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;border:none;border-radius:12px}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box{border:none;border-radius:6px}
-.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover{background:#F0582B!important}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover{background:#F0582B!important;border-radius:6px;box-shadow:inset 0 0px 0 2px rgba(255,255,255,.8)!important}
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current{background:#0E316E!important;box-shadow:none}
 
 /* Meta */
