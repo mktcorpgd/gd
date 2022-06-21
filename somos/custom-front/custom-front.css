@@ -476,7 +476,8 @@ article:not(.category-salesforce) .nav-posts{display:grid;grid-template-columns:
 article:not(.category-salesforce) .nav-posts{grid-column-gap:1em}
 article.category-salesforce .nav-posts+.wp-block-image img{border-radius:0 12px 12px 12px!important}
 .wp-block-image img{border:none!important}
-article.category-salesforce #content-wrapper h3.toggle {display: block!important;padding:5px!important;}
+article.category-salesforce h3.toggle {display: block!important;padding:5px!important;}
+article.category-salesforce 
 #post-content+.nav-posts{margin-bottom:2em}
 #post-content+.nav-posts{margin-bottom:2em}
 #content .nav-posts h5{margin:0!important;font-size:.9em}
