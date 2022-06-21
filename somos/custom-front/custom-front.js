@@ -537,6 +537,13 @@ jQuery(document).ready(function() {
 	});
 
 
+	// FORMULARIOS - Agregar mapa como imagen
+	jQuery('.address_maps').blur(function() {
+		jQuery(this).append('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+jQuery(this).val()+'&zoom=14&size=400x400&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="200" height="200" />')
+	});
+	
+
+
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
 
