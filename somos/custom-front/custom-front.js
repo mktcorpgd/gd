@@ -548,7 +548,7 @@ jQuery(document).ready(function() {
 			componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
 		});
 		addressAutocomplete[i].addListener('place_changed', function() {
-			console.log(addressAutocomplete.getPlace().formatted_address)
+			console.log(addressAutocomplete[i].getPlace().formatted_address)
 		});
 	}
 	var selected = false;
