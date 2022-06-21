@@ -539,18 +539,32 @@ jQuery(document).ready(function() {
 
 	// FORMULARIO - Domicilio a través de Google Maps
 	var $addressAutoCompleteInput = jQuery('.address_maps');
-	/*var addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[1], {
-		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
-	});*/
 	console.log($addressAutoCompleteInput.length);
-	for (i = 0; i<$addressAutoCompleteInput.length; i++) {
-		addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[i], {
-			componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
-		});
-		addressAutocomplete.addListener('place_changed', function() {
-			console.log(addressAutocomplete.getPlace().formatted_address)
-		});
-	}
+	addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
+		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
+	});
+	addressAutocomplete2 = new google.maps.places.Autocomplete($addressAutoCompleteInput[1], {
+		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
+	});
+	addressAutocomplete3 = new google.maps.places.Autocomplete($addressAutoCompleteInput[2], {
+		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
+	});
+	addressAutocomplete4 = new google.maps.places.Autocomplete($addressAutoCompleteInput[3], {
+		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
+	});
+	addressAutocomplete1.addListener('place_changed', function() {
+		console.log(addressAutocomplete1.getPlace().formatted_address)
+	});
+	addressAutocomplete2.addListener('place_changed', function() {
+		console.log(addressAutocomplete2.getPlace().formatted_address)
+	});
+	addressAutocomplete3.addListener('place_changed', function() {
+		console.log(addressAutocomplete3.getPlace().formatted_address)
+	});
+	addressAutocomplete4.addListener('place_changed', function() {
+		console.log(addressAutocomplete4.getPlace().formatted_address)
+	});
+
 	var selected = false;
 	jQuery('.address_maps').on('focus', function() {
 		if( selected != true ) {
