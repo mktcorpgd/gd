@@ -544,7 +544,7 @@ jQuery(document).ready(function() {
 		autocomplete.addListener('place_changed',function() {
 			selected = true;
 			var place = autocomplete.getPlace();
-			console.log('Dirección: '+place.address_components[i].long_name);
+			console.log('Dirección: '+place.formatted_address);
 		});
 	}
 	var selected = false;
