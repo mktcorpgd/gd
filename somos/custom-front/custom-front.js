@@ -539,16 +539,9 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Agregar mapa como imagen
 	jQuery('.address_maps').blur(function() {
-		if ( jQuery(this).val().length > 0 ) {
-			if ( jQuery(this).find('img').length ) {
-				jQuery(this).siblings('img').remove();
-				jQuery(this).after('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+jQuery(this).val()+'&zoom=14&size=400x400&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="200" height="200" />')
-			}
-		}
-		else {
 			jQuery(this).siblings('img').remove();
-		}	
-});
+			jQuery(this).after('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+jQuery(this).val()+'&zoom=14&size=400x400&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="200" height="200" />')
+	});
 	
 
 
