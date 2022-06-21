@@ -42,8 +42,13 @@ jQuery(document).ready(function() {
 
 
 	jQuery('#same_datapax').change(function() {
-		jQuery('input[name=FNAMELNAMEPAX]').val(jQuery('input[name=FNAME]').val()+' '+jQuery('input[name=LNAME]').val());
-		jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
+		if ( this.checked ) {
+			jQuery('input[name=FNAMELNAMEPAX]').val(jQuery('input[name=FNAME]').val()+' '+jQuery('input[name=LNAME]').val());
+			jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
+		}
+		else {
+			jQuery('input[name=FNAMELNAMEPAX],input[name=EMAILPAX]').val('');
+		}
 	});
 	
 
