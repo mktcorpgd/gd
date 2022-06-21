@@ -41,6 +41,12 @@ jQuery(document).on('wpcf7submit',function(e) {
 jQuery(document).ready(function() {
 
 
+	jQuery('#same_datapax').change(function() {
+		jQuery('input[name=FNAMELNAMEPAX]').val(jQuery('input[name=FNAME]').val()+' '+jQuery('input[name=LNAME]').val());
+		jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
+	});
+	
+
 	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
 	if ( jQuery('body').hasClass('home') ) {
 		jQuery(document).on('click','.ui-tabs-tab',function(e) {
