@@ -544,8 +544,7 @@ jQuery(document).ready(function() {
 		autocomplete.addListener('place_changed',function() {
 			selected = true;
 			var place = autocomplete.getPlace();
-			var val = place.address_components[i][componentForm[addressType]];
-			console.log('Dirección: '+val);
+			console.log('Dirección: '+place.address_components[i].long_name);
 		});
 	}
 	var selected = false;
@@ -562,8 +561,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
-
+	
 	// BOTONES - Agregar botones de archivo
 	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.toggle-box');
 
