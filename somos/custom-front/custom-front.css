@@ -346,8 +346,8 @@ html body .ff-form .ff-powered{transform:scale(0)}
 #ff-id-1504819344{text-align:center}
 #ff-compose{padding:20px 0 0;text-align:center}
 label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
-.xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;border:none;border-radius:12px}
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box{border:none;border-radius:6px}
+.xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;border:none;border-radius:12px;box-shadow:0 2px 12px -6px rgba(0,0,0,.4)}
+.xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box{border:1PX solid #EAEAEA;border-radius:6px}
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover{background:#F0582B!important}
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current{background:#0E316E!important;box-shadow:none}
 .pac-container{font-family:'Open-Sans',sans-serif;border-radius:6px;border:none;box-shadow:0 4px 12px -2px rgba(0,0,0,.2);z-index:999999}
