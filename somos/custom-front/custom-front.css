@@ -350,7 +350,7 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:hover{background:#F0582B!important;border-radius:6px;box-shadow:inset 0 0px 0 2px rgba(255,255,255,.8)!important}
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current{background:#0E316E!important;box-shadow:none}
 .xdsoft_scrollbar{width:6px;top:2px;right:2px}
-.xdsoft_datetimepicker .xdsoft_label{font-family:'Neo-Sans',sans-serif;font-weight:500}
+.xdsoft_datetimepicker .xdsoft_label{width:auto;font-family:'Neo-Sans',sans-serif;font-weight:500}
 
 /* Meta */
 .gp-meta-cats{margin:.1em 0 0;color:#888888;font-weight:normal;font-family:'Open-Sans',sans-serif;font-size:0}
