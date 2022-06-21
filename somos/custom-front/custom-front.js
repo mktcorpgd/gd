@@ -540,15 +540,15 @@ jQuery(document).ready(function() {
 	// FORMULARIO - Domicilio a través de Google Maps
 	inputs_address = document.getElementsByClassName('address_maps');
 	for (var i = 0; i < inputs_address.length; i++) {
-        var places = new google.maps.places.Autocomplete(inputs_address[i]);
-        google.maps.event.addListener(places, 'place_changed', function () {
-			selected = true;
-            var place = places.getPlace();
-            var address = place.formatted_address;
-			console.log(address);
-		});
+		var autocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
+		autocomplete.setFields(['formatted_address']);
+		autocomplete.addListener('place_changed',placechange);
+	}  
+	function placechange() {
+		selected = true;
+		var place = autocomplete.getPlace();
+		console.log(place.formatted_address);
 	}
-		
 	var selected = false;
 	jQuery('.address_maps').on('focus', function() {
 		if( selected != true ) {
