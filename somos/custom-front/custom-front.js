@@ -538,27 +538,14 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIO - Domicilio a través de Google Maps
-	//inputs_address = document.getElementsByClassName('address_maps');
-	var $addressAutoCompleteInput = jQuery('.address_maps'); //this is my input
-
-	var addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
-		componentRestrictions: {country: 'es'}
-	});
-	
+	var inputs_address = document.getElementsByClassName('address_maps');
+	for (var i = 0; i < inputs_address.length; i++) {
+		var addressAutocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
+	}  
 	addressAutocomplete.addListener('place_changed', function() {
 		console.log(addressAutocomplete.getPlace().formatted_address)
 	});
-	/*	for (var i = 0; i < inputs_address.length; i++) {
-		var autocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
-		autocomplete.setFields(['formatted_address']);
-		autocomplete.addListener('place_changed',placechange);
-	}  
-	function placechange() {
-		selected = true;
-		var place = autocomplete.getPlace();
-		console.log(place.formatted_address);
-	}
-	var selected = false;*/
+	var selected = false;
 	jQuery('.address_maps').on('focus', function() {
 		if( selected != true ) {
 			selected = false;
