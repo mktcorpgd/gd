@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
 
 
 	jQuery('#same_datapax').change(function() {
-		if ( this.checked ) {
+		if ( jQuery(this).is(':checked') ) {
 			console.log('true');
 			jQuery('input[name=FNAMELNAMEPAX]').val(jQuery('input[name=FNAME]').val()+' '+jQuery('input[name=LNAME]').val());
 			jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
