@@ -541,10 +541,10 @@ jQuery(document).ready(function() {
 	var $addressAutoCompleteInput = jQuery('.address_maps');
 	for (var i = 0; i < $addressAutoCompleteInput.length; i++) {
 		var addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[i]);
+		addressAutocomplete.addListener('place_changed', function() {
+			console.log(addressAutocomplete.getPlace().formatted_address)
+		});
 	}
-	addressAutocomplete.addListener('place_changed', function() {
-		console.log(addressAutocomplete.getPlace().formatted_address)
-	});
 	var selected = false;
 	jQuery('.address_maps').on('focus', function() {
 		if( selected != true ) {
