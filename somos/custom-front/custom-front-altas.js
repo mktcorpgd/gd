@@ -19,7 +19,7 @@ jQuery(document).ready(function() {
 		var name_checkbox = jQuery(this).attr('name');
 		console.log(name_checkbox);
 		if ( name_checkbox == 'LKDNOT[]' ) {
-			if ( jQuery(this).prop('checked') ) {
+			if ( this.checked ) {
 				jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
 			}
 			else {
@@ -27,7 +27,7 @@ jQuery(document).ready(function() {
 			}	
 		}
 		else {
-			if ( jQuery(this).prop('checked') ) {
+			if ( this.checked ) {
 				var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 				jQuery(this).val('*'+checkbox_checked);
 			}
