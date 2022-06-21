@@ -544,6 +544,7 @@ jQuery(document).ready(function() {
 		autocomplete.addListener("place_changed", function() {
 			selected = true;
 			var place = autocomplete.getPlace();
+			console.log(place);
 			jQuery(this).after('<img src=https://maps.googleapis.com/maps/api/staticmap?center='+place+'&zoom=16&size=400x400&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="200" height="200" />');
 		});
 	}
