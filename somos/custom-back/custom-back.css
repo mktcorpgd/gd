@@ -28,7 +28,7 @@ span.description{display:block}
 input+span.description,select+span.description{display:inline-block;position:relative;left:5px;font-style:italic}
 span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;line-height:20px}
 .nav-menus-php .item-edit{height:38px;overflow:hidden}
-#wpadminbar .ab-icon{font-family:'dashicons'}
+#wpadminbar .ab-icon{margin-right:2px!important}
 #wpwrap.wp-responsive-open,div#post-body.metabox-holder.columns-1{overflow-x:visible!important}
 #adminmenu,#adminmenu .wp-submenu,#adminmenuback,#adminmenuwrap{width:165px}
 #adminmenu .wp-not-current-submenu .wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu{width:170px}
@@ -55,18 +55,18 @@ input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,in
 .supsystic-plugin .button-primary,.ui-dialog .button.button-hero{background:#F0582B!important}
 .supsystic-plugin .button:hover,.supsystic-plugin .button-primary:hover{background:#1F4483!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important}
-li.wp-not-current-submenu ul.wp-submenu.wp-submenu-wrap{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important;border-top-right-radius:8px!important;border-bottom-right-radius:8px!important}
+li.wp-not-current-submenu ul.wp-submenu.wp-submenu-wrap{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important;border-top-right-radius:12px!important;border-bottom-right-radius:12px!important}
 #wpadminbar .ab-submenu .ab-item,#wpadminbar .quicklinks .menupop ul li a,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li a,#collapse-button{color:#EEEEEE!important}
-#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-bottom-left-radius:8px!important;border-bottom-right-radius:8px!important}
+#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
 #wp-admin-bar-site-name>div{border-bottom-left-radius:0!important}
 #wp-admin-bar-my-account>div{border-bottom-right-radius:0!important}
 #adminmenuback,#adminmenuwrap{position:relative}
 li.wp-has-submenu.wp-has-current-submenu>a+ul{padding-top:0!important}
-#adminmenuwrap{margin-bottom:30px;border-bottom-right-radius:8px}
+#adminmenuwrap{margin-bottom:30px;border-bottom-right-radius:12px}
 #adminmenuwrap:after{content:'';display:inline-block;margin:0 20% 10px;width:60%;height:32px;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-iso-one_stroke-dark.svg');background-size:contain;background-repeat:no-repeat;background-position:center center}
 #menu-management .menu-edit,#menu-settings-column .accordion-container,.comment-ays,.feature-filter,.imgedit-group,.manage-menus,.menu-item-handle,.popular-tags,.stuffbox,.widget-inside,.widget-top,.widgets-holder-wrap,.wp-editor-container,p.popular-tags,table.widefat,.postbox{margin-top:5px;box-shadow:none!important}
 .wp-editor-container{border-top-right-radius:0!important}
-#contextual-help-link-wrap,#screen-options-link-wrap{box-shadow:none!important;border-bottom-left-radius:8px;border-bottom-right-radius:8px}
+#contextual-help-link-wrap,#screen-options-link-wrap{box-shadow:none!important;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 #post-status-info{background:none!important;border:0!important;box-shadow:none!important}
 .js .postbox .handlediv:focus .toggle-indicator:before{box-shadow:none!important}
 .quicktags-toolbar{border-right:2px solid #EAEAEA!important;border-bottom:0!important}
