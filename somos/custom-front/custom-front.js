@@ -539,7 +539,8 @@ jQuery(document).ready(function() {
 
 	// FORMULARIO - Domicilio a través de Google Maps
 	var $addressAutoCompleteInput = jQuery('.address_maps'); //this is my input
-	var addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[0]);
+	var addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
+	});
 	addressAutocomplete.addListener('place_changed', function() {
 		console.log(addressAutocomplete.getPlace().formatted_address)
 	});
