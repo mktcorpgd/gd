@@ -538,10 +538,12 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIO - Domicilio a través de Google Maps
-	var inputs_address = document.getElementsByClassName('address_maps');
+	var $addressAutoCompleteInput = jQuery('.address_maps');
+	var addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput);
+	/*var inputs_address = document.getElementsByClassName('address_maps');
 	for (var i = 0; i < inputs_address.length; i++) {
 		var addressAutocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
-	}  
+	}*/
 	addressAutocomplete.addListener('place_changed', function() {
 		console.log(addressAutocomplete.getPlace().formatted_address)
 	});
