@@ -542,13 +542,13 @@ jQuery(document).ready(function() {
 	/*var addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[1], {
 		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
 	});*/
-	var addressAutocomplete = [];
+	console.log($addressAutoCompleteInput.length);
 	for (i = 0; i<$addressAutoCompleteInput.length; i++) {
-		addressAutocomplete[i] = new google.maps.places.Autocomplete($addressAutoCompleteInput[i], {
+		addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[i], {
 			componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
 		});
-		addressAutocomplete[i].addListener('place_changed', function() {
-			console.log(addressAutocomplete[i].getPlace().formatted_address)
+		addressAutocomplete.addListener('place_changed', function() {
+			console.log(addressAutocomplete.getPlace().formatted_address)
 		});
 	}
 	var selected = false;
