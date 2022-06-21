@@ -537,13 +537,30 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Agregar mapa como imagen
-	jQuery('.address_maps').blur(function() {
-			jQuery(this).siblings('img').remove();
-			console.log(jQuery(this).val());
-			jQuery(this).after('<img src="https://maps.googleapis.com/maps/api/staticmap?center='+jQuery(this).val()+'&zoom=14&size=400x400&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="200" height="200" />')
+	// FORMULARIO - Domicilio a través de Google Maps
+	inputs_address = document.getElementsByClassName("address_maps");
+	for (var i = 0; i < inputs_address.length; i++) {
+		var autocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
+		autocomplete.addListener("place_changed", function() {
+			selected = true;
+			var place = autocomplete.getPlace();
+			jQuery(this).after('<img src=https://maps.googleapis.com/maps/api/staticmap?center='+place+'&zoom=16&size=400x400&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="200" height="200" />');
+		});
+	}
+	var selected = false;
+	jQuery(".address_maps").on("focus", function() {
+		if( selected != true ) {
+			selected = false;
+		}
+	}).on("blur", function() {
+		if ( selected == false ) {
+			jQuery(this).val("");
+		}
+		if ( jQuery(this).val().length == 0 ) {
+			selected = false;
+		}
 	});
-	
+
 
 
 	// BOTONES - Agregar botones de archivo
