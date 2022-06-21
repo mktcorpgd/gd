@@ -41,7 +41,7 @@ jQuery(document).on('wpcf7submit',function(e) {
 jQuery(document).ready(function() {
 
 
-	jQuery('input[name=SAMEDATAPAX]').change(function() {
+	jQuery('input[name=SAMEDATAPAX[]]').change(function() {
 		if ( this.checked ) {
 			jQuery('input[name=FNAMELNAMEPAX]').val(jQuery('input[name=FNAME]').val()+' '+jQuery('input[name=LNAME]').val());
 			jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
