@@ -543,8 +543,6 @@ jQuery(document).ready(function() {
 		var autocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
 		autocomplete.addListener('place_changed',function() {
 			selected = true;
-			var place = autocomplete.getPlace();
-			console.log('Dirección: '+place.formatted_address);
 		});
 	}
 	var selected = false;
