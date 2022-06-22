@@ -571,7 +571,9 @@ jQuery(document).ready(function() {
 		var to = addressAutocomplete2.getPlace().formatted_address;
 		console.log('from='+from);
 		console.log('to='+to);
-		jQuery('label[for=IDATO]').after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+from+'|'+to+'&zoom=12&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="600" height="200" />')
+		jQuery('.staticmap img').fadeTo(1000,0.30, function() {
+			jQuery('.staticmap img').attr('src','https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+from+'|'+to+'&zoom=12&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM');
+		}).fadeTo(500,1);
 	});
 	addressAutocomplete3.addListener('place_changed', function() {
 		console.log(addressAutocomplete3.getPlace().formatted_address);
