@@ -359,8 +359,8 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .pac-item{padding:.3em .6em;cursor:pointer}
 .pac-item-query,.pac-item-query+span{float:left;line-height:1.5}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
-.pac-target-input.filledwithmap{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
-.pac-target-input.filledwithmap+img{border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
+.filledwithmap input{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
+.filledwithmap+img{border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 /* Meta */
 .gp-meta-cats{margin:.1em 0 0;color:#888888;font-weight:normal;font-family:'Open-Sans',sans-serif;font-size:0}
 body.archive .gp-meta-cats{width:100%}
