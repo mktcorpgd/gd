@@ -554,7 +554,7 @@ jQuery(document).ready(function() {
 		function fillIn() {
 			console.log(this.inputId);
 			var place = this.getPlace();
-			console.log(place. address_components[0].long_name);
+			console.log(place.address_components[0].long_name);
 			//jQuery('input[name=IDAFROM]').after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" alt="'+address+'" />');
 		}
 		/*
