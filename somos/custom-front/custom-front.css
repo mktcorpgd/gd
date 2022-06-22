@@ -250,7 +250,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='checkbox']{width:24px;height:24px}
 .wpcf7-checkbox.large .wpcf7-list-item-label,.wpcf7-radio.large .wpcf7-list-item-label{display:inline-block;position:relative;top:-5px;font-size:18px;font-weight:400;font-style:italic}
 .wpcf7-form-control-wrap.LKDNOT,.wpcf7-form-control-wrap.ISFRL{float:right;margin-top:0!important}
-.wpcf7-form-control-wrap.SAMEDATAPAX{display:inline-block;margin-left:20px;font-size:.8em;font-weight:400}
+.wpcf7-form-control-wrap.SAMEDATAPAX{font-size:.8em;font-weight:400}
 .wpcf7-form-control-wrap.LKDNOT .wpcf7-checkbox,.wpcf7-form-control-wrap.ISFRL .wpcf7-checkbox{display:inline-block!important;font-size:.8em!important}
 .wpcf7-form label>i[title]{cursor:pointer;opacity:.6}
 .wpcf7-form label>i[title]:hover{opacity:1}
@@ -331,7 +331,7 @@ body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-form .wpcf7-response-info,.wpcf7-form .wpcf7-response-output.info{background-color:#1F4483!important}
 html body .ff-form .ff-powered{transform:scale(0)}
 .ff-form .ff-button-bar{padding-top:80px;position:relative;text-align:center}
-.ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:44px!important;position:absolute;bottom:30px}
+.ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:2.2em!important;position:absolute;bottom:30px}
 .ff-form .form-check-label{font-size:14px!important}
 .ff-form .form-check.form-check-other input.form-control{height:32px;width:auto!important}
 .ff-form .ff-section-header{margin-top:15px}
@@ -1304,6 +1304,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.4em .9em}
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:45% 55%}
 	.bottom_logos a img{width:120px}
+	.wpcf7-form-control-wrap.SAMEDATAPAX{display:inline-block;margin-left:20px}
 }
 
 /* Mobile */
