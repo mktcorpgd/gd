@@ -540,61 +540,20 @@ jQuery(document).ready(function() {
 	// FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
 		var $addressAutoCompleteInput = jQuery('.address_maps');
-		addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
-			types: ['address'],
-			componentRestrictions: {
-				country:['ar','br','cl','mx','pe','pr','uy']
-			}
-		});
-		addressAutocomplete2 = new google.maps.places.Autocomplete($addressAutoCompleteInput[1], {
-			types: ['address'],
-			componentRestrictions: {
-				country:['ar','br','cl','mx','pe','pr','uy']
-			}
-		});
-		addressAutocomplete3 = new google.maps.places.Autocomplete($addressAutoCompleteInput[2], {
-			types: ['address'],
-			componentRestrictions: {
-				country:['ar','br','cl','mx','pe','pr','uy']
-			}
-		});
-		addressAutocomplete4 = new google.maps.places.Autocomplete($addressAutoCompleteInput[3], {
-			types: ['address'],
-			componentRestrictions: {
-				country:['ar','br','cl','mx','pe','pr','uy']
-			}
-		});
-		addressAutocomplete1.addListener('place_changed', function() {
-			var from = addressAutocomplete1.getPlace().formatted_address;
-			var to = jQuery('input[name=IDATO]').val();
-			jQuery('#ida img').fadeTo(1000,0.30, function() {
-				jQuery('#ida img').attr('src','https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+from+'|'+to+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM');
-			}).fadeTo(500,1);
-		});
-		addressAutocomplete2.addListener('place_changed', function() {
-			var from = jQuery('input[name=IDAFROM]').val();
-			var to = addressAutocomplete2.getPlace().formatted_address;
-			console.log('from='+from);
-			console.log('to='+from);
-			jQuery('#ida img').fadeTo(1000,0.30, function() {
-				jQuery('#ida img').attr('src','https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+from+'|'+to+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM');
-			}).fadeTo(500,1);
-		});
-		addressAutocomplete3.addListener('place_changed', function() {
-			var from = addressAutocomplete3.getPlace().formatted_address;
-			var to = jQuery('input[name=VUELTATO]').val();
-			jQuery('#vuelta img').fadeTo(1000,0.30, function() {
-				jQuery('#vuelta img').attr('src','https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+from+'|'+to+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM');
+		for (var i=0; i<$addressAutoCompleteInput.length; i++) {
+			addressAutocomplete = new google.maps.places.Autocomplete($addressAutoCompleteInput[i], {
+				types: ['address'],
+				componentRestrictions: {
+					country:['ar','br','cl','mx','pe','pr','uy']
+				}
+			});
+			addressAutocomplete.addListener('place_changed', function() {
+				var address = addressAutocomplete.getPlace().formatted_address;
+				console.log('address='+address);
+				jQuery(this).after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" alt="Mapa" />');
+			});
+		}
 
-			}).fadeTo(500,1);
-		});
-		addressAutocomplete4.addListener('place_changed', function() {
-			var from = jQuery('input[name=VUELTAFROM]').val();
-			var to = addressAutocomplete4.getPlace().formatted_address;
-			jQuery('#vuelta img').fadeTo(1000,0.30, function() {
-				jQuery('#vuelta img').attr('src','https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+from+'|'+to+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM');
-			}).fadeTo(500,1);
-		});
 		var selected = false;
 		jQuery('.address_maps').on('focus', function() {
 			if( selected != true ) {
