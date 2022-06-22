@@ -43,11 +43,13 @@ jQuery(document).ready(function() {
 
 	jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 		if ( this.checked ) {
-			jQuery('input[name=FNAMELNAMEPAX]').val(jQuery('input[name=FNAME]').val()+' '+jQuery('input[name=LNAME]').val());
+			jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
+			jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
 			jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
+			jQuery('input[name=PHONEPAX]').val(jQuery('input[name=PHONE]').val());
 		}
 		else {
-			jQuery('input[name=FNAMELNAMEPAX],input[name=EMAILPAX]').val('');
+			jQuery('input[name$=PAX]').val('');
 		}
 	});
 	
