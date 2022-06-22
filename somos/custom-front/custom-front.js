@@ -546,17 +546,15 @@ jQuery(document).ready(function() {
 		};
 		var autocompletes = [];
 		for (var i=0; i<inputs.length; i++) {
-			var autocomplete = new google.maps.places.Autocomplete(inputs[i],options);
-			autocomplete.inputName = inputs[i].getAttribute('name');
+			var autocomplete = new google.maps.places.Autocomplete(inputs[i], options);
+			autocomplete.inputId = inputs[i].id;
 			autocomplete.addListener('place_changed', fillIn);
 			autocompletes.push(autocomplete);
 		}
 		function fillIn() {
-			console.log('inputName='+this.inputName);
+			console.log(this.inputId);
 			var place = this.getPlace();
-			console.log(place.address_components[0].formatted_address);
-			var address = place.address_components[0].formatted_address;
-			jQuery(this).addClass('filledwithmap');
+			console.log(place. address_components[0].long_name);
 			//jQuery('input[name=IDAFROM]').after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" alt="'+address+'" />');
 		}
 		/*
