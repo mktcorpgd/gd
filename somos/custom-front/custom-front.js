@@ -540,21 +540,21 @@ jQuery(document).ready(function() {
 	// FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
 		var $addressAutoCompleteInput = jQuery('.address_maps');
-		var addressAutocompleteHolder = {};
-		var fromHolder = {};
-		var toHolder = {};
-		for (i=0; i<addressAutoCompleteInput.length; i++) {
-			addressAutocompleteHolder[i] = new google.maps.places.Autocomplete($addressAutoCompleteInput[i], {
+		var $addressAutocomplete = {};
+		var $from = {};
+		var $to = {};
+		for (i=0; i<$addressAutoCompleteInput.length; i++) {
+			$addressAutocomplete[i] = new google.maps.places.Autocomplete($addressAutoCompleteInput[i], {
 				types: ['address'],
 				componentRestrictions: {
 					country:['ar','br','cl','mx','pe','pr','uy']
 				}
 			});
-			addressAutocompleteHolder[i].addListener('place_changed', function() {
-				fromHolder[i] = jQuery('input[name=IDAFROM]').val();
-				toHolder[i] = addressAutocompleteHolder[i].getPlace().formatted_address;
+			$addressAutocomplete[i].addListener('place_changed', function() {
+				$from[i] = jQuery('input[name=IDAFROM]').val();
+				$to[i] = $addressAutocomplete[i].getPlace().formatted_address;
 				jQuery('.staticmap img').fadeTo(1000,0.30, function() {
-					jQuery('.staticmap img').attr('src','https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+fromHolder[i]+'|'+toHolder[i]+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM');
+					jQuery('.staticmap img').attr('src','https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+$from[i]+'|'+$to[i]+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM');
 				}).fadeTo(500,1);
 			});
 		}
