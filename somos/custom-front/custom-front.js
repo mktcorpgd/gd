@@ -534,7 +534,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.address_maps').length ) {
 		
 		// Datos de usuario
-		jQuery('input[name=PHONE]').val(jQuery('#usrphone').val());
+		jQuery('input[name=PHONE]').val(jQuery('#usrphone').text());
 		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 			if ( this.checked ) {
 				jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
@@ -605,7 +605,7 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
 		});
-		
+
 	}
 
 
