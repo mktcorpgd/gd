@@ -41,19 +41,6 @@ jQuery(document).on('wpcf7submit',function(e) {
 jQuery(document).ready(function() {
 
 
-	jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
-		if ( this.checked ) {
-			jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
-			jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
-			jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
-			jQuery('input[name=PHONEPAX]').val(jQuery('input[name=PHONE]').val());
-		}
-		else {
-			jQuery('input[name$=PAX]').val('');
-		}
-	});
-	
-
 	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
 	if ( jQuery('body').hasClass('home') ) {
 		jQuery(document).on('click','.ui-tabs-tab',function(e) {
@@ -545,6 +532,22 @@ jQuery(document).ready(function() {
 
 	// FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
+		
+		// Datos de usuario
+		jQuery('input[name=PHONE]').val(jQuery('#usrphone').val());
+		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
+			if ( this.checked ) {
+				jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
+				jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
+				jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
+				jQuery('input[name=PHONEPAX]').val(jQuery('input[name=PHONE]').val());
+			}
+			else {
+				jQuery('input[name$=PAX]').val('');
+			}
+		});
+		
+		// Autocompletado por Google Maps API
 		var $addressAutoCompleteInput = jQuery('.address_maps');
 		addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
 			types: ['address'],
@@ -602,6 +605,7 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
 		});
+		
 	}
 
 
