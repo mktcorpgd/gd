@@ -539,25 +539,6 @@ jQuery(document).ready(function() {
 
 	// FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
-		var inputs = document.getElementsByClassName('address_maps');
-		var options = {
-			types: ['(address)'],
-			componentRestrictions: {country: ['ar','br','cl','mx','pe','pr','uy']}
-		};
-		var autocompletes = [];
-		for (var i=0; i<inputs.length; i++) {
-			var autocomplete = new google.maps.places.Autocomplete(inputs[i], options);
-			autocomplete.inputId = inputs[i].id;
-			autocomplete.addListener('place_changed', fillIn);
-			autocompletes.push(autocomplete);
-		}
-		function fillIn() {
-			console.log(this.inputId);
-			var place = this.getPlace();
-			console.log(place.address_components[0].long_name);
-			//jQuery('input[name=IDAFROM]').after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" alt="'+address+'" />');
-		}
-		/*
 		var $addressAutoCompleteInput = jQuery('.address_maps');
 		addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
 			types: ['address'],
@@ -599,7 +580,6 @@ jQuery(document).ready(function() {
 			var address = addressAutocomplete4.getPlace().formatted_address;
 			jQuery('input[name=VUELTATO]').after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" alt="'+address+'" />');
 		});
-		*/
 		var selected = false;
 		jQuery('.address_maps').on('focus', function() {
 			if( selected != true ) {
