@@ -559,8 +559,7 @@ jQuery(document).ready(function() {
 			jQuery(this).addClass('filledwithmap');
 			//jQuery('input[name=IDAFROM]').after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" alt="'+address+'" />');
 		}
-		
-		  /*
+		/*
 		var $addressAutoCompleteInput = jQuery('.address_maps');
 		addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
 			types: ['address'],
