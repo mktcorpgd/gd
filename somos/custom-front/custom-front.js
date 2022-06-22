@@ -547,12 +547,12 @@ jQuery(document).ready(function() {
 		var autocompletes = [];
 		for (var i = 0; i < inputs.length; i++) {
 			var autocomplete = new google.maps.places.Autocomplete(inputs[i], options);
-			autocomplete.inputName = inputs[i].attr('name');
+			autocomplete.inputId = inputs[i].id;
 			autocomplete.addListener('place_changed', fillIn);
 			autocompletes.push(autocomplete);
 		}
 		function fillIn() {
-			console.log('inputName='+this.inputName);
+			console.log('inputId='+this.inputId);
 			var place = this.getPlace();
 			console.log(place.address_components[0].formatted_address);
 			var address = place.address_components[0].formatted_address;
