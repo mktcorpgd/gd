@@ -545,8 +545,8 @@ jQuery(document).ready(function() {
 			componentRestrictions: {country: ['ar','br','cl','mx','pe','pr','uy']}
 		};
 		var autocompletes = [];
-		for (var i = 0; i < inputs.length; i++) {
-			var autocomplete = new google.maps.places.Autocomplete(inputs[i], options);
+		for (var i=0; i<inputs.length; i++) {
+			var autocomplete = new google.maps.places.Autocomplete(inputs[i],options);
 			autocomplete.inputName = inputs[i].getAttribute('name');
 			autocomplete.addListener('place_changed', fillIn);
 			autocompletes.push(autocomplete);
