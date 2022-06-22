@@ -632,6 +632,7 @@ body.single-avada_portfolio div.project-content>div>div.fusion-fullwidth>.fusion
 .fusion-text h2 .fa{margin-left:10px;width:auto}
 .fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left),.fusion-li-icon,.fontawesome-icon,.fa,.fusion-.fusion-content-sep .icon-wrapper i,.fusion-.fusion-separator .icon-wrapper i{font-family:'Font Awesome 5 Pro'}
 .fusion-.fusion-separator .icon-wrapper{border-width:0!important}
+.fusion-separator-border.sep-solid{border-radius:6px}
 .fusion-content-widget-area .widget li a{display:inline!important}
 a.datasheet-link,a.oferta-link{display:block;margin-top:-10px;text-align:center;font-family:'Open-Sans',sans-serif}
 a.datasheet-link,a.datasheet-link strong{font-weight:600!important}
