@@ -537,6 +537,10 @@ jQuery(document).ready(function() {
 	});
 
 
+	// FORMULARIOS - Deshabilitar autocompletado
+	jQuery('.autocompleteoff').attr('autocomplete','off');
+
+
 	// FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
 		var $addressAutoCompleteInput = jQuery('.address_maps');
@@ -565,7 +569,6 @@ jQuery(document).ready(function() {
 			}
 		});
 		addressAutocomplete1.addListener('place_changed', function() {
-			var selected = true;
 			var address = addressAutocomplete1.getPlace().formatted_address;
 			var input_name = 'IDAFROM';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
@@ -574,7 +577,6 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
 		});
 		addressAutocomplete2.addListener('place_changed', function() {
-			var selected = true;
 			var address = addressAutocomplete2.getPlace().formatted_address;
 			var input_name = 'IDATO';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
@@ -583,7 +585,6 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
 		});
 		addressAutocomplete3.addListener('place_changed', function() {
-			var selected = true;
 			var address = addressAutocomplete3.getPlace().formatted_address;
 			var input_name = 'VUELTAFROM';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
@@ -592,26 +593,12 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
 		});
 		addressAutocomplete4.addListener('place_changed', function() {
-			var selected = true;
 			var address = addressAutocomplete4.getPlace().formatted_address;
 			var input_name = 'VUELTATO';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
-		});
-		var selected = false;
-		jQuery('.address_maps').on('focus', function() {
-			if( selected != true ) {
-				selected = false;
-			}
-		}).on('blur', function() {
-			if ( selected == false ) {
-				jQuery(this).val('');
-			}
-			if ( jQuery(this).val().length == 0 ) {
-				selected = false;
-			}
 		});
 	}
 
