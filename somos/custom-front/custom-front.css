@@ -353,6 +353,7 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_scroller:hover{background:#999999!important}
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current{background:#0E316E!important;box-shadow:none}
 .xdsoft_scrollbar{width:6px}
+.xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_scroller_box{border:1px solid #CCCCCC}
 .xdsoft_datetimepicker .xdsoft_calendar{overflow:hidden}
 .xdsoft_datetimepicker .xdsoft_label{width:auto;font-family:'Neo-Sans',sans-serif;font-weight:500}
 .pac-container{font-family:'Open-Sans',sans-serif;border-radius:6px;border:none;box-shadow:0 4px 12px -2px rgba(0,0,0,.2);z-index:999999}
@@ -361,7 +362,7 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
 .filledwithmap input{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
 .filledwithmap+a{display:none;position:relative;margin-top:-11px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-.filledwithmap+a{border-color:#F0582B!important}
+.filledwithmap+a:hover{border-color:#F0582B}
 /* Meta */
 .gp-meta-cats{margin:.1em 0 0;color:#888888;font-weight:normal;font-family:'Open-Sans',sans-serif;font-size:0}
 body.archive .gp-meta-cats{width:100%}
