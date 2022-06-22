@@ -568,7 +568,7 @@ jQuery(document).ready(function() {
 			var selected = true;
 			var address = addressAutocomplete1.getPlace().formatted_address;
 			var input_name = 'IDAFROM';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=200x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=17&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
+			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
@@ -577,7 +577,7 @@ jQuery(document).ready(function() {
 			var selected = true;
 			var address = addressAutocomplete2.getPlace().formatted_address;
 			var input_name = 'IDATO';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=200x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=17&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
+			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
@@ -586,7 +586,7 @@ jQuery(document).ready(function() {
 			var selected = true;
 			var address = addressAutocomplete3.getPlace().formatted_address;
 			var input_name = 'VUELTAFROM';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=200x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=17&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
+			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
@@ -595,7 +595,7 @@ jQuery(document).ready(function() {
 			var selected = true;
 			var address = addressAutocomplete4.getPlace().formatted_address;
 			var input_name = 'VUELTATO';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=200x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
+			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
