@@ -1474,7 +1474,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sociales li{background-position:0 10px;padding:5px 0}
 	.post-loop,article.event{margin:0 0 15px!important}
 	#logo{margin:0!important;position:relative}
-	#logo a{display:inline-block;position:absolute;top:12px;left:10px;background-size:80%;background-position:center center;background-repeat:no-repeat}
+	#logo a{display:inline-block;width:40px;height:40px;position:absolute;top:121px;left:10px}
 	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
 	body.gp-theme.fullwidth #content-wrapper{padding-top:95px}
 	#content code,.widget code{font-size:18px;line-height:24px}
