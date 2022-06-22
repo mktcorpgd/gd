@@ -569,7 +569,7 @@ jQuery(document).ready(function() {
 			var input_name = 'IDAFROM';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('input[name='+input_name+']').removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('input[name='+input_name+'] img').attr('src',img_src);
+			jQuery('input[name='+input_name+']+img').attr('src',img_src);
 			jQuery('input[name='+input_name+'SRC]').val(img_src);
 		});
 		addressAutocomplete2.addListener('place_changed', function() {
@@ -577,7 +577,7 @@ jQuery(document).ready(function() {
 			var input_name = 'IDATO';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('input[name='+input_name+']').removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('input[name='+input_name+'] img').attr('src',img_src);
+			jQuery('input[name='+input_name+']+img').attr('src',img_src);
 			jQuery('input[name='+input_name+'SRC]').val(img_src);
 		});
 		addressAutocomplete3.addListener('place_changed', function() {
@@ -585,7 +585,7 @@ jQuery(document).ready(function() {
 			var input_name = 'VUELTAFROM';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('input[name='+input_name+']').removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('input[name='+input_name+'] img').attr('src',img_src);
+			jQuery('input[name='+input_name+']+img').attr('src',img_src);
 			jQuery('input[name='+input_name+'SRC]').val(img_src);
 		});
 		addressAutocomplete4.addListener('place_changed', function() {
@@ -593,7 +593,7 @@ jQuery(document).ready(function() {
 			var input_name = 'VUELTATO';
 			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=300x300&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=16&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			jQuery('input[name='+input_name+']').removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('input[name='+input_name+'] img').attr('src',img_src);
+			jQuery('input[name='+input_name+']+img').attr('src',img_src);
 			jQuery('input[name='+input_name+'SRC]').val(img_src);
 		});
 		var selected = false;
