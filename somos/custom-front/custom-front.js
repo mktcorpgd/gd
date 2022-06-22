@@ -552,16 +552,20 @@ jQuery(document).ready(function() {
 		componentRestrictions: {country:['ar','br','cl','mx','pe','pr','uy']}
 	});
 	addressAutocomplete1.addListener('place_changed', function() {
-		console.log(addressAutocomplete1.getPlace().formatted_address)
+		console.log(addressAutocomplete1.getPlace().formatted_address);
 	});
 	addressAutocomplete2.addListener('place_changed', function() {
-		console.log(addressAutocomplete2.getPlace().formatted_address)
+		var from = jQuery('input[name=IDAFROM]').val();
+		var to = addressAutocomplete2.getPlace().formatted_address;
+		console.log('from='+from);
+		console.log('to='+to);
+		jQuery('label[for=IDATO]').after('<img src="https://maps.googleapis.com/maps/api/staticmap?size=600x200&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+from+'|'+to+'&zoom=12&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM" width="600" height="200" />')
 	});
 	addressAutocomplete3.addListener('place_changed', function() {
-		console.log(addressAutocomplete3.getPlace().formatted_address)
+		console.log(addressAutocomplete3.getPlace().formatted_address);
 	});
 	addressAutocomplete4.addListener('place_changed', function() {
-		console.log(addressAutocomplete4.getPlace().formatted_address)
+		console.log(addressAutocomplete4.getPlace().formatted_address);
 	});
 
 	var selected = false;
