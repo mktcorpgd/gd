@@ -534,7 +534,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.address_maps').length ) {
 		
 		// Datos de usuario
-		jQuery('input[name=PHONE]').val(jQuery('#usrphone').text());
+		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
 		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 			if ( this.checked ) {
 				jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
