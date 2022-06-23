@@ -353,12 +353,20 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Al clickear submit mostrar sending
-	jQuery(document).on('submit','.wpcf7-form',function() {
+	// FORMULARIOS - Al enviar un form
+	document.addEventListener('wpcf7submit', function(event) {
 		jQuery(this).addClass('sending');
 		jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name',jQuery('.wpcf7-form.sending .wpcf7-submit').val());
 		jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
-	});
+	}, false );
+
+
+	// FORMULARIOS - Al enviar un form con éxito
+	document.addEventListener('wpcf7mailsent', function(event) {
+		if ( event.detail.contactFormId == 42593 ) {
+			jQuery('.filledwithmap+a').hide();
+		}
+	}, false );
 
 
 	// FORMULARIOS - Agregar clase en .wpcf7-form-control-wrap si es un select
@@ -397,7 +405,6 @@ jQuery(document).ready(function() {
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name');
-		console.log(input_name);
 		// Si es un select multiple
 		if ( input_name.indexOf('[]') > -1 ) {
 			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
@@ -421,7 +428,6 @@ jQuery(document).ready(function() {
 				if ( input_name == 'CC_UNIT' ) {
 					val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
 				}
-				console.log(val_single);
 				jQuery('input[name='+input_name+'TXT]').val(val_single);
 			}
 		}
@@ -474,6 +480,19 @@ jQuery(document).ready(function() {
 	});
 
 
+	// FORMULARIOS - Limpiar validación al escribir al completar
+	jQuery(document).on('blur','.wpcf7-not-valid',function(){
+		if ( jQuery(this).val().length > 0 ) {
+			jQuery(this).removeClass('wpcf7-not-valid');
+			jQuery(this).siblings('.wpcf7-not-valid-tip').hide();
+		}
+		else {
+			jQuery(this).addClass('wpcf7-not-valid');
+			jQuery(this).siblings('.wpcf7-not-valid-tip').show();
+		}
+	});
+
+
 	// FORMULARIOS - Ir a página en cambio de select para .nav-posts
 	jQuery('.nav-posts select').val(window.location.href);
 	jQuery(document).on('change','.nav-posts select', function() {
@@ -482,6 +501,14 @@ jQuery(document).ready(function() {
 			window.location = url;
 		}
 		return false;
+	});
+
+
+	// FORMULARIOS - Focus en input al clickear un label
+	var labelID;
+	jQuery('label').click(function() {
+		labelID = jQuery(this).attr('for');
+		jQuery(':input[name='+labelID+']').focus();
 	});
 
 
@@ -550,25 +577,21 @@ jQuery(document).ready(function() {
 		// Autocompletado por Google Maps API
 		var $addressAutoCompleteInput = jQuery('.address_maps');
 		addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
 		});
 		addressAutocomplete2 = new google.maps.places.Autocomplete($addressAutoCompleteInput[1], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
 		});
 		addressAutocomplete3 = new google.maps.places.Autocomplete($addressAutoCompleteInput[2], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
 		});
 		addressAutocomplete4 = new google.maps.places.Autocomplete($addressAutoCompleteInput[3], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
