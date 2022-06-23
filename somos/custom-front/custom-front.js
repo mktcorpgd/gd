@@ -536,7 +536,7 @@ jQuery(document).ready(function() {
 		var labelID;
 		jQuery('label').click(function() {
 			labelID = jQuery(this).attr('for');
-			jQuery(':input[name='+labelID+']').trigger('click');
+			jQuery(':input[name='+labelID+']').focus();
 		});
 
 
