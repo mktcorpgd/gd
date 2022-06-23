@@ -475,7 +475,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Limpiar validación al escribir al completar
-	jQuery(document).on('input','.wpcf7-not-valid',function(){
+	jQuery(document).on('blur','.wpcf7-not-valid',function(){
 		if ( jQuery(this).val().length > 0 ) {
 			jQuery(this).removeClass('wpcf7-not-valid');
 			jQuery(this).siblings('.wpcf7-not-valid-tip').hide();
