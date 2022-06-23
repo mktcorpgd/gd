@@ -353,12 +353,20 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Al clickear submit mostrar sending
-	jQuery(document).on('submit','.wpcf7-form',function() {
+	// FORMULARIOS - Al enviar un form
+	document.addEventListener('wpcf7submit', function(event) {
 		jQuery(this).addClass('sending');
 		jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name',jQuery('.wpcf7-form.sending .wpcf7-submit').val());
 		jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
-	});
+	}, false );
+
+
+	// FORMULARIOS - Al enviar un form con éxito
+	document.addEventListener('wpcf7mailsent', function(event) {
+		if ( event.detail.contactFormId == 42593 ) {
+			jQuery('.filledwithmap+a').hide();
+		}
+	}, false );
 
 
 	// FORMULARIOS - Agregar clase en .wpcf7-form-control-wrap si es un select
