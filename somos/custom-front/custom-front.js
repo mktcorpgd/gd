@@ -478,9 +478,11 @@ jQuery(document).ready(function() {
 	jQuery(document).on('blur','.wpcf7-not-valid',function(){
 		if ( jQuery(this).val().length > 0 ) {
 			jQuery(this).removeClass('wpcf7-not-valid');
+			jQuery(this).siblings('.wpcf7-not-valid-tip').hide();
 		}
 		else {
 			jQuery(this).addClass('wpcf7-not-valid');
+			jQuery(this).siblings('.wpcf7-not-valid-tip').show();
 		}
 	});
 
