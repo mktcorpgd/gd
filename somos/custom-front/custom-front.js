@@ -474,6 +474,17 @@ jQuery(document).ready(function() {
 	});
 
 
+	// FORMULARIOS - Limpiar validación al escribir al completar
+	jQuery(document).on('blur','.wpcf7-not-valid',function(){
+		if ( jQuery(this).val().length > 0 ) {
+			jQuery(this).removeClass('wpcf7-not-valid');
+		}
+		else {
+			jQuery(this).addClass('wpcf7-not-valid');
+		}
+	});
+
+
 	// FORMULARIOS - Ir a página en cambio de select para .nav-posts
 	jQuery('.nav-posts select').val(window.location.href);
 	jQuery(document).on('change','.nav-posts select', function() {
@@ -482,6 +493,14 @@ jQuery(document).ready(function() {
 			window.location = url;
 		}
 		return false;
+	});
+
+
+	// FORMULARIOS - Focus en input al clickear un label
+	var labelID;
+	jQuery('label').click(function() {
+		labelID = jQuery(this).attr('for');
+		jQuery(':input[name='+labelID+']').focus();
 	});
 
 
@@ -533,13 +552,6 @@ jQuery(document).ready(function() {
 	// FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
 		
-		var labelID;
-		jQuery('label').click(function() {
-			labelID = jQuery(this).attr('for');
-			jQuery(':input[name='+labelID+']').focus();
-		});
-
-
 		// Datos de usuario
 		jQuery('input[name=PHONE]').val(jQuery('#usrphone').text());
 		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
