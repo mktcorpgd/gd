@@ -571,25 +571,21 @@ jQuery(document).ready(function() {
 		// Autocompletado por Google Maps API
 		var $addressAutoCompleteInput = jQuery('.address_maps');
 		addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
 		});
 		addressAutocomplete2 = new google.maps.places.Autocomplete($addressAutoCompleteInput[1], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
 		});
 		addressAutocomplete3 = new google.maps.places.Autocomplete($addressAutoCompleteInput[2], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
 		});
 		addressAutocomplete4 = new google.maps.places.Autocomplete($addressAutoCompleteInput[3], {
-			types: ['address'],
 			componentRestrictions: {
 				country:['ar','br','cl','mx','pe','pr','uy']
 			}
