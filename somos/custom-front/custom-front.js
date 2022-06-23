@@ -397,7 +397,6 @@ jQuery(document).ready(function() {
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name');
-		console.log(input_name);
 		// Si es un select multiple
 		if ( input_name.indexOf('[]') > -1 ) {
 			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
@@ -421,7 +420,6 @@ jQuery(document).ready(function() {
 				if ( input_name == 'CC_UNIT' ) {
 					val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
 				}
-				console.log(val_single);
 				jQuery('input[name='+input_name+'TXT]').val(val_single);
 			}
 		}
