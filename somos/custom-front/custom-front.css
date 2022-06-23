@@ -347,7 +347,7 @@ html body .ff-form .ff-powered{transform:scale(0)}
 #ff-compose{padding:20px 0 0;text-align:center}
 label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border:none;border-radius:12px}
-.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box,.xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_calendar td{border-radius:6px}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box,.xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current{border-radius:6px}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current,.xdsoft_datetimepicker .xdsoft_calendar th{font-weight:400}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select{top:27px}
 .xdsoft_datetimepicker .xdsoft_calendar td,.xdsoft_datetimepicker .xdsoft_calendar th,.xdsoft_datetimepicker .xdsoft_calendar{border:none}
