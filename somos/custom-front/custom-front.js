@@ -533,6 +533,13 @@ jQuery(document).ready(function() {
 	// FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
 		
+		var labelID;
+		jQuery('label').click(function() {
+			labelID = jQuery(this).attr('for');
+			jQuery(':input[name='+labelID+']').trigger('click');
+		});
+
+
 		// Datos de usuario
 		jQuery('input[name=PHONE]').val(jQuery('#usrphone').text());
 		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
