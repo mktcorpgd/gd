@@ -562,7 +562,7 @@ jQuery(document).ready(function() {
 		
 		// Datos de usuario
 		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
-		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
+		jQuery('input[name="PAXWHAT"]').change(function() {
 			if ( this.checked ) {
 				jQuery('select[name=ORG] option:contains('+jQuery('input[name=gdGroupa08454c0b0]').val()+')').prop('selected','selected');
 				jQuery('select[name=CC_UNIT] option:contains('+jQuery('input[name=gdUNIT_mc]').val()+')').prop('selected','selected');
@@ -576,7 +576,17 @@ jQuery(document).ready(function() {
 				jQuery('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
 			}
 		});
-		
+		jQuery('input[name="PAXWHAT"]').change(function() {
+			if ( this.value == 'Envío' ) {
+				jQuery('input[name=FNAMEPAX]').val('');
+				jQuery('input[name=LNAMEPAX]').val('');;
+			}
+			else {
+				jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
+				jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
+			}
+		});
+
 		// Autocompletado por Google Maps API
 		var $addressAutoCompleteInput = jQuery('.address_maps');
 		addressAutocomplete1 = new google.maps.places.Autocomplete($addressAutoCompleteInput[0], {
