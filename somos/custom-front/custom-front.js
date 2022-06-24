@@ -562,7 +562,7 @@ jQuery(document).ready(function() {
 		
 		// Datos de usuario
 		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
-		jQuery('input[name="PAXWHAT"]').change(function() {
+		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 			if ( this.checked ) {
 				jQuery('select[name=ORG] option:contains('+jQuery('input[name=gdGroupa08454c0b0]').val()+')').prop('selected','selected');
 				jQuery('select[name=CC_UNIT] option:contains('+jQuery('input[name=gdUNIT_mc]').val()+')').prop('selected','selected');
