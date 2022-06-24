@@ -607,14 +607,12 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .flex-next:hover,.flex-prev:hover{text-decoration:none!important;color:#FFFFFF!important}
 .fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em!important}
 .flex-control-paging li a.flex-active{background:#FFFFFF!important}
-body.home .flex-control-paging li a,.fusion-slider-sc .flex-direction-nav a{background:rgba(255,255,255,.6)!important}
-body.home .flex-control-paging li a.flex-active{background:#FFFFFF!important}
-.fusion-slider-sc .flex-direction-nav a{width:50px;height:70px;line-height:.8;color:rgba(0,0,0,.6)!important;opacity:1!important}
-.fusion-slider-sc .flex-direction-nav a:hover{width:50px;height:70px;line-height:.8;color:rgba(0,0,0,.8)!important;opacity:1!important}
+.flex-control-paging li a,.fusion-slider-sc .flex-direction-nav a{background:none!important}
+.flex-control-paging li a.flex-active{background:#FFFFFF!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em!important}
-.fusion-slider-sc .flex-direction-nav a.flex-prev{margin-left:2px;border-top-right-radius:6px;border-bottom-right-radius:6px}
-.fusion-slider-sc .flex-direction-nav a.flex-next{margin-right:2px;border-top-left-radius:6px;border-bottom-left-radius:6px}
 .fusion-layout-column .flexslider{margin-bottom:0}
+.fusion-body .fusion-slider-sc .flex-direction-nav a{width:50px;height:70px;line-height:.8;color:rgba(0,0,0,.4)!important;opacity:.5!important}
+.fusion-body .fusion-slider-sc .flex-direction-nav a:hover{opacity:1!important}
 
 /* Lightbox */
 .ilightbox-image[src*='.png']{background-color:#FFFFFF!important}
