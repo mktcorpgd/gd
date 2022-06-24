@@ -506,7 +506,7 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Focus en input al clickear un label
 	var labelID;
-	jQuery('label').click(function() {
+	jQuery('.wpcf7 label').click(function() {
 		labelID = jQuery(this).attr('for');
 		jQuery(':input[name='+labelID+']').focus();
 	});
