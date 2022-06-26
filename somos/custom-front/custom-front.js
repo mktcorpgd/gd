@@ -239,14 +239,6 @@ jQuery(document).ready(function() {
 	}
 
 
-	// CONTENIDOS - Agregar clase "dropcap" si el primer párrafo es mayor a 150 caracteres
-	if ( !jQuery('body').hasClass('page') ) {
-		if ( jQuery('#post-content p:first').text().length > 180 ) {
-			jQuery('#post-content p:first').addClass('dropcap');
-		}
-	}
-
-
 	// CONTENIDOS - Convertir a popup
 	jQuery('.wp-block-gallery').magnificPopup({
 		delegate: 'a',
