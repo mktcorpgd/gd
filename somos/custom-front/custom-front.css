@@ -507,8 +507,6 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{padding:.2em!important;font-size:.6em!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
-body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-iop'] .padder,body.post-template-default.single #content article[class*='category-iot'] .padder,body.post-template-default.single #content article[class*='category-baitcon'] .padder,body.post-template-default.single #content article[class*='category-datco'] .padder,body.post-template-default.single #content article[class*='category-focus'] .padder,body.post-template-default.single #content article[class*='category-interservices'] .padder,body.post-template-default.single #content article[class*='category-sersat'] .padder,body.post-template-default.single #content article[class*='category-silica-networks'] .padder,body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:6px;border-top-style:solid}
-body.page-id-11286 .padder,body.page-id-11289 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder,body.page-id-11299 .padder,body.page-id-11305 .padder,body.page-id-11308 .padder,body.page-id-11283 .padder,body.page-id-15096 .padder,body.page-id-18106 .padder,body.page-id-18351 .padder,body.page-id-11277 .padder,body.page-id-22942 .padder,body.page-id-28036 .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
 body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
 body.post-template-default.single #content article[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1,body.page-id-28032 #content h1,body.page-id-28029 #content h1{color:#1C8DCE}
@@ -1311,6 +1309,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:45% 55%}
 	.bottom_logos a img{width:120px}
 	.wpcf7-form-control-wrap.SAMEDATAPAX{display:inline-block}
+	body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-iop'] .padder,body.post-template-default.single #content article[class*='category-iot'] .padder,body.post-template-default.single #content article[class*='category-baitcon'] .padder,body.post-template-default.single #content article[class*='category-datco'] .padder,body.post-template-default.single #content article[class*='category-focus'] .padder,body.post-template-default.single #content article[class*='category-interservices'] .padder,body.post-template-default.single #content article[class*='category-sersat'] .padder,body.post-template-default.single #content article[class*='category-silica-networks'] .padder,body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:6px;border-top-style:solid}
+	body.page-id-11286 .padder,body.page-id-11289 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder,body.page-id-11299 .padder,body.page-id-11305 .padder,body.page-id-11308 .padder,body.page-id-11283 .padder,body.page-id-15096 .padder,body.page-id-18106 .padder,body.page-id-18351 .padder,body.page-id-11277 .padder,body.page-id-22942 .padder,body.page-id-28036 .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 }
 
 /* Mobile */
@@ -1359,7 +1359,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
 	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
 	#post-content .ui-tabs .ui-tabs-nav{margin:1em .4em .4em}
-	#content h1{padding:0 .4em .4em;font-size:1.8em!important}
+	#content h1{padding:0 0 .4em;font-size:1.6em!important}
 	.page-title{font-size:32px!important}
 	.birthdays-widget .birthday_wish{font-size:28px}
 	#custom_html-23 img{border-width:4px;border-top-left-radius:12px;border-top-right-radius:12px}
