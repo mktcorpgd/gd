@@ -1353,7 +1353,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.wpcf7 .columns>label .wpcf7-checkbox,.wpcf7 .columns>label .wpcf7-radio{grid-template-columns:1fr;font-size:18px}
 	.wpcf7 .columns>label>span{line-height:1.5}
 	.wpcf7 .columns>label .wpcf7-radio.one,.wpcf7 .columns>label .wpcf7-checkbox.one,.wpcf7 .columns>label .wpcf7-radio.two,.wpcf7 .columns>label .wpcf7-checkbox.two,.wpcf7 .columns>label .wpcf7-radio.three,.wpcf7 .columns>label .wpcf7-checkbox.three,.wpcf7 .columns>label .wpcf7-radio.four,.wpcf7 .columns>label .wpcf7-checkbox.four,.wpcf7 .columns>label .wpcf7-radio.five,.wpcf7 .columns>label .wpcf7-checkbox.five,.wpcf7 .columns>label .wpcf7-radio.six,.wpcf7 .columns>label .wpcf7-checkbox.six,.gp-blog-wrapper[class*='gp-blog-columns']{width:100%;grid-template-columns:1fr}
-	#page-wrapper .toggle-box>.sc-button{font-size:1rem!important}
+	#page-wrapper .toggle-box>.sc-button,#page-wrapper .widget .blue.sc-button{font-size:1.2rem!important}
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
 	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
 	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
@@ -1507,7 +1507,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	#countdown li{font-size:1.125rem;padding:.75rem}
 	#countdown li span{font-size:3.375rem}
-	#page-wrapper .widget .blue.sc-button{font-size:1rem!important}
 	.bottom_logos a img{width:160px}
 }
 @media (max-width:960px) and (orientation:landscape) {
