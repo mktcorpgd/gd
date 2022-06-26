@@ -1459,7 +1459,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.widget #wp-calendar tfoot{top:0}
 	.widget #wp-calendar tfoot td a{font-size:18px!important}
 	#wp-calendar tfoot td{top:3px}
-	a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit']{padding:4px 16px;font-size:22px!important}
+	a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .8em!important}
+	#respond p.form-submit,#respond #submit{margin-bottom:0!important}
 	.widget{margin:1em 0 0 0!important;font-size:18px}
 	#sidebar-right{margin-top:0!important}
 	#mobile-nav .menu li a{font-size:1.1em}
