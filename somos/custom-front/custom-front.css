@@ -433,9 +433,10 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 /* Contenido */
 #post-content,.entry-content{margin-top:1em;margin-bottom:2em;overflow:visible}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
+#post-content>p{font-size:1.05em!important}
 #content h1{margin-bottom:.2em!important;font-weight:500!important;line-height:1.15!important;color:#333333}
 body.post-type-archive-event h1{text-transform:capitalize}
-#post-content>p,.neosans li{font-size:1.1em!important}
+.neosans li{font-size:1.1em!important}
 body.page #content h1{text-align:center}
 body.archive #content h1,body.search #content h1{margin-top:.2em}
 #post-content h2+p:last-child{margin-bottom:15px!important}
