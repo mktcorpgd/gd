@@ -174,13 +174,11 @@ jQuery(document).ready(function() {
 	});
 
 
-	// BUSCADOR - Si es mobile: buscador dentro del header
-	if ( jQuery(window).width() < 960 ) {
-		jQuery('.is-search-form.is-form-id-26276').insertAfter('#logo').show();
-		jQuery('.is-search-form.is-form-id-26276 input[name=s]').focus();
-	}
+	// MOBILE - Ubicar buscador dentro del header
 	jQuery(window).resize(function() {
 		if ( jQuery(window).width() < 960 ) {
+			jQuery('.is-search-form.is-form-id-26276').insertAfter('#logo').show();
+			jQuery('.is-search-form.is-form-id-26276 input[name=s]').focus();
 			jQuery('#header').css('top','46px');
 			jQuery('#menu40gd').css('top','110px');
 		}
