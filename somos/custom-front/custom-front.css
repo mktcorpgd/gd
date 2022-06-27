@@ -581,9 +581,8 @@ ul#lcp_instance_0.busquedas {border:none!important}
 .mfp-close{right:0}
 #custom_html-21,#custom_html-3{text-align:center}
 #custom_html-11,#custom_html-24{padding-top:12px!important}
-#custom_html-11 > div > h3{font-size:1.1em!important}
-#custom_html-24 > div > h3{font-size:1.2em!important;font-weight:500!important;color:#F0582B!important}
-#custom_html-11 > div > h3 > i,#custom_html-24 > div > h3 > i{width:20px}
+#custom_html-24 > div > h3{font-weight:500!important}
+#custom_html-11 > div > h3 > i,#custom_html-24 > div > h3 > i{width:30px}
 #custom_html-11 > div > h3 > i.fa-minus-square:before,#custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
 #custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'!important}
 #custom_html-11 > div > h3:nth-child(3) > i:before{content:'\f77c'!important}
