@@ -613,8 +613,8 @@ h3.toggle:last-child{padding-bottom:0}
 h3.toggle a{display:table-cell;padding-left:5px}
 h3.toggle a,body .ui-widget-content a,.textwidget .sc-tabs .sc-tab-panel a{color:#0E316E}
 h3.toggle:hover a,h3.toggle a:hover,body .ui-widget-content a:hover,.textwidget .sc-tabs .sc-tab-panel a:hover{color:#F0582B;text-decoration:underline!important}
-h3.toggle i{display:table-cell;padding:0;position:relative;top:-1px;left:0;font-size:.9em;font-family:'Font Awesome 6 Pro'!important;font-weight:600}
-.textwidget h3.toggle i{width:12px;text-align:center;font-size:1em;font-weight:normal}
+h3.toggle i{display:table-cell;padding:0;position:relative;top:0;left:0;font-size:.9em;text-align:center;font-family:'Font Awesome 6 Pro'!important;font-weight:600}
+.textwidget h3.toggle i{width:12px;font-weight:normal}
 .birthdays-widget~h3.toggle{text-align:center}
 .birthdays-widget~h3.toggle i,.birthdays-widget~h3.toggle a{display:inline-block}
 h3.toggle .fa-plus-square:before{content:'\f067'!important}
