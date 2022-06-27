@@ -175,7 +175,7 @@ jQuery(document).ready(function() {
 
 
 	// MOBILE - Ubicar buscador dentro del header
-	jQuery(window).resize(function() {
+	function headerMobile() {
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('.is-search-form.is-form-id-26276').insertAfter('#logo').show();
 			jQuery('.is-search-form.is-form-id-26276 input[name=s]').focus();
@@ -187,6 +187,10 @@ jQuery(document).ready(function() {
 			jQuery('#menu40gd').css('top','84px');
 			jQuery('#logo+.is-search-form.is-form-id-26276').insertBefore('.is-link-container').show();
 		}
+	}
+	headerMobile();
+	jQuery(window).resize(function() {
+		headerMobile();
 	});
 
 
