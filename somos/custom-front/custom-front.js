@@ -39,7 +39,7 @@ jQuery(document).on('click',',.wpcf7-submit',function(e) {
 
 
 // FORMULARIOS - Al enviar un form
-document.addEventListener('wpcf7mailsent', function(event) {
+document.addEventListener('wpcf7submit', function(event) {
 	jQuery('.wpcf7-form.sending .wpcf7-submit').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
 	jQuery('.wpcf7-form.sending input,.wpcf7-form.sending select,.wpcf7-form.sending textarea').removeClass('sending');
 }, false );
