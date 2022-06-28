@@ -42,7 +42,7 @@ jQuery(document).on('click',',.wpcf7-submit',function(e) {
 document.addEventListener('wpcf7submit', function(event) {
 	jQuery('.wpcf7-form.sending .wpcf7-submit').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
 	jQuery('.wpcf7-form.sending input,.wpcf7-form.sending select,.wpcf7-form.sending textarea').removeClass('sending');
-}, false );
+}, false);
 
 
 // FORMULARIOS - Al enviar un form con éxito
@@ -50,7 +50,7 @@ document.addEventListener('wpcf7mailsent', function(event) {
 	if ( event.detail.contactFormId == 42593 ) {
 		jQuery('.filledwithmap+a').hide();
 	}
-}, false );
+}, false);
 
 
 jQuery(document).ready(function() {
