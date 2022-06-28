@@ -33,6 +33,7 @@ jQuery.fn.capitalize = function(e) {
 // Código personalizado una vez enviado el formulario
 jQuery(document).on('click','.wpcf7-submit',function(e) {
 	jQuery(this).addClass('sending');
+	jQuery('.wpcf7-form').addClass('sending');
 	jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name',jQuery('.wpcf7-form.sending .wpcf7-submit').val());
 	jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
 });
