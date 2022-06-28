@@ -31,11 +31,26 @@ jQuery.fn.capitalize = function(e) {
 
 
 // Código personalizado una vez enviado el formulario
-jQuery(document).on('wpcf7submit',function(e) {
+jQuery(document).on('click',',.wpcf7-submit',function(e) {
+	jQuery(this).addClass('sending');
+	jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name',jQuery('.wpcf7-form.sending .wpcf7-submit').val());
+	jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
+});
+
+
+// FORMULARIOS - Al enviar un form
+document.addEventListener('wpcf7mailsent', function(event) {
 	jQuery('.wpcf7-form.sending .wpcf7-submit').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
 	jQuery('.wpcf7-form.sending input,.wpcf7-form.sending select,.wpcf7-form.sending textarea').removeClass('sending');
-	jQuery('.wpcf7-form').removeClass('sending');
-});
+}, false );
+
+
+// FORMULARIOS - Al enviar un form con éxito
+document.addEventListener('wpcf7mailsent', function(event) {
+	if ( event.detail.contactFormId == 42593 ) {
+		jQuery('.filledwithmap+a').hide();
+	}
+}, false );
 
 
 jQuery(document).ready(function() {
@@ -345,22 +360,6 @@ jQuery(document).ready(function() {
 		}
 		jQuery(this).parent().find('input[type=checkbox]').val(jQuery(this).attr('data-text')+': '+jQuery(this).val());
 	});
-
-
-	// FORMULARIOS - Al enviar un form
-	document.addEventListener('wpcf7submit', function(event) {
-		jQuery(this).addClass('sending');
-		jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name',jQuery('.wpcf7-form.sending .wpcf7-submit').val());
-		jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
-	}, false );
-
-
-	// FORMULARIOS - Al enviar un form con éxito
-	document.addEventListener('wpcf7mailsent', function(event) {
-		if ( event.detail.contactFormId == 42593 ) {
-			jQuery('.filledwithmap+a').hide();
-		}
-	}, false );
 
 
 	// FORMULARIOS - Agregar clase en .wpcf7-form-control-wrap si es un select
