@@ -478,23 +478,11 @@ jQuery(document).ready(function() {
 			}
 			else {
 				leadmkt = 'GD';
-				if ( idform == 'f35652' ) {
-					src = src+'+Recurso';
-				}
-				else {
-					src = src+'+Contacto';
-				}
 				jQuery('input[name*="SRC"]').val(src);	
 			}
 		}
 		else if ( site_id == 5 ) { // silicanetworks.com
 			leadmkt = 'SCO'
-			if ( idform == 'f31529' ) {
-				src = src+'+Recurso';
-			}
-			else {
-				src = src+'+Contacto';
-			}
 			jQuery('input[name*="SRC"]').val(src);
 		}
 		else if ( site_id == 16 ) { // smartime.com.ar
@@ -502,12 +490,6 @@ jQuery(document).ready(function() {
 		}
 		else if ( site_id == 25 ) { // baitcon.com
 			leadmkt = 'B';
-			if ( idform == 'f27563' ) {
-				src = src+'+Recurso';
-			}
-			else {
-				src = src+'+Contacto';
-			}
 			jQuery('input[name*="SRC"]').val(src);	
 		}
 		else if ( site_id == 26 ) { // redcapricornio.net
