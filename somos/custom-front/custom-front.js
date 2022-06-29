@@ -610,6 +610,7 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
+			selected = true;
 		});
 		addressAutocomplete2.addListener('place_changed', function() {
 			var address = addressAutocomplete2.getPlace().formatted_address;
@@ -618,6 +619,7 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
+			selected = true;
 		});
 		addressAutocomplete3.addListener('place_changed', function() {
 			var address = addressAutocomplete3.getPlace().formatted_address;
@@ -626,6 +628,7 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
+			selected = true;
 		});
 		addressAutocomplete4.addListener('place_changed', function() {
 			var address = addressAutocomplete4.getPlace().formatted_address;
@@ -634,8 +637,22 @@ jQuery(document).ready(function() {
 			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 			jQuery('.'+input_name+'+a img').attr('src',img_src);
+			selected = true;
 		});
-
+		var selected = false;
+		jQuery('.address_maps').on('focus', function() {
+			if( selected != true ) {
+				selected = false;
+			}
+		}).on('blur', function() {
+			if ( selected == false ) {
+				jQuery(this).val('');
+			}
+			if ( jQuery(this).val().length == 0 ) {
+				selected = false;
+			}
+		});
+		
 	}
 
 
