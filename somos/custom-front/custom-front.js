@@ -570,9 +570,10 @@ jQuery(document).ready(function() {
 				jQuery('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
 			}
 		});
+		var is_checked = jQuery('input[name="PAXWHAT"]').is(':checked');
 		jQuery('input[name="PAXWHAT"]').change(function() {
-			console.log(this.checked);
-			if ( this.checked ) {
+			console.log(is_checked == true && this.checked);
+			if ( is_checked == true && this.checked ) {
 				if ( this.value == 'Envío' ) {
 					jQuery('input[name=FNAMEPAX]').val('');
 					jQuery('input[name=LNAMEPAX]').val('');;
