@@ -49,6 +49,7 @@ document.addEventListener('wpcf7submit', function(event) {
 // FORMULARIOS - Al enviar un form con éxito
 document.addEventListener('wpcf7mailsent', function(event) {
 	if ( event.detail.contactFormId == 42593 ) {
+		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
 		jQuery('.filledwithmap+a').hide();
 	}
 }, false);
