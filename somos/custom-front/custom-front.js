@@ -556,6 +556,7 @@ jQuery(document).ready(function() {
 		
 		// Datos de usuario
 		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
+		jQuery('input[name="SAMEDATAPAX[]"]').trigger('click');
 		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 			if ( this.checked ) {
 				jQuery('select[name=ORG] option:contains('+jQuery('input[name=gdGroupa08454c0b0]').val()+')').prop('selected','selected');
@@ -572,7 +573,6 @@ jQuery(document).ready(function() {
 		});
 		var is_checked = jQuery('input[name="PAXWHAT"]').is(':checked');
 		jQuery('input[name="PAXWHAT"]').change(function() {
-			console.log(is_checked == true && this.checked);
 			if ( is_checked == true && this.checked ) {
 				if ( this.value == 'Envío' ) {
 					jQuery('input[name=FNAMEPAX]').val('');
