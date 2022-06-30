@@ -1155,9 +1155,9 @@ img[src*='-dark-']{background:#999999}
 #wp-calendar thead th,#wp-calendar tbody td{padding:0!important}
 #wp-calendar thead tr th{color:#888888;font-size:10px!important;padding-bottom:0!important;text-align:center!important;text-transform:uppercase!important}
 #wp-calendar tbody td{font-size:.9em;border:2px solid #FFFFFF!important;border-radius:32px}
-#wp-calendar tbody td.event a{border-radius:32px;color:#FFFFFF;display:block;padding:.1em}
-#wp-calendar tbody td.today:not(.event){box-shadow:inset 0 0 0 2px #F0582B!important}
-#wp-calendar tbody td.today a{box-shadow:inset 0 0 0 2px #F0582B!important}
+#wp-calendar tbody td.event a{border-radius:32px;color:#FFFFFF;display:block}
+#wp-calendar tbody td.today:not(.event){box-shadow:inset 0 0 0 1px #F0582B!important}
+#wp-calendar tbody td.today a{box-shadow:inset 0 0 0 1px #F0582B!important}
 #wp-calendar tbody td.event a:hover,#wp-calendar tbody td.today a:hover{box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)!important}
 #wp-calendar tfoot{position:absolute;top:-1px;width:100%}
 #wp-calendar tfoot td{display:inline-block;margin:0!important;padding:0!important;font-weight:400!important;position:absolute;top:3px}
