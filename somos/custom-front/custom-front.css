@@ -458,7 +458,7 @@ body.archive #content h1,body.search #content h1{margin-top:.2em}
 #content blockquote p{margin-bottom:0!important;line-height:1.5}
 #content h2+h4{margin-top:20px}
 #content .wp-block-column>h3{margin-top:0!important}
-#content h4,.mfp-content h4{padding-bottom:0;margin-top:20px;clear:both;position:relative;font-size:1.4em}
+#content h4,.mfp-content h4{padding-bottom:0;margin-top:20px;clear:both;position:relative}
 #content code,.widget code{display:inline-block;margin:0!important;padding:2px 5px;color:#888888;font-weight:bold;font-size:14px;line-height:18px;font-style:normal!important;background:#F6F6F6;border:0!important;border-radius:4px}
 #content .party .wp-block-column{line-height:1.25}
 #content code.block,.widget code.block{width:100%;padding:15px 10px;border-radius:4px}
