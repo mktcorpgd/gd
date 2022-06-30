@@ -571,13 +571,16 @@ jQuery(document).ready(function() {
 			}
 		});
 		jQuery('input[name="PAXWHAT"]').change(function() {
-			if ( this.value == 'Envío' ) {
-				jQuery('input[name=FNAMEPAX]').val('');
-				jQuery('input[name=LNAMEPAX]').val('');;
-			}
-			else {
-				jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
-				jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
+			console.log(this.checked);
+			if ( this.checked ) {
+				if ( this.value == 'Envío' ) {
+					jQuery('input[name=FNAMEPAX]').val('');
+					jQuery('input[name=LNAMEPAX]').val('');;
+				}
+				else {
+					jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
+					jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
+				}
 			}
 		});
 
