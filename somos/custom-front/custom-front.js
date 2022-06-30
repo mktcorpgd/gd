@@ -556,15 +556,18 @@ jQuery(document).ready(function() {
 		
 		// Datos de usuario
 		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
-		jQuery('input[name="SAMEDATAPAX[]"]').trigger('click');
+		function samedataPaxChecked() {
+			jQuery('select[name=ORG] option:contains('+jQuery('input[name=gdGroupa08454c0b0]').val()+')').prop('selected','selected');
+			jQuery('select[name=CC_UNIT] option:contains('+jQuery('input[name=gdUNIT_mc]').val()+')').prop('selected','selected');
+			jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
+			jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
+			jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
+			jQuery('input[name=PHONEPAX]').val(jQuery('input[name=PHONE]').val());
+		}
+		samedataPaxChecked();
 		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 			if ( this.checked ) {
-				jQuery('select[name=ORG] option:contains('+jQuery('input[name=gdGroupa08454c0b0]').val()+')').prop('selected','selected');
-				jQuery('select[name=CC_UNIT] option:contains('+jQuery('input[name=gdUNIT_mc]').val()+')').prop('selected','selected');
-				jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
-				jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
-				jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
-				jQuery('input[name=PHONEPAX]').val(jQuery('input[name=PHONE]').val());
+				samedataPaxChecked();
 			}
 			else {
 				jQuery('input[name$=PAX]').val('');
