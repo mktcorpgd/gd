@@ -306,7 +306,7 @@ div.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1p
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 div.wpcf7 input[type='file']{cursor:pointer}
 div.wpcf7 input[type='file']:disabled{cursor:default}
-div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled{opacity:.6;cursor:not-allowed}
+div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled{opacity:.6;pointer-events:none}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151!important}
 .wpcf7-radio.wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
 .wpcf7-form{display:inline-block;width:100%;position:relative}
