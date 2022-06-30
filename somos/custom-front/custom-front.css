@@ -1160,15 +1160,15 @@ img[src*='-dark-']{background:#999999}
 #wp-calendar tbody td.today:not(.event){box-shadow:inset 0 0 0 1px #F0582B!important}
 #wp-calendar tbody td.today a{box-shadow:inset 0 0 0 1px #F0582B!important}
 #wp-calendar tbody td.event a:hover,#wp-calendar tbody td.today a:hover{box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)!important}
-#wp-calendar tfoot{position:absolute;top:-1px;width:100%}
+#wp-calendar tfoot{position:absolute;top:-2px;width:100%}
 #wp-calendar tfoot td{padding:0!important;font-weight:400!important;position:absolute}
-#wp-calendar tfoot td a{color:#888888!important;font-family:'Neo-Sans',sans-serif}
+#wp-calendar tfoot td a{color:#888888!important;font-family:'Neo-Sans',sans-serif;font-size:.9em}
 .mfp-content #wp-calendar tfoot td a{pointer-events:none}
 #wp-calendar tfoot td#eo-widget-prev-month{left:0}
 #wp-calendar tfoot td#eo-widget-next-month{right:0}
 #wp-calendar tfoot tr td#prev{text-align:left!important}
 #wp-calendar caption{padding-bottom:1px!important}
-#wp-calendar caption,#wp-calendar thead tr th{background-color:#FFFFFF!important;font-size:10px}
+#wp-calendar caption,#wp-calendar thead tr th{background-color:#FFFFFF!important;font-size:.8em}
 #wp-calendar caption,.datepick-inline .datepick-header{font-weight:500!important;margin-bottom:0;padding:0!important}
 #wp-calendar caption,.datepick-inline .datepick-header span{font-family:'Neo-Sans',sans-serif;color:#888888!important;text-align:center;text-shadow:none!important;text-transform:uppercase}
 .datepick-inline .datepick-header{text-shadow:none!important}
@@ -1285,7 +1285,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.is-search-form.is-form-id-26276 input[type='text']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
 	#nav .menu .sub-menu{width:190px!important}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.has-post-thumbnail .post-text{border-left:2px solid #CCCCCC}
-	.sidebar{font-size:14px!important}
+	.sidebar{font-size:14px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content{max-height:1570px;position:relative;overflow:hidden}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content:after{content:'';display:block;width:100%;height:5em;position:absolute;bottom:0;right:0;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(221,221,221,1) 100%)}
 	/*body.home .gp-blog-wrapper section:not(.category-40gd):last-child{margin-bottom:1em!important}*/
