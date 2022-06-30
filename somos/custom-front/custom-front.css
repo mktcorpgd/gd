@@ -283,10 +283,9 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .columns.one.fivecheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fivecheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr 1fr}
 .wpcf7 .columns>label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .3em .4em .7em;border:2px solid #EAEAEA;border-radius:6px}
 .wpcf7 .columns>label .highlight .wpcf7-list-item-label{font-size:1.2em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
-.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
-.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item:before{display:inline-block;padding-right:4px}
-.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.first:before{content:''}
-.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.last:before{content:''}
+.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item-label:before{display:inline-block;padding-right:4px}
+.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.first .wpcf7-list-item-label:before{content:''}
+.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.last .wpcf7-list-item-label:before{content:''}
 .wpcf7 .columns>label .wpcf7-radio.one,.wpcf7 .columns>label .wpcf7-checkbox.one{grid-template-columns:1fr}
 .wpcf7 .columns>label .wpcf7-radio.two,.wpcf7 .columns>label .wpcf7-checkbox.two{grid-template-columns:1fr 1fr}
 .wpcf7 .columns>label .wpcf7-radio.three,.wpcf7 .columns>label .wpcf7-checkbox.three{grid-template-columns:1fr 1fr 1fr}
