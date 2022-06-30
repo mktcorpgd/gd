@@ -526,7 +526,6 @@ body.post-template-default.single #content article.category-grupo-datco .padder,
 
 /* Sidebar */
 .sidebar .widget{overflow:hidden;margin-bottom:15px;padding:0 15px 15px!important;border-top-left-radius:12px;border-top-right-radius:6px;border-bottom-right-radius:12px;border-bottom-left-radius:6px}
-.widget #wp-calendar caption,.widget .datepick-inline .datepick-header span{font-size:1em!important}
 .widget .sc-divider{margin:5px 0!important}
 .widget .sc-button{border-radius:8px!important}
 .widget p{margin:0!important}
@@ -1162,16 +1161,16 @@ img[src*='-dark-']{background:#999999}
 #wp-calendar tbody td.today a{box-shadow:inset 0 0 0 1px #F0582B!important}
 #wp-calendar tbody td.event a:hover,#wp-calendar tbody td.today a:hover{box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)!important}
 #wp-calendar tfoot{position:absolute;top:-1px;width:100%}
-#wp-calendar tfoot td{display:inline-block;margin:0!important;padding:0!important;font-weight:400!important;position:absolute;top:3px}
-#wp-calendar tfoot td a{color:#888888!important;font-family:'Neo-Sans',sans-serif;display:inline-block;font-size:14px!important;text-transform:uppercase}
+#wp-calendar tfoot td{padding:0!important;font-weight:400!important;position:absolute}
+#wp-calendar tfoot td a{color:#888888!important;font-family:'Neo-Sans',sans-serif}
 .mfp-content #wp-calendar tfoot td a{pointer-events:none}
 #wp-calendar tfoot td#eo-widget-prev-month{left:0}
 #wp-calendar tfoot td#eo-widget-next-month{right:0}
 #wp-calendar tfoot tr td#prev{text-align:left!important}
 #wp-calendar caption{padding-bottom:1px!important}
 #wp-calendar caption,#wp-calendar thead tr th{background-color:#FFFFFF!important;font-size:10px}
-#wp-calendar caption,.datepick-inline .datepick-header{font-weight:400!important;margin-bottom:0;padding:0!important}
-#wp-calendar caption,.datepick-inline .datepick-header span{font-family:'Neo-Sans',sans-serif;color:#888888!important;font-size:14px!important;line-height:23px!important;text-align:center;text-shadow:none!important;text-transform:uppercase}
+#wp-calendar caption,.datepick-inline .datepick-header{font-weight:500!important;margin-bottom:0;padding:0!important}
+#wp-calendar caption,.datepick-inline .datepick-header span{font-family:'Neo-Sans',sans-serif;color:#888888!important;text-align:center;text-shadow:none!important;text-transform:uppercase}
 .datepick-inline .datepick-header{text-shadow:none!important}
 .daysi{background:#0E316E!important;border-radius:50%;color:#FFFFFF!important;display:block}
 .datepick-inline .datepick-header{font-weight:400!important;text-shadow:none!important}
