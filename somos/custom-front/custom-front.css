@@ -284,7 +284,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .columns>label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .3em .4em .7em;border:2px solid #EAEAEA;border-radius:6px}
 .wpcf7 .columns>label .highlight .wpcf7-list-item-label{font-size:1.2em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 .wpcf7 .columns>label .PAXWHAT .wpcf7-list-item-label:before{display:inline-block;padding-right:4px}
-.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.first .wpcf7-list-item-label:before{content:''}
+.wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.first .wpcf7-list-item-label:before{padding-right:1px;content:''}
 .wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.last .wpcf7-list-item-label:before{content:''}
 .wpcf7 .columns>label .wpcf7-radio.one,.wpcf7 .columns>label .wpcf7-checkbox.one{grid-template-columns:1fr}
 .wpcf7 .columns>label .wpcf7-radio.two,.wpcf7 .columns>label .wpcf7-checkbox.two{grid-template-columns:1fr 1fr}
@@ -360,7 +360,7 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_timepicker .xdsoft_time_box>div>div,.xdsoft_datetimepicker .xdsoft_calendar td,.xdsoft_datetimepicker .xdsoft_calendar th{font-size:.8em!important;line-height:2em!important}
 .xdsoft_datetimepicker div.xdsoft_scroller:hover{background:#999999!important}
 .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current{background:#0E316E!important;box-shadow:none}
-.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_today{color:#0E316E}
+.xdsoft_datetimepicker .xdsoft_calendar td:not(.xdsoft_current).xdsoft_today{color:#0E316E}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box{height:156px;top:1px}
 .xdsoft_scrollbar{width:6px}
 .xdsoft_scrollbar>.xdsoft_scroller{border-radius:3px;margin:0;position:relative;top:1px;right:1px}
