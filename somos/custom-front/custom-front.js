@@ -577,6 +577,7 @@ jQuery(document).ready(function() {
 		});
 		var is_checked = jQuery('input[name="PAXWHAT"]').is(':checked');
 		jQuery('input[name="PAXWHAT"]').change(function() {
+			jQuery('.wpcf7-submit').removeClass('disabled');
 			if ( is_checked == true && this.checked ) {
 				if ( this.value == 'Envío' ) {
 					jQuery('input[name=FNAMEPAX]').val('');
