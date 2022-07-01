@@ -1192,7 +1192,7 @@ img[src*='-dark-']{background:#999999}
 .eo-events-nav a:hover{text-decoration:underline}
 body.single-event #content .eo-event-meta{margin:0 0 15px!important;width:100%!important;font-size:.9rem}
 body.single-event #content .eo-event-meta li{margin:.5em 0 .25em!important;list-style:none}
-body.single-event #content .eo-event-meta li:first-child{margin-bottom:0!important;font-weight:400;font-family:'Neo-Sans',sans-serif}
+body.single-event #content .eo-event-meta li:first-child{margin-bottom:0!important;font-size:1.5em;font-weight:400;font-family:'Neo-Sans',sans-serif}
 body.single-event #content .eo-event-meta li:first-child a{margin-left:0!important}
 body.single-event #content .eo-event-meta li:nth-child(2){font-size:1.2em;font-weight:400}
 body.single-event #content .eo-event-meta time{font-weight:500}
