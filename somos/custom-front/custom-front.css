@@ -1262,7 +1262,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-video-thumb-wrp:after{padding-top:0;content:'\f144';height:1.5em;text-align:center;font-size:2em;color:#FFFFFF;font-family:'Font Awesome 6 Pro';background:none}
 #content .yotu-videos .yotu-video h3{white-space:normal;display:-webkit-box!important;-webkit-line-clamp:3;-webkit-box-orient:vertical;margin-top:0!important;padding:0;padding-left:.6em;padding-right:.6em;color:#FFFFFF;font-weight:400;font-size:.8em!important;line-height:1.3!important}
 .yotu-column-3 li{padding-bottom:.3em!important;margin-right:4%!important;margin-bottom:1.5em!important;width:30.66%;background:#0E316E;border-radius:12px;box-shadow:0 10px 12px -12px rgba(0,0,0,.5);overflow:hidden}
-.yotu-column-3 li:hover{background:#F0582B;transform:translateY(-2px);transition:all .1s ease-in-out}
+.yotu-column-3 li:hover{background:#F0582B;box-shadow:0 10px 12px -10px #F0582B;transform:translateY(-2px);transition:all .1s ease-in-out}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
 
 /* Guía de LinkedIn */
