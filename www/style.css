@@ -256,7 +256,8 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 /* Contenido */
 #content img[src*='flag-']:not([class*='alignnone']),.modal img[src*='flag-']:not([class*='alignnone']){margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
 body.single-format-standard:not(.single-avada_portfolio) article.category-blog{padding-top:0}
-body.post-template-default.single-format-standard.fusion-body .post-content .fusion-flex-container{padding-left:0!important;padding-right:0!important}
+body.post-template-default.single-format-standard .post-content .fusion-flex-container{padding-left:0!important;padding-right:0!important}
+body.post-template-default.single-format-standard #main{padding-top:0!important}
 .post-content a[src*='.jpg'],a.fusion-lightbox{cursor:zoom-in}
 .fusion-background-video-wrapper{margin-top:-10%!important}
 body.error404 h1,body.error404 .post-content,body.error404 .post-content>.fusion-title>h2.title-heading-left{text-align:center!important}
