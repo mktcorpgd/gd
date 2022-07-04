@@ -52,7 +52,7 @@ body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border
 .sc-divider.small{margin:15px 0!important;border-width:1px}
 .sc-divider.clear{margin:5px 0!important}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-checkbox.large label,.wpcf7-radio.large label,.wpcf7-select,.wpcf7-select:not([multiple]) option{cursor:pointer}
-h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-family:'Neo-Sans',sans-serif!important}
+h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif!important}
 h1,h2,h3,h4,.widget .widgettitle,.neosans li{font-weight:500}
 h5,h6{font-weight:400}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif!important}
