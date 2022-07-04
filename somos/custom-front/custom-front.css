@@ -311,7 +311,7 @@ div.wpcf7 input[type='file']{cursor:pointer}
 div.wpcf7 input[type='file']:disabled{cursor:default}
 div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled{opacity:.6;pointer-events:none}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151!important}
-.wpcf7-radio.wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
+.wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
 .wpcf7-form{display:inline-block;width:100%;position:relative}
 .wpcf7-form>.step2{opacity:.5}
 .wpcf7-form>.step3.disabled .tp{z-index:-1}
