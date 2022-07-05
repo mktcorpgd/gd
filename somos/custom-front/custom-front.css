@@ -173,7 +173,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{background:#FFFFFF;border:1px solid rgba(0,0,0,.2)!important}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop .post-text,body.search .gp-blog-wrapper .post-loop .post-text{clear:both;padding:.5em .8em!important}
-.gp-blog-wrapper.gp-blog-columns-3 .post-loop .post-text{padding:0 .8em .5em!important}
+.gp-blog-wrapper.gp-blog-columns-3 .post-loop .post-text{padding:0 1em 1em!important}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop.has-post-thumbnail .post-text,body.archive .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text,body.search .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text{border-top:2px solid #CCCCCC}
 body.archive article.event{clear:both;padding:.5em .8em!important}
 body.page-template-default .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text{border-top:none}
@@ -459,7 +459,7 @@ body.archive #content h1,body.search #content h1{margin-top:.2em}
 #content .columns.four.shorter{width:20%}
 #content .columns.four.expanded{width:27%}
 #content .columns.three.expanded{width:66%}
-#content #post-content>h3:not(.toggle),#content #post-content>h4,#content #post-content>h5,.mfp-content h3:not(.toggle),.mfp-content h4,.mfp-content h5{margin-top:25px!important}
+#content #post-content>h3:not(.toggle),#content #post-content>h4,#content #post-content>h5,.mfp-content h3:not(.toggle),.mfp-content h4,.mfp-content h5{margin-top:1.4em}
 #content .wpcf7 h3:not(.toggle),#content .wpcf7 h4,#content .wpcf7 h5{float:left;width:100%;margin-bottom:0!important}
 #content .sc-tab-panel h5{margin-bottom:.25em}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
@@ -1166,7 +1166,7 @@ img[src*='-dark-']{background:#999999}
 #wp-calendar{padding:0!important;position:relative}
 #wp-calendar thead th,#wp-calendar tbody td{padding:0!important}
 #wp-calendar thead tr th{color:#888888;font-size:10px!important;padding-bottom:0!important;text-align:center!important;text-transform:uppercase!important}
-#wp-calendar tbody td{font-size:.9em;border:2px solid #FFFFFF!important;border-radius:32px}
+#wp-calendar tbody td{font-size:.9em;line-height:1.4;border:2px solid #FFFFFF!important;border-radius:32px}
 #wp-calendar tbody td.event a{border-radius:32px;color:#FFFFFF;display:block}
 #wp-calendar tbody td.today:not(.event){box-shadow:inset 0 0 0 1px #F0582B!important}
 #wp-calendar tbody td.today a{box-shadow:inset 0 0 0 1px #F0582B!important}
@@ -1332,6 +1332,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,#mobile-nav .menu li i:not(.mobile-dropdown-icon){display:none!important}
 	.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
 	.gp-responsive #mobile-nav-button,#mobile-nav .menu li>.mobile-dropdown-icon{display:inline-block!important}
+	blockquote{margin:0;padding:0;text-align:center;font-size:1.2em;line-height:1.5;font-style:italic;overflow:inherit}
+	blockquote{font-size:1.1em;text-align:left}
 	#nav{position:absolute;top:0;right:0}
 	#nav .menu li.menu-item-17720{display:inline-block}
 	h3{font-size:1.5em}
@@ -1341,7 +1343,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
 	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{padding:12px 10px!important}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
-	h1,h2,h3,h4,h5,h6{line-height:120%!important}
+	h1,h2,h3,h4,h5,h6{float:left;width:100%;line-height:120%!important}
 	.widget .widgettitle{line-height:125%!important}
 	.widget .textwidget li{font-size:1.1em}
 	#post-content .ui-tabs .ui-tabs-nav{box-shadow:none}
@@ -1408,7 +1410,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-loop:last-child .post-text{border-bottom:none}
 	.post-loop .post-text{float:left;padding:1em!important;position:relative}
 	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail a,.gp-blog-wrapper[class*='gp-blog-columns'] section .post-text{float:none;padding:0!important;border-top:none!important}
-	.gp-responsive .gp-blog-wrapper section{border-radius:12px!important}
+	.gp-responsive .gp-blog-wrapper section{border-radius:24px!important}
 	.gp-responsive .gp-blog-wrapper section.category-40gd{border-radius:12px 12px 6px 6px!important}
 	.gp-responsive .gp-blog-wrapper+section.category-40gd{border-radius:6px 6px 12px 12px!important}
 	#content .gp-blog-wrapper .post-loop .post-text p,.post-loop .post-text p{width:100%;margin-bottom:0!important;padding:0;line-height:1.5!important}

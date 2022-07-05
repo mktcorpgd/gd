@@ -24,7 +24,6 @@ input[disabled],input[readonly]{color:#666666;opacity:.8;background:#FAFAFA;bord
 span.description{display:block}
 #username-changer-link{position:relative;bottom:2px;left:2px}
 #wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:2px}
-#wpadminbar #wp-admin-bar-my-sites>.ab-item:before,#wpadminbar #wp-admin-bar-site-name>.ab-item:before{top:0}
 input+span.description,select+span.description{display:inline-block;position:relative;left:5px;font-style:italic}
 span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;line-height:20px}
 .nav-menus-php .item-edit{height:38px;overflow:hidden}
