@@ -39,7 +39,7 @@ h2{font-size:1.4em}
 h3{font-size:1.3em}
 h3:not(.toggle) i[class*='fa-']{display:inline-block;margin-left:10px;font-size:80%;opacity:.6}
 video{outline:none!important;cursor:pointer}
-blockquote{margin:0;padding:0;text-align:center;font-size:1.1em;line-height:1.5;font-style:italic;overflow:inherit}
+blockquote{margin:0;padding:1em 0 1em 1.4em;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:20px;line-height:1.5}
 body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border-top:64px solid #0E316E}
 .not-visible{visibility:hidden}
@@ -465,7 +465,7 @@ body.archive #content h1,body.search #content h1{margin-top:.2em}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content a+h6{margin-top:.8em}
 .textwidget h6{margin-bottom:.2em;font-size:.8em}
-#content blockquote p{margin-bottom:0!important;line-height:1.5}
+#content blockquote p{line-height:1.5}
 #content h2+h4{margin-top:20px}
 #content .wp-block-column>h3{margin-top:0!important}
 #content h4,.mfp-content h4{padding-bottom:0;margin-top:20px;clear:both;position:relative}
@@ -1166,7 +1166,7 @@ img[src*='-dark-']{background:#999999}
 #wp-calendar{padding:0!important;position:relative}
 #wp-calendar thead th,#wp-calendar tbody td{padding:0!important}
 #wp-calendar thead tr th{color:#888888;font-size:10px!important;padding-bottom:0!important;text-align:center!important;text-transform:uppercase!important}
-#wp-calendar tbody td{font-size:.9em;line-height:1.4;border:2px solid #FFFFFF!important;border-radius:32px}
+#wp-calendar tbody td{font-size:.9em;line-height:1.8;border:2px solid #FFFFFF!important;border-radius:32px}
 #wp-calendar tbody td.event a{border-radius:32px;color:#FFFFFF;display:block}
 #wp-calendar tbody td.today:not(.event){box-shadow:inset 0 0 0 1px #F0582B!important}
 #wp-calendar tbody td.today a{box-shadow:inset 0 0 0 1px #F0582B!important}
