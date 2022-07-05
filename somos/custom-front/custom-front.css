@@ -358,10 +358,10 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current,.xdsoft_datetimepicker .xdsoft_calendar th{font-weight:400}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select{top:27px}
 .xdsoft_datetimepicker .xdsoft_calendar td,.xdsoft_datetimepicker .xdsoft_calendar th,.xdsoft_datetimepicker .xdsoft_calendar{border:none}
-.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:not(.xdsoft_scroller):hover,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current.xdsoft_disabled:hover, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current.xdsoft_disabled:hover,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option:hover{background:#F0582B!important;box-shadow:none!important}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div:not(.xdsoft_scroller):hover,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current.xdsoft_disabled:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current.xdsoft_disabled:hover,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option:hover{background:#F0582B!important;box-shadow:none!important}
 .xdsoft_timepicker .xdsoft_time_box>div>div,.xdsoft_datetimepicker .xdsoft_calendar td,.xdsoft_datetimepicker .xdsoft_calendar th{font-size:.8em!important;line-height:2em!important}
 .xdsoft_datetimepicker div.xdsoft_scroller:hover,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_scroller:hover{background:#999999!important}
-.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default, .xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current, .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current{background:#0E316E!important;box-shadow:none}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current{background:#0E316E!important;box-shadow:none}
 .xdsoft_datetimepicker .xdsoft_calendar td:not(.xdsoft_current).xdsoft_today{color:#0E316E}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box{height:156px;top:1px}
 .xdsoft_scrollbar{width:6px}
@@ -369,7 +369,7 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_scroller_box{border:1px solid #CCCCCC!important}
 .xdsoft_datetimepicker .xdsoft_calendar{overflow:hidden}
 .xdsoft_datetimepicker .xdsoft_label{width:auto;font-family:'Neo-Sans',sans-serif;font-weight:500}
-.xdsoft_datetimepicker .xdsoft_label i, .xdsoft_datetimepicker .xdsoft_prev, .xdsoft_datetimepicker .xdsoft_next, .xdsoft_datetimepicker .xdsoft_today_button{background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-buttons-1.png');background-size:cover}
+.xdsoft_datetimepicker .xdsoft_label i,.xdsoft_datetimepicker .xdsoft_prev,.xdsoft_datetimepicker .xdsoft_next,.xdsoft_datetimepicker .xdsoft_today_button{background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-buttons-1.png');background-size:cover}
 .xdsoft_datetimepicker .xdsoft_prev{background-position:-20px 0}
 .xdsoft_datetimepicker .xdsoft_label i{background-position:11px -24px;background-size:120px}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_prev,.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_next{background-size:120px}
@@ -691,9 +691,10 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .ajax-filelist{min-height:auto;font-size:1em}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
-#UseyourDrive .nav-title{flex:10 0 0;font-size:1rem}
+#UseyourDrive .nav-title{order:0;flex:10 0 0;padding-left:.4em;font-size:1rem}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;font-size:1.2em;line-height:1.2}
 #UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
+#UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:auto;padding-right:.4em}
 #UseyourDrive .entry-info-button:hover,#UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
 #UseyourDrive .tippy-box,.UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
 #UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
@@ -720,7 +721,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400!important}
-.info-material{padding:1.2em 1em!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.9rem;line-height:1.4;font-style:italic;text-align:center}
+.info-material{padding:1.2em 1em!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0!important}
 .file-container .info-material{margin-top:20px!important}
 .info-material i{display:inline-block;margin-right:5px;color:#0E316E}
@@ -1524,6 +1525,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#countdown li{font-size:1.125rem;padding:.75rem}
 	#countdown li span{font-size:3.375rem}
 	.bottom_logos a img{width:160px}
+	.info-material{font-size:1rem}
 }
 @media (max-width:960px) and (orientation:landscape) {
 	#content .columns.two .tp h2{bottom:17vw;font-size:6.5vw}
