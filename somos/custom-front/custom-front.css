@@ -592,7 +592,7 @@ ul#lcp_instance_0.busquedas {border:none!important}
 .mfp-close{right:0}
 #custom_html-21,#custom_html-3{text-align:center}
 #custom_html-11,#custom_html-24{padding-top:12px!important}
-#custom_html-24 > div > h3{font-size:1.1em!important;font-weight:500!important}
+#custom_html-24 > div > h3{font-weight:500!important}
 #custom_html-11 > div > h3 > i.fa-minus-square:before,#custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
 #custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'!important}
 #custom_html-11 > div > h3:nth-child(3) > i:before{content:'\f77c'!important}
@@ -1328,6 +1328,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-iop'] .padder,body.post-template-default.single #content article[class*='category-iot'] .padder,body.post-template-default.single #content article[class*='category-baitcon'] .padder,body.post-template-default.single #content article[class*='category-datco'] .padder,body.post-template-default.single #content article[class*='category-focus'] .padder,body.post-template-default.single #content article[class*='category-interservices'] .padder,body.post-template-default.single #content article[class*='category-sersat'] .padder,body.post-template-default.single #content article[class*='category-silica-networks'] .padder,body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:6px;border-top-style:solid}
 	body.page-id-11286 .padder,body.page-id-11289 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder,body.page-id-11299 .padder,body.page-id-11305 .padder,body.page-id-11308 .padder,body.page-id-11283 .padder,body.page-id-15096 .padder,body.page-id-18106 .padder,body.page-id-18351 .padder,body.page-id-11277 .padder,body.page-id-22942 .padder,body.page-id-28036 .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 	#custom_html-11 > div > h3 > i,#custom_html-24 > div > h3 > i{width:16px}
+	#custom_html-24 > div > h3{font-size:1.1em!important}
 }
 
 /* Mobile */
