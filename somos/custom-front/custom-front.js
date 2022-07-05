@@ -613,12 +613,12 @@ jQuery(document).ready(function() {
 				country:['ar']
 			}
 		});
-		addressAutocomplete5 = new google.maps.places.Autocomplete($addressAutoCompleteInput[3], {
+		addressAutocomplete5 = new google.maps.places.Autocomplete($addressAutoCompleteInput[4], {
 			componentRestrictions: {
 				country:['ar']
 			}
 		});
-		addressAutocomplete6 = new google.maps.places.Autocomplete($addressAutoCompleteInput[3], {
+		addressAutocomplete6 = new google.maps.places.Autocomplete($addressAutoCompleteInput[5], {
 			componentRestrictions: {
 				country:['ar']
 			}
