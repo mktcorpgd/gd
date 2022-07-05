@@ -28,7 +28,6 @@ a:hover{color:#1F4483}
 #content a:hover{text-decoration:underline}
 input,textarea,input[type='password'],#content .widget[class*='widget_bp_'] h3{background-color:#F6F6F6;border-color:#F6F6F6}
 input[type='submit'],select,textarea,button{outline:none!important}
-input[type='submit'],input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],textarea,button,.wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 select{cursor:pointer}
 hr{float:left;width:100%;height:4px;margin:20px 0;padding:0;position:relative;background:#EAEAEA;border:0;clear:both}
 h1,h2,h3,h4,h5,h6{margin-bottom:15px;line-height:125%}
@@ -948,7 +947,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)!important}
 #content table td{border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 #content table td p{line-height:1.5}
-#content table tbody td strong,.weight600{font-weight:600!important}
+#content table tbody td strong,.weight600 .wpcf7-list-item-label{font-weight:600!important}
 #content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{border-left:1px solid #CCCCCC!important}
 #content table tr:first-child td{border-top:1px solid #CCCCCC!important}
 #content table thead+tbody tr:first-child td{border-top:none!important}
@@ -1293,6 +1292,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 @media (min-width:960px) {
 	h1,.page-title{font-size:2em!important}
 	li.only-mobile,#mobile-nav-button{display:none!important}
+	input[type='number']{-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	#nav .menu>li{margin:0!important}
 	.is-search-form.is-form-id-26276 input[type='text']{margin-bottom:0!important;box-shadow:0 10px 10px -8px rgba(0,0,0,.4)!important}
 	.is-search-form.is-form-id-26276 input[type='text']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
