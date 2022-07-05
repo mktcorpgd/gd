@@ -41,7 +41,7 @@ h2{font-size:1.4em}
 h3{font-size:1.3em}
 h3:not(.toggle) i[class*='fa-']{display:inline-block;margin-left:10px;font-size:80%;opacity:.6}
 video{outline:none!important;cursor:pointer}
-blockquote{margin:0;padding:1em 0 1em 1.4em;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
+blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:20px;line-height:1.5}
 body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border-top:64px solid #0E316E}
 .not-visible{visibility:hidden}
@@ -688,9 +688,10 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 
 /* Drive */
 #UseyourDrive{margin:0 -30px}
-#UseyourDrive .ajax-filelist{min-height:auto}
+#UseyourDrive .ajax-filelist{min-height:auto;font-size:1em}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .nav-title{flex:10 0 0;font-size:1rem}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;font-size:1.2em;line-height:1.2}
 #UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
 #UseyourDrive .entry-info-button:hover,#UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
@@ -719,7 +720,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400!important}
-.info-material{padding:1.2em 0!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
+.info-material{padding:1.2em 1em!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.9rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0!important}
 .file-container .info-material{margin-top:20px!important}
 .info-material i{display:inline-block;margin-right:5px;color:#0E316E}
