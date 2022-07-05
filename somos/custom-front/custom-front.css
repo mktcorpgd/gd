@@ -1347,7 +1347,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{padding:12px 10px!important}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
 	h1,h2,h3,h4,h5,h6{float:left;width:100%;line-height:120%!important}
-	.widget .widgettitle{line-height:125%!important}
 	.widget .textwidget li{font-size:1.1em}
 	#post-content .ui-tabs .ui-tabs-nav{box-shadow:none}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
@@ -1485,7 +1484,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.widget .vevent abbr{position:relative;top:5px}
 	#copyright{font-size:14px;line-height:24px}
 	.birthdays-widget img{width:30%}
-	.widget .widgettitle{font-size:20px!important}
 	a.button.fullwidth,#respond #submit{margin-top:0;width:100%;border-radius:0!important}
 	body .widget button:not(.mfp-close){line-height:26px!important;padding:8px 0;right:10px}
 	.sc-button.medium{font-size:1.1em!important}
@@ -1493,7 +1491,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sc-tab-panel .sc-button.small{padding:.2em .6em .3em!important}
 	.sc-button>i:before{position:relative;top:0}
 	.widget .blue.sc-button{margin:12px 0 8px}
-	.textwidget h3.toggle,.datepick-days-cell{font-size:1.2em!important;line-height:1.5!important}
+	.widget .widgettitle{font-size:1.2em!important;line-height:1.25!important}
+	.textwidget h3.toggle,.datepick-days-cell{font-size:1.1em!important;line-height:1.5!important}
 	.sociales li{background-position:0 10px;padding:5px 0}
 	.post-loop,article.event{margin:0 0 15px!important}
 	#logo{margin:0!important;position:relative}
