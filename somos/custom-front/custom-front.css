@@ -692,9 +692,9 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .nav-title{order:0;flex:10 0 0;padding-left:.4em;font-size:1rem}
-#UseyourDrive .folders-container .entry-info-name{margin-right:0;font-size:1.2em;line-height:1.2}
+#UseyourDrive .folders-container .entry-info-name{margin-right:0;line-height:1.2}
 #UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
-#UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:auto;padding-right:.4em}
+#UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{padding-right:.4em}
 #UseyourDrive .entry-info-button:hover,#UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
 #UseyourDrive .tippy-box,.UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
 #UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
