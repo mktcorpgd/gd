@@ -282,7 +282,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .columns[class$='check']>label .wpcf7-checkbox,.wpcf7 .columns[class$='check']>label .wpcf7-radio{display:grid;grid-gap:5px;grid-template-columns:.9fr .9fr 1fr}
 .wpcf7 .columns.one.fourcheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fourcheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr}
 .wpcf7 .columns.one.fivecheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fivecheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr 1fr}
-.wpcf7 .columns>label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .3em .4em .7em;border:2px solid #EAEAEA;border-radius:6px}
+.wpcf7 .columns>label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .3em .2em .7em;border:2px solid #EAEAEA;border-radius:12px}
 .wpcf7 .columns>label .highlight .wpcf7-list-item-label{font-size:1.2em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 .wpcf7 .columns>label .PAXWHAT .wpcf7-list-item-label:before{display:inline-block;padding-right:4px}
 .wpcf7 .columns>label .PAXWHAT .wpcf7-list-item.first .wpcf7-list-item-label:before{padding-right:1px;content:''}
@@ -948,7 +948,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)!important}
 #content table td{border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 #content table td p{line-height:1.5}
-#content table tbody td strong{font-weight:600!important}
+#content table tbody td strong,.weight600{font-weight:600!important}
 #content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{border-left:1px solid #CCCCCC!important}
 #content table tr:first-child td{border-top:1px solid #CCCCCC!important}
 #content table thead+tbody tr:first-child td{border-top:none!important}
