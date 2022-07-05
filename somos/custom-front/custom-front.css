@@ -39,7 +39,7 @@ h2{font-size:1.4em}
 h3{font-size:1.3em}
 h3:not(.toggle) i[class*='fa-']{display:inline-block;margin-left:10px;font-size:80%;opacity:.6}
 video{outline:none!important;cursor:pointer}
-blockquote{margin:0;padding:0;text-align:center;font-size:1.2em;line-height:1.5;font-style:italic;overflow:inherit}
+blockquote{margin:0;padding:0;text-align:center;font-size:1.1em;line-height:1.5;font-style:italic;overflow:inherit}
 p{margin-bottom:20px;line-height:1.5}
 body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border-top:64px solid #0E316E}
 .not-visible{visibility:hidden}
@@ -447,7 +447,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content h1{margin-bottom:.2em!important;font-weight:500!important;line-height:1.15!important;color:#333333}
 body.post-type-archive-event h1{text-transform:capitalize}
 .neosans li{font-size:1.1em!important}
-body.page #content h1{text-align:center}
+body.page #content h1{margin-bottom:0!important;padding-bottom:0;text-align:center}
 body.archive #content h1,body.search #content h1{margin-top:.2em}
 #post-content h2+p:last-child{margin-bottom:15px!important}
 #post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
@@ -1332,8 +1332,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,#mobile-nav .menu li i:not(.mobile-dropdown-icon){display:none!important}
 	.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
 	.gp-responsive #mobile-nav-button,#mobile-nav .menu li>.mobile-dropdown-icon{display:inline-block!important}
-	blockquote{margin:0;padding:0;text-align:center;font-size:1.2em;line-height:1.5;font-style:italic;overflow:inherit}
-	blockquote{font-size:1.1em;text-align:left}
 	#nav{position:absolute;top:0;right:0}
 	#nav .menu li.menu-item-17720{display:inline-block}
 	h3{font-size:1.5em}
@@ -1375,7 +1373,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
 	#post-content .ui-tabs .ui-tabs-nav{margin:1em .4em .4em}
 	#content h1{padding:0 0 .4em;font-size:1.6em!important}
-	.page-title{font-size:32px!important}
 	.birthdays-widget .birthday_wish{font-size:28px}
 	#custom_html-23 img{border-width:4px;border-top-left-radius:12px;border-top-right-radius:12px}
 	#custom_html-23 .url_public_bcard{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
