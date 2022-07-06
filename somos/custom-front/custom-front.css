@@ -1390,6 +1390,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body #content span.big-cap{padding-top:14px;font-size:104px;line-height:65px}
 	body.single .gp-meta-date{margin-bottom:.4em;font-size:16px;line-height:1.5}
 	h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a{margin:4px 4px 0 0!important}
+	body.single .gp-post-meta{display:block}
 	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag'],.post-loop .gp-meta-date{margin-bottom:0!important}
 	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.8rem}
 	h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .6em}
