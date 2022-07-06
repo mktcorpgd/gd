@@ -191,7 +191,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	/* MOBILE - Ubicar buscador dentro del header
+	// MOBILE - Ubicar buscador dentro del header
 	function headerMobile() {
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('.is-search-form').insertAfter('#logo');
@@ -201,13 +201,13 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('#header').css('top','32px');
 			jQuery('#menu40gd').css('top','84px');
-			jQuery('#logo+.is-search-form.is-form-id-26276').insertBefore('.is-link-container');
+			jQuery('#logo+.is-search-form').insertBefore('.is-link-container');
 		}
 	}
 	headerMobile();
 	jQuery(window).resize(function() {
 		headerMobile();
-	});*/
+	});
 
 
 	// GENERAL - Si hay cumpleaños:
