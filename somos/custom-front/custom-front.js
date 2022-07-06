@@ -201,7 +201,7 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('#header').css('top','32px');
 			jQuery('#menu40gd').css('top','84px');
-			jQuery('.is-search-form.is-form-id-26276').insertBefore('.is-link-container');
+			jQuery('#logo+.is-search-form.is-form-id-26276').insertBefore('.is-link-container');
 		}
 	}
 	headerMobile();
