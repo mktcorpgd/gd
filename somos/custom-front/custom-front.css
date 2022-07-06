@@ -1417,8 +1417,9 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-loop .post-thumbnail+.post-text h2:before{top:-16px!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
-	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-right:.4em;margin-bottom:.4em}
+	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a:before{width:18px;height:18px;top:9px}
+	body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0!important}}
 	.padder.content-post-thumbnail #post-content .ui-tabs{margin:30px -20px}
 	.sub-menu li{margin-left:0!important}
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
