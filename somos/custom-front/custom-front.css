@@ -895,7 +895,6 @@ body.home #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{background:#0
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{display:inline-block;width:14px;height:14px;background:#0E316E;color:#FFFFFF;background-repeat:no-repeat;background-size:contain;content:'';border-radius:50%;position:absolute;top:9px;left:8px;font-size:1em;text-align:center}
 body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
 .gp-blog-wrapper{transition:all .1s ease-in-out}
-body.home .gp-blog-wrapper.gp-blog-columns-2{margin-bottom:1em}
 .gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
 body.home .post-loop{overflow:hidden}
 body.home .post-loop .gp-loop-meta span a{margin:0;font-weight:400;color:#666666}
