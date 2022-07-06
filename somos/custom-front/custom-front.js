@@ -191,7 +191,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// MOBILE - Ubicar buscador dentro del header
+	/* MOBILE - Ubicar buscador dentro del header
 	function headerMobile() {
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('.is-search-form').insertAfter('#logo');
@@ -207,7 +207,7 @@ jQuery(document).ready(function() {
 	headerMobile();
 	jQuery(window).resize(function() {
 		headerMobile();
-	});
+	});*/
 
 
 	// GENERAL - Si hay cumpleaños:

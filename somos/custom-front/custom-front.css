@@ -668,6 +668,7 @@ article[class*='category-casos-'] h5{margin-top:20px;text-align:center}
 
 /* Archivo y resultados de búsqueda */
 .error404 h2{font-size:100%;font-family:'Open-Sans',sans-serif!important;font-weight:400}
+.is-search-form~.is-search-form{display:none!important}
 
 /* Entradas */
 body.single #content .post-thumbnail{max-width:inherit;margin-bottom:30px!important;float:none!important;text-align:center;background:none}
