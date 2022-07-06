@@ -888,7 +888,7 @@ section[class*='category-40gd'] .post-text h2:before{top:30px}
 body.home #post-content{margin-top:0;margin-bottom:0}
 body.home .padder,body.archive .padder,body.search .padder{padding:0!important;background:none}
 body.home #content-wrapper,body.archive #content-wrapper,body.search #content-wrapper{margin-bottom:0!important}
-body.home .sc-tab-panel{margin-bottom:0;padding:0;background:none}
+body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a{padding:.4em .6em .4em 1.85em;background:rgba(255,255,255,.6)}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#F0582B;color:#FFFFFF}
 body.home #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{background:#0E316E!important;color:#FFFFFF!important}
