@@ -192,6 +192,10 @@ jQuery(document).ready(function() {
 
 
 	// MOBILE - Ubicar buscador dentro del header
+	console.log(jQuery('.is-search-form').length);
+	if ( jQuery('.is-search-form').length > 1 ) {
+		jQuery('.is-search-form:not(:first)').remove();
+	}
 	function headerMobile() {
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('.is-search-form').insertAfter('#logo');
