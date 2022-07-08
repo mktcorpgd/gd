@@ -701,26 +701,24 @@ jQuery(document).ready(function() {
 			var img_zoom = '14';
 			var img_markers = 'markers=size:mid%7Ccolor:red%7C';
 			var img_maptype = 'roadmap';
-			google.maps.event.addDomListener(window,'load',function() {
-				var places;
-				for (var i = 0; i<input.length; i++) {
-					var options = {country:['ar']};
-					places = new google.maps.places.Autocomplete(input[i],options);
-				}
-				google.maps.event.addListener(places,'place_changed',function() {
-					jQuery(input).parent().find('input').eq(1).val(places.getPlace().formatted_address);
-					jQuery(input).val('');
-					jQuery(input).parent().find('input').eq(1).trigger("blur");
-					var address = places.getPlace().formatted_address;
-					var input_name = jQuery(input).parent().find('input').eq(1).attr('name');
-					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-					console.log(address);
-					console.log(input_name);
-					console.log(img_src);
-					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-					jQuery('.'+input_name+'+a img').attr('src',img_src);
-				});
+			var places;
+			for (var i = 0; i<input.length; i++) {
+				var options = {country:['ar']};
+				places = new google.maps.places.Autocomplete(input[i],options);
+			}
+			places.addListener('place_changed', function() {
+				jQuery(input).parent().find('input').eq(1).val(places.getPlace().formatted_address);
+				jQuery(input).val('');
+				jQuery(input).parent().find('input').eq(1).trigger("blur");
+				var address = places.getPlace().formatted_address;
+				var input_name = jQuery(input).parent().find('input').eq(1).attr('name');
+				var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
+				console.log(address);
+				console.log(input_name);
+				console.log(img_src);
+				jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
+				jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
+				jQuery('.'+input_name+'+a img').attr('src',img_src);
 			});
 		};
 		
