@@ -706,6 +706,7 @@ jQuery(document).ready(function() {
 				var options = {country:['ar']};
 				places = new google.maps.places.Autocomplete(input[i],options);
 				places.addListener('place_changed', function() {
+					alert('ok');
 					jQuery(input).parent().find('input').eq(1).val(places.getPlace().formatted_address);
 					jQuery(input).val('');
 					jQuery(input).parent().find('input').eq(1).trigger("blur");
