@@ -192,7 +192,6 @@ jQuery(document).ready(function() {
 
 
 	// MOBILE - Ubicar buscador dentro del header
-	console.log(jQuery('.is-search-form').length);
 	if ( jQuery('.is-search-form').length > 1 ) {
 		jQuery('.is-search-form:not(:first)').remove();
 	}
@@ -715,6 +714,9 @@ jQuery(document).ready(function() {
 					var address = places.getPlace().formatted_address;
 					var input_name = jQuery(input).parent().find('input').eq(1).attr('name');
 					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
+					console.log(address);
+					console.log(input_name);
+					console.log(img_src);
 					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 					jQuery('.'+input_name+'+a img').attr('src',img_src);
