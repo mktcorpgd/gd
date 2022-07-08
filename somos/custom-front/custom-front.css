@@ -457,7 +457,7 @@ body.archive #content h1,body.search #content h1{margin-top:.2em}
 #content .columns.three.expanded{width:66%}
 #content #post-content>h3:not(.toggle),#content #post-content>h4,#content #post-content>h5,.mfp-content h3:not(.toggle),.mfp-content h4,.mfp-content h5{margin-top:1.4em}
 #content .wpcf7 h3:not(.toggle),#content .wpcf7 h4,#content .wpcf7 h5{float:left;width:100%;margin-bottom:0!important}
-#content .wpcf7 h4 i{font-size:.8em;opacity:.6;position:relative;top:-2px}
+#content .wpcf7 h4 i,#content .wpcf7 h5 i{font-size:.8em;opacity:.6;position:relative;top:-2px}
 #content .sc-tab-panel h5{margin-bottom:.25em}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content a+h6{margin-top:.8em}
