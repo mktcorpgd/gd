@@ -697,6 +697,11 @@ jQuery(document).ready(function() {
 		
 		ApplyAutoComplete(jQuery('.address_maps'));
 		function ApplyAutoComplete(input) {
+			var api_key = 'AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
+			var img_size = '250x250';
+			var img_zoom = '14';
+			var img_markers = 'markers=size:mid%7Ccolor:red%7C';
+			var img_maptype = 'roadmap';
 			google.maps.event.addDomListener(window,'load',function() {
 				var places;
 				for (var i = 0; i<input.length; i++) {
@@ -707,24 +712,15 @@ jQuery(document).ready(function() {
 					jQuery(input).parent().find('input').eq(1).val(places.getPlace().formatted_address);
 					jQuery(input).val('');
 					jQuery(input).parent().find('input').eq(1).trigger("blur");
+					var address = places.getPlace().formatted_address;
+					var input_name = jQuery(input).parent().find('input').eq(1).attr('name');
+					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
+					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
+					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
+					jQuery('.'+input_name+'+a img').attr('src',img_src);
 				});
 			});
 		};
-
-			
-		var selected = false;
-		jQuery('.address_maps').on('focus', function() {
-			if( selected != true ) {
-				selected = false;
-			}
-		}).on('blur', function() {
-			if ( selected == false ) {
-				jQuery(this).val('');
-			}
-			if ( jQuery(this).val().length == 0 ) {
-				selected = false;
-			}
-		});
 		
 	}
 
