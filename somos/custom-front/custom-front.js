@@ -706,7 +706,7 @@ jQuery(document).ready(function() {
 			for (var i = 0; i<input.length; i++) {
 				var options = {country:['ar']};
 				place = new google.maps.places.Autocomplete(input[i],options);
-				place.inputId = input[i].id;
+				place.attrName = input[i].name;
 				place.addListener('place_changed',fillIn);
 				places.push(place);
 				/*function() {
@@ -724,8 +724,9 @@ jQuery(document).ready(function() {
 					jQuery('.'+input_name+'+a img').attr('src',img_src);*/
 			}
 			function fillIn() {
-				console.log(this.inputId);
+				console.log(this.attrName);
 				var place = this.getPlace();
+				console.log(place);
 				console.log(place.address_components[0].long_name);
 			}
 			  
