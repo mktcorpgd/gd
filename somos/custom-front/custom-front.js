@@ -595,111 +595,15 @@ jQuery(document).ready(function() {
 
 		// Autocompletado por Google Maps API
 		/*var $addressAutoCompleteInputAR = jQuery('.address_maps.ar');
-		var $addressAutoCompleteInputINT = jQuery('.address_maps.int');
-		addressAutocompleteAR1 = new google.maps.places.Autocomplete($addressAutoCompleteInputAR[0], {
-			componentRestrictions: {
-				country:['ar']
-			}
-		});
-		addressAutocompleteAR2 = new google.maps.places.Autocomplete($addressAutoCompleteInputAR[1], {
-			componentRestrictions: {
-				country:['ar']
-			}
-		});
-		addressAutocompleteAR3 = new google.maps.places.Autocomplete($addressAutoCompleteInputAR[2], {
-			componentRestrictions: {
-				country:['ar']
-			}
-		});
-		addressAutocompleteAR4 = new google.maps.places.Autocomplete($addressAutoCompleteInputAR[3], {
-			componentRestrictions: {
-				country:['ar']
-			}
-		});
-		addressAutocompleteAR5 = new google.maps.places.Autocomplete($addressAutoCompleteInputAR[4], {
-			componentRestrictions: {
-				country:['ar']
-			}
-		});
-		addressAutocompleteAR6 = new google.maps.places.Autocomplete($addressAutoCompleteInputAR[5], {
-			componentRestrictions: {
-				country:['ar']
-			}
-		});
-		addressAutocompleteINT1 = new google.maps.places.Autocomplete($addressAutoCompleteInputINT[0]);
-		addressAutocompleteINT2 = new google.maps.places.Autocomplete($addressAutoCompleteInputINT[1]);
-		var api_key = 'AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
-		var img_size = '250x250';
-		var img_zoom = '14';
-		var img_markers = 'markers=size:mid%7Ccolor:red%7C';
-		var img_maptype = 'roadmap';
-		addressAutocompleteAR1.addListener('place_changed', function() {
-			var address = addressAutocompleteAR1.getPlace().formatted_address;
-			var input_name = 'IDAFROM';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-			jQuery('.'+input_name+'+a img').attr('src',img_src);
-			selected = true;
-		});
-		addressAutocompleteAR2.addListener('place_changed', function() {
-			var address = addressAutocompleteAR2.getPlace().formatted_address;
-			var input_name = 'IDATO';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-			jQuery('.'+input_name+'+a img').attr('src',img_src);
-			selected = true;
-		});
-		addressAutocompleteAR3.addListener('place_changed', function() {
-			var address = addressAutocompleteAR3.getPlace().formatted_address;
-			var input_name = 'VUELTAFROM';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-			jQuery('.'+input_name+'+a img').attr('src',img_src);
-			selected = true;
-		});
-		addressAutocompleteAR4.addListener('place_changed', function() {
-			var address = addressAutocompleteAR4.getPlace().formatted_address;
-			var input_name = 'VUELTATO';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-			jQuery('.'+input_name+'+a img').attr('src',img_src);
-			selected = true;
-		});
-		addressAutocompleteAR5.addListener('place_changed', function() {
-			var address = addressAutocompleteAR5.getPlace().formatted_address;
-			var input_name = 'HOSPPLACE';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-			jQuery('.'+input_name+'+a img').attr('src',img_src);
-			selected = true;
-		});
-		addressAutocompleteAR6.addListener('place_changed', function() {
-			var address = addressAutocompleteAR6.getPlace().formatted_address;
-			var input_name = 'AUTOPLACE';
-			var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-			jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-			jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-			jQuery('.'+input_name+'+a img').attr('src',img_src);
-			selected = true;
-		});
-		addressAutocompleteINT1.addListener('place_changed', function() {
-			selected = true;
-		});
-		addressAutocompleteINT2.addListener('place_changed', function() {
-			selected = true;
-		});*/
-		
+		var $addressAutoCompleteInputINT = jQuery('.address_maps.int');*/
 		ApplyAutoComplete(jQuery('.address_maps'));
 		function ApplyAutoComplete(input) {
 			var places = [];
 			var place;
+			var options = {
+				componentRestrictions: {country:['ar']}
+			};
 			for (var i = 0; i<input.length; i++) {
-				var options = {country:['ar']};
 				place = new google.maps.places.Autocomplete(input[i],options);
 				place.attrName = input[i].name;
 				place.addListener('place_changed',fillIn);
