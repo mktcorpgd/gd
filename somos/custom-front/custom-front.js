@@ -694,7 +694,7 @@ jQuery(document).ready(function() {
 			selected = true;
 		});*/
 		
-		/*ApplyAutoComplete(jQuery('.address_maps'));
+		ApplyAutoComplete(jQuery('.address_maps'));
 		function ApplyAutoComplete(input) {
 			var api_key = 'AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 			var img_size = '250x250';
@@ -721,7 +721,7 @@ jQuery(document).ready(function() {
 				jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 				jQuery('.'+input_name+'+a img').attr('src',img_src);
 			});
-		};*/
+		};
 		
 	}
 
