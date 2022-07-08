@@ -695,14 +695,12 @@ jQuery(document).ready(function() {
 			selected = true;
 		});*/
 		
-		jQuery(function () {
-			ApplyAutoComplete(jQuery('[class*=address_maps]'));
-		});
+		ApplyAutoComplete(jQuery('.address_maps'));
 		function ApplyAutoComplete(input) {
 			google.maps.event.addDomListener(window,'load',function() {
 				var places;
 				for (var i = 0; i<input.length; i++) {
-					var options = {types:['(regions)']};
+					var options = {country:['ar']};
 					places = new google.maps.places.Autocomplete(input[i],options);
 				}
 				google.maps.event.addListener(places,'place_changed',function() {
