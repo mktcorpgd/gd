@@ -706,7 +706,7 @@ jQuery(document).ready(function() {
 			for (var i = 0; i<input.length; i++) {
 				var options = {country:['ar']};
 				place = new google.maps.places.Autocomplete(input[i],options);
-				place.inputId = inputs[i].id;
+				place.inputId = input[i].id;
 				place.addListener('place_changed',fillIn);
 				places.push(place);
 				/*function() {
