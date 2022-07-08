@@ -269,7 +269,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .columns>label.divider{padding-top:25px;border-top:1px solid #DDDDDD}
 .wpcf7 .columns>label>label.spacer{clear:both;display:block;margin-top:0!important;padding-top:5px}
 .wpcf7 .columns>label>label.spacer:first-child{padding-top:15px}
-.wpcf7 .columns>label strong{display:block;margin-top:20px;font-weight:500}
+.wpcf7 .columns>label strong{font-weight:500}
 .wpcf7 label strong{font-weight:400;font-size:110%;line-height:1.25}
 .wpcf7 label h3{text-transform:none;letter-spacing:0}
 .wpcf7>.wpcf7-form>label{float:left;width:100%;margin:10px 0;position:relative}
