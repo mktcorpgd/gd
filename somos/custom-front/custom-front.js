@@ -701,15 +701,18 @@ jQuery(document).ready(function() {
 			var img_zoom = '14';
 			var img_markers = 'markers=size:mid%7Ccolor:red%7C';
 			var img_maptype = 'roadmap';
-			var places;
+			var places = [];
+			var place;
 			for (var i = 0; i<input.length; i++) {
 				var options = {country:['ar']};
-				places = new google.maps.places.Autocomplete(input[i],options);
-				places.addListener('place_changed', function() {
+				place = new google.maps.places.Autocomplete(input[i],options);
+				place.inputId = inputs[i].id;
+				place.addListener('place_changed',fillIn);
+				places.push(place);
+				/*function() {
 					/*jQuery(input).parent().find('input').val(places.getPlace().formatted_address);
 					jQuery(input).val('');
 					jQuery(input).parent().find('input').trigger('blur');
-					*/
 					var address = places.getPlace().formatted_address;
 					var input_name = jQuery(input).parent().find('input').attr('name');
 					console.log('address='+address);
@@ -719,8 +722,13 @@ jQuery(document).ready(function() {
 					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 					jQuery('.'+input_name+'+a img').attr('src',img_src);*/
-				});
 			}
+			function fillIn() {
+				console.log(this.inputId);
+				var place = this.getPlace();
+				console.log(place.address_components[0].long_name);
+			}
+			  
 		};
 		
 	}
