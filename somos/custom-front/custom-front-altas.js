@@ -28,6 +28,14 @@ jQuery(document).ready(function() {
 				jQuery('.LKDURL input').val('').removeAttr('disabled');
 			}	
 		}
+		else if ( name_checkbox == 'NOW[]' ) {
+			if ( this.checked ) {
+				jQuery('.NOW input').val('INMEDIATA').attr('disabled','disabled');
+			}
+			else {
+				jQuery('.NOW input').val('').removeAttr('disabled');
+			}	
+		}
 		else {
 			if ( this.checked ) {
 				var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
