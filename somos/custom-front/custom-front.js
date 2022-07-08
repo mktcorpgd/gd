@@ -601,7 +601,7 @@ jQuery(document).ready(function() {
 			var places = [];
 			var place;
 			var options = {
-				componentRestrictions: {country:['ar']}
+				componentRestrictions:{country:['ar']}
 			};
 			for (var i = 0; i<input.length; i++) {
 				place = new google.maps.places.Autocomplete(input[i],options);
@@ -611,13 +611,10 @@ jQuery(document).ready(function() {
 			}
 			function fillIn() {
 				var input_name = this.attrName;
-				console.log('input_name='+input_name);
 				if ( jQuery('.'+input_name+'+a').length ) {
 					var address = this.getPlace().formatted_address;
-					console.log('address='+address);
 					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
-					console.log('img_src='+img_src);
-						jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
+					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
 					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
 					jQuery('.'+input_name+'+a img').attr('src',img_src);	
 				}
