@@ -696,11 +696,6 @@ jQuery(document).ready(function() {
 		
 		ApplyAutoComplete(jQuery('.address_maps'));
 		function ApplyAutoComplete(input) {
-			var api_key = 'AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
-			var img_size = '250x250';
-			var img_zoom = '14';
-			var img_markers = 'markers=size:mid%7Ccolor:red%7C';
-			var img_maptype = 'roadmap';
 			var places = [];
 			var place;
 			for (var i = 0; i<input.length; i++) {
@@ -709,25 +704,19 @@ jQuery(document).ready(function() {
 				place.attrName = input[i].name;
 				place.addListener('place_changed',fillIn);
 				places.push(place);
-				/*function() {
-					/*jQuery(input).parent().find('input').val(places.getPlace().formatted_address);
-					jQuery(input).val('');
-					jQuery(input).parent().find('input').trigger('blur');
-					var address = places.getPlace().formatted_address;
-					var input_name = jQuery(input).parent().find('input').attr('name');
-					console.log('address='+address);
-					console.log('input_name='+input_name);
-					/*var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-					console.log('img_src='+img_src);
-					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-					jQuery('.'+input_name+'+a img').attr('src',img_src);*/
 			}
 			function fillIn() {
-				console.log(this.attrName);
-				var place = this.getPlace();
-				console.log(place);
-				console.log(place.address_components[0].long_name);
+				var input_name = this.attrName;
+				console.log('input_name='+input_name);
+				if ( jQuery('.'+input_name+'+a').length ) {
+					var address = this.getPlace().formatted_address;
+					console.log('address='+address);
+					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
+					console.log('img_src='+img_src);
+						jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
+					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
+					jQuery('.'+input_name+'+a img').attr('src',img_src);	
+				}
 			}
 			  
 		};
