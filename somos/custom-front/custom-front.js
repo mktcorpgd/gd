@@ -705,22 +705,22 @@ jQuery(document).ready(function() {
 			for (var i = 0; i<input.length; i++) {
 				var options = {country:['ar']};
 				places = new google.maps.places.Autocomplete(input[i],options);
+				places.addListener('place_changed', function() {
+					/*jQuery(input).parent().find('input').val(places.getPlace().formatted_address);
+					jQuery(input).val('');
+					jQuery(input).parent().find('input').trigger('blur');
+					*/
+					var address = places.getPlace().formatted_address;
+					var input_name = jQuery(input).parent().find('input').attr('name');
+					console.log('address='+address);
+					console.log('input_name='+input_name);
+					/*var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
+					console.log('img_src='+img_src);
+					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
+					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
+					jQuery('.'+input_name+'+a img').attr('src',img_src);*/
+				});
 			}
-			places.addListener('place_changed', function() {
-				/*jQuery(input).parent().find('input').val(places.getPlace().formatted_address);
-				jQuery(input).val('');
-				jQuery(input).parent().find('input').trigger('blur');
-				*/
-				var address = places.getPlace().formatted_address;
-				var input_name = jQuery(input).parent().find('input').attr('name');
-				console.log('address='+address);
-				console.log('input_name='+input_name);
-				/*var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size='+img_size+'&maptype='+img_maptype+'&'+img_markers+address+'&zoom='+img_zoom+'&key='+api_key;
-				console.log('img_src='+img_src);
-				jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-				jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-				jQuery('.'+input_name+'+a img').attr('src',img_src);*/
-			});
 		};
 		
 	}
