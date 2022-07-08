@@ -595,7 +595,7 @@ jQuery(document).ready(function() {
 		});
 
 		// Autocompletado por Google Maps API
-		var $addressAutoCompleteInputAR = jQuery('.address_maps.ar');
+		/*var $addressAutoCompleteInputAR = jQuery('.address_maps.ar');
 		var $addressAutoCompleteInputINT = jQuery('.address_maps.int');
 		addressAutocompleteAR1 = new google.maps.places.Autocomplete($addressAutoCompleteInputAR[0], {
 			componentRestrictions: {
@@ -693,7 +693,27 @@ jQuery(document).ready(function() {
 		});
 		addressAutocompleteINT2.addListener('place_changed', function() {
 			selected = true;
+		});*/
+		
+		jQuery(function () {
+			ApplyAutoComplete(jQuery('[class*=address_maps]'));
 		});
+		function ApplyAutoComplete(input) {
+			google.maps.event.addDomListener(window,'load',function() {
+				var places;
+				for (var i = 0; i<input.length; i++) {
+					var options = {types:['(regions)']};
+					places = new google.maps.places.Autocomplete(input[i],options);
+				}
+				google.maps.event.addListener(places,'place_changed',function() {
+					jQuery(input).parent().find('input').eq(1).val(places.getPlace().formatted_address);
+					jQuery(input).val('');
+					jQuery(input).parent().find('input').eq(1).trigger("blur");
+				});
+			});
+		};
+
+			
 		var selected = false;
 		jQuery('.address_maps').on('focus', function() {
 			if( selected != true ) {
