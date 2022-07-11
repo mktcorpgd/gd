@@ -551,8 +551,6 @@ body.post-template-default.single #content article.category-grupo-datco .padder,
 .widget .widgettitle a{color:#888888!important;position:absolute;top:.4em;right:15px}
 .widget .widgettitle a:hover{transform:scale(1.15);color:#F0582B!important}
 .widget .widgettitle a i{display:inline-block;font-family:'Font Awesome 6 Pro';font-size:1em;line-height:1;font-weight:bold;font-style:normal}
-.is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF!important}
-.is-search-form.is-form-id-26276 input:focus,.error404 .gp-search .gp-search-bar:focus,body.search-no-results .gp-search-bar:focus{color:#FFFFFF!important}
 .textwidget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;margin-top:-10px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
 ul#lcp_instance_0.busquedas {border:none!important}
 .textwidget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
@@ -647,6 +645,8 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .widget .activas li:last-child{border-bottom:none!important}
 
 /* Buscadores */
+.is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF!important}
+.is-search-form.is-form-id-26276 input:focus,.error404 .gp-search .gp-search-bar:focus,body.search-no-results .gp-search-bar:focus{color:#FFFFFF!important}
 .is-search-sections .meta{margin:0}
 .is-search-sections .meta .is-meta-category{box-sizing:border-box;display:block;margin-top:-10px;padding:0 10px 10px;width:100%;font-family:'Neo-Sans',sans-serif;font-size:.8em}
 .is-search-sections .is-title{font-family:'Neo-Sans',sans-serif;font-weight:500}
@@ -655,7 +655,7 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .is-search-form.is-form-id-26276{width:95%;margin:0 auto 1em;padding:54px 0 0!important;overflow:visible}
 .is-form-id-26276 label{position:relative}
 .is-search-form input::placeholder{color:#888888!important}
-.is-search-form.is-form-id-26276 input[type='text'],body.error404 .gp-search .gp-search-bar,body.search-no-results .gp-search-bar{margin:0;width:100%;font-family:'Neo-Sans',sans-serif!important;background:#F0582B!important;border:none!important;border-radius:0!important;border-bottom-left-radius:6px!important;border-bottom-right-radius:32px!important;color:#FFFFFF;font-size:1.2em!important;font-style:normal;padding:.4em!important;text-align:center}
+.is-search-form.is-form-id-26276 input[type='search'],body.error404 .gp-search .gp-search-bar,body.search-no-results .gp-search-bar{margin:0;width:100%;font-family:'Neo-Sans',sans-serif!important;background:#F0582B!important;border:none!important;border-radius:0!important;border-bottom-left-radius:6px!important;border-bottom-right-radius:32px!important;color:#FFFFFF;font-size:1.2em!important;font-style:normal;padding:.4em!important;text-align:center}
 .is-search-form.is-form-id-26276 .is-loader-image{top:28px;right:20px}
 article[class*='category-casos-'] .gp-search-bar,body.page-id-26272 .gp-search-bar,body.page-id-41477 .gp-search-bar{font-size:1.2em!important;text-align:center!important}
 article[class*='category-casos-'] h5{margin-top:20px;text-align:center}
@@ -1287,8 +1287,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input[type=number]{-moz-appearance:textfield}
 	#nav .menu>li{margin:0!important}
-	.is-search-form.is-form-id-26276 input[type='text']{margin-bottom:0!important;box-shadow:0 10px 10px -8px rgba(0,0,0,.4)!important}
-	.is-search-form.is-form-id-26276 input[type='text']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
+	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 10px 10px -8px rgba(0,0,0,.4)!important}
+	.is-search-form.is-form-id-26276 input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
 	#nav .menu .sub-menu{width:190px!important}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.has-post-thumbnail .post-text{border-left:2px solid #CCCCCC}
 	.sidebar{font-size:14px}
@@ -1392,8 +1392,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .6em}
 	#header{min-height:64px;padding:0!important;overflow:hidden}
 	#header .is-search-form.is-form-id-26276{margin:0 auto;padding:0!important;width:70%}
-	#header .is-search-form.is-form-id-26276 input[type='text']{width:100%!important;position:relative;top:8px;left:0;color:#FFFFFF!important;font-size:1.1em!important;line-height:1!important;background:rgba(0,0,0,.2)!important;border:0!important;border-radius:32px!important;vertical-align:middle}
-	#header .is-search-form.is-form-id-26276 input[type='text']:focus{background:rgba(0,0,0,.2)!important}
+	#header .is-search-form.is-form-id-26276 input[type='search']{width:100%!important;position:relative;top:8px;left:0;color:#FFFFFF!important;font-size:1.1em!important;line-height:1!important;background:rgba(0,0,0,.2)!important;border:0!important;border-radius:32px!important;vertical-align:middle}
+	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
 	#nav .menu li{margin:0 -1px}
 	.archive .gp-blog-wrapper,.search-results .gp-blog-wrapper{display:block;width:100%;margin:0!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section{margin-top:0!important;padding:10px 15px 15px}
