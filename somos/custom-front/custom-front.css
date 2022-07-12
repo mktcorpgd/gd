@@ -688,6 +688,8 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .nav-title{order:0;flex:10 0 0;padding-left:.4em;font-size:1rem}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;line-height:1.2}
+#UseyourDrive .ajax-filelist .entry-info-name{display:inline;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+#UseyourDrive .entry:not(.no-entries):hover .entry-info-name a{color:#FFFFFF}
 #UseyourDrive ol.wpcp-breadcrumb>li{font-weight:400!important}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{padding-right:.4em}
 #UseyourDrive .entry-info-button:hover,#UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
@@ -1069,7 +1071,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 .sc-button>i[class*='far'],.sc-button>i[class*='fas']{font-family:'Font Awesome 6 Pro';font-weight:900}
 .sc-button>i[class*='fab']{font-family:'Font Awesome 6 Brands'}
 .sc-button.small,.sc-button.medium{line-height:normal!important;box-sizing:border-box;text-align:center;text-indent:0}
-.sc-button.small{padding:.3em .6em!important;font-size:.9em!important}
+.sc-button.small{padding:.3em .6em .5em!important;font-size:.9em!important;border-radius:8px!important}
 .sc-button.small+.sc-button.small{margin-left:.4em!important}
 .sc-button.medium{box-sizing:border-box;width:fit-content;margin:20px auto;padding:.4em .8em!important;font-size:1.05em}
 .sc-tab-panel>.sc-button.small{margin:0}
