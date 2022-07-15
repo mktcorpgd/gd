@@ -324,7 +324,7 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF!important;text-decor
 body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-response-output,.wpcf7-response-info{float:left;margin:1em 0!important;padding:.8em 1em!important;width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;color:#FFFFFF!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
 .wpcf7-response-info strong{font-size:1.2em}
-.wpcf7-response-info a{color:#FFFFFF;text-decoration:underline}
+.wpcf7-response-info a{color:#FFFFFF!important;text-decoration:underline}
 .wpcf7-response-info,.wpcf7-response-output.info{background-color:#0169B3!important}
 .wpcf7-form.invalid .wpcf7-response-output{background-color:#FF5151;position:relative;z-index:999;cursor:pointer}
 .wpcf7-form.sent .wpcf7-response-output{background-color:#419466!important}
