@@ -578,6 +578,20 @@ jQuery(document).ready(function() {
 				jQuery('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
 			}
 		});
+		var is_checked = jQuery('input[name="PAXWHAT"]').is(':checked');
+		jQuery('input[name="PAXWHAT"]').change(function() {
+			jQuery('.wpcf7-submit').removeClass('disabled');
+			if ( is_checked == true && this.checked ) {
+				if ( this.value == 'Envío' ) {
+					jQuery('input[name=FNAMEPAX]').val('');
+					jQuery('input[name=LNAMEPAX]').val('');;
+				}
+				else {
+					jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
+					jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
+				}
+			}
+		});
 
 		// Autocompletado por Google Maps API
 		/*var $addressAutoCompleteInputAR = jQuery('.address_maps.ar');
