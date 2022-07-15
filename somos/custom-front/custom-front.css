@@ -263,7 +263,8 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .wpcf7-form>.columns.one.last{margin-bottom:0}
 #wpcf7-f18793-p25343-o1 input[type='submit']{margin-top:0}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .2em 0 0!important}
-.wpcf7 .columns>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{display:block;margin-top:10px;width:100%;font-size:.9em;line-height:1.25;font-family:'Neo-Sans',sans-serif;font-weight:400}
+.wpcf7 .columns>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{margin-top:10px;font-size:.9em;line-height:1.25;font-family:'Neo-Sans',sans-serif;font-weight:400}
+.wpcf7 .columns:not(.inline)>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{display:block;width:100%}
 .wpcf7 .columns>label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 .columns>label.divider{padding-top:25px;border-top:1px solid #DDDDDD}
 .wpcf7 .columns>label>label.spacer{clear:both;display:block;margin-top:0!important;padding-top:5px}
