@@ -260,7 +260,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .wpcf7-form>.columns,.wpcf7 .wpcf7-form>div[data-class='wpcf7cf_group']{float:left;margin-bottom:10px}
 .wpcf7 .wpcf7-form>div[data-class='wpcf7cf_group']{width:100%}
 .wpcf7 .wpcf7-form>.columns.one{margin-right:0}
-.wpcf7 .wpcf7-form>.columns.one.last{margin-bottom:0}
+.wpcf7 .wpcf7-form>.columns.one.last{margin-bottom:1em}
 #wpcf7-f18793-p25343-o1 input[type='submit']{margin-top:0}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .2em 0 0!important}
 .wpcf7 .columns>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{display:inline-block;margin-top:10px;font-size:.9em;line-height:1.25;font-family:'Neo-Sans',sans-serif;font-weight:400}
@@ -1288,8 +1288,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 @media (min-width:960px) {
 	h1,.page-title{font-size:2em!important}
 	li.only-mobile,#mobile-nav-button{display:none!important}
-	input::-webkit-outer-spin-button,input::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
-	input[type=number]{-moz-appearance:textfield}
+	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
+	input:not(.default)[type=number]{-moz-appearance:textfield}
 	#nav .menu>li{margin:0!important}
 	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 10px 10px -8px rgba(0,0,0,.4)!important}
 	.is-search-form.is-form-id-26276 input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
