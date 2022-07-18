@@ -651,6 +651,12 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .hero-img .fusion-title-2 h4{margin-bottom:0;color:#FFFFFF!important;font-size:1.2em!important;line-height:1.5!important;font-family:'Neo-Sans',sans-serif;font-weight:400!important;text-align:center}
 .post-content .fusion-content-widget-area h4{margin-bottom:0!important}
 
+/* Overlays */
+.project-description>h3+.radius2x:after,
+.fusion-fullwidth.hero-img:after,
+.fusion-fullwidth.fullwidth-box.tfs-slider:after,
+.tfs-slider li .background:after,.tfs-slider li .mobile_video_image:after{content:'';display:block!important;width:100%;height:100%;background:rgba(0,0,0,.5);z-index:2;position:absolute;left:0;bottom:0;width:100%}
+
 /* Blog/Portfolio */
 .fusion-portfolio-content-wrapper .fusion-portfolio-content{margin:0!important}
 .fusion-blog-shortcode .fusion-portfolio-grid .fusion-post-content-wrapper{background-color:#FFFFFF}
