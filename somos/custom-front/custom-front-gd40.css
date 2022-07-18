@@ -76,7 +76,7 @@ body.page-id-31537 .message{font-size:4rem;display:none;padding:1rem}
 body.page-id-31537 .emoji{padding:0 .25rem}
 body.page-id-31537 #menu40gd{width:100%;text-align:center;position:fixed;left:15px;z-index:90}
 body.page-id-31537 #menu40gd ul,body.page-id-31537 #menu40gd ul li{display:inline-block;margin:0;padding:0;list-style:none}
-body.page-id-31537 #menu40gd ul{padding:.5em!important;font-family:'Neo-Sans',sans-serif;font-weight:500;box-shadow:0 2px 8px 0 rgba(0,0,0,.4);background:#F0582B;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;font-size:1.1em!important;text-align:center;transition:top .1s ease-in-out}
+body.page-id-31537 #menu40gd ul{padding:.5em!important;font-family:'Neo-Sans',sans-serif;font-weight:500;box-shadow:0 2px 8px 0 rgba(0,0,0,.4);background:#F0582B;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;text-align:center;transition:top .1s ease-in-out}
 body.page-id-31537 #menu40gd ul li:not(:last-child){border-right:2px solid rgba(255,255,255,.2)}
 body.page-id-31537 #menu40gd a{margin:.2em .1em;padding:.3em .4em!important;color:#FFFFFF;font-weight:400;background:none}
 body.page-id-31537 #menu40gd a:hover{text-decoration:underline}
@@ -136,4 +136,5 @@ body.page-id-31537 #post-content .ui-tabs .ui-tabs-nav{margin-top:1em}
 	.competition-podium{grid-template-columns:1fr}
 	.competition-podium,.competition-podium .podium-block .podium{height:auto!important}
 	body.home .post-loop[class*='category-40gd'] .post-text:before{top:-40px;border:2px solid #FFFFFF;border-right:none;border-top-left-radius:6px}
+	.wp-block-columns>.wp-block-column{margin:1em 0 0;padding:0 0 .5em}
 }
