@@ -212,7 +212,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .fusion-main-menu .fusion-button{color:#FFFFFF;font-size:1em;border-width:0}
 .fusion-main-menu .fusion-button span[class*='button-icon']{font-size:80%;top:-2px}
 .fusion-main-menu .sub-menu{padding-bottom:5px;min-width:100%;width:auto!important;background:none!important;border-bottom-left-radius:6px;border-bottom-right-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)!important;z-index:100}
-.fusion-main-menu .country-flag.menu-item .sub-menu{padding-right:15px;min-width:auto}
+.fusion-main-menu .country-flag.menu-item .sub-menu{min-width:auto}
 .fusion-main-menu .sub-menu .sub-menu{left:100%;border-top-right-radius:6px}
 .fusion-main-menu .sub-menu li a{font-size:.9em!important}
 .fusion-main-menu .sub-menu li a span>span:not(.wpml-ls-native):not(.fusion-megamenu-bullet),.fusion-mobile-nav-holder .sub-menu li a span>span:not(.wpml-ls-native):not(.fusion-megamenu-bullet){display:block;margin-top:0;font-family:'Open-Sans',sans-serif;font-weight:400;font-size:.7em;line-height:1.3;opacity:.8}
