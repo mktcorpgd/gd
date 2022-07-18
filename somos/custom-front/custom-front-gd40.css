@@ -34,7 +34,7 @@ body.page-id-31537 .yotu-column-3 li{padding-bottom:0!important}
 body.page-id-31537 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0!important}
 body.page-id-31537 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0!important}
 body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-columns:not(.no-bkg) .wp-block-column{margin:1em .5em 0;padding:0 1em .5em;border-radius:24px}
-body.page-id-31537 .wp-block-column #timelinegd{margin-top:0;padding-top:.9em}
+body.page-id-31537 .wp-block-column #timelinegd{margin-top:0}
 body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-column .wp-block-column:not(.no-bkg){background:rgba(255,255,255,.8)}
 body.page-id-31537 .party ul{margin-bottom:0!important}
 body.page-id-31537 .wp-block-columns.no-bkg .wp-block-column{margin:0 .5em;padding:0;background:none}
@@ -90,7 +90,8 @@ body.page-id-31537 #ghostpool_post_wrapper_1 .post-thumbnail.wrap,body.page-id-3
 body.page-id-31537 #post-content .sc-tab-panel{float:left;margin-bottom:1em}
 body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-cats,body.single article.category-40gd-en-primera-persona h1+.gp-entry-meta .gp-meta-cats{display:block;margin-left:0;padding-left:0;border-left:none!important}
 body.page-id-31537 .wp-block-separator{background:none}
-body.page-id-31537 .grid-gallery .grid-gallery-photos{opacity:1;border-radius:12px;overflow:auto}
+body.page-id-31537 .grid-gallery .grid-gallery-photos{height:auto!important;padding-bottom:1em!important;opacity:1;border-radius:12px;overflow:auto!important}
+body.page-id-31537 #post-content .ui-tabs .ui-tabs-nav{margin-top:1em}
 .cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a{font-family:'Neo-Sans',sans-serif;font-size:1em}
 .cool-timeline-horizontal{padding-bottom:1em}
 .cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title{min-height:auto;padding:0}
