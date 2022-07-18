@@ -86,6 +86,8 @@ jQuery(document).ready(function() {
 	if ( jQuery('#wrapper').hasClass('country-flag') ) {
 		var ctry = location.pathname;
 		ctry = ctry.substring(1,ctry.length-1);
+		console.log(ctry);
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').next(ctry);
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var curhref = jQuery(this).find('a').attr('href');
 			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
@@ -97,7 +99,6 @@ jQuery(document).ready(function() {
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item').removeClass('hidden');
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-gd_'+ctry_url+'.svg');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').next(ctry_url);
 		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-gd_'+ctry_url+'"]').attr('alt');
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',cur_title);
 	}
