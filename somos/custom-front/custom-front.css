@@ -322,10 +322,11 @@ input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
 textarea+.wpcf7-not-valid-tip{bottom:1px}
 body .wpcf7-validation-errors a{display:block;color:#FFFFFF!important;text-decoration:none!important}
 body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
-.wpcf7-response-output,.wpcf7-response-msg{float:left;margin:1em 0!important;padding:.8em 1em!important;width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;color:#FFFFFF!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
+.wpcf7-response-output,.wpcf7-response-msg{float:left;margin:1em 0!important;padding:.8em 1em!important;width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
+.wpcf7-response-output{color:#FFFFFF!important}
 .wpcf7-response-msg{background-color:#EAEAEA!important}
 .wpcf7-response-msg strong{font-size:1.2em}
-.wpcf7-response-msg a{text-decoration:underline}
+.wpcf7-response-msg a{color:#F0582B!important;text-decoration:underline}
 .wpcf7-response-msg.info{background-color:#0169B3!important}
 .wpcf7-response-msg.info a{color:#FFFFFF!important}
 .wpcf7-form.invalid .wpcf7-response-output{background-color:#FF5151;position:relative;z-index:999;cursor:pointer}
