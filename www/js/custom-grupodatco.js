@@ -86,7 +86,30 @@ jQuery(document).ready(function() {
 	if ( jQuery('#wrapper').hasClass('country-flag') ) {
 		var ctry = location.pathname;
 		ctry = ctry.substring(1,ctry.length-1);
-		jQuery('<span>'+ctry+'</span>').insertAfter('.country-flag.menu-item.fusion-dropdown-menu>a>span>img');
+		switch(ctry) {
+			case 'ar':
+				var ctry_name = 'Argentina';
+				break;
+			case 'br':
+				var ctry_name = 'Brasil';
+				break;
+			case 'cl':
+				var ctry_name = 'Chile';
+				break;
+			case 'mx':
+				var ctry_name = 'México';
+				break;
+			case 'pe':
+				var ctry_name = 'Perú';
+				break;
+			case 'pr':
+				var ctry_name = 'Puerto Rico';
+				break;
+			case 'uy':
+				var ctry_name = 'Uruguay';
+				break;
+		}
+		jQuery('<span> '+ctry_name+'</span>').insertAfter('.country-flag.menu-item.fusion-dropdown-menu>a>span>img');
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var curhref = jQuery(this).find('a').attr('href');
 			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
