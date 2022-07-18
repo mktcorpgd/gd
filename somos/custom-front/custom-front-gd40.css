@@ -51,7 +51,7 @@ body.page-id-31537 #content h4 i{display:inline-block;padding-left:5px;padding-r
 body.page-id-31537 #content iframe{margin-top:1em}
 body.page-id-31537 #content .post-loop iframe{margin-top:.5em;border-radius:6px!important;border:1px solid #CCCCCC}
 body.page-id-31537 #content h1,body.page-id-31537 .mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{color:#0E316E!important;text-shadow:1px 2px 0px #FFFFFF}
-body.page-id-31537 #content h1,.container_countdown h1,h2.shadow{margin-top:.2em!important;margin-bottom:0!important;padding:0;line-height:1.4!important;overflow:hidden}
+body.page-id-31537 #content h1,.container_countdown h1,h2.shadow{margin-top:.2em!important;margin-bottom:0!important;padding:0;line-height:1.2!important;overflow:hidden}
 body.page-id-31537 #content h1,.container_countdown h1{font-size:3em!important}
 body.home #content .container_countdown h1{margin-bottom:.5em!important;font-size:2.1em!important}
 body.page-id-31537 .mfp-content #content h1{overflow:initial;padding-top:0;text-align:left!important;font-size:3em!important;line-height:1!important}
@@ -137,4 +137,6 @@ body.page-id-31537 #post-content .ui-tabs .ui-tabs-nav{margin-top:1em}
 	.competition-podium,.competition-podium .podium-block .podium{height:auto!important}
 	body.home .post-loop[class*='category-40gd'] .post-text:before{top:-40px;border:2px solid #FFFFFF;border-right:none;border-top-left-radius:6px}
 	.wp-block-columns>.wp-block-column{margin:1em 0 0;padding:0 0 .5em}
+	body.page-id-31537 #content .yotu-videos .yotu-video h3{padding:.25em .5em!important}
+	body .yotu-videos.yotu-mode-mix .yotu-video .yotu-video-thumb-wrp{width:100%}
 }
