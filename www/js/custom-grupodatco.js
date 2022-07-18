@@ -86,7 +86,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('#wrapper').hasClass('country-flag') ) {
 		var ctry = location.pathname;
 		ctry = ctry.substring(1,ctry.length-1);
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').append(ctry);
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').next('<span>'+ctry+'</span>');
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var curhref = jQuery(this).find('a').attr('href');
 			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
