@@ -87,7 +87,7 @@ jQuery(document).ready(function() {
 		var ctry = location.pathname;
 		ctry = ctry.substring(1,ctry.length-1);
 		console.log(ctry);
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').next(ctry);
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').append(ctry);
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var curhref = jQuery(this).find('a').attr('href');
 			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
