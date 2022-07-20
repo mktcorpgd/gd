@@ -686,7 +686,6 @@ body.single #content p:last-child{padding-bottom:10px}
 body.single #content article.category-certificaciones .post-thumbnail img{width:auto!important;border:2px solid #DDDDDD!important;border-radius:12px!important}
 
 /* Drive */
-#UseyourDrive{margin:0 -30px}
 #UseyourDrive .ajax-filelist{min-height:auto;font-size:1em}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
@@ -718,7 +717,7 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 #UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0!important}
 #UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF!important;text-decoration:none!important}
 #UseyourDrive .nav-header,#UseyourDrive .selected-folder{background:#F6F6F6!important}
-#UseyourDrive .nav-header{border:none}
+#UseyourDrive .nav-header{border:none;border-radius:12px}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400!important}
@@ -1016,8 +1015,6 @@ body .post-loop:not(.has-post-thumbnail) .post-text{max-height:initial}
 body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px solid #DDDDDD!important}
 
 /* Pestañas */
-#post-content .sc-tab-panel{margin-bottom:2em;line-height:1.5;overflow:visible}
-#post-content .sc-tab-panel>p{margin-bottom:0!important;padding-bottom:0!important}
 .sc-tab-panel{padding:0;background:none}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#888888;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
 .padder .sc-tabs .sc-tab-panel h4{margin:30px 0 0}
@@ -1028,8 +1025,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-top-right-radius:12px;border-bottom-right-radius:12px}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA;text-decoration:none!important}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:#1F4483;color:#FFFFFF}
-.padder.content-post-thumbnail #post-content .sc-tab-panel{float:left;margin-bottom:0;padding:10px 20px!important;background:none}
-.padder.content-post-thumbnail #post-content .ui-tabs .ui-tabs-nav{margin:1em 20px .5em!important}
+.padder.content-post-thumbnail #post-content .ui-tabs .ui-tabs-nav{margin:1em 0 .5em!important}
 #post-content .sc-tab-panel .embed{margin:-15px;border:none;border-radius:0}
 #post-content .sc-tab-panel iframe{border:none;border-radius:0!important}
 .ui-tabs{clear:both;margin-bottom:0!important;top:0}
@@ -1045,7 +1041,6 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 .textwidget .sc-tabs .sc-tab-panel>span:first-child{margin-top:0}
 .textwidget .sc-tabs .sc-tab-panel>span+span{margin-top:2px;padding-top:4px;border-top:1px solid #DDDDDD}
 .textwidget .sc-tabs .sc-tab-panel>span:last-child+a{margin-bottom:10px}
-.sc-tabs #UseyourDrive{margin:0 -20px}
 .sc-tab-panel>p em{font-size:.7em}
 .sc-tabs #UseyourDrive~.light{margin-top:0}
 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)!important}
@@ -1503,7 +1498,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
 	body.gp-theme.fullwidth #content-wrapper{padding-top:95px}
 	#content code,.widget code{font-size:18px;line-height:24px}
-	#UseyourDrive{margin-left:-20px;margin-right:-20px}
 	#UseyourDrive .uyd-grid .folders-container .entry.folder:before,#UseyourDrive .entry.folder .entry_icon:before,#UseyourDrive .files.layout-list .entry_link:before{font-size:1.4em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0!important}
