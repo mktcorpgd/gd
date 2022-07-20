@@ -39,6 +39,9 @@ h2 a{color:#222222;text-align:left}
 h3 a{color:#F0582B;text-decoration:none}
 h2{font-size:1.4em}
 h3{font-size:1.3em}
+h4{font-size:1.15em}
+h5{font-size:1.1em}
+h6{font-size:1em}
 video{outline:none!important;cursor:pointer}
 blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:20px;line-height:1.5}
@@ -326,7 +329,7 @@ textarea+.wpcf7-not-valid-tip{bottom:1px}
 body .wpcf7-validation-errors a{display:block;color:#FFFFFF!important;text-decoration:none!important}
 body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-response-output,.wpcf7-response-msg{width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
-.wpcf7-response-msg,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output{margin:1em 0!important;padding:.8em 1em!important}
+.wpcf7-response-msg,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output{margin:1em 0 2em!important;padding:.8em 1em!important}
 .wpcf7-response-output,.wpcf7-response-msg.info{color:#FFFFFF!important}
 .wpcf7-response-output strong,.wpcf7-response-msg strong{font-size:1.2em}
 .wpcf7-response-msg{background-color:#EAEAEA!important}
