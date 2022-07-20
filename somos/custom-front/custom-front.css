@@ -241,11 +241,9 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 
 /* Formularios */
 .wpcf7 .columns>label>span,.wpcf7 .columns>label>strong,.wpcf7 .columns>div[data-class='wpcf7cf_group']>label>span{font-size:1rem;line-height:1.15}
-.wpcf7 label{cursor:pointer}
 .wpcf7 .columns label+div[data-class='wpcf7cf_group'],.wpcf7 .columns label+div[data-class='wpcf7cf_group'] .wpcf7-form-control-wrap{margin-top:0!important}
 .wpcf7 .columns>label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
 .wpcf7 .columns>label>span[class*='GIFT']{margin-bottom:5px}
-.wpcf7 .columns>label>span[class*='ORG']{position:relative}
 .wpcf7 .columns>label>span.money-symbol{position:absolute;top:77px;left:15px;font-size:14px;color:#888888;font-weight:400}
 .wpcf7-checkbox.large,.wpcf7-radio.large{margin:10px 0 0;display:block;width:100%;text-align:center}
 .wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='checkbox']{width:24px;height:24px}
