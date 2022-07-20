@@ -673,7 +673,6 @@ article[class*='category-casos-'] h5{margin-top:20px;text-align:center}
 
 /* Entradas */
 body.single #content .post-thumbnail{max-width:inherit;margin-bottom:30px!important;float:none!important;text-align:center;background:none}
-body.single #content .post-thumbnail img{margin:0!important;border:none!important;border-top:2px solid #DDDDDD!important;border-bottom:1px solid #DDDDDD!important;position:relative}
 body.single .gp-meta-date{font-size:.8em}
 body.single .gp-entry-meta{margin:0 0 1em;width:100%}
 body.single .gp-post-meta{display:inline-block}
@@ -1247,7 +1246,6 @@ img.mfp-img{max-height:90vh!important}
 #content img[src*='v-ima_h-one_stroke'].thumbnail{padding:28px 25px 29px!important}
 #content img[src*='v-ima_v-one_stroke'].thumbnail{padding:32px 25px 33px!important}
 body.single #post-content img:not(.aligncenter):not([src*='emoji']),body.single #post-content ul li img,body.single #post-content ol li img,.gallery-item img{border:1px solid #DDDDDD;border-radius:12px;margin-top:10px}
-.post-thumbnail img{border-radius:0!important}
 body.single .post-thumbnail img[src*='.png']{background-color:#0E316E}
 
 /* Videos */
