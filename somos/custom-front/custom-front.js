@@ -82,49 +82,16 @@ jQuery(document).ready(function() {
 
 
 	// MENÚ - Ajustar para mobile
-	if ( jQuery('body').hasClass('gp-mobile') ) {
-		jQuery('#header').css('top','46px');
-		jQuery('#menu40gd').css('top','110px');
-	}
-	else {
-		jQuery('#header').css('top','32px');
-		jQuery('#menu40gd').css('top','84px');
-	}
 	var prevScrollpos = jQuery(window).scrollTop();
 	jQuery(window).scroll(function() {
 		var currentScrollPos = jQuery(window).scrollTop();
+		// Al scrollear hacia arriba
 		if ( prevScrollpos > currentScrollPos || currentScrollPos < 60 ) {
-			if ( jQuery('#wpadminbar').length > 0 ) {
-				if ( jQuery('body').hasClass('gp-mobile') ) {
-					jQuery('#header').css('top','46px');
-					jQuery('#menu40gd').css('top','110px');
-				}
-				else {
-					jQuery('#header').css('top','32px');
-					jQuery('#menu40gd').css('top','84px');
-				}
-			}
-			else {
-				jQuery('#header').css('top','0');
-			}
+			jQuery('#header,#menu40gd').addClass('slideup');
 		}
+		// Al scrollear hacia abajo
 		else {
-			if ( jQuery('body').hasClass('gp-mobile') ) {
-				if ( jQuery('#header').height() > 64 ) {
-					jQuery('#header').css('top','-550px');
-					jQuery('#menu40gd').css('top','46px');
-				}
-				else {
-					jQuery('#header').css('top','-64px');
-					jQuery('#menu40gd').css('top','46px');
-				}
-			}
-			else {
-				if ( jQuery(window).scrollTop() != 0 ) {
-					jQuery('#header').css('top','-64px');
-					jQuery('#menu40gd').css('top','32px');
-				}
-			}
+			jQuery('#header,#menu40gd').removeClass('slideup');
 		}
 		prevScrollpos = currentScrollPos;
 	});
