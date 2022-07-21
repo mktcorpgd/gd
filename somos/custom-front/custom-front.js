@@ -124,10 +124,10 @@ jQuery(document).ready(function() {
 			jQuery('.is-search-form:not(:first)').remove();
 		}
 		if ( jQuery(window).width() < 960 ) {
-			jQuery('.is-search-form').insertAfter('#logo');
+			jQuery('.is-search-form:first').insertAfter('#logo');
 		}
 		else {
-			jQuery('.is-search-form').insertBefore('.is-link-container');
+			jQuery('.is-search-form:first').insertBefore('.is-link-container');
 		}
 	}
 	headerMobile();
