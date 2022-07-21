@@ -1023,7 +1023,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #post-content{overflow:visible}
 #post-content .ui-tabs .ui-tabs-nav{display:flex;margin-bottom:.5em;box-shadow:0 6px 4px -4px rgba(0,0,0,.2)}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
-#post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;padding:.4em .7em;color:#333333;font-size:.9em;line-height:1.5;position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:rgba(240,240,240,.9)}
+#post-content .ui-tabs .ui-tabs-nav li a{padding:.4em .7em;color:#333333;font-size:.9em;line-height:1.5;position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:rgba(240,240,240,.9)}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:12px}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-top-right-radius:12px;border-bottom-right-radius:12px}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA;text-decoration:none!important}
