@@ -261,7 +261,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7-checkbox.large .wpcf7-list-item-label,.wpcf7-radio.large .wpcf7-list-item-label{display:inline-block;position:relative;top:-5px;font-size:18px;font-weight:400;font-style:italic}
 .wpcf7-form-control-wrap .check_add{float:right;display:inline-block!important;font-size:.8em!important;position:relative;top:3px}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item,.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{margin-right:0!important;padding-left:0!important}
-.wpcf7-form-control-wrap.SAMEDATAPAX{margin:.4em 0;font-size:.8em;line-height:1.2;font-weight:400}
+.wpcf7-form-control-wrap.SAMEDATAPAX{display:inline-block;margin:.4em 0;font-size:.8em}
 .wpcf7-form label>i[title]{cursor:pointer;opacity:.6}
 .wpcf7-form label>i[title]:hover{opacity:1}
 .wpcf7-form>.step3.disabled{opacity:.5}
@@ -868,7 +868,7 @@ body.post-template-default .yotu-playlist{padding-bottom:0}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li{min-height:100px}
 .ctl_info a{color:#555555!important}
 #timelinegd{margin-bottom:1em;overflow:hidden}
-.post-loop .post-thumbnail img{padding:0!important;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:24px}
+.post-loop .post-thumbnail img{padding:0!important;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail img{max-width:158px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail a{display:block;box-sizing:content-box;padding-left:38px;padding-right:38px;width:162px;height:89px;background:#0E316E;border-right:1px solid #DDDDDD}
 body.page-id-41477 .post-loop.category-salesforce .post-thumbnail img{max-width:297px}
@@ -1326,7 +1326,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.4em .9em}
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:45% 55%}
 	.bottom_logos a img{width:120px}
-	.wpcf7-form-control-wrap.SAMEDATAPAX{display:inline-block}
 	body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-iop'] .padder,body.post-template-default.single #content article[class*='category-iot'] .padder,body.post-template-default.single #content article[class*='category-baitcon'] .padder,body.post-template-default.single #content article[class*='category-datco'] .padder,body.post-template-default.single #content article[class*='category-focus'] .padder,body.post-template-default.single #content article[class*='category-interservices'] .padder,body.post-template-default.single #content article[class*='category-sersat'] .padder,body.post-template-default.single #content article[class*='category-silica-networks'] .padder,body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:6px;border-top-style:solid}
 	body.page-id-11286 .padder,body.page-id-11289 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder,body.page-id-11299 .padder,body.page-id-11305 .padder,body.page-id-11308 .padder,body.page-id-11283 .padder,body.page-id-15096 .padder,body.page-id-18106 .padder,body.page-id-18351 .padder,body.page-id-11277 .padder,body.page-id-22942 .padder,body.page-id-28036 .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 	.sidebar .widget h3.toggle > i{width:16px}
