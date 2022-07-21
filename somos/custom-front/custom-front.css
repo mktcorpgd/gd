@@ -329,8 +329,7 @@ input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
 textarea+.wpcf7-not-valid-tip{bottom:1px}
 body .wpcf7-validation-errors a{display:block;color:#FFFFFF!important;text-decoration:none!important}
 body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
-.wpcf7-response-output,.wpcf7-response-msg{width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
-.wpcf7-response-msg,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output{margin:1em 0 2em!important;padding:.8em 1em!important}
+.wpcf7-response-output,.wpcf7-response-msg{margin:1em 0 2em!important;padding:.8em 1em!important;width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
 .wpcf7-response-output,.wpcf7-response-msg.info{color:#FFFFFF!important}
 .wpcf7-response-output strong,.wpcf7-response-msg strong{font-size:1.2em}
 .wpcf7-response-msg{background-color:#EAEAEA!important}
@@ -1392,7 +1391,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag'],.post-loop .gp-meta-date{margin-bottom:0!important}
 	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.8rem}
 	h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .6em}
-	#header{min-height:64px;padding:0!important;overflow:hidden}
+	#header{min-height:64px;padding:0!important;top:45px;overflow:hidden}
 	#header .is-search-form.is-form-id-26276{margin:0 auto;padding:0!important;width:70%}
 	#header .is-search-form.is-form-id-26276 input[type='search']{width:100%!important;position:relative;top:8px;left:0;color:#FFFFFF!important;font-size:1.1em!important;line-height:1!important;background:rgba(0,0,0,.2)!important;border:0!important;border-radius:32px!important;vertical-align:middle}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
