@@ -135,7 +135,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}
 
 /* Header */
-#header{width:100%!important;margin-bottom:10px!important;padding:5px 15px;background:#0E316E!important;border-bottom:2px solid #FFB201;box-shadow:0 4px 16px 0 rgba(0,0,0,.4);border-radius:0!important;position:fixed;left:0!important;transform:none!important;transition:top .1s ease-in-out;z-index:9999;top:32px}
+#header{width:100%!important;margin-bottom:10px!important;padding:5px 15px;background:#0E316E!important;border-bottom:2px solid #FFB201;border-radius:0!important;position:fixed;left:0!important;transform:none!important;transition:top .1s ease-in-out;z-index:9999;top:32px}
 
 #logo.default-logo{margin-top:3px;margin-right:5px}
 #logo a{transition:all 1s ease-in-out!important;display:block;width:32px;height:32px;background:url('https://somos.grupodatco.com/wp-content/uploads/gd-iso-one_stroke-dark.svg')}
@@ -1021,14 +1021,14 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#888888;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
 .padder .sc-tabs .sc-tab-panel h4{margin:30px 0 0}
 #post-content{overflow:visible}
-#post-content .ui-tabs .ui-tabs-nav{display:flex;margin-bottom:.5em}
+#post-content .ui-tabs .ui-tabs-nav{display:flex;margin-bottom:1em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
 #post-content .ui-tabs .ui-tabs-nav li a{padding:.4em .7em;color:#333333;line-height:1.8;position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:#EAEAEA}
+body:not(.home) .ui-tabs .ui-tabs-nav li a{padding:.3em .7em;font-size:.9em}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-top-right-radius:12px;border-bottom-right-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA;text-decoration:none!important}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:#1F4483;color:#FFFFFF}
-.padder.content-post-thumbnail #post-content .ui-tabs .ui-tabs-nav{margin:1em 0 .5em!important}
 #post-content .sc-tab-panel .embed{margin:-15px;border:none;border-radius:0}
 #post-content .sc-tab-panel iframe{border:none;border-radius:0!important}
 .ui-tabs{clear:both;margin-bottom:0!important;top:0}
@@ -1293,7 +1293,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-moz-appearance:textfield}
 	#nav .menu>li{margin:0!important}
-	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 10px 10px -8px rgba(0,0,0,.4)!important}
+	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	.is-search-form.is-form-id-26276 input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
 	#nav .menu .sub-menu{width:190px!important}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.has-post-thumbnail .post-text{border-left:2px solid #CCCCCC}
@@ -1310,7 +1310,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
-	#post-content .ui-tabs .ui-tabs-nav{position:sticky;top:96px;z-index:10}
+	body:not(.home) #post-content .ui-tabs .ui-tabs-nav{position:sticky;top:88px;z-index:10}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
@@ -1341,7 +1341,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
 	h1,h2,h3,h4,h5,h6{float:left;width:100%;line-height:120%!important}
 	.widget .textwidget li{font-size:1.1em}
-	#post-content .ui-tabs .ui-tabs-nav{box-shadow:none}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
 	.wpcf7 .columns{margin-bottom:10px!important}
 	.wpcf7-form .wpcf7-not-valid-tip{top:56px;right:15px;font-size:14px}
