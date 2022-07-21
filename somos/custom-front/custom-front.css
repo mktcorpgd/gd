@@ -1021,10 +1021,9 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#888888;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
 .padder .sc-tabs .sc-tab-panel h4{margin:30px 0 0}
 #post-content{overflow:visible}
-#post-content .ui-tabs .ui-tabs-nav{display:table;margin-bottom:.5em;position:sticky;top:40px}
-#post-content .ui-tabs .ui-tabs-nav
+#post-content .ui-tabs .ui-tabs-nav{display:flex;margin-bottom:.5em;box-shadow:0 6px 4px -4px rgba(0,0,0,.2)}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
-#post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;padding:.4em .7em;color:#333333;font-size:.9em;line-height:1.5;position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:rgba(240,240,240,.9);box-shadow:0 2px 0px 0px rgba(0,0,0,.2)}
+#post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;padding:.4em .7em;color:#333333;font-size:.9em;line-height:1.5;position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:rgba(240,240,240,.9)}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:12px}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-top-right-radius:12px;border-bottom-right-radius:12px}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA;text-decoration:none!important}
@@ -1311,8 +1310,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
-	body.home #post-content .ui-tabs .ui-tabs-nav{display:flex}
-	body #content .ui-tabs .ui-tabs-nav li{display:table-cell;margin-left:0;margin-bottom:0;width:auto!important}
+	#post-content .ui-tabs .ui-tabs-nav{position:sticky;top:96px}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
