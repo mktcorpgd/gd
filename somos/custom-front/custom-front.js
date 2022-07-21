@@ -119,18 +119,14 @@ jQuery(document).ready(function() {
 
 
 	// MOBILE - Ubicar buscador dentro del header
-	if ( jQuery('.is-search-form').length > 1 ) {
-		jQuery('.is-search-form:not(:first)').remove();
-	}
 	function headerMobile() {
+		if ( jQuery('.is-search-form').length > 1 ) {
+			jQuery('.is-search-form:not(:first)').remove();
+		}
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('.is-search-form').insertAfter('#logo');
-			jQuery('#header').css('top','46px');
-			jQuery('#menu40gd').css('top','110px');
 		}
 		else {
-			jQuery('#header').css('top','32px');
-			jQuery('#menu40gd').css('top','84px');
 			jQuery('#logo+.is-search-form').insertBefore('.is-link-container');
 		}
 	}
