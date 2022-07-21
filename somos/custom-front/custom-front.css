@@ -897,10 +897,7 @@ body.home #post-content{margin-top:0;margin-bottom:0}
 body.home .padder,body.archive .padder,body.search .padder{padding:0!important;background:none}
 body.home #content-wrapper,body.archive #content-wrapper,body.search #content-wrapper{margin-bottom:0!important}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
-body.home #post-content .ui-tabs .ui-tabs-nav li a{padding:.4em .6em .4em 1.85em;background:rgba(255,255,255,.6)}
-body.home #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#F0582B;color:#FFFFFF}
-body.home #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{background:#0E316E!important;color:#FFFFFF!important}
-body.home #post-content .ui-tabs .ui-tabs-nav li a:before{display:inline-block;width:14px;height:14px;background:#0E316E;color:#FFFFFF;background-repeat:no-repeat;background-size:contain;content:'';border-radius:50%;position:absolute;top:9px;left:8px;font-size:1em;text-align:center}
+body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;width:.8em;height:.8em;background:#0E316E;color:#FFFFFF;background-repeat:no-repeat;background-size:contain;border-radius:50%;position:relative;top:1px;font-size:1em;text-align:center}
 body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
 .gp-blog-wrapper{transition:all .1s ease-in-out}
 .gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
@@ -1414,7 +1411,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
-	body.home #post-content .ui-tabs .ui-tabs-nav li a:before{width:18px;height:18px;top:9px}
 	body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0!important}
 	.padder.content-post-thumbnail #post-content .ui-tabs{margin:30px -20px}
 	.sub-menu li{margin-left:0!important}
