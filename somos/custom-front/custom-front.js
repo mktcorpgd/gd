@@ -74,46 +74,6 @@ jQuery(document).ready(function() {
 		});
 	}
 
-	
-	// MENÚ - Agregar clase si figura #wpadminbar
-	if ( jQuery('#wpadminbar').length > 0 ) {
-		jQuery('#header').addClass('plus-adminbar');
-	}
-
-
-	// MENÚ - Ajustar para mobile
-	var prevScrollpos = jQuery(window).scrollTop();
-	jQuery(window).scroll(function() {
-		var currentScrollPos = jQuery(window).scrollTop();
-		// Al scrollear hacia arriba
-		if ( prevScrollpos > currentScrollPos || currentScrollPos < 60 ) {
-			jQuery('#header,#menu40gd').addClass('slideup');
-		}
-		// Al scrollear hacia abajo
-		else {
-			jQuery('#header,#menu40gd').removeClass('slideup');
-		}
-		prevScrollpos = currentScrollPos;
-	});
-	
-
-	// FIX WP 5.5 - Prevenir scrollup con toggles
-	jQuery('h3.toggle a').click(function(e) {
-		e.preventDefault();
-	});
-
-
-	// FIX WP 5.5 - Mobile: arreglar visualización menú y botón
-	jQuery('#mobile-nav-button').click(function(e) {
-		e.preventDefault();
-		jQuery('#mobile-nav').slideToggle('fast');
-	});
-	jQuery('#mobile-nav .menu li>.mobile-dropdown-icon').click(function(e) {
-		e.preventDefault();
-		jQuery(this).siblings('ul').slideToggle('fast');
-	});
-
-
 	// GOOGLE FORMS
 	if ( jQuery('iframe[src*="docs.google.com/forms"]').length ) {
 
