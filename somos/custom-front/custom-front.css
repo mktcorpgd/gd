@@ -39,9 +39,9 @@ h2 a{color:#222222;text-align:left}
 h3 a{color:#F0582B;text-decoration:none}
 h2{font-size:1.4em}
 h3{font-size:1.3em}
-h4{font-size:1.15em}
-h5{font-size:1.1em}
-h6{font-size:1em}
+h4{font-size:1.1em}
+h5{font-size:1em}
+h6{font-size:.9em}
 video{outline:none!important;cursor:pointer}
 blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:20px;line-height:1.5}
