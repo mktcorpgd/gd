@@ -930,7 +930,7 @@ body.home .gp-blog-wrapper[class*='category-40gd'] .post-loop .post-text h2{padd
 #container #content,.padder{padding:30px}
 .gp-pagination{width:100%;margin:1em 0;grid-area:pages;grid-row:initial}
 .gp-pagination ul.page-numbers{margin:0!important;text-align:center;overflow:visible}
-.gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.2em .8em;color:#999999;font-size:16px;line-height:2;font-weight:400;font-family:'Neo-Sans',sans-serif;box-shadow:0 4px 12px -6px rgba(0,0,0,.5);border-radius:12px}
+.gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .6em;color:#999999;font-size:.9em;line-height:1.8;font-weight:400;font-family:'Neo-Sans',sans-serif;border-radius:12px}
 ul.page-numbers .page-numbers.current{background:#EAEAEA}
 ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 .gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:'Font Awesome 6 Pro'!important}
@@ -1023,7 +1023,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #post-content{overflow:visible}
 #post-content .ui-tabs .ui-tabs-nav{display:flex;margin-bottom:.5em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
-#post-content .ui-tabs .ui-tabs-nav li a{padding:.4em .7em;color:#333333;line-height:1.8;position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;box-shadow:0 2px 4px 0 rgba(0,0,0,.4);background:rgba(240,240,240,.9)}
+#post-content .ui-tabs .ui-tabs-nav li a{padding:.4em .7em;color:#333333;line-height:1.8;position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:rgba(240,240,240,.9)}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-top-right-radius:12px;border-bottom-right-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA;text-decoration:none!important}
