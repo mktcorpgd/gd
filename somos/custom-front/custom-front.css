@@ -897,7 +897,7 @@ body.home #post-content{margin-top:0;margin-bottom:0}
 body.home .padder,body.archive .padder,body.search .padder{padding:0!important;background:none}
 body.home #content-wrapper,body.archive #content-wrapper,body.search #content-wrapper{margin-bottom:0!important}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
-body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;width:.8em;height:.8em;background:#0E316E;color:#FFFFFF;background-repeat:no-repeat;background-size:contain;border-radius:50%;position:relative;top:1px;font-size:1em;text-align:center}
+body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;padding-right:.4em;width:.9em;height:.9em;background:#0E316E;color:#FFFFFF;background-repeat:no-repeat;background-size:contain;border-radius:50%}
 body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
 .gp-blog-wrapper{transition:all .1s ease-in-out}
 .gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
