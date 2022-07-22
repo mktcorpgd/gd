@@ -1170,14 +1170,14 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons article .fusion-post-content{transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
 	.box-buttons article:not(.expanded) .fusion-post-content{height:24px;overflow:hidden}
 	.box-buttons article:not(.expanded) .fusion-post-content *{opacity:0}
-	.box-buttons article.expanded .fusion-post-content{height:auto}
+	.box-buttons article.expanded .fusion-post-content,.box-buttons article.expanded .fusion-col-spacing{height:auto!important}
 	.box-buttons article.expanded .fusion-post-content *{opacity:1}
 	.box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
 	.box-buttons article .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-size:.9em;font-family:'Font Awesome 5 Pro','Open-Sans',sans-serif;font-weight:400}
 	html[lang*='es'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' Más información'}
 	html[lang*='en'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' More information'}
 	.box-buttons article.expanded .fusion-post-content:before{content:' Ocultar información'}
-	.box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
+	.box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;padding-bottom:1em}
 	.box-buttons .fusion-portfolio-content-wrapper:hover .fusion-post-content:before{text-decoration:underline!important}
 	.fusion-buttons .fusion-button.button-left{border-radius:0!important}
 	.fusion-buttons .fusion-button.button-right{border-top-left-radius:0!important;border-bottom-left-radius:0!important}
