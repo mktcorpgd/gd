@@ -517,17 +517,25 @@ jQuery(document).ready(function() {
 		});
 
 		// Autocompletado por Google Maps API
-		/*var $addressAutoCompleteInputAR = jQuery('.address_maps.ar');
-		var $addressAutoCompleteInputINT = jQuery('.address_maps.int');*/
 		ApplyAutoComplete(jQuery('.address_maps'));
 		function ApplyAutoComplete(input) {
 			var places = [];
 			var place;
-			var options = {
+			var options_ar = {
 				componentRestrictions:{country:['ar']}
 			};
+			var options_cities = {
+				types: ['(cities)'],
+			};
+			var options_int = {};
 			for (var i = 0; i<input.length; i++) {
-				place = new google.maps.places.Autocomplete(input[i],options);
+				console.log(input[i].className);
+				if ( input[i].className == 'cities') {
+					place = new google.maps.places.Autocomplete(input[i],options_cities);
+				}
+				else {
+					place = new google.maps.places.Autocomplete(input[i],options_ar);
+				}
 				place.attrName = input[i].name;
 				place.addListener('place_changed',fillIn);
 				places.push(place);
