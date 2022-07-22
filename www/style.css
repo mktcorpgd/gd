@@ -1092,7 +1092,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 /* Desktop */
 @media (min-width:920px) {
 	a,li,i,.box-company,.wpcf7 input,.wpcf7 button,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-wrapper .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{transition:all .1s ease-in-out}
-	.white-space-nowrap{white-space:nowrap}
+	.white-space-nowrap .fusion-toggle-heading{white-space:nowrap}
 	body.single-avada_portfolio #main>.fusion-row{position:relative!important}
 	.fusion-header{height:66px!important}
 	#wrapper.header-transparent .fusion-header.bkg li[data-classes='social-link'] a[href='#inicio']{width:20px;padding:0 6px!important}
