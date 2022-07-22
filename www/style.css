@@ -1036,8 +1036,7 @@ body.page.page-template-100-width .post-content>.fusion-fullwidth.radius2x{borde
 .radius-rounded{border-radius:256px!important}
 span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 .post-content .fusion-text p a:hover,.post-content .fusion-text ol li a:hover,.post-content .fusion-text ul li a:hover,.toggle-content a:hover,.modal-a:not(.fusion-button):hover,.table-1 td a:hover,.table-2 td a:hover{text-decoration:underline!important}
-.toggle-content p:last-child,.toggle-content p+ul{margin-bottom:5px!important}
-.toggle-content p{margin-bottom:0}
+.toggle-content p{margin-top:0}
 
 /* Propiedades combinadas */
 .wpcf7-form-control-wrap,.fusion-blog-layout-grid .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{display:block}
