@@ -1129,6 +1129,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:19%!important}
 	.modal-lg{width:1200px}
+	.modal-sm{width:600px}
 	body #wrapper #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck{margin-top:30px}
 	body.single-format-standard:not(.single-avada_portfolio):not(.sidebar-cta) #wrapper #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck{position:relative!important;top:0!important}
 	.post-content .fusion-widget-area-1 .widget .heading h4{margin-top:0;margin-bottom:.25em!important;line-height:1.15!important}
@@ -1216,7 +1217,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.ua-mobile .modal-open{position:absolute!important;overflow:auto!important}
 	.modal .modal-dialog{margin-left:10px;margin-right:10px}
 	.modal .modal-title{font-size:1.4em}
-	.modal-sm{width:600px}
 	body.customize-support .fusion-header-wrapper:not(.not-sticky){top:46px}
 	.fusion-title.fusion-sep-none .title-heading-right,.fusion-text{text-align:left!important}
 	.fusion-portfolio-content-wrapper{opacity:1!important}
