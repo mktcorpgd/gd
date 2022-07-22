@@ -521,16 +521,19 @@ jQuery(document).ready(function() {
 		function ApplyAutoComplete(input) {
 			var places = [];
 			var place;
+			var options_world = {};
 			var options_ar = {
 				componentRestrictions:{country:['ar']}
 			};
 			var options_cities = {
 				types: ['(cities)'],
 			};
-			var options_int = {};
 			for (var i = 0; i<input.length; i++) {
 				console.log(input[i].className);
-				if ( input[i].className.indexOf('cities_world') > -1 ) {
+				if ( input[i].className.indexOf('world') > -1 ) {
+					place = new google.maps.places.Autocomplete(input[i],options_world);
+				}
+				else if ( input[i].className.indexOf('cities_world') > -1 ) {
 					place = new google.maps.places.Autocomplete(input[i],options_cities);
 				}
 				else {
