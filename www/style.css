@@ -930,7 +930,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-column-wrapper>h4{margin-bottom:.6em!important}
 .fusion-accordian .panel-title a{letter-spacing:0}
 .fusion-accordian .panel-title a:hover{text-decoration:underline}
-.fusion-accordian .panel-body{line-height:1.6}
+.fusion-accordian .panel-body{padding-top:0;line-height:1.6}
 .fusion-accordian .panel-body ul,.fusion-accordian .panel-body ol{margin-top:0!important;padding-left:20px}
 .fusion-accordian .panel-ul{padding-left:48px}
 .fusion-accordian .panel-ul li{margin-bottom:5px}
@@ -1216,6 +1216,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.ua-mobile .modal-open{position:absolute!important;overflow:auto!important}
 	.modal .modal-dialog{margin-left:10px;margin-right:10px}
 	.modal .modal-title{font-size:1.4em}
+	.modal-sm{width:600px}
 	body.customize-support .fusion-header-wrapper:not(.not-sticky){top:46px}
 	.fusion-title.fusion-sep-none .title-heading-right,.fusion-text{text-align:left!important}
 	.fusion-portfolio-content-wrapper{opacity:1!important}
