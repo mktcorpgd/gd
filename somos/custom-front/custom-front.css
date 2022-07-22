@@ -331,7 +331,7 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF!important;text-decor
 body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-response-output,div[class*='wpcf7-response-']{float:left;width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
 .wpcf7-response-output,.wpcf7-response-output a,div[class*='wpcf7-response-'],div[class*='wpcf7-response-'] a{color:#FFFFFF!important}
-.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert{margin:1em 0 2em!important;padding:.8em 1em!important}
+.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg.info{margin:1em 0 2em!important;padding:.8em 1em!important}
 .wpcf7-response-output strong,.wpcf7-response-msg strong{font-size:1.2em}
 .wpcf7-response-msg{background-color:#EAEAEA!important}
 .wpcf7-response-msg a{color:#F0582B!important}
