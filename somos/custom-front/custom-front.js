@@ -530,7 +530,7 @@ jQuery(document).ready(function() {
 			var options_int = {};
 			for (var i = 0; i<input.length; i++) {
 				console.log(input[i].className);
-				if ( input[i].className == 'cities') {
+				if ( input[i].className.indexOf('cities') > -1 ) {
 					place = new google.maps.places.Autocomplete(input[i],options_cities);
 				}
 				else {
