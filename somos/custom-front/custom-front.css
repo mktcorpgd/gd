@@ -321,7 +321,7 @@ div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled{opacity:.6;poi
 .wpcf7-form label.divider input[type='checkbox']+.wpcf7-not-valid-tip{top:41px}
 .wpcf7-form select.wpcf7-not-valid{padding-right:30px!important}
 .wpcf7-not-valid-tip{display:block;position:absolute;bottom:-3px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.5em;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
-.wpcf7 h3:not(.toggle),.wpcf7 h4,#content .wpcf7 h5{margin-bottom:0!important}
+.wpcf7 h3:not(.toggle),.wpcf7 h4,#content .wpcf7 h5{float:left;width:100%;margin-bottom:0!important}
 .wpcf7 h3 i:not(.far),.wpcf7 h4 i:not(.far),.wpcf7 h5 i:not(.far){font-size:.8em;position:relative;bottom:2px;opacity:.6}
 .wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i{font-size:.7em;opacity:.5;cursor:pointer}
 .wpcf7 h3 i~i:hover,.wpcf7 h4 i~i:hover,.wpcf7 h5 i~i:hover{opacity:.7}
