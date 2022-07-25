@@ -21,8 +21,8 @@ function RemoveAccents(str) {
 
 
 // Convertir texto a letras capitales
-jQuery.fn.capitalize = function(e) {
-	jQuery.each(this,function(){
+$.fn.capitalize = function(e) {
+	$.each(this,function(){
 		var split = this.value.split(' ');
 		for (var i=0,len=split.length; i<len; i++) {
 			split[i] = split[i].charAt(0).toUpperCase()+split[i].substr(1).toLowerCase();
@@ -136,8 +136,8 @@ $(document).ready(function() {
 	/*var today = new Date();
 	var day = today.getDay() || 7;
 	if ( day == 3 && ($('body').hasClass('role-comercial_ar') || $('body').hasClass('role-administrator')) ) {
-		if ( jQuery.cookie('hide_modal-casos') !== 'hidden') {
-			jQuery.magnificPopup.open({
+		if ( $.cookie('hide_modal-casos') !== 'hidden') {
+			$.magnificPopup.open({
 				items: {
 					src: '<div id="modal-casos" class="white-popup"><h2>Compartí tu experiencia de ventas</h2><p><i class="far fa-trophy"></i>Contanos qué proyecto cerraste y de qué se trata para que tus compañeros/as se enteren. Lo dejaremos registrado y esperamos que sea un disparador de nuevas ventas.</p><div class="buttons"><a class="sc-button large" href="/marketing/nuevos-casos/">Enviar nuevo caso de cliente</a><br /><a id="hide_modal-casos" class="sc-button small inline" href="#hide_modal-casos">Recordarme en 1 semana</a></div></div>',
 					type: 'inline'
@@ -146,18 +146,18 @@ $(document).ready(function() {
 		}
 	}
 	else {
-		jQuery.cookie('hide_modal-casos',null);
+		$.cookie('hide_modal-casos',null);
 	}
 	$(document).on('click','#hide_modal-casos',function(e) {
-		jQuery.cookie('hide_modal-casos','hidden',{expires:7});
-		jQuery.magnificPopup.close();
+		$.cookie('hide_modal-casos','hidden',{expires:7});
+		$.magnificPopup.close();
 		e.preventDefault();
 	});*/
 
 
 	// CONTENIDOS - Ocultar párrafos con espacios en blanco
-	$('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
-	$('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
+	$('p').filter(function(){return $.trim(this.innerHTML)===''}).remove();
+	$('p').filter(function(){return $.trim(this.innerHTML)==='&nbsp;'}).remove();
 
 
 	// CONTENIDOS - Referencia de Internet Explorer para módulos de Dropbox
@@ -313,7 +313,7 @@ $(document).ready(function() {
 		var input_name = $(this).attr('name');
 		// Si es un select multiple
 		if ( input_name.indexOf('[]') > -1 ) {
-			var selMulti = jQuery.map($('option:selected',this), function(el,i) {
+			var selMulti = $.map($('option:selected',this), function(el,i) {
 				return $(el).text();
 			});
 			var val_comma = selMulti.join('; ');
@@ -572,7 +572,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		var get_widget = $(this).parent().parent().attr('id');
 		var cloned_widget = $('#'+get_widget).clone();
-		jQuery.magnificPopup.open({
+		$.magnificPopup.open({
 			items: {
 				src: cloned_widget,
 			},
@@ -660,7 +660,7 @@ $(document).ready(function() {
 		var mails_rrhh = $('#post-content table tr:last td:last').text();
 		var arr_mails_rrhh = mails_rrhh.split(';');
 		$('#post-content table tr:last td:last').empty();
-		jQuery.each(arr_mails_rrhh, function(i) {
+		$.each(arr_mails_rrhh, function(i) {
 			var mail_rrhh = arr_mails_rrhh[i];
 				$('#post-content table tr:last td:last').append('<a class="lider_rrhh" href="mailto:'+mail_rrhh+'" target="_blank">'+mails_rrhh+'</a>');
 		});
