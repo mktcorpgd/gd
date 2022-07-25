@@ -582,6 +582,7 @@ jQuery(document).ready(function() {
 		else if ( jQuery(this).find('i').hasClass('fa-minus-square') ) {
 			jQuery(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
 		}
+		e.preventDefault();
 	});
 
 
