@@ -775,7 +775,8 @@ body.single #content article.category-certificaciones .post-thumbnail img{width:
 .info-material strong,.info-material strong a{color:#0E316E!important;font-weight:700!important}
 .info-material a:hover{color:#1F4483!important}
 .UseyourDrive.useyourdrive-modal .modal-content{border-radius:12px;box-shadow:0 0 32px rgba(0,0,0,.6)}
-.shareon{text-align:center}
+.UseyourDrive .useyourdrive-modal-body{padding:.5em 0 0}
+.shareon{margin-top:0;text-align:center}
 .shareon>a{opacity:.9}
 .shareon>a:hover{opacity:1}
 input[type='text'].shared-link-url{font-size:1.6em!important;text-align:center;border-radius:12px!important;border-width:2px!important}
