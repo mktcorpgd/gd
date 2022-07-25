@@ -507,23 +507,22 @@ $(document).ready(function() {
 		function ApplyAutoComplete(input) {
 			var places = [];
 			var place;
-			var options_world = {};
-			var options_ar = {
+			var options_arg = {
 				componentRestrictions:{country:['ar']}
 			};
 			var options_cities = {
 				types: ['(cities)'],
 			};
+			var options_world = {};
 			for (var i = 0; i<input.length; i++) {
-				console.log(input[i].className);
-				if ( input[i].className.indexOf('world') > -1 ) {
-					place = new google.maps.places.Autocomplete(input[i],options_world);
+				if ( input[i].className.indexOf('arg') > -1 ) {
+					place = new google.maps.places.Autocomplete(input[i],options_arg);
 				}
-				else if ( input[i].className.indexOf('cities_world') > -1 ) {
+				else if ( input[i].className.indexOf('cities') > -1 ) {
 					place = new google.maps.places.Autocomplete(input[i],options_cities);
 				}
 				else {
-					place = new google.maps.places.Autocomplete(input[i],options_ar);
+					place = new google.maps.places.Autocomplete(input[i],options_world);
 				}
 				place.attrName = input[i].name;
 				place.addListener('place_changed',fillIn);
@@ -554,17 +553,18 @@ $(document).ready(function() {
 	$('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 	$('#custom_html-24 .toggle-box').show();
 	$('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	$(document).on('click','.toggle',function(e) {
-		$(this).next('.toggle-box').slideToggle();
-		if ( $(this).find('i').hasClass('fa-plus-square') ) {
-			$(this).find('i').removeClass('fa-plus-square').addClass('fa-minus-square');
+	$(".toggle-box").hide(); 
+	$(".toggle").toggle(
+		function(){
+			$(this).find("i").addClass("fa-minus-square").removeClass("fa-plus-square");
+		},
+		function() {
+			$(this).find("i").removeClass("fa-minus-square").addClass("fa-plus-square");
 		}
-		else if ( $(this).find('i').hasClass('fa-minus-square') ) {
-			$(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
-		}
-		e.preventDefault();
+	);
+	$(".toggle").click(function(){
+		$(this).next(".toggle-box").slideToggle();
 	});
-
 
 	// LATERAL - Expandir widget
 	$('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
