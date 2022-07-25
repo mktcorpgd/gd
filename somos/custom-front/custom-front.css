@@ -178,7 +178,6 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{background:#FFFFFF}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop .post-text,body.search .gp-blog-wrapper .post-loop .post-text{clear:both;padding:.5em .8em!important}
 .gp-blog-wrapper.gp-blog-columns-3 .post-loop .post-text{padding:0 1em 1em!important}
-.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop.has-post-thumbnail .post-text,body.archive .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text,body.search .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text{border-top:2px solid #CCCCCC}
 body.archive article.event{clear:both;padding:.5em .8em!important}
 body.page-template-default .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text{border-top:none}
 .gp-blog-wrapper section,body:not(.single-event) article.event{float:left;margin:0;width:100%!important;border-radius:12px;overflow:hidden}
@@ -1019,7 +1018,8 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#888888;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
 .padder .sc-tabs .sc-tab-panel h4{margin:30px 0 0}
 #post-content{overflow:visible}
-#post-content .ui-tabs .ui-tabs-nav{display:flex;margin-bottom:1em}
+#post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:1em}
+.ui-tabs .ui-tabs-nav li{margin-bottom:.5em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
 #post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.1);position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:#EAEAEA}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:6px}
