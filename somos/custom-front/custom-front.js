@@ -59,22 +59,6 @@ $.noConflict();
 jQuery(document).ready(function($) {
 
 
-	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
-	if ( jQuery('body').hasClass('home') ) {
-		jQuery(document).on('click','.ui-tabs-tab',function(e) {
-			jQuery('.sc-tab-panel[aria-hidden=true] .gp-blog-wrapper').removeClass('more-content');
-			if ( jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').height() > 1700 ) {
-				jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').addClass('more-content');
-				jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper+.sc-button.large').addClass('expand');
-			}
-		});
-		jQuery(document).on('click','.sc-button.large.expand',function(e) {
-			e.preventDefault();
-			jQuery('.sc-tab-panel[aria-hidden=false] .gp-blog-wrapper').removeClass('more-content');
-			jQuery(this).removeClass('expand');
-		});
-	}
-
 	// GOOGLE FORMS
 	if ( jQuery('iframe[src*="docs.google.com/forms"]').length ) {
 
@@ -105,18 +89,10 @@ jQuery(document).ready(function($) {
 
 
 	// ATRIBUTOS - Personalizar
-	jQuery('#commentform textarea').attr({
-		'placeholder':'Escribir un comentario...'
-	});
-	jQuery('.wpdev-form-control-wrap input.subject').attr('placeholder','Asunto');
-	jQuery('.wpdev-form-control-wrap textarea.participants').attr('placeholder','Participantes');
-	jQuery('body.page-id-26272 .gp-search-bar,article[class*=category-casos-] .gp-search-bar').attr('placeholder','Buscar por cliente, solución, UN o UAC');
-	jQuery('img[title],.read-more[title]').each(function(){jQuery(this).removeAttr('title');});
-	jQuery('#post-content .post-text h2 a,#post-content>div>ul>li a').hover(function(){
-		var title = jQuery(this).attr('title');
-		jQuery(this).attr('tmp_title',title);
-		jQuery(this).attr('title','');
-	});
+	$('#commentform textarea').attr('placeholder','Escribir un comentario');
+	$('body.page-id-26272 .gp-search-bar,article[class*=category-casos-] .gp-search-bar').attr('placeholder','Buscar por cliente, solución, UN o UAC');
+	$('img[title],.read-more[title]').each(function(){$(this).removeAttr('title');});
+	$('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
 
 
 	// MOBILE - Ubicar buscador dentro del header
