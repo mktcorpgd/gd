@@ -55,7 +55,8 @@ document.addEventListener('wpcf7mailsent', function(event) {
 }, false);
 
 
-jQuery(document).ready(function() {
+$.noConflict();
+jQuery(document).ready(function($) {
 
 
 	// HOME - Si tiene más de 1700 px de altura, colapsar contenido de pestañas
