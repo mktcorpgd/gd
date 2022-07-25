@@ -392,7 +392,7 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .gp-meta-cats{font-size:0}
 body.archive .gp-meta-cats{width:100%}
 body.single article.category-beneficios:not(.category-nuevo-beneficio) .gp-meta-cats{padding-left:0;border-left:none}
-body.page h1+.gp-post-meta{float:left;display:block;margin:.5rem 0 1rem!important;width:100%;text-align:center}
+body.page h1+.gp-post-meta{margin:.5rem 0!important;width:100%;text-align:center}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .post-loop .gp-meta-cats a{line-height:1.25;font-weight:400}
 .eo-event-meta a:not([rel='tag']){color:#666!important;text-decoration:none;pointer-events:none}
@@ -912,6 +912,7 @@ body.home .post-loop[class*='category-40gd']:last-child{margin-bottom:0!importan
 body.home .gp-blog-wrapper+.post-loop{position:relative;margin-bottom:1em!important;overflow:hidden}
 body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{padding-right:40px}
 body.home .gp-blog-wrapper[class*='category-40gd'] .post-loop .post-text h2{padding-right:10px}
+body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0}
 
 /* Paginación */
 .wp-pagenavi,.page-links{font-weight:400!important;margin:20px 0 0;text-align:right}
