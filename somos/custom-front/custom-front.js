@@ -537,10 +537,6 @@ jQuery(document).ready(function() {
 	}
 
 
-	// BOTONES - Agregar botones de archivo
-	jQuery('<a href="/wp-admin/profile.php#gdBIRTH_mc" class="sc-button blue small">Editar mi cumpleaños</a>').insertAfter('.sidebar .bdays_today~.');
-
-
 	// LATERAL - Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();
 	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
