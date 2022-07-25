@@ -56,7 +56,7 @@ document.addEventListener('wpcf7mailsent', function(event) {
 
 
 $.noConflict();
-jQuery(document).ready(function($) {
+jQuery(document).ready(function() {
 
 
 	// GOOGLE FORMS
