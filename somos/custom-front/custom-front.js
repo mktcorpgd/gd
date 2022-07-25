@@ -127,7 +127,7 @@ jQuery(document).ready(function() {
 			jQuery('.is-search-form:first').insertAfter('#logo');
 		}
 		else {
-			jQuery('.is-search-form:first').insertBefore('.is-link-container');
+			jQuery('.is-search-form:first').insertBefore('#page-wrapper');
 		}
 	}
 	headerMobile();
