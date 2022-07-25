@@ -1529,8 +1529,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.textwidget h3.toggle,.datepick-days-cell{font-size:1.1em!important;line-height:1.5!important}
 	.sociales li{background-position:0 10px;padding:5px 0}
 	.post-loop,article.event{margin:0 0 15px!important}
-	#logo{margin:0!important;position:relative}
-	#logo a{display:inline-block;width:38px;height:38px;position:relative;top:12px;left:10px}
+	#logo{margin:5px 8px 0 0}
+	#logo img{width:40px;height:40px}
 	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
 	body.gp-theme.fullwidth #content-wrapper{padding-top:95px}
 	#content code,.widget code{font-size:18px;line-height:24px}
