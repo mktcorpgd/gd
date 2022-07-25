@@ -134,7 +134,7 @@ jQuery(document).ready(function() {
 	jQuery(window).resize(function() {
 		headerMobile();
 	});
-	jQuery('#mobile-nav-button').toggle( function() {
+	jQuery('#mobile-nav-button').toggle(function() {
 		console.log('mobile-nav');
 		jQuery('#mobile-nav').stop().slideDown().removeClass('auto-height');
 	},function() {
