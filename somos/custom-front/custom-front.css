@@ -389,10 +389,10 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .filledwithmap+a:hover{border-color:#F0582B}
 
 /* Meta */
-.gp-meta-cats{margin:.1em 0 0;color:#888888;font-weight:normal;font-family:'Open-Sans',sans-serif;font-size:0}
+.gp-meta-cats{font-size:0}
 body.archive .gp-meta-cats{width:100%}
 body.single article.category-beneficios:not(.category-nuevo-beneficio) .gp-meta-cats{padding-left:0;border-left:none}
-body.page h1+.gp-post-meta{margin:0 0 1em!important;width:100%;text-align:center}
+body.page h1+.gp-post-meta{float:left;display:block;margin:.5rem 0 1rem!important;width:100%;text-align:center}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .post-loop .gp-meta-cats a{line-height:1.25;font-weight:400}
 .eo-event-meta a:not([rel='tag']){color:#666!important;text-decoration:none;pointer-events:none}
@@ -411,7 +411,7 @@ article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li 
 article.event-category-otros .eo-event-meta>li a[rel='tag']{color:#F18C10!important}
 article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:#FFFFFF!important}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:3px 8px;background:#F6F6F6;border-radius:12px;border:none;text-decoration:none;line-height:normal}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,article.event .entry-header+.entry-content .eo-event-meta>li a[rel='tag']{margin-left:3px;margin-right:3px}
+h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,article.event .entry-header+.entry-content .eo-event-meta>li a[rel='tag']{margin-left:.4em;margin-right:.4em}
 article.event .entry-header+.entry-content .eo-event-meta>li:first-child a[rel='tag']{margin-left:0}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
 .gp-meta-cats a{color:#0E316E}
@@ -453,8 +453,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content h1{margin-bottom:.2em!important;font-weight:500!important;line-height:1.15!important;color:#333333}
 body.post-type-archive-event h1{text-transform:capitalize}
 .neosans li{font-size:1.1em!important}
-body.page #content h1{margin-bottom:0!important;padding-bottom:0;text-align:center}
-body.archive #content h1,body.search #content h1{margin-top:.2em}
+body.page #content h1{text-align:center}
 #post-content h2+p:last-child{margin-bottom:15px!important}
 #post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
 #post-content .wp-block-separator+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
