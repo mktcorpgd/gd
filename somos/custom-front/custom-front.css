@@ -2,26 +2,26 @@
 /* Admin */
 #wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,body:not(.role-administrator) .only-admin,
 /* Metas */
-.single .gp-entry-meta i,.search-results .post-meta,.archive .post-meta,#search-3>h3,.gp-post-meta:before,body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],.is-search-sections .meta>div:first-child,body.archive.category-2796 .post-loop .gp-meta-cats a[href$='/busquedas-laborales/'],.is-search-sections .meta i,.nafv-gear,.eo-event-meta li strong,footer.entry-meta,body.single article.category-beneficios:not(.category-nuevo-beneficio) .gp-meta-date,body section.category-beneficios .post-loop .gp-loop-meta,body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/newsletter-baitcon/'],body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,body.single article[class*='category-politicas-procesos'] .gp-meta-date,
+.single .gp-entry-meta i,.gp-post-meta:before,body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],
+body.archive.category-2796 .post-loop .gp-meta-cats a[href$='/busquedas-laborales/'],
+.eo-event-meta li strong,
+footer.entry-meta,
+body.single article.category-beneficios:not(.category-nuevo-beneficio) .gp-meta-date,body section.category-beneficios .post-loop .gp-loop-meta,
+body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/newsletter-baitcon/'],
+body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
+body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
-.is-search-form.is-form-id-26276 button,.is-search-form.is-form-id-926276 input[type='submit'],.is-form-id-26276>label>span.is-screen-reader-text,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,#content .gp-search,.error404 .gp-search p,.error404 .gp-search>form>input.gp-search-submit,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
-/* Archivo */
-body.archive.tax-event-category.hiddendata,body.archive section.type-page .gp-loop-meta,body.archive #content h4,
+#search-3>h3,.is-search-form.is-form-id-26276 button,.is-search-form.is-form-id-926276 input[type='submit'],.is-form-id-26276>label>span.is-screen-reader-text,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,#content .gp-search,.error404 .gp-search p,.error404 .gp-search>form>input.gp-search-submit,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,
-/* Logo */
-#logo a img,
 /* Formularios */
 .wpcf7 .hidden,div.wpcf7 .ajax-loader,.wpcf7 .wpcf7-validates-as-required.valid~label,.mc4wp-checkbox,#content .wpcf7+h2,.wpcf7-radio.wpcf7-not-valid+.wpcf7-not-valid-tip,.wpcf7-checkbox.wpcf7-not-valid+.wpcf7-not-valid-tip,span.phone_ext_block,#wpcf7-f16691-p18546-o1>div:nth-child(7),.wpcf7-display-none,div.wpcf7 div.ajax-error,.wpcf7 a[href='#map'],select[name='ORG'] option[value='0G Networks'],select[name='ORG'] option[value='Datco Soluciones'],
 /* Galería de fotos */
 .blocks-gallery-item figcaption strong+br,.blocks-gallery-item figcaption strong+br+em+br,body.role-externo #copyright,.mfp-hide,
 /* Eventos */
 body:not(.single-event) article.event p,body.single-event .entry-content h4,.eo-event-meta~hr,.gp-blog-wrapper>.eo-events-nav,
-/* Drive */
-/* .UseyourDrive .nav-home,.UseyourDrive .gear-menu li i,.UseyourDrive .download-zip-menu li i,.UseyourDrive .uyd-dropdown-menu li i,#UseyourDrive .uyd-grid .folders-container .entry_thumbnail,.useyourdrive-modal-footer,.qtip .qtip-tip,#UseyourDrive div.scroll-to-top,.qtip.UseyourDrive.description,#UseyourDrive .files.layout-list .entry.folder .entry_icon img,#UseyourDrive .files .column_names .entry_icon,#UseyourDrive .files .column_names,#UseyourDrive .image-rollover,.UseyourDrive .entry-info-button.entry-description-button,#UseyourDrive .tippy-content .description-textbox .description-file-info i,.UseyourDrive .tippy-content .description-textbox .description-file-info i,*/
-.jssocials-share:not(.jssocials-share-directlink):not(.jssocials-share-email):not(.jssocials-share-linkedin):not(.jssocials-share-whatsapp),
 /* Posts */
 .gp-blog-wrapper[class*='gp-blog-columns'] .padder .post-loop.category-un .post-text,
 /* Comerciales */
