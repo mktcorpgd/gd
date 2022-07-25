@@ -507,7 +507,6 @@ jQuery(document).ready(function() {
 				types: ['(cities)'],
 			};
 			for (var i = 0; i<input.length; i++) {
-				console.log(input[i].className);
 				if ( input[i].className.indexOf('world') > -1 ) {
 					place = new google.maps.places.Autocomplete(input[i],options_world);
 				}
