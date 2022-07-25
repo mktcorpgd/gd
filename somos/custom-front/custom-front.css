@@ -94,7 +94,7 @@ h3.toggle i:before,.activity-time-since{color:#888888}
 #content .blocks-gallery-item img,.wp-block-image img,#post-content .blocks-gallery-item img{margin:0!important}
 .blocks-gallery-image figcaption,.blocks-gallery-item figcaption,.wp-block-image figcaption{text-align:left;padding:.4em .3em!important;line-height:1.25;font-style:italic}
 .wp-block-image a+figcaption{background:rgba(0,0,0,.5)!important;cursor:zoom-in}
-.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {width:100%!important;}
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {width:100%!important}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
 .padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.padder td a:hover,.widget li a:hover{text-decoration:underline}
 body .bk_forms .hasDatepick{display:block!important}
@@ -204,8 +204,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section h2 a:hover{text-decoration:none!important}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail{padding-top:.5em}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{display:grid}
-.gp-blog-wrapper.gp-blog-columns-2 .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text,body.search .gp-blog-wrapper .post-loop.has-post-thumbnail .post-text{border-top:2px solid #CCCCCC}
-article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase;}
+article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
 /* Comentarios */
@@ -515,7 +514,7 @@ article:not(.category-salesforce) .nav-posts{display:grid;grid-template-columns:
 article:not(.category-salesforce) .nav-posts{grid-column-gap:1em}
 article.category-salesforce .nav-posts+.wp-block-image img{border-radius:0 12px 12px 12px!important}
 .wp-block-image img{border:none!important}
-article.category-salesforce h3.toggle {display: block!important;padding:5px!important;}
+article.category-salesforce h3.toggle {display: block!important;padding:5px!important}
 article.category-salesforce #post-content+.nav-posts{margin-bottom:2em}
 #content .nav-posts h5{margin:0!important;font-size:.9em}
 #content .nav-posts h6{margin:0 0 .1em!important;font-size:.7em}
