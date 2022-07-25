@@ -55,7 +55,7 @@ document.addEventListener('wpcf7mailsent', function(event) {
 }, false);
 
 
-$.noConflict();
+/*$.noConflict();
 jQuery(document).ready(function($) {
 
 	// ATRIBUTOS - Personalizar
@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
 	$('img[title],.read-more[title]').each(function(){$(this).removeAttr('title');});
 	$('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
 
-});
+});*/
 
 
 jQuery(document).ready(function() {
