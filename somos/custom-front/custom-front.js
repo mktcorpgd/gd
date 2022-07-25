@@ -56,6 +56,17 @@ document.addEventListener('wpcf7mailsent', function(event) {
 
 
 $.noConflict();
+jQuery(document).ready(function($) {
+
+	// ATRIBUTOS - Personalizar
+	$('#commentform textarea').attr('placeholder','Escribir un comentario');
+	$('body.page-id-26272 .gp-search-bar,article[class*=category-casos-] .gp-search-bar').attr('placeholder','Buscar por cliente, solución, UN o UAC');
+	$('img[title],.read-more[title]').each(function(){$(this).removeAttr('title');});
+	$('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
+
+});
+
+
 jQuery(document).ready(function() {
 
 
@@ -86,13 +97,6 @@ jQuery(document).ready(function() {
 		}
 		
 	}
-
-
-	// ATRIBUTOS - Personalizar
-	$('#commentform textarea').attr('placeholder','Escribir un comentario');
-	$('body.page-id-26272 .gp-search-bar,article[class*=category-casos-] .gp-search-bar').attr('placeholder','Buscar por cliente, solución, UN o UAC');
-	$('img[title],.read-more[title]').each(function(){$(this).removeAttr('title');});
-	$('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
 
 
 	// MOBILE - Ubicar buscador dentro del header
