@@ -134,13 +134,13 @@ jQuery(document).ready(function() {
 	jQuery(window).resize(function() {
 		headerMobile();
 	});
-	jQuery( '#mobile-nav-button' ).toggle( function() {
+	jQuery('#mobile-nav-button').toggle( function() {
 		console.log('mobile-nav');
-		jQuery( '#mobile-nav' ).stop().slideDown().removeClass( 'auto-height' );
-	}, function() {
-		jQuery( '#mobile-nav' ).stop().slideUp().removeClass( 'auto-height' );
-		jQuery( '#mobile-nav-button' ).removeClass( 'gp-active' );
-	} );
+		jQuery('#mobile-nav').stop().slideDown().removeClass('auto-height');
+	},function() {
+		jQuery('#mobile-nav').stop().slideUp().removeClass('auto-height');
+		jQuery('#mobile-nav-button').removeClass('gp-active');
+	});
 
 
 	// GENERAL - Si hay cumpleaños:
@@ -157,7 +157,7 @@ jQuery(document).ready(function() {
 	/*var today = new Date();
 	var day = today.getDay() || 7;
 	if ( day == 3 && (jQuery('body').hasClass('role-comercial_ar') || jQuery('body').hasClass('role-administrator')) ) {
-		if ( jQuery.cookie('hide_modal-casos') !== 'hidden' ) {
+		if ( jQuery.cookie('hide_modal-casos') !== 'hidden') {
 			jQuery.magnificPopup.open({
 				items: {
 					src: '<div id="modal-casos" class="white-popup"><h2>Compartí tu experiencia de ventas</h2><p><i class="far fa-trophy"></i>Contanos qué proyecto cerraste y de qué se trata para que tus compañeros/as se enteren. Lo dejaremos registrado y esperamos que sea un disparador de nuevas ventas.</p><div class="buttons"><a class="sc-button large" href="/marketing/nuevos-casos/">Enviar nuevo caso de cliente</a><br /><a id="hide_modal-casos" class="sc-button small inline" href="#hide_modal-casos">Recordarme en 1 semana</a></div></div>',
@@ -288,7 +288,7 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - [IMPORTANTE PARA MAILCHIMP] Agregar textos para la opción free_text en checkbox
 	jQuery('.wpcf7-free-text').blur(function(e) {
-		if ( jQuery(this).attr('data-usage') != 'true' ) {
+		if ( jQuery(this).attr('data-usage') != 'true') {
 			jQuery(this).attr('data-text',jQuery(this).parent().find('input[type=checkbox]').val());
 			jQuery(this).attr('data-usage','true');
 		}
@@ -314,7 +314,7 @@ jQuery(document).ready(function() {
 			var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
 			input_value = input_value.substring(0,input_value.indexOf(';'));
 			jQuery(this).attr('data-cat-id',id_cat);
-			if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1' ) {
+			if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
 				jQuery(this).val(id_cat);
 			}
 			jQuery(this).text(input_value);
@@ -326,7 +326,7 @@ jQuery(document).ready(function() {
 			}
 			jQuery(this).text(input_value).val(input_value);
 		}
-		if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—' ) {
+		if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—') {
 			jQuery(this).attr('disabled','disabled');
 		}
 	});
@@ -352,7 +352,7 @@ jQuery(document).ready(function() {
 				jQuery('.wpcf7-'+input_name).text(val_single);
 			}
 			if ( jQuery('input[name='+input_name+'TXT]').length ) {
-				if ( input_name == 'CC_UNIT' ) {
+				if ( input_name == 'CC_UNIT') {
 					val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
 				}
 				jQuery('input[name='+input_name+'TXT]').val(val_single);
@@ -442,7 +442,7 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Cambiar opción por ítem con costo según cantidad
 	var obj_scosto = 0;
 	jQuery('.MERCH1 option').each(function(i) {
-		if ( jQuery(this).val() != '—Con costo' ) {
+		if ( jQuery(this).val() != '—Con costo') {
 			obj_scosto++;
 		}
 		else {
@@ -512,7 +512,7 @@ jQuery(document).ready(function() {
 		jQuery('input[name="PAXWHAT"]').change(function() {
 			jQuery('.wpcf7-submit').removeClass('disabled');
 			if ( is_checked == true && this.checked ) {
-				if ( this.value == 'Envío' ) {
+				if ( this.value == 'Envío') {
 					jQuery('input[name=FNAMEPAX]').val('');
 					jQuery('input[name=LNAMEPAX]').val('');;
 				}
