@@ -134,6 +134,12 @@ jQuery(document).ready(function() {
 	jQuery(window).resize(function() {
 		headerMobile();
 	});
+	jQuery( '#mobile-nav-button' ).toggle( function() {
+		jQuery( '#mobile-nav' ).stop().slideDown().removeClass( 'auto-height' );
+	}, function() {
+		jQuery( '#mobile-nav' ).stop().slideUp().removeClass( 'auto-height' );
+		jQuery( '#mobile-nav-button' ).removeClass( 'gp-active' );
+	} );
 
 
 	// GENERAL - Si hay cumpleaños:
