@@ -609,7 +609,7 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .flex-next:hover,.flex-prev:hover{text-decoration:none!important;color:#FFFFFF!important}
 .fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em!important}
 .flex-control-paging li a.flex-active{background:#FFFFFF!important}
-.flex-control-paging li a,.fusion-slider-sc .flex-direction-nav a{background:none!important}
+.fusion-slider-sc .flex-direction-nav a{background:none!important}
 .flex-control-paging li a.flex-active{background:#FFFFFF!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em!important}
 .fusion-layout-column .flexslider{margin-bottom:0}
