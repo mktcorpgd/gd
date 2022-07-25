@@ -183,7 +183,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Header */
 #header{width:100%!important;margin-bottom:10px!important;padding:5px 15px;background:#0E316E!important;border-bottom:2px solid #FFB201;border-radius:0!important;position:fixed;left:0!important;transform:none!important;transition:top .1s ease-in-out;z-index:9999;top:32px}
-#logo.default-logo{margin-top:3px;margin-right:5px}
+#logo{margin-top:3px;margin-right:5px}
 #logo a{transition:all 1s ease-in-out!important;display:block}
 #logo a:hover{transform:scale(1.1) rotate(720deg) translateX(5px)}
 
