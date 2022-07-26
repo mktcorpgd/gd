@@ -55,9 +55,7 @@ body:not([class*='office-ar']) #menu-item-10707{display:none!important}
 /* Oculto no forzado */
 body:not(.home) section.post-loop.category-comerciales .gp-loop-meta time+span,.hidden,
 /* Lightbox */
-.mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
-/* Regalos */
-.gift_item_org~.gift_details,.gift_details .columns,#gift_list{display:none}
+.mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a{display:none}
 
 /* General */
 ::-moz-selection{background:#F0582B!important;color:#FFFFFF}
@@ -109,7 +107,7 @@ h5,h6{font-weight:400}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif!important}
 #wpadminbar .ab-icon{font-family:'dashicons'}
 abbr[title]{border-bottom:0!important;cursor:inherit!important;text-decoration:none!important}
-input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:3px 0 10px!important;padding:.5em .6em!important;width:100%!important;background:#F6F6F6!important;border:1px solid #CCCCCC!important;border-radius:6px!important;box-shadow:none!important;box-sizing:border-box!important;font-family:'Open-Sans',sans-serif!important;font-size:.9em!important;line-height:1.2;letter-spacing:-.01em!important}
+input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em!important;padding:.5em .6em!important;width:100%!important;background:#F6F6F6!important;border:1px solid #CCCCCC!important;border-radius:6px!important;box-shadow:none!important;box-sizing:border-box!important;font-family:'Open-Sans',sans-serif!important;font-size:.9em!important;line-height:1.2;letter-spacing:-.01em!important}
 select{padding:.37em .6em!important}
 textarea{line-height:1.3}
 input[type='date']{padding:6px 10px!important}
@@ -189,8 +187,6 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Menú */
 #nav{float:left}
-#nav .bcard-link{float:right!important}
-#nav .bcard-link i{padding-right:0!important}
 #nav>.menu>li>a{border-radius:6px!important}
 #nav .menu li a,#nav .menu li:hover>a,#mobile-nav .menu li a,#mobile-nav .menu li a:hover{color:#FFFFFF}
 #nav .menu{margin-top:0}
@@ -290,14 +286,13 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 label{cursor:pointer}
 .wpcf7 .columns label+div[data-class='wpcf7cf_group'],.wpcf7 .columns label+div[data-class='wpcf7cf_group'] .wpcf7-form-control-wrap{margin-top:0!important}
 .wpcf7 .columns>label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
-.wpcf7 .columns>label>span[class*='GIFT']{margin-bottom:5px}
 .wpcf7 .columns>label>span.money-symbol{position:absolute;top:77px;left:15px;font-size:14px;color:#888888;font-weight:400}
 .wpcf7-checkbox.large,.wpcf7-radio.large{margin:10px 0 0;display:block;width:100%;text-align:center}
 .wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='checkbox']{width:24px;height:24px}
 .wpcf7-checkbox.large .wpcf7-list-item-label,.wpcf7-radio.large .wpcf7-list-item-label{display:inline-block;position:relative;top:-5px;font-size:18px;font-weight:400;font-style:italic}
 .wpcf7-form-control-wrap .check_add{float:right;display:inline-block!important;font-size:.8em!important;position:relative;top:3px}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item,.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{margin-right:0!important;padding-left:0!important}
-.wpcf7-form-control-wrap.SAMEDATAPAX{font-size:.8em}
+.wpcf7-form-control-wrap.SAMEDATAPAX{font-size:.9em}
 .wpcf7-form label>i[title]{cursor:pointer;opacity:.6}
 .wpcf7-form label>i[title]:hover{opacity:1}
 .wpcf7-form>.step3.disabled{opacity:.5}
@@ -320,21 +315,9 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .columns.two.step1>label strong,.wpcf7 .columns.two.step1+.columns.two>label strong,.wpcf7 .columns.two.step2>label strong{margin-top:0!important}
 .wpcf7 .columns .wpcf7-list-item-label{margin-right:1em;font-size:.9rem;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 .columns>label .wpcf7-checkbox:not(.check_add),.wpcf7 .columns>label .wpcf7-radio{display:block;margin:.4em 0 .8em}
-.wpcf7 .columns[class$='check']>label .wpcf7-checkbox,.wpcf7 .columns[class$='check']>label .wpcf7-radio{display:grid;grid-gap:5px;grid-template-columns:.9fr .9fr 1fr}
-.wpcf7 .columns.one.fourcheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fourcheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr}
-.wpcf7 .columns.one.fivecheck>label .wpcf7-checkbox,.wpcf7 .columns.one.fivecheck>label .wpcf7-radio{grid-template-columns:1fr 1fr 1fr 1fr 1fr}
 .wpcf7 .columns>label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
 .wpcf7 .columns>label .highlight .wpcf7-list-item-label{margin-right:0;font-size:1.1em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
-.wpcf7 .columns>label .wpcf7-radio.one,.wpcf7 .columns>label .wpcf7-checkbox.one{grid-template-columns:1fr}
-.wpcf7 .columns>label .wpcf7-radio.two,.wpcf7 .columns>label .wpcf7-checkbox.two{grid-template-columns:1fr 1fr}
-.wpcf7 .columns>label .wpcf7-radio.three,.wpcf7 .columns>label .wpcf7-checkbox.three{grid-template-columns:1fr 1fr 1fr}
-.wpcf7 .columns>label .wpcf7-radio.four,.wpcf7 .columns>label .wpcf7-checkbox.four{grid-template-columns:1fr 1fr 1fr 1fr}
-.wpcf7 .columns>label .wpcf7-radio.five,.wpcf7 .columns>label .wpcf7-checkbox.five{grid-template-columns:1fr 1fr 1fr 1fr 1fr}
-.wpcf7 .columns>label .wpcf7-radio.six,.wpcf7 .columns>label .wpcf7-checkbox.six{grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr}
 .wpcf7 .visible{display:block}
-.wpcf7>.wpcf7-form>.gift_label{padding-top:10px;border-top:1px solid #DDDDDD}
-.wpcf7>.wpcf7-form>h3+.gift_label{padding-top:0;border-top:none}
-.wpcf7>.wpcf7-form>h3+.gift_label>.gift_buttons{top:0}
 .wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
 body form.sending:before{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;font-size:24px;background-color:rgba(255,255,255,.6);background-repeat:no-repeat;background-position:center 90%;z-index:10}
@@ -1374,9 +1357,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input,textarea,select,#sidebar .menu li .menu-subtitle{font-size:18px!important;line-height:1.6em!important}
 	.wpcf7-form-control-date input{height:53px}
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
-	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{padding:12px 10px!important}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
-	h1,h2,h3,h4,h5,h6{line-height:120%!important}
 	.widget .textwidget li{font-size:1.1em}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
 	.wpcf7 .columns{margin-bottom:10px!important}
@@ -1396,14 +1377,10 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .columns.two .tp h3{top:6vw;font-size:6vw!important;text-align:left}
 	#content .columns.two .tp h5{top:12vw;font-size:5vw;text-align:left}
 	#content .columns.two .tp ul li:last-child{margin-top:14px!important;line-height:18px!important}
-	.wpcf7 .columns>label .wpcf7-checkbox,.wpcf7 .columns>label .wpcf7-radio{grid-template-columns:1fr;font-size:18px}
-	.wpcf7 .columns>label>span{line-height:1.5}
-	.wpcf7 .columns>label .wpcf7-radio.one,.wpcf7 .columns>label .wpcf7-checkbox.one,.wpcf7 .columns>label .wpcf7-radio.two,.wpcf7 .columns>label .wpcf7-checkbox.two,.wpcf7 .columns>label .wpcf7-radio.three,.wpcf7 .columns>label .wpcf7-checkbox.three,.wpcf7 .columns>label .wpcf7-radio.four,.wpcf7 .columns>label .wpcf7-checkbox.four,.wpcf7 .columns>label .wpcf7-radio.five,.wpcf7 .columns>label .wpcf7-checkbox.five,.wpcf7 .columns>label .wpcf7-radio.six,.wpcf7 .columns>label .wpcf7-checkbox.six,.gp-blog-wrapper[class*='gp-blog-columns']{width:100%;grid-template-columns:1fr}
 	#page-wrapper .toggle-box>.sc-button,#page-wrapper .widget .blue.sc-button{font-size:1.2rem!important}
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
 	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
 	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
-	#post-content .ui-tabs .ui-tabs-nav{margin:1em .4em .4em}
 	#content h1{padding:0 0 .4em;font-size:1.6em!important}
 	.birthdays-widget .birthday_wish{font-size:28px}
 	#custom_html-23 img{border-width:4px;border-top-left-radius:12px;border-top-right-radius:12px}
@@ -1493,7 +1470,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.textwidget h3.toggle a{padding-left:10px}
 	#text-2.widget .toggle-box ul:not(.ui-tabs-nav){margin:5px 0 5px 12px}
 	.ui-tabs .ui-tabs-nav li a{font-size:.825em!important;text-align:center}
-	.sc-tabs .sc-tab-panel,.textwidget .toggle-box>div{font-size:1em!important;line-height:1.5!important}
 	.widget_ref h6{font-size:18px;margin:20px 0 10px}
 	#custom_html-10 .widget_ref a{font-size:18px}
 	.widget_ref a{font-size:.85em!important}
