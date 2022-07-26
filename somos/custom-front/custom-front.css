@@ -1149,10 +1149,10 @@ img[src*='-dark-']{background:#999999}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
 .widget_ref{color:#CCCCCC}
 .widget_ref a{margin:0;line-height:1.5}
-.eo_widget_calendar .widget_ref a{display:inline-block;margin:0;padding:.1em .5em;position:relative;color:#FFFFFF;font-weight:400;font-family:'Neo-Sans',sans-serif;font-size:.8em}
+.eo_widget_calendar .widget_ref a{margin:0;padding:.1em .5em;color:#FFFFFF;font-size:.8em}
+.eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
 .eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
-.eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)!important;opacity:1}
 .widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
 .widget_ref a.patrocinamos,#wp-calendar tbody td.eo-event-cat-patrocinamos a{background:#5580BF}
 .widget_ref a.asistimos,#wp-calendar tbody td.eo-event-cat-asistimos a{background:#338A6C}
