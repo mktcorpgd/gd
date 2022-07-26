@@ -1412,8 +1412,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:0}
 	#mobile-nav .menu li a{padding:.6em .5em;font-size:1.1em}
-	#mobile-nav .menu li li a{padding:.3em 1.2em}
-	#mobile-nav .menu li li li a{padding:.3em 1.2em .3em 1.6em}
+	#mobile-nav .menu li li a{padding:.3em .5em}
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
 	#mobile-nav .menu li .mobile-dropdown-icon{height:100%}
