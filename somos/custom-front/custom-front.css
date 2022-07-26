@@ -177,7 +177,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}
 
 /* Header */
-#header{padding:8px;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0}
+#header{padding:8px;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
 #logo a{transition:all 1s ease-in-out!important;display:block}
 #logo a:hover{transform:scale(1.1) rotate(720deg) translateX(5px)}
 
