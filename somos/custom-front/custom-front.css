@@ -1330,14 +1330,12 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 
 /* Mobile */
 @media (max-width:782px) {
-	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,#mobile-nav .menu li i:not(.mobile-dropdown-icon){display:none!important}
-	.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
+	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
 	.gp-responsive #mobile-nav-button,#mobile-nav .menu li>.mobile-dropdown-icon{display:inline-block!important}
 	blockquote{text-align:left}
 	#nav{position:absolute;top:0;right:0}
-	#nav .menu li.menu-item-17720{display:inline-block}
-	body,input,textarea,select,#sidebar .menu li .menu-subtitle{font-size:20px}
-	input,textarea,select,#sidebar .menu li .menu-subtitle{font-size:18px!important;line-height:1.6em!important}
+	body,input,textarea,select{font-size:20px}
+	input,textarea,select{font-size:18px!important;line-height:1.6em!important}
 	.wpcf7-form-control-date input{height:53px}
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
