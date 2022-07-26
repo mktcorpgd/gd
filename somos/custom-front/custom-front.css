@@ -1414,11 +1414,11 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sub-menu li{margin-left:0!important}
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
 	#content .embed{margin:0;border:none}
-	#mobile-nav-button{margin-top:10px;padding:.4em;background:none;border-radius:6px;font-size:1.2em;line-height:1}
+	#mobile-nav-button{margin-top:10px;margin-right:10px;padding:.4em;background:rgba(0,0,0,.2);border-radius:6px;font-size:1.2em;line-height:1}
 	#mobile-nav-button.gp-active,#mobile-nav-button:hover{color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:0}
-	#mobile-nav .menu li a{padding:.4em .5em}
+	#mobile-nav .menu li a{padding:.4em .5em;font-size:1.2em}
 	#mobile-nav .menu li li a{padding:.3em 1.2em}
 	#mobile-nav .menu li li li a{padding:.3em 1.2em .3em 1.6em}
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
