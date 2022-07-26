@@ -190,9 +190,9 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu .sub-menu{display:block;padding:.3em .6em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0;transition:all .1s ease-in-out}
 #nav .menu .sub-menu li a{margin:0;padding:0 .4em;color:#FFFFFF;font-size:.9em;border-radius:6px}
-.menu li.menu-item-has-children{padding-right:1em}
-.menu li.menu-item-has-children:after{content:'\f107';position:absolute;width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
-.menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
+#nav .menu li.menu-item-has-children{padding-right:1em}
+#nav .menu li.menu-item-has-children:after{content:'\f107';position:absolute;right:0;width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
+#nav .menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
 
 /* Columnas */
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
