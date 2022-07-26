@@ -193,9 +193,10 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
 #nav .menu .sub-menu li ul{margin-top:0}
 #nav .menu li.menu-item-has-children{padding-right:1em}
-#nav .menu li.menu-item-has-children:after{content:'\f107';position:absolute;right:4px;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
+#nav .menu li.menu-item-has-children:after{content:'\f107';position:absolute;right:4px;font-size:.8em;font-family:'Font Awesome 6 Pro';cursor:pointer}
+#nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px}
-#nav .menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
+#nav .menu li.menu-item-has-children:hover:after,#nav .menu li i{color:#FFFFFF!important}
 
 /* Columnas */
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
