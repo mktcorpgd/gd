@@ -111,8 +111,8 @@ jQuery(document).ready(function() {
 	});
 	jQuery('#mobile-nav .menu li').each(function() {
 		if ( jQuery(this).find('ul').length > 0 ) {
-			jQuery('<i class="mobile-dropdown-icon" />').insertAfter(jQuery(this).children(':first'));		
-		}		
+			jQuery('<i class="mobile-dropdown-icon" />').insertAfter(jQuery(this).children(':first'));
+		}	
 	});
 
 
