@@ -1325,7 +1325,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 
 /* Mobile */
 @media (max-width:782px) {
-	#mobile-nav .menu li a{display:none!important}
+	#mobile-nav .menu li a i{display:none!important}
 	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
 	blockquote{text-align:left}
 	body,input,textarea,select{font-size:20px}
