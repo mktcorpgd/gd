@@ -89,7 +89,7 @@ jQuery(document).ready(function() {
 	jQuery('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
 
 
-	// MOBILE - Ubicar buscador dentro del header
+	// MOBILE
 	function headerMobile() {
 		if ( jQuery('.is-search-form').length > 1 ) {
 			jQuery('.is-search-form:not(:first)').remove();

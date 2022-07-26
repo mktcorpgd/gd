@@ -1411,6 +1411,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:none;color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:0}
+	#mobile-nav .menu>li:last-child{border-bottom:1em solid rgba(0,0,0,.1)}
 	#mobile-nav .menu li a{padding:.6em .5em;font-size:1.1em}
 	#mobile-nav .menu li li a{padding:.3em .5em}
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
