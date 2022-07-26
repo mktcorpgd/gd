@@ -118,13 +118,10 @@ jQuery(document).ready(function() {
 		jQuery('#mobile-nav ul > li').each(function() {
 			var navItem = jQuery(this);
 			if ( jQuery(navItem).find('ul').length > 0 ) {	
-				jQuery(navItem).children('.mobile-dropdown-icon').toggle(function() {
-					jQuery(navItem).addClass('gp-active');
-					jQuery(navItem).children('.sub-menu').stop().slideDown()
-					jQuery('#mobile-nav').addClass('auto-height');
-				}, function() {
-					jQuery(navItem).removeClass('gp-active');
-					jQuery(navItem).children('.sub-menu').stop().slideUp();
+				jQuery(navItem).children('.mobile-dropdown-icon').click(function() {
+					jQuery(navItem).toggleClass('gp-active');
+					jQuery(navItem).children('.sub-menu').toggle();
+					jQuery('#mobile-nav').toggleClass('auto-height');
 				});
 			}	
 		});
