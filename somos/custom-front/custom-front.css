@@ -91,7 +91,6 @@ h6{font-size:.9em}
 video{outline:none!important;cursor:pointer}
 blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:20px;line-height:1.5}
-body.gp-theme.fullwidth:not(.logged-in) #content-wrapper #content .padder{border-top:64px solid #0E316E}
 .not-visible{visibility:hidden}
 .padder,.widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
 .widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-color:#FFFFFF}
@@ -194,7 +193,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li a{padding:0}
 #nav .menu .sub-menu{display:block;padding:.3em .4em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0}
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
-#nav .menu .sub-menu li ul{margin-top:0}
+#nav .menu .sub-menu li ul{margin-top:1.4em;left:3em}
 #nav .menu li.menu-item-has-children{padding-right:1em}
 #nav .menu li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:'Font Awesome 6 Pro'}
 #nav .menu li.menu-item-has-children:after{position:absolute;right:4px;font-size:.8em;cursor:pointer}
@@ -1323,7 +1322,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sidebar .widget h3.toggle > i{width:16px}
 	.sidebar .widget h3.toggle{font-size:1.1em!important}
 	.error404 .padder{padding:5% 0!important}
-	.error404 #content-wrapper,body:not(.logged-in) #content-wrapper{padding-top:0!important}
 }
 
 /* Mobile */
@@ -1418,7 +1416,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#mobile-nav .menu li li li a{padding:.3em 1.2em .3em 1.6em}
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
-	#mobile-nav .menu li>.mobile-dropdown-icon{}
+	#mobile-nav .menu li>.mobile-dropdown-icon{padding:0 1em;color:#FAFAFA;font-size:1em;line-height:2.35em}
+	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106';color:#FFFFFF}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
 	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
 	.datepick-inline .calendar-links .datepick-prev a,.datepick-inline .calendar-links .datepick-next a{font-size:20px!important}
