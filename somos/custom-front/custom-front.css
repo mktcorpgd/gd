@@ -190,7 +190,8 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li:hover{background:rgba(0,0,0,.3)}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu li a:hover,#nav .menu li:hover>a{background:none}
-#nav .menu li a{padding:0;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+.menu li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+#nav .menu li a{padding:0}
 #nav .menu .sub-menu{display:block;padding:.3em .4em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0}
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
 #nav .menu .sub-menu li ul{margin-top:0}
@@ -1333,7 +1334,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 /* Mobile */
 @media (max-width:782px) {
 	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
-	.gp-responsive #mobile-nav-button,#mobile-nav .menu li>.mobile-dropdown-icon{display:inline-block!important}
 	blockquote{text-align:left}
 	#nav{position:absolute;top:0;right:0}
 	body,input,textarea,select{font-size:20px}
@@ -1415,6 +1415,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
 	#content .embed{margin:0;border:none}
 	#mobile-nav-button{padding:22px 20px;background:none;font-size:20px;line-height:1}
+	#mobile-nav-button.gp-active,#mobile-nav-button:hover{color:#F0582B}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:0}
 	#mobile-nav .menu li a{padding:.4em .5em}
@@ -1468,7 +1469,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.textwidget h3.toggle,.datepick-days-cell{font-size:1.1em!important;line-height:1.5!important}
 	.sociales li{background-position:0 10px;padding:5px 0}
 	.post-loop,article.event{margin:0 0 15px!important}
-	#logo{margin:9px 8px 0 10px!important}
+	#logo{margin-top:10px;margin-left:10px}
 	#logo img{width:40px;height:40px}
 	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
 	body.gp-theme.fullwidth #content-wrapper{padding-top:95px}
