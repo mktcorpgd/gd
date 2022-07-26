@@ -109,11 +109,27 @@ jQuery(document).ready(function() {
 		jQuery(this).toggleClass('gp-active');
 		jQuery('#mobile-nav').toggle();
 	});
-	jQuery('#mobile-nav .menu li').each(function() {
+	jQuery('#mobile-nav .menu li').each( function() {
 		if ( jQuery(this).find('ul').length > 0 ) {
-			jQuery('<i class="mobile-dropdown-icon" />').insertAfter(jQuery(this).children(':first'));
-		}	
+			jQuery('<i class="mobile-dropdown-icon" />').insertAfter(jQuery(this).children(':first'));		
+		}		
 	});
+	function gpHeaderMobileTopNav() {
+		jQuery('#mobile-nav ul > li').each(function() {
+			var navItem = jQuery(this);
+			if ( jQuery(navItem).find('ul').length > 0 ) {	
+				jQuery(navItem).children('.mobile-dropdown-icon').toggle(function() {
+					jQuery(navItem).addClass('gp-active');
+					jQuery(navItem).children('.sub-menu').stop().slideDown()
+					jQuery('#mobile-nav').addClass('auto-height');
+				}, function() {
+					jQuery(navItem).removeClass('gp-active');
+					jQuery(navItem).children('.sub-menu').stop().slideUp();
+				});
+			}	
+		});
+	}
+	gpHeaderMobileTopNav();
 
 
 	// GENERAL - Si hay cumpleaños:

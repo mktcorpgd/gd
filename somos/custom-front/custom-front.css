@@ -1061,12 +1061,6 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)!important}
 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)!important}
 
-/* Mailchimp */
-.display_archive{color:#888888;font-style:italic;text-align:center}
-.campaign{margin:0 0 10px;padding-bottom:10px;border-bottom:1px solid #DDDDDD;font-size:16px;line-height:1.5;font-style:normal;font-weight:400;text-align:left}
-.campaign a{font-weight:400}
-.display_archive:last-child .campaign:last-child{margin:0 ;padding-bottom:0;border-bottom:0}
-
 /* Botones */
 #page-wrapper{overflow:visible}
 #page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper .button,#page-wrapper .sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.start_button{font-family:'Neo-Sans',sans-serif;background:#F0582B!important;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)!important;font-weight:500;color:#FFFFFF!important;text-shadow:none!important;outline:none!important}
@@ -1297,7 +1291,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 /* Desktop */
 @media (min-width:960px) {
 	h1,.page-title{font-size:2em!important}
-	li.only-mobile{display:none!important}
+	li.only-mobile,#mobile-nav-button{display:none!important}
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-moz-appearance:textfield}
 	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
@@ -1415,7 +1409,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
 	#content .embed{margin:0;border:none}
 	#mobile-nav-button{margin-top:10px;margin-right:10px;padding:.4em;background:none;border-radius:6px;font-size:1.2em;line-height:1}
-	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:rgba(0,0,0,.2);color:#FFFFFF}
+	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:none;color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:0}
 	#mobile-nav .menu li a{padding:.4em .5em;font-size:1.2em}
