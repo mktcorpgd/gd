@@ -1290,7 +1290,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 
 /* Desktop */
 @media (min-width:960px) {
-	h1,.page-title{font-size:2em!important}
 	li.only-mobile,#mobile-nav-button{display:none!important}
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-moz-appearance:textfield}
@@ -1326,9 +1325,9 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 
 /* Mobile */
 @media (max-width:782px) {
+	#mobile-nav .menu li a{display:none!important}
 	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
 	blockquote{text-align:left}
-	#nav{position:absolute;top:0;right:0}
 	body,input,textarea,select{font-size:20px}
 	input,textarea,select{font-size:18px!important;line-height:1.6em!important}
 	.wpcf7-form-control-date input{height:53px}
@@ -1357,7 +1356,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
 	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
 	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
-	#content h1{padding:0 0 .4em;font-size:1.6em!important}
+	h1,.page-title{font-size:2em}
 	.birthdays-widget .birthday_wish{font-size:28px}
 	#custom_html-23 img{border-width:4px;border-top-left-radius:12px;border-top-right-radius:12px}
 	#custom_html-23 .url_public_bcard{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
@@ -1404,9 +1403,9 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0!important}
-	.sub-menu li{margin-left:0!important}
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
 	#content .embed{margin:0;border:none}
+	#nav{position:absolute;top:0;right:0}
 	#mobile-nav-button{margin-top:10px;margin-right:10px;padding:.4em;color:#FAFAFA;background:none;border-radius:6px;font-size:1.2em;line-height:1}
 	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:none;color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
@@ -1500,8 +1499,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .columns.two .tp ul li:last-child{margin-top:12.5%!important;line-height:4.7vw!important}
 }
 @media (max-width:920px) and (orientation:portrait) {
-	#mobile-nav .menu{max-height:330px!important}
+	#mobile-nav .menu{max-height:330px}
 }
 @media (max-width:920px) and (orientation:landscape) {
-	#mobile-nav .menu{max-height:120px!important}
+	#mobile-nav .menu{max-height:120px}
 }
