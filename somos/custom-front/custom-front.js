@@ -105,12 +105,10 @@ jQuery(document).ready(function() {
 	jQuery(window).resize(function() {
 		headerMobile();
 	});
-	jQuery('#mobile-nav-button').toggle(function() {
-		jQuery('#mobile-nav').show();
-		jQuery('#mobile-nav-button').addClass('gp-active');
-	},function(){
-		jQuery('#mobile-nav').hide();
-		jQuery('#mobile-nav-button').removeClass('gp-active');
+	jQuery('#mobile-nav-button').click(function(e) {
+		console.log('mobile-nav-button');
+		jQuery(this).toggleClass('gp-active');
+		jQuery('#mobile-nav').toggle();
 	});
 
 
