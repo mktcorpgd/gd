@@ -190,11 +190,10 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu .sub-menu{display:block;padding:.4em .2em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-top-left-radius:6px;border-top-right-radius:6px;top:36px;left:10px;visibility:hidden;opacity:0;transition:all .1s ease-in-out}
 .menu .sub-menu li a{padding:.3em 1em .3em .5em;font-weight:400;font-size:.9em;border-radius:6px}
-#nav .menu .sub-menu li a{margin:0}
+#nav .menu .sub-menu li a{margin:0;color:#FFFFFF;font-size:.9em}
 #nav .menu .sub-menu li ul{margin-top:-10px;left:40px}
 .menu li.menu-item-has-children{padding-right:17px!important}
-.menu li.menu-item-has-children:after,.menu>li>.sub-menu>li>a>i{width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
-.menu li.menu-item-has-children:after{content:'\f107'}
+.menu li.menu-item-has-children:after{content:'\f107';position:absolute;width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
 .menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
 
 /* Columnas */
