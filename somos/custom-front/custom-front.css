@@ -177,19 +177,20 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}
 
 /* Header */
-#header{padding:0 7px 8px;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0}
-#logo a{transition:all 1s ease-in-out;display:block}
+#header{padding:8px;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0}
+#logo a{transition:all 1s ease-in-out!important;display:block}
 #logo a:hover{transform:scale(1.1) rotate(720deg) translateX(5px)}
 
 /* Menú */
+#nav .menu .sub-menu,nav>.menu>li{transition:all .1s ease-in-out}
 #nav{float:left}
 #nav .menu{margin:0}
 #nav>.menu>li{padding:.4em .5em;border-radius:6px}
-#nav .menu li a:hover,#nav .menu li:hover>a{background:none}
-.menu li:hover{background:rgba(0,0,0,.3)!important}
-#nav .menu li a{padding:0;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+#nav>.menu>li:hover{background:rgba(0,0,0,.3)}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
-#nav .menu .sub-menu{display:block;padding:.3em .4em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0;transition:all .1s ease-in-out}
+#nav .menu li a:hover,#nav .menu li:hover>a{background:none}
+#nav .menu li a{padding:0;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+#nav .menu .sub-menu{display:block;padding:.3em .4em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0}
 #nav .menu .sub-menu li{border-radius:6px}
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
 #nav .menu .sub-menu li ul{margin-top:0}
@@ -197,7 +198,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li.menu-item-has-children:after{content:'\f107';position:absolute;right:4px;font-size:.8em;font-family:'Font Awesome 6 Pro';cursor:pointer}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px}
 #nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
-#nav .menu li.menu-item-has-children:hover:after,#nav .menu li i{color:#FFFFFF}
+#nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
 
 /* Columnas */
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
