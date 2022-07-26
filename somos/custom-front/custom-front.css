@@ -187,18 +187,15 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li a:hover,#nav .menu li:hover>a{background:none}
 .menu li:hover{background:rgba(0,0,0,.3)!important}
 #nav .menu li a{padding:0;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+#nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu .sub-menu{display:block;padding:.4em .2em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-top-left-radius:6px;border-top-right-radius:6px;top:36px;left:10px;visibility:hidden;opacity:0;transition:all .1s ease-in-out}
+.menu .sub-menu li a{padding:.3em 1em .3em .5em;font-weight:400;font-size:.9em;border-radius:6px}
 #nav .menu .sub-menu li a{margin:0}
+#nav .menu .sub-menu li ul{margin-top:-10px;left:40px}
+.menu li.menu-item-has-children{padding-right:17px!important}
 .menu li.menu-item-has-children:after,.menu>li>.sub-menu>li>a>i{width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
 .menu li.menu-item-has-children:after{content:'\f107'}
 .menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
-.menu li.menu-item-has-children{padding-right:17px!important}
-.menu .sub-menu li a{margin:0;padding:.3em 1em .3em .5em;box-sizing:border-box!important;color:#FFFFFF!important;text-transform:none;font-weight:400;font-size:.9em;letter-spacing:0;border:none;border-radius:0}
-#nav .menu .sub-menu>li:last-child,#nav .menu .sub-menu>li:last-child a{border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-#nav .menu .sub-menu>li:first-child a{border-top-left-radius:6px!important;border-top-right-radius:6px!important}
-#nav .menu .sub-menu>li:last-child a{border-bottom-left-radius:6px!important;border-bottom-right-radius:6px!important}
-#nav .menu .sub-menu li ul{margin-top:-10px;left:40px;}
-#nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 
 /* Columnas */
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
