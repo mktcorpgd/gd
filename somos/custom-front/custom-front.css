@@ -178,11 +178,12 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Header */
 #header{padding:.4em 1em;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0;transform:none;z-index:9999}
-#logo a{transition:all 1s ease-in-out!important;display:block}
+#logo a{transition:all 1s ease-in-out;display:block}
 #logo a:hover{transform:scale(1.1) rotate(720deg) translateX(5px)}
 
 /* Menú */
 #nav{float:left}
+#nav .menu{margin:0}
 #nav>.menu>li{padding:.4em .5em;border-radius:6px}
 #nav .menu li a:hover,#nav .menu li:hover>a{background:none}
 .menu li:hover{background:rgba(0,0,0,.3)!important}
