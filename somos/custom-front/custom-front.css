@@ -188,11 +188,9 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 .menu li:hover{background:rgba(0,0,0,.3)!important}
 #nav .menu li a{padding:0;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
-#nav .menu .sub-menu{display:block;padding:.4em .2em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-top-left-radius:6px;border-top-right-radius:6px;top:36px;left:10px;visibility:hidden;opacity:0;transition:all .1s ease-in-out}
-.menu .sub-menu li a{padding:.3em 1em .3em .5em;font-weight:400;font-size:.9em;border-radius:6px}
-#nav .menu .sub-menu li a{margin:0;color:#FFFFFF;font-size:.9em}
-#nav .menu .sub-menu li ul{margin-top:-10px;left:40px}
-.menu li.menu-item-has-children{padding-right:17px!important}
+#nav .menu .sub-menu{display:block;padding:.3em .6em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0;transition:all .1s ease-in-out}
+#nav .menu .sub-menu li a{margin:0;padding:0 .4em;color:#FFFFFF;font-size:.9em;border-radius:6px}
+.menu li.menu-item-has-children{padding-right:1em}
 .menu li.menu-item-has-children:after{content:'\f107';position:absolute;width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
 .menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
 
@@ -1297,7 +1295,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input:not(.default)[type=number]{-moz-appearance:textfield}
 	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	.is-search-form.is-form-id-26276 input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
-	#nav .menu .sub-menu{width:190px!important}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.has-post-thumbnail .post-text{border-left:2px solid #CCCCCC}
 	.sidebar{font-size:14px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content{max-height:1570px;position:relative;overflow:hidden}
