@@ -183,24 +183,22 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Menú */
 #nav{float:left}
-#nav>.menu>li>a{border-radius:6px!important}
+#nav>.menu>li{border-radius:6px!important}
 .menu li a,.menu li:hover>a{color:#FFFFFF}
-#nav .menu{margin-top:0}
+.menu li:hover{background:rgba(0,0,0,.3)!important}
+.menu li a{padding:.4em .5em;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu .sub-menu{transition:all .1s ease-in-out;display:block;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-top-left-radius:6px;border-top-right-radius:6px;padding:4px 0;top:36px!important;left:10px;visibility:hidden;opacity:0}
 #nav .menu .sub-menu li{line-height:1.2}
-.menu li.menu-item-has-children:after,.menu>li>.sub-menu>li>a>i{display:grid;align-items:center;width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6);position:absolute;top:2px;right:3px;cursor:pointer}
+.menu li.menu-item-has-children:after,.menu>li>.sub-menu>li>a>i{width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6);position:absolute;top:2px;right:3px;cursor:pointer}
 .menu li.menu-item-has-children:after{content:'\f107'}
 .menu li.menu-item-has-children:hover:after{color:#FFFFFF!important}
-.menu li.menu-item-has-children>a{padding-right:17px!important}
-#nav .menu .sub-menu li a{margin:0;padding:.3em 1em .3em .5em;box-sizing:border-box!important;color:#FFFFFF!important;text-transform:none;font-weight:400;font-size:.9em;letter-spacing:0;border:none;border-radius:0}
+.menu li.menu-item-has-children{padding-right:17px!important}
+.menu .sub-menu li a{margin:0;padding:.3em 1em .3em .5em;box-sizing:border-box!important;color:#FFFFFF!important;text-transform:none;font-weight:400;font-size:.9em;letter-spacing:0;border:none;border-radius:0}
 #nav .menu .sub-menu>li:last-child,#nav .menu .sub-menu>li:last-child a{border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-#nav .menu .sub-menu li a:hover,#nav .menu>li>.sub-menu>li.menu-item-has-children:hover>a{background:rgba(0,0,0,.1)!important;color:#FFFFFF!important}
 #nav .menu .sub-menu>li:first-child a{border-top-left-radius:6px!important;border-top-right-radius:6px!important}
 #nav .menu .sub-menu>li:last-child a{border-bottom-left-radius:6px!important;border-bottom-right-radius:6px!important}
-#nav .menu .sub-menu li ul{margin-top:-10px;left:40px;border-top-left-radius:0;border-top-right-radius:12px}
+#nav .menu .sub-menu li ul{margin-top:-10px;left:40px;}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
-.menu li a:hover{background:rgba(0,0,0,.3)!important}
-.menu li a{display:block;padding:10px;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 
 /* Columnas */
 .gp-blog-wrapper,.gp-blog-wrapper+.post-loop{float:left;width:100%}
