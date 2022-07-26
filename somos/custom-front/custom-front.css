@@ -183,10 +183,10 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Menú */
 #nav{float:left}
-#nav>.menu>li{border-radius:6px!important}
-.menu li a,.menu li:hover>a{color:#FFFFFF}
+#nav>.menu>li{padding:.4em .5em;border-radius:6px}
+#nav .menu li a:hover,#nav .menu li:hover>a{background:none}
 .menu li:hover{background:rgba(0,0,0,.3)!important}
-#nav .menu li a{padding:.4em .5em;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+#nav .menu li a{padding:0;font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu .sub-menu{transition:all .1s ease-in-out;display:block;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-top-left-radius:6px;border-top-right-radius:6px;padding:4px 0;top:36px!important;left:10px;visibility:hidden;opacity:0}
 #nav .menu .sub-menu li{line-height:1.2}
 .menu li.menu-item-has-children:after,.menu>li>.sub-menu>li>a>i{width:12px;height:100%;font-size:.8em;font-family:'Font Awesome 6 Pro';color:rgba(255,255,255,.6)}
@@ -1299,7 +1299,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	li.only-mobile{display:none!important}
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-moz-appearance:textfield}
-	#nav .menu>li{margin:0!important}
 	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	.is-search-form.is-form-id-26276 input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
 	#nav .menu .sub-menu{width:190px!important}
