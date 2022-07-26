@@ -28,7 +28,7 @@ jQuery.fn.capitalize = function(e) {
 	return this;
 };
 
-// Código personalizado una vez enviado el formulario
+// FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit',function(e) {
 	jQuery(this).addClass('sending');
 	jQuery('.wpcf7-form').addClass('sending');
@@ -36,13 +36,13 @@ jQuery(document).on('click','.wpcf7-submit',function(e) {
 	jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
 });
 
-// FORMULARIOS - Al enviar un form
+// FORMULARIOS - Respuesta afirmativa/negativa luego de enviar un form
 document.addEventListener('wpcf7submit', function(event) {
 	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
 	jQuery('.sending').removeClass('sending');
 }, false);
 
-// FORMULARIOS - Al enviar un form con éxito
+// FORMULARIOS - Respuesta afirmativa luego de enviar un form
 document.addEventListener('wpcf7mailsent', function(event) {
 	if ( event.detail.contactFormId == 42593 ) {
 		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
@@ -64,10 +64,10 @@ jQuery(document).ready(function() {
 		// Generación de URL <iframe>
 		var formid = jQuery('#gform').text();
 
-		// Encuesta GD40
+		/* Encuesta GD40
 		if ( jQuery('body').hasClass('page-id-25343') ) {
 			jQuery('iframe').attr('src','https://docs.google.com/forms/d/e/'+formid+'/viewform?embedded=true&entry.908291152='+fname+'&entry.696987736='+lname+'&entry.774317379='+email);
-		}
+		}*/
 
 		// Autoajustar altura de iframe después de enviar:
 		var loadCounter = 0;
@@ -114,8 +114,7 @@ jQuery(document).ready(function() {
 
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
-		var bday_img = Math.floor(Math.random()*1)+1;
-		jQuery('.bdays_today img').attr('src','/wp-content/uploads/birthday-gd'+bday_img+'.gif');
+		jQuery('.bdays_today img').attr('src','/wp-content/uploads/birthday-gd1.gif');
 	}
 	jQuery('.bdays_upcom').click(function(e){
 		jQuery(this).removeClass('collapse');

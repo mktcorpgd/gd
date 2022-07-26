@@ -105,7 +105,6 @@ h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-family:'Neo-San
 h1,h2,h3,h4,.widget .widgettitle,.neosans li{font-weight:500}
 h5,h6{font-weight:400}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif!important}
-#wpadminbar .ab-icon{font-family:'dashicons'}
 abbr[title]{border-bottom:0!important;cursor:inherit!important;text-decoration:none!important}
 input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em!important;padding:.5em .6em!important;width:100%!important;background:#F6F6F6!important;border:1px solid #CCCCCC!important;border-radius:6px!important;box-shadow:none!important;box-sizing:border-box!important;font-family:'Open-Sans',sans-serif!important;font-size:.9em!important;line-height:1.2;letter-spacing:-.01em!important}
 select{padding:.37em .6em!important}
@@ -144,8 +143,6 @@ h3.toggle i:before,.activity-time-since{color:#888888}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
 .padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.padder td a:hover,.widget li a:hover{text-decoration:underline}
 body .bk_forms .hasDatepick{display:block!important}
-.gp-mobile #wpadminbar{position:fixed;top:0;z-index:999999}
-.sub-menu,.gp-mobile .post-text{width:auto!important}
 .wp-block-media-text.text-to-top{align-items:normal}
 .wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
 .wp-block-embed__wrapper>.twitter-tweet{margin:0 auto}
@@ -169,6 +166,8 @@ span.resaltado-verde{color:#76923C}
 /* Admin */
 body.role-administrator .wp-block-column.only-admin{padding:0!important;margin:0!important;background:none!important;border:4px dashed #999999}
 body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visible por administradores';text-align:center;display:block;padding-top:.4em;width:100%;font-size:.7em;font-weight:600;text-transform:uppercase;letter-spacing:1px}
+#wpadminbar{position:fixed;top:0;z-index:999999}
+#wpadminbar .ab-icon{font-family:'dashicons'}
 #wpadminbar,#wpadminbar .shortlink-input,#wpadminbar .menupop .ab-sub-wrapper{background:#0E316E!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 16px 16px -10px rgba(0,0,0,.4)!important}
 #wpadminbar .ab-submenu .ab-item,#wpadminbar .quicklinks .menupop ul li a,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li a{color:#EEEEEE!important}
