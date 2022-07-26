@@ -185,7 +185,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu .sub-menu,nav>.menu>li{transition:all .1s ease-in-out}
 #nav{float:left}
 #nav .menu{margin:0}
-#nav>.menu>li{padding:.5em .5em .4em;border-radius:6px}
+#nav>.menu>li{padding:.45em .5em .4em;border-radius:6px}
 #nav .menu li{border-radius:6px}
 #nav .menu li:hover{background:rgba(0,0,0,.3)}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
