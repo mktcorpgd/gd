@@ -1416,7 +1416,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
 	#mobile-nav .menu li .mobile-dropdown-icon{line-height:2.35em;color:#FAFAFA}
-	#mobile-nav .menu li.gp-active .mobile-dropdown-icon{content:'\f106';color:#FFFFFF}
+	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:#FFFFFF}
+	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
 	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
