@@ -186,7 +186,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu{margin:0}
 #nav>.menu>li{padding:.45em .5em .4em;border-radius:6px}
 #nav .menu li{border-radius:6px}
-#nav .menu li:hover{background:rgba(0,0,0,.3)}
+#nav .menu li:hover,#mobile-nav .menu li>a:hover{background:rgba(0,0,0,.3)}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu li a:hover,#nav .menu li:hover>a{background:none}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
@@ -1416,8 +1416,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
 	#mobile-nav .menu li .mobile-dropdown-icon{height:100%}
-	#mobile-nav .menu li>.mobile-dropdown-icon{padding-top:.4em}
-	#mobile-nav .menu li li>.mobile-dropdown-icon{padding-top:.2em}
+	#mobile-nav .menu li>.mobile-dropdown-icon{line-height:2.35em}
+	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106';color:#FFFFFF}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
 	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
