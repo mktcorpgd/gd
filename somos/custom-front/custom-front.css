@@ -196,7 +196,8 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
 #nav .menu .sub-menu li ul{margin-top:0}
 #nav .menu li.menu-item-has-children{padding-right:1em}
-#nav .menu li.menu-item-has-children:after{content:'\f107';position:absolute;right:4px;font-size:.8em;font-family:'Font Awesome 6 Pro';cursor:pointer}
+#nav .menu li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:'Font Awesome 6 Pro'}
+#nav .menu li.menu-item-has-children:after{position:absolute;right:4px;font-size:.8em;cursor:pointer}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px}
 #nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
@@ -1143,7 +1144,7 @@ img[src*='-dark-']{background:#999999}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
 .widget_ref{color:#CCCCCC}
 .widget_ref a{margin:0;line-height:1.5}
-.eo_widget_calendar .widget_ref a{margin:0;padding:.1em .5em;color:#FFFFFF;font-size:.8em}
+.eo_widget_calendar .widget_ref a{margin:0;padding:.15em .5em;color:#FFFFFF;font-size:.8em}
 .eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
 .eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
@@ -1412,11 +1413,12 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:none;color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:0}
-	#mobile-nav .menu li a{padding:.4em .5em;font-size:1.2em}
+	#mobile-nav .menu li a{padding:.6em .5em;font-size:1.1em}
 	#mobile-nav .menu li li a{padding:.3em 1.2em}
 	#mobile-nav .menu li li li a{padding:.3em 1.2em .3em 1.6em}
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
+	#mobile-nav .menu li>.mobile-dropdown-icon{}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
 	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
 	.datepick-inline .calendar-links .datepick-prev a,.datepick-inline .calendar-links .datepick-next a{font-size:20px!important}
@@ -1447,7 +1449,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#respond p.form-submit,#respond #submit{margin-bottom:0!important}
 	.widget{margin:1em 0 0 0!important;font-size:18px}
 	#sidebar-right{margin-top:0!important}
-	#mobile-nav .menu li a{font-size:1.1em}
 	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
 	.widget .vevent abbr{position:relative;top:5px}
 	#copyright{font-size:14px;line-height:24px}
