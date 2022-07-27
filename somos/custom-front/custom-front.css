@@ -1329,18 +1329,14 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	blockquote{text-align:left}
 	body,input,textarea,select{font-size:20px}
 	input,textarea,select{font-size:18px!important;line-height:1.6em!important}
-	.wpcf7-form-control-date input{height:53px}
-	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
+	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
+	.sidebar{font-size:18px}
+	.sidebar .widget .textwidget li{font-size:1.1em}
+	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
+	.gp-responsive .sidebar{margin:0!important}
+	#sidebar-left{padding-bottom:0}
+	#sidebar-right{padding-top:0}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
-	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
-	.wpcf7 .columns{margin-bottom:10px!important}
-	.wpcf7-form .wpcf7-not-valid-tip{top:56px;right:15px;font-size:14px}
-	.wpcf7-select+.wpcf7-not-valid-tip{top:58px}
-	.wpcf7-form label#EMAIL-error{top:55px}
-	.wpcf7-form label#RESPBOSSEMAIL-error{top:79px}
-	.wpcf7 input.money{padding-left:26px!important}
-	.wpcf7 .columns>label>span.money-symbol{top:98px;font-size:18px}
-	.wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='radio']{margin:15px 0}
 	.page #content img[id*='tp']{border-radius:36px!important}
 	#content .columns.two .tp ul{padding:0!important;top:23%!important;left:13%!important}
 	#content .columns.two .tp ul li{padding-bottom:0;font-size:4.75vw!important;line-height:6vw!important}
@@ -1351,14 +1347,19 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .columns.two .tp h5{top:12vw;font-size:5vw;text-align:left}
 	#content .columns.two .tp ul li:last-child{margin-top:14px!important;line-height:18px!important}
 	#page-wrapper .toggle-box>.sc-button,#page-wrapper .widget .blue.sc-button{font-size:1.2rem!important}
+	.wpcf7-form-control-date input{height:53px}
+	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
+	.wpcf7 .columns{margin-bottom:10px!important}
+	.wpcf7-form .wpcf7-not-valid-tip{top:56px;right:15px;font-size:14px}
+	.wpcf7-select+.wpcf7-not-valid-tip{top:58px}
+	.wpcf7-form label#EMAIL-error{top:55px}
+	.wpcf7-form label#RESPBOSSEMAIL-error{top:79px}
+	.wpcf7 input.money{padding-left:26px!important}
+	.wpcf7 .columns>label>span.money-symbol{top:98px;font-size:18px}
+	.wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='radio']{margin:15px 0}
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
 	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
-	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
 	h1,.page-title{font-size:2em}
-	.birthdays-widget .birthday_wish{font-size:28px}
-	#custom_html-23 img{border-width:4px;border-top-left-radius:12px;border-top-right-radius:12px}
-	#custom_html-23 .url_public_bcard{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
-	#custom_html-23 .bcard~a.sc-button-social{font-size:2em}
 	.sc-button.inline{font-size:1em}
 	#page-wrapper{padding:0!important}
 	#content-wrapper{padding-top:64px!important}
@@ -1380,6 +1381,20 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#header .is-search-form.is-form-id-26276{margin:0 auto;padding:0!important;width:70%}
 	#header .is-search-form.is-form-id-26276 input[type='search']{width:100%!important;position:relative;top:8px;left:0;color:#FFFFFF!important;font-size:1.1em!important;line-height:1!important;background:rgba(0,0,0,.2)!important;border:0!important;border-radius:32px!important;vertical-align:middle}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
+	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:10px;padding:.4em;color:#FAFAFA;background:none;border-radius:6px;font-size:1.2em;line-height:1}
+	#mobile-nav-button.gp-active i:before{content:'\e0ae'}
+	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:none;color:#FFFFFF}
+	#mobile-nav .menu{overflow-y:scroll}
+	#mobile-nav .menu li{border:0}
+	#mobile-nav .menu>li:last-child{margin-bottom:1em}
+	#mobile-nav .menu li a{padding:.6em .5em;font-size:1.1em}
+	#mobile-nav .menu li li a{padding:.3em .5em}
+	#mobile-nav .menu li .sub-menu{background:#1F4483}
+	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
+	#mobile-nav .menu li .mobile-dropdown-icon{line-height:2.35em;color:#FAFAFA}
+	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:#FFFFFF}
+	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
+	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	.archive .gp-blog-wrapper,.search-results .gp-blog-wrapper{display:block;width:100%;margin:0!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section{margin-top:0!important;padding:10px 15px 15px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text{padding-bottom:.4em!important}
@@ -1398,63 +1413,47 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-loop .post-thumbnail+.post-text h2:before{top:-16px!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
+	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
+	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
-	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
+	.ui-tabs-nav>li{display:contents}
+	.ui-tabs .ui-tabs-nav li a{font-size:.825em!important;text-align:center}
 	#content .embed{margin:0;border:none}
 	#nav{position:absolute;top:0;right:0}
-	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:10px;padding:.4em;color:#FAFAFA;background:none;border-radius:6px;font-size:1.2em;line-height:1}
-	#mobile-nav-button.gp-active i:before{content:'\e0ae'}
-	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:none;color:#FFFFFF}
-	#mobile-nav .menu{overflow-y:scroll}
-	#mobile-nav .menu li{border:0}
-	#mobile-nav .menu>li:last-child{margin-bottom:1em}
-	#mobile-nav .menu li a{padding:.6em .5em;font-size:1.1em}
-	#mobile-nav .menu li li a{padding:.3em .5em}
-	#mobile-nav .menu li .sub-menu{background:#1F4483}
-	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
-	#mobile-nav .menu li .mobile-dropdown-icon{line-height:2.35em;color:#FAFAFA}
-	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:#FFFFFF}
-	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
-	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
-	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
+	.post-thumbnail,.post-thumbnail img{width:100%!important}
 	.datepick-inline .calendar-links .datepick-prev a,.datepick-inline .calendar-links .datepick-next a{font-size:20px!important}
+	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
+	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
+	#custom_html-10 .widget_ref a{font-size:18px}
 	#custom_html-11 .widgettitle,.bdays_upcom .widgettitle{border-bottom:none}
 	#custom_html-11 .textwidget .toggle-box ul,.bdays_upcom{max-height:300px;border:1px solid #DDDDDD;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 	#custom_html-11 .textwidget .toggle-box ul li,.bdays_upcom li,.birthdays-widget>.birthday{padding-left:15px!important;padding-right:15px!important}
+	#custom_html-23 img{border-width:4px;border-top-left-radius:12px;border-top-right-radius:12px}
+	#custom_html-23 .url_public_bcard{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
+	#custom_html-23 .bcard~a.sc-button-social{font-size:2em}
 	#custom_html-24 .widgettitle,.bdays_upcom .widgettitle{border-bottom:none}
 	#custom_html-24 .textwidget .toggle-box ul{max-height:300px;border:1px solid #DDDDDD;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 	#custom_html-24 .textwidget .toggle-box ul li{padding-left:15px!important;padding-right:15px!important}
-	.post-thumbnail,.post-thumbnail img{width:100%!important}
-	#fl_home .fa{position:relative;bottom:2px}
-	.birthdays-widget ul.birthday_list .birthday_name{font-size:24px!important}
 	#text-2.widget ul li.notoggle{padding-left:11px}
-	.textwidget h3.toggle a{padding-left:10px}
 	#text-2.widget .toggle-box ul:not(.ui-tabs-nav){margin:5px 0 5px 12px}
-	.ui-tabs .ui-tabs-nav li a{font-size:.825em!important;text-align:center}
+	.birthdays-widget .birthday_wish{font-size:28px}
+	.birthdays-widget ul.birthday_list .birthday_name{font-size:24px!important}
+	.birthdays-widget .birthday_date{padding-bottom:0;font-size:.9em}
+	.birthdays-widget img{width:30%}
+	.textwidget h3.toggle a{padding-left:10px}
 	.widget_ref h6{font-size:18px;margin:20px 0 10px}
-	#custom_html-10 .widget_ref a{font-size:18px}
 	.widget_ref a{font-size:.85em!important}
 	.widget .note{line-height:24px;margin-top:15px!important}
-	.birthdays-widget .birthday_date{padding-bottom:0;font-size:.9em}
-	.ui-tabs-nav>li{display:contents}
 	.widget #wp-calendar caption,.widget .datepick-inline .datepick-header span{font-size:18px!important;line-height:24px!important}
 	.widget #wp-calendar tfoot{top:0}
 	.widget #wp-calendar tfoot td a{font-size:18px!important}
 	#wp-calendar tfoot td{top:3px}
 	a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .8em!important}
 	#respond p.form-submit,#respond #submit{margin-bottom:0!important}
-	.sidebar{font-size:18px}
-	.sidebar .widget .textwidget li{font-size:1.1em}
-	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
-	.gp-responsive .sidebar{margin:0!important}
-	#sidebar-left{padding-bottom:0}
-	#sidebar-right{padding-top:0}
-	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
 	.widget .vevent abbr{position:relative;top:5px}
 	#copyright{font-size:14px;line-height:24px}
-	.birthdays-widget img{width:30%}
 	a.button.fullwidth,#respond #submit{margin-top:0;width:100%;border-radius:0!important}
 	body .widget button:not(.mfp-close){line-height:26px!important;padding:8px 0;right:10px}
 	.sc-button.medium{font-size:1.1em!important}
@@ -1468,7 +1467,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-loop,article.event{margin:0 0 15px!important}
 	#logo{margin-top:10px;margin-left:10px}
 	#logo img{width:40px;height:40px}
-	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
 	body.gp-theme.fullwidth #content-wrapper{padding-top:95px}
 	#content code,.widget code{font-size:18px;line-height:24px}
 	#UseyourDrive .uyd-grid .folders-container .entry.folder:before,#UseyourDrive .entry.folder .entry_icon:before,#UseyourDrive .files.layout-list .entry_link:before{font-size:1.4em}
@@ -1481,6 +1479,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content table td:last-child{border-left:1px solid #CCCCCC!important;border-bottom:none!important}
 	#content [class*=category-casos-de-] table tr:last-child td:first-child{border-bottom-left-radius:0}
 	#content [class*=category-casos-de-] table tr:last-child td:last-child{border-bottom-left-radius:12px}
+	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
 	#commentform textarea{padding:10px 20px!important;border-radius:0!important;border-right:none!important;border-left:none!important}
 	body.archive .padder,body.search .padder{padding-left:0;padding-right:0;padding-bottom:0;background:#EAEAEA}
 	body.archive .gp-blog-wrapper .gp-meta-cats a,body.search .gp-blog-wrapper .gp-meta-cats a{margin-top:0;line-height:1.3}
@@ -1490,16 +1489,10 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	._Bell.Bottom.Right_bell{width:40px!important;height:40px!important}
 	.UseyourDrive .search-input{max-width:200px;padding:5px 10px!important}
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
-	#countdown li{font-size:1.125rem;padding:.75rem}
-	#countdown li span{font-size:3.375rem}
 	.bottom_logos a img{width:160px}
 	.info-material{font-size:1rem}
-}
-@media (max-width:960px) and (orientation:landscape) {
-	#content .columns.two .tp h2{bottom:17vw;font-size:6.5vw}
-	#content .columns.two .tp h4{bottom:11.3vw;font-size:5.4vw}
-	#content .columns.two .tp ul{top:24.7%}
-	#content .columns.two .tp ul li:last-child{margin-top:12.5%!important;line-height:4.7vw!important}
+	/*#countdown li{font-size:1.125rem;padding:.75rem}
+	#countdown li span{font-size:3.375rem}*/
 }
 @media (max-width:920px) and (orientation:portrait) {
 	#mobile-nav .menu{max-height:330px}
