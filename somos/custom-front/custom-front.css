@@ -1449,6 +1449,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sidebar .widget .textwidget li{font-size:1.1em}
 	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
 	.gp-responsive .sidebar{margin:0!important}
+	#sidebar-left{padding-bottom:0}
+	#sidebar-right{padding-top:0}
 	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
 	.widget .vevent abbr{position:relative;top:5px}
 	#copyright{font-size:14px;line-height:24px}
