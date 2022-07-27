@@ -27,7 +27,7 @@ body:not(.single-event) article.event p,body.single-event .entry-content h4,.eo-
 /* Comerciales */
 body:not(.role-administrator):not(.role-marketing):not(.role-comercial_ar) section.category-comerciales,
 /* Entradas */
-.post-header,.post-loop.hidden,body.page-id-26272 .post-loop .post-text h2:before,.post-loop .post-text .read-more,body:not(.home) .post-loop.category-certificaciones .post-text p,.post-loop.category-graduaciones .post-text p,.post-loop.category-ingresos .post-text p,body.page-id-923 .post-text h2:before,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
+.post-header,.post-loop.hidden,body.page-id-26272 .post-loop .post-text h2:before,.post-loop .post-text .read-more,body:not(.home) .post-loop.category-certificaciones .post-text p,.post-loop.category-graduaciones .post-text p,.post-loop.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
 /* Home */
 body.home .page-title,body.home .gp-meta-cats,
 /* Push */
@@ -60,7 +60,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#333333}
 ::-ms-input-placeholder{color:#333333}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,#logo a,#page-wrapper .button,#page-wrapper .sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{transition:all .1s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,#logo a,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{transition:all .1s ease-in-out!important}
 html.noadminbar{margin-top:0!important}
 body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll;letter-spacing:-.005em}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
@@ -304,7 +304,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 body form.sending:before{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;font-size:24px;background-color:rgba(255,255,255,.6);background-repeat:no-repeat;background-position:center 90%;z-index:10}
 body form.sending{cursor:wait}
 form.sending input,form.sending select,form.sending input{cursor:wait}
-#page-wrapper form.sending .wpcf7-submit,#page-wrapper form.sending .wpcf7-submit:hover{background:#AAAAAA!important;border-color:#AAAAAA!important;font-weight:400!important}
+form.sending .wpcf7-submit,form.sending .wpcf7-submit:hover{background:#AAAAAA!important;border-color:#AAAAAA!important;font-weight:400!important}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px!important;border:none!important}
 div.wpcf7{margin:0;padding:0}
 div.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);height:1px;width:1px;margin:0;padding:0;border:0}
@@ -926,10 +926,10 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 
 /* Botones */
 #page-wrapper{overflow:visible}
-#page-wrapper .button,#page-wrapper .sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500!important;background:#F0582B;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-shadow:none;outline:none;cursor:pointer}
-#page-wrapper .button:hover,#page-wrapper .sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover{background:#1F4483;box-shadow:0 3px 6px -3px #1F4483;text-decoration:none}
-#page-wrapper .button:active,#page-wrapper .sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active{background:#0E316E}
-#page-wrapper #post-content .sc-button.disabled,#page-wrapper #post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
+.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500!important;background:#F0582B;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-shadow:none;outline:none;cursor:pointer}
+.button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover{background:#1F4483;box-shadow:0 3px 6px -3px #1F4483;text-decoration:none}
+.button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active{background:#0E316E}
+#post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 a.button.fullwidth{width:100%}
 #respond #submit{float:right;margin:.5em 0}
 .commentlist #respond #submit{margin-bottom:0}
@@ -950,6 +950,14 @@ body.home .sc-button.large{display:block!important;width:fit-content;clear:both;
 .sc-button.inline{margin:.2em .4em 0 0;padding:0 10px;font-size:.85em}
 .bcard~a.sc-button-social{display:inline-block;margin:.2em .2em 0;color:#0E316E;font-size:1.5em}
 
+.yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
+.widget .button{display:inline-block;margin:0 0 10px;min-width:70%}
+body #content .sc-button{padding:.4em .6em;font-size:1.2em;background-color:#F0582B;color:#FFFFFF}
+body .widget button:not(.mfp-close){background-color:transparent;border:0;box-shadow:none;color:#0E316E;line-height:17px;position:absolute;right:20px;width:10%}
+.buttons-download{text-align:center}
+.padder .buttons-download{margin-bottom:15px}
+.bcard~a.sc-button-social:hover{color:#F0582B}
+
 #custom_html-23{text-align:center}
 #custom_html-23 .widgettitle{text-align:left}
 #custom_html-23 h4{margin-bottom:0}
@@ -965,32 +973,9 @@ body.home .sc-button.large{display:block!important;width:fit-content;clear:both;
 .bcard.silica .url_public_bcard{background:#87B217!important}
 .bcard.velocom .url_public_bcard{background:#AE1A57!important}
 .bcard:hover img,#custom_html-23 .bcard:hover .url_public_bcard{border-color:#F0582B!important;background:#F0582B!important}
-.widget .blue.sc-button:not(.inline){margin:.6em 0 0}
-.sidebar .widget .blue.sc-button:not(.inline){padding:0 .6em}
-.widget .blue.sc-button+.sc-button,.widget div+.blue.sc-button{margin-top:10px}
-.widget .blue.sc-button:hover{background:#1F4483!important;border-color:#1F4483!important;color:#FFFFFF!important;text-decoration:none}
-.widget .blue.sc-button.inline:hover,#custom_html-23 .bcard~a.sc-button-social:hover{color:#F0582B}
-.widget .blue.sc-button.inline:hover{box-shadow:none!important}
-.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{width:fit-content}
-.wpcf7 input[type='submit']{display:block;padding:0 15px!important;line-height:44px!important}
-.wpcf7 input[type='submit']{margin:20px auto 0!important}
 body.post-template-default .yotu-playlist{padding-bottom:0}
-.yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
-.widget .button{display:inline-block;margin:0 0 10px;min-width:70%}
 .yotu-pagination{padding-top:0!important}
-body .widget button:not(.mfp-close){background-color:transparent;border:0;box-shadow:none;color:#0E316E;line-height:17px;position:absolute;right:20px;width:10%}
-#page-wrapper input[type='button']:hover,#page-wrapper input[type='submit']:hover,#page-wrapper input[type='reset']:hover,#page-wrapper button:hover,.button:hover{background:#F0582B;border-color:#F0582B}
-.buttons-download{text-align:center}
-.padder .buttons-download{margin-bottom:15px}
-#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper button,.button{color:#FFFFFF}
-#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper button,.button{background-color:#F0582B;border-color:#F0582B}
-#page-wrapper input[type='button']:hover,#page-wrapper input[type='submit']:hover,#page-wrapper input[type='reset']:hover,button:hover,.button:hover{background-color:#F0582B;border-color:#F0582B;color:#FFFFFF}
 .post-loop.post-columns{margin:0 0 24px 4%}
-body #content .sc-button{padding:.4em .6em;font-size:1.2em;background-color:#F0582B;color:#FFFFFF}
-body.page-id-923 #content .sc-button.xlarge{width:100%;padding:0 0 .6em;font-size:1.5em;background-color:#0E316E!important}
-body.page-id-923 #page-wrapper #content .sc-button.xlarge:hover{background-color:#F0582B!important}
-body.page-id-923 #content .sc-button.xlarge img{max-width:400px}
-.slick-next,.slick-prev,.slick-dots li button{padding:0!important;background:none!important}
 
 img[src*='-dark-']{background:#999999}
 .eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
@@ -1206,7 +1191,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .columns.two .tp h3{top:6vw;font-size:6vw!important;text-align:left}
 	#content .columns.two .tp h5{top:12vw;font-size:5vw;text-align:left}
 	#content .columns.two .tp ul li:last-child{margin-top:14px!important;line-height:18px!important}
-	#page-wrapper .toggle-box>.sc-button,#page-wrapper .widget .blue.sc-button{font-size:1.2rem!important}
+	.toggle-box>.sc-button,.widget .sc-button{font-size:1.2rem!important}
 	.wpcf7-form-control-date input{height:53px}
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
 	.wpcf7 .columns{margin-bottom:10px!important}
