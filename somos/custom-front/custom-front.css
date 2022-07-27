@@ -952,7 +952,7 @@ body .widget button:not(.mfp-close){background-color:transparent;border:0;box-sh
 .bcard~a.sc-button-social:hover{color:#F0582B}
 
 #text-4{padding:0}
-#text-4 h3{margin:0!important;font-size:1.35em}
+#text-4 h3{margin:0!important;text-align:center}
 #text-4 h3 a{display:block}
 
 #custom_html-23{text-align:center}
