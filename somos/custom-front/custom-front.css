@@ -755,6 +755,7 @@ section[class*='uruguay'] .post-text h2:before{background-image:url(https://somo
 /* Home */
 body.home .padder{background:none}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
+body.home #post-content .ui-tabs .ui-tabs-nav li a:before{font-size:.84em}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.2em;width:.9em;height:.9em;background:#0E316E;color:#FFFFFF;position:relative;top:1px;background-repeat:no-repeat;background-size:contain;border-radius:50%}
 .gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
 body.home .post-loop .gp-loop-meta span a{margin:0;font-weight:400;color:#666666}
@@ -1225,7 +1226,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
-	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;font-size:.84em}
+	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
 	#content .embed{margin:0;border:none}
