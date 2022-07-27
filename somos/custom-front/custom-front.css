@@ -515,7 +515,8 @@ body.single #content li:not(.slick-slide),body.single .mfp-content li{margin-bot
 #content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
 body:not(.home) .padder{border-radius:12px;background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body:not(.home) .padder h1{color:#0E316E}
-body.page:not(.home) #content .padder{border-top-width:12px;border-top-style:solid}
+body:not(.home) #content .padder{border-top-width:12px;border-top-style:solid;border-top-color:transparent}
+body:not(.home) #content .post-thumbnail+.padder{border-top-width:0}
 body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
 body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
