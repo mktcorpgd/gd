@@ -460,6 +460,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
+#container #content,.padder{padding:0;background:none;border-radius:0}
 #post-content,.entry-content{margin-top:1em;margin-bottom:2em}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 #post-content>p{font-size:1.05em!important}
@@ -904,7 +905,6 @@ section[class*='category-40gd'] .post-text h2:before{top:30px}
 
 /* Home */
 body.home #post-content{margin-top:0;margin-bottom:0}
-body.home .padder,body.archive .padder,body.search .padder{padding:0!important;background:none}
 body.home #content-wrapper,body.archive #content-wrapper,body.search #content-wrapper{margin-bottom:0!important}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.2em;width:.9em;height:.9em;background:#0E316E;color:#FFFFFF;position:relative;top:1px;background-repeat:no-repeat;background-size:contain;border-radius:50%}
@@ -1326,7 +1326,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 /* Mobile */
 @media (max-width:782px) {
 	#mobile-nav .menu li a i{display:none!important}
-	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,.post-loop,.sidebar .widget,body #content .padder,#container #content,.post-thumbnail.single-thumbnail{border-radius:0!important}
+	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,.post-loop,.sidebar .widget,body #content .padder,.post-thumbnail.single-thumbnail{border-radius:0!important}
 	blockquote{text-align:left}
 	body,input,textarea,select{font-size:20px}
 	input,textarea,select{font-size:18px!important;line-height:1.6em!important}
@@ -1365,7 +1365,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#page-wrapper{padding:0!important}
 	#content-wrapper{padding-top:64px!important}
 	section.post-loop.category-destacados{border:12px solid #0E316E!important}
-	.gp-blog-wrapper{padding:.5em .4em .4em!important}
 	.gp-blog-wrapper+.post-loop{float:none;display:block;margin:.5em auto .4em!important;width:96%;clear:both}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-thumbnail{border-right:none!important}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:5px}
@@ -1411,7 +1410,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#mobile-nav-button.gp-active,#mobile-nav-button:hover{background:none;color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:0}
-	#mobile-nav .menu>li:last-child{border-bottom:1em solid rgba(0,0,0,.1)}
+	#mobile-nav .menu>li:last-child{margin-bottom:1em}
 	#mobile-nav .menu li a{padding:.6em .5em;font-size:1.1em}
 	#mobile-nav .menu li li a{padding:.3em .5em}
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
@@ -1487,7 +1486,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body:not(.single-event) article.event h2{margin-bottom:0!important}
 	body.single-event #content .eo-event-meta li:first-child{font-size:1.6em;line-height:1.15}
 	._Bell.Bottom.Right_bell{width:40px!important;height:40px!important}
-	#container #content,.padder{padding:20px}
+	#container #content,.padder{padding:1em}
 	.UseyourDrive .search-input{max-width:200px;padding:5px 10px!important}
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	#countdown li{font-size:1.125rem;padding:.75rem}
