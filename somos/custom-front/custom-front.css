@@ -517,6 +517,23 @@ body.single #content li:not(.slick-slide),body.single .mfp-content li{margin-bot
 #content .rsc_message>a,#content p a,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link),#post-content p a,#post-content li>a{color:#F0582B}
 #content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
 .padder{padding-bottom:0;padding-left:30px;padding-right:30px;border-radius:24px;background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+.padder h1{color:#0E316E}
+body.page #content .padder{border-top-width:12px;border-top-style:solid}
+body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
+body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
+body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
+body.post-template-default.single #content article[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1,body.page-id-28032 #content h1,body.page-id-28029 #content h1{color:#1C8DCE}
+body.post-template-default.single #content article[class*='category-datco'] .padder,body.page-id-11286 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder{border-top-color:#1C8DCE}
+body.post-template-default.single #content article.category-focus h1,body.page-id-11299 #content h1{color:#39457E}
+body.post-template-default.single #content article.category-focus .padder,body.page-id-11299 .padder{border-top-color:#39457E}
+body.post-template-default.single #content article.category-interservices h1,body.page-id-11305 #content h1,body.page-id-28036 #content h1{color:#BF250D}
+body.post-template-default.single #content article.category-interservices .padder,body.page-id-11305 .padder,body.page-id-28036 .padder{border-top-color:#BF250D}
+body.post-template-default.single #content article.category-sersat h1,body.page-id-11308 #content h1{color:#109B84}
+body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
+body.post-template-default.single #content article.category-silica-networks h1,body.page-id-11283 #content h1,body.page-id-15096 #content h1{color:#497718}
+body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
+body.post-template-default.single #content article.category-velocom h1,body.page-id-11277 #content h1{color:#AE1A57}
+body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
 .post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
 #content .gp-blog-wrapper .post-loop .post-text p{margin-top:.3em;margin-bottom:.1em;font-size:.9em!important;line-height:1.4!important}
 .post-thumbnail.single-thumbnail img{width:60%}
@@ -535,22 +552,6 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 #post-content>.nav-posts select{padding:.2em!important;font-size:.6em!important}
 #post-content+.nav-posts{text-align:right}
 #post-content+.nav-posts select{padding:.3em .2em!important;text-align:right;background:#0E316E!important;color:#FFFFFF;font-size:1.3em!important;border:none!important;border-radius:12px!important}
-body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
-body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
-body.post-template-default.single #content article[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1,body.page-id-28032 #content h1,body.page-id-28029 #content h1{color:#1C8DCE}
-body.post-template-default.single #content article[class*='category-datco'] .padder,body.page-id-11286 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder{border-top-color:#1C8DCE}
-body.post-template-default.single #content article.category-focus h1,body.page-id-11299 #content h1{color:#39457E}
-body.post-template-default.single #content article.category-focus .padder,body.page-id-11299 .padder{border-top-color:#39457E}
-body.post-template-default.single #content article.category-interservices h1,body.page-id-11305 #content h1,body.page-id-28036 #content h1{color:#BF250D}
-body.post-template-default.single #content article.category-interservices .padder,body.page-id-11305 .padder,body.page-id-28036 .padder{border-top-color:#BF250D}
-body.post-template-default.single #content article.category-sersat h1,body.page-id-11308 #content h1{color:#109B84}
-body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
-body.post-template-default.single #content article.category-silica-networks h1,body.page-id-11283 #content h1,body.page-id-15096 #content h1{color:#497718}
-body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
-body.post-template-default.single #content article.category-velocom h1,body.page-id-11277 #content h1{color:#AE1A57}
-body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
-body.post-template-default.single #content article.category-grupo-datco h1,body.post-template-default.single #content article.category-iop h1,body.post-template-default.single #content article.category-grupo-datco h1,body.page-id-18106 #content h1,body.page-id-18351 #content h1,body.page-id-22942 #content h1{color:#0E316E}
-body.post-template-default.single #content article.category-grupo-datco .padder,body.post-template-default.single #content article.category-iop .padder,body.post-template-default.single #content article.category-iot .padder,body.page-id-18106 .padder,body.page-id-18351 .padder,body.page-id-22942 .padder{border-top-color:#0E316E}
 
 /* Sidebar */
 .sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
@@ -1314,8 +1315,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.4em .9em}
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail:not([class*='category-40gd-trivias']){display:grid;grid-template-columns:45% 55%}
 	.bottom_logos a img{width:120px}
-	body.post-template-default.single #content article[class*='category-grupo-datco'] .padder,body.post-template-default.single #content article[class*='category-iop'] .padder,body.post-template-default.single #content article[class*='category-iot'] .padder,body.post-template-default.single #content article[class*='category-baitcon'] .padder,body.post-template-default.single #content article[class*='category-datco'] .padder,body.post-template-default.single #content article[class*='category-focus'] .padder,body.post-template-default.single #content article[class*='category-interservices'] .padder,body.post-template-default.single #content article[class*='category-sersat'] .padder,body.post-template-default.single #content article[class*='category-silica-networks'] .padder,body.post-template-default.single #content article[class*='category-velocom'] .padder{padding-top:1em;border-top-width:6px;border-top-style:solid}
-	body.page-id-11286 .padder,body.page-id-11289 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder,body.page-id-11299 .padder,body.page-id-11305 .padder,body.page-id-11308 .padder,body.page-id-11283 .padder,body.page-id-15096 .padder,body.page-id-18106 .padder,body.page-id-18351 .padder,body.page-id-11277 .padder,body.page-id-22942 .padder,body.page-id-28036 .padder{padding-top:1em;border-top-width:12px;border-top-style:solid}
 	.sidebar .widget h3.toggle > i{width:16px}
 	.sidebar .widget h3.toggle{font-size:1.1em!important}
 	.error404 .padder{padding:5% 0!important}
