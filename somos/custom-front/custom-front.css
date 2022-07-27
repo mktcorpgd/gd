@@ -93,7 +93,7 @@ video{outline:none!important;cursor:pointer}
 blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:20px;line-height:1.5}
 .not-visible{visibility:hidden}
-.padder,.widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
+.widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
 .widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-color:#FFFFFF}
 .wp-block-separator{float:none;display:block;border:none!important}
 .author span{text-transform:uppercase}
@@ -137,7 +137,6 @@ h3.toggle i:before,.activity-time-since{color:#888888}
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {width:100%!important}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
 .padder a:hover,.padder li a:not(.ui-tabs-anchor):hover,.widget li a:hover{text-decoration:underline}
-body .bk_forms .hasDatepick{display:block!important}
 .wp-block-media-text.text-to-top{align-items:normal}
 .wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
 .wp-block-embed__wrapper>.twitter-tweet{margin:0 auto}
@@ -457,7 +456,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
-#container #content,.padder{padding:0;background:none;border-radius:0}
+#container #content,.padder{padding:0;border-radius:0}
 #post-content,.entry-content{margin-top:1em;margin-bottom:2em}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 #post-content>p{font-size:1.05em!important}
