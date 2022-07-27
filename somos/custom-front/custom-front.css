@@ -928,7 +928,7 @@ a.button.fullwidth{width:100%}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
 .widget .sc-button{margin:0 .4em 1em 0;padding:.3em .6em}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
-.sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em}
+.sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em;line-height:1.2}
 .sc-button.small{font-size:.9em;font-weight:400;border-radius:6px}
 .sc-tab-panel>.sc-button.small{margin:0}
 .sc-button.medium{font-size:1.05em}
