@@ -926,9 +926,9 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500!important;background:#F0582B;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-shadow:none;outline:none;cursor:pointer}
-.button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover{background:#1F4483;box-shadow:0 3px 6px -3px #1F4483;text-decoration:none}
-.button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active{background:#0E316E}
+.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500!important;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-decoration:none!important;text-shadow:none;outline:none;cursor:pointer}
+.button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover{background:#1F4483!important}
+.button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active{background:#0E316E!important}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 a.button.fullwidth{width:100%}
 #respond #submit{float:right;margin:.5em 0}
