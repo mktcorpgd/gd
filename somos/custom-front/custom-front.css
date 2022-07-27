@@ -778,7 +778,7 @@ body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0
 body.home .gp-blog-wrapper+.post-loop{position:relative;margin-bottom:1em!important;overflow:hidden}
 body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{padding-right:40px}
 body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0}
-body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
+body.home .sc-button.large{display:block;margin:0 auto;width:fit-content}
 
 /* Paginación */
 .wp-pagenavi,.page-links{font-weight:400!important;margin:20px 0 0;text-align:right}
@@ -928,20 +928,18 @@ a.button.fullwidth{width:100%}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
 .widget .sc-button{margin:0 .4em 1em 0;padding:.3em .6em}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
-.sc-button.small,.sc-button.medium{line-height:1.2}
+.sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em}
 .sc-button.small{font-size:.9em;font-weight:400;border-radius:6px}
-.sc-button.small+.sc-button.small{margin-left:.4em}
-.sc-button.medium{padding:.4em .8em;font-size:1.05em}
 .sc-tab-panel>.sc-button.small{margin:0}
-.sc-button.large,.sc-button.xlarge{line-height:1.5}
+.sc-button.medium{font-size:1.05em}
+.sc-button.large,.sc-button.xlarge{font-size:1.2em}
 .sc-button.xlarge{font-size:1.3em}
-.sc-button.inline{margin:.2em .4em 0 0;padding:0 10px;font-size:.85em}
-.sc-button-social{display:inline-block;margin:.2em .2em 0;color:#0E316E;font-size:1.5em}
+.sc-button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
+.sc-button-social{display:inline-block;margin:.2em .2em 0;color:#F0582B;font-size:1.5em}
+.sc-button-social:hover{color:#1F4483}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
 .buttons-download{text-align:center}
 .padder .buttons-download{margin-bottom:15px}
-.bcard~a.sc-button-social:hover{color:#F0582B}
-
 #text-4{padding:0}
 #text-4 h3{margin:0!important;font-size:1.15em;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
 #text-4 h3 a{display:block}
