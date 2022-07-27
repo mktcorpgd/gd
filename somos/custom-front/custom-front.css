@@ -767,7 +767,7 @@ section[class*='puerto-rico'] .post-text h2:before,#tab-PuertoRico .post-text h2
 section[class*='uruguay'] .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-uy.svg)}
 
 /* Home */
-body.home .padder{padding:0;background:none}
+body.home .padder{background:none}
 body.home #post-content{margin-top:0;margin-bottom:0}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.2em;width:.9em;height:.9em;background:#0E316E;color:#FFFFFF;position:relative;top:1px;background-repeat:no-repeat;background-size:contain;border-radius:50%}
@@ -778,6 +778,7 @@ body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0
 body.home .gp-blog-wrapper+.post-loop{position:relative;margin-bottom:1em!important;overflow:hidden}
 body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{padding-right:40px}
 body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0}
+body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
 
 /* Paginación */
 .wp-pagenavi,.page-links{font-weight:400!important;margin:20px 0 0;text-align:right}
@@ -925,7 +926,6 @@ a.button.fullwidth{width:100%}
 .commentlist #respond #submit{margin-bottom:0}
 .widget .toggle-box .blue.sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
 .widget .sc-button{margin:0 .4em 1em 0;padding:.3em .6em}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium{line-height:1.2}
@@ -1241,6 +1241,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
+	body.home .padder{padding:0;background:none}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
@@ -1314,8 +1315,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	.bottom_logos a img{width:160px}
 	.info-material{font-size:1rem}
-	/*#countdown li{font-size:1.125rem;padding:.75rem}
-	#countdown li span{font-size:3.375rem}*/
 }
 @media (max-width:920px) and (orientation:portrait) {
 	#mobile-nav .menu{max-height:330px}
