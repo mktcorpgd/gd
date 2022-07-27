@@ -602,12 +602,6 @@ ul#lcp_instance_0.busquedas {border:none!important}
 #custom_html-24 > div > h3 > i.fa-plus-square+a:after,#custom_html-24 > div > h3 > i.fa-minus-square+a:after{font-family:'Font Awesome 6 Pro',sans-serif;position:absolute;top:0;right:0}
 #custom_html-24 > div > h3 > i.fa-plus-square+a:after{content:'\f067'}
 #custom_html-24 > div > h3 > i.fa-minus-square+a:after{content:'\f068'}
-#text-4{padding-bottom:0!important;background:#F0582B;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)}
-#text-4 h3{margin:0!important;font-size:1.35em}
-#text-4 h3 a{padding:.5em 0;color:#FFFFFF}
-#text-4 h3 a:hover{text-decoration:none}
-#text-4 h3,#text-4 a{display:block}
-#text-4 h3 a i{opacity:1;margin-left:5px;font-size:100%}
 
 /* Colapsables */
 #content-wrapper h3.toggle{display:block!important}
@@ -946,7 +940,7 @@ body.home .sc-button.large{display:block!important;width:fit-content;clear:both;
 .sc-tab-panel>.sc-button.small{margin:0}
 .sc-button.large{font-size:1.3em}
 .sc-button.large,.sc-button.xlarge{line-height:1.5}
-.sc-button.xlarge{font-size:1.4em}
+.sc-button.xlarge,#text-4 h3 a{font-size:1.4em}
 .sc-button.inline{margin:.2em .4em 0 0;padding:0 10px;font-size:.85em}
 .sc-button-social{display:inline-block;margin:.2em .2em 0;color:#0E316E;font-size:1.5em}
 
@@ -957,6 +951,10 @@ body .widget button:not(.mfp-close){background-color:transparent;border:0;box-sh
 .buttons-download{text-align:center}
 .padder .buttons-download{margin-bottom:15px}
 .bcard~a.sc-button-social:hover{color:#F0582B}
+
+#text-4{padding:0}
+#text-4 h3{margin:0!important;font-size:1.35em}
+#text-4 h3 a{display:block;color:#FFFFFF}
 
 #custom_html-23{text-align:center}
 #custom_html-23 .widgettitle{text-align:left}
