@@ -17,7 +17,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,
 /* Formularios */
-.wpcf7 .hidden,div.wpcf7 .ajax-loader,.wpcf7 .wpcf7-validates-as-required.valid~label,.mc4wp-checkbox,#content .wpcf7+h2,.wpcf7-radio.wpcf7-not-valid+.wpcf7-not-valid-tip,.wpcf7-checkbox.wpcf7-not-valid+.wpcf7-not-valid-tip,span.phone_ext_block,#wpcf7-f16691-p18546-o1>div:nth-child(7),.wpcf7-display-none,div.wpcf7 div.ajax-error,.wpcf7 a[href='#map'],select[name='ORG'] option[value='0G Networks'],select[name='ORG'] option[value='Datco Soluciones'],
+.wpcf7 .hidden,div.wpcf7 .ajax-loader,.wpcf7 .wpcf7-validates-as-required.valid~label,.mc4wp-checkbox,#content .wpcf7+h2,.wpcf7-radio.wpcf7-not-valid+.wpcf7-not-valid-tip,.wpcf7-checkbox.wpcf7-not-valid+.wpcf7-not-valid-tip,span.phone_ext_block,#wpcf7-f16691-p18546-o1>div:nth-child(7),.wpcf7-display-none,div.wpcf7 div.ajax-error,.wpcf7 a[href='#map'],select[name='ORG'] option[value='0G Networks'],select[name='ORG'] option[value='Datco Soluciones'],.screen-reader-response
 /* Galería de fotos */
 .blocks-gallery-item figcaption strong+br,.blocks-gallery-item figcaption strong+br+em+br,body.role-externo #copyright,.mfp-hide,
 /* Eventos */
@@ -263,7 +263,6 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 #comments .commentlist li .gp-comment-content .gp-comment-description>p{margin-bottom:5px!important;padding-bottom:0;font-size:.9em;line-height:1.5}
 
 /* Formularios */
-.wpcf7 .columns>label>span,.wpcf7 .columns>label>strong,.wpcf7 .columns>div[data-class='wpcf7cf_group']>label>span{font-size:1rem;line-height:1.15}
 .wpcf7 label{cursor:pointer}
 .wpcf7 .columns label+div[data-class='wpcf7cf_group'],.wpcf7 .columns label+div[data-class='wpcf7cf_group'] .wpcf7-form-control-wrap{margin-top:0!important}
 .wpcf7 .columns>label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
@@ -273,7 +272,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7-checkbox.large .wpcf7-list-item-label,.wpcf7-radio.large .wpcf7-list-item-label{display:inline-block;position:relative;top:-5px;font-size:18px;font-weight:400;font-style:italic}
 .wpcf7-form-control-wrap .check_add{float:right;display:inline-block!important;font-size:.8em!important;position:relative;top:3px}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item,.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{margin-right:0!important;padding-left:0!important}
-.wpcf7-form-control-wrap.SAMEDATAPAX{font-size:.9em}
+.wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-form label>i[title]{cursor:pointer;opacity:.6}
 .wpcf7-form label>i[title]:hover{opacity:1}
 .wpcf7-form>.step3.disabled{opacity:.5}
@@ -306,8 +305,6 @@ body form.sending{cursor:wait}
 form.sending input,form.sending select,form.sending input{cursor:wait}
 form.sending .wpcf7-submit,form.sending .wpcf7-submit:hover{background:#AAAAAA!important;border-color:#AAAAAA!important;font-weight:400!important}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px!important;border:none!important}
-div.wpcf7{margin:0;padding:0}
-div.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);height:1px;width:1px;margin:0;padding:0;border:0}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 div.wpcf7 input[type='file']{cursor:pointer}
 div.wpcf7 input[type='file']:disabled{cursor:default}
@@ -454,11 +451,9 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #container #content,.padder{padding:1.5em 2em;border-radius:0}
 #post-content,.entry-content{margin-top:1em;margin-bottom:2em}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
-#post-content>p{font-size:1.05em!important}
 body.page #content h1{text-align:center}
 body.post-type-archive-event h1{text-transform:capitalize}
 .neosans li{font-size:1.1em!important}
-#post-content h2+p:last-child{margin-bottom:15px!important}
 #post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
 #post-content .wp-block-separator+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
 #post-content h4+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
@@ -475,7 +470,6 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content a+h6{margin-top:.8em}
 .textwidget h6{margin-bottom:.2em;font-size:.8em}
 #content blockquote p{line-height:1.5}
-#content h2+h4{margin-top:20px}
 #content .wp-block-column>h3{margin-top:0!important}
 #content h4,.mfp-content h4,#content h5,.mfp-content h5{margin-top:1em}
 #content code,.widget code{display:inline-block;margin:0!important;padding:2px 5px;color:#888888;font-weight:bold;font-size:14px;line-height:18px;font-style:normal!important;background:#F6F6F6;border:0!important;border-radius:4px}
@@ -1167,7 +1161,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	blockquote{text-align:left}
 	body,input,textarea,select{font-size:20px}
 	input,textarea,select{font-size:18px!important;line-height:1.6em!important}
-	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
 	.sidebar{font-size:18px}
 	.sidebar .widget .textwidget li{font-size:1.1em}
 	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
@@ -1250,7 +1243,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
-	.ui-tabs .ui-tabs-nav li a{font-size:.825em!important;text-align:center}
 	#content .embed{margin:0;border:none}
 	#nav{position:absolute;top:0;right:0}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
