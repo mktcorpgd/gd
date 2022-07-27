@@ -869,6 +869,7 @@ body .post-loop:not(.has-post-thumbnail) .post-text{max-height:initial}
 body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px solid #DDDDDD!important}
 
 /* Pestañas */
+.ui-widget-content{border:none!important}
 .sc-tab-panel{padding:0;background:none}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#888888;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
 #post-content{overflow:visible}
@@ -882,7 +883,6 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:#1F4483;color:#FFFFFF}
 #post-content .sc-tab-panel .embed{margin:-15px;border:none;border-radius:0}
 #post-content .sc-tab-panel iframe{border:none;border-radius:0!important}
-.ui-tabs{clear:both;margin-bottom:0!important;top:0}
 #content .sc-tab-panel .embed{margin-top:-20px!important;margin-bottom:-20px!important}
 .widget .ui-tabs .ui-tabs-nav li a{padding:.2em .4em;margin-bottom:0;border-right:1px solid #CCCCCC;font-size:.9em;font-weight:400}
 .widget .ui-tabs .ui-tabs-nav li:first-child a{padding-left:0}
