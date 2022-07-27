@@ -118,8 +118,6 @@ select{position:relative}
 .hiddendata+.sc-divider{margin:0 0 40px!important}
 html body .ui-widget-content{border:0!important}
 .page-id-16751 #left-content-wrapper,.page-id-16751 #left-content-wrapper #content{width:100%!important}
-html body .padder .columns>div>p{margin-bottom:0!important}
-html body .padder .columns>div>p>a>img,html body .padder .columns>div>a>img{margin-bottom:10px!important}
 body:not(.home) section.post-loop.category-comerciales .gp-loop-meta time+span{font-size:100%}
 body.page-id-17547 .columns.one{text-align:center}
 body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
@@ -138,7 +136,7 @@ h3.toggle i:before,.activity-time-since{color:#888888}
 .wp-block-image a+figcaption{background:rgba(0,0,0,.5)!important;cursor:zoom-in}
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {width:100%!important}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
-.padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.padder td a:hover,.widget li a:hover{text-decoration:underline}
+.padder a:hover,.padder li a:not(.ui-tabs-anchor):hover,.widget li a:hover{text-decoration:underline}
 body .bk_forms .hasDatepick{display:block!important}
 .wp-block-media-text.text-to-top{align-items:normal}
 .wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
@@ -936,7 +934,6 @@ body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0}
 .page-links>span:not(:nth-child(2)){margin-left:3px}
 .wp-pagenavi .current,.wp-pagenavi.cat-navi a:hover,.wp-pagenavi.comment-navi a:hover,.wp-pagenavi .page:hover,.wp-pagenavi.post-navi span,.wp-pagenavi.post-navi a span:hover,.page-links>span:hover,.page-links>a:hover{background:#EAEAEA!important}
 .gallery-view-section{background:#FCFCFC!important;border-radius:12px}
-#container #content,.padder{padding:30px}
 .gp-pagination{width:100%;margin:1em 0;grid-area:pages;grid-row:initial}
 .gp-pagination ul.page-numbers{margin:0!important;text-align:center;overflow:visible}
 .gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .6em;color:#999999;font-size:.9rem;line-height:1.8;font-weight:400;font-family:'Neo-Sans',sans-serif;border-radius:12px}
