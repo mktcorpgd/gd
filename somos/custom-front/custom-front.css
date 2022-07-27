@@ -351,7 +351,7 @@ body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-form.sent .wpcf7-response-output{background-color:#419466!important}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500!important}
 div[class*='.wpcf7-response-inline']{padding:0!important}
-.wpcf7-response-inline-alert, .wpcf7-response-inline-alert a{color:#F1B500!important}
+.wpcf7-response-inline-alert,.wpcf7-response-inline-alert a{color:#F1B500!important}
 html body .ff-form .ff-powered{transform:scale(0)}
 .ff-form .ff-button-bar{padding-top:80px;position:relative;text-align:center}
 .ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:2.2em!important;position:absolute;bottom:30px}
@@ -456,7 +456,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
-#container #content,.padder{padding:1em;border-radius:0}
+#container #content,.padder{padding:1.5em 2em;border-radius:0}
 #post-content,.entry-content{margin-top:1em;margin-bottom:2em}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 #post-content>p{font-size:1.05em!important}
@@ -902,7 +902,7 @@ section[class*='uruguay'] .post-text h2:before{background-image:url(https://somo
 section[class*='category-40gd'] .post-text h2:before{top:30px}
 
 /* Home */
-body.home .padder{padding:0}
+body.home .padder{padding:0;background:none}
 body.home #post-content{margin-top:0;margin-bottom:0}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.2em;width:.9em;height:.9em;background:#0E316E;color:#FFFFFF;position:relative;top:1px;background-repeat:no-repeat;background-size:contain;border-radius:50%}
