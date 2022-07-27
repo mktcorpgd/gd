@@ -1225,7 +1225,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
-	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
+	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;font-size:.84em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
 	#content .embed{margin:0;border:none}
