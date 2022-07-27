@@ -455,8 +455,6 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover{background:#419466}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before{display:inline-block;margin-right:2px;content:'\f00c';font-weight:500;font-family:'Font Awesome 6 Pro'}
 .mejs-container{background-color:#FFFFFF;border:0!important;border-radius:12px;box-shadow:none!important;max-height:480px!important;overflow:hidden;width:100%!important}
-.post .padder,.single .padder{padding-bottom:0;padding-left:30px;padding-right:30px;border-bottom-left-radius:24px;border-bottom-right-radius:24px;box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
-.post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
@@ -518,7 +516,8 @@ body.single #content li:not(.slick-slide),body.single .mfp-content li{margin-bot
 #content .rsc_message{margin:20px;padding-top:20px;padding-bottom:20px;background:#FFFFFF;border-radius:12px}
 #content .rsc_message>a,#content p a,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link),#post-content p a,#post-content li>a{color:#F0582B}
 #content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
-body:not(.home):not(.archive):not(.search):not(.page-id-31537) .padder{box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+.padder{padding-bottom:0;padding-left:30px;padding-right:30px;border-radius:24px;background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+.post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
 #content .gp-blog-wrapper .post-loop .post-text p{margin-top:.3em;margin-bottom:.1em;font-size:.9em!important;line-height:1.4!important}
 .post-thumbnail.single-thumbnail img{width:60%}
 article .nav-posts{margin-bottom:1em}
@@ -693,7 +692,7 @@ body.single #content .post-thumbnail{max-width:inherit;margin-bottom:30px!import
 body.single .gp-meta-date{font-size:.8em}
 body.single .gp-entry-meta{margin:0 0 1em;width:100%}
 body.single .gp-post-meta{display:inline-block}
-.post-thumbnail{margin:0!important}
+.post-thumbnail,.post-thumbnail.wrap{margin:0}
 .padder.content-post-thumbnail{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 .post-thumbnail.single-thumbnail{width:100%;border-top-left-radius:12px;border-top-right-radius:12px;background:#AAAAAA!important;text-align:center;opacity:1;overflow:hidden}
 body.single #content p:last-child{padding-bottom:10px}
@@ -911,7 +910,6 @@ body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inl
 body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
 .gp-blog-wrapper{transition:all .1s ease-in-out}
 .gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
-body.home .post-loop{overflow:hidden}
 body.home .post-loop .gp-loop-meta span a{margin:0;font-weight:400;color:#666666}
 body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
 body.home #content .post-loop.category-40gd iframe{border-radius:0!important}
@@ -1404,9 +1402,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.post-loop:last-child .post-text{border-bottom:none}
 	.post-loop .post-text{float:left;padding:1em!important;position:relative}
 	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail a,.gp-blog-wrapper[class*='gp-blog-columns'] section .post-text{float:none;padding:0!important;border-top:none!important}
-	.gp-responsive .gp-blog-wrapper section{border-radius:24px!important}
-	.gp-responsive .gp-blog-wrapper section.category-40gd{border-radius:12px 12px 6px 6px!important}
-	.gp-responsive .gp-blog-wrapper+section.category-40gd{border-radius:6px 6px 12px 12px!important}
 	#content .gp-blog-wrapper .post-loop .post-text p,.post-loop .post-text p{width:100%;margin-bottom:0!important;padding:0;line-height:1.5!important}
 	.post-loop .post-text h2{padding-right:0!important;font-size:1.4em!important;line-height:1.15!important}
 	.post-loop .post-text h2:before{width:1em!important;height:1em!important}
@@ -1422,7 +1417,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content .embed{margin:0;border:none}
 	#nav{position:absolute;top:0;right:0}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
-	.post-thumbnail,.post-thumbnail img{width:100%!important}
 	.datepick-inline .calendar-links .datepick-prev a,.datepick-inline .calendar-links .datepick-next a{font-size:20px!important}
 	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
 	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
