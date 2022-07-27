@@ -654,8 +654,6 @@ body.single .gp-post-meta{display:inline-block}
 .padder.content-post-thumbnail{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 .post-thumbnail.single-thumbnail{width:100%;border-top-left-radius:12px;border-top-right-radius:12px;background:#AAAAAA!important;text-align:center;opacity:1;overflow:hidden}
 body.single #content p:last-child{padding-bottom:10px}
-#content-wrapper .buttons,.mfp-content .buttons{clear:both;margin:.5em 0 1em!important;text-align:center}
-#content-wrapper table+.buttons{margin:1em 0 0!important}
 body.single #content article.category-certificaciones .post-thumbnail img{width:auto!important;border:2px solid #DDDDDD!important;border-radius:12px!important}
 
 /* Drive */
@@ -926,8 +924,8 @@ a.button.fullwidth{width:100%}
 .sc-button-social:hover{color:#1F4483}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
-.buttons-download{text-align:center}
-.padder .buttons-download{margin-bottom:15px}
+.buttons,.buttons-download{clear:both;margin:0 0 1em 0;text-align:center}
+.padder .buttons-download{margin-bottom:1em}
 #text-4{padding:0}
 #text-4 h3{margin:0!important;font-size:1.15em;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
 #text-4 h3 a{display:block}
