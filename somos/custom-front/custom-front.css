@@ -456,7 +456,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
-#container #content,.padder{padding:0;border-radius:0}
+#container #content,.padder{padding:1em;border-radius:0}
 #post-content,.entry-content{margin-top:1em;margin-bottom:2em}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 #post-content>p{font-size:1.05em!important}
@@ -514,7 +514,6 @@ body.single #content li:not(.slick-slide),body.single .mfp-content li{margin-bot
 #content .rsc_message{margin:20px;padding-top:20px;padding-bottom:20px;background:#FFFFFF;border-radius:12px}
 #content .rsc_message>a,#content p a,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link),#post-content p a,#post-content li>a{color:#F0582B}
 #content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
-#container #content,body:not(.home) .padder{padding:1em}
 body:not(.home) .padder{border-radius:12px;background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body:not(.home) .padder h1{color:#0E316E}
 body.page:not(.home) #content .padder{border-top-width:12px;border-top-style:solid}
@@ -903,8 +902,8 @@ section[class*='uruguay'] .post-text h2:before{background-image:url(https://somo
 section[class*='category-40gd'] .post-text h2:before{top:30px}
 
 /* Home */
+body.home .padder{padding:0}
 body.home #post-content{margin-top:0;margin-bottom:0}
-body.home #content-wrapper,body.archive #content-wrapper,body.search #content-wrapper{margin-bottom:0!important}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.2em;width:.9em;height:.9em;background:#0E316E;color:#FFFFFF;position:relative;top:1px;background-repeat:no-repeat;background-size:contain;border-radius:50%}
 body.home .sc-button.large{display:block!important;width:fit-content;clear:both;box-sizing:border-box;box-shadow:0 14px 24px -24px rgba(0,0,0,.5);text-align:center}
@@ -912,16 +911,9 @@ body.home .sc-button.large{display:block!important;width:fit-content;clear:both;
 .gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
 body.home .post-loop .gp-loop-meta span a{margin:0;font-weight:400;color:#666666}
 body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
-body.home #content .post-loop.category-40gd iframe{border-radius:0!important}
-/*body.home .post-loop[class*='category-40gd']:before{display:inline-block;padding:.4em .5em;position:absolute;top:0;right:0;content:'#GD40';line-height:1;font-size:.6em;background:rgba(0,0,0,.3);border-bottom-left-radius:6px;color:#FFFFFF;font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}*/
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text{padding:.5em .8em!important}
-body.home .post-loop.category-40gd+.gp-blog-wrapper .post-loop[class*='category-40gd']{margin-top:.6em!important}
-body.home .post-loop.category-40gd+.gp-blog-wrapper .post-loop[class*='category-40gd']:first-child{border-top-left-radius:6px!important;border-top-right-radius:6px!important}
-body.home .post-loop[class*='category-40gd']:first-child{overflow:hidden;border-top-left-radius:12px!important;border-top-right-radius:12px!important}
-body.home .post-loop[class*='category-40gd']:last-child{margin-bottom:0!important;border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
 body.home .gp-blog-wrapper+.post-loop{position:relative;margin-bottom:1em!important;overflow:hidden}
 body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{padding-right:40px}
-body.home .gp-blog-wrapper[class*='category-40gd'] .post-loop .post-text h2{padding-right:10px}
 body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0}
 
 /* Paginación */
@@ -1327,7 +1319,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
 	.sidebar{font-size:18px}
 	.sidebar .widget .textwidget li{font-size:1.1em}
-	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
+	.gp-responsive .sidebar{padding:1em}
 	.gp-responsive .sidebar{margin:0!important}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
