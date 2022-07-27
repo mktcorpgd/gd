@@ -508,7 +508,7 @@ body.single #content li:not(.slick-slide),body.single .mfp-content li{margin-bot
 #content .rsc_message{margin:20px;padding-top:20px;padding-bottom:20px;background:#FFFFFF;border-radius:12px}
 #content .rsc_message>a,#content p a,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link),#post-content p a,#post-content li>a{color:#F0582B}
 #content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
-body:not(.home) .padder{border-radius:12px;background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+body:not(.home) .padder{background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body:not(.home) .padder h1{color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
 body.post-template-default.single #content article[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1,body.page-id-28032 #content h1,body.page-id-28029 #content h1{color:#1C8DCE}
@@ -1179,7 +1179,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
 	body:not(.home) #post-content .ui-tabs .ui-tabs-nav{position:sticky;top:88px;z-index:10}
-	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.4em .9em}
@@ -1187,6 +1186,8 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.bottom_logos a img{width:120px}
 	.sidebar .widget h3.toggle > i{width:16px}
 	.sidebar .widget h3.toggle{font-size:1.1em!important}
+	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
+	body:not(.home) .padder{border-radius:12px}
 	body:not(.home) #content .padder{border-top-width:12px;border-top-style:solid;border-top-color:transparent}
 	body:not(.home) #content .post-thumbnail+.padder{border-top-width:0;border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
@@ -1208,7 +1209,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
 	.sidebar{font-size:18px}
 	.sidebar .widget .textwidget li{font-size:1.1em}
-	.gp-responsive .sidebar{padding:1em}
+	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
 	.gp-responsive .sidebar{margin:0!important}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
