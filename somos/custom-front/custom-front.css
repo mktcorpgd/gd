@@ -83,6 +83,7 @@ h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong{font-weight:500!impo
 h1,h2,h3,h4,h5,h6,.widget .widgettitle,label{color:#333333}
 h2 a{color:#222222;text-align:left}
 h3 a{color:#F0582B;text-decoration:none}
+h1,.page-title{font-size:2em}
 h2{font-size:1.4em}
 h3{font-size:1.3em}
 h4{font-size:1.1em}
@@ -1356,7 +1357,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='radio']{margin:15px 0}
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
 	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
-	h1,.page-title{font-size:2em}
 	.sc-button.inline{font-size:1em}
 	#page-wrapper{padding:0!important}
 	#content-wrapper{padding-top:64px!important}
