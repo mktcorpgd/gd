@@ -931,15 +931,10 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 
 /* Botones */
 #page-wrapper{overflow:visible}
-#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper .button,#page-wrapper .sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.start_button{font-family:'Neo-Sans',sans-serif;background:#F0582B!important;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)!important;font-weight:500;color:#FFFFFF!important;text-shadow:none!important;outline:none!important}
-#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper .button,.mfp-content .sc-button,#respond #submit,.start_button{font-size:1.2em!important}
-#page-wrapper input[type='button']:hover,#page-wrapper input[type='submit']:hover,#page-wrapper input[type='reset']:hover,#page-wrapper .sc-button:hover,#page-wrapper .button:hover,#page-wrapper #post-content .sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,.start_button:hover{color:#FFFFFF;background:#1F4483!important;box-shadow:0 3px 6px -3px #1F4483!important;text-decoration:none!important}
-#text-4:hover,#respond #submit:hover{background:#1F4483}
-.sc-button,#page-wrapper input[type='button'],#page-wrapper input[type='submit'],#page-wrapper input[type='reset'],#page-wrapper button,a.button,input.button,#respond #submit,.sc-button{padding:.4em .6em;background-image:none;border:0;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1em;border-radius:12px!important;font-weight:500;line-height:normal}
-.sc-button:hover{border-radius:12px;font-weight:500}
-a.button.fullwidth,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{width:100%}
-a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit'],.yotu-playlist .yotu-pagination-more{padding:.8em 1em;font-size:1.2em;text-align:center;border-radius:12px}
-#respond #submit{float:right;margin:.5em 0;padding:.5em .8em}
+#page-wrapper .button,#page-wrapper .sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;font-weight:500!important;background:#F0582B;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-shadow:none;outline:none}
+#page-wrapper .button:hover,#page-wrapper .sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover{background:#1F4483;box-shadow:0 3px 6px -3px #1F4483;text-decoration:none}
+a.button.fullwidth{width:100%}
+#respond #submit{float:right;margin:.5em 0}
 .commentlist #respond #submit{margin-bottom:0}
 
 #page-wrapper input[type='button']:active,#page-wrapper input[type='submit']:active,#page-wrapper input[type='reset']:hover,#page-wrapper .button:active,#page-wrapper #post-content .sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,.start_button:active,#page-wrapper .toggle-box>.sc-button:active{background:#0E316E!important}
