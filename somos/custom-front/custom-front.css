@@ -763,6 +763,7 @@ body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text{padding:.5em .8em!important}
 body.home .gp-blog-wrapper+.post-loop{position:relative;margin-bottom:1em!important;overflow:hidden}
 body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{padding-right:40px}
+body.home .gp-blog-wrapper+.sc-button.large{display:block;width:fit-content;margin:.5em auto}
 
 /* Paginación */
 .wp-pagenavi,.page-links{font-weight:400!important;margin:20px 0 0;text-align:right}
