@@ -127,7 +127,7 @@ h3.toggle i:before,.activity-time-since{color:#888888}
 .wp-block-image a+figcaption{background:rgba(0,0,0,.5)!important;cursor:zoom-in}
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption {width:100%!important}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
-.padder a:hover,.padder li a:not(.ui-tabs-anchor):hover,.widget li a:hover{text-decoration:underline}
+.padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.widget li a:hover{text-decoration:underline}
 .wp-block-media-text.text-to-top{align-items:normal}
 .wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
 .wp-block-embed__wrapper>.twitter-tweet{margin:0 auto}
@@ -597,7 +597,7 @@ h3.toggle{position:relative;margin-bottom:3px;line-height:1.6}
 h3.toggle:last-child{padding-bottom:0}
 h3.toggle a{display:table-cell;padding-left:5px}
 h3.toggle a,body .ui-widget-content a,.textwidget .sc-tabs .sc-tab-panel a{color:#0E316E}
-h3.toggle:hover a,h3.toggle a:hover,body .ui-widget-content a:hover,.textwidget .sc-tabs .sc-tab-panel a:hover{color:#F0582B;text-decoration:underline!important}
+h3.toggle:hover a,h3.toggle a:hover,.textwidget .sc-tabs .sc-tab-panel a:hover{color:#F0582B;text-decoration:underline!important}
 h3.toggle i{display:table-cell;padding:0;position:relative;top:0;left:0;font-size:.9em;text-align:center;font-family:'Font Awesome 6 Pro'!important;font-weight:600}
 .textwidget h3.toggle i{width:12px;font-weight:normal}
 .birthdays-widget~h3.toggle{text-align:center}
