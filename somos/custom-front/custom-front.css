@@ -920,7 +920,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500!important;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-decoration:none!important;text-shadow:none;outline:none;cursor:pointer}
+.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500!important;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-decoration:none!important;text-shadow:none;outline:none;cursor:pointer}
 .button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4);}
 .button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:0 auto;width:fit-content;}
@@ -938,9 +938,8 @@ body.home .sc-button.large{display:block!important;width:fit-content;clear:both;
 .sc-button.small+.sc-button.small{margin-left:.4em}
 .sc-button.medium{padding:.4em .8em;font-size:1.05em}
 .sc-tab-panel>.sc-button.small{margin:0}
-.sc-button.large{font-size:1.3em}
 .sc-button.large,.sc-button.xlarge{line-height:1.5}
-.sc-button.xlarge,#text-4 h3 a{font-size:1.4em}
+.sc-button.xlarge{font-size:1.3em}
 .sc-button.inline{margin:.2em .4em 0 0;padding:0 10px;font-size:.85em}
 .sc-button-social{display:inline-block;margin:.2em .2em 0;color:#0E316E;font-size:1.5em}
 
@@ -954,7 +953,7 @@ body .widget button:not(.mfp-close){background-color:transparent;border:0;box-sh
 
 #text-4{padding:0}
 #text-4 h3{margin:0!important;font-size:1.35em}
-#text-4 h3 a{display:block;color:#FFFFFF}
+#text-4 h3 a{display:block}
 
 #custom_html-23{text-align:center}
 #custom_html-23 .widgettitle{text-align:left}
