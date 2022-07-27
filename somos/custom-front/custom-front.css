@@ -518,8 +518,8 @@ body.single #content li:not(.slick-slide),body.single .mfp-content li{margin-bot
 #content .rsc_message>a,#content p a,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link),#post-content p a,#post-content li>a{color:#F0582B}
 #content .rsc_message>a:hover,#content p a:hover,#content li:not(.slick-slide):not(.ui-tabs-tab):not(.entry_action_view) a:not(.comment-reply-link):hover,#post-content p a:hover,#post-content li>a:hover{text-decoration:underline;color:#1F4483}
 .padder{border-radius:12px;background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
-body.home .padder{background:none}
 .padder h1{color:#0E316E}
+body.home .padder{background:none}
 body.page #content .padder{border-top-width:12px;border-top-style:solid}
 body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
@@ -1357,7 +1357,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.wpcf7 .columns>label>span.money-symbol{top:98px;font-size:18px}
 	.wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='radio']{margin:15px 0}
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
-	.post .padder,.single .padder{padding-left:20px;padding-right:20px}
 	.sc-button.inline{font-size:1em}
 	#page-wrapper{padding:0!important}
 	#content-wrapper{padding-top:64px!important}
@@ -1409,7 +1408,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
-	#content .padder .sc-tabs .sc-tab-panel{border-top-right-radius:0}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
@@ -1475,7 +1473,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#content [class*=category-casos-de-] table tr:last-child td:last-child{border-bottom-left-radius:12px}
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
 	#commentform textarea{padding:10px 20px!important;border-radius:0!important;border-right:none!important;border-left:none!important}
-	body.archive .padder,body.search .padder{padding-left:0;padding-right:0;padding-bottom:0;background:#EAEAEA}
 	body.archive .gp-blog-wrapper .gp-meta-cats a,body.search .gp-blog-wrapper .gp-meta-cats a{margin-top:0;line-height:1.3}
 	body:not(.single-event) .eo-event-date{margin-top:0!important}
 	body:not(.single-event) article.event h2{margin-bottom:0!important}
