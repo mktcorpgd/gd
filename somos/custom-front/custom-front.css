@@ -554,7 +554,7 @@ body.post-template-default.single #content article.category-grupo-datco h1,body.
 body.post-template-default.single #content article.category-grupo-datco .padder,body.post-template-default.single #content article.category-iop .padder,body.post-template-default.single #content article.category-iot .padder,body.page-id-18106 .padder,body.page-id-18351 .padder,body.page-id-22942 .padder{border-top-color:#0E316E}
 
 /* Sidebar */
-.sidebar .widget{overflow:hidden;margin-bottom:15px;padding:0 15px 15px!important;border-top-left-radius:12px;border-top-right-radius:6px;border-bottom-right-radius:12px;border-bottom-left-radius:6px}
+.sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
 .widget .sc-divider{margin:5px 0!important}
 .widget .sc-button{border-radius:8px!important}
 .widget p{margin:0!important}
@@ -1326,14 +1326,12 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 /* Mobile */
 @media (max-width:782px) {
 	#mobile-nav .menu li a i{display:none!important}
-	body.page-id-15131 #content .columns.five>div::after,.single .gp-entry-meta .gp-post-meta:after,.sc-button.small>i,.zoom-org button i,.zoom-org #fullscreen,.post-loop,.sidebar .widget,body #content .padder,.post-thumbnail.single-thumbnail{border-radius:0!important}
 	blockquote{text-align:left}
 	body,input,textarea,select{font-size:20px}
 	input,textarea,select{font-size:18px!important;line-height:1.6em!important}
 	.wpcf7-form-control-date input{height:53px}
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
-	.widget .textwidget li{font-size:1.1em}
 	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
 	.wpcf7 .columns{margin-bottom:10px!important}
 	.wpcf7-form .wpcf7-not-valid-tip{top:56px;right:15px;font-size:14px}
@@ -1401,7 +1399,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{-webkit-line-clamp:3}
 	.post-loop .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
-	body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0!important}
+	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	#comments .must-log-in{border-bottom-left-radius:0;border-bottom-right-radius:0}
 	#content .embed{margin:0;border:none}
 	#nav{position:absolute;top:0;right:0}
@@ -1447,8 +1445,10 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	#wp-calendar tfoot td{top:3px}
 	a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .8em!important}
 	#respond p.form-submit,#respond #submit{margin-bottom:0!important}
-	.widget{margin:1em 0 0 0!important;font-size:18px}
-	#sidebar-right{margin-top:0!important}
+	.sidebar{font-size:18px}
+	.sidebar .widget .textwidget li{font-size:1.1em}
+	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
+	.gp-responsive .sidebar{margin:0!important}
 	input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],input[type='password'],textarea,select{font-size:1.3em!important}
 	.widget .vevent abbr{position:relative;top:5px}
 	#copyright{font-size:14px;line-height:24px}
@@ -1486,7 +1486,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body:not(.single-event) article.event h2{margin-bottom:0!important}
 	body.single-event #content .eo-event-meta li:first-child{font-size:1.6em;line-height:1.15}
 	._Bell.Bottom.Right_bell{width:40px!important;height:40px!important}
-	#container #content,.padder{padding:1em}
 	.UseyourDrive .search-input{max-width:200px;padding:5px 10px!important}
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	#countdown li{font-size:1.125rem;padding:.75rem}
