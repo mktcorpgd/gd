@@ -920,7 +920,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500!important;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-decoration:none!important;text-shadow:none;outline:none;cursor:pointer}
+.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;font-weight:500;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);border-radius:12px!important;text-decoration:none!important;text-shadow:none;outline:none;cursor:pointer}
 .button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4);}
 .button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:0 auto;width:fit-content;}
@@ -934,7 +934,7 @@ body.home .sc-button.large{display:block!important;width:fit-content;clear:both;
 .widget .sc-button{margin-bottom:1em;padding:.3em .6em}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium{line-height:1.2}
-.sc-button.small{font-size:.9em}
+.sc-button.small{font-size:.9em;font-weight:400}
 .sc-button.small+.sc-button.small{margin-left:.4em}
 .sc-button.medium{padding:.4em .8em;font-size:1.05em}
 .sc-tab-panel>.sc-button.small{margin:0}
