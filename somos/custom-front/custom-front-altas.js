@@ -22,7 +22,10 @@ jQuery(document).ready(function() {
 		console.log(name_checkbox);
 		if ( name_checkbox == 'LKDNOT[]' ) {
 			if ( this.checked ) {
-				jQuery('.LKDURL input').attr('value','No tiene').attr('readonly');
+				jQuery('.LKDURL input').attr({
+					'value':'No tiene',
+					'readonly':'readonly'
+				});
 			}
 			else {
 				jQuery('.LKDURL input').attr('value','').removeAttr('readonly');
@@ -30,7 +33,10 @@ jQuery(document).ready(function() {
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').attr('value','Inmediata').attr('readonly');
+				jQuery('.OUTDAYHR input').attr({
+					'value':'Inmediata',
+					'readonly':'readonly'
+				});
 			}
 			else {
 				jQuery('.OUTDAYHR input').attr('value','').removeAttr('readonly');
