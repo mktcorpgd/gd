@@ -755,7 +755,7 @@ section[class*='uruguay'] .post-text h2:before{background-image:url(https://somo
 body.home .padder{background:none}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.9em}
-body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.4em;width:1em;height:1em;background:#0E316E;color:#FFFFFF;position:relative;top:1px;background-size:contain;border-radius:50%}
+body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.4em;width:1em;height:1em;background:#0E316E;box-shadow:inset 0 0 0 1px #FFFFFF;color:#FFFFFF;position:relative;top:1px;background-size:contain;border-radius:50%}
 .gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
 body.home .post-loop .gp-loop-meta span a{margin:0;font-weight:400;color:#666666}
 body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
