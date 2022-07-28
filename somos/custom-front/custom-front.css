@@ -464,6 +464,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content a+h6{margin-top:.8em}
 .textwidget h6{margin-bottom:.2em;font-size:.8em}
 #content p{line-height:1.5}
+#content .wp-block-separator+p{float:left;width:100%}
 #content blockquote p{line-height:1.5}
 #content .wp-block-column>h3{margin-top:0!important}
 #content h4,.mfp-content h4,#content h5,.mfp-content h5{margin-top:1em}
