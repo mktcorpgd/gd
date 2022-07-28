@@ -75,7 +75,7 @@ hr{float:left;width:100%;height:4px;margin:1.5em 0 2em;padding:0;position:relati
 [data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left}
 h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 h5,h6{font-weight:400}
-h1,h2,h3,h4,h5,h6{line-height:125%}
+h1,h2,h3,h4,h5,h6{float:left;width:100%;line-height:125%}
 h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong{font-weight:500}
 h1,h2,h3,h4,h5,h6,.widget .widgettitle,label{color:#333333}
 h2 a{color:#222222;text-align:left}
@@ -335,6 +335,7 @@ body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500!important}
 div[class*='.wpcf7-response-inline']{padding:0!important}
 .wpcf7-response-inline-alert,.wpcf7-response-inline-alert a{color:#F1B500!important}
+.wpcf7-response-output+p{float:left;width:100%}
 html body .ff-form .ff-powered{transform:scale(0)}
 .ff-form .ff-button-bar{padding-top:80px;position:relative;text-align:center}
 .ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:2.2em!important;position:absolute;bottom:30px}
@@ -459,6 +460,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content a+h6{margin-top:.8em}
 .textwidget h6{margin-bottom:.2em;font-size:.8em}
+#content p{line-height:1.5}
 #content blockquote p{line-height:1.5}
 #content .wp-block-column>h3{margin-top:0!important}
 #content h4,.mfp-content h4,#content h5,.mfp-content h5{margin-top:1em}
