@@ -387,7 +387,7 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .filledwithmap+a:hover{border-color:#F0582B}
 
 /* Meta */
-.gp-meta-cats{font-size:0}
+.gp-meta-cats{margin:0 0 .5rem;font-size:0}
 body.archive .gp-meta-cats{width:100%}
 body.single article.category-beneficios:not(.category-nuevo-beneficio) .gp-meta-cats{padding-left:0;border-left:none}
 body.page h1+.gp-post-meta{width:100%;text-align:center}
