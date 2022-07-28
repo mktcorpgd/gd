@@ -72,7 +72,7 @@ a:hover{color:#1F4483}
 input,textarea,input[type='password'],#content .widget[class*='widget_bp_'] h3{background-color:#F6F6F6;border-color:#F6F6F6}
 input[type='submit'],select,textarea,button{outline:none!important}
 hr{float:left;width:100%;height:4px;margin:1.5em 0 2em;padding:0;position:relative;background:#EAEAEA;border:0}
-[data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left}
+[data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left;width:100%}
 h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 h5,h6{font-weight:400}
 h1,h2,h3,h4,h5,h6{float:left;width:100%;line-height:125%}
