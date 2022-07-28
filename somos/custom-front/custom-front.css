@@ -338,7 +338,7 @@ body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500!important}
 div[class*='.wpcf7-response-inline']{padding:0!important}
 .wpcf7-response-inline-alert,.wpcf7-response-inline-alert a{color:#F1B500!important}
-.wpcf7-response-output+p{float:left;width:100%;text-align:center}
+.wpcf7-response-output+p{float:left;width:100%}
 html body .ff-form .ff-powered{transform:scale(0)}
 .ff-form .ff-button-bar{padding-top:80px;position:relative;text-align:center}
 .ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:2.2em!important;position:absolute;bottom:30px}
