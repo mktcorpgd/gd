@@ -189,6 +189,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
 
 /* Columnas */
+.gp-blog-wrapper{float:left}
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{background:#FFFFFF}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-text,body.archive .gp-blog-wrapper .post-loop .post-text,body.search .gp-blog-wrapper .post-loop .post-text{clear:both;padding:.5em .8em!important}
