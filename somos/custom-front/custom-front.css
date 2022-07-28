@@ -263,7 +263,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7-checkbox.large,.wpcf7-radio.large{margin:10px 0 0;display:block;width:100%;text-align:center}
 .wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='checkbox']{width:24px;height:24px}
 .wpcf7-checkbox.large .wpcf7-list-item-label,.wpcf7-radio.large .wpcf7-list-item-label{display:inline-block;position:relative;top:-5px;font-size:18px;font-weight:400;font-style:italic}
-.wpcf7-form-control-wrap .check_add{float:right;display:inline-block!important;font-size:.8em!important;position:relative;top:3px}
+.wpcf7-form-control-wrap .check_add{float:right;display:inline-block!important;font-size:.9em!important;position:relative;top:1px}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item,.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{margin-right:0!important;padding-left:0!important}
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-form label>i[title],#nav .menu li.menu-item-has-children:after{opacity:.6}
@@ -286,7 +286,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7>.wpcf7-form>label{float:left;width:100%;margin:10px 0;position:relative}
 .wpcf7 .columns>label:not(:first-child){margin-top:10px}
 .wpcf7 .columns.two.step1>label strong,.wpcf7 .columns.two.step1+.columns.two>label strong,.wpcf7 .columns.two.step2>label strong{margin-top:0!important}
-.wpcf7 .columns .wpcf7-list-item-label{margin-right:1em;font-size:.9rem;font-family:'Open-Sans',sans-serif;font-weight:400}
+.wpcf7 .columns .wpcf7-list-item-label{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 .columns .neosans .wpcf7-list-item-label{font-family:'Neo-Sans',sans-serif}
 .wpcf7 .columns>label .wpcf7-checkbox:not(.check_add),.wpcf7 .columns>label .wpcf7-radio{display:block;margin:.4em 0 .8em}
 .wpcf7 .columns>label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
