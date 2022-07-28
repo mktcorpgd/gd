@@ -22,10 +22,10 @@ jQuery(document).ready(function() {
 		console.log(name_checkbox);
 		if ( name_checkbox == 'LKDNOT[]' ) {
 			if ( this.checked ) {
-				jQuery('.LKDURL input').val('No tiene');
+				jQuery('.LKDURL input').val('No tiene').attr('disabled',true);;
 			}
 			else {
-				jQuery('.LKDURL input').val('');
+				jQuery('.LKDURL input').val('').removeAttr('disabled');
 			}	
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
