@@ -28,18 +28,15 @@ jQuery(document).ready(function() {
 				});
 			}
 			else {
-				jQuery('.LKDURL input').attr('value','').removeAttr('readonly');
+				jQuery('.LKDURL input').attr('value','');
 			}	
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').val('Inmediata').attr({
-					'value':'Inmediata',
-					'readonly':true
-				}).addClass('notwalcf7');
+				jQuery('.OUTDAYHR input').val('Inmediata').addClass('notwalcf7');
 			}
 			else {
-				jQuery('.OUTDAYHR input').attr('value','').removeClass('notwalcf7').removeAttr('readonly');
+				jQuery('.OUTDAYHR input').val('').removeClass('notwalcf7');
 			}	
 		}
 		else {
@@ -51,8 +48,7 @@ jQuery(document).ready(function() {
 				jQuery(this).val('');
 			}	
 		}
-	});
-	
+	});	
 
 	// Cambiar automáticamente por comas
 	jQuery(document).on('keyup','input[name=RESPBOSS]',function() {
