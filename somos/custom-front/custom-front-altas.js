@@ -22,18 +22,18 @@ jQuery(document).ready(function() {
 		console.log(name_checkbox);
 		if ( name_checkbox == 'LKDNOT[]' ) {
 			if ( this.checked ) {
-				jQuery('.LKDURL input').val('No tiene').attr('disabled','disabled');
+				jQuery('.LKDURL input').attr('value','No tiene').attr('readonly');
 			}
 			else {
-				jQuery('.LKDURL input').val('').removeAttr('disabled');
+				jQuery('.LKDURL input').attr('value','').removeAttr('readonly');
 			}	
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').val('INMEDIATA').attr('disabled','disabled');
+				jQuery('.OUTDAYHR input').attr('value','Inmediata').attr('readonly');
 			}
 			else {
-				jQuery('.OUTDAYHR input').val('').removeAttr('disabled');
+				jQuery('.OUTDAYHR input').attr('value','').removeAttr('readonly');
 			}	
 		}
 		else {
