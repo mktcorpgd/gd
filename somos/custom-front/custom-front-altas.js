@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
 			if ( this.checked ) {
 				jQuery('.LKDURL input').attr({
 					'value':'No tiene',
-					'readonly':'readonly'
+					'disabled':true
 				});
 			}
 			else {
@@ -35,7 +35,7 @@ jQuery(document).ready(function() {
 			if ( this.checked ) {
 				jQuery('.OUTDAYHR input').attr({
 					'value':'Inmediata',
-					'readonly':'readonly'
+					'disabled':true
 				});
 			}
 			else {
