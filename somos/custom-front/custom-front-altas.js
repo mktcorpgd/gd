@@ -28,7 +28,7 @@ jQuery(document).ready(function() {
 				});
 			}
 			else {
-				jQuery('.LKDURL input').attr('value','').removeAttr('readonly');
+				jQuery('.LKDURL input').attr('value','').removeAttr('disabled');
 			}	
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
@@ -39,7 +39,7 @@ jQuery(document).ready(function() {
 				});
 			}
 			else {
-				jQuery('.OUTDAYHR input').attr('value','').removeAttr('readonly');
+				jQuery('.OUTDAYHR input').attr('value','').removeAttr('disabled');
 			}	
 		}
 		else {
