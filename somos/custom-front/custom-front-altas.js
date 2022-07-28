@@ -33,7 +33,7 @@ jQuery(document).ready(function() {
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').attr({
+				jQuery('.OUTDAYHR input').val('Inmediata').attr({
 					'value':'Inmediata',
 					'disabled':true
 				});
