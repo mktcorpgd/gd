@@ -24,22 +24,22 @@ jQuery(document).ready(function() {
 			if ( this.checked ) {
 				jQuery('.LKDURL input').attr({
 					'value':'No tiene',
-					'disabled':true
+					'readonly':true
 				});
 			}
 			else {
-				jQuery('.LKDURL input').attr('value','').removeAttr('disabled');
+				jQuery('.LKDURL input').attr('value','').removeAttr('readonly');
 			}	
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
 				jQuery('.OUTDAYHR input').val('Inmediata').attr({
 					'value':'Inmediata',
-					'disabled':true
-				});
+					'readonly':true
+				}).addClass('notwalcf7');
 			}
 			else {
-				jQuery('.OUTDAYHR input').attr('value','').removeAttr('disabled');
+				jQuery('.OUTDAYHR input').attr('value','').removeClass('notwalcf7').removeAttr('readonly');
 			}	
 		}
 		else {
