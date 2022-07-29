@@ -38,7 +38,7 @@ jQuery(document).on('click','.wpcf7-submit',function(e) {
 
 // FORMULARIOS - Respuesta afirmativa/negativa luego de enviar un form
 document.addEventListener('wpcf7submit', function(event) {
-	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name'));
+	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-submit.sending').attr('name'));
 	jQuery('.wpcf7-submit.sending').prop('disabled',false);
 	jQuery('.sending').removeClass('sending');
 }, false);
