@@ -528,7 +528,7 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 .widget a:hover{text-decoration:underline}
 .widget hr{margin:.4em 0;width:100%;height:1px}
 .widget li,.birthday_date,.birthday_name{font-family:'Neo-Sans',sans-serif;color:#333333;line-height:1.5;cursor:inherit}
-.widget p{line-height:1.25}
+.widget p{margin:0 0 .2em;line-height:1.25;clear:both}
 .widget p strong{font-weight:500}
 .widget li a{font-weight:400}
 .widget li a:not(.ui-tabs-anchor){color:#0E316E!important}
