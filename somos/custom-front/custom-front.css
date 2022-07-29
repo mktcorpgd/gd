@@ -288,7 +288,7 @@ form.sending input,form.sending select,form.sending input{cursor:wait}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px!important;border:none!important}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 div.wpcf7 input[type='file']:disabled{cursor:default}
-.wpct7-submit.sending{opacity:.6;pointer-events:none}
+.wpcf7-submit.sending{opacity:.6;pointer-events:none}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151!important}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
 .wpcf7-form>.step2{opacity:.5}
@@ -427,7 +427,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
-#post-content{margin-top:1em;overflow:visible}
+#post-content{margin-top:1em;margin-bottom:2em}
 body.page #post-content{margin-top:0}
 #container #content,.padder{padding:1.5em 2em;border-radius:0}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
