@@ -29,10 +29,10 @@ jQuery(document).ready(function() {
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').val('Inmediata').addClass('notwalcf7').attr('readonly',true);
+				jQuery('.OUTDAYHR input').val('Inmediata').attr('readonly',true).unbind('click');
 			}
 			else {
-				jQuery('.OUTDAYHR input').val('').removeClass('notwalcf7').removeAttr('readonly');
+				jQuery('.OUTDAYHR input').val('').removeAttr('readonly').bind('click');
 			}	
 		}
 		else {
