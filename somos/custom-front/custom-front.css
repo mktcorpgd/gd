@@ -290,7 +290,6 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 body form.sending:before{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;font-size:24px;background-color:rgba(255,255,255,.6);background-repeat:no-repeat;background-position:center 90%;z-index:10}
 body form.sending{cursor:wait}
 form.sending input,form.sending select,form.sending input{cursor:wait}
-form.sending .wpcf7-submit,form.sending .wpcf7-submit:hover{background:#AAAAAA!important;border-color:#AAAAAA!important;font-weight:400!important}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px!important;border:none!important}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 div.wpcf7 input[type='file']:disabled{cursor:default}
@@ -301,8 +300,6 @@ div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled,.notwalcf7{opa
 .wpcf7-form>.step2{opacity:.5}
 .wpcf7-form>.step3.disabled .tp{z-index:-1}
 .wpcf7-form>.step3 .tp span,.wpcf7-form>.step3.disabled input[type='submit']{cursor:default}
-.wpcf7-form>.step3 .tp,.wpcf7-form>.step3 input[type='submit']{position:relative!important}
-.wpcf7-form>.step3 input[type='submit']{margin-top:15px!important}
 .wpcf7-form p.step3{display:inline-block;width:100%;margin:10px 0 15px;text-align:center}
 .wpcf7-form input[type='checkbox']+.wpcf7-not-valid-tip{top:16px}
 .wpcf7-form label.divider input[type='checkbox']+.wpcf7-not-valid-tip{top:41px}
@@ -315,7 +312,7 @@ input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
 textarea+.wpcf7-not-valid-tip{bottom:1px}
 body .wpcf7-validation-errors a{display:block;color:#FFFFFF!important;text-decoration:none!important}
 body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
-.wpcf7-response-output,div[class*='wpcf7-response-']{float:left;width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.8em;line-height:1.4!important}
+.wpcf7-response-output,div[class*='wpcf7-response-']{float:left;width:100%;box-sizing:border-box;border:none!important;border-radius:12px!important;text-align:center;text-shadow:none!important;font-weight:400;font-size:.9em;line-height:1.4!important}
 .wpcf7-response-output,.wpcf7-response-output a,div[class*='wpcf7-response-'],div[class*='wpcf7-response-'] a{color:#FFFFFF!important}
 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg.info{margin:1em 0 2em!important;padding:.8em 1em!important}
 .wpcf7-response-output strong,.wpcf7-response-msg strong{font-size:1.2em}
@@ -1035,7 +1032,7 @@ notification_image img{background:#0E316E!important}
 /* Imágenes */
 #content .wp-block-image img[src*='qr-']{width:150px;height:150px;border-radius:6px}
 #content figure.no-borders img{border:none!important}
-#content .columns.two div img[id*='tp']{width:100%!important;border:0;border-radius:24px!important}
+#content .columns.two div img[id*='tp']{border:1px solid #EAEAEA;border-radius:24px!important}
 img.mfp-img[src*='-ima_'],img.mfp-img[src*='-iso']{padding:10px}
 img.mfp-img{max-height:90vh!important}
 #content img.thumbnail{border:1px solid #DDDDDD;box-sizing:border-box;padding:25px!important}
