@@ -189,7 +189,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 /* Columnas */
 .gp-blog-wrapper{float:left}
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
-.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{background:#FFFFFF}
+.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{width:100%;background:#FFFFFF}
 .post-loop .post-text{float:left;padding:.5em .8em!important;clear:both}
 .gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event{background:#FFFFFF;border-radius:12px;overflow:hidden}
@@ -400,7 +400,7 @@ article.event-category-asistimos .eo-event-meta>li a[rel='tag']{color:#338A6C!im
 article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#338A6C;color:#FFFFFF!important}
 article.event-category-otros .eo-event-meta>li a[rel='tag']{color:#F18C10!important}
 article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:#FFFFFF!important}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:3px 8px;background:#F6F6F6;border-radius:12px;border:none;text-decoration:none;line-height:normal}
+h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .7em;background:#F6F6F6;border-radius:12px;line-height:normal}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,article.event .entry-header+.entry-content .eo-event-meta>li a[rel='tag']{margin-left:.4em;margin-right:.4em}
 article.event .entry-header+.entry-content .eo-event-meta>li:first-child a[rel='tag']{margin-left:0}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
@@ -643,7 +643,6 @@ article[class*='category-casos-'] h5{margin-top:20px;text-align:center}
 body.single #content .post-thumbnail{max-width:inherit;margin-bottom:30px!important;float:none!important;text-align:center;background:none}
 body.single .gp-meta-date{font-size:.8em}
 body.single .gp-entry-meta{margin:0 0 1em;width:100%}
-body.single .gp-post-meta{display:inline-block}
 .post-thumbnail,.post-thumbnail.wrap{margin:0}
 .padder.content-post-thumbnail{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 .post-thumbnail.single-thumbnail{width:100%;border-top-left-radius:12px;border-top-right-radius:12px;background:#AAAAAA!important;text-align:center;opacity:1;overflow:hidden}
