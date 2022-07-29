@@ -86,7 +86,7 @@ h5{font-size:1em}
 h6{font-size:.9em}
 video{outline:none!important}
 blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
-p{margin-bottom:20px;line-height:1.5}
+p{margin-bottom:1em;line-height:1.5}
 .not-visible{visibility:hidden}
 .widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
 .widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-color:#FFFFFF}
@@ -459,7 +459,6 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content .sc-tab-panel h5{margin-bottom:.25em}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content a+h6{margin-top:.8em}
-#content p{line-height:1.5}
 #content .wp-block-separator+p{float:left;width:100%}
 #content blockquote p{line-height:1.5}
 #content .wp-block-column>h3{margin-top:0!important}
@@ -504,7 +503,7 @@ body.post-template-default.single #content article.category-sersat h1,body.page-
 body.post-template-default.single #content article.category-silica-networks h1,body.page-id-11283 #content h1,body.page-id-15096 #content h1{color:#497718}
 body.post-template-default.single #content article.category-velocom h1,body.page-id-11277 #content h1{color:#AE1A57}
 .post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
-#content .gp-blog-wrapper .post-loop .post-text p{margin-top:.3em;margin-bottom:.1em;font-size:.9em!important;line-height:1.4!important}
+#content .gp-blog-wrapper .post-loop .post-text p{font-size:.9em!important;line-height:1.4!important}
 .post-thumbnail.single-thumbnail img{width:60%}
 article .nav-posts{margin-bottom:1em}
 article .nav-posts .next-post{text-align:right}
@@ -724,7 +723,8 @@ body.single-event article.event{box-shadow:none}
 .gp-blog-wrapper.gp-blog-columns-2 .post-loop .post-text h2 a{-webkit-line-clamp:3}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-thumbnail{float:left;border-radius:0}
 .post-thumbnail.wrap{float:none;width:100%}
-.post-loop .gp-loop-meta{margin:.2em 0!important;position:relative;color:#666666;font-size:.75rem;line-height:1.25}
+.post-loop .gp-loop-meta{margin:0;position:relative;color:#666666;font-size:.75rem;line-height:1.25;clear:both}
+.post-loop .gp-loop-meta .gp-meta-cats{margin-bottom:0}
 .post-loop .gp-loop-meta strong{font-weight:400}
 .post-loop.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 
