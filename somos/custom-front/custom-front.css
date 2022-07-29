@@ -288,7 +288,7 @@ form.sending input,form.sending select,form.sending input{cursor:wait}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px!important;border:none!important}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 div.wpcf7 input[type='file']:disabled{cursor:default}
-div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled,.notwalcf7{opacity:.6;pointer-events:none}
+.wpct7-submit.sending{opacity:.6;pointer-events:none}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151!important}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
 .wpcf7-form>.step2{opacity:.5}
