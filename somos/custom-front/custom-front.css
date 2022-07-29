@@ -283,7 +283,6 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .visible{display:block!important}
 .wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
-body form.sending:before{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;font-size:24px;background-color:rgba(255,255,255,.6);background-repeat:no-repeat;background-position:center 90%;z-index:10}
 body form.sending{cursor:wait}
 form.sending input,form.sending select,form.sending input{cursor:wait}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px!important;border:none!important}

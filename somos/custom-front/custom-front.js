@@ -30,7 +30,7 @@ jQuery.fn.capitalize = function(e) {
 
 // FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit',function(e) {
-	jQuery(this).addClass('sending');
+	jQuery(this).addClass('sending').attr('disabled');
 	jQuery(this).closest('.wpcf7-form').addClass('sending');
 	jQuery(this).attr('name',jQuery(this).val());
 	jQuery(this).val('Enviando...');
@@ -38,7 +38,7 @@ jQuery(document).on('click','.wpcf7-submit',function(e) {
 
 // FORMULARIOS - Respuesta afirmativa/negativa luego de enviar un form
 document.addEventListener('wpcf7submit', function(event) {
-	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name'));
+	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeAttr('disabled');
 	jQuery('.sending').removeClass('sending');
 }, false);
 
