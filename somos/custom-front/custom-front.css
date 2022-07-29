@@ -525,17 +525,16 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 /* Sidebar */
 .sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
 .widget .sc-divider{margin:5px 0!important}
-.widget p{margin:0!important}
 .widget a:hover{text-decoration:underline}
 .widget hr{margin:.4em 0;width:100%;height:1px}
 .widget li,.birthday_date,.birthday_name{font-family:'Neo-Sans',sans-serif;color:#333333;line-height:1.5;cursor:inherit}
-.widget p{margin:10px 0 2px!important;line-height:1.25}
+.widget p{line-height:1.25}
 .widget p strong{font-weight:500}
 .widget li a{font-weight:400}
 .widget li a:not(.ui-tabs-anchor){color:#0E316E!important}
 .widget li strong a{font-weight:400}
 .widget li a:hover{color:#F0582B!important}
-.widget .widgettitle{margin:0 0 10px;padding:.4em 1em .4em 0!important;font-size:1.1em!important;font-family:'Neo-Sans',sans-serif!important;color:#0E316E}
+.widget .widgettitle{margin:0 0 .2em;padding:.4em 1em .4em 0!important;font-size:1.1em!important;font-family:'Neo-Sans',sans-serif!important;color:#0E316E}
 .mfp-content .widget .widgettitle{margin-top:0!important;padding-top:0!important;font-size:1.2em!important}
 .mfp-content .widget_text h4{margin-top:20px!important}
 .mfp-content .widget_text h4>span{display:block;width:100%;margin:.25em 0;padding:0;text-align:center}
@@ -915,7 +914,7 @@ a.button.fullwidth{width:100%}
 .commentlist #respond #submit{margin-bottom:0}
 .widget .toggle-box .blue.sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-.widget .sc-button.small{margin:0 .4em 1em 0;padding:.3em .6em}
+.widget .sc-button.small{margin:.2em .4em .5em 0;padding:.3em .6em}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button:not(.only-icon)>i{padding:0 5px 0 0}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em;line-height:1.2}
