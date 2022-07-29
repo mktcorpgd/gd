@@ -1092,7 +1092,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
-	body:not(.home) #post-content .ui-tabs .ui-tabs-nav{position:sticky;top:88px;z-index:10}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.4em .9em}
