@@ -29,10 +29,10 @@ jQuery(document).ready(function() {
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').val('Inmediata').unbind('click');
+				jQuery('.OUTDAYHR input').val('Inmediata');
 			}
 			else {
-				jQuery('.OUTDAYHR input').val('').bind('click');
+				jQuery('.OUTDAYHR input').val('');
 			}	
 		}
 		else {
