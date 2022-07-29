@@ -420,7 +420,7 @@ jQuery(document).ready(function() {
 	var labelID;
 	jQuery('.wpcf7 label').click(function() {
 		labelID = jQuery(this).attr('for');
-		jQuery(':input[name='+labelID+']:not(.walcf7-datetimepicker)').focus();
+		jQuery(':input[name='+labelID+']:not([class^=walcf7])').focus();
 	});
 
 
