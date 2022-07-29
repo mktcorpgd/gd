@@ -96,7 +96,8 @@ p{margin-bottom:1em;line-height:1.5}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-checkbox.large label,.wpcf7-radio.large label,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif}
 abbr[title]{border-bottom:0;cursor:inherit;text-decoration:none}
-input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em;padding:.5em .6em;width:100%!important;background:#F6F6F6;border:1px solid #CCCCCC;border-radius:6px;box-shadow:none;font-family:'Open-Sans',sans-serif;font-size:1.1em;line-height:1.2;letter-spacing:-.01em}
+input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,.wpcf7-list-item-label{font-family:'Open-Sans',sans-serif;font-size:1.1em;line-height:1.2;letter-spacing:-.01em}
+input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em;padding:.5em .6em;width:100%!important;background:#F6F6F6;border:1px solid #CCCCCC;border-radius:6px;box-shadow:none}
 select{padding:.37em .6em}
 textarea{line-height:1.3}
 input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,input[type='tel']:hover,input[type='number']:hover,textarea:hover,select:hover{background:#FFFFFF;border:1px solid #999999!important}
@@ -249,8 +250,8 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 
 /* Formularios */
 .wpcf7 .columns label+div[data-class='wpcf7cf_group'],.wpcf7 .columns label+div[data-class='wpcf7cf_group'] .wpcf7-form-control-wrap{margin-top:0!important}
-.wpcf7 .columns>label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
-.wpcf7 .columns>label>span.money-symbol{position:absolute;top:77px;left:15px;font-size:14px;color:#888888;font-weight:400}
+.wpcf7 label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
+.wpcf7 label>span.money-symbol{position:absolute;top:77px;left:15px;font-size:14px;color:#888888;font-weight:400}
 .wpcf7-checkbox.large,.wpcf7-radio.large{margin:10px 0 0;display:block;width:100%;text-align:center}
 .wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='checkbox']{width:24px;height:24px}
 .wpcf7-checkbox.large .wpcf7-list-item-label,.wpcf7-radio.large .wpcf7-list-item-label{display:inline-block;position:relative;top:-5px;font-size:18px;font-weight:400;font-style:italic}
@@ -265,23 +266,21 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .wpcf7-form>.columns.one.last{margin-bottom:1em}
 #wpcf7-f18793-p25343-o1 input[type='submit']{margin-top:0}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0!important;position:relative;top:1px}
-.wpcf7 .columns>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{display:inline-block;margin-top:.5em;font-size:.9em;font-family:'Neo-Sans',sans-serif}
-.wpcf7 .columns:not(.inline)>label,.wpcf7 .columns>div[data-class='wpcf7cf_group']{display:block}
-.wpcf7 .columns>label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
-.wpcf7 .columns>label.divider{padding-top:25px;border-top:1px solid #DDDDDD}
-.wpcf7 .columns>label>label.spacer{clear:both;display:block;margin-top:0!important;padding-top:5px}
-.wpcf7 .columns>label>label.spacer:first-child{padding-top:15px}
-.wpcf7 .columns>label strong{font-weight:500}
-.wpcf7 .columns>label strong .wpcf7-list-item-label{font-weight:600}
+.wpcf7 label,.wpcf7 div[data-class='wpcf7cf_group']{margin-top:.5em;font-size:.9em;font-family:'Neo-Sans',sans-serif}
+.wpcf7 .columns:not(.inline)>label,.wpcf7 div[data-class='wpcf7cf_group']{display:block}
+.wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
+.wpcf7 label.divider{padding-top:25px;border-top:1px solid #DDDDDD}
+.wpcf7 label strong{font-weight:500}
+.wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 label h3{text-transform:none;letter-spacing:0}
 .wpcf7>.wpcf7-form>label{float:left;width:100%;margin:10px 0;position:relative}
-.wpcf7 .columns>label:not(:first-child){margin-top:10px}
+.wpcf7 label:not(:first-child){margin-top:10px}
 .wpcf7 .columns.two.step1>label strong,.wpcf7 .columns.two.step1+.columns.two>label strong,.wpcf7 .columns.two.step2>label strong{margin-top:0!important}
 .wpcf7 .columns .wpcf7-list-item-label{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 .columns .neosans .wpcf7-list-item-label{font-family:'Neo-Sans',sans-serif}
-.wpcf7 .columns>label .wpcf7-checkbox:not(.check_add),.wpcf7 .columns>label .wpcf7-radio{display:block;margin:.4em 0 .8em}
-.wpcf7 .columns>label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
-.wpcf7 .columns>label .highlight .wpcf7-list-item-label{margin-right:0;font-size:1.1em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
+.wpcf7 label .wpcf7-checkbox:not(.check_add),.wpcf7 label .wpcf7-radio{display:block;margin:.4em 0 .8em}
+.wpcf7 label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
+.wpcf7 label .highlight .wpcf7-list-item-label{margin-right:0;font-size:1.1em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 .wpcf7 .visible{display:block!important}
 .wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
@@ -303,7 +302,7 @@ div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled,.notwalcf7{opa
 .wpcf7-form label.divider input[type='checkbox']+.wpcf7-not-valid-tip{top:41px}
 .wpcf7-form select.wpcf7-not-valid{padding-right:30px!important}
 .wpcf7-not-valid-tip{display:block;position:absolute;bottom:-8px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.6em;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
-.wpcf7 h3,.wpcf7 h4,.wpcf7 h5{float:left}
+.wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left}
 .wpcf7 h3 i:not(.far),.wpcf7 h4 i:not(.far),.wpcf7 h5 i:not(.far){font-size:.8em;position:relative;bottom:2px;opacity:.6}
 .wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i{font-size:.7em;opacity:.5}
 .wpcf7 h3 i~i:hover,.wpcf7 h4 i~i:hover,.wpcf7 h5 i~i:hover{opacity:.7}
@@ -1155,7 +1154,7 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.wpcf7-form label#EMAIL-error{top:55px}
 	.wpcf7-form label#RESPBOSSEMAIL-error{top:79px}
 	.wpcf7 input.money{padding-left:26px!important}
-	.wpcf7 .columns>label>span.money-symbol{top:98px;font-size:18px}
+	.wpcf7 label>span.money-symbol{top:98px;font-size:18px}
 	.wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='radio']{margin:15px 0}
 	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
 	.sc-button.inline{font-size:1em}
