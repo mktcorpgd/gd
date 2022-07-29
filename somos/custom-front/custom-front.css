@@ -202,7 +202,7 @@ body.page-template-default .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:first-child,body:not(.single-event) article.event:first-child{margin-top:0!important}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:hover,body:not(.single-event) article.event:hover{background:#FAFAFA;transform:translateY(-2px)}
 .gp-blog-wrapper section:hover h2 a,body:not(.single-event) article.event:hover h2 a{color:#F0582B;text-decoration:underline}
-.gp-blog-wrapper section h2,body:not(.single-event) article.event h2{display:block;margin-bottom:0;font-size:1.2em;line-height:1.15;font-weight:500}
+.gp-blog-wrapper section h2,body:not(.single-event) article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section{background:#0E316E}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11289{background:#89388D}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11286,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11302{background:#1C8DCE}
@@ -459,7 +459,6 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content .sc-tab-panel h5{margin-bottom:.25em}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content a+h6{margin-top:.8em}
-.textwidget h6{margin-bottom:.2em;font-size:.8em}
 #content p{line-height:1.5}
 #content .wp-block-separator+p{float:left;width:100%}
 #content blockquote p{line-height:1.5}
@@ -529,7 +528,7 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 .widget p{margin:0!important}
 .widget a:hover{text-decoration:underline}
 .widget hr{margin:.4em 0;width:100%;height:1px}
-.widget li,.widget p,.birthday_date,.birthday_name,.widget_ref{font-family:'Neo-Sans',sans-serif;color:#333333;line-height:1.5;cursor:inherit}
+.widget li,.birthday_date,.birthday_name{font-family:'Neo-Sans',sans-serif;color:#333333;line-height:1.5;cursor:inherit}
 .widget p{margin:10px 0 2px!important;line-height:1.25}
 .widget p strong{font-weight:500}
 .widget li a{font-weight:400}
@@ -957,7 +956,7 @@ img[src*='-dark-']{background:#999999}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
 .widget_ref{color:#CCCCCC}
 .widget_ref a{margin:0;line-height:1.5}
-.eo_widget_calendar .widget_ref a{margin:0;padding:.15em .5em;color:#FFFFFF;font-size:.8em}
+.eo_widget_calendar .widget_ref a{margin:0;padding:.15em .5em;color:#FFFFFF;font-size:.75em}
 .eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
 .eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
