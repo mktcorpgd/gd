@@ -613,6 +613,8 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .textwidget .toggle-box ul:not(.ui-tabs-nav){margin:.2em 0 .4em 0}
 .textwidget .toggle-box ul:not(.ui-tabs-nav) li{margin:0}
 .textwidget .toggle-box ul:not(.ui-tabs-nav) li .fab{min-width:20px;text-align:center}
+.textwidget{line-height:1.3}
+.textwidget h6{margin-top:0}
 #text-7 .textwidget{text-align:center}
 .widget .widgettitle a:hover{opacity:1}
 .widget .avatar,.widget .author{display:inline-block}
