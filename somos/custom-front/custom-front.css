@@ -191,7 +191,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{background:#FFFFFF}
 .post-loop .post-text{float:left;padding:.5em .8em!important;clear:both}
-.gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block;line-height:1.15}
+.gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event{background:#FFFFFF;border-radius:12px;overflow:hidden}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 14px 24px -12px #F0582B;transform:translateY(-2px)}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:first-child,body:not(.single-event) article.event:first-child{margin-top:0!important}
