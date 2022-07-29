@@ -266,7 +266,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 .wpcf7-form>.columns.one.last{margin-bottom:1em}
 #wpcf7-f18793-p25343-o1 input[type='submit']{margin-top:0}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0!important;position:relative;top:1px}
-.wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
+.wpcf7>label,.wpcf7 .columns>label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
 .wpcf7 div[data-class='wpcf7cf_group']{margin-top:.5em}
 .wpcf7 .columns:not(.inline)>label,.wpcf7 div[data-class='wpcf7cf_group']{display:block}
 .wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
