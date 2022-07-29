@@ -215,6 +215,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{display:grid}
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
+.columns{margin-bottom:.5em}
 
 /* Comentarios */
 #comments{clear:both;margin-top:20px;padding:0}
@@ -263,13 +264,9 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7-form label>i[title]:hover{opacity:1}
 .wpcf7-form>.step3.disabled{opacity:.5}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
-.wpcf7 .wpcf7-form>.columns.one{margin-right:0}
-.wpcf7 .wpcf7-form>.columns.one.last{margin-bottom:1em}
-#wpcf7-f18793-p25343-o1 input[type='submit']{margin-top:0}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0!important;position:relative;top:1px}
 .wpcf7>label,.wpcf7 .columns>label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
 .wpcf7 div[data-class='wpcf7cf_group']{margin-top:.5em}
-.wpcf7 .columns:not(.inline)>label,.wpcf7 div[data-class='wpcf7cf_group']{display:block}
 .wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 label.divider{padding-top:25px;border-top:1px solid #DDDDDD}
 .wpcf7 label strong{font-weight:500}
@@ -1143,7 +1140,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	.toggle-box>.sc-button,.widget .sc-button{font-size:1.2rem!important}
 	.wpcf7-form-control-date input{height:53px}
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
-	.wpcf7 .columns{margin-bottom:10px!important}
 	.wpcf7-form .wpcf7-not-valid-tip{top:56px;right:15px;font-size:14px}
 	.wpcf7-select+.wpcf7-not-valid-tip{top:58px}
 	.wpcf7-form label#EMAIL-error{top:55px}
