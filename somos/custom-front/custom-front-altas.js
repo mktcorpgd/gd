@@ -45,7 +45,10 @@ jQuery(document).ready(function() {
 				jQuery(this).val('');
 			}	
 		}
-	});	
+	});
+	jQuery(document).on('click','.notwalcf7',function(e){
+		e.preventDefault();
+	});
 
 	// Cambiar automáticamente por comas
 	jQuery(document).on('keyup','input[name=RESPBOSS]',function() {
