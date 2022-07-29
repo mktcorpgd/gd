@@ -294,16 +294,15 @@ div.wpcf7 input[type='file']:disabled{cursor:default}
 div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled,.notwalcf7{opacity:.6;pointer-events:none}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151!important}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
-.wpcf7-form{display:inline-block;width:100%;position:relative}
 .wpcf7-form>.step2{opacity:.5}
 .wpcf7-form>.step3.disabled .tp{z-index:-1}
 .wpcf7-form>.step3 .tp span,.wpcf7-form>.step3.disabled input[type='submit']{cursor:default}
-.wpcf7-form p.step3{display:inline-block;width:100%;margin:10px 0 15px;text-align:center}
+.wpcf7-form p.step3{margin:.6em 0 1em;text-align:center}
 .wpcf7-form input[type='checkbox']+.wpcf7-not-valid-tip{top:16px}
 .wpcf7-form label.divider input[type='checkbox']+.wpcf7-not-valid-tip{top:41px}
 .wpcf7-form select.wpcf7-not-valid{padding-right:30px!important}
 .wpcf7-not-valid-tip{display:block;position:absolute;bottom:-8px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.6em;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
-.wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left}
+.wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left;width:100%}
 .wpcf7 h3 i:not(.far),.wpcf7 h4 i:not(.far),.wpcf7 h5 i:not(.far){font-size:.8em;position:relative;bottom:2px;opacity:.6}
 .wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i{font-size:.7em;opacity:.5}
 .wpcf7 h3 i~i:hover,.wpcf7 h4 i~i:hover,.wpcf7 h5 i~i:hover{opacity:.7}
@@ -846,8 +845,7 @@ body .post-loop:not(.has-post-thumbnail) .post-text{max-height:initial}
 body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px solid #DDDDDD!important}
 
 /* Pestañas */
-.ui-widget-content{top:0;border:none!important}
-.sc-tab-panel{padding:0;background:none}
+.ui-widget-content{padding:0;top:0;background:none;border:none!important;overflow:visible}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#888888;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:0}
 .ui-tabs .ui-tabs-nav li{margin-bottom:.5em}
