@@ -19,7 +19,6 @@ jQuery(document).ready(function() {
 	// Checkbox - Bajas: Adicionales
 	jQuery('.check_add input[type=checkbox]').change(function() {
 		var name_checkbox = jQuery(this).attr('name');
-		console.log(name_checkbox);
 		if ( name_checkbox == 'LKDNOT[]' ) {
 			if ( this.checked ) {
 				jQuery('.LKDURL input').val('No tiene').attr('disabled',true);;
@@ -30,10 +29,10 @@ jQuery(document).ready(function() {
 		}
 		else if ( name_checkbox == 'NOW[]' ) {
 			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').val('Inmediata').addClass('notwalcf7');
+				jQuery('.OUTDAYHR input').val('Inmediata').addClass('notwalcf7').attr('disabled',true);
 			}
 			else {
-				jQuery('.OUTDAYHR input').val('').removeClass('notwalcf7');
+				jQuery('.OUTDAYHR input').val('').removeClass('notwalcf7').removeAttr('disabled');
 			}	
 		}
 		else {
