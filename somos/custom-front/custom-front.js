@@ -416,14 +416,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Focus en input al clickear un label
-	var labelID;
-	jQuery('.wpcf7 label').click(function() {
-		labelID = jQuery(this).attr('for');
-		jQuery(':input[name='+labelID+']:not([class^=walcf7])').focus();
-	});
-
-
 	// FORMULARIOS - Cambiar opción por ítem con costo según cantidad
 	var obj_scosto = 0;
 	jQuery('.MERCH1 option').each(function(i) {
