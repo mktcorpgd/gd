@@ -73,12 +73,10 @@ input,textarea,input[type='password'],#content .widget[class*='widget_bp_'] h3{b
 input[type='submit'],select,textarea,button{outline:none!important}
 hr{float:left;width:100%;height:4px;margin:1.5em 0 2em;padding:0;position:relative;background:#EAEAEA;border:0}
 [data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left;width:100%}
-h1,h2,h3,h4,h5,h6,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
+h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
+h1,h2,h3,h4,h5,h6{float:left;margin:1em 0 .5em;width:100%;line-height:125%}
 h5,h6{font-weight:400}
-h1,h2,h3,h4,h5,h6{float:left;width:100%;line-height:125%}
-h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong{font-weight:500}
-h1,h2,h3,h4,h5,h6,.widget .widgettitle,label{color:#333333}
-h2 a{color:#222222;text-align:left}
+h2 a{color:#333333;text-align:left}
 h3 a{color:#F0582B;text-decoration:none}
 h1,.page-title{margin-bottom:.5em;font-size:2em;font-weight:500;line-height:1.15}
 h2{font-size:1.4em}
@@ -315,7 +313,6 @@ div.wpcf7 .wpcf7-submit:disabled,div.wpcf7 .wpcf7-submit.disabled,.notwalcf7{opa
 .wpcf7-form label.divider input[type='checkbox']+.wpcf7-not-valid-tip{top:41px}
 .wpcf7-form select.wpcf7-not-valid{padding-right:30px!important}
 .wpcf7-not-valid-tip{display:block;position:absolute;bottom:-8px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.6em;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
-.wpcf7 h3:not(.toggle),.wpcf7 h4,#content .wpcf7 h5{margin-bottom:0!important}
 .wpcf7 h3 i:not(.far),.wpcf7 h4 i:not(.far),.wpcf7 h5 i:not(.far){font-size:.8em;position:relative;bottom:2px;opacity:.6}
 .wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i{font-size:.7em;opacity:.5}
 .wpcf7 h3 i~i:hover,.wpcf7 h4 i~i:hover,.wpcf7 h5 i~i:hover{opacity:.7}
@@ -908,9 +905,9 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #page-wrapper{overflow:visible}
 .button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none;clear:both}
 .button,.sc-button:not(.small),.mfp-content .sc-button:not(.small),.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
-.button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4);}
+.button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
 .button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
-.wpcf7 input[type='submit']{display:block;margin:0 auto;width:fit-content;}
+.wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 a.button.fullwidth{width:100%}
 #respond #submit{float:right;margin:.5em 0}
