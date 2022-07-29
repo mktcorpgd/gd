@@ -31,14 +31,14 @@ jQuery.fn.capitalize = function(e) {
 // FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit',function(e) {
 	jQuery(this).addClass('sending');
-	jQuery('.wpcf7-form').addClass('sending');
-	jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name',jQuery('.wpcf7-form.sending .wpcf7-submit').val());
-	jQuery('.wpcf7-form.sending .wpcf7-submit').val('Enviando...');
+	jQuery(this).closest('.wpcf7-form').addClass('sending');
+	jQuery(this).attr('name',jQuery(this).val());
+	jQuery(this).val('Enviando...');
 });
 
 // FORMULARIOS - Respuesta afirmativa/negativa luego de enviar un form
 document.addEventListener('wpcf7submit', function(event) {
-	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
+	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-form.sending .wpcf7-submit').attr('name'));
 	jQuery('.sending').removeClass('sending');
 }, false);
 
