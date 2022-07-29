@@ -515,9 +515,6 @@ article.category-salesforce #post-content>.nav-posts{margin:0!important}
 
 /* Sidebar */
 .sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
-.widget .sc-divider{margin:5px 0!important}
-.widget a:hover{text-decoration:underline}
-.widget hr{margin:.4em 0;width:100%;height:1px}
 .widget li,.birthday_date,.birthday_name{font-family:'Neo-Sans',sans-serif;color:#333333;line-height:1.5;cursor:inherit}
 .widget p{margin:0 0 .2em;line-height:1.25;clear:both}
 .widget p strong{font-weight:500}
