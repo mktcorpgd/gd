@@ -372,7 +372,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.check_add') ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var name_checkbox = jQuery(this).attr('name');
-			var parent = jQuery(this).parent();
+			var parent = jQuery(this).parent().attr('class');
 			console.log('parent='+parent);
 			if ( name_checkbox == 'LKDNOT[]' ) {
 				if ( this.checked ) {
