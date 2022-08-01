@@ -372,8 +372,10 @@ jQuery(document).ready(function() {
 	if ( jQuery('.check_add') ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var name_checkbox = jQuery(this).attr('name');
-			var parent = jQuery(this).closest('.wpcf7-form-control').attr('class');
-			console.log('parent='+parent);
+			var parent_wrap = jQuery(this).closest('.wpcf7-form-control').find('.wpcf7-form-control-wrap').attr('class');
+			var parent_wrap_class = parent_wrap.split(' ');
+			parent_wrap_class = classes[1];
+			console.log('pareparent_wrap_classnt='+parent_wrap_class);
 			if ( name_checkbox == 'LKDNOT[]' ) {
 				if ( this.checked ) {
 					jQuery('.LKDURL input').val('No tiene').attr('readonly',true);
