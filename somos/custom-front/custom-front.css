@@ -103,8 +103,8 @@ select{padding:.37em .6em}
 textarea{line-height:1.3}
 input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,input[type='tel']:hover,input[type='number']:hover,textarea:hover,select:hover{background:#FFFFFF;border:1px solid #999999!important}
 input[type='text']:focus,input[type='date']:focus,input[type='email']:focus,input[type='tel']:focus,input[type='number']:focus,textarea:focus,select:focus{background:#FFFFFF;border:1px solid #777777}
-input[readonly]:not([class*='.walcf7-']),input[readonly]:not([class*='.walcf7-']):hover,input[readonly]:not([class*='.walcf7-']):focus,textarea[readonly],textarea[readonly]:hover,textarea[readonly]:focus{background:#FFFFFF;border:1px dashed #CCCCCC}
-input[readonly]:not([class*='.walcf7-']),textarea[readonly]{cursor:default}
+input:not([class*='walcf7-'])[readonly],input[readonly]:not([class*='walcf7-']):hover,input[readonly]:not([class*='walcf7-']):focus,textarea[readonly],textarea[readonly]:hover,textarea[readonly]:focus{background:#FFFFFF;border:1px dashed #CCCCCC}
+input[readonly]:not([class*='walcf7-']),textarea[readonly]{cursor:default}
 select{position:relative}
 
 body:not(.home) section.post-loop.category-comerciales .gp-loop-meta time+span{font-size:100%}
@@ -273,7 +273,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{display:block;margin:.4em 0 .8em}
 .wpcf7 label .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
-.wpcf7 label .highlight .wpcf7-list-item-label{margin-right:0;font-size:1.1em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
+.wpcf7 label .highlight .wpcf7-list-item-label{font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 .wpcf7 .visible{display:block!important}
 .wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
