@@ -375,7 +375,7 @@ jQuery(document).ready(function() {
 			var label = jQuery(this).closest('.columns').find('label').attr('for');
 			if ( name_checkbox == 'LKDNOT[]' ) {
 				if ( this.checked ) {
-					jQuery('.LKDURL input').val('No tiene').attr('readonly',true);
+					jQuery('.LKDURL input').val('—').attr('readonly',true);
 				}
 				else {
 					jQuery('.LKDURL input').val('').removeAttr('readonly');
@@ -392,12 +392,12 @@ jQuery(document).ready(function() {
 			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'ALOJNOT[]' ) {
 				if ( this.checked ) {
 					var parent = label.substr(0,5);
-					jQuery('input[name='+parent+'PLACE]').val('No necesito');
-					jQuery('input[name^='+parent+']').attr('readonly',true);
+					jQuery('input[name='+parent+'PLACE]').val('—');
+					jQuery('input[name^='+parent+']').attr('disabled',true);
 				}
 				else {
 					jQuery('input[name^='+parent+']').val('');
-					jQuery('input[name^='+parent+']').removeAttr('readonly');
+					jQuery('input[name^='+parent+']').removeAttr('disabled');
 				}	
 			}
 			else {
