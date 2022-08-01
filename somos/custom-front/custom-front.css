@@ -252,15 +252,15 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 
 /* Formularios */
 input[type='text']:not([class*='.wpcf7-validates-as-required']):before{content:'Opcional';position:absolute;top:0;left:0;font-size:.6em;text-transform:uppercase;letter-spacing:1px}
-.wpcf7 .columns label+div[data-class='wpcf7cf_group'],.wpcf7 .columns label+div[data-class='wpcf7cf_group'] .wpcf7-form-control-wrap{margin-top:0!important}
 .wpcf7-form-control-wrap.inline{display:inline-block}
-.wpcf7 label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
+.wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label>span.money-symbol{position:absolute;top:77px;left:15px;font-size:14px;color:#888888;font-weight:400}
 .wpcf7-checkbox.large,.wpcf7-radio.large{margin:10px 0 0;display:block;width:100%;text-align:center}
 .wpcf7-checkbox.large input[type='checkbox'],.wpcf7-radio.large input[type='checkbox']{width:24px;height:24px}
 .wpcf7-checkbox.large .wpcf7-list-item-label,.wpcf7-radio.large .wpcf7-list-item-label{display:inline-block;position:relative;top:-5px;font-size:18px;font-weight:400;font-style:italic}
-.wpcf7-form-control-wrap .check_add{float:right;display:inline-block!important;font-size:.9em!important;position:relative;top:1px}
-.wpcf7-form-control-wrap .check_add .wpcf7-list-item,.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{margin-right:0!important;padding-left:0!important}
+.wpcf7-form-control-wrap .check_add{float:right;display:inline-block}
+.wpcf7-form-control-wrap .check_add .wpcf7-list-item{margin-right:0;padding-left:0}
+.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{font-size:.8rem}
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-form label>i[title],#nav .menu li.menu-item-has-children:after{opacity:.6}
 .wpcf7-form label>i[title]:hover{opacity:1}
