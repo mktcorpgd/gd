@@ -389,7 +389,7 @@ jQuery(document).ready(function() {
 					jQuery('.OUTDAYHR input').val('');
 				}	
 			}
-			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'ALOJNOT[]' ) {
+			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'AUTONOT[]' ) {
 				if ( this.checked ) {
 					var parent = label.substr(0,5);
 					jQuery('input[name='+parent+'PLACE]').val('—');
