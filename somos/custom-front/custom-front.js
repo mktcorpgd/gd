@@ -373,6 +373,7 @@ jQuery(document).ready(function() {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var name_checkbox = jQuery(this).attr('name');
 			var parent_wrap = jQuery(this).closest('.wpcf7-form-control').find('.wpcf7-form-control-wrap').attr('class');
+			console.log('parent_wrap='+parent_wrap);
 			var parent_wrap_class = parent_wrap.split(' ');
 			parent_wrap_class = classes[1];
 			console.log('parent_wrap_class='+parent_wrap_class);
