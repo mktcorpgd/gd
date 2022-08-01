@@ -274,7 +274,6 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 label:not(:first-child){margin-top:10px}
 .wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
-.wpcf7 .columns .neosans .wpcf7-list-item-label{font-family:'Neo-Sans',sans-serif}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{display:block;margin:.4em 0 .8em}
 .wpcf7 label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
 .wpcf7 label .highlight .wpcf7-list-item-label{margin-right:0;font-size:1.1em;font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
@@ -425,13 +424,13 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
+.neosans li{font-size:1.1em!important}
 #post-content{margin-top:1em;margin-bottom:2em}
 body.page #post-content{margin-top:0}
 #container #content,.padder{padding:1.5em 2em;border-radius:0}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 body.page #content h1{text-align:center}
 body.post-type-archive-event h1{text-transform:capitalize}
-.neosans li{font-size:1.1em!important}
 #post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
 #post-content h4+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
 #content .columns h1,#content .columns h2,#content .columns h3,#content .columns h4,#content .columns h5,#content .columns h6{margin:0!important;padding-bottom:5px}
