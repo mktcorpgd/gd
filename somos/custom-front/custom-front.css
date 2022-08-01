@@ -188,9 +188,9 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Columnas */
 .gp-blog-wrapper{float:left}
-.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
+.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{padding-bottom:1em;display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{width:100%;background:#FFFFFF}
-.post-loop .post-text{float:left;padding:.5em .8em!important;clear:both}
+.post-loop .post-text{padding:.5em .8em!important;clear:both}
 .gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
 .gp-blog-wrapper section,body:not(.single-event) article.event{background:#FFFFFF;border-radius:12px;overflow:hidden}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 14px 24px -12px #F0582B;transform:translateY(-2px)}
@@ -212,7 +212,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section h2 a{padding:0;text-decoration:none;color:#FFFFFF;text-align:center;-webkit-line-clamp:initial}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section h2 a:hover{text-decoration:none!important}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail{padding-top:.5em}
-body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{display:grid}
+body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{padding:.2em .8em .8em;display:grid}
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 .columns{margin-bottom:.5em}
