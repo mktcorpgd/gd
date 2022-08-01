@@ -369,12 +369,12 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Deshabilitar scroll wheel
-	jQuery('form').on('focus','input[type=number],.walcf7-datepicker',function(e) {
+	jQuery('form').on('focus','input[type=number]',function(e) {
 		jQuery(this).on('wheel.disableScroll',function(e) {
 			e.preventDefault();
 		});
 	});
-	jQuery('form').on('blur','input[type=number],.walcf7-datepicker',function(e) {
+	jQuery('form').on('blur','input[type=number]',function(e) {
 		jQuery(this).off('wheel.disableScroll');
 	});
 	  
@@ -535,7 +535,7 @@ jQuery(document).ready(function() {
 				if ( input[i].className.indexOf('world') > -1 ) {
 					place = new google.maps.places.Autocomplete(input[i],options_world);
 				}
-				else if ( input[i].className.indexOf('cities_world') > -1 ) {
+				else if ( input[i].className.indexOf('cities') > -1 ) {
 					place = new google.maps.places.Autocomplete(input[i],options_cities);
 				}
 				else {
