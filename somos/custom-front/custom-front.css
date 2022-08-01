@@ -265,16 +265,15 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7-form>.step3.disabled{opacity:.5}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0!important;position:relative;top:1px}
-.wpcf7 label,.wpcf7 .wpcf7-form-control-wrap{float:left;width:100%;margin:10px 0;position:relative}
+.wpcf7 label,.wpcf7 .wpcf7-form>.wpcf7-form-control-wrap{float:left;width:100%;margin:10px 0;position:relative}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
-.wpcf7 div[data-class='wpcf7cf_group']{margin-top:.5em}
 .wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 label.divider{padding-top:25px;border-top:1px solid #DDDDDD}
 .wpcf7 label strong{font-weight:500}
-.wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 label h3{text-transform:none;letter-spacing:0}
 .wpcf7 label:not(:first-child){margin-top:10px}
-.wpcf7 .wpcf7-list-item-label{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
+.wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
+.wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 .columns .neosans .wpcf7-list-item-label{font-family:'Neo-Sans',sans-serif}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{display:block;margin:.4em 0 .8em}
 .wpcf7 label .highlight .wpcf7-list-item label{display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
