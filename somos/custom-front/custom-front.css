@@ -252,6 +252,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 
 /* Formularios */
 .wpcf7 .columns label+div[data-class='wpcf7cf_group'],.wpcf7 .columns label+div[data-class='wpcf7cf_group'] .wpcf7-form-control-wrap{margin-top:0!important}
+.wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7 label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
 .wpcf7 label>span.money-symbol{position:absolute;top:77px;left:15px;font-size:14px;color:#888888;font-weight:400}
 .wpcf7-checkbox.large,.wpcf7-radio.large{margin:10px 0 0;display:block;width:100%;text-align:center}
