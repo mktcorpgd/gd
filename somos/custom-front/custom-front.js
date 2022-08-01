@@ -390,8 +390,8 @@ jQuery(document).ready(function() {
 				}	
 			}
 			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'AUTONOT[]' ) {
+				var parent = label.substr(0,5);
 				if ( this.checked ) {
-					var parent = label.substr(0,5);
 					jQuery('input[name='+parent+'PLACE]').val('—');
 					jQuery('input[name^='+parent+']').attr('disabled',true);
 				}
