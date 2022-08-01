@@ -394,8 +394,8 @@ jQuery(document).ready(function() {
 			}
 			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'ALOJNOT[]' ) {
 				if ( this.checked ) {
-					parent = parent.substr(0,5);
-					console.log(parent);
+					parent_wrap_class = parent_wrap_class.substr(0,5);
+					console.log(parent_wrap_class);
 					jQuery('input[name='+parent+'PLACE]').val('No necesito');
 					jQuery('input[name^='+parent+']').attr('readonly',true);
 				}
