@@ -372,9 +372,11 @@ jQuery(document).ready(function() {
 	if ( jQuery('.check_add') ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var name_checkbox = jQuery(this).attr('name');
+			var parent = jQuery(this).parent();
+			console.log('parent='+parent);
 			if ( name_checkbox == 'LKDNOT[]' ) {
 				if ( this.checked ) {
-					jQuery('.LKDURL input').val('No tiene').attr('readonly',true);;
+					jQuery('.LKDURL input').val('No tiene').attr('readonly',true);
 				}
 				else {
 					jQuery('.LKDURL input').val('').removeAttr('readonly');
@@ -386,6 +388,17 @@ jQuery(document).ready(function() {
 				}
 				else {
 					jQuery('.OUTDAYHR input').val('');
+				}	
+			}
+			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'ALOJNOT[]' ) {
+				if ( this.checked ) {
+					parent = parent.substr(0,5);
+					console.log(parent);
+					jQuery('input[name='+parent+'PLACE]').val('No necesito');
+					jQuery('input[name^='+parent+']').attr('readonly',true);
+				}
+				else {
+					jQuery(parent+' input').val('');
 				}	
 			}
 			else {
@@ -487,7 +500,7 @@ jQuery(document).ready(function() {
 			if ( is_checked == true && this.checked ) {
 				if ( this.value == 'Envío') {
 					jQuery('input[name=FNAMEPAX]').val('');
-					jQuery('input[name=LNAMEPAX]').val('');;
+					jQuery('input[name=LNAMEPAX]').val('');
 				}
 				else {
 					jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
