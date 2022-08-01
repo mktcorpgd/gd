@@ -524,17 +524,21 @@ jQuery(document).ready(function() {
 					place = new google.maps.places.Autocomplete(input[i],options_ar);
 				}
 				place.attrName = input[i].name;
-				place.addListener('place_changed',fillIn);
+				place.addListener('place_changed',fillInStaticGMap);
 				places.push(place);
 			}
-			function fillIn() {
+			function fillInStaticGMap() {
 				var input_name = this.attrName;
-				if ( jQuery('.'+input_name+'+a').length ) {
+				if ( jQuery('.'+input_name+'.static_gmap').length ) {
 					var address = this.getPlace().formatted_address;
 					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
-					jQuery('.'+input_name).removeClass('filledwithmap').addClass('filledwithmap');
-					jQuery('.'+input_name+'+a').css('display','block').attr('href','https://www.google.com/maps/search/'+address);
-					jQuery('.'+input_name+'+a img').attr('src',img_src);	
+					var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
+					if ( jQuery('.'+input_name+'.static_gmap a').length ) {
+						jQuery('.'+input_name+'.static_gmap a').replaceWith(html_map);	
+					}
+					else { 
+						jQuery('.'+input_name+'.static_gmap').append(html_map);	
+					}
 				}
 			}
 			  
