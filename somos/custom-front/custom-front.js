@@ -267,6 +267,7 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});
 
+
 	// MANTENIMIENTO - Cambiar idioma del botón en barra de administración
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=Off]').text('Mantenimiento desactivado');
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=On]').text('Mantenimiento activado');
@@ -289,60 +290,6 @@ jQuery(document).ready(function() {
 		}
 		if ( jQuery('.wpcf7-form-control-wrap:eq('+i+') .wpcf7-date').length > 0 ) {
 			jQuery('.wpcf7-form-control-wrap:eq('+i+')').addClass('wpcf7-form-control-date');
-		}
-	});
-
-
-	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
-	jQuery('.wpcf7-select option').each(function(i) {
-		if ( jQuery(this).text().indexOf(';') > -1 ) {
-			var input_value = jQuery(this).text();
-			var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
-			input_value = input_value.substring(0,input_value.indexOf(';'));
-			jQuery(this).attr('data-cat-id',id_cat);
-			if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
-				jQuery(this).val(id_cat);
-			}
-			jQuery(this).text(input_value);
-		}
-		if ( jQuery(this).text().indexOf('-') > -1 ) {
-			var input_value = jQuery(this).text();
-			if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 && jQuery('body').hasClass('page-id-26272') ) {
-				input_value = input_value.substring(input_value.indexOf('-')+2,input_value.length);
-			}
-			jQuery(this).text(input_value).val(input_value);
-		}
-		if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—') {
-			jQuery(this).attr('disabled','disabled');
-		}
-	});
-	jQuery(document).on('change','.wpcf7-select',function() {
-		var input_name = jQuery(this).attr('name');
-		// Si es un select multiple
-		if ( input_name.indexOf('[]') > -1 ) {
-			var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
-				return jQuery(el).text();
-			});
-			var val_comma = selMulti.join('; ');
-			input_name= input_name.substring(0,input_name.length-2);
-			if ( jQuery('.wpcf7-'+input_name).length ) {
-				jQuery('.wpcf7-'+input_name).text(val_comma);
-			}
-			if ( jQuery('input[name='+input_name+'TXT]').length ) {
-				jQuery('input[name='+input_name+'TXT]').val(val_comma);
-			}
-		}
-		else {
-			var val_single = jQuery('option:selected',this).text();
-			if ( jQuery('.wpcf7-'+input_name).length ) {
-				jQuery('.wpcf7-'+input_name).text(val_single);
-			}
-			if ( jQuery('input[name='+input_name+'TXT]').length ) {
-				if ( input_name == 'CC_UNIT') {
-					val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
-				}
-				jQuery('input[name='+input_name+'TXT]').val(val_single);
-			}
 		}
 	});
 
@@ -417,52 +364,100 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Cambiar opción por ítem con costo según cantidad
-	var obj_scosto = 0;
-	jQuery('.MERCH1 option').each(function(i) {
-		if ( jQuery(this).val() != '—Con costo') {
-			obj_scosto++;
-		}
-		else {
-			obj_scosto = obj_scosto-1;
-			return false;
-		}
-	});
-	var limit_obj_scosto = obj_scosto*2+1;
-	jQuery('input[name^=CANT]').keyup(function(e) {
-		var inp_index = jQuery(this).attr('name');
-		inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
-		if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
-			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-			// Si la cantidad es mayor a 10, se convierte con costo
-			if ( jQuery(this).val() > 10 && opt_index <= obj_scosto ) {
-				opt_index = opt_index+obj_scosto;
-				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
-			}
-			// Si la cantidad es menor o igual a 10 y es un objeto elegido que no tiene costo, se convierte sin costo
-			else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
-				opt_index = opt_index-obj_scosto;
-				jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
-			}
-		}
-	});
-	jQuery('select[name^=MERCH]').change(function(e) {
-		var inp_index = jQuery(this).attr('name');
-		inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
-		var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-		if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
-			if ( opt_index <= obj_scosto ) {
-				jQuery('.CANT'+inp_index+' input').val(10);
-			}
-		}
-	});
-
-
 	// FORMULARIOS - Deshabilitar autocompletado
 	jQuery('.autocompleteoff').attr('autocomplete','off');
 
 
-	// FORMULARIO - Domicilio a través de Google Maps
+	// [Checkbox] FORMULARIOS - Checkbox para opcionales
+	if ( jQuery('.check_add') ) {
+		jQuery('.check_add input[type=checkbox]').change(function() {
+			var name_checkbox = jQuery(this).attr('name');
+			if ( name_checkbox == 'LKDNOT[]' ) {
+				if ( this.checked ) {
+					jQuery('.LKDURL input').val('No tiene').attr('readonly',true);;
+				}
+				else {
+					jQuery('.LKDURL input').val('').removeAttr('readonly');
+				}	
+			}
+			else if ( name_checkbox == 'NOW[]' ) {
+				if ( this.checked ) {
+					jQuery('.OUTDAYHR input').val('Inmediata');
+				}
+				else {
+					jQuery('.OUTDAYHR input').val('');
+				}	
+			}
+			else {
+				if ( this.checked ) {
+					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
+					jQuery(this).val('*'+checkbox_checked);
+				}
+				else {
+					jQuery(this).val('');
+				}	
+			}
+		});	
+	}
+
+		
+	// [Select] FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
+	if ( jQuery('.wpcf7-select').length ) {
+		jQuery('.wpcf7-select option').each(function(i) {
+			if ( jQuery(this).text().indexOf(';') > -1 ) {
+				var input_value = jQuery(this).text();
+				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
+				input_value = input_value.substring(0,input_value.indexOf(';'));
+				jQuery(this).attr('data-cat-id',id_cat);
+				if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
+					jQuery(this).val(id_cat);
+				}
+				jQuery(this).text(input_value);
+			}
+			if ( jQuery(this).text().indexOf('-') > -1 ) {
+				var input_value = jQuery(this).text();
+				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 && jQuery('body').hasClass('page-id-26272') ) {
+					input_value = input_value.substring(input_value.indexOf('-')+2,input_value.length);
+				}
+				jQuery(this).text(input_value).val(input_value);
+			}
+			if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—') {
+				jQuery(this).attr('disabled','disabled');
+			}
+		});
+		jQuery(document).on('change','.wpcf7-select',function() {
+			var input_name = jQuery(this).attr('name');
+			// Si es un select multiple
+			if ( input_name.indexOf('[]') > -1 ) {
+				var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
+					return jQuery(el).text();
+				});
+				var val_comma = selMulti.join('; ');
+				input_name= input_name.substring(0,input_name.length-2);
+				if ( jQuery('.wpcf7-'+input_name).length ) {
+					jQuery('.wpcf7-'+input_name).text(val_comma);
+				}
+				if ( jQuery('input[name='+input_name+'TXT]').length ) {
+					jQuery('input[name='+input_name+'TXT]').val(val_comma);
+				}
+			}
+			else {
+				var val_single = jQuery('option:selected',this).text();
+				if ( jQuery('.wpcf7-'+input_name).length ) {
+					jQuery('.wpcf7-'+input_name).text(val_single);
+				}
+				if ( jQuery('input[name='+input_name+'TXT]').length ) {
+					if ( input_name == 'CC_UNIT') {
+						val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
+					}
+					jQuery('input[name='+input_name+'TXT]').val(val_single);
+				}
+			}
+		});
+	}
+
+	
+	// [Google Maps] FORMULARIO - Domicilio a través de Google Maps
 	if ( jQuery('.address_maps').length ) {
 		
 		// Datos de usuario
@@ -548,6 +543,49 @@ jQuery(document).ready(function() {
 		
 	}
 
+
+	// [Merchandising] FORMULARIOS - Cambiar opción por ítem con costo según cantidad
+	if ( jQuery('.MERCH1').length ) {
+		var obj_scosto = 0;
+		jQuery('.MERCH1 option').each(function(i) {
+			if ( jQuery(this).val() != '—Con costo') {
+				obj_scosto++;
+			}
+			else {
+				obj_scosto = obj_scosto-1;
+				return false;
+			}
+		});
+		var limit_obj_scosto = obj_scosto*2+1;
+		jQuery('input[name^=CANT]').keyup(function(e) {
+			var inp_index = jQuery(this).attr('name');
+			inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
+			if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
+				var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
+				// Si la cantidad es mayor a 10, se convierte con costo
+				if ( jQuery(this).val() > 10 && opt_index <= obj_scosto ) {
+					opt_index = opt_index+obj_scosto;
+					jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
+				}
+				// Si la cantidad es menor o igual a 10 y es un objeto elegido que no tiene costo, se convierte sin costo
+				else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
+					opt_index = opt_index-obj_scosto;
+					jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
+				}
+			}
+		});
+		jQuery('select[name^=MERCH]').change(function(e) {
+			var inp_index = jQuery(this).attr('name');
+			inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
+			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
+			if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
+				if ( opt_index <= obj_scosto ) {
+					jQuery('.CANT'+inp_index+' input').val(10);
+				}
+			}
+		});
+	}
+	
 
 	// LATERAL - Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();

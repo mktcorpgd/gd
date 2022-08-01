@@ -15,40 +15,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
-	// Checkbox - Bajas: Adicionales
-	jQuery('.check_add input[type=checkbox]').change(function() {
-		var name_checkbox = jQuery(this).attr('name');
-		if ( name_checkbox == 'LKDNOT[]' ) {
-			if ( this.checked ) {
-				jQuery('.LKDURL input').val('No tiene').attr('readonly',true);;
-			}
-			else {
-				jQuery('.LKDURL input').val('').removeAttr('readonly');
-			}	
-		}
-		else if ( name_checkbox == 'NOW[]' ) {
-			if ( this.checked ) {
-				jQuery('.OUTDAYHR input').val('Inmediata');
-			}
-			else {
-				jQuery('.OUTDAYHR input').val('');
-			}	
-		}
-		else {
-			if ( this.checked ) {
-				var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-				jQuery(this).val('*'+checkbox_checked);
-			}
-			else {
-				jQuery(this).val('');
-			}	
-		}
-	});
-	jQuery(document).on('click','.notwalcf7',function(e){
-		e.preventDefault();
-	});
-
+	
 	// Cambiar automáticamente por comas
 	jQuery(document).on('keyup','input[name=RESPBOSS]',function() {
 		jQuery(this).val(jQuery(this).val().replace(/;/g,','));
