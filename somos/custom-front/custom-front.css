@@ -251,6 +251,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 #comments .commentlist li .gp-comment-content .gp-comment-description>p{margin-bottom:5px!important;padding-bottom:0;font-size:.9em;line-height:1.5}
 
 /* Formularios */
+input:not([class*='.wpcf7-validates-as-required']):before{content:'Opcional';position:absolute;top:0;left:0;font-size:.6em;text-transform:uppercase;letter-spacing:1px}
 .wpcf7 .columns label+div[data-class='wpcf7cf_group'],.wpcf7 .columns label+div[data-class='wpcf7cf_group'] .wpcf7-form-control-wrap{margin-top:0!important}
 .wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7 label li{font-size:.8em;line-height:1!important;list-style:none;margin:0!important}
@@ -361,9 +362,9 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .pac-item{padding:.3em .6em}
 .pac-item-query,.pac-item-query+span{float:left;line-height:1.5}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
-.static_gmap input{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
-.static_gmap a{position:relative;margin-top:-11px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-.static_gmap a:hover{border-color:#F0582B}
+input.static_gmap{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
+input.static_gmap+a{position:relative;margin-top:-11px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
+input.static_gmap a:hover{border-color:#F0582B}
 
 /* Meta */
 .gp-meta-cats{font-size:0}
