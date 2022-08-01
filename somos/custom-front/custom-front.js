@@ -368,6 +368,17 @@ jQuery(document).ready(function() {
 	jQuery('.autocompleteoff').attr('autocomplete','off');
 
 
+	// FORMULARIOS - Deshabilitar scroll wheel
+	jQuery('form').on('focus','input[type=number],.walcf7-datepicker',function(e) {
+		jQuery(this).on('wheel.disableScroll',function(e) {
+			e.preventDefault();
+		});
+	});
+	jQuery('form').on('blur','input[type=number],.walcf7-datepicker',function(e) {
+		jQuery(this).off('wheel.disableScroll');
+	});
+	  
+
 	// [Checkbox] FORMULARIOS - Checkbox para opcionales
 	if ( jQuery('.check_add') ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
