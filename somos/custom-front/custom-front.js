@@ -539,7 +539,7 @@ jQuery(document).ready(function() {
 						jQuery('.'+input_name+'.static_gmap a').replaceWith(html_map);	
 					}
 					else { 
-						jQuery('input[name='+input_name+'].static_gmap').insertAfter(html_map);	
+						jQuery('input[name='+input_name+'].static_gmap').after(html_map);	
 					}
 				}
 			}
