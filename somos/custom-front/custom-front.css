@@ -188,7 +188,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 
 /* Columnas */
 .gp-blog-wrapper{float:left}
-.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{padding-bottom:1em;display:grid}
+.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{width:100%;background:#FFFFFF}
 .post-loop .post-text{padding:.5em .8em!important;clear:both}
 .gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
@@ -423,7 +423,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 
 /* Contenido */
 .neosans li{font-size:1.1em!important}
-#post-content{margin-top:1em;margin-bottom:2em}
+#post-content{margin-top:1em;margin-bottom:2em;overflow:visible}
 body.page #post-content{margin-top:0}
 #container #content,.padder{padding:1.5em 2em;border-radius:0}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
