@@ -372,7 +372,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.check_add') ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var name_checkbox = jQuery(this).attr('name');
-			var wrap = jQuery(this).closest('.wpcf7-form-control-wrap').attr('class');
+			var wrap = jQuery(this).closest('.columns').find('label').attr('for');
 			console.log('wrap='+wrap);
 			var wrap_classes = wrap.split(' ');
 			var wrap_class = wrap_classes[1];
