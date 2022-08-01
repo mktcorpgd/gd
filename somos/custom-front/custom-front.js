@@ -533,6 +533,8 @@ jQuery(document).ready(function() {
 					var address = this.getPlace().formatted_address;
 					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x250&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 					var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
+					console.log(html_map);
+					console.log(jQuery('input[name='+input_name+'].static_gmap a').length);
 					if ( jQuery('input[name='+input_name+'].static_gmap a').length ) {
 						jQuery('.'+input_name+'.static_gmap a').replaceWith(html_map);	
 					}
