@@ -435,7 +435,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content .columns.four.expanded{width:27%}
 #content .columns.three.expanded{width:66%}
 #content #post-content>h3:not(.toggle),#content #post-content>h4,#content #post-content>h5,.mfp-content h3:not(.toggle),.mfp-content h4,.mfp-content h5{margin-top:1.4em}
-#content .wpcf7 h4 input[type=number],input.inline{margin:0 1em 0 .2em!important;padding:.3em!important;width:auto!important;max-width:50px;text-align:center;font-weight:600}
+#content .wpcf7 h4 input[type=number],input.inline{margin:0 .2em!important;padding:.3em!important;width:auto!important;max-width:50px;text-align:center;font-weight:600}
 #content .sc-tab-panel h5{margin-bottom:.25em}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content a+h6{margin-top:.8em}
