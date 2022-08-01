@@ -396,7 +396,7 @@ jQuery(document).ready(function() {
 					jQuery('input[name^='+parent+']').attr('disabled',true);
 				}
 				else {
-					jQuery('input[name^='+parent+']').val('');
+					jQuery('input[name^='+parent+'PLACE]').val('');
 					jQuery('input[name^='+parent+']').removeAttr('disabled');
 				}	
 			}
