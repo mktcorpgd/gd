@@ -272,7 +272,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 label h3{text-transform:none;letter-spacing:0}
-.wpcf7>.wpcf7-form>label{float:left;width:100%;margin:10px 0;position:relative}
+.wpcf7>.wpcf7-form>label,.wpcf7>.wpcf7-form>.wpcf7-form-control-wrap{float:left;width:100%;margin:10px 0;position:relative}
 .wpcf7 label:not(:first-child){margin-top:10px}
 .wpcf7 .columns.two.step1>label strong,.wpcf7 .columns.two.step1+.columns.two>label strong,.wpcf7 .columns.two.step2>label strong{margin-top:0!important}
 .wpcf7 .columns .wpcf7-list-item-label{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
