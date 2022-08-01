@@ -372,11 +372,11 @@ jQuery(document).ready(function() {
 	if ( jQuery('.check_add') ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var name_checkbox = jQuery(this).attr('name');
-			var parent_wrap = jQuery(this).closest('.wpcf7-form-control').find('.wpcf7-form-control-wrap').attr('class');
-			console.log('parent_wrap='+parent_wrap);
-			var parent_wrap_class = parent_wrap.split(' ');
-			parent_wrap_class = classes[1];
-			console.log('parent_wrap_class='+parent_wrap_class);
+			var wrap = jQuery(this).closest('.wpcf7-form-control-wrap').attr('class');
+			console.log('wrap='+wrap);
+			var wrap_classes = wrap.split(' ');
+			var wrap_class = wrap_classes[1];
+			console.log('parent_wrap_class='+wrap_class);
 			if ( name_checkbox == 'LKDNOT[]' ) {
 				if ( this.checked ) {
 					jQuery('.LKDURL input').val('No tiene').attr('readonly',true);
@@ -395,8 +395,8 @@ jQuery(document).ready(function() {
 			}
 			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'ALOJNOT[]' ) {
 				if ( this.checked ) {
-					parent_wrap_class = parent_wrap_class.substr(0,5);
-					console.log(parent_wrap_class);
+					wrap_class = wrap_class.substr(0,5);
+					console.log(wrap_class);
 					jQuery('input[name='+parent+'PLACE]').val('No necesito');
 					jQuery('input[name^='+parent+']').attr('readonly',true);
 				}
