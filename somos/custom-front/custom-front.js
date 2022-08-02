@@ -391,7 +391,7 @@ jQuery(document).ready(function() {
 				else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
 					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name='+inputtext_name+'PLACE]').val('—');
-					jQuery('input[name^='+inputtext_name+']').attr('disabled',true);
+					jQuery('input[name^='+inputtext_name+']').attr('readonly',true);
 				}
 				else if ( checkbox_name.indexOf('NOT') > -1 ) {
 					jQuery('input[name='+inputtext_name+']').val('—');
@@ -401,16 +401,16 @@ jQuery(document).ready(function() {
 					jQuery(this).val('*'+checkbox_checked);
 				}
 				if ( jQuery('input[name='+inputtext_name+']').length ) {
-					jQuery('input[name='+inputtext_name+']').attr('disabled',true);
+					jQuery('input[name='+inputtext_name+']').attr('readonly',true);
 				}
 			}
 			else {
 				if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
 					inputtext_name = inputtext_name.substr(0,5);
-					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('disabled');
+					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('readonly');
 				}
 				else { 
-					jQuery('input[name='+inputtext_name+']').val('').removeAttr('disabled');
+					jQuery('input[name='+inputtext_name+']').val('').removeAttr('readonly');
 				}
 			}
 		});	
