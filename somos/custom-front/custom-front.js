@@ -400,7 +400,9 @@ jQuery(document).ready(function() {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 					jQuery(this).val('*'+checkbox_checked);
 				}
-				jQuery('input[name='+inputtext_name+']').attr('disabled',true);
+				if ( jQuery('input[name='+inputtext_name+']').length ) {
+					jQuery('input[name='+inputtext_name+']').attr('disabled',true);
+				}
 			}
 			else {
 				jQuery('input[name='+inputtext_name+']').val('').removeAttr('disabled');
