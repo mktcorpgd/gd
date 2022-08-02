@@ -6,7 +6,7 @@ article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(
 body.branding .fusion-modal.contacto-rapido .fusion-fullwidth>.fusion-builder-row>.fusion-layout-column.fusion-column-last,
 body.branding .fusion-footer-widget-area .widget_nav_menu,
 body.no-partners #partners_footer>.fusion-fullwidth,
-.fusion-portfolio-post[class*='obras-ftth'] .fusion-image-wrapper,.fusion-portfolio-post[class*='transporte-datos'] .fusion-image-wrapper{display:none!important}
+.fusion-portfolio-post[class*='obras-ftth'] .fusion-image-wrapper,.fusion-portfolio-post[class*='transporte-datos'] .fusion-image-wrapper,.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']){display:none!important}
 body.branding .fusion-footer-widget-area{margin:0;padding:0!important;height:0}
 ::-moz-selection{background:#F0582B!important;color:#FFFFFF}::selection{background:#F0582B!important;color:#FFFFFF}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2.menu-item-26501{width:35%!important}
