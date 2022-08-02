@@ -264,7 +264,7 @@ input[type='text']:not([class*='.wpcf7-validates-as-required']):before{content:'
 .wpcf7-form>.step3.disabled{opacity:.5}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
-.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;opacity:.4}
+.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC}
 .wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
