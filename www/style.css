@@ -660,7 +660,6 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .fusion-post-content-wrapper>div>div>p a i{font-size:14px;margin-left:2px;opacity:.3}
 .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{color:#333333!important;padding:12px 20px 8px!important}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:16px 20px 0!important}
-.fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta + h2 a{padding-top:.2em!important}
 #main .post h2 a{color:#333333}
 body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .toggle-content .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2{font-size:1em!important}
@@ -836,17 +835,7 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .fusion-meta-info-wrapper>a~a,.fusion-single-line-meta>a~a{padding:0 .6em!important}
 .meta-tags a{cursor:text;text-decoration:none!important}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:#666666}
-.fusion-portfolio-content .fusion-portfolio-meta{margin:-9px 0 0;padding-left:20px;padding-right:20px;position:relative;font-size:0;color:transparent;z-index:10}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{margin-top:10px}
-.fusion-portfolio-content .fusion-portfolio-meta a{float:left;margin-right:.7em;font-size:.7rem}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-']{display:inline-block;width:18px;height:18px;box-shadow:0 0 6px 0 rgba(0,0,0,.4);border-radius:32px;overflow:hidden}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-ar']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_ar.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-br']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_br.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-cl']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_cl.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-mx']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_mx.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_pe.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_pr.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-gd_uy.svg')}
 .fusion-single-line-meta,.fusion-portfolio-meta{padding:5px 20px 15px}
 article.category-tips-para-empresas .fusion-single-line-meta{padding-top:10px}
 .fusion-single-line-meta>span:not(.meta-tags),.fusion-single-line-meta a,.fusion-portfolio-meta a,.fusion-carousel-meta span,.fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a{border-bottom:0!important;color:#666666!important;font-size:1em;text-decoration:none}
