@@ -270,12 +270,11 @@ input[type='text']:not([class*='.wpcf7-validates-as-required']):before{content:'
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{clear:both;display:block;margin:.4em 0 .8em}
-.wpcf7 label .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border-radius:12px}
+.wpcf7 .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border-radius:12px}
+input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-weight:500;border:2px solid #F0582B}
+input[type='number'].inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:#1F4483}
 input[type='number'].inline{margin:0!important;padding:.3em!important;max-width:50px;text-align:center}
-input[type='number'].inline.highlight{border-width:2px}
-.wpcf7 label .highlight .wpcf7-list-item label,input.highlight{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-weight:500;border-color:#F0582B}
-.wpcf7 label .highlight .wpcf7-list-item label:hover,input.highlight:hover{border-color:#1F4483}
-.wpcf7 label .highlight .wpcf7-list-item-label{font-weight:500!important}
+.wpcf7 .highlight .wpcf7-list-item-label{font-weight:500!important}
 .wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
 body form.sending{cursor:wait}
