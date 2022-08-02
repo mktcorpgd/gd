@@ -384,50 +384,26 @@ jQuery(document).ready(function() {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var checkbox_name = jQuery(this).attr('name');
 			var inputtext_name = jQuery(this).closest('.columns').find('input[type=text]').attr('name');
-			console.log(inputtext_name);
-			if ( checkbox_name == 'LKDNOT[]' ) {
-				if ( this.checked ) {
-					jQuery('.LKDURL input').val('—').attr('readonly',true);
+			if ( this.checked ) {
+				jQuery('input[name='+inputtext_name+']').attr('disabled',true);
+				if ( checkbox_name == 'NOW[]' ) {
+					jQuery('input[name='+inputtext_name+']').val('Inmediata');
 				}
-				else {
-					jQuery('.LKDURL input').val('').removeAttr('readonly');
-				}	
-			}
-			else if ( checkbox_name == 'NOW[]' ) {
-				if ( this.checked ) {
-					jQuery('.OUTDAYHR input').val('Inmediata');
-				}
-				else {
-					jQuery('.OUTDAYHR input').val('');
-				}	
-			}
-			else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
-				inputtext_name = inputtext_name.substr(0,5);
-				if ( this.checked ) {
+				else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
+					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name='+inputtext_name+'PLACE]').val('—');
-					jQuery('input[name^='+inputtext_name+']').attr('disabled',true);
+					jQuery('input[name^='+inputtext_name+']').val('').attr('disabled',true);
+				}
+				else if ( checkbox_name.indexOf('NOT') > -1 ) {
+					jQuery('input[name='+inputtext_name+']').val('—');
 				}
 				else {
-					jQuery('input[name^='+inputtext_name+'PLACE]').val('');
-					jQuery('input[name^='+inputtext_name+']').removeAttr('disabled');
-				}	
-			}
-			else if ( checkbox_name == 'DATEBACKNOT[]' ) {
-				if ( this.checked ) {
-					jQuery('input[name='+inputtext_name+']').val('—').attr('disabled',true);
-				}
-				else {
-					jQuery('input[name='+inputtext_name+']').val('').removeAttr('disabled',true);
-				}	
-			}
-			else {
-				if ( this.checked ) {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 					jQuery(this).val('*'+checkbox_checked);
 				}
-				else {
-					jQuery(this).val('');
-				}	
+			}
+			else {
+				jQuery('input[name='+inputtext_name+']').val('').removeAttr('disabled');
 			}
 		});	
 	}
