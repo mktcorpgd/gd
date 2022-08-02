@@ -384,6 +384,7 @@ jQuery(document).ready(function() {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var name_checkbox = jQuery(this).attr('name');
 			var label = jQuery(this).closest('.columns').find('label').attr('for');
+			console.log(label);
 			if ( name_checkbox == 'LKDNOT[]' ) {
 				if ( this.checked ) {
 					jQuery('.LKDURL input').val('—').attr('readonly',true);
@@ -409,6 +410,14 @@ jQuery(document).ready(function() {
 				else {
 					jQuery('input[name^='+parent+'PLACE]').val('');
 					jQuery('input[name^='+parent+']').removeAttr('disabled');
+				}	
+			}
+			else if ( name_checkbox == 'DATEBACKNOT[]' ) {
+				if ( this.checked ) {
+					jQuery('label[for='+label+'] input').val('—').attr('disabled',true);
+				}
+				else {
+					jQuery('label[for='+label+'] input]').val('').removeAttr('disabled',true);
 				}	
 			}
 			else {
