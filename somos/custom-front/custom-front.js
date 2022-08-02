@@ -384,15 +384,12 @@ jQuery(document).ready(function() {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var checkbox_name = jQuery(this).attr('name');
 			var inputtext_name = jQuery(this).closest('.columns').find('input[type=text]').attr('name');
-			console.log(inputtext_name);
 			if ( this.checked ) {
-				jQuery('input[name='+inputtext_name+']').attr('disabled',true);
 				if ( checkbox_name == 'NOW[]' ) {
 					jQuery('input[name='+inputtext_name+']').val('Inmediata');
 				}
 				else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
 					inputtext_name = inputtext_name.substr(0,5);
-					console.log(inputtext_name);
 					jQuery('input[name='+inputtext_name+'PLACE]').val('—');
 					jQuery('input[name^='+inputtext_name+']').val('').attr('disabled',true);
 				}
@@ -403,6 +400,7 @@ jQuery(document).ready(function() {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 					jQuery(this).val('*'+checkbox_checked);
 				}
+				jQuery('input[name='+inputtext_name+']').attr('disabled',true);
 			}
 			else {
 				jQuery('input[name='+inputtext_name+']').val('').removeAttr('disabled');
