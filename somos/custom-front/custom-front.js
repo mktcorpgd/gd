@@ -401,7 +401,12 @@ jQuery(document).ready(function() {
 					jQuery(this).val('*'+checkbox_checked);
 				}
 				if ( jQuery('input[name='+inputtext_name+']').length ) {
-					jQuery('input[name='+inputtext_name+']').attr('readonly',true);
+					if ( jQuery('input[name='+inputtext_name+'][class*=walcf7-]').length ) {
+						jQuery('input[name='+inputtext_name+']').attr('disabled',true);
+					}
+					else {
+						jQuery('input[name='+inputtext_name+']').attr('readonly',true);
+					}
 				}
 			}
 			else {
