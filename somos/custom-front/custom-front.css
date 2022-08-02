@@ -64,7 +64,7 @@ section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plu
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll;letter-spacing:-.005em}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
-textarea{height:90px}
+textarea{height:60px}
 a{color:#F0582B}
 a:hover{color:#1F4483}
 #content a:hover{text-decoration:underline}
@@ -213,6 +213,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 .columns{margin-bottom:.5em}
+.columns.one.aligncenter{margin-top:0}
 
 /* Comentarios */
 #comments{clear:both;margin-top:20px;padding:0}
@@ -268,8 +269,10 @@ input[type='text']:not([class*='.wpcf7-validates-as-required']):before{content:'
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{clear:both;display:block;margin:.4em 0 .8em}
-.wpcf7 label .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border:2px solid #EAEAEA;border-radius:12px}
-.wpcf7 label .highlight .wpcf7-list-item-label{font-weight:500!important;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
+.wpcf7 label .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border-radius:12px}
+input[type='number'].inline{margin:0!important;padding:.3em!important;max-width:50px;text-align:center}
+.wpcf7 label .highlight .wpcf7-list-item label,input.highlight{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-weight:500;border:2px solid #F0582B}
+.wpcf7 label .highlight .wpcf7-list-item-label{font-weight:500!important}
 .wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
 body form.sending{cursor:wait}
@@ -432,7 +435,6 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content .columns.four.expanded{width:27%}
 #content .columns.three.expanded{width:66%}
 #content #post-content>h3:not(.toggle),#content #post-content>h4,#content #post-content>h5,.mfp-content h3:not(.toggle),.mfp-content h4,.mfp-content h5{margin-top:1.4em}
-#content .wpcf7 h4 input[type=number],input.inline{margin:0 .2em!important;padding:.3em!important;width:auto!important;max-width:50px;text-align:center;font-weight:600}
 #content .sc-tab-panel h5{margin-bottom:.25em}
 #content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content a+h6{margin-top:.8em}
@@ -863,7 +865,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 /* Botones */
 #page-wrapper{overflow:visible}
 .button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none;clear:both}
-.button,.sc-button:not(.small),.mfp-content .sc-button:not(.small),.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
+.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
 .button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
 .button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content}
@@ -885,7 +887,7 @@ a.button.fullwidth{width:100%}
 .sc-button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
 .sc-button-social{display:inline-block;margin:.2em .2em 0;color:#F0582B;font-size:1.5em}
 .sc-button-social:hover{color:#1F4483}
-.widget .sc-button.small{font-weight:400}
+.widget .sc-button.small{font-weight:400!important}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
 .buttons,.buttons-download{clear:both;margin:1em 0 2em;text-align:center}
