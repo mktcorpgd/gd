@@ -382,10 +382,10 @@ jQuery(document).ready(function() {
 	// [Checkbox] FORMULARIOS - Checkbox para opcionales
 	if ( jQuery('.check_add') ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
-			var name_checkbox = jQuery(this).attr('name');
-			var label = jQuery(this).closest('.columns').find('label').attr('for');
-			console.log(label);
-			if ( name_checkbox == 'LKDNOT[]' ) {
+			var checkbox_name = jQuery(this).attr('name');
+			var inputtext_name = jQuery(this).closest('.columns').find('input[type=text]').attr('name');
+			console.log(inputtext_name);
+			if ( checkbox_name == 'LKDNOT[]' ) {
 				if ( this.checked ) {
 					jQuery('.LKDURL input').val('—').attr('readonly',true);
 				}
@@ -393,7 +393,7 @@ jQuery(document).ready(function() {
 					jQuery('.LKDURL input').val('').removeAttr('readonly');
 				}	
 			}
-			else if ( name_checkbox == 'NOW[]' ) {
+			else if ( checkbox_name == 'NOW[]' ) {
 				if ( this.checked ) {
 					jQuery('.OUTDAYHR input').val('Inmediata');
 				}
@@ -401,23 +401,23 @@ jQuery(document).ready(function() {
 					jQuery('.OUTDAYHR input').val('');
 				}	
 			}
-			else if ( name_checkbox == 'ALOJNOT[]' || name_checkbox == 'AUTONOT[]' ) {
-				var parent = label.substr(0,5);
+			else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
+				inputtext_name = inputtext_name.substr(0,5);
 				if ( this.checked ) {
-					jQuery('input[name='+parent+'PLACE]').val('—');
-					jQuery('input[name^='+parent+']').attr('disabled',true);
+					jQuery('input[name='+inputtext_name+'PLACE]').val('—');
+					jQuery('input[name^='+inputtext_name+']').attr('disabled',true);
 				}
 				else {
-					jQuery('input[name^='+parent+'PLACE]').val('');
-					jQuery('input[name^='+parent+']').removeAttr('disabled');
+					jQuery('input[name^='+inputtext_name+'PLACE]').val('');
+					jQuery('input[name^='+inputtext_name+']').removeAttr('disabled');
 				}	
 			}
-			else if ( name_checkbox == 'DATEBACKNOT[]' ) {
+			else if ( checkbox_name == 'DATEBACKNOT[]' ) {
 				if ( this.checked ) {
-					jQuery('label[for='+label+'] input').val('—').attr('disabled',true);
+					jQuery('input[name='+inputtext_name+']').val('—').attr('disabled',true);
 				}
 				else {
-					jQuery('label[for='+label+'] input]').val('').removeAttr('disabled',true);
+					jQuery('input[name='+inputtext_name+']').val('').removeAttr('disabled',true);
 				}	
 			}
 			else {
