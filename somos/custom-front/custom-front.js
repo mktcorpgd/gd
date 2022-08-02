@@ -415,7 +415,7 @@ jQuery(document).ready(function() {
 					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
 				}
 				else { 
-					jQuery('input[name='+inputtext_name+']').val('').removeAttr('readonly');
+					jQuery('input[name='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
 				}
 			}
 		});	
