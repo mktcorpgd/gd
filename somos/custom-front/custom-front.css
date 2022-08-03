@@ -1007,7 +1007,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content{max-height:1570px;position:relative;overflow:hidden}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content:after{content:'';display:block;width:100%;height:5em;position:absolute;bottom:0;right:0;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(221,221,221,1) 100%)}
 	.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-thumbnail,body.archive .gp-blog-wrapper .post-loop .post-thumbnail,body.search .gp-blog-wrapper .post-loop .post-thumbnail{max-width:100%}
-	body.single .gp-meta-date+.gp-entry-meta .gp-meta-cats{margin:1em 0 1em 12px;padding-left:15px;border-left:2px solid #EAEAEA}
+	body.single .gp-meta-date+.gp-entry-meta .gp-meta-cats{margin-left:.8rem;padding-left:.8rem;border-left:2px solid #EAEAEA}
 	#comments{margin:0}
 	#UseyourDrive.video .jp-video{min-height:370px}
 	article.category-casos-de-referencia:before,body.page-id-29106 #content:before,body.page-id-26272 #content:before,#tab-Casosdeuso #UseyourDrive:before{border-top-left-radius:12px;border-top-right-radius:12px}
