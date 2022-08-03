@@ -38,7 +38,7 @@ body[class*='category-busquedas-laborales'] .gp-meta-cats a[href$='/busquedas-la
 .yotu-playlist .yotu-pagination-top,.content-details .yotu-videos,
 /* Salesforce */
 article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-date,section.category-salesforce .post-text p,body.post-template-default article.category-salesforce .yotu-videos,body.archive.category-2828 .gp-loop-meta,
-/* Lightbox */
+/* Modal */
 .mfp-container .widget .widgettitle a,
 /* Otros */
 .gp-meta-cats a[href$='/categoria/uns/'],
@@ -48,7 +48,7 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 body:not([class*='office-ar']) #menu-item-10707{display:none!important}
 /* Oculto no forzado */
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
-/* Lightbox */
+/* Modal */
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a{display:none}
 
 /* General */
@@ -198,30 +198,18 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px}
 
 /* Contenido */
-.neosans li{font-size:1.1em!important}
-#post-content{float:left;margin-top:1em;margin-bottom:2em;overflow:visible}
+.neosans li{font-size:1.1em}
 #container #content,.padder{padding:1.5em 2em;border-radius:0}
-#post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 body.page #content h1{text-align:center}
 body.post-type-archive-event h1{text-transform:capitalize}
-#post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
-#post-content h4+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
-#content a:hover{text-decoration:underline}
-#content .columns h1,#content .columns h2,#content .columns h3,#content .columns h4,#content .columns h5,#content .columns h6{margin:0!important;padding-bottom:5px}
-#content .columns h4{padding-bottom:0}
-#content .columns h4+h2{padding-bottom:15px}
 #content .columns.four.shorter{width:20%}
 #content .columns.four.expanded{width:27%}
 #content .columns.three.expanded{width:66%}
-#content #post-content>h3:not(.toggle),#content #post-content>h4,#content #post-content>h5,.mfp-content h3:not(.toggle),.mfp-content h4,.mfp-content h5{margin-top:1.4em}
-#content .sc-tab-panel h5{margin-bottom:.25em}
-#content h6{margin-top:.3em;margin-bottom:.2em;color:#777777;font-weight:400;line-height:1.5}
 #content blockquote p{line-height:1.5}
-#content .wp-block-column>h3{margin-top:0}
-#content h4,.mfp-content h4,#content h5,.mfp-content h5{margin-top:1em}
 #content code,.widget code{display:inline-block;margin:0;padding:2px 5px;color:#888888;font-weight:bold;font-size:14px;line-height:18px;font-style:normal;background:#F6F6F6;border:0;border-radius:4px}
 #content code.block,.widget code.block{width:100%;padding:15px 10px;border-radius:4px}
 #content ul.wp-block-gallery{margin-left:0}
+#content li{margin-bottom:5px;line-height:1.4}
 #content ol li:last-child{border-bottom:0}
 #content ol li ol li{list-style-type:lower-latin}
 #content ol li ol li ol li{list-style-type:lower-roman}
@@ -235,7 +223,6 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content ul{list-style-type:disc}
 #content ul ul{margin-top:10px;list-style-type:circle}
 #content ul ul ul{list-style-type:square}
-body.single #post-content li:not(.slick-slide),body.single .mfp-content li{margin-bottom:5px;line-height:1.4}
 #content li.blocks-gallery-item{margin-left:0;margin-bottom:20px}
 body:not(.home) .padder{background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body.post-template-default.single h1{color:#0E316E}
@@ -248,7 +235,8 @@ body.post-template-default.single #content article.category-silica-networks h1,b
 body.post-template-default.single #content article.category-velocom h1,body.page-id-11277 #content h1{color:#AE1A57}
 .post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
 #content .gp-blog-wrapper section .post-text p{font-size:.9em;line-height:1.4}
-.post-thumbnail.single-thumbnail img{width:60%}
+#post-content{float:left;margin-top:1em;margin-bottom:2em;overflow:visible}
+#post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 
 /* Entradas */
 .gp-blog-wrapper{float:left}
@@ -424,23 +412,22 @@ input.static_gmap a:hover{border-color:#F0582B}
 /* Sidebar */
 .sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
 #text-7 .widget{text-align:center}
-.widget p,.widget li,.birthday_date,.birthday_name{line-height:1.3}
+.widget{line-height:1.3}
 .widget p{margin:0 0 .4em}
 .widget p a .fa{display:inline-block;padding-right:.3em}
 .widget h4{margin-bottom:10px;font-size:1.3em;color:#0E316E;text-align:center}
 .widget h4>i{font-size:2.6em}
 .widget h4>span{display:inline-block;padding-left:10px;width:70%;text-align:left}
 .widget strong{font-weight:500}
-.widget li{padding:.4em 0;border-bottom:1px solid #DDDDDD}
+.widget li,.bdays_upcom>.birthday{padding:.4em 0;border-bottom:1px solid #DDDDDD}
 .widget li strong a{font-weight:400}
-.widget li:last-child{border-bottom:none}
+.widget li:last-child,.bdays_upcom>.birthday:last-child{border-bottom:none}
 .widget .widgettitle{margin:0 0 .5em;padding:.4em 1em .4em 0;font-size:1.1em}
 .widget .widgettitle a{color:#666666;position:absolute;top:.4em;right:15px}
 .widget .widgettitle a:hover{transform:scale(1.15);color:#F0582B}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
 .widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
-.mfp-content .widget .widgettitle{margin-top:0;padding-top:0;font-size:1.2em}
 
 /* Cumpleaños */
 .birthdays-widget .birthday_list{margin-top:10px}
@@ -448,14 +435,9 @@ input.static_gmap a:hover{border-color:#F0582B}
 .birthdays-widget .birthday_name a{display:block;line-height:1.1;color:#F0582B!important;font-weight:500}
 .birthdays-widget .birthday_wish,.birthday_error{width:102%;transform:rotate(-4deg);margin-top:-10px;margin-bottom:0;position:absolute;top:24px;left:-3px;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-size:1.5em;background:#0E316E;color:#FFFFFF;font-weight:500}
 .birthday_error{width:102%;transform:rotate(-1deg);margin-top:0;margin-bottom:25px;;font-size:1.2em;position:relative;top:15px;font-weight:500;background:none;font-style:normal;color:#0E316E}
-.bdays_upcom .birthday_date,.bdays_upcom .birthday_name{font-family:'Neo-Sans',sans-serif;text-align:left;cursor:inherit}
-.bdays_upcom>.birthday{padding:.4em 0;border-bottom:1px solid #DDDDDD}
-.bdays_upcom>.birthday:last-child{border-bottom:none}
-.bdays_upcom .birthday_date{padding:0;border-bottom:0!important;font-size:.8em;font-weight:400;letter-spacing:1px;color:#888888}
-.bdays_upcom .birthday>.birthday_name:last-child,.birthdays-widget .birthday_name:last-child{border-bottom:0!important}
+.birthday>div{display:block;text-align:left;cursor:inherit}
+.birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:#888888}
 .birthdays-widget img{margin-top:30px;width:100%!important;border-bottom:1px solid #DDDDDD;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-.mfp-close,.mfp-arrow{position:fixed}
-.mfp-close{right:0}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
 .eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
 .eo_widget_calendar .widget_ref a{padding:.15em .5em;color:#FFFFFF;font-size:.8em}
@@ -739,10 +721,10 @@ section[class*=category-casos-de-] .gp-meta-date{padding-right:10px}
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none;clear:both}
+.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none;clear:both}
 .button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
-.button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
-.button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
+.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
+.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 a.button.fullwidth{width:100%}
@@ -808,7 +790,6 @@ body.post-template-default .yotu-playlist{padding-bottom:0}
 #wp-calendar tfoot{position:absolute;top:-2px;width:100%}
 #wp-calendar tfoot td{padding:0;font-weight:400;position:absolute}
 #wp-calendar tfoot td a{color:#888888;font-family:'Neo-Sans',sans-serif;font-size:.9em}
-.mfp-content #wp-calendar tfoot td a{pointer-events:none}
 #wp-calendar tfoot td#eo-widget-prev-month{left:0}
 #wp-calendar tfoot td#eo-widget-next-month{right:0}
 #wp-calendar tfoot tr td#prev{text-align:left}
@@ -822,6 +803,12 @@ body.post-template-default .yotu-playlist{padding-bottom:0}
 .eo-events-nav{margin:20px 0;text-align:center}
 .eo-events-nav a:hover{text-decoration:underline}
 .daysi{background:#0E316E;border-radius:50%;color:#FFFFFF;display:block}
+
+/* Modal */
+.mfp-content .widget .widgettitle{margin-top:0;padding-top:0;font-size:1.2em}
+.mfp-close,.mfp-arrow{position:fixed}
+.mfp-close{right:0}
+.mfp-content #wp-calendar tfoot td a{pointer-events:none}
 
 /* Eventos */
 body.single-event #content .eo-event-meta{margin:0 0 15px!important;width:100%!important;font-size:.9rem}
