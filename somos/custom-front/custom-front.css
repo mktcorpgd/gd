@@ -550,6 +550,7 @@ body.single #content p:last-child{padding-bottom:10px}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400!important}
 .info-material{padding:1em 0!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
+#UseyourDrive .entry img{border:none}
 #UseyourDrive .entry_thumbnail img{margin:0;transform:none}
 .fileupload-container+.info-material{padding-top:0!important}
 .file-container .info-material{margin-top:20px!important}
@@ -847,7 +848,7 @@ notification_image{margin-left:0}
 notification_image img{background:#0E316E}
 
 /* Imágenes */
-#content img{margin:0;border:1px solid #DDDDDD;border-radius:12px}
+#content img{margin:0;border:1px solid 1px solid rgba(0,0,0,.1);border-radius:12px}
 #content .columns.two div img[id*='tp']{border:1px solid #EAEAEA;border-radius:24px}
 #content figure.no-borders img{border:none}
 img.mfp-img{max-height:90vh}
