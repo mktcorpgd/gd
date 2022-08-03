@@ -46,7 +46,6 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 .pac-icon,.pac-logo:after,
 /* :not AR */
 body:not([class*='office-ar']) #menu-item-10707{display:none!important}
-
 /* Oculto no forzado */
 body:not(.home) section.post-loop.category-comerciales .gp-loop-meta time+span,.hidden,
 /* Lightbox */
@@ -62,19 +61,10 @@ input::-webkit-input-placeholder{line-height:normal!important}
 p:not(.gp-comment-meta) strong{font-weight:700}
 section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button{transition:all .1s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
-body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll;letter-spacing:-.005em}
+body{background-color:#EAEAEA;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll;letter-spacing:-.005em}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
-textarea{height:60px}
-a{color:#F0582B}
-a:hover{color:#1F4483}
-#content a:hover{text-decoration:underline}
-input,textarea,input[type='password'],#content .widget[class*='widget_bp_'] h3{background-color:#F6F6F6;border-color:#F6F6F6}
-input[type='submit'],select,textarea,button{outline:none!important}
-hr{float:left;display:block;width:100%;height:4px;margin:1.5em 0 2em;padding:0;position:relative;background:#EAEAEA;border:none!important}
-hr.thin{height:1px}
-[data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left;width:100%}
 h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
-h1,h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;COLOR:#333333;line-height:125%}
+h1,h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:#333333;line-height:125%}
 h5,h6{font-weight:400}
 h1,.page-title{margin-top:0;font-size:2em;font-weight:500;line-height:1.15}
 h2{font-size:1.4em}
@@ -85,11 +75,14 @@ h6{font-size:.9em}
 video{outline:none!important}
 blockquote{margin:0;padding:1em 0 1em 1.4em;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:1em;line-height:1.5}
+hr{float:left;display:block;width:100%;height:4px;margin:1.5em 0 2em;padding:0;position:relative;background:#EAEAEA;border:none!important}
+hr.thin{height:1px}
+input[type='submit'],select,textarea,button{outline:none!important}
+textarea{height:60px}
+a{color:#F0582B}
+a:hover{color:#1F4483}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
 .not-visible{visibility:hidden}
-.widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
-.widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-color:#FFFFFF}
-.author span{text-transform:uppercase}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif}
 abbr[title]{border-bottom:0;cursor:inherit;text-decoration:none}
 input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,.wpcf7-list-item-label{font-family:'Open-Sans',sans-serif;font-size:1rem;line-height:1.2;letter-spacing:-.01em}
@@ -100,29 +93,20 @@ input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,inpu
 input[type='text']:focus,input[type='date']:focus,input[type='email']:focus,input[type='tel']:focus,input[type='number']:focus,textarea:focus,select:focus{background:#FFFFFF;border:1px solid #777777}
 input[readonly]:not([class*='walcf7-']),textarea[readonly],input[disabled],textarea[disabled]{background:#FFFFFF!important;border:1px solid #DDDDDD!important;color:#CCCCCC!important;cursor:default}
 select{position:relative}
-body:not(.home) section.post-loop.category-comerciales .gp-loop-meta time+span{font-size:100%}
-body.page-id-17547 .columns.one{text-align:center}
-body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
-.sc-tab-panel .gallery-view-section,.textwidget .toggle-box>div{padding:0!important}
-#content .sc-divider+img.aligncenter{border-radius:0!important;border:0!important}
-.bp-wrapper .item-list .activity-header p>a{display:inline-block!important}
-body.single #content p img,.page #content .columns.two div img,#content iframe,.embed{border-radius:12px!important}
-¿.post-columns .post-text,.datepick-inline .datepick,.datepick-inline .date_available,.datepick-today{background:none!important}
-.wp-block-video video{border-radius:12px}
-.MediaCard-borderOverlay{border-radius:12px;border:1px solid #DDDDDD!important}
-.joint>div{border-color:#F0F0ED!important}
-.columns.two.center{text-align:center}
-.must-log-in,.aligncenter{text-align:center!important}
-.wp-caption{margin-bottom:0;text-align:center}
-.html5_player_container{border-radius:12px}
+.columns.two.center,.aligncenter{text-align:center}
 span.resaltado-naranja{color:#F0582B}
 span.resaltado-azul{color:#3C73B5}
 span.resaltado-verde{color:#76923C}
 
+/* Page ID */
+body.page-id-17547 .columns.one{text-align:center}
+body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
+body.page-id-41477 .post-loop.category-salesforce .post-thumbnail img{max-width:297px}
+body.page-id-41477 .post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;background:#0E316E}
+body.page-id-41477 .post-loop.category-salesforce .post-text h2 a{text-align:center}
+
 /* Admin */
-body.role-administrator .wp-block-column.only-admin{padding:0!important;margin:0!important;background:none!important;border:4px dashed #999999}
-body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visible por administradores';text-align:center;display:block;padding-top:.4em;width:100%;font-size:.7em;font-weight:600;text-transform:uppercase;letter-spacing:1px}
-#wpadminbar{position:fixed;top:0;z-index:999999}
+/*#wpadminbar{position:fixed;top:0;z-index:999999}
 #wpadminbar .ab-icon{font-family:'dashicons'}
 #wpadminbar,#wpadminbar .shortlink-input,#wpadminbar .menupop .ab-sub-wrapper{background:#0E316E!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 16px 16px -10px rgba(0,0,0,.4)!important}
@@ -133,7 +117,7 @@ body.role-administrator .wp-block-column.only-admin:before{content:'Sólo visibl
 #wp-admin-bar-my-account>div{border-bottom-right-radius:0!important}
 #wpadminbar .ab-top-menu>li.hover>.ab-item,#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover a,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover span,#wpadminbar .ab-top-menu li:hover>.ab-item:before,#wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,#wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,#wpadminbar>#wp-toolbar li.hover span.ab-label,#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a,#wpadminbar .quicklinks .menupop ul li a:focus,#wpadminbar .quicklinks .menupop ul li a:focus strong,#wpadminbar .quicklinks .menupop ul li a:hover,#wpadminbar .quicklinks .menupop ul li a:hover strong,#wpadminbar .quicklinks .menupop.hover ul li a:focus,#wpadminbar .quicklinks .menupop.hover ul li a:hover,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover,#wpadminbar li #adminbarsearch.adminbar-focused:before,#wpadminbar li .ab-item:focus .ab-icon:before,#wpadminbar li .ab-item:focus:before,#wpadminbar li a:focus .ab-icon:before,#wpadminbar li.hover .ab-icon:before,#wpadminbar li.hover .ab-item:before,#wpadminbar li:hover #adminbarsearch:before,#wpadminbar li:hover .ab-icon:before,#wpadminbar li:hover .ab-item:before,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover{background:none!important;color:#FFFFFF!important}
 #wpadminbar #wp-admin-bar-user-info .username{color:rgba(255,255,255,.6)!important}
-#wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}
+#wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}*/
 
 /* Header */
 #header{padding:8px;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
@@ -225,6 +209,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 #comments .commentlist li .gp-comment-content .gp-comment-description>p{margin-bottom:5px!important;padding-bottom:0;font-size:.9em;line-height:1.5}
 
 /* Formularios */
+[data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left;width:100%}
 .wpcf7-form label>i[title],#nav .menu li.menu-item-has-children:after{opacity:.6}
 .wpcf7-form label>i[title]:hover{opacity:1}
 .wpcf7 .visible{display:block!important}
@@ -297,23 +282,6 @@ div[class*='.wpcf7-response-inline']{padding:0!important}
 .wpcf7-response-output+p{margin:1em 0;float:left;width:100%}
 html body .ff-form .ff-powered{transform:scale(0)}
 label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
-/*
-.ff-form .ff-button-bar{padding-top:80px;position:relative;text-align:center}
-.ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:2.2em!important;position:absolute;bottom:30px}
-.ff-form .form-check-label{font-size:14px!important}
-.ff-form .form-check.form-check-other input.form-control{height:32px;width:auto!important}
-.ff-form .ff-section-header{margin-top:15px}
-.ff-form .ff-item{padding-bottom:10px;position:relative}
-.ff-form .ff-item .ff-help{margin-top:-2px;font-style:italic;font-size:.6em}
-.ff-form .ff-item label:not(.form-check-label){display:inline-block;padding-bottom:0;font-family:'Neo-Sans',sans-serif;font-weight:400}
-.ff-form .ff-widget-error{padding:0;width:32px;height:32px;color:transparent;position:absolute;top:27px;right:0}
-.ff-multiple_choice .ff-widget-error{top:16px}
-.ff-paragraph_text .ff-widget-error{top:46px}
-.ff-form .ff-widget-error b{background:none;color:transparent;position:relative;font-size:28px!important}
-.ff-form .ff-widget-error b:before{content:'⨯';color:#FF5151;position:absolute;top:0;right:0}
-#ff-id-1504819344{text-align:center}
-#ff-compose{padding:20px 0 0;text-align:center}
-*/
 
 /* Datepicker */
 .xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border:none;border-radius:12px}
@@ -412,6 +380,7 @@ body.page #content h1{text-align:center}
 body.post-type-archive-event h1{text-transform:capitalize}
 #post-content>h2:not([itemprop='headline']):not(.content-title){margin-top:30px!important}
 #post-content h4+h2:not([itemprop='headline']):not(.content-title){margin-top:10px!important}
+#content a:hover{text-decoration:underline}
 #content .columns h1,#content .columns h2,#content .columns h3,#content .columns h4,#content .columns h5,#content .columns h6{margin:0!important;padding-bottom:5px}
 #content .columns h4{padding-bottom:0}
 #content .columns h4+h2{padding-bottom:15px}
@@ -682,17 +651,12 @@ body.single-event article.event{box-shadow:none}
 .post-loop .gp-loop-meta strong{font-weight:400}
 .post-loop.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 
-
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail img{max-width:158px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail a{display:block;box-sizing:content-box;padding-left:38px;padding-right:38px;width:162px;height:89px;background:#0E316E;border-right:1px solid #DDDDDD}
 
 .post-loop.category-salesforce,.post-loop.category-destacados{border-width:2px;border-color:#0E316E}
 .post-loop.category-destacados .post-thumbnail{position:relative}
 .post-loop.category-destacados .post-thumbnail:after{display:inline-block;content:'\f005';width:24px;height:24px;position:absolute;top:0;left:0;font-weight:900;font-family:'Font Awesome 6 Pro';background:#0E316E;border-bottom-right-radius:12px;color:#FFFFFF;font-size:12px;line-height:24px;text-align:center}
-
-body.page-id-41477 .post-loop.category-salesforce .post-thumbnail img{max-width:297px}
-body.page-id-41477 .post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;background:#0E316E}
-body.page-id-41477 .post-loop.category-salesforce .post-text h2 a{text-align:center}
 
 /* Banderas */
 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
