@@ -85,14 +85,11 @@ h6{font-size:.9em}
 video{outline:none!important}
 blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:1em;line-height:1.5}
+.wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
 .not-visible{visibility:hidden}
 .widget,#footer,body.activity-permalink .activity-list{background-color:#FFFFFF}
 .widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-color:#FFFFFF}
 .author span{text-transform:uppercase}
-.sc-divider{margin:30px 0;border-width:3px}
-.sc-divider.small{margin:15px 0!important;border-width:1px}
-.sc-divider.clear{margin:5px 0!important}
-.wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif}
 abbr[title]{border-bottom:0;cursor:inherit;text-decoration:none}
 input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,.wpcf7-list-item-label{font-family:'Open-Sans',sans-serif;font-size:1rem;line-height:1.2;letter-spacing:-.01em}
@@ -755,34 +752,35 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 
 /* Tablas */
 .wp-block-table{overflow:hidden}
-#content table{margin-bottom:0;padding:0!important;border-collapse:separate}
-#content table tbody tr{background:none!important}
+#content table{margin-bottom:0;padding:0;border-collapse:separate}
+#content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
-#content table th{border-top:1px solid rgba(0,0,0,.2)!important;border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important;color:#FFFFFF;background:#0E316E}
+#content table th{border-top:1px solid rgba(0,0,0,.2);border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
 #content article[class*='category-casos-'] table th,#content article[class*='category-casos-'] table td>strong{font-family:'Neo-Sans',sans-serif}
 #content article[class*='category-casos-'] table td:first-child>strong{font-size:.8em;font-weight:400;text-transform:uppercase}
 #content table td:not(:first-child)>strong{font-size:1.1em}
-#content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)!important}
-#content table td{border-right:1px solid rgba(0,0,0,.2)!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
+#content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
+#content table td{border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
-#content table tbody td strong,.weight600 .wpcf7-list-item-label{font-weight:600!important}
-#content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{border-left:1px solid #CCCCCC!important}
-#content table tr:first-child td{border-top:1px solid #CCCCCC!important}
-#content table thead+tbody tr:first-child td{border-top:none!important}
-#content table tr:last-child td{border-bottom:1px solid #CCCCCC!important}
+#content table tbody td strong,.weight600 .wpcf7-list-item-label{font-weight:600}
+#content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{border-left:1px solid #CCCCCC}
+#content table tr:first-child td{border-top:1px solid #CCCCCC}
+#content table thead+tbody tr:first-child td{border-top:none}
+#content table tr:last-child td{border-bottom:1px solid #CCCCCC}
 #content table th:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:last-child{border-top-right-radius:12px}
-#content table th:last-child{border-top-right-radius:12px;border-right:1px solid #0E316E!important}
-#content table td:last-child{border-right:1px solid #CCCCCC!important}
+#content table th:last-child{border-top-right-radius:12px;border-right:1px solid #0E316E}
+#content table td:last-child{border-right:1px solid #CCCCCC}
 #content table tr:last-child td:first-child{border-bottom-left-radius:12px}
 #content table tr:last-child td:last-child{border-bottom-right-radius:12px}
-#content .jOrgChart table{margin:0!important;padding:0!important}
-#content .jOrgChart table td:not(.line){border:none!important}
-#content .jOrgChart table td.line.top{border-bottom:none!important}
-#content .jOrgChart table td.line.right{border-right:none!important;border-left:2px solid #0E316E!important;border-bottom:none!important}
-#content .jOrgChart table td.line.left{border-left:none!important;border-right:2px solid #0E316E!important;border-bottom:none!important}
 
+/* Orgarnigrama */
+#content .jOrgChart table{margin:0;padding:0}
+#content .jOrgChart table td:not(.line){border:none}
+#content .jOrgChart table td.line.top{border-bottom:none}
+#content .jOrgChart table td.line.right{border-right:none;border-left:2px solid #0E316E;border-bottom:none}
+#content .jOrgChart table td.line.left{border-left:none;border-right:2px solid #0E316E;border-bottom:none}
 
 /* Búsquedas */
 #content [class*='busquedas'] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
