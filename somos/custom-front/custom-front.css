@@ -245,12 +245,12 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] section{width:100%}
 .gp-blog-wrapper section{margin-bottom:0}
-.gp-blog-wrapper section,article.event{margin:0 0 .5em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.1)}
-.gp-blog-wrapper section h2,body:not(.single-event) article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
-.gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
-.gp-blog-wrapper section h2 a,article.event h2 a{color:#0E316E}
-.gp-blog-wrapper section:hover h2 a,article.event:hover h2 a{color:#F0582B;text-decoration:underline}
-.gp-blog-wrapper section .post-text,article.event{padding:.5em .8em;clear:both}
+.gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .5em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.1)}
+.gp-blog-wrapper article.event ul{margin-bottom:0}
+.gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
+.gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block;color:#0E316E}
+.gp-blog-wrapper section:hover h2 a,.gp-blog-wrapper article.event:hover h2 a{color:#F0582B;text-decoration:underline}
+.gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em;clear:both}
 .post-thumbnail.wrap{float:none;width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper section .gp-loop-meta{float:left;margin:.2em 0;position:relative;color:#666666;font-size:.75rem;line-height:1.25;clear:both}
@@ -579,7 +579,7 @@ section[class*='puerto-rico'] .post-text h2:before,#tab-PuertoRico .post-text h2
 section[class*='uruguay'] .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-uy.svg)}
 
 /* Home */
-body.home .padder,body.home #post-content,body.home .sc-tab-panel,body.archive .padder,body.search .padder{margin:0;padding:0;background:none}
+body.home .padder,body.home #post-content,body.home .sc-tab-panel,body.archive .padder,body.search .padder{margin:0;padding:0;background:none;box-shadow:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.9em}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.3em;width:1em;height:1em;border:1px solid #EAEAEA;position:relative;top:2px;background-size:contain;border-radius:50%}
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
@@ -776,7 +776,6 @@ body.single-event #content .eo-event-meta time{font-weight:500}
 body:not(.single-event) .eo-event-meta,body:not(.single-event) .eo-event-meta li{margin:0;padding:0;list-style:none}
 body:not(.single-event) .eo-event-meta li a{font-weight:400}
 body.archive .eo-event-meta li a[rel='tag'],body.search .eo-event-meta li a[rel='tag']{display:inline-block;margin-top:5px}
-body.archive .eo-event-meta li span[itemprop='location'],body.search .eo-event-meta li span[itemprop='location']{font-size:.9em;line-height:1.25}
 body.archive .eo-event-meta li,body.archive .eo-event-meta li a,body.search .eo-event-meta li,body.search .eo-event-meta li a{margin:0;line-height:1}
 body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 
