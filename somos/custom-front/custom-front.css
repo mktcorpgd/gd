@@ -131,11 +131,11 @@ body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{
 #nav{float:left}
 #nav .menu{margin:0}
 #nav .menu li{border-radius:6px}
-#nav .menu li:hover,#mobile-nav .menu li>a:hover{background:rgba(0,0,0,.3)}
+#nav .menu li:hover a,#mobile-nav .menu li>a:hover{background:rgba(0,0,0,.3)}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu li a:hover,#nav .menu li:hover>a{background:none;text-decoration:none}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
-#nav .menu li a{padding:.4em .5em}
+#nav .menu li a{display:block;padding:.4em .5em}
 #nav .menu li.menu-item-has-children a{padding-right:1em}
 #nav .menu .sub-menu{display:block;padding:.3em .4em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0}
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
