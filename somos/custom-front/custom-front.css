@@ -253,10 +253,16 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 #content .gp-blog-wrapper section .post-text p{font-size:.9em;line-height:1.4}
 .post-thumbnail.single-thumbnail img{width:60%}
 
-/* Post Loop */
+/* Entradas */
+.gp-blog-wrapper{float:left}
+.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
+.gp-blog-wrapper[class*='gp-blog-columns'] section{width:100%}
+.gp-blog-wrapper section{margin-bottom:0}
 .gp-blog-wrapper section,article.event{margin:0 0 .5em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.1)}
+.gp-blog-wrapper section h2,body:not(.single-event) article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
+.gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
 .gp-blog-wrapper section h2 a,article.event h2 a{color:#0E316E}
-.gp-blog-wrapper section:hover h2 a,article.event:hover h2 a{color:#F0582B}
+.gp-blog-wrapper section:hover h2 a,article.event:hover h2 a{color:#F0582B;text-decoration:underline}
 .gp-blog-wrapper section .post-text{padding:.5em .8em;clear:both}
 .post-thumbnail.wrap{float:none;width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
@@ -264,18 +270,8 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section .gp-loop-meta .gp-meta-cats{margin-bottom:0}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
-.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{margin:0;line-height:1.25}
-
-/* Columnas */
-.gp-blog-wrapper{float:left}
-.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
-.gp-blog-wrapper[class*='gp-blog-columns'] section{width:100%}
-.gp-blog-wrapper section{margin-bottom:0}
-.gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:first-child,body:not(.single-event) article.event:first-child{margin-top:0!important}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:hover,body:not(.single-event) article.event:hover{background:#FAFAFA;transform:translateY(-2px)}
-.gp-blog-wrapper section:hover h2 a,body:not(.single-event) article.event:hover h2 a{color:#F0582B;text-decoration:underline}
-.gp-blog-wrapper section h2,body:not(.single-event) article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section{background:#0E316E}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11289{background:#89388D}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11286,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11302{background:#1C8DCE}
