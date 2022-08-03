@@ -847,7 +847,6 @@ notification_image{margin-left:0}
 notification_image img{background:#0E316E}
 
 /* Imágenes */
-#content img{margin:0}
 #content figure.no-borders img{border:none}
 img.mfp-img{max-height:90vh}
 body.single #post-content img,.gallery-item img,.wp-block-image img{border:1px solid rgba(0,0,0,.1);border-radius:12px}
