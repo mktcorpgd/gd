@@ -108,9 +108,7 @@ body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
 #content .sc-divider+img.aligncenter{border-radius:0!important;border:0!important}
 .bp-wrapper .item-list .activity-header p>a{display:inline-block!important}
 body.single #content p img,.page #content .columns.two div img,#content iframe,.embed{border-radius:12px!important}
-table,table.tablesorter thead tr .header,td:not(.line){border:0!important}
-h3.toggle i:before,.activity-time-since{color:#888888}
-.post-columns .post-text,.datepick-inline .datepick,.datepick-inline .date_available,.datepick-today{background:none!important}
+¿.post-columns .post-text,.datepick-inline .datepick,.datepick-inline .date_available,.datepick-today{background:none!important}
 .gallery-item{margin:0!important;padding:16px!important;box-sizing:border-box}
 .gallery-item img{width:100%!important}
 .wp-block-gallery .wp-block-image{border-radius:6px;overflow:hidden}
@@ -781,6 +779,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content .jOrgChart table td.line.top{border-bottom:none}
 #content .jOrgChart table td.line.right{border-right:none;border-left:2px solid #0E316E;border-bottom:none}
 #content .jOrgChart table td.line.left{border-left:none;border-right:2px solid #0E316E;border-bottom:none}
+#content .jOrgChart table td:not(.line){border:0!important}
 
 /* Búsquedas */
 #content [class*='busquedas'] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
