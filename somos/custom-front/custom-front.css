@@ -868,7 +868,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none;clear:both}
+.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:0;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none;clear:both}
 .button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
 .button:hover,.sc-button:hover,.mfp-content .sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
 .button:active,.sc-button:active,.mfp-content .sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
@@ -886,8 +886,8 @@ a.button.fullwidth{width:100%}
 .sc-button.small{font-size:.9em;border-radius:6px}
 .sc-tab-panel>.sc-button.small{margin:0}
 .sc-button.medium{font-size:1.05em}
-.sc-button.large,.sc-button.xlarge{font-size:1.2em}
-.sc-button.xlarge{font-size:1.3em}
+.sc-button.large{font-size:1.2em}
+.sc-button.xlarge{margin-bottom:1em;font-size:1.3em}
 .sc-button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
 .sc-button-social{display:inline-block;margin:.2em .2em 0;color:#F0582B;font-size:1.5em}
 .sc-button-social:hover{color:#1F4483}
