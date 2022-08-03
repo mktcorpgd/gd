@@ -516,45 +516,44 @@ ul#lcp_instance_0.busquedas {border:none!important}
 .widget_ref a.otros,#wp-calendar tbody td.eo-event-cat-otros a{background:#F18C10}
 
 /* Colapsables */
-.padder h3.toggle{font-size:1.2em;line-height:normal}
-h3.toggle{position:relative;margin-bottom:3px;line-height:1.6}
+h3.toggle{position:relative;margin-bottom:3px;font-size:1.2em;line-height:1.6}
 h3.toggle:last-child{padding-bottom:0}
 h3.toggle a{display:table-cell;padding-left:5px}
 h3.toggle a,body .ui-widget-content a,.textwidget .sc-tabs .sc-tab-panel a{color:#0E316E}
 h3.toggle:hover a,h3.toggle a:hover,.textwidget .sc-tabs .sc-tab-panel a:hover{color:#F0582B;text-decoration:underline!important}
 h3.toggle i{display:table-cell;padding:0;position:relative;top:0;left:0;font-size:.9em;text-align:center;font-family:'Font Awesome 6 Pro'!important;font-weight:600}
-.textwidget h3.toggle i{width:12px;font-weight:normal}
-.birthdays-widget~h3.toggle{text-align:center}
-.birthdays-widget~h3.toggle i,.birthdays-widget~h3.toggle a{display:inline-block}
 h3.toggle .fa-plus-square:before{content:'\f067'!important}
 h3.toggle .fa-minus-square:before{content:'\f068'!important}
 h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B}
-.textwidget h3.toggle:last-of-type,#custom_html-5.widget h3.toggle:last-of-type{margin-bottom:0!important;border-bottom:0!important}
-.textwidget h3.toggle,.datepick-days-cell{margin-bottom:0;font-size:1em!important;font-weight:400!important}
-.textwidget p a .fa{display:inline-block;padding-right:.3em}
-.textwidget .toggle-box h5,.textwidget .toggle-box h6{color:#333333;text-align:left;text-transform:none}
-.textwidget .toggle-box h5{margin:.6em 0;font-size:1em}
-.textwidget .toggle-box h6{margin-top:.5em;margin-bottom:0;font-size:.9em}
+.widget h3.toggle:last-of-type,#custom_html-5.widget h3.toggle:last-of-type{margin-bottom:0!important;border-bottom:0!important}
+.widget h3.toggle i{width:12px;font-weight:normal}
+.widget h3.toggle,.datepick-days-cell{margin-bottom:0;font-size:1em!important;font-weight:400!important}
+.widget p a .fa{display:inline-block;padding-right:.3em}
+.widget .toggle-box h5,.textwidget .toggle-box h6{color:#333333;text-align:left;text-transform:none}
+.widget .toggle-box h5{margin:.6em 0;font-size:1em}
+.widget .toggle-box h6{margin-top:.5em;margin-bottom:0;font-size:.9em}
 .toggle-box{margin:5px 0 0;overflow:visible}
-.textwidget .toggle-box{margin:0}
-.textwidget .toggle-box ul:not(.ui-tabs-nav){margin:.2em 0 .4em 0}
-.textwidget .toggle-box ul:not(.ui-tabs-nav) li{margin:0}
-.textwidget .toggle-box ul:not(.ui-tabs-nav) li a{color:#0E316E}
-.textwidget .toggle-box ul:not(.ui-tabs-nav) li a:hover{color:#F0582B}
-.textwidget .toggle-box ul:not(.ui-tabs-nav) li .fab{min-width:20px;text-align:center}
-.textwidget{line-height:1.3}
-.textwidget h6{margin-top:0}
-#text-7 .textwidget{text-align:center}
+.widget .toggle-box{margin:0}
+.widget .toggle-box ul:not(.ui-tabs-nav){margin:.2em 0 .4em 0}
+.widget .toggle-box ul:not(.ui-tabs-nav) li{margin:0}
+.widget .toggle-box ul:not(.ui-tabs-nav) li a{color:#0E316E}
+.widget .toggle-box ul:not(.ui-tabs-nav) li a:hover{color:#F0582B}
+.widget .toggle-box ul:not(.ui-tabs-nav) li .fab{min-width:20px;text-align:center}
+.widget{line-height:1.3}
+.widget h6{margin-top:0}
+#text-7 .widget{text-align:center}
 .widget .widgettitle a:hover{opacity:1}
 .widget .avatar,.widget .author{display:inline-block}
-.widget .textwidget li:not(.ui-tabs-tab):not(.birthday_name){margin-bottom:5px!important;line-height:1.4}
-.widget .textwidget li:not(.ui-tabs-tab):not(.birthday_name):first-child{margin-top:5px!important}
-.widget .textwidget li:not(.ui-tabs-tab):not(.birthday_name):last-child{margin-bottom:0!important}
-.widget .textwidget li:last-child{margin-bottom:0!important}
+.widget li:not(.ui-tabs-tab):not(.birthday_name){margin-bottom:5px!important;line-height:1.4}
+.widget li:not(.ui-tabs-tab):not(.birthday_name):first-child{margin-top:5px!important}
+.widget li:not(.ui-tabs-tab):not(.birthday_name):last-child{margin-bottom:0!important}
+.widget li:last-child{margin-bottom:0!important}
 .widget .sociales li{margin-bottom:0!important;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #DDDDDD}
 .widget .sociales li:last-child{border-bottom:none!important}
 .widget .activas li{margin-bottom:0!important;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #DDDDDD}
 .widget .activas li:last-child{border-bottom:none!important}
+.birthdays-widget~h3.toggle{text-align:center}
+.birthdays-widget~h3.toggle i,.birthdays-widget~h3.toggle a{display:inline-block}
 
 /* Buscadores */
 .is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF!important}
