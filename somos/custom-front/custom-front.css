@@ -13,7 +13,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
 #search-3>h3,.is-search-form.is-form-id-26276 button,.is-search-form.is-form-id-926276 input[type='submit'],.is-form-id-26276>label>span.is-screen-reader-text,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,#content .gp-search,.error404 .gp-search p,.error404 .gp-search>form>input.gp-search-submit,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
 /* Cumpleaños */
-.bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
+.bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,.birthdays-widget img,
 /* Drive */
 #UseyourDrive div.scroll-to-top,
 /* Comentarios */
@@ -23,7 +23,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Galería de fotos */
 .blocks-gallery-item figcaption strong+br,.blocks-gallery-item figcaption strong+br+em+br,body.role-externo #copyright,.mfp-hide,
 /* Eventos */
-body:not(.single-event) article.event p,body.single-event .entry-content h4,.eo-event-meta~hr,.gp-blog-wrapper>.eo-events-nav,
+body:not(.single-event) article.event p,body.single-event .entry-content h4,.eventorganiser-event-meta+hr,.eo-event-meta~hr,.gp-blog-wrapper>.eo-events-nav,
 /* Posts */
 .gp-blog-wrapper[class*='gp-blog-columns'] section.category-un .post-text,
 /* Comerciales */
@@ -433,24 +433,13 @@ input.static_gmap a:hover{border-color:#F0582B}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 
 /* Cumpleaños */
-.birthdays-widget .birthday_list{margin-top:10px}
-.birthdays-widget .birthday_list .birthday_name{padding:0 0 5px;text-align:center!important;font-size:1.2em}
-.birthdays-widget .birthday_name a{display:block;line-height:1.1;color:#F0582B!important;font-weight:500}
-.birthdays-widget .birthday_wish,.birthday_error{width:102%;transform:rotate(-4deg);margin-top:-10px;margin-bottom:0;position:absolute;top:24px;left:-3px;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-size:1.5em;background:#0E316E;color:#FFFFFF;font-weight:500}
-.birthday_error{width:102%;transform:rotate(-1deg);margin-top:0;margin-bottom:25px;;font-size:1.2em;position:relative;top:15px;font-weight:500;background:none;font-style:normal;color:#0E316E}
+.birthday_name{padding:0 0 5px;text-align:center;font-size:1.2em}
+.birthday_name a{display:block;line-height:1.1;color:#F0582B!important;font-weight:500}
+.birthday_wish,.birthday_error{width:102%;transform:rotate(-1deg);font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;color:#0E316E;font-size:1.5em;font-weight:500}
+.birthday_wish{background:#0E316E;color:#FFFFFF}
+.birthday_error{font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
 .birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:#888888}
-.birthdays-widget img{margin-top:30px;width:100%!important;border-bottom:1px solid #DDDDDD;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-.eo-widget-cal-overlay{z-index:99;border-radius:50%}
-.eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
-.eo_widget_calendar .widget_ref a{padding:.15em .5em;color:#FFFFFF;font-size:.8em}
-.eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
-.eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
-.eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
-.eo_widget_calendar .widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
-.eo_widget_calendar .widget_ref a.patrocinamos,#wp-calendar tbody td.eo-event-cat-patrocinamos a{background:#5580BF}
-.eo_widget_calendar .widget_ref a.asistimos,#wp-calendar tbody td.eo-event-cat-asistimos a{background:#338A6C}
-.eo_widget_calendar .widget_ref a.otros,#wp-calendar tbody td.eo-event-cat-otros a{background:#F18C10}
 
 /* Colapsables */
 h3.toggle{position:relative;font-size:1.2em;line-height:1.6}
@@ -817,6 +806,16 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .eo-events-nav{margin:20px 0;text-align:center}
 .eo-events-nav a:hover{text-decoration:underline}
 .daysi{background:#0E316E;border-radius:50%;color:#FFFFFF;display:block}
+.eo-widget-cal-overlay{z-index:99;border-radius:50%}
+.eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
+.eo_widget_calendar .widget_ref a{padding:.15em .5em;color:#FFFFFF;font-size:.8em}
+.eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
+.eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
+.eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
+.eo_widget_calendar .widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
+.eo_widget_calendar .widget_ref a.patrocinamos,#wp-calendar tbody td.eo-event-cat-patrocinamos a{background:#5580BF}
+.eo_widget_calendar .widget_ref a.asistimos,#wp-calendar tbody td.eo-event-cat-asistimos a{background:#338A6C}
+.eo_widget_calendar .widget_ref a.otros,#wp-calendar tbody td.eo-event-cat-otros a{background:#F18C10}
 
 /* Modal */
 .mfp-content .widget .widgettitle{margin-top:0;padding-top:0;font-size:1.2em}
@@ -1017,7 +1016,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.birthdays-widget .birthday_wish{font-size:28px}
 	.birthdays-widget ul.birthday_list .birthday_name{font-size:24px!important}
 	.birthdays-widget .birthday_date{padding-bottom:0;font-size:.9em}
-	.birthdays-widget img{width:30%}
 	.widget .note{line-height:24px;margin-top:15px!important}
 	.widget #wp-calendar caption,.widget .datepick-inline .datepick-header span{font-size:18px!important;line-height:24px!important}
 	.widget #wp-calendar tfoot{top:0}
