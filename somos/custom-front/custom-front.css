@@ -489,7 +489,7 @@ ul#lcp_instance_0.busquedas {border:none!important}
 .mfp-close{right:0}
 #custom_html-21,#custom_html-3{text-align:center}
 #custom_html-11,#custom_html-24{padding-top:12px!important}
-#custom_html-24 > div > h3{font-weight:500!important}
+#custom_html-24 > div > h3{font-size:1.2em;font-weight:500}
 #custom_html-11 > div > h3 > i.fa-minus-square:before,#custom_html-24 > div > h3 > i.fa-minus-square:before{font-weight:bold}
 #custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'!important}
 #custom_html-11 > div > h3:nth-child(3) > i:before{content:'\f77c'!important}
@@ -502,21 +502,19 @@ ul#lcp_instance_0.busquedas {border:none!important}
 #custom_html-24 > div > h3 > i.fa-plus-square+a:after,#custom_html-24 > div > h3 > i.fa-minus-square+a:after{font-family:'Font Awesome 6 Pro',sans-serif;position:absolute;top:0;right:0}
 #custom_html-24 > div > h3 > i.fa-plus-square+a:after{content:'\f067'}
 #custom_html-24 > div > h3 > i.fa-minus-square+a:after{content:'\f068'}
-.eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
-.widget_ref{color:#CCCCCC}
-.widget_ref a{margin:0;line-height:1.5}
-.eo_widget_calendar .widget_ref a{margin:0;padding:.15em .5em;color:#FFFFFF;font-size:.75em}
+.eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
+.eo_widget_calendar .widget_ref a{padding:.15em .5em;color:#FFFFFF;font-size:.8em}
 .eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
 .eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
-.widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
-.widget_ref a.patrocinamos,#wp-calendar tbody td.eo-event-cat-patrocinamos a{background:#5580BF}
-.widget_ref a.asistimos,#wp-calendar tbody td.eo-event-cat-asistimos a{background:#338A6C}
-.widget_ref a.otros,#wp-calendar tbody td.eo-event-cat-otros a{background:#F18C10}
+.eo_widget_calendar .widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
+.eo_widget_calendar .widget_ref a.patrocinamos,#wp-calendar tbody td.eo-event-cat-patrocinamos a{background:#5580BF}
+.eo_widget_calendar .widget_ref a.asistimos,#wp-calendar tbody td.eo-event-cat-asistimos a{background:#338A6C}
+.eo_widget_calendar .widget_ref a.otros,#wp-calendar tbody td.eo-event-cat-otros a{background:#F18C10}
 
 /* Colapsables */
-h3.toggle{position:relative;font-size:1.1em;line-height:1.6}
+h3.toggle{position:relative;font-size:1.2em;line-height:1.6}
 h3.toggle a{display:table-cell;padding-left:5px}
 h3.toggle a{color:#0E316E}
 h3.toggle:hover a{color:#F0582B;text-decoration:underline}
@@ -524,7 +522,7 @@ h3.toggle i{display:table-cell;font-size:.9em;text-align:center;font-family:'Fon
 h3.toggle .fa-plus-square:before{content:'\f067'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
 h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B}
-.widget h3.toggle{font-size:1em;font-weight:400}
+.widget h3.toggle{font-size:1.1em;font-weight:400}
 .widget h3.toggle i{width:16px}
 .toggle-box{margin:5px 0 0;overflow:visible}
 .widget .toggle-box h5,.widget .toggle-box h6{color:#333333;text-align:left;text-transform:none}
@@ -921,7 +919,6 @@ body.single .post-thumbnail img[src*='.png']{background-color:#0E316E}
 .blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
 .padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.widget li a:hover{text-decoration:underline}
 .wp-block-media-text.text-to-top{align-items:normal}
-.wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
 
 /* Videos */
 body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
@@ -1068,9 +1065,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#nav{position:absolute;top:0;right:0}
 	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
 	.datepick-inline .calendar-links .datepick-prev a,.datepick-inline .calendar-links .datepick-next a{font-size:20px!important}
-	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th,.widget_ref{font-size:16px}
+	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th{font-size:16px}
 	#custom_html-5.widget ul li:not(.ui-state-default){margin-bottom:10px}
-	#custom_html-10 .widget_ref a{font-size:18px}
 	#custom_html-11 .widgettitle,.bdays_upcom .widgettitle{border-bottom:none}
 	#custom_html-11 .textwidget .toggle-box ul,.bdays_upcom{max-height:300px;border:1px solid #DDDDDD;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 	#custom_html-11 .textwidget .toggle-box ul li,.bdays_upcom li,.birthdays-widget>.birthday{padding-left:15px!important;padding-right:15px!important}
@@ -1086,7 +1082,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.birthdays-widget ul.birthday_list .birthday_name{font-size:24px!important}
 	.birthdays-widget .birthday_date{padding-bottom:0;font-size:.9em}
 	.birthdays-widget img{width:30%}
-	.widget_ref a{font-size:.85em!important}
 	.widget .note{line-height:24px;margin-top:15px!important}
 	.widget #wp-calendar caption,.widget .datepick-inline .datepick-header span{font-size:18px!important;line-height:24px!important}
 	.widget #wp-calendar tfoot{top:0}
