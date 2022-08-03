@@ -461,16 +461,14 @@ input.static_gmap a:hover{border-color:#F0582B}
 .widget li strong a{font-weight:400}
 .widget li:last-child{border-bottom:none}
 ul#lcp_instance_0.busquedas {border:none!important}
-.widget .widgettitle{margin:0 0 .7em;padding:.4em 1em .4em 0;font-size:1.1em;border:2px solid #EAEAEA}
+.widget .widgettitle{margin:0 0 .7em;padding:.4em 1em .4em 0;font-size:1.1em}
 .widget .widgettitle a{color:#888888;position:absolute;top:.4em;right:15px}
 .widget .widgettitle a:hover{transform:scale(1.15);color:#F0582B;opacity:1}
-.widget .widgettitle a i{display:inline-block;font-family:'Font Awesome 6 Pro';font-size:1em;line-height:1;font-weight:bold;font-style:normal}
+.widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
 .widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 .widget .bdays_upcom{margin-top:.4em;position:relative;border-top:2px solid #CCCCCC}
-.mfp-content .widget .widgettitle{margin-top:0!important;padding-top:0!important;font-size:1.2em!important}
-.mfp-content .widget_text h4{margin-top:20px!important}
-.mfp-content .widget_text h4>span{display:block;width:100%;margin:.25em 0;padding:0;text-align:center}
+.mfp-content .widget .widgettitle{margin-top:0!important;padding-top:0;font-size:1.2em}
 
 /* Cumpleaños */
 .birthdays-widget .birthday_list{margin-top:10px}
@@ -518,11 +516,11 @@ h3.toggle{position:relative;font-size:1.2em;line-height:1.6}
 h3.toggle a{display:table-cell;padding-left:5px}
 h3.toggle a{color:#0E316E}
 h3.toggle:hover a{color:#F0582B;text-decoration:underline}
-h3.toggle i{display:table-cell;font-size:.9em;text-align:center;font-family:'Font Awesome 6 Pro';}
+h3.toggle i{display:table-cell;font-size:.9em;text-align:center}
 h3.toggle .fa-plus-square:before{content:'\f067'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
 h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B}
-.widget h3.toggle{font-size:1.1em;font-weight:400}
+.widget h3.toggle{margin-bottom:0;font-size:1.1em;font-weight:400}
 .widget h3.toggle i{width:16px}
 .toggle-box{margin:5px 0 0;overflow:visible}
 .widget .toggle-box h5,.widget .toggle-box h6{color:#333333;text-align:left;text-transform:none}
@@ -663,7 +661,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;width:fit-content;marg
 .gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .6em;color:#999999;font-size:.9rem;line-height:1.8;font-weight:400;font-family:'Neo-Sans',sans-serif;border-radius:12px}
 ul.page-numbers .page-numbers.current{background:#EAEAEA}
 ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
-.gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:'Font Awesome 6 Pro'!important}
+.gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:'Font Awesome 6 Pro'}
 .gp-pagination ul.page-numbers li .page-numbers.prev:before{content:'\f104'}
 .gp-pagination ul.page-numbers li .page-numbers.next:before{content:'\f105'}
 .gp-pagination ul.page-numbers li a:hover{text-decoration:none!important}
