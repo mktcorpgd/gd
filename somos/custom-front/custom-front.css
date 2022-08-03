@@ -204,7 +204,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 /* Contenido */
 .neosans li{font-size:1.1em}
 #container #content,.padder{padding:1.5em 2em;border-radius:0}
-body.page #content h1{margin-bottom:0;text-align:center}
+body.page #content h1{text-align:center}
 body.post-type-archive-event h1{text-transform:capitalize}
 #content .columns.four.shorter{width:20%}
 #content .columns.four.expanded{width:27%}
@@ -228,6 +228,9 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content ul ul{margin-top:10px;list-style-type:circle}
 #content ul ul ul{list-style-type:square}
 #content li.blocks-gallery-item{margin-left:0;margin-bottom:20px}
+#post-content{float:left;margin-top:1em;margin-bottom:2em;overflow:visible}
+#post-content>ul,#post-content>ol{margin:0 0 10px 20px}
+#post-content>h2{margin-top:0}
 body:not(.home) .padder{background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body.post-template-default.single h1{color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
@@ -239,8 +242,6 @@ body.post-template-default.single #content article.category-silica-networks h1,b
 body.post-template-default.single #content article.category-velocom h1,body.page-id-11277 #content h1{color:#AE1A57}
 .post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
 #content .gp-blog-wrapper section .post-text p{font-size:.9em;line-height:1.4}
-#post-content{float:left;margin-top:1em;margin-bottom:2em;overflow:visible}
-#post-content>ul,#post-content>ol{margin:0 0 10px 20px!important}
 
 /* Entradas */
 .gp-blog-wrapper{float:left}
@@ -308,7 +309,6 @@ article.category-salesforce h3.toggle{display:block;padding:.4em}
 [data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left;width:100%}
 .wpcf7-form label>i[title],#nav .menu li.menu-item-has-children:after{opacity:.6}
 .wpcf7-form label>i[title]:hover{opacity:1}
-.wpcf7 .visible{display:block!important}
 input[type='text']:not([class*='.wpcf7-validates-as-required']):before{content:'Opcional';position:absolute;top:0;left:0;font-size:.6em;text-transform:uppercase;letter-spacing:1px}
 .wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
@@ -823,7 +823,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .mfp-close{right:0}
 .mfp-content #wp-calendar tfoot td a{pointer-events:none}
 
-/* Noficaciones Push */
+/* Noficaciones Push
 prompticon3{margin-right:0;padding:0;width:50px;height:50px;right:0;border:none;background:#0E316E;border-radius:0;border-top-left-radius:24px;border-bottom-left-radius:24px;filter:none;transform:scale(1)}
 prompticon3:hover{background:#F0582B}
 popup_notification{padding:0}
@@ -844,7 +844,7 @@ popup_heading_text .popup-button-heading{font-weight:400}
 html body popup_button btn,.webpushrUnknownBtn.webpushrActionBtn,.webpushrOffBtn.webpushrActionBtn{padding:.6em;width:auto;letter-spacing:0;font-family:'Neo-Sans',sans-serif;font-size:16px;background:#0E316E;border-radius:12px}
 .webpushrOnBtn.webpushrActionBtn{background:#FFFFFF;border:2px solid #999999;font-size:16px;color:#777777;box-shadow:none}
 notification_image{margin-left:0}
-notification_image img{background:#0E316E}
+notification_image img{background:#0E316E} */
 
 /* Imágenes */
 #content figure.no-borders img{border:none}
