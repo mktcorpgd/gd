@@ -98,12 +98,14 @@ span.resaltado-naranja{color:#F0582B}
 span.resaltado-azul{color:#3C73B5}
 span.resaltado-verde{color:#76923C}
 
-/* Page ID */
+/* Páginas */
 body.page-id-17547 .columns.one{text-align:center}
 body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-thumbnail img{max-width:297px}
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;background:#0E316E}
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
+.post-thumbnail.single-thumbnail,.post-thumbnail.single-thumbnail img{background:#0E316E;border-top-left-radius:24px;border-top-right-radius:24px}
+.post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
 
 /* Admin */
 #wpadminbar{position:fixed;top:0;z-index:999999}
