@@ -1,0 +1,22 @@
+/* Guía de LinkedIn */
+body.page-id-15131 #content h3{position:relative}
+body.page-id-15131 #content .columns.five>div a i,body.page-id-15131 #content h3+ul+ul>li strong{color:#F0582B}
+body.page-id-15131 #content .columns.five>div a:hover i,body.page-id-15131 #content h3.toggle:hover,body.page-id-15131 #content h3.toggle:hover a{color:#F0582B!important}
+body.page-id-15131 #content h3+ul.expand li h3.toggle i:hover:before,body.page-id-15131 #content h3+ul+ul>li h3.toggle i:hover:before{color:#F0582B}
+body.page-id-15131 #content hr#marca-profesional{margin:30px 0 40px!important}
+body.page-id-15131 #content .columns.five{margin-top:10px;left:-10px;position:relative}
+body.page-id-15131 #content .columns.five>div{font-family:'Neo-Sans',sans-serif;font-size:32px;font-weight:400;position:relative;text-align:center}
+body.page-id-15131 #content .columns.five>div a{display:block;margin-bottom:10px;font-weight:400;text-indent:5px}
+body.page-id-15131 #content .columns.five>div em{width:100%;display:block;font-size:15px;font-weight:500;font-style:normal;margin-top:5px}
+body.page-id-15131 #content .columns.five>div::after{border-bottom:8px solid transparent;border-left:8px solid #CCCCCC;border-top:8px solid transparent;clear:both;content:'';height:0;position:absolute;right:-8px;top:18px;width:0}
+body.page-id-15131 #content h3:not(.toggle){background:#F0582B;color:#FFFFFF;border-radius:12px;box-sizing:border-box;padding:10px 15px}
+body.page-id-15131 #content h3+ul{margin:0}
+body.page-id-15131 #content h3+ul.expand li,body.page-id-15131 #content h3+ul+ul>li{list-style:none;margin:10px 0 0 30px;position:relative}
+body.page-id-15131 #content h3+ul.expand li ul li{list-style:disc}
+body.page-id-15131 #content h3+ul.expand li ol li{margin-left:20px}
+body.page-id-15131 #content ul li h3.toggle{display:block;margin:0!important;width:100%;height:28px;position:absolute;top:0;left:0}
+body.page-id-15131 #content ul li h3.toggle i{top:6px;left:-18px;font-size:14px}
+body.page-id-15131 #content h3+ul.expand li h3.toggle i:before,body.page-id-15131 #content h3+ul+ul>li h3.toggle i:before{content:'\f067'!important;color:#F0582B!important}
+body.page-id-15131 #content h3.toggle{color:#0E316E;margin-bottom:5px!important;text-transform:none}
+body.page-id-15131 #content h3.toggle a{color:#0E316E;padding-left:5px}
+body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight:400}

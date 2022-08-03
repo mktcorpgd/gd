@@ -83,7 +83,7 @@ h4{font-size:1.1em}
 h5{font-size:1em}
 h6{font-size:.9em}
 video{outline:none!important}
-blockquote{margin:0;padding:1em 0 1em 1.4em!important;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
+blockquote{margin:0;padding:1em 0 1em 1.4em;font-size:1.05em;border-left:2px solid #FFB201;font-style:italic;overflow:inherit}
 p{margin-bottom:1em;line-height:1.5}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
 .not-visible{visibility:hidden}
@@ -93,14 +93,13 @@ p{margin-bottom:1em;line-height:1.5}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif}
 abbr[title]{border-bottom:0;cursor:inherit;text-decoration:none}
 input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,.wpcf7-list-item-label{font-family:'Open-Sans',sans-serif;font-size:1rem;line-height:1.2;letter-spacing:-.01em}
-input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em;padding:.5em .6em;width:100%!important;background:#F6F6F6;border:1px solid #CCCCCC;border-radius:6px;box-shadow:none}
+input[type='text'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em;padding:.5em .6em;width:100%;background:#F6F6F6;border:1px solid #CCCCCC;border-radius:6px;box-shadow:none}
 select{padding:.37em .6em}
 textarea{line-height:1.3}
 input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,input[type='tel']:hover,input[type='number']:hover,textarea:hover,select:hover{background:#FFFFFF;border:1px solid #999999}
 input[type='text']:focus,input[type='date']:focus,input[type='email']:focus,input[type='tel']:focus,input[type='number']:focus,textarea:focus,select:focus{background:#FFFFFF;border:1px solid #777777}
 input[readonly]:not([class*='walcf7-']),textarea[readonly],input[disabled],textarea[disabled]{background:#FFFFFF!important;border:1px solid #DDDDDD!important;color:#CCCCCC!important;cursor:default}
 select{position:relative}
-
 body:not(.home) section.post-loop.category-comerciales .gp-loop-meta time+span{font-size:100%}
 body.page-id-17547 .columns.one{text-align:center}
 body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
@@ -109,29 +108,11 @@ body.page-id-17547 .columns.one img.thumbnail{display:inline-block}
 .bp-wrapper .item-list .activity-header p>a{display:inline-block!important}
 body.single #content p img,.page #content .columns.two div img,#content iframe,.embed{border-radius:12px!important}
 ¿.post-columns .post-text,.datepick-inline .datepick,.datepick-inline .date_available,.datepick-today{background:none!important}
-.gallery-item{margin:0!important;padding:16px!important;box-sizing:border-box}
-.gallery-item img{width:100%!important}
-.wp-block-gallery .wp-block-image{border-radius:6px;overflow:hidden}
-#content .blocks-gallery-item img,.wp-block-image img,#post-content .blocks-gallery-item img{margin:0!important}
-.blocks-gallery-image figcaption,.blocks-gallery-item figcaption,.wp-block-image figcaption{text-align:left;padding:.4em .3em!important;line-height:1.25;font-style:italic}
-.wp-block-image a+figcaption{background:rgba(0,0,0,.5)!important;cursor:zoom-in}
-.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {width:100%!important}
-.blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
-.padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.widget li a:hover{text-decoration:underline}
-.wp-block-media-text.text-to-top{align-items:normal}
-.wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
-.wp-block-embed__wrapper>.twitter-tweet{margin:0 auto}
-.wp-block-embed__wrapper>.twitter-tweet .tweet-InformationCircle-widgetParent{margin:0!important}
 .wp-block-video video{border-radius:12px}
 .MediaCard-borderOverlay{border-radius:12px;border:1px solid #DDDDDD!important}
 .joint>div{border-color:#F0F0ED!important}
-.two.first.joint>div{padding-left:0;padding-top:10px}
-.two.last.joint>div{padding-right:0;padding-top:10px}
-.sc-list li{margin-bottom:0;position:relative}
-.sc-list li i{color:#888888;font-size:12px}
 .columns.two.center{text-align:center}
 .must-log-in,.aligncenter{text-align:center!important}
-#content+h3{text-align:center}
 .wp-caption{margin-bottom:0;text-align:center}
 .html5_player_container{border-radius:12px}
 span.resaltado-naranja{color:#F0582B}
@@ -315,6 +296,8 @@ div[class*='.wpcf7-response-inline']{padding:0!important}
 .wpcf7-response-inline-alert,.wpcf7-response-inline-alert a{color:#F1B500!important}
 .wpcf7-response-output+p{margin:1em 0;float:left;width:100%}
 html body .ff-form .ff-powered{transform:scale(0)}
+label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
+/*
 .ff-form .ff-button-bar{padding-top:80px;position:relative;text-align:center}
 .ff-button-bar button{margin-left:-85px!important;padding: 0 15px;min-height:auto!important;min-width:auto!important;font-size:20px;font-weight:400;line-height:2.2em!important;position:absolute;bottom:30px}
 .ff-form .form-check-label{font-size:14px!important}
@@ -330,7 +313,9 @@ html body .ff-form .ff-powered{transform:scale(0)}
 .ff-form .ff-widget-error b:before{content:'⨯';color:#FF5151;position:absolute;top:0;right:0}
 #ff-id-1504819344{text-align:center}
 #ff-compose{padding:20px 0 0;text-align:center}
-label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
+*/
+
+/* Datepicker */
 .xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border:none;border-radius:12px}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box,.xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current{border-radius:6px}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current,.xdsoft_datetimepicker .xdsoft_calendar th{font-weight:400}
@@ -685,7 +670,7 @@ input[type='text'].shared-link-url{font-size:1.6em!important;text-align:center;b
 .ilightbox-header .tippy-content{padding-left:0;padding-right:0}
 
 /* Post Loop */
-.post-loop,article.event{margin:0!important;padding:0!important;border:none!important;box-shadow:0 6px 12px 0 rgba(0,0,0,.1)}
+.post-loop,article.event{box-shadow:0 6px 12px 0 rgba(0,0,0,.1)}
 body.single-event article.event{box-shadow:none}
 .post-loop h2 a,article.event h2 a{color:#0E316E}
 .post-loop:hover h2 a,article.event:hover h2 a{color:#F0582B}
@@ -709,8 +694,15 @@ body.page-id-41477 .post-loop.category-salesforce .post-thumbnail img{max-width:
 body.page-id-41477 .post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;background:#0E316E}
 body.page-id-41477 .post-loop.category-salesforce .post-text h2 a{text-align:center}
 
-/* Post Loop - Banderas */
-section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%!important;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF!important;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
+/* Banderas */
+#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
+#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Argentina'] a:before,#tab-AR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-ar.svg)}
+#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Brasil'] a:before,#tab-BR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-br.svg)}
+#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Chile'] a:before,#tab-CL .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-cl.svg)}
+#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Mxico'] a:before,#tab-MX .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-mx.svg)}
+#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)}
+#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)}
+section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'][class*='brasil'] .post-text h2:before,section[class*='argentina'][class*='chile'] .post-text h2:before,section[class*='argentina'][class*='mexico'] .post-text h2:before,section[class*='argentina'][class*='peru'] .post-text h2:before,section[class*='argentina'][class*='puerto-rico'] .post-text h2:before,section[class*='argentina'][class*='uruguay'] .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
 section[class*='argentina'] .post-text h2:before,#tab-Argentina .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-ar.svg)}
 section[class*='brasil'] .post-text h2:before,#tab-Brasil .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-br.svg)}
@@ -725,7 +717,7 @@ body.home .padder{background:none}
 body.home .sc-tab-panel{margin-bottom:0!important;padding:0;background:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.9em}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.3em;width:1em;height:1em;background:#0E316E;border:1px solid #EAEAEA;color:#FFFFFF;position:relative;top:2px;background-size:contain;border-radius:50%}
-.gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 .5em!important}
+.gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 1em!important}
 body.home .post-loop .gp-loop-meta span a{color:#666666}
 body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text{padding:.5em .8em!important}
@@ -822,8 +814,10 @@ body.archive .post-loop .gp-meta-cats a[href$='/busquedas-laborales/finalizada/'
 #content [class*=category-casos-de-] table tr:last-child td:last-child{border-bottom-right-radius:12px}
 article[class*=category-casos-de-] .gp-meta-date,section[class*=category-casos-de-] .gp-meta-date{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-style:normal;font-weight:400}
 article[class*=category-casos-de-] .gp-meta-date{font-size:1.4em;position:relative;top:4px}
+
+/* Uso interno */
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,body.page-id-29106 #content:before,body.page-id-29106 #content:after,body.page-id-26272 #content:before,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno';display:block;width:100%;background:#0E316E;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
-article.category-casos-de-referencia .padder,body.page-id-29106 #content .padder,body.page-id-26272 #content .padder,#tab-Casosdeuso #UseyourDrive{border-radius:0!important;border-left:4px solid #0E316E;border-right:4px solid #0E316E}
+
 body.page-id-29106 #content .post-thumbnail.single-thumbnail{border-top-left-radius:0!important;border-top-right-radius:0!important}
 #tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{font-size:.8em;border-radius:0!important}
 .white-popup{margin:20px auto;width:auto;max-width:570px;padding:20px;position:relative;background:#FFFFFF;border-radius:12px}
@@ -844,7 +838,7 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#DDDDDD;text-decoration:none!important}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:#1F4483;color:#FFFFFF}
 #post-content .sc-tab-panel .embed{margin:-15px;border:none;border-radius:0}
-#post-content .sc-tab-panel iframe{border:none;border-radius:0!important}
+#post-content .sc-tab-panel iframe{border:none;border-radius:0}
 #content .sc-tab-panel .embed{margin-top:-20px!important;margin-bottom:-20px!important}
 .widget .ui-tabs .ui-tabs-nav li a{padding:.2em .4em;margin-bottom:0;border-right:1px solid #CCCCCC;font-size:.9em;font-weight:400}
 .widget .ui-tabs .ui-tabs-nav li:first-child a{padding-left:0}
@@ -859,13 +853,6 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 .textwidget .sc-tabs .sc-tab-panel>span:last-child+a{margin-bottom:10px}
 .sc-tab-panel>p em{font-size:.7em}
 .sc-tabs #UseyourDrive~.light{margin-top:0}
-#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)!important}
-#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Argentina'] a:before,#tab-AR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-ar.svg)!important}
-#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Brasil'] a:before,#tab-BR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-br.svg)!important}
-#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Chile'] a:before,#tab-CL .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-cl.svg)!important}
-#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Mxico'] a:before,#tab-MX .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-mx.svg)!important}
-#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)!important}
-#post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)!important}
 
 /* Botones */
 #page-wrapper{overflow:visible}
@@ -1017,21 +1004,23 @@ notification_image{margin-left:0!important}
 notification_image img{background:#0E316E!important}
 
 /* Imágenes */
+img.mfp-img{max-height:90vh!important}
 #content .wp-block-image img[src*='qr-']{width:150px;height:150px;border-radius:6px}
 #content figure.no-borders img{border:none!important}
 #content .columns.two div img[id*='tp']{border:1px solid #EAEAEA;border-radius:24px!important}
-img.mfp-img[src*='-ima_'],img.mfp-img[src*='-iso']{padding:10px}
-img.mfp-img{max-height:90vh!important}
-#content img.thumbnail{border:1px solid #DDDDDD;box-sizing:border-box;padding:25px!important}
-#content img.thumbnail.no-padding{padding:0!important}
-#content img[src*='ima_h-one_stroke'].thumbnail{padding:27px 25px 28px!important}
-#content img[src*='ima_v-one_stroke'].thumbnail{padding:31px 25px 32px!important}
-#content img[src*='gd-ima_h-one_stroke'].thumbnail{padding:28px 25px!important}
-#content img[src*='gd-ima_v-one_stroke'].thumbnail{padding:30px 25px!important}
-#content img[src*='v-ima_h-one_stroke'].thumbnail{padding:28px 25px 29px!important}
-#content img[src*='v-ima_v-one_stroke'].thumbnail{padding:32px 25px 33px!important}
 body.single #post-content img:not(.aligncenter):not([src*='emoji']),body.single #post-content ul li img,body.single #post-content ol li img,.gallery-item img{border:1px solid #DDDDDD;border-radius:12px;margin-top:10px}
 body.single .post-thumbnail img[src*='.png']{background-color:#0E316E}
+.gallery-item{margin:0!important;padding:16px!important;box-sizing:border-box}
+.gallery-item img{width:100%!important}
+.wp-block-gallery .wp-block-image{border-radius:6px;overflow:hidden}
+#content .blocks-gallery-item img,.wp-block-image img,#post-content .blocks-gallery-item img{margin:0!important}
+.blocks-gallery-image figcaption,.blocks-gallery-item figcaption,.wp-block-image figcaption{text-align:left;padding:.4em .3em!important;line-height:1.25;font-style:italic}
+.wp-block-image a+figcaption{background:rgba(0,0,0,.5)!important;cursor:zoom-in}
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {width:100%!important}
+.blocks-gallery-item figcaption strong,.blocks-gallery-item figcaption strong em{display:block;font-size:120%!important}
+.padder p a:hover,.padder li a:not(.ui-tabs-anchor):hover,.widget li a:hover{text-decoration:underline}
+.wp-block-media-text.text-to-top{align-items:normal}
+.wp-block-image:not(.no-lightbox) a[href*='.png'],.wp-block-image:not(.no-lightbox) a[href*='.jpg'],.wp-block-image:not(.no-lightbox) a[href*='.jpeg'],.wp-block-gallery:not(.no-lightbox) a[href*='.png'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpg'],.wp-block-gallery:not(.no-lightbox) a[href*='.jpeg'],#custom_html-10 .widget_ref a,.grid-gallery-caption:hover{cursor:zoom-in}
 
 /* Videos */
 body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
@@ -1043,29 +1032,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-column-3 li{padding-bottom:.5em!important;margin-right:4%!important;margin-bottom:1.5em!important;width:30.66%;background:#0E316E;border-radius:12px;box-shadow:0 10px 12px -12px rgba(0,0,0,.5);overflow:hidden}
 .yotu-column-3 li:hover{background:#F0582B;box-shadow:0 10px 12px -10px #F0582B;transform:translateY(-2px)}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
-
-/* Guía de LinkedIn */
-body.page-id-15131 #content h3{position:relative}
-body.page-id-15131 #content .columns.five>div a i,body.page-id-15131 #content h3+ul+ul>li strong{color:#F0582B}
-body.page-id-15131 #content .columns.five>div a:hover i,body.page-id-15131 #content h3.toggle:hover,body.page-id-15131 #content h3.toggle:hover a{color:#F0582B!important}
-body.page-id-15131 #content h3+ul.expand li h3.toggle i:hover:before,body.page-id-15131 #content h3+ul+ul>li h3.toggle i:hover:before{color:#F0582B}
-body.page-id-15131 #content hr#marca-profesional{margin:30px 0 40px!important}
-body.page-id-15131 #content .columns.five{margin-top:10px;left:-10px;position:relative}
-body.page-id-15131 #content .columns.five>div{font-family:'Neo-Sans',sans-serif;font-size:32px;font-weight:400;position:relative;text-align:center}
-body.page-id-15131 #content .columns.five>div a{display:block;margin-bottom:10px;font-weight:400;text-indent:5px}
-body.page-id-15131 #content .columns.five>div em{width:100%;display:block;font-size:15px;font-weight:500;font-style:normal;margin-top:5px}
-body.page-id-15131 #content .columns.five>div::after{border-bottom:8px solid transparent;border-left:8px solid #CCCCCC;border-top:8px solid transparent;clear:both;content:'';height:0;position:absolute;right:-8px;top:18px;width:0}
-body.page-id-15131 #content h3:not(.toggle){background:#F0582B;color:#FFFFFF;border-radius:12px;box-sizing:border-box;padding:10px 15px}
-body.page-id-15131 #content h3+ul{margin:0}
-body.page-id-15131 #content h3+ul.expand li,body.page-id-15131 #content h3+ul+ul>li{list-style:none;margin:10px 0 0 30px;position:relative}
-body.page-id-15131 #content h3+ul.expand li ul li{list-style:disc}
-body.page-id-15131 #content h3+ul.expand li ol li{margin-left:20px}
-body.page-id-15131 #content ul li h3.toggle{display:block;margin:0!important;width:100%;height:28px;position:absolute;top:0;left:0}
-body.page-id-15131 #content ul li h3.toggle i{top:6px;left:-18px;font-size:14px}
-body.page-id-15131 #content h3+ul.expand li h3.toggle i:before,body.page-id-15131 #content h3+ul+ul>li h3.toggle i:before{content:'\f067'!important;color:#F0582B!important}
-body.page-id-15131 #content h3.toggle{color:#0E316E;margin-bottom:5px!important;text-transform:none}
-body.page-id-15131 #content h3.toggle a{color:#0E316E;padding-left:5px}
-body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight:400}
 
 /* Desktop */
 @media (min-width:960px) {
@@ -1230,7 +1196,6 @@ body.page-id-15131 #content .columns.five i{font-size:32px!important;font-weight
 	body .widget button:not(.mfp-close){line-height:26px!important;padding:8px 0;right:10px}
 	.textwidget h3.toggle,.datepick-days-cell{font-size:1.1em!important;line-height:1.5!important}
 	.sociales li{background-position:0 10px;padding:5px 0}
-	.post-loop,article.event{margin:0 0 15px!important}
 	#logo{margin-top:14px;margin-left:12px}
 	body.gp-theme.fullwidth #content-wrapper{padding-top:95px}
 	#content code,.widget code{font-size:18px;line-height:24px}
