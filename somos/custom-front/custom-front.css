@@ -106,7 +106,7 @@ body.page-id-41477 .post-loop.category-salesforce .post-thumbnail a{display:bloc
 body.page-id-41477 .post-loop.category-salesforce .post-text h2 a{text-align:center}
 
 /* Admin */
-/*#wpadminbar{position:fixed;top:0;z-index:999999}
+#wpadminbar{position:fixed;top:0;z-index:999999}
 #wpadminbar .ab-icon{font-family:'dashicons'}
 #wpadminbar,#wpadminbar .shortlink-input,#wpadminbar .menupop .ab-sub-wrapper{background:#0E316E!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 16px 16px -10px rgba(0,0,0,.4)!important}
@@ -117,7 +117,7 @@ body.page-id-41477 .post-loop.category-salesforce .post-text h2 a{text-align:cen
 #wp-admin-bar-my-account>div{border-bottom-right-radius:0!important}
 #wpadminbar .ab-top-menu>li.hover>.ab-item,#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover a,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover span,#wpadminbar .ab-top-menu li:hover>.ab-item:before,#wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,#wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,#wpadminbar>#wp-toolbar li.hover span.ab-label,#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a,#wpadminbar .quicklinks .menupop ul li a:focus,#wpadminbar .quicklinks .menupop ul li a:focus strong,#wpadminbar .quicklinks .menupop ul li a:hover,#wpadminbar .quicklinks .menupop ul li a:hover strong,#wpadminbar .quicklinks .menupop.hover ul li a:focus,#wpadminbar .quicklinks .menupop.hover ul li a:hover,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover,#wpadminbar li #adminbarsearch.adminbar-focused:before,#wpadminbar li .ab-item:focus .ab-icon:before,#wpadminbar li .ab-item:focus:before,#wpadminbar li a:focus .ab-icon:before,#wpadminbar li.hover .ab-icon:before,#wpadminbar li.hover .ab-item:before,#wpadminbar li:hover #adminbarsearch:before,#wpadminbar li:hover .ab-icon:before,#wpadminbar li:hover .ab-item:before,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover{background:none!important;color:#FFFFFF!important}
 #wpadminbar #wp-admin-bar-user-info .username{color:rgba(255,255,255,.6)!important}
-#wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}*/
+#wp-admin-bar-edit_mode>a>span.ab-icon{bottom:1px}
 
 /* Header */
 #header{padding:8px;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
@@ -796,10 +796,10 @@ body .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop{border:1px soli
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:0}
 .ui-tabs .ui-tabs-nav li{margin-bottom:.5em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
-#post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.1);position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;background:#EAEAEA}
+#post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.1);position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;text-decoration:none;background:#F6F6F6}
+#post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-right:none;border-top-right-radius:12px;border-bottom-right-radius:6px}
-#post-content .ui-tabs .ui-tabs-nav li a:hover{background:#DDDDDD;text-decoration:none!important}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:#1F4483;color:#FFFFFF}
 #post-content .sc-tab-panel .embed{margin:-15px;border:none;border-radius:0}
 #post-content .sc-tab-panel iframe{border:none;border-radius:0}
