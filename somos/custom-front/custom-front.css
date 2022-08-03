@@ -59,7 +59,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#333333}
 ::-ms-input-placeholder{color:#333333}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button{transition:all .1s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button{transition:all .2s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll;letter-spacing:-.005em}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
