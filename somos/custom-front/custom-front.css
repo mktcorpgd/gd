@@ -847,17 +847,15 @@ notification_image{margin-left:0}
 notification_image img{background:#0E316E}
 
 /* Imágenes */
-#content img{margin:0!important}
+#content img{margin:0;border:1px solid #DDDDDD;border-radius:12px}
+#content .columns.two div img[id*='tp']{border:1px solid #EAEAEA;border-radius:24px}
 #content figure.no-borders img{border:none}
-img.mfp-img{max-height:90vh!important}
-body.single #post-content img,.gallery-item img{border:1px solid #DDDDDD;border-radius:12px;margin-top:.8em}
-.gallery-item{margin:0;padding:16px!important;box-sizing:border-box}
-.gallery-item img{width:100%!important}
-.wp-block-gallery .wp-block-image{border-radius:6px;overflow:hidden}
+img.mfp-img{max-height:90vh}
+body.single #post-content img,.gallery-item img{margin-top:.8em}
+.gallery-item{margin:0;padding:16px;box-sizing:border-box}
+.gallery-item img{width:100%}
 figcaption{text-align:left;padding:.4em .3em;background:rgba(0,0,0,.5);line-height:1.25;font-style:italic}
 .wp-block-image a+figcaption{cursor:zoom-in}
-.wp-block-media-text.text-to-top{align-items:normal}
-#content .columns.two div img[id*='tp']{border:1px solid #EAEAEA;border-radius:24px}
 
 /* Videos */
 body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
