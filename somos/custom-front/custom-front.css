@@ -80,7 +80,7 @@ hr.thin{height:1px}
 input[type='submit'],select,textarea,button{outline:none!important}
 textarea{height:60px}
 a{color:#F0582B}
-a:hover{color:#1F4483}
+a:hover{color:#1F4483;text-decoration:underline}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
 .not-visible{visibility:hidden}
 body,input[type='text'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif}
@@ -130,7 +130,7 @@ body.page-id-41477 .post-loop.category-salesforce .post-text h2 a{text-align:cen
 #nav .menu li{border-radius:6px}
 #nav .menu li:hover,#mobile-nav .menu li>a:hover{background:rgba(0,0,0,.3)}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
-#nav .menu li a:hover,#nav .menu li:hover>a{background:none}
+#nav .menu li a:hover,#nav .menu li:hover>a{background:none;text-decoration:none}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu li a{padding:0}
 #nav .menu .sub-menu{display:block;padding:.3em .4em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:10px;visibility:hidden;opacity:0}
