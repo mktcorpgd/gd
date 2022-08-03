@@ -318,7 +318,7 @@ input.static_gmap a:hover{border-color:#F0582B}
 .gp-meta-cats{font-size:0}
 body.archive .gp-meta-cats{width:100%}
 body.single article.category-beneficios:not(.category-nuevo-beneficio) .gp-meta-cats{padding-left:0;border-left:none}
-body.page h1+.gp-post-meta{width:100%;text-align:center}
+body.page h1+.gp-post-meta,body.single .gp-entry-meta{margin:0 0 1rem;width:100%;text-align:center}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 0 .5rem;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .post-loop .gp-meta-cats a{line-height:1.25;font-weight:400}
 .eo-event-meta a:not([rel='tag']){color:#666!important;text-decoration:none;pointer-events:none}
@@ -574,8 +574,6 @@ article[class*='category-casos-'] h5{margin-top:20px;text-align:center}
 
 /* Entradas */
 body.single #content .post-thumbnail{max-width:inherit;margin-bottom:30px!important;float:none!important;text-align:center;background:none}
-body.single .gp-meta-date{font-size:.8em}
-body.single .gp-entry-meta{margin:0 0 1em;width:100%}
 .post-thumbnail,.post-thumbnail.wrap{margin:0}
 .padder.content-post-thumbnail{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 .post-thumbnail.single-thumbnail{width:100%;border-top-left-radius:12px;border-top-right-radius:12px;background:#AAAAAA!important;text-align:center;opacity:1;overflow:hidden}
@@ -1009,7 +1007,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content{max-height:1570px;position:relative;overflow:hidden}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content:after{content:'';display:block;width:100%;height:5em;position:absolute;bottom:0;right:0;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(221,221,221,1) 100%)}
 	.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop .post-thumbnail,body.archive .gp-blog-wrapper .post-loop .post-thumbnail,body.search .gp-blog-wrapper .post-loop .post-thumbnail{max-width:100%}
-	body.single article:not([class*='category-politicas-procesos']) h1+.gp-entry-meta .gp-meta-cats{margin:1em 0 1em 12px;padding-left:15px;border-left:2px solid #EAEAEA}
+	body.single .gp-meta-date+.gp-entry-meta .gp-meta-cats{margin:1em 0 1em 12px;padding-left:15px;border-left:2px solid #EAEAEA}
 	#comments{margin:0}
 	#UseyourDrive.video .jp-video{min-height:370px}
 	article.category-casos-de-referencia:before,body.page-id-29106 #content:before,body.page-id-26272 #content:before,#tab-Casosdeuso #UseyourDrive:before{border-top-left-radius:12px;border-top-right-radius:12px}
