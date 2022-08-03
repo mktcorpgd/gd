@@ -254,8 +254,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .post-thumbnail.single-thumbnail img{width:60%}
 
 /* Post Loop */
-.post-loop,article.event{box-shadow:0 6px 12px 0 rgba(0,0,0,.1)}
-body.single-event article.event{box-shadow:none}
+.post-loop,article.event{margin:0 0 .5em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.1)}
 .post-loop h2 a,article.event h2 a{color:#0E316E}
 .post-loop:hover h2 a,article.event:hover h2 a{color:#F0582B}
 .post-loop .post-text{padding:.5em .8em;clear:both}
@@ -270,9 +269,7 @@ body.single-event article.event{box-shadow:none}
 /* Columnas */
 .gp-blog-wrapper{float:left}
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
-.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{width:100%;background:#FFFFFF}
-.gp-blog-wrapper section,body:not(.single-event) article.event{background:#FFFFFF;border-radius:12px;overflow:hidden}
-.gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 14px 24px -12px #F0582B;transform:translateY(-2px)}
+.gp-blog-wrapper[class*='gp-blog-columns'] .post-loop{width:100%}
 .gp-blog-wrapper section h2 a,body:not(.single-event) article.event h2 a{display:block}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:first-child,body:not(.single-event) article.event:first-child{margin-top:0!important}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) section:hover,body:not(.single-event) article.event:hover{background:#FAFAFA;transform:translateY(-2px)}
@@ -432,15 +429,14 @@ input.static_gmap a:hover{border-color:#F0582B}
 
 /* Sidebar */
 .sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
-.sidebar .widget .textwidget{line-height:1.3}
 #text-7 .widget{text-align:center}
-.widget li,.birthday_date,.birthday_name{font-family:'Neo-Sans',sans-serif;line-height:1.3}
+.widget p,.widget li,.birthday_date,.birthday_name{line-height:1.3}
+.widget p{margin:0 0 .4em}
+.widget p a .fa{display:inline-block;padding-right:.3em}
 .widget h4{margin-bottom:10px;font-size:1.3em;color:#0E316E;text-align:center}
 .widget h4>i{font-size:2.6em}
 .widget h4>span{display:inline-block;padding-left:10px;width:70%;text-align:left}
-.widget p{margin:0 0 .2em;line-height:1.25;clear:both}
 .widget strong{font-weight:500}
-.widget p a .fa{display:inline-block;padding-right:.3em}
 .widget li{padding:.4em;border-bottom:1px solid #DDDDDD}
 .widget li strong a{font-weight:400}
 .widget li:last-child{border-bottom:none}
@@ -451,7 +447,6 @@ ul#lcp_instance_0.busquedas {border:none!important}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
 .widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
-.widget .bdays_upcom{margin-top:.4em;position:relative;border-top:2px solid #CCCCCC}
 .mfp-content .widget .widgettitle{margin-top:0!important;padding-top:0;font-size:1.2em}
 
 /* Cumpleaños */
@@ -460,11 +455,10 @@ ul#lcp_instance_0.busquedas {border:none!important}
 .birthdays-widget .birthday_name a{display:block;line-height:1.1;color:#F0582B!important;font-weight:500}
 .birthdays-widget .birthday_wish,.birthday_error{width:102%;transform:rotate(-4deg);margin-top:-10px;margin-bottom:0;position:absolute;top:24px;left:-3px;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-size:1.5em;background:#0E316E;color:#FFFFFF;font-weight:500}
 .birthday_error{width:102%;transform:rotate(-1deg);margin-top:0;margin-bottom:25px;;font-size:1.2em;position:relative;top:15px;font-weight:500;background:none;font-style:normal;color:#0E316E}
-.bdays_upcom .birthday_date,.bdays_upcom .birthday_name{display:block;box-sizing:border-box;margin:0;width:100%;font-family:'Neo-Sans',sans-serif;text-align:left;cursor:inherit}
-.bdays_upcom>.birthday{margin:.1em 0 0;padding:.3em 0;border-bottom:1px solid #DDDDDD}
+.bdays_upcom .birthday_date,.bdays_upcom .birthday_name{font-family:'Neo-Sans',sans-serif;text-align:left;cursor:inherit}
+.bdays_upcom>.birthday{padding:.4em 0;border-bottom:1px solid #DDDDDD}
 .bdays_upcom>.birthday:last-child{border-bottom:none}
 .bdays_upcom .birthday_date{padding:0;border-bottom:0!important;font-size:.8em;font-weight:400;letter-spacing:1px;color:#888888}
-.bdays_upcom .birthday_name{margin:0!important;border-bottom:0}
 .bdays_upcom .birthday>.birthday_name:last-child,.birthdays-widget .birthday_name:last-child{border-bottom:0!important}
 .birthdays-widget img{margin-top:30px;width:100%!important;border-bottom:1px solid #DDDDDD;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 .mfp-close,.mfp-arrow{position:fixed}
@@ -620,7 +614,6 @@ body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Chile'] a:be
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Mxico'] a:before,#tab-MX .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-mx.svg)}
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)}
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)}
-.gp-blog-wrapper section,.gp-blog-wrapper article{margin:0 0 1em!important}
 body.home .post-loop .gp-loop-meta span a{color:#666666}
 body.home #content iframe{max-height:373px;box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text{padding:.5em .8em!important}
@@ -784,7 +777,7 @@ a.button.fullwidth{width:100%}
 .buttons,.buttons-download{clear:both;margin:1em 0 2em;text-align:center}
 .padder .buttons-download{margin-bottom:1em}
 #text-4{padding:0;background:none}
-#text-4 h3{margin:0 0 1em;font-size:1.15em;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
+#text-4 h3{margin:0 0 1em;font-size:1.15em}
 #text-4 h3 a{display:block}
 
 /* Tarjeta digital */
