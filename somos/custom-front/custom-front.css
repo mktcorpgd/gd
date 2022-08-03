@@ -33,7 +33,7 @@ body:not(.role-administrator):not(.role-marketing):not(.role-comercial_ar) secti
 /* Home */
 body.home .page-title,body.home .gp-meta-cats,
 /* Push */
-#webpushr-bell-optin > promptbox3 > promptpopup > popup_poweredby,notification_time,
+#webpushr-bell-optin>promptbox3>promptpopup>popup_poweredby,notification_time,
 /* Búsquedas laborales */
 body[class*='category-busquedas-laborales'] .gp-meta-cats a[href$='/busquedas-laborales-argentina/'],
 /* YouTube */
@@ -429,13 +429,13 @@ input.static_gmap a:hover{border-color:#F0582B}
 .widget .widgettitle a{color:#666666;position:absolute;top:.4em;right:15px}
 .widget .widgettitle a:hover{transform:scale(1.15);color:#F0582B}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
-.widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
+.widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{margin:.2em 0 .4em 0;max-height:165px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 
 /* Cumpleaños */
 .birthday_name{padding:0 0 5px;text-align:center;font-size:1.2em}
 .birthday_name a{display:block;line-height:1.1;color:#F0582B!important;font-weight:500}
-.birthday_wish,.birthday_error{width:102%;transform:rotate(-1deg);font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;color:#0E316E;font-size:1.5em;font-weight:500}
+.birthday_wish,.birthday_error{margin:1em 0 .5em;width:102%;transform:rotate(-1deg);font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;color:#0E316E;font-size:1.5em;font-weight:500}
 .birthday_wish{background:#0E316E;color:#FFFFFF}
 .birthday_error{font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
@@ -457,7 +457,6 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .widget .toggle-box h5{margin:.6em 0;font-size:1em}
 .widget .toggle-box h6{margin-top:.5em;margin-bottom:0;font-size:.9em}
 .widget .toggle-box{margin:0}
-.widget .toggle-box ul:not(.ui-tabs-nav){margin:.2em 0 .4em 0}
 .widget .toggle-box ul:not(.ui-tabs-nav) li{margin:0}
 .widget .toggle-box ul:not(.ui-tabs-nav) li a{color:#333333}
 .widget .toggle-box ul:not(.ui-tabs-nav) li a:hover{color:#F0582B}
@@ -466,16 +465,16 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .birthdays-widget~h3.toggle i,.birthdays-widget~h3.toggle a{display:inline-block}
 #custom_html-21,#custom_html-3{text-align:center}
 #custom_html-11,#custom_html-24{padding-top:.8em}
-#custom_html-24 > div > h3{margin-bottom:0;font-weight:500}
-h3.toggle > i.fa-minus-square:before,h3.toggle > i.fa-minus-square:before{font-weight:bold}
-h3.toggle > i.fa-plus-square+a:after,h3.toggle > i.fa-minus-square+a:after{font-family:'Font Awesome 6 Pro',sans-serif;position:absolute;top:0;right:0}
-h3.toggle > i.fa-plus-square+a:after{content:'\f067'}
-h3.toggle > i.fa-minus-square+a:after{content:'\f068'}
-#custom_html-11 > div > h3:nth-child(1) > i:before{content:'\f500'}
-#custom_html-11 > div > h3:nth-child(3) > i:before{content:'\f77c'}
-#custom_html-11 > div > h3:nth-child(5) > i:before{content:'\f559'}
-#custom_html-11 > div > h3:nth-child(7) > i:before{content:'\f5ea'}
-#custom_html-24 > div > h3 > i:before{content:'\f00e'}
+#custom_html-24>div>h3{margin-bottom:0;font-weight:500}
+h3.toggle>i.fa-minus-square:before,h3.toggle>i.fa-minus-square:before{font-weight:bold}
+h3.toggle>i.fa-plus-square+a:after,h3.toggle>i.fa-minus-square+a:after{font-family:'Font Awesome 6 Pro',sans-serif;position:absolute;top:0;right:0}
+h3.toggle>i.fa-plus-square+a:after{content:'\f067'}
+h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
+#custom_html-11>div>h3:nth-child(1)>i:before{content:'\f500'}
+#custom_html-11>div>h3:nth-child(3)>i:before{content:'\f77c'}
+#custom_html-11>div>h3:nth-child(5)>i:before{content:'\f559'}
+#custom_html-11>div>h3:nth-child(7)>i:before{content:'\f5ea'}
+#custom_html-24>div>h3>i:before{content:'\f00e'}
 
 /* Buscadores */
 .is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF!important}
@@ -840,7 +839,7 @@ promptbox3.Right_prompt_popup promptPopup{border-top-right-radius:0;border-botto
 .webpushr-subscribed .webpushr-bell-style-Squared prompticon3.Right_bell{right:0}
 popup_heading_text{font-size:.9em;font-weight:400;text-align:left;color:#0E316E;letter-spacing:0;font-family:'Neo-Sans',sans-serif}
 popup_heading_text .popup-button-heading{font-weight:400}
-#webpushr-bell-optin > promptbox3 > promptpopup > popup_close{top:-25px;right:5px;font-size:1em;background:none;box-shadow:none;color:rgba(0,0,0,.6)}
+#webpushr-bell-optin>promptbox3>promptpopup>popup_close{top:-25px;right:5px;font-size:1em;background:none;box-shadow:none;color:rgba(0,0,0,.6)}
 html body popup_button btn,.webpushrUnknownBtn.webpushrActionBtn,.webpushrOffBtn.webpushrActionBtn{padding:.6em;width:auto;letter-spacing:0;font-family:'Neo-Sans',sans-serif;font-size:16px;background:#0E316E;border-radius:12px}
 .webpushrOnBtn.webpushrActionBtn{background:#FFFFFF;border:2px solid #999999;font-size:16px;color:#777777;box-shadow:none}
 notification_image{margin-left:0}
