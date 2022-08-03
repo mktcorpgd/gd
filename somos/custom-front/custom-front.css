@@ -691,21 +691,25 @@ body.single-event article.event{box-shadow:none}
 .post-loop:hover h2 a,article.event:hover h2 a{color:#F0582B}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop .post-text h2{margin-top:0!important;margin-bottom:0!important;line-height:1.25}
 .post-thumbnail.wrap{float:none;width:100%}
+.post-loop .post-thumbnail img{padding:0!important;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .post-loop .gp-loop-meta{float:left;margin:.2em 0;position:relative;color:#666666;font-size:.75rem;line-height:1.25;clear:both}
 .post-loop .gp-loop-meta .gp-meta-cats{margin-bottom:0}
 .post-loop .gp-loop-meta strong{font-weight:400}
 .post-loop.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 
 
-.post-loop .post-thumbnail img{padding:0!important;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail img{max-width:158px}
 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop.category-logros .post-thumbnail a{display:block;box-sizing:content-box;padding-left:38px;padding-right:38px;width:162px;height:89px;background:#0E316E;border-right:1px solid #DDDDDD}
-body.page-id-41477 .post-loop.category-salesforce .post-thumbnail img{max-width:297px}
-body.page-id-41477 .post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;background:#0E316E}
+
 .post-loop.category-salesforce,.post-loop.category-destacados{border-width:2px;border-color:#0E316E}
 .post-loop.category-destacados .post-thumbnail{position:relative}
 .post-loop.category-destacados .post-thumbnail:after{display:inline-block;content:'\f005';width:24px;height:24px;position:absolute;top:0;left:0;font-weight:900;font-family:'Font Awesome 6 Pro';background:#0E316E;border-bottom-right-radius:12px;color:#FFFFFF;font-size:12px;line-height:24px;text-align:center}
+
+body.page-id-41477 .post-loop.category-salesforce .post-thumbnail img{max-width:297px}
+body.page-id-41477 .post-loop.category-salesforce .post-thumbnail a{display:block;box-sizing:content-box;width:297px;background:#0E316E}
 body.page-id-41477 .post-loop.category-salesforce .post-text h2 a{text-align:center}
+
+/* Post Loop - Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%!important;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF!important;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'][class*='brasil'] .post-text h2:before,section[class*='argentina'][class*='chile'] .post-text h2:before,section[class*='argentina'][class*='mexico'] .post-text h2:before,section[class*='argentina'][class*='peru'] .post-text h2:before,section[class*='argentina'][class*='puerto-rico'] .post-text h2:before,section[class*='argentina'][class*='uruguay'] .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
 section[class*='argentina'] .post-text h2:before,#tab-Argentina .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-ar.svg)}
@@ -750,6 +754,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 
 /* Tablas */
 .wp-block-table{overflow:hidden}
+#content table td{border-top:none;border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2)}
 #content table{margin-bottom:0;padding:0;border-collapse:separate}
 #content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
@@ -758,7 +763,6 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF!important}
 #content article[class*='category-casos-'] table td:first-child>strong{font-size:.8em;font-weight:400;text-transform:uppercase}
 #content table td:not(:first-child)>strong{font-size:1.1em}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
-#content table td{border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
 #content table tbody td strong,.weight600 .wpcf7-list-item-label{font-weight:600}
 #content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{border-left:1px solid #CCCCCC}
