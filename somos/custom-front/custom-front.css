@@ -783,8 +783,8 @@ a.button.fullwidth{width:100%}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
 .buttons,.buttons-download{clear:both;margin:1em 0 2em;text-align:center}
 .padder .buttons-download{margin-bottom:1em}
-#text-4{padding:0}
-#text-4 h3{margin:0!;font-size:1.15em;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
+#text-4{padding:0;background:none}
+#text-4 h3{margin:0 0 1em;font-size:1.15em;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
 #text-4 h3 a{display:block}
 
 /* Tarjeta digital */
