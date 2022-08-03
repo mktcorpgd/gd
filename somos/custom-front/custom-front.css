@@ -64,9 +64,9 @@ section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plu
 body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll;letter-spacing:-.005em}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
 h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
-h1:not(#logo),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:#333333;line-height:125%}
+h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:#333333;line-height:125%}
 h5,h6{font-weight:400}
-h1,.page-title{margin-top:0;font-size:2em;font-weight:500;line-height:1.15}
+h1.page-title{margin-top:0!important;font-size:2em;font-weight:500;line-height:1.15}
 h2{font-size:1.4em}
 h3{font-size:1.3em}
 h4{font-size:1.1em}
@@ -315,43 +315,41 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 /* Comentarios */
 #comments{clear:both;margin-top:20px;padding:0}
 .comments-area{margin:0 auto;width:100%}
-#comments #reply-title{margin-top:0!important;margin-bottom:0!important;padding:5px 30px;line-height:150%!important;background:#FAFAFA}
+#comments #reply-title{margin-top:0;margin-bottom:0;padding:5px 30px;line-height:150%;background:#FAFAFA}
 #comments #reply-title a{color:#FFFFFF}
 #comments .comment-reply-link,#comments #cancel-comment-reply-link{padding:3px 5px;color:#F0582B;font-weight:400;font-size:12px;font-family:'Neo-Sans',sans-serif;text-decoration:none;background:none;border:1px solid #F0582B;border-radius:6px}
 #comments .comment-reply-link:hover,#comments #cancel-comment-reply-link:hover{color:#FFFFFF;background:#F0582B;border:1px solid #F0582B;text-decoration:none}
-#comments .must-log-in{padding-bottom:5px;text-align:left!important;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
-#comments .must-log-in{padding:0 30px 15px;color:#FFFFFF;background:#0E316E;font-size:90%;line-height:1.25!important}
+#comments .must-log-in{padding-bottom:5px;text-align:left;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
+#comments .must-log-in{padding:0 30px 15px;color:#FFFFFF;background:#0E316E;font-size:90%;line-height:1.25}
 #comments .must-log-in a{color:#FFFFFF;text-decoration:none}
 #comments .must-log-in a:hover{text-decoration:underline}
-#commentform textarea{margin-bottom:0!important;height:3.6em;font-size:1em!important;border-bottom-right-radius:0!important;resize:none}
-#commentform textarea,#commentform .comment-form-comment,#comments .must-log-in{margin-top:0!important}
+#commentform textarea{margin-bottom:0;height:3.6em;font-size:1em;border-bottom-right-radius:0;resize:none}
+#commentform textarea,#commentform .comment-form-comment,#comments .must-log-in{margin-top:0}
 .commentlist #respond{display:inline-block;width:100%;margin:0 0 20px;padding:.5em .5em 0 .5em;background:#EAEAEA;border-radius:6px 12px 12px 12px}
-#respond p{margin-bottom:0!important}
-#respond p.form-submit{margin:0 0 10px!important;padding:0;width:100%}
+#respond p{margin-bottom:0}
+#respond p.form-submit{margin:0 0 10px;padding:0;width:100%}
 #comments h3,#comments .commentlist{margin-bottom:30px}
-#comments>h3{margin:0 0 10px;padding:15px 0 5px!important}
+#comments>h3{margin:0 0 10px;padding:15px 0 5px}
 #comments .commentlist li .comment_container{clear:both}
-#comments ol.commentlist li .comment-text .meta{margin-bottom:0!important;font-family:'Neo-Sans',sans-serif;font-weight:400;font-size:18px}
+#comments ol.commentlist li .comment-text .meta{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-weight:400;font-size:18px}
 #comments ol.commentlist li .avatar{border-radius:32px}
 #comments .commentlist>li{margin-top:15px;padding-bottom:10px;margin-bottom:15px;border-bottom:1px solid #DDDDDD}
 #comments .commentlist>li:first-child{margin-top:0}
 #comments .commentlist>li:last-child{margin-bottom:0;border-bottom:0}
 #comments .commentlist .children{padding-left:10px;clear:both;border-left:2px solid #EAEAEA}
-#comments .commentlist .children li{margin-top:0!important;margin-bottom:0!important;padding-top:5px!important;list-style:none!important}
-#comments .commentlist li .gp-comment-meta{margin-bottom:0!important;color:#0E316E;font-size:1em!important;line-height:1.5;font-family:'Neo-Sans',sans-serif!important}
+#comments .commentlist .children li{margin-top:0;margin-bottom:0;padding-top:5px;list-style:none}
+#comments .commentlist li .gp-comment-meta{margin-bottom:0;color:#0E316E;font-size:1em;line-height:1.5;font-family:'Neo-Sans',sans-serif}
 #comments .commentlist li [itemprop='author']:after{font-weight:normal;color:#CCCCCC}
 #comments .commentlist li .gp-comment-meta time{font-family:'Open-Sans',sans-serif;font-size:.8em;font-weight:400;color:#999999}
 #comments .commentlist li .gp-comment-meta strong{font-weight:500}
-#comments .commentlist li .gp-comment-content{margin:0!important}
-#comments .commentlist li .gp-comment-content .gp-comment-description>p{margin-bottom:5px!important;padding-bottom:0;font-size:.9em;line-height:1.5}
+#comments .commentlist li .gp-comment-content{margin:0}
+#comments .commentlist li .gp-comment-content .gp-comment-description>p{margin-bottom:5px;padding-bottom:0;font-size:.9em;line-height:1.5}
 
 /* Salesforce */
 .post-loop.category-salesforce{border-width:2px;border-color:#0E316E}
 article .nav-posts{margin-bottom:1em}
 article .nav-posts select{width:auto}
 #post-content>.nav-posts select{font-size:.8em}
-#post-content+.nav-posts select{font-size:1.3em}
-#post-content+.nav-posts,#post-content+.nav-posts select,article .nav-posts .next-post{text-align:right}
 article.category-salesforce h3.toggle{display:block;padding:.4em}
 
 /* Formularios */
