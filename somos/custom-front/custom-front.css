@@ -420,7 +420,7 @@ input.static_gmap a:hover{border-color:#F0582B}
 .widget h4>i{font-size:2.6em}
 .widget h4>span{display:inline-block;padding-left:10px;width:70%;text-align:left}
 .widget strong{font-weight:500}
-.widget li,.bdays_upcom>.birthday{padding:.4em 0;border-bottom:1px solid #DDDDDD}
+.widget li,.bdays_upcom>.birthday{padding:.4em 0;line-height:1.3;border-bottom:1px solid #DDDDDD}
 .widget li strong a{font-weight:400}
 .widget li:last-child,.bdays_upcom>.birthday:last-child{border-bottom:none}
 .widget .widgettitle{margin:0 0 .5em;padding:.4em 1em .4em 0;font-size:1.1em}
