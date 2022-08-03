@@ -14,6 +14,8 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 #search-3>h3,.is-search-form.is-form-id-26276 button,.is-search-form.is-form-id-926276 input[type='submit'],.is-form-id-26276>label>span.is-screen-reader-text,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,#content .gp-search,.error404 .gp-search p,.error404 .gp-search>form>input.gp-search-submit,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
+/* Drive */
+#UseyourDrive div.scroll-to-top,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,
 /* Formularios */
@@ -257,7 +259,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section .gp-loop-meta .gp-meta-cats{margin-bottom:0}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
-.gp-blog-wrapper:not([class*='gp-blog-columns']) section:hover,body:not(.single-event) article.event:hover{background:#FAFAFA;transform:translateY(-2px)}
+.gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{background:#FAFAFA;transform:translateY(-2px)}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section{background:#0E316E}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11289{background:#89388D}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11286,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section.post-11302{background:#1C8DCE}
@@ -548,6 +550,7 @@ body.single #content p:last-child{padding-bottom:10px}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400!important}
 .info-material{padding:1em 0!important;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
+#UseyourDrive .entry_thumbnail img{transform:none}
 .fileupload-container+.info-material{padding-top:0!important}
 .file-container .info-material{margin-top:20px!important}
 .info-material i{display:inline-block;margin-right:5px;color:#0E316E}
@@ -726,24 +729,23 @@ section[class*=category-casos-de-] .gp-meta-date{padding-right:10px}
 .button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
-a.button.fullwidth{width:100%}
-.widget .toggle-box .blue.sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
-.widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-.widget .sc-button.small{margin:.2em .4em .5em 0;padding:.3em .6em}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em;line-height:1.2}
-.widget .toggle-box .sc-button.small{margin-bottom:1em}
-.sc-button.small{margin:0 .5em 0;font-size:.9em;border-radius:6px!important}
+.sc-button.small{margin:.5em;font-size:.9em;border-radius:6px!important}
 .sc-button.medium{font-size:1.05em}
 .sc-button.large{font-size:1.2em}
 .sc-button.xlarge{margin-bottom:1em;font-size:1.3em}
 .sc-button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
 .sc-button-social{display:inline-block;margin:.2em .2em 0;color:#F0582B;font-size:1.5em}
 .sc-button-social:hover{color:#1F4483}
-.widget .sc-button.small{font-weight:400!important}
+.widget .toggle-box .blue.sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
+.widget .toggle-box .sc-button.small{margin-bottom:1em}
+.widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
+.widget .sc-button.small{;margin:.2em .4em .5em 0;padding:.3em .6em;font-weight:400!important}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
 .buttons,.buttons-download{clear:both;margin:0 0 2em;text-align:center}
+a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
 #text-4 h3{margin:0 0 1em;font-size:1.15em}
 #text-4 h3 a{display:block}
