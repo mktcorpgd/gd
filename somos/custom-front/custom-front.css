@@ -448,41 +448,29 @@ input.static_gmap+a{position:relative;margin-top:-11px;border:1px solid #CCCCCC;
 input.static_gmap a:hover{border-color:#F0582B}
 
 /* Sidebar */
-.sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
+.sidebar .widget{margin-bottom:1em;padding:0 1em 1em;line-height:1.3;border-radius:12px}
+#text-7 .widget{text-align:center}
 .widget li,.birthday_date,.birthday_name{font-family:'Neo-Sans',sans-serif;color:#333333;line-height:1.5;cursor:inherit}
+.widget h4{margin-bottom:10px;font-size:1.3em;color:#0E316E;text-align:center}
+.widget h4>i{font-size:2.6em}
+.widget h4>span{display:inline-block;padding-left:10px;width:70%;text-align:left}
 .widget p{margin:0 0 .2em;line-height:1.25;clear:both}
 .widget strong{font-weight:500}
+.widget p a .fa{display:inline-block;padding-right:.3em}
+.widget li{padding:.4em;border-bottom:1px solid #DDDDDD}
 .widget li strong a{font-weight:400}
-.widget .widgettitle{margin:0 0 .7em;padding:.4em 1em .4em 0;font-size:1.1em}
-.widget .widgettitle,.sc-divider,.author-info,.separate>div,.joint>div{border-width:2px;border-color:#EAEAEA!important}
-.widget .widgettitle a{color:#888888;position:absolute;top:.4em;right:15px}
-.widget .widgettitle a:hover{transform:scale(1.15);color:#F0582B}
-.widget .widgettitle a i{display:inline-block;font-family:'Font Awesome 6 Pro';font-size:1em;line-height:1;font-weight:bold;font-style:normal}
-.textwidget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;margin-top:-10px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
+.widget li:last-child{border-bottom:none}
 ul#lcp_instance_0.busquedas {border:none!important}
-.textwidget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
-.bdays_upcom{margin-top:.4em;position:relative;border-top:2px solid #CCCCCC}
-.widget .activa li i{border-bottom: 1px solid #DDDDDD;padding-bottom: 10px}
-.widget_text h4{margin-bottom:10px;font-size:1.3em;color:#0E316E;text-align:center}
-.widget_text h4>i{font-size:2.6em}
-.widget_text h4>span{display:inline-block;padding-left:10px;width:70%;text-align:left}
+.widget .widgettitle{margin:0 0 .7em;padding:.4em 1em .4em 0;font-size:1.1em;border:2px solid #EAEAEA}
+.widget .widgettitle a{color:#888888;position:absolute;top:.4em;right:15px}
+.widget .widgettitle a:hover{transform:scale(1.15);color:#F0582B;opacity:1}
+.widget .widgettitle a i{display:inline-block;font-family:'Font Awesome 6 Pro';font-size:1em;line-height:1;font-weight:bold;font-style:normal}
+.widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{max-height:165px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
+.widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
+.widget .bdays_upcom{margin-top:.4em;position:relative;border-top:2px solid #CCCCCC}
 .mfp-content .widget .widgettitle{margin-top:0!important;padding-top:0!important;font-size:1.2em!important}
 .mfp-content .widget_text h4{margin-top:20px!important}
 .mfp-content .widget_text h4>span{display:block;width:100%;margin:.25em 0;padding:0;text-align:center}
-.widget p a .fa{display:inline-block;padding-right:.3em}
-.widget{line-height:1.3}
-.widget h6{margin-top:0}
-#text-7 .widget{text-align:center}
-.widget .widgettitle a:hover{opacity:1}
-.widget .avatar,.widget .author{display:inline-block}
-.widget li:not(.ui-tabs-tab):not(.birthday_name){margin-bottom:5px;line-height:1.4}
-.widget li:not(.ui-tabs-tab):not(.birthday_name):first-child{margin: top 5px}
-.widget li:not(.ui-tabs-tab):not(.birthday_name):last-child{margin-bottom:0}
-.widget li:last-child{margin-bottom:0}
-.widget .sociales li{margin-bottom:0;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #DDDDDD}
-.widget .sociales li:last-child{border-bottom:none}
-.widget .activas li{margin-bottom:0;padding-right:5px;padding-bottom:5px;border-bottom:1px solid #DDDDDD}
-.widget .activas li:last-child{border-bottom:none}
 
 /* Cumpleaños */
 .birthdays-widget .birthday_list{margin-top:10px}
