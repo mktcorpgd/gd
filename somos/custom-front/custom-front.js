@@ -523,21 +523,21 @@ jQuery(document).ready(function() {
 			var places = [];
 			var place;
 			var options_world = {};
-			var options_ar = {
-				componentRestrictions:{country:['ar']}
-			};
 			var options_cities = {
 				types: ['(cities)'],
 			};
+			var options_arg = {
+				componentRestrictions:{country:['ar']}
+			};
 			for (var i = 0; i<input.length; i++) {
-				if ( input[i].className.indexOf('world') > -1 ) {
-					place = new google.maps.places.Autocomplete(input[i],options_world);
-				}
-				else if ( input[i].className.indexOf('cities') > -1 ) {
+				if ( input[i].className.indexOf('cities') > -1 ) {
 					place = new google.maps.places.Autocomplete(input[i],options_cities);
 				}
+				else if ( input[i].className.indexOf('arg') > -1 ) {
+					place = new google.maps.places.Autocomplete(input[i],options_arg);
+				}
 				else {
-					place = new google.maps.places.Autocomplete(input[i],options_ar);
+					place = new google.maps.places.Autocomplete(input[i],options_world);
 				}
 				place.attrName = input[i].name;
 				place.addListener('place_changed',fillInStaticGMap);
