@@ -624,22 +624,23 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content .jOrgChart table td:not(.line){border:none!important}
 
 /* Búsquedas */
-#content [class*='busquedas'] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
+/*#content [class*='busquedas'] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
 #content [class*='activa'] table td:first-child,#content [class*='finalizada'] table td:first-child{padding-bottom:10px!important;line-height:1.2;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;font-family:'Neo-Sans',sans-serif;font-weight:400}
-#content [class*='activa'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='activa']{background-color:#0E316E!important;color:#FFFFFF!important}
-#content [class*='finalizada'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='finalizada']{background-color:#888888!important;color:#FFFFFF!important}
 #content [class*='busquedas'] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.2)!important;border-bottom-left-radius:12px}
 #content [class*='busquedas'] table tr:last-child td:last-child{border-bottom-right-radius:12px}
 #content [class*='busquedas'] table tr:first-child td:first-child{border-top-left-radius:12px!important}
 #content [class*='busquedas'] table tr:first-child td:last-child {border-top-right-radius:12px!important}
 .button-busquedas{display:inline-block;text-align:center;font-size:1.3em;margin:0 auto;background:#0E316E!important;color:#FFFFFF}
 .button-busquedas a{color:#FFFFFF!important}
-body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/']{float:left}
-body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/finalizada/']{color:#999999}
 #content [class*='busquedas'] .buttons>.info{margin-bottom:.5em}
 #content [class*='busquedas'] .buttons>.info em{font-size:.8em}
 #content [class*='busquedas'] .buttons>.sc-button~a{font-size:.9em;line-height:2}
 #content [class*='busquedas'] table td{font-size:.85em}
+*/
+#content [class*='activa'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='activa']{background-color:#0E316E;color:#FFFFFF}
+#content [class*='finalizada'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='finalizada']{background-color:#888888;color:#FFFFFF}
+body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/']{float:left}
+body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/finalizada/']{color:#999999}
 
 /* Casos */
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
@@ -723,7 +724,7 @@ section[class*=category-casos-de-] .gp-meta-date{padding-right:10px}
 .buttons,.buttons-download{clear:both;margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
-#text-4 h3{margin:0 0 1em;font-size:1.15em}
+#text-4 h3{margin:0 0 .8em;font-size:1.15em}
 #text-4 h3 a{display:block}
 
 /* Tarjeta digital */
@@ -853,12 +854,9 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
 
 /* Footer */
-#footer{background:#F0F0ED!important;margin-top:0!important;padding:0}
-#footer-widgets .widget{background:none!important;margin:20px 0 0}
-#copyright{padding-top:0;color:#777777}
 .bottom_logos{padding:0 1em 2em;font-family:'Neo-Sans',sans-serif;color:#555555;font-size:1.2em;line-height:1.5}
-.bottom_logos a{color:#555555;display:inline-block;margin:.4em 0 0;font-size:.9em}
-.bottom_logos a:hover{color:#1F4483}
+.bottom_logos a{color:#555555;display:inline-block;margin:.4em 0 0;font-size:1em}
+.bottom_logos a:hover{color:#1F4483;text-decoration:none}
 
 /* Desktop */
 @media (min-width:960px) {
