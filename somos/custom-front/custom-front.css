@@ -150,7 +150,7 @@ body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{
 .gp-meta-cats{font-size:0}
 body.archive .gp-meta-cats{width:100%}
 body.single article.category-beneficios .gp-meta-cats{padding-left:0;border-left:none}
-body.page h1+.gp-post-meta,body.single .gp-entry-meta{margin:0 0 1rem;width:100%}
+body.page h1+.gp-post-meta,body.single .gp-entry-meta{width:100%}
 body.page h1+.gp-post-meta{text-align:center}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 0 .5rem;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .gp-blog-wrapper section .gp-meta-cats a{line-height:1.25;font-weight:400}
@@ -172,7 +172,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,article.event .e
 article.event .entry-header+.entry-content .eo-event-meta>li:first-child a[rel='tag']{margin-left:0}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
 .gp-meta-cats a{color:#0E316E}
-h1+.gp-meta-cats a{border-color:#0E316E}
+h1+.gp-meta-cats a{margin-bottom:1em;border-color:#0E316E}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a+a[href$='/novedades/argentina/']+a,h1+.gp-meta-cats a+a[href$='/novedades/argentina/']+a,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href$='/casos-de-exito/']+a,h1+.gp-meta-cats a[href$='/casos-de-exito/']+a{margin-left:3px}
 .gp-meta-cats a[href*='/datco']{color:#1C8DCE}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco'],h1+.gp-meta-cats a[href*='/datco']{border-color:#1C8DCE}
@@ -228,6 +228,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content ul ul ul{list-style-type:square}
 #content li.blocks-gallery-item{margin-left:0;margin-bottom:20px}
 #post-content{float:left;margin-top:1em;margin-bottom:2em;overflow:visible}
+body.page h1+.gp-post-meta+#post-content{margin-top:0}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px}
 #post-content>h2{margin-top:0}
 body:not(.home) .padder{background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
