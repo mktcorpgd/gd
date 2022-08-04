@@ -63,7 +63,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 p:not(.gp-comment-meta) strong{font-weight:700}
 section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button{transition:all .2s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
-body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll;letter-spacing:-.005em}
+body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
 h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:#333333;line-height:125%}
@@ -632,11 +632,11 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content [class*='busquedas'] table tr:first-child td:last-child {border-top-right-radius:12px!important}
 .button-busquedas{display:inline-block;text-align:center;font-size:1.3em;margin:0 auto;background:#0E316E!important;color:#FFFFFF}
 .button-busquedas a{color:#FFFFFF!important}
+#content [class*='busquedas'] table td{font-size:.85em}
+#content [class*='busquedas'] .buttons>.sc-button~a{font-size:.9em;line-height:2}
+*/
 #content [class*='busquedas'] .buttons>.info{margin-bottom:.5em}
 #content [class*='busquedas'] .buttons>.info em{font-size:.8em}
-#content [class*='busquedas'] .buttons>.sc-button~a{font-size:.9em;line-height:2}
-#content [class*='busquedas'] table td{font-size:.85em}
-*/
 #content [class*='activa'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='activa']{background-color:#0E316E;color:#FFFFFF}
 #content [class*='finalizada'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='finalizada']{background-color:#888888;color:#FFFFFF}
 body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/']{float:left}
