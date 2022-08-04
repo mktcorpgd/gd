@@ -299,19 +299,19 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Convertir a mayúsculas
-	jQuery('input[name*=ORG]').on('input',function(e) {
+	jQuery('input[name*=ORG],.uppercase').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toUpperCase());
 	});
 
 
 	// FORMULARIOS - Convertir a minúsculas
-	jQuery('input[name*=EMAIL],input[name=RESPBOSSEMAIL]').on('input',function(e) {
+	jQuery('input[name*=EMAIL],input[name=RESPBOSSEMAIL],.lowercase').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toLowerCase());
 	});
 
 
 	// FORMULARIOS - Convertir a letras capitales
-	jQuery('input[name*=FNAME],input[name*=LNAME]').on('input',function (e) {
+	jQuery('input[name*=FNAME],input[name*=LNAME],.capitalize').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
 	
