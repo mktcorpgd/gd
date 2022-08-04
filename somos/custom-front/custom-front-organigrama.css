@@ -30,7 +30,7 @@ body.fullwidth .dragscroll .orgChart .jOrgChart{padding:5em}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll{max-height:300px}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll .orgChart{max-height:250px}
 body:not(.fullwidth) .dragscroll .orgChart{transform:translateY(-100px)}
-.zoom-org{margin:0 -32px;padding:0;background:#FAFAFA;border:2px solid #F0582B;border-bottom:none;border-top-left-radius:12px;border-top-right-radius:12px;text-align:center;z-index:10;pointer-events:none}
+.zoom-org{padding:0;background:#FAFAFA;border:2px solid #F0582B;border-bottom:none;border-top-left-radius:12px;border-top-right-radius:12px;text-align:center;z-index:10;pointer-events:none}
 #content .zoom-org .buttons{display:grid;grid-template-columns:33.33% 33.33% 33.33%;border-bottom-left-radius:12px;border-bottom-right-radius:12px;overflow:hidden}
 body.fullwidth #content .zoom-org .buttons{margin:0 20%!important}
 body:not(.fullwidth) #content .zoom-org .buttons{margin:0 5%!important}

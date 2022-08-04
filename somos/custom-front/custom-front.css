@@ -154,7 +154,7 @@ body.single article.category-beneficios .gp-meta-cats{padding-left:0;border-left
 body.page h1+.gp-post-meta,body.single .gp-entry-meta{width:100%}
 body.page h1+.gp-post-meta{text-align:center}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 0 .5rem;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
-.gp-blog-wrapper section .gp-meta-cats a{line-height:1.25;font-weight:400}
+.gp-blog-wrapper section .gp-meta-cats a{font-weight:400}
 .gp-meta-cats a:hover,article .eo-event-meta>li a[rel='tag']:hover{color:#F0582B!important}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;font-weight:400}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){color:#666666;text-decoration:none;pointer-events:none}
