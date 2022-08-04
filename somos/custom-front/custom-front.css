@@ -429,11 +429,11 @@ input.static_gmap a:hover{border-color:#F0582B}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 
 /* Cumpleaños */
-.birthday_name,.birthday_wish,.birthday_error{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;color:#0E316E;font-style:normal;font-weight:500}
+.birthday_name,.birthday_wish,.birthday_error{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;color:#0E316E;font-style:normal}
 .birthday_name{margin:0}
-.birthday_wish,.birthday_error{margin:1em 0 .5em;transform:rotate(-1deg)}
+.birthday_wish,.birthday_error{transform:rotate(-1deg);margin:1em 0 .5em;font-weight:500}
 .birthday_wish{margin:.5em -2em;background:#0E316E;color:#FFFFFF;font-size:1.5em}
-.birthday_wish+.birthday_list .birthday_name{font-size:1.4em;text-align:center}
+.bdays_today .birthday_list .birthday_name{font-size:1.4em;text-align:center}
 .birthday_error{margin:1em 0 .5em;font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
 .birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:#888888}
