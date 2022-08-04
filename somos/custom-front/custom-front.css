@@ -155,7 +155,7 @@ body.page h1+.gp-post-meta,body.single .gp-entry-meta{width:100%}
 body.page h1+.gp-post-meta{text-align:center}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 0 .5rem;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
 .gp-blog-wrapper section .gp-meta-cats a{font-weight:400}
-.gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;font-weight:400}
+.gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;font-size:.8rem;font-weight:400}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none}
 .eo-event-date{margin:.2em 0;font-family:'Neo-Sans',sans-serif;font-weight:500}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-patrocinamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{color:#FFFFFF!important}
@@ -271,8 +271,6 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section h2 a:hover{text-decoration:none!important}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail{padding-top:.5em}
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{padding:.2em .8em .8em;display:grid}
-article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
-article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 .columns{margin-bottom:.5em;line-height:1.2}
 .columns.one.aligncenter{margin-top:0}
 
@@ -401,8 +399,8 @@ label[for='TIPCASO']+em{position:relative;top:-5px;font-size:80%}
 .pac-item-query,.pac-item-query+span{float:left;line-height:1.5}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
 input.static_gmap{border-bottom-left-radius:0!important;border-bottom-right-radius:0!important}
-input.static_gmap+a{position:relative;margin-top:-11px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-input.static_gmap a:hover{border-color:#F0582B}
+input.static_gmap+a{display:block;position:relative;margin-top:-11px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
+input.static_gmap+a:hover{border-color:#F0582B}
 
 /* Sidebar */
 .sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
@@ -623,23 +621,14 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content .jOrgChart table td:not(.line){border:none!important}
 
 /* Búsquedas */
-/*#content [class*='busquedas'] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
-#content [class*='activa'] table td:first-child,#content [class*='finalizada'] table td:first-child{padding-bottom:10px!important;line-height:1.2;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;font-family:'Neo-Sans',sans-serif;font-weight:400}
-#content [class*='busquedas'] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.2)!important;border-bottom-left-radius:12px}
-#content [class*='busquedas'] table tr:last-child td:last-child{border-bottom-right-radius:12px}
-#content [class*='busquedas'] table tr:first-child td:first-child{border-top-left-radius:12px!important}
-#content [class*='busquedas'] table tr:first-child td:last-child {border-top-right-radius:12px!important}
-.button-busquedas{display:inline-block;text-align:center;font-size:1.3em;margin:0 auto;background:#0E316E!important;color:#FFFFFF}
-.button-busquedas a{color:#FFFFFF!important}
-#content [class*='busquedas'] table td{font-size:.85em}
-#content [class*='busquedas'] .buttons>.sc-button~a{font-size:.9em;line-height:2}
-*/
 #content [class*='busquedas'] .buttons>.info{margin:1em 0}
 #content [class*='busquedas'] .buttons>.info .sc-button{margin-bottom:.5em}
 #content [class*='activa'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='activa']{background-color:#0E316E;color:#FFFFFF}
 #content [class*='finalizada'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='finalizada']{background-color:#888888;color:#FFFFFF}
 body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/']{float:left}
 body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/finalizada/']{color:#999999}
+article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
+article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
 /* Casos */
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
@@ -651,24 +640,9 @@ body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborale
 #content .category-casos-un-silica-comunicaciones table td:first-child,#content .category-casos-un-silica-infraestructura table td:first-child{background:#87B217}
 #content .category-casos-un-velocom table td:first-child{background:#AE1A57}
 #content .category-casos-un-iop table td:first-child,#content .category-casos-un-iot table td:first-child{background:#0E316E}
-#content [class*=category-casos-de-] table tr:first-child td:first-child{border-top:1px solid rgba(0,0,0,.2)!important}
-#content [class*=category-casos-de-] table td:first-child{padding-bottom:10px!important;line-height:1;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-weight:400}
-#content [class*=category-casos-de-] table td:first-child strong{font-weight:500!important}
-#content [class*=category-casos-de-] table tr:first-child td:first-child{border-top-left-radius:12px}
-#content [class*=category-casos-de-] table tr:first-child td:last-child{border-top-right-radius:12px}
-#content [class*=category-casos-de-] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.2)!important;border-bottom-left-radius:12px}
-#content [class*=category-casos-de-] table tr:last-child td:last-child{border-bottom-right-radius:12px}
-article[class*=category-casos-de-] .gp-meta-date,section[class*=category-casos-de-] .gp-meta-date{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-style:normal;font-weight:400}
-article[class*=category-casos-de-] .gp-meta-date{font-size:1.4em;position:relative;top:4px}
 
 /* Uso interno */
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,body.page-id-29106 #content:before,body.page-id-29106 #content:after,body.page-id-26272 #content:before,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno';display:block;width:100%;background:#0E316E;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
-
-body.page-id-29106 #content .post-thumbnail.single-thumbnail{border-top-left-radius:0!important;border-top-right-radius:0!important}
-#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{font-size:.8em;border-radius:0!important}
-.white-popup{margin:20px auto;width:auto;max-width:570px;padding:20px;position:relative;background:#FFFFFF;border-radius:12px}
-body.archive article[class*=category-casos-de-] .gp-meta-date,body.archive section[class*=category-casos-de-] .gp-meta-date,body.search article[class*=category-casos-de-] .gp-meta-date,body.search section[class*=category-casos-de-] .gp-meta-date{margin:.2em 0}
-section[class*=category-casos-de-] .gp-meta-date{padding-right:10px}
 
 /* Pestañas */
 .ui-widget-content{float:left;padding:0;top:0;background:none;border:none!important;overflow:visible}
