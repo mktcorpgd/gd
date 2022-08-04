@@ -590,9 +590,10 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content table td:not(.line){border-top:1px solid rgba(0,0,0,.2);border-left:none}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
 #content table tbody tr{background:none}
+#content table tbody td strong{font-weight:400}
 #content table th,#content table td{line-height:1.5}
 #content table th{border-top:1px solid rgba(0,0,0,.2);border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
-#content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'Neo-Sans',sans-serif}
+#content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child,.padder.category-casos-de-referencia .wpcf7 table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'Neo-Sans',sans-serif}
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
 #content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:#1C8DCE}
 #content .category-casos-un-focus table td:first-child{background:#39457E}
@@ -600,10 +601,8 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content .category-casos-un-sersat table td:first-child{background:#109B84}
 #content .category-casos-un-silica-comunicaciones table td:first-child,#content .category-casos-un-silica-infraestructura table td:first-child{background:#87B217}
 #content .category-casos-un-velocom table td:first-child{background:#AE1A57}
-#content table td:not(:first-child)>strong{font-size:1.1em}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
-#content table tbody td strong{font-weight:400}
 #content table thead+tbody tr:first-child td{border-top:none}
 #content table th:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:first-child{border-top-left-radius:12px}
