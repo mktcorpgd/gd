@@ -587,7 +587,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 
 /* Tablas */
 .wp-block-table{overflow:hidden}
-#content table td:not(.line){border:1px solid rgba(0,0,0,.2);border-left:none}
+#content table td:not(.line){border-top:1px solid rgba(0,0,0,.2);border-left:none}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
 #content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
@@ -603,7 +603,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content table td:not(:first-child)>strong{font-size:1.1em}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
-#content table tbody td strong,.weight600 .wpcf7-list-item-label{font-weight:600}
+#content table tbody td strong{font-weight:400}
 #content table thead+tbody tr:first-child td{border-top:none}
 #content table th:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:first-child{border-top-left-radius:12px}
