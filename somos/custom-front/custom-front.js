@@ -550,7 +550,7 @@ jQuery(document).ready(function() {
 					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=250x150&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 					var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
 					jQuery('input[name='+input_name+'].static_gmap').addClass('filled');
-					if ( jQuery('input[name='+input_name+'].static_gmap a').length ) {
+					if ( jQuery('input[name='+input_name+'].static_gmap+a').length ) {
 						jQuery('.'+input_name+'.static_gmap a').replaceWith(html_map);	
 					}
 					else { 
