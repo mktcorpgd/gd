@@ -172,8 +172,6 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single arti
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,article.event .entry-header+.entry-content .eo-event-meta>li a[rel='tag']{margin-left:.4em;margin-right:.4em}
 article.event .entry-header+.entry-content .eo-event-meta>li:first-child a[rel='tag']{margin-left:0}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
-.gp-meta-cats a{color:#0E316E}
-h1+.gp-meta-cats a{margin-bottom:1em;border-color:#0E316E}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a+a[href$='/novedades/argentina/']+a,h1+.gp-meta-cats a+a[href$='/novedades/argentina/']+a,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href$='/casos-de-exito/']+a,h1+.gp-meta-cats a[href$='/casos-de-exito/']+a{margin-left:3px}
 .gp-meta-cats a[href*='/datco']{color:#1C8DCE}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco'],h1+.gp-meta-cats a[href*='/datco']{border-color:#1C8DCE}
@@ -252,8 +250,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .8em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .gp-blog-wrapper article.event ul{margin-bottom:0}
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
-.gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block;color:#0E316E}
-.gp-blog-wrapper section:hover h2 a,.gp-blog-wrapper article.event:hover h2 a{color:#F0582B;text-decoration:underline}
+.gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em;clear:both}
 .post-thumbnail.wrap{float:none;width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
@@ -435,8 +432,6 @@ input.static_gmap a:hover{border-color:#F0582B}
 .birthday_wish,.birthday_error{transform:rotate(-1deg);margin:1em 0 .5em;font-weight:500}
 .birthday_wish{margin:.5em -2em;background:#0E316E;color:#FFFFFF;font-size:1.5em}
 .bdays_today .birthday_list .birthday_name{margin:0;padding:0;font-size:1.2em;font-weight:500;text-align:center;border:none}
-.bdays_today .birthday_list .birthday_name a{color:#0E316E}
-.bdays_today .birthday_list .birthday_name a:hover{color:#F0582B}
 .birthday_error{margin:1em 0 .5em;font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
 .birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:#888888}
@@ -445,8 +440,6 @@ input.static_gmap a:hover{border-color:#F0582B}
 /* Colapsables */
 h3.toggle{position:relative;font-size:1.2em;line-height:1.6}
 h3.toggle a{display:table-cell;padding-left:5px}
-h3.toggle a{color:#0E316E}
-h3.toggle:hover a{color:#F0582B;text-decoration:underline}
 h3.toggle i{display:table-cell;font-size:.9em;text-align:center}
 h3.toggle .fa-plus-square:before{content:'\f067'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
@@ -460,7 +453,6 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B
 .widget .toggle-box{margin:0}
 .widget .toggle-box ul:not(.ui-tabs-nav) li{margin:0}
 .widget .toggle-box ul:not(.ui-tabs-nav) li a{color:#333333}
-.widget .toggle-box ul:not(.ui-tabs-nav) li a:hover{color:#F0582B}
 .widget .toggle-box ul:not(.ui-tabs-nav) li .fab{min-width:20px;text-align:center}
 #custom_html-11,#custom_html-24{padding-top:.8em}
 #custom_html-24>div>h3{margin-bottom:0;font-weight:500}
