@@ -252,7 +252,6 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .post-thumbnail.wrap{float:none;width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper section .gp-loop-meta{float:left;margin:.2em 0;position:relative;color:#666666;font-size:.75rem;line-height:1.25;clear:both}
-.gp-blog-wrapper section .gp-loop-meta .gp-meta-cats{margin-bottom:0}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 6px 18px 0 rgba(0,0,0,.2);transform:translateY(-2px)}
@@ -299,7 +298,6 @@ article .nav-posts select{width:auto}
 article.category-salesforce h3.toggle{display:block;padding:.4em}
 
 /* Formularios */
-[data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add{float:left;width:100%}
 .wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7-form-control.wpcf7-checkbox,.wpcf7-form-control.wpcf7-checkbox{position:relative;top:1px}
@@ -594,16 +592,19 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
 #content table th{border-top:1px solid rgba(0,0,0,.2);border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
-#content article[class*='category-casos-'] table th,#content article[class*='category-casos-'] table td>strong,#content article[class*='busquedas-'] table th,#content article[class*='busquedas-'] table td>strong{font-family:'Neo-Sans',sans-serif}
-#content article[class*='category-casos-'] table td:first-child>strong,#content article[class*='busquedas-'] table td:first-child>strong{font-size:.8em;font-weight:400;text-transform:uppercase}
+#content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'Neo-Sans',sans-serif}
+#content .category-casos-un-baitcon table td:first-child{background:#89388D}
+#content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:#1C8DCE}
+#content .category-casos-un-focus table td:first-child{background:#39457E}
+#content .category-casos-un-interservices table td:first-child{background:#BF250D}
+#content .category-casos-un-sersat table td:first-child{background:#109B84}
+#content .category-casos-un-silica-comunicaciones table td:first-child,#content .category-casos-un-silica-infraestructura table td:first-child{background:#87B217}
+#content .category-casos-un-velocom table td:first-child{background:#AE1A57}
 #content table td:not(:first-child)>strong{font-size:1.1em}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
 #content table tbody td strong,.weight600 .wpcf7-list-item-label{font-weight:600}
-#content table td:not(.node-container):not(.node-cell):not([class^='line']):first-child{border-left:1px solid #CCCCCC}
-#content table tr:first-child td{border-top:1px solid #CCCCCC}
 #content table thead+tbody tr:first-child td{border-top:none}
-#content table tr:last-child td{border-bottom:1px solid #CCCCCC}
 #content table th:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:last-child{border-top-right-radius:12px}
@@ -629,17 +630,6 @@ body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborale
 body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/finalizada/']{color:#999999}
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
-
-/* Casos */
-#content .category-casos-un-baitcon table td:first-child{background:#89388D}
-#content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:#1C8DCE}
-#content .category-casos-un-focus table td:first-child{background:#39457E}
-#content .category-casos-un-interservices table td:first-child{background:#BF250D}
-#content .category-casos-de-referencia table td:first-child,#content .category-casos-de-exito table td:first-child,#content .category-casos-un-iop table td:first-child,#content .category-casos-un-iot table td:first-child{background:#0E316E}
-#content .category-casos-un-sersat table td:first-child{background:#109B84}
-#content .category-casos-un-silica-comunicaciones table td:first-child,#content .category-casos-un-silica-infraestructura table td:first-child{background:#87B217}
-#content .category-casos-un-velocom table td:first-child{background:#AE1A57}
-#content .category-casos-un-iop table td:first-child,#content .category-casos-un-iot table td:first-child{background:#0E316E}
 
 /* Uso interno */
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,body.page-id-29106 #content:before,body.page-id-29106 #content:after,body.page-id-26272 #content:before,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno';display:block;width:100%;background:#0E316E;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
