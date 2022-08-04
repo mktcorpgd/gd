@@ -716,7 +716,7 @@ section[class*=category-casos-de-] .gp-meta-date{padding-right:10px}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em;line-height:1.2}
-.sc-button.small{margin:.5em;font-size:.9em;border-radius:6px!important}
+.sc-button.small{margin:.4em;font-size:.9em;border-radius:6px!important}
 .sc-button.medium{font-size:1.05em}
 .sc-button.large{font-size:1.2em}
 .sc-button.xlarge{margin-bottom:1em;font-size:1.3em}
