@@ -110,7 +110,7 @@ body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{
 .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
 
 /* Admin */
-#wpadminbar{position:fixed;top:0;border-bottom:1px solid rgba(0,0,0,.1);z-index:999999}
+#wpadminbar{position:fixed;top:0;border-bottom:1px solid rgba(0,0,0,.2);z-index:999999}
 #wpadminbar .ab-icon{font-family:'dashicons'}
 #wpadminbar,#wpadminbar .shortlink-input,#wpadminbar .menupop .ab-sub-wrapper{background:#0E316E!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 16px 16px -10px rgba(0,0,0,.4)!important}
@@ -131,6 +131,7 @@ body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{
 #nav{float:left}
 #nav .menu{margin:0}
 #nav .menu li{border-radius:6px}
+#nav .menu li.separator{margin-left:.5em;padding-left:.5em;border-left:2px solid rgba(0,0,0,.2)}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu li a{display:block;padding:.4em .5em}
 #nav .menu li a:hover,#mobile-nav .menu li>a:hover{background:rgba(0,0,0,.3)}
@@ -247,7 +248,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper[class*='gp-blog-columns'] section{width:100%}
 .gp-blog-wrapper section{margin-bottom:0}
-.gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .5em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.1);overflow:hidden}
+.gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .5em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .gp-blog-wrapper article.event ul{margin-bottom:0}
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block;color:#0E316E}
@@ -523,7 +524,7 @@ body.single #content p:last-child{padding-bottom:10px}
 #UseyourDrive .hasfocus:not(.no-entries),#UseyourDrive .isdragged,#UseyourDrive .isselected,#UseyourDrive .popupopen{transform:scale(1)}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
 #UseyourDrive .tippy-content .nav-sorting-list a:after,#UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
-#UseyourDrive .entry,#UseyourDrive .image-container{box-shadow:0 2px 6px rgba(0,0,0,.1)}
+#UseyourDrive .entry,#UseyourDrive .image-container{box-shadow:0 2px 6px rgba(0,0,0,.2)}
 #UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 2px 6px 0 #F0582B;transform:translateY(-1px)}
 #UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0!important}
 #UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF!important;text-decoration:none!important}
@@ -600,7 +601,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 
 /* Tablas */
 .wp-block-table{overflow:hidden}
-#content table td{border-top:none;border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2)}
+#content table td{border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2)}
 #content table{margin-bottom:0;padding:0;border-collapse:separate}
 #content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
@@ -636,7 +637,7 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content [class*='activa'] table td:first-child,#content [class*='finalizada'] table td:first-child{padding-bottom:10px!important;line-height:1.2;border-right:1px solid rgba(0,0,0,.2)!important;border-left:2px solid rgba(0,0,0,.2)!important;font-family:'Neo-Sans',sans-serif;font-weight:400}
 #content [class*='activa'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='activa']{background-color:#0E316E!important;color:#FFFFFF!important}
 #content [class*='finalizada'] table td:first-child,h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='finalizada']{background-color:#888888!important;color:#FFFFFF!important}
-#content [class*='busquedas'] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.1)!important;border-bottom-left-radius:12px}
+#content [class*='busquedas'] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.2)!important;border-bottom-left-radius:12px}
 #content [class*='busquedas'] table tr:last-child td:last-child{border-bottom-right-radius:12px}
 #content [class*='busquedas'] table tr:first-child td:first-child{border-top-left-radius:12px!important}
 #content [class*='busquedas'] table tr:first-child td:last-child {border-top-right-radius:12px!important}
@@ -664,7 +665,7 @@ body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborale
 #content [class*=category-casos-de-] table td:first-child strong{font-weight:500!important}
 #content [class*=category-casos-de-] table tr:first-child td:first-child{border-top-left-radius:12px}
 #content [class*=category-casos-de-] table tr:first-child td:last-child{border-top-right-radius:12px}
-#content [class*=category-casos-de-] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.1)!important;border-bottom-left-radius:12px}
+#content [class*=category-casos-de-] table tr:last-child td:first-child{border-bottom:1px solid rgba(0,0,0,.2)!important;border-bottom-left-radius:12px}
 #content [class*=category-casos-de-] table tr:last-child td:last-child{border-bottom-right-radius:12px}
 article[class*=category-casos-de-] .gp-meta-date,section[class*=category-casos-de-] .gp-meta-date{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-style:normal;font-weight:400}
 article[class*=category-casos-de-] .gp-meta-date{font-size:1.4em;position:relative;top:4px}
@@ -684,7 +685,7 @@ section[class*=category-casos-de-] .gp-meta-date{padding-right:10px}
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:0}
 .ui-tabs .ui-tabs-nav li{margin-bottom:.5em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
-#post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.1);position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;text-decoration:none;background:#F6F6F6}
+#post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;text-decoration:none;background:#F6F6F6}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-right:none;border-top-right-radius:12px;border-bottom-right-radius:6px}
@@ -783,7 +784,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 #wp-calendar tbody td.event a{border-radius:32px;color:#FFFFFF;display:block}
 #wp-calendar tbody td.today:not(.event){box-shadow:inset 0 0 0 1px #F0582B}
 #wp-calendar tbody td.today a{box-shadow:inset 0 0 0 1px #F0582B}
-#wp-calendar tbody td.event a:hover,#wp-calendar tbody td.today a:hover{box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
+#wp-calendar tbody td.event a:hover,#wp-calendar tbody td.today a:hover{box-shadow:inset 0 0 0 32px rgba(0,0,0,.2)}
 #wp-calendar tfoot{position:absolute;top:-2px;width:100%}
 #wp-calendar tfoot td{padding:0;font-weight:400;position:absolute}
 #wp-calendar tfoot td a{color:#888888;font-family:'Neo-Sans',sans-serif;font-size:.9em}
@@ -803,7 +804,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
 .eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
 .eo_widget_calendar .widget_ref a{padding:.15em .5em;color:#FFFFFF;font-size:.8em}
-.eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.1)}
+.eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.2)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
 .eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
 .eo_widget_calendar .widget_ref a.propios,#wp-calendar tbody td.eo-event-cat-propios a{background:#0E316E}
@@ -843,7 +844,7 @@ notification_image img{background:#0E316E} */
 /* Imágenes */
 #content figure.no-borders img{border:none}
 img.mfp-img{max-height:90vh}
-body.single #post-content img,.gallery-item img,.wp-block-image img{border:1px solid rgba(0,0,0,.1);border-radius:12px}
+body.single #post-content img,.gallery-item img,.wp-block-image img{border:1px solid rgba(0,0,0,.2);border-radius:12px}
 .gallery-item{margin:0;padding:16px;box-sizing:border-box}
 .gallery-item img{width:100%}
 figcaption{text-align:left;padding:.4em .3em;background:rgba(0,0,0,.5);line-height:1.25;font-style:italic}
