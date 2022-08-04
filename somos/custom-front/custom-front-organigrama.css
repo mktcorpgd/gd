@@ -18,7 +18,7 @@
 .jOrgChart .downarrow.fa.active-child.fa-arrow-up{padding:5px 0!important;color:#F0582B}
 .jOrgChart table tr.child_box.level-even{box-shadow:none}
 div#chart,div.orgChart{margin:0;padding:0}
-.dragscroll{margin:0 -30px;padding:10px;max-height:100%;position:relative;background:#FAFAFA;border:4px solid #F0582B;border-top:none;overflow:scroll;cursor:grab}
+.dragscroll{padding:10px;max-height:100%;position:relative;background:#FAFAFA;border:2px solid #F0582B;border-top:none;border-bottom-left-radius:12px;border-bottom-right-radius:12px;overflow:scroll;cursor:grab}
 .dragscroll .orgChart{transition:all .2s ease-in-out}
 .dragscroll .orgChart .jOrgChart{transition:all .2s ease-in-out;transform:scale(.7)}
 body.fullwidth .dragscroll{padding:4em 0}
@@ -30,7 +30,7 @@ body.fullwidth .dragscroll .orgChart .jOrgChart{padding:5em}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll{max-height:300px}
 body:not(.fullwidth) #post-content:not(.fullscreen) .dragscroll .orgChart{max-height:250px}
 body:not(.fullwidth) .dragscroll .orgChart{transform:translateY(-100px)}
-.zoom-org{margin:0 -30px;padding:0;background:#FAFAFA;border:4px solid #F0582B;border-bottom:none;text-align:center;z-index:10;pointer-events:none}
+.zoom-org{margin:0 -32px;padding:0;background:#FAFAFA;border:2px solid #F0582B;border-bottom:none;border-top-left-radius:12px;border-top-right-radius:12px;text-align:center;z-index:10;pointer-events:none}
 #content .zoom-org .buttons{display:grid;grid-template-columns:33.33% 33.33% 33.33%;border-bottom-left-radius:12px;border-bottom-right-radius:12px;overflow:hidden}
 body.fullwidth #content .zoom-org .buttons{margin:0 20%!important}
 body:not(.fullwidth) #content .zoom-org .buttons{margin:0 5%!important}
