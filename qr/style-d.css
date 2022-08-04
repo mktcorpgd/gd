@@ -1,1 +1,24 @@
-
+body {
+  background-image: url('https://www.grupodatco.com/qr-bcard/img/datco-bkg_1920_1080.png?v=2022');
+}
+#contact-person {
+  background-image: url('https://www.grupodatco.com/qr-bcard/img/d-ima_h-blanco-es.svg');
+  background-size: 182px 48px;
+}
+#content.vcard-mail-sent .action-buttons>input {
+  border: 2px solid #1C8DCE;
+}
+#content p.hint {
+  background: #1C8DCE;
+}
+#contact-person+ul li:hover,
+#content .action-buttons a:hover,
+#footer .button.big:hover,
+.button.big.green:hover {
+  background: #115B82!important;
+  border-color: #115B82!important;
+}
+ul.qr-hint {
+  background-image: url('https://www.grupodatco.com/qr-bcard/img/d-iso-color.svg');
+  background-size: 48px 48px;
+}
