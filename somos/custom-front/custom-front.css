@@ -597,8 +597,8 @@ ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
 #content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
 #content table th{border-top:1px solid rgba(0,0,0,.2);border-right:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
-#content article[class*='category-casos-'] table th,#content article[class*='category-casos-'] table td>strong{font-family:'Neo-Sans',sans-serif}
-#content article[class*='category-casos-'] table td:first-child>strong{font-size:.8em;font-weight:400;text-transform:uppercase}
+#content article[class*='category-casos-'] table th,#content article[class*='category-casos-'] table td>strong,#content article[class*='busquedas-'] table th,#content article[class*='busquedas-'] table td>strong{font-family:'Neo-Sans',sans-serif}
+#content article[class*='category-casos-'] table td:first-child>strong,#content article[class*='busquedas-'] table td:first-child>strong{font-size:.8em;font-weight:400;text-transform:uppercase}
 #content table td:not(:first-child)>strong{font-size:1.1em}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
