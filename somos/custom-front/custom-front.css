@@ -54,8 +54,8 @@ body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a{display:none}
 
 /* General */
-::-moz-selection{background:#F0582B!important;color:#FFFFFF}
-::selection{background:#F0582B!important;color:#FFFFFF}
+::-moz-selection{background:#0E316E!important;color:#FFFFFF}
+::selection{background:#0E316E!important;color:#FFFFFF}
 input::-webkit-input-placeholder{line-height:normal!important}
 ::placeholder{color:#555555;opacity:1}
 :-ms-input-placeholder{color:#555555}
