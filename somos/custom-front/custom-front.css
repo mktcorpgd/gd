@@ -323,7 +323,7 @@ input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{b
 input[type='number'].inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:#1F4483}
 input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item-label{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-weight:500}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:#F0582B}
-.wpcf7 .highlight .wpcf7-list-item label:hover input span,.wpcf7 .highlight input:checked+span{color:#1F4483}
+.wpcf7 .highlight .wpcf7-list-item label:hover input+span,.wpcf7 .highlight input:checked+span{color:#1F4483}
 .wpcf7 input[type='number'][name*='CC']::-webkit-inner-spin-button,.wpcf7 input[type='number'][name*='CC']::-webkit-outer-spin-button,.wpcf7 input.money::-webkit-inner-spin-button,.wpcf7 input.money::-webkit-outer-spin-button{margin:0}
 .wpcf7 input.money{padding-left:24px!important}
 body form.sending{cursor:wait}
