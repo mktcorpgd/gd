@@ -285,10 +285,10 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 #comments .commentlist li .comment_container{clear:both}
 #comments .commentlist li .comment-text .meta{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-weight:400;font-size:18px}
 #comments .commentlist li [itemprop='author']:after{font-weight:normal;color:#CCCCCC}
-#comments .commentlist li .gp-comment-meta{margin-bottom:0;}
-#comments .commentlist li .gp-comment-meta time{font-family:'Open-Sans',sans-serif;font-size:.8em;color:#999999}
-#comments .commentlist li .gp-comment-meta strong{color:#0E316E;font-size:1em;line-height:1.5;font-weight:500;font-family:'Neo-Sans',sans-serif}
-#comments .commentlist li .gp-comment-content{margin-left:2em}
+#comments .commentlist li .gp-comment-meta{margin-bottom:0}
+#comments .commentlist li .gp-comment-meta strong{color:#0E316E;font-size:1em;font-weight:500;font-family:'Neo-Sans',sans-serif}
+#comments .commentlist li .gp-comment-meta time{color:#666666;font-size:.8em;font-weight:400}
+#comments .commentlist li .gp-comment-content{margin-left:1em}
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
 
 /* Salesforce */
