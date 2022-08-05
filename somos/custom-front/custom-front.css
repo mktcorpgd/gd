@@ -152,9 +152,10 @@ body.archive .gp-meta-cats{width:100%}
 body.single article.category-beneficios .gp-meta-cats{padding-left:0;border-left:none}
 body.page h1+.gp-post-meta,body.single .gp-entry-meta{width:100%}
 body.page h1+.gp-post-meta{text-align:center}
-.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 0 .5rem;white-space:nowrap;margin:0 1em 0 0;color:#F0582B;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
-.gp-blog-wrapper section .gp-meta-cats a{font-weight:400}
-.gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;font-size:.8rem;font-weight:400}
+.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 0 .5rem;white-space:nowrap;margin:0 1em 0 0;font-family:'Neo-Sans',sans-serif;font-size:.7rem;font-weight:500;line-height:1;text-decoration:none!important}
+.gp-blog-wrapper section .gp-meta-cats{margin-left:.4em}
+.gp-blog-wrapper section .gp-meta-cats a{font-family:'Open-Sans',sans-serif;font-weight:400}
+.gp-meta-date,.eo-event-date,.gp-meta-comments{margin:0;font-weight:400}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none}
 .eo-event-date{margin:.2em 0;font-family:'Neo-Sans',sans-serif;font-weight:500}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-patrocinamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{color:#FFFFFF!important}
@@ -245,12 +246,12 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section{margin-bottom:0}
 .gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .8em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .gp-blog-wrapper article.event ul{margin-bottom:0}
-.gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0;font-size:1.2em;line-height:1.15;font-weight:500}
+.gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .25em;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em;clear:both}
 .post-thumbnail.wrap{float:none;width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
-.gp-blog-wrapper section .gp-loop-meta{float:left;margin:.2em 0;position:relative;color:#666666;font-size:.75rem;line-height:1.25;clear:both}
+.gp-blog-wrapper section .gp-loop-meta{float:left;margin:0 0 .2em;color:#666666;font-size:.75rem;line-height:1.25}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 6px 18px 0 rgba(0,0,0,.2);transform:translateY(-2px)}
