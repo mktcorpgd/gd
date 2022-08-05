@@ -827,8 +827,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	li.only-mobile,#mobile-nav-button{display:none!important}
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-moz-appearance:textfield}
-	.is-search-form.is-form-id-26276 input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
-	.is-search-form.is-form-id-26276 input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
+	body>.is-search-form input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
+	body>.is-search-form.is-search-form input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail .post-text{border-left:2px solid #CCCCCC}
 	.sidebar{font-size:14px}
 	body.home .padder{padding:0}
