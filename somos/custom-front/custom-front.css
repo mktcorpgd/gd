@@ -11,7 +11,7 @@ body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-
 body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
 body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
-#search-3>h3,.is-screen-reader-text,.is-search-form.is-form-id-26276 button,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,#content .gp-search,.error404 .gp-search p,.error404 .gp-search>form>input.gp-search-submit,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
+#search-3>h3,.is-screen-reader-text,.is-search-form.is-form-id-26276 button,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,.error404 .gp-search p,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Drive */
@@ -223,8 +223,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content ul ul{margin-top:10px;list-style-type:circle}
 #content ul ul ul{list-style-type:square}
 #content li.blocks-gallery-item{margin-left:0;margin-bottom:20px}
-#post-content{float:left;margin-top:1em;margin-bottom:2em;line-height:1.3;overflow:visible}
-body.page h1+.gp-post-meta+#post-content{margin-top:0}
+#post-content{float:left;margin-bottom:2em;line-height:1.3;overflow:visible}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px}
 #post-content>h2{margin-top:0}
 body:not(.home) .padder{background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
@@ -462,7 +461,7 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #custom_html-24>div>h3>i:before{content:'\f00e'}
 
 /* Buscadores */
-body>.is-search-form{margin:3em auto 1em}
+body>.is-search-form{margin:52px auto 1em;width:95%}
 .is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF}
 .is-search-form.is-form-id-26276 input:focus{color:#FFFFFF}
 .is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;font-family:'Neo-Sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
