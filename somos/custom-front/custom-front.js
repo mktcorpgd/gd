@@ -383,7 +383,6 @@ jQuery(document).ready(function() {
 			var checkbox_name = jQuery(this).attr('name');
 			var inputtext_name = jQuery(this).closest('.columns').find('input[type=text]').attr('name');
 			if ( this.checked ) {
-				console.log(checkbox_name);
 				if ( checkbox_name == 'NOW[]' ) {
 					jQuery('input[name='+inputtext_name+']').val('Inmediata');
 				}
@@ -399,14 +398,14 @@ jQuery(document).ready(function() {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 					jQuery(this).val('*'+checkbox_checked);
 				}
-				if ( jQuery('input[name='+inputtext_name+']').length ) {
+				/*if ( jQuery('input[name='+inputtext_name+']').length ) {
 					if ( jQuery('input[name='+inputtext_name+'][class*=walcf7-]').length ) {
 						jQuery('input[name='+inputtext_name+']').attr('disabled',true);
 					}
 					else {
 						jQuery('input[name='+inputtext_name+']').attr('readonly',true);
 					}
-				}
+				}*/
 			}
 			else {
 				if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
