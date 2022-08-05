@@ -463,17 +463,9 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 
 /* Buscadores */
 .is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF}
-.is-search-form.is-form-id-26276 input:focus,.error404 .gp-search .gp-search-bar:focus,body.search-no-results .gp-search-bar:focus{color:#FFFFFF}
-.is-search-sections .meta{margin:0}
-.is-search-sections .meta .is-meta-category{box-sizing:border-box;display:block;margin-top:-10px;padding:0 10px 10px;width:100%;font-family:'Neo-Sans',sans-serif;font-size:.8em}
-.is-search-sections .is-title{font-family:'Neo-Sans',sans-serif;font-weight:500}
-.is-search-sections .is-title a{line-height:1.15}
-.is-search-form.is-form-id-26280 .is-loader-image{top:22px;right:2px}
-.is-search-form.is-form-id-26276{width:95%;margin:0 auto 1em;padding:52px 0 0;overflow:visible}
-.is-form-id-26276 label{position:relative}
+.is-search-form.is-form-id-26276 input:focus{color:#FFFFFF}
+.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;font-family:'Neo-Sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
 .is-search-form input::placeholder{color:#888888}
-.is-search-form.is-form-id-26276 input[type='search'],body.error404 .gp-search .gp-search-bar,body.search-no-results .gp-search-bar{margin:0;width:100%;font-family:'Neo-Sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
-.is-search-form.is-form-id-26276 .is-loader-image{top:28px;right:20px}
 article[class*='category-casos-'] .gp-search-bar,body.page-id-26272 .gp-search-bar,body.page-id-41477 .gp-search-bar{font-size:1.2em;text-align:center}
 article[class*='category-casos-'] h5{margin-top:20px;text-align:center}
 

@@ -92,9 +92,6 @@ jQuery(document).ready(function() {
 
 	// MOBILE
 	function headerMobile() {
-		if ( jQuery('.is-form-id-26276').length > 1 ) {
-			jQuery('.is-form-id-26276:not(:first)').remove();
-		}
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('.is-form-id-26276:first').insertAfter('#logo');
 		}
