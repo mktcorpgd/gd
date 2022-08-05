@@ -467,10 +467,6 @@ body>.is-search-form.is-form-id-26276 input:focus{color:#FFFFFF}
 body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;font-family:'Neo-Sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
 #content .gp-search-bar{font-size:1.1em;text-align:center}
 
-/* Archivo y resultados de búsqueda */
-.error404 h2{font-size:100%;font-family:'Open-Sans',sans-serif;font-weight:400}
-.is-search-form~.is-search-form{display:none}
-
 /* Entradas */
 body.single #content .post-thumbnail{margin-bottom:2em}
 .post-thumbnail,.post-thumbnail.wrap{margin:0}
