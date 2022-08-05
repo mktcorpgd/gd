@@ -94,7 +94,6 @@ textarea{line-height:1.3}
 input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,input[type='tel']:hover,input[type='number']:hover,textarea:hover,select:hover{background:#FFFFFF;border:1px solid #999999}
 input[type='text']:focus,input[type='date']:focus,input[type='email']:focus,input[type='tel']:focus,input[type='number']:focus,textarea:focus,select:focus{background:#FFFFFF;border:1px solid #777777}
 input[readonly]:not([class*='walcf7-']),textarea[readonly],input[disabled],textarea[disabled]{background:#FFFFFF!important;border:1px solid #DDDDDD!important;color:#CCCCCC!important;cursor:default}
-input[type='submit']:focus{border:none}
 select{position:relative}
 .columns.two.center,.aligncenter{text-align:center}
 span.resaltado-naranja{color:#F0582B}
@@ -354,7 +353,7 @@ body .wpcf7-validation-errors.wpcf7-warning a{color:#FFFFFF!important}
 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg.info{margin:1em 0 2em!important;padding:.8em 1em!important}
 .wpcf7-response-output strong,.wpcf7-response-msg strong{font-size:1.2em}
 .wpcf7-response-msg{background-color:#EAEAEA!important}
-.wpcf7-form>div+.wpcf7-response-msg{margin-top:0 0 2em!important}
+.wpcf7-form>div+.wpcf7-response-msg{margin:0 0 .5em!important}
 .wpcf7-response-msg a{color:#F0582B!important}
 .wpcf7-response-output a,.wpcf7-response-msg a{text-decoration:underline}
 .wpcf7-response-msg.info{background-color:#0169B3!important}
@@ -635,9 +634,12 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 
 /* Uso interno / Sólo Argentina */
 /* Sólo Argentina */
-body.page-id-44050 #content:after,
+body.page-id-44050 #content:before,body.page-id-44050 #content:after,
 /* Uso interno */
-article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,body.page-id-29106 #content:before,body.page-id-29106 #content:after,body.page-id-26272 #content:before,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{display:block;width:100%;background:#1F4483;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
+article.category-casos-de-referencia:before,article.category-casos-de-referencia:after
+body.page-id-29106 #content:before,body.page-id-29106 #content:after,
+body.page-id-26272 #content:before,body.page-id-26272 #content:after,
+#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{display:block;width:100%;background:#1F4483;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
 body.page-id-44050 #content:after{content:'Sólo válido para Argentina'}
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,body.page-id-29106 #content:before,body.page-id-29106 #content:after,body.page-id-26272 #content:before,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno'}
 
@@ -675,7 +677,7 @@ article.category-casos-de-referencia:before,article.category-casos-de-referencia
 .button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
 .button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
 .button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
-.wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content}
+.wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content;border:none!important}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em;line-height:1.2}
