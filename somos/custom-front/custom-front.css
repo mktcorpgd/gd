@@ -422,7 +422,7 @@ input.static_gmap+a:hover{border-color:#F0582B}
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;color:#0E316E;font-style:normal}
 .birthday_wish,.birthday_error{transform:rotate(-1deg);margin:1em 0 .5em;font-weight:500}
-.birthday_wish{margin:.5em -2em;background:#0E316E;color:#FFFFFF;font-size:1.5em}
+.birthday_wish{margin:0 -2em .5em;background:#0E316E;color:#FFFFFF;font-size:1.5em}
 .bdays_today .birthday_list .birthday_name{margin:0;padding:0;font-size:1.2em;font-weight:500;text-align:center;border:none}
 .birthday_error{margin:1em 0 .5em;font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
@@ -639,8 +639,11 @@ article.category-casos-de-referencia:before,article.category-casos-de-referencia
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
 #tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{display:block;width:100%;background:#1F4483;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
-body.page-id-44050 #content:after{content:'Sólo válido para Argentina'}
-article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,body.page-id-29106 #content:before,body.page-id-29106 #content:after,body.page-id-26272 #content:before,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno'}
+body.page-id-44050 #content:before,body.page-id-44050 #content:after{content:'Sólo válido para Argentina'}
+article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,
+body.page-id-29106 #content:before,body.page-id-29106 #content:after,
+body.page-id-26272 #content:before,body.page-id-26272 #content:after,
+#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno'}
 
 /* Pestañas */
 .ui-widget-content{float:left;padding:0;top:0;background:none;border:none!important;overflow:visible}
