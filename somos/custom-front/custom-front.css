@@ -11,7 +11,7 @@ body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-
 body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
 body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
-#search-3>h3,.is-search-form.is-form-id-26276 button,.is-search-form.is-form-id-926276 input[type='submit'],.is-form-id-26276>label>span.is-screen-reader-text,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,#content .gp-search,.error404 .gp-search p,.error404 .gp-search>form>input.gp-search-submit,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
+#search-3>h3,.is-screen-reader-text,.is-search-form.is-form-id-26276 button,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,#content .gp-search,.error404 .gp-search p,.error404 .gp-search>form>input.gp-search-submit,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Drive */
