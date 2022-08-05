@@ -153,6 +153,7 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 0 .5rem;white-space:nowrap;margin:0 1em 0 0;font-family:'Neo-Sans',sans-serif;font-weight:500;line-height:1;text-decoration:none!important}
 .gp-blog-wrapper section .gp-loop-meta,.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.75rem}
 .gp-blog-wrapper section .gp-loop-meta{float:left;margin:0 0 .2em;color:#666666;line-height:1.25}
+.gp-blog-wrapper section .gp-meta-date{margin-right:10px}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
 .gp-blog-wrapper section .gp-meta-cats{margin-left:.4em}
 .gp-blog-wrapper section .gp-meta-cats a{font-family:'Open-Sans',sans-serif;font-weight:400}
@@ -238,7 +239,7 @@ body.post-template-default.single #content article.category-sersat h1,body.page-
 body.post-template-default.single #content article.category-silica-networks h1,body.page-id-11283 #content h1,body.page-id-15096 #content h1{color:#497718}
 body.post-template-default.single #content article.category-velocom h1,body.page-id-11277 #content h1{color:#AE1A57}
 .post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
-#content .gp-blog-wrapper section .post-text p{font-size:.9em;line-height:1.4}
+#content .gp-blog-wrapper section .post-text p{margin-bottom:0;font-size:.9em;line-height:1.4}
 
 /* Entradas */
 .gp-blog-wrapper{float:left}
