@@ -477,7 +477,7 @@ jQuery(document).ready(function() {
 	}
 
 	
-	// [Google Maps] FORMULARIO - Domicilio a través de Google Maps
+	// [Viajes] FORMULARIO
 	if ( jQuery('.address_maps').length ) {
 		
 		// Datos de usuario
