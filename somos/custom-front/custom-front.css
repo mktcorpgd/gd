@@ -133,7 +133,7 @@ body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{
 #nav .menu li.separator{margin-left:.5em;padding-left:.5em;border-left:2px solid rgba(0,0,0,.2);border-radius:0}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu li a{display:block;padding:.4em .5em}
-#nav .menu li a:hover, #nav .menu li:hover>a,#nav .menu .sub-menu li a:hover{background:rgba(0,0,0,.3)}
+#nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover{background:rgba(0,0,0,.3)}
 #nav .menu li a:hover,#mobile-nav .menu li>a:hover{text-decoration:none}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu li.menu-item-has-children a{padding-right:1em}
@@ -814,7 +814,7 @@ notification_image img{background:#0E316E} */
 /* Imágenes */
 #content figure.no-borders img{border:none}
 img.mfp-img{max-height:90vh}
-body.single #post-content img,.gallery-item img,.wp-block-image img{border:1px solid rgba(0,0,0,.2);border-radius:12px}
+body.single #post-content img,.gallery-item img,.wp-block-image img,.wp-block-image:not(.is-style-rounded) img{border:1px solid rgba(0,0,0,.2);border-radius:12px}
 .gallery-item{margin:0;padding:16px;box-sizing:border-box}
 .gallery-item img{width:100%}
 figcaption{text-align:left;padding:.4em .3em;background:rgba(0,0,0,.5);line-height:1.25;font-style:italic}
