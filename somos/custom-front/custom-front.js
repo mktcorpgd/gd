@@ -85,8 +85,8 @@ jQuery(document).ready(function() {
 
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
-	jQuery('body.page-id-26272 .gp-search-bar,article[class*=category-casos-] .gp-search-bar').attr('placeholder','Buscar por cliente, solución, UN o UAC');
-	jQuery('body.page-id-41477 .gp-search-bar').attr('placeholder','Buscar por tema');
+	jQuery('body.page-id-26272 .is-search-input,article[class*=category-casos-] .is-search-input').attr('placeholder','Buscar por cliente, solución, UN o UAC');
+	jQuery('body.page-id-41477 .is-search-input').attr('placeholder','Buscar por tema');
 	jQuery('img[title],.read-more[title]').each(function(){jQuery(this).removeAttr('title');});
 	jQuery('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
 
