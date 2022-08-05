@@ -299,6 +299,8 @@ article .nav-posts select{width:auto}
 article.category-salesforce h3.toggle{display:block;padding:.4em}
 
 /* Formularios */
+.wpcf7-form .disabled{opacity:.5;pointer-events:none}
+.wpcf7-form .disabled .tp{z-index:-1}
 .wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7-form-control.wpcf7-checkbox,.wpcf7-form-control.wpcf7-checkbox{position:relative;top:1px}
@@ -307,7 +309,6 @@ article.category-salesforce h3.toggle{display:block;padding:.4em}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item{margin-right:0;padding-left:0}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{position:relative;bottom:1px;font-size:.8rem}
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
-.wpcf7-form>.step3.disabled{opacity:.5}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
 .wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC}
@@ -334,7 +335,6 @@ div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151!important}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151!important}
 .wpcf7-form>.step2{opacity:.5}
-.wpcf7-form>.step3.disabled .tp{z-index:-1}
 .wpcf7-form>.step3 .tp span,.wpcf7-form>.step3.disabled input[type='submit']{cursor:default}
 .wpcf7-form p.step3{margin:.6em 0 1em;text-align:center}
 .wpcf7-form input[type='checkbox']+.wpcf7-not-valid-tip{top:16px}
