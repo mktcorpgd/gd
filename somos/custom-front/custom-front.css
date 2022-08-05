@@ -631,10 +631,8 @@ body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborale
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
-/* Aclaración */
-/* Sólo Argentina */
+/* Uso interno / Sólo Argentina */
 body.page-id-44050 #content:before,body.page-id-44050 #content:after,
-/* Uso interno */
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
@@ -644,12 +642,6 @@ article.category-casos-de-referencia:before,article.category-casos-de-referencia
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
 #tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno'}
-/* Sólo Argentina */
-body.page-id-44050 .padder,
-/* Uso interno */
-article.category-casos-de-referencia .padder,
-body.page-id-29106 .padder,
-body.page-id-26272 .padder{border-radius:0}
 
 /* Pestañas */
 .ui-widget-content{float:left;padding:0;top:0;background:none;border:none!important;overflow:visible}
@@ -869,8 +861,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail{display:grid;grid-template-columns:45% 55%}
 	.bottom_logos a img{width:120px}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
-	body:not(.home) .padder{border-radius:12px}
-	body:not(.home) .padder{border-top-width:12px;border-top-style:solid;border-top-color:transparent}
+	body:not(.home) .padder{border-radius:12px;border-top-style:solid;border-top-color:transparent}
+	body.page-id-44050 .padder,article.category-casos-de-referencia .padder,body.page-id-29106 .padder,body.page-id-26272 .padder{border-radius:0}
 	body:not(.home) .post-thumbnail+.padder{border-top-width:0;border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
 	body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
