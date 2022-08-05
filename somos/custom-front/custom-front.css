@@ -305,7 +305,7 @@ article.category-salesforce h3.toggle{display:block;padding:.4em}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0}
 .wpcf7-form-control-wrap .check_add{float:right;display:inline-block}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item{margin-right:0;padding-left:0}
-.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{font-size:.8rem}
+.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{position:relative;bottom:1px;font-size:.8rem}
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-form>.step3.disabled{opacity:.5}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
