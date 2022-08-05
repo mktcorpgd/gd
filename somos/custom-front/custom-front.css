@@ -632,9 +632,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-bl
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
 /* Uso interno / Sólo Argentina */
-/* Sólo Argentina */
 body.page-id-44050 #content:before,body.page-id-44050 #content:after,
-/* Uso interno */
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
