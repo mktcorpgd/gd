@@ -428,7 +428,7 @@ input.static_gmap+a:hover{border-color:#F0582B}
 .birthday>div{display:block;text-align:left;cursor:inherit}
 .birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:#888888}
 .widget .birthday_list{margin-bottom:.5em}
-.birthdays-widget img{width:100%}
+.birthdays-widget img{width:100%!important}
 
 /* Colapsables */
 h3.toggle{position:relative;font-size:1.2em;line-height:1.6}
