@@ -638,8 +638,8 @@ body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:a
 article.category-casos-de-referencia .padder:before,article.category-casos-de-referencia .padder:after,
 body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:after,
 body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:after,
-#tab-Casosdeuso #UseyourDrive .padder:before,#tab-Casosdeuso #UseyourDrive .padder:after{clear:both;display:block;color:#0E316E;font-size:1em;line-height:1.2;font-weight:600;font-style:italic}
-body.page .padder:before{text-align:center;}
+#tab-Casosdeuso #UseyourDrive .padder:before,#tab-Casosdeuso #UseyourDrive .padder:after{clear:both;display:block;color:#0E316E;text-align:center;font-size:1em;line-height:1.2;font-weight:600;font-style:italic}
+body.page .padder:before{text-align:left}
 body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:after{content:'Sólo válido para Argentina'}
 article.category-casos-de-referencia .padder:before,article.category-casos-de-referencia .padder:after,
 body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:after,
