@@ -465,8 +465,9 @@ body>.is-search-form{margin:52px auto 1em;width:95%}
 body>.is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF}
 body>.is-search-form.is-form-id-26276 input:focus{color:#FFFFFF}
 body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;font-family:'Neo-Sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
-body:not(.fullwidth) #content .gp-search{width:90%}
+body:not(.fullwidth) #content .gp-search{padding:0 1em;width:90%}
 #content .is-search-input{font-size:1.1em;text-align:center}
+.error404 h2{font-size:1.2em;font-weight:400}
 
 /* Entradas */
 body.single #content .post-thumbnail{margin-bottom:2em}
