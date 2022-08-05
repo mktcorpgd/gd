@@ -279,9 +279,9 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 #comments{padding-bottom:1em}
 #comments #reply-title{margin-top:0;margin-bottom:0;padding:5px 30px;line-height:150%;background:#FAFAFA}
 #comments #reply-title a{color:#FFFFFF}
-#comments .comment-reply-link,#comments #cancel-comment-reply-link{padding:3px 5px;color:#F0582B;font-weight:400;font-size:12px;font-family:'Neo-Sans',sans-serif;text-decoration:none;background:none;border:1px solid #F0582B;border-radius:6px}
-#comments .comment-reply-link:hover,#comments #cancel-comment-reply-link:hover{color:#FFFFFF;background:#F0582B;border:1px solid #F0582B;text-decoration:none}
-.commentlist #respond{display:inline-block;width:100%;padding-left:2em}
+#comments .comment-reply-link,#comments #cancel-comment-reply-link{padding:.2em .4em;color:#F0582B;font-weight:400;font-size:.8em;font-family:'Neo-Sans',sans-serif;background:#FAFAFA;border-radius:6px}
+#comments .comment-reply-link:hover,#comments #cancel-comment-reply-link:hover{color:#FFFFFF;background:#F0582B;text-decoration:none}
+.commentlist #respond{display:inline-block;width:100%;margin-top:.5em;padding-left:1em}
 #comments .commentlist li .comment_container{clear:both}
 #comments .commentlist li .comment-text .meta{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-weight:400;font-size:18px}
 #comments .commentlist li [itemprop='author']:after{font-weight:normal;color:#CCCCCC}
