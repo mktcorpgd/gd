@@ -385,6 +385,7 @@ jQuery(document).ready(function() {
 			var checkbox_name = jQuery(this).attr('name');
 			var inputtext_name = jQuery(this).closest('.columns').find('input[type=text]').attr('name');
 			if ( this.checked ) {
+				console.log(checkbox_name);
 				if ( checkbox_name == 'NOW[]' ) {
 					jQuery('input[name='+inputtext_name+']').val('Inmediata');
 				}
