@@ -638,12 +638,18 @@ body.page-id-44050 #content:before,body.page-id-44050 #content:after,
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
-#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{display:block;width:100%;background:#1F4483;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
+#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{clear:both;display:block;width:100%;background:#0E316E;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
 body.page-id-44050 #content:before,body.page-id-44050 #content:after{content:'Sólo válido para Argentina'}
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
 #tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{content:'Información de uso interno'}
+/* Sólo Argentina */
+body.page-id-44050 .padder,
+/* Uso interno */
+article.category-casos-de-referencia .padder,
+body.page-id-29106 .padder,
+body.page-id-26272 .padder{border-radius:0}
 
 /* Pestañas */
 .ui-widget-content{float:left;padding:0;top:0;background:none;border:none!important;overflow:visible}
