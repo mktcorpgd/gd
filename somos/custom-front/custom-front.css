@@ -631,9 +631,11 @@ body.archive .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborale
 article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-block;margin-right:.4em;text-transform:lowercase}
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
-/* Uso interno / Sólo Argentina */
+/* Aclaración */
+/* Sólo Argentina */
 body.page-id-44050 #content:before,body.page-id-44050 #content:after,
-article.category-casos-de-referencia:before,article.category-casos-de-referencia:after
+/* Uso interno */
+article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
 #tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{display:block;width:100%;background:#1F4483;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
