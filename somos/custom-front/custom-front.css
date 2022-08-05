@@ -466,7 +466,7 @@ body>.is-search-form{margin:52px auto 1em;width:95%}
 body>.is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF}
 body>.is-search-form.is-form-id-26276 input:focus{color:#FFFFFF}
 body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;font-family:'Neo-Sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
-body:not(.fullwidth) #content .gp-search{padding:0 1em;width:90%}
+.error404 .gp-search{margin-top:1em}
 #content .is-search-input{font-size:1.1em;text-align:center}
 .error404 h2{font-size:1.2em;font-weight:400}
 
@@ -847,6 +847,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:0 .9em}
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail{display:grid;grid-template-columns:45% 55%}
+	body.fullwidth #content .gp-search{padding:0 1em;width:80%}
 	.bottom_logos a img{width:120px}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	body:not(.home) .padder{border-radius:12px;border-top-style:solid;border-top-color:transparent}
