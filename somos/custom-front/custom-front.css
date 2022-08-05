@@ -636,7 +636,7 @@ body.page-id-44050 #content:before,body.page-id-44050 #content:after,
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
 body.page-id-26272 #content:before,body.page-id-26272 #content:after,
-#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{clear:both;display:block;width:100%;background:#0E316E;text-align:center;color:#FFFFFF;font-family:'Open-Sans',sans-serif;font-size:1.2em;line-height:2;font-style:italic}
+#tab-Casosdeuso #UseyourDrive:before,#tab-Casosdeuso #UseyourDrive:after{clear:both;display:block;color:#0E316E;font-size:1em;font-weight:500;font-style:italic}
 body.page-id-44050 #content:before,body.page-id-44050 #content:after{content:'Sólo válido para Argentina'}
 article.category-casos-de-referencia:before,article.category-casos-de-referencia:after,
 body.page-id-29106 #content:before,body.page-id-29106 #content:after,
@@ -846,8 +846,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail,body.archive .gp-blog-wrapper section .post-thumbnail,body.search .gp-blog-wrapper section .post-thumbnail{max-width:100%}
 	body.single .gp-entry-meta .gp-meta-cats{margin-left:.8rem;padding-left:.8rem;border-left:2px solid #EAEAEA}
 	#UseyourDrive.video .jp-video{min-height:370px}
-	body.page-id-44050 #content:before,body.page-id-29106 #content:before,article.category-casos-de-referencia:before,body.page-id-26272 #content:before,#tab-Casosdeuso #UseyourDrive:before{border-top-left-radius:12px;border-top-right-radius:12px}
-	body.page-id-44050 #content:after,article.category-casos-de-referencia:after,body.page-id-29106 #content:after,body.page-id-26272 #content:after,#tab-Casosdeuso #UseyourDrive:after{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
@@ -858,7 +856,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.bottom_logos a img{width:120px}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	body:not(.home) .padder{border-radius:12px;border-top-style:solid;border-top-color:transparent}
-	body.page-id-44050 .padder,article.category-casos-de-referencia .padder,body.page-id-29106 .padder,body.page-id-26272 .padder{border-radius:0}
 	body:not(.home) .post-thumbnail+.padder{border-top-width:0;border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
 	body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
