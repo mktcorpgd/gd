@@ -92,14 +92,14 @@ jQuery(document).ready(function() {
 
 	// MOBILE
 	function headerMobile() {
-		if ( jQuery('.is-search-form').length > 1 ) {
-			jQuery('.is-search-form:not(:first)').remove();
+		if ( jQuery('.is-form-id-26276').length > 1 ) {
+			jQuery('.is-form-id-26276:not(:first)').remove();
 		}
 		if ( jQuery(window).width() < 960 ) {
-			jQuery('.is-search-form:first').insertAfter('#logo');
+			jQuery('.is-form-id-26276:first').insertAfter('#logo');
 		}
 		else {
-			jQuery('.is-search-form:first').insertBefore('#page-wrapper');
+			jQuery('.is-form-id-26276:first').insertBefore('#page-wrapper');
 		}
 	}
 	headerMobile();
