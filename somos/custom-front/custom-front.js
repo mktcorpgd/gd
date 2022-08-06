@@ -397,8 +397,7 @@ jQuery(document).ready(function() {
 				else {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 					if ( jQuery('input[name='+inputtext_name+']').val().length > 0 ) {
-						var input_val = jQuery('input[name='+inputtext_name+']').val();
-						jQuery('input[name='+inputtext_name+']').val(input_val+'*'+checkbox_checked);
+						jQuery('input[name='+inputtext_name+']').val(input_val+'*'+checkbox_checked);	
 					}
 				}
 				/*if ( jQuery('input[name='+inputtext_name+']').length ) {
@@ -415,8 +414,15 @@ jQuery(document).ready(function() {
 					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
 				}
-				else { 
-					jQuery('input[name='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
+				else {
+					if ( jQuery('input[name='+inputtext_name+']').val().indexOf('*') > -1 ) {
+						var input_val = jQuery('input[name='+inputtext_name+']').val();
+						input_val = input_val.substring(0,input_val.indexOf('*'));
+						jQuery('input[name='+inputtext_name+']').val(input_val);
+					}
+					else {
+						jQuery('input[name='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
+					}
 				}
 			}
 		});	
