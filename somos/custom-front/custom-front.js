@@ -400,14 +400,6 @@ jQuery(document).ready(function() {
 						jQuery('input[name='+inputtext_name+']').val(input_val+'*'+checkbox_checked);	
 					}
 				}
-				/*if ( jQuery('input[name='+inputtext_name+']').length ) {
-					if ( jQuery('input[name='+inputtext_name+'][class*=walcf7-]').length ) {
-						jQuery('input[name='+inputtext_name+']').attr('disabled',true);
-					}
-					else {
-						jQuery('input[name='+inputtext_name+']').attr('readonly',true);
-					}
-				}*/
 			}
 			else {
 				if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
