@@ -392,7 +392,7 @@ jQuery(document).ready(function() {
 					jQuery('input[name^='+inputtext_name+'DATE]').attr('disabled',true);
 				}
 				else if ( checkbox_name.indexOf('NOT') > -1 ) {
-					jQuery('input[name='+inputtext_name+']').val('—').attr('readonly',true);
+					jQuery('input[name='+inputtext_name+']').val('—').attr('disabled',true);
 				}
 				else {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
