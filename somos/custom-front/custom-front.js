@@ -396,7 +396,10 @@ jQuery(document).ready(function() {
 				}
 				else {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-					jQuery('input[name='+inputtext_name+']').val('*'+checkbox_checked);
+					if ( jQuery('input[name='+inputtext_name+']').val().length > 0 ) {
+						var input_val = jQuery('input[name='+inputtext_name+']').val();
+						jQuery('input[name='+inputtext_name+']').val(input_val+'*'+checkbox_checked);
+					}
 				}
 				/*if ( jQuery('input[name='+inputtext_name+']').length ) {
 					if ( jQuery('input[name='+inputtext_name+'][class*=walcf7-]').length ) {
