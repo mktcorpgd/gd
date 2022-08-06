@@ -311,7 +311,7 @@ article.category-salesforce h3.toggle{display:block;padding:.4em}
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
-.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC}
+.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC;cursor:default}
 .wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
