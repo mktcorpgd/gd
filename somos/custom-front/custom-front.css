@@ -336,10 +336,11 @@ div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151}
 .wpcf7-not-valid-tip{display:block;position:absolute;bottom:-8px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.6em;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
 input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
-body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none}
 .wpcf7-response-output,div[class*='wpcf7-response-']{float:left;width:100%;margin:1em auto 2em;box-sizing:border-box;border:none;border-radius:12px;text-align:center;font-weight:400;font-size:.9em;line-height:1.4}
 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert{position:relative;z-index:999}
-.wpcf7-response-output,.wpcf7-response-output a,div[class*='wpcf7-response-'],div[class*='wpcf7-response-'] a{color:#FFFFFF;text-decoration:underline}
+.wpcf7-response-output,.wpcf7-response-output a,div[class*='wpcf7-response-'],div[class*='wpcf7-response-'] a{color:#FFFFFF}
+div[class*='wpcf7-response-'] a{text-decoration:underline}
+body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none}
 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg.info{padding:.8em 1em}
 .wpcf7-response-output strong,.wpcf7-response-msg strong{font-size:1.2em}
 .wpcf7-form>div+.wpcf7-response-msg{margin:0 0 .5em}
