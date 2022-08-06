@@ -392,11 +392,11 @@ jQuery(document).ready(function() {
 					jQuery('input[name^='+inputtext_name+'DATE]').attr('disabled',true);
 				}
 				else if ( checkbox_name.indexOf('NOT') > -1 ) {
-					jQuery('input[name='+inputtext_name+']').val('—');
+					jQuery('input[name='+inputtext_name+']').val('—').attr('readonly',true);
 				}
 				else {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
-					jQuery(this).val('*'+checkbox_checked);
+					jQuery('input[name='+inputtext_name+']').val('*'+checkbox_checked);
 				}
 				/*if ( jQuery('input[name='+inputtext_name+']').length ) {
 					if ( jQuery('input[name='+inputtext_name+'][class*=walcf7-]').length ) {
