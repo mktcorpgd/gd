@@ -304,6 +304,8 @@ article.category-salesforce h3.toggle{display:block;padding:.4em}
 .wpcf7-form>.step2{opacity:.5}
 .wpcf7-form>.step3 .tp span,.wpcf7-form>.step3.disabled input[type='submit']{cursor:default}
 .wpcf7-form p.step3{margin:.6em 0 1em;text-align:center}
+body form.sending,form.sending input,form.sending select,form.sending input{cursor:wait}
+.wpcf7-submit.sending{opacity:.6;pointer-events:none}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
 .wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7-form-control-wrap .check_add{float:right;display:inline-block}
@@ -321,17 +323,14 @@ article.category-salesforce h3.toggle{display:block;padding:.4em}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0}
 .wpcf7 .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border-radius:12px}
-input[type='number'].inline{margin:0!important;padding:.3em!important;max-width:50px;text-align:center}
+input[type='number'].inline{margin:0;padding:.3em;max-width:50px;text-align:center}
 input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{border:2px solid #F0582B}
 input[type='number'].inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:#1F4483}
 input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item-label{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-weight:500}
+div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:#F0582B}
 .wpcf7 .highlight .wpcf7-list-item label:hover input+span,.wpcf7 .highlight input:checked+span{color:#1F4483}
-body form.sending,form.sending input,form.sending select,form.sending input{cursor:wait}
-.wpcf7-submit.sending{opacity:.6;pointer-events:none}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px;border:none}
-div.wpcf7 .ajax-loader.is-active{visibility:visible}
-div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151}
 .wpcf7-not-valid-tip{display:block;position:absolute;bottom:-8px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.6em;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
@@ -355,6 +354,7 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7 h3 i:not(.far),.wpcf7 h4 i:not(.far),.wpcf7 h5 i:not(.far){padding-right:.5em;font-size:.8em;position:relative;bottom:2px;opacity:.6}
 .wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i{font-size:.7em;opacity:.5}
 .wpcf7 h3 i~i:hover,.wpcf7 h4 i~i:hover,.wpcf7 h5 i~i:hover{opacity:.7}
+div.wpcf7 .ajax-loader.is-active{visibility:visible}
 
 /* Datepicker */
 .xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border:none;border-radius:12px}
