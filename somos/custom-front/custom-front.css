@@ -302,10 +302,6 @@ article.category-salesforce h3.toggle{display:block;padding:.4em}
 
 /* Formularios */
 .wpcf7-form .disabled{opacity:.5;pointer-events:none}
-.wpcf7-form .disabled .tp{z-index:-1}
-.wpcf7-form>.step2{opacity:.5}
-.wpcf7-form>.step3 .tp span,.wpcf7-form>.step3.disabled input[type='submit']{cursor:default}
-.wpcf7-form p.step3{margin:.6em 0 1em;text-align:center}
 body form.sending,form.sending input,form.sending select,form.sending input{cursor:wait}
 .wpcf7-submit.sending{opacity:.6;pointer-events:none}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
@@ -765,29 +761,6 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .mfp-close{right:0}
 .mfp-content #wp-calendar tfoot td a{pointer-events:none}
 
-/* Noficaciones Push
-prompticon3{margin-right:0;padding:0;width:50px;height:50px;right:0;border:none;background:#0E316E;border-radius:0;border-top-left-radius:24px;border-bottom-left-radius:24px;filter:none;transform:scale(1)}
-prompticon3:hover{background:#F0582B}
-popup_notification{padding:0}
-popup_notification:hover{background:none}
-promptglowingcircle{width:50px;height:46px;border-radius:0;border-top-left-radius:24px;border-bottom-left-radius:24px}
-.webpushr-subscribed .Right_prompt_popup.webpushr-bell-style-Squared .promptPopup-show{right:0}
-.webpushr-notification{box-shadow:none;font-family:'Neo-Sans',sans-serif}
-.webpushr-notification notification_title{font-family:'Neo-Sans',sans-serif;font-weight:500;color:#0E316E}
-.webpushr-notification:hover notification_title{color:#F0582B;text-decoration:underline}
-.promptPopup-show{border-radius:12px}
-.webpushrServerError,.webpushrOffBtn,.webpushrOnBtn{font-size:.8em;letter-spacing:0;line-height:1.2}
-.webpushrActionBtn{padding:.5em .7em;border-radius:12px;font-family:'Neo-Sans',sans-serif;font-weight:500}
-promptbox3.Right_prompt_popup promptPopup{border-top-right-radius:0;border-bottom-right-radius:0;right:0}
-.webpushr-subscribed .webpushr-bell-style-Squared prompticon3.Right_bell{right:0}
-popup_heading_text{font-size:.9em;font-weight:400;text-align:left;color:#0E316E;letter-spacing:0;font-family:'Neo-Sans',sans-serif}
-popup_heading_text .popup-button-heading{font-weight:400}
-#webpushr-bell-optin>promptbox3>promptpopup>popup_close{top:-25px;right:5px;font-size:1em;background:none;box-shadow:none;color:rgba(0,0,0,.6)}
-html body popup_button btn,.webpushrUnknownBtn.webpushrActionBtn,.webpushrOffBtn.webpushrActionBtn{padding:.6em;width:auto;letter-spacing:0;font-family:'Neo-Sans',sans-serif;font-size:16px;background:#0E316E;border-radius:12px}
-.webpushrOnBtn.webpushrActionBtn{background:#FFFFFF;border:2px solid #999999;font-size:16px;color:#777777;box-shadow:none}
-notification_image{margin-left:0}
-notification_image img{background:#0E316E} */
-
 /* Imágenes */
 #content figure.no-borders img{border:none}
 img.mfp-img{max-height:90vh}
@@ -862,14 +835,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#sidebar-right{padding-top:0}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
 	.page #content img[id*='tp']{border-radius:36px!important}
-	#content .columns.two .tp ul{padding:0!important;top:23%!important;left:13%!important}
-	#content .columns.two .tp ul li{padding-bottom:0;font-size:4.75vw!important;line-height:6vw!important}
-	#content .columns.two .tp ul li:last-child{margin-top:10%!important;line-height:4.5vw!important}
-	#content .columns.two .tp h2{bottom:18vw;font-size:6.5vw}
-	#content .columns.two .tp h4{bottom:12.5vw;font-size:5.4vw}
-	#content .columns.two .tp h3{top:6vw;font-size:6vw!important;text-align:left}
-	#content .columns.two .tp h5{top:12vw;font-size:5vw;text-align:left}
-	#content .columns.two .tp ul li:last-child{margin-top:14px!important;line-height:18px!important}
 	.toggle-box>.sc-button,.widget .sc-button{font-size:1.2rem!important}
 	.wpcf7-form-control-date input{height:53px}
 	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
