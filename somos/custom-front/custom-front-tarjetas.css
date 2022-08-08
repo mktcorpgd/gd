@@ -1,9 +1,9 @@
 .wpcf7-form .disabled .tp{z-index:-1}
-.wpcf7-form>.step2{opacity:.5}
-.wpcf7-form .step3{margin:.6em 0 1em;text-align:center}
+.wpcf7-form>.step2{opacity:.6}
 .wpcf7-form>.step3 .tp span,.wpcf7-form>.step3.disabled input[type='submit']{cursor:default}
 .simlulator-frame{display:inline-block;position:absolute}
 #content .columns .tp{margin:25px auto 0;width:100%;position:relative;text-align:center}
+#content .columns .tpdata{display:block}
 #content .columns.two .tp h2,#content .columns.two .tp h3,#content .columns.two .tp h4,#content .columns.two .tp h5,#content .columns.two .tp ul{margin:0;padding:0;position:absolute;left:0;text-align:left}
 #content .columns.two .tp em{text-align:center}
 #content .columns.two .tp img+em{display:block;margin-top:5px}
@@ -28,13 +28,13 @@
 #content .columns .tp.digital #mobile-frame{width:296px;height:575px;background:none;border:none;border-radius:0}
 #content .columns .tp.digital ul{clear:both;width:100%;text-align:center}
 #content .columns .tp.digital h2,#content .columns .tp.digital h4,#content .columns .tp.digital h5{color:#FFFFFF}
-#content .columns .tp.digital h2{margin-top:10px;padding-bottom:0;font-size:26px;font-weight:500}
+#content .columns .tp.digital h2{margin-top:10px;margin-bottom:0;padding-bottom:0;font-size:26px;font-weight:500}
 #content .columns .tp.digital h4{margin-top:0;padding:0 30px 15px;font-size:20px;font-weight:400}
 #content .columns .tp.digital h5{margin:0 auto;padding:5px 10px;display:inline-block;width:auto;letter-spacing:1px;text-transform:uppercase;background:rgba(0,0,0,.1);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-weight:400;font-size:80%}
 #content .tp:not(.digital) li:not(.ui-state-default){margin-top:0;margin-bottom:0;padding-bottom:0;font-size:16px;line-height:16px}
 #content .tp li:not(.ui-state-default){font-weight:400}
 #content .columns .tp.digital li{clear:both;margin:0 auto 15px;padding:6px;width:90%;background:rgba(0,0,0,.4);border-radius:6px;color:#FFFFFF}
-#content .columns .tp.digital #mobile-logo{height:36px;background:none;border:none;border-radius:0}
+#content .columns .tp.digital #mobile-logo{height:40px;background:none;border:none;border-radius:0}
 #content .columns .tp.digital #mobile-content{padding-top:20px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.6);background-image:url('https://www.grupodatco.com/qr-bcard/img/grupo_datco-bkg_1920_1080.png');background-position:center left;background-size:cover;background-blend-mode:multiply}
 #content .columns .tp.digital:not(.baitcon):not(.datco):not(.focus):not(.interservices):not(.sersat):not(.silica_networks):not(.velocom) li,#content .columns .tp.digital.grupo_datco li{border:1px solid #FFB201}
