@@ -1,6 +1,8 @@
 /* Oculto forzado */
 /* Admin */
-#wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,body:not(.role-administrator) .only-admin,
+#wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
+body:not(.role-administrator) .only-admin,
+body:not(.role-administrator) #custom_html-25,
 /* Metas */
 .single .gp-entry-meta i,.gp-post-meta:before,body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],
 body.archive.category-2796 .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/'],
@@ -640,12 +642,9 @@ body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:a
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:#1F4483;color:#FFFFFF}
 #post-content .sc-tab-panel .embed{margin:-15px;border:none;border-radius:0}
 #post-content .sc-tab-panel iframe{border:none;border-radius:0}
-#content .sc-tab-panel .embed{margin-top:-20px!important;margin-bottom:-20px!important}
 .widget .ui-tabs .ui-tabs-nav li a{padding:.2em .4em;margin-bottom:0;border-right:1px solid #CCCCCC;font-size:.9em;font-weight:400}
 .widget .ui-tabs .ui-tabs-nav li:first-child a{padding-left:0}
 .widget .ui-tabs .ui-tabs-nav li:last-child a{border-right:none}
-.textwidget .sc-tabs{margin:0 0 3px!important;border:none!important}
-.textwidget .sc-tabs .sc-tab-panel{margin-bottom:10px!important}
 .textwidget .sc-tabs .sc-tab-panel a[href*='mailto']{display:block;text-overflow:ellipsis;overflow:hidden}
 .textwidget .sc-tabs .sc-tab-panel>span{display:block;width:100%;margin-top:10px;color:#888888;font-family:'Neo-Sans',sans-serif;font-weight:500}
 .textwidget .sc-tabs .sc-tab-panel>span:first-child{margin-top:0}
@@ -687,7 +686,6 @@ a.button.fullwidth{width:100%}
 /* Tarjeta digital */
 #custom_html-23{text-align:center}
 #custom_html-23 .widgettitle{text-align:left}
-#custom_html-23 h4{margin-bottom:0}
 #custom_html-23 a:hover img{transform:translateY(0);box-shadow:0 -4px 14px -1px rgba(0,0,0,.2)}
 #custom_html-23 a:hover .url_public_bcard{box-shadow:0 0 14px -1px rgba(0,0,0,.2)}
 .bcard{display:block;margin:0 auto;width:65%;max-width:200px}
@@ -817,28 +815,25 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 
 /* Desktop */
 @media (min-width:960px) {
-	li.only-mobile,#mobile-nav-button{display:none!important}
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-moz-appearance:textfield}
+	li.only-mobile,#mobile-nav-button{display:none!important}
+	.sidebar{font-size:14px}
 	body>.is-search-form input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	body>.is-search-form.is-search-form input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
 	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail .post-text{border-left:2px solid #CCCCCC}
-	.sidebar{font-size:14px}
 	body.home .padder{padding:0}
-	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content{max-height:1570px;position:relative;overflow:hidden}
-	.gp-blog-wrapper:not([class*='gp-blog-columns']).more-content:after{content:'';display:block;width:100%;height:5em;position:absolute;bottom:0;right:0;background:linear-gradient(180deg,rgba(0,0,0,0) 0%,rgba(221,221,221,1) 100%)}
 	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail,body.archive .gp-blog-wrapper section .post-thumbnail,body.search .gp-blog-wrapper section .post-thumbnail{max-width:100%}
+	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
+	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
+	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:0 .9em}
 	body.single .gp-entry-meta .gp-meta-cats{margin-left:.8rem;padding-left:.8rem;border-left:2px solid #EAEAEA}
+	body.fullwidth #content .gp-search{margin:.5em auto 0;padding:0 1em;width:80%}
 	#UseyourDrive.video .jp-video{min-height:370px}
 	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
-	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
-	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
-	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:0 .9em}
 	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail{display:grid;grid-template-columns:45% 55%}
-	body.fullwidth #content .gp-search{margin:.5em auto 0;padding:0 1em;width:80%}
-	.bottom_logos a img{width:120px}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	body:not(.home) .padder{border-radius:12px;border-top-style:solid;border-top-color:transparent}
 	body:not(.home) .post-thumbnail+.padder{border-top-width:0;border-top-left-radius:0;border-top-right-radius:0}
@@ -850,6 +845,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
 	body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
 	body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
+	.bottom_logos a img{width:120px}
 }
 
 /* Mobile */
@@ -857,7 +853,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#mobile-nav .menu li a i{display:none!important}
 	blockquote{text-align:left}
 	body,input,textarea,select{font-size:20px}
-	input,textarea,select{font-size:18px!important;line-height:1.6em!important}
+	input,textarea,select{line-height:1.6em!important}
 	.sidebar{font-size:18px}
 	.sidebar .widget .textwidget li{font-size:1.1em}
 	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
