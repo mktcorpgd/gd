@@ -102,11 +102,6 @@ span.resaltado-naranja{color:#F0582B}
 span.resaltado-azul{color:#3C73B5}
 span.resaltado-verde{color:#76923C}
 
-/* Páginas */
-body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
-.post-thumbnail.single-thumbnail,.post-thumbnail.single-thumbnail img{background:#0E316E;border-top-left-radius:12px;border-top-right-radius:12px}
-.post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
-
 /* Admin */
 #wpadminbar{position:fixed;top:0;border-bottom:1px solid rgba(0,0,0,.2);z-index:999999}
 #wpadminbar .ab-icon{font-family:'dashicons'}
@@ -275,6 +270,9 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 .columns{margin-bottom:.5em;line-height:1.2}
 .columns.one.aligncenter{margin-top:0}
 .wp-block-columns{float:left}
+.post-thumbnail.single-thumbnail,.post-thumbnail img{background:#0E316E;border-top-left-radius:12px;border-top-right-radius:12px}
+body.page .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
+.post-thumbnail,.post-thumbnail.wrap{margin:0}
 
 /* Comentarios */
 .comments-area{margin:0 auto;width:100%}
@@ -294,6 +292,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
 
 /* Salesforce */
+body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
 section.category-salesforce{border-width:2px;border-color:#0E316E}
 article .nav-posts{margin-bottom:1em}
 article .nav-posts select{width:auto}
@@ -457,10 +456,6 @@ body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;f
 #content .is-search-input{font-size:1.1em;text-align:center}
 body.fullwidth #content .is-search-input{font-size:1.5em}
 .error404 h2{font-size:1.2em;font-weight:400}
-
-/* Entradas */
-body.single #content .post-thumbnail{margin-bottom:2em}
-.post-thumbnail,.post-thumbnail.wrap{margin:0}
 
 /* Drive */
 #UseyourDrive .ajax-filelist{min-height:auto;font-size:1em}
