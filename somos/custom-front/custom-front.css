@@ -733,8 +733,8 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .eo-events-nav a:hover{text-decoration:underline}
 .daysi{background:#0E316E;border-radius:50%;color:#FFFFFF;display:block}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
-.eo-widget-cal-wrap+.widget_ref{margin:.6em -.3em 0}
-.eo_widget_calendar .widget_ref a{padding:.15em .5em;color:#FFFFFF;font-size:.8em}
+.eo-widget-cal-wrap+.widget_ref{margin-top:.6em}
+.eo_widget_calendar .widget_ref a{padding:.2em .35em;color:#FFFFFF;font-size:.8em}
 .eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.2)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
 .eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
@@ -840,7 +840,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#header .is-search-form.is-form-id-26276{float:left;margin:0 auto;width:75%}
 	#header .is-search-form.is-form-id-26276 input[type='search']::placeholder{color:#FFFFFF}
 	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:8px;text-align:center;color:#FFFFFF;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
-	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
 	#content-wrapper{padding-top:64px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:.5em}
 	body.archive .gp-blog-wrapper,body.search-results .gp-blog-wrapper{display:block}
