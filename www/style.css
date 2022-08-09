@@ -1114,6 +1114,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	#inicio .fusion-content-boxes.content-boxes-icon-on-top .content-container,#inicio .fusion-content-boxes .fusion-column,#inicio .fusion-content-boxes.content-boxes-icon-on-top .heading{margin-bottom:0!important}
 	body.single-format-link .fusion-one-full .wpcf7{margin:1em auto 0;float:left}
 	.fusion-fullwidth.white .fusion-one-full .wpcf7,.fusion-one-full.white .wpcf7{margin:0 auto;width:50%}
+	.modal .fusion-one-full.white .wpcf7{width:100%}
 	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:20px}
 	.table-1,.table-2,.tkt-slctr-tbl-wrap-dv{overflow:inherit}
 	.fusion-page-title-bar .fusion-page-title-row h1{line-height:1.1!important}
