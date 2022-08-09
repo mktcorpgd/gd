@@ -244,7 +244,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:0 .8em .5em;clear:both}
-.post-thumbnail.wrap{float:none;width:100%}
+.post-thumbnail.wrap{width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 6px 18px 0 rgba(0,0,0,.2);transform:translateY(-2px)}
@@ -843,13 +843,10 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
 	#content-wrapper{padding-top:64px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:.5em}
-	body.archive .gp-blog-wrapper,body.search-results .gp-blog-wrapper{display:block;width:100%;margin:0!important}
-	.gp-blog-wrapper:not([class*='gp-blog-columns']) section{margin-top:0!important;padding:10px 15px 15px}
-	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text{padding-bottom:.4em!important}
+	body.archive .gp-blog-wrapper,body.search-results .gp-blog-wrapper{display:block;margin:0 1em}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
-	.gp-blog-wrapper section .post-text h2{padding-right:0;font-size:1.4em;line-height:1.15}
+	.gp-blog-wrapper section .post-text h2{font-size:1.4em;line-height:1.15}
 	.gp-blog-wrapper section .post-text h2:before{width:1em;height:1em}
-	.gp-blog-wrapper section .post-thumbnail+.post-text h2:before{top:-16px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{-webkit-line-clamp:3}
 	.gp-blog-wrapper section .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body.single .post-thumbnail{width:100%;left:0}
