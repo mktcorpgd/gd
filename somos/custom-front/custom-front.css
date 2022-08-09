@@ -859,7 +859,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0}
-	#copyright{font-size:.8em;line-height:1.2}
+	#copyright{padding-top:0;font-size:.8em;line-height:1.2}
 	.bottom_logos a img{width:160px}
 	.info-material{font-size:1rem}
 }
