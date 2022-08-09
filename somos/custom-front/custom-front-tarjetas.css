@@ -23,17 +23,16 @@
 #content .columns.two .tp h3,#content .columns.two .tp h5{margin-top:0}
 #content .columns.two .tp h3{top:18px;font-size:22px;text-align:left}
 #content .columns.two .tp h5{top:42px;font-size:18px;text-align:left;font-weight:400}
-#content .columns .tp.digital #mobile-content{display:inline-block;width:252px;height:376px;position:absolute;top:100px;left:178px;overflow:auto}
-#content .columns .tp.digital #mobile-frame{width:296px;height:575px;background:none;border:none;border-radius:0}
-#content .columns .tp.digital ul{clear:both;width:100%;text-align:center}
-#content .columns .tp.digital h2,#content .columns .tp.digital h4,#content .columns .tp.digital h5{color:#FFFFFF}
-#content .columns .tp.digital h2{margin-top:10px;margin-bottom:0;padding-bottom:0;font-size:26px;font-weight:500}
-#content .columns .tp.digital h4{margin-top:0;padding:0 30px 15px;font-size:20px;font-weight:400}
-#content .columns .tp.digital h5{margin:0 auto;padding:5px 10px;display:inline-block;width:auto;letter-spacing:1px;text-transform:uppercase;background:rgba(0,0,0,.1);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-weight:400;font-size:80%}
 #content .tp:not(.digital) li:not(.ui-state-default){margin-top:0;margin-bottom:0;padding-bottom:0;font-size:16px;line-height:16px}
 #content .tp li:not(.ui-state-default){font-weight:400}
-#content .columns .tp.digital li{clear:both;margin:0 auto 15px;padding:6px;width:90%;background:rgba(0,0,0,.4);border-radius:6px;font-size:.8em;color:rgba(255,255,255,.6);text-transform:uppercase;letter-spacing:1px}
-#content .columns .tp.digital li>span{display:block;font-size:1rem;text-transform:none;letter-spacing:0}
+#content .columns .tp.digital #mobile-content{display:inline-block;width:252px;height:376px;position:absolute;top:100px;left:178px;overflow:auto}
+#content .columns .tp.digital #mobile-frame{width:296px;height:575px;background:none;border:none;border-radius:0}
+#content .columns .tp.digital h2,#content .columns .tp.digital h4,#content .columns .tp.digital h5{padding:0 .4em;color:#FFFFFF}
+#content .columns .tp.digital h2{margin-top:.4em;margin-bottom:0;font-size:1.6em}
+#content .columns .tp.digital h4{margin-top:0;font-size:1.4em}
+#content .columns .tp.digital h5{margin:0 auto 1em;padding:.4em .8em;letter-spacing:1px;text-transform:uppercase;background:rgba(0,0,0,.1);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-weight:500;font-size:.9em}
+#content .columns .tp.digital li{clear:both;margin:0 auto 1em;padding:.6em 1em;width:fit-content;background:rgba(0,0,0,.4);border-radius:12px;font-size:.7em;color:rgba(255,255,255,.8);text-transform:uppercase;letter-spacing:1px}
+#content .columns .tp.digital li>span{display:block;font-size:1rem;text-transform:none;color:#FFFFFF}
 #content .columns .tp.digital #mobile-logo{height:40px;background:none;border:none;border-radius:0}
 #content .columns .tp.digital #mobile-content{padding-top:20px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.6);background-image:url('https://www.grupodatco.com/qr-bcard/img/grupo_datco-bkg_1920_1080.png');background-position:center left;background-size:cover;background-blend-mode:multiply}
@@ -47,7 +46,7 @@
 #content .columns .tp.digital.velocom #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/velocom-bkg_1920_1080.png')}
 #content .columns.two .tp h3,#content .columns.two .tp h5,#content .columns.two .tp.grupo_datco h3,#content .columns.two .tp.grupo_datco h5{color:#0E316E}
 #content .columns .tp.digital li:nth-child(2){margin-bottom:0}
-#content .columns .tp.digital li:nth-child(3),#content .columns .tp.digital.grupo_datco li:nth-child(3){padding:0;font-size:.9em;background:none;border:none}
+#content .columns .tp.digital li:nth-child(3),#content .columns .tp.digital.grupo_datco li:nth-child(3){padding:0;border:none!important}
 #content .columns.two .tp.baitcon h3,#content .columns.two .tp.baitcon h5{color:#89388D}
 #content .columns.two .tp.datco h3,#content .columns.two .tp.datco h5{color:#1C8DCE}
 #content .columns.two .tp.focus h3,#content .columns.two .tp.focus h5{color:#39457E}
