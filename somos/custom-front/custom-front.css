@@ -314,7 +314,6 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
-.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC;cursor:default}
 .wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
@@ -348,9 +347,9 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7-form.sent .wpcf7-response-output{background-color:#419466}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500}
 .wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left;width:100%}
-.wpcf7 h3 i:not(.far),.wpcf7 h4 i:not(.far),.wpcf7 h5 i:not(.far){padding-right:.5em;font-size:.8em;position:relative;bottom:2px;opacity:.6}
-.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i{font-size:.7em;opacity:.5}
-.wpcf7 h3 i~i:hover,.wpcf7 h4 i~i:hover,.wpcf7 h5 i~i:hover{opacity:.7}
+.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC;cursor:default}
+.wpcf7 label>i[class*='.far']{padding-right:.5em;font-size:.8em;position:relative;bottom:2px;opacity:.6}
+.wpcf7 label>i[class*='.far']:hover{opacity:.8}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 
 /* Datepicker */
