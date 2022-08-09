@@ -216,13 +216,12 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content ol li ol li ol li{list-style-type:lower-roman}
 #content ol li>ul{margin-left:15px}
 #content ol li>ul>li{list-style-type:square;margin:0}
-#content .padder.content-post-thumbnail{box-shadow:0 14px 24px -24px rgba(0,0,0,.5)}
-#content .embed{margin:1em 0 2em;border:2px solid #CCCCCC}
 #content ol ul{margin-top:5px;margin-bottom:10px}
 #content ul{list-style-type:disc}
 #content ul ul{margin-top:10px;list-style-type:circle}
 #content ul ul ul{list-style-type:square}
-#content li.blocks-gallery-item{margin-left:0;margin-bottom:20px}
+#content li.blocks-gallery-item{margin-left:0;margin-bottom:1em}
+#content .embed{margin:1em 0 2em;border:2px solid #CCCCCC}
 #post-content{float:left;margin-bottom:2em;line-height:1.3;overflow:visible}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px}
 #post-content>h2{margin-top:0}
@@ -829,8 +828,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
 	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
-	body.page #content img[id*='tp']{border-radius:36px!important}
-	.toggle-box>.sc-button,.widget .sc-button{font-size:1.2rem!important}
+	#nav{position:absolute;top:0;right:0}
+	#logo{margin-top:14px;margin-left:12px}
 	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:10px;padding:.4em;color:#FAFAFA;background:none!important;border-radius:6px;font-size:1.2em;line-height:1}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
@@ -844,82 +843,40 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:#FFFFFF}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
-	#content .wpcf7-form #qr{width:90px;height:90px;top:25px;left:25px;border-radius:12px!important}
-	#page-wrapper{padding:0!important}
-	#content-wrapper{padding-top:64px!important}
-	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-thumbnail{border-right:none!important}
-	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:5px}
-	body.page-id-15131 #content .columns.five{left:0;margin:20px 0 10px}
-	body.page-id-15131 #content .columns.five>div em{font-size:22px!important;line-height:1}
-	body.single .post-thumbnail{width:100%;left:0;border-radius:12px}
-	body #content span.big-cap{padding-top:14px;font-size:104px;line-height:65px}
-	body.single .gp-meta-date{margin-bottom:.4em;font-size:16px;line-height:1.5}
-	h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a{margin:4px 4px 0 0!important}
-	body.single .gp-post-meta{display:block}
-	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag'],section .gp-meta-date{margin-bottom:0!important}
-	.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.8rem}
-	h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .6em}
 	#header{min-height:64px;padding:0;top:46px}
 	#header .is-search-form.is-form-id-26276{margin:0 auto;width:70%}
 	#header .is-search-form.is-form-id-26276 input[type='search']::placeholder{color:#FFFFFF}
 	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:8px;text-align:center;color:#FFFFFF;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
+	#content-wrapper{padding-top:64px}
+	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:5px}
+	body.single .post-thumbnail{width:100%;left:0;border-radius:12px}
+	body.single .gp-meta-date{margin-bottom:.4em;font-size:16px;line-height:1.5}
+	body.single .gp-post-meta{display:block}
 	.archive .gp-blog-wrapper,.search-results .gp-blog-wrapper{display:block;width:100%;margin:0!important}
 	.post-thumbnail.single-thumbnail{border-top-left-radius:0;border-top-right-radius:0}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section{margin-top:0!important;padding:10px 15px 15px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text{padding-bottom:.4em!important}
-	.gp-blog-wrapper section .post-thumbnail{max-width:100%}
-	.gp-blog-wrapper section .post-thumbnail img{border-right:0!important}
-	.gp-blog-wrapper section:last-child{margin-bottom:20px!important}
-	.gp-blog-wrapper section:last-child .post-text{border-bottom:none}
-	.gp-blog-wrapper section .post-text{float:left;padding:1em!important;position:relative}
-	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail a,.gp-blog-wrapper[class*='gp-blog-columns'] section .post-text{float:none;padding:0!important;border-top:none!important}
-	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{width:100%;margin-bottom:0!important;padding:0;line-height:1.5!important}
-	.gp-blog-wrapper section .post-text h2{padding-right:0!important;font-size:1.4em!important;line-height:1.15!important}
-	.gp-blog-wrapper section .post-text h2:before{width:1em!important;height:1em!important}
-	.gp-blog-wrapper section .post-thumbnail+.post-text h2:before{top:-16px!important}
+	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
+	.gp-blog-wrapper section .post-text h2{padding-right:0;font-size:1.4em;line-height:1.15}
+	.gp-blog-wrapper section .post-text h2:before{width:1em;height:1em}
+	.gp-blog-wrapper section .post-thumbnail+.post-text h2:before{top:-16px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{-webkit-line-clamp:3}
 	.gp-blog-wrapper section .gp-loop-meta{font-size:1rem;line-height:1.5}
-	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;font-size:.78em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
-
-	#nav{position:absolute;top:0;right:0}
-
-	.wpcf7-form-control-date input{height:53px}
-	.wpcf7-form-control-date:after{min-height:40px;content:'';margin-top:-3px;width:0;height:0;position:absolute;top:50%;right:10px;border-top:6px solid #999999;border-left:6px solid transparent;border-right:6px solid transparent;z-index:2;pointer-events:none}
-	.wpcf7-form .wpcf7-not-valid-tip{top:56px;right:15px;font-size:14px}
-	.wpcf7-select+.wpcf7-not-valid-tip{top:58px}
-	.wpcf7-form label#EMAIL-error{top:55px}
-	.wpcf7-form label#RESPBOSSEMAIL-error{top:79px}
-
-	.wp-block-image figure,.wp-block-image a,.wp-block-image img{width:100%}
-	.datepick-inline .calendar-links .datepick-prev a,.datepick-inline .calendar-links .datepick-next a{font-size:20px!important}
-	#wp-calendar tbody td:not(.event),.datepick-inline .datepick,.datepick-inline .datepick-header,.datepick-inline .datepick-header span,.datepick-inline .calendar-links,.datepick-inline .calendar-links a,.datepick-inline .datepick-days-cell,.datepick-inline .datepick-days-cell a,.datepick-inline .datepick-days-cell div,.datepick-inline .datepick-title-row,.datepick-inline .datepick-title-row th{font-size:16px}
-
+	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
 	.birthdays-widget .birthday_wish{font-size:28px}
 	.birthdays-widget .birthday_date{padding-bottom:0;font-size:.9em}
 	.sc-button.inline{font-size:1em}
-	a.button.fullwidth,#respond #submit,.wpcf7 input[type='submit']{padding:.4em .8em!important}
-	a.button.fullwidth,#respond #submit{margin-top:0;width:100%;border-radius:0!important}
-	body .widget button:not(.mfp-close){line-height:26px!important;padding:8px 0;right:10px}
-	.textwidget h3.toggle,.datepick-days-cell{font-size:1.1em!important;line-height:1.5!important}
-	.sociales li{background-position:0 10px;padding:5px 0}
-	#logo{margin-top:14px;margin-left:12px}
-	body.gp-theme.fullwidth #content-wrapper{padding-top:95px}
-	#content code,.widget code{font-size:18px;line-height:24px}
+	.toggle-box>.sc-button,.widget .sc-button{font-size:1.2rem}
 	#UseyourDrive .uyd-grid .folders-container .entry.folder:before,#UseyourDrive .entry.folder .entry_icon:before,#UseyourDrive .files.layout-list .entry_link:before{font-size:1.4em}
 	.UseyourDrive .search-input{max-width:200px;padding:5px 10px!important}
 	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0!important}
 	.jOrgChart .node{min-width:90px}
-	#commentform textarea{padding:10px 20px!important;border-radius:0!important;border-right:none!important;border-left:none!important}
-	body.archive .gp-blog-wrapper .gp-meta-cats a,body.search .gp-blog-wrapper .gp-meta-cats a{margin-top:0;line-height:1.3}
-	body:not(.single-event) .eo-event-date{margin-top:0!important}
-	body:not(.single-event) article.event h2{margin-bottom:0!important}
-	body.single-event #content .eo-event-meta li:first-child{font-size:1.6em;line-height:1.15}
 	#copyright{font-size:14px;line-height:24px}
 	.bottom_logos a img{width:160px}
 	.info-material{font-size:1rem}
