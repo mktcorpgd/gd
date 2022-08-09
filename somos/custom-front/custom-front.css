@@ -149,9 +149,9 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 1em 0 0;white-space:nowrap;font-family:'Neo-Sans',sans-serif;font-weight:500;line-height:1;text-decoration:none!important}
 .gp-blog-wrapper section .gp-loop-meta,.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.75rem}
 .gp-blog-wrapper section .gp-loop-meta{float:left;margin:0 0 .2em;color:#666666;line-height:1.25}
-.gp-blog-wrapper section .gp-meta-date{margin-right:10px}
+.gp-blog-wrapper section .gp-meta-date{margin-right:0}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
-.gp-blog-wrapper section .gp-meta-cats{margin-left:.4em}
+.gp-blog-wrapper section .gp-meta-cats{display:block;margin:.2rem 0}
 .gp-blog-wrapper section .gp-meta-cats a{font-family:'Open-Sans',sans-serif;font-weight:400}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{font-weight:400}
 .eo-event-date,.gp-meta-comments{margin:0}
@@ -241,9 +241,9 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section{margin-bottom:0}
 .gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .8em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .gp-blog-wrapper article.event ul{margin-bottom:0}
-.gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .25em;font-size:1.2em;line-height:1.15;font-weight:500}
+.gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
-.gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em;clear:both}
+.gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:0 .8em .5em;clear:both}
 .post-thumbnail.wrap{float:none;width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
@@ -835,7 +835,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	#header{min-height:64px;padding:0;top:46px}
-	#header .is-search-form.is-form-id-26276{margin:0 auto;width:70%}
+	#header .is-search-form.is-form-id-26276{margin:0 auto;float:left}
 	#header .is-search-form.is-form-id-26276 input[type='search']::placeholder{color:#FFFFFF}
 	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:8px;text-align:center;color:#FFFFFF;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
