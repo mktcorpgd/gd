@@ -147,7 +147,7 @@ body.page h1+.gp-post-meta{text-align:center}
 body.single .gp-entry-meta .gp-meta-date{margin:0 .8em 1em 0;font-size:.8em}
 h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 1em 0 0;white-space:nowrap;font-family:'Neo-Sans',sans-serif;font-weight:500;line-height:1;text-decoration:none!important}
-.gp-blog-wrapper section .gp-loop-meta,.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.75rem}
+.gp-blog-wrapper section .gp-loop-meta,.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.8rem}
 .gp-blog-wrapper section .gp-loop-meta{float:left;margin:0 0 .2em;color:#666666;line-height:1.25}
 .gp-blog-wrapper section .gp-meta-date{margin-right:0}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
@@ -521,7 +521,7 @@ section[class*='puerto-rico'] .post-text h2:before,#tab-PuertoRico .post-text h2
 section[class*='uruguay'] .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-uy.svg)}
 
 /* Home */
-body.home .padder,body.home #post-content,body.home .sc-tab-panel,body.archive .padder,body.search .padder{margin:0;padding:0;background:none;box-shadow:none}
+body.home .padder,body.home #post-content,body.home .sc-tab-panel,body.archive .padder,body.search .padder{padding:0;background:none;box-shadow:none}
 body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.9em}
 body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.3em;width:1em;height:1em;border:1px solid #EAEAEA;position:relative;top:2px;background-size:contain;border-radius:50%}
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
@@ -545,13 +545,12 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;width:fit-content;marg
 .gallery-view-section{background:#FCFCFC;border-radius:12px}
 .gp-pagination{width:100%;margin:1em 0;grid-area:pages;grid-row:initial}
 .gp-pagination ul.page-numbers{margin:0;text-align:center;overflow:visible}
-.gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .6em;color:#999999;font-size:.9rem;line-height:1.8;font-weight:400;font-family:'Neo-Sans',sans-serif;border-radius:12px}
-ul.page-numbers .page-numbers.current{background:#EAEAEA}
-ul.page-numbers .page-numbers:hover{background:#F0582B;color:#FFFFFF}
+.gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .7em;color:#F0582B;text-decoration:none;font-size:.9rem;line-height:1.8;font-weight:400;font-family:'Neo-Sans',sans-serif;border-radius:12px}
+.gp-pagination ul.page-numbers li a:hover{background:#1F4483;color:#FFFFFF}
+.gp-pagination ul.page-numbers li .page-numbers.current{background:#F0582B;color:#FFFFFF}
 .gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:'Font Awesome 6 Pro'}
 .gp-pagination ul.page-numbers li .page-numbers.prev:before{content:'\f104'}
 .gp-pagination ul.page-numbers li .page-numbers.next:before{content:'\f105'}
-.gp-pagination ul.page-numbers li a:hover{text-decoration:none}
 
 /* Tablas */
 .wp-block-table{overflow:hidden}
@@ -783,6 +782,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.sidebar{font-size:14px}
 	body>.is-search-form input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	body>.is-search-form.is-search-form input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
+	body.home .padder,body.home #post-content,body.home .sc-tab-panel,body.archive .padder,body.search .padder{padding:0}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
@@ -843,12 +843,11 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
 	#content-wrapper{padding-top:64px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:.5em}
-	body.archive .gp-blog-wrapper,body.search-results .gp-blog-wrapper{display:block;margin:0 1em}
+	body.archive .gp-blog-wrapper,body.search-results .gp-blog-wrapper{display:block}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
 	.gp-blog-wrapper section .post-text h2{font-size:1.4em;line-height:1.15}
 	.gp-blog-wrapper section .post-text h2:before{width:1em;height:1em}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{-webkit-line-clamp:3}
-	.gp-blog-wrapper section .gp-loop-meta{font-size:1rem;line-height:1.5}
 	body.single .post-thumbnail{width:100%;left:0}
 	body.single .gp-meta-date{margin-bottom:.4em}
 	body.single .gp-post-meta{display:block}
