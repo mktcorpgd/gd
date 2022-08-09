@@ -269,10 +269,9 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 .columns{margin-bottom:.5em;line-height:1.2}
 .columns.one.aligncenter{margin-top:0}
 .wp-block-columns{float:left}
-.post-thumbnail,.post-thumbnail.wrap{margin:0}
+.post-thumbnail{background:#0E316E}
 .post-thumbnail.single-thumbnail{border-top-left-radius:12px;border-top-right-radius:12px}
-.post-thumbnail img{background:#0E316E}
-body.page .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
+body.page .post-thumbnail img{display:block;margin:0 auto;width:60%}
 
 /* Comentarios */
 .comments-area{margin:0 auto;width:100%}
@@ -789,22 +788,15 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.sidebar{font-size:14px}
 	body>.is-search-form input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	body>.is-search-form.is-search-form input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
-	body:not(.archive):not(.search) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail .post-text{border-left:2px solid #CCCCCC}
-	body.home .padder{padding:0}
-	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail,body.archive .gp-blog-wrapper section .post-thumbnail,body.search .gp-blog-wrapper section .post-thumbnail{max-width:100%}
+	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:0 .9em}
+	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail,body.archive .gp-blog-wrapper section .post-thumbnail,body.search .gp-blog-wrapper section .post-thumbnail{max-width:100%}
 	body.single .gp-entry-meta .gp-meta-cats{padding-left:.8rem;border-left:2px solid #EAEAEA}
 	body.fullwidth #content .gp-search{margin:.5em auto 0;padding:0 1em;width:80%}
-	#UseyourDrive.video .jp-video{min-height:370px}
-	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
-	.wpcf7-select[multiple]{min-height:112px}
-	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
-	body:not(.archive):not(.search) div:not(.noimage) .gp-blog-wrapper:not([class*='gp-blog-columns']) section.has-post-thumbnail{display:grid;grid-template-columns:45% 55%}
-	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
+	body.home .padder{padding:0}
 	body:not(.home) .padder{border-radius:12px;border-top-style:solid;border-top-color:transparent}
-	body:not(.home) .post-thumbnail+.padder{border-top-width:0;border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
 	body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
 	body.post-template-default.single #content article[class*='category-datco'] .padder,body.page-id-11286 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder{border-top-color:#1C8DCE}
@@ -813,6 +805,10 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
 	body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
 	body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
+	#UseyourDrive.video .jp-video{min-height:370px}
+	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
+	.wpcf7-select[multiple]{min-height:112px}
+	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
 	.bottom_logos a img{width:120px}
 }
 
@@ -849,12 +845,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:8px;text-align:center;color:#FFFFFF;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus{background:rgba(0,0,0,.2)!important}
 	#content-wrapper{padding-top:64px}
-	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:5px}
-	body.single .post-thumbnail{width:100%;left:0;border-radius:12px}
-	body.single .gp-meta-date{margin-bottom:.4em;font-size:16px;line-height:1.5}
-	body.single .gp-post-meta{display:block}
-	.archive .gp-blog-wrapper,.search-results .gp-blog-wrapper{display:block;width:100%;margin:0!important}
-	.post-thumbnail.single-thumbnail{border-top-left-radius:0;border-top-right-radius:0}
+	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:.5em}
+	body.archive .gp-blog-wrapper,body.search-results .gp-blog-wrapper{display:block;width:100%;margin:0!important}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section{margin-top:0!important;padding:10px 15px 15px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text{padding-bottom:.4em!important}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
@@ -863,21 +855,16 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.gp-blog-wrapper section .post-thumbnail+.post-text h2:before{top:-16px}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{-webkit-line-clamp:3}
 	.gp-blog-wrapper section .gp-loop-meta{font-size:1rem;line-height:1.5}
+	body.single .post-thumbnail{width:100%;left:0}
+	body.single .gp-meta-date{margin-bottom:.4em}
+	body.single .gp-post-meta{display:block}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;font-size:.78em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
-	body #content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
-	.birthdays-widget .birthday_wish{font-size:28px}
-	.birthdays-widget .birthday_date{padding-bottom:0;font-size:.9em}
-	.sc-button.inline{font-size:1em}
-	.toggle-box>.sc-button,.widget .sc-button{font-size:1.2rem}
-	#UseyourDrive .uyd-grid .folders-container .entry.folder:before,#UseyourDrive .entry.folder .entry_icon:before,#UseyourDrive .files.layout-list .entry_link:before{font-size:1.4em}
-	.UseyourDrive .search-input{max-width:200px;padding:5px 10px!important}
-	.UseyourDrive .qtip-content[id*='qtip-search-']{top:-30px}
+	#content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
-	.jOrgChart table tr.child_box{padding:0!important}
-	.jOrgChart .node{min-width:90px}
-	#copyright{font-size:14px;line-height:24px}
+	.jOrgChart table tr.child_box{padding:0}
+	#copyright{font-size:.8em;line-height:1.2}
 	.bottom_logos a img{width:160px}
 	.info-material{font-size:1rem}
 }
