@@ -268,6 +268,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 .wp-block-columns{float:left}
 body.page-template-default:not(.home) .post-thumbnail{background:#0E316E}
 body.page-template-default:not(.home) .post-thumbnail.single-thumbnail,body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img{border-top-left-radius:12px;border-top-right-radius:12px}
+body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
 
 /* Comentarios */
 .comments-area{margin:0 auto;width:100%}
