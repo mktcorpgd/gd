@@ -270,7 +270,7 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 .columns.one.aligncenter{margin-top:0}
 .wp-block-columns{float:left}
 .post-thumbnail{background:#0E316E}
-.post-thumbnail.single-thumbnail{border-top-left-radius:12px;border-top-right-radius:12px}
+.post-thumbnail.single-thumbnail,.post-thumbnail.single-thumbnail img{border-top-left-radius:12px;border-top-right-radius:12px}
 body.page .post-thumbnail img{display:block;margin:0 auto;width:60%}
 
 /* Comentarios */
