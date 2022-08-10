@@ -831,7 +831,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#header .is-search-form.is-form-id-26276 input[type='search']::placeholder{color:#FFFFFF}
 	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:3px;text-align:center;color:#FFFFFF;font-size:1em;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
 	#content-wrapper{padding-top:64px}
-	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:.5em}
+	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
 	.gp-blog-wrapper section .post-text h2{font-size:1.4em;line-height:1.15}
 	.gp-blog-wrapper section .post-text h2:before{width:1em;height:1em}
@@ -839,11 +839,11 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body.page-template-default:not(.home) .post-thumbnail.single-thumbnail, body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img,body:not(.home) .padder{border-radius:0}
 	body.single .gp-meta-date{margin-bottom:.4em}
 	body.single .gp-post-meta{display:block}
-	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;font-size:.78em}
-	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.widget h3.toggle i{width:24px}
 	.ui-tabs-nav>li{display:contents}
-	#content .ui-tabs .ui-tabs-nav li{margin-bottom:.4em;margin-right:.4em}
+	#post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em}
+	body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.78em}
+	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0}
 	#copyright{padding-top:0;font-size:.8em;line-height:1.2}
