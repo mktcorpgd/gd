@@ -242,8 +242,8 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em;clear:both}
-.gp-blog-wrapper section .post-thumbnail{margin-bottom:0}
-.gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
+.gp-blog-wrapper section .post-thumbnail{margin:0}
+.gp-blog-wrapper section .post-thumbnail img{background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 6px 18px 0 rgba(0,0,0,.2);transform:translateY(-2px)}
 .columns{margin-bottom:.5em;line-height:1.2}
