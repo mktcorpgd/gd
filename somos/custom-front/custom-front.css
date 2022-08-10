@@ -1,8 +1,6 @@
 /* Oculto forzado */
 /* Admin */
 #wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
-body:not(.role-administrator) .only-admin,
-body:not(.role-administrator) #custom_html-25,
 /* Metas */
 .single .gp-entry-meta i,.gp-post-meta:before,body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],
 body.archive.category-2796 .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/'],
@@ -28,14 +26,13 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 body:not(.single-event) article.event p,body.single-event .entry-content h4,.eventorganiser-event-meta+hr,.eo-event-meta~hr,.gp-blog-wrapper>.eo-events-nav,
 /* Posts */
 .gp-blog-wrapper[class*='gp-blog-columns'] section.category-un .post-text,
-/* Comerciales */
-body:not(.role-administrator):not(.role-marketing):not(.role-comercial_ar) section.category-comerciales,
+/* Admin */
+body:not(.role-administrator) .only-admin,
+body:not(.role-administrator) #custom_html-25,
 /* Entradas */
 .post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.home) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
 /* Home */
 body.home .page-title,body.home .gp-meta-cats,
-/* Push */
-#webpushr-bell-optin>promptbox3>promptpopup>popup_poweredby,notification_time,
 /* Búsquedas laborales */
 body[class*='category-busquedas-laborales'] .gp-meta-cats a[href$='/busquedas-laborales-argentina/'],
 /* YouTube */
