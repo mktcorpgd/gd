@@ -143,7 +143,7 @@ span.resaltado-verde{color:#76923C}
 .gp-meta-cats{font-size:0}
 body.archive .gp-meta-cats{width:100%}
 body.single article.category-beneficios .gp-meta-cats{padding-left:0;border-left:none}
-body.page h1+.gp-post-meta{text-align:center}
+body.page h1+.gp-post-meta{width:100%;text-align:center}
 body.single .gp-entry-meta .gp-meta-date{margin:0 .8em 1em 0;font-size:.8em}
 h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 1em 0 0;white-space:nowrap;font-family:'Neo-Sans',sans-serif;font-weight:500;line-height:1;text-decoration:none!important}
@@ -222,7 +222,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #post-content{float:left;margin-bottom:2em;line-height:1.3;overflow:visible}
 #post-content>ul,#post-content>ol{margin:0 0 10px 20px}
 #post-content>h2{margin-top:0}
-body:not(.home) .padder{background:#FFFFFF;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+body:not(.home) .padder{background:#FFFFFF;border-top-width:12px;border-top-style:solid;border-top-color:transparent;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body.post-template-default.single h1{color:#0E316E}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
 body.post-template-default.single #content article[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1,body.page-id-28032 #content h1,body.page-id-28029 #content h1{color:#1C8DCE}
@@ -242,7 +242,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:0 .8em .5em;clear:both}
-.post-thumbnail.wrap{width:100%}
+.post-thumbnail.wrap{margin-bottom:2em;width:100%}
 .gp-blog-wrapper section .post-thumbnail img{padding:0;background:#0E316E;border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
 .gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 6px 18px 0 rgba(0,0,0,.2);transform:translateY(-2px)}
@@ -781,7 +781,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body.single .gp-entry-meta .gp-meta-cats{padding-left:.8rem;border-left:2px solid #EAEAEA}
 	body.fullwidth #content .gp-search{margin:.5em auto 0;padding:0 1em;width:80%}
 	body.home .padder{padding:0}
-	body:not(.home) .padder{border-radius:12px;border-top-style:solid;border-top-color:transparent}
+	body:not(.home) .padder{border-radius:12px}
 	body:not(.home) .post-thumbnail+.padder{border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder{border-top-width:6px;border-top-style:solid;border-top-color:#0E316E}
 	body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
