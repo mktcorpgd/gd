@@ -385,7 +385,7 @@ input.static_gmap+a:hover{border-color:#F0582B}
 /* Sidebar */
 .sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px}
 #text-7 .widget{text-align:center}
-.widget{line-height:1.3}
+.widget,.textwidget{line-height:1.3}
 .widget p{margin:0 0 .4em}
 .widget p a .fa{display:inline-block;padding-right:.3em}
 .widget h4{margin-bottom:10px;font-size:1.3em;color:#0E316E;text-align:center}
@@ -625,18 +625,8 @@ body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:a
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-right:none;border-top-right-radius:12px;border-bottom-right-radius:6px}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:#1F4483;color:#FFFFFF}
-#post-content .sc-tab-panel .embed{margin:-15px;border:none;border-radius:0}
-#post-content .sc-tab-panel iframe{border:none;border-radius:0}
-.widget .ui-tabs .ui-tabs-nav li a{padding:.2em .4em;margin-bottom:0;border-right:1px solid #CCCCCC;font-size:.9em;font-weight:400}
-.widget .ui-tabs .ui-tabs-nav li:first-child a{padding-left:0}
-.widget .ui-tabs .ui-tabs-nav li:last-child a{border-right:none}
+.textwidget .ui-tabs .ui-tabs-nav li a{padding:.2em .4em;margin-bottom:0;border-right:1px solid #CCCCCC;font-size:.9em;font-weight:400}
 .textwidget .sc-tabs .sc-tab-panel a[href*='mailto']{display:block;text-overflow:ellipsis;overflow:hidden}
-.textwidget .sc-tabs .sc-tab-panel>span{display:block;width:100%;margin-top:10px;color:#888888;font-family:'Neo-Sans',sans-serif;font-weight:500}
-.textwidget .sc-tabs .sc-tab-panel>span:first-child{margin-top:0}
-.textwidget .sc-tabs .sc-tab-panel>span+span{margin-top:2px;padding-top:4px;border-top:1px solid #DDDDDD}
-.textwidget .sc-tabs .sc-tab-panel>span:last-child+a{margin-bottom:10px}
-.sc-tab-panel>p em{font-size:.7em}
-.sc-tabs #UseyourDrive~.light{margin-top:0}
 
 /* Botones */
 #page-wrapper{overflow:visible}
@@ -819,11 +809,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	input,textarea,select{line-height:1.6em}
 	.sidebar{font-size:18px}
 	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
-	.gp-responsive .sidebar{margin:0!important}
-	.gp-responsive #page-wrapper{padding:0}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
-	#wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-radius:0!important}
 	#nav{position:absolute;top:0;right:0}
 	#logo{margin-top:14px;margin-left:12px}
 	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:4px;padding:.4em;color:#FAFAFA;background:none!important;border-radius:6px;font-size:1.2em;line-height:1}
@@ -842,15 +829,14 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#header{min-height:64px;padding:0;top:46px}
 	#header .is-search-form.is-form-id-26276{margin:0 auto;width:fit-content}
 	#header .is-search-form.is-form-id-26276 input[type='search']::placeholder{color:#FFFFFF}
-	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:8px;text-align:center;color:#FFFFFF;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
+	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:3px;text-align:center;color:#FFFFFF;font-size:1em;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
 	#content-wrapper{padding-top:64px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-template-columns:100%;grid-gap:.5em}
-	body.archive .gp-blog-wrapper,body.search-results .gp-blog-wrapper{display:block}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
 	.gp-blog-wrapper section .post-text h2{font-size:1.4em;line-height:1.15}
 	.gp-blog-wrapper section .post-text h2:before{width:1em;height:1em}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{-webkit-line-clamp:3}
-	body.single .post-thumbnail{width:100%;left:0}
+	body.page-template-default:not(.home) .post-thumbnail.single-thumbnail, body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img,body:not(.home) .padder{border-radius:0}
 	body.single .gp-meta-date{margin-bottom:.4em}
 	body.single .gp-post-meta{display:block}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{margin-bottom:.4em;font-size:.78em}
