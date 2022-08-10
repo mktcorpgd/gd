@@ -759,7 +759,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
 
 /* Footer */
-#copyright{padding:0 1em 2em;font-family:'Neo-Sans',sans-serif;color:#555555}
+#copyright{padding:0 1em 2em;font-family:'Neo-Sans',sans-serif;font-size:.8em;color:#555555}
+#copyright>div:nth-child(1){font-size:1.1em}
 #copyright a{display:inline-block;margin-bottom:.4em;color:#555555}
 #copyright a:hover{color:#1F4483}
 #copyright a~a{font-size:.9em;line-height:1.5}
