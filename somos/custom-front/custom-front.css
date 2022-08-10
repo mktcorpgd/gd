@@ -235,8 +235,8 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 #content .gp-blog-wrapper section .post-text p{margin-bottom:0;font-size:.9em;line-height:1.4}
 
 /* Imagen destacada */
-.post-thumbnail img{background:#0E316E}
-.post-thumbnail.single-thumbnail{margin-bottom:2em}
+.post-thumbnail.wrap{margin-bottom:2em}
+.post-thumbnail img,.post-thumbnail.single-thumbnail{background:#0E316E}
 .post-thumbnail.single-thumbnail,.post-thumbnail.single-thumbnail img{border-top-left-radius:12px;border-top-right-radius:12px}
 .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
 

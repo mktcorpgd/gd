@@ -6,7 +6,7 @@ body.page-id-31537 .slimScrollBarX,body.page-id-31537 .slimScrollRailX{display:n
 body.mfp-ajax-cur{cursor:wait}
 body.page-id-31537 .nav-header,body.page-id-31537 .post-loop.category-40gd time::after,body.page-id-31537 .gp-meta-cats,body.page-id-31537 .ilightbox-holder.smooth .ilightbox-container .ilightbox-caption,body.page-id-31537 .entry_edit,body.page-id-31537 .ilightbox-toolbar,#open-surprise{display:none!important}
 body.page-id-31537 h1+.gp-post-meta+#post-content{margin-top:0;margin-bottom:0}
-body.page-id-31537 .padder{padding-top:0;padding-bottom:0;background-color:transparent}
+body.page-id-31537 .padder{padding-top:0;padding-bottom:0;background-color:transparent;box-shadow:none}
 body.page-id-31537 .wp-block-columns{margin-bottom:0}
 .icons,.icons li{margin:0!important;padding:0}
 .icons li{list-style:none}
@@ -27,7 +27,7 @@ body.page-id-31537 .yotu-mode-grid ul li{transition:all .1s ease-in-out!importan
 body.page-id-31537 .yotu-mode-grid ul li:hover{box-shadow:0 14px 24px -12px #F0582B;transform:translateY(-2px)}
 body.page-id-31537 .yotu-mode-grid .yotu-video-title{padding-top:5px!important;padding-left:0!important}
 body.page-id-31537 .yotu-videos>ul{margin-bottom:0!important}
-body.page-id-31537 #content .yotu-videos .yotu-video h3{font-size:1.1em!important}
+body.page-id-31537 #content .yotu-videos .yotu-video h3{font-size:1em}
 body.page-id-31537 .yotu-column-3 li{padding-bottom:0!important}
 body.page-id-31537 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0!important}
 body.page-id-31537 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0!important}
@@ -36,16 +36,15 @@ body.page-id-31537 .wp-block-column #timelinegd{margin-top:0}
 body.page-id-31537 .wp-block-column #timelinegd,body.page-id-31537 .wp-block-column .wp-block-column:not(.no-bkg){background:rgba(255,255,255,.8)}
 body.page-id-31537 .party ul{margin-bottom:0!important}
 body.page-id-31537 .wp-block-columns.no-bkg .wp-block-column{margin:0 .5em;padding:0;background:none}
-body.page-id-31537 .party h4>img{width:24px;height:24px;border-radius:16px;position:relative;top:3px;margin-right:5px}
+body.page-id-31537 .party h4>img{width:16px;height:16px;border-radius:16px;position:relative;top:1px}
 body.page-id-31537 .party .grid-gallery{margin-top:.5em!important;margin-bottom:-1em}
 body.page-id-31537 .padder h3.toggle{margin-bottom:1em;font-size:1.2em}
 body.page-id-31537 .padder .toggle-box .sc-button{margin:0}
 body.page-id-31537 .padder h3.toggle+.toggle-box,body.page-id-31537 .gp-blog-wrapper{margin-bottom:1em}
 body.page-id-31537 .padder h3.toggle i{top:-1px;font-weight:400}
-body.page-id-31537 #content .wp-block-column>h4,body.page-id-31537 #content .wp-block-column>div>h4{margin:0 -1rem .6em!important;padding:.3em .4em;border-radius:12px;border-bottom-left-radius:2px;border-bottom-right-radius:2px;background:#0E316E;color:#FFFFFF}
 body.page-id-31537 .mfp-content .padder{box-shadow:none;border-radius:0}
 body.page-id-31537 .mfp-content h4{clear:both;margin-bottom:5px!important}
-body.page-id-31537 #content h4 i{display:inline-block;padding-left:5px;padding-right:10px;font-size:.9em;opacity:.8}
+body.page-id-31537 #content h4 i{padding-right:10px}
 body.page-id-31537 #content iframe{margin-top:1em}
 body.page-id-31537 #content .post-loop iframe{margin-top:.5em;border-radius:6px!important;border:1px solid #CCCCCC}
 body.page-id-31537 #content h1,body.page-id-31537 .mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{color:#0E316E!important;text-shadow:1px 2px 0px #FFFFFF}
@@ -142,7 +141,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 	body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) section[class*='category-40gd']{grid-template-columns:30% 70%!important}
 	body.page-id-31537 .is-search-form{display:none!important}
 	body.page-id-31537 .gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-thumbnail) .post-text{padding:.4em .6em!important}
-	body.page-id-31537 #content-wrapper{margin-top:6em;margin-bottom:0}
+	body.page-id-31537 #content-wrapper{margin-top:3em;margin-bottom:0}
 	body.page-id-31537 #content .post-loop iframe{max-height:167px}
 	body.page-id-31537 .mfp-content .post-loop .post-thumbnail{margin-bottom:0!important;border-width:0 1px 0 0!important}
 	body.home .post-loop[class*='category-40gd']{border-radius:6px!important}
