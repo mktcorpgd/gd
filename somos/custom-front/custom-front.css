@@ -70,7 +70,7 @@ body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-s
 h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:#333333;line-height:125%}
 h5,h6{font-weight:400}
-h1.page-title{margin:0 0 .5em;font-size:2em;font-weight:500;line-height:1.15}
+h1.page-title{float:left;width:100%;margin:0 0 .5em;font-size:2em;font-weight:500;line-height:1.15}
 h2{font-size:1.4em}
 h3{font-size:1.3em}
 h4{font-size:1.1em}
@@ -762,7 +762,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 #copyright{padding:0 1em 2em;font-family:'Neo-Sans',sans-serif;color:#555555}
 #copyright>div:nth-child(1){margin-bottom:.4em;font-size:1.1em}
 #copyright a{color:#555555}
-#copyright a:hover{color:#1F4483}
+#copyright a:hover{color:#1F4483;text-decoration:none}
 
 /* Desktop */
 @media (min-width:960px) {
