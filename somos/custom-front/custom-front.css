@@ -263,7 +263,6 @@ body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-col
 body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-thumbnail a,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section .post-text{padding:.2em .8em .8em;display:grid}
 .columns{margin-bottom:.5em;line-height:1.2}
 .columns.one.aligncenter{margin-top:0}
-.wp-block-columns{float:left}
 body.page-template-default:not(.home) .post-thumbnail{margin-bottom:2em;background:#0E316E}
 body.page-template-default:not(.home) .post-thumbnail.single-thumbnail,body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img{border-top-left-radius:12px;border-top-right-radius:12px}
 body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
