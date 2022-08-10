@@ -659,11 +659,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FOOTER - Copyright
-	var yy = new Date().getFullYear();
-	jQuery('<div class="bottom_logos"><a href="https://somos.grupodatco.com"><img src="/wp-content/uploads/gd-ima_h-one_color.svg" width="191" height="64" alt="40 años de Grupo Datco" /></a><br />© '+yy+' &bull; Somos Grupo Datco<br /><a href="https://www.linkedin.com/company/grupodatco" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Grupo Datco</a> &middot; <a href="https://www.linkedin.com/showcase/baitcon-gd" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Baitcon</a> &middot; <a href="https://www.linkedin.com/showcase/silicanetworks" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> Silica Networks</a> &middot; <a href="https://twitter.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Grupo Datco</a> &middot; <a href="https://twitter.com/baitcon_gd" target="_blank" rel="noopener"><i class="fab fa-twitter"></i> Baitcon</a> &middot; <a href="https://www.youtube.com/grupodatco" target="_blank" rel="noopener"><i class="fab fa-youtube"></i> Grupo Datco</a></div>').appendTo('#copyright');
-
-
 	// EVENTOS - Agregar enlace a eventos del mes en menú y calendario
 	var yy = new Date().getFullYear();
 	var mm = ('0'+(new Date().getMonth()+1)).slice(-2);

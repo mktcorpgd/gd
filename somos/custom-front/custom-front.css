@@ -237,8 +237,6 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 /* Entradas */
 .gp-blog-wrapper{float:left}
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
-.gp-blog-wrapper[class*='gp-blog-columns'] section{width:100%}
-.gp-blog-wrapper section{margin-bottom:0}
 .gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .8em;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .gp-blog-wrapper article.event ul{margin-bottom:0}
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
@@ -466,7 +464,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-box,.UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
 #UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500}
-#UseyourDrive .files .entry{border-radius:12px}
+#UseyourDrive .files .entry{margin-bottom:.4em;border-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:first-child{border-top-left-radius:12px;border-top-right-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:last-child{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
@@ -808,11 +806,13 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body,input,textarea,select{font-size:20px}
 	input,textarea,select{line-height:1.6em}
 	.sidebar{font-size:18px}
+	.gp-responsive #page-wrapper{padding:0}
 	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
 	#nav{position:absolute;top:0;right:0}
 	#logo{margin-top:14px;margin-left:12px}
+	#logo img{width:36px;height:36px}
 	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:4px;padding:.4em;color:#FAFAFA;background:none!important;border-radius:6px;font-size:1.2em;line-height:1}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
@@ -822,7 +822,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#mobile-nav .menu li li a{padding:.3em .5em}
 	#mobile-nav .menu li .sub-menu{background:#1F4483}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
-	#mobile-nav .menu li .mobile-dropdown-icon{line-height:2.35em;color:#FAFAFA}
+	#mobile-nav .menu li .mobile-dropdown-icon{padding-right:16px;line-height:2.35em;color:#FAFAFA}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:#FFFFFF}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
