@@ -237,7 +237,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 /* Entradas */
 .gp-blog-wrapper{float:left}
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:grid}
-.gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .8em;width:100%!important;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
+.gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .8em;width:100%;background:#FFFFFF;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .gp-blog-wrapper article.event ul{margin-bottom:0}
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
