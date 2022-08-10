@@ -759,10 +759,10 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
 
 /* Footer */
-.bottom_logos{padding:0 1em 2em;font-family:'Neo-Sans',sans-serif;color:#555555}
-.bottom_logos a{display:inline-block;margin-bottom:.4em;color:#555555}
-.bottom_logos a:hover{color:#1F4483}
-.bottom_logos a~a{font-size:.9em;line-height:1.5}
+#copyright{padding:0 1em 2em;font-family:'Neo-Sans',sans-serif;color:#555555}
+#copyright a{display:inline-block;margin-bottom:.4em;color:#555555}
+#copyright a:hover{color:#1F4483}
+#copyright a~a{font-size:.9em;line-height:1.5}
 
 /* Desktop */
 @media (min-width:960px) {
@@ -847,7 +847,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.jOrgChart table tr.child_box{padding:0}
 	#copyright{padding-top:0;font-size:.8em;line-height:1.2}
-	.bottom_logos a img{width:160px}
+	#copyright a img{width:160px}
 	.info-material{font-size:1rem}
 }
 @media (max-width:920px) and (orientation:portrait) {
