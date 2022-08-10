@@ -236,7 +236,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 
 /* Imagen destacada */
 .post-thumbnail img{background:#0E316E}
-.post-thumbnail.single-thumbnail{margin-bottom:1em}
+.post-thumbnail.single-thumbnail{margin-bottom:2em}
 .post-thumbnail.single-thumbnail,.post-thumbnail.single-thumbnail img{border-top-left-radius:12px;border-top-right-radius:12px}
 .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
 
