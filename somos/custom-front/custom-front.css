@@ -321,7 +321,7 @@ input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
 div[class*='wpcf7-response-'] a{text-decoration:underline}
 body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none}
 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg.info{padding:.8em 1em}
-.wpcf7-form>div+.wpcf7-response-msg{margin:0 0 .5em}
+.wpcf7-form>div+.wpcf7-response-msg{margin:0 auto .5em}
 .wpcf7-response-msg{background-color:#EAEAEA}
 .wpcf7-response-msg a{color:#F0582B}
 .wpcf7-response-msg.info{background-color:#0169B3}
