@@ -292,7 +292,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item{margin-right:0;padding-left:0}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{position:relative;bottom:1px;font-size:.8rem}
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
-.wpcf7-form-control.wpcf7-checkbox,.wpcf7-form-control.wpcf7-checkbox{position:relative;top:1px}
+.wpcf7-form-control.wpcf7-checkbox,.wpcf7-form-control.wpcf7-checkbox{position:relative;top:3px}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{display:block;margin:.4em 0 .8em}
 .wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
@@ -321,7 +321,6 @@ input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
 div[class*='wpcf7-response-'] a{text-decoration:underline}
 body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none}
 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg.info{padding:.8em 1em}
-.wpcf7-response-output strong,.wpcf7-response-msg strong{font-size:1.2em}
 .wpcf7-form>div+.wpcf7-response-msg{margin:0 0 .5em}
 .wpcf7-response-msg{background-color:#EAEAEA}
 .wpcf7-response-msg a{color:#F0582B}
