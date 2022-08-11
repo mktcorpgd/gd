@@ -403,7 +403,6 @@ jQuery(document).ready(function() {
 				if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
 					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
-					jQuery('input[name^='+inputtext_name+']').val('');
 				}
 				else {
 					jQuery('input[name='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
