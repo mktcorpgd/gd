@@ -394,6 +394,12 @@ jQuery(document).ready(function() {
 				else if ( checkbox_name.indexOf('NOT') > -1 ) {
 					jQuery('input[name='+inputtext_name+']').val('—').attr('disabled',true);
 				}
+				else if ( checkbox_name.indexOf('CHECK') > -1 ) {
+					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
+					console.log(checkbox_checked);
+					console.log(jQuery('input[name='+inputtext_name+']').val());
+					jQuery('input[name='+inputtext_name+']').val('—').attr('disabled',true);
+				}
 				else {
 					var checkbox_checked = jQuery(this).siblings('.wpcf7-list-item-label').text();
 					jQuery(this).val('*'+checkbox_checked);
