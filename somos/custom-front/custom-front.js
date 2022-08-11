@@ -480,8 +480,10 @@ jQuery(document).ready(function() {
 			jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
 			jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
 			jQuery('input[name=EMAILPAX]').val(jQuery('input[name=EMAIL]').val());
-			jQuery('input[name=PHONEPAX]').val(jQuery('input[name=PHONE]').val());
-		}
+			jQuery('input[name=PHONEPAX]').val(jQuery('input[name=gdPHONE_mc]').val());
+			jQuery('input[name=DNIPAX]').val(jQuery('input[name=gdDNI_mc]').val());
+			jQuery('input[name=NACPAX]').val(jQuery('input[name=gdBIRTH_mc]').val());
+			}
 		samedataPaxChecked();
 		jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 			if ( this.checked ) {
