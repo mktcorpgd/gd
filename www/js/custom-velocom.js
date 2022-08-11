@@ -62,7 +62,7 @@ if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-
 
 // CONTENIDO - Si cambia la localidad recargar con información respectiva
 jQuery('select[name*=LOC]').change(function() {
-	if ( window.location.href == 'https://www.velocom.com.ar/' || (jQuery('body').hasClass('postid-24725')) || (jQuery('body').hasClass('postid-23640')) || (jQuery('body').hasClass('postid-24906')) ) {
+	if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 		if ( !jQuery('body').hasClass('modal-open') && jQuery(this).val() != '' ) {
 			jQuery('#cargando-btn').trigger('click');
 			var lugar_name = jQuery(this).val();
