@@ -44,9 +44,7 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 /* Otros */
 .gp-meta-cats a[href$='/categoria/uns/'],
 /* Google Maps */
-.pac-icon,.pac-logo:after,
-/* :not AR */
-body:not([class*='office-ar']) #menu-item-10707{display:none!important}
+.pac-icon,.pac-logo:after{display:none!important}
 /* Oculto no forzado */
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 /* Modal */
