@@ -297,7 +297,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
-.wpcf7>label{float:left}
+.wpcf7-form>label{float:left}
 .wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
