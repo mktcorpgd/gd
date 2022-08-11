@@ -365,7 +365,7 @@ div.wpcf7 .ajax-loader.is-active{visibility:visible}
 .pac-item-query,.pac-item-query+span{float:left;line-height:1.5}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
 input.static_gmap.filled{border-bottom-left-radius:0;border-bottom-right-radius:0}
-input.static_gmap+a{display:block;position:relative;margin-top:-11px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
+input.static_gmap+a{display:block;position:relative;margin-top:-11px;margin-bottom:10px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 input.static_gmap+a img{display:block}
 input.static_gmap+a:hover{border-color:#F0582B}
 
