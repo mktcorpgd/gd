@@ -69,7 +69,7 @@ jQuery('select[name*=LOC]').change(function() {
 			var lugar_class = normalize(lugar_name);
 			if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 			setTimeout(function(){
-				if ( window.location.href == 'https://www.velocom.com.ar/' ) {
+				if ( jQuery('body').hasClass('home') ) {
 					document.location = 'https://www.velocom.com.ar/internet/?lugar='+lugar_name;
 				}
 				else if ( window.location.href.indexOf('?') > -1 ) {
