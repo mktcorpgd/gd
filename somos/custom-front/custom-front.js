@@ -389,7 +389,7 @@ jQuery(document).ready(function() {
 				else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
 					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name='+inputtext_name+'PLACE]').val('—').attr('readonly',true);
-					jQuery('input[name^='+inputtext_name+'DATE]').attr('disabled',true);
+					jQuery('input[name^='+inputtext_name+'DATE]').val('').attr('disabled',true);
 				}
 				else if ( checkbox_name.indexOf('NOT') > -1 ) {
 					jQuery('input[name='+inputtext_name+']').val('—').attr('disabled',true);
