@@ -494,15 +494,18 @@ jQuery(document).ready(function() {
 				jQuery('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
 			}
 		});
+		var samedata_is_checked = jQuery('input[name="SAMEDATAPAX[]"]').is(':checked');
 		jQuery('input[name="PAXWHAT"]').change(function() {
 			jQuery('.wpcf7-submit').removeClass('disabled');
-			if ( this.value == 'Envío') {
+			if ( this.value == 'Envío' ) {
 				jQuery('input[name=FNAMEPAX]').val('');
 				jQuery('input[name=LNAMEPAX]').val('');
 			}
 			else {
-				jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
-				jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());
+				if ( samedata_is_checked == true ) {
+					jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
+					jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());	
+				}
 			}
 		});
 
