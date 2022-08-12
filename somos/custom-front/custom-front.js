@@ -58,9 +58,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('iframe[src*="docs.google.com/forms"]').length ) {
 
 		// Traer nombre, apelliedo y mail
-		var fname = jQuery('#usrfname').text();
-		var lname = jQuery('#usrlname').text();
-		var email = jQuery('#usremail').text();
+		var fname = jQuery('#usrfname').val();
+		var lname = jQuery('#usrlname').val();
+		var email = jQuery('#usremail').val();
 
 		// Generación de URL <iframe>
 		var formid = jQuery('#gform').text();

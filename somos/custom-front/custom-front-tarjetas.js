@@ -7,9 +7,9 @@ jQuery(document).ready(function() {
 
 
 	// Asignación de nombre, apellido, email, usuario y QR
-	var fname = jQuery('#usrfname').text();
-	var lname = jQuery('#usrlname').text();
-	var email = jQuery('#usremail').text();
+	var fname = jQuery('#usrfname').val();
+	var lname = jQuery('#usrlname').val();
+	var email = jQuery('#usremail').val();
 	var username = jQuery('#wp-admin-bar-user-info .username').text().toLowerCase().replace(' ','-');
 	jQuery('span.fname').text(fname);
 	jQuery('span.lname').text(lname);
