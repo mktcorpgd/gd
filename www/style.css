@@ -1357,8 +1357,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-recent-works.fusion-portfolio-two .fusion-portfolio-wrapper{grid-template-columns:100%!important}
 	.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content:before{padding-bottom:5px}
 	.fusion-footer .fusion-social-network-icon{min-width:32px}
-	.partners{margin:0 -20px;padding:0!important}
-	#partners_footer .fusion-layout-column,#partners_footer .fusion-layout-column.fusion-one-sixth{margin-right:0!important;padding:0 3%!important;width:50%!important}
+	#partners_footer .fusion-layout-column,#partners_footer .fusion-layout-column.fusion-one-sixth{padding:0 3%!important;width:50%!important}
 	body #posts-container .fusion-blog-layout-grid .fusion-post-grid{padding-left:0!important;padding-right:0!important}
 	body.search article.fusion-post-grid.format-standard:not(.avada_portfolio) .fusion-image-wrapper{max-height:75px}
 	.partners-logos .fusion-imageframe{margin:1em!important;max-width:120px!important}
