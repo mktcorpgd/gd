@@ -31,7 +31,6 @@ jQuery(document).ready(function() {
 		var span_class = jQuery('.tpdata:eq('+i+')').attr('class');
 		tp_data[span_class] = span_value;
 	});
-	//tp_web['zerog_networks'] = '0gnetworks.com.ar';
 	tp_web['grupo_datco'] = 'grupodatco.com';
 	tp_web['baitcon'] = 'baitcon.com';
 	tp_web['datco'] = 'datco.grupodatco.com';
@@ -83,39 +82,38 @@ jQuery(document).ready(function() {
 	// 1. Habilitar oficina después de seleccionar empresa
 	jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-grupo_datco-frente-22.png');
 	jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-grupo_datco-dorso-22.png');
-	jQuery('.wpcf7 select[name=ORG]').change(function(){
-		var tp_org = jQuery('select[name=ORG] option:selected').val();
-		tp_org = tp_org.replace(/ /g,'_').toLowerCase();
-		if ( tp_org.indexOf('(') != -1 ) {
-			tp_org = tp_org.substring(0,tp_org.indexOf('(')-1);
+	jQuery('.wpcf7 select[name=ORG]').change(function() {
+		if ( jQuery(this).val() != '—' ) {
+			var tp_org = jQuery('select[name=ORG] option:selected').val();
+			tp_org = tp_org.replace(/ /g,'_').toLowerCase();
+			if ( tp_org.indexOf('(') != -1 ) {
+				tp_org = tp_org.substring(0,tp_org.indexOf('(')-1);
+			}
+			jQuery('.tp').removeClass().addClass('tp '+tp_org);
+			if ( jQuery('body').hasClass('page-id-24225') ) {
+				jQuery('.tp').addClass('digital');
+			}
+			jQuery('#mobile-logo').fadeOut('fast', function() {
+			jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
+			}).fadeIn('fast');
+				jQuery('#tp_frente').fadeOut('fast', function() {
+				jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente-22.png');
+			}).fadeIn('fast');
+			jQuery('#tp_dorso').fadeOut('fast', function() {
+				jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso-22.png');
+			}).fadeIn('fast');
+			jQuery('.wpcf7-form>div.step2').css('opacity','1');
+			jQuery('.wpcf7-form>div.step2 :input').prop('disabled',false);
+			jQuery('.wpcf7-form>.step2').removeClass('step2');
+			if ( jQuery(window).width() < 960 ) {
+				jQuery('html,body').animate({scrollTop:jQuery('.wpcf7 select[name=OFFICE]').offset().top-150},'fast','linear',function(){
+					jQuery('.wpcf7 select[name=OFFICE]').focus();
+				});
+			}
+			var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text().replace(' ','-');
+			jQuery('input[name=USERNAME]').val(username);
+			jQuery('.tpdata.web').text(tp_web[tp_org]);
 		}
-		if ( tp_org.indexOf('zero') != -1 ) {
-			tp_org = tp_org.replace(/0/g,'zero').toLowerCase();
-		}
-		jQuery('.tp').removeClass().addClass('tp '+tp_org);
-		if ( jQuery('body').hasClass('page-id-24225') ) {
-			jQuery('.tp').addClass('digital');
-		}
-		jQuery('#mobile-logo').fadeOut('fast', function() {
-		jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
-		}).fadeIn('fast');
-			jQuery('#tp_frente').fadeOut('fast', function() {
-			jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente-22.png');
-		}).fadeIn('fast');
-		jQuery('#tp_dorso').fadeOut('fast', function() {
-			jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso-22.png');
-		}).fadeIn('fast');
-		jQuery('.wpcf7-form>div.step2').css('opacity','1');
-		jQuery('.wpcf7-form>div.step2 :input').prop('disabled',false);
-		jQuery('.wpcf7-form>.step2').removeClass('step2');
-		if ( jQuery(window).width() < 960 ) {
-			jQuery('html,body').animate({scrollTop:jQuery('.wpcf7 select[name=OFFICE]').offset().top-150},'fast','linear',function(){
-				jQuery('.wpcf7 select[name=OFFICE]').focus();
-			});
-		}
-		var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text().replace(' ','-');
-		jQuery('input[name=USERNAME]').val(username);
-		jQuery('.tpdata.web').text(tp_web[tp_org]);
 	});
 
 
