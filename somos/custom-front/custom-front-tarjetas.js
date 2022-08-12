@@ -15,10 +15,6 @@ jQuery(document).ready(function() {
 	jQuery('span.lname').text(lname);
 	jQuery('span.email').text(email);
 	jQuery('input[name=USERNAME]').val(username);
-	jQuery('img#qr').attr({
-		src: 'https://qr.gdat.co/d/'+username+'/10/H/5',
-		alt: 'QR '+fname+' '+lname
-	});
 
 
 	// Datos de tarjetas
