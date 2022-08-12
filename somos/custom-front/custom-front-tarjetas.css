@@ -11,10 +11,6 @@
 #content .columns .tp ul li{font-family:'Neo-Sans',sans-serif;list-style:none}
 #content .columns.two .tp ul li{margin:0;padding-bottom:4.5px;min-height:19.5px;color:#333333;font-size:15px;line-height:1}
 #content .columns.two .tp ul li{background-repeat:no-repeat;background-position:18px -2px;background-size:20px}
-#content .columns.two .tp ul li:first-child{background-image:url('https://somos.grupodatco.com/wp-content/uploads/icontp-mail.png')}
-#content .columns.two .tp ul li:nth-child(2){background-image:url('https://somos.grupodatco.com/wp-content/uploads/icontp-mobile_phone.png')}
-#content .columns.two .tp ul li:nth-child(3){background-image:url('https://somos.grupodatco.com/wp-content/uploads/icontp-phone.png')}
-#content .columns.two .tp ul li:last-child{background-image:url('https://somos.grupodatco.com/wp-content/uploads/icontp-address.png')}
 #content .columns.two .tp ul li:last-child{margin-top:15px}
 #content .columns.two .tp h2,#content .columns.two .tp h4{padding:0;color:#FFFFFF;text-indent:23px}
 #content .columns.two .tp h2{bottom:63px;font-size:22.5px}

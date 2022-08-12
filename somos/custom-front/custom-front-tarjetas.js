@@ -32,14 +32,14 @@ jQuery(document).ready(function() {
 		tp_data[span_class] = span_value;
 	});
 	//tp_web['zerog_networks'] = '0gnetworks.com.ar';
-	tp_web['grupo_datco'] = 'www.grupodatco.com';
-	tp_web['baitcon'] = 'www.baitcon.com';
+	tp_web['grupo_datco'] = 'grupodatco.com';
+	tp_web['baitcon'] = 'baitcon.com';
 	tp_web['datco'] = 'datco.grupodatco.com';
 	tp_web['focus'] = 'focus.grupodatco.com';
 	tp_web['interservices'] = 'interservices.grupodatco.com';
 	tp_web['sersat'] = 'sersat.grupodatco.com';
-	tp_web['silica_networks'] = 'www.silicanetworks.com';
-	tp_web['velocom'] = 'www.velocom.com.ar';
+	tp_web['silica_networks'] = 'silicanetworks.com';
+	tp_web['velocom'] = 'velocom.com.ar';
 	tp_address['ar_caba - catulo castillo'] = 'Cátulo Castillo 3251 (C1261ACB)<br />Distrito Tecnológico, CABA<br />Argentina';
 	tp_phone['ar_caba - catulo castillo'] = '+54 (11) 4103-1300';
 	tp_address['ar_caba - san martin'] = 'San Martín 640 (C1004AAN)<br />Microcentro, CABA<br />Argentina';
@@ -98,10 +98,10 @@ jQuery(document).ready(function() {
 		jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
 		}).fadeIn('fast');
 			jQuery('#tp_frente').fadeOut('fast', function() {
-			jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente.png');
+			jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente-22.png');
 		}).fadeIn('fast');
 		jQuery('#tp_dorso').fadeOut('fast', function() {
-			jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso.png');
+			jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso-22.png');
 		}).fadeIn('fast');
 		jQuery('.wpcf7-form>div.step2').css('opacity','1');
 		jQuery('.wpcf7-form>div.step2 :input').prop('disabled',false);
