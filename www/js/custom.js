@@ -186,20 +186,12 @@ jQuery(document).ready(function() {
 		jQuery('#wrapper').addClass('no-header-logo');
 	}
 
-	// BLOG - Eliminar link de autor
-	jQuery('a[rel=author],.meta-tags a').removeAttr('href');
-
 	// CONTENIDOS - Abrir en una nueva pestaña
 	jQuery(document).on('click','body.site-id-26 #prensa .fusion-post-content.post-content>h2>a,body.site-id-26 #prensa span.meta-tags a',function(e) {
 		window.open(this.href,'_blank');
 		e.preventDefault();
 		e.stopPropagation();
 	});
-
-	// CONTENIDOS - Eliminar etiquetas si hay más de 1
-	if ( jQuery('.fusion-meta-info-wrapper>.meta-tags a').length > 1 ) {
-		jQuery('.fusion-meta-info-wrapper>.meta-tags a[rel="category tag"]+.fusion-inline-sep').remove();
-	}
 
 	// CONTENIDOS - Categorías de países como banderas
 	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
@@ -720,12 +712,6 @@ jQuery(document).ready(function() {
 		var mail_href = jQuery('#boxed-wrapper~.modal .wpcf7 .fusion-one-full>a:not(.CF7-phone)').attr('href');
 		jQuery('#boxed-wrapper~.modal .wpcf7 .fusion-one-full>a:not(.CF7-phone)').attr('href',mail_href+'?subject=Contacto desde '+window.location);
 		e.preventDefault();
-	});
-
-
-	// PORTFOLIO - Cambiar orden de meta en grilla
-	jQuery('.fusion-portfolio-content').each(function(i) {
-		jQuery('.fusion-portfolio-content:eq('+i+') .fusion-portfolio-meta').insertBefore('.fusion-portfolio-content:eq('+i+') .fusion-post-title');
 	});
 
 
