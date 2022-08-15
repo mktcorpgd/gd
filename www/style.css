@@ -32,7 +32,7 @@ sup{line-height:1!important}
 select{color:#666666!important;cursor:pointer}
 select:not(.highlight) option:not(:checked),.wpcf7-select.selected{color:#333333!important}
 .post-content p b,.post-content p strong{font-weight:600!important}
-iframe{width:100%}
+iframe,.fullwidth-modal{width:100%!important}
 video{outline:none!important;cursor:pointer}
 h1 em,h2 em,h3 em,h4 em,h5 em,h6 em{font-style:normal!important}
 .post-content h1 strong,.post-content h2 strong,.post-content h3 strong,.post-content h4 strong,.post-content h5 strong,.post-content h6 strong{font-weight:500!important}
