@@ -12,6 +12,7 @@ body.branding .fusion-footer-widget-area{margin:0;padding:0!important;height:0}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2.menu-item-26501{width:35%!important}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2.menu-item-26502{width:65%!important}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter,.cta,.fusion-testimonials.clean .author strong{color:#0E316E!important}
+.fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a, .fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a, .fusion-portfolio .fusion-portfolio-content-wrapper h2 a, body.search .fusion-post-wrapper h2 a{color:#0E316E}
 body.single-avada_portfolio .fusion-page-title-bar{background:#0E316E!important}
 body.single-avada_portfolio .fusion-page-title-bar h1{color:#FFFFFF!important}
 body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:rgba(255,255,255,.8)}
