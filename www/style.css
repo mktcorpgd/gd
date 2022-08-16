@@ -830,7 +830,6 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .fusion-page-title-bar h3{color:#666666!important;font-family:'Open-Sans',sans-serif!important;font-weight:400;font-size:14px!important;letter-spacing:1px!important;text-transform:uppercase}
 .fusion-single-line-meta{display:inline-block;width:100%}
 .fusion-meta-info-wrapper,.fusion-single-line-meta,.meta-tags{color:#AAAAAA!important}
-.fusion-meta-info-wrapper,.fusion-meta-info-wrapper .meta-tags,.fusion-single-line-meta{font-size:0}
 .fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a,.fusion-single-line-meta span:not(.meta-tags),.fusion-single-line-meta a{font-size:.7rem!important}
 .fusion-meta-info-wrapper>.fusion-inline-sep+a[rel='tag'],.fusion-single-line-meta>.fusion-inline-sep+a[rel*='tag']{padding-right:.3em!important}
 .fusion-meta-info-wrapper>a~a,.fusion-single-line-meta>a~a{padding:0 .6em!important}
