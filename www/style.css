@@ -826,8 +826,6 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .fusion-single-line-meta{display:inline-block;width:100%}
 .fusion-meta-info-wrapper,.fusion-single-line-meta,.meta-tags{color:#AAAAAA!important}
 .fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a,.fusion-single-line-meta span:not(.meta-tags),.fusion-single-line-meta a{font-size:.7rem!important}
-.fusion-meta-info-wrapper>.fusion-inline-sep+a[rel='tag'],.fusion-single-line-meta>.fusion-inline-sep+a[rel*='tag']{padding-right:.3em!important}
-.fusion-meta-info-wrapper>a~a,.fusion-single-line-meta>a~a{padding:0 .6em!important}
 .meta-tags a{cursor:text;text-decoration:none!important}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:#666666}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{margin-top:10px}
