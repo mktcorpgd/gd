@@ -961,7 +961,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.vertical-tabs .nav-tabs{padding-left:0;left:0}
 .fusion-tabs.vertical-tabs .tab-content{background:#FFFFFF}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
-.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-family:'Open-Sans',sans-serif;font-size:.9rem!important;white-space:nowrap}
+.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-family:'Open-Sans',sans-serif;font-size:1rem!important;white-space:nowrap}
 .fusion-tabs .nav-tabs li a{background:#EAEAEA!important;border:none;border-radius:0!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border:none!important;overflow:hidden}
 .fusion-tabs:not(.tab-filters) .nav-tabs li .tab-link .fusion-tab-heading{letter-spacing:0;position:relative}
