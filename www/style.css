@@ -873,6 +873,7 @@ a[rel='author']:hover{text-decoration:none!important}
 #partners_footer .fusion-builder-row:nth-child(1) .fusion-imageframe{max-width:220px!important}
 #partners_footer .fusion-builder-row:nth-child(1) img[src*='redhat']{opacity:.7!important}
 .partners img{margin-top:0}
+.partners .fusion-imageframe{border:none}
 #partners_footer{padding-bottom:20px}
 .logo-partner{border-radius:0!important}
 .portfolio-full .fusion-one-half .logo-partner img{width:75%!important}
