@@ -23,7 +23,7 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#1F4483}
 #content .button-default:hover,#content .button-default:focus,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,input[type='submit']:not(.sending):focus{border-color:#1F4483;background:#1F4483}
 .fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-top-header .fusion-header{background:var(--mainColor)}
-.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:var(--mainColor)}
+.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:var(--mainColor)!important}
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.table-2 thead tr td,.fusion-carousel .fusion-carousel-item img{background-color:var(--mainColor)}
 .related-posts .fusion-carousel .fusion-carousel-item .fusion-carousel-title a{color:var(--mainColor)}
 .related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a{color:var(--highlightColor)}
