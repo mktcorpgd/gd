@@ -1,6 +1,5 @@
 /* Grupo Datco */
-:root{--mainColor:#0E316E;--subColor:var(--subColor);--highlightColor:var(--highlightColor);}
-body a{color:var(--highlightColor)}
+:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;}
 body.branding .fusion-main-menu-search,body.branding .fusion-icon-search,body.branding .fusion-mobile-menu-search,
 #text-7 .textwidget br,.format-standard .fusion-post-content h2 a:before,body.single-format-standard #wpcf7-f39956-o1 img,
 article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(1),article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(1)+.fusion-inline-sep,body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1),body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1),body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep,article.category-guias .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep+span,article.category-guias .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep+span+.fusion-inline-sep,
@@ -13,43 +12,33 @@ body.branding .fusion-footer-widget-area{margin:0;padding:0;height:0}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2.menu-item-26501{width:35%}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2.menu-item-26502{width:65%}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter,.cta,.fusion-testimonials.clean .author strong{color:var(--mainColor)}
-body.single-avada_portfolio .fusion-page-title-bar{background:var(--mainColor)}
+body.single-avada_portfolio .fusion-page-title-bar,.fusion-panel table thead tr td,.fusion-panel table thead tr th,.fusion-text table thead tr td,.fusion-text table thead tr th,.brand-block>.fusion-column-wrapper>.fusion-column-content-centered,.fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-top-header .fusion-header,#wrapper.header-transparent .fusion-header.bkg{background:var(--mainColor)}
 body.single-avada_portfolio .fusion-page-title-bar h1{color:#FFFFFF}
+body a,.related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a,.fusion-highlight,.datasheet-link,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover h2 a,.content-box-wrapper.link-area-box-hover .icon,.content-box-wrapper.link-area-box-hover .heading-link,.box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button,.fusion-accordian .panel-heading .panel-title a,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a,.fusion-testimonials.clean .author a:hover,#main #comment-submit,.wpcf7 .fusion-one-full>a{color:var(--highlightColor)}
 body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:rgba(255,255,255,.8)}
 .fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.fusion-fullwith:not(.white) input[type='submit'],.fusion-fullwith:not(.white) .wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{border-color:var(--highlightColor);background:var(--highlightColor);color:#FFFFFF}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:var(--mainColor)!important}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.table-2 thead tr td,.fusion-carousel .fusion-carousel-item img{background-color:var(--mainColor)}
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.table-2 thead tr td,.fusion-carousel .fusion-carousel-item img,.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background-color:var(--mainColor)}
 .related-posts .fusion-carousel .fusion-carousel-item .fusion-carousel-title a{color:var(--mainColor)}
-.related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a{color:var(--highlightColor)}
-.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background-color:var(--mainColor)}
 input[type='submit']:hover,.wpcf7-submit:hover{background-color:var(--highlightColor)}
 .bkg-img-color{background-color:var(--highlightColor)}
 .gradient-gray{background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.2) 200%)}
 .w80 .wpcf7 .wpcf7-submit:hover{border-color:#FFFFFF}
-.fusion-highlight,.datasheet-link{color:var(--highlightColor)}
-.post-content p strong a:hover,.post-content p>a:hover,.post-content p>a:active,.post-content ol li a:hover,.post-content ol li a:active,.post-content ul li a:hover,.post-content ul li a:active,.wpcf7 .fusion-one-full a:hover,.wpcf7 .fusion-one-full a:active,.fusion-accordian .panel-title a:hover,.toggle-content a:hover,.datasheet-link:hover,.fusion-accordian .panel-title a:hover .fa-fusion-box{color:var(--subColor)}
+.post-content p strong a:hover,.post-content p>a:hover,.post-content p>a:active,.post-content ol li a:hover,.post-content ol li a:active,.post-content ul li a:hover,.post-content ul li a:active,.wpcf7 .fusion-one-full a:hover,.wpcf7 .fusion-one-full a:active,.fusion-accordian .panel-title a:hover,.toggle-content a:hover,.datasheet-link:hover,.fusion-accordian .panel-title a:hover .fa-fusion-box,.fusion-tabs .nav-tabs li a:hover,.fusion-content-boxes .heading .heading-link:hover .content-box-heading,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-accordian .panel-title a.active .fusion-toggle-heading{color:var(--subColor)}
 .fusion-one-third.box-company h5,.fusion-one-fourth.box-company h5,.fusion-one-third.box-company:hover h5,.fusion-one-fourth.box-company:hover h5{color:#FFFFFF}
-.fusion-accordian .panel-heading .panel-title a,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a,.fusion-testimonials.clean .author a:hover,#main #comment-submit,.wpcf7 .fusion-one-full>a{color:var(--highlightColor)}
 .fusion-footer .fusion-layout-column{margin-bottom:0}
 .fusion-footer .fusion-layout-column .fusion-imageframe,#partners_footer .fusion-imageframe{border:0}
 #respond{margin-top:4em}
 #main #comment-submit:hover{background-color:var(--subColor)}
 .fusion-reading-box-container .reading-box{border:2px solid rgba(0,0,0,.1)}
 .fusion-portfolio-grid .fusion-portfolio-post[class*='f-'] .fusion-post-content .fusion-layout-column{margin:0}
-.fusion-tabs .nav-tabs li a:hover,.fusion-content-boxes .heading .heading-link:hover .content-box-heading,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{color:var(--subColor)}
-.brand-block>.fusion-column-wrapper{border-color:rgba(240,88,43,.6)}
-.brand-block>.fusion-column-wrapper>.fusion-column-content-centered,.fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-top-header .fusion-header,#wrapper.header-transparent .fusion-header.bkg{background:var(--mainColor)}
 .sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck #text-7{margin-top:0}
-.box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:var(--highlightColor)}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:var(--subColor)}
 body.home #wrapper #main .fusion-post-grid.category-blog .blog-shortcode-post-title{font-size:1.4em}
 .fusion-content-boxes.shadow>.fusion-column>.col,.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid var(--subColor)}
 .fusion-content-boxes.shadow>.fusion-column>.col:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid var(--highlightColor)}
-.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover h2 a,.content-box-wrapper.link-area-box-hover .icon,.content-box-wrapper.link-area-box-hover .heading-link{color:var(--highlightColor)}
-.fusion-panel table thead tr td,.fusion-panel table thead tr th,.fusion-text table thead tr td,.fusion-text table thead tr th{background:var(--mainColor)}
 .post-content div blockquote,.fusion-testimonials.clean .author,.fusion-testimonials .testimonial-pagination{border-left-color:#FFB201}
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.8));z-index:1}
-.fusion-accordian .panel-title a.active .fusion-toggle-heading{color:var(--subColor)}
 .rotate{transition:all 2s ease-out}
 .fusion-portfolio-content .fusion-portfolio-meta{margin:-9px 0 0;padding-left:20px;padding-right:20px;position:absolute;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta + h2 a{padding-top:.4em}
