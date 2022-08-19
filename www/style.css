@@ -748,7 +748,6 @@ input.pdfemb-page-num{border-radius:6px;color:#333333}
 .fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;font-size:1.1em!important;font-family:'Open-Sans',sans-serif}
 .fusion-buttons .fusion-button.button-right span{font-weight:400!important}
 .fusion-buttons .fusion-button.button-left span,.fusion-portfolio .c-solo-contacto .fusion-button.button-right span,.fusion-portfolio .tag-solo-contacto .fusion-button.button-right span{font-weight:600!important}
-.fusion-portfolio .c-solo-contacto .fusion-button.button-flat:not(.no-text),.fusion-portfolio .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-button.button-flat:not(.no-text),.no-read-button .fusion-button.button-flat:not(.no-text){border-top-left-radius:0!important;border-bottom-left-radius:0!important}
 .fusion-button.no-text i{margin:0!important}
 .fusion-two-third .fusion-portfolio.fusion-portfolio-three .fusion-portfolio-content .fusion-buttons{position:relative}
 .fusion-two-third .fusion-portfolio.fusion-portfolio-three .fusion-post-content{padding-bottom:0}
