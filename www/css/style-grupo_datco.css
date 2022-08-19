@@ -29,7 +29,7 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a{color:var(--highlightColor)}
 .fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background-color:var(--mainColor)}
 input[type='submit']:hover,.wpcf7-submit:hover{background-color:var(--highlightColor)}
-#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type="submit"],.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type="submit"],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type="submit"],.wpcf7-form input[type="submit"],.wpcf7-submit,input.button-default{background:var(--highlightColor);color:#FFFFFF}
+#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type="submit"],.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type="submit"],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type="submit"],.wpcf7-form input[type="submit"],.wpcf7-submit,input.button-default{background:var(--highlightColor)!important;color:#FFFFFF}
 .bkg-img-color{background-color:var(--highlightColor)}
 .gradient-gray{background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.2) 200%)}
 .w80 .wpcf7 .wpcf7-submit:hover{border-color:#FFFFFF}
@@ -81,7 +81,7 @@ body.single-format-standard #wpcf7-f39956-o1 h3,body.archive #wpcf7-f39956-o1 h3
 body.page-id-39954 .fusion-fullwidth .wpcf7{padding:15px 30px;background:#FFFFFF;border-radius:12px;box-shadow:0 0 16px var(--highlightColor)}
 
 /* Modal */
-.fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
+.fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)!important}
 body.branding .fusion-modal.contacto-rapido .fusion-fullwidth>.fusion-builder-row>.fusion-layout-column:not(.fusion-column-last){width:100%}
 
 /* IoP: Smartcloud */
