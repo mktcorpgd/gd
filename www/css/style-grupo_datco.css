@@ -19,8 +19,6 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.fusion-fullwith:not(.white) input[type='submit'],.fusion-fullwith:not(.white) .wpcf7-form input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{border-color:var(--highlightColor);background:var(--highlightColor);color:#FFFFFF}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{background:#1F4483}
 .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover span,.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left{background:none;color:#FFFFFF}
-.fusion-main-menu .fusion-menu-item-button .menu-text:hover span{background:none;color:var(--highlightColor)}
-.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#1F4483}
 #content .button-default:hover,#content .button-default:focus,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,input[type='submit']:not(.sending):focus{border-color:#1F4483;background:#1F4483}
 .fusion-header,#wrapper.header-transparent .fusion-header.bkg,.fusion-top-header .fusion-header{background:var(--mainColor)}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:var(--mainColor)!important}

@@ -160,7 +160,8 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu .fusion-menu-item-button a>span{font-weight:400;border-radius:6px!important;cursor:pointer}
 .fusion-main-menu .fusion-menu-item-button .button-icon-divider-left{top:-4px}
 .fusion-main-menu .fusion-menu-item-button,.fusion-main-menu .fusion-menu-item-button span{transition:none}
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)}
+.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)!important}
+.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text span.fusion-button-text-left{padding-left:20px;background:rgba(0,0,0,0);font-weight:400}
 .fusion-menu li.social-link a{padding:0 8px!important;font-weight:500!important;text-align:center}
 .fusion-megamenu-holder>ul>li>.fusion-megamenu-title>a[href='#no-title']{opacity:0}
