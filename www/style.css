@@ -160,7 +160,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu .fusion-menu-item-button a>span{font-weight:400;border-radius:6px!important;cursor:pointer}
 .fusion-main-menu .fusion-menu-item-button .button-icon-divider-left{top:-4px}
 .fusion-main-menu .fusion-menu-item-button,.fusion-main-menu .fusion-menu-item-button span{transition:none}
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)!important}
+.fusion-main-menu .fusion-menu-item-button .menu-text{transition:all .1s ease-in-out;background:rgba(0,0,0,.2)!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text span.fusion-button-text-left{padding-left:20px;background:rgba(0,0,0,0);font-weight:400}
 .fusion-menu li.social-link a{padding:0 8px!important;font-weight:500!important;text-align:center}
@@ -746,6 +746,7 @@ input.pdfemb-page-num{border-radius:6px;color:#333333}
 .fusion-portfolio .fusion-post-content{float:left}
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:.3em;padding-left:1em;padding-bottom:.6em;z-index:10}
 .fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;font-size:1.1em!important;font-family:'Open-Sans',sans-serif}
+.fusion-buttons .fusion-button.button-right{margin-left:.4em}
 .fusion-buttons .fusion-button.button-right span{font-weight:400!important}
 .fusion-buttons .fusion-button.button-left span,.fusion-portfolio .c-solo-contacto .fusion-button.button-right span,.fusion-portfolio .tag-solo-contacto .fusion-button.button-right span{font-weight:600!important}
 .fusion-button.no-text i{margin:0!important}
