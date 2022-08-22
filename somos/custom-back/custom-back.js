@@ -34,7 +34,7 @@ jQuery(document).ready(function(){
 
 
 	// USUARIOS - Perfil: deshabilitar ciertos campos y mover otros
-	jQuery('body.profile-php.no-customize-support input[name=gdCUIL_mc],body.profile-php.no-customize-support input[name=gdPHONE_mc], input[name=gdUNIT_mc], input[name=gdANNIV_mc], input[name=ocp_job_title], select[name=gdGroupfe587259d3], select[name=gdGroupa08454c0b0]').attr('disabled','disabled');
+	jQuery('body.profile-php.no-customize-support input[name=gdCUIL_mc],body.profile-php.no-customize-support input[name=gdPHONE_mc]').attr('disabled','disabled');
 	jQuery('.user-job-title-wrap').insertBefore('.user-unit-wrap');
 	
 
