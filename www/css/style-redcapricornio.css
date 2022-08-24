@@ -9,7 +9,6 @@ body.single-avada_portfolio .fusion-page-title-bar h1,body.single-avada_portfoli
 .fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{border-color:#B92917!important;color:#B92917}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover,.fusion-content-boxes .heading .heading-link:hover .content-box-heading{border-color:#B92917;background:#B92917;color:#FFFFFF}
 .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#B92917}
-.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:#FFFFFF;color:#B92917}
 #content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#B92917!important}
 .brand-bkg:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background-image:linear-gradient(90deg,rgba(17,84,29,1) 0%,rgba(185,41,23,1) 100%)}
 #wrapper.header-transparent .fusion-header.bkg:before{content:'';position:absolute;top:0;left:0;display:block;width:100%;height:100%;background-image:linear-gradient(90deg,rgba(17,84,29,.8) 0%,rgba(185,41,23,.8) 100%)!important}
