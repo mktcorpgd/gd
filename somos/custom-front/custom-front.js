@@ -498,13 +498,13 @@ jQuery(document).ready(function() {
 		jQuery('input[name="PAXWHAT"]').change(function() {
 			jQuery('.wpcf7-submit').removeClass('disabled');
 			if ( this.value == 'Envío' ) {
-				jQuery('input[name=FNAMEPAX]').val('');
-				jQuery('input[name=LNAMEPAX]').val('');
+				jQuery('input[name=FNAMEPAX1]').val('');
+				jQuery('input[name=LNAMEPAX1]').val('');
 			}
 			else {
 				if ( samedata_is_checked == true ) {
-					jQuery('input[name=FNAMEPAX]').val(jQuery('input[name=FNAME]').val());
-					jQuery('input[name=LNAMEPAX]').val(jQuery('input[name=LNAME]').val());	
+					jQuery('input[name=FNAMEPAX1]').val(jQuery('input[name=FNAME]').val());
+					jQuery('input[name=LNAMEPAX1]').val(jQuery('input[name=LNAME]').val());	
 				}
 			}
 		});
