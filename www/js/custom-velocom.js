@@ -17,9 +17,11 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
 	var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+	if ( lugar_class =='club-miralagos' ) {
+		jQuery('.radio').hide();
+	}
 	if ( lugar_class == 'null' && window.location.href.indexOf('internet') > 0 ) {
 		jQuery('.caption,.price span,#legales').hide();
-		
 	}
 	else {
 		jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
