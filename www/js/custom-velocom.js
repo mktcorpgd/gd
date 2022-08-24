@@ -37,25 +37,6 @@ if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-
 			jQuery('.hidden-bariloche').hide();
 		}
 	}
-	/*
-	if ( lugar_class == 'bahia-blanca' || lugar_class == 'monte-hermoso' ) {
-		var custom_tel = '+54291-571-0383';
-		var custom_mail = 'bahia.blanca@velocom.com.ar';
-		jQuery('.fusion-secondary-header span.fusion-contact-info-phone-number > a').text(custom_tel).attr('href','tel:'+custom_tel);
-		jQuery('.fusion-secondary-header span.fusion-contact-info-email-address > a').text(custom_mail).attr('href','mailto:'+custom_mail);
-		jQuery('input[name="RESP"]').val(custom_mail)
-	}
-	else if ( lugar_class == 'mar-del-plata' || lugar_class == 'chapadmalal' ) {
-		var custom_tel = '+54223-540-8251';
-		var custom_mail = 'mardelplata@velocom.com.ar';
-		jQuery('.fusion-secondary-header span.fusion-contact-info-phone-number > a').text(custom_tel).attr('href','tel:'+custom_tel);
-		jQuery('.fusion-secondary-header span.fusion-contact-info-email-address > a').text(custom_mail).attr('href','mailto:'+custom_mail);
-		jQuery('input[name="RESP"]').val(custom_mail)
-	}
-	else if ( lugar_class == 'colon-entre-rios' || lugar_class == 'concepcion-del-uruguay' ) {
-		var custom_tel = '+543447-50-9602';
-		jQuery('.fusion-secondary-header span.fusion-contact-info-phone-number > a').text(custom_tel).attr('href','tel:'+custom_tel);
-	}*/
 }
 
 
