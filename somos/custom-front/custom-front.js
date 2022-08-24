@@ -490,7 +490,7 @@ jQuery(document).ready(function() {
 				samedataPaxChecked();
 			}
 			else {
-				jQuery('input[name$=PAX]').val('');
+				jQuery('input[name$=PAX1]').val('');
 				jQuery('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
 			}
 		});
