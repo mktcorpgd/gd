@@ -20,6 +20,9 @@ if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-
 	if ( lugar_class == 'miralagos-country-club' ) {
 		jQuery('.radio').hide();
 	}
+	else {
+		jQuery('.ftth').hide();
+	}
 	if ( lugar_class == 'null' && window.location.href.indexOf('internet') > 0 ) {
 		jQuery('.caption,.price span,#legales').hide();
 	}
