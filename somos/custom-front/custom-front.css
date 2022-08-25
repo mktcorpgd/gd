@@ -17,7 +17,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Drive */
 #UseyourDrive div.scroll-to-top,
 /* Comentarios */
-#commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,
+#commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
 /* Formularios */
 .wpcf7 .hidden,div.wpcf7 .ajax-loader,.wpcf7 .wpcf7-validates-as-required.valid~label,.mc4wp-checkbox,#content .wpcf7+h2,.wpcf7-radio.wpcf7-not-valid+.wpcf7-not-valid-tip,.wpcf7-checkbox.wpcf7-not-valid+.wpcf7-not-valid-tip,span.phone_ext_block,#wpcf7-f16691-p18546-o1>div:nth-child(7),.wpcf7-display-none,div.wpcf7 div.ajax-error,.wpcf7 a[href='#map'],select[name='ORG'] option[value='0G Networks'],select[name='ORG'] option[value='Datco Soluciones'],.screen-reader-response,
 /* Galería de fotos */
@@ -267,8 +267,8 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .commentlist #respond{display:inline-block;width:100%;margin-top:.5em;padding-left:1em}
 #comments .commentlist li .comment-text .meta{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-weight:400;font-size:18px}
 #comments .commentlist li [itemprop='author']:after{font-weight:normal;color:#CCCCCC}
-#comments .commentlist li .gp-comment-meta{margin-bottom:0}
-#comments .commentlist li .gp-comment-meta strong{color:#0E316E;font-size:1em;font-weight:500;font-family:'Neo-Sans',sans-serif}
+#comments .commentlist li .gp-comment-meta{margin-bottom:0;font-size:.9rem}
+#comments .commentlist li .gp-comment-meta strong{color:#0E316E;font-weight:500;font-family:'Neo-Sans',sans-serif}
 #comments .commentlist li .gp-comment-meta time{color:#666666;font-size:.8em;font-weight:400}
 #comments .commentlist li .gp-comment-content{margin-left:1em}
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
