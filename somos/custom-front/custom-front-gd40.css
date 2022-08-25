@@ -30,8 +30,9 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .yotu-button-prs:hover{text-decoration:none}
 .youtube .yotu-wrapper-player{padding-bottom:20px}
 .yotu-videos>ul{margin-bottom:0}
-.yotu-column-3 li{padding-bottom:0}
+.yotu-column-3 li{padding-bottom:0!important}
 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0}
+#content .yotu-videos .yotu-video h3{margin-top:.6em!important;padding:.4em .2em 0}
 
 /*.slimScrollBarX,.slimScrollRailX{display:none}
 .mfp-fade.mfp-bg{opacity:0;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;transition:all 1s ease-out}.mfp-fade.mfp-bg.mfp-ready{opacity:.8}.mfp-fade.mfp-bg.mfp-removing{opacity:0}.mfp-fade.mfp-wrap .mfp-content{opacity:0;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;transition:all 1s ease-out}.mfp-fade.mfp-wrap.mfp-ready .mfp-content{opacity:1}.mfp-fade.mfp-wrap.mfp-removing .mfp-content{opacity:0}
@@ -165,6 +166,5 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 	.competition-podium,.competition-podium .podium-block .podium{height:auto}
 	body.home .post-loop[class*='category-40gd'] .post-text:before{top:-40px;border:2px solid #FFFFFF;border-right:none;border-top-left-radius:6px}
 	.wp-block-columns>.wp-block-column{margin:1em 0 0;padding:0 0 .5em}
-	#content .yotu-videos .yotu-video h3{padding:.25em .5em}
 	body .yotu-videos.yotu-mode-mix .yotu-video .yotu-video-thumb-wrp{width:100%}
 }
