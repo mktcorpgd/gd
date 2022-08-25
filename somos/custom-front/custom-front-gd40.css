@@ -14,6 +14,13 @@ body:not(.home) .padder{background:none;box-shadow:none}
 body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .mfp-content #content h1{overflow:initial;padding-top:0;text-align:left;font-size:3em;line-height:1}
 .wp-block-columns.no-margin-bottom{margin-bottom:0}
+.icons,.icons li{margin:0;padding:0}
+.icons li{list-style:none}
+.icons li i{display:inline-block;min-width:22px;text-align:center;color:rgba(0,0,0,.2)}
+.icons~.sc-button{margin:.4em .2em}
+.icons~.sc-button+p{margin-top:.8em;font-size:.9em;line-height:1}
+#content .icons~h5{margin-top:1em;margin-bottom:0}
+.youtube{margin:2em 0 0;padding:0;background:none;box-shadow:none}
 #menu40gd{width:100%;text-align:center;position:fixed;left:15px;z-index:90}
 #menu40gd ul,#menu40gd ul li{display:inline-block;margin:0;padding:0;list-style:none}
 #menu40gd ul{padding:.5em;font-family:'Neo-Sans',sans-serif;font-weight:500;box-shadow:0 2px 8px 0 rgba(0,0,0,.4);background:#F0582B;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;text-align:center;transition:top .1s ease-in-out}
@@ -43,13 +50,6 @@ body.mfp-ajax-cur{cursor:wait}
 h1+.gp-post-meta+#post-content{margin-top:0;margin-bottom:0}
 .padder{padding-top:0;padding-bottom:0;background-color:transparent;box-shadow:none}
 .wp-block-columns{margin-bottom:0}
-.icons,.icons li{margin:0;padding:0}
-.icons li{list-style:none}
-.icons li i{display:inline-block;min-width:22px;text-align:center;color:rgba(0,0,0,.2)}
-.icons~.sc-button{margin:.4em .2em}
-.icons~.sc-button+p{margin-top:.8em;font-size:.9em;line-height:1}
-#content .icons~h5{margin-top:1em;margin-bottom:0}
-.youtube{margin:2em 0 0;padding:0;background:none;box-shadow:none}
 
 .padder h3.toggle{margin-bottom:1em;font-size:1.2em}
 .padder .toggle-box .sc-button{margin:0}
