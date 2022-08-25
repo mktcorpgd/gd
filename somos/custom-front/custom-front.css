@@ -741,7 +741,7 @@ figcaption{text-align:left;padding:.4em .3em;background:rgba(0,0,0,.5);line-heig
 /* Videos */
 body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-playlist .yotu-wrapper-player{margin-bottom:1.25em;border-radius:12px;box-shadow:0 10px 12px -12px rgba(0,0,0,.5);overflow:hidden}
-.yotu-video-thumb-wrp::after{top:60%}
+.yotu-video-thumb-wrp::after{top:53%}
 .yotu-video-thumb-wrp:before{display:block;width:100%;height:100%;background:rgba(0,0,0,.4)}
 .yotu-video-thumb-wrp:after{padding-top:0;content:'\f144';height:1.5em;text-align:center;font-size:2em;color:#FFFFFF;font-family:'Font Awesome 6 Pro';background:none}
 #content .yotu-videos .yotu-video h3{margin-top:0;padding:.4em .7em 0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;color:#FFFFFF;font-weight:400;font-size:.9em;line-height:1.3!important;white-space:normal;}
