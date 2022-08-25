@@ -1,5 +1,5 @@
 body{background-color:#FAFAFA}
-.post.category-40gd-hicimos-pasado .gp-post-meta.gp-meta-cats a[href*='/40gd-hicimos-pasado/']~a,section:not(.category-40gd) .gp-loop-meta,.yotu-playing,.masklink{display:none}
+.post.category-40gd-hicimos-pasado .gp-post-meta.gp-meta-cats a[href*='/40gd-hicimos-pasado/']~a,section:not(.category-40gd) .gp-loop-meta,.yotu-playing,.masklink,h1.page-title+.gp-meta-cats{display:none}
 #logo a:hover{background:url('https://somos.grupodatco.com/wp-content/uploads/gd40-iso_stxt-white.svg')}
 .no-margin{margin:0!important}
 .wp-block-separator{background:none}
@@ -27,7 +27,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .grid-gallery-caption{width:auto}
 .grid-gallery-caption figcaption{background:rgba(14,49,110,.6)}
 .grid-gallery-caption figcaption .gg-image-caption{font-size:.9em}
-#menu40gd{width:100%;text-align:center;position:fixed;left:15px;z-index:90}
+#menu40gd{width:100%;text-align:center;position:fixed;top:84px;left:15px;z-index:90}
 #menu40gd ul,#menu40gd ul li{display:inline-block;margin:0;padding:0;list-style:none}
 #menu40gd ul{padding:.5em;font-family:'Neo-Sans',sans-serif;font-weight:500;box-shadow:0 2px 8px 0 rgba(0,0,0,.4);background:#F0582B;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;text-align:center;transition:top .1s ease-in-out}
 #menu40gd ul li:not(:last-child){border-right:2px solid rgba(255,255,255,.2)}
@@ -48,7 +48,6 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 #content .yotu-videos>ul{margin-bottom:0}
 .yotu-column-3 li{padding-bottom:0!important}
 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0}
-#content .yotu-videos .yotu-video h3{margin-top:.6em!important;padding:.4em .2em 0}
 .slimScrollDiv{padding:1em;background:#FFFFFF;border:4px solid rgba(0,0,0,.2)}
 .slimScrollDiv,.slimScrollDiv .grid-gallery-photos{height:auto!important;border-radius:12px}
 #content ul.ctl_h_nav,#content ul.ctl_h_nav li{margin:0;padding:0}
@@ -105,7 +104,6 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 	body.home .gp-blog-wrapper:not([class*='gp-blog-columns']) section[class*='category-40gd']{grid-template-columns:30% 70%}
 	.is-search-form{display:none}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) .post-loop:not(.has-post-thumbnail) .post-text{padding:.4em .6em}
-	#content-wrapper{margin-top:3em;margin-bottom:0}
 	#content .post-loop iframe{max-height:167px}
 	.mfp-content .post-loop .post-thumbnail{margin-bottom:0;border-width:0 1px 0 0}
 	body.home .post-loop[class*='category-40gd']{border-radius:6px}
@@ -117,7 +115,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 @media (max-width:960px) {
 	.wp-block-column #timelinegd,.wp-block-column .wp-block-column{margin:1em 0 0}
 	.wp-block-column>h4{margin-left:-1.05rem;margin-right:-1.05rem;font-size:1.2em}
-	#menu40gd{left:0}
+	#menu40gd{top:110px;left:0}
 	#menu40gd ul li{line-height:1.5}
 	#menu40gd ul li:not(:last-child){border-right:none}
 	#menu40gd>span{display:none}
