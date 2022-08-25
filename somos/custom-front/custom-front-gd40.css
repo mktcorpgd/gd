@@ -67,7 +67,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .content-details{font-size:.9em}
 .content-details{white-space:normal;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
 .content-details p{font-size:1em}
-.content-details img{margin-right:10px;max-width:100px;opacity:1}
+.content-details img{margin-right:10px;max-width:150px;border-radius:6px;opacity:1}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li span.icon-placeholder,.cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li:before{background:#0E316E}
 span.icon-placeholder{cursor:pointer}
 span.icon-placeholder:hover{border-color:#1F4483}
