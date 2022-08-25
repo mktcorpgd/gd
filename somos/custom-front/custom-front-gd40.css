@@ -1,5 +1,6 @@
 .post.category-40gd-hicimos-pasado .gp-post-meta.gp-meta-cats a[href*='/40gd-hicimos-pasado/']~a,section:not(.category-40gd) .gp-loop-meta,#nav .menu li:first-child,.yotu-playing{display:none}
 #logo a:hover{background:url('https://somos.grupodatco.com/wp-content/uploads/gd40-iso_stxt-white.svg')}
+.wp-block-separator{background:none}
 body:not(.home) .padder{background:none;box-shadow:none}
 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0}
 .wp-block-column #timelinegd,.wp-block-columns:not(.no-bkg) .wp-block-column{margin:0 .5em 1em;padding:0 1em .5em;border-radius:16px}
@@ -20,7 +21,8 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 #menu40gd a{margin:.2em .1em;padding:.3em .4em;color:#FFFFFF;font-weight:400;background:none}
 #menu40gd a:hover{text-decoration:underline}
 #menu40gd>a:nth-child(2){margin-left:.2em}
-
+.party h4>img{width:16px;height:16px;border-radius:16px;position:relative;top:1px}
+.party .grid-gallery{margin-top:.5em;margin-bottom:-1em}
 .yotuwp.yotu-playlist{padding-bottom:2em}
 .youtube .wp-block-column .yotuwp.yotu-playlist{padding-bottom:0}
 .youtube .wp-block-column iframe{margin-top:0;border-radius:24px}
@@ -49,8 +51,6 @@ h1+.gp-post-meta+#post-content{margin-top:0;margin-bottom:0}
 #content .icons~h5{margin-top:1em;margin-bottom:0}
 .youtube{margin:2em 0 0;padding:0;background:none;box-shadow:none}
 
-.party h4>img{width:16px;height:16px;border-radius:16px;position:relative;top:1px}
-.party .grid-gallery{margin-top:.5em;margin-bottom:-1em}
 .padder h3.toggle{margin-bottom:1em;font-size:1.2em}
 .padder .toggle-box .sc-button{margin:0}
 .padder h3.toggle+.toggle-box,.gp-blog-wrapper{margin-bottom:1em}
@@ -82,7 +82,6 @@ h1+.gp-post-meta+#post-content{margin-top:0;margin-bottom:0}
 #post-content>ul{margin-top:1em;margin-bottom:2em}
 #ghostpool_post_wrapper_1 .post-thumbnail.wrap,#ghostpool_post_wrapper_4 .post-thumbnail.wrap,#ghostpool_post_wrapper_4 .post-thumbnail.wrap{width:100%;max-width:100%}  
 body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-cats,body.single article.category-40gd-en-primera-persona h1+.gp-entry-meta .gp-meta-cats{display:block;margin-left:0;padding-left:0;border-left:none}
-.wp-block-separator{background:none}
 .grid-gallery .grid-gallery-photos{height:auto;padding-bottom:1em;opacity:1;border-radius:12px;overflow:auto}
 #post-content .ui-tabs .ui-tabs-nav{margin-top:1em}*/
 .cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a{font-family:'Neo-Sans',sans-serif;font-size:1em}
