@@ -40,6 +40,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .youtube .wp-block-column iframe{margin-top:0;border-radius:24px}
 .youtube .yotu-wrapper-player,.youtube .yotu-wrapper-player iframe{margin:0;max-height:360px}
 .yotu-button-prs{padding:.4em .9em;font-family:'Neo-Sans',sans-serif;font-size:.9em;font-weight:400;line-height:1.15}
+.yotu-playlist .yotu-pagination{padding-top:0}
 .yotu-playlist .yotu-pagination a.yotu-active::after{color:#999999;top:-3px}
 .yotu-button-prs:hover{text-decoration:none}
 .youtube .yotu-wrapper-player{padding-bottom:20px}
@@ -48,7 +49,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0}
 #content .yotu-videos .yotu-video h3{margin-top:.6em!important;padding:.4em .2em 0}
 .slimScrollDiv{padding:1em;background:#FFFFFF;border:4px solid rgba(0,0,0,.2)}
-.slimScrollDiv,.slimScrollDiv .grid-gallery-photos{border-radius:12px}
+.slimScrollDiv,.slimScrollDiv .grid-gallery-photos{height:auto!important;border-radius:12px}
 #content ul.ctl_h_nav,#content ul.ctl_h_nav li{margin:0;padding:0}
 .slick-list{top:9px}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider button{color:#F0582B!important}
