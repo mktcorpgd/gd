@@ -110,7 +110,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 	body.home .post-loop[class*='category-40gd']{border-radius:6px}
 	body.home .gp-blog-wrapper+.post-loop{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 	body.single-event #content .eo-event-meta li:first-child{font-size:2em}
-	.content-details img{max-width:150px}
+	.content-details img{max-width:70px}
 }
 
 /* Mobile */
@@ -135,4 +135,5 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 	.wp-block-columns>.wp-block-column{margin:1em 0 0;padding:0 0 .5em}
 	body .yotu-videos.yotu-mode-mix .yotu-video .yotu-video-thumb-wrp{width:100%}
 	.content-details img{max-width:50px}
+	.slick-slider .slick-list{height:auto!important}
 }
