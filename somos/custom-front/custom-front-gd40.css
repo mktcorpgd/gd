@@ -1,3 +1,4 @@
+.post.category-40gd-hicimos-pasado .gp-post-meta.gp-meta-cats a[href*='/40gd-hicimos-pasado/']~a,section:not(.category-40gd) .gp-loop-meta,#nav .menu li:first-child,.yotu-playing{display:none}
 #logo a:hover{background:url('https://somos.grupodatco.com/wp-content/uploads/gd40-iso_stxt-white.svg')}
 body:not(.home) .padder{background:none;box-shadow:none}
 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0}
@@ -8,6 +9,7 @@ body:not(.home) .padder{background:none;box-shadow:none}
 #content h1,.mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{color:#0E316E;text-shadow:1px 2px 0px #FFFFFF}
 #content h1,.container_countdown h1,h2.shadow{margin-top:.2em;margin-bottom:0;padding:0;line-height:1.2;overflow:hidden}
 #content h1,.container_countdown h1{font-size:3em}
+#content h4 i{padding-right:10px;opacity:.6}
 body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .mfp-content #content h1{overflow:initial;padding-top:0;text-align:left;font-size:3em;line-height:1}
 .wp-block-columns.no-margin-bottom{margin-bottom:0}
@@ -31,8 +33,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .yotu-column-3 li{padding-bottom:0}
 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0}
 
-/*.post.category-40gd-hicimos-pasado .gp-post-meta.gp-meta-cats a[href*='/40gd-hicimos-pasado/']~a,section:not(.category-40gd) .gp-loop-meta,#nav .menu li:first-child,.yotu-playing{display:none}
-.slimScrollBarX,.slimScrollRailX{display:none}
+/*.slimScrollBarX,.slimScrollRailX{display:none}
 .mfp-fade.mfp-bg{opacity:0;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;transition:all 1s ease-out}.mfp-fade.mfp-bg.mfp-ready{opacity:.8}.mfp-fade.mfp-bg.mfp-removing{opacity:0}.mfp-fade.mfp-wrap .mfp-content{opacity:0;-webkit-transition:all 1s ease-out;-moz-transition:all 1s ease-out;transition:all 1s ease-out}.mfp-fade.mfp-wrap.mfp-ready .mfp-content{opacity:1}.mfp-fade.mfp-wrap.mfp-removing .mfp-content{opacity:0}
 body.mfp-ajax-cur{cursor:wait}
 .nav-header,.post-loop.category-40gd time::after,.gp-meta-cats,.ilightbox-holder.smooth .ilightbox-container .ilightbox-caption,.entry_edit,.ilightbox-toolbar,#open-surprise{display:none}
@@ -55,7 +56,6 @@ h1+.gp-post-meta+#post-content{margin-top:0;margin-bottom:0}
 .padder h3.toggle i{top:-1px;font-weight:400}
 .mfp-content .padder{box-shadow:none;border-radius:0}
 .mfp-content h4{clear:both;margin-bottom:5px}
-#content h4 i{padding-right:10px}
 #content iframe{margin-top:1em}
 #content .post-loop iframe{margin-top:.5em;border-radius:6px;border:1px solid #CCCCCC}
 .mfp-content #content .gp-entry-meta{margin-top:10px}
