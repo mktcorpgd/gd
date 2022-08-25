@@ -47,7 +47,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .yotu-column-3 li{padding-bottom:0!important}
 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0}
 #content .yotu-videos .yotu-video h3{margin-top:.6em!important;padding:.4em .2em 0}
-.slimScrollDiv{border:4px solid rgba(0,0,0,.2);border-radius:12px}
+.slimScrollDiv{padding:1em;background:#FFFFFF;border:4px solid rgba(0,0,0,.2);border-radius:12px}
 #content ul.ctl_h_nav,#content ul.ctl_h_nav li{margin:0;padding:0}
 .slick-list{top:9px}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider button{color:#F0582B!important}
