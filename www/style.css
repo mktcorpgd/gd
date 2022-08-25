@@ -300,7 +300,6 @@ body.single .fusion-text h4{font-size:1.3em!important;line-height:1.25!important
 body.single .fusion-text h5{font-size:1.1em!important;line-height:1.25!important;color:#555555!important}
 body.single .fusion-text h4,body.single .fusion-text h4 b,body.single .fusion-text h4 strong{font-weight:400!important}
 body.single:not(.single-avada_portfolio) .post-content>div>div>div{margin-bottom:0!important}
-body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type{padding:30px 30px 30px 50px;border-bottom-left-radius:24px;border-left:6em solid #EAEAEA}
 body.single-format-standard:not(.single-avada_portfolio) #main .post .post-content .fusion-text:first-of-type>h2:first-of-type{margin-top:0;font-size:1.8em!important;font-weight:400!important}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p+h2:first-of-type{margin-top:revert!important}
 body.single-format-standard:not(.single-avada_portfolio) article.category-blog .post-content .fusion-text:first-of-type>h3.cta{margin-top:30px;font-size:2em}
