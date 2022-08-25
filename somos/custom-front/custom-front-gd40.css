@@ -94,8 +94,6 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 .slick-slide.more-info .timeline-post,.walcf7-timepicker{cursor:pointer}
 .slick-slide:not(.more-info) .timeline-post{pointer-events:none}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list span.ctl-story-time{font-weight:400;text-transform:uppercase}
-.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide:hover .timeline-post{border:2px solid #F0582B}
-.cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide:hover .timeline-post h2.content-title{background:#F0582B}
 .icon-placeholder i{padding-right:0}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li{min-height:100px}
 .ctl_info a{color:#555555}
