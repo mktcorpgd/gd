@@ -270,8 +270,9 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 #comments .commentlist li .gp-comment-meta{margin-bottom:0;font-size:.9rem}
 #comments .commentlist li .gp-comment-meta strong{color:#0E316E;font-weight:500;font-family:'Neo-Sans',sans-serif}
 #comments .commentlist li .gp-comment-meta time{color:#666666;font-size:.8em;font-weight:400}
-#comments .commentlist li .gp-comment-content{margin-left:1em}
+#comments .commentlist li .gp-comment-content{margin-left:0}
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
+#comments .commentlist .children li.comment{margin:1em 0 0 0;padding-left:1em;border-left:2px solid rgba(0,0,0,.1)}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
