@@ -922,6 +922,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-accordian .panel-body>h5{margin-top:0;margin-bottom:.25em;font-size:1.1em}
 
 /* Posts relacionados */
+.fusion-carousel .fusion-carousel-item .fusion-image-wrapper{border-radius:!2px}
 .related-posts{float:left;width:100%}
 .related-posts .fusion-carousel,.related-posts .fusion-carousel .fusion-carousel-wrapper{overflow:visible!important}
 .related-posts .fusion-carousel .fusion-carousel-holder{padding:0;width:100%!important;position:relative!important}
