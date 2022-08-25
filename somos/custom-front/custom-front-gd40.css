@@ -10,16 +10,17 @@ body:not(.home) .padder{background:none;box-shadow:none}
 #content h1,.mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{color:#0E316E;text-shadow:1px 2px 0px #FFFFFF}
 #content h1,.container_countdown h1,h2.shadow{margin-top:.2em;margin-bottom:0;padding:0;line-height:1.2;overflow:hidden}
 #content h1,.container_countdown h1{font-size:3em}
-#content h4 i{padding-right:10px;opacity:.6}
+#content h4{margin-top:.2em}
+#content h4 i{padding-right:.3em;opacity:.4}
 body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .mfp-content #content h1{overflow:initial;padding-top:0;text-align:left;font-size:3em;line-height:1}
 .wp-block-columns.no-margin-bottom{margin-bottom:0}
-.icons,.icons li{margin:0;padding:0}
-.icons li{list-style:none}
-.icons li i{display:inline-block;min-width:22px;text-align:center;color:rgba(0,0,0,.2)}
-.icons~.sc-button{margin:.4em .2em}
-.icons~.sc-button+p{margin-top:.8em;font-size:.9em;line-height:1}
-#content .icons~h5{margin-top:1em;margin-bottom:0}
+#content ul#content ul.icons,#content ul.icons li{margin:0;padding:0}
+#content ul.icons li{list-style:none}
+#content ul.icons li i{display:inline-block;min-width:22px;text-align:center;color:rgba(0,0,0,.2)}
+#content ul.icons~.sc-button{margin:.4em .2em}
+#content ul.icons~.sc-button+p{margin-top:.8em;font-size:.9em;line-height:1}
+#content #content ul.icons~h5{margin-top:1em;margin-bottom:0}
 .youtube{margin:2em 0 0;padding:0;background:none;box-shadow:none}
 .grid-gallery,.grid-gallery-caption{margin-top:0}
 .grid-gallery{margin-bottom:0}
