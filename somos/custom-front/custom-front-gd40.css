@@ -3,7 +3,7 @@
 .wp-block-separator{background:none}
 body:not(.home) .padder{background:none;box-shadow:none}
 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0}
-.wp-block-column #timelinegd,.wp-block-columns:not(.no-bkg) .wp-block-column{margin:0 .5em 1em;padding:0 1em .5em;border-radius:16px}
+.wp-block-column #timelinegd,.wp-block-columns:not(.no-bkg) .wp-block-column{margin:0 .5em 1em;padding:.5em 1em;border-radius:16px}
 .wp-block-column #timelinegd{margin-top:0}
 .wp-block-column #timelinegd,.wp-block-column .wp-block-column:not(.no-bkg){background:rgba(255,255,255,.8)}
 .wp-block-columns.no-bkg .wp-block-column{margin:0 .5em;padding:0;background:none}
@@ -21,6 +21,11 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .icons~.sc-button+p{margin-top:.8em;font-size:.9em;line-height:1}
 #content .icons~h5{margin-top:1em;margin-bottom:0}
 .youtube{margin:2em 0 0;padding:0;background:none;box-shadow:none}
+.grid-gallery,.grid-gallery-caption{margin-top:0}
+.grid-gallery{margin-bottom:0}
+.grid-gallery-caption{width:auto}
+.grid-gallery-caption figcaption{background:rgba(14,49,110,.6)}
+.grid-gallery-caption figcaption .gg-image-caption{font-size:.9em}
 #menu40gd{width:100%;text-align:center;position:fixed;left:15px;z-index:90}
 #menu40gd ul,#menu40gd ul li{display:inline-block;margin:0;padding:0;list-style:none}
 #menu40gd ul{padding:.5em;font-family:'Neo-Sans',sans-serif;font-weight:500;box-shadow:0 2px 8px 0 rgba(0,0,0,.4);background:#F0582B;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;text-align:center;transition:top .1s ease-in-out}
@@ -29,7 +34,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 #menu40gd a:hover{text-decoration:underline}
 #menu40gd>a:nth-child(2){margin-left:.2em}
 .party h4>img{width:16px;height:16px;border-radius:16px;position:relative;top:1px}
-.party .grid-gallery{margin-top:.5em;margin-bottom:-1em}
+.party .grid-gallery{margin-top:0}
 .yotuwp.yotu-playlist{padding-bottom:2em}
 .youtube .wp-block-column .yotuwp.yotu-playlist{padding-bottom:0}
 .youtube .wp-block-column iframe{margin-top:0;border-radius:24px}
@@ -65,11 +70,6 @@ h1+.gp-post-meta+#post-content{margin-top:0;margin-bottom:0}
 .mfp-content article.post.category-40gd-hicimos-pasado .post-thumbnail{max-width:400px;margin-right:1em}
 .mfp-container.mfp-s-ready:not(.mfp-image-holder) .mfp-content{margin:2em 0;background:#FFFFFF}
 .mfp-preloader{color:#FFFFFF}
-.grid-gallery,.grid-gallery-caption{margin-top:0}
-.grid-gallery{margin-bottom:0}
-.grid-gallery-caption{width:auto}
-.grid-gallery-caption figcaption{background:rgba(14,49,110,.6)}
-.grid-gallery-caption figcaption .gg-image-caption{font-size:.9em}
 .container_countdown h2{margin-top:0;margin-bottom:0;color:#0E316E;text-shadow:1px 2px 0 #FFFFFF;font-size:4em}
 .container_countdown{float:left;width:100%;text-align:center}
 #countdown{position:relative;top:.5em}
