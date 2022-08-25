@@ -7,7 +7,7 @@ body:not(.home) .padder{background:none;box-shadow:none}
 .wp-block-column #timelinegd,.wp-block-columns:not(.no-bkg) .wp-block-column{clear:both;margin:1em .5em}
 .wp-block-column #timelinegd{margin-top:0}
 .wp-block-columns.no-bkg .wp-block-column{margin:0 .5em;padding:0;background:none}
-#content h1,.mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{float:left;color:#0E316E}
+#content h1,.mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{color:#0E316E}
 #content h1,.container_countdown h1{margin-bottom:0;font-size:3em}
 #content h4{margin-top:.2em}
 #content h4 i{padding-right:.3em;opacity:.4}
