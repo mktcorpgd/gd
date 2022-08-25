@@ -5,7 +5,6 @@ body:not(.home) .padder{background:none;box-shadow:none}
 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0}
 .wp-block-column #timelinegd,.wp-block-columns:not(.no-bkg) .wp-block-column{margin:0 .5em 1em;padding:.5em 1em;border-radius:16px}
 .wp-block-column #timelinegd{margin-top:0}
-.wp-block-column #timelinegd,.wp-block-column .wp-block-column:not(.no-bkg){background:rgba(255,255,255,.8)}
 .wp-block-columns.no-bkg .wp-block-column{margin:0 .5em;padding:0;background:none}
 #content h1,.mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{color:#0E316E;text-shadow:1px 2px 0px #FFFFFF}
 #content h1,.container_countdown h1,h2.shadow{margin-top:.2em;margin-bottom:0;padding:0;line-height:1.2;overflow:hidden}
@@ -48,10 +47,10 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .yotu-column-3 li{padding-bottom:0!important}
 .yotu-column-3 .yotu-video-thumb-wrp{margin-bottom:0}
 #content .yotu-videos .yotu-video h3{margin-top:.6em!important;padding:.4em .2em 0}
-
+.slimScrollDiv{border-radius:6px}
 #content ul.ctl_h_nav,#content ul.ctl_h_nav li{margin:0;padding:0}
 .slick-list{top:9px}
-.cool-timeline-horizontal .clt_carousel_slider ul.slick-slider button{color:#F0582B}
+.cool-timeline-horizontal .clt_carousel_slider ul.slick-slider button{color:#F0582B!important}
 .cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a{font-family:'Neo-Sans',sans-serif;font-size:1em}
 .cool-timeline-horizontal{padding-bottom:1em}
 .cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title{min-height:auto;padding:0}
