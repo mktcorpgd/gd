@@ -86,8 +86,6 @@ body.single article.category-40gd-hicimos-historia h1+.gp-entry-meta .gp-meta-ca
 body.page-id-31537 .wp-block-separator{background:none}
 body.page-id-31537 .grid-gallery .grid-gallery-photos{height:auto!important;padding-bottom:1em!important;opacity:1;border-radius:12px;overflow:auto!important}
 body.page-id-31537 #post-content .ui-tabs .ui-tabs-nav{margin-top:1em}
-
-/* 
 .cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple,.cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.dark-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.light-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title a,.cool-timeline-horizontal.ht-design-3 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a,.cool-timeline-horizontal.ht-design-4 .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title-simple a{font-family:'Neo-Sans',sans-serif;font-size:1em}
 .cool-timeline-horizontal{padding-bottom:1em}
 .cool-timeline-horizontal.white-timeline .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post h2.content-title{min-height:auto;padding:0}
@@ -134,7 +132,6 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li{min-height:100px}
 .ctl_info a{color:#555555!important}
 #timelinegd{margin-bottom:1em;overflow:hidden}
-Timeline */
 
 /* Desktop */
 @media (min-width:960px) {
