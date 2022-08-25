@@ -1,5 +1,5 @@
 body{background-color:#FAFAFA}
-.post.category-40gd-hicimos-pasado .gp-post-meta.gp-meta-cats a[href*='/40gd-hicimos-pasado/']~a,section:not(.category-40gd) .gp-loop-meta,.yotu-playing{display:none}
+.post.category-40gd-hicimos-pasado .gp-post-meta.gp-meta-cats a[href*='/40gd-hicimos-pasado/']~a,section:not(.category-40gd) .gp-loop-meta,.yotu-playing,.masklink{display:none}
 #logo a:hover{background:url('https://somos.grupodatco.com/wp-content/uploads/gd40-iso_stxt-white.svg')}
 .no-margin{margin:0!important}
 .wp-block-separator{background:none}
@@ -80,8 +80,6 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .cool-timeline-horizontal .clt_caru_slider ul.slick-slider .slick-list li.slick-slide .timeline-post .content-details{padding:.5em .8em .2em}
 body:not(.home):not(.archive):not(.search) #post-content .content-details p{margin:0;padding:0}
 .content-details{position:relative;background-color:#FFFFFF}
-.content-details>a.masklink{display:block;width:100%;height:100%;position:absolute;top:0;left:0}
-.slick-slide.more-info .timeline-post:after{content:'+';display:inline-block;width:1em;height:1em;line-height:1em;text-align:center;font-weight:bold;border-top-left-radius:6px;position:absolute;bottom:0;right:0;background:#F0582B;color:#FFFFFF}
 .slick-slide.more-info:hover .timeline-post:after{background:#1F4483}
 .content-details .yotu-playlist{padding:0}.content-details .yotu-playlist .yotu-wrapper-player{margin-top:0;box-shadow:none}
 .cool-timeline-horizontal .timeline-post iframe{max-height:auto;min-height:auto}
@@ -97,6 +95,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 .icon-placeholder i{padding-right:0}
 .cool-timeline-horizontal .clt_carousel_slider ul.slick-slider .slick-list li{min-height:100px}
 .ctl_info a{color:#555555}
+.mfp-container #content{background:#FFFFFF}
 
 /* Desktop */
 @media (min-width:960px) {
