@@ -49,10 +49,13 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 // CONTENIDO - Si cambia la localidad recargar con información respectiva
 var doc_href = window.location.href;
 doc_href = doc_href.substring(0,doc_href.indexOf('?'));
+var lugar_cur = jQuery('select[name*=LOC] option:selected').index();
 jQuery('select[name*=LOC]').change(function() {
 	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
-	if ( (jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio')) && (lugar_index != 0) && !jQuery('body').hasClass('modal-open') ) {
+	var lugar_size = jQuery('option',this).size();
+	console.log(lugar_size);
+	if ( (jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio')) && (lugar_index != 0 && lugar_index != lugar_cur && lugar_index != lugar_size) && !jQuery('body').hasClass('modal-open') ) {
 		jQuery('#cargando-btn').trigger('click');
 		setTimeout(function(){
 			document.location = doc_href+'?lugar='+lugar_name;
