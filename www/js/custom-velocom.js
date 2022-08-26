@@ -55,7 +55,7 @@ jQuery('select[name*=LOC]').change(function() {
 	var lugar_index = jQuery('option:selected',this).index();
 	var lugar_size = jQuery(this).children('option').length();
 	console.log(lugar_size);
-	if ( (jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio')) && (lugar_index != 0 && lugar_index != lugar_cur && lugar_index != lugar_size) && !jQuery('body').hasClass('modal-open') ) {
+	if ( (jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio')) && (lugar_index != 0) && !jQuery('body').hasClass('modal-open') ) {
 		jQuery('#cargando-btn').trigger('click');
 		setTimeout(function(){
 			document.location = doc_href+'?lugar='+lugar_name;
