@@ -511,6 +511,7 @@ jQuery(document).ready(function() {
 
 		// Autocompletado por Google Maps API
 		ApplyAutoComplete(jQuery('.address_maps'));
+		var selected = false;
 		function ApplyAutoComplete(input) {
 			var places = [];
 			var place;
@@ -537,6 +538,7 @@ jQuery(document).ready(function() {
 			}
 			function fillInStaticGMap() {
 				var input_name = this.attrName;
+				selected = true;
 				if ( jQuery('input[name='+input_name+'].static_gmap').length ) {
 					var address = this.getPlace().formatted_address;
 					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=350x170&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
@@ -550,9 +552,15 @@ jQuery(document).ready(function() {
 					}
 				}
 			}
-			  
 		};
-		
+		jQuery('.address_maps').on('focus',function() {
+			selected = false;
+			}).on('blur', function() {
+			if ( !selected ) {
+				jQuery(this).val('');
+			}
+		});
+		  
 	}
 
 
