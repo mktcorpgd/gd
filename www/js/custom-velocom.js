@@ -51,6 +51,8 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 // CONTENIDO - Si cambia la localidad recargar con información respectiva
 jQuery('select[name*=LOC]').change(function() {
 	var lugar_name = jQuery(this).val();
+	var lugar_index = jQuery(this).eq();
+	console.log(lugar_index);
 	if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 		if ( !jQuery('body').hasClass('modal-open') || lugar_name != '' ) {
 			jQuery('#cargando-btn').trigger('click');
