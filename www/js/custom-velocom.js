@@ -49,6 +49,8 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 
 
 // CONTENIDO - Si cambia la localidad recargar con información respectiva
+var doc_href = window.location.href;
+doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 jQuery('select[name*=LOC]').change(function() {
 	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
@@ -57,7 +59,7 @@ jQuery('select[name*=LOC]').change(function() {
 		if ( !jQuery('body').hasClass('modal-open') || lugar_name != '' ) {
 			jQuery('#cargando-btn').trigger('click');
 			setTimeout(function(){
-				document.location = window.location.href+'?lugar='+lugar_name;
+				document.location = doc_href+'?lugar='+lugar_name;
 			},500);
 		}
 	}
