@@ -53,7 +53,7 @@ var lugar_cur = jQuery('select[name*=LOC] option:selected').index();
 jQuery('select[name*=LOC]').change(function() {
 	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
-	var lugar_size = jQuery('option',this).size();
+	var lugar_size = jQuery(this).children('option').length();
 	console.log(lugar_size);
 	if ( (jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio')) && (lugar_index != 0 && lugar_index != lugar_cur && lugar_index != lugar_size) && !jQuery('body').hasClass('modal-open') ) {
 		jQuery('#cargando-btn').trigger('click');
