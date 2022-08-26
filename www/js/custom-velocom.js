@@ -16,9 +16,7 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 // CONTENIDO - Página dinámica para servicio de internet
 var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-//var site_name = jQuery("meta[property='og:site_name']").attr("content");
-console.log(jQuery("meta[property='og:site_name']").attr("content"));
-console.log(lugar_class);
+var site_name = jQuery("meta[property='og:site_name']").attr("content");
 if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,#legales').hide();
@@ -29,13 +27,13 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 			jQuery('.map').show();	
 		}
 		if ( jQuery('body').hasClass('postid-24725') ) {
-			jQuery('title').html('Internet para Hogares en '+lugar_name+' &mdash; Velocom');
+			jQuery('title').html('Internet para Hogares en '+lugar_name+' &mdash; '+site_name);
 		}
 		else if ( jQuery('body').hasClass('postid-23640') ) {
-			jQuery('title').html('Internet Corporativo en '+lugar_name+' &mdash; Velocom');
+			jQuery('title').html('Internet Corporativo en '+lugar_name+' &mdash; '+site_name);
 		}
 		else if ( jQuery('body').hasClass('postid-25544') ) {
-			jQuery('title').html('Internet por Fibra Óptica en '+lugar_name+' &mdash; Velocom');
+			jQuery('title').html('Internet por Fibra Óptica en '+lugar_name+' &mdash; '+site_name);
 		}
 		jQuery('.not-selected').removeClass('not-selected');
 		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
@@ -54,7 +52,6 @@ doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 jQuery('select[name*=LOC]').change(function() {
 	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
-	console.log(lugar_index);
 	if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 		if ( !jQuery('body').hasClass('modal-open') || lugar_index != 0 ) {
 			jQuery('#cargando-btn').trigger('click');
