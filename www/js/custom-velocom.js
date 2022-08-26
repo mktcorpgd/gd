@@ -57,7 +57,12 @@ jQuery('select[name=LOC]').change(function() {
 	if ( (jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio')) && (lugar_index != 0 && lugar_index != lugar_cur) && !jQuery('body').hasClass('modal-open') ) {
 		jQuery('#cargando-btn').trigger('click');
 		setTimeout(function(){
-			document.location = doc_href+'?lugar='+lugar_name;
+			if ( jQuery('body').hasClass('home') ) {
+				document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
+			}
+			else {
+				document.location = doc_href+'?lugar='+lugar_name;
+			}
 		},500);	
 	}
 });
