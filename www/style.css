@@ -525,6 +525,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .sep-boxed-pricing .panel-wrapper{padding:0 1em}
 .full-boxed-pricing .panel-body .price .time{font-style:normal;font-weight:normal;line-height:1}
 .full-boxed-pricing .fusion-panel{border-right:none!important}
+.fusion-pricing-table .panel-wrapper:hover .fusion-panel{background:#FFFFFF}
 .full-boxed-pricing .panel-container{background:none}
 .fusion-pricing-table .panel-footer{padding:0!important}
 .fusion-pricing-table .standout{font-size:1.1em}
