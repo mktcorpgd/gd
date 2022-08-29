@@ -40,7 +40,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 		}
 		else if ( jQuery('body').hasClass('postid-25544') ) {
 			jQuery('.not-tv').remove();
-			jQuery('title').html('Internet por Fibra Óptica en '+lugar_name+' &mdash; '+site_name);
+			jQuery('title').html('Internet por Fibra Óptica + TV en '+lugar_name+' &mdash; '+site_name);
 		}
 	}
 }
