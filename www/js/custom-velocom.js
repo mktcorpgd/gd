@@ -52,6 +52,8 @@ var doc_href = window.location.href;
 doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 var lugar_cur = jQuery('select[name=LOC]:first option:selected').index();
 var lugar_size = jQuery('select[name=LOC]:first option').length;
+console.log(lugar_cur);
+console.log(lugar_size);
 jQuery('select[name=LOC]').change(function() {
 	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
