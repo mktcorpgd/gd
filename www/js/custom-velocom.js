@@ -27,10 +27,10 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 			jQuery('.map').show();	
 		}
 		if ( jQuery('body').hasClass('postid-24725') ) {
-			jQuery('title').html('Internet para Hogares en '+lugar_name+' &mdash; '+site_name);
+			jQuery('title').html('Internet inalámbrico para Hogares en '+lugar_name+' &mdash; '+site_name);
 		}
 		else if ( jQuery('body').hasClass('postid-23640') ) {
-			jQuery('title').html('Internet Corporativo en '+lugar_name+' &mdash; '+site_name);
+			jQuery('title').html('Internet inalámbrico Corporativo en '+lugar_name+' &mdash; '+site_name);
 		}
 		else if ( jQuery('body').hasClass('postid-25544') ) {
 			jQuery('title').html('Internet por Fibra Óptica en '+lugar_name+' &mdash; '+site_name);
