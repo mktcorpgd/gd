@@ -750,59 +750,32 @@ jQuery(document).ready(function() {
 
 	// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
 	if ( jQuery('.fusion-pricing-table').length ) {
-		jQuery('.fusion-pricing-table .fusion-button').click(function(e) {
-			var title_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
-			// Velocom
-			if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
-				jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text(title_pricing);
-				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
-				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-				var title_pricing = jQuery(this).find('.fusion-button-text').text();
-				if ( lugar_class != 'null' ) {
-					jQuery('.fusion-modal.contacto-rapido-internet .modal-title').text(title_pricing+' en '+lugar_name);
-				}
-			}
+		jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+			var title_pricing = jQuery(this).find('.panel-heading .title-row').text();
 			if ( jQuery('select[name="TITLE"]').length ) {
 				jQuery('select[name="TITLE"]').val(title_pricing);
 			}
 			if ( jQuery('select[name="SPEED"]').length ) {
-				// Velocom
-				if ( jQuery('body').hasClass('postid-24725') || jQuery('body').hasClass('postid-23640') ) {
-					var speed_pricing = jQuery(this).parents('.fusion-panel').find('.panel-heading .title-row').text();
-					speed_pricing = speed_pricing.substring(6,speed_pricing.length);
-					jQuery('select[name="SPEED"]').val(speed_pricing);
-				}
-				else { 
-					jQuery('select[name="SPEED"]').val(title_pricing);
-				}
-			}
-			if ( jQuery('body').hasClass('postid-23901') ) {
-				jQuery('.fusion-modal.contacto-rapido .modal-title').text('Solicitar '+title_pricing);
+				var speed_pricing = title_pricing.substring(title_pricing.indexOf('Internet ')+9,title_pricing.length);
+				jQuery('select[name="SPEED"]').val(speed_pricing);
 			}
 			if ( jQuery('select[name="SERVICE"]').length ) {
-				if ( jQuery('body').hasClass('page-id-78') ) {
-					title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
-				}
-				jQuery('.fusion-modal.in .modal-title').text('Solicitar '+title_pricing);
 				jQuery('select[name="SERVICE"]').val(title_pricing);
 			}
+			// Velocom
+			if ( jQuery('body').hasClass('site-id-6') && jQuery('body').hasClass('single-avada_portfolio') ) {
+				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
+				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+				if ( lugar_class != 'null' ) {
+					title_pricing = title_pricing+' en '+lugar_name;
+				}
+			}
+			jQuery(".fusion-modal[class*='contacto-rapido-internet'] .modal-title").text(title_pricing);	
 		});
 		jQuery('.integer-part').each(function() {
 			var text = jQuery(this).text();
 			jQuery(this).text(text.replace(',','.')); 
 		});
-		// Silica
-		if ( jQuery('body').hasClass('site-id-5') ) {
-			jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
-				var speed_pricing = jQuery(this).find('.panel-heading .title-row').text();
-				if ( jQuery('body').hasClass('page-id-78') ) {
-					var title_pricing = jQuery('.fusion-tabs:first .nav.fusion-mobile-tab-nav .active .fusion-tab-heading').text();
-				}
-				jQuery('select[name="SPEED"]').val(speed_pricing);
-				jQuery('select[name="SERVICE"]').val(title_pricing);
-				jQuery('#open-consultar-internet').trigger('click');
-			});
-		}
 
 	}
 
