@@ -757,7 +757,6 @@ jQuery(document).ready(function() {
 			}
 			if ( jQuery('select[name="SPEED"]').length ) {
 				var speed_pricing = title_pricing.substring(title_pricing.indexOf('Internet ')+9,title_pricing.length);
-				console.log(speed_pricing);
 				jQuery('select[name="SPEED"]').val(speed_pricing);
 			}
 			if ( jQuery('select[name="SERVICE"]').length ) {
@@ -771,7 +770,6 @@ jQuery(document).ready(function() {
 					title_pricing = title_pricing+' en '+lugar_name;
 				}
 			}
-			console.log(title_pricing);
 			jQuery(".fusion-modal[class*='contacto-rapido-internet'] .modal-title").text(title_pricing);	
 		});
 		jQuery('.integer-part').each(function() {
