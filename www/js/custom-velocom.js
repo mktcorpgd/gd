@@ -39,7 +39,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 		jQuery('.not-selected').removeClass('not-selected');
 		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
-		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider h2 span.'+lugar_class+',.caption span.'+lugar_class+',#legales .panel-body p span.'+lugar_class+',#legales .panel-body p .cur_month,#legales .panel-body p .cur_year,#legales .panel-body p .last_day,.step2').show();
+		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',#legales span.'+lugar_class+',#legales .cur_month,#legales .cur_year,#legales .last_day,.step2').show();
 		if ( lugar_class == 'bariloche' ) {
 			jQuery('.hidden-bariloche').hide();
 		}
