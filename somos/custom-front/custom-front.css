@@ -316,6 +316,7 @@ div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151}
 .wpcf7-not-valid-tip{display:block;position:absolute;bottom:-22px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.6em;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
 input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
+select[name*='[]']+.wpcf7-not-valid-tip{bottom:-4px}
 .wpcf7-response-output,div[class*='wpcf7-response-']{width:fit-content;margin:1em auto 2em;box-sizing:border-box;border:none;border-radius:12px;text-align:center;font-weight:400;font-size:.9em;line-height:1.4}
 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert{position:relative;z-index:999}
 .wpcf7-response-output,.wpcf7-response-output a,div[class*='wpcf7-response-'],div[class*='wpcf7-response-'] a{color:#FFFFFF}
@@ -331,7 +332,7 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7-form.sent .wpcf7-response-output{background-color:#419466}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500}
 .wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left;width:100%}
-.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC;cursor:default}
+.wpcf7 label>i{width:16px;position:absolute;top:3px;left:-22px;text-align:right;color:#CCCCCC;cursor:default}
 .wpcf7 label>i[class*='.far']{padding-right:.5em;font-size:.8em;position:relative;bottom:2px;opacity:.6}
 .wpcf7 label>i[class*='.far']:hover{opacity:.8}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
