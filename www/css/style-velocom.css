@@ -81,9 +81,6 @@ body:not(.home) .tfs-slider .buttons .fusion-button,body:not(.home) .tfs-slider 
 .fusion-modal.cargando .modal-lg{width:fit-content}
 .fusion-modal.cargando .modal-content{padding:1.4em 2em}
 body.page-id-24138 .post-content p{text-align:justify}
-.fusion-pricing-table .panel-heading,.fusion-pricing-table .standout .panel-heading{padding-bottom:0}
-.fusion-pricing-table .fusion-panel{background:#FAFAFA}
-.fusion-pricing-table .fusion-panel:hover{background:#FFFFFF}
 
 /* Desktop */
 @media (min-width:920px) {
@@ -99,7 +96,6 @@ body.page-id-24138 .post-content p{text-align:justify}
 @media (max-width:920px) {
 	.list-group-item.blank{display:none!important}
 	.fusion-mobile-menu-design-modern .fusion-secondary-header .fusion-modal-text-link{padding:0!important;border:none!important}
-	.sep-boxed-pricing .column.standout{margin-top:40px}
 	.fusion-footer-widget-area ul#menu-footer-internet li{display:block;padding:5px 0!important}
 	#menu-widget-2 ul li a{font-size:20px}
 	.fusion-page-title-bar,body.single-avada_portfolio .fusion-page-title-bar{padding-top:4em!important}
