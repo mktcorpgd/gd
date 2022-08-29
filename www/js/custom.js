@@ -757,6 +757,7 @@ jQuery(document).ready(function() {
 			}
 			if ( jQuery('select[name="SPEED"]').length ) {
 				var speed_pricing = title_pricing.substring(title_pricing.indexOf('Internet ')+9,title_pricing.length);
+				console.log(speed_pricing);
 				jQuery('select[name="SPEED"]').val(speed_pricing);
 			}
 			if ( jQuery('select[name="SERVICE"]').length ) {
