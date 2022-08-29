@@ -22,11 +22,16 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 		jQuery('.caption,.price span,#legales').hide();
 	}
 	else {
+		jQuery('.not-selected').removeClass('not-selected');
+		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
+		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
+		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',#legales span.'+lugar_class+',#legales .cur_month,#legales .cur_year,#legales .last_day,.step2').show();
 		if ( jQuery('.map iframe').length ) {
 			jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
 			jQuery('.map').show();	
 		}
 		if ( jQuery('body').hasClass('postid-24725') ) {
+			jQuery('.tv').remove();
 			jQuery('title').html('Internet Inalámbrico para Hogares en '+lugar_name+' &mdash; '+site_name);
 		}
 		else if ( jQuery('body').hasClass('postid-23640') ) {
@@ -36,14 +41,6 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 		else if ( jQuery('body').hasClass('postid-25544') ) {
 			jQuery('.not-tv').remove();
 			jQuery('title').html('Internet por Fibra Óptica en '+lugar_name+' &mdash; '+site_name);
-		}
-		jQuery('.tv').remove();
-		jQuery('.not-selected').removeClass('not-selected');
-		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
-		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',#legales span.'+lugar_class+',#legales .cur_month,#legales .cur_year,#legales .last_day,.step2').show();
-		if ( lugar_class == 'bariloche' ) {
-			jQuery('.hidden-bariloche').hide();
 		}
 	}
 }
