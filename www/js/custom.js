@@ -750,7 +750,7 @@ jQuery(document).ready(function() {
 
 	// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
 	if ( jQuery('.fusion-pricing-table').length ) {
-		jQuery('.fusion-pricingtable-column .fusion-button').click(function(e) {
+		jQuery('.fusion-pricingtable-column .fusion-panel').click(function(e) {
 			var title_pricing = jQuery(this).find('.panel-heading .title-row').text();
 			if ( jQuery('select[name="TITLE"]').length ) {
 				jQuery('select[name="TITLE"]').val(title_pricing);

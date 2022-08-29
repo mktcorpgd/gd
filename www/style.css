@@ -509,7 +509,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-pricing-table .standout{font-size:1.1em}
 .fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
 .fusion-pricing-table .standout .panel-body{padding:.5em}
-.fusion-pricing-table .panel-heading{padding:1em .4em}
+.fusion-pricing-table .panel-heading{padding:1em .4em 0}
 .fusion-pricing-table .panel-heading,.fusion-pricing-table .panel-body{background:#FFFFFF!important}
 .fusion-pricing-table .panel-heading h3{font-size:1.6em}
 .fusion-pricing-table .panel-body,.fusion-pricing-table .panel-body .list-group .list-group-item{background:#FAFAFA}
