@@ -750,7 +750,7 @@ jQuery(document).ready(function() {
 
 	// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
 	if ( jQuery('.fusion-pricing-table').length ) {
-		jQuery('.fusion-pricingtable-column .panel-container').click(function(e) {
+		jQuery('.fusion-pricingtable-column .fusion-button').click(function(e) {
 			var title_pricing = jQuery(this).find('.panel-heading .title-row').text();
 			if ( jQuery('select[name="TITLE"]').length ) {
 				jQuery('select[name="TITLE"]').val(title_pricing);
@@ -770,6 +770,7 @@ jQuery(document).ready(function() {
 					title_pricing = title_pricing+' en '+lugar_name;
 				}
 			}
+			console.log(title_pricing);
 			jQuery(".fusion-modal[class*='contacto-rapido-internet'] .modal-title").text(title_pricing);	
 		});
 		jQuery('.integer-part').each(function() {
