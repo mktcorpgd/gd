@@ -519,8 +519,8 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-pricing-table .list-group-item{padding-top:.2em;padding-bottom:.2em}
 .fusion-pricing-table .list-group .list-group-item{background:#FAFAFA}
 .fusion-pricing-table .list-group .list-group-item:hover{background:#FFFFFF}
-.fusion-pricing-table .panel-footer{padding:0}
-.fusion-pricing-table .fusion-button.fusion-button-default-size{width:100%;border-radius:0;box-shadow:none;margin-bottom:0}
+.fusion-pricing-table .panel-footer{padding:0!important}
+.fusion-pricing-table .fusion-button.fusion-button-default-size{width:100%;border-radius:0!important;box-shadow:none!important;margin-bottom:0!important}
 
 
 /* Persona */
