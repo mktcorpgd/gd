@@ -501,11 +501,11 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 /* Pricing */
 .fusion-pricing-table{margin:0}
 .fusion-pricing-table .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block}
-.fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2);cursor:pointer;transition:all .1s ease-in-out;overflow:hidden}
+.fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2);cursor:initial;transition:all .1s ease-in-out;overflow:hidden}
 .fusion-pricingtable-column .panel-container:hover{transform:scale(1.025);box-shadow:0 0 24px rgba(0,0,0,.3)}
 .fusion-pricingtable-column.standout .panel-container{box-shadow:0 0 32px rgba(0,0,0,.6)}
 .fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 0 40px rgba(0,0,0,.4)}
-.fusion-pricing-table .panel-wrapper{padding:0 1em;cursor:inherit}
+.fusion-pricing-table .panel-wrapper{padding:0 1em}
 .fusion-pricing-table .standout{font-size:1.1em}
 .fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
 .fusion-pricing-table .standout .panel-body{padding:.5em}
