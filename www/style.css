@@ -112,7 +112,6 @@ body.single-avada_portfolio .sidebar .widget .heading h4,.fusion-sidebar-inner-c
 .modal.in .modal-dialog{box-shadow:0 5px 25px rgba(0,0,0,.4);opacity:1;visibility:visible}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
 .modal-content{padding:1.4em 1em;box-shadow:none;border-radius:12px}
-.modal .modal-title{padding-right:50px;font-family:'Neo-Sans',sans-serif!important;font-weight:500!important;width:auto}
 .modal .modal-body{padding:0}
 .modal .modal-body>h4{margin-top:0;margin-bottom:10px}
 .modal .modal-body a:not(.fusion-button):hover{text-decoration:underline}
@@ -120,9 +119,9 @@ body.single-avada_portfolio .sidebar .widget .heading h4,.fusion-sidebar-inner-c
 body:not(.page-id-39954):not(.page-id-41066).site-id-1 .fusion-modal.contacto-rapido .modal-body,body.site-id-5 .fusion-modal.contacto-rapido .modal-body,body.site-id-6 .fusion-modal.contacto-rapido .modal-body,body.site-id-25 .fusion-modal.contacto-rapido .modal-body{padding:0}
 body:not(.page-id-39954):not(.page-id-41066):not(.site-id-5) .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth,body.site-id-6 .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth,body.site-id-25 .fusion-modal.contacto-rapido .modal-body>.fusion-fullwidth{padding:24px 20px 0!important}
 body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .modal-body img,body.site-id-5 .fusion-modal.contacto-rapido .modal-body img,body.site-id-6 .fusion-modal.contacto-rapido .modal-body img,body.site-id-25 .fusion-modal.contacto-rapido .modal-body img{border:none!important}
-.fusion-modal .modal-header{margin-bottom:1em;min-height:auto!important;height:auto!important;padding:0!important;border:none!important}
-.modal-header .close{transition:color .1s ease-in-out;margin:0!important;padding:0;width:40px;height:40px;line-height:1;position:absolute;top:5px;right:5px;color:rgba(34,34,34,.6);background:none!important;border:none!important;cursor:pointer}
-.modal-header .close:hover{color:rgba(34,34,34,1)}
+.fusion-modal .modal-header{margin-bottom:1em;min-height:auto;padding:0;border:none}
+.modal-header .close{transition:color .1s ease-in-out;margin:0!important;padding:0;width:40px;height:40px;line-height:1;position:absolute;top:0;right:0;color:#999999;background:none;border:none;cursor:pointer}
+.modal-header .close:hover{color:#777777}
 
 /* Header */
 .fusion-logo .fusion-logo-link,.fusion-logo>img[src*='flag']{float:left}
