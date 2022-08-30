@@ -332,9 +332,9 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7-form.sent .wpcf7-response-output{background-color:#419466}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500}
 .wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left;width:100%}
-.wpcf7 label>i{width:16px;position:absolute;top:3px;left:-22px;text-align:right;color:#CCCCCC;cursor:default}
-.wpcf7 label>i[class*='.far']{padding-right:.5em;font-size:.8em;position:relative;bottom:2px;opacity:.6}
-.wpcf7 label>i[class*='.far']:hover{opacity:.8}
+.wpcf7 label>i{width:16px;position:absolute;top:50%;left:-22px;text-align:right;color:#CCCCCC;cursor:default}
+.wpcf7 label>i[class*='fa-info-circle']{padding-right:.5em;font-size:.8em;position:relative;bottom:2px;opacity:.6}
+.wpcf7 label>i[class*='fa-info-circle']:hover{opacity:.8}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 
 /* Datepicker */
