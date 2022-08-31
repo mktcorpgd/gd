@@ -478,15 +478,14 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400}
-.info-material{padding:1em 0;color:#888888;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 #UseyourDrive .entry img{border:none}
 #UseyourDrive .entry_thumbnail img{margin:0;transform:none}
+.info-material{padding:1em 0;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0}
-.file-container .info-material{margin-top:20px}
-.info-material i{display:inline-block;margin-right:5px;color:#0E316E}
-.info-material a{color:#888888;text-decoration:underline}
-.info-material strong,.info-material strong a{color:#0E316E;font-weight:700}
-.info-material a:hover{color:#1F4483}
+.file-container .info-material{margin-top:1em}
+.info-material i{display:inline-block;margin-right:.4em}
+.info-material a{text-decoration:underline}
+.info-material strong,.info-material strong a{font-weight:700}
 .UseyourDrive.useyourdrive-modal .modal-content{border-radius:12px;box-shadow:0 0 32px rgba(0,0,0,.6)}
 .UseyourDrive .useyourdrive-modal-body{padding:.5em 0 0}
 .shareon{margin-top:0;text-align:center}
