@@ -637,6 +637,7 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .hero-img .fusion-title-1 h1{color:#FFFFFF!important;margin-top:0}
 .hero-img .fusion-title-2{margin-top:0!important}
 .hero-img .fusion-title-2 h4{margin-bottom:0;color:#FFFFFF!important;font-size:1.2em!important;line-height:1.5!important;font-family:'Neo-Sans',sans-serif;font-weight:400!important;text-align:center}
+.hero-img .fusion-title h4{text-align:left!important}
 .post-content .fusion-content-widget-area h4{margin-bottom:0!important}
 
 /* Overlays */
