@@ -369,7 +369,7 @@ div.wpcf7 .ajax-loader.is-active{visibility:visible}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
 input.static_gmap.filled{border-bottom-left-radius:0;border-bottom-right-radius:0}
 input.static_gmap+a{display:block;position:relative;margin-top:-11px;margin-bottom:10px;border:1px solid #CCCCCC;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
-input.static_gmap+a img{display:block}
+input.static_gmap+a img{display:block;width:100%}
 input.static_gmap+a:hover{border-color:#F0582B}
 
 /* Sidebar */
@@ -600,6 +600,7 @@ body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:a
 #tab-Casosdeuso #UseyourDrive .padder:before,#tab-Casosdeuso #UseyourDrive .padder:after{display:block;color:#0E316E;text-align:center;font-size:1em;line-height:1.2;font-weight:600;font-style:italic}
 body.single article .padder:before{text-align:left}
 body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:after{content:'Válido para Argentina (AMBA)'}
+body.page-id-44050 #content .padder:before{padding-bottom:1em}
 article.category-casos-de-referencia .padder:before,article.category-casos-de-referencia .padder:after,
 body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:after,
 body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:after,
