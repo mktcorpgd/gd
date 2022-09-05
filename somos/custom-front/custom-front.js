@@ -517,7 +517,8 @@ jQuery(document).ready(function() {
 				var num_groups_limit = parseInt(jQuery('#num_groups_limit').text())-1;
 				console.log('counter='+counter);
 				console.log('num_groups_limit='+num_groups_limit);
-				console.log(counter > 1);
+				console.log(counter >= 1);
+				console.log(counter <= num_groups_limit);
 				if ( (counter >= 1) && (counter <= num_groups_limit) ) {
 					counter++;
 					jQuery('.control_group').removeClass('disabled');
