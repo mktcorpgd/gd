@@ -471,7 +471,7 @@ jQuery(document).ready(function() {
 	// [Viajes] FORMULARIO
 	if ( jQuery('.address_maps').length ) {
 		
-		// Datos de usuario
+		// Copiar datos del solicitante
 		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
 		function samedataPaxChecked() {
 			jQuery('input[name="SAMEDATAPAX[]"]').trigger('click');
@@ -506,6 +506,21 @@ jQuery(document).ready(function() {
 					jQuery('input[name=FNAMEPAX1]').val(jQuery('input[name=FNAME]').val());
 					jQuery('input[name=LNAMEPAX1]').val(jQuery('input[name=LNAME]').val());	
 				}
+			}
+		});
+
+		// Botón para agregar viaje
+		jQuery('<button type="button" class="small add_group">Agregar viaje</button>').appendTo('div[data-id="solicitud"]');
+		jQuery('.wpcf7 .add_group').click(function(e){
+			if ( jQuery('input[name=CANTREM]').length ) {
+				var counter = parseInt(jQuery('input[name=CANTREM]').val());
+				counter++;
+				jQuery('input[name=CANTREM]').val(counter);
+			}
+			if ( jQuery('input[name=CANTTRM]').length ) {
+				var counter = parseInt(jQuery('input[name=CANTREM]').val());
+				counter++;
+				jQuery('input[name=CANTTRM]').val(counter);
 			}
 		});
 
