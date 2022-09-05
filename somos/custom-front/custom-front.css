@@ -593,18 +593,11 @@ article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-bl
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
 /* Uso interno / Sólo Argentina */
-body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:after,
-article.category-casos-de-referencia .padder:before,article.category-casos-de-referencia .padder:after,
-body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:after,
-body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:after,
-#tab-Casosdeuso #UseyourDrive .padder:before,#tab-Casosdeuso #UseyourDrive .padder:after{display:block;color:#555555;text-align:center;font-size:1em;line-height:1.2;font-weight:400;font-style:italic}
+body.page-id-44050 #content .padder:before,article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before,#tab-Casosdeuso #UseyourDrive .padder:before{display:block;color:#555555;text-align:center;font-size:1em;line-height:1.2;font-weight:400;font-style:italic}
 body.single article .padder:before{text-align:left}
-body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:after{content:'Válido para Argentina (AMBA)'}
+body.page-id-44050 #content .padder:before{content:'Válido para Argentina (AMBA)'}
 body.page-id-44050 #content .padder:before{padding-bottom:1em}
-article.category-casos-de-referencia .padder:before,article.category-casos-de-referencia .padder:after,
-body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:after,
-body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:after,
-#tab-Casosdeuso #UseyourDrive .padder:before,#tab-Casosdeuso #UseyourDrive .padder:after{content:'Información de uso interno'}
+article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before,#tab-Casosdeuso #UseyourDrive .padder:before{content:'Información de uso interno'}
 
 /* Pestañas */
 .ui-widget-content{padding:0;top:0;background:none;border:none!important;overflow:visible}
