@@ -510,7 +510,6 @@ jQuery(document).ready(function() {
 		});
 
 		// Botón para agregar viaje
-		jQuery('<button type="button" class="small add_group">Agregar viaje</button>').appendTo('div[data-id="solicitud"]');
 		jQuery('.wpcf7 .add_group').click(function(e){
 			if ( jQuery('input[name=CANTREM]').length ) {
 				var counter = parseInt(jQuery('input[name=CANTREM]').val());
