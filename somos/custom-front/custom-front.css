@@ -628,17 +628,18 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .sc-button>i,.wpcf7 button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,
 .wpcf7 button.small,.wpcf7 button.medium,.wpcf7 button.large,.wpcf7 button.xlarge{padding:.4em .8em;line-height:1.2}
-.sc-button.small,button.small{margin:.2em .4em .5em 0;padding:.3em .6em;font-size:.9em;font-weight:400!important;border-radius:6px!important}
+.sc-button.small,button.small{margin:.2em .4em .5em 0;padding:.4em .7em;font-size:.9em;font-weight:400!important;border-radius:6px!important}
 .sc-button.medium,.wpcf7 button.medium{font-size:1.05em}
 .sc-button.large,.wpcf7 button.large{font-size:1.2em}
 .sc-button.xlarge,.wpcf7 button.xlarge{margin-bottom:1em;font-size:1.3em}
 .sc-button.inline,.wpcf7 button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
 .sc-button-social{display:inline-block;margin:.2em .2em 0;color:#F0582B;font-size:1.5em}
 .sc-button-social:hover{color:#1F4483}
-.add_group{float:right}
+.add_group{margin-right:0;float:right}
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
+.widget .sc-button.small{padding:.3em .6em}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
