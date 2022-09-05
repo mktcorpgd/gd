@@ -432,6 +432,8 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #custom_html-24>div>h3>i:before{content:'\f00e'}
 #custom_html-25 h3.toggle>i.fa-plus-square+a:after{content:''}
 #custom_html-25 h3.toggle>i.fa-minus-square+a:after{content:''}
+.page-id-45931 h3.toggle>i.fa-plus-square+a:after{content:''}
+.page-id-45931 h3.toggle>i.fa-minus-square+a:after{content:''}
 
 /* Buscadores */
 body>.is-search-form{margin:52px auto 1em;width:95%}
