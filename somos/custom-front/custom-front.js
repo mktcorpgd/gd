@@ -509,7 +509,7 @@ jQuery(document).ready(function() {
 			}
 		});
 
-		// Botón para agregar viaje
+		// Botón para agregar grupo
 		jQuery('.wpcf7 .add_group').click(function(e){
 			if ( jQuery('input[name=CANTREM]').length ) {
 				var counter = parseInt(jQuery('input[name=CANTREM]').val());
@@ -519,6 +519,19 @@ jQuery(document).ready(function() {
 			if ( jQuery('input[name=CANTTRM]').length ) {
 				var counter = parseInt(jQuery('input[name=CANTTRM]').val());
 				counter++;
+				jQuery('input[name=CANTTRM]').val(counter);
+			}
+		});
+		// Botón para eliminar grupo
+		jQuery('.wpcf7 .remove_group').click(function(e){
+			if ( jQuery('input[name=CANTREM]').length ) {
+				var counter = parseInt(jQuery('input[name=CANTREM]').val());
+				counter--;
+				jQuery('input[name=CANTREM]').val(counter);
+			}
+			if ( jQuery('input[name=CANTTRM]').length ) {
+				var counter = parseInt(jQuery('input[name=CANTTRM]').val());
+				counter--;
 				jQuery('input[name=CANTTRM]').val(counter);
 			}
 		});
