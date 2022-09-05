@@ -618,23 +618,24 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 button,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none}
+button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none}
 .sc-button,.sc-button:hover{margin:0}
-.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 button,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
-.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 button:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
-.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 button:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
+button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
+button:hover,.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
+button:active,.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content;border:none!important}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
-.sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
-.sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge{padding:.4em .8em;line-height:1.2}
-.sc-button.small{margin:.4em;font-size:.9em;border-radius:6px!important}
-.sc-button.medium{font-size:1.05em}
-.sc-button.large{font-size:1.2em}
-.sc-button.xlarge{margin-bottom:1em;font-size:1.3em}
-.sc-button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
+.sc-button>i,button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
+.sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,
+button.small,button.medium,button.large,button.xlarge{padding:.4em .8em;line-height:1.2}
+.sc-button.small,button.small{margin:.4em;font-size:.9em;border-radius:6px!important}
+.sc-button.medium,button.medium{font-size:1.05em}
+.sc-button.large,button.large{font-size:1.2em}
+.sc-button.xlarge,button.xlarge{margin-bottom:1em;font-size:1.3em}
+.sc-button.inline,button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
 .sc-button-social{display:inline-block;margin:.2em .2em 0;color:#F0582B;font-size:1.5em}
 .sc-button-social:hover{color:#1F4483}
-.widget .toggle-box .blue.sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
+.widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
 .widget .sc-button.small{margin:.2em .4em .5em 0;padding:.3em .6em;font-weight:400!important}
