@@ -514,13 +514,21 @@ jQuery(document).ready(function() {
 			var what_todo = jQuery(this).attr('id');
 			var counter = parseInt(jQuery('#num_groups').val());
 			if ( what_todo == 'add' ) {
-				counter++;
-				jQuery('#num_groups').val(counter);
+				var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
+				if ( 1 < counter < num_groups_limit ) {
+					counter++;
+					jQuery('.control_group').removeClass('disabled');
+					jQuery('#num_groups').val(counter);
+				}
+				else {
+					jQuery('#add').addclass('disabled');
+				}
 			}
 			else if ( what_todo == 'remove' ) {
+				var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
 				if ( counter > 1 ) {
-					jQuery('#remove').removeClass('disabled');
 					counter--;
+					jQuery('.control_group').removeClass('disabled');
 					jQuery('#num_groups').val(counter);
 				}
 				else {
