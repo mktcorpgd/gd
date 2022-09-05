@@ -519,8 +519,12 @@ jQuery(document).ready(function() {
 			}
 			else if ( what_todo == 'remove' ) {
 				if ( counter > 1 ) {
+					jQuery('#remove').removeClass('disabled');
 					counter--;
 					jQuery('#num_groups').val(counter);
+				}
+				else {
+					jQuery('#remove').addClass('disabled');
 				}
 			}
 		});
