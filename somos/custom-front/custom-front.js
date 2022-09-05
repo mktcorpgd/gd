@@ -515,6 +515,9 @@ jQuery(document).ready(function() {
 			var counter = parseInt(jQuery('#num_groups').val());
 			if ( what_todo == 'add' ) {
 				var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
+				console.log('counter='+counter);
+				console.log('num_groups_limit='+num_groups_limit);
+				console.log(1 < counter < num_groups_limit);
 				if ( 1 < counter < num_groups_limit ) {
 					counter++;
 					jQuery('.control_group').removeClass('disabled');
@@ -526,6 +529,9 @@ jQuery(document).ready(function() {
 			}
 			else if ( what_todo == 'remove' ) {
 				var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
+				console.log('counter='+counter);
+				console.log('num_groups_limit='+num_groups_limit);
+				console.log(counter > 1);
 				if ( counter > 1 ) {
 					counter--;
 					jQuery('.control_group').removeClass('disabled');
