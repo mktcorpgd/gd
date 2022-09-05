@@ -434,6 +434,7 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #custom_html-25 h3.toggle>i.fa-minus-square+a:after{content:''}
 .page-id-45931 h3.toggle>i.fa-plus-square+a:after{content:''}
 .page-id-45931 h3.toggle>i.fa-minus-square+a:after{content:''}
+.page-id-45931 h3.toggle {font-size: 1.1em;line-height: 0.8;}
 
 /* Buscadores */
 body>.is-search-form{margin:52px auto 1em;width:95%}
