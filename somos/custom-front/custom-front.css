@@ -304,13 +304,12 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0}
-.wpcf7 .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em .4em;border-radius:12px}
+.wpcf7 .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em;border-radius:12px}
 input[type='number'].inline{margin:0;padding:.3em;max-width:50px;text-align:center}
 input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{border:2px solid #CCCCCC}
 input[type='number'].inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:#999999}
 div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:#333333}
-.wpcf7 .highlight .wpcf7-list-item label:hover input+span,.wpcf7 .highlight input:checked+span{color:#F0582B}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px;border:none}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151}
