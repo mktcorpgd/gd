@@ -525,7 +525,7 @@ jQuery(document).ready(function() {
 					jQuery('#num_groups').val(counter);
 				}
 				if ( counter == num_groups_limit ) {
-					jQuery('#add').addclass('disabled');
+					jQuery('#add').addClass('disabled');
 				}
 			}
 			else if ( what_todo == 'remove' ) {
