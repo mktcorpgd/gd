@@ -628,7 +628,7 @@ button:active,.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-m
 .sc-button>i,button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,
 button.small,button.medium,button.large,button.xlarge{padding:.4em .8em;line-height:1.2}
-.sc-button.small,button.small{margin:.4em;padding:.3em .6em;font-size:.9em;font-weight:400!important;border-radius:6px!important}
+.sc-button.small,button.small{margin:.2em .4em .5em 0;padding:.3em .6em;font-size:.9em;font-weight:400!important;border-radius:6px!important}
 .sc-button.medium,button.medium{font-size:1.05em}
 .sc-button.large,button.large{font-size:1.2em}
 .sc-button.xlarge,button.xlarge{margin-bottom:1em;font-size:1.3em}
@@ -638,7 +638,6 @@ button.small,button.medium,button.large,button.xlarge{padding:.4em .8em;line-hei
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-.widget .sc-button.small{margin:.2em .4em .5em 0}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
