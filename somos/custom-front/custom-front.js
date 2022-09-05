@@ -509,33 +509,18 @@ jQuery(document).ready(function() {
 			}
 		});
 
-		// Botón para agregar grupo
-		jQuery('.wpcf7 .add_group').click(function(e){
-			if ( jQuery('input[name=CANTREM]').length ) {
-				var counter = parseInt(jQuery('input[name=CANTREM]').val());
+		// Botón para agregar/quitar grupo
+		jQuery('.wpcf7 .control_group').click(function(e){
+			var what_todo = jQuery(this).attr('id');
+			var counter = parseInt(jQuery('#num_groups').val());
+			if ( what_todo == 'add' ) {
 				counter++;
-				jQuery('input[name=CANTREM]').val(counter);
+				jQuery('#num_groups').val(counter);
 			}
-			if ( jQuery('input[name=CANTTRM]').length ) {
-				var counter = parseInt(jQuery('input[name=CANTTRM]').val());
-				counter++;
-				jQuery('input[name=CANTTRM]').val(counter);
-			}
-		});
-		// Botón para eliminar grupo
-		jQuery('.wpcf7 .remove_group').click(function(e){
-			if ( jQuery('input[name=CANTREM]').length ) {
-				var counter = parseInt(jQuery('input[name=CANTREM]').val());
+			else if ( what_todo == 'remove' ) {
 				if ( counter > 1 ) {
 					counter--;
-					jQuery('input[name=CANTREM]').val(counter);	
-				}
-			}
-			if ( jQuery('input[name=CANTTRM]').length ) {
-				var counter = parseInt(jQuery('input[name=CANTTRM]').val());
-				if ( counter > 1 ) {
-					counter--;
-					jQuery('input[name=CANTTRM]').val(counter);
+					jQuery('#num_groups').val(counter);
 				}
 			}
 		});
