@@ -535,7 +535,7 @@ jQuery(document).ready(function() {
 					jQuery('#num_groups').val(counter);
 				}
 				if ( counter == 1 ) {
-					jQuery('#remove').addclass('disabled');
+					jQuery('#remove').addClass('disabled');
 				}
 			}
 		});
