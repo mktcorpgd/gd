@@ -615,11 +615,11 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none}
+.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 button,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none}
 .sc-button,.sc-button:hover{margin:0}
-.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
-.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
-.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
+.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 button,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
+.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 button:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
+.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 button:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:1em auto 0;width:fit-content;border:none!important}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 .sc-button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
