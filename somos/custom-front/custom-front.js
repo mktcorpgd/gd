@@ -514,13 +514,13 @@ jQuery(document).ready(function() {
 			var what_todo = jQuery(this).attr('id');
 			var counter = parseInt(jQuery('#num_groups').val());
 			if ( what_todo == 'add' ) {
-				var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
+				var num_groups_limit = parseInt(jQuery('#num_groups_limit').text())-1;
 				if ( (counter > 1) && (counter <= num_groups_limit) ) {
 					counter++;
 					jQuery('.control_group').removeClass('disabled');
 					jQuery('#num_groups').val(counter);
 				}
-				else {
+				if ( counter == num_groups_limit ) {
 					jQuery('#add').addclass('disabled');
 				}
 			}
@@ -534,8 +534,8 @@ jQuery(document).ready(function() {
 					jQuery('.control_group').removeClass('disabled');
 					jQuery('#num_groups').val(counter);
 				}
-				else {
-					jQuery('#remove').addClass('disabled');
+				if ( counter == 1 ) {
+					jQuery('#remove').addclass('disabled');
 				}
 			}
 		});
