@@ -309,8 +309,8 @@ input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{b
 input[type='number'].inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:#999999}
 input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item-label{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;font-weight:500}
 div.wpcf7 input[type='file']:disabled{cursor:default}
-.wpcf7 .highlight .wpcf7-list-item label input+span{color:#CCCCCC}
-.wpcf7 .highlight .wpcf7-list-item label:hover input+span,.wpcf7 .highlight input:checked+span{color:#999999}
+.wpcf7 .highlight .wpcf7-list-item label input+span{color:#333333}
+.wpcf7 .highlight .wpcf7-list-item label:hover input+span,.wpcf7 .highlight input:checked+span{color:#F0582B}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px;border:none}
 .wpcf7-form .wpcf7-not-valid{border-color:#FF5151}
 .wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151}
