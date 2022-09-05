@@ -517,7 +517,7 @@ jQuery(document).ready(function() {
 				jQuery('input[name=CANTREM]').val(counter);
 			}
 			if ( jQuery('input[name=CANTTRM]').length ) {
-				var counter = parseInt(jQuery('input[name=CANTREM]').val());
+				var counter = parseInt(jQuery('input[name=CANTTRM]').val());
 				counter++;
 				jQuery('input[name=CANTTRM]').val(counter);
 			}
