@@ -526,13 +526,17 @@ jQuery(document).ready(function() {
 		jQuery('.wpcf7 .remove_group').click(function(e){
 			if ( jQuery('input[name=CANTREM]').length ) {
 				var counter = parseInt(jQuery('input[name=CANTREM]').val());
-				counter--;
-				jQuery('input[name=CANTREM]').val(counter);
+				if ( counter > 1 ) {
+					counter--;
+					jQuery('input[name=CANTREM]').val(counter);	
+				}
 			}
 			if ( jQuery('input[name=CANTTRM]').length ) {
 				var counter = parseInt(jQuery('input[name=CANTTRM]').val());
-				counter--;
-				jQuery('input[name=CANTTRM]').val(counter);
+				if ( counter > 1 ) {
+					counter--;
+					jQuery('input[name=CANTTRM]').val(counter);
+				}
 			}
 		});
 
