@@ -308,7 +308,6 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 input[type='number'].inline{margin:0;padding:.3em;max-width:50px;text-align:center}
 input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{border:2px solid #CCCCCC}
 input[type='number'].inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:#999999}
-input[type='number'].inline.highlight,.wpcf7 .highlight .wpcf7-list-item-label{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif}
 div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:#333333}
 .wpcf7 .highlight .wpcf7-list-item label:hover input+span,.wpcf7 .highlight input:checked+span{color:#F0582B}
