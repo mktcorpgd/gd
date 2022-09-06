@@ -160,9 +160,7 @@ jQuery(document).ready(function() {
 		}
 		jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
 		jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
-		jQuery('.wpcf7-form>div.step3').show();
-		jQuery('.wpcf7-form>div.step3 :input').prop('disabled',false);
-		jQuery('.wpcf7-form>.step3,.wpcf7-submit').show().removeClass('disabled');
+		jQuery('.disabled').removeClass('disabled');
 	});
 
 
