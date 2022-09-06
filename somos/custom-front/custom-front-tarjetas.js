@@ -1,11 +1,6 @@
 jQuery(document).ready(function() {
 
 
-	// Deshabilitar pasos 2 y 3 del formulario
-	jQuery('.wpcf7-form>.step2 :input,.wpcf7-form>.step3 :input').prop('disabled',true);
-	jQuery('.wpcf7-form>.step3 input[type=submit]').prop('disabled',true);
-
-
 	// Asignación de nombre, apellido, email, usuario y QR
 	var fname = jQuery('#usrfname').val();
 	var lname = jQuery('#usrlname').val();
