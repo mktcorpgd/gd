@@ -30,6 +30,7 @@ jQuery.fn.capitalize = function(e) {
 
 // FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit',function(e) {
+	jQuery(this).addClass('sending');
 	jQuery(this).closest('.wpcf7-form').addClass('sending');
 	jQuery(this).attr('name',jQuery(this).val());
 	jQuery(this).val('Enviando...');
