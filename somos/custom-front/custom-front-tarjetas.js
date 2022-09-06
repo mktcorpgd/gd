@@ -155,7 +155,7 @@ jQuery(document).ready(function() {
 		}
 		jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
 		jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
-		jQuery('.disabled').removeClass('disabled');
+		jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
 	});
 
 
