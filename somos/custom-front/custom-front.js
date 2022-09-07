@@ -536,9 +536,17 @@ jQuery(document).ready(function() {
 			}
 		});
 		jQuery('#num_groups').bind('keyup change click', function (e) {
-			if ( !jQuery(this).data('prev_val') || jQuery(this).data('prev_val') != $(this).val() ) {
-				console.log('changed');
-				jQuery(this).data('prev_val',jQuery(this).val());
+			var what_todo = jQuery(this).attr('id');
+			var counter = parseInt(jQuery('#num_groups').val());
+			var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
+			if ( counter > 1 ) {
+				jQuery('.control_group').removeClass('disabled');
+			}
+			if ( counter == 1 ) {
+				jQuery('#remove').addClass('disabled');
+			}
+			if ( counter == num_groups_limit ) {
+				jQuery('#add').addClass('disabled');
 			}
 		});
 		jQuery('#num_groups').data('prev_val',jQuery(this).val());
