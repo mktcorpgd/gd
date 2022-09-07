@@ -535,7 +535,14 @@ jQuery(document).ready(function() {
 				}
 			}
 		});
-
+		jQuery('#num_groups').bind('keyup change click', function (e) {
+			if ( !jQuery(this).data('prev_val') || jQuery(this).data('prev_val') != $(this).val() ) {
+				console.log('changed');
+				jQuery(this).data('prev_val',jQuery(this).val());
+			}
+		});
+		jQuery('#num_groups').data('prev_val',jQuery(this).val());
+		
 		// Autocompletado por Google Maps API
 		ApplyAutoComplete(jQuery('.address_maps'));
 		var selected = false;
