@@ -508,7 +508,7 @@ jQuery(document).ready(function() {
 			}
 		});
 
-		// Botón para agregar/quitar grupo
+		// Comportamiento según se agreguen/quiten grupos
 		jQuery('.wpcf7 .control_group').click(function(e){
 			var what_todo = jQuery(this).attr('id');
 			var counter = parseInt(jQuery('#num_groups').val());
@@ -536,7 +536,6 @@ jQuery(document).ready(function() {
 			}
 		});
 		jQuery('#num_groups').bind('keyup change click', function (e) {
-			var what_todo = jQuery(this).attr('id');
 			var counter = parseInt(jQuery('#num_groups').val());
 			var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
 			if ( counter > 1 ) {
@@ -549,7 +548,6 @@ jQuery(document).ready(function() {
 				jQuery('#add').addClass('disabled');
 			}
 		});
-		jQuery('#num_groups').data('prev_val',jQuery(this).val());
 		
 		// Autocompletado por Google Maps API
 		ApplyAutoComplete(jQuery('.address_maps'));
