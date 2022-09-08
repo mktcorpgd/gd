@@ -574,34 +574,33 @@ body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_
 .fusion-fullwidth.fullwidth-box.bg-parallax-parent{overflow:visible}
 
 /* Slider */
-.flex-viewport{height:auto!important}
-.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-family:'Neo-Sans',sans-serif;font-size:1.8em!important;font-weight:400!important;line-height:1.4!important}
-.tfs-slider .caption .fusion-title h3 strong,.tfs-slider .caption .fusion-title h4 strong{font-weight:400!important;text-decoration:underline}
-.tfs-slider .heading h2,.tfs-slider .heading h3,.fusion-fullwidth.nonhundred-percent-fullwidth .heading h1{font-family:'Neo-Sans',sans-serif!important;font-weight:500!important}
-.tfs-slider .buttons .fa{color:#FFFFFF!important}
+.flex-viewport{height:auto}
+.fusion-layout-column .flexslider{margin-bottom:0}
+.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-family:'Neo-Sans',sans-serif;font-size:1.8em;font-weight:400;line-height:1.4}
+.tfs-slider .caption .fusion-title h3 strong,.tfs-slider .caption .fusion-title h4 strong{font-weight:400;text-decoration:underline}
+.tfs-slider .heading h2,.tfs-slider .heading h3,.fusion-fullwidth.nonhundred-percent-fullwidth .heading h1{font-family:'Neo-Sans',sans-serif;font-weight:500}
+.tfs-slider .buttons .fa{color:#FFFFFF}
 .tfs-slider .slide-content-container .tfs-button-1,.tfs-slider .slide-content-container .tfs-button-2{margin-top:2%}
-.fusion-highlight{background-color:transparent!important;border-bottom-style:solid;border-bottom-width:2px;font-weight:500;padding:0!important}
-.whitetxt .content-container h4,.fusion-button.whitetxt:hover .fusion-button-text{color:#FFFFFF!important}
-.fusion-button.whitetxt:not(.button-custom){border-color:#FFFFFF!important}
-.tfs-slider .flex-control-nav{position:relative;bottom:30px!important}
+.fusion-highlight{background-color:transparent;border-bottom-style:solid;border-bottom-width:2px;font-weight:500;padding:0}
+.tfs-slider .flex-control-nav{position:relative;bottom:30px}
 .fusion-flexslider .flex-control-nav{left:0}
 body.single .fusion-flexslider .flex-control-nav{bottom:20px}
-.flex-control-paging li a{background:rgba(0,0,0,.4)!important;box-shadow:none!important}
-.flex-control-paging li a:hover{background:rgba(0,0,0,.6)!important}
 .tfs-slider .slide-content-container .heading{margin:0}
 .tfs-slider .slide-content-container .buttons{margin-top:1.5em}
 .tfs-slider .slide-content-container .caption{margin-bottom:10px}
-.fusion-post-wrapper .flex-control-paging li a{background:rgba(255,255,255,.4)!important}
-.fusion-post-wrapper .flex-control-paging li a:hover{background:rgba(255,255,255,.6)!important}
-.flex-next,.flex-prev{background:none!important;font-size:2.4em!important}
-.flex-next:hover,.flex-prev:hover{text-decoration:none!important;color:#FFFFFF!important}
-.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em!important}
-.flex-control-paging li a.flex-active{background:#FFFFFF!important}
-.fusion-slider-sc .flex-direction-nav a{background:none!important}
-.flex-control-paging li a.flex-active{background:#FFFFFF!important}
-.fusion-slider-sc .flex-direction-nav li{font-size:2em!important}
-.fusion-layout-column .flexslider{margin-bottom:0}
-.fusion-body .fusion-slider-sc .flex-direction-nav a{width:50px;height:70px;line-height:.8;color:rgba(0,0,0,.4)!important}
+.flex-next,.flex-prev{background:none;font-size:2.4em}
+.flex-next:hover,.flex-prev:hover{text-decoration:none;color:#FFFFFF}
+.flex-control-paging li a{background:rgba(0,0,0,.4);box-shadow:none}
+.flex-control-paging li a.flex-active{background:#FFFFFF}
+.flex-control-paging li a:hover{background:rgba(0,0,0,.6)}
+.fusion-post-wrapper .flex-control-paging li a{background:rgba(255,255,255,.4)}
+.fusion-post-wrapper .flex-control-paging li a:hover{background:rgba(255,255,255,.6)}
+.fusion-slider-sc .flex-direction-nav a{background:none}
+.fusion-slider-sc .flex-direction-nav li{font-size:2em}
+.fusion-body .fusion-slider-sc .flex-direction-nav a{width:50px;height:70px;line-height:.8;color:rgba(0,0,0,.4)}
+.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em}
+.whitetxt .content-container h4,.fusion-button.whitetxt:hover .fusion-button-text{color:#FFFFFF}
+.fusion-button.whitetxt:not(.button-custom){border-color:#FFFFFF}
 
 /* Lightbox */
 .ilightbox-image[src*='.png']{background-color:#FFFFFF!important}
