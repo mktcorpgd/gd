@@ -737,7 +737,7 @@ body.single #post-content img,.gallery-item img,.wp-block-image img,.wp-block-im
 .gallery-item{margin:0;padding:16px;box-sizing:border-box}
 .gallery-item img{width:100%}
 figcaption{text-align:left;padding:.4em .3em;background:rgba(0,0,0,.5);line-height:1.25;font-style:italic}
-.wp-block-image a+figcaption{cursor:zoom-in}
+.wp-block-image a+figcaption,.grid-gallery .gg-link{cursor:zoom-in}
 
 /* Videos */
 body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
