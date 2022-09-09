@@ -595,13 +595,13 @@ jQuery(document).ready(function() {
 		};
 		jQuery('.address_maps').on('focus',function() {
 			selected = false;
-			}).on('blur', function() {
-			if ( !selected && jQuery(this).val() != '' ) {
+			var cur_value = jQuery(this).val();
+			console.log(cur_value);
+		}).on('blur', function() {
+			console.log(cur_value);
+			console.log(jQuery(this).val());
+			if ( !selected && !jQuery(this).siblings('.static_gmap').length && cur_value == jQuery(this).val() ) {
 				jQuery(this).val('');
-			}
-			if ( jQuery(this).val() == '' ) {
-				jQuery(this).removeClass('filled');
-				jQuery(this).siblings('.statc_gmap_link').remove();
 			}
 		});
 		  
