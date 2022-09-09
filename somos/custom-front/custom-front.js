@@ -600,7 +600,10 @@ jQuery(document).ready(function() {
 		}).on('blur', function() {
 			console.log(jQuery(this).data('cur_value'));
 			console.log(jQuery(this).val());
-			if ( !selected && !jQuery(this).siblings('.static_gmap').length && jQuery(this).data('cur_value') == jQuery(this).val() ) {
+			console.log(!selected);
+			console.log(!jQuery(this).siblings('.static_gmap').length);
+			console.log(jQuery(this).data('cur_value') != jQuery(this).val());
+			if ( !selected && !jQuery(this).siblings('.static_gmap').length && jQuery(this).data('cur_value') != jQuery(this).val() ) {
 				jQuery(this).val('');
 			}
 		});
