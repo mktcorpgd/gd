@@ -596,11 +596,11 @@ jQuery(document).ready(function() {
 		jQuery('.address_maps').on('focus',function() {
 			selected = false;
 			var cur_value = jQuery(this).val();
-			console.log(cur_value);
+			jQuery(this).data('cur_value',cur_value);
 		}).on('blur', function() {
-			console.log(cur_value);
+			console.log(jQuery(this).data('cur_value'));
 			console.log(jQuery(this).val());
-			if ( !selected && !jQuery(this).siblings('.static_gmap').length && cur_value == jQuery(this).val() ) {
+			if ( !selected && !jQuery(this).siblings('.static_gmap').length && jQuery(this).data('cur_value') == jQuery(this).val() ) {
 				jQuery(this).val('');
 			}
 		});
