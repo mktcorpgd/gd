@@ -582,7 +582,7 @@ jQuery(document).ready(function() {
 				if ( jQuery('input[name='+input_name+'].static_gmap').length ) {
 					var address = this.getPlace().formatted_address;
 					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=600x150&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
-					var html_map = '<a class="statc_gmap_link" href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
+					var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
 					jQuery('input[name='+input_name+'].static_gmap').addClass('filled');
 					if ( jQuery('input[name='+input_name+'].static_gmap+a').length ) {
 						jQuery('input[name='+input_name+'].static_gmap+a').replaceWith(html_map);	
@@ -598,8 +598,8 @@ jQuery(document).ready(function() {
 			var cur_value = jQuery(this).val();
 			jQuery(this).data('cur_value',cur_value);
 		}).on('blur', function() {
-			if ( !selected && !jQuery(this).siblings('.static_gmap').length && jQuery(this).data('cur_value') != jQuery(this).val() ) {
-				jQuery(this).val('').removeClass('filled').siblings('.static_gmap').remove();
+			if ( !selected && !jQuery(this).siblings('a').length && jQuery(this).data('cur_value') != jQuery(this).val() ) {
+				jQuery(this).val('').removeClass('filled').siblings('a').remove();
 			}
 		});
 		  
