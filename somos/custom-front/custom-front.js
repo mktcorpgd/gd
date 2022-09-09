@@ -581,11 +581,11 @@ jQuery(document).ready(function() {
 				selected = true;
 				if ( jQuery('input[name='+input_name+'].static_gmap').length ) {
 					var address = this.getPlace().formatted_address;
-					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=350x170&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
-					var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
+					var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=600x150&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
+					var html_map = '<a class="statc_gmap_link" href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
 					jQuery('input[name='+input_name+'].static_gmap').addClass('filled');
 					if ( jQuery('input[name='+input_name+'].static_gmap+a').length ) {
-						jQuery('.'+input_name+'.static_gmap a').replaceWith(html_map);	
+						jQuery('input[name='+input_name+'].static_gmap+a').replaceWith(html_map);	
 					}
 					else { 
 						jQuery('input[name='+input_name+'].static_gmap').after(html_map);	
@@ -596,8 +596,12 @@ jQuery(document).ready(function() {
 		jQuery('.address_maps').on('focus',function() {
 			selected = false;
 			}).on('blur', function() {
-			if ( !selected ) {
+			if ( !selected && jQuery(this).val() != '' ) {
 				jQuery(this).val('');
+			}
+			if ( jQuery(this).val() == '' ) {
+				jQuery(this).removeClass('filled');
+				jQuery(this).siblings('.statc_gmap_link').remove();
 			}
 		});
 		  
