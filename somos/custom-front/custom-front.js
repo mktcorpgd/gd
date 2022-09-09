@@ -599,8 +599,7 @@ jQuery(document).ready(function() {
 			jQuery(this).data('cur_value',cur_value);
 		}).on('blur', function() {
 			if ( !selected && !jQuery(this).siblings('.static_gmap').length && jQuery(this).data('cur_value') != jQuery(this).val() ) {
-				jQuery(this).val('').removeClass('filled');
-				jQuery(this).siblings('.static_gmap').remove();
+				jQuery(this).val('').removeClass('filled').siblings('.static_gmap').remove();
 			}
 		});
 		  
