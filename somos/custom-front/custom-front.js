@@ -598,13 +598,9 @@ jQuery(document).ready(function() {
 			var cur_value = jQuery(this).val();
 			jQuery(this).data('cur_value',cur_value);
 		}).on('blur', function() {
-			console.log(jQuery(this).data('cur_value'));
-			console.log(jQuery(this).val());
-			console.log(!selected);
-			console.log(!jQuery(this).siblings('.static_gmap').length);
-			console.log(jQuery(this).data('cur_value') != jQuery(this).val());
 			if ( !selected && !jQuery(this).siblings('.static_gmap').length && jQuery(this).data('cur_value') != jQuery(this).val() ) {
-				jQuery(this).val('');
+				jQuery(this).val('').removeClass('filled');
+				jQuery(this).siblings('.static_gmap').remove();
 			}
 		});
 		  
