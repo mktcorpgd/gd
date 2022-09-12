@@ -958,7 +958,6 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.vertical-tabs .nav-tabs li .tab-link{padding:10px 15px;white-space:normal}
 .fusion-tabs .tab-pane,.fusion-tabs.horizontal-tabs .nav{border:none!important;outline:none!important}
 .fusion-tabs.vertical-tabs .nav-tabs{padding-left:0;left:0}
-.fusion-tabs.vertical-tabs .tab-content{background:#FFFFFF}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-family:'Open-Sans',sans-serif;font-size:1rem!important;white-space:nowrap}
 .fusion-tabs .nav-tabs li a{background:#EAEAEA!important;border:none;border-radius:0!important}
