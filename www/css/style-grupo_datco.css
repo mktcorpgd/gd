@@ -1,5 +1,5 @@
 /* Grupo Datco */
-:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--whiteColor:var(--whiteColor);}
+:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--whiteColor:#FFFFFF;}
 body.branding .fusion-main-menu-search,body.branding .fusion-icon-search,body.branding .fusion-mobile-menu-search,
 #text-7 .textwidget br,.format-standard .fusion-post-content h2 a:before,body.single-format-standard #wpcf7-f39956-o1 img,
 article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(1),article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(1)+.fusion-inline-sep,body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1),body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1),body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep,article.category-guias .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep+span,article.category-guias .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep+span+.fusion-inline-sep,
