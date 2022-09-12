@@ -595,9 +595,9 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .flex-control-paging li a:hover{background:rgba(0,0,0,.6)}
 .fusion-post-wrapper .flex-control-paging li a{background:rgba(255,255,255,.4)}
 .fusion-post-wrapper .flex-control-paging li a:hover{background:rgba(255,255,255,.6)}
-.fusion-slider-sc .flex-direction-nav a{background:none}
+.fusion-slider-sc .flex-direction-nav a{background:none!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em}
-.fusion-body .fusion-slider-sc .flex-direction-nav a{width:50px;height:70px;line-height:.8;color:rgba(0,0,0,.4)}
+.fusion-body .fusion-slider-sc .flex-direction-nav a{line-height:.8;color:rgba(0,0,0,.4)}
 .fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em}
 .whitetxt .content-container h4,.fusion-button.whitetxt:hover .fusion-button-text{color:#FFFFFF}
 .fusion-button.whitetxt:not(.button-custom){border-color:#FFFFFF}
