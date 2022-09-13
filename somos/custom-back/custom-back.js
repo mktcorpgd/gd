@@ -32,7 +32,7 @@ jQuery(document).ready(function(){
 	// USUARIOS - Perfil: deshabilitar ciertos campos y mover otros
 	jQuery('body.profile-php.no-customize-support input[name=gdCUIL_mc],body.profile-php.no-customize-support input[name=gdPHONE_mc], body.profile-php.no-customize-support input[name=gdUNIT_mc], body.profile-php.no-customize-support input[name=gdANNIV_mc], body.profile-php.no-customize-support input[name=ocp_job_title], body.profile-php.no-customize-support select[name=gdGroupfe587259d3], body.profile-php.no-customize-support select[name=gdGroupa08454c0b0]').attr('disabled','disabled');
 	jQuery('.user-job-title-wrap').insertBefore('.user-unit-wrap');
-	JqUERY('tr#password').insertBefore('.user-groupa08454c0b0.form-field')
+	JqUERY('#your-profile tr#password').insertBefore('#your-profile .form-table.profile-info')
 	
 
 	// USUARIOS - Mostrar campos para organigrama si está el checkbox marcado
