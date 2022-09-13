@@ -7,10 +7,10 @@ body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-
 .editor-writing-flow{display:inline}
 #wpbody-content>div.wrap.about-wrap>h1,#wpbody-content>div.wrap.about-wrap>h1+hr,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content #step-5 .one_half:first-of-type .browse-file:first-child,body.no-customize-support #muck_box,.toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
 body{color:#333333}
-body,#wp-content-editor-tools{background:#FDFDFD;border:0!important}
+body,#wp-content-editor-tools{background:#FAFAFA;border:0!important}
 body a{color:#0E316E}
 body a:hover{color:#F0582B}
-ul#adminmenu a.wp-has-current-submenu:after,ul#adminmenu>li.current>a.current:after{border-right-color:#FDFDFD!important}
+ul#adminmenu a.wp-has-current-submenu:after,ul#adminmenu>li.current>a.current:after{border-right-color:#FAFAFA!important}
 .wrap h1,.wrap h2,.wrap h3,.wrap h4,.wrap h5,.wrap h6{font-family:'Neo-Sans',sans-serif!important}
 h1,h2,h3{color:#0E316E}
 h1,h2,h3,.postbox .inside h2,.wrap [class$=icon32]+h2,.wrap h1,.wrap>h2:first-child{font-weight:500}
@@ -19,7 +19,7 @@ h4,h5,h6{color:#333333;font-weight:400}
 .about-wrap h4{margin:20px 0 10px!important;color:#0E316E}
 .about-wrap .about-text a{text-decoration:none}
 .about-wrap .about-text a:hover{text-decoration:underline}
-input[disabled],input[readonly]{color:#666666;opacity:.8;background:#FAFAFA;border-color:#F1F1F1!important;box-shadow:none;cursor:default}
+input[disabled],input[readonly]{color:#777777;opacity:.8;background:#FAFAFA;border-color:#EAEAEA!important;box-shadow:none;cursor:default}
 #poststuff .stuffbox>h3,#poststuff h2,#poststuff h3.hndle{font-size:16px}
 span.description{display:block}
 #username-changer-link{position:relative;bottom:2px;left:2px}
@@ -42,7 +42,7 @@ input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,in
 .notice,div.error,div.updated{box-shadow:none!important;border-radius:6px;overflow:hidden}
 #wpadminbar #adminbarsearch:before,#wpadminbar .ab-icon:before,#wpadminbar .ab-item:before,#adminmenu div.wp-menu-image:before,#collapse-button .collapse-button-icon{color:rgba(240,245,250,.6)!important}
 #adminmenu a:hover,#adminmenu a:hover div.wp-menu-image:before,#collapse-button:focus,#collapse-button:hover,#collapse-button:hover .collapse-button-icon{color:#FFFFFF!important}
-#adminmenu a:hover,#adminmenu li.menu-top:hover,#adminmenu li.opensub>a.menu-top,#adminmenu li>a.menu-top:focus,#adminmenu li.current a.menu-top,#adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head,#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,.folded #adminmenu li.current.menu-top,#adminmenu .wp-has-current-submenu .wp-submenu,#adminmenu .wp-has-current-submenu.opensub .wp-submenu,#adminmenu .wp-submenu,#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu{background-color:#0d2b63!important}
+#adminmenu a:hover,#adminmenu li.menu-top:hover,#adminmenu li.opensub>a.menu-top,#adminmenu li>a.menu-top:focus,#adminmenu li.current a.menu-top,#adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head,#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,.folded #adminmenu li.current.menu-top,#adminmenu .wp-has-current-submenu .wp-submenu,#adminmenu .wp-has-current-submenu.opensub .wp-submenu,#adminmenu .wp-submenu,#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu{background-color:#0E316E!important}
 #major-publishing-actions{background:#FAFAFA;border:0!important}
 #titlediv #title{font-family:'Neo-Sans',sans-serif;font-weight:400}
 .wrap .add-new-h2,.wrap .add-new-h2:active,.wrap .page-title-action,.wrap .page-title-action:active{font-family:'Neo-Sans',sans-serif;color:#0E316E;box-shadow:none!important;border-radius:6px;font-size:14px;font-weight:400!important;text-shadow:none!important}
@@ -55,7 +55,7 @@ input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,in
 .supsystic-plugin .button:hover,.supsystic-plugin .button-primary:hover{background:#1F4483!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important}
 li.wp-not-current-submenu ul.wp-submenu.wp-submenu-wrap{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important;border-top-right-radius:12px!important;border-bottom-right-radius:12px!important}
-#wpadminbar .ab-submenu .ab-item,#wpadminbar .quicklinks .menupop ul li a,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li a,#collapse-button{color:#EEEEEE!important}
+#wpadminbar .ab-submenu .ab-item,#wpadminbar .quicklinks .menupop ul li a,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li a,#collapse-button{color:#EAEAEA!important}
 #wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
 #wp-admin-bar-site-name>div{border-bottom-left-radius:0!important}
 #wp-admin-bar-my-account>div{border-bottom-right-radius:0!important}
@@ -80,7 +80,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #adminmenu{margin-bottom:6px!important;text-align:center}
 #adminmenu li{text-align:left!important}
 #adminmenu #menu-comments ul>li:nth-child(3) a{color:rgba(240,245,250,.7)!important;text-shadow:none!important}
-#adminmenu #menu-comments ul>li:nth-child(3) a:hover{color:#00B9EB!important}
+#adminmenu #menu-comments ul>li:nth-child(3) a:hover{color:#F0582B!important}
 .cf7d-admin-table th.manage-column{font-size:80%}
 .row-title{font-family:'Neo-Sans';font-weight:400}
 #the-list th#userlogin{width:160px!important}
@@ -88,8 +88,12 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .jOrgChart .node{padding-top:30px;background:#EAEAEA}
 .jOrgChart .close{right:-8px!important}
 .jOrgChart tr,.jOrgChart td{border:none!important;border-radius:0!important}
-#your-profile th{width:150px;font-family:'Neo-Sans',sans-serif;font-weight:400}
-#your-profile input[type=date],#your-profile input[type=email],#your-profile input[type=password],#your-profile input[type=tel],#your-profile input[type=text],#your-profile select,#your-profile textarea{font-size:1.2em}
+#your-profile .form-table{font-size:1.1em}
+#your-profile .form-table.profile-info{font-size:1.2em}
+#your-profile .form-table.profile-info i{min-width:20px;text-align:center;color:#777777}
+#your-profile th{padding:.8em .4em;width:150px;font-size:1.1em;font-family:'Neo-Sans',sans-serif;font-weight:400}
+#your-profile td{padding:.6em .4em}
+#your-profile input[type=date],#your-profile input[type=email],#your-profile input[type=password],#your-profile input[type=tel],#your-profile input[type=text],#your-profile select,#your-profile textarea{font-size:1.3em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap .about-text{width:100%}
@@ -99,9 +103,9 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h2:nth-of-type(1){padding-top:25px}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h2 .nav-tab{width:32px;height:32px;margin:-2px 10px 0 0;padding:0;position:absolute;left:0;background:#0E316E!important;color:#FFFFFF;border:0;text-align:center;font-weight:500;line-height:32px;border-radius:32px}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h4{margin:1em 0 0;padding:0 15px 5px 0;font-size:1.3em;font-weight:500}
-.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h5{margin:2em 0 0;font-size:1.1em;color:#777!important}
+.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h5{margin:2em 0 0;font-size:1.1em;color:#777777!important}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h4+h5{margin-top:.6em!important}
-.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h6{margin:1em 0 0 2em;text-transform:uppercase;font-size:90%;letter-spacing:1px;color:#999!important}
+.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h6{margin:1em 0 0 2em;text-transform:uppercase;font-size:90%;letter-spacing:1px;color:#999999!important}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h5:first-child{margin-top:0!important}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half h4{margin:0}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content h4 img{width:16px;height:16px;bottom:2px;padding-right:2px;position:relative;border-radius:32px}
@@ -137,8 +141,8 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .wp-switch-editor:focus,video{box-shadow:none!important;outline:none!important}
 .wp-switch-editor{border-width:2px!important;border-top-left-radius:4px;border-top-right-radius:4px}
 .folded #wpwrap #adminmenuwrap ul#adminmenu .menu-logo{padding-left:6px!important;width:24px}
-.dashboard_page_custom-dashboard #wpwrap ::-webkit-input-placeholder,.dashboard_page_custom-dashboard #wpwrap :-ms-input-placeholder{color:#32373C}
-.dashboard_page_custom-dashboard #wpwrap :-moz-placeholder,.dashboard_page_custom-dashboard #wpwrap ::-moz-placeholder{color:#32373C;opacity:1}
+.dashboard_page_custom-dashboard #wpwrap ::-webkit-input-placeholder,.dashboard_page_custom-dashboard #wpwrap :-ms-input-placeholder{color:#333333}
+.dashboard_page_custom-dashboard #wpwrap :-moz-placeholder,.dashboard_page_custom-dashboard #wpwrap ::-moz-placeholder{color:#333333;opacity:1}
 .metabox-holder .postbox-container .empty-container{border:0!important}
 #step-2>div:nth-child(23){margin-bottom:20px!important}
 .toggle ul li{margin-left:40px!important;list-style:disc!important}
