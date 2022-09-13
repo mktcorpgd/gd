@@ -94,7 +94,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #your-profile th{padding:.8em .4em;width:150px;font-size:1.1em;font-family:'Neo-Sans',sans-serif;font-weight:400}
 #your-profile td{padding:.6em .4em}
 #your-profile input[type=date],#your-profile input[type=email],#your-profile input[type=password],#your-profile input[type=tel],#your-profile input[type=text],#your-profile select,#your-profile textarea{font-size:1.3em}
-#your-profile input[type=text].highlight{border:2px solid #F0582B}
+#your-profile input.highlight{border:2px solid #F0582B}
 #your-profile select{width:25em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
@@ -164,6 +164,8 @@ body.wp-admin.post-type-event .row-title{pointer-events:none}
 
 /* Mobile */
 @media (max-width:960px) {
+	#your-profile th{padding-bottom:0}
+	.form-table label{font-size:1em}
 	.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half>h4.desktop{display:none!important}
 	.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_third{margin-top:1em;padding:0;width:100%}
 	.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half~.one_half{margin-top:0!important}
