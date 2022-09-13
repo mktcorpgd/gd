@@ -305,7 +305,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0}
 .wpcf7 .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em;border-radius:12px}
-input.inline{margin:0;padding:.3em;max-width:200px;text-align:center}
+input.inline{margin:0;max-width:200px;text-align:center}
 input[type='number'].inline{max-width:50px}
 input.inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{border:2px solid #CCCCCC}
 input.inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:#999999}
