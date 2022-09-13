@@ -88,8 +88,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .jOrgChart .node{padding-top:30px;background:#EAEAEA}
 .jOrgChart .close{right:-8px!important}
 .jOrgChart tr,.jOrgChart td{border:none!important;border-radius:0!important}
-.form-table th{width:150px;text-align:right}
-#your-profile label{font-family:'Neo-Sans',sans-serif;font-weight:400}
+#your-profile th{width:150px;font-family:'Neo-Sans',sans-serif;font-weight:400}
 #your-profile input[type=date],#your-profile input[type=email],#your-profile input[type=password],#your-profile input[type=tel],#your-profile input[type=text],#your-profile select,#your-profile textarea{font-size:1.2em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
