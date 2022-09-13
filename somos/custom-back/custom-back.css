@@ -90,10 +90,11 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .jOrgChart tr,.jOrgChart td{border:none!important;border-radius:0!important}
 #your-profile .form-table{font-size:1.1em}
 #your-profile .form-table.profile-info{font-size:1.2em}
-#your-profile .form-table.profile-info i{min-width:20px;text-align:center;color:#777777}
+#your-profile .form-table.profile-info i{min-width:20px;text-align:center;font-size:.9em;position:relative;bottom:1px;color:#CCCCCC}
 #your-profile th{padding:.8em .4em;width:150px;font-size:1.1em;font-family:'Neo-Sans',sans-serif;font-weight:400}
 #your-profile td{padding:.6em .4em}
 #your-profile input[type=date],#your-profile input[type=email],#your-profile input[type=password],#your-profile input[type=tel],#your-profile input[type=text],#your-profile select,#your-profile textarea{font-size:1.3em}
+#your-profile select{width:25em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap .about-text{width:100%}
