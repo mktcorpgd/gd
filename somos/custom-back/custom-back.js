@@ -17,14 +17,14 @@ jQuery(document).ready(function(){
 		var now = new Date();
 		jQuery('#gdBIRTH_mc').val('');
 		if ( jQuery('body').hasClass('profile-php') || jQuery('body').hasClass('user-edit-php') ) {
-			jQuery('#gdBIRTH_mc').after('<p class="description"><strong>Sin fecha asignada.</strong></p>');
+			jQuery('#gdBIRTH_mc').after('<span class="description">Sin fecha asignada.</span>');
 		}
 	}
 	if ( jQuery('#gdANNIV_mc').val() == '1970-01-01' ) {
 		var now = new Date();
 		jQuery('#gdANNIV_mc').val('');
 		if ( jQuery('body').hasClass('profile-php') || jQuery('body').hasClass('user-edit-php') ) {
-			jQuery('#gdANNIV_mc').after('<p class="description"><strong>Sin fecha asignada.</strong></p>');
+			jQuery('#gdANNIV_mc').after('<span class="description">Sin fecha asignada.</span>');
 		}
 	}
 
