@@ -646,8 +646,7 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .fusion-portfolio-content-wrapper .fusion-portfolio-content{margin:0!important}
 .fusion-blog-shortcode .fusion-portfolio-grid .fusion-post-content-wrapper{background-color:#FFFFFF}
 .fusion-post-content-wrapper>div>div>p a i{font-size:14px;margin-left:2px;opacity:.3}
-.fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{padding:.6em}
-.fusion-portfolio .fusion-portfolio-content-wrapper h2 a{padding-bottom:.2em}
+.fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{padding:.6rem .8rem}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:16px 20px 0!important}
 #main .post h2 a,#main article h2 a{color:#333333}
 body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
@@ -1150,13 +1149,13 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article:not(.expanded) .fusion-buttons{margin:0;padding:0;opacity:0;height:0}
 	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.expanded .fusion-buttons{opacity:1;height:auto}
 	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.opacity:not(.expanded){opacity:.8}
-	.box-buttons article .fusion-post-content{transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
 	.box-buttons article:not(.expanded) .fusion-post-content{height:24px;overflow:hidden}
 	.box-buttons article:not(.expanded) .fusion-post-content *{opacity:0}
 	.box-buttons article.expanded .fusion-post-content,.box-buttons article.expanded .fusion-col-spacing{height:auto!important}
 	.box-buttons article.expanded .fusion-post-content *{opacity:1}
+	.box-buttons article .fusion-post-content{padding:0 1rem;transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
 	.box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-	.box-buttons article .fusion-post-content:before{box-sizing:border-box;display:block;margin-bottom:5px;padding:0 20px;width:100%;font-size:.9em;font-family:'Font Awesome 5 Pro','Open-Sans',sans-serif;font-weight:400}
+	.box-buttons article .fusion-post-content:before{box-sizing:border-box;display:block;width:100%;font-size:.9em;font-family:'Font Awesome 5 Pro','Open-Sans',sans-serif;font-weight:400}
 	html[lang*='es'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' Más info'}
 	html[lang*='en'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' More info'}
 	html[lang*='pt'] .box-buttons article:not(.expanded) .fusion-post-content:before{content:' Mais info'}
