@@ -595,9 +595,9 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .flex-control-paging li a:hover{background:rgba(0,0,0,.6)}
 .fusion-post-wrapper .flex-control-paging li a{background:rgba(255,255,255,.4)}
 .fusion-post-wrapper .flex-control-paging li a:hover{background:rgba(255,255,255,.6)}
-.fusion-slider-sc .flex-direction-nav a{background:none}
+.fusion-slider-sc .flex-direction-nav a{background:none!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em}
-.fusion-body .fusion-slider-sc .flex-direction-nav a{width:50px;height:70px;line-height:.8;color:rgba(0,0,0,.4)}
+.fusion-body .fusion-slider-sc .flex-direction-nav a{line-height:.8;color:rgba(0,0,0,.4)}
 .fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em}
 .whitetxt .content-container h4,.fusion-button.whitetxt:hover .fusion-button-text{color:#FFFFFF}
 .fusion-button.whitetxt:not(.button-custom){border-color:#FFFFFF}
@@ -692,7 +692,6 @@ body.archive .fusion-portfolio-layout-grid .fusion-post-content p{padding-left:0
 #wrapper #main .project-content .blog-shortcode-post-title{font-size:1.2em}
 .fusion-portfolio-grid.fusion-portfolio-text{padding:1px}
 .fusion-blog-layout-grid.fusion-blog-layout-grid-3.fusion-blog-equal-heights{display:grid;grid-template-columns:33.33% 33.33% 33.33%;grid-auto-rows:max-content}
-.fusion-portfolio-equal-heights .fusion-portfolio-post,.fusion-blog-layout-grid.fusion-blog-layout-grid-3.fusion-blog-equal-heights{height:auto!important}
 .fusion-blog-layout-grid.fusion-blog-layout-grid-3.fusion-blog-equal-heights .fusion-post-grid{display:inline-flex;width:100%;height:auto!important;position:relative!important;top:0!important;left:0!important}
 
 /* Blog */
@@ -957,7 +956,6 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.vertical-tabs .nav-tabs li .tab-link{padding:10px 15px;white-space:normal}
 .fusion-tabs .tab-pane,.fusion-tabs.horizontal-tabs .nav{border:none!important;outline:none!important}
 .fusion-tabs.vertical-tabs .nav-tabs{padding-left:0;left:0}
-.fusion-tabs.vertical-tabs .tab-content{background:#FFFFFF}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#666666;font-weight:400!important;font-family:'Open-Sans',sans-serif;font-size:1rem!important;white-space:nowrap}
 .fusion-tabs .nav-tabs li a{background:#EAEAEA!important;border:none;border-radius:0!important}
