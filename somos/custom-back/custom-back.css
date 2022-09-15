@@ -1,11 +1,24 @@
-#wpbc-panel-get-started,#setting-error-tgmpa,#profile-page .show-admin-bar,#wp-admin-bar-connections-link-view,#wp-admin-bar-wp-logo,#wpfooter,#wp-admin-bar-wpfront-user-role-editor-add-new,.plugins-php #bulk-action-form span:not(.activate):not(.deactivate):not(.edit):not(.delete),#the-list .row-actions .assign_roles,.plugin-version-author-uri a,.plugin-description .active.second,#cn-name-prefix,#cn-name-middle,#cn-name-suffix,#metabox-logo,#metabox-messenger,.postbox .widget-title .preferred,.postbox .widget-title .visibility,body.no-customize-support #metabox-image,body.no-customize-support #metabox-meta,body.no-customize-support #metabox-note,body.no-customize-support #income-level,#hobbies.postbox,#income-level.postbox,body.no-customize-support #submitdiv #entry-type,body.no-customize-support #submitdiv #visibility,body.no-customize-support #submitdiv #minor-publishing,body.no-customize-support #cancel-button,.sticky-menu .timeline_info_bk_actionsbar_7,tr.user-url-wrap,tr.user-description-wrap,.plugin-version-author-uri,.user-admin-color-wrap,#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after,#wp-admin-bar-dem_settings,.wp-list-table .column-in_posts,#wp-admin-bar-easy-updates-manager-admin-bar,body.role-subscriber #wp-admin-bar-new-content,
-body.no-customize-support table.fh-profile-upload-options,body.no-customize-support table.fh-profile-upload-options+table,body.no-customize-support table tr.user-phone-wrap,body.no-customize-support table tr.user-facebook-wrap,body.no-customize-support table tr.user-twitter-wrap,body.no-customize-support #your-profile>h2:last-of-type,#createuser>table:nth-child(4)>tbody>tr:nth-child(5),body.no-customize-support #createuser .form-field label span,#your-profile .form-field label span,body.no-customize-support #your-profile>h2:nth-last-of-type(3),body.no-customize-support #avatar-manager>tbody>tr:nth-child(3),body.no-customize-support tr.user-display-name-wrap,body.no-customize-support #your-profile>h3:nth-last-of-type(4),body.no-customize-support #your-profile #avatar-manager,#your-profile>table:nth-child(15)+h3,
-tr.user-capabilities-wrap,#toplevel_page_contact-form-listing,#menu-posts-slide,#toplevel_page_floating_links,.wpulike.wpulike-default,.edit-post-layout__metaboxes+.edit-post-layout__metaboxes,.about-wrap hr,th[data-key*='ORG0'],td[data-head*='ORG0'],th[data-key*='ORG1'],td[data-head*='ORG1'],th[data-key*='ORG2'],td[data-head*='ORG2'],th[data-key*='ORG3'],td[data-head*='ORG3'],th[data-key*='ORG4'],td[data-head*='ORG4'],th[data-key*='ORG5'],td[data-head*='ORG5'],th[data-key*='ORG6'],td[data-head*='ORG6'],th[data-key*='ORG7'],td[data-head*='ORG7'],th[data-key*='ORG8'],td[data-head*='ORG8'],th[data-key*='ORG9'],td[data-head*='ORG9'],th[data-key*='PERS0'],td[data-head*='PERS0'],th[data-key*='PERS1'],td[data-head*='PERS1'],th[data-key*='PERS2'],td[data-head*='PERS2'],th[data-key*='PERS3'],td[data-head*='PERS3'],th[data-key*='PERS4'],td[data-head*='PERS4'],th[data-key*='PERS5'],td[data-head*='PERS5'],th[data-key*='PERS6'],td[data-head*='PERS6'],th[data-key*='PERS7'],td[data-head*='PERS7'],th[data-key*='PERS8'],td[data-head*='PERS8'],th[data-key*='PERS9'],td[data-head*='PERS9'],body.no-customize-support #adminmenu #menu-tools,.jOrgChart .node .overlay1,#menu-settings > ul > li:nth-child(14),td.username.column-username.has-row-actions.column-primary > div > span.resetpassword,.pw-weak+tr,.form-table.profile-info+.form-table,body:not(.customize-support).profile-php .form-table.fh-profile-upload-options,body:not(.customize-support).profile-php .user-nickname-wrap,body.profile-php .form-table.fh-profile-upload-options+h2,body.profile-php .form-table.fh-profile-upload-options+h2+.form-table,
-#webpushr-bell-optin > promptbox3 > promptpopup > popup_poweredby,notification_time,
-body:not(.customize-support) .user-tags,.user-language-wrap,#your-profile h2,
-body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-type-event .check-column,#email-description{display:none!important}
-.editor-writing-flow{display:inline}
-#wpbody-content>div.wrap.about-wrap>h1,#wpbody-content>div.wrap.about-wrap>h1+hr,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content #step-5 .one_half:first-of-type .browse-file:first-child,body.no-customize-support #muck_box,.toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
+/* Oculto forzado */
+/*Perfil */
+#profile-page .show-admin-bar,
+/* Admin bar */
+#wp-admin-bar-connections-link-view,#wp-admin-bar-wp-logo,#wp-admin-bar-wpfront-user-role-editor-add-new,#wp-admin-bar-dem_settings,.wp-list-table .column-in_posts,#wp-admin-bar-easy-updates-manager-admin-bar,body.role-subscriber #wp-admin-bar-new-content,
+/* Plugins */
+.plugins-php #bulk-action-form span:not(.activate):not(.deactivate):not(.edit):not(.delete),.plugin-version-author-uri a,.plugin-description .active.second,
+/* Usuarios */
+#menu-settings > ul > li:nth-child(14),td.username.column-username.has-row-actions.column-primary > div > span.resetpassword,.pw-weak+tr,.form-table.profile-info+.form-table,body:not(.customize-support).profile-php .form-table.fh-profile-upload-options,body:not(.customize-support).profile-php .user-nickname-wrap,body.profile-php .form-table.fh-profile-upload-options+h2,body.profile-php .form-table.fh-profile-upload-options+h2+.form-table,tr.user-url-wrap,tr.user-description-wrap,.plugin-version-author-uri,.user-admin-color-wrap,#adminmenu li.wp-has-submenu.wp-not-current-submenu:hover:after,
+body.no-customize-support table.fh-profile-upload-options,body.no-customize-support table.fh-profile-upload-options+table,body.no-customize-support table tr.user-phone-wrap,body.no-customize-support table tr.user-facebook-wrap,body.no-customize-support table tr.user-twitter-wrap,body.no-customize-support #your-profile>h2:last-of-type,#createuser>table:nth-child(4)>tbody>tr:nth-child(5),body.no-customize-support #createuser .form-field label span,#your-profile .form-field label span,body.no-customize-support #your-profile>h2:nth-last-of-type(3),body.no-customize-support #avatar-manager>tbody>tr:nth-child(3),body.no-customize-support tr.user-display-name-wrap,body.no-customize-support #your-profile>h3:nth-last-of-type(4),body.no-customize-support #your-profile #avatar-manager,#your-profile>table:nth-child(15)+h3,tr.user-capabilities-wrap,body:not(.customize-support) .user-tags,.user-language-wrap,#your-profile h2,#email-description,
+/* Eventos */
+body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-type-event .check-column,
+/* Footer */
+#wpfooter
+{display:none!important}
+/* Oculto no forzado */
+.toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
+
+/* General */
+::-webkit-input-placeholder,:-ms-input-placeholder{color:#333333}
+:-moz-placeholder,::-moz-placeholder{color:#333333;opacity:1}
 body{color:#333333}
 body,#wp-content-editor-tools{background:#FAFAFA;border:0!important}
 body a{color:#0E316E}
@@ -29,14 +42,18 @@ span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;
 .nav-menus-php .item-edit{height:38px;overflow:hidden}
 #wpadminbar .ab-icon{margin-right:2px!important}
 #wpwrap.wp-responsive-open,div#post-body.metabox-holder.columns-1{overflow-x:visible!important}
+
+/* Admin menu */
 #adminmenu,#adminmenu .wp-submenu,#adminmenuback,#adminmenuwrap{width:165px}
 #adminmenu .wp-not-current-submenu .wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu{width:170px}
 #adminmenu .wp-submenu a{font-family:'Open-Sans',sans-serif;font-weight:400}
 #adminmenu .wp-not-current-submenu li>a,.folded #adminmenu .wp-has-current-submenu li>a{padding-right:10px}
 #wpadminbar,#wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input,#adminmenu,#adminmenuback,#adminmenuwrap{background:#0E316E!important}
-#wpadminbar .ab-empty-item,#wp-admin-bar-site-name>a,#wp-admin-bar-my-account>a,#wp-admin-bar-my-account>a>.display-name,#wpadminbar>#wp-toolbar span.ab-label,#wpadminbar>#wp-toolbar .ab-item,#wpadminbar>#wp-toolbar span.noticon,#adminmenu a,#collapse-button{font-family:'Neo-Sans',sans-serif}
 #adminmenu .wp-submenu-head,#adminmenu a.menu-top,#adminmenu .wp-submenu li.current a{font-weight:400!important}
 #adminmenu li.menu-top:hover,#adminmenu li.opensub>a.menu-top,#adminmenu li>a.menu-top:focus{color:#FFFFFF}
+
+/* Admin bar */
+#wpadminbar .ab-empty-item,#wp-admin-bar-site-name>a,#wp-admin-bar-my-account>a,#wp-admin-bar-my-account>a>.display-name,#wpadminbar>#wp-toolbar span.ab-label,#wpadminbar>#wp-toolbar .ab-item,#wpadminbar>#wp-toolbar span.noticon,#adminmenu a,#collapse-button{font-family:'Neo-Sans',sans-serif}
 #wpadminbar .ab-top-menu>li.hover>.ab-item,#wpadminbar.nojq .quicklinks .ab-top-menu>li>.ab-item:focus,#wpadminbar:not(.mobile) .ab-top-menu>li:hover>.ab-item,#wpadminbar:not(.mobile) .ab-top-menu>li>.ab-item:focus,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover a,#wpadminbar #wp-admin-bar-my-account.with-avatar #wp-admin-bar-user-actions>li:hover span,#wpadminbar .ab-top-menu li:hover>.ab-item:before,#wpadminbar:not(.mobile)>#wp-toolbar a:focus span.ab-label,#wpadminbar:not(.mobile)>#wp-toolbar li:hover span.ab-label,#wpadminbar>#wp-toolbar li.hover span.ab-label,#wpadminbar .quicklinks .ab-sub-wrapper .menupop.hover>a,#wpadminbar .quicklinks .menupop ul li a:focus,#wpadminbar .quicklinks .menupop ul li a:focus strong,#wpadminbar .quicklinks .menupop ul li a:hover,#wpadminbar .quicklinks .menupop ul li a:hover strong,#wpadminbar .quicklinks .menupop.hover ul li a:focus,#wpadminbar .quicklinks .menupop.hover ul li a:hover,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:focus,#wpadminbar .quicklinks .menupop.hover ul li div[tabindex]:hover,#wpadminbar li #adminbarsearch.adminbar-focused:before,#wpadminbar li .ab-item:focus .ab-icon:before,#wpadminbar li .ab-item:focus:before,#wpadminbar li a:focus .ab-icon:before,#wpadminbar li.hover .ab-icon:before,#wpadminbar li.hover .ab-item:before,#wpadminbar li:hover #adminbarsearch:before,#wpadminbar li:hover .ab-icon:before,#wpadminbar li:hover .ab-item:before,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:focus,#wpadminbar.nojs .quicklinks .menupop:hover ul li a:hover{background:none!important;color:#FFFFFF!important}
 input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,input[type='tel']:focus,input[type='time']:focus,input[type='url']:focus,input[type=week]:focus,input[type='password']:focus,input[type='checkbox']:focus,input[type='color']:focus,input[type='date']:focus,input[type='datetime']:focus,input[type='datetime-local']:focus,input[type='email']:focus,input[type='month']:focus,input[type='number']:focus,select:focus,textarea:focus{box-shadow:none!important;border-color:#0E316E!important}
 .notice,div.error,div.updated{box-shadow:none!important;border-radius:6px;overflow:hidden}
@@ -81,13 +98,10 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #adminmenu li{text-align:left!important}
 #adminmenu #menu-comments ul>li:nth-child(3) a{color:rgba(240,245,250,.7)!important;text-shadow:none!important}
 #adminmenu #menu-comments ul>li:nth-child(3) a:hover{color:#F0582B!important}
-.cf7d-admin-table th.manage-column{font-size:80%}
 .row-title{font-family:'Neo-Sans';font-weight:400}
 #the-list th#userlogin{width:160px!important}
 #the-list .row-actions{color:transparent}
-.jOrgChart .node{padding-top:30px;background:#EAEAEA}
-.jOrgChart .close{right:-8px!important}
-.jOrgChart tr,.jOrgChart td{border:none!important;border-radius:0!important}
+
 #your-profile .form-table{font-size:1.1em}
 #your-profile .form-table.profile-info{font-size:1.2em}
 #your-profile .form-table.profile-info i{min-width:20px;text-align:center;font-size:.9em;position:relative;bottom:1px;color:#CCCCCC}
@@ -98,6 +112,8 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #your-profile select{width:25em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
+
+/* Primeros pasos */
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap .about-text{width:100%}
 .about-wrap .changelog h1{color:#0E316E}
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .changelog{margin-top:0}
@@ -143,10 +159,10 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .wp-switch-editor:focus,video{box-shadow:none!important;outline:none!important}
 .wp-switch-editor{border-width:2px!important;border-top-left-radius:4px;border-top-right-radius:4px}
 .folded #wpwrap #adminmenuwrap ul#adminmenu .menu-logo{padding-left:6px!important;width:24px}
-.dashboard_page_custom-dashboard #wpwrap ::-webkit-input-placeholder,.dashboard_page_custom-dashboard #wpwrap :-ms-input-placeholder{color:#333333}
-.dashboard_page_custom-dashboard #wpwrap :-moz-placeholder,.dashboard_page_custom-dashboard #wpwrap ::-moz-placeholder{color:#333333;opacity:1}
 .metabox-holder .postbox-container .empty-container{border:0!important}
 #step-2>div:nth-child(23){margin-bottom:20px!important}
+
+/* Toggle */
 .toggle ul li{margin-left:40px!important;list-style:disc!important}
 .toggle ul li ul li{margin-left:20px!important;margin-bottom:0;list-style:circle!important}
 .toggle .toggle-title,.toggle .title-name{display:block}

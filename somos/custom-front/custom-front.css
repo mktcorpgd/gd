@@ -47,7 +47,6 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 .pac-icon,.pac-logo:after{display:none!important}
 /* Oculto no forzado */
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
-/* Modal */
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a{display:none}
 
 /* General */
