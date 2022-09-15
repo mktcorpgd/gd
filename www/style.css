@@ -37,6 +37,7 @@ h2 em,h3 em{font-style:normal;text-decoration:underline}
 .tfs-slider .mobile_video_image{display:block;position:absolute;top:0;left:0;width:100%;height:100%;background-size:cover}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
 .uppercase{text-transform:uppercase}
+.zindex1{z-index:1}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 .fusion-content-boxes.text-align-left *{text-align:left!important}
