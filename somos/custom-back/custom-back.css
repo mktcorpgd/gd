@@ -34,7 +34,7 @@ h4,h5,h6{color:#333333;font-weight:400}
 .about-wrap h4{margin:20px 0 10px!important;color:#0E316E}
 .about-wrap .about-text a{text-decoration:none}
 .about-wrap .about-text a:hover{text-decoration:underline}
-input[disabled],input[readonly]{color:#777777;opacity:.8;background:#FAFAFA;border-color:#EAEAEA!important;box-shadow:none;cursor:default}
+input[disabled],input[readonly],.disabled{color:#777777;opacity:.8;background:#FAFAFA;border-color:#EAEAEA!important;box-shadow:none;cursor:default;pointer-events:none}
 #poststuff .stuffbox>h3,#poststuff h2,#poststuff h3.hndle{font-size:16px}
 span.description{display:block}
 #username-changer-link{position:relative;bottom:2px;left:2px}
