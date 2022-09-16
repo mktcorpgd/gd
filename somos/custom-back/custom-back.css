@@ -1,4 +1,6 @@
 /* Oculto forzado */
+/* Primeros pasos */
+.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1+hr
 /*Perfil */
 #profile-page .show-admin-bar,
 /* Admin bar */
