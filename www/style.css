@@ -919,9 +919,9 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-body .fusion-carousel .fusion-carousel-nav .fusion-nav-next:before{right:-1px}
 .fusion-carousel .fusion-carousel-nav .fusion-nav-next,.fusion-carousel .fusion-carousel-nav .fusion-nav-prev{transition:all .1s ease-in-out;margin-top:-20px!important;padding:.3em .6em;background:rgba(0,0,0,.4);color:#FFFFFF;font-size:2em;line-height:1}
 .fusion-carousel .fusion-carousel-nav .fusion-nav-next:hover, .fusion-carousel .fusion-carousel-nav .fusion-nav-prev:hover{background:rgba(0,0,0,.6)}
-.outside-arrows .fusion-carousel .fusion-carousel-nav button{margin-left:0;margin-right:0;background:none}
-.outside-arrows .fusion-carousel .fusion-carousel-nav .fusion-nav-prev{left:-1em}
-.outside-arrows .fusion-carousel .fusion-carousel-nav .fusion-nav-next{right:1em}
+.outside-arrows .fusion-carousel .fusion-carousel-nav button{margin-left:0!important;margin-right:0!important;padding:0;background:none}
+.outside-arrows .fusion-carousel .fusion-carousel-nav button:before{color:rgba(0,0,0,.4)}
+.outside-arrows .fusion-carousel .fusion-carousel-nav .fusion-nav-prev{left:0}
 .related-posts{float:left;width:100%}
 .related-posts .fusion-carousel,.related-posts .fusion-carousel .fusion-carousel-wrapper{overflow:visible!important}
 .related-posts .fusion-carousel .fusion-carousel-holder{padding:0;width:100%!important;position:relative!important}
