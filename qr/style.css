@@ -17,15 +17,10 @@ li a{display:block}
 #content p{font-family:'Neo-Sans',sans-serif;letter-spacing:0;color:#FFFFFF!important}
 #contact-person+ul li,#content .action-buttons a,#footer .button.big,.button.big.green{transition:all .1s ease-in-out;margin:15px auto;padding:10px 15px;height:auto!important;position:relative!important;left:0!important;font-family:'Neo-Sans',sans-serif;font-weight:500;font-size:inherit;line-height:1.25;background:none;box-shadow:none;border-radius:16px!important;border:2px solid #FFFFFF;color:#FFFFFF;letter-spacing:0}
 #contact-person+ul li{padding:0;width:fit-content}
-#contact-person+ul li a{padding:10px 15px;color:#FFFFFF}
+#contact-person+ul li a{padding:.6em 1em;color:#FFFFFF}
 #contact-person+ul li:hover a{text-decoration:underline}
 #contact-person+ul li.odd.mobile.phone-business{margin-top:0;margin-bottom:0}
-#contact-person+ul li.odd.mobile.phone-business a,#contact-person+ul li.odd.mobile.phone-mobile a,#contact-person+ul li.odd.mobile.phone-private a{padding-top:0}
 #contact-person+ul li.odd.mobile.phone-private{margin-top:5px}
-#contact-person+ul li.odd.mobile.phone-mobile:before,#contact-person+ul li.odd.mobile.phone-business:before,#contact-person+ul li.odd.mobile.phone-private:before{font-size:.6em;line-height:1;font-weight:400;text-transform:uppercase;opacity:.8}
-#contact-person+ul li.odd.mobile.phone-business:before{content:'Tel fijo'}
-#contact-person+ul li.odd.mobile.phone-private:before{content:'Tel fijo alternativo'}
-#contact-person+ul li.odd.mobile.phone-mobile:before{content:'Tel móvil'}
 #content .action-buttons a{width:fit-content}
 #footer .button.big, .button.big.green{width:fit-content}
 #contact-person+ul li:hover,#content .action-buttons a:hover,#footer .button.big:hover,.button.big.green:hover{
