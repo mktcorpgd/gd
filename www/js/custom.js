@@ -235,7 +235,7 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	if ( jQuery(window).width() > 920 ) {
-		jQuery('.box-buttons .fusion-post-content').on('click',function(e) {
+		jQuery('.box-buttons article:not(.expanded) .fusion-post-content').on('click',function(e) {
 			jQuery(this).parent().parent().parent('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.stopPropagation();
