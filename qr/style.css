@@ -29,7 +29,6 @@ li a{display:block}
 #content .action-buttons a{margin-bottom:5px!important}
 #contact-person+ul li span{color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-weight:500;border-bottom:none}
 #contact-person+ul li span.address-block{text-decoration:none}
-#contact-person+ul li span.address-block:hover{text-decoration:underline}
 #contact-person+ul li:last-child{border:none}
 #contact-person+ul .role{margin:0 auto!important;padding:5px 10px;display:inline-block;width:auto;position:relative;bottom:1px;letter-spacing:1px;text-transform:uppercase;background:rgba(0,0,0,.1);border-bottom-left-radius:8px;border-bottom-right-radius:8px;font-weight:500;font-size:60%}
 .social-container,.action-buttons{margin:10px auto 0}
