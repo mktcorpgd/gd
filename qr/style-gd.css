@@ -19,7 +19,6 @@ body {
 .button.big.green {
   background: #F0582B!important;
 }
-#contact-person+ul li:hover,
 #content .action-buttons a:hover,
 #footer .button.big:hover,
 .button.big.green:hover {
