@@ -19,7 +19,6 @@ li a{display:block}
 #contact-person+ul li{padding:0;width:fit-content}
 #contact-person+ul li a{padding:.4em .8em;color:#FFFFFF}
 #contact-person+ul li:hover{background:rgba(0,0,0,.7)!important}
-#contact-person+ul li:hover a{text-decoration:underline}
 #contact-person+ul li.odd.mobile.phone-business{margin-top:0;margin-bottom:0}
 #contact-person+ul li.odd.mobile.phone-private{margin-top:5px}
 #content .action-buttons a{width:fit-content}
