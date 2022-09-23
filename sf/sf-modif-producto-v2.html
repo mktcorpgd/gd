@@ -1,0 +1,108 @@
+<div class="slds-text-heading_medium">{!sel_Producto} x<input type="text" placeholder="Cantidad" required="" class="slds-input" /> <select class="slds-select" id="select-01"><option value="">Medida</option></select>
+</div>
+<div class="slds-text-heading_small">A entregar en <input type="text" placeholder="Cantidad de días" required="" class="slds-input" /> días</div>
+<div class="slds-text-heading_small">{UN}</div>
+<table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_fixed-layout slds-table_striped">
+	<thead>
+		<tr class="slds-line-height_reset">
+			<th scope="col">
+				<div class="slds-truncate" title="-">-</div>
+			</th>
+			<th scope="col">
+				<div class="slds-truncate" title="Moneda local">Moneda local</div>
+			</th>
+			<th scope="col">
+				<div class="slds-truncate" title="Typical Column Header">Dólar USD</div>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="slds-hint-parent">
+			<td data-label="Costo unitario" scope="row">
+				<div class="slds-truncate" title="Costo unitario">Costo unitario</div>
+			</td>
+			<td data-label="Costo unitario (moneda local)" scope="row">
+				<div class="slds-form-element__control">
+					<input type="text" placeholder="Costo unitario en moneda local" required="" class="slds-input" />
+				</div>
+			</td>
+			<td data-label="Costo unitario (USD)">
+				<div class="slds-truncate" title="{!form_CostoUSD}">{!form_CostoUSD}</div>
+			</td>
+		</tr>
+		<tr class="slds-hint-parent">
+			<td data-label="Precio de venta">
+				<div class="slds-truncate" title="Precio de venta">Precio de venta</div>
+			</td>
+			<td data-label="Precio de venta (moneda local)">
+				<div class="slds-form-element__control">
+					<input type="text" placeholder="Precio de venta en moneda local" required="" class="slds-input" />
+				</div>
+			</td>
+			<td data-label="Precio de venta (USD)">
+				<div class="slds-truncate" title="{PrecioVentaUSD}">{PrecioVentaUSD}</div>
+			</td>
+		</tr>
+		<tr class="slds-hint-parent">
+			<td data-label="Precio sugerido">
+				<div class="slds-truncate" title="Precio sugerido">Precio sugerido</div>
+			</td>
+			<td data-label="Precio sugerido (moneda local)">
+				<div class="slds-form-element__control">
+					<input type="text" placeholder="Precio sugerido en moneda local" required="" class="slds-input" />
+				</div>
+			</td>
+			<td data-label="{PrecioSugeridoUSD}">
+				<div class="slds-truncate" title="{PrecioSugeridoUSD}">{PrecioSugeridoUSD}</div>
+			</td>
+		</tr>
+		<tr class="slds-hint-parent">
+			<td data-label="Costo total">
+				<div class="slds-truncate" title="Costo total"><strong>Costo total</strong></div>
+			</td>
+			<td data-label="Costo total (moneda local)">
+				<div class="slds-truncate" title="{CostoTotalMLocal}"><strong>{CostoTotalMLocal}</strong></div>
+			</td>
+			<td data-label="Costo total (USD)">
+				<div class="slds-truncate" title="{CostoTotalUSD}"><strong>{CostoTotalUSD}</strong></div>
+			</td>
+		</tr>
+		<tr class="slds-hint-parent">
+			<td data-label="Precio total">
+				<div class="slds-truncate" title="Precio total"><strong>Precio total</strong></div>
+			</td>
+			<td data-label="Precio total (moneda local)">
+				<div class="slds-truncate" title="{PrecioTotalMLocal}"><strong>{PrecioTotalMLocal}</strong></div>
+			</td>
+			<td data-label="Precio total (USD)">
+				<div class="slds-truncate" title="{PrecioTotalUSD}"><strong>{PrecioTotalUSD}</strong></div>
+			</td>
+		</tr>
+		<tr class="slds-hint-parent">
+			<td data-label="Detalles del negocio">
+				<div class="slds-truncate" title="Detalles del negocio">Detalles del negocio</div>
+			</td>
+			<td colspan="2">
+				<table class="slds-table">
+					<tr>
+						<td>
+							<div class="slds-text-heading_medium slds-align_absolute-center">{Puntos}<br />puntos</div>
+						</td>
+						<td>
+							<div class="slds-text-heading_medium slds-align_absolute-center">{Contrib_Marginal}<br />contribución marginal</div>
+						</td>
+						<td>
+							<div class="slds-text-heading_small slds-align_absolute-center">{Margen}<br />margen</div>
+						</td>
+						<td>
+							<div class="slds-text-heading_small slds-align_absolute-center">{Break}<br />break</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+</tbody>
+  </table>
+<div class="slds-text-body_small slds-align_absolute-center">
+	Moneda local: <strong>{!GetOportunidad.Moneda_de_negociacion__c}</strong> / TC: <strong>{!GetOportunidad.TC_de_negociacion__c}</strong>
+</div>
