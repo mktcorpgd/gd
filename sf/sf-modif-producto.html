@@ -1,108 +1,297 @@
-<div class="slds-text-heading_medium">{!sel_Producto} x<input type="text" placeholder="Cantidad" required="" class="slds-input" /> <select name="slds-medida" class="slds-select"><option value="">Medida</option></select>
-</div>
-<div class="slds-text-heading_small">A entregar en <input type="text" placeholder="Cantidad de días" required="" class="slds-input" /> días</div>
-<div class="slds-text-heading_small">{UN}</div>
-<table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_fixed-layout slds-table_striped">
-	<thead>
-		<tr class="slds-line-height_reset">
-			<th scope="col">
-				<div class="slds-truncate" title="-">-</div>
-			</th>
-			<th scope="col">
-				<div class="slds-truncate" title="Moneda local">Moneda local</div>
-			</th>
-			<th scope="col">
-				<div class="slds-truncate" title="Typical Column Header">Dólar USD</div>
-			</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr class="slds-hint-parent">
-			<td data-label="Costo unitario" scope="row">
-				<div class="slds-truncate" title="Costo unitario">Costo unitario</div>
-			</td>
-			<td data-label="Costo unitario (moneda local)" scope="row">
-				<div class="slds-form-element__control">
-					<input type="text" placeholder="Costo unitario en moneda local" required="" class="slds-input" />
-				</div>
-			</td>
-			<td data-label="Costo unitario (USD)">
-				<div class="slds-truncate" title="{!form_CostoUSD}">{!form_CostoUSD}</div>
-			</td>
-		</tr>
-		<tr class="slds-hint-parent">
-			<td data-label="Precio de venta">
-				<div class="slds-truncate" title="Precio de venta">Precio de venta</div>
-			</td>
-			<td data-label="Precio de venta (moneda local)">
-				<div class="slds-form-element__control">
-					<input type="text" placeholder="Precio de venta en moneda local" required="" class="slds-input" />
-				</div>
-			</td>
-			<td data-label="Precio de venta (USD)">
-				<div class="slds-truncate" title="{PrecioVentaUSD}">{PrecioVentaUSD}</div>
-			</td>
-		</tr>
-		<tr class="slds-hint-parent">
-			<td data-label="Precio sugerido">
-				<div class="slds-truncate" title="Precio sugerido">Precio sugerido</div>
-			</td>
-			<td data-label="Precio sugerido (moneda local)">
-				<div class="slds-form-element__control">
-					<input type="text" placeholder="Precio sugerido en moneda local" required="" class="slds-input" />
-				</div>
-			</td>
-			<td data-label="{PrecioSugeridoUSD}">
-				<div class="slds-truncate" title="{PrecioSugeridoUSD}">{PrecioSugeridoUSD}</div>
-			</td>
-		</tr>
-		<tr class="slds-hint-parent">
-			<td data-label="Costo total">
-				<div class="slds-truncate" title="Costo total"><strong>Costo total</strong></div>
-			</td>
-			<td data-label="Costo total (moneda local)">
-				<div class="slds-truncate" title="{CostoTotalMLocal}"><strong>{CostoTotalMLocal}</strong></div>
-			</td>
-			<td data-label="Costo total (USD)">
-				<div class="slds-truncate" title="{CostoTotalUSD}"><strong>{CostoTotalUSD}</strong></div>
-			</td>
-		</tr>
-		<tr class="slds-hint-parent">
-			<td data-label="Precio total">
-				<div class="slds-truncate" title="Precio total"><strong>Precio total</strong></div>
-			</td>
-			<td data-label="Precio total (moneda local)">
-				<div class="slds-truncate" title="{PrecioTotalMLocal}"><strong>{PrecioTotalMLocal}</strong></div>
-			</td>
-			<td data-label="Precio total (USD)">
-				<div class="slds-truncate" title="{PrecioTotalUSD}"><strong>{PrecioTotalUSD}</strong></div>
-			</td>
-		</tr>
-		<tr class="slds-hint-parent">
-			<td data-label="Detalles del negocio">
-				<div class="slds-truncate" title="Detalles del negocio">Detalles del negocio</div>
-			</td>
-			<td colspan="2">
-				<table class="slds-table">
-					<tr>
-						<td>
-							<div class="slds-text-heading_medium slds-align_absolute-center">{Puntos}<br />puntos</div>
-						</td>
-						<td>
-							<div class="slds-text-heading_medium slds-align_absolute-center">{Contrib_Marginal}<br />contribución marginal</div>
-						</td>
-						<td>
-							<div class="slds-text-heading_small slds-align_absolute-center">{Margen}<br />margen</div>
-						</td>
-						<td>
-							<div class="slds-text-heading_small slds-align_absolute-center">{Break}<br />break</div>
-						</td>
-					</tr>
-				</table>
-			</td>
-		</tr>
-</tbody>
-  </table>
-<div class="slds-text-body_small slds-align_absolute-center">
-	Moneda local: <strong>{!GetOportunidad.Moneda_de_negociacion__c}</strong> / TC: <strong>{!GetOportunidad.TC_de_negociacion__c}</strong>
-</div>
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/design-system/2.19.0/styles/salesforce-lightning-design-system.min.css" />
+</head>
+<style>
+.THIS .slds-form-element__icon{ /* Replace this class name "slds-form-element" by your finding. */
+display: none !important;
+}
+.hideHelpText {
+max-width: 70% !important;
+}
+.hideHelpText .slds-form-element__label {
+display: none !important;
+}
+.THIS .slds-form-element .slds-form-element__icon {
+display: none !important;
+height: 500px;
+}
+.THIS .slds-form-element__label{ 
+display: none;
+}
+.THIS .slds-button__icon{ 
+display: none;
+}
+.modalheight {
+min-height: 20vh;
+}
+.slds-modal__container{
+width: 45% !important;
+max-width: 45% !important;
+}
+.slds-spinner_container{
+background-color: transparent;
+}
+.modalBodySpinner{
+position: relative;
+background-color: transparent;
+}
+.divborder {
+border-width:2px;
+border-style:solid;
+border-color:rgb(229, 229, 229);
+}
+.graybackground {
+background-color: rgb(243, 243, 243);
+
+}
+.fontspecial1 {
+font-size:14px;
+font-weight: bold;
+}
+.fontspecial2 {
+font-size:20px;
+font-weight: bold;
+}
+.fontBold {
+font-weight: bold;
+}
+.strongpadding {
+padding-left: 5px;
+padding-right: 5px;
+}
+.divpadding{
+padding-left: 20px;
+padding-right: 20px;
+padding-top: 20px;
+}
+</style>
+<body>
+	<div class="divpadding">
+		<lightning-messages> </lightning-messages>
+		<strong class="fontspecial2"> {producto}</strong><br />
+		<strong class="fontspecial1"> {unidaddenegocio}</strong><br /><br />
+		<table class="slds-table slds-table_cell-buffer  slds-table_fixed-layout">
+			<tbody>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo unitario" scope="row">
+						<div class="slds-truncate" title="Costo unitario">Cantidad</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+							<div class="slds-col slds-size_1-of-2 ">
+								<lightning-input-field readonly={bool_ReadOnlyCosto} variant="label-hidden" field-name="Quantity"></lightning-input-field>
+							</div>
+							<div class="slds-col slds-size_1-of-2">
+							</div>
+						</div>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo unitario" scope="row">
+						<div class="slds-truncate" title="Costo unitario">Días de Entrega</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-input-field readonly={bool_ReadOnlyCosto} variant="label-hidden" field-name="Dias_entrega__c"></lightning-input-field>
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Cantidad de días a partir del cierre de la oportunidad en la que se entrega el servicio."></lightning-helptext>
+						</div>
+						</div>                                             
+						
+					</td>
+					<td>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_fixed-layout slds-table_striped">
+			<thead>
+				<tr class="slds-line-height_reset" style="height: 40px;">
+				<th scope="col">
+					<div class="slds-truncate" title="-">-</div>
+				</th>
+				<th scope="col">
+					<div class="slds-truncate" title="Moneda local">Moneda local</div>
+				</th>
+				<th scope="col">
+					<div class="slds-truncate" title="Typical Column Header">Dólar USD</div>
+				</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo unitario" scope="row">
+						<div class="slds-truncate" title="Costo unitario">Costo unitario</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-input-field variant="label-hidden" readonly={bool_ReadOnlyCosto} field-name="Costo_u_local__c"></lightning-input-field>
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Costo unitario en moneda local"></lightning-helptext>
+						</div>
+						</div>                                             
+						
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-output-field variant="label-hidden" field-name="Costo__c"></lightning-output-field>
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Costo unitario en USD. Incluye el Break"></lightning-helptext>
+						</div>
+						</div>                                             
+					</td>
+				</tr>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo unitario" scope="row">
+						<div class="slds-truncate" title="Costo unitario">Precio de Venta</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-input-field variant="label-hidden" readonly={bool_ReadOnlyPrecioVenta} field-name="Precio_vta_u_local__c"></lightning-input-field>
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Precio de venta final en moneda local"></lightning-helptext>
+						</div>
+						</div>                                             
+						
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-output-field variant="label-hidden" field-name="Precio_de_Venta_Final__c"></lightning-output-field>
+
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Precio de venta final en USD"></lightning-helptext>
+						</div>
+						</div>                                             
+					</td>
+				</tr>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo unitario" scope="row">
+						<div class="slds-truncate" title="Costo unitario">Precio Sugerido</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-input-field variant="label-hidden" readonly={bool_ReadOnlyPrecioVentaSugerido} field-name="Precio_Sugerido_u_local__c"></lightning-input-field>
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Precio de venta sugerido en moneda local"></lightning-helptext>
+						</div>
+						</div>                                             
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-output-field variant="label-hidden" field-name="Precio_de_Venta_Sugerido__c"></lightning-output-field>
+
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Precio de venta sugerido en USD"></lightning-helptext>
+						</div>
+						</div>                                             
+					</td>
+				</tr>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo Total" scope="row">
+						<div class="slds-truncate fontBold">Costo Total</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-output-field variant="label-hidden" field-name="Costo_Total_Local__c"></lightning-output-field>
+
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Costo total en moneda local"></lightning-helptext>
+						</div>
+						</div>                                             
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-output-field variant="label-hidden" field-name="Total_Costo__c"></lightning-output-field>
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Costo total en USD"></lightning-helptext>
+						</div>
+						</div>                                             
+					</td>
+				</tr>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo Total" scope="row">
+						<div class="slds-truncate fontBold">Precio Total</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+						<div class="slds-col slds-size_1-of-2 ">
+							<lightning-output-field variant="label-hidden" field-name="Precio_Total_Local__c"></lightning-output-field>
+
+						</div>
+						<div class="slds-col slds-size_1-of-2">
+							<lightning-helptext content="Precio total en moneda local"></lightning-helptext>
+						</div>
+						</div>                                             
+					</td>
+					<td>
+						<div class="slds-grid">
+							<div class="slds-col slds-size_1-of-2 ">
+								<lightning-output-field variant="label-hidden" field-name="TotalPrice"></lightning-output-field>
+							</div>
+							<div class="slds-col slds-size_1-of-2">
+								<lightning-helptext content="Precio total en USD"></lightning-helptext>
+							</div>
+						</div>
+					</td>
+				</tr>
+				<tr class="slds-hint-parent">
+					<td data-label="Costo Total" scope="row">
+						<div class="slds-truncate fontBold">Negocio</div>
+					</td>
+					<td colspan="2">
+						<div class="slds-grid">
+						<div class="slds-col">
+							<span>{Puntos}<br />
+							puntos</span>
+						</div>
+						<div class="slds-col">
+							<span>{Contrib_Marginal}
+							contribución<br />
+							marginal</span>
+						</div>
+						<div class="slds-col">
+							<span>{Margen}<br />
+							margen
+							</span>
+						</div>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="slds-text-body_small slds-align_absolute-center">
+			Break: <strong class="strongpadding">{break}</strong> / Moneda local: <strong class="strongpadding">{monedalocal} </strong> / TC: <strong class="strongpadding"> {tcnegociacion}</strong>
+		</div>
+		<br>
+		<br>
+		<div class="slds-grid">
+			<div class="slds-align_absolute-center" style="height:5rem">
+			<lightning-button variant="neutral" label="Cerrar" onclick={hideModalBox}></lightning-button>
+			<lightning-button variant="brand" class="slds-m-left_x-small" onclick={handleSubmit} label="Guardar" type="submit"></lightning-button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
