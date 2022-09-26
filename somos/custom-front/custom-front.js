@@ -598,7 +598,7 @@ jQuery(document).ready(function() {
 			var cur_value = jQuery(this).val();
 			jQuery(this).data('cur_value',cur_value);
 		}).on('blur', function() {
-			if ( !selected && !jQuery(this).siblings('a').length && jQuery(this).data('cur_value') != jQuery(this).val() ) {
+			if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
 				jQuery(this).val('').removeClass('filled').siblings('a').remove();
 			}
 		});
