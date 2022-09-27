@@ -14,12 +14,15 @@ body {
 #contact-person+ul li {
   border: 1px solid #FFB201!important;
 }
-#contact-person+ul li:hover,
+#content .action-buttons a,
+#footer .button.big,
+.button.big.green {
+  background: #F0582B!important;
+}
 #content .action-buttons a:hover,
 #footer .button.big:hover,
 .button.big.green:hover {
-  background: #F0582B!important;
-  border-color: #F0582B!important;
+  background: #1F4483!important;
 }
 ul.qr-hint {
   background-image: url('https://www.grupodatco.com/qr-bcard/img/gd-iso-color.svg');

@@ -11,12 +11,15 @@ body {
 #content p.hint {
   background: #39457E;
 }
-#contact-person+ul li:hover,
+#content .action-buttons a,
+#footer .button.big,
+.button.big.green {
+  background: #5668BF!important;
+}
 #content .action-buttons a:hover,
 #footer .button.big:hover,
 .button.big.green:hover {
-  background: #5668BF!important;
-  border-color: #5668BF!important;
+  background: #4958A3!important;
 }
 ul.qr-hint {
   background-image: url('https://www.grupodatco.com/qr-bcard/img/f-iso-color.svg');
