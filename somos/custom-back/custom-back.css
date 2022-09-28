@@ -114,8 +114,8 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #your-profile .form-table input[type=date],#your-profile .form-table input[type=email],#your-profile .form-table input[type=password],#your-profile .form-table input[type=tel],#your-profile .form-table input[type=text],#your-profile .form-table select,#your-profile.form-table textarea,
 #createuser .form-table input[type=date],#createuser .form-table input[type=email],#createuser .form-table input[type=password],#createuser .form-table input[type=tel],#createuser .form-table input[type=text],#createuser .form-table select,#createuser.form-table textarea{font-size:1.3em}
 .form-table input.highlight{border:2px solid #F0582B}
-.regular-text,.form-table select,#display_name{width:22em}
-#pass-strength-result{width:32em}
+#adduser .form-field input, #createuser .form-field input,.regular-text,.form-table select,#display_name{width:18em}
+#pass-strength-result{width:18em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
 
