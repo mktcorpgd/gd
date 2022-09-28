@@ -128,7 +128,9 @@ padding-top: 20px}
 			<thead>
 				<tr class="slds-line-height_reset" style="height: 40px;">
 				<th scope="col">
-					<div class="slds-truncate" title="-">-</div>
+					<div class="slds-truncate" title="-">
+						<span style="font-weight:normal">Break: <input style="width:50px;text-align:center" type="number" value="18"></>%</span>
+					</div>
 				</th>
 				<th scope="col">
 					<div class="slds-truncate" title="Moneda local">Moneda local</div>
@@ -294,8 +296,8 @@ padding-top: 20px}
 				</tr>
 			</tbody>
 		</table>
-		<div class="slds-text-body_small slds-align_absolute-center">
-			Break: <strong class="strongpadding">{break}</strong> / Moneda local: <strong class="strongpadding">{monedalocal} </strong> / TC: <strong class="strongpadding"> {tcnegociacion}</strong>
+		<div class="slds-text-body_small" style="text-align:center">
+			<br />Moneda local: <strong class="strongpadding">{monedalocal} </strong> / TC: <strong class="strongpadding"> {tcnegociacion}</strong>
 		</div>
 		<br>
 		<br>
