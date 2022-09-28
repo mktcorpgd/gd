@@ -28,7 +28,6 @@ body:not(.single-event) article.event p,body.single-event .entry-content h4,.eve
 .gp-blog-wrapper[class*='gp-blog-columns'] section.category-un .post-text,
 /* Admin */
 body:not(.role-administrator) .only-admin,
-body:not(.role-administrator) #custom_html-25,
 /* Entradas */
 .post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.home) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
 /* Home */
