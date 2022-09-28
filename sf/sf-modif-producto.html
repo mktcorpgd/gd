@@ -68,8 +68,8 @@ padding-top: 20px}
 <body>
 	<div class="divpadding">
 		<lightning-messages> </lightning-messages>
-		<strong class="fontspecial2"> {producto} x{cantidad} {medida}</strong><br />
-		<strong class="fontspecial1"> {unidaddenegocio}</strong><br /><br />
+		<strong class="fontspecial2">{producto}</strong><br />
+		<strong class="fontspecial1">{unidaddenegocio}</strong><br /><br />
 		<table class="slds-table slds-table_cell-buffer  slds-table_fixed-layout">
 			<tbody>
 				<tr class="slds-hint-parent">
@@ -80,6 +80,22 @@ padding-top: 20px}
 						<div class="slds-grid">
 							<div class="slds-col slds-size_1-of-2 ">
 								<lightning-input-field readonly={bool_ReadOnlyCosto} variant="label-hidden" field-name="Quantity"></lightning-input-field>
+							</div>
+							<div class="slds-col slds-size_1-of-2">
+							</div>
+						</div>
+					</td>
+					<td>
+					</td>
+				</tr>
+				<tr class="slds-hint-parent">
+					<td data-label="Cantidad" scope="row">
+						<div class="slds-truncate" title="Cantidad">Medida</div>
+					</td>
+					<td>
+						<div class="slds-grid">
+							<div class="slds-col slds-size_1-of-2 ">
+								<select><option>Unidades</option></select>
 							</div>
 							<div class="slds-col slds-size_1-of-2">
 							</div>
