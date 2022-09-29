@@ -28,7 +28,6 @@ body:not(.single-event) article.event p,body.single-event .entry-content h4,.eve
 .gp-blog-wrapper[class*='gp-blog-columns'] section.category-un .post-text,
 /* Admin */
 body:not(.role-administrator) .only-admin,
-body:not(.role-administrator) #custom_html-25,
 /* Entradas */
 .post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.home) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
 /* Home */
@@ -96,7 +95,7 @@ select{padding:.37em .6em}
 textarea{line-height:1.3}
 input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,input[type='tel']:hover,input[type='number']:hover,textarea:hover,select:hover{background:#FFFFFF;border:1px solid #999999}
 input[type='text']:focus,input[type='date']:focus,input[type='email']:focus,input[type='tel']:focus,input[type='number']:focus,textarea:focus,select:focus{background:#FFFFFF;border:1px solid #777777}
-input[readonly]:not([class*='walcf7-']),textarea[readonly],input[disabled],textarea[disabled]{background:#FFFFFF!important;border:1px solid #DDDDDD!important;color:#CCCCCC!important;cursor:default}
+input[readonly]:not([class*='walcf7-']),textarea[readonly],input[disabled],textarea[disabled]{background:#FAFAFA!important;border:1px dashed #CCCCCC!important;color:#999999!important;cursor:default}
 select{position:relative}
 .columns.two.center,.aligncenter{text-align:center}
 span.resaltado-naranja{color:#F0582B}
