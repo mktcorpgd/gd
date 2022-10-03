@@ -81,7 +81,7 @@ textarea{height:60px}
 a{color:#0E316E}
 a:hover{color:#F0582B;text-decoration:underline}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
-#comments .commentlist li .comment_container,[data-class="wpcf7cf_group"],.wpcf7cf_remove,.wpcf7cf_add,.gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event,body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:after,
+#comments .commentlist li .comment_container,[data-class='wpcf7cf_group'],.wpcf7cf_remove,.wpcf7cf_add,.gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event,body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:after,
 article.category-casos-de-referencia .padder:before,article.category-casos-de-referencia .padder:after,
 body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:after,
 body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:after,
@@ -298,7 +298,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
 .wpcf7-form>label{float:left}
-.wpcf7 label>em{display:block;margin:10px 0 0;text-align:center;font-size:80%;font-family:'Open-Sans',sans-serif;font-weight:700;text-transform:none;letter-spacing:0}
+.wpcf7 label>em,.wpcf7 label div[data-class='wpcf7cf_group'] span{display:block;font-size:.8em;font-family:'Open-Sans',sans-serif}
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0}
