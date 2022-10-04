@@ -322,10 +322,8 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,bod
 .fusion-sharing-box .fusion-social-networks a{margin:0 5px;padding:8px;background:#FAFAFA;border-radius:32px}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 .legales{margin-top:10px!important}
-.fusion-post-wrapper h2 a:hover,.fusion-portfolio-content-wrapper h2 a:hover{text-decoration:underline!important}
 .fusion-sharing-box+#text-17{width:80%;margin:0 auto}
 .fusion-portfolio-content h2{float:left;width:100%;position:relative;z-index:10}
-.fusion-image-wrapper:hover+.fusion-portfolio-content h2 a{text-decoration:underline}
 #boxed-wrapper,.slider{overflow:initial!important}
 .post-content .fusion-one-third .fusion-text p{margin-bottom:.4em!important}
 .single-avada_portfolio .suite .fusion-one-third .fusion-text p{font-size:.8em}
@@ -343,7 +341,6 @@ body.single-avada_portfolio .header-transparent #content{width:100%}
 .fusion-testimonials .testimonial-pagination{padding-top:5px!important;padding-bottom:20px!important}
 .fusion-testimonials.clean .author strong{font-weight:500!important}
 .fusion-testimonials .testimonial-pagination{margin-bottom:2em}
-.fusion-testimonials.clean .author a:hover{text-decoration:underline!important}
 .fusion-testimonials .testimonial-pagination a{border:2px solid #CCCCCC!important}
 .fusion-testimonials .testimonial-pagination a:hover{background:#CCCCCC!important}
 .fusion-testimonials .testimonial-pagination a.activeSlide{background:#999999!important}
@@ -479,7 +476,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-footer-widget-area{padding-top:32px!important;background:#222222!important}
 .fusion-widget-area .sub-menu{margin-left:0!important}
 .fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:80%;text-transform:uppercase}
-.fusion-footer-widget-area p a{text-decoration:underline}
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:#FFFFFF}
 .fusion-footer-widget-area ul{margin:15px 0}
 .fusion-footer-widget-area ul li{padding:5px 0!important;border:0!important}
@@ -661,7 +657,6 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper, .fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{border-radius:12px}
 .fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{width:100%;display:inline-block;padding:16px 20px 0}
 .fusion-blog-layout-grid article.category-noticias[class*='tag-'].has-post-thumbnail .fusion-post-wrapper>.fusion-flexslider+.fusion-post-content-wrapper h2 a{padding-top:16px}
-.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a:hover{text-decoration:underline}
 .fusion-blog-layout-grid .fusion-image-wrapper,.fusion-blog-layout-grid .fusion-image-wrapper img,.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper img,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper img{position:relative}
 .fusion-blog-layout-grid .fusion-image-wrapper img{border-radius:0}
 .fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-post-grid .fusion-image-wrapper{border-bottom:1px solid #EAEAEA;border-radius:12px 12px 24px 0px}
