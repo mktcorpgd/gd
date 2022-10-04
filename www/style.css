@@ -737,6 +737,7 @@ input.pdfemb-page-num{border-radius:6px;color:#333333}
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:.3em;padding-left:1em;padding-bottom:.6em;z-index:10}
 .fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;font-size:1.1em!important;font-family:'Open-Sans',sans-serif}
 .fusion-buttons .fusion-button.button-right{margin-left:.4em}
+article.c-solo-contacto .fusion-buttons .fusion-button.button-right{margin-left:0}
 .fusion-buttons .fusion-button.button-right span{font-weight:400!important}
 .fusion-buttons .fusion-button.button-left span,.fusion-portfolio .c-solo-contacto .fusion-button.button-right span,.fusion-portfolio .tag-solo-contacto .fusion-button.button-right span{font-weight:600!important}
 .fusion-button.no-text i{margin:0!important}
