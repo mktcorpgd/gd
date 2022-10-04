@@ -235,11 +235,11 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	if ( jQuery(window).width() > 920 ) {
-		jQuery('.box-buttons .fusion-portfolio-post h2 a').on('click',function(e) {
+		jQuery('.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			e.preventDefault();
 			return false;
 		});
-		jQuery('.box-buttons article:not(.expanded) .fusion-post-content,.box-buttons .fusion-portfolio-post h2 a').on('click',function(e) {
+		jQuery('.box-buttons article:not(.expanded) .fusion-post-content,.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.stopPropagation();
