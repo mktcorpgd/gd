@@ -237,6 +237,7 @@ jQuery(document).ready(function() {
 	if ( jQuery(window).width() > 920 ) {
 		jQuery('.box-buttons .fusion-portfolio-post h2 a').on('click',function(e) {
 			e.preventDefault();
+			return false;
 		});
 		jQuery('.box-buttons article:not(.expanded) .fusion-post-content,.box-buttons .fusion-portfolio-post h2 a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
