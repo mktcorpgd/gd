@@ -242,7 +242,6 @@ jQuery(document).ready(function() {
 		jQuery('.box-buttons article:not(.expanded) .fusion-post-content,.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
-			e.stopPropagation();
 		});
 		jQuery('html').on('click',function(e) {
 			console.log(jQuery(e.target));
