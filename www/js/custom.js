@@ -245,7 +245,7 @@ jQuery(document).ready(function() {
 			e.stopPropagation();
 		});
 		jQuery('html').click(function(e) {
-			if( !jQuery(e.target).hasClass('expanded') ) {
+			if( !jQuery(e.target).hasClass('expanded') || !jQuery(e.target).closest('expanded') ) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 			}
 		});
