@@ -245,7 +245,8 @@ jQuery(document).ready(function() {
 			e.stopPropagation();
 		});
 		jQuery('html').click(function(e) {
-			if( !jQuery(e.target).hasClass('expanded') || !jQuery(e.target).closest('expanded') || !jQuery(e.target).closest('wp-video-shortcode') ) {
+			console.log(jQuery(e.target));
+			if( !jQuery(e.target).hasClass('expanded') || !jQuery(e.target).closest('expanded') || !jQuery(e.target).hasClass('wp-video-shortcode') ) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 			}
 		});
