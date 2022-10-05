@@ -246,7 +246,7 @@ jQuery(document).ready(function() {
 		});
 		jQuery('html').on('click',function(e) {
 			console.log(jQuery(e.target));
-			if( jQuery(e.target).is('.expanded') ) {
+			if( !jQuery(e.target).is('.expanded') ) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 			}
 		});
