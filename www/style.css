@@ -158,7 +158,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu li{text-align:left}
 .fusion-main-menu>ul>.fusion-menu-item-button:hover>a{background-color:transparent!important}
 .fusion-main-menu .fusion-menu-item-button a{cursor:default}
-.fusion-main-menu .fusion-menu-item-button a>span{font-weight:400;border-radius:6px!important;cursor:pointer}
+.fusion-main-menu .fusion-menu-item-button a>span{font-weight:400;border-radius:9px!important;cursor:pointer}
 .fusion-main-menu .fusion-menu-item-button .button-icon-divider-left{top:-4px}
 .fusion-main-menu .fusion-menu-item-button,.fusion-main-menu .fusion-menu-item-button span{transition:none}
 .fusion-main-menu .fusion-menu-item-button .menu-text{transition:all .1s ease-in-out;background:rgba(0,0,0,.2)!important}
