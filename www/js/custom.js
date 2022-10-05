@@ -246,9 +246,10 @@ jQuery(document).ready(function() {
 		});
 		jQuery('html').click(function(e) {
 			console.log(jQuery(e.target));
-			if( !jQuery(e.target).hasClass('expanded') || !jQuery(e.target).hasClass('fusion-portfolio-content-wrapper') ) {
+			/*
+			if( !jQuery(e.target).hasClass('expanded') || !jQuery(e.target).hasClass('mejs-overlay-button') ) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
-			}
+			}*/
 		});
 		var zindex = 100;
 		jQuery('.box-buttons article').each(function(i) {
