@@ -961,6 +961,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .page-text{letter-spacing:1px;position:relative;text-transform:uppercase}
 .fusion-tabs .nav-tabs li a:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
+.box-buttons .fusion-post-content p{line-height:1.4;}
 .box-buttons .fusion-post-content ul{margin-top:5px}
 
 /* Paginación */
