@@ -33,8 +33,8 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 .wpcf7-form input[type='submit'].sending:hover,.panel-title a .fusion-toggle-heading,.panel-title a .fa-fusion-box{color:#552156!important}
 .panel-title a:hover .fusion-toggle-heading,.panel-title a:hover .fa-fusion-box{color:#A142A6!important}
 .fusion-accordian .panel-title a .fa-fusion-box{padding:4px 2px 8px!important}
-.fusion-accordian .panel-title a .fa-fusion-box:before{font-family:'Font Awesome 5 Pro'!important;content:'\f055'}
-.fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left){font-family:'Font Awesome 5 Pro'}
+.fusion-accordian .panel-title a .fa-fusion-box:before{font-family:'Font Awesome 6 Pro'!important;content:'\f055'}
+.fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left){font-family:'Font Awesome 6 Pro'}
 #como-empezar .fusion-builder-row-inner .old{position:relative;border-top-left-radius:8px;border-bottom-left-radius:8px;overflow:hidden}
 #como-empezar .fusion-builder-row-inner .new{border-top-right-radius:8px;border-bottom-right-radius:8px;overflow:hidden}
 #como-empezar .fusion-builder-row-inner .new:before{height:100%;content:'\25B6';color:#EAEAEA;position:absolute;left:-10px;font-size:24px;line-height:330%;z-index:1}
