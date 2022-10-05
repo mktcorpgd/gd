@@ -1145,7 +1145,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons article:not(.expanded) .fusion-post-content *{opacity:0}
 	.box-buttons article.expanded .fusion-post-content,.box-buttons article.expanded .fusion-col-spacing{height:auto!important}
 	.box-buttons article.expanded .fusion-post-content *{padding:0;opacity:1}
-	.box-buttons article.expanded .fusion-post-content .mejs-container.mejs-video,.box-buttons article.expanded .fusion-post-content video{width:100%!important;height:147px!important}
 	.box-buttons article.expanded .fusion-post-content .fusion-flex-column{margin:0}
 	.box-buttons article.expanded .fusion-post-content .wp-video{margin:.5em 0}
 	.box-buttons article .fusion-post-content{padding:0 1rem;transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
