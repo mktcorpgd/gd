@@ -608,7 +608,8 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 /* Fullwidth */
 .fusion-portfolio .no-buttons .fusion-portfolio-content-wrapper{padding-bottom:0!important}
 .fusion-portfolio-content-wrapper .fusion-image-wrapper a{display:block}
-.wp-video{margin:30px 0;width:100%!important;border-radius:12px;border:none;overflow:hidden}
+.wp-video{margin:30px 0;width:100%!important;border:none;overflow:hidden}
+.mejs-mediaelement{border-radius:12px}
 .wp-video-shortcode{max-width:none!important}
 body.single-avada_portfolio div.project-content>div>div.fusion-fullwidth>.fusion-row>.fusion-layout-column>.fusion-column-wrapper>.fusion-text>.wp-video{margin-top:0!important}
 .wpcf7 .fusion-one-full>a>i{display:inline;margin-right:2px!important;font-size:95%;font-weight:900!important;opacity:1!important}
@@ -1145,6 +1146,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons article:not(.expanded) .fusion-post-content *{opacity:0}
 	.box-buttons article.expanded .fusion-post-content,.box-buttons article.expanded .fusion-col-spacing{height:auto!important}
 	.box-buttons article.expanded .fusion-post-content *{padding:0;opacity:1}
+	.box-buttons article.expanded .fusion-post-content .wp-video-shortcode{margin:0 auto}
 	.box-buttons article.expanded .fusion-post-content .fusion-flex-column{margin:0}
 	.box-buttons article.expanded .fusion-post-content .wp-video{margin:.5em 0}
 	.box-buttons article .fusion-post-content{padding:0 1rem;transition:all .2s ease-in-out;cursor:pointer;position:relative;z-index:10}
