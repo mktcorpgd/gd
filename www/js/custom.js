@@ -583,19 +583,15 @@ jQuery(document).ready(function() {
 					modal_btn_right_lang = 'Contato';
 				}
 			}
-			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('post-38401') ) {
-					var external_link = 'target="_blank" href="https://secure2.sophos.com/es-es/products/next-gen-firewall/free-trial.aspx?id=0013Z00001hTgcp"';
-					var classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left';
-					var modal = '';
-				}
-				else {
-					var classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left fusion-modal-text-link';
-					var modal = ' data-toggle="modal" data-target=".fusion-modal.demo"';
-				}
-				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a class="more-info">Más info</a><div class="fusion-buttons"><a class="fusion-button button-flat fusion-button-round button-large button-default button-left" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="'+classes_button+'" '+external_link+''+modal+'><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
+			if ( (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) && !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
+				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a').attr({
+					'href': '#solo-contacto',
+					'class': 'fusion-modal-text-link',
+					'data-toggle': 'modal',
+					'data-target': '.fusion-modal.contacto-rapido'
+				});
 			}
-			else if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') && (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) ) {
+			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') && (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) ) {
 				modal_btn_left_lang = 'Ver datasheet';
 				var link_id = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
 				link_id = link_id.substring(link_id.indexOf('servicio/')+9,link_id.length-1);
@@ -615,19 +611,18 @@ jQuery(document).ready(function() {
 					'href': link_post,
 					'target': link_target
 				});
-				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a class="more-info">Más info</a><div class="fusion-buttons"><a class="fusion-button button-flat fusion-button-round button-large button-default button-left" href="'+link_post+'" target="'+link_target+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" data-toggle="modal" data-target=".fusion-modal.contacto-rapido"><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
+			}
+			var classes_button;
+			var modal;
+			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
+				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left fusion-modal-text-link';
+				modal = ' data-toggle="modal" data-target=".fusion-modal.demo"';
 			}
 			else {
-				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<div class="fusion-buttons"><a class="fusion-button button-flat fusion-button-round button-large button-default button-left" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" data-toggle="modal" data-target=".fusion-modal.contacto-rapido"><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
+				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left"';
+				modal = ' data-toggle="modal" data-target=".fusion-modal.contacto-rapido"';
 			}
-			if ( (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) && !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
-				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a').attr({
-					'href': '#solo-contacto',
-					'class': 'fusion-modal-text-link',
-					'data-toggle': 'modal',
-					'data-target': '.fusion-modal.contacto-rapido'
-				});
-			}
+			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a class="more-info">'+btn_info+'</a><div class="fusion-buttons"><a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
 		});
 	}
 
