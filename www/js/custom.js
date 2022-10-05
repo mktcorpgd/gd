@@ -235,8 +235,12 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	if ( jQuery(window).width() > 920 ) {
-		jQuery('.box-buttons article:not(.expanded) .fusion-post-content').on('click',function(e) {
-			jQuery(this).parent().parent().parent('article').toggleClass('expanded');
+		jQuery('.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+			e.preventDefault();
+			return false;
+		});
+		jQuery('.box-buttons article:not(.expanded) .fusion-post-content,.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.stopPropagation();
 		});
@@ -612,7 +616,7 @@ jQuery(document).ready(function() {
 				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<div class="fusion-buttons"><a class="fusion-button button-flat fusion-button-round button-large button-default button-left" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" data-toggle="modal" data-target=".fusion-modal.contacto-rapido"><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
 			}
 			if ( (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) && !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
-				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a,.fusion-portfolio-post:eq('+i+') h2 a').attr({
+				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a').attr({
 					'href': '#solo-contacto',
 					'class': 'fusion-modal-text-link',
 					'data-toggle': 'modal',

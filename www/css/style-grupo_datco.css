@@ -33,6 +33,7 @@ input[type='submit']:hover,.wpcf7-submit:hover{background-color:var(--highlightC
 .fusion-portfolio-grid .fusion-portfolio-post[class*='f-'] .fusion-post-content .fusion-layout-column{margin:0}
 .sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck #text-7{margin-top:0}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:var(--subColor)}
+.box-buttons .fusion-portfolio-content-wrapper:hover .fusion-post-content:before{color:var(--highlightColor)}
 body.home #wrapper #main .fusion-post-grid.category-blog .blog-shortcode-post-title{font-size:1.4em}
 .fusion-content-boxes.shadow>.fusion-column>.col,.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid var(--subColor)}
 .fusion-content-boxes.shadow>.fusion-column>.col:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid var(--highlightColor)}
