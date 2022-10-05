@@ -437,7 +437,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-form input[type='submit']:focus{background:#FFFFFF!important}
 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:12px}
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:6px}
-.fusion-button-default-size,.fusion-portfolio-one .fusion-button{-webkit-appearance:none;background:#FFFFFF;font-style:normal}
+.fusion-button-default-size,.fusion-portfolio-one .fusion-button{-webkit-appearance:none;font-style:normal}
 .fusion-button.button-flat:not(.no-text),.wpcf7 input[type='submit']{margin-left:auto;margin-right:auto;border-radius:12px!important}
 .fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text){display:inline-block;margin-right:10px;margin-bottom:10px}
 .fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text)>span{font-weight:600}
