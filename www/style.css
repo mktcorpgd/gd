@@ -382,7 +382,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:#FF5151!important}
 .fusion-layout-column.iframe .fusion-column-wrapper{border-radius:12px;overflow:hidden}
 .wpcf7 .fusion-layout-column,#respond .fusion-layout-column{margin-bottom:0}
-.wpcf7 .fusion-layout-column span:not(.mc4wp-checkbox),#respond .fusion-layout-column span{display:block;margin-bottom:5px}
+.wpcf7 .fusion-layout-column>span:not(.mc4wp-checkbox),#respond .fusion-layout-column span{display:block;margin-bottom:5px}
 .wpcf7 .wpcf7-form .fusion-one-third:nth-child(2) input:not([type='submit']){border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-right:0!important}
 .wpcf7 .wpcf7-form .fusion-one-third:nth-child(3) input:not([type='submit']){border-radius:0!important}
 .wpcf7 .wpcf7-form .fusion-one-third.fusion-column-last input:not([type='submit']){border-top-left-radius:0!important;border-bottom-left-radius:0!important;border-left:0!important}
