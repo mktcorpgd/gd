@@ -244,11 +244,11 @@ jQuery(document).ready(function() {
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.stopPropagation();
 		});
-		jQuery('html').click(function(e) {
+		jQuery('html').on('click',function(e) {
 			console.log(jQuery(e.target));
-			if( !jQuery(e.target).hasClass('expanded') && jQuery(e.target) != 'div#fusion-portfolio-2.fusion-portfolio-wrapper' ) {
+			/*if( jQuery(e.target).is('.expanded') ) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
-			}
+			}*/
 		});
 		var zindex = 100;
 		jQuery('.box-buttons article').each(function(i) {
