@@ -1141,7 +1141,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.expanded{height:auto!important}
 	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article:not(.expanded) .fusion-buttons{margin:0;padding:0;opacity:0;height:0}
 	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.expanded .fusion-buttons{opacity:1;height:auto}
-	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.opacity:not(.expanded){filter:blur(4px);opacity:.6;pointer-events:none}
+	.box-buttons .fusion-portfolio .fusion-portfolio-wrapper article.opacity:not(.expanded){opacity:.6;pointer-events:none}
 	.box-buttons article:not(.expanded) .fusion-post-content{height:24px;overflow:hidden}
 	.box-buttons article:not(.expanded) .fusion-post-content *{opacity:0}
 	.box-buttons article.expanded .fusion-post-content,.box-buttons article.expanded .fusion-col-spacing{height:auto!important}
