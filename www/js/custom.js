@@ -242,6 +242,12 @@ jQuery(document).ready(function() {
 		jQuery('.box-buttons article .more-info,.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
+			if ( jQuery(this).closest('article').hasClass('expanded') ) {
+				jQuery(this).closest('.more-info').text('Ocultar');
+			}
+			else {
+				jQuery(this).closest('.more-info').text('Más info');
+			}
 			e.preventDefault();
 		});
 		jQuery('html').on('click',function(e) {
