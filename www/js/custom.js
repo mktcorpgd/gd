@@ -331,6 +331,12 @@ jQuery(document).ready(function() {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 			}
 		});
+		jQuery(document).on('keydown',function(e) {
+			if ( e.key == 'Escape' ) {
+				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+			}
+		});
+	 
 		var zindex = 999;
 		jQuery('.box-buttons article,.fusion-portfolio').each(function(i) {
 			zindex--;
