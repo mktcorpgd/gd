@@ -311,6 +311,20 @@ jQuery(document).ready(function() {
 	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
+	var btn_info;
+	var btn_hide;
+	if ( lang == 'es' ) {
+		btn_info = 'Más info';
+		btn_hide = 'Ocultar';
+	}
+	else if ( lang == 'en' ) {
+		btn_info = 'Info';
+		btn_hide = 'Hide';
+	}
+	else if ( lang == 'pt' ) {
+		btn_info = 'Mais info';
+		btn_hide = 'Ocultar';
+	}
 	if ( jQuery(window).width() > 920 ) {
 		jQuery.fn.extend({
 			toggleText: function(a, b){
@@ -322,12 +336,11 @@ jQuery(document).ready(function() {
 			jQuery('.box-buttons article').toggleClass('opacity');
 			var $more_info = jQuery(this).closest('article').find('.more-info');
 			$more_info.toggleClass('open');
-			console.log($more_info);
 			if ( $more_info.hasClass('open') ) {
-				$more_info.find('span').text('Ocultar');
+				$more_info.find('span').text(btn_hide);
 			}
 			else {
-				$more_info.find('span').text('Más info');
+				$more_info.find('span').text(btn_info);
 			}
 			e.preventDefault();
 		});
@@ -336,10 +349,10 @@ jQuery(document).ready(function() {
 			jQuery('.box-buttons article').toggleClass('opacity');
 			jQuery(this).toggleClass('open');
 			if ( jQuery(this).hasClass('open') ) {
-				jQuery(this).find('span').text('Ocultar');
+				jQuery(this).find('span').text(btn_hide);
 			}
 			else {
-				jQuery(this).find('span').text('Más info');
+				jQuery(this).find('span').text(btn_info);
 			}
 			e.preventDefault();
 		});
@@ -348,11 +361,15 @@ jQuery(document).ready(function() {
 			console.log(expanded);
 			if (!expanded) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+				jQuery('.more-info').removeClass('open');
+				jQuery('.more-info span').text(btn_info);
 			}
 		});
 		jQuery(document).on('keydown',function(e) {
 			if ( e.key == 'Escape' ) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+				jQuery('.more-info').removeClass('open');
+				jQuery('.more-info span').text(btn_info);
 			}
 		});
 	 
