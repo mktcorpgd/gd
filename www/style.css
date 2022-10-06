@@ -1149,7 +1149,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons article.expanded .fusion-post-content .wp-video{margin:.5em 0}
 	.box-buttons article .fusion-post-content{padding:0 1rem}
 	.box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-	.box-buttons article .more-info{float:left;width:100%;margin-top:.3em;padding-left:1em;cursor:pointer;font-family:'Open-Sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
+	.box-buttons article .more-info{float:left;width:100%;padding-left:1em;cursor:pointer;font-family:'Open-Sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
 	.box-buttons article .more-info.open i{transition:all .2s ease-in-out;transform:rotate(180deg)}
 	.box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;padding-bottom:1em}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.9em}
