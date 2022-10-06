@@ -312,17 +312,20 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	if ( jQuery(window).width() > 920 ) {
-		jQuery('.box-buttons .more-info,.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
-			if ( jQuery(e.target).is('.more-info') && jQuery(this).closest('article').hasClass('expanded') ) {
-				var btn_info = jQuery(this).text();
-				jQuery(this).text('Ocultar');
+		jQuery.fn.extend({
+			toggleText: function(a, b){
+				return this.text(this.text() == b ? a : b);
 			}
-			else {
-				jQuery(this).text(btn_info);
-			}
+		});
+		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
+		});
+		jQuery('.box-buttons .more-info').on('click',function(e) {
+			jQuery(this).toggleText('Ocultar','Más info');
+			jQuery(this).closest('article').toggleClass('expanded');
+			jQuery('.box-buttons article').toggleClass('opacity');
 		});
 		jQuery('html').on('click',function(e) {
 			var expanded = e.target.closest('.expanded');
