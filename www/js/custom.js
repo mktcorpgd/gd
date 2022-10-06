@@ -193,6 +193,83 @@ jQuery(document).ready(function() {
 		e.stopPropagation();
 	});
 
+
+	// BOTONES - Agregar botones en cajas para categorías
+	if ( jQuery('.fusion-portfolio').length ) {
+		var btn_info;
+		var modal_btn_left_lang;
+		var modal_btn_right_lang;
+		jQuery('.fusion-portfolio-post').each(function(i) {
+			var link_post = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
+			if ( lang == 'es' ) {
+				btn_info = ' Más info';
+				modal_btn_left_lang = 'Conocer más';
+				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
+					modal_btn_right_lang = 'Prueba gratuita';
+				}
+				else if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
+					modal_btn_right_lang = 'Contactar';
+				}
+				else {
+					modal_btn_right_lang = 'Contactar';
+				}
+			}
+			else if ( lang == 'en' ) {
+				btn_info = ' More info';
+				modal_btn_left_lang = 'Learn more';
+				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
+					modal_btn_right_lang = 'Free trial';
+				}
+				else {
+					modal_btn_right_lang = 'Contact';
+				}
+			}
+			else if ( lang == 'pt' ) {
+				btn_info = ' Mais info';
+				modal_btn_left_lang = 'Saber mais';
+				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
+					modal_btn_right_lang = 'Teste grátis';
+				}
+				else {
+					modal_btn_right_lang = 'Contato';
+				}
+			}
+			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') && (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) ) {
+				modal_btn_left_lang = 'Ver datasheet';
+				var link_id = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
+				link_id = link_id.substring(link_id.indexOf('servicio/')+9,link_id.length-1);
+				jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('id',link_id);
+				if ( link_id.indexOf('-2') > -1 ) {
+					link_id = link_id.substring(0,link_id.length-2);
+				}
+				if ( jQuery('.fusion-portfolio-post:eq('+i+')').attr('class').indexOf('turbomaster') > -1 ) {
+					link_post = 'https://www.silicanetworks.com/datasheet-'+link_id;
+					var link_target = '_blank';
+				}
+				else {
+					link_post = '/datasheet-'+link_id;
+					var link_target = '_self';
+				}
+				jQuery('.fusion-portfolio-post:eq('+i+') h2 a,.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a').attr({
+					'href': link_post,
+					'target': link_target
+				});
+			}
+			var classes_button;
+			var modal;
+			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
+				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left fusion-modal-text-link';
+				modal = ' data-toggle="modal" data-target=".fusion-modal.demo"';
+			}
+			else {
+				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left"';
+				modal = ' data-toggle="modal" data-target=".fusion-modal.contacto-rapido"';
+			}
+			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info">'+btn_info+'</a><div class="fusion-buttons"><a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
+		});
+	}
+
+	
 	// CONTENIDOS - Categorías de países como banderas
 	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
 		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
@@ -242,6 +319,7 @@ jQuery(document).ready(function() {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
+			return false;
 		});
 		var zindex = 999;
 		jQuery('.box-buttons article,.fusion-portfolio').each(function(i) {
@@ -534,90 +612,6 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-
-
-	// BOTONES - Agregar botones en cajas para categorías
-	if ( jQuery('.fusion-portfolio').length ) {
-		var btn_info;
-		var modal_btn_left_lang;
-		var modal_btn_right_lang;
-		jQuery('.fusion-portfolio-post').each(function(i) {
-			var link_post = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
-			if ( lang == 'es' ) {
-				btn_info = ' Más info';
-				modal_btn_left_lang = 'Conocer más';
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					modal_btn_right_lang = 'Prueba gratuita';
-				}
-				else if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
-					modal_btn_right_lang = 'Contactar';
-				}
-				else {
-					modal_btn_right_lang = 'Contactar';
-				}
-			}
-			else if ( lang == 'en' ) {
-				btn_info = ' More info';
-				modal_btn_left_lang = 'Learn more';
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					modal_btn_right_lang = 'Free trial';
-				}
-				else {
-					modal_btn_right_lang = 'Contact';
-				}
-			}
-			else if ( lang == 'pt' ) {
-				btn_info = ' Mais info';
-				modal_btn_left_lang = 'Saber mais';
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					modal_btn_right_lang = 'Teste grátis';
-				}
-				else {
-					modal_btn_right_lang = 'Contato';
-				}
-			}
-			if ( (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) && !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
-				jQuery('.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a').attr({
-					'href': '#solo-contacto',
-					'class': 'fusion-modal-text-link',
-					'data-toggle': 'modal',
-					'data-target': '.fusion-modal.contacto-rapido'
-				});
-			}
-			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') && (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) ) {
-				modal_btn_left_lang = 'Ver datasheet';
-				var link_id = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
-				link_id = link_id.substring(link_id.indexOf('servicio/')+9,link_id.length-1);
-				jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('id',link_id);
-				if ( link_id.indexOf('-2') > -1 ) {
-					link_id = link_id.substring(0,link_id.length-2);
-				}
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').attr('class').indexOf('turbomaster') > -1 ) {
-					link_post = 'https://www.silicanetworks.com/datasheet-'+link_id;
-					var link_target = '_blank';
-				}
-				else {
-					link_post = '/datasheet-'+link_id;
-					var link_target = '_self';
-				}
-				jQuery('.fusion-portfolio-post:eq('+i+') h2 a,.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a').attr({
-					'href': link_post,
-					'target': link_target
-				});
-			}
-			var classes_button;
-			var modal;
-			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left fusion-modal-text-link';
-				modal = ' data-toggle="modal" data-target=".fusion-modal.demo"';
-			}
-			else {
-				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left"';
-				modal = ' data-toggle="modal" data-target=".fusion-modal.contacto-rapido"';
-			}
-			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info">'+btn_info+'</a><div class="fusion-buttons"><a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
-		});
-	}
 
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
