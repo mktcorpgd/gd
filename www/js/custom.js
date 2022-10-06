@@ -325,6 +325,7 @@ jQuery(document).ready(function() {
 		btn_info = 'Mais info';
 		btn_hide = 'Ocultar';
 	}
+	jQuery('.box-buttons .fusion-buttons,.box-buttons .more-info').show();
 	if ( jQuery(window).width() > 920 ) {
 		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
