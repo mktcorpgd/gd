@@ -318,17 +318,11 @@ jQuery(document).ready(function() {
 			}
 		});
 		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
-			var btn_info = jQuery(this).closest('.more-info').text();
-			console.log(btn_info);
-			jQuery(this).closest('.more-info').toggleText(btn_info,'Ocultar');
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
 		});
 		jQuery('.box-buttons .more-info').on('click',function(e) {
-			var btn_info = jQuery(this).text();
-			console.log(btn_info);
-			jQuery(this).toggleText(btn_info,'Ocultar');
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
