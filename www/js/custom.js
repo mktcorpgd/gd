@@ -326,6 +326,7 @@ jQuery(document).ready(function() {
 			jQuery(this).toggleText('Ocultar','Más info');
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
+			e.preventDefault();
 		});
 		jQuery('html').on('click',function(e) {
 			var expanded = e.target.closest('.expanded');
