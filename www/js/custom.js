@@ -244,7 +244,7 @@ jQuery(document).ready(function() {
 			e.preventDefault();
 		});
 		var zindex = 999;
-		jQuery('.box-buttons article').each(function(i) {
+		jQuery('.box-buttons article,.fusion-portfolio').each(function(i) {
 			zindex--;
 			jQuery(this).css('z-index',zindex);
 		});
