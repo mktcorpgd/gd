@@ -312,14 +312,10 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	if ( jQuery(window).width() > 920 ) {
-		jQuery('.more-info').on('click',function(e) {
-			console.log('ok');
-		});
-		jQuery('.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+		jQuery('.box-buttons .more-info,.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
-			return false;
 		});
 		var zindex = 999;
 		jQuery('.box-buttons article,.fusion-portfolio').each(function(i) {
