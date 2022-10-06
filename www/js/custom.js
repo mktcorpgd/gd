@@ -343,12 +343,13 @@ jQuery(document).ready(function() {
 			}
 			e.preventDefault();
 		});
-		/*jQuery('html').on('click',function(e) {
+		jQuery('html').on('click',function(e) {
 			var expanded = e.target.closest('.expanded');
+			console.log(expanded);
 			if (!expanded) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 			}
-		});*/
+		});
 		jQuery(document).on('keydown',function(e) {
 			if ( e.key == 'Escape' ) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
