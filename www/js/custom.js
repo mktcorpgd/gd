@@ -239,7 +239,7 @@ jQuery(document).ready(function() {
 			e.preventDefault();
 			return false;
 		});
-		jQuery('.box-buttons .more-info,.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+		jQuery('.box-buttons article .more-info,.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
