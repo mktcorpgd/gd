@@ -129,12 +129,14 @@ function scrollHeaderTransp() {
 
 jQuery(document).ready(function() {
 
+
 	// Si es una landing:
 	if ( jQuery('.fusion-fullwidth.landing').length ) {
 		jQuery('.fusion-wrapper').addClass('landing');
 		jQuery('.fusion-main-menu-search,.fusion-icon-search,.fusion-footer-widget-area').hide();
 		jQuery('.fusion-footer-widget-area.fusion-widget-area').css('padding-top','0!important');
 	}
+
 
 	// Con bandera:
 	if ( jQuery('.fusion-fullwidth.country-flag').length ) {
@@ -157,6 +159,7 @@ jQuery(document).ready(function() {
 
 	// GENERAL - Guardar código de idioma
 	var lang = jQuery('html').attr('lang').substring(0,2);
+
 
 	// MENÚ - Si tiene la clase: convertir en transparente el fondo del header
 	if ( jQuery('.post-content .header-transparent').length ) {
@@ -185,6 +188,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.no-header-logo').length ) {
 		jQuery('#wrapper').addClass('no-header-logo');
 	}
+
 
 	// CONTENIDOS - Abrir en una nueva pestaña
 	jQuery(document).on('click','body.site-id-26 #prensa .fusion-post-content.post-content>h2>a,body.site-id-26 #prensa span.meta-tags a',function(e) {
@@ -269,14 +273,15 @@ jQuery(document).ready(function() {
 		});
 	}
 
-	
+
 	// CONTENIDOS - Categorías de países como banderas
 	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
 		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
 			jQuery(this).empty();
 		});
 	}
-	
+
+
 	// CONTENIDOS - Animar scroll según "hidden_link" elegido
 	jQuery(document).on('click','.hidden_link,.gotolink a',function(e) {
 		var link_id = jQuery(this).attr('href');
@@ -300,15 +305,18 @@ jQuery(document).ready(function() {
 		}
 	});
 
+
 	// CONTENIDOS - Convertir a dropcap primer párrafo de nota
 	if ( jQuery('body').hasClass('single-format-standard') ) {
 		jQuery('span[id^=more]').remove();
 	}
-	
+
+
 	// CONTENIDOS - Eliminar atributos title de las imágenes
 	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
 	jQuery('#content img[title]').each(function(i){jQuery(this).removeAttr('title');});
 	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
+
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	var btn_info;
@@ -391,9 +399,11 @@ jQuery(document).ready(function() {
 		jQuery('#legales .last_day').text(lastday);
 	}
 
+
 	// CONTENIDOS - Ocultar párrafos con espacios en blanco
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
+
 
 	// CONTENIDOS - Mostrar preview
 	if ( jQuery('body.single-format-link').length ) {
@@ -424,6 +434,7 @@ jQuery(document).ready(function() {
 		}
 	}
 
+
 	// FORMULARIOS - Si existe: asignar nuevo responsable
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
@@ -435,6 +446,7 @@ jQuery(document).ready(function() {
 		ctry_url = urlParams.get('ctry');
 		jQuery('input[name="RESP"]').val(ctry_url+'@grupodatco.com');
 	}	
+
 
 	// FORMULARIOS - Si existe: asignar copiar oculta
 	if ( jQuery('#RESP_BCC').length ) {
