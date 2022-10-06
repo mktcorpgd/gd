@@ -253,7 +253,7 @@ jQuery(document).ready(function() {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 			}
 		});
-		var zindex = 100;
+		var zindex = 999;
 		jQuery('.box-buttons article').each(function(i) {
 			zindex--;
 			jQuery(this).css('z-index',zindex);
