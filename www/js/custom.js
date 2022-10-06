@@ -329,8 +329,7 @@ jQuery(document).ready(function() {
 		});
 		jQuery('html').on('click',function(e) {
 			var expanded = e.target.closest('.expanded');
-			console.log(expanded);
-			if (expanded) {
+			if (!expanded) {
 				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 			}
 		});
