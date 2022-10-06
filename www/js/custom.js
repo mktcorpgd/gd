@@ -326,11 +326,6 @@ jQuery(document).ready(function() {
 		btn_hide = 'Ocultar';
 	}
 	if ( jQuery(window).width() > 920 ) {
-		jQuery.fn.extend({
-			toggleText: function(a, b){
-				return this.text(this.text() == b ? a : b);
-			}
-		});
 		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
