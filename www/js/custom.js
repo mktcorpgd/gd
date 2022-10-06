@@ -318,12 +318,15 @@ jQuery(document).ready(function() {
 			}
 		});
 		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+			var btn_info = jQuery(this).closest('.more-info').text();
+			jQuery(this).closest('.more-info').toggleText('Ocultar',btn_info);
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
 		});
 		jQuery('.box-buttons .more-info').on('click',function(e) {
-			jQuery(this).toggleText('Ocultar','Más info');
+			var btn_info = jQuery(this).text();
+			jQuery(this).toggleText('Ocultar',btn_info);
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
