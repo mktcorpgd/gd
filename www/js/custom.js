@@ -313,6 +313,13 @@ jQuery(document).ready(function() {
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	if ( jQuery(window).width() > 920 ) {
 		jQuery('.box-buttons .more-info,.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+			var btn_info = jQuery(this).text();
+			if ( jQuery(e.target).is('.more-info') && jQuery(this).closest('article').hasClass('expanded') ) {
+				jQuery(this).text('Ocultar');
+			}
+			else {
+				jQuery(this).text(btn_info);
+			}
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
