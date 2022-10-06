@@ -265,7 +265,7 @@ jQuery(document).ready(function() {
 				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left"';
 				modal = ' data-toggle="modal" data-target=".fusion-modal.contacto-rapido"';
 			}
-			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-chevron-down"></i>'+btn_info+'</a><div class="fusion-buttons"><a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
+			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"<i class="fa-solid fa-angle-down"></i><span>'+btn_info+'</span></a><div class="fusion-buttons"><a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
 		});
 	}
 
@@ -327,10 +327,10 @@ jQuery(document).ready(function() {
 			jQuery('.box-buttons article').toggleClass('opacity');
 			jQuery(this).toggleClass('open');
 			if ( jQuery(this).hasClass('open') ) {
-				jQuery(this).text('Ocultar');
+				jQuery(this).find('span').text('Ocultar');
 			}
 			else {
-				jQuery(this).text('Más info');
+				jQuery(this).find('span').text('Más info');
 			}
 			e.preventDefault();
 		});
