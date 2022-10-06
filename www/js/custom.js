@@ -235,10 +235,6 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
 	if ( jQuery(window).width() > 920 ) {
-		jQuery('.box-buttons .fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
-			e.preventDefault();
-			return false;
-		});
 		jQuery('.more-info').on('click',function(e) {
 			console.log('ok');
 		});
@@ -246,12 +242,6 @@ jQuery(document).ready(function() {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.box-buttons article').toggleClass('opacity');
 			e.preventDefault();
-		});
-		jQuery('html').on('click',function(e) {
-			const expanded = e.target.closest('.expanded');
-			if (expanded) {
-				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
-			}
 		});
 		var zindex = 999;
 		jQuery('.box-buttons article').each(function(i) {
