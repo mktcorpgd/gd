@@ -385,6 +385,14 @@ jQuery(document).ready(function() {
 				if ( checkbox_name == 'NOW[]' ) {
 					jQuery('input[name='+inputtext_name+']').val('Inmediata');
 				}
+				else if ( checkbox_name == 'OFFICENOT[]' ) {
+					jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
+					if ( jQuery(window).width() < 960 ) {
+						jQuery('html,body').animate({scrollTop:jQuery('.step3:first').offset().top-100},'fast','linear',function(){
+							jQuery('.step3:first').focus();
+						});
+					}
+				}
 				else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
 					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name='+inputtext_name+'PLACE]').val('—').attr('readonly',true);

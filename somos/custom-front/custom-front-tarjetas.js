@@ -110,6 +110,7 @@ jQuery(document).ready(function() {
 
 	// 2. Habilitar el resto después de seleccionar oficina
 	jQuery('.wpcf7 select[name=OFFICE]').change(function(){
+		jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('html,body').animate({scrollTop:jQuery('.step3:first').offset().top-100},'fast','linear',function(){
 				jQuery('.step3:first').focus();
@@ -155,7 +156,6 @@ jQuery(document).ready(function() {
 		}
 		jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
 		jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
-		jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
 	});
 
 
