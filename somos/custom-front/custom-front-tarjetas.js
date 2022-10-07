@@ -111,50 +111,53 @@ jQuery(document).ready(function() {
 	// 2. Habilitar el resto después de seleccionar oficina
 	jQuery('.wpcf7 select[name=OFFICE]').change(function(){
 		var this_value = jQuery(this).val();
+		console.log(this_value);
 		var ctry = this_value.substring(0,2).toLowerCase();
-		var office = RemoveAccents(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
-		var ctry_office = ctry+'_'+office;
-		if ( ctry_office == 'cl_santiago' ) {
-			jQuery('input[name=CTRYMAIL]').val('cristian.silva@datco.cl')
-		}
-		else {
-			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
-		}
-		if ( ctry_office == 'ar_caba - catulo castillo' || ctry_office == 'ar_caba - san martin' || ctry_office == 'ar_interior - bariloche' ) {
-			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('hidden').addClass('visible');
-			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('three columns3').addClass('four columns4');
-			if ( ctry_office == 'ar_interior - bariloche' ) {
-				jQuery('input[name=FLOOR]').val(2);
+		if ( this_value != '—' ) {
+			var office = RemoveAccents(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
+			var ctry_office = ctry+'_'+office;
+			if ( ctry_office == 'cl_santiago' ) {
+				jQuery('input[name=CTRYMAIL]').val('cristian.silva@datco.cl')
 			}
-		}
-		else {
-			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('visible').addClass('hidden');
-			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('four columns4').addClass('three columns3');
-		}
-		jQuery('input[name=PHONE]').val(tp_phone[ctry_office]);
-		jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
-		jQuery('.wpcf7>form>div:nth-child(5)').addClass('three').removeClass('one');
-		jQuery('.tp.digital h5,.tp.digital li:nth-child(1),.wpcf7>form>div:nth-child(5)+div+div,.wpcf7>form>div:nth-child(5)+div+div+div').removeClass('hidden').addClass('visible');
-		jQuery('input[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi, ';'));
-		jQuery('.tpdata.address').html(tp_address[ctry_office]);
-		var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
-		var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
-		if ( ctry_office.indexOf('ar') != -1 || ctry_office.indexOf('cl') != -1 ) {
-			var mobile_phone_cod = mobile_phone_cod_ctry+' 9 '+mobile_phone_cod_loc+' ';
-		}
-		else if ( ctry_office.indexOf('mx') != -1 ) {
-			var mobile_phone_cod = mobile_phone_cod_ctry+' 1 ';
-		}
-		else {
-			var mobile_phone_cod = mobile_phone_cod_ctry+' ';
-		}
-		jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
-		jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
-		jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
-		if ( jQuery(window).width() < 960 ) {
-			jQuery('html,body').animate({scrollTop:jQuery('.step3:first').offset().top-100},'fast','linear',function(){
-				jQuery('.step3:first').focus();
-			});
+			else {
+				jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
+			}
+			if ( ctry_office == 'ar_caba - catulo castillo' || ctry_office == 'ar_caba - san martin' || ctry_office == 'ar_interior - bariloche' ) {
+				jQuery('.wpcf7>form>div:nth-child(6)').removeClass('hidden').addClass('visible');
+				jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('three columns3').addClass('four columns4');
+				if ( ctry_office == 'ar_interior - bariloche' ) {
+					jQuery('input[name=FLOOR]').val(2);
+				}
+			}
+			else {
+				jQuery('.wpcf7>form>div:nth-child(6)').removeClass('visible').addClass('hidden');
+				jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('four columns4').addClass('three columns3');
+			}
+			jQuery('input[name=PHONE]').val(tp_phone[ctry_office]);
+			jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
+			jQuery('.wpcf7>form>div:nth-child(5)').addClass('three').removeClass('one');
+			jQuery('.tp.digital h5,.tp.digital li:nth-child(1),.wpcf7>form>div:nth-child(5)+div+div,.wpcf7>form>div:nth-child(5)+div+div+div').removeClass('hidden').addClass('visible');
+			jQuery('input[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi, ';'));
+			jQuery('.tpdata.address').html(tp_address[ctry_office]);
+			var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
+			var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
+			if ( ctry_office.indexOf('ar') != -1 || ctry_office.indexOf('cl') != -1 ) {
+				var mobile_phone_cod = mobile_phone_cod_ctry+' 9 '+mobile_phone_cod_loc+' ';
+			}
+			else if ( ctry_office.indexOf('mx') != -1 ) {
+				var mobile_phone_cod = mobile_phone_cod_ctry+' 1 ';
+			}
+			else {
+				var mobile_phone_cod = mobile_phone_cod_ctry+' ';
+			}
+			jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
+			jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
+			jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
+			if ( jQuery(window).width() < 960 ) {
+				jQuery('html,body').animate({scrollTop:jQuery('.step3:first').offset().top-100},'fast','linear',function(){
+					jQuery('.step3:first').focus();
+				});
+			}
 		}
 	});
 
