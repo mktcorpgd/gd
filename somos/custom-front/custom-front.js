@@ -365,6 +365,10 @@ jQuery(document).ready(function() {
 	jQuery('.autocompleteoff').attr('autocomplete','off');
 
 
+	// FORMULARIOS - Habilitar sólo lectura
+	jQuery('.walcf7-datetimepicker').attr('readonly','readonly');
+
+	
 	// FORMULARIOS - Deshabilitar scroll wheel
 	jQuery('form').on('focus','input[type=number]',function(e) {
 		jQuery(this).on('wheel.disableScroll',function(e) {
