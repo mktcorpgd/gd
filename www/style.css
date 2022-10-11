@@ -964,7 +964,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .box-buttons article .fusion-post-content .wp-video{margin:.5em 0}
 .box-buttons article .fusion-post-content{width:100%;padding:0 1rem}
 .box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-.box-buttons article .fusion-post-content p{line-height:1.4;padding-bottom:0!important}
+.box-buttons article .fusion-post-content p{line-height:1.4;padding:0}
 .box-buttons article .fusion-post-content ul{margin-top:5px}
 
 /* Paginación */
@@ -1156,7 +1156,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 
 /* Mobile */
 @media (max-width:920px) {
-	#wp-admin-bar-customize,#wp-admin-bar-comments,#wp-admin-bar-avada,.fusion-mobile-nav-item a:before,.fusion-mobile-nav-item .fusion-caret,.button-xlarge i,.fusion-mobile-nav-holder>ul>li.is-landing a i,.button-icon-divider-left,.fusion-portfolio .fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left),div.fusion-text>p>i,.toggle-content p>i,#wrapper.header-transparent .fusion-header.on-top li[data-classes*='social-link'] a[href='#inicio'],.fusion-body .fusion-footer-copyright-center .fusion-copyright-notice>div>p span,.fusion-contact-info,.mobile-hidden{display:none!important}
+	#wp-admin-bar-customize,#wp-admin-bar-comments,#wp-admin-bar-avada,.fusion-mobile-nav-item a:before,.fusion-mobile-nav-item .fusion-caret,.button-xlarge i,.fusion-mobile-nav-holder>ul>li.is-landing a i,.button-icon-divider-left,.fusion-portfolio .fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left),div.fusion-text>p>i,.toggle-content p>i,#wrapper.header-transparent .fusion-header.on-top li[data-classes*='social-link'] a[href='#inicio'],.fusion-body .fusion-footer-copyright-center .fusion-copyright-notice>div>p span,.fusion-contact-info,.mobile-hidden,.more-info{display:none!important}
 	body{font-size:18px;line-height:1.6}
 	#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']),#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .background-image,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .mobile_video_image,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .background,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .flexslider,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .flexslider .slides li,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .mobile_video_image{max-height:120vh!important;height:120vh!important}
 	.fullwidth-center a{padding-left:0!important}
@@ -1199,10 +1199,8 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.tfs-slider .slide-content-container{padding-top:40px;padding-left:20px!important;padding-right:20px!important}
 	body.single article>.flexslider{margin-left:-20px;margin-right:-20px;max-width:none!important;border-radius:0}
 	.fusion-fullwidth-center-content{height:100%!important}
-	.fusion-button.button-flat,.wpcf7 input[type='submit']{border-radius:12px!important}
 	.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
 	.fusion-portfolio .fusion-post-content{padding-bottom:0}
-	.fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,body.search .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a{padding:20px 20px 5px!important}
 	.post .fusion-post-title-meta-wrap .fusion-meta-info{margin-top:inherit;margin:0 -20px;padding:0 20px 10px}
 	.fusion-blog-layout-grid .fusion-post-content-container p,.fusion-portfolio-grid .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{padding:0 20px 10px}
 	.box-company{padding:20px 0!important}
