@@ -201,45 +201,45 @@ jQuery(document).ready(function() {
 	// BOTONES - Agregar botones en cajas para categorías
 	if ( jQuery('.fusion-portfolio').length ) {
 		var btn_info;
-		var modal_btn_left_lang;
-		var modal_btn_right_lang;
+		var btn_left;
+		var btn_right
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var link_post = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
 			if ( lang == 'es' ) {
 				btn_info = 'Más info';
-				modal_btn_left_lang = 'Conocer más';
+				btn_left = 'Conocer más';
 				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					modal_btn_right_lang = 'Prueba gratuita';
+					btn_right = 'Prueba gratuita';
 				}
 				else if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
-					modal_btn_right_lang = 'Contactar';
+					btn_right = 'Ver datasheet';
 				}
 				else {
-					modal_btn_right_lang = 'Contactar';
+					btn_right = 'Contactar';
 				}
 			}
 			else if ( lang == 'en' ) {
 				btn_info = 'More info';
-				modal_btn_left_lang = 'Learn more';
+				btn_left = 'Learn more';
 				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					modal_btn_right_lang = 'Free trial';
+					btn_right = 'Free trial';
 				}
 				else {
-					modal_btn_right_lang = 'Contact';
+					btn_right = 'Contact';
 				}
 			}
 			else if ( lang == 'pt' ) {
 				btn_info = 'Mais info';
-				modal_btn_left_lang = 'Saber mais';
+				btn_left = 'Saber mais';
 				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					modal_btn_right_lang = 'Teste grátis';
+					btn_right = 'Teste grátis';
 				}
 				else {
-					modal_btn_right_lang = 'Contato';
+					btn_right = 'Contato';
 				}
 			}
 			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') && (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) ) {
-				modal_btn_left_lang = 'Ver datasheet';
+				btn_left = 'Ver datasheet';
 				var link_id = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
 				link_id = link_id.substring(link_id.indexOf('servicio/')+9,link_id.length-1);
 				jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('id',link_id);
@@ -259,17 +259,16 @@ jQuery(document).ready(function() {
 					'target': link_target
 				});
 			}
-			var classes_button;
-			var modal;
+			var classes_button = 'fusion-button button-flat fusion-button-round button-large button-default';
+			var modal = ' data-toggle="modal" data-target=".fusion-modal';
 			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left fusion-modal-text-link';
-				modal = ' data-toggle="modal" data-target=".fusion-modal.demo"';
+				classes_button += ' fusion-modal-text-link';
+				modal += ' .demo"';
 			}
 			else {
-				classes_button = 'fusion-button button-flat fusion-button-round button-large button-default button-left"';
-				modal = ' data-toggle="modal" data-target=".fusion-modal.contacto-rapido"';
+				modal += ' .contacto-rapido"';
 			}
-			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a><div class="fusion-buttons"><a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+modal_btn_left_lang+'</span></a><a class="fusion-button button-flat fusion-button-round button-large button-default button-right fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+modal_btn_right_lang+'</span></a></div>');
+			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a><div class="fusion-buttons"><a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+btn_left+'</span></a><a class="'+classes_button+' fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+btn_right+'</span></a></div>');
 		});
 	}
 
