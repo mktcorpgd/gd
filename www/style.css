@@ -584,7 +584,7 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .tfs-slider .slide-content-container .heading{margin:0}
 .tfs-slider .slide-content-container .buttons{margin-top:1.5em}
 .tfs-slider .slide-content-container .caption{margin-bottom:10px}
-.main-flex .flex-next, .main-flex .flex-prev, .wooslider .wooslider-next, .wooslider .wooslider-prev{background:none}
+.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev{background:none}
 .flex-next,.flex-prev{font-size:2.4em}
 .flex-next:hover,.flex-prev:hover{text-decoration:none;color:#FFFFFF}
 .flex-control-paging li a{background:rgba(0,0,0,.4);box-shadow:none}
@@ -640,7 +640,8 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 /* Videos */
 .wp-video{margin:30px 0;width:100%!important;border:none;overflow:hidden}
 .wp-video-shortcode.mejs-video{border-radius:12px;overflow:hidden}
-.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body{background:rgba(0,0,0,.4)}
+.mejs-container,.mejs-container .mejs-controls,.mejs-embed,.mejs-embed body{background:rgba(0,0,0,.4)}
+.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,.mejs-controls .mejs-time-rail span{border-radius:6px;overflow:hidden}
 .wp-video-shortcode{max-width:none!important}
 
 /* Blog/Portfolio */
@@ -659,7 +660,7 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{padding:0 0 8px!important}
 .fusion-title-size-two+.fusion-blog-layout-grid-wrapper .fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a{padding:20px 24px!important}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{background:#FFFFFF;box-shadow:0 4px 24px  0 rgba(0,0,0,.2);border:none!important;position:relative;z-index:10;overflow:hidden}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper, .fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{border-radius:12px}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{border-radius:12px}
 .fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{width:100%;display:inline-block}
 .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a,.fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{padding:.8rem 1rem 0}
 .fusion-blog-layout-grid .fusion-image-wrapper,.fusion-blog-layout-grid .fusion-image-wrapper img,.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper img,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper img{position:relative}
@@ -914,7 +915,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-body .fusion-carousel .fusion-carousel-nav .fusion-nav-prev:before{right:1px}
 .fusion-body .fusion-carousel .fusion-carousel-nav .fusion-nav-next:before{right:-1px}
 .fusion-carousel .fusion-carousel-nav .fusion-nav-next,.fusion-carousel .fusion-carousel-nav .fusion-nav-prev{transition:all .1s ease-in-out;margin-top:-20px!important;padding:.3em .6em;background:rgba(0,0,0,.4);color:#FFFFFF;font-size:2em;line-height:1}
-.fusion-carousel .fusion-carousel-nav .fusion-nav-next:hover, .fusion-carousel .fusion-carousel-nav .fusion-nav-prev:hover{background:rgba(0,0,0,.6)}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-next:hover,.fusion-carousel .fusion-carousel-nav .fusion-nav-prev:hover{background:rgba(0,0,0,.6)}
 .outside-arrows .fusion-carousel .fusion-carousel-nav button{margin-left:0!important;margin-right:0!important;padding:0;background:none!important}
 .outside-arrows .fusion-carousel .fusion-carousel-nav button:before{color:rgba(0,0,0,.4)}
 .outside-arrows .fusion-carousel .fusion-carousel-nav button:before:hover{color:rgba(0,0,0,.8)}
@@ -1311,7 +1312,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text select{text-align:left}
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text .wpcf7-not-valid-tip{float:left}
 	.wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.widget select,.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea{font-size:18px!important}
-	.full-boxed-pricing .column, .sep-boxed-pricing .column{margin-bottom:30px}
+	.full-boxed-pricing .column,.sep-boxed-pricing .column{margin-bottom:30px}
 	.fusion-pricing-table .panel-.price .currency{top:-24px}
 	.fusion-mobile-nav-holder>ul{border:0!important;overflow-y:auto}
 	.fusion-mobile-nav-item.partner>a,.fusion-mobile-nav-item.button-header>a,.fusion-mobile-nav-item.button-header-no-borders>a,.fusion-mobile-nav-item.light-weight>a,.fusion-mobile-nav-item.fusion-modal-text-link-button>a{text-align:center}
