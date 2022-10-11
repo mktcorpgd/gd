@@ -263,10 +263,10 @@ jQuery(document).ready(function() {
 			var modal = ' data-toggle="modal" data-target=".fusion-modal';
 			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
 				classes_button += ' fusion-modal-text-link';
-				modal += ' .demo"';
+				modal += '.demo"';
 			}
 			else {
-				modal += ' .contacto-rapido"';
+				modal += '.contacto-rapido"';
 			}
 			var html_buttons;
 			var btn_q;
