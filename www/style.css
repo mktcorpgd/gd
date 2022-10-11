@@ -959,8 +959,14 @@ body.home .tab-filters .tab-pane{background:none!important}
 .page-text{letter-spacing:1px;position:relative;text-transform:uppercase}
 .fusion-tabs .nav-tabs li a:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
-.box-buttons .fusion-post-content p{line-height:1.4;}
-.box-buttons .fusion-post-content ul{margin-top:5px}
+.box-buttons article .fusion-post-content p{line-height:1.4;}
+.box-buttons article .fusion-post-content ul{margin-top:5px}
+.box-buttons article .fusion-post-content .fusion-fullwidth{padding:0;opacity:1}
+.box-buttons article .fusion-post-content .fusion-flex-column{margin:0}
+.box-buttons article .fusion-post-content .wp-video{margin:.5em 0}
+.box-buttons article .fusion-post-content{width:100%;padding:0 1rem}
+.box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
+.box-buttons article .fusion-post-content p{padding-bottom:0!important}
 
 /* Paginación */
 .pagination{margin:20px 0 0!important;width:100%;text-align:center}
@@ -1141,17 +1147,11 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons article:not(.expanded) .fusion-post-content{height:0;overflow:hidden}
 	.box-buttons article:not(.expanded) .fusion-post-content *{opacity:0}
 	.box-buttons article.expanded .fusion-post-content,.box-buttons article.expanded .fusion-col-spacing{height:auto!important}
-	.box-buttons article.expanded .fusion-post-content .fusion-fullwidth{padding:0;opacity:1}
-	.box-buttons article.expanded .fusion-post-content .fusion-flex-column{margin:0}
-	.box-buttons article.expanded .fusion-post-content .wp-video{margin:.5em 0}
-	.box-buttons article .fusion-post-content{width:100%;padding:0 1rem}
-	.box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
 	.box-buttons article .more-info{float:left;width:100%;padding:0 1rem;cursor:pointer;font-family:'Open-Sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
 	.box-buttons article .more-info.open{font-size:.85em}
 	.box-buttons article .more-info.open i{position:relative;top:-2px;transition:all .2s ease-in-out;transform:rotate(180deg)}
 	.box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;padding-bottom:1em}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.85em!important}
-	.box-buttons .fusion-post-content p{padding-bottom:0!important}
 	.tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{font-size:1.2em!important}
 }
 
