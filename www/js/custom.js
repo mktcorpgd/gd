@@ -269,11 +269,13 @@ jQuery(document).ready(function() {
 				modal += ' .contacto-rapido"';
 			}
 			var html_buttons;
+			var btn_q;
 			if ( !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto') ) {
 				html_buttons = '<a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+btn_left+'</span></a>';
+				var btn_q = 'two';
 			}
 			html_buttons += '<a class="'+classes_button+' fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+btn_right+'</span></a>';
-			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a><div class="fusion-buttons">'+html_buttons+'</div>');
+			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a><div class="fusion-buttons '+btn_q+'">'+html_buttons+'</div>');
 		});
 	}
 
