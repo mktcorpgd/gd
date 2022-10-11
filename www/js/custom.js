@@ -382,9 +382,8 @@ jQuery(document).ready(function() {
 				jQuery('.more-info span').text(btn_info);
 			}
 		});
-	 
 		var zindex = 999;
-		jQuery('.box-buttons article,.fusion-portfolio').each(function(i) {
+		jQuery('.box-buttons article').each(function(i) {
 			zindex--;
 			jQuery(this).css('z-index',zindex);
 		});
