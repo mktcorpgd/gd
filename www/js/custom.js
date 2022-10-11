@@ -383,7 +383,7 @@ jQuery(document).ready(function() {
 			}
 		});
 		var zindex = 999;
-		jQuery('.box-buttons article').each(function(i) {
+		jQuery('.fusion-fullwidth.box-buttons,.box-buttons article').each(function(i) {
 			zindex--;
 			jQuery(this).css('z-index',zindex);
 		});
