@@ -733,7 +733,7 @@ input.pdfemb-page-num{border-radius:6px;color:#333333}
 /* Portfolio */
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.26em!important}
 .fusion-portfolio .fusion-post-content{float:left}
-.fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:.3em;padding-left:1em;padding-bottom:.6em;z-index:10}
+.fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:.3em;padding-left:1rem;padding-bottom:.6em;z-index:10}
 .fusion-portfolio-content .fusion-button,.fusion-buttons .fusion-button{white-space:nowrap;font-size:1.1em!important;font-family:'Open-Sans',sans-serif}
 .fusion-buttons .fusion-button.button-right{margin-left:.4em}
 article.c-solo-contacto .fusion-buttons .fusion-button.button-right{margin-left:0}
@@ -742,7 +742,6 @@ article.c-solo-contacto .fusion-buttons .fusion-button.button-right{margin-left:
 .fusion-button.no-text i{margin:0!important}
 .fusion-two-third .fusion-portfolio.fusion-portfolio-three .fusion-portfolio-content .fusion-buttons{position:relative}
 .fusion-two-third .fusion-portfolio.fusion-portfolio-three .fusion-post-content{padding-bottom:0}
-.fusion-two-third .fusion-portfolio.fusion-portfolio-three .fusion-buttons .fusion-button{padding-left:20px!important;border-top-left-radius:0!important;border-bottom-left-radius:0!important}
 
 /* Checklist */
 .fusion-checklist.two-cols,ul.fusion-checklist.two-cols{display:grid;grid-template-columns:45% 45%;grid-column-gap:5%}
@@ -1153,7 +1152,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.box-buttons article.expanded .fusion-post-content .wp-video{margin:.5em 0}
 	.box-buttons article .fusion-post-content{width:100%;padding:0 1rem}
 	.box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-	.box-buttons article .more-info{float:left;width:100%;padding-left:1em;cursor:pointer;font-family:'Open-Sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
+	.box-buttons article .more-info{float:left;width:100%;padding:0 1rem;cursor:pointer;font-family:'Open-Sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
 	.box-buttons article .more-info.open{font-size:.85em}
 	.box-buttons article .more-info.open i{position:relative;top:-2px;transition:all .2s ease-in-out;transform:rotate(180deg)}
 	.box-buttons .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;padding-bottom:1em}
