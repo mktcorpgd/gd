@@ -69,7 +69,7 @@ input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,in
 .wp-core-ui .button,.wp-core-ui .button-secondary{color:#F0582B;background:#FAFAFA}
 .wp-core-ui .button-secondary:focus,.wp-core-ui .button-secondary:hover,.wp-core-ui .button.focus,.wp-core-ui .button.hover,.wp-core-ui .button:focus,.wp-core-ui .button:hover{background:rgba(0,0,0,.025);border-color:#1F4483;color:#1F4483}
 .wp-core-ui .button-primary:focus,.wp-core-ui .button-primary:hover{background:#1F4483!important}
-.wp-core-ui .button-primary{font-size:1.2em;border-radius:12px;color:#FFFFFF!important;background:#F0582B}
+.wp-core-ui .button-primary{border-radius:12px;color:#FFFFFF!important;background:#F0582B}
 .supsystic-plugin .button-primary,.ui-dialog .button.button-hero{background:#F0582B!important}
 .supsystic-plugin .button:hover,.supsystic-plugin .button-primary:hover{background:#1F4483!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important}
