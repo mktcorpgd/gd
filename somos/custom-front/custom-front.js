@@ -366,9 +366,9 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Habilitar sólo lectura
-	jQuery('.walcf7-datetimepicker').attr('readonly','readonly');
+	jQuery('input[class^=walcf7]').attr('readonly','readonly');
 
-	
+
 	// FORMULARIOS - Deshabilitar scroll wheel
 	jQuery('form').on('focus','input[type=number]',function(e) {
 		jQuery(this).on('wheel.disableScroll',function(e) {
