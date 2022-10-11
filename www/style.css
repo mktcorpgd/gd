@@ -959,14 +959,13 @@ body.home .tab-filters .tab-pane{background:none!important}
 .page-text{letter-spacing:1px;position:relative;text-transform:uppercase}
 .fusion-tabs .nav-tabs li a:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
-.box-buttons article .fusion-post-content p{line-height:1.4;}
-.box-buttons article .fusion-post-content ul{margin-top:5px}
 .box-buttons article .fusion-post-content .fusion-fullwidth{padding:0;opacity:1}
 .box-buttons article .fusion-post-content .fusion-flex-column{margin:0}
 .box-buttons article .fusion-post-content .wp-video{margin:.5em 0}
 .box-buttons article .fusion-post-content{width:100%;padding:0 1rem}
 .box-buttons article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-.box-buttons article .fusion-post-content p{padding-bottom:0!important}
+.box-buttons article .fusion-post-content p{line-height:1.4;padding-bottom:0!important}
+.box-buttons article .fusion-post-content ul{margin-top:5px}
 
 /* Paginación */
 .pagination{margin:20px 0 0!important;width:100%;text-align:center}
