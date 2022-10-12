@@ -50,7 +50,7 @@ jQuery(document).ready(function() {
 	tp_phone['ar_interior - mar del plata'] = '+54 (223) 471-5073';
 	tp_address['ar_interior - mendoza'] = 'Gral. Paz 586 (M5502BKW)<br />Piso PB, Local 1<br />Mendoza<br />Argentina';
 	tp_phone['ar_interior - mendoza'] = '+54 (261) 429-5886';
-	tp_address['ar_interior - misiones'] = 'Acevedo 3242 (N3300HKQ)<br />Posadas<br />Misiones<br />Argentina';
+	tp_address['ar_interior - misiones'] = 'Acevedo 3241 (N3300HKQ)<br />Posadas<br />Misiones<br />Argentina';
 	tp_phone['ar_interior - misiones'] = '';
 	tp_address['ar_interior - neuquen'] = 'Juan Larrea 595 (Q8300JVD)<br />Neuquén<br />Argentina';
 	tp_phone['ar_interior - neuquen'] = '+54 (299) 525-9119';
