@@ -932,10 +932,10 @@ body.single-avada_portfolio .related-posts .fusion-carousel-title-below-image .f
 .fusion-gallery .fusion-gallery-column .fusion-gallery-image{border-radius:12px}
 
 /* Tabs */
-.tab-filters .nav ul,.fusion-filters{margin-bottom:2em!important;line-height:1.3!important;border-radius:6px 6px 12px 12px;box-shadow:0 1px 0 2px rgba(0,0,0,.2)!important;overflow:hidden}
+.tab-filters .nav ul,.fusion-filters{margin-bottom:2em!important;line-height:1.3!important;border-radius:6px 6px 12px 12px;box-shadow:0 1px 0 2px rgba(0,0,0,.2)!important;border:none;overflow:hidden}
 .fusion-filter.fusion-active a{line-height:inherit}
 .tab-filters .nav li:hover,.fusion-filters li:hover{background:#FAFAFA}
-.tab-filters .nav li,.fusion-filters li{background:#CCCCCC;font-family:'Open-Sans',sans-serif;text-align:center}
+.tab-filters .nav li,.fusion-filters li{background:#EAEAEA;font-family:'Open-Sans',sans-serif;text-align:center}
 .tab-filters .nav li .fontawesome-icon{margin-right:5px!important}
 .tab-filters .nav li a,.fusion-filters li a{width:100%}
 .tab-filters .nav-tabs{margin-bottom:1em!important}
