@@ -629,7 +629,8 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .sc-button>i,.wpcf7 button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,
 .wpcf7 button.small,.wpcf7 button.medium,.wpcf7 button.large,.wpcf7 button.xlarge{padding:.4em .8em;line-height:1.2}
-.sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.4em .7em;font-size:.9em;font-weight:400!important;border-radius:6px!important}
+.sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.4em .7em;font-size:.9em;border-radius:6px!important}
+#content .sc-button.small{font-weight:500!important}
 .sc-button.medium,.wpcf7 button.medium{font-size:1.05em}
 .sc-button.large,.wpcf7 button.large{font-size:1.2em}
 .sc-button.xlarge,.wpcf7 button.xlarge{margin-bottom:1em;font-size:1.3em}
@@ -639,7 +640,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-.widget .sc-button.small{padding:.3em .6em}
+.widget .sc-button.small{padding:.3em .6em;font-weight:400!important}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
