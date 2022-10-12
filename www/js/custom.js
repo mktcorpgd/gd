@@ -339,11 +339,11 @@ jQuery(document).ready(function() {
 		btn_info = 'Mais info';
 		btn_hide = 'Ocultar';
 	}
-	jQuery('.box-buttons .fusion-buttons,.box-buttons .more-info').show();
+	jQuery('.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info').show();
 	if ( jQuery(window).width() > 920 ) {
 		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
-			jQuery('.box-buttons article').toggleClass('opacity');
+			jQuery('.fusion-portfolio article').toggleClass('opacity');
 			var $more_info = jQuery(this).closest('article').find('.more-info');
 			$more_info.toggleClass('open');
 			if ( $more_info.hasClass('open') ) {
@@ -354,9 +354,9 @@ jQuery(document).ready(function() {
 			}
 			e.preventDefault();
 		});
-		jQuery('.box-buttons .more-info').on('click',function(e) {
+		jQuery('.fusion-portfolio .more-info').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
-			jQuery('.box-buttons article').toggleClass('opacity');
+			jQuery('.fusion-portfolio article').toggleClass('opacity');
 			jQuery(this).toggleClass('open');
 			if ( jQuery(this).hasClass('open') ) {
 				jQuery(this).find('span').text(btn_hide);
@@ -370,20 +370,20 @@ jQuery(document).ready(function() {
 			var expanded = e.target.closest('.expanded');
 			console.log(expanded);
 			if (!expanded) {
-				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+				jQuery('.fusion-portfolio article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 				jQuery('.more-info').removeClass('open');
 				jQuery('.more-info span').text(btn_info);
 			}
 		});
 		jQuery(document).on('keydown',function(e) {
 			if ( e.key == 'Escape' ) {
-				jQuery('.box-buttons article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+				jQuery('.fusion-portfolio article').removeClass('visible').removeClass('expanded').removeClass('opacity');
 				jQuery('.more-info').removeClass('open');
 				jQuery('.more-info span').text(btn_info);
 			}
 		});
 		var zindex = 999;
-		jQuery('.fusion-fullwidth.box-buttons,.box-buttons article').each(function(i) {
+		jQuery('.fusion-portfolio,.fusion-portfolio article').each(function(i) {
 			zindex--;
 			jQuery(this).css('z-index',zindex);
 		});
