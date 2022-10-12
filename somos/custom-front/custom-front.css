@@ -409,6 +409,7 @@ h3.toggle i{display:table-cell;font-size:.9em;text-align:center}
 h3.toggle .fa-plus-square:before{content:'\f067'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
 h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B}
+#content h3.toggle{font-weight:400;font-size:1.1em;line-height:1}
 .widget h3.toggle{margin-bottom:0;font-size:1.1em;font-weight:400}
 .widget h3.toggle i{width:18px}
 .toggle-box{margin:5px 0 0;overflow:visible}
@@ -436,8 +437,6 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 .page-id-45931 h3.toggle>i.fa-minus-square+a:after,
 .page-id-44091 h3.toggle>i.fa-plus-square+a:after,
 .page-id-44091 h3.toggle>i.fa-minus-square+a:after{content:''}
-.page-id-45931 #content h3.toggle,
-.page-id-44091 #content h3.toggle{font-weight:400;font-size:1.1em;line-height:1}
 
 /* Buscadores */
 body>.is-search-form{margin:52px auto 1em;width:95%}
