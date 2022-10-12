@@ -476,7 +476,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
 #UseyourDrive .tippy-content .nav-sorting-list a:after,#UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
 #UseyourDrive .entry,#UseyourDrive .image-container,#UseyourDrive .nav-header{box-shadow:0 2px 8px rgba(0,0,0,.1)}
-#UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 2px 8px 0 rgba(240,88,43,.6);transform:translateY(-1px)}
+#UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 2px 8px 0 rgba(240,88,43,.6)}
 #UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0}
 #UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF;text-decoration:none}
 #UseyourDrive .nav-header,#UseyourDrive .selected-folder{background:#F6F6F6}
