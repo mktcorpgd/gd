@@ -448,6 +448,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 
 /* Drive */
 #UseyourDrive .ajax-filelist{height:auto;font-size:1em}
+#UseyourDrive .files .ajax-filelist{padding:0}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content,#UseyourDrive .folder{font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .nav-title{order:0;flex:10 0 0;padding-left:.4em;font-size:1rem}
@@ -460,7 +461,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-box,.UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 12px 24px 2px rgba(0,0,0,.4)}
 #UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.5em .6em;font-family:'Neo-Sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500}
-#UseyourDrive .files .entry{margin-bottom:.4em;border-radius:12px}
+#UseyourDrive .files .entry{margin:.4em 0;border-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:first-child{border-top-left-radius:12px;border-top-right-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:last-child{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
@@ -473,7 +474,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .hasfocus:not(.no-entries),#UseyourDrive .isdragged,#UseyourDrive .isselected,#UseyourDrive .popupopen{transform:scale(1)}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
 #UseyourDrive .tippy-content .nav-sorting-list a:after,#UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
-#UseyourDrive .entry,#UseyourDrive .image-container{box-shadow:0 2px 8px rgba(0,0,0,.1)}
+#UseyourDrive .entry,#UseyourDrive .image-container,#UseyourDrive .nav-header{box-shadow:0 2px 8px rgba(0,0,0,.1)}
 #UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 2px 8px 0 rgba(240,88,43,.6);transform:translateY(-1px)}
 #UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0}
 #UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF;text-decoration:none}
