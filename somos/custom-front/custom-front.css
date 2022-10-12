@@ -448,6 +448,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 
 /* Drive */
 #UseyourDrive{margin-bottom:1em}
+#UseyourDrive div{font-size:.8rem;font-weight:400}
 #UseyourDrive .ajax-filelist{height:auto;min-height:auto;font-size:1em}
 #UseyourDrive .files .ajax-filelist{padding:0}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
