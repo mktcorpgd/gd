@@ -473,8 +473,8 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .hasfocus:not(.no-entries),#UseyourDrive .isdragged,#UseyourDrive .isselected,#UseyourDrive .popupopen{transform:scale(1)}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
 #UseyourDrive .tippy-content .nav-sorting-list a:after,#UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
-#UseyourDrive .entry,#UseyourDrive .image-container{box-shadow:0 2px 6px rgba(0,0,0,.2)}
-#UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 2px 6px 0 #F0582B;transform:translateY(-1px)}
+#UseyourDrive .entry,#UseyourDrive .image-container{box-shadow:0 2px 8px rgba(0,0,0,.1)}
+#UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 2px 8px 0 rgba(240,88,43,.6);transform:translateY(-1px)}
 #UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0}
 #UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF;text-decoration:none}
 #UseyourDrive .nav-header,#UseyourDrive .selected-folder{background:#F6F6F6}
@@ -629,7 +629,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .sc-button>i,.wpcf7 button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,
 .wpcf7 button.small,.wpcf7 button.medium,.wpcf7 button.large,.wpcf7 button.xlarge{padding:.4em .8em;line-height:1.2}
-.sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.4em .7em;font-size:.9em;border-radius:6px!important}
+.sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.4em .7em;font-size:.9em;border-radius:8px!important}
 #content .sc-button.small{font-weight:500!important}
 .sc-button.medium,.wpcf7 button.medium{font-size:1.05em}
 .sc-button.large,.wpcf7 button.large{font-size:1.2em}
