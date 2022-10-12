@@ -464,8 +464,8 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500}
 #UseyourDrive .files .entry{margin:.4em 0;border-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
-#UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:first-child{border-top-left-radius:12px;border-top-right-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:last-child{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
+#UseyourDrive [data-layout=list] .entry,#UseyourDrive .nav-header{padding:0 .4em}
 #UseyourDrive .wpcp-thumb-view .folders-container{margin-bottom:5px}
 #UseyourDrive .entry-info,.UseyourDrive .entry-info{height:40px}
 #UseyourDrive .entry-info-icon,.UseyourDrive .entry-info-icon{top:-1px}
@@ -480,7 +480,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0}
 #UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF;text-decoration:none}
 #UseyourDrive .nav-header,#UseyourDrive .selected-folder{background:#F6F6F6}
-#UseyourDrive .nav-header{border:none;border-radius:12px}
+#UseyourDrive .nav-header{border:none;border-radius:6px}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400}
