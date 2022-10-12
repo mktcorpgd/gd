@@ -218,6 +218,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #content li.blocks-gallery-item{margin-left:0;margin-bottom:1em}
 #content .embed{margin:1em 0 2em;border:2px solid #CCCCCC}
 #post-content{float:left;margin-bottom:2em;line-height:1.3;overflow:visible}
+#post-content p{margin-bottom:1em}
 #post-content p a,#post-content li a{color:#F0582B}
 #post-content p a:hover,#post-content li a:hover{color:#1F4483}
 #post-content>h2{margin-top:0}
