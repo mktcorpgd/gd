@@ -40,11 +40,9 @@ jQuery(document).ready(function() {
 	tp_phone['ar_amba - parque empresarial austral'] = '+54';
 	tp_address['ar_interior - bahia blanca'] = 'España 41 (B8000JFA)<br />Bahía Blanca, Buenos Aires<br />Argentina';
 	tp_phone['ar_interior - bahia blanca'] = '+54 (291) 451-8376';
-	tp_address['ar_interior - bariloche'] = 'Rolando 560 (R8400XAC)<br />Piso 2<br />Bariloche, Río Negro<br />Argentina';
+	tp_address['ar_interior - bariloche'] = 'Bariloche, Río Negro<br />Argentina';
 	tp_phone['ar_interior - bariloche'] = '';
-	tp_address['ar_interior - comodoro rivadavia'] = 'España 541 (U9000CUC)<br />Comodoro Rivadavia, Chubut<br />Argentina';
-	tp_phone['ar_interior - comodoro rivadavia'] = '+54 (297) 424-4680';
-	tp_address['ar_interior - cordoba'] = 'Pedro Claveria 1769 (X5014XAA)<br />Córdoba<br />Argentina';
+	tp_address['ar_interior - cordoba'] = 'Pedro Claveria 1769 (X5014XAA)<br />Piso 1, Of. 111<br />Córdoba<br />Argentina';
 	tp_phone['ar_interior - cordoba'] = '+54 (351) 464-4495';
 	tp_address['ar_interior - mar del plata'] = 'Av. Constitución 5075 (B7605EYA)<br />PB, Oficina 106<br />Mar del Plata, Buenos Aires<br />Argentina';
 	tp_phone['ar_interior - mar del plata'] = '+54 (223) 471-5073';
@@ -56,8 +54,10 @@ jQuery(document).ready(function() {
 	tp_phone['ar_interior - neuquen'] = '+54 (299) 525-9119';
 	tp_address['ar_interior - rosario'] = 'Cochabamba 1019 (S2000DWE)<br />Rosario, Santa Fe<br />Argentina';
 	tp_phone['ar_interior - rosario'] = '+54 (341) 485-3803';
-	tp_address['ar_interior - san luis'] = '';
+	tp_address['ar_interior - san luis'] = 'San Luis, Argentina';
 	tp_phone['ar_interior - san luis'] = '';
+	tp_address['ar_interior - otra'] = 'Localidad, Provincia<br />Argentina';
+	tp_phone['ar_interior - otra'] = '';
 	tp_address['br_sao paulo'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
 	tp_phone['br_sao paulo'] = '+55 (19) 3037-1623';
 	tp_address['cl_santiago'] = 'Av. El Bosque Norte (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
