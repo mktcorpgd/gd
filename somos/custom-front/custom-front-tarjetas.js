@@ -143,7 +143,7 @@ jQuery(document).ready(function() {
 		if ( mobile_phone_cod_ctry.length > 0 ) {
 			var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
 			if ( ctry_office.indexOf('ar') != -1 || ctry_office.indexOf('cl') != -1 ) {
-				var mobile_phone_cod = mobile_phone_cod_ctry+' '+mobile_phone_cod_loc+' ';
+				var mobile_phone_cod = mobile_phone_cod_ctry+' 9 '+mobile_phone_cod_loc+' ';
 			}
 			else if ( ctry_office.indexOf('mx') != -1 ) {
 				var mobile_phone_cod = mobile_phone_cod_ctry+' 1 ';
