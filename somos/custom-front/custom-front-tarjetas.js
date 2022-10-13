@@ -57,7 +57,7 @@ jQuery(document).ready(function() {
 	tp_address['ar_interior - san luis'] = 'San Luis, Argentina';
 	tp_phone['ar_interior - san luis'] = '';
 	tp_address['ar_interior - otra'] = 'Localidad, Provincia<br />Argentina';
-	tp_phone['ar_interior - otra'] = '';
+	tp_phone['ar_interior - otra'] = '+54';
 	tp_address['br_sao paulo'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
 	tp_phone['br_sao paulo'] = '+55 (19) 3037-1623';
 	tp_address['cl_santiago'] = 'Av. El Bosque Norte (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
@@ -140,18 +140,20 @@ jQuery(document).ready(function() {
 		jQuery('input[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi, ';'));
 		jQuery('.tpdata.address').html(tp_address[ctry_office]);
 		var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
-		var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
-		if ( ctry_office.indexOf('ar') != -1 || ctry_office.indexOf('cl') != -1 ) {
-			var mobile_phone_cod = mobile_phone_cod_ctry+' '+mobile_phone_cod_loc+' ';
+		if ( mobile_phone_cod_ctry.length > 0 ) {
+			var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
+			if ( ctry_office.indexOf('ar') != -1 || ctry_office.indexOf('cl') != -1 ) {
+				var mobile_phone_cod = mobile_phone_cod_ctry+' '+mobile_phone_cod_loc+' ';
+			}
+			else if ( ctry_office.indexOf('mx') != -1 ) {
+				var mobile_phone_cod = mobile_phone_cod_ctry+' 1 ';
+			}
+			else {
+				var mobile_phone_cod = mobile_phone_cod_ctry+' ';
+			}
+			jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
+			jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
 		}
-		else if ( ctry_office.indexOf('mx') != -1 ) {
-			var mobile_phone_cod = mobile_phone_cod_ctry+' 1 ';
-		}
-		else {
-			var mobile_phone_cod = mobile_phone_cod_ctry+' ';
-		}
-		jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
-		jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
 		jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
 	});
 
