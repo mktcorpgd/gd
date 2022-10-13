@@ -125,12 +125,9 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
 		}
-		if ( ctry_office == 'ar_caba - catulo castillo' || ctry_office == 'ar_caba - san martin' || ctry_office == 'ar_interior - bariloche' ) {
+		if ( ctry_office == 'ar_caba - catulo castillo' || ctry_office == 'ar_caba - san martin' ) {
 			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('hidden').addClass('visible');
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('three columns3').addClass('four columns4');
-			if ( ctry_office == 'ar_interior - bariloche' ) {
-				jQuery('input[name=FLOOR]').val(2);
-			}
 		}
 		else {
 			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('visible').addClass('hidden');
@@ -144,8 +141,11 @@ jQuery(document).ready(function() {
 		jQuery('.tpdata.address').html(tp_address[ctry_office]);
 		var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
 		var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
+		if ( mobile_phone_cod_loc != '' ) {
+			mobile_phone_cod_loc += ' 9 '+mobile_phone_cod_loc;
+		}
 		if ( ctry_office.indexOf('ar') != -1 || ctry_office.indexOf('cl') != -1 ) {
-			var mobile_phone_cod = mobile_phone_cod_ctry+' 9 '+mobile_phone_cod_loc+' ';
+			var mobile_phone_cod = mobile_phone_cod_ctry+' '+mobile_phone_cod_loc+' ';
 		}
 		else if ( ctry_office.indexOf('mx') != -1 ) {
 			var mobile_phone_cod = mobile_phone_cod_ctry+' 1 ';
