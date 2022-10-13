@@ -742,7 +742,8 @@ img.mfp-img{max-height:90vh}
 body.single #post-content img,.gallery-item img,.wp-block-image img,.wp-block-image:not(.is-style-rounded) img{background:none;border:1px solid rgba(0,0,0,.2);border-radius:12px}
 .gallery-item{margin:0;padding:16px;box-sizing:border-box}
 .gallery-item img{width:100%}
-figcaption{text-align:left;padding:.4em .3em;background:rgba(0,0,0,.5);line-height:1.25;font-style:italic}
+figcaption{text-align:left;padding:.4em .3em;color:#999999;font-size:.8em;line-height:1.2;font-style:italic}
+.gallery-item figcaption{color:#FFFFFF;background:rgba(0,0,0,.5)}
 .wp-block-image a+figcaption,.grid-gallery .gg-link{cursor:zoom-in}
 
 /* Videos */
