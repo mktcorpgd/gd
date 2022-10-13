@@ -141,9 +141,6 @@ jQuery(document).ready(function() {
 		jQuery('.tpdata.address').html(tp_address[ctry_office]);
 		var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
 		var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
-		if ( mobile_phone_cod_loc != '' ) {
-			mobile_phone_cod_loc += ' 9 '+mobile_phone_cod_loc;
-		}
 		if ( ctry_office.indexOf('ar') != -1 || ctry_office.indexOf('cl') != -1 ) {
 			var mobile_phone_cod = mobile_phone_cod_ctry+' '+mobile_phone_cod_loc+' ';
 		}
