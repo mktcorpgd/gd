@@ -36,15 +36,15 @@ jQuery(document).ready(function() {
 	tp_phone['ar_caba - catulo castillo'] = '+54 (11) 4103-1300';
 	tp_address['ar_caba - jujuy'] = 'Av. Jujuy 1956 (C1247ABA)<br />Parque Patricios, CABA<br />Argentina';
 	tp_phone['ar_caba - jujuy'] = '+54 (11) 4103-1300';
-	tp_address['ar_la plata'] = 'Dirección'
+	tp_address['ar_la plata'] = 'Av. 51 511 (B1904AVK)<br />Of. 301<br />La Plata, Buenos Aires<br />Argentina'
 	tp_phone['ar_la plata'] = 'Teléfono';
 	tp_address['ar_bahia blanca'] = 'España 41 (B8000JFA)<br />Bahía Blanca, Buenos Aires<br />Argentina';
 	tp_phone['ar_bahia blanca'] = '+54 (291) 451-8376';
 	tp_address['ar_mar del plata'] = 'Av. Constitución 5075 (B7605EYA)<br />PB, Oficina 106<br />Mar del Plata, Buenos Aires<br />Argentina';
 	tp_phone['ar_mar del plata'] = '+54 (223) 471-5073';
 	tp_address['ar_pilar'] = 'Av. Sgto. Cayetano Beliera 3025 (B1629WWA)<br />M3, PB Of. 01<br />Pilar Centro, Buenos Aires<br />Argentina'
-	tp_phone['ar_pilar'] = '';
-	tp_address['ar_cordoba'] = 'Jacobo Joule 5353_Complejo Quadra 54 (CP 5021)<br />Piso 1, Of. 111<br />Córdoba, Argentina';
+	tp_phone['ar_pilar'] = '+54 (351) 522-0808';
+	tp_address['ar_cordoba'] = 'Jacobo Joule 5353 (X5021)<br />Piso 1, Of. 111<br />Complejo Quadra 54, Córdoba, Argentina';
 	tp_phone['ar_cordoba'] = '+54 (351) 464-4495';
 	tp_address['ar_cordoba pop'] = 'Pedro Claveria 1769 (X5014XAA)<br />Córdoba<br />Argentina';
 	tp_phone['ar_cordoba pop'] = '+54 (351) 464-4495';
@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
 	tp_phone['ar_mendoza'] = '+54 (261) 429-5886';
 	tp_address['ar_rosario'] = 'Cochabamba 1019 (S2000DWE)<br />Rosario, Santa Fe<br />Argentina';
 	tp_phone['ar_rosario'] = '+54 (341) 485-3803';
-	tp_address['ar_posadas'] = 'Acevedo 3241 (N3300HKQ)<br />Posadas<br />Misiones<br />Argentina';
+	tp_address['ar_posadas'] = 'Acevedo 3241 (N3300HKQ)<br />Posadas, Misiones<br />Argentina';
 	tp_phone['ar_posadas'] = '';
 	tp_address['ar_neuquen'] = 'Juan Larrea 595 (Q8300JVD)<br />Neuquén<br />Argentina';
 	tp_phone['ar_neuquen'] = '+54 (299) 525-9119';
@@ -68,8 +68,8 @@ jQuery(document).ready(function() {
 	tp_phone['mx_ciudad de mexico'] = '+52 (55) 5279-9930';
 	tp_address['pe_lima'] = 'Av. Camino Real 355 (15073)<br />Piso 2<br />San Isidro, Lima<br />Perú';
 	tp_phone['pe_lima'] = '+51 (1) 616-0770';
-	tp_address['pr_san juan'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />Hato Rey, San Juan<br />Puerto Rico';
-	tp_phone['pr_san juan'] = '+1 (787) 302-2509';
+	tp_address['pr_san juan'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />San Juan<br />Puerto Rico';
+	tp_phone['pr_san juan'] = '';
 
 
 	// 1. Habilitar oficina después de seleccionar empresa
