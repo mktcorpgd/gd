@@ -111,7 +111,7 @@ jQuery(document).ready(function() {
 
 
 	// 2. Habilitar el resto después de seleccionar oficina
-	jQuery('select[name=OFFICE] option:contains(AR - Externo/Freelance)').hide();
+	jQuery('select[name=OFFICE] option:contains(AR - Externo / Freelance)').hide();
 	jQuery('.wpcf7 select[name=OFFICE]').change(function(){
 		if ( jQuery(window).width() < 960 ) {
 			jQuery('html,body').animate({scrollTop:jQuery('.step3:first').offset().top-100},'fast','linear',function(){
