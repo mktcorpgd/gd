@@ -81,7 +81,7 @@ jQuery(document).ready(function() {
 			tp_org = tp_org.replace(/ /,'_').toLowerCase();
 			console.log(tp_org);
 			if ( tp_org.indexOf('0G') != -1 ) {
-				tp_org = tp_org = tp_org.replace('0g','zerog');
+				tp_org = tp_org = tp_org.replace(/\0g/g,'zerog');
 			}
 			console.log(tp_org);
 			jQuery('.tp').removeClass().addClass('tp '+tp_org);
