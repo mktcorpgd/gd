@@ -77,10 +77,8 @@ jQuery(document).ready(function() {
 		if ( jQuery(this).val() != '—' ) {
 			var tp_org = jQuery('select[name=ORG] option:selected').val();
 			tp_org = tp_org.replace(/ /,'_').toLowerCase();
-			console.log(tp_org);
 			if ( tp_org.indexOf('0g') != -1 ) {
 				tp_org = tp_org = tp_org.replace(/0g/g,'zerog');
-				console.log(tp_org);
 			}
 			jQuery('.tp').removeClass().addClass('tp '+tp_org);
 			if ( jQuery('body').hasClass('page-id-24225') ) {
@@ -128,13 +126,20 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
 		}
-		if ( ctry_office == 'ar_caba - catulo castillo' || ctry_office == 'ar_caba - san martin' ) {
+		// Oficinas con piso
+		if ( ctry_office == 'ar_caba - catulo' || ctry_office == 'ar_caba - san martin' ) {
 			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('hidden').addClass('visible');
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('three columns3').addClass('four columns4');
 		}
 		else {
 			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('visible').addClass('hidden');
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('four columns4').addClass('three columns3');
+		}
+		if ( tp_phone[ctry_office].length == 0 ) {
+			jQuery('.wpcf7>form>div:nth-child(7)').addClass('hidden');
+		}
+		else {
+			jQuery('.wpcf7>form>div:nth-child(7)').removeClass('hidden');
 		}
 		jQuery('input[name=PHONE]').val(tp_phone[ctry_office]);
 		jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
