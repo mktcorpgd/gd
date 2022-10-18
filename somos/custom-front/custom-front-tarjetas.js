@@ -37,7 +37,7 @@ jQuery(document).ready(function() {
 	tp_address['ar_caba - jujuy'] = 'Av. Jujuy 1956 (C1247ABA)<br />Parque Patricios, CABA<br />Argentina';
 	tp_phone['ar_caba - jujuy'] = '+54 (11) 4103-1300';
 	tp_address['ar_la plata'] = 'Av. 51 511 (B1904AVK)<br />Of. 301<br />La Plata, Buenos Aires<br />Argentina'
-	tp_phone['ar_la plata'] = 'Teléfono';
+	tp_phone['ar_la plata'] = '';
 	tp_address['ar_bahia blanca'] = 'España 41 (B8000JFA)<br />Bahía Blanca, Buenos Aires<br />Argentina';
 	tp_phone['ar_bahia blanca'] = '+54 (291) 451-8376';
 	tp_address['ar_mar del plata'] = 'Av. Constitución 5075 (B7605EYA)<br />PB, Oficina 106<br />Mar del Plata, Buenos Aires<br />Argentina';
@@ -56,8 +56,6 @@ jQuery(document).ready(function() {
 	tp_phone['ar_posadas'] = '';
 	tp_address['ar_neuquen'] = 'Juan Larrea 595 (Q8300JVD)<br />Neuquén<br />Argentina';
 	tp_phone['ar_neuquen'] = '+54 (299) 525-9119';
-	tp_address['ar_san luis'] = 'San Luis, Argentina';
-	tp_phone['ar_san luis'] = '';
 	tp_address['ar_otra'] = 'Localidad, Provincia<br />Argentina';
 	tp_phone['ar_otra'] = '+54';
 	tp_address['br_sao paulo'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
