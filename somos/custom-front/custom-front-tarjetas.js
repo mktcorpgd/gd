@@ -78,9 +78,9 @@ jQuery(document).ready(function() {
 	jQuery('.wpcf7 select[name=ORG]').change(function() {
 		if ( jQuery(this).val() != '—' ) {
 			var tp_org = jQuery('select[name=ORG] option:selected').val();
-			tp_org = tp_org.replace(/ /g,'_').toLowerCase();
-			if ( tp_org.indexOf('(') != -1 ) {
-				tp_org = tp_org.substring(0,tp_org.indexOf('(')-1);
+			tp_org = tp_org.replace(/ /,'_').toLowerCase();
+			if ( tp_org.indexOf('0G') != -1 ) {
+				tp_org = tp_org = tp_org.replace('0g','zerog');
 			}
 			jQuery('.tp').removeClass().addClass('tp '+tp_org);
 			if ( jQuery('body').hasClass('page-id-24225') ) {

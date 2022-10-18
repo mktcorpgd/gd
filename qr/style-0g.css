@@ -1,8 +1,8 @@
 body {
-  background-image: url('https://www.grupodatco.com/qr-bcard/img/0gnetworks-bkg_1920_1080.png?v=2022');
+  background-image: url('https://www.grupodatco.com/qr-bcard/img/zerognetworks-bkg_1920_1080.png?v=2022');
 }
 #contact-person {
-  background-image: url('https://www.grupodatco.com/qr-bcard/img/0g-ima_h-blanco.svg');
+  background-image: url('https://www.grupodatco.com/qr-bcard/img/zerog-ima_h-blanco.svg');
   background-size: 282px 48px;
 }
 #content.vcard-mail-sent .action-buttons>input {
@@ -22,6 +22,6 @@ body {
   background: #692D87!important;
 }
 ul.qr-hint {
-  background-image: url('https://www.grupodatco.com/qr-bcard/img/0g-iso-color.svg');
+  background-image: url('https://www.grupodatco.com/qr-bcard/img/zerog-iso-color.svg');
   background-size: 48px 48px;
 }

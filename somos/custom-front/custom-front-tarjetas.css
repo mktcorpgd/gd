@@ -32,6 +32,7 @@
 #content .columns .tp.digital #mobile-content{padding-top:20px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.6);background-image:url('https://www.grupodatco.com/qr-bcard/img/grupo_datco-bkg_1920_1080.png');background-position:center left;background-size:cover;background-blend-mode:multiply}
 #content .columns .tp.digital:not(.baitcon):not(.datco):not(.focus):not(.interservices):not(.sersat):not(.silica_networks):not(.velocom) li,#content .columns .tp.digital.grupo_datco li{border:1px solid #FFB201}
+#content .columns .tp.digital.zerog_networks #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/zerog_networks-bkg_1920_1080.png')}
 #content .columns .tp.digital.baitcon #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/baitcon-bkg_1920_1080.png')}
 #content .columns .tp.digital.datco #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/datco-bkg_1920_1080.png')}
 #content .columns .tp.digital.focus #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/focus-bkg_1920_1080.png')}
