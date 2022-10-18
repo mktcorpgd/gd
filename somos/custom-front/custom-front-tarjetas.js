@@ -79,9 +79,11 @@ jQuery(document).ready(function() {
 		if ( jQuery(this).val() != '—' ) {
 			var tp_org = jQuery('select[name=ORG] option:selected').val();
 			tp_org = tp_org.replace(/ /,'_').toLowerCase();
+			console.log(tp_org);
 			if ( tp_org.indexOf('0G') != -1 ) {
 				tp_org = tp_org = tp_org.replace('0g','zerog');
 			}
+			console.log(tp_org);
 			jQuery('.tp').removeClass().addClass('tp '+tp_org);
 			if ( jQuery('body').hasClass('page-id-24225') ) {
 				jQuery('.tp').addClass('digital');
