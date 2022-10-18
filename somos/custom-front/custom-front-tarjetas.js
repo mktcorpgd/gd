@@ -32,8 +32,8 @@ jQuery(document).ready(function() {
 	tp_web['velocom'] = 'velocom.com.ar';
 	tp_address['ar_caba - san martin'] = 'San Martín 640 (C1004AAN)<br />Microcentro, CABA<br />Argentina';
 	tp_phone['ar_caba - san martin'] = '+54 (11) 4103-1300';
-	tp_address['ar_caba - catulo castillo'] = 'Cátulo Castillo 3251 (C1261ACB)<br />Distrito Tecnológico, CABA<br />Argentina';
-	tp_phone['ar_caba - catulo castillo'] = '+54 (11) 4103-1300';
+	tp_address['ar_caba - catulo'] = 'Cátulo Castillo 3251 (C1261ACB)<br />Distrito Tecnológico, CABA<br />Argentina';
+	tp_phone['ar_caba - catulo'] = '+54 (11) 4103-1300';
 	tp_address['ar_caba - jujuy'] = 'Av. Jujuy 1956 (C1247ABA)<br />Parque Patricios, CABA<br />Argentina';
 	tp_phone['ar_caba - jujuy'] = '+54 (11) 4103-1300';
 	tp_address['ar_la plata'] = 'Av. 51 511 (B1904AVK)<br />Of. 301<br />La Plata, Buenos Aires<br />Argentina'
