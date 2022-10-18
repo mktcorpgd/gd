@@ -136,12 +136,12 @@ jQuery(document).ready(function() {
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('four').addClass('three');
 		}
 		if ( tp_phone[ctry_office].length == 0 ) {
+			jQuery('.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7)').removeClass('hidden').addClass('visible');
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(8)').removeClass('three').addClass('two');
-			jQuery('.wpcf7>form>div:nth-child(7)').addClass('hidden').removeClass('visible');
 		}
 		else {
+			jQuery('.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7)').removeClass('visible').addClass('hidden');
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(8)').removeClass('two').addClass('three');
-			jQuery('.wpcf7>form>div:nth-child(7)').removeClass('visible').addClass('hidden');
 		}
 		jQuery('input[name=PHONE]').val(tp_phone[ctry_office]);
 		jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
