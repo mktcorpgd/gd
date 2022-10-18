@@ -128,7 +128,7 @@ jQuery(document).ready(function() {
 		}
 		// Oficinas con piso
 		if ( ctry_office == 'ar_caba - catulo' || ctry_office == 'ar_caba - san martin' ) {
-			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('hidden').addClass('visible');
+			jQuery('.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7)').removeClass('hidden').addClass('visible');
 			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('three').addClass('four');
 		}
 		else {
