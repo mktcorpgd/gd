@@ -46,8 +46,8 @@ jQuery(document).ready(function() {
 	tp_phone['ar_pilar'] = '+54 (351) 522-0808';
 	tp_address['ar_cordoba'] = 'Jacobo Joule 5353 (X5021)<br />Piso 1, Of. 111<br />Complejo Quadra 54, Córdoba, Argentina';
 	tp_phone['ar_cordoba'] = '+54 (351) 464-4495';
-	tp_address['ar_cordoba pop'] = 'Pedro Claveria 1769 (X5014XAA)<br />Córdoba<br />Argentina';
-	tp_phone['ar_cordoba pop'] = '+54 (351) 464-4495';
+	tp_address['ar_cordoba (pop)'] = 'Pedro Claveria 1769 (X5014XAA)<br />Córdoba<br />Argentina';
+	tp_phone['ar_cordoba (pop)'] = '+54 (351) 464-4495';
 	tp_address['ar_mendoza'] = 'Gral. Paz 586 (M5502BKW)<br />Piso PB, Local 1<br />Mendoza<br />Argentina';
 	tp_phone['ar_mendoza'] = '+54 (261) 429-5886';
 	tp_address['ar_rosario'] = 'Cochabamba 1019 (S2000DWE)<br />Rosario, Santa Fe<br />Argentina';
