@@ -199,8 +199,8 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 body.page #content h1{text-align:center}
 body.post-type-archive-event h1{text-transform:capitalize}
 #content .columns.four.shorter{width:20%}
-#content .columns.four.expanded{width:27%}
-#content .columns.three.expanded{width:66%}
+#content .columns.four.longer{width:27%}
+#content .columns.three.longer{width:66%}
 #content blockquote p{line-height:1.5}
 #content ul,#content ol{margin-bottom:20px}
 #content ul.wp-block-gallery{margin-left:0}
