@@ -86,7 +86,7 @@ li.wp-has-submenu.wp-has-current-submenu>a+ul{padding-top:0!important}
 .wp-editor-container{border-top-right-radius:0!important}
 #contextual-help-link-wrap,#screen-options-link-wrap{box-shadow:none!important;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 #post-status-info{background:none!important;border:0!important;box-shadow:none!important}
-.js .postbox .handlediv:focus .toggle-indicator:before{box-shadow:none!important}
+.js .postbox .handlediv:focus .toggle-indicator:before,#adminmenu a:focus,#adminmenu a:hover,.folded #adminmenu .wp-submenu-head:hover{box-shadow:none!important}
 .quicktags-toolbar{border-right:2px solid #EAEAEA!important;border-bottom:0!important}
 .js.plugins-php .search-box .wp-filter-search{height:auto!important}
 .wp-ui-highlight{background:#0E316E;border-radius:6px}
@@ -114,7 +114,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #your-profile .form-table input[type=date],#your-profile .form-table input[type=email],#your-profile .form-table input[type=password],#your-profile .form-table input[type=tel],#your-profile .form-table input[type=text],#your-profile .form-table select,#your-profile.form-table textarea,
 #createuser .form-table input[type=date],#createuser .form-table input[type=email],#createuser .form-table input[type=password],#createuser .form-table input[type=tel],#createuser .form-table input[type=text],#createuser .form-table select,#createuser.form-table textarea{font-size:1.3em}
 .form-table input.highlight{border:2px solid #F0582B}
-#adduser .form-field input, #createuser .form-field input,.regular-text,.form-table select,#display_name{width:18em}
+#adduser .form-field input,#createuser .form-field input,.regular-text,.form-table select,#display_name{width:18em}
 #pass-strength-result{margin-left:2.7em;width:18em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
