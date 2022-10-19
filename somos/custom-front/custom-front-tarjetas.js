@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
 		jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
 		jQuery('.wpcf7>form>div:nth-child(5)').addClass('three').removeClass('one');
 		jQuery('.tp.digital h5,.tp.digital li:nth-child(1),.wpcf7>form>div:nth-child(5)+div+div,.wpcf7>form>div:nth-child(5)+div+div+div').removeClass('hidden').addClass('visible');
-		jQuery('input[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi, ';'));
+		jQuery('textarea[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi, ';'));
 		jQuery('.tpdata.address').html(tp_address[ctry_office]);
 		var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
 		if ( mobile_phone_cod_ctry.length > 0 ) {
@@ -156,7 +156,7 @@ jQuery(document).ready(function() {
 		var span_class = jQuery(this).attr('name').toLowerCase();
 		if ( span_class == 'floor' ) {
 			var floor = jQuery(this).val();
-			var arr_address = jQuery('input[name=ADDRESS]').val().split(';');
+			var arr_address = jQuery('textarea[name=ADDRESS]').val().split('\n');
 			if ( floor.length > 0 ) {
 				arr_address[1] = 'Piso '+floor;
 			}
