@@ -97,7 +97,6 @@ input[type='text']:hover,input[type='date']:hover,input[type='email']:hover,inpu
 input[type='text']:focus,input[type='date']:focus,input[type='email']:focus,input[type='tel']:focus,input[type='number']:focus,textarea:focus,select:focus{background:#FFFFFF;border:1px solid #777777}
 input[readonly]:not([class*='walcf7-']),textarea[readonly],input[disabled],textarea[disabled]{background:#FAFAFA!important;border:1px dashed #CCCCCC!important;color:#999999!important;cursor:default}
 select{position:relative}
-.columns.two.center,.aligncenter{text-align:center}
 span.resaltado-naranja{color:#F0582B}
 span.resaltado-azul{color:#3C73B5}
 span.resaltado-verde{color:#76923C}
@@ -195,6 +194,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/
 #content iframe:not(.yotu-video-placeholder){display:block;width:100%;max-height:320px;border-radius:12px}
 
 /* Contenido */
+.columns.two.center,.aligncenter{text-align:center}
 .neosans li{font-size:1.1em}
 #container #content,.padder{padding:1.5em 2em;border-radius:12px}
 #content-wrapper{margin-bottom:0;border-radius:0}

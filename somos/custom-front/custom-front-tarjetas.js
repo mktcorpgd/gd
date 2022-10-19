@@ -165,7 +165,7 @@ jQuery(document).ready(function() {
 			}
 			var address = arr_address.join(';');
 			jQuery('input[name=ADDRESS]').val(address);
-			jQuery('.tpdata.address').html(address.replace(/;/g, '<br />'));
+			jQuery('.tpdata.address').html(address.replace(/\n/g, '<br />'));
 		}
 		if ( span_class == 'phone' || span_class == 'phone_ext' ) {
 			if ( jQuery(this).val().length > 0 ) {
