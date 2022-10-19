@@ -128,9 +128,7 @@ jQuery(document).ready(function() {
 		}
 		jQuery('input[name=PHONE]').val(tp_phone[ctry_office]);
 		jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
-		jQuery('.wpcf7>form>div:nth-child(5)').addClass('three').removeClass('one');
-		jQuery('.tp.digital h5,.tp.digital li:nth-child(1),.wpcf7>form>div:nth-child(5)+div+div,.wpcf7>form>div:nth-child(5)+div+div+div').removeClass('hidden').addClass('visible');
-		jQuery('textarea[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi, ';'));
+		jQuery('textarea[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi,'\n'));
 		jQuery('.tpdata.address').html(tp_address[ctry_office]);
 		var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
 		if ( mobile_phone_cod_ctry.length > 0 ) {
