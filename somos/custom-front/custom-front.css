@@ -115,6 +115,7 @@ span.resaltado-verde{color:#76923C}
 
 /* Header */
 #header{padding:8px;background:#0E316E;border-bottom:2px solid #FFB201;border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
+body.role- #header{top:0}
 #logo:hover{transform:scale(1.1) rotate(720deg) translateX(5px)}
 
 /* Menú */
