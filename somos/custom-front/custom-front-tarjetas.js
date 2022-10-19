@@ -152,19 +152,6 @@ jQuery(document).ready(function() {
 	// Copiar valores en previsualización según ingreso en campos
 	jQuery(document).on('input','.wpcf7 input',function(){
 		var span_class = jQuery(this).attr('name').toLowerCase();
-		if ( span_class == 'floor' ) {
-			var floor = jQuery(this).val();
-			var arr_address = jQuery('textarea[name=ADDRESS]').val().split('\n');
-			if ( floor.length > 0 ) {
-				arr_address[1] = 'Piso '+floor;
-			}
-			else {
-				arr_address[1] = '';
-			}
-			var address = arr_address.join(';');
-			jQuery('textarea[name=ADDRESS]').val(address);
-			jQuery('.tpdata.address').html(address.replace(/\n/g, '<br />'));
-		}
 		if ( span_class == 'phone' || span_class == 'phone_ext' ) {
 			if ( jQuery(this).val().length > 0 ) {
 				jQuery('.tp ul li:nth-child(3),span.phone,span.phone_ext_block').show();
