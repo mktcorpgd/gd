@@ -126,23 +126,6 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
 		}
-		// Oficinas con piso
-		if ( ctry_office == 'ar_caba - catulo' || ctry_office == 'ar_caba - san martin' ) {
-			jQuery('.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7)').removeClass('hidden').addClass('visible');
-			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('three').addClass('four');
-		}
-		else {
-			jQuery('.wpcf7>form>div:nth-child(6)').removeClass('visible').addClass('hidden');
-			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7),.wpcf7>form>div:nth-child(8)').removeClass('four').addClass('three');
-		}
-		if ( tp_phone[ctry_office].length == 0 ) {
-			jQuery('.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7)').removeClass('hidden').addClass('visible');
-			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(8)').removeClass('three').addClass('two');
-		}
-		else {
-			jQuery('.wpcf7>form>div:nth-child(6),.wpcf7>form>div:nth-child(7)').removeClass('visible').addClass('hidden');
-			jQuery('.wpcf7>form>div:nth-child(5),.wpcf7>form>div:nth-child(8)').removeClass('two').addClass('three');
-		}
 		jQuery('input[name=PHONE]').val(tp_phone[ctry_office]);
 		jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
 		jQuery('.wpcf7>form>div:nth-child(5)').addClass('three').removeClass('one');
