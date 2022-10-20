@@ -626,11 +626,10 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .fusion-fullwidth.light .fusion-column-wrapper h2{color:#FFFFFF!important}
 .fusion-fullwidth.light .fusion-column-wrapper h2+p{font-family:'Open-Sans',sans-serif!important;color:rgba(255,255,255,.9);font-size:20px!important;line-height:28px;font-weight:400}
 .hero-img+.fusion-fullwidth:not(.hundred-percent-fullwidth){padding-top:48px!important}
-.hero-img .fusion-title-1{margin-bottom:10px!important}
-.hero-img .fusion-title-1 h1{color:#FFFFFF!important;margin-top:0}
-.hero-img .fusion-title-2{margin-top:0!important}
-.hero-img .fusion-title-2 h4{margin-bottom:0;color:#FFFFFF!important;font-size:1.2em!important;line-height:1.5!important;font-family:'Neo-Sans',sans-serif;font-weight:400!important;text-align:center}
-.hero-img .fusion-title h4{text-align:left!important}
+.hero-img .fusion-title-1{margin-bottom:1em}
+.hero-img .fusion-title-1 h1{color:#FFFFFF;margin-top:0}
+.hero-img .fusion-title-2{margin-top:0}
+.hero-img .fusion-title-2 h4{color:#FFFFFF;font-size:1.2em;text-align:center}
 .post-content .fusion-content-widget-area h4{margin-bottom:0!important}
 
 /* Overlays */
