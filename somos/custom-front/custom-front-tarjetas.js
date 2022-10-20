@@ -152,7 +152,6 @@ jQuery(document).ready(function() {
 	// Copiar valores en previsualización según ingreso en campos
 	jQuery(document).on('input','.wpcf7 input',function(){
 		var span_class = jQuery(this).attr('name').toLowerCase();
-		console.log(span_class);
 		if ( span_class == 'phone' ) {
 			if ( jQuery(this).val().length > 0 ) {
 				jQuery('.tp ul li:nth-child(3),span.phone').show();
@@ -180,7 +179,6 @@ jQuery(document).ready(function() {
 		else {
 			if ( span_class == 'address' ) {
 				this_value = jQuery(this).val().replace(/\r\n|\r|\n/g,'<br />');
-				console.log(this_value);
 			}
 			else {
 				this_value = jQuery(this).val();
