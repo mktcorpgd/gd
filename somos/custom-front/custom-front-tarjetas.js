@@ -152,6 +152,7 @@ jQuery(document).ready(function() {
 	// Copiar valores en previsualización según ingreso en campos
 	jQuery(document).on('input','.wpcf7 input',function(){
 		var span_class = jQuery(this).attr('name').toLowerCase();
+		console.log(span_class);
 		if ( span_class == 'phone' ) {
 			if ( jQuery(this).val().length > 0 ) {
 				jQuery('.tp ul li:nth-child(3),span.phone').show();
@@ -177,7 +178,8 @@ jQuery(document).ready(function() {
 			jQuery('.tpdata.'+span_class).text(jQuery(this).val());
 		}
 		else {
-			jQuery('.tpdata.'+span_class).html(jQuery(this).val().replace(/;/g, '<br />'));
+			console.log(jQuery(this).val().replace(/\n/g, '<br />'));
+			jQuery('.tpdata.'+span_class).html(jQuery(this).val().replace(/\n/g, '<br />'));
 		}
 	});
 
