@@ -152,32 +152,22 @@ jQuery(document).ready(function() {
 	// Copiar valores en previsualización según ingreso en campos
 	jQuery(document).on('input','.wpcf7 input',function(){
 		var span_class = jQuery(this).attr('name').toLowerCase();
-		if ( span_class == 'phone' || span_class == 'phone_ext' ) {
+		if ( span_class == 'phone' ) {
 			if ( jQuery(this).val().length > 0 ) {
-				jQuery('.tp ul li:nth-child(3),span.phone,span.phone_ext_block').show();
-				if ( jQuery('.tp.digital').length > 0 ) {
-					jQuery('.tp.digital h5,#mobile-content > ul > li:nth-child(1)').show();
-				}
+				jQuery('.tp ul li:nth-child(3),span.phone').show();
+				jQuery('#mobile-content > ul > li:nth-child(1)').show();
 			}
 			else {
-				jQuery('.tp ul li:nth-child(3),span.phone,span.phone_ext_block').hide();
-				if ( jQuery('.tp.digital').length > 0 ) {
-					jQuery('.tp.digital h5,#mobile-content > ul > li:nth-child(1)').hide();
-				}
+				jQuery('.tp ul li:nth-child(3),span.phone').hide();
+				jQuery('#mobile-content > ul > li:nth-child(1)').hide();
 			}
 		}
 		if ( span_class == 'mobile_phone' ) {
 			if ( jQuery(this).val().length > 0 ) {
-				jQuery('.tp ul li:nth-child(2),span.phone_mobile').show();
-				if ( jQuery('.tp.digital').length > 0 ) {
-					jQuery('#mobile-content > ul > li:nth-child(2)').show();
-				}
+				jQuery('.tp ul li:nth-child(2),#mobile-content > ul > li:nth-child(2),span.phone_mobile').show();
 			}
 			else {
-				jQuery('.tp ul li:nth-child(2),span.phone_mobile').hide();
-				if ( jQuery('.tp.digital').length > 0 ) {
-					jQuery('#mobile-content > ul > li:nth-child(2)').hide();
-				}
+				jQuery('.tp ul li:nth-child(2),#mobile-content > ul > li:nth-child(2),span.phone_mobile').hide();
 			}
 			var ctry_office = jQuery('.wpcf7 select[name=OFFICE] option:selected').val();
 			var ctry = jQuery('.wpcf7 select[name=OFFICE] option:selected').val().substr(0,2).toLowerCase();
