@@ -178,8 +178,14 @@ jQuery(document).ready(function() {
 			jQuery('.tpdata.'+span_class).text(jQuery(this).val());
 		}
 		else {
-			console.log(jQuery(this).val().replace(/\n/g, '<br />'));
-			jQuery('.tpdata.'+span_class).html(jQuery(this).val().replace(/\n/g, '<br />'));
+			if ( span_class == 'address' ) {
+				this_value = jQuery(this).val().replace(/\r\n|\r|\n/g,'<br />');
+				console.log(this_value);
+			}
+			else {
+				this_value = jQuery(this).val();
+			}
+			jQuery('.tpdata.'+span_class).html(this_value);
 		}
 	});
 
