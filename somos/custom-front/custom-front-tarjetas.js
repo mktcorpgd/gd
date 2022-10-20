@@ -150,7 +150,7 @@ jQuery(document).ready(function() {
 
 
 	// Copiar valores en previsualización según ingreso en campos
-	jQuery(document).on('input','.wpcf7 input',function(){
+	jQuery(document).on('input','.wpcf7 :input',function(){
 		var span_class = jQuery(this).attr('name').toLowerCase();
 		if ( span_class == 'phone' ) {
 			if ( jQuery(this).val().length > 0 ) {
