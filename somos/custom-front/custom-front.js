@@ -28,7 +28,7 @@ jQuery.fn.capitalize = function(e) {
 	return this;
 };
 
-/* FORMULARIOS - Al enviar un form
+// FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit',function(e) {
 	jQuery(this).addClass('sending');
 	jQuery(this).closest('.wpcf7-form').addClass('sending');
@@ -41,7 +41,7 @@ document.addEventListener('wpcf7submit', function(event) {
 	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-submit.sending').attr('name'));
 	jQuery('.sending').removeClass('sending');
 }, false);
-*/
+
 // FORMULARIOS - Respuesta afirmativa luego de enviar un form
 document.addEventListener('wpcf7mailsent', function(event) {
 	if ( event.detail.contactFormId == 42593 ) {
