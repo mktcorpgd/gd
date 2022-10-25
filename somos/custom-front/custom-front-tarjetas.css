@@ -2,7 +2,7 @@
 .wpcf7-form .step2,.wpcf7-form .step3{opacity:.6;pointer-events:none}
 .wpcf7-form .step3 .tp span,.wpcf7-form .disabled input[type='submit']{cursor:default}
 .simlulator-frame{display:inline-block;position:absolute}
-#content .columns .tp{margin:1em auto;position:relative;text-align:center}
+#content .columns .tp{margin:0 auto;position:relative;text-align:center}
 #content .columns .tp ul li{font-family:'Neo-Sans',sans-serif;list-style:none}
 #content .columns.two .tp h2,#content .columns.two .tp h3,#content .columns.two .tp h4,#content .columns.two .tp h5,#content .columns.two .tp ul{margin:0;padding:0;position:absolute;left:0;text-align:left}
 #content .columns.two .tp>img{border:2px solid #EAEAEA;border-radius:24px}
@@ -19,8 +19,7 @@
 #content .columns.two .tp h5{top:42px;font-size:18px;font-weight:400}
 #content .tp:not(.digital) li:not(.ui-state-default){margin-top:0;margin-bottom:0;padding-bottom:0;font-size:16px;line-height:16px}
 #content .tp li:not(.ui-state-default){font-weight:400}
-#content .columns .tp.digital #mobile-content{display:inline-block;width:252px;height:376px;position:absolute;top:100px;left:178px;overflow:auto}
-#content .columns .tp.digital #mobile-frame{width:296px;height:575px;background:none;border:none;border-radius:0}
+#content .columns .tp.digital #mobile-content{padding-top:2em;overflow-y:visible;overflow-x:hidden}
 #content .columns .tp.digital h2,#content .columns .tp.digital h4,#content .columns .tp.digital h5{padding:0 .4em;color:#FFFFFF}
 #content .columns .tp.digital h2{margin-top:.4em;margin-bottom:0;font-size:1.6em}
 #content .columns .tp.digital h4{margin-top:0;font-size:1.2em}
@@ -30,7 +29,6 @@
 #content .columns .tp.digital #mobile-logo{background:none;border:none;border-radius:0}
 #content .columns .tp.digital:not(.zerog_networks) #mobile-logo{height:40px}
 #content .columns .tp.digital.zerog_networks #mobile-logo{height:32px}
-#content .columns .tp.digital #mobile-content{padding-top:20px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.6);background-image:url('https://www.grupodatco.com/qr-bcard/img/grupo_datco-bkg_1920_1080.png');background-position:center left;background-size:cover;background-blend-mode:multiply}
 #content .columns .tp.digital.grupo_datco li{border:1px solid #FFB201}
 #content .columns .tp.digital.zerog_networks #mobile-content{background-image:url('https://www.grupodatco.com/qr-bcard/img/zerog_networks-bkg_1920_1080.png')}
@@ -61,5 +59,4 @@
 	#content .columns.two .tp h3{top:6vw;font-size:6vw;text-align:left}
 	#content .columns.two .tp h5{top:12vw;font-size:5vw;text-align:left}
 	#content .columns.two .tp ul li:last-child{margin-top:14px;line-height:18px}
-	#content .columns .tp.digital #mobile-content{left:49px}
 }
