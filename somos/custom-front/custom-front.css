@@ -56,7 +56,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#555555}
 ::-ms-input-placeholder{color:#555555}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button{transition:all .2s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i{transition:all .2s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
@@ -138,7 +138,8 @@ body.role- #header{top:0}
 #nav .menu li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:'Font Awesome 6 Pro'}
 #nav .menu li.menu-item-has-children:after{position:absolute;top:7px;right:5px;font-size:.8em}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px;right:5px}
-#nav .menu li.menu-item-has-children:after,#nav .menu li i{transition:all .2s ease-in-out;color:rgba(255,255,255,.6)}
+#nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
+#nav .menu li.menu-item-has-children:after{transition:all .1s ease-in-out}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
 #nav .menu li.menu-item-has-children:hover:after{transform:rotate(180deg)}
 
