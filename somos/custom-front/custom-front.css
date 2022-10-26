@@ -494,6 +494,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400}
 #UseyourDrive .entry img{border:none}
 #UseyourDrive .entry_thumbnail img{margin:0;transform:none}
+.UseyourDrive.files.wpcp-thumb-view .files-container{display:grid;grid-template-columns:1fr 1fr;grid-gap:1.5em;margin-top:1.5em}
 .info-material{padding:1em 0 0!important;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0}
 .file-container .info-material{margin-top:1em}
