@@ -56,7 +56,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#555555}
 ::-ms-input-placeholder{color:#555555}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button{transition:all .2s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i{transition:all .2s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
@@ -138,7 +138,8 @@ body.role- #header{top:0}
 #nav .menu li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:'Font Awesome 6 Pro'}
 #nav .menu li.menu-item-has-children:after{position:absolute;top:7px;right:5px;font-size:.8em}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px;right:5px}
-#nav .menu li.menu-item-has-children:after,#nav .menu li i{transition:all .2s ease-in-out;color:rgba(255,255,255,.6)}
+#nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
+#nav .menu li.menu-item-has-children:after{transition:all .1s ease-in-out}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
 #nav .menu li.menu-item-has-children:hover:after{transform:rotate(180deg)}
 
@@ -482,17 +483,18 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .hasfocus:not(.no-entries),#UseyourDrive .isdragged,#UseyourDrive .isselected,#UseyourDrive .popupopen{transform:scale(1)}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
 #UseyourDrive .tippy-content .nav-sorting-list a:after,#UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
-#UseyourDrive .entry,#UseyourDrive .image-container,#UseyourDrive .nav-header{box-shadow:0 2px 8px rgba(0,0,0,.1)}
-#UseyourDrive .entry:hover,#UseyourDrive .image-container{box-shadow:0 2px 8px 0 rgba(240,88,43,.6)}
+#UseyourDrive .entry,#UseyourDrive .image-container,#UseyourDrive .nav-header{border:1px solid #DDDDDD;box-shadow:none}
+#UseyourDrive .entry:hover,#UseyourDrive .image-container{border:1px solid #F0582B;box-shadow:0 2px 8px 0 rgba(240,88,43,.6)}
 #UseyourDrive .tippy-content li,.UseyourDrive .tippy-content li{margin-bottom:0}
 #UseyourDrive .tippy-content li>a:hover,.UseyourDrive .tippy-content li>a:hover{color:#FFFFFF;text-decoration:none}
 #UseyourDrive .nav-header,#UseyourDrive .selected-folder{background:#F6F6F6}
-#UseyourDrive .nav-header{border:none;border-radius:6px}
+#UseyourDrive .nav-header{border-radius:12px}
 #UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{padding:.3em .6em;font-size:.9em}
 #UseyourDrive .entry:not(.no-entries):hover i{color:#FFFFFF}
 #UseyourDrive .folder .entry-info-name,#UseyourDrive .folder .entry-info-name a,#UseyourDrive .folder .entry-info-name a strong,#UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{font-weight:400}
 #UseyourDrive .entry img{border:none}
 #UseyourDrive .entry_thumbnail img{margin:0;transform:none}
+.UseyourDrive.files.wpcp-thumb-view .files-container{display:grid;grid-template-columns:1fr 1fr;grid-gap:1.5em;margin-top:1.5em}
 .info-material{padding:1em 0 0!important;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0}
 .file-container .info-material{margin-top:1em}
