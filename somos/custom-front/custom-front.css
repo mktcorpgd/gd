@@ -827,23 +827,26 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:none}
 	#mobile-nav .menu>li:last-child{margin-bottom:1em}
-	#mobile-nav .menu li a{padding:.6em .5em;font-size:1.1em}
+	#mobile-nav .menu li a{padding:.5em;font-size:1.1em}
 	#mobile-nav .menu li li a{padding:.3em .5em}
-	#mobile-nav .menu li .sub-menu{background:#1F4483}
+	#mobile-nav .menu li .sub-menu{max-height:0;background:#1F4483}
+	#mobile-nav .menu li.gp-active .sub-menu{max-height:500px;transition:max-height 0.25s ease-in}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
 	#mobile-nav .menu li .mobile-dropdown-icon{padding-right:16px;line-height:2.35em;color:#FAFAFA}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:#FFFFFF}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	#header{min-height:64px;padding:0;top:46px}
-	#header .is-search-form.is-form-id-26276{margin:0 auto}
+	#header .is-search-form.is-form-id-26276{margin:0 auto;width:70%}
 	#header .is-search-form.is-form-id-26276 input[type='search']::placeholder{color:#FFFFFF}
 	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:3px;text-align:center;color:#FFFFFF;font-size:1em;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
 	#content-wrapper{padding-top:64px}
+	#header .is-search-form.is-form-id-26276 input[type='search']:focus::placeholder{color:rgba(255,255,255,.6)}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
-	.gp-blog-wrapper section .post-text h2{font-size:1.4em;line-height:1.15}
-	.gp-blog-wrapper section .post-text h2:before{width:1em;height:1em}
+	.gp-blog-wrapper section .post-text h2{font-size:1.2em;line-height:1.15}
+	.gp-blog-wrapper section .post-text h2:before{width:.7em;height:.7em}
+	.gp-blog-wrapper section .gp-loop-meta,.gp-meta-cats a, article .eo-event-meta>li a[rel='tag']{font-size:.85rem}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{-webkit-line-clamp:3}
 	body.page-template-default:not(.home) .post-thumbnail.single-thumbnail,body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img,body:not(.home) .padder{border-radius:0}
 	body.single .gp-meta-date{margin-bottom:.4em}
