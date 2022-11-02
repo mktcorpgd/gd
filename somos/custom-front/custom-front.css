@@ -398,7 +398,7 @@ input.static_gmap+a:hover{border-color:#F0582B}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 
 /* Cumpleaños */
-.bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:'Neo-Sans','Font Awesome 6 Pro',sans-serif;color:#0E316E;font-style:normal}
+.bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:'Neo-Sans',sans-serif;color:#0E316E;font-style:normal}
 .birthday_wish,.birthday_error{transform:rotate(-1deg);margin:1em 0 .5em;font-weight:500}
 .birthday_wish{margin:0 -2em .5em;background:#0E316E;color:#FFFFFF;font-size:1.5em}
 .bdays_today .birthday_list .birthday_name{margin:0;padding:0;font-size:1.2em;font-weight:500;text-align:center;border:none}
