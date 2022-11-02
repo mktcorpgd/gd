@@ -1,12 +1,5 @@
 /* Fuentes */
-@font-face{font-family:'neo-sans';src:url(https://git.grupodatco.com/fonts/neosans-medium.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/neosans-medium.woff) format('woff');font-display:auto;font-style:normal;font-weight:400;font-stretch:normal}
-@font-face{font-family:'neo-sans';src:url(https://git.grupodatco.com/fonts/neosans-regular.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/neosans-regular.woff) format('woff');font-display:auto;font-style:normal;font-weight:500;font-stretch:normal}
-@font-face{font-family:'open-sans';src:url(https://git.grupodatco.com/fonts/opensans-regular.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/opensans-regular.woff) format('woff');font-display:auto;font-style:normal;font-weight:400;font-stretch:normal}
-@font-face{font-family:'open-sans';src:url(https://git.grupodatco.com/fonts/opensans-regularitalic.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/opensans-regularitalic.woff) format('woff');font-display:auto;font-style:italic;font-weight:400;font-stretch:normal}
-@font-face{font-family:'open-sans';src:url(https://git.grupodatco.com/fonts/opensans-semibold.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/opensans-semibold.woff) format('woff');font-display:auto;font-style:normal;font-weight:600;font-stretch:normal}
-@font-face{font-family:'open-sans';src:url(https://git.grupodatco.com/fonts/opensans-semibolditalic.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/opensans-semibolditalic.woff) format('woff');font-display:auto;font-style:italic;font-weight:600;font-stretch:normal}
-@font-face{font-family:'open-sans';src:url(https://git.grupodatco.com/fonts/opensans-bold.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/opensans-bold.woff) format('woff');font-display:auto;font-style:normal;font-weight:700;font-stretch:normal}
-@font-face{font-family:'open-sans';src:url(https://git.grupodatco.com/fonts/opensans-bolditalic.woff2) format('woff2'),url(https://git.grupodatco.com/fonts/opensans-bolditalic.woff) format('woff');font-display:auto;font-style:normal;font-weight:700;font-stretch:normal}
+@import url(https://git.grupodatco.com/fonts/webfonts.css);
 /* Oculto forzado */
 /* Primeros pasos */
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1+hr,
