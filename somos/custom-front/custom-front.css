@@ -95,9 +95,9 @@ body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:a
 body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:after,
 #tab-Casosdeuso #UseyourDrive .padder:before,#tab-Casosdeuso #UseyourDrive .padder:after,.wpcf7-response-output,div[class*='wpcf7-response-'],.wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio,.buttons,.buttons-download,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{clear:both}
 .not-visible{visibility:hidden}
-body,input[type='text'],input[type='search'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'Open-Sans',sans-serif}
+body,input[type='text'],input[type='search'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'open-sans',sans-serif}
 abbr[title]{border-bottom:0;cursor:inherit;text-decoration:none}
-input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,.wpcf7-list-item-label{font-family:'Open-Sans',sans-serif;font-size:1rem;line-height:1.2;letter-spacing:-.01em}
+input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,.wpcf7-list-item-label{font-family:'open-sans',sans-serif;font-size:1rem;line-height:1.2;letter-spacing:-.01em}
 input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em;padding:.5em .6em;width:100%;background:#F6F6F6;border:1px solid #CCCCCC;border-radius:6px;box-shadow:none}
 select{position:relative;padding:.37em .6em}
 textarea{height:auto;line-height:1.3}
@@ -165,7 +165,7 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-blog-wrapper section .gp-meta-date{margin-right:0}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
 .gp-blog-wrapper section .gp-meta-cats{display:block;margin:.2rem 0}
-.gp-blog-wrapper section .gp-meta-cats a{font-family:'Open-Sans',sans-serif;font-weight:400}
+.gp-blog-wrapper section .gp-meta-cats a{font-family:'open-sans',sans-serif;font-weight:400}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{font-weight:400}
 .eo-event-date,.gp-meta-comments{margin:0}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none}
@@ -308,12 +308,12 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-form-control.wpcf7-checkbox,.wpcf7-form-control.wpcf7-checkbox{position:relative;top:3px}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{display:block;margin:.4em 0 .8em}
-.wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'Open-Sans',sans-serif;font-weight:400}
+.wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'open-sans',sans-serif;font-weight:400}
 .wpcf7 .wpcf7-list-item.last{margin-right:0}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
 .wpcf7-form>label{float:left}
-.wpcf7 label>em,.wpcf7 label div[data-class='wpcf7cf_group'] span{display:block;font-size:.7em;font-family:'Open-Sans',sans-serif}
+.wpcf7 label>em,.wpcf7 label div[data-class='wpcf7cf_group'] span{display:block;font-size:.7em;font-family:'open-sans',sans-serif}
 .wpcf7 label>em strong,.wpcf7 label div[data-class='wpcf7cf_group'] span strong{font-weight:600}
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
@@ -353,7 +353,7 @@ div.wpcf7 .ajax-loader.is-active{visibility:visible}
 
 /* Datepicker */
 .xdsoft_time.xdsoft_old{pointer-events:none;opacity:.6;}
-.xdsoft_datetimepicker{font-family:'Open-Sans',sans-serif;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border:none;border-radius:12px}
+.xdsoft_datetimepicker{font-family:'open-sans',sans-serif;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border:none;border-radius:12px}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box,.xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current{border-radius:6px}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current,.xdsoft_datetimepicker .xdsoft_calendar th{font-weight:400}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select{top:27px}
@@ -377,7 +377,7 @@ div.wpcf7 .ajax-loader.is-active{visibility:visible}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_next{background-position:-50px -18px}
 
 /* Google Maps */
-.pac-container{font-family:'Open-Sans',sans-serif;border-radius:6px;border:none;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);z-index:999999}
+.pac-container{font-family:'open-sans',sans-serif;border-radius:6px;border:none;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);z-index:999999}
 .pac-item{padding:.3em .6em}
 .pac-item-query,.pac-item-query+span{float:left;line-height:1.5}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
@@ -490,7 +490,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .entry-info-name,.UseyourDrive .entry-info-name{padding:0;text-align:left;line-height:1.2}
 #UseyourDrive .tippy-content li i,.UseyourDrive .tippy-content li i{margin-right:0}
 #UseyourDrive .hasfocus:not(.no-entries),#UseyourDrive .isdragged,#UseyourDrive .isselected,#UseyourDrive .popupopen{transform:scale(1)}
-#UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'Open-Sans',sans-serif;font-weight:400}
+#UseyourDrive .tippy-content .description-textbox .description-file-info,.UseyourDrive .tippy-content .description-textbox .description-file-info{font-family:'open-sans',sans-serif;font-weight:400}
 #UseyourDrive .tippy-content .nav-sorting-list a:after,#UseyourDrive .tippy-content .nav-sorting-list a:before{text-align:center}
 #UseyourDrive .entry,#UseyourDrive .image-container,#UseyourDrive .nav-header{border:1px solid #DDDDDD;box-shadow:none}
 #UseyourDrive .entry:hover,#UseyourDrive .image-container{border:1px solid #F0582B;box-shadow:0 2px 8px 0 rgba(240,88,43,.6)}
@@ -504,7 +504,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .entry img{border:none}
 #UseyourDrive .entry_thumbnail img{margin:0;transform:none}
 .UseyourDrive.files.wpcp-thumb-view .files-container{display:grid;grid-template-columns:1fr 1fr;grid-gap:1.5em;margin-top:1.5em}
-.info-material{padding:1em 0 0!important;font-family:'Open-Sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
+.info-material{padding:1em 0 0!important;font-family:'open-sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0}
 .file-container .info-material{margin-top:1em}
 .info-material i{display:inline-block;margin-right:.4em}
@@ -547,7 +547,7 @@ body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Mxico'] a:be
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)}
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)}
 body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
-.gp-meta-comments{margin-left:.3rem;padding-left:.5rem;border-left:2px solid #EAEAEA;font-family:'Open-Sans','Font Awesome 6 Pro',sans-serif}
+.gp-meta-comments{margin-left:.3rem;padding-left:.5rem;border-left:2px solid #EAEAEA;font-family:'open-sans','Font Awesome 6 Pro',sans-serif}
 
 /* Paginación */
 .wp-pagenavi,.page-links{font-weight:400;margin:20px 0 0;text-align:right}
@@ -624,7 +624,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 
 /* Pestañas */
 .ui-widget-content{padding:0;top:0;background:none;border:none!important;overflow:visible}
-.padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#777777;font-weight:400;font-family:'Open-Sans',sans-serif;font-style:italic}
+.padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#777777;font-weight:400;font-family:'open-sans',sans-serif;font-style:italic}
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:0}
 .ui-tabs .ui-tabs-nav li{margin-bottom:.5em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
