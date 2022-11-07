@@ -1148,7 +1148,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-portfolio article .wp-video-shortcode.mejs-video{margin-bottom:.4em}
 	.fusion-portfolio article .more-info{float:left;width:100%;padding:0 1rem;cursor:pointer;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
 	.fusion-portfolio article .more-info.open{font-size:.85em}
-	.fusion-portfolio article .more-info.open i{transition:all .2s ease-in-out;transform:rotate(180deg)}
+	.fusion-portfolio article .more-info.open i{transition:all .2s ease-in-out;transform:rotate(180deg);position:relative;top:-2px}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;padding-bottom:1em}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.85em!important}
 	.tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{font-size:1.2em!important}
