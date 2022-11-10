@@ -3,6 +3,8 @@
 /* Oculto forzado */
 /* Admin */
 #wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
+/* Not AR */
+body:not([class*='office-ar']) article[class*='category-visibilidad-solo-ar'],
 /* Metas */
 .single .gp-entry-meta i,.gp-post-meta:before,body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],
 body.archive.category-2796 .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/'],
