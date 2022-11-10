@@ -6,7 +6,7 @@ article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(
 body.branding .fusion-footer-widget-area .widget_nav_menu,
 body.no-partners #partners_footer>.fusion-fullwidth,
 .fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']){display:none}
-body.branding .fusion-footer-widget-area{margin:0;padding:0;height:0}
+body.branding .fusion-footer-widget-area{margin:0;padding:0!important;height:0}
 ::-moz-selection{background:var(--highlightColor);color:var(--whiteColor)}
 ::selection{background:var(--highlightColor);color:var(--whiteColor)}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2.menu-item-26501{width:35%}
