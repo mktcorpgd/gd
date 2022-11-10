@@ -563,7 +563,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .gp-pagination ul.page-numbers li .page-numbers.next:before{content:'\f105'}
 
 /* Tablas */
-.wp-block-table{overflow:hidden}
+.wp-block-table{margin-bottom:2em;overflow:hidden}
 #content table td:not(.line){border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2);}
 #content table tbody tr:last-child td{border-bottom:1px solid rgba(0,0,0,.2)}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
