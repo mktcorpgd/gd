@@ -4,7 +4,7 @@
 /* Admin */
 #wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
 /* Not AR */
-body:not([class*='office-ar']) article[class*='category-visibilidad-solo-ar'],
+body:not([class*='office-ar']) section[class*='category-visibilidad-solo-ar'],
 /* Metas */
 .single .gp-entry-meta i,.gp-post-meta:before,body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],
 body.archive.category-2796 .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/'],
@@ -563,12 +563,11 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .gp-pagination ul.page-numbers li .page-numbers.next:before{content:'\f105'}
 
 /* Tablas */
-.wp-block-table{overflow:hidden}
+.wp-block-table{margin-bottom:2em;overflow:hidden}
 #content table td:not(.line){border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2);}
 #content table tbody tr:last-child td{border-bottom:1px solid rgba(0,0,0,.2)}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
 #content table tbody tr{background:none}
-#content table tbody td strong{font-weight:400}
 #content table th,#content table td{line-height:1.5}
 #content table th{border-top:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
 #content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child,.padder.category-casos-de-referencia .wpcf7 table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'Neo-Sans',sans-serif}
