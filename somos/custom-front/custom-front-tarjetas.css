@@ -3,7 +3,7 @@
 .wpcf7-form .step3 .tp span,.wpcf7-form .disabled input[type='submit']{cursor:default}
 .simlulator-frame{display:inline-block;position:absolute}
 #content .columns .tp{margin:0 auto;position:relative;text-align:center}
-#content .columns .tp ul li{font-family:'Neo-Sans',sans-serif;list-style:none}
+#content .columns .tp ul li{font-family:'neo-sans',sans-serif;list-style:none}
 #content .columns.two .tp h2,#content .columns.two .tp h3,#content .columns.two .tp h4,#content .columns.two .tp h5,#content .columns.two .tp ul{margin:0;padding:0;position:absolute;left:0;text-align:left}
 #content .columns.two .tp>img{border:2px solid #EAEAEA;border-radius:24px}
 #content .columns.two .tp ul{top:77px}

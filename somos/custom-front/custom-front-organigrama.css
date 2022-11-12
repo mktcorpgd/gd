@@ -2,10 +2,10 @@
 .jOrgChart .bio.org_nolink{cursor:default;text-decoration:none}
 .jOrgChart .node,.jOrgChart .node-title,.jOrgChart small{color:#FFFFFF;line-height:1.25}
 .jOrgChart .node{transition:all .2s ease-in-out;margin:0 10px;min-width:120px;color:#FFFFFF;background:#0E316E;border-radius:6px;border:none!important;box-shadow:0 6px 12px 2px rgba(0,0,0,.2)}
-.jOrgChart .node.org_dept_node{background:#F0582B;font-weight:400;font-size:.8em;font-family:'Neo-Sans',sans-serif}
+.jOrgChart .node.org_dept_node{background:#F0582B;font-weight:400;font-size:.8em;font-family:'neo-sans',sans-serif}
 .jOrgChart .node:hover{background:#F0582B}
 .jOrgChart .node:hover a,.jOrgChart .node a{text-decoration:none!important}
-.jOrgChart .node-title{display:block;font-weight:500;font-size:1.2em;font-family:'Neo-Sans',sans-serif}
+.jOrgChart .node-title{display:block;font-weight:500;font-size:1.2em;font-family:'neo-sans',sans-serif}
 .jOrgChart .node img{background:#FFFFFF;border-radius:3px}
 .jOrgChart small{padding-bottom:2px;font-style:normal}
 .jOrgChart .line{width:4px}

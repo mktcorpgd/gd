@@ -64,7 +64,7 @@ section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plu
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#CCCCCC;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;background-repeat:repeat;background-size:100%;background-attachment:scroll}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
-h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'Neo-Sans',sans-serif}
+h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'neo-sans',sans-serif}
 h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:#333333;line-height:125%}
 h5,h6{font-weight:400}
 h1.page-title{float:left;width:100%;margin:0 0 .5em;font-size:2em;font-weight:500;line-height:1.15}
@@ -109,7 +109,7 @@ span.resaltado-verde{color:#76923C}
 #wpadminbar,#wpadminbar .shortlink-input,#wpadminbar .menupop .ab-sub-wrapper{background:#0E316E!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 16px 16px -10px rgba(0,0,0,.4)!important}
 #wpadminbar .ab-submenu .ab-item,#wpadminbar .quicklinks .menupop ul li a,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li a{color:#EEEEEE!important}
-#wpadminbar .ab-empty-item,#wp-admin-bar-site-name>a,#wp-admin-bar-my-account>a,#wp-admin-bar-my-account>a>.display-name,#wpadminbar>#wp-toolbar span.ab-label,#wpadminbar>#wp-toolbar .ab-item,#wpadminbar>#wp-toolbar span.noticon,#adminmenu a,#collapse-button{font-family:'Neo-Sans',sans-serif}
+#wpadminbar .ab-empty-item,#wp-admin-bar-site-name>a,#wp-admin-bar-my-account>a,#wp-admin-bar-my-account>a>.display-name,#wpadminbar>#wp-toolbar span.ab-label,#wpadminbar>#wp-toolbar .ab-item,#wpadminbar>#wp-toolbar span.noticon,#adminmenu a,#collapse-button{font-family:'neo-sans',sans-serif}
 #wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
 #wp-admin-bar-site-name>div{border-bottom-left-radius:0!important}
 #wp-admin-bar-my-account>div{border-bottom-right-radius:0!important}
@@ -129,7 +129,7 @@ body.role- #header{top:0}
 #nav .menu{margin:0}
 #nav .menu li.separator{margin-left:.5em;padding-left:.5em;border-left:2px solid rgba(0,0,0,.2);border-radius:0}
 #nav .menu li{margin-left:.1em}
-#nav .menu li a,#mobile-nav .menu li a{font-family:'Neo-Sans',sans-serif;font-size:1em;font-weight:400}
+#nav .menu li a,#mobile-nav .menu li a{font-family:'neo-sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu li a{display:block;padding:.4em .5em;white-space:nowrap}
 #nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover{background:rgba(0,0,0,.3)}
 #nav .menu li a:hover,#nav .menu li:hover>a{border-radius:4px}
@@ -154,7 +154,7 @@ body.single article.category-beneficios .gp-meta-cats{padding-left:0;border-left
 body.page h1+.gp-post-meta{width:100%;text-align:center}
 body.single .gp-entry-meta .gp-meta-date{margin:0 .8em 1em 0;font-size:.8em}
 h1.page-title+.gp-meta-cats{margin-bottom:1rem}
-.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 .5em .25em 0;white-space:nowrap;font-family:'Neo-Sans',sans-serif;font-weight:500;line-height:1;text-decoration:none!important}
+.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{display:inline-block;margin:0 .5em .25em 0;white-space:nowrap;font-family:'neo-sans',sans-serif;font-weight:500;line-height:1;text-decoration:none!important}
 .gp-blog-wrapper section .gp-loop-meta,.gp-meta-cats a,article .eo-event-meta>li a[rel='tag']{font-size:.7rem}
 .gp-blog-wrapper section .gp-loop-meta{margin:0 0 .2em;color:#555555;line-height:1.25}
 .gp-blog-wrapper section .gp-meta-date{margin-right:0}
@@ -164,7 +164,7 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{font-weight:400}
 .eo-event-date,.gp-meta-comments{margin:0}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none}
-.eo-event-date{margin:.2em 0;font-family:'Neo-Sans',sans-serif;font-weight:500}
+.eo-event-date{margin:.2em 0;font-family:'neo-sans',sans-serif;font-weight:500}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .7em;background:#F6F6F6;border-radius:12px;line-height:normal}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-patrocinamos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover,article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{color:#FFFFFF!important}
 article.event-category-propios .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#0E316E;color:#FFFFFF!important}
@@ -260,7 +260,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em}
 .gp-blog-wrapper section .post-thumbnail{margin:0}
 .gp-blog-wrapper section .post-thumbnail img{border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
-.gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'Neo-Sans',sans-serif}
+.gp-blog-wrapper section.category-comerciales time:after{display:inline-block;content:'Exclusivo comerciales';line-height:1;margin-left:8px;padding-left:9px;border-left:1px solid rgba(0,0,0,.2);font-family:'neo-sans',sans-serif}
 .gp-blog-wrapper section:hover,body:not(.single-event) article.event:hover{box-shadow:0 6px 18px 0 rgba(0,0,0,.2);transform:translateY(-2px)}
 .columns{margin-bottom:.5em;line-height:1.2}
 .columns.one.aligncenter{margin-top:0}
@@ -270,13 +270,13 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 #comments{padding-bottom:1em}
 #comments #reply-title{margin-top:0;margin-bottom:0;padding:5px 30px;line-height:150%;background:#FAFAFA}
 #comments #reply-title a{color:#FFFFFF}
-#comments .comment-reply-link,#comments #cancel-comment-reply-link{padding:.2em .4em;color:#F0582B;font-weight:400;font-size:.8em;font-family:'Neo-Sans',sans-serif;background:#FAFAFA;border-radius:6px}
+#comments .comment-reply-link,#comments #cancel-comment-reply-link{padding:.2em .4em;color:#F0582B;font-weight:400;font-size:.8em;font-family:'neo-sans',sans-serif;background:#FAFAFA;border-radius:6px}
 #comments .comment-reply-link:hover,#comments #cancel-comment-reply-link:hover{color:#FFFFFF;background:#F0582B;text-decoration:none}
 .commentlist #respond{display:inline-block;width:100%;margin-top:.5em;padding-left:1em}
-#comments .commentlist li .comment-text .meta{margin-bottom:0;font-family:'Neo-Sans',sans-serif;font-weight:400;font-size:18px}
+#comments .commentlist li .comment-text .meta{margin-bottom:0;font-family:'neo-sans',sans-serif;font-weight:400;font-size:18px}
 #comments .commentlist li [itemprop='author']:after{font-weight:normal;color:#CCCCCC}
 #comments .commentlist li .gp-comment-meta{margin-bottom:0;font-size:.9rem}
-#comments .commentlist li .gp-comment-meta strong{color:#0E316E;font-weight:500;font-family:'Neo-Sans',sans-serif}
+#comments .commentlist li .gp-comment-meta strong{color:#0E316E;font-weight:500;font-family:'neo-sans',sans-serif}
 #comments .commentlist li .gp-comment-meta time{color:#555555;font-size:.8em;font-weight:400}
 #comments .commentlist li .gp-comment-content{margin-left:0}
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
@@ -306,7 +306,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 .wpcf7-list-item{margin-right:1em;font-family:'open-sans',sans-serif;font-weight:400}
 .wpcf7 .wpcf7-list-item.last{margin-right:0}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
-.wpcf7 label{font-size:.9em;font-family:'Neo-Sans',sans-serif}
+.wpcf7 label{font-size:.9em;font-family:'neo-sans',sans-serif}
 .wpcf7-form>label{float:left}
 .wpcf7 label>em,.wpcf7 label div[data-class='wpcf7cf_group'] span{display:block;font-size:.7em;font-family:'open-sans',sans-serif}
 .wpcf7 label>em strong,.wpcf7 label div[data-class='wpcf7cf_group'] span strong{font-weight:600}
@@ -363,7 +363,7 @@ div.wpcf7 .ajax-loader.is-active{visibility:visible}
 .xdsoft_scrollbar>.xdsoft_scroller{border-radius:3px;margin:0;position:relative;top:1px;right:1px}
 .xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_scroller_box{border:1px solid #CCCCCC!important}
 .xdsoft_datetimepicker .xdsoft_calendar{overflow:hidden}
-.xdsoft_datetimepicker .xdsoft_label{width:auto;font-family:'Neo-Sans',sans-serif;font-weight:500}
+.xdsoft_datetimepicker .xdsoft_label{width:auto;font-family:'neo-sans',sans-serif;font-weight:500}
 .xdsoft_datetimepicker .xdsoft_label i,.xdsoft_datetimepicker .xdsoft_prev,.xdsoft_datetimepicker .xdsoft_next,.xdsoft_datetimepicker .xdsoft_today_button{background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-buttons-1.png');background-size:cover}
 .xdsoft_datetimepicker .xdsoft_prev{background-position:-20px 0}
 .xdsoft_datetimepicker .xdsoft_label i{background-position:11px -24px;background-size:120px}
@@ -402,7 +402,7 @@ input.static_gmap+a:hover{border-color:#F0582B}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
 
 /* Cumpleaños */
-.bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:'Neo-Sans',sans-serif;color:#0E316E;font-style:normal}
+.bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:'neo-sans',sans-serif;color:#0E316E;font-style:normal}
 .birthday_wish,.birthday_error{transform:rotate(-1deg);margin:1em 0 .5em;font-weight:500}
 .birthday_wish{margin:0 -2em .5em;background:#0E316E;color:#FFFFFF;font-size:1.5em}
 .bdays_today .birthday_list .birthday_name{margin:0;padding:0;font-size:1.2em;font-weight:500;text-align:center;border:none}
@@ -450,7 +450,7 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 body>.is-search-form{margin:52px auto 1em;width:95%}
 body>.is-search-form.is-form-id-26276 input::placeholder{color:#FFFFFF}
 body>.is-search-form.is-form-id-26276 input:focus{color:#FFFFFF}
-body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;font-family:'Neo-Sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
+body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;font-family:'neo-sans',sans-serif;background:#F0582B;border:none;border-radius:0;border-bottom-left-radius:6px;border-bottom-right-radius:32px;color:#FFFFFF;font-size:1.2em;font-style:normal;padding:.4em;text-align:center}
 .error404 .gp-search{margin-top:1em}
 #content .is-search-input{font-size:1.1em;text-align:center}
 body.fullwidth #content .is-search-input{font-size:1.5em}
@@ -462,7 +462,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .ajax-filelist{height:auto;min-height:auto;font-size:1em}
 #UseyourDrive .files .ajax-filelist{padding:0}
 #UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
-#UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content{font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content{font-family:'neo-sans',sans-serif}
 #UseyourDrive .nav-title{order:0;flex:10 0 0;padding-left:.4em;font-size:1rem}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;line-height:1.2}
 #UseyourDrive .ajax-filelist .entry-info-name{display:inline;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
@@ -472,7 +472,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .entry-info-button:hover,#UseyourDrive .entry.isselected .entry-info-button.entry_checkbox{background:none}
 #UseyourDrive .tippy-box,.UseyourDrive .tippy-box{border-radius:12px;box-shadow:0 0 12px 0 rgba(0,0,0,.4);overflow:hidden}
 #UseyourDrive .tippy-content ul,.UseyourDrive .tippy-content ul{padding:0}
-#UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.8em .6em;font-family:'Neo-Sans',sans-serif}
+#UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.8em .6em;font-family:'neo-sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500}
 #UseyourDrive .files .entry{margin:.4em 0;border-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
@@ -555,7 +555,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .gallery-view-section{background:#FCFCFC;border-radius:12px}
 .gp-pagination{width:100%;margin:1em 0;grid-area:pages;grid-row:initial}
 .gp-pagination ul.page-numbers{margin:0;text-align:center;overflow:visible}
-.gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .7em;color:#F0582B;text-decoration:none;font-size:.9rem;line-height:1.8;font-weight:400;font-family:'Neo-Sans',sans-serif;border-radius:12px}
+.gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .7em;color:#F0582B;text-decoration:none;font-size:.9rem;line-height:1.8;font-weight:400;font-family:'neo-sans',sans-serif;border-radius:12px}
 .gp-pagination ul.page-numbers li a:hover{background:#1F4483;color:#FFFFFF}
 .gp-pagination ul.page-numbers li .page-numbers.current{background:#F0582B;color:#FFFFFF}
 .gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:'Font Awesome 6 Pro'}
@@ -570,7 +570,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 #content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
 #content table th{border-top:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
-#content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child,.padder.category-casos-de-referencia .wpcf7 table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'Neo-Sans',sans-serif}
+#content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child,.padder.category-casos-de-referencia .wpcf7 table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'neo-sans',sans-serif}
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
 #content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:#1C8DCE}
 #content .category-casos-un-focus table td:first-child{background:#39457E}
@@ -622,7 +622,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:0}
 .ui-tabs .ui-tabs-nav li{margin-bottom:.5em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
-#post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:'Neo-Sans',sans-serif;text-decoration:none;background:#F6F6F6;border:1px solid rgba(0,0,0,.1)}
+#post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:'neo-sans',sans-serif;text-decoration:none;background:#F6F6F6;border:1px solid rgba(0,0,0,.1)}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:#FAFAFA}
 #post-content .ui-tabs .ui-tabs-nav li:not(:last-child) a{border-right:none}
 #post-content .ui-tabs .ui-tabs-nav li:first-child a{border-top-left-radius:12px;border-bottom-left-radius:6px}
@@ -633,7 +633,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none}
+.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'neo-sans',sans-serif;font-size:1.2em;line-height:normal;text-align:center;background:#F0582B!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none}
 .sc-button,.sc-button:hover{margin:0}
 .wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{font-weight:500!important;border-radius:12px!important}
 .wpcf7 button:hover,.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
@@ -668,12 +668,12 @@ a.button.fullwidth{width:100%}
 #custom_html-23 .widgettitle{text-align:left}
 #custom_html-23 a:hover img{transform:translateY(0);box-shadow:0 -4px 14px -1px rgba(0,0,0,.2)}
 #custom_html-23 a:hover .url_public_bcard{box-shadow:0 0 14px -1px rgba(0,0,0,.2)}
-.bcard{display:block;margin:0 auto;width:65%;max-width:200px}
+.bcard{display:block;margin:0 auto;width:75%}
 .bcard~.bcard{margin-top:10px}
-.bcard img{transform:translateY(5px);float:left;border:2px solid #0E316E;border-bottom:none;box-shadow:0 -4px 12px -2px rgba(0,0,0,.4);border-top-left-radius:12px;border-top-right-radius:12px}
+.bcard img{transform:translateY(5px);width:100%;border:3px solid #0E316E;border-bottom:none;border-top-left-radius:12px;border-top-right-radius:12px}
 .bcard.silica img{border:2px solid #87B217}
 .bcard.velocom img{border:2px solid #AE1A57}
-.bcard .url_public_bcard{display:block;margin-bottom:5px;padding:.3em .7em;position:relative;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;box-shadow:0 0 12px -1px rgba(0,0,0,.4);background:#0E316E;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;font-family:'Neo-Sans',sans-serif;z-index:10}
+.bcard .url_public_bcard{display:block;margin-bottom:.5em;padding:.3em .7em;position:relative;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:1.2em;box-shadow:0 0 12px -1px rgba(0,0,0,.4);background:#0E316E;border-bottom-left-radius:12px;border-bottom-right-radius:12px;color:#FFFFFF;font-family:'neo-sans',sans-serif;z-index:10}
 .bcard.silica .url_public_bcard{background:#87B217}
 .bcard.velocom .url_public_bcard{background:#AE1A57}
 .bcard:hover img,#custom_html-23 .bcard:hover .url_public_bcard{border-color:#F0582B;background:#F0582B}
@@ -683,7 +683,7 @@ body.post-template-default .yotu-playlist{padding-bottom:0}
 /* Eventos */
 body.single-event #content .eo-event-meta{margin:0 0 15px;width:100%;font-size:.9rem}
 body.single-event #content .eo-event-meta li{margin:.5em 0 .25em;list-style:none}
-body.single-event #content .eo-event-meta li:first-child{margin-bottom:0;font-size:1.5em;font-weight:400;font-family:'Neo-Sans',sans-serif}
+body.single-event #content .eo-event-meta li:first-child{margin-bottom:0;font-size:1.5em;font-weight:400;font-family:'neo-sans',sans-serif}
 body.single-event #content .eo-event-meta li:nth-child(2){margin:0;font-size:1.2em;font-weight:400}
 body.single-event #content .eo-event-meta li:nth-child(2) a{margin-left:0}
 body.single-event #content .eo-event-meta time{font-weight:500}
@@ -707,14 +707,14 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 #wp-calendar tbody td.event a:hover,#wp-calendar tbody td.today a:hover{box-shadow:inset 0 0 0 32px rgba(0,0,0,.2)}
 #wp-calendar tfoot{position:absolute;top:-2px;width:100%}
 #wp-calendar tfoot td{padding:0;font-weight:400;position:absolute}
-#wp-calendar tfoot td a{color:#777777;font-family:'Neo-Sans',sans-serif;font-size:.9em}
+#wp-calendar tfoot td a{color:#777777;font-family:'neo-sans',sans-serif;font-size:.9em}
 #wp-calendar tfoot td#eo-widget-prev-month{left:0}
 #wp-calendar tfoot td#eo-widget-next-month{right:0}
 #wp-calendar tfoot tr td#prev{text-align:left}
 #wp-calendar caption{padding-bottom:1px}
 #wp-calendar caption,#wp-calendar thead tr th{background-color:#FFFFFF;font-size:.8em}
 #wp-calendar caption,.datepick-inline .datepick-header{font-weight:500;margin-bottom:0;padding:0}
-#wp-calendar caption,.datepick-inline .datepick-header span{font-family:'Neo-Sans',sans-serif;color:#777777;text-align:center;text-shadow:none;text-transform:uppercase}
+#wp-calendar caption,.datepick-inline .datepick-header span{font-family:'neo-sans',sans-serif;color:#777777;text-align:center;text-shadow:none;text-transform:uppercase}
 .datepick-inline .datepick-header{font-weight:400;text-shadow:none}
 .datepick-inline .calendar-links .datepick-prev a,.datepick-inline .calendar-links .datepick-next a,.datepick-inline .calendar-links .datepick-prev a:hover,.datepick-inline .calendar-links .datepick-next a:hover{font-weight:400;text-shadow:none}
 .datepick-inline .calendar-links .datepick-next a:hover{text-decoration:underline}
@@ -771,7 +771,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
 
 /* Footer */
-#copyright{padding:2em 1em;font-family:'Neo-Sans',sans-serif;color:#555555}
+#copyright{padding:2em 1em;font-family:'neo-sans',sans-serif;color:#555555}
 #copyright>div:nth-child(1){margin-bottom:.4em;font-size:1.1em}
 #copyright a{color:#555555}
 #copyright a:hover{color:#1F4483;text-decoration:none}
@@ -819,7 +819,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	input,textarea,select{line-height:1.6em}
 	.sidebar{font-size:18px}
 	.gp-responsive #page-wrapper{padding:0}
-	#container #content,.padder,.gp-responsive .sidebar{padding:1em}
+	#container #content,.padder,.gp-responsive .sidebar{padding:1em 1em 0}
+	.gp-responsive .sidebar{margin-top:0}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
 	#nav{position:absolute;top:0;right:0}
@@ -859,6 +860,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.78em}
 	body.home #post-content .ui-tabs .ui-tabs-nav,body.home .wp-block-columns{margin-bottom:0}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
+	.sc-button-social{font-size:2.5em}
 	.jOrgChart table tr.child_box{padding:0}
 	#copyright{padding-top:0;font-size:.7em}
 	#copyright a img{width:160px}
