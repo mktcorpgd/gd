@@ -815,6 +815,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 /* Mobile */
 @media (max-width:782px) {
 	#mobile-nav .menu li a i{display:none!important}
+	#wp-admin-bar-custom-node-2{display:block}
 	body,input,textarea,select{font-size:20px}
 	input,textarea,select{line-height:1.6em}
 	.sidebar{font-size:18px}
