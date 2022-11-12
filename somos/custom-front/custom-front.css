@@ -827,6 +827,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	#logo{margin-top:14px;margin-left:12px}
 	#logo img{width:36px;height:36px}
 	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:8px;padding:.4em;color:#FAFAFA;background:none!important;border-radius:6px;font-size:1.2em;line-height:1}
+	.widget .sc-button.small{margin-right:0;font-size:1.1em}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:#FFFFFF}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:none}
