@@ -595,7 +595,7 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .fusion-post-wrapper .flex-control-paging li a:hover{background:rgba(255,255,255,.6)}
 .fusion-slider-sc .flex-direction-nav a{background:none!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em}
-.fusion-body .fusion-slider-sc .flex-direction-nav a{line-height:.8;color:rgba(0,0,0,.4)}
+.fusion-body .fusion-slider-sc .flex-direction-nav a{padding:0 .5em;line-height:.8;color:rgba(0,0,0,.4)}
 .fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em}
 .whitetxt .content-container h4,.fusion-button.whitetxt:hover .fusion-button-text{color:#FFFFFF}
 .fusion-button.whitetxt:not(.button-custom){border-color:#FFFFFF}
@@ -1137,7 +1137,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-main-menu .country-flag{display:inline-block}
 	body #boxed-wrapper #wrapper .fusion-fullwidth.header-transparent.hundred-percent-height{height:calc(100vh)!important}
 	body #wpadminbar~#boxed-wrapper #wrapper .fusion-fullwidth.header-transparent.hundred-percent-height{height:calc(100vh - 32px)!important}
-	.fusion-portfolio article{transition:all .2s ease-in-out}
+	.fusion-portfolio article{transition:all .1s ease-in-out}
 	.fusion-portfolio article.expanded{height:auto!important}
 	.fusion-portfolio article:not(.expanded) .fusion-buttons{margin:0;padding:0;opacity:0;height:0;overflow:hidden}
 	.fusion-portfolio article.expanded .fusion-buttons{opacity:1;height:auto}
@@ -1148,7 +1148,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-portfolio article .wp-video-shortcode.mejs-video{margin-bottom:.4em}
 	.fusion-portfolio article .more-info{float:left;width:100%;padding:0 1rem;cursor:pointer;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
 	.fusion-portfolio article .more-info.open{font-size:.85em}
-	.fusion-portfolio article .more-info.open i{transition:all .2s ease-in-out;transform:rotate(180deg);position:relative;top:-2px}
+	.fusion-portfolio article .more-info.open i{transition:all .1s ease-in-out;transform:rotate(180deg);position:relative;top:-2px}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;padding-bottom:1em}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:5px;font-size:.85em!important}
 	.tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{font-size:1.2em!important}
