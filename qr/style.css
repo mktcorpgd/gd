@@ -33,7 +33,7 @@ li a{display:block}
 #contact-info li span{color:#FFFFFF;font-family:'neo-sans',sans-serif;font-weight:500;border-bottom:none}
 #contact-info li span.address-block{text-decoration:none}
 #contact-info li:last-child{border:none}
-#contact-info .role{margin:0 auto!important;padding:3px 8px;display:inline-block;width:auto;position:relative;bottom:3px;background:rgba(0,0,0,.3);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-size:60%}
+#contact-info .role{margin:0 auto!important;padding:3px 8px;display:inline-block;width:auto;position:relative;bottom:1px;background:rgba(0,0,0,.3);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-size:70%}
 .social-container,.action-buttons{margin:10px auto 0}
 #download-vcard span,#call-now span{display:block!important}
 ul.social-links{margin-top:1em;text-align:center}
