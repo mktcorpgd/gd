@@ -8,7 +8,7 @@ li a{display:block}
 #wrap,#wrap #main,.action-buttons-container,#footer{margin:0 auto!important;width:100%;max-width:600px!important}
 #wrap #main{padding-bottom:0!important}
 #content{background:none!important}
-#contact-person{padding-top:60px;padding-bottom:40px;background-repeat:no-repeat;background-position:center 20px}
+#contact-person{padding-top:60px;padding-bottom:20px;background-repeat:no-repeat;background-position:center 20px}
 #contact-info li{border:none!important;background:rgba(0,0,0,.4)!important}
 #content{background:rgba(0,0,0,0)}
 #content p.headline{margin-top:30px!important;padding:0 10px!important;font-weight:500;font-size:180%;line-height:1.1;font-family:'neo-sans',sans-serif}
