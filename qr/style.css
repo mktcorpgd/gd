@@ -23,8 +23,8 @@ li a{display:block}
 #contact-info li:hover{background:rgba(0,0,0,.7)!important}
 #contact-info li.odd.mobile.phone-business{margin-top:0;margin-bottom:0}
 #contact-info li.odd.mobile.phone-private{margin-top:5px}
-#content .action-buttons a{width:auto}
-.button.big,.button.big.green{width:auto!important;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)!important}
+#content .action-buttons a{width:fit-content}
+.button.big,.button.big.green{width:fit-content!important;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)!important}
 #contact-info li:hover,#content .action-buttons a:hover,.button.big:hover,.button.big.green:hover{
   color:#FFFFFF!important}
 #content .action-buttons a,.button.big{font-family:'neo-sans',sans-serif;font-weight:500}
