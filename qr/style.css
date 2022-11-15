@@ -17,7 +17,7 @@ li a{display:block}
 #content.vcard-mail-sent .action-buttons>input{width:80%;margin:15px 0;padding:10px 15px;font-family:'open-sans',sans-serif;font-size:120%;color:#555555;text-align:center}
 #content p.hint{margin:30px 0;font-family:'open-sans',sans-serif;font-style:italic;font-weight:400;color:#FFFFFF}
 #content p{font-family:'neo-sans',sans-serif;letter-spacing:0;color:#FFFFFF!important}
-#contact-info li,#content .action-buttons a,.button.big,.button.big.green{transition:all .1s ease-in-out;margin:15px auto;padding:10px 15px;height:auto!important;position:relative!important;left:0!important;font-family:'neo-sans',sans-serif;font-weight:500;font-size:inherit;line-height:1.25;background:none;box-shadow:none;border-radius:16px!important;border:none!important;color:#FFFFFF;letter-spacing:0}
+#contact-info li,#content .action-buttons a,.button.big,.button.big.green{transition:all .1s ease-in-out;margin:15px auto;padding:10px 15px;height:auto!important;position:relative!important;left:0!important;font-family:'neo-sans',sans-serif;font-weight:500;font-size:inherit;line-height:1.2;background:none;box-shadow:none;border-radius:12px!important;border:none!important;color:#FFFFFF;letter-spacing:0}
 #contact-info li{padding:0;width:fit-content}
 #contact-info li a{padding:.4em .8em;color:#FFFFFF}
 #contact-info li:hover{background:rgba(0,0,0,.7)!important}
@@ -32,7 +32,7 @@ li a{display:block}
 #contact-info li span{color:#FFFFFF;font-family:'neo-sans',sans-serif;font-weight:500;border-bottom:none}
 #contact-info li span.address-block{text-decoration:none}
 #contact-info li:last-child{border:none}
-#contact-info .role{margin:0 auto!important;padding:5px 10px;display:inline-block;width:auto;position:relative;bottom:1px;letter-spacing:1px;text-transform:uppercase;background:rgba(0,0,0,.1);border-bottom-left-radius:8px;border-bottom-right-radius:8px;font-weight:500;font-size:60%}
+#contact-info .role{margin:0 auto!important;padding:5px 10px;display:inline-block;width:auto;position:relative;bottom:1px;letter-spacing:1px;text-transform:uppercase;background:rgba(0,0,0,.1);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-weight:500;font-size:60%}
 .social-container,.action-buttons{margin:10px auto 0}
 #download-vcard span,#call-now span{display:block!important}
 ul.social-links{text-align:center}
