@@ -1,5 +1,5 @@
 body {background-color:#222222!important;background-image:url(https://somos.grupodatco.com/wp-content/uploads/soccer-sport-stadium-at-night-scaled.jpg)!important;background-position:top center;background-repeat:no-repeat;background-size:100%;background-attachment:fixed!important}
-#header,.is-search-form,#copyright>div:nth-child(1),#wpadminbar,.gp-post-meta{display:none!important}
+#header,.is-search-form,#copyright>div:nth-child(1),#wpadminbar,.gp-post-meta,#webpushr-prompt-wrapper{display:none!important}
 #page-wrapper{padding-top:1em;padding-bottom:1em}
 body:not(.home) .padder{background:#222222!important;color:#FFFFFF!important}
 body.page #content h1{color:#FFFFFF!important}
