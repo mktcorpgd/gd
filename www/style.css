@@ -1007,7 +1007,6 @@ body.home .tab-filters .tab-pane{background:none!important}
 .radius2x{border-radius:24px;overflow:hidden}
 .radius2xbottom{border-bottom-right-radius:24px;border-bottom-left-radius:24px}
 body.page.page-template-100-width .post-content>.fusion-fullwidth.radius2x{border-radius:0}
-.fusion-imageframe{width:100%}
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .radius-rounded{border-radius:256px!important}
 span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
