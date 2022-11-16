@@ -8,12 +8,14 @@ li a{display:block}
 #wrap,#wrap #main,.action-buttons-container,#footer{margin:0 auto!important;width:100%;max-width:600px!important}
 #wrap #main{padding-bottom:0!important}
 #content{background:none!important}
-#contact-person{padding-top:60px;padding-bottom:20px;background-repeat:no-repeat;background-position:center 20px}
+#content .action-buttons-container{padding-bottom:20px}
+#contact-person{padding-top:60px;background-repeat:no-repeat;background-position:center 20px}
 #contact-info li{border:none!important;background:rgba(0,0,0,.4)!important}
 #content{background:rgba(0,0,0,0)}
 #content p.headline{margin-top:30px!important;padding:0 10px!important;font-weight:500;font-size:180%;line-height:1.1;font-family:'neo-sans',sans-serif}
 #content p.position{padding:10px 30px;font-size:125%;line-height:1.25;font-family:'neo-sans',sans-serif;font-weight:500}
-#content.vcard-mail-sent p.position{padding:20px 0 0;font-size:100%;line-height:1.15;font-weight:500;font-family:'open-sans',sans-serif}
+#content.vcard-mail-sent p.position{padding-bottom:0;font-size:.9em;line-height:1.15;font-weight:500;font-family:'open-sans',sans-serif}
+#content.vcard-mail-sent #contact-person{padding-bottom:20px}
 #content.vcard-mail-sent .action-buttons>input{width:90%;margin:15px 0;padding:6px 12px;font-family:'open-sans',sans-serif;font-size:100%;color:#555555;text-align:center;border:2px solid rgba(0,0,0,.4)}
 #content p.hint{margin:30px 0;font-family:'open-sans',sans-serif;font-style:italic;font-weight:400;color:#FFFFFF}
 #content p{font-family:'neo-sans',sans-serif;letter-spacing:0;color:#FFFFFF!important}
@@ -28,7 +30,6 @@ li a{display:block}
 #contact-info li:hover,#content .action-buttons a:hover,.button.big:hover,.button.big.green:hover{
   color:#FFFFFF!important}
 #content .action-buttons a,.button.big{font-family:'neo-sans',sans-serif;font-weight:500}
-#content .action-buttons a{margin-bottom:5px!important}
 #contact-info li span{color:#FFFFFF;font-family:'neo-sans',sans-serif;font-weight:500;border-bottom:none}
 #contact-info li span.address-block{text-decoration:none}
 #contact-info li:last-child{border:none}
