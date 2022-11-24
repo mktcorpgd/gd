@@ -410,6 +410,9 @@ jQuery(document).ready(function() {
 					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('disabled');
 				}
+				else if ( checkbox_name == 'TRASNOT[]' ) {
+					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('disabled').removeAttr('readonly');
+				}
 				else {
 					jQuery('input[name='+inputtext_name+']').val('').removeAttr('disabled');
 				}
