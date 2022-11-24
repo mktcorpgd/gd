@@ -19,7 +19,7 @@ body a,.related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carou
 .white .wpcf7 .wpcf7-submit:hover{background:var(--subColor)!important}
 body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:rgba(255,255,255,.8)}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:var(--mainColor)!important}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.table-2 thead tr td,.fusion-carousel .fusion-carousel-item img,.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background-color:var(--mainColor)}
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.table-2 thead tr td,.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background-color:var(--mainColor)}
 .related-posts .fusion-carousel .fusion-carousel-item .fusion-carousel-title a{color:var(--mainColor)}
 input[type='submit']:hover,.wpcf7-submit:hover{background-color:var(--highlightColor)}
 .bkg-img-color,.box-buttons .fusion-portfolio-content .fusion-button, .box-buttons .fusion-post-content .fusion-button{background-color:var(--highlightColor)}
