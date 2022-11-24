@@ -308,7 +308,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label{font-size:.9em;font-family:'neo-sans',sans-serif}
 .wpcf7-form>label{float:left}
-.wpcf7 div[data-class='wpcf7cf_group']{clear:both}
+.wpcf7 div[data-id='paxb']{clear:both}
 .wpcf7 label>em,.wpcf7 label div[data-class='wpcf7cf_group'] span{display:block;font-size:.7em;font-family:'open-sans',sans-serif}
 .wpcf7 label>em strong,.wpcf7 label div[data-class='wpcf7cf_group'] span strong{font-weight:600}
 .wpcf7 label strong{font-weight:500}
