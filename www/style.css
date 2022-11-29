@@ -647,6 +647,7 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 /* Blog/Portfolio */
 .fusion-portfolio{overflow:visible}
 .fusion-portfolio-content-wrapper .fusion-portfolio-content{margin:0!important}
+.fusion-portfolio-one .fusion-image-wrapper{margin-bottom:0}
 .fusion-blog-shortcode .fusion-portfolio-grid .fusion-post-content-wrapper{background-color:#FFFFFF}
 .fusion-post-content-wrapper>div>div>p a i{font-size:14px;margin-left:2px;opacity:.3}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:0}
