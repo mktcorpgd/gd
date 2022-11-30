@@ -914,7 +914,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .outside-arrows .fusion-carousel .fusion-carousel-nav button:before{color:rgba(0,0,0,.4)}
 .outside-arrows .fusion-carousel .fusion-carousel-nav button:before:hover{color:rgba(0,0,0,.8)}
 .outside-arrows .fusion-carousel .fusion-carousel-nav .fusion-nav-prev{left:0}
-.gray-to-color .fusion-carousel img{transition:all 1s ease-in-out;filter:saturate(0%)}
+.gray-to-color .fusion-carousel img{transition:all .5s ease-in-out;filter:saturate(0%)}
 .gray-to-color .fusion-carousel img:hover{filter:saturate(100%)}
 .related-posts{float:left;width:100%}
 .related-posts .fusion-carousel,.related-posts .fusion-carousel .fusion-carousel-wrapper{overflow:visible!important}
