@@ -981,7 +981,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .pagination .current{border-radius:12px}
 
 /* Social */
-.fusion-footer .fusion-social-network-icon{display:inline-block;margin:0 6px;width:24px;color:#777777!important;opacity:.9}
+.fusion-footer .fusion-social-network-icon{display:inline-block;margin:0 8px;width:24px;text-align:center;opacity:.9}
 .fusion-footer .fusion-social-network-icon:hover{opacity:1}
 
 /* Otros */
