@@ -1125,10 +1125,10 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	body.single-format-standard .fusion-page-title-bar .fusion-breadcrumbs{max-width:300px}
 	.modal iframe{max-height:400px!important}
 	.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.box-company,.fusion-content-boxes.shadow>.fusion-column>.col,.related-posts .fusion-carousel .fusion-carousel-item{transition:all .1s ease-in-out}
-	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-4px)}
-	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover,.box-company:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4);transform:translateY(-2px)}
-	.fusion-content-boxes.shadow>.fusion-column>.col:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-4px);background:#FFFFFF}
-	.related-posts .fusion-carousel .fusion-carousel-item:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4);transform:translateY(-2px)}
+	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
+	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover,.box-company:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
+	.fusion-content-boxes.shadow>.fusion-column>.col:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px);background:#FFFFFF}
+	.related-posts .fusion-carousel .fusion-carousel-item:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
 	body:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{position:sticky;top:95px}
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
