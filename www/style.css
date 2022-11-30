@@ -12,7 +12,7 @@ article.category-c-nosotros .fusion-single-line-meta,
 .fusion-post-title-meta-wrap h2,
 .related-posts .fusion-carousel-meta span:not(.fusion-date),
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,.fusion-portfolio-meta a[href*='/c-solo-contacto'],body.single-avada_portfolio .related-posts .fusion-carousel-meta,
-.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,article.fusion-post-grid.category-tips-para-empresas h2.fusion-post-title,article.category-tips-para-empresas .related-posts .fusion-carousel-title,body.single-format-video article .fusion-flexslider,.pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,.modal .not-modal{display:none!important}
+.fusion-footer-widget-column div.wpcf7 .wpcf7-form-control-wrap:before,.fusion-portfolio-grid .fusion-portfolio-buttons,footer .textwidget div.wpcf7:before,.fusion-theme-sharing-box.share-box h4,.fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],.not-selected,.fusion-theme-sharing-box h4,.fusion-testimonials.clean .testimonial-thumbnail,article.fusion-post-grid.category-tips-para-empresas h2.fusion-post-title,article.category-tips-para-empresas .related-posts .fusion-carousel-title,body.single-format-video article .fusion-flexslider,.pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,.modal .not-modal,.to-top-container{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales span,body.no-partners .fusion-footer .partners,.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
@@ -46,10 +46,6 @@ h2 em,h3 em{font-style:normal;text-decoration:underline}
 .fusion-content-boxes.text-align-left .icon,.fusion-content-boxes.text-align-left .icon i{display:inline-block!important}
 .fusion-content-boxes.text-align-left .icon{margin-left:5px}
 .fusion-content-boxes .content-container p{margin-bottom:10px}
-.to-top-container #toTop{width:48px;height:48px;bottom:15px!important;right:15px!important;background:none}
-.to-top-right #toTop{right:85px}
-#toTop:before{color:rgba(70,70,70,.8);font-size:2em}
-.to-top-container #toTop:hover:before{color:rgba(0,0,0,.6)}
 h3 img[src*='flag-']{width:22px;height:22px;top:4px}
 h4 img[src*='flag-']{top:4px!important}
 .bkg-cover,.bkg-cover .fusion-column-wrapper{background-size:cover!important}
