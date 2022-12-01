@@ -556,86 +556,86 @@ jQuery(document).ready(function() {
 		jQuery('input[name="TITLE"]').each(function() {
 			jQuery(this).attr('value',entry_title);
 		});
-		if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
-			if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
-				jQuery('input[name*="SRC"]').val(jQuery('body').attr('data-refer')+' => '+window.location.href);
-			}
-			else if ( jQuery('input[name="HREF"]').length ) {
-				jQuery('input[name="HREF"]').val(window.location.href);
-			}
-		}
-		// Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
-		if ( jQuery('body').hasClass('page-id-42955') || jQuery('body').hasClass('page-id-26163') || jQuery('body').hasClass('page-id-39457') || jQuery('body').hasClass('page-id-39485') || jQuery('body').hasClass('page-id-26159') || jQuery('body').hasClass('page-id-26161') || jQuery('body').hasClass('page-id-26165') ) {
-			var src_input = jQuery('input[name*="SRC"]').val();
-			jQuery('input[name*="SRC"]').val(src_input+'+UN');
-		}
-		var mail_href = jQuery('.fusion-main-menu a[href*=mailto]').attr('href');
-		if ( mail_href !== undefined ) {
-			if ( mail_href.indexOf('?subject') === -1 ) {
-				jQuery('.fusion-header a[href*=mailto]').attr('href',mail_href+'?subject=Contacto desde '+window.location);
-			}
-		}
-		var site_id = jQuery('body').attr('class');
-		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
-		site_id = site_id.trim();
-		var page_id = jQuery('body').attr('class');
-		page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
-		page_id = page_id.trim();
-		var leadmkt = '';
-		var idform = jQuery('.wpcf7').attr('id');
-		idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
-		idform = idform.substring(0,idform.indexOf('-'));
-		var src = jQuery('input[name*="SRC"]').val();
-		// Asignar origen según sitio web
-		if ( site_id == 1 ) { // GD - grupodatco.com
-			if ( page_id == 43399 ) { // IOP
-				leadmkt = 'IOP';
-			}
-			else if ( page_id == 23431 ) { // IOT
-				leadmkt = 'IOT';
-			}
-			else if ( page_id == 26159 ) { // DSW
-				leadmkt = 'DSW';
-			}
-			else if ( page_id == 26163 ) { // DIT
-				leadmkt = 'DIT';
-			}
-			else if ( page_id == 26159 ) { // F
-				leadmkt = 'F';
-			}
-			else if ( page_id == 26161 ) { // I
-				leadmkt = 'I';
-			}
-			else if ( page_id == 26165 ) { // ST
-				leadmkt = 'ST';
+	}
+	if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
+		if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
+			console.log(jQuery('body').attr('data-refer').length);
+			if ( jQuery('body').attr('data-refer').length ) {
+				jQuery('input[name*="SRC"]').val(jQuery('body').attr('data-refer')+'|'+window.location.href);
 			}
 			else {
-				leadmkt = 'GD';
-				jQuery('input[name*="SRC"]').val(src);	
+				jQuery('input[name*="SRC"]').val(window.location.href);
 			}
 		}
-		else if ( site_id == 5 ) { // silicanetworks.com
-			leadmkt = 'SCO'
-			jQuery('input[name*="SRC"]').val(src);
+		else if ( jQuery('input[name="HREF"]').length ) {
+			jQuery('input[name="HREF"]').val(window.location.href);
 		}
-		else if ( site_id == 16 ) { // smartime.com.ar
+	}
+	// Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
+	if ( jQuery('body').hasClass('page-id-42955') || jQuery('body').hasClass('page-id-26163') || jQuery('body').hasClass('page-id-39457') || jQuery('body').hasClass('page-id-39485') || jQuery('body').hasClass('page-id-26159') || jQuery('body').hasClass('page-id-26161') || jQuery('body').hasClass('page-id-26165') ) {
+		var src_input = jQuery('input[name*="SRC"]').val();
+		jQuery('input[name*="SRC"]').val(src_input+'+UN');
+	}
+	// Asignar orígen de lead
+	var site_id = jQuery('body').attr('class');
+	site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
+	site_id = site_id.trim();
+	var page_id = jQuery('body').attr('class');
+	page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
+	page_id = page_id.trim();
+	var leadmkt = '';
+	var idform = jQuery('.wpcf7').attr('id');
+	idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
+	idform = idform.substring(0,idform.indexOf('-'));
+	var src = jQuery('input[name*="SRC"]').val();
+	if ( site_id == 1 ) { // GD - grupodatco.com
+		if ( page_id == 43399 ) { // IOP
 			leadmkt = 'IOP';
 		}
-		else if ( site_id == 25 ) { // baitcon.com
-			leadmkt = 'B';
-			jQuery('input[name*="SRC"]').val(src);	
+		else if ( page_id == 23431 ) { // IOT
+			leadmkt = 'IOT';
 		}
-		else if ( site_id == 26 ) { // redcapricornio.net
-			leadmkt = 'SIT';
+		else if ( page_id == 26159 ) { // DSW
+			leadmkt = 'DSW';
 		}
-		else if ( site_id == 28 ) { // velocomfibra.com.ar
-			leadmkt = 'V';
+		else if ( page_id == 26163 ) { // DIT
+			leadmkt = 'DIT';
+		}
+		else if ( page_id == 26159 ) { // F
+			leadmkt = 'F';
+		}
+		else if ( page_id == 26161 ) { // I
+			leadmkt = 'I';
+		}
+		else if ( page_id == 26165 ) { // ST
+			leadmkt = 'ST';
 		}
 		else {
 			leadmkt = 'GD';
+			jQuery('input[name*="SRC"]').val(src);	
 		}
-		jQuery('input[name=LEADMKT]').val('MKT-'+leadmkt);
 	}
+	else if ( site_id == 5 ) { // silicanetworks.com
+		leadmkt = 'SCO'
+		jQuery('input[name*="SRC"]').val(src);
+	}
+	else if ( site_id == 16 ) { // smartime.com.ar
+		leadmkt = 'IOP';
+	}
+	else if ( site_id == 25 ) { // baitcon.com
+		leadmkt = 'B';
+		jQuery('input[name*="SRC"]').val(src);	
+	}
+	else if ( site_id == 26 ) { // redcapricornio.net
+		leadmkt = 'SIT';
+	}
+	else if ( site_id == 28 ) { // velocomfibra.com.ar
+		leadmkt = 'V';
+	}
+	else {
+		leadmkt = 'GD';
+	}
+	jQuery('input[name=LEADMKT]').val('MKT-'+leadmkt);
 
 
 	// FORMULARIOS - Limpiar espacios iniciales y finales al cambiar/salir de campo (blur)
