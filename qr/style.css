@@ -13,7 +13,13 @@ li a{display:block}
 #content ul li{border:none!important}
 #content ul#contact-info li,#content ul.contact-address li{background:rgba(0,0,0,.4)!important}
 #content ul#contact-info li:hover,#content ul.contact-address li:hover{background:rgba(0,0,0,.7)!important}
-#content ul.qr-hint li{padding:.5em}
+#content ul.qr-hint{margin:0 auto 2em;padding-top:70px;max-width:fit-content;border:none;box-shadow:none;box-shadow:0 0 0 6px rgba(255,255,255,.2);border-radius:12px;background-repeat:no-repeat;background-position:center 20px}
+#content ul.qr-hint .qr-code{width:200px}
+#content ul.qr-hint li{margin-top:0;padding:.5em}
+#content ul.social-links{margin-top:1em;text-align:center}
+#content ul.social-links li a{opacity:.9}
+#content ul.social-links li a:hover{opacity:1}
+#content ul.social-links img{border-radius:12px}
 #content{background:rgba(0,0,0,0)}
 #content .button{display:inline-block;margin:0 .2em .5em;padding:.4em .6em;font-size:.7em;font-weight:400;border-radius:6px!important}
 #content p.headline{margin-top:30px!important;padding:0 10px!important;font-weight:500;font-size:180%;line-height:1.1;font-family:'neo-sans',sans-serif}
@@ -39,5 +45,3 @@ li a{display:block}
 #content ul .role{margin:0 auto!important;padding:3px 8px;display:inline-block;width:auto;position:relative;bottom:1px;background:rgba(0,0,0,.3);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-size:70%}
 .social-container,.action-buttons{margin:10px auto 0}
 #download-vcard span,#call-now span{display:block!important}
-ul.social-links{margin-top:1em;text-align:center}
-ul.qr-hint{margin:0 auto 2em;padding-top:70px;max-width:fit-content;border:none;box-shadow:none;box-shadow:0 0 0 6px rgba(255,255,255,.2);border-radius:12px;background-repeat:no-repeat;background-position:center 20px}
