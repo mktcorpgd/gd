@@ -5,6 +5,7 @@ html,body{margin:0;padding:0}
 body{background-size:cover;background-attachment:fixed!important;font-size:1.4em}
 input,select,textarea{border-radius:12px!important;outline:none!important}
 li a{display:block}
+#content ul li,#content .action-buttons a,.button.big,.button.big.green,#content ul.social-links li a{transition:all .1s ease-in-out}
 #wrap,#wrap #main,.action-buttons-container,#footer{margin:0 auto!important}
 #wrap #main{padding-bottom:0!important}
 #content{background:none!important}
@@ -29,7 +30,7 @@ li a{display:block}
 #content.vcard-mail-sent .action-buttons>input{width:90%;margin:15px 0;padding:6px 12px;font-family:'open-sans',sans-serif;font-size:100%;color:#555555;text-align:center;border:2px solid rgba(0,0,0,.4)}
 #content p.hint{margin:30px 0;font-family:'open-sans',sans-serif;font-style:italic;font-weight:400;color:#FFFFFF}
 #content p{font-family:'neo-sans',sans-serif;letter-spacing:0;color:#FFFFFF!important}
-#content ul li,#content .action-buttons a,.button.big,.button.big.green{transition:all .1s ease-in-out;margin:15px auto;padding:10px 15px;height:auto!important;position:relative!important;left:0!important;font-family:'neo-sans',sans-serif;font-weight:500;font-size:.9em;line-height:1.2;background:none;box-shadow:none;border-radius:12px!important;border:none!important;color:#FFFFFF;letter-spacing:0}
+#content ul li,#content .action-buttons a,.button.big,.button.big.green{margin:15px auto;padding:10px 15px;height:auto!important;position:relative!important;left:0!important;font-family:'neo-sans',sans-serif;font-weight:500;font-size:.9em;line-height:1.2;background:none;box-shadow:none;border-radius:12px!important;border:none!important;color:#FFFFFF;letter-spacing:0}
 #content ul li{padding:0;width:fit-content}
 #content ul li a{padding:.3em .6em;color:#FFFFFF}
 #content ul li.odd.mobile.phone-business{margin-top:0;margin-bottom:0}
