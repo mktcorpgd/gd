@@ -5,7 +5,7 @@ html,body{margin:0;padding:0}
 body{background-size:cover;background-attachment:fixed!important;font-size:1.4em}
 input,select,textarea{border-radius:12px!important;outline:none!important}
 li a{display:block}
-#wrap,#wrap #main,.action-buttons-container,#footer{margin:0 auto!important;width:100%;max-width:600px!important}
+#wrap,#wrap #main,.action-buttons-container,#footer{margin:0 auto!important}
 #wrap #main{padding-bottom:0!important}
 #content{background:none!important}
 #content .action-buttons-container{padding:0 10px 20px}
