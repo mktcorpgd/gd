@@ -344,6 +344,7 @@ body.single-avada_portfolio .header-transparent #content{width:100%}
 .flexslider .slides .caption img[src*='flag-']{margin:.75em .2em 0;width:1.2em!important;height:1.2em!important;border-radius:48px}
 .flexslider .slides .caption a+img[src*='partner']{margin:12px 0 0 30px}
 .post-content .fusion-text h4{margin:2em 0 .5em}
+.fusion-image-element{display:inline-block}
 
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
