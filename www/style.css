@@ -761,8 +761,7 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 #wrapper.header-transparent.on-top .fusion-secondary-header{background:none}
 #wrapper.header-transparent,body.customize-support #wrapper.header-transparent{padding-top:0!important}
 #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,body.home .tfs-slider .slide-content-container h2{color:#FFFFFF!important}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.tfs-slider .heading h2,.hero-img .fusion-title-1 h1{line-height:1.1;font-weight:500}
-.tfs-slider .heading h2{margin-bottom:16px!important;font-size:.9em!important}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.tfs-slider .heading h2,.hero-img .fusion-title-1 h1{line-height:1.1!important;font-weight:500}
 #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-weight:400!important}
 
 .tfs-slider .caption .fusion-title h3{font-size:1.05em!important}
