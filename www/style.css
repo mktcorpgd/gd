@@ -344,6 +344,7 @@ body.single-avada_portfolio .header-transparent #content{width:100%}
 .flexslider .slides .caption img[src*='flag-']{margin:.75em .2em 0;width:1.2em!important;height:1.2em!important;border-radius:48px}
 .flexslider .slides .caption a+img[src*='partner']{margin:12px 0 0 30px}
 .post-content .fusion-text h4{margin:2em 0 .5em}
+.fusion-image-element{display:inline-block}
 
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
@@ -473,10 +474,10 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 /* Footer */
 .fusion-footer-widget-area{padding-top:32px!important;background:#222222!important}
 .fusion-widget-area .sub-menu{margin-left:0!important}
-.fusion-footer-widget-area .widget-title{margin-bottom:.5em;font-size:80%;text-transform:uppercase}
+.fusion-footer-widget-area .widget-title{color:#FFFFFF;margin-bottom:.5em;font-size:80%;text-transform:uppercase}
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:#FFFFFF}
-.fusion-footer-widget-area ul{margin:15px 0}
-.fusion-footer-widget-area ul li{padding:5px 0!important;border:0!important}
+.fusion-footer-widget-area ul{margin:15px 0;padding-left:0;list-style:none}
+.fusion-footer-widget-area ul li{padding:5px 0!important;line-height:1.25;border:0!important}
 .fusion-footer-widget-area .widget_nav_menu li.social-link{display:inline-block;padding-right:10px!important}
 .fusion-footer-widget-area ul li:not(.social-link) a{font-size:.8em;line-height:1.2}
 .fusion-footer-widget-area ul li:not(.social-link) a:hover{text-decoration:underline}
@@ -760,9 +761,9 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 #wrapper.header-transparent.on-top .fusion-secondary-header{background:none}
 #wrapper.header-transparent,body.customize-support #wrapper.header-transparent{padding-top:0!important}
 #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,body.home .tfs-slider .slide-content-container h2{color:#FFFFFF!important}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.tfs-slider .heading h2,.hero-img .fusion-title-1 h1{font-size:3.4em!important;line-height:1.1!important;font-weight:500}
-.tfs-slider .heading h2{margin-bottom:16px!important;font-size:.9em!important}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-size:1.6em!important;font-weight:400!important}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.tfs-slider .heading h2,.hero-img .fusion-title-1 h1{line-height:1.1!important;font-weight:500}
+.tfs-slider .heading h2{margin-bottom:20px!important}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-weight:400!important}
 
 .tfs-slider .caption .fusion-title h3{font-size:1.05em!important}
 #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{line-height:1.3!important}
@@ -1045,7 +1046,7 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 .fusion-copyright-notice>div>div:nth-child(2){padding-right:3em;text-align:right;font-size:.8em}
 #footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
 #reviews input#submit,.button-default,.button.default,.fusion-button-default,.wpcf7 input[type='submit'],.wpcf7-submit,.button-round,.fusion-.fusion-button-round,.fusion-button-round,.button-round.button-xlarge,.fusion-.fusion-button-round.button-xlarge,.fusion-button-round.button-xlarge,.fusion-body .fusion-button{border-radius:12px!important}
-#main #comment-submit,#main .comment-submit,#reviews input#submit,.comment-form input[type="submit"],.fusion-button-default-size,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type="submit"],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type="submit"],.wpcf7-form input[type="submit"],.wpcf7-submit{text-align:center;line-height:1.1!important;font-size:1em!important}
+#main #comment-submit,#main .comment-submit,#reviews input#submit,.comment-form input[type="submit"],.fusion-button-default-size,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type="submit"],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type="submit"],.wpcf7-form input[type="submit"],.wpcf7-submit{text-align:center;line-height:1.1!important;font-size:1em!important;font-weight:600}
 .wpcf7-form input[type="submit"],.wpcf7-submit{margin-top:.5em;padding:.5em .7em .6em}
 .fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']):hover,.fusion-column-wrapper .wpcf7 select:not(.highlight):not(:disabled):hover,.fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.white .fusion-one-full input:not([type='submit']),.white .fusion-one-full select,.white .fusion-one-full textarea{background:#FFFFFF!important}
 .white .wpcf7 input:not([type='submit']),body.error404 .searchform input,.white .fusion-column-wrapper .wpcf7 select:not(:disabled):hover,.white .fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.fusion-tabs:not(.tab-filters) .nav{background:#FAFAFA}
