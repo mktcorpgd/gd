@@ -366,27 +366,29 @@ jQuery(document).ready(function() {
 			}
 			e.preventDefault();
 		});
-		jQuery('html').on('click',function(e) {
-			var expanded = e.target.closest('.expanded');
-			console.log(expanded);
-			if (!expanded) {
-				jQuery('.fusion-portfolio article').removeClass('visible').removeClass('expanded').removeClass('opacity');
-				jQuery('.more-info').removeClass('open');
-				jQuery('.more-info span').text(btn_info);
-			}
-		});
-		jQuery(document).on('keydown',function(e) {
-			if ( e.key == 'Escape' ) {
-				jQuery('.fusion-portfolio article').removeClass('visible').removeClass('expanded').removeClass('opacity');
-				jQuery('.more-info').removeClass('open');
-				jQuery('.more-info span').text(btn_info);
-			}
-		});
-		var zindex = 999;
-		jQuery('.fusion-portfolio,.fusion-portfolio article').each(function(i) {
-			zindex--;
-			jQuery(this).css('z-index',zindex);
-		});
+		if ( jQuery('.fusion-portfolio').length ) {
+			jQuery('html').on('click',function(e) {
+				var expanded = e.target.closest('.expanded');
+				if (!expanded) {
+					jQuery('.fusion-portfolio article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+					jQuery('.more-info').removeClass('open');
+					jQuery('.more-info span').text(btn_info);
+				}
+			});
+			jQuery(document).on('keydown',function(e) {
+				if ( e.key == 'Escape' ) {
+					jQuery('.fusion-portfolio article').removeClass('visible').removeClass('expanded').removeClass('opacity');
+					jQuery('.more-info').removeClass('open');
+					jQuery('.more-info span').text(btn_info);
+				}
+			});
+			var zindex = 999;
+			jQuery('.fusion-portfolio,.fusion-portfolio article').each(function(i) {
+				zindex--;
+				jQuery(this).css('z-index',zindex);
+			});
+		}
+
 	}
 
 	// CONTENIDO - Mostrar mes actual en legales
