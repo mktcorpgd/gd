@@ -629,7 +629,6 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .hero-img .fusion-title-1{margin-bottom:.5em}
 .hero-img h1,.hero-img h4{color:#FFFFFF!important}
 .hero-img h4{font-size:1.2em;text-align:center}
-.post-content .fusion-content-widget-area h4{margin-bottom:0!important}
 
 /* Overlays */
 .project-description>h3+.radius2x:after,.fusion-fullwidth.hero-img:after,.fusion-fullwidth.fullwidth-box.tfs-slider:after,.tfs-slider li .background:after,.tfs-slider li .mobile_video_image:after{content:'';display:block!important;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:2;position:absolute;left:0;bottom:0;width:100%}
@@ -1096,7 +1095,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.modal-sm{width:600px}
 	body #wrapper #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck{margin-top:30px}
 	body.single-format-standard:not(.single-avada_portfolio):not(.sidebar-cta) #wrapper #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck{position:relative!important;top:0!important}
-	.post-content .fusion-widget-area-1 .widget .heading h4{margin-top:0;margin-bottom:.25em!important;line-height:1.15!important}
 	.fusion-page-title-bar-left .fusion-page-title-secondary{margin-right:10px}
 	.fusion-page-title-bar-left .fusion-page-title-secondary .fusion-breadcrumbs{padding-top:10px!important;padding-bottom:0!important}
 	.fusion-breadcrumbs .fusion-breadcrumb-item{display:inline-block;padding:0 2px}
