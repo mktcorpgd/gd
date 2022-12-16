@@ -627,9 +627,8 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .fusion-fullwidth.light .fusion-column-wrapper h2+p{font-family:'open-sans',sans-serif!important;color:rgba(255,255,255,.9);font-size:20px!important;line-height:28px;font-weight:400}
 .hero-img+.fusion-fullwidth:not(.hundred-percent-fullwidth){padding-top:48px!important}
 .hero-img .fusion-title-1{margin-bottom:1em}
-.hero-img .fusion-title-1 h1{color:#FFFFFF;margin-top:0}
-.hero-img .fusion-title-2{margin-top:0}
-.hero-img .fusion-title-2 h4{color:#FFFFFF;font-size:1.2em;text-align:center}
+.hero-img h1,.hero-img h4{color:#FFFFFF!important}
+.hero-img h4{font-size:1.2em;text-align:center}
 .post-content .fusion-content-widget-area h4{margin-bottom:0!important}
 
 /* Overlays */
