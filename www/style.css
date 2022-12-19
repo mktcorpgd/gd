@@ -815,7 +815,7 @@ body.post-template-default.single-format-standard .fusion-page-title-bar .fusion
 .meta-tags a{cursor:text}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:#555555}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{margin-top:10px}
-.fusion-single-line-meta,.fusion-portfolio-meta{float:left;padding:0 1rem .4rem}
+.fusion-single-line-meta,.fusion-portfolio-meta{float:left;padding:0 1rem .4rem;line-height:1}
 article.category-tips-para-empresas .fusion-single-line-meta{padding-top:10px}
 .fusion-single-line-meta>span:not(.meta-tags),.fusion-single-line-meta a,.fusion-portfolio-meta a,.fusion-carousel-meta span,.fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a{border-bottom:0!important;color:#555555!important;font-size:1em;text-decoration:none}
 .fusion-single-line-meta a:hover,.fusion-portfolio-meta a:hover,.fusion-meta-info-wrapper a:hover{text-decoration:underline}
