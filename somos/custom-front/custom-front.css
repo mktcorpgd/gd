@@ -107,7 +107,7 @@ span.resaltado-verde{color:#76923C}
 
 /* Admin */
 #wpadminbar{position:fixed;top:0;border-bottom:1px solid rgba(0,0,0,.2);z-index:999999}
-#wpadminbar .ab-icon,#wpadminbar .ab-item:before{margin-right:2px!important;font-family:'dashicons'}
+#wpadminbar .ab-icon,#wpadminbar .ab-item:before{margin-right:6px!important;font-family:'dashicons'}
 #wpadminbar #wp-admin-bar-new-content .ab-icon:before{top:2px}
 #wpadminbar,#wpadminbar .shortlink-input,#wpadminbar .menupop .ab-sub-wrapper{background:#0E316E!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 16px 16px -10px rgba(0,0,0,.4)!important}
