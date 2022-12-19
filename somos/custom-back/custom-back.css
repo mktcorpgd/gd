@@ -8,7 +8,7 @@
 /* Admin bar */
 #wp-admin-bar-connections-link-view,#wp-admin-bar-wp-logo,#wp-admin-bar-wpfront-user-role-editor-add-new,#wp-admin-bar-dem_settings,.wp-list-table .column-in_posts,#wp-admin-bar-easy-updates-manager-admin-bar,body.role-subscriber #wp-admin-bar-new-content,.wp-menu-arrow,ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after,
 /* Editor */
-body:not(.role-editor) #wp-admin-bar-altas-bajas,
+body:not(.role-capital_humano) #wp-admin-bar-altas-bajas,
 /* Plugins */
 .plugins-php #bulk-action-form span:not(.activate):not(.deactivate):not(.edit):not(.delete),.plugin-version-author-uri a,.plugin-description .active.second,
 /* Usuarios */
