@@ -2,7 +2,7 @@
 @import url(https://git.grupodatco.com/fonts/webfonts.css);
 /* Oculto forzado */
 /* Admin */
-#wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
+#wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,#wp-admin-bar-altas-bajas,
 /* Not AR */
 body:not([class*='office-ar']) section[class*='category-visibilidad-solo-ar'],
 /* Metas */
