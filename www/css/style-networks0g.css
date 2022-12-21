@@ -16,7 +16,7 @@
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-portfolio article .more-info:hover{color:#692D87!important}
 .fusion-fullwidth.fullwidth-box.gradient-0g:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-0g:after{content:'';display:block!important;width:100%;height:100%;position:absolute;top:0;left:0;background:linear-gradient(270deg,rgba(76,25,104,0) 50%,#692D87 100%)!important;z-index:1}
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#692D87!important}
-.post-content .fusion-fullwidth:not(.white) h2,.fusion-fullwidth:not(.white) .heading .content-box-heading,.fusion-fullwidth:not(.white) .fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon,.fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no{color:#692D87!important}
+.post-content .fusion-fullwidth:not(.white) h2,.fusion-fullwidth:not(.white) .heading .content-box-heading,.fusion-fullwidth:not(.white) .fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon,.fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-portfolio-content-wrapper:hover .more-info{color:#692D87!important}
 .post-content iframe,.modal iframe{box-shadow:0 0 0 4px #692D87!important}
 .fusion-counters-box .fusion-counter-box .counter-box-container{padding:0}
 .fusion-slider-sc .flex-direction-nav a{color:#692D87!important}
