@@ -486,10 +486,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-footer-widget-area ul li:not(.social-link) a>span{display:block;margin-top:0;font-family:'open-sans',sans-serif;font-weight:400;font-size:80%;line-height:1.3;color:rgba(255,255,255,.7)}
 .fusion-footer-widget-area ul li.logo-footer{margin-top:5px!important}
 .fusion-footer-widget-area .current-menu-item>a{color:#FFFFFF!important}
-.fusion-footer-widget-area .wpcf7 .fusion-layout-column{margin-bottom:0}
-.fusion-footer-widget-area .wpcf7 .wpcf7-response-output{margin:0!important;border-radius:0!important}
-.fusion-footer-widget-area .wpcf7 input[type='email']{padding:10px!important;text-align:center;border-bottom:0!important;border-top-right-radius:12px!important;border-top-left-radius:12px!important;border-bottom-right-radius:0!important;border-bottom-left-radius:0!important}
-.fusion-footer-widget-area .wpcf7 input[type='submit']{width:100%!important;border-width:1px!important;border-top:0!important;border-top-right-radius:0!important;border-top-left-radius:0!important;border-bottom-right-radius:12px!important;border-bottom-left-radius:12px!important}
 .panel-collapse .panel-strong{display:block;margin-top:1em!important;margin-bottom:.2em;color:#555555!important;font-size:.8em;line-height:1.5;letter-spacing:1px;text-transform:uppercase}
 .post-content .panel-p:not(:last-child){margin-bottom:0!important}
 #casos-de-uso .fusion-accordian .nav ul{padding-left:0!important}
