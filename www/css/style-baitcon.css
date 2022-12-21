@@ -18,7 +18,7 @@ body.home .fusion-blog-shortcode:not(.news) .blog-shortcode-post-title{text-alig
 body:not(.home) .fusion-posts-container article.category-c-productos-servicios .fusion-post-content{padding-bottom:53px!important}
 .fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img{background-color:#89388D!important}
 .related-posts .fusion-carousel .fusion-carousel-item:hover .fusion-carousel-title a{color:#552156}
-.fusion-mobile-menu-icons a:before{color:#552156}
+.fusion-mobile-menu-icons a:before,.white .wpcf7 .wpcf7-submit{color:#552156}
 .wpcf7 .wpcf7-submit{border-color:#552156!important;color:#552156!important}
 .wpcf7 .fusion-one-full>p a,.fusion-footer-widget-column .textwidget p a{color:#552156}
 .wpcf7 .fusion-one-full>p:hover i,.wpcf7 .fusion-one-full>p a:hover,.fusion-footer-widget-column .textwidget p a:hover{color:#A142A6}
