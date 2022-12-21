@@ -46,7 +46,6 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{color:#552156!important}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#A142A6!important}
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#89388D!important}
-.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid rgba(85,33,86,0.6)!important}
 
 /* Desktop */
 @media (min-width:920px) {
