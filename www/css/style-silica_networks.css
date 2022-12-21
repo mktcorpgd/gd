@@ -70,11 +70,10 @@ body .fusion-modal.contacto-rapido .modal-content{padding:2em 30px!important}
 .fusion-counters-box .fusion-counter-box .counter-box-container{padding:5px 20px 20px}
 .fusion-footer-widget-area{background-color:#222222!important}
 .fusion-tabs.clean .nav-tabs li{border-radius:12px;overflow:hidden}
-.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:none!important}
 .fusion-portfolio-element.no-featured-image .fusion-portfolio-post .fusion-portfolio-content-wrapper h2 a{padding-top:.5em}
 .box-buttons .fusion-portfolio-element.no-featured-image article .fusion-post-content:before{padding:0 28px}
 .post-content div blockquote{border-radius:0 32px;background:#87B227!important;border:none!important}
-.fusion-portfolio.destacados .fusion-portfolio-content-wrapper{display:grid;grid-template-columns:20% 80%;border:2px solid #87B227}
+.fusion-portfolio.destacados .fusion-portfolio-content-wrapper{display:grid;grid-template-columns:20% 80%}
 .fusion-portfolio.destacados .fusion-image-wrapper{background:#EAEAEA;border-bottom:none;border-radius:0}
 .fusion-portfolio.destacados .fusion-image-wrapper img{padding:.8em}
 

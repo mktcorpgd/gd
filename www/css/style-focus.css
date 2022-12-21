@@ -28,7 +28,6 @@
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#4958A3!important}
 .fusion-fullwidth.fullwidth-box.gradient-f:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-f:after{background:linear-gradient(270deg,rgba(57,69,126,0) 50%,rgba(57,69,126,1) 100%)!important}
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#39457E!important}
-.fusion-portfolio-post .fusion-portfolio-content-wrapper{border-bottom:3px solid rgba(86,103,191,0.6)!important}
 
 /* Mobile */
 @media (max-width:920px) {
