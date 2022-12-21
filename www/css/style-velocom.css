@@ -48,15 +48,13 @@ div.fusion-header-v2,#wrapper.header-transparent.bkg div.fusion-header-v2{backgr
 .parent-highlight.wpcf7-form-control-wrap:not(.wpcf7-acceptance):before{background:#E94180!important}
 .wpcf7 .wpcf7-submit,.wpcf7 .fusion-one-full>a{border-color:#E94180!important;color:#E94180!important}
 .wpcf7 .wpcf7-submit:hover{background-color:#CD346C!important}
-.wpcf7 .fusion-one-full>p i,.tfs-slider .heading h2,.project-content>div>div>div>div>div>ul>li>div>h6,.fusion-accordian .panel-title a:hover .fa-fusion-box,.fusion-one-third h2,.fusion-one-half h2{color:#CD346C}
 .wpcf7 .fusion-one-full>p a,.fusion-footer-widget-column .textwidget p a{color:#E94180}
-.wpcf7 .fusion-one-full>p:hover i,.wpcf7 .fusion-one-full>p a:hover,.fusion-footer-widget-column .textwidget p a:hover{color:#CD346C}
-.tfs-slider .caption .price,#sidebar div.wpcf7 .wpcf7-form-control-wrap[class*='LOC']:before,#sidebar div.wpcf7 .wpcf7-form-control-wrap[class*='SPEED']:before,.modal div.wpcf7 .wpcf7-form-control-wrap[class$='LOC']:before,.modal div.wpcf7 .wpcf7-form-control-wrap[class*='SPEED']:before{color:#FFFFFF}
+.wpcf7 .fusion-one-full>p:hover i,.wpcf7 .fusion-one-full>p a:hover,.fusion-footer-widget-column .textwidget p a:hover,.tfs-slider .caption .price,#sidebar div.wpcf7 .wpcf7-form-control-wrap[class*='LOC']:before,#sidebar div.wpcf7 .wpcf7-form-control-wrap[class*='SPEED']:before,.modal div.wpcf7 .wpcf7-form-control-wrap[class$='LOC']:before,.modal div.wpcf7 .wpcf7-form-control-wrap[class*='SPEED']:before{color:#FFFFFF}
 div.wpcf7 .wpcf7-form-control-wrap[class*='SPEEDOPC']:before{color:#999999!important}
-.post-content p strong a:hover,.post-content p>a:hover,.post-content p>a:active,.post-content ol li a:hover,.post-content ol li a:active,.post-content ul li a:hover,.post-content ul li a:active,.wpcf7 .fusion-one-full a:hover,.wpcf7 .fusion-one-full a:active,.toggle-content a:hover,.toggle-content a:hover,.table-1 td a:hover,.table-2 td a:hover{color:#CD346C}
+.wpcf7 .fusion-one-full>p i,.tfs-slider .heading h2,.project-content>div>div>div>div>div>ul>li>div>h6,.fusion-accordian .panel-title a:hover .fa-fusion-box,.fusion-one-third h2,.fusion-one-half h2,.post-content p strong a:hover,.post-content p>a:hover,.post-content p>a:active,.post-content ol li a:hover,.post-content ol li a:active,.post-content ul li a:hover,.post-content ul li a:active,.wpcf7 .fusion-one-full a:hover,.wpcf7 .fusion-one-full a:active,.toggle-content a:hover,.toggle-content a:hover,.table-1 td a:hover,.table-2 td a:hover{color:#CD346C}
 #main #comment-submit{color:#E94180}
 #main #comment-submit:hover{background-color:#E94180}
-.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-content-boxes .heading .heading-link:hover .content-box-heading{color:#E94180!important}
+.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-content-boxes .heading .heading-link:hover .content-box-heading,.fusion-portfolio-content-wrapper:hover .more-info{color:#E94180!important}
 .box-buttons .fusion-portfolio-content .fusion-button,.box-buttons .fusion-post-content .fusion-button{color:#E94180!important}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#CD346C!important}
 table th{background:#AE1A57;color:#FFFFFF}
