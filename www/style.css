@@ -654,7 +654,7 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-grid.fusion-portfolio-five .fusion-post-content{margin-top:-10px}
 .fusion-portfolio-grid.fusion-portfolio-five .fusion-post-content p{padding:0 16px 20px!important;font-size:80%;line-height:1.6;font-weight:400}
 .fusion-title-size-two+.fusion-blog-layout-grid-wrapper .fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a{padding:20px 24px!important}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{background:#FFFFFF!important;box-shadow:0 4px 24px  0 rgba(0,0,0,.2);border:none!important;position:relative;z-index:10;overflow:hidden}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{background:#FFFFFF!important;box-shadow:0 4px 24px  0 rgba(0,0,0,.2);position:relative;z-index:10;overflow:hidden}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{border-radius:12px}
 .fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{width:100%;display:inline-block}
 .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a,.fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{padding:.8rem 1rem}
@@ -775,10 +775,9 @@ body #wrapper .fusion-fullwidth.header-transparent{background-size:cover}
 .fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon{text-align:center}
 .fusion-content-boxes.no-heading-title .heading{margin:0!important}
 .fusion-content-boxes a:hover{text-decoration:underline}
-.fusion-content-boxes.shadow>.fusion-column>.col{padding:1em 1.2em;background:#FFFFFF!important}
+.fusion-content-boxes.shadow>.fusion-column>.col a{padding:1em 1.2em;background:#FFFFFF!important}
 .fusion-content-boxes.shadow>.fusion-column>.col .heading{margin-bottom:0!important}
 .fusion-content-boxes.shadow.content-boxes-icon-with-title .heading-with-icon .fontawesome-icon{margin-right:20px}
-.fusion-content-boxes.shadow>.fusion-column a{display:block}
 .fusion-content-boxes.spacing .fusion-column{margin-bottom:40px}
 .fusion-content-boxes .heading .content-box-heading{letter-spacing:0;font-weight:500}
 .fusion-content-boxes .heading h5.content-box-heading{font-weight:400}
