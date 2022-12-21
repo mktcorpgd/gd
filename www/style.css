@@ -1000,7 +1000,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .modal.contacto .fusion_builder_column .panel-collapse span:first-child,.post-content>div>div>div>div>div.fusion-text:first-child>h5:first-child,.tfs-slider .slide-content-container li:nth-child(3) .tfs-button-1,.fusion-column-content h1,.fusion-blog-layout-grid .fusion-post-content-container{margin-top:0!important}
 .tfs-slider .caption .wpcf7 input[type='submit'],.fusion-fullwidth.nonhundred-percent-fullwidth .caption .wpcf7 input[type='submit']{margin-top:5px!important}
 .fusion-modal.gracias .modal-header .modal-title,.wpcf7 .fusion-one-full:last-of-type,.fusion-loading-container,.fusion-modal.cargando,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .entry-title{text-align:center}
-.error-page .fusion-column,.fusion-footer .fusion-column-last div,.fusion-footer .fusion-column-last div a{width:100%}
+.error-page .fusion-column{width:100%}
 .error-page{padding-top:20px}
 .post-content p .fusion-imageframe,.fusion-tabs:not(.tab-filters) .tab-content .wp-caption img{border-radius:6px}
 .radius1x,.fusion-separator~.fusion-google-map{border-radius:12px;overflow:hidden}
