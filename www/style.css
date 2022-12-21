@@ -858,8 +858,8 @@ body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;
 .logo-partner{border-radius:0!important}
 .portfolio-full .fusion-one-half .logo-partner img{width:75%!important}
 .full-width .fusion-one-full .logo-partner img{width:25%!important}
-.fusion-load-more-button.fusion-blog-button,#respond input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{height:auto;border-radius:6px!important;border-style:solid!important;border-width:0!important;font-family:'open-sans',sans-serif!important;font-weight:600!important;letter-spacing:1px}
-.fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{padding:.45em .65em!important;margin-left:auto;margin-right:auto;width:fit-content;font-weight:400;font-size:1.15em!important;line-height:1.25!important;letter-spacing:0;text-transform:none!important}
+.fusion-load-more-button.fusion-blog-button,#respond input[type='submit'],.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{height:auto;border-radius:12px!important;border-style:solid!important;border-width:0!important;font-family:'open-sans',sans-serif!important;font-weight:600!important;letter-spacing:1px}
+.fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{padding:.4em .65em!important;margin-left:auto;margin-right:auto;width:fit-content;font-weight:400;font-size:1.15em!important;line-height:1.25!important;letter-spacing:0;text-transform:none!important}
 .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:#FFFFFF}
 .widget .fusion-social-networks .fusion-social-network-icon{border:0}
 .fusion-social-links-footer .fusion-social-networks{margin-top:0!important}
