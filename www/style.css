@@ -453,24 +453,23 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 
 /* Comentarios */
 #commentform{float:left;width:100%;clear:both}
-#comment-textarea{display:inline-block;width:100%;margin-bottom:0!important}
-.comment-form .form-submit{margin-top:0!important}
-.comment-form #comment-submit{border-top-left-radius:0!important;border-top-right-radius:0!important}
+#comment-textarea{display:inline-block;width:100%;margin-bottom:0}
+.comment-form .form-submit{margin-top:0}
+.comment-form #comment-submit{border-top-left-radius:0;border-top-right-radius:0}
 .comment>div>div.comment-box>div.comment-text>em{display:block;font-size:.8em;color:#999999}
 .commentlist{margin-bottom:30px}
-.commentlist .comment-author strong{margin-bottom:2px;text-transform:capitalize;padding-right:0;display:block;color:#333333;font-family:'neo-sans',sans-serif;font-size:1.6em;font-weight:500!important;line-height:1.5}
+.commentlist .comment-author strong{margin-bottom:2px;text-transform:capitalize;padding-right:0;display:block;color:#333333;font-family:'neo-sans',sans-serif;font-size:1.6em;font-weight:500;line-height:1.5}
 .commentlist .the-comment{margin-bottom:10px;padding-bottom:10px}
 .commentlist .the-comment .comment-text em~p{margin-top:0}
-.commentlist .the-comment .comment-author.meta{margin-bottom:10px;color:#555555!important}
+.commentlist .the-comment .comment-author.meta{margin-bottom:10px;color:#555555}
 .commentlist .the-comment .comment-text{margin-left:0;padding:0 15px;font-style:italic;line-height:1.6;border-left:4px solid #CCCCCC}
 .commentlist .the-comment .comment-text p{margin-top:5px}
 .commentlist .children{border-left:30px solid #FAFAFA;padding-left:10px}
 .single .comments-container{margin-top:40px}
-#comments .fusion-title{margin-bottom:5px!important}
-#respond textarea{border-bottom-left-radius:0!important;font-size:1.2em!important;font-style:italic}
+#comments .fusion-title{margin-bottom:5px}
+#respond textarea{border-bottom-left-radius:0;font-size:1.2em}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
-#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none!important;letter-spacing:0!important}
 
 /* Footer */
 .fusion-footer-widget-area{padding-top:32px!important;background:#222222!important}
@@ -545,6 +544,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .markers .marker-link.fusion-button:nth-child(3){width:33%;border-bottom-left-radius:0!important;border-top-left-radius:0!important;border-bottom-right-radius:0!important}
 
 /* Botones */
+#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none;letter-spacing:0}
 .tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{padding:.55em .7em .6em!important;border:none!important}
 .fusion-button{border-style:none!important}
 .fusion-button.left-margin{margin-left:2em!important}
@@ -915,7 +915,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
 .related-posts .fusion-carousel-meta{padding:0 1rem .8rem}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.2em!important;font-weight:500;position:relative;z-index:10}
-.related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:.4rem 1rem}
+.related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:.8rem 1rem .4rem}
 
 /* Galería */
 .gallery-item{margin-top:0;padding:10px 10px 0}
