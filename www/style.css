@@ -379,7 +379,6 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .fusion-one-half.fusion-column-last .wpcf7-not-valid-tip{right:11px}
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:#FF5151!important}
 .fusion-layout-column.iframe .fusion-column-wrapper{border-radius:12px;overflow:hidden}
-.wpcf7 .fusion-layout-column,#respond .fusion-layout-column{margin-bottom:0}
 .wpcf7 .fusion-layout-column>span:not(.mc4wp-checkbox),#respond .fusion-layout-column span{display:block;margin-bottom:5px}
 .wpcf7 .wpcf7-form .fusion-one-third:nth-child(2) input:not([type='submit']){border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-right:0!important}
 .wpcf7 .wpcf7-form .fusion-one-third:nth-child(3) input:not([type='submit']){border-radius:0!important}
@@ -422,7 +421,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.wpcf7 textarea{padding:8px 10px!important}
 .widget select{padding:8px 10px}
 .wpcf7 input[type='date']{padding-bottom:5px!important}
-.wpcf7 textarea,#respond textarea{height:85px!important;border-radius:6px}
+.wpcf7 textarea,#respond textarea{height:85px!important}
 .wpcf7 .fusion-one-full>a>i{display:inline-block;padding-right:5px;text-indent:0;color:inherit}
 .wpcf7 .fusion-one-full>a>img{display:inline-block;margin-right:5px}
 .wpcf7-form select[disabled]{opacity:.4}
@@ -453,8 +452,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 
 /* Comentarios */
 #commentform{float:left;width:100%;clear:both}
-#comment-textarea{display:inline-block;width:100%;margin-bottom:0}
-.comment-form .form-submit{margin-top:0}
+.comment-form .form-submit{float:left;margin-top:10px}
 .comment-form #comment-submit{border-top-left-radius:0;border-top-right-radius:0}
 .comment>div>div.comment-box>div.comment-text>em{display:block;font-size:.8em;color:#999999}
 .commentlist{margin-bottom:30px}
@@ -467,7 +465,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .commentlist .children{border-left:30px solid #FAFAFA;padding-left:10px}
 .single .comments-container{margin-top:40px}
 #comments .fusion-title{margin-bottom:5px}
-#respond textarea{border-bottom-left-radius:0;font-size:1.2em}
+#respond textarea{font-size:1.2em}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
 
@@ -557,7 +555,6 @@ body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_
 .buttons .fusion-button:hover{border-style:solid!important;border-width:0!important}
 .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{position:relative;bottom:1px;font-size:80%}
 .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
-#main #comment-submit{margin-top:0;border-top-left-radius:0!important;border-top-right-radius:0!important}
 .fusion-button.button-flat.chevron-down{padding:0}
 .fusion-button.button-flat.chevron-down i{margin:0!important;font-size:1.4em}
 #bbp_user_edit_submit,.bbp-submit-wrapper .button,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.single_add_to_cart_button,.wpcf7-form .wpcf7-submit.button-small,.wpcf7-form .wpcf7-submit.fusion-button-small{padding:.6em .8em;font-size:.9em;line-height:1}
