@@ -913,12 +913,9 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .related-posts .awb-carousel .swiper-slide:last-child{margin-right:0}
 .related-posts .awb-carousel .swiper-slide .fusion-carousel-item-wrapper{visibility:visible}
 .related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
-.related-posts .awb-carousel .swiper-slide:hover .fusion-carousel-title a{text-decoration:underline}
 .related-posts .fusion-carousel-meta{padding:0 16px 8px;position:absolute;bottom:0;z-index:0}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.2em!important;font-weight:500;position:relative;z-index:10}
-.related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:10px 15px 30px 15px}
-body.single-avada_portfolio .related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{padding-bottom:.6em}
-.fusion-carousel-positioner{margin-left:0!important}
+.related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:.4em .8em}
 
 /* Galería */
 .gallery-item{margin-top:0;padding:10px 10px 0}
