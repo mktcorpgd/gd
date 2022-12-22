@@ -641,7 +641,7 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 .fusion-blog-shortcode .fusion-portfolio-grid .fusion-post-content-wrapper{background-color:#FFFFFF}
 .fusion-post-content-wrapper>div>div>p a i{font-size:14px;margin-left:2px;opacity:.3}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:0}
-#main .post h2 a,#main article h2 a,.related-posts .awb-carousel .fusion-carousel-title a{color:#333333}
+#main .post h2 a,#main article h2 a,.related-posts .awb-carousel .swiper-slide a{color:#333333}
 body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .toggle-content .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2{font-size:1em!important}
 .toggle-content .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a{padding:10px 12px!important}
