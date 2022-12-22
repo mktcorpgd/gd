@@ -21,7 +21,6 @@ body a,.related-posts .awb-carousel .fusion-carousel-title a:hover,.fusion-highl
 body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:rgba(255,255,255,.8)}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:var(--mainColor)!important}
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.table-2 thead tr td,.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background-color:var(--mainColor)}
-.related-posts .awb-carousel .fusion-carousel-title a{color:var(--mainColor)}
 input[type='submit']:hover,.wpcf7-submit:hover{background-color:var(--highlightColor)}
 .bkg-img-color,.box-buttons .fusion-portfolio-content .fusion-button, .box-buttons .fusion-post-content .fusion-button{background-color:var(--highlightColor)}
 .gradient-gray{background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,rgba(0,0,0,.2) 200%)}
