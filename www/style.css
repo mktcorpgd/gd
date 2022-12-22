@@ -50,7 +50,6 @@ h2 em,h3 em{font-style:normal;text-decoration:underline}
 .fusion-content-boxes .content-container p{margin-bottom:10px}
 h3 img[src*='flag-']{width:22px;height:22px;top:4px}
 h4 img[src*='flag-']{top:4px!important}
-.fusion-layout-column .fusion-column-wrapper{margin-left:0;margin-right:0}
 .bkg-cover,.bkg-cover .fusion-column-wrapper{background-size:cover!important}
 .bkg-contain,.bkg-contain .fusion-column-wrapper{background-size:contain!important}
 .bkg-size70,.bkg-size70 .fusion-column-wrapper{background-size:70%!important}
