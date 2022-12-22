@@ -37,11 +37,8 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 #como-empezar .fusion-builder-row-inner .new{border-top-right-radius:8px;border-bottom-right-radius:8px;overflow:hidden}
 #como-empezar .fusion-builder-row-inner .new:before{height:100%;content:'\25B6';color:#EAEAEA;position:absolute;left:-10px;font-size:24px;line-height:330%;z-index:1}
 #como-empezar .fusion-builder-row-inner .new.one_row:before{line-height:215%}
-#main #comment-submit{color:#552156}
-#main #comment-submit:hover{background-color:#552156}
-.fusion-tabs .nav-tabs li a:hover{color:#552156}
-.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#552156}
-.fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-content-boxes.shadow>.fusion-column>.col.link-area-box-hover .icon i,.fusion-content-boxes.shadow>.fusion-column>.col.link-area-box-hover h2,.fusion-portfolio-content-wrapper:hover .more-info,.wpcf7-form input[type='submit'].sending:hover,.panel-title a .fusion-toggle-heading,.panel-title a .fa-fusion-box,.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a,.fusion-testimonials.clean .author a:hover,.white .wpcf7 .wpcf7-submit{color:#552156!important}
+.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-filters .fusion-filter.fusion-active a,.panel-title a .fusion-toggle-heading,.panel-title a .fa-fusion-box,.white .wpcf7 .wpcf7-submit{color:#552156}
+.fusion-tabs .nav-tabs li a:hover,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-filters .fusion-filter a:hover,.fusion-content-boxes.shadow>.fusion-column>.col.link-area-box-hover .icon i,.fusion-content-boxes.shadow>.fusion-column>.col.link-area-box-hover h2,.fusion-portfolio-content-wrapper:hover .more-info,.wpcf7-form input[type='submit'].sending:hover,.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a,.fusion-testimonials.clean .author a:hover{color:#A142A6}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#A142A6!important}
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#89388D!important}
 
