@@ -468,6 +468,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 #respond textarea{font-size:1.2em}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
+.logged-in-as+#comment-textarea{margin-bottom:0}
 
 /* Footer */
 .fusion-footer-widget-area{padding-top:32px!important;background:#222222!important}
