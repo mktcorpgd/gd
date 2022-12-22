@@ -573,7 +573,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
 #content table tbody tr{background:none}
 #content table th,#content table td{line-height:1.5}
-#content table th{border-top:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
+#content table th{border:none;border-top:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);color:#FFFFFF;background:#0E316E}
 #content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child,.padder.category-casos-de-referencia .wpcf7 table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'neo-sans',sans-serif}
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
 #content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:#1C8DCE}
@@ -585,7 +585,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
 #content table thead+tbody tr:first-child td{border-top:none}
-#content table th:first-child{border-top-left-radius:12px}
+#content table thead tr:first-child th:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:first-child{border-top-left-radius:12px}
 #content table>thead+tbody>tr:first-child>td:first-child{border-top-left-radius:0}
 #content table>tbody>tr:first-child>td:last-child{border-top-right-radius:12px}
