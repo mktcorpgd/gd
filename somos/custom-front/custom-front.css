@@ -568,7 +568,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 
 /* Tablas */
 .wp-block-table{margin-bottom:2em;overflow:hidden}
-#content table td:not(.line){border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2);}
+#content table td:not(.line){border:none;border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2);}
 #content table tbody tr:last-child td{border-bottom:1px solid rgba(0,0,0,.2)}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
 #content table tbody tr{background:none}
@@ -584,7 +584,6 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 #content .category-casos-un-velocom table td:first-child{background:#AE1A57}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
-#content table thead+tbody tr:first-child td{border-top:none}
 #content table thead tr:first-child th:first-child{border-top-left-radius:12px}
 #content table>tbody>tr:first-child>td:first-child{border-top-left-radius:12px}
 #content table>thead+tbody>tr:first-child>td:first-child{border-top-left-radius:0}
