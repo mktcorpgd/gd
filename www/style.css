@@ -894,7 +894,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-accordian .panel-body>h5{margin-top:0;margin-bottom:.25em;font-size:1.1em}
 
 /* Posts relacionados */
-.awb-carousel .fusion-carousel-item .fusion-image-wrapper{border-radius:12px}
+.awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:12px}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev{transition:all .1s ease-in-out;background:none!important;top:36%;left:initial!important;line-height:1}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next:before,.awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{color:rgba(0,0,0,.6);font-size:2em!important}
 .fusion-body .awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{right:1px}
@@ -910,8 +910,8 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .related-posts .awb-carousel .fusion-carousel-holder{padding:0;width:100%!important;position:relative!important}
 .related-posts .awb-carousel .fusion-carousel-item{display:inline-block;transition:all .1s ease-in-out;margin-left:0!important;margin-right:4%;margin-bottom:30px;width:30%!important;position:relative;box-shadow:0 0 0 1px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
 .related-posts .awb-carousel .fusion-carousel-item:last-child{margin-right:0}
-.related-posts .awb-carousel .fusion-carousel-item .fusion-carousel-item-wrapper{visibility:visible}
-.related-posts .awb-carousel .fusion-carousel-item .fusion-image-wrapper{display:block}
+.related-posts .awb-carousel .swiper-slide .fusion-carousel-item-wrapper{visibility:visible}
+.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
 .related-posts .awb-carousel .fusion-carousel-item:hover .fusion-carousel-title a{text-decoration:underline}
 .related-posts .fusion-carousel-meta{padding:0 16px 8px;position:absolute;bottom:0;z-index:0}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.3em!important;font-weight:500;position:relative;z-index:10}
