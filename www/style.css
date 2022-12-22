@@ -909,11 +909,11 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .related-posts{float:left;width:100%}
 .related-posts .fusion-carousel,.related-posts .awb-carousel .fusion-carousel-wrapper{overflow:visible!important}
 .related-posts .awb-carousel .fusion-carousel-holder{padding:0;width:100%!important;position:relative!important}
-.related-posts .awb-carousel .fusion-carousel-item{display:inline-block;transition:all .1s ease-in-out;margin-left:0!important;margin-right:4%;margin-bottom:30px;width:30%!important;position:relative;box-shadow:0 0 0 1px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
-.related-posts .awb-carousel .fusion-carousel-item:last-child{margin-right:0}
+.related-posts .awb-carousel .swiper-slide{display:inline-block;transition:all .1s ease-in-out;margin-left:0!important;margin-right:4%;margin-bottom:30px;width:30%!important;position:relative;box-shadow:0 0 0 1px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
+.related-posts .awb-carousel .swiper-slide:last-child{margin-right:0}
 .related-posts .awb-carousel .swiper-slide .fusion-carousel-item-wrapper{visibility:visible}
 .related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
-.related-posts .awb-carousel .fusion-carousel-item:hover .fusion-carousel-title a{text-decoration:underline}
+.related-posts .awb-carousel .swiper-slide:hover .fusion-carousel-title a{text-decoration:underline}
 .related-posts .fusion-carousel-meta{padding:0 16px 8px;position:absolute;bottom:0;z-index:0}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.3em!important;font-weight:500;position:relative;z-index:10}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:10px 15px 30px 15px}
@@ -1102,10 +1102,10 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	body.customize-support .fusion-layout-column.sticky{position:sticky;top:120px}
 	body.single-format-standard .fusion-page-title-bar .fusion-breadcrumbs{max-width:300px}
 	.modal iframe{max-height:400px!important}
-	.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .fusion-carousel-item{transition:all .1s ease-in-out}
+	.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .swiper-slide{transition:all .1s ease-in-out}
 	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.shadow>.fusion-column>.col:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
 	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
-	.related-posts .awb-carousel .fusion-carousel-item:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
+	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
 	body:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{position:sticky;top:95px}
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
@@ -1173,7 +1173,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	body.single-format-standard:not(.single-avada_portfolio) #main .post .post-content .fusion-text:first-of-type>h2:first-of-type{font-size:1.6em!important}
 	body.single:not(.single-avada_portfolio) .post-content .fusion-text p,body.single:not(.single-avada_portfolio) .post-content .fusion-text li{font-size:20px}
 	body.single-avada_portfolio #content{margin-bottom:0!important}
-	.related-posts .awb-carousel .fusion-carousel-item{margin:0 0 40px!important;max-width:100%!important;width:100%!important}
+	.related-posts .awb-carousel .swiper-slide{margin:0 0 40px!important;max-width:100%!important;width:100%!important}
 	.tfs-slider .slide-content-container{padding-top:40px;padding-left:20px!important;padding-right:20px!important}
 	body.single article>.flexslider{margin-left:-20px;margin-right:-20px;max-width:none!important;border-radius:0}
 	.fusion-fullwidth-center-content{height:100%!important}
