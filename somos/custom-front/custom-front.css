@@ -261,6 +261,8 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper article.event ul{margin-bottom:0}
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
 .gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
+.gp-blog-wrapper section h2 a:hover{text-decoration:none;color:#0E316E}
+.gp-blog-wrapper section:hover h2 a{color:#F0582B}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em}
 .gp-blog-wrapper section .post-thumbnail{margin:0}
 .gp-blog-wrapper section .post-thumbnail img{border-radius:0;border-bottom:1px solid #EAEAEA;border-bottom-right-radius:12px}
