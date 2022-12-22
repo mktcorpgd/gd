@@ -907,7 +907,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .gray-to-color .awb-carousel img{transition:all .5s ease-in-out;filter:saturate(0%)}
 .gray-to-color .awb-carousel img:hover{filter:saturate(100%)}
 .related-posts{float:left;width:100%}
-.related-posts .fusion-carousel,.related-posts .awb-carousel .fusion-carousel-wrapper{overflow:visible!important}
+.related-posts .awb-swiper{overflow:visible}
 .related-posts .awb-carousel .fusion-carousel-holder{padding:0;width:100%!important;position:relative!important}
 .related-posts .awb-carousel .swiper-slide{display:inline-block;margin-left:0!important;margin-right:4%;margin-bottom:30px;width:30%!important;position:relative;box-shadow:0 0 12px -2px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
 .related-posts .awb-carousel .swiper-slide:last-child{margin-right:0}
