@@ -253,7 +253,6 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 /* Contenido */
 #content img[src*='flag-']:not([class*='alignnone']),.modal img[src*='flag-']:not([class*='alignnone']){margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
 body.single-format-standard:not(.single-avada_portfolio) article.category-blog{padding-top:0}
-body.post-template-default.single-format-standard .post-content .fusion-flex-container{padding-left:0!important;padding-right:0!important}
 body.post-template-default.single-format-standard #main{padding-top:0!important}
 .post-content a[src*='.jpg'],a.fusion-lightbox{cursor:zoom-in}
 .fusion-background-video-wrapper{margin-top:-10%!important}
@@ -720,7 +719,6 @@ div.pdfemb-toolbar button.pdfemb-prev:before{content:''}
 div.pdfemb-toolbar button.pdfemb-download:before{content:''}
 .pdfemb-page-num{padding:0}
 input.pdfemb-page-num{border-radius:6px;color:#333333}
-body.post-template-default .fusion-fullwidth{padding-left:0!important;padding-right:0!important}
 
 /* Portfolio */
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.26em!important}
