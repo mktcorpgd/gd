@@ -894,6 +894,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-accordian .panel-body>h5{margin-top:0;margin-bottom:.25em;font-size:1.1em}
 
 /* Posts relacionados */
+.related-posts > .fusion-title{font-size:2em}
 .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:12px}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev{transition:all .1s ease-in-out;background:none!important;top:36%;left:initial!important;line-height:1}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next:before,.awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{color:rgba(0,0,0,.6);font-size:2em!important}
