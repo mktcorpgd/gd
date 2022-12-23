@@ -7,6 +7,8 @@
 #profile-page .show-admin-bar,
 /* Admin bar */
 #wp-admin-bar-connections-link-view,#wp-admin-bar-wp-logo,#wp-admin-bar-wpfront-user-role-editor-add-new,#wp-admin-bar-dem_settings,.wp-list-table .column-in_posts,#wp-admin-bar-easy-updates-manager-admin-bar,body.role-subscriber #wp-admin-bar-new-content,.wp-menu-arrow,ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after,
+/* Editor */
+body:not(.role-capital_humano) #wp-admin-bar-altas-bajas,
 /* Plugins */
 .plugins-php #bulk-action-form span:not(.activate):not(.deactivate):not(.edit):not(.delete),.plugin-version-author-uri a,.plugin-description .active.second,
 /* Usuarios */
@@ -44,7 +46,7 @@ span.description{display:block}
 input+span.description,select+span.description{display:inline-block;position:relative;left:5px;font-style:italic}
 span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;line-height:20px}
 .nav-menus-php .item-edit{height:38px;overflow:hidden}
-#wpadminbar .ab-icon{margin-right:2px!important}
+#wpadminbar .ab-icon{margin-right:6px!important}
 #wpwrap.wp-responsive-open,div#post-body.metabox-holder.columns-1{overflow-x:visible!important}
 
 /* Admin menu */
