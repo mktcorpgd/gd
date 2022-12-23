@@ -556,7 +556,6 @@ body .fusion-button-default-size,body .fusion-button_size-large .fusion-button-d
 body .fusion-button_size-large .fusion-button-default-size,body .fusion-button_size-large button.button{margin-bottom:10px}
 body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_size-xlarge button.button,.button-xlarge,.fusion-.fusion-button-xlarge{font-size:1.5em!important;line-height:1.25!important;font-weight:600}
 .buttons .fusion-button:hover{border-style:solid!important;border-width:0!important}
-.fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{position:relative;bottom:1px;font-size:80%}
 .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
 .fusion-button.button-flat.chevron-down{padding:0}
 .fusion-button.button-flat.chevron-down i{margin:0!important;font-size:1.4em}
