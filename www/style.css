@@ -154,6 +154,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-megamenu-title a{cursor:default}
 .fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:none}
 .fusion-main-menu .sub-menu{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
+.bkg .fusion-main-menu .sub-menu{border-top-left-radius:0;border-top-right-radius:0}
 .fusion-megamenu>li>.sub-menu{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a,.fusion-mobile-nav-holder .fusion-mobile-nav-item[data-item-id*='wpml'] a{font-weight:400}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
@@ -738,7 +739,6 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 #wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],#wrapper.header-transparent .fusion-header.on-top li[data-classes*='social-link'] a[href='#inicio']{width:0;padding:0!important;opacity:0;cursor:default}
 #wrapper.header-transparent .fusion-header.bkg li[data-classes='social-link'] a[href='#inicio']{opacity:1;cursor:pointer}
 #wrapper.header-transparent .fusion-header.on-top{background:rgba(0,0,0,0)!important;box-shadow:none!important}
-#wrapper.header-transparent .fusion-header.on-top:not(.bkg) .fusion-main-menu .sub-menu,#wrapper.header-transparent .fusion-header.on-top:not(.bkg) .fusion-megamenu-#wrapper,#wrapper.header-transparent .fusion-header:not(.bkg) .fusion-main-menu .sub-menu{border-top-left-radius:6px;border-top-right-radius:6px}
 #wrapper.header-transparent.on-top .fusion-secondary-header{background:none}
 #wrapper.header-transparent,body.customize-support #wrapper.header-transparent{padding-top:0!important}
 #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,body.home .tfs-slider .slide-content-container h2{color:#FFFFFF!important}
