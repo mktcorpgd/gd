@@ -151,15 +151,15 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 /* Menú */
 .fusion-main-menu>ul>li.partner a,.fusion-megamenu-title a{background:none!important}
 .fusion-megamenu-title{font-family:'open-sans',sans-serif;padding-bottom:0}
+.fusion-megamenu-title a{cursor:default}
 .fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:none}
 .fusion-main-menu .sub-menu{width:auto;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
 .fusion-main-menu .sub-menu li:last-child{padding-bottom:5px;border-bottom-left-radius:6px;border-bottom-right-radius:6px}
 .fusion-megamenu>li>.sub-menu{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
-.fusion-main-menu .sub-menu li a{font-size:.9rem!important}
-.fusion-main-menu .sub-menu li a span>span{display:block;font-size:.7em;line-height:1.3;opacity:.8}
-.fusion-megamenu-title a{cursor:default}
+.fusion-main-menu .sub-menu li a,.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a{padding-top:5px;padding-bottom:5px;font-size:.9rem!important}
+.fusion-main-menu .sub-menu li a span>span,.fusion-mobile-nav-holder .sub-menu li a span>span{display:block;font-size:.7em;line-height:1.3;opacity:.8}
 .fusion-main-menu .sub-menu li.menu-item-has-children a{padding-right:30px}
 .fusion-main-menu .sub-menu li.menu-item-has-children a span span{position:absolute;top:4px;right:8px;opacity:.6}
 
