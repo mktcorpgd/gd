@@ -145,7 +145,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 #wrapper{padding-top:66px}
 
 /* Menú */
-.fusion-main-menu .sub-menu,.fusion-megamenu-holder,.fusion-main-menu>ul>li.partner a,.fusion-megamenu-title a{background:none;border-top:none}
+.fusion-main-menu .sub-menu,.fusion-megamenu-holder,.fusion-main-menu>ul>li.partner a,.fusion-megamenu-title a{background:none!important;border-top:none}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu,.fusion-main-menu .fusion-menu-item-button a,.fusion-megamenu-title a{cursor:default}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a,.fusion-mobile-nav-holder .fusion-mobile-nav-item[data-item-id*='wpml'] a{font-weight:400}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
