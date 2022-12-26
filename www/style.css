@@ -146,6 +146,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 
 /* Menú */
 .fusion-main-menu>ul>li.partner a,.fusion-megamenu-title a{background:none!important}
+.fusion-megamenu-wrapper .fusion-megamenu-submenu,.fusion-main-menu .fusion-menu-item-button a,.fusion-megamenu-title a{cursor:default}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a,.fusion-mobile-nav-holder .fusion-mobile-nav-item[data-item-id*='wpml'] a{font-weight:400}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
@@ -153,7 +154,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu .sub-menu li a span>span,.fusion-mobile-nav-holder .sub-menu li a span>span{display:block;font-size:.7em;line-height:1;opacity:.8}
 .fusion-main-menu .sub-menu li:first-child a{padding-top:3px!important}
 .fusion-main-menu .sub-menu li:last-child a{padding-bottom:3px!important}
-.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{padding-top:10px;padding-bottom:10px;border:none}
+.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{padding:10px 0;border:none}
 .fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:none}
 .fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
 .bkg .fusion-main-menu .sub-menu,.bkg .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
@@ -161,7 +162,6 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 /* Menú: mega */
 .fusion-megamenu-wrapper .fusion-megamenu-border{border-bottom:none}
 .fusion-megamenu-title{padding-bottom:5px;font-family:'open-sans',sans-serif;opacity:.8}
-.fusion-megamenu-title a{cursor:default}
 .fusion-megamenu-title a:not([href*='#']){cursor:pointer}
 .fusion-megamenu>li>.sub-menu{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
 
@@ -176,15 +176,12 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 
 /* Menú: CTA */
 .fusion-main-menu>ul>.fusion-menu-item-button:hover>a{background-color:transparent!important}
-.fusion-main-menu .fusion-menu-item-button a{cursor:default}
 .fusion-main-menu .fusion-menu-item-button a>span{font-weight:400}
 .fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)}
 .fusion-main-menu .fusion-menu-item-button .menu-text span.fusion-button-text-left{padding-left:20px;background:rgba(0,0,0,0);font-weight:400}
 .fusion-menu li.social-link a{padding:0 8px!important;font-weight:500!important;text-align:center}
 .fusion-main-menu .fusion-button{font-size:1em}
-.fusion-main-menu .country-flag.menu-item .sub-menu{min-width:auto}
-.fusion-main-menu .sub-menu .sub-menu{left:100%;border-top-right-radius:6px}
 
 .fusion-main-menu>ul>li.partner img{max-width:60px;vertical-align:middle}
 
@@ -1044,7 +1041,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-header{height:66px!important}
 	#wrapper.header-transparent .fusion-header.bkg li[data-classes='social-link'] a[href='#inicio']{width:20px;padding:0 6px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
-	.fusion-megamenu-wrapper .fusion-megamenu-submenu>a{padding-left:12px!important;padding-right:12px!important}
 	.tab-filters .nav li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em!important}
 	.fusion-filters .fusion-filter{display:table-cell;float:none;width:1%}
 	.fusion-filters .fusion-filter a{line-height:1.15}
