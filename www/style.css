@@ -149,6 +149,12 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .country-flag.menu-item .sub-menu img[src*='flag-']{margin-right:2px;position:relative;top:0;width:15px}
 
 /* Menú */
+.fusion-main-menu .fusion-dropdown-menu li a,.fusion-main-menu li a,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-megamenu-wrapper .fusion-megamenu-submenu a{padding-top:5px;padding-bottom:5px;border:none}
+.fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:none}
+.fusion-megamenu-title{font-family:'open-sans',sans-serif;padding-bottom:0}
+.fusion-main-menu .sub-menu{padding-bottom:5px;border-bottom-left-radius:6px;border-bottom-right-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
+.fusion-megamenu>li>.sub-menu{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
+
 .fusion-logo img{height:48px}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a{font-weight:400!important}
 #side-header .fusion-logo,.fusion-header .fusion-logo{margin:9px 0 0 0!important}
@@ -171,7 +177,6 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 html .fusion-main-menu li,html .fusion-main-menu .current-menu-item a,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a,.fusion-mobile-nav-holder .fusion-mobile-nav-item.current-menu-item>a,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a,.fusion-mobile-nav-item.current-menu-item>a,
 .avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-parent>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current_page_item>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current-menu-parent>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current_page_item>a{background:none!important}
 .fusion-main-menu .fusion-dropdown-menu li a,.fusion-main-menu li a,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item.current-menu-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a{color:#FFFFFF!important}
-.fusion-main-menu .fusion-dropdown-menu li a,.fusion-main-menu li a,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-megamenu-wrapper .fusion-megamenu-submenu a{padding-top:5px!important;padding-bottom:5px!important;border:0!important}
 .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled{padding-bottom:0!important}
 .fusion-main-menu .fusion-dropdown-menu li a,.fusion-main-menu li a,.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a{line-height:1.35}
 .avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):hover,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button):hover>a:not(.fusion-icon-sliding-bar),.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):not([href^='#']):hover{background:rgba(0,0,0,.2)!important}
@@ -199,7 +204,6 @@ li[class*=fusion-modal-text-link] a{cursor:pointer}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:hover,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item>a{background:rgba(0,0,0,.1)!important}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:rgba(255,255,255,1)!important;opacity:1!important}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-title a:hover{background:none!important}
-.fusion-megamenu-title{color:#333333;font-family:'open-sans',sans-serif!important;font-weight:400;padding-bottom:0!important}
 .fusion-megamenu-title a{padding-bottom:0!important}
 .fusion-main-menu>ul>li>a .fusion-caret{margin-left:5px;opacity:.5}
 .fusion-main-menu>ul>li:hover>a .fusion-caret{opacity:.8}
@@ -209,7 +213,6 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .fusion-main-menu .button-large .fusion-button-text-left{padding-left:24px!important}
 .fusion-main-menu .fusion-button{color:#FFFFFF;font-size:1em;border-width:0}
 .fusion-main-menu .fusion-button span[class*='button-icon']{font-size:80%;top:-2px}
-.fusion-main-menu .sub-menu{padding-bottom:5px;min-width:100%;width:auto!important;background:none!important;border-bottom-left-radius:6px;border-bottom-right-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)!important;z-index:100}
 .fusion-main-menu .country-flag.menu-item .sub-menu{min-width:auto}
 .fusion-main-menu .sub-menu .sub-menu{left:100%;border-top-right-radius:6px}
 .fusion-main-menu .sub-menu li a{font-size:.9em!important}
@@ -217,14 +220,11 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .fusion-mobile-nav-holder .sub-menu li a span>span:not(.wpml-ls-native):not(.fusion-megamenu-bullet){font-size:60%}
 .fusion-main-menu .sub-menu li.menu-item-has-children a{padding-right:30px!important}
 .fusion-main-menu .sub-menu li.menu-item-has-children a span span{position:absolute;top:4px;right:8px;opacity:.6}
-.fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:0!important}
-.fusion-megamenu-holder{background:none!important}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2{max-width:100%!important;width:100%!important}
 .fusion-main-menu li.menu-item.wpml-ls-item a .menu-text>i{font-family:'open-sans',sans-serif!important;font-weight:400}
 .fusion-megamenu-wrapper{border-bottom-left-radius:6px;border-bottom-right-radius:6px;box-shadow:0 24px 64px -16px rgba(0,0,0,.4)!important;overflow:hidden;z-index:20}
 .fusion-header.on-top:not(.bkg) .fusion-megamenu-wrapper{border-top-left-radius:6px;border-top-right-radius:6px}
 #wrapper:not(.header-transparent) .fusion-header .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
-.fusion-megamenu>li>.sub-menu{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none!important}
 .fusion-main-menu .sub-menu .current-menu-item>a,.fusion-main-menu .sub-menu .current-menu-parent>a,.fusion-main-menu .sub-menu .current_page_item>a{background-color:transparent!important}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu{padding:10px 0 0!important;border:0!important;overflow:hidden}
 .fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important;font-weight:900}
@@ -237,8 +237,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .menu-item .menu-text>img,.fusion-mobile-nav-item .menu-text>img{vertical-align:middle}
 .menu-item .menu-text>img[src*='whatsapp']{margin-right:3px;width:20px;height:20px;max-width:20px;position:relative;top:-2px}
 .menu-item.social-link .menu-text>img[src*='whatsapp']{margin-right:0}
-
-/* Búsqueda */
+/* Búsqueda 
 body.search #content{width:100%}
 body.search .fusion-page-title-captions{width:100%;text-align:center}
 body.search-no-results h2{margin-bottom:0}
@@ -249,6 +248,7 @@ body.search-no-results .fusion-title-size-two{margin-bottom:5px!important}
 #main .searchform .fusion-search-form-content .fusion-search-field input{display:block;margin:0 auto;max-width:600px;background:#FAFAFA;border:1px solid #CCCCCC!important;border-radius:24px!important}
 #main .search-page-search-form-bottom{margin-top:30px;padding-top:30px}
 body.error404 .fusion-page-title-wrapper{justify-content:center}
+*/
 
 /* Contenido */
 #content img[src*='flag-']:not([class*='alignnone']),.modal img[src*='flag-']:not([class*='alignnone']){margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
@@ -1060,8 +1060,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-header{height:66px!important}
 	#wrapper.header-transparent .fusion-header.bkg li[data-classes='social-link'] a[href='#inicio']{width:20px;padding:0 6px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
-	.fusion-columns-2 .fusion-megamenu-holder{width:670px!important}
-	.fusion-columns-3 .fusion-megamenu-holder{width:960px!important}
 	.fusion-megamenu-wrapper .fusion-megamenu-submenu>a{padding-left:12px!important;padding-right:12px!important}
 	.tab-filters .nav li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em!important}
 	.fusion-filters .fusion-filter{display:table-cell;float:none;width:1%}
