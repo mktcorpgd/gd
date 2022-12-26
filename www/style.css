@@ -163,7 +163,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 
 /* Menú: banderas */
 .country-flag.menu-item img[src*='flag-']{margin-right:4px;width:15px;height:15px;position:relative;top:-2px;border-radius:32px}
-.country-flag.menu-item .sub-menu img[src*='flag-']{position:relative;top:4px;width:13px;height:13px}
+.country-flag.menu-item .sub-menu img[src*='flag-']{top:6px;width:13px;height:13px}
 
 /* Menú: logo */
 .fusion-logo{transition:opacity .1s ease-in-out}
