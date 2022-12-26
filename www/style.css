@@ -128,7 +128,6 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 /* Header */
 .fusion-logo .fusion-logo-link,.fusion-logo>img[src*='flag']{float:left}
 .fusion-logo>img[src*='flag']{display:inline-block;margin-right:15px!important;width:32px;height:32px;position:relative;top:8px;border-radius:32px;box-shadow:0 0 0 2px rgba(255,255,255,.6)}
-.fusion-megamenu-wrapper .fusion-megamenu-border{border-bottom:none}
 body.error404.fusion-page-title-bar .fusion-page-title-row,body.blog.fusion-page-title-bar .fusion-page-title-row{padding-bottom:0}
 .fusion-header-wrapper{width:100%;top:0}
 .fusion-header-wrapper.not-sticky{position:absolute!important}
@@ -147,13 +146,6 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 
 /* Menú */
 .fusion-main-menu>ul>li.partner a,.fusion-megamenu-title a{background:none!important}
-.fusion-megamenu-title{padding-bottom:5px;font-family:'open-sans',sans-serif;opacity:.8}
-.fusion-megamenu-title a{cursor:default}
-.fusion-megamenu-title a:not([href*='#']){cursor:pointer}
-.fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:none}
-.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
-.bkg .fusion-main-menu .sub-menu,.bkg .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
-.fusion-megamenu>li>.sub-menu{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a,.fusion-mobile-nav-holder .fusion-mobile-nav-item[data-item-id*='wpml'] a{font-weight:400}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
@@ -161,6 +153,17 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu .sub-menu li a span>span,.fusion-mobile-nav-holder .sub-menu li a span>span{display:block;font-size:.7em;line-height:1;opacity:.8}
 .fusion-main-menu .sub-menu li:first-child a{padding-top:3px!important}
 .fusion-main-menu .sub-menu li:last-child a{padding-bottom:3px!important}
+.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{padding-top:10px;padding-bottom:10px;border:none}
+.fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:none}
+.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
+.bkg .fusion-main-menu .sub-menu,.bkg .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
+
+/* Menú: mega */
+.fusion-megamenu-wrapper .fusion-megamenu-border{border-bottom:none}
+.fusion-megamenu-title{padding-bottom:5px;font-family:'open-sans',sans-serif;opacity:.8}
+.fusion-megamenu-title a{cursor:default}
+.fusion-megamenu-title a:not([href*='#']){cursor:pointer}
+.fusion-megamenu>li>.sub-menu{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
 
 /* Menú: banderas */
 .country-flag.menu-item img[src*='flag-']{margin-right:4px;width:15px;height:15px;position:relative;top:-2px;border-radius:32px}
