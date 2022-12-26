@@ -161,7 +161,8 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
 .fusion-main-menu .sub-menu li a,.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a{padding-top:2px!important;padding-bottom:2px!important;white-space:nowrap;font-size:.9rem!important}
 .fusion-main-menu .sub-menu li a span>span,.fusion-mobile-nav-holder .sub-menu li a span>span{display:block;font-size:.7em;line-height:1;opacity:.8}
-.fusion-main-menu .sub-menu li:last-child a{padding-bottom:10px!important}
+.fusion-main-menu .sub-menu li:first-child a{padding-top:3px!important}
+.fusion-main-menu .sub-menu li:last-child a{padding-bottom:3px!important}
 
 #side-header .fusion-logo,.fusion-header .fusion-logo{margin:9px 0 0 0!important}
 .fusion-logo img{height:48px}
