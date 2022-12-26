@@ -160,6 +160,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .bkg .fusion-main-menu .sub-menu,.bkg .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 
 /* Menú: mega */
+.fusion-megamenu-wrapper{overflow:hidden}
 .fusion-megamenu-wrapper .fusion-megamenu-border{border-bottom:none}
 .fusion-megamenu-title{padding-bottom:5px;font-family:'open-sans',sans-serif;opacity:.8}
 .fusion-megamenu-title a:not([href*='#']){cursor:pointer}
