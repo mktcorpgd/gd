@@ -219,7 +219,6 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) div.fusion-megamenu-t
 .fusion-main-menu .sub-menu li.menu-item-has-children a span span{position:absolute;top:4px;right:8px;opacity:.6}
 .fusion-main-menu .sub-menu,.fusion-megamenu-holder{border-top:0!important}
 .fusion-megamenu-holder{background:none!important}
-.fusion-megamenu-wrapper:not(.fusion-megamenu-fullwidth){left:0!important}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu.fusion-megamenu-columns-2{max-width:100%!important;width:100%!important}
 .fusion-main-menu li.menu-item.wpml-ls-item a .menu-text>i{font-family:'open-sans',sans-serif!important;font-weight:400}
 .fusion-megamenu-wrapper{border-bottom-left-radius:6px;border-bottom-right-radius:6px;box-shadow:0 24px 64px -16px rgba(0,0,0,.4)!important;overflow:hidden;z-index:20}
