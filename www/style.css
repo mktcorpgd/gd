@@ -151,7 +151,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
 .fusion-main-menu .sub-menu li a,.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a{padding-top:2px!important;padding-bottom:2px!important;white-space:nowrap;font-size:.9rem!important}
-.fusion-main-menu .sub-menu li a span>span,.fusion-mobile-nav-holder .sub-menu li a span>span{display:block;font-size:.7em;line-height:1;opacity:.8}
+.fusion-main-menu .sub-menu li a span>span,.fusion-mobile-nav-holder .sub-menu li a span>span{display:block;position:relative;top:-2px;font-size:.7em;line-height:1;opacity:.8}
 .fusion-main-menu .sub-menu li:first-child a{padding-top:3px!important}
 .fusion-main-menu .sub-menu li:last-child a{padding-bottom:3px!important}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{padding:10px 0;border:none}
@@ -198,7 +198,7 @@ html .fusion-main-menu li,html .fusion-main-menu .current-menu-item a,.fusion-mo
 .fusion-main-menu>ul>li.partner:hover a,.fusion-mobile-nav-holder>ul>li.partner:hover a,.fusion-mobile-nav-holder>ul>li.button-header:hover a,.fusion-mobile-nav-holder>ul>li.button-header-no-boders:hover a,.fusion-mobile-nav-holder>ul>li.fusion-modal-text-link-button:hover a{background-color:rgba(0,0,0,.0)!important}
 li[class*=fusion-modal-text-link] a{cursor:pointer}
 .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-ancestor>a,.fusion-is-sticky .fusion-main-menu>ul>li.current-menu-item>a,.fusion-is-sticky .fusion-main-menu>ul>li.current-menu-parent>a,.fusion-is-sticky .fusion-main-menu>ul>li.current_page_item>a,.fusion-is-sticky .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo)>a:hover,.fusion-main-menu>ul>li.current-menu-ancestor>a,.fusion-main-menu>ul>li.current-menu-item>a,.fusion-main-menu>ul>li.current-menu-parent>a,.fusion-main-menu>ul>li.current_page_item>a,.fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo)>a:hover,.fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):hover>a{background:none}
-html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:hover,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item>a{background:rgba(0,0,0,.1)!important}
+html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title):hover,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item>a{background:rgba(0,0,0,.1)!important}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:rgba(255,255,255,1)!important;opacity:1!important}
 .fusion-main-menu>ul>li>a .fusion-caret{margin-left:5px;opacity:.5}
 .fusion-main-menu>ul>li:hover>a .fusion-caret{opacity:.8}
