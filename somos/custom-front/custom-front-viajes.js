@@ -136,6 +136,8 @@ jQuery(document).ready(function() {
 
 
 	// Asignar responsable según oficina
-	jQuery('input[name=gdGroupfe587259d3]')
+	var gdOFFICE_mc = jQuery('input[name=gdOFFICE_mc]').val();
+	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
+	console.log(gdOFFICE_mc);
 
 });
