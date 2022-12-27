@@ -138,11 +138,14 @@ jQuery(document).ready(function() {
 	// Asignar responsable según oficina
 	var gdOFFICE_mc = jQuery('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
+	var RESPBOSS = jQuery('input[name=RESPBOSS]').val();
 	if ( gdOFFICE_mc == 'AR' ) {
 		jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
+		jQuery('input[name=MSG]').val('fue informada a tu líder directo ('+RESPBOSS+').');
 	}
 	else if ( gdOFFICE_mc == 'CL' ) {
 		jQuery('input[name=RESP]').val(jQuery('input[name=RESPCL]').val());
+		jQuery('input[name=MSG]').val('deberá ser aprobada previamente para su ejecución por tu líder directo ('+RESPBOSS+') respondiendo este mismo correo.');
 	}
 	else {
 		jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
