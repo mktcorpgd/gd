@@ -129,7 +129,7 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 
 /* Header */
 .fusion-header-wrapper{width:100%;top:0}
-.fusion-header-wrapper:not(.not-sticky){position:fixed}
+.fusion-header-wrapper:not(.not-sticky){position:fixed!important}
 body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-header{transition:all .5s ease-in-out;}
 .fusion-header.on-top{box-shadow:0 0 0 0 rgba(0,0,0,0)}
