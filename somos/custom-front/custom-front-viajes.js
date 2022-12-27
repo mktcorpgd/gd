@@ -138,8 +138,9 @@ jQuery(document).ready(function() {
 	// Asignar responsable según oficina
 	var gdOFFICE_mc = jQuery('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
-	jQuery('input[name=RESPBOSS]').change(function() {
+	jQuery('select[name=RESPBOSS]').change(function() {
 		var RESPBOSS = jQuery(this).val();
+		console.log(gdOFFICE_mc);
 		console.log(RESPBOSS);
 		if ( gdOFFICE_mc == 'AR' ) {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
