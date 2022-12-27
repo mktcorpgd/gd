@@ -220,9 +220,9 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .menu-item.social-link .menu-text>img[src*='whatsapp']{margin-right:0}
 
 /* Slider */
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,body.home .tfs-slider .slide-content-container h2{color:#FFFFFF}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.tfs-slider .heading h2,.hero-img .fusion-title-1 h1{margin-bottom:20px;line-height:1.1;font-weight:500}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{line-height:1.3rem;font-weight:400}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,body.home .tfs-slider .slide-content-container h2{color:#FFFFFF!important}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.tfs-slider .heading h2,.hero-img .fusion-title-1 h1{margin-bottom:20px!important;line-height:1.1rem!important;font-weight:500!important}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{line-height:1.3rem;font-weight:400!important}
 
 /* Búsqueda 
 body.search #content{width:100%}
