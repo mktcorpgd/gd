@@ -400,7 +400,7 @@ jQuery(document).ready(function() {
 				}
 			}
 			else {
-				jQuery('input[name='+inputtext_name+']+.wpcf7-not-valid-tip').hide();
+				jQuery('input[name='+inputtext_name+']+.wpcf7-not-valid-tip').show();
 				if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
 					inputtext_name = inputtext_name.substr(0,5);
 					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
