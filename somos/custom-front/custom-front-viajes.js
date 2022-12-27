@@ -140,18 +140,17 @@ jQuery(document).ready(function() {
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
 	jQuery('select[name=RESPBOSS]').change(function() {
 		var RESPBOSS = jQuery(this).val();
-		console.log(gdOFFICE_mc);
-		console.log(RESPBOSS);
 		if ( gdOFFICE_mc == 'AR' ) {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
-			jQuery('input[name=MSG]').val('fue informada a tu líder directo ('+RESPBOSS+').');
+			jQuery('input[name=MSG]').val(jQuery('input[name=MSGAR]').val());
 		}
 		else if ( gdOFFICE_mc == 'CL' ) {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPCL]').val());
-			jQuery('input[name=MSG]').val('deberá ser aprobada previamente para su ejecución por tu líder directo ('+RESPBOSS+') respondiendo este mismo correo.');
+			jQuery('input[name=MSG]').val(jQuery('input[name=MSGCL]').val());
 		}
 		else {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
+			jQuery('input[name=MSG]').val(jQuery('input[name=MSGAR]').val());
 		}	
 	});
 
