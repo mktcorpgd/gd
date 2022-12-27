@@ -141,17 +141,17 @@ jQuery(document).ready(function() {
 	jQuery('input[name=RESPBOSS]').change(function() {
 		var RESPBOSS = jQuery(this).val();
 		console.log(RESPBOSS);
+		if ( gdOFFICE_mc == 'AR' ) {
+			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
+			jQuery('input[name=MSG]').val('fue informada a tu líder directo ('+RESPBOSS+').');
+		}
+		else if ( gdOFFICE_mc == 'CL' ) {
+			jQuery('input[name=RESP]').val(jQuery('input[name=RESPCL]').val());
+			jQuery('input[name=MSG]').val('deberá ser aprobada previamente para su ejecución por tu líder directo ('+RESPBOSS+') respondiendo este mismo correo.');
+		}
+		else {
+			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
+		}	
 	});
-	if ( gdOFFICE_mc == 'AR' ) {
-		jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
-		jQuery('input[name=MSG]').val('fue informada a tu líder directo ('+RESPBOSS+').');
-	}
-	else if ( gdOFFICE_mc == 'CL' ) {
-		jQuery('input[name=RESP]').val(jQuery('input[name=RESPCL]').val());
-		jQuery('input[name=MSG]').val('deberá ser aprobada previamente para su ejecución por tu líder directo ('+RESPBOSS+') respondiendo este mismo correo.');
-	}
-	else {
-		jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
-	}
 
 });
