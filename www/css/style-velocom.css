@@ -1,9 +1,11 @@
 /* Velocom */
 body.single-avada_portfolio #sliders-container,.fullwidth-box:not(.no-overlay):not(.no-overlay-video).video-background .fullwidth-video:after,.pac-icon,.pac-logo:after,.fusion-modal.cargando .modal-header .close{display:none!important}
 .map,.tfs-slider h2 span,.caption h3 span,div.TYPE2,.modal.loading .modal-header,.fusion-portfolio-meta,.step2,.fusion-title.fusion-sep-none.step2{display:none}
+
+/* Header: transparente */
+#wrapper.header-transparent.bkg .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#AE1857}
+
 ::-moz-selection{background:#E94180!important;color:#FFFFFF}::selection{background:#E94180!important;color:#FFFFFF}
-#wrapper{padding-top:91px}
-body.customize-support #wrapper{padding-top:91px}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#AE1857!important}
 body.single-avada_portfolio .fusion-page-title-bar{background:#AE1857!important}
 body.single-avada_portfolio .fusion-page-title-bar h1,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span,.fusion-contact-info,.fusion-contact-info a,.fusion-secondary-menu,.fusion-secondary-menu a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs{color:#FFFFFF!important}
@@ -14,11 +16,8 @@ body.single-avada_portfolio .fusion-page-title-bar h1,body.single-avada_portfoli
 #content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover{background:#CD346C!important}
 .fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#E94180!important}
 body.postid-22064 #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content:not(.fusion-sidebar-stuck){margin-top:40px}
-.fusion-header,.fusion-secondary-header{background:none!important}
-div.fusion-header-v2,#wrapper.header-transparent.bkg div.fusion-header-v2{background:#AE1857!important}
 #wrapper.header-transparent.on-top:not(.bkg) .fusion-header-v2{background:rgba(0,0,0,0)!important}
 .sidebar .widget .heading .widget-title{margin-bottom:5px!important}
-.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#A12951!important}
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#AE1857!important}
 .tfs-slider .fusion-title-size-three h3{line-height:1.25!important;font-weight:700!important}
 .tfs-slider .fusion-title-size-three h3:not(.price){letter-spacing:2px;text-transform:uppercase;font-size:1.4em!important}
@@ -96,7 +95,6 @@ body.page-id-24138 .post-content p{text-align:justify}
 	.fusion-footer-widget-area ul#menu-footer-internet li{display:block;padding:5px 0!important}
 	#menu-widget-2 ul li a{font-size:20px}
 	.fusion-page-title-bar,body.single-avada_portfolio .fusion-page-title-bar{padding-top:4em!important}
-	body.customize-support #wrapper{padding-top:118px}
 	body.home .post-content .wpcf7-select-parent .wpcf7-select.highlight,.tfs-slider select.highlight{font-size:1.3em!important}
 	body #wrapper .fusion-fullwidth.header-transparent{padding-top:160px!important}
 	body.home #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1{font-size:2em!important}
