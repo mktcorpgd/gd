@@ -140,7 +140,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 #wrapper.header-transparent.on-top .fusion-header-wrapper{background:rgba(0,0,0,0)}
 
 /* Menú */
-.fusion-megamenu-holder{border-top:none}
+.fusion-megamenu-holder{background:none;border-top:none}
 .fusion-megamenu-title a{background:none!important}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu,.fusion-main-menu .fusion-menu-item-button a,.fusion-megamenu-title a{cursor:default}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a,.fusion-mobile-nav-holder .fusion-mobile-nav-item[data-item-id*='wpml'] a{font-weight:400}
