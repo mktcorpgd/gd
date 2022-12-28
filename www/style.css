@@ -173,7 +173,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 /* Menú: CTA */
 .fusion-main-menu>ul>.fusion-menu-item-button:hover>a{background-color:transparent!important}
 .fusion-main-menu .fusion-menu-item-button a>span{font-weight:400}
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)}
+.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2);color:#FFFFFF}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)}
 .fusion-main-menu .fusion-menu-item-button .menu-text span.fusion-button-text-left{padding-left:20px;background:rgba(0,0,0,0);font-weight:400}
 .fusion-menu li.social-link a{padding:0 8px!important;font-weight:500!important;text-align:center}
