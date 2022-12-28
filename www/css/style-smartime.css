@@ -1,5 +1,7 @@
 /* Smartime */
 ::-moz-selection{background:#01A7B7!important;color:#FFFFFF}::selection{background:#01A7B7!important;color:#FFFFFF}
+/* Header: transparente */
+.header-transparent .fusion-header-wrapper,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#11541D}
 .fusion-main-menu>ul>li:last-child:not(.gd){display:none!important}
 .fusion-footer-widget-area{background:#FFFFFF}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#9A619E}
@@ -12,8 +14,6 @@ body.single-avada_portfolio .fusion-page-title-bar h1,body.single-avada_portfoli
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#01A7B7!important}
 #content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#01A7B7!important}
 .fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#01A7B7!important}
-.fusion-header,#wrapper.header-transparent .fusion-header.bkg,#wrapper.header-transparent .fusion-header.bkg{background:#01A7B7!important}
-.fusion-header .sub-menu{background:#9A619E!important}
 body:not(.home) .fusion-posts-container article.category-c-productos-servicios .fusion-post-content{padding-bottom:53px!important}
 .w80 .wpcf7 .wpcf7-submit:hover{background:#01A7B7!important;border-color:#FFFFFF!important}
 .fusion-one-fourth h5,.wpcf7 .fusion-one-full>p i,.wpcf7 .fusion-one-full>p a{color:#9A619E}
