@@ -2,7 +2,7 @@
 ::-moz-selection{background:#43C297!important;color:#FFFFFF}::selection{background:#43C297!important;color:#FFFFFF}
 
 /* Header: transparente */
-#wrapper.header-transparent.bkg .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#43C297}
+#wrapper.header-transparent .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#43C297}
 
 #wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text),#wrapper.sersat .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.sersat input[type='submit']:not(.sending),#wrapper.sersat .wpcf7-form input[type='submit']:not(.sending),#wrapper.sersat #main #comment-submit,#boxed-wrapper.sersat~.modal input[type='submit']:not(.sending),#boxed-wrapper.sersat~.modal .wpcf7-form input[type='submit']:not(.sending){background:#43C297!important;color:#FFFFFF}
 #wrapper.sersat #content .button-default:hover,#wrapper.sersat input[type='submit']:not(.sending):hover,#boxed-wrapper.sersat~.modal input[type='submit']:not(.sending):hover{background:#FFFFFF!important;color:#43C297!important}
