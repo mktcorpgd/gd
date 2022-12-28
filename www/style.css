@@ -209,11 +209,10 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .menu-item.social-link .menu-text>img[src*='whatsapp']{margin-right:0}
 
 /* Slider */
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,body.home .tfs-slider .slide-content-container h2{color:#FFFFFF!important}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.hero-img .fusion-title-1 h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2{margin-bottom:20px!important;line-height:1.1!important;font-weight:500!important}
-.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-size:1.8rem;line-height:1.3!important}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.fusion-fullwidth.nonhundred-percent-fullwidth .heading h1,.tfs-slider .heading h2,.tfs-slider .heading h3,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4,.tfs-slider .caption .fusion-title h3 strong,.tfs-slider .caption .fusion-title h4 strong{font-weight:400!important}
-.tfs-slider .caption .fusion-title h3 strong,.tfs-slider .caption .fusion-title h4 strong{text-decoration:underline}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider h2{margin-bottom:20px!important;color:#FFFFFF!important;line-height:1.1!important;font-weight:500!important}
+.tfs-slider h3,.tfs-slider h4{font-size:1.8rem;line-height:1.3!important}
+.tfs-slider h3,.tfs-slider h4,.tfs-slider h3 strong,.tfs-slider h4 strong{font-weight:400!important}
+.tfs-slider h3 strong,.tfs-slider h4 strong{text-decoration:underline}
 .flex-viewport{height:auto}
 .fusion-layout-column .flexslider{margin-bottom:0}
 .tfs-slider .buttons .fa{color:#FFFFFF}
