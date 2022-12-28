@@ -131,8 +131,6 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 .on-top .fusion-header-wrapper{box-shadow:0 0 0 0 rgba(0,0,0,0)}
 body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft,.fusion-header-v2 .fusion-secondary-header{border:none}
-.fusion-contact-info,.fusion-secondary-header a{height:auto;line-height:initial}
-.fusion-secondary-header a{font-family:'neo-sans',sans-serif}
 .fusion-secondary-header a:hover{text-decoration:underline}
 .fusion-secondary-menu>ul>li>a{padding:.2em .8em}
 
@@ -212,7 +210,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 
 /* Slider */
 #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,body.home .tfs-slider .slide-content-container h2{color:#FFFFFF!important}
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.hero-img .fusion-title-1 h1{margin-bottom:20px!important;line-height:1.1!important;font-weight:500!important}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,.hero-img .fusion-title-1 h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2{margin-bottom:20px!important;line-height:1.1!important;font-weight:500!important}
 .tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-size:1.8rem;line-height:1.3!important}
 #wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.fusion-fullwidth.nonhundred-percent-fullwidth .heading h1,.tfs-slider .heading h2,.tfs-slider .heading h3,.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4,.tfs-slider .caption .fusion-title h3 strong,.tfs-slider .caption .fusion-title h4 strong{font-weight:400!important}
 .tfs-slider .caption .fusion-title h3 strong,.tfs-slider .caption .fusion-title h4 strong{text-decoration:underline}
