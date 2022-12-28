@@ -147,7 +147,7 @@ body.customize-support .fusion-header-wrapper:not(.not-sticky){top:32px}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
 .fusion-main-menu .sub-menu li a,.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a{padding-top:2px!important;padding-bottom:2px!important;white-space:nowrap;font-size:.9rem!important}
-.fusion-main-menu .sub-menu li a span>span,.fusion-mobile-nav-holder .sub-menu li a span>span{display:block;position:relative;top:-2px;font-size:.7em;line-height:1;opacity:.8}
+.fusion-main-menu .sub-menu li a span>span:not(.wpml-ls-native),.fusion-mobile-nav-holder .sub-menu li a span>span:not(.wpml-ls-native){display:block;position:relative;top:-2px;font-size:.7em;line-height:1;opacity:.8}
 .fusion-main-menu .sub-menu li:first-child a{padding-top:3px!important}
 .fusion-main-menu .sub-menu li:last-child a{padding-bottom:3px!important}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{border:none}
