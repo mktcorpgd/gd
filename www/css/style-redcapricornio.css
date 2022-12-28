@@ -3,7 +3,7 @@
 ::-moz-selection{background:#11541D!important;color:#FFFFFF}::selection{background:#11541D!important;color:#FFFFFF}
 
 /* Header: transparente */
-.header-transparent .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#11541D}
+.header-transparent .fusion-header-wrapper,.sub-menu,.fusion-megamenu-wrapper{background:#11541D}
 
 .fusion-footer-widget-area{background:#FFFFFF}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#B92917}

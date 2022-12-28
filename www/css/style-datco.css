@@ -3,7 +3,7 @@ body.page-id-26163 #menu-item-26104{display:none!important}
 ::-moz-selection{background:#115B82!important;color:#FFFFFF}::selection{background:#115B82!important;color:#FFFFFF}
 
 /* Header: transparente */
-.header-transparent .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#1C8DCE}
+.header-transparent .fusion-header-wrapper,.sub-menu,.fusion-megamenu-wrapper{background:#1C8DCE}
 
 #wrapper.no-header-logo .on-top:not(.bkg) .fusion-logo{opacity:0}
 #wrapper.datco .fusion-button:not(.button-custom):not(.menu-text),#wrapper.datco .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.datco input[type='submit']:not(.sending),#wrapper.datco .wpcf7-form input[type='submit']:not(.sending),#wrapper.datco #main #comment-submit,#boxed-wrapper.datco~.modal input[type='submit']:not(.sending),#boxed-wrapper.datco~.modal .wpcf7-form input[type='submit']:not(.sending){border:#115B82;background:#115B82!important;color:#FFFFFF}
