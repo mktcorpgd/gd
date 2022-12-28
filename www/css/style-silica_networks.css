@@ -4,7 +4,7 @@ body.page-id-32849 .overlay-link{visibility:hidden}
 ::-moz-selection{background:#87B227!important;color:#FFFFFF}::selection{background:#87B227!important;color:#FFFFFF}
 
 /* Header: transparente */
-#wrapper.header-transparent .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#497718}
+.header-transparent .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#497718}
 
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#497718!important}
 body.single-avada_portfolio .fusion-page-title-bar{background:#87B227!important}

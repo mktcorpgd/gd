@@ -2,7 +2,7 @@
 ::-moz-selection{background:#552156!important;color:#FFFFFF}::selection{background:#552156!important;color:#FFFFFF}
 
 /* Header: transparente */
-#wrapper.header-transparent .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#89388D}
+.header-transparent .fusion-header-wrapper,.fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{background:#89388D}
 
 body.home .fusion-content-boxes .content-container{margin-bottom:0!important}
 #side-header .fusion-logo, .fusion-header .fusion-logo{margin:8px 0 0 0!important}
