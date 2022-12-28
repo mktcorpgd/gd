@@ -3,7 +3,7 @@
 ::-moz-selection{background:#7E1F4B!important;color:#FFFFFF}::selection{background:#E94180!important;color:#FFFFFF}
 
 /* Header: transparente */
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#7E1F4B}
+.fusion-top-header .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#7E1F4B}
 
 body a{color:#7E1F4B}
 body a:hover{color:#340018}

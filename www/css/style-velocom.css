@@ -3,7 +3,7 @@ body.single-avada_portfolio #sliders-container,.fullwidth-box:not(.no-overlay):n
 .map,.tfs-slider h2 span,.caption h3 span,div.TYPE2,.modal.loading .modal-header,.fusion-portfolio-meta,.step2,.fusion-title.fusion-sep-none.step2{display:none}
 
 /* Header: transparente */
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#AE1857}
+.fusion-top-header .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#AE1857}
 
 ::-moz-selection{background:#E94180!important;color:#FFFFFF}::selection{background:#E94180!important;color:#FFFFFF}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#AE1857!important}
