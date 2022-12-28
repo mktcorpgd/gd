@@ -2,7 +2,7 @@
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor:#FFFFFF}
 
 /* Header: transparente */
-.header-transparent .fusion-header-wrapper,.sub-menu,.fusion-megamenu-wrapper{background:var(--mainColor)}
+.header-transparent .fusion-header-wrapper,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:var(--mainColor)}
 
 body.branding .fusion-main-menu-search,body.branding .fusion-icon-search,body.branding .fusion-mobile-menu-search,
 #text-7 .textwidget br,.format-standard .fusion-post-content h2 a:before,body.single-format-standard #wpcf7-f39956-o1 img,

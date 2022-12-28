@@ -2,7 +2,7 @@
 ::-moz-selection{background:#5668BF!important;color:#FFFFFF}::selection{background:#5668BF!important;color:#FFFFFF}
 
 /* Header: transparente */
-.header-transparent .fusion-header-wrapper,.sub-menu,.fusion-megamenu-wrapper{background:#39457E}
+.header-transparent .fusion-header-wrapper,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#39457E}
 
 #boxed-wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,#boxed-wrapper.focus .fusion-main-menu .fusion-menu-item-button .menu-text:hover span,#boxed-wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left,#boxed-wrapper.focus .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{color:#FFFFFF}
 #boxed-wrapper.focus .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}

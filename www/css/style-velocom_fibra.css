@@ -1,8 +1,9 @@
 .fusion-social-links-footer,.fusion-pricing-table .panel-body{display:none!important}
 #sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
 ::-moz-selection{background:#7E1F4B!important;color:#FFFFFF}::selection{background:#E94180!important;color:#FFFFFF}
+
 /* Header: transparente */
-.header-transparent .fusion-header-wrapper,.sub-menu,.fusion-megamenu-wrapper{background:#7E1F4B}
+.header-transparent .fusion-header-wrapper,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#7E1F4B}
 
 body a{color:#7E1F4B}
 body a:hover{color:#340018}
