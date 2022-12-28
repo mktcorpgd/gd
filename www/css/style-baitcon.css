@@ -2,7 +2,7 @@
 ::-moz-selection{background:#552156!important;color:#FFFFFF}::selection{background:#552156!important;color:#FFFFFF}
 
 /* Header: transparente */
-.header-transparent .fusion-header-wrapper,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#89388D}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{background:#89388D}
 
 body.home .fusion-content-boxes .content-container{margin-bottom:0!important}
 #side-header .fusion-logo, .fusion-header .fusion-logo{margin:8px 0 0 0!important}
