@@ -2,7 +2,7 @@
 ::-moz-selection{background:#692D87!important;color:#FFFFFF}::selection{background:#692D87!important;color:#FFFFFF}
 
 /* Header: transparente */
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header{background:#692D87}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:#692D87}
 
 #wrapper.networks0g .fusion-button:not(.button-custom):not(.menu-text),#wrapper.networks0g .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.networks0g input[type='submit']:not(.sending),#boxed-wrapper.networks0g~.modal .wpcf7-form input[type='submit']:not(.sending),.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{border-color:#4D1968;background:#4D1968!important;color:#FFFFFF}
 #wrapper.networks0g #content .button-default:hover,#wrapper.networks0g input[type='submit']:not(.sending):hover,#boxed-wrapper.networks0g~.modal input[type='submit']:not(.sending):hover,#wrapper.networks0g #content .button-default:focus,#wrapper.networks0g input[type='submit']:not(.sending):focus,#boxed-wrapper.networks0g~.modal input[type='submit']:not(.sending):focus{background:#692D87!important}
