@@ -159,7 +159,6 @@ jQuery(document).ready(function() {
 	if ( jQuery('.post-content .header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
-	jQuery('.fusion-header').addClass('on-top');
 	scrollHeaderTransp();
 	jQuery(window).scroll(function() {
 		scrollHeaderTransp();
