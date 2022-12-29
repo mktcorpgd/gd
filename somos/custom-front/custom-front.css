@@ -466,7 +466,6 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive div{font-size:.8rem;font-weight:400}
 #UseyourDrive .ajax-filelist{height:auto;min-height:auto;font-size:1em}
 #UseyourDrive .files .ajax-filelist{padding:0}
-#UseyourDrive .entry-info-button,.UseyourDrive .entry-info-button{width:16px}
 #UseyourDrive .nav-title,#UseyourDrive .tippy-content,.UseyourDrive .tippy-content{font-family:'neo-sans',sans-serif}
 #UseyourDrive .nav-title{order:0;flex:10 0 0;padding-left:.4em;font-size:1rem}
 #UseyourDrive .folders-container .entry-info-name{margin-right:0;line-height:1.2}
