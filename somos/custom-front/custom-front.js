@@ -388,10 +388,12 @@ jQuery(document).ready(function() {
 					jQuery('input[name='+inputtext_name+']').val('Inmediata');
 				}
 				else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
+					jQuery('input[name^='+init_inputtext_name+']+.wpcf7-not-valid-tip').hide();
 					jQuery('input[name^='+init_inputtext_name+'PLACE]').val('—').attr('readonly',true);
 					jQuery('input[name^='+init_inputtext_name+'DATE]').val('').attr('disabled',true);
 				}
 				else if ( checkbox_name.indexOf('NOT') > -1 ) {
+					jQuery('input[name^='+inputtext_name+']+.wpcf7-not-valid-tip').hide();
 					jQuery('input[name^='+inputtext_name+']').val('—').attr('disabled',true);
 				}
 				else {
@@ -405,7 +407,7 @@ jQuery(document).ready(function() {
 					jQuery('input[name^='+init_inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
 				}
 				else {
-					jQuery('input[name^='+init_inputtext_name+']').val('').removeAttr('disabled');
+					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('disabled');
 				}
 			}
 		});	
