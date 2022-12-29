@@ -139,8 +139,7 @@ jQuery(document).ready(function() {
 	var gdOFFICE_mc = jQuery('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
 	console.log(gdOFFICE_mc);
-	jQuery('select[name=RESPBOSS]').change(function() {
-		var RESPBOSS = jQuery(this).val();
+	function assignResp() {
 		if ( gdOFFICE_mc == 'AR' ) {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
 			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDAR]').val());
@@ -153,6 +152,10 @@ jQuery(document).ready(function() {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
 			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDAR]').val());
 		}	
+	}
+	assignResp();
+	jQuery('select[name=RESPBOSS]').change(function() {
+		assignResp();
 	});
 
 });
