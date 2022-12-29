@@ -136,6 +136,8 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 
 /* Menú - Banderas */
 .country-flag.menu-item .menu-text{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
+.country-flag.menu-item img[src*='flag-']{margin-right:4px;width:15px;height:15px;position:relative;top:-2px;border-radius:32px}
+.country-flag.menu-item .sub-menu img[src*='flag-']{top:6px;width:13px;height:13px}
 
 /* Menú - Logo */
 .fusion-logo{transition:opacity .1s ease-in-out}
