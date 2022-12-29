@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('select[name^=ACCESS] option[value="Red"]').prop('selected',true);
 			jQuery('select[name^=ACCESS] option[value="Email @datco.net"]').prop('selected',true);
-			jQuery('select[name^=ACCESS] option[value="Salesforce"]').prop('selected',false);
+			jQuery('select[name^=ACCESS] option[value="Salesforce"]').prop('selected',true);
 			jQuery('select[name^=ACCESS] option[value="Screentime"]').prop('selected',false);
 		}
 	});
