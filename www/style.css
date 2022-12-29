@@ -563,8 +563,9 @@ a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!impor
 
 /* Páginas de categorías */
 .hero-img+.fusion-fullwidth{padding-top:4em}
-.hero-img .fusion-title-1{margin-bottom:.5em}
 .hero-img h1,.hero-img h4{color:#FFFFFF!important}
+.hero-img .fusion-title-size-one{margin-bottom:.5em;font-size:1.6em}
+.hero-img .fusion-title-size-four{font-size:1.2em}
 
 /* Overlays */
 .project-description>h3+.radius2x:after,.fusion-fullwidth.hero-img:after,.fusion-fullwidth.fullwidth-box.tfs-slider:after,.tfs-slider li .background:after,.tfs-slider li .mobile_video_image:after{content:'';display:block!important;width:100%;height:100%;background:rgba(0,0,0,.6);z-index:2;position:absolute;left:0;bottom:0;width:100%}
