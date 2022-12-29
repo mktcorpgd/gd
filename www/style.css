@@ -1006,6 +1006,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.white-space-nowrap .fusion-toggle-heading{white-space:nowrap}
 	body.single-avada_portfolio #main>.fusion-row{position:relative!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
+	.fusion-header{height:66px}
 	.tab-filters .nav li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em!important}
 	.fusion-filters .fusion-filter{display:table-cell;float:none;width:1%}
 	.fusion-filters .fusion-filter a{line-height:1.15}
