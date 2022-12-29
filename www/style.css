@@ -591,6 +591,7 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-portfolio-grid.fusion-portfolio-five .fusion-post-content p{padding:0 16px 20px!important;font-size:80%;line-height:1.6;font-weight:400}
 .fusion-title-size-two+.fusion-blog-layout-grid-wrapper .fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a{padding:20px 24px!important}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{background:#FFFFFF!important;box-shadow:0 4px 24px  0 rgba(0,0,0,.2);border:none!important;border-radius:12px;position:relative;z-index:10;overflow:hidden}
+.fusion-content-boxes.shadow>.fusion-column>.col a{display:block;padding:1em .8em}
 .fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{width:100%;display:inline-block}
 .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a,.fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{padding:.8rem 1rem}
 .fusion-blog-layout-grid .fusion-image-wrapper,.fusion-blog-layout-grid .fusion-image-wrapper img,.fusion-portfolio-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper img,.fusion-portfolio-layout-grid .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-image-wrapper img{position:relative}
@@ -965,7 +966,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-tabs.horizontal-tabs.clean .tab-content{margin-top:0!important;padding:20px}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:20px!important}
 	.tab-filters.fusion-tabs.horizontal-tabs.clean .tab-content{padding:0}
-	
+
 	.no-padding-left-right .fusion-column{padding-left:0!important;padding-right:0!important}
 	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
 	#inicio .fusion-content-boxes.content-boxes-icon-on-top .content-container,#inicio .fusion-content-boxes .fusion-column,#inicio .fusion-content-boxes.content-boxes-icon-on-top .heading{margin-bottom:0!important}
