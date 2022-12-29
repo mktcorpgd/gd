@@ -15,7 +15,7 @@ div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,
 .c-solo-contacto .more-link,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,.fusion-portfolio-content .fusion-text~p .more-link,
 .fusion-sharing-box.share-box h4,.fusion-theme-sharing-box.share-box h4,
 #wrapper:not(.country-flag) .country-flag.menu-item.hidden,
-.fusion-megamenu-bullet,.fusion-megamenu-title a[href='#no-title'],
+.fusion-megamenu-bullet,
 body.single article.post.format-link .fusion-post-slideshow,
 body.search #sidebar,body.single-format-link #sidebar,
 body.single-format-link #main h4.widget-title,.no-title .widget-title,
@@ -114,6 +114,7 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 .header-transparent .fusion-builder-row-1{padding-top:66px}
 
 /* Menú */
+.fusion-megamenu-title a[href='#no-title']{visibility:hidden;}
 .fusion-megamenu-holder{background:none;border-top:none}
 .fusion-megamenu-title a{background:none!important}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu,.fusion-main-menu .fusion-menu-item-button a,.fusion-megamenu-title a{cursor:default}
