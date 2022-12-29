@@ -402,11 +402,12 @@ jQuery(document).ready(function() {
 				}
 			}
 			else {
-				jQuery('input[name^='+init_inputtext_name+']+.wpcf7-not-valid-tip').show();
 				if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
+					jQuery('input[name^='+init_inputtext_name+']+.wpcf7-not-valid-tip').show();
 					jQuery('input[name^='+init_inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
 				}
 				else {
+					jQuery('input[name^='+inputtext_name+']+.wpcf7-not-valid-tip').show();
 					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('disabled');
 				}
 			}
