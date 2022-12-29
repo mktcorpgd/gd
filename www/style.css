@@ -106,9 +106,8 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft,.fusion-header-v2 .fusion-secondary-header{border:none}
 .fusion-secondary-header a:hover{text-decoration:underline}
 .fusion-secondary-menu>ul>li>a{padding:.2em .8em}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input::placeholder{color:rgba(255,255,255,.6)}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input::placeholder:focus{color:rgba(255,255,255,.8)}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']){padding:1em .8em;text-align:center;color:#FFFFFF}
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input::placeholder{color:rgba(255,255,255,.4)}
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:1em .8em;text-align:center;color:#FFFFFF}
 
 /* Header - Transparente */
 .header-transparent .fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
