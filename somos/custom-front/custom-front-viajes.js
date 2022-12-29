@@ -142,15 +142,15 @@ jQuery(document).ready(function() {
 		var RESPBOSS = jQuery(this).val();
 		if ( gdOFFICE_mc == 'AR' ) {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
-			jQuery('input[name=MSG]').val(jQuery('input[name=MSGAR]').val());
+			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDAR]').val());
 		}
 		else if ( gdOFFICE_mc == 'CL' ) {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPCL]').val());
-			jQuery('input[name=MSG]').val(jQuery('input[name=MSGCL]').val());
+			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDCL]').val());
 		}
 		else {
 			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
-			jQuery('input[name=MSG]').val(jQuery('input[name=MSGAR]').val());
+			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDAR]').val());
 		}	
 	});
 
