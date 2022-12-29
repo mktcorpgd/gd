@@ -4,13 +4,12 @@
 .hidden,
 .useful-links,
 .not-selected,
-body.error404 .searchform .search-button,body.error404 h3,
 .logged-in-as,
 #respond .fusion-title,.comment-form-cookies-consent,.commentlist .the-comment .comment-text em+br,
 div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,
 .mobile-only,
 .no-featured-image .fusion-image-wrapper,
-.fusion-button:before,.fusion-button:after,.fusion-load-more-button.fusion-blog-button:before,.fusion-load-more-button.fusion-blog-button:after,.no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-grid .fusion-portfolio-buttons,
+.fusion-button:before,.fusion-button:after,.fusion-load-more-button.fusion-blog-button:before,.fusion-load-more-button.fusion-blog-button:after,.no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-grid .fusion-portfolio-buttons,.fusion-search-button,
 .no-tags .meta-tags,article.category-c-nosotros .fusion-single-line-meta,article.category-blog .fusion-single-line-meta,.related-posts .fusion-carousel-meta span:not(.fusion-date),.fusion-post-title-meta-wrap h2,body.archive .fusion-portfolio-content .fusion-portfolio-meta,.fusion-portfolio-meta a[href*='/c-solo-contacto'],body.single-avada_portfolio .related-posts .fusion-carousel-meta,
 .c-solo-contacto .more-link,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,.fusion-portfolio-content .fusion-text~p .more-link,
 .fusion-sharing-box.share-box h4,.fusion-theme-sharing-box.share-box h4,
@@ -205,7 +204,7 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .whitetxt .content-container h4,.fusion-button.whitetxt:hover .fusion-button-text{color:#FFFFFF}
 .fusion-button.whitetxt:not(.button-custom){border-color:#FFFFFF}
 
-/* Búsqueda 
+/* Búsqueda */
 body.search #content{width:100%}
 body.search .fusion-page-title-captions{width:100%;text-align:center}
 body.search-no-results h2{margin-bottom:0}
@@ -216,7 +215,6 @@ body.search-no-results .fusion-title-size-two{margin-bottom:5px!important}
 #main .searchform .fusion-search-form-content .fusion-search-field input{display:block;margin:0 auto;max-width:600px;background:#FAFAFA;border:1px solid #CCCCCC!important;border-radius:24px!important}
 #main .search-page-search-form-bottom{margin-top:30px;padding-top:30px}
 body.error404 .fusion-page-title-wrapper{justify-content:center}
-*/
 
 /* Contenido */
 #content img[src*='flag-']:not([class*='alignnone']),.modal img[src*='flag-']:not([class*='alignnone']){margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
