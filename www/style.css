@@ -22,6 +22,7 @@ article.fusion-post-grid.category-tips-para-empresas h2.fusion-post-title,articl
 body.single-format-video article .fusion-flexslider,
 body.single-avada_portfolio #partners_footer,body.category-tips-para-empresas #partners_footer,
 .fusion-fullwidth.hero-img.contact+.fusion-fullwidth .fusion-button[href*='conta'],
+.fusion-footer-widget-area .widget_nav_menu li a:before
 .pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales span,body.no-partners .fusion-footer .partners,.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
