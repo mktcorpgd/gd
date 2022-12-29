@@ -4,14 +4,17 @@ jQuery(document).ready(function() {
 	// Cambiar tarjetas según empresa elegida
 	jQuery('select[name=MODCONT]').change(function() {
 		var modcont = jQuery(this,'option:selected').val();
-		console.log(modcont);
 		if ( modcont == 'Freelance' || modcont == 'Consultor externo' ) {
-			jQuery('select[name^=ACCESS] option[value="Red"],select[name^=ACCESS] option[value="Email @datco.net"],select[name^=ACCESS] option[value="Screentime"]').prop('selected',true)
-			jQuery('select[name^=ACCESS] option[value="Office 365"]').prop('selected',false);
-			jQuery('select[name^=ACCESS] option[value="Salesforce"]').prop('selected',false);
+			jQuery('select[name^=ACCESS] option[value="Red"]').prop('selected',true);
+			jQuery('select[name^=ACCESS] option[value="Email @datco.net"]').prop('selected',true);
+			jQuery('select[name^=ACCESS] option[value="Salesforce"]').prop('selected',true);
+			jQuery('select[name^=ACCESS] option[value="Screentime"]').prop('selected',true);
 		}
 		else {
-			jQuery('select[name^=ACCESS] option[value="Red"],select[name^=ACCESS] option[value="Email @datco.net"],select[name^=ACCESS] option[value="Salesforce"]').prop('selected',true);
+			jQuery('select[name^=ACCESS] option[value="Red"]').prop('selected',true);
+			jQuery('select[name^=ACCESS] option[value="Email @datco.net"]').prop('selected',true);
+			jQuery('select[name^=ACCESS] option[value="Salesforce"]').prop('selected',false);
+			jQuery('select[name^=ACCESS] option[value="Screentime"]').prop('selected',false);
 		}
 	});
 
