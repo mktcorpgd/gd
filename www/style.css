@@ -951,16 +951,21 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .swiper-slide{transition:all .1s ease-in-out!important}
 	.white-space-nowrap .fusion-toggle-heading{white-space:nowrap}
 	body.single-avada_portfolio #main>.fusion-row{position:relative!important}
+
+	/* Header */
+	.fusion-header{height:66px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
 	.header-transparent .hundred-percent-height{height:calc(100vh)!important}
 	body.customize-support .header-transparent .hundred-percent-height{height:calc(100vh - 32px)!important}
-	.fusion-header{height:66px}
+
+	/* Tabs */
 	.tab-filters .nav li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em!important}
 	.fusion-filters .fusion-filter{display:table-cell;float:none;width:1%}
 	.fusion-filters .fusion-filter a{line-height:1.15}
 	.fusion-tabs.horizontal-tabs.clean .tab-content{margin-top:0!important;padding:20px}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:20px!important}
 	.tab-filters.fusion-tabs.horizontal-tabs.clean .tab-content{padding:0}
+	
 	.no-padding-left-right .fusion-column{padding-left:0!important;padding-right:0!important}
 	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
 	#inicio .fusion-content-boxes.content-boxes-icon-on-top .content-container,#inicio .fusion-content-boxes .fusion-column,#inicio .fusion-content-boxes.content-boxes-icon-on-top .heading{margin-bottom:0!important}
