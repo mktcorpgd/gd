@@ -113,10 +113,10 @@ if ( window.location.href.indexOf('/eventos/') > -1 ) {
 function scrollHeaderTransp() {
 	var scroll = jQuery(window).scrollTop();
 	if ( scroll < 20 ) {
-		jQuery('.fusion-header').addClass('on-top');
+		jQuery('.fusion-header-wrapper').addClass('on-top');
 	}
 	else {
-		jQuery('.fusion-header').removeClass('on-top');
+		jQuery('.fusion-header-wrapper').removeClass('on-top');
 	}
 }
 

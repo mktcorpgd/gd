@@ -17,7 +17,7 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{vis
 
 /* General */
 .modal .modal-dialog{transition:all .1s ease-in-out!important}
-.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],#wrapper.header-transparent .fusion-header.on-top li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out}
+.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out}
 input::-webkit-input-placeholder{line-height:normal!important}
 ::placeholder{color:#555555;opacity:1}
 body{color:#333333;font-size:16px;line-height:1.6}
@@ -126,13 +126,13 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 
 /* Header */
 .fusion-header-wrapper{width:100%;top:0;box-shadow:0 4px 16px 0 rgba(0,0,0,.4);transition:all .5s ease-in-out}
-.on-top .fusion-header-wrapper{box-shadow:0 0 0 0 rgba(0,0,0,0)}
+.fusion-header-wrapper.on-top{box-shadow:0 0 0 0 rgba(0,0,0,0)}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft,.fusion-header-v2 .fusion-secondary-header{border:none}
 .fusion-secondary-header a:hover{text-decoration:underline}
 .fusion-secondary-menu>ul>li>a{padding:.2em .8em}
 
 /* Header: transparente */
-.on-top .fusion-top-header .fusion-header{background:rgba(0,0,0,0)}
+.fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
 
 /* Menú */
 .fusion-megamenu-holder{background:none;border-top:none}
@@ -1071,7 +1071,7 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 
 /* Mobile */
 @media (max-width:920px) {
-	#wp-admin-bar-customize,#wp-admin-bar-comments,#wp-admin-bar-avada,.fusion-mobile-nav-item a:before,.fusion-mobile-nav-item .fusion-caret,.button-xlarge i,.fusion-mobile-nav-holder>ul>li.is-landing a i,.button-icon-divider-left,.fusion-portfolio .fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left),div.fusion-text>p>i,.toggle-content p>i,#wrapper.header-transparent .fusion-header.on-top li[data-classes*='social-link'] a[href='#inicio'],.fusion-body .fusion-footer-copyright-center .fusion-copyright-notice>div>p span,.fusion-contact-info,.mobile-hidden,.more-info{display:none!important}
+	#wp-admin-bar-customize,#wp-admin-bar-comments,#wp-admin-bar-avada,.fusion-mobile-nav-item a:before,.fusion-mobile-nav-item .fusion-caret,.button-xlarge i,.fusion-mobile-nav-holder>ul>li.is-landing a i,.button-icon-divider-left,.fusion-portfolio .fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left),div.fusion-text>p>i,.toggle-content p>i,.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-body .fusion-footer-copyright-center .fusion-copyright-notice>div>p span,.fusion-contact-info,.mobile-hidden,.more-info{display:none!important}
 	body{font-size:18px;line-height:1.6}
 	#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']),#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .background-image,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .mobile_video_image,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .background,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .flexslider,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .flexslider .slides li,#wrapper.header-transparent .fusion-slider-container:not([class*='fusion-slider-sc-mapa']) .tfs-slider .mobile_video_image{max-height:120vh!important;height:120vh!important}
 	.fullwidth-center a{padding-left:0!important}
@@ -1079,15 +1079,12 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fullwidth-center img[src*='.svg']{display:inline-block;top:0;width:36px!important}
 	.fullwidth-center img[src*='partner']{width:60px!important}
 	.fullwidth-center img[src*='sap_gold']{width:70px!important}
-	#wrapper.header-transparent .fusion-header:not(.bkg) .fusion-mobile-nav-holder,#wrapper.header-transparent .fusion-header.on-top:not(.bkg) .fusion-mobile-nav-holder{background:rgba(0,0,0,.8)!important}
 	#wrapper .fusion-header .fusion-mobile-nav-holder .sub-menu{background:none!important}
-	#wrapper.header-transparent .imageframe-align-center~.fusion-title.fusion-title-1{margin-top:20px!important}
 	#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1{font-size:2.4em!important}
 	.tfs-slider .heading h2{font-size:.75em!important;line-height:1.1!important}
 	#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2{font-size:1.6em!important}
 	.tfs-slider .caption .fusion-title h3,.tfs-slider .caption .fusion-title h4{font-size:1.2em!important}
 	#wrapper.header-transparent .fusion-title-size-one~.fusion-title-size-three h3{font-size:1em!important}
-	#wrapper.header-transparent .fusion-header .fusion-mobile-menu-expanded .button-header a,#wrapper.header-transparent .fusion-header.on-top .fusion-mobile-menu-expanded .button-header a,#wrapper.header-transparent .fusion-header .fusion-mobile-menu-expanded .fusion-modal-text-link-button a,#wrapper.header-transparent .fusion-header.on-top .fusion-mobile-menu-expanded .fusion-modal-text-link-button a,#wrapper.header-transparent .fusion-header.bkg .fusion-mobile-menu-expanded .button-header a,#wrapper.header-transparent .fusion-header.bkg .fusion-mobile-menu-expanded .fusion-modal-text-link-button a{margin-bottom:10px!important}
 	.mobile-bkg-right-top,.mobile-bkg-right-top .fusion-column-wrapper{background-position:right top!important}
 	body #wrapper .fusion-fullwidth.header-transparent{padding-top:96px!important;padding-bottom:64px!important}
 	#wrapper:not(.header-transparent){padding-top:68px!important}
