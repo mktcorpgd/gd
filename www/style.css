@@ -20,7 +20,7 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{vis
 .fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out}
 input::-webkit-input-placeholder{line-height:normal!important}
 ::placeholder{color:#555555;opacity:1}
-body{font-family:'open-sans',sans-serif;color:#333333;font-size:16px;line-height:1.6}
+body{font-family:'open-sans',sans-serif;font-size:16px;line-height:1.6}
 #reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:#333333}
 sup{line-height:1!important}
 .post-content p b,.post-content p strong{font-weight:600!important}
@@ -35,16 +35,8 @@ iframe,.modal .fullwidth-modal{width:100%}
 .zindex99{z-index:99}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
-.fusion-content-boxes.text-align-left *{text-align:left!important}
-.fusion-content-boxes.text-align-left .icon,.fusion-content-boxes.text-align-left .icon i{display:inline-block!important}
-.fusion-content-boxes.text-align-left .icon{margin-left:5px}
-.fusion-content-boxes .content-container p{margin-bottom:10px}
 h3 img[src*='flag-']{width:22px;height:22px;top:4px}
 h4 img[src*='flag-']{top:4px!important}
-.bkg-cover,.bkg-cover .fusion-column-wrapper{background-size:cover!important}
-.bkg-contain,.bkg-contain .fusion-column-wrapper{background-size:contain!important}
-.bkg-size70,.bkg-size70 .fusion-column-wrapper{background-size:70%!important}
-.bkg-size80,.bkg-size80 .fusion-column-wrapper{background-size:80%!important}
 body.single .post-content article.post h3{font-size:1.6em!important}
 .white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,html body .white .fusion-accordian .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li,.white .toggle-content a{color:#FFFFFF!important}
 .bkg-white{background:#FFFFFF}
@@ -662,7 +654,7 @@ div.pdfemb-toolbar button.pdfemb-download:before{content:''}
 input.pdfemb-page-num{border-radius:6px;color:#333333}
 
 /* Encabezados */
-.fusion-modal h1,.fusion-page-title-bar h1,.fusion-tb-footer h1,.fusion-tb-page-title-bar h1,.fusion-title h1,.fusion-widget-area h1,.post-content h1,.search-page-search-form h1,h1,.fusion-author .fusion-author-title,.fusion-header-tagline,.fusion-modal .modal-title,.fusion-pricing-table .pricing-row,.fusion-pricing-table .title-row,.main-flex .slide-content h3,.post-content h3,.project-content h3,.sidebar .widget h3,h3,.fusion-text h1 strong,.fusion-text h2 strong,.fusion-text h3 strong,.post-content h1 strong,.post-content h2 strong,.post-content h3 strong{font-weight:500}
+.fusion-modal h1,.fusion-page-title-bar h1,.fusion-tb-footer h1,.fusion-tb-page-title-bar h1,.fusion-title h1,.fusion-widget-area h1,.post-content h1,.search-page-search-form h1,h1,.fusion-author .fusion-author-title,.fusion-header-tagline,.fusion-modal .modal-title,.fusion-pricing-table .pricing-row,.fusion-pricing-table .title-row,.main-flex .slide-content h3,.post-content h3,.project-content h3,.sidebar .widget h3,h3,.fusion-text h1 strong,.fusion-text h2 strong,.fusion-text h3 strong,.post-content h1 strong,.post-content h2 strong,.post-content h3 strong,.ei-title h2, .main-flex .slide-content h2, .post h2, .post-content h2, h2{font-weight:500}
 .fusion-text h4 strong,.fusion-text h5 strong,.fusion-text h6 strong,.post-content h4 strong,.post-content h5 strong,.post-content h6 strong{font-weight:400}
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.26em;font-weight:500}
 table th{font-size:1.2em}
@@ -953,21 +945,6 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 .wpcf7-form input[type='submit']:hover,.fusion-button:not(.whitetxt):hover .fusion-button-text,.wpcf7-select.selected.highlight:not(.wpcf7-not-valid),.fusion-button:not(.whitetxt):active .fusion-button-text,.fusion-portfolio-content .fusion-button:hover i,.fusion-buttons .fusion-button:hover i,.fusion-main-menu>ul>li.current-menu-item.fusion-menu-item-button>a .menu-text:not(.fusion-button):hover,.fusion-load-more-button.fusion-blog-button:hover,#respond input[type='submit']:hover,.white:not(.fusion-fullwidth) h6{color:#FFFFFF!important}
 .fusion-tabs.clean.vertical-tabs .nav-tabs li,.category-recursos .fusion-title-size-one h1,.fusion-one-half .flexslider,.page .post-slideshow,.fusion-reading-box-container p,.fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-wrapper .fusion-post-content.post-content,.fusion-blog-layout-grid h2,.fusion-footer-widget-column{margin-bottom:0!important}
 .fusion-portfolio-content-wrapper .fusion-portfolio-content h2{margin-bottom:5px!important}
-.fusion-content-boxes.no-margin .fusion-column{margin-bottom:0!important}
-.fusion-content-boxes.no-margin .heading{margin-bottom:10px!important}
-.fusion-content-boxes.content-boxes-icon-on-side.no-heading .icon{top:11px}
-.fusion-content-boxes.content-boxes-icon-on-side.no-heading .content-container strong{border-bottom:2px solid #CCCCCC}
-.fusion-content-boxes.content-boxes-icon-on-side.checklist:not(:last-child),.fusion-content-boxes.content-boxes-icon-on-side.checklist.fusion-columns-1 .fusion-column .heading{margin-bottom:5px!important}
-.fusion-content-boxes.content-boxes-icon-on-side.checklist .fusion-column{padding-right:5px!important;margin-bottom:0!important}
-.fusion-content-boxes.content-boxes-icon-on-side.checklist .heading-with-icon{margin-bottom:10px!important}
-.fusion-content-boxes.content-boxes-icon-on-side.checklist .heading-with-icon .fontawesome-icon{margin-right:10px!important}
-.fusion-content-boxes.content-boxes-icon-on-side.checklist .icon{top:3px}
-.fusion-footer-widget-column{text-align:left}
-.fusion-content-boxes .content-container li{line-height:1.5}
-.fusion-content-boxes.no-heading-margin .heading{margin-bottom:5px!important}
-.fusion-content-boxes.notitle .content-container{position:relative;top:-10px}
-.no-margin-heading.fusion-content-boxes .heading{margin-bottom:0}
-.no-margin-heading.fusion-content-boxes .content-container h5{margin:5px 0;font-size:1.2em}
 .no-margin-heading.fusion-content-boxes.fusion-columns-3 .fusion-column{margin-bottom:1em}
 .wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text select,.fusion-copyright-content .fusion-one-half:last-of-type{text-align:right}
 .fusion-footer-copyright-area{padding-top:15px!important;padding-bottom:30px!important;background:#222222!important}
@@ -1022,7 +999,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:19%!important}
 	.modal-lg{width:1200px}
 	.modal-sm{width:600px}
-	body #wrapper #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck{margin-top:30px}
 	.fusion-page-title-bar-left .fusion-page-title-secondary{margin-right:10px}
 	.fusion-page-title-bar-left .fusion-page-title-secondary .fusion-breadcrumbs{padding-top:10px!important;padding-bottom:0!important}
 	.fusion-breadcrumbs .fusion-breadcrumb-item{display:inline-block;padding:0 2px}
