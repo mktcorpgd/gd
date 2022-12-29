@@ -665,8 +665,8 @@ div.pdfemb-toolbar button.pdfemb-download:before{content:''}
 .pdfemb-page-num{padding:0}
 input.pdfemb-page-num{border-radius:6px;color:#333333}
 
-/* Portfolio */
-#main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content>h1.fusion-post-title,#wrapper #main .fusion-portfolio-content>h2.fusion-post-title,#wrapper #main .fusion-post-content>.blog-shortcode-post-title,#wrapper #main .fusion-post-content>h1.fusion-post-title,#wrapper #main .fusion-post-content>h2.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h1.fusion-post-title,#wrapper #main .post>.fusion-post-title-meta-wrap>h2.fusion-post-title,#wrapper #main .post>h1.fusion-post-title,#wrapper #main .post>h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.26em!important}
+/* Títulos */
+#main .fusion-woocommerce-quick-view-container .product_title, #wrapper #main .fusion-portfolio-content > h1.fusion-post-title, #wrapper #main .fusion-portfolio-content > h2.fusion-post-title, #wrapper #main .fusion-post-content > .blog-shortcode-post-title, #wrapper #main .fusion-post-content > h1.fusion-post-title, #wrapper #main .fusion-post-content > h2.fusion-post-title, #wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title, #wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title, #wrapper #main .post > h1.fusion-post-title, #wrapper #main .post > h2.fusion-post-title, .single-product #main .product h1.product_title, .single-product #main .product h2.product_title{font-size:1.26em;font-weight:500}
 #wrapper #main .fusion-portfolio-content>h2.fusion-post-title{margin-bottom:0}
 .fusion-portfolio .fusion-post-content{float:left}
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:1em;padding-left:1rem;padding-bottom:.6em;z-index:10}
