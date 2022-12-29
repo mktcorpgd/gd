@@ -11,7 +11,6 @@ jQuery(document).ready(function() {
 		}
 		else {
 			jQuery('select[name^=ACCESS] option[value="Red"],select[name^=ACCESS] option[value="Email @datco.net"],select[name^=ACCESS] option[value="Salesforce"]').prop('selected',true);
-			jQuery('select[name^=ACCESS] option[value="Screentime"]').prop('selected',false);
 		}
 	});
 
