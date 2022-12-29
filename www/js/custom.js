@@ -113,16 +113,10 @@ if ( window.location.href.indexOf('/eventos/') > -1 ) {
 function scrollHeaderTransp() {
 	var scroll = jQuery(window).scrollTop();
 	if ( scroll < 20 ) {
-		if ( jQuery('.header-transparent').length ) {
-			jQuery('#wrapper,.fusion-header').removeClass('bkg');
-		}
-		jQuery('#wrapper,.fusion-header').addClass('on-top');
+		jQuery('.fusion-header').addClass('on-top');
 	}
 	else {
-		if ( jQuery('.header-transparent').length ) {
-			jQuery('#wrapper,.fusion-header').addClass('bkg');
-		}
-		jQuery('#wrapper,.fusion-header').removeClass('on-top');
+		jQuery('.fusion-header').removeClass('on-top');
 	}
 }
 
