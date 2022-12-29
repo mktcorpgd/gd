@@ -97,7 +97,6 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 .modal-header .close:hover{color:#777777}
 
 /* Header */
-.avada-html-is-archive .fusion-top-header .fusion-header{background:none}
 .fusion-header-wrapper .fusion-header{width:100%;top:0;box-shadow:0 4px 16px 0 rgba(0,0,0,.4);transition:all .5s ease-in-out}
 .fusion-header-wrapper.on-top .fusion-header{box-shadow:0 0 0 0 rgba(0,0,0,0)}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft,.fusion-header-v2 .fusion-secondary-header{border:none}
