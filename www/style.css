@@ -115,8 +115,8 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 
 /* Menú */
 .fusion-megamenu-title a[href='#no-title']{visibility:hidden;}
-.fusion-megamenu-holder{background:none;border-top:none}
-.fusion-megamenu-title a{background:none!important}
+.fusion-megamenu-title a,.fusion-megamenu-holder{background:none!important}
+.fusion-megamenu-holder{border-top:none}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu,.fusion-main-menu .fusion-menu-item-button a,.fusion-megamenu-title a{cursor:default}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a,.fusion-mobile-nav-holder .fusion-mobile-nav-item[data-item-id*='wpml'] a{font-weight:400}
 .fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
