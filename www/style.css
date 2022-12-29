@@ -592,6 +592,7 @@ body.search .fusion-post-wrapper h2 a{padding-bottom:0!important}
 .fusion-title-size-two+.fusion-blog-layout-grid-wrapper .fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a{padding:20px 24px!important}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col{background:#FFFFFF!important;box-shadow:0 4px 24px  0 rgba(0,0,0,.2);border:none!important;border-radius:12px;position:relative;z-index:10;overflow:hidden}
 .fusion-content-boxes.shadow>.fusion-column>.col .heading,.fusion-content-boxes.shadow>.fusion-column>.col a{display:block}
+.fusion-content-boxes.shadow>.fusion-column>.col .heading{margin-bottom:0}
 .fusion-content-boxes.shadow>.fusion-column>.col a{padding:1em .8em}
 .fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{width:100%;display:inline-block}
 .fusion-posts-container.fusion-no-meta-info .fusion-post-content-wrapper h2 a,.fusion-posts-container.fusion-no-meta-info .fusion-post-wrapper h2 a,.fusion-portfolio .fusion-portfolio-content-wrapper h2 a,body.search .fusion-post-wrapper h2 a,.fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{padding:.8rem 1rem}
