@@ -132,7 +132,7 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 .fusion-secondary-menu>ul>li>a{padding:.2em .8em}
 
 /* Header: transparente */
-#wrapper.header-transparent.on-top .fusion-header-wrapper{background:rgba(0,0,0,0)}
+.on-top .fusion-top-header .fusion-header{background:rgba(0,0,0,0)}
 
 /* Menú */
 .fusion-megamenu-holder{background:none;border-top:none}
