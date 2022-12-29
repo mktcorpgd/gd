@@ -133,6 +133,7 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 
 /* Header: transparente */
 .header-transparent .fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
+.header-transparent .fusion-header-wrapper{width:100%;position:absolute}
 
 /* Menú */
 .fusion-megamenu-holder{background:none;border-top:none}
