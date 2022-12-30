@@ -526,6 +526,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .wp-video-shortcode{max-width:none!important}
 
 /* Grilla */
+.fusion-post-content-container{border:none!important}
 #main .post h2 a,#main article h2 a,.related-posts .awb-carousel .swiper-slide a{color:#333333}
 .fusion-portfolio{overflow:visible}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow .col{background:#FFFFFF;box-shadow:0 4px 24px  0 rgba(0,0,0,.2);border:none!important;border-radius:12px;position:relative;z-index:10;overflow:hidden}
@@ -570,7 +571,6 @@ body.single-format-link #content{width:100%!important}
 body.single-format-link .widget-title{font-weight:500!important}
 body.single-format-link .fusion-page-title-wrapper{display:block}
 body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusion-page-title-secondary{margin:0;width:100%;text-align:center!important}
-body.single-format-link .fusion-content-widget-area .widget{margin-bottom:0!important}
 body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-align:center}
 .pdfemb-pagescontainer{margin:0}
 div.pdfemb-viewer{display:block;margin:0 auto 2em;border:none;border-radius:12px}
