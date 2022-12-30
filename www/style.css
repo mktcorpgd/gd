@@ -526,7 +526,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .wp-video-shortcode{max-width:none!important}
 
 /* Grilla */
-.fusion-post-content-container{border:none!important}
+.fusion-post-content-container{margin:0!important;border:none!important}
 #main .post h2 a,#main article h2 a,.related-posts .awb-carousel .swiper-slide a{color:#333333}
 .fusion-portfolio{overflow:visible}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow .col{position:relative;background:#FFFFFF!important;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
@@ -544,8 +544,6 @@ article.category-tips .fusion-blog-layout-grid .fusion-post-wrapper{border-botto
 /* Blog */
 article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:inline-block;padding:.1em .5em;position:absolute;top:0;right:0;font-size:.8em;font-family:'open-sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
 article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{content:'Nota de prensa'}
-.fusion-blog-archive .fusion-post-content-container .fusion-layout-column,.fusion-blog-archive .fusion-post-content-container p{margin:0!important;padding:0!important}
-.fusion-post-content-container .fusion-fullwidth{padding:0!important}
 .fusion-post-grid .fusion-image-wrapper{background-position:top center;background-repeat:none;background-size:cover}
 .fusion-post-grid .fusion-image-wrapper a{display:block;width:100%;height:100%}
 .fusion-post-grid.format-link:not(.has-post-thumbnail) .fusion-image-wrapper{height:147px}
@@ -670,7 +668,6 @@ body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;
 .fusion-one-full:not(.fullscreen) iframe[src*='youtube.com']{height:360px}
 .fusion-posts-container.fusion-blog-layout-grid-2 iframe[src*='youtube.com']{height:230px}
 .fusion-blog-layout-grid .post-content iframe{border-radius:0;border:none!important}
-.fusion-blog-layout-grid article.format-video .fusion-post-content-wrapper,.fusion-blog-layout-grid article.format-video .fusion-post-content-container,.fusion-blog-layout-grid article.format-video .fusion-post-content-container .fusion-fullwidth{background:#FAFAFA!important}
 .fusion-blog-layout-grid article.format-video .fusion-post-content.post-content{background:#FFFFFF}
 .map iframe{margin-bottom:-8px;overflow:hidden}
 .embed{display:block;margin:0 auto;background:#222222;position:relative;border-radius:12px;overflow:hidden}
@@ -969,7 +966,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
 	.fusion-portfolio .fusion-post-content{padding-bottom:0}
 	.post .fusion-post-title-meta-wrap .fusion-meta-info{margin-top:inherit;margin:0 -20px;padding:0 20px 10px}
-	.fusion-blog-layout-grid .fusion-post-content-container p,.fusion-portfolio-grid .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{padding:0 20px 10px}
 	.post-content .fusion-portfolio-content blockquote{font-size:.9em}
 	.fusion-open-submenu{min-width:56px;height:43px!important;line-height:38px!important}
 	body.has-sidebar.layout-wide-mode #content{margin-bottom:0!important}
