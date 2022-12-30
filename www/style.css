@@ -205,6 +205,7 @@ body.single .fusion-flexslider .flex-control-nav{bottom:20px}
 .fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-next,.fusion-blog-shortcode .fusion-flexslider .flex-direction-nav .flex-prev{width:40px;padding:0 15px;font-size:2em}
 .whitetxt .content-container h4,.fusion-button.whitetxt:hover .fusion-button-text{color:#FFFFFF}
 .fusion-button.whitetxt:not(.button-custom){border-color:#FFFFFF}
+.tfs-slider .background-image{background-blend-mode:multiply;background-color:rgba(0,0,0,.4)}
 
 /* Búsqueda */
 body.search #content{width:100%}
