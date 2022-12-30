@@ -534,6 +534,9 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{padding:.8rem 1rem}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper{border-bottom:1px solid #CCCCCC;border-radius:12px 12px 24px 0px}
 
+/* Tips */
+article.category-tips .fusion-blog-layout-grid .fusion-post-wrapper{border-bottom-right-radius:32px}
+
 /* Contenido */
 .post-content .fusion-portfolio-content blockquote{margin-bottom:10px;line-height:1.4;text-align:left}
 .post-content .fusion-portfolio-content ul,.post-content .fusion-portfolio-content ul li{background:none;box-shadow:none}
