@@ -596,6 +596,7 @@ table th{font-size:1.2em}
 #wrapper #main .fusion-portfolio-content>h2.fusion-post-title{margin-bottom:0}
 
 /* Portfolio */
+.fusion-portfolio-grid .fusion-portfolio-content{margin-top:0}
 .fusion-portfolio .fusion-post-content{float:left;padding-bottom:0}
 .fusion-portfolio .fusion-post-title a{padding-bottom:.4rem!important}
 .fusion-portfolio-meta span{display:inline-block;color:#999999!important}
@@ -822,7 +823,6 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 /* Propiedades combinadas */
 .wpcf7-form-control-wrap,.fusion-blog-layout-grid .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{display:block}
 .white .wpcf7 input:not([type='submit']):hover,body.error404 .searchform input:hover,.white .wpcf7 select:not(.highlight):hover,.white .wpcf7 textarea:hover,.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:not(.highlight):hover,.fusion-widget-area .wpcf7 textarea:hover,#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:not(.highlight):hover,#sidebar .wpcf7 textarea:hover,.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:not(.highlight):hover,.modal .wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.wpcf7 input:not([type='submit']):hover,.wpcf7 select:not(.highlight):hover,.wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):hover a,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):focus a{background:#FFFFFF!important;border-color:#555555!important}
-.fusion-blog-layout-grid .fusion-post-wrapper .fusion-post-content-wrapper,.fusion-portfolio-grid .fusion-portfolio-content{background:#FFFFFF!important}
 .wpcf7 input:not([type='submit']):focus,.wpcf7 select:not(.highlight):focus,.wpcf7 textarea:focus,#respond input:not([type='submit']):focus,#respond textarea:focus{border-color:#777777!important}
 
 .fusion-tabs.clean.vertical-tabs .nav-tabs li,.category-recursos .fusion-title-size-one h1,.fusion-one-half .flexslider,.page .post-slideshow,.fusion-reading-box-container p,.fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-wrapper .fusion-post-content.post-content,.fusion-blog-layout-grid h2,.fusion-footer-widget-column{margin-bottom:0!important}
