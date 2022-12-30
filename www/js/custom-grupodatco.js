@@ -46,22 +46,6 @@ jQuery(document).ready(function() {
 		jQuery('link[rel="shortcut icon"]').attr('href','/favicon_'+branding+'.ico');		
 	}
 
-    // Sophos XG:
-	if ( jQuery('body').hasClass('postid-38401') || jQuery('body').hasClass('postid-39246') ) {
-
-		// Mostrar/ocultar precios según variable <target>
-		jQuery('.prices').hide();
-		var target_name = decodeURIComponent(jQuery.getPrm('target'));
-		if ( target_name == 'corp' ) {
-			jQuery('.prices.corp').show();
-		}
-		else if ( target_name == 'isp' ) {
-			jQuery('.prices.isp').show();
-			jQuery('.term-isp').text('abonados');
-		}
-
-	}
-
 	// IoP:
 	if ( jQuery('body').hasClass('page-id-43399') ) {
 		jQuery(document).on('click','.suite .fusion-modal-text-link',function() {
@@ -73,13 +57,6 @@ jQuery(document).ready(function() {
 			jQuery('input[name=TITLE]').val(jQuery('.entry-title').text());
 			jQuery('.fusion-modal.contacto-rapido h3').text('Contactanos para más información');
 		});
-	}
-
-    // CONTENIDOS - Si requiere agregar CTA
-	if ( jQuery('body').hasClass('single') ) {
-		if ( jQuery('#content>article').hasClass('category-tecnologia-cuidado-personal') ) {
-			jQuery('#text-17').insertAfter('.post-content>.fusion-fullwidth.fusion-builder-row-1 p:last');
-		}
 	}
 
 	// SI VIENE DE UN PAÍS:

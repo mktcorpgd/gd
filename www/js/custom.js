@@ -677,14 +677,6 @@ jQuery(document).ready(function() {
 			'href': '/datasheet-'+slug+'/'
 		});
 	}
-	if ( jQuery('#sidebar .oferta-link').length ) {
-		jQuery('#sidebar .oferta-link').attr({
-			'class': 'oferta-link fusion-modal-text-link',
-			'data-toggle': 'modal',
-			'data-target': '.fusion-modal.oferta-librestream',
-			'href': '#'+slug+'/'
-		});
-	}
 
 
 	// SIDEBAR - Si existe un CTA diferente:
@@ -697,12 +689,6 @@ jQuery(document).ready(function() {
 		jQuery('.sidebar h4').text('Quiero agendar una reunión');
 		jQuery('.fusion-modal.contacto-rapido .modal-title').text('Quiero agendar una reunión para conocer '+jQuery('span.entry-title').text());
 		jQuery('input[name="SUBJ"]').attr('value','reunión');
-	}
-
-
-	// SIDEBAR - Si existe un CTA, fijar lateral
-	if ( jQuery('#sidebar h3.cta').length ) {
-		jQuery('body').addClass('sidebar-cta');
 	}
 
 
