@@ -10,7 +10,7 @@ div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,
 .mobile-only,
 .no-featured-image .fusion-image-wrapper,
 .fusion-button:before,.fusion-button:after,.fusion-load-more-button.fusion-blog-button:before,.fusion-load-more-button.fusion-blog-button:after,.no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-grid .fusion-portfolio-buttons,.fusion-search-button,
-.no-tags .meta-tags,article.category-blog .fusion-single-line-meta,body.archive.category-recursos .fusion-single-line-meta,.related-posts .fusion-carousel-meta,.fusion-post-title-meta-wrap h2,body.archive .fusion-portfolio-content .fusion-portfolio-meta,.fusion-portfolio-meta a[href*='/c-solo-contacto'],
+.no-tags .meta-tags,article.category-blog .fusion-single-line-meta,body.archive.category-recursos .fusion-single-line-meta,.related-posts .fusion-carousel-meta,body.archive .fusion-portfolio-content .fusion-portfolio-meta,.fusion-portfolio-meta a[href*='/c-solo-contacto'],
 .c-solo-contacto .more-link,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,.fusion-portfolio-content .fusion-text~p .more-link,
 .fusion-sharing-box h4,
 #wrapper:not(.country-flag) .country-flag.menu-item.hidden,
@@ -573,8 +573,7 @@ body.single-format-link .fusion-page-title-wrapper{display:block}
 body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusion-page-title-secondary{margin:0;width:100%;text-align:center!important}
 body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-align:center}
 .pdfemb-pagescontainer{margin:0}
-div.pdfemb-viewer{display:block;margin:0 auto 2em;border:none;border-radius:12px}
-div.pdfemb-viewer .pdfemb-inner,div.pdfemb-viewer .pdfemb-inner canvas{margin:0!important;width:100%!important}
+div.pdfemb-viewer{display:block;margin:0 auto 2em;max-height:260px;border:none;border-radius:12px}
 div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{box-shadow:none;border:none!important;background:none;border-radius:0}
 div.pdfemb-toolbar-top{display:grid!important;grid-template-columns:10% 10% 70% 10%;background:#333333}
 div.pdfemb-toolbar div{margin:0;padding:.6em .8em;font-size:.9em;color:#FFFFFF;text-align:right;font-family:'open-sans',sans-serif}
