@@ -51,8 +51,7 @@ body.single .post-content article.post h3{font-size:1.6em!important}
 .white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,html body .white .fusion-accordian .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li,.white .toggle-content a{color:#FFFFFF!important}
 .bkg-white{background:#FFFFFF}
 .list-style-none .fusion-text ul,.list-style-none .fusion-text ul li{margin:0;padding:0;list-style:none}
-.nicescroll-rails{background:rgba(0,0,0,.4)!important}
-.nicescroll-cursors{background:rgba(255,255,255,.8)!important;border-radius:0!important}
+.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
 
 /* Tablas */
 .fusion-panel table,.fusion-text table,.tkt-slctr-tbl-wrap-dv table{background:none!important;border:none!important;box-shadow:none!important}
@@ -192,6 +191,9 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-slider-sc .flex-direction-nav a{background:none!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em}
 .fusion-body .fusion-slider-sc .flex-direction-nav a{padding:0 .5em;line-height:.8;color:rgba(0,0,0,.4)}
+.flexslider .slides .caption img{display:inline-block!important;margin-top:15px;max-width:200px;width:auto!important}
+.flexslider .slides .caption img[src*='flag-']{margin:.75em .2em 0;width:1.2em!important;height:1.2em!important;border-radius:48px}
+.flexslider .slides .caption a+img[src*='partner']{margin:12px 0 0 30px}
 
 /* Búsqueda */
 body.search #content{width:100%}
@@ -263,11 +265,11 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 body.single .post-content .fusion-text:first-of-type h2:first-of-type{margin-top:0}
 #sliders-container .flexslider.post-slideshow .slides img{margin-top:-25px;margin-bottom:0;border:0!important;border-radius:0}
 html body article.post div.fusion-flexslider.flexslider.post-slideshow.fusion-post-slideshow,#article-post div.fusion-flexslider.flexslider.post-slideshow.fusion-post-slideshow{max-width:auto!important;max-height:auto!important}
-.fusion-sharing-box{margin-top:10px!important;background:#CCCCCC;border-radius:12px}
-body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,body.single-format-standard article.category-blog .fusion-sharing-box{margin-top:0!important}
-body.single-format-standard:not(.single-avada_portfolio) article.category-blog .fusion-meta-info{border-top-left-radius:0;border-top-right-radius:0}
+.fusion-portfolio-content h2{float:left;width:100%;position:relative;z-index:10}
+.post-content .fusion-text h4{margin:2em 0 .5em}
+
+/* Compartir */
 .fusion-sharing-box{padding:0;background:none;position:relative;top:20px}
-body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box .fusion-social-networks{text-align:right}
 .fusion-theme-sharing-box .fusion-social-networks-wrapper{justify-content:center}
 .fusion-theme-sharing-box{margin-top:0!important;padding:0;height:auto;background:none}
 .fusion-theme-sharing-box .fusion-social-networks{display:block;padding:0;width:100%}
@@ -275,14 +277,16 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,bod
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 .legales{margin-top:10px!important}
 .fusion-sharing-box+#text-17{width:80%;margin:0 auto}
-.fusion-portfolio-content h2{float:left;width:100%;position:relative;z-index:10}
+
 #boxed-wrapper,.slider{overflow:initial!important}
-.post-content .fusion-one-third .fusion-text p{margin-bottom:.4em!important}
+
 .single-avada_portfolio .suite .fusion-one-third .fusion-text p{font-size:.8em}
 .single-avada_portfolio .suite .fusion-column-content-centered .fusion-text,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-4,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-5,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-6{top:-15px}
 .single-avada_portfolio .suite .fusion-imageframe img[src*='svg']{width:90%}
 .single-avada_portfolio .suite .fusion-text a{font-size:1em}
 .fusion-image-switch-after.visible{opacity:1!important}
+
+/* Testimonios */
 .fusion-testimonials blockquote q:after,.fusion-testimonials blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:30px;color:#CCCCCC;z-index:-1}
 .fusion-testimonials.clean blockquote{margin-bottom:0!important;padding-bottom:10px!important}
 .fusion-testimonials.clean blockquote q{padding:0;background:none!important;font-size:1.1em;letter-spacing:0;text-align:left}
@@ -295,11 +299,6 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,bod
 .fusion-testimonials .testimonial-pagination a{border:2px solid #CCCCCC!important}
 .fusion-testimonials .testimonial-pagination a:hover{background:#CCCCCC!important}
 .fusion-testimonials .testimonial-pagination a.activeSlide{background:#999999!important}
-.flexslider .slides .caption img{display:inline-block!important;margin-top:15px;max-width:200px;width:auto!important}
-.flexslider .slides .caption img[src*='flag-']{margin:.75em .2em 0;width:1.2em!important;height:1.2em!important;border-radius:48px}
-.flexslider .slides .caption a+img[src*='partner']{margin:12px 0 0 30px}
-.post-content .fusion-text h4{margin:2em 0 .5em}
-.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
 
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
@@ -805,22 +804,12 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-footer .fusion-social-network-icon:hover{opacity:1}
 
 /* Otros */
-.no-margin,.wpcf7 .nomargin,.nomargin>div.vendors,.fusion-content-boxes.nomargin .fusion-column,.fusion-accordian .fusion-toggle-heading,.fusion_builder_column_3_4 .fusion_builder_column_1_1 h4,.fusion_builder_column_3_4 .fusion_builder_column_1_3 h4,.fusion-portfolio-grid .fusion-post-content-wrapper,.fusion-portfolio-layout-grid .fusion-post-content-wrapper,body.home .fusion-posts-container-no.fusion-no-meta-info.fusion-blog-layout-grid .fusion-post-content-wrapper h2{margin:0!important}
-.no-margin .fusion-content-widget-area .widget{margin-bottom:10px!important}
-#content .fusion-content-widget-area .widget .widget-title{text-align:center}
-.no-margin-h3 h3,.no-margin-h4 h4{margin-top:5px!important}
-.padding1em .fusion-column-wrapper{padding:1em!important}
 .no-border,.modal-content,.tfs-slider .overlay-link,.tab-filters .nav li a,.nav-tabs a,.fusion-filters li a,.nav-tabs a{border:0!important}
 .fusion-layout-column:not(.no-radius) .fusion-video,.fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
 .mejs-container *{font-family:'open-sans',sans-serif}
 .mejs-time{padding:14px 6px 0;font-size:13px}
 .fusion-video.no-radius{border-radius:0}
 .rounded,.map{-webkit-appearance:none!important;border-radius:12px;overflow:hidden}
-.modal.contacto .fusion_builder_column .panel-collapse span:first-child,.post-content>div>div>div>div>div.fusion-text:first-child>h5:first-child,.tfs-slider .slide-content-container li:nth-child(3) .tfs-button-1,.fusion-column-content h1,.fusion-blog-layout-grid .fusion-post-content-container{margin-top:0!important}
-.tfs-slider .caption .wpcf7 input[type='submit'],.fusion-fullwidth.nonhundred-percent-fullwidth .caption .wpcf7 input[type='submit']{margin-top:5px!important}
-.fusion-modal.gracias .modal-header .modal-title,.wpcf7 .fusion-one-full:last-of-type,.fusion-loading-container,.fusion-modal.cargando,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .entry-title{text-align:center}
-.error-page .fusion-column{width:100%}
-.error-page{padding-top:20px}
 .post-content p .fusion-imageframe,.fusion-tabs:not(.tab-filters) .tab-content .wp-caption img{border-radius:6px}
 .radius1x,.fusion-separator~.fusion-google-map{border-radius:12px;overflow:hidden}
 .radius2x{border-radius:24px;overflow:hidden}
@@ -829,9 +818,6 @@ body.page.page-template-100-width .post-content>.fusion-fullwidth.radius2x{borde
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .radius-rounded{border-radius:256px!important}
 span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
-.post-content .fusion-text p a:hover,.post-content .fusion-text ol li a:hover,.post-content .fusion-text ul li a:hover,.toggle-content a:hover,.modal-a:not(.fusion-button):hover,.table-1 td a:hover,.table-2 td a:hover{text-decoration:underline!important}
-.toggle-content p:last-child,.toggle-content p+ul{margin-bottom:.4em!important}
-.toggle-content p{margin-top:0}
 
 /* Propiedades combinadas */
 .wpcf7-form-control-wrap,.fusion-blog-layout-grid .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{display:block}
@@ -901,7 +887,6 @@ body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwid
 	.fusion-page-title-bar-left .fusion-page-title-secondary{margin-right:10px}
 	.fusion-page-title-bar-left .fusion-page-title-secondary .fusion-breadcrumbs{padding-top:10px!important;padding-bottom:0!important}
 	.fusion-breadcrumbs .fusion-breadcrumb-item{display:inline-block;padding:0 2px}
-	body.single-format-standard:not(.single-avada_portfolio) .fusion-sharing-box,body.single-format-standard article.category-blog .fusion-sharing-box{border-top-left-radius:0;border-top-right-radius:0}
 	body.search article.fusion-post-grid.format-standard:not(.avada_portfolio) .fusion-image-wrapper{max-height:93px}
 	body.search-results .search-page-search-form>h2.entry-title,body.search-no-results h2{text-align:center!important}
 	.post-content p img[class*='alignright']{margin-left:30px!important}
