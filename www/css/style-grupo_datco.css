@@ -38,7 +38,6 @@ input[type='submit']:hover,.wpcf7-submit:hover{background-color:var(--highlightC
 .fusion-portfolio-grid .fusion-portfolio-post[class*='f-'] .fusion-post-content .fusion-layout-column{margin:0}
 .sidebar .fusion-sidebar-inner-content.fusion-sidebar-stuck #text-7{margin-top:0}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:var(--subColor)}
-body.home #wrapper #main .fusion-post-grid.category-blog .blog-shortcode-post-title{font-size:1.4em}
 .post-content div blockquote,.fusion-testimonials.clean .author,.fusion-testimonials .testimonial-pagination{border-left-color:var(--extraColor)}
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.8));z-index:1}
 .rotate{transition:all 2s ease-out}
