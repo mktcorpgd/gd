@@ -4,7 +4,8 @@
 body.branding .fusion-main-menu-search,body.branding .fusion-icon-search,body.branding .fusion-mobile-menu-search,
 body.branding .fusion-footer-widget-area .widget_nav_menu,
 body.no-partners #partners_footer>.fusion-fullwidth,
-.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']){display:none}
+.fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']),
+article.fusion-post-grid.category-tips-para-empresas h2.fusion-post-title,article.category-tips-para-empresas .related-posts .fusion-carousel-title{display:none!important}
 
 /* Header: transparente */
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:var(--mainColor)}
