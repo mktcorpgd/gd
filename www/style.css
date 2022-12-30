@@ -510,52 +510,14 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .markers .marker-link.fusion-button:nth-child(3){width:33%;border-bottom-left-radius:0!important;border-top-left-radius:0!important;border-bottom-right-radius:0!important}
 
 /* Botones */
-#reviews input#submit,.button-default,.button.default,.fusion-button-default,.wpcf7 input[type='submit'],.wpcf7-submit,.button-round,.fusion-.fusion-button-round,.fusion-button-round,.button-round.button-xlarge,.fusion-.fusion-button-round.button-xlarge,.fusion-button-round.button-xlarge,.fusion-body .fusion-button{border-radius:12px}
-#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type='submit'],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{text-transform:none;letter-spacing:0}
-.tfs-slider .buttons .fusion-button,.tfs-slider .buttons .fusion-button:hover,.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small),.fusion-fullwidth.fullwidth-box.header-transparent:not(.fusion-builder-row-2) .fusion-button:not(.button-small):hover{padding:.55em .7em .6em!important;border:none!important}
-.fusion-button{border-style:none!important}
-.fusion-button.left-margin{margin-left:2em!important}
-.fusion-button_size-large #main #comment-submit,.fusion-button_size-large #main .comment-submit,.fusion-button_size-large #reviews input#submit,.fusion-button_size-large .comment-form input[type='submit'],.fusion-button_size-large .fusion-button-default-size,.fusion-button_size-large .fusion-portfolio-one .fusion-button,.fusion-button_size-large .post-password-form input[type='submit'],.fusion-button_size-large .slidingbar-area .button-default,.fusion-button_size-large .ticket-selector-submit-btn[type='submit'],.fusion-button_size-large .tml-submit-wrap input[type='submit'],.fusion-button_size-large .wpcf7-form input[type='submit'],.fusion-button_size-large .wpcf7-submit{font-size:1.1em;line-height:1}
-#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{font-family:'open-sans','Font Awesome 6 Pro',sans-serif}
-body .fusion-button-default-size,body .fusion-button_size-large .fusion-button-default-size,body .fusion-button_size-large button.button,.fusion-button_size-large .wpcf7-form input[type='submit'],.fusion-button_size-large .wpcf7-submit,.button-large,.fusion-.fusion-button-large{padding:.6rem!important;font-weight:600}
-.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.ticket-selector-submit-btn[type=submit],.wpcf7-form .wpcf7-submit.button-medium,.wpcf7-form .wpcf7-submit.fusion-button-medium{padding:.45em .65em!important;font-size:.9em!important;line-height:1.25!important;font-weight:600}
-body .fusion-button_size-large .fusion-button-default-size,body .fusion-button_size-large button.button{margin-bottom:10px}
-body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_size-xlarge button.button,.button-xlarge,.fusion-.fusion-button-xlarge{font-size:1.5em!important;line-height:1.25!important;font-weight:600}
-.buttons .fusion-button:hover{border-style:solid!important;border-width:0!important}
-.fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
-.fusion-button.button-flat.chevron-down{padding:0}
-.fusion-button.button-flat.chevron-down i{margin:0!important;font-size:1.4em}
+#main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600;line-height:1.25;border-radius:12px}
 #bbp_user_edit_submit,.bbp-submit-wrapper .button,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.single_add_to_cart_button,.wpcf7-form .wpcf7-submit.button-small,.wpcf7-form .wpcf7-submit.fusion-button-small{padding:.6em .8em;font-size:.9em}
-.fusion-button:not(.button-custom):not(.menu-text):focus span{color:#FFFFFF!important}
-.fusion-fullwidth.fullwidth-box.bg-parallax-parent{overflow:visible}
-
-/* Lightbox */
-.ilightbox-image[src*='.png']{background-color:#FFFFFF!important}
-.ilightbox-holder.smooth{border-radius:12px;overflow:hidden}
-.ilightbox-toolbar.smooth a{margin-right:5px;border-radius:12px;background-color:rgba(0,0,0,.2)!important}
-.ilightbox-toolbar.smooth a:hover{background-color:rgba(0,0,0,.8)!important}
-
-/* Fullwidth */
-.fusion-portfolio .no-buttons .fusion-portfolio-content-wrapper{padding-bottom:0!important}
-.fusion-portfolio-content-wrapper .fusion-image-wrapper a{display:block}
-body.single-avada_portfolio div.project-content>div>div.fusion-fullwidth>.fusion-row>.fusion-layout-column>.fusion-column-wrapper>.fusion-text>.wp-video{margin-top:0!important}
-.wpcf7 .fusion-one-full>a>i{display:inline;margin-right:2px!important;font-size:95%;font-weight:900!important;opacity:1!important}
-.fusion-text h2 .fa{margin-left:10px;width:auto}
-.fusion-column-wrapper .fa:not(.wpcf7-submit):not(.fusion-li-icon):not(.fontawesome-icon):not(.button-icon-left),.fusion-li-icon,.fontawesome-icon,.fa,.fusion-.fusion-content-sep .icon-wrapper i,.fusion-.fusion-separator .icon-wrapper i{font-family:'Font Awesome 6 Pro'}
-.fusion-.fusion-separator .icon-wrapper{border-width:0!important}
-.fusion-separator-border.sep-solid{border-radius:6px}
-.fusion-content-widget-area .widget li a{display:inline!important}
-a.datasheet-link,a.oferta-link{display:block;margin-top:-10px;text-align:center;font-family:'open-sans',sans-serif}
-a.datasheet-link,a.datasheet-link strong{font-weight:600!important}
-a.datasheet-link i[class*=fa],a.oferta-link i[class*=fa]{padding-right:4px!important;position:relative;bottom:1px}
-.oferta-link{font-size:1.4em!important}
-.fusion-layout-column.height-260{border-radius:6px;height:260px;overflow:hidden}
-.fusion-fullwidth.light .fusion-column-wrapper h2 .far{display:block;width:100%}
-.fusion-fullwidth.light .fusion-column-inner-bg-wrapper .fusion-column-wrapper{padding:24px 36px 48px!important}
-.fusion-fullwidth.light .fusion-column-inner-bg a span:before{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.4)!important}
-.fusion-fullwidth.light .fusion-column-inner-bg a span:hover:before{background-color:rgba(0,0,0,.6)!important;transition:background-color .1s}
-.fusion-fullwidth.light .fusion-column-wrapper h2{color:#FFFFFF!important}
-.fusion-fullwidth.light .fusion-column-wrapper h2+p{font-family:'open-sans',sans-serif!important;color:rgba(255,255,255,.9);font-size:20px!important;line-height:28px;font-weight:400}
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.ticket-selector-submit-btn[type=submit],.wpcf7-form .wpcf7-submit.button-medium,.wpcf7-form .wpcf7-submit.fusion-button-medium{margin-bottom:.2em;padding:.45em .65em}
+body .fusion-button-default-size,body .fusion-button_size-large .fusion-button-default-size,body .fusion-button_size-large button.button,.fusion-button_size-large .wpcf7-form input[type='submit'],.fusion-button_size-large .wpcf7-submit,.button-large,.fusion-.fusion-button-large{font-size:1.2em;padding:.6rem}
+body .fusion-button_size-xlarge .fusion-button-default-size,body .fusion-button_size-xlarge button.button,.button-xlarge,.fusion-.fusion-button-xlarge{font-size:1.5em}
+a.cta-link{display:block;margin-top:-10px;text-align:center;font-family:'open-sans',sans-serif}
+a.cta-link strong{font-weight:600}
+a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 
 /* Páginas de categorías */
 .hero-img+.fusion-fullwidth{padding-top:4em}

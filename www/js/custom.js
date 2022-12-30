@@ -672,8 +672,8 @@ jQuery(document).ready(function() {
 	var url = window.location.pathname;
 	url = url.substring(0,url.length-1);
 	var slug = url.substring(url.lastIndexOf('/')+1,url.length);
-	if ( jQuery('#sidebar .datasheet-link').length ) {
-		jQuery('#sidebar .datasheet-link').attr({
+	if ( jQuery('#sidebar .cta-link').length ) {
+		jQuery('#sidebar .cta-link').attr({
 			'href': '/datasheet-'+slug+'/'
 		});
 	}
