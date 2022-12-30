@@ -1,15 +1,13 @@
 /* Grupo Datco */
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor:#FFFFFF}
 
-/* Header: transparente */
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:var(--mainColor)}
-
 body.branding .fusion-main-menu-search,body.branding .fusion-icon-search,body.branding .fusion-mobile-menu-search,
-#text-7 .textwidget br,.format-standard .fusion-post-content h2 a:before,body.single-format-standard #wpcf7-f39956-o1 img,
-article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(1),article:not(.category-blog) .fusion-post-title-meta-wrap>div>div>span:nth-child(1)+.fusion-inline-sep,body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1),body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1),body.archive article:not(.category-blog) .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep,article.category-guias .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep+span,article.category-guias .fusion-single-line-meta span:nth-child(1)+.fusion-inline-sep+span+.fusion-inline-sep,
 body.branding .fusion-footer-widget-area .widget_nav_menu,
 body.no-partners #partners_footer>.fusion-fullwidth,
 .fusion-portfolio-meta a:not([href*='categoria-producto-servicio/flag-']){display:none}
+
+/* Header: transparente */
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:var(--mainColor)}
 
 body.branding .fusion-footer-widget-area{margin:0;padding:0!important;height:0}
 ::-moz-selection{background:var(--highlightColor);color:var(--whiteColor)}
