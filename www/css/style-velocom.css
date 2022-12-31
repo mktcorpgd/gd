@@ -40,7 +40,7 @@ body.postid-22064 #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-con
 .hero-img:not(.fusion-parallax-none) h1.entry-title{color:#AE1A57!important}
 .hero-img:not(.fusion-parallax-none) h1.entry-title+p{color:#555555!important}
 .fusion-mobile-menu-icons a:before{color:#E94180}
-.wpcf7 input:not([type='submit']).highlight,select.highlight,.white select.highlight{font-weight:400;border:2px solid #E94180!important;color:#FFFFFF!important;background:#E94180!important}
+.wpcf7 input:not([type='submit']).highlight,select.highlight{font-weight:400;border:2px solid #E94180!important;color:#FFFFFF!important;background:#E94180!important}
 .wpcf7 input:not([type='submit']).highlight::placeholder{color:#FFFFFF!important}
 .wpcf7 input:not([type='submit']).highlight:hover,select.highlight:hover{border-color:#CD346C!important;background:#CD346C!important;color:#FFFFFF!important}
 .parent-highlight.wpcf7-form-control-wrap:not(.wpcf7-acceptance):before{background:#E94180!important}
