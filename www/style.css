@@ -218,7 +218,7 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 
 /* Testimonios */
 .fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:1em;padding-bottom:.5em;border-left:4px solid #EAEAEA!important}
-.fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:20px;color:#CCCCCC;z-index:-1}
+.fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:20px;color:#CCCCCC;z-index:-1}
 .fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1.1em}
 .fusion-testimonials.clean blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
 .fusion-testimonials.clean .author{margin-top:0;padding:.5em 1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
