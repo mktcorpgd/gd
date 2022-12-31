@@ -29,16 +29,14 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
 /* General */
-.modal .modal-dialog{transition:all .1s ease-in-out!important}
-.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container{transition:all .1s ease-in-out}
-input::-webkit-input-placeholder{line-height:normal!important}
-::placeholder{color:#555555;opacity:1}
 body{font-family:'open-sans',sans-serif;font-size:16px;line-height:1.6}
 #reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:#333333}
+input::-webkit-input-placeholder{line-height:normal!important}
+.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog{transition:all .1s ease-in-out}
 sup{line-height:1}
+#content a:hover{text-decoration:underline}
 .post-content p b,.post-content p strong{font-weight:600}
 iframe,.modal .fullwidth-modal{width:100%}
-.fusion-fullwidth{padding-left:0;padding-right:0}
 .post-content p .far+strong,.gotolink a{font-family:'open-sans',sans-serif;font-size:120%}
 .gotolink a{display:block;margin:10px 0 15px;line-height:1.25;text-decoration:underline}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
@@ -48,7 +46,7 @@ iframe,.modal .fullwidth-modal{width:100%}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
-h3 img[src*='flag-'],h4 img[src*='flag-']{width:22px;height:22px;position:relative;top:4px}
+h3 img[src*='flag-'],h4 img[src*='flag-']{width:22px;height:22px;position:relative;top:2px}
 .white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,html body .white .fusion-accordian .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li,.white .toggle-content a{color:#FFFFFF!important}
 .bkg-white{background:#FFFFFF}
 .list-style-none .fusion-text ul,.list-style-none .fusion-text ul li{margin:0;padding:0;list-style:none}
@@ -222,7 +220,7 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 .fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:20px;color:#CCCCCC;z-index:-1}
 .fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1.1em}
 .fusion-testimonials.clean blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
-.fusion-testimonials.clean .author{margin-top:0;padding:.5em 1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
+.fusion-testimonials.clean .author{margin-top:0;padding:.5em 1em;line-height:1.25;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
 .fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:500}
 .fusion-testimonials.clean .testimonial-pagination{padding-left:1.5em;text-align:left;}
 .fusion-testimonials.clean .testimonial-pagination{margin-bottom:2em}
@@ -267,6 +265,7 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 .fusion-image-switch-after.visible{opacity:1!important}
 
 /* Formularios */
+.wpcf7 ::placeholder{color:#555555;opacity:1}
 div.wpcf7>form p{margin-top:0;margin-right:20px}
 div.wpcf7>form .fusion-one-half.fusion-column-last p{margin-right:0}
 div.wpcf7{margin:0 auto;padding:0}
