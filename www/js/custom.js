@@ -252,7 +252,7 @@ jQuery(document).ready(function() {
 					'target': link_target
 				});
 			}
-			var classes_button = 'fusion-button button-flat fusion-button-round button-large button-default';
+			var classes_button = 'fusion-button button-flat fusion-button-round button-default';
 			var modal = ' data-toggle="modal" data-target=".fusion-modal';
 			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
 				classes_button += ' fusion-modal-text-link';
