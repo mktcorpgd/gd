@@ -176,9 +176,8 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-main-menu>ul>li.current-menu-item>a .menu-text:not(.fusion-button){border:0!important}
 
 /* Slider/Hero */
-#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .fusion-title h2{margin-bottom:20px!important;color:#FFFFFF!important;line-height:1.1!important;font-weight:500!important}
+#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title h1,#wrapper.header-transparent .fusion-fullwidth.fusion-builder-row-1.header-transparent .fusion-title:not(.not-tagline) h2,.tfs-slider .fusion-title h2{margin-bottom:20px!important;color:#FFFFFF!important;line-height:1.1!important}
 .tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.8rem;line-height:1.3!important}
-.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4,.tfs-slider .fusion-title h3 strong,.tfs-slide .fusion-title h4 strong{font-weight:400!important}
 .tfs-slider .slide-content-container .heading{margin:0}
 .tfs-slider .slide-content-container .buttons{margin-top:1.5em}
 .tfs-slider .slide-content-container .caption{margin-bottom:.8em}
@@ -215,65 +214,31 @@ body.search-no-results .fusion-title-size-two{margin-bottom:5px!important}
 body.error404 .fusion-page-title-wrapper{justify-content:center}
 
 /* Contenido */
-#content img[src*='flag-']:not([class*='alignnone']),.modal img[src*='flag-']:not([class*='alignnone']){margin-right:10px!important;width:20px;height:20px;position:relative;top:2px;border-radius:32px}
-body.single-format-standard:not(.single-avada_portfolio) article.category-blog{padding-top:0}
-body.post-template-default.single-format-standard #main{padding-top:0!important}
-.post-content a[src*='.jpg'],a.fusion-lightbox{cursor:zoom-in}
-.fusion-background-video-wrapper{margin-top:-10%!important}
-body.error404 h1,body.error404 .post-content,body.error404 .post-content>.fusion-title>h2.title-heading-left{text-align:center!important}
-.post-content div blockquote{margin:0 0 1em;margin-left:0;padding:24px 32px;background:none!important;border-left:4px solid #CCCCCC!important;font-family:'neo-sans',sans-serif;font-weight:400;font-style:normal;font-size:1.2em!important;line-height:1.5}
+.post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
+.post-content div blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif;font-weight:400;font-style:normal;font-size:1.2em;line-height:1.5}
 .post-content div blockquote strong{font-weight:400!important}
-.fusion-title ul>li{margin-bottom:10px}
-.post-content div.tab-pane blockquote{border:0;margin:0;padding:.5em 1em;text-align:center}
-.post-content .fusion-title-size-one+.fusion-text blockquote{margin-top:0!important}
-.post-content ul+.fusion-text blockquote,.post-content .fusion-text p+blockquote{margin-top:10px!important}
-.post-content p img:not(.no-radius)[class*='wp-image'],.post-content h6 img:not(.no-radius)[class*='wp-image']{margin-bottom:15px!important;margin-top:10px!important;background:#FFFFFF;border:1px solid #CCCCCC;border-radius:12px}
-.post-content a[href*='.jpg'],.post-content a[href*='.png']{cursor:zoom-in}
-.post-content .reading-box-additional img:not(.no-radius)[class*='wp-image']{margin-top:20px!important;margin-bottom:10px!important}
-.post-content p span i+a{display:inline-block;margin-left:4px;font-weight:500}
-.fusion-text p+h2,.fusion-text p+h3,.fusion-text p+h5,.fusion-text p+h6{clear:both;display:block}
-.fusion-text>h5{text-transform:uppercase}
-.sidebar .widget{margin-bottom:20px}
-.sidebar .widget h4,.related-posts h3{line-height:1.15!important;font-family:'neo-sans',sans-serif!important;font-weight:500!important}
-body.single-avada_portfolio .sidebar .widget h4{margin-top:0}
-.sidebar .widget h4{font-size:1.3em!important}
-.related-posts h3{font-size:1.3em!important}
-.related-posts .fusion-title{margin-bottom:10px!important}
-.sidebar .widget.widget_text p{margin:0!important}
+.post-content img[class*='wp-image']{margin-bottom:15px;margin-top:10px;background:#FFFFFF;border:1px solid #CCCCCC;border-radius:12px}
+
 .fusion-post-title-meta-wrap{margin-bottom:0}
 .fusion-post-title-meta-wrap .entry-title{font-size:48px!important;line-height:1.2!important}
+.fusion-page-title-bar .fusion-page-title-row h1{font-size:36px}
 .fusion-page-title-bar .fusion-breadcrumbs{padding:0 0 5px;font-size:.7em;line-height:1.3}
 .fusion-page-title-bar .fusion-breadcrumbs,.fusion-page-title-bar .fusion-breadcrumbs a,.fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:#999999}
+
 body.single article>.flexslider{margin-bottom:30px;border-radius:24px;overflow:hidden;z-index:20}
 body.single-avada_portfolio article>.flexslider{margin-top:-24px;border-top-left-radius:0;border-top-right-radius:0;}
 body.single article>.flexslider,body.single article>.flexslider .slides img{max-height:auto!important}
-.fusion-page-title-bar .fusion-page-title-row h1{font-size:36px}
-body.single:not(.single-avada_portfolio) article>.flexslider:not(.tfs-slider) .slides img{margin-bottom:2em;border-radius:12px}
-body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper{position:relative}
-body.single .avada-page-titlebar-wrapper.bkg:before{background-image:linear-gradient(180deg,rgba(0,0,0,.4),rgba(0,0,0,.8))}
+
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
-body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;z-index:1}
-body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar{background:none}
-body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar h1{font-size:3.4em}
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar h1,body.single .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar a,body.single .avada-page-titlebar-wrapper.bkg .fusion-page-title-bar span{color:#FFFFFF!important}
 body.single blockquote h2,body.single blockquote h3,body.single blockquote h4,body.single blockquote h5,body.single blockquote h6{margin-top:0!important}
-body.single .fusion-text h3{font-size:1.4em!important;line-height:1.25!important}
-body.single .fusion-text h4{font-size:1.3em!important;line-height:1.25!important}
-body.single .fusion-text h5{font-size:1.1em!important;line-height:1.25!important;color:#555555!important}
-body.single .fusion-text h4,body.single .fusion-text h4 b,body.single .fusion-text h4 strong{font-weight:400!important}
-body.single:not(.single-avada_portfolio) .post-content>div>div>div{margin-bottom:0!important}
 body.single-format-standard:not(.single-avada_portfolio) #main .post .post-content .fusion-text:first-of-type>h2:first-of-type{margin-top:0;font-size:1.8em!important;font-weight:400!important}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p+h2:first-of-type{margin-top:revert!important}
 body.single-format-standard:not(.single-avada_portfolio) article.category-blog .post-content .fusion-text:first-of-type>h3.cta{margin-top:30px;font-size:2em}
 body.single-format-standard:not(.single-avada_portfolio) #sidebar h3.cta{margin-top:0;font-size:1.8em;line-height:1.15!important}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-flexslider{margin-bottom:0!important;border-bottom-left-radius:0!important}
-body.single:not(.single-avada_portfolio) .post-content .fusion-text p,body.single:not(.single-avada_portfolio) .post-content .fusion-text li{font-size:1.1em;text-align:left!important}
 body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{float:left;font-family:'neo-sans',sans-serif;font-weight:400;font-size:3.2em;font-style:normal;line-height:.8em;padding-top:.12em;padding-right:.1em}
-body.single .post-content .fusion-text:first-of-type h2:first-of-type{margin-top:0}
-#sliders-container .flexslider.post-slideshow .slides img{margin-top:-25px;margin-bottom:0;border:0!important;border-radius:0}
-html body article.post div.fusion-flexslider.flexslider.post-slideshow.fusion-post-slideshow,#article-post div.fusion-flexslider.flexslider.post-slideshow.fusion-post-slideshow{max-width:auto!important;max-height:auto!important}
-.fusion-portfolio-content h2{float:left;width:100%;position:relative;z-index:10}
-.post-content .fusion-text h4{margin:2em 0 .5em}
+#legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 
 /* Compartir */
 .fusion-sharing-box{padding:0;background:none;position:relative;top:20px}
@@ -281,11 +246,7 @@ html body article.post div.fusion-flexslider.flexslider.post-slideshow.fusion-po
 .fusion-theme-sharing-box{margin-top:0!important;padding:0;height:auto;background:none}
 .fusion-theme-sharing-box .fusion-social-networks{display:block;padding:0;width:100%}
 .fusion-sharing-box .fusion-social-networks a{margin:0 5px;padding:8px;background:#FAFAFA;border-radius:32px}
-#legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
-.legales{margin-top:10px!important}
-.fusion-sharing-box+#text-17{width:80%;margin:0 auto}
 
-#boxed-wrapper,.slider{overflow:initial!important}
 
 .single-avada_portfolio .suite .fusion-one-third .fusion-text p{font-size:.8em}
 .single-avada_portfolio .suite .fusion-column-content-centered .fusion-text,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-4,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-5,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-6{top:-15px}
@@ -295,17 +256,14 @@ html body article.post div.fusion-flexslider.flexslider.post-slideshow.fusion-po
 
 /* Testimonios */
 .fusion-testimonials blockquote q:after,.fusion-testimonials blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:30px;color:#CCCCCC;z-index:-1}
-.fusion-testimonials.clean blockquote{margin-bottom:0!important;padding-bottom:10px!important}
-.fusion-testimonials.clean blockquote q{padding:0;background:none!important;font-size:1.1em;letter-spacing:0;text-align:left}
-.fusion-testimonials.clean blockquote q p{background:none!important}
-.fusion-testimonials.clean .author,.fusion-testimonials .testimonial-pagination{margin-top:0!important;padding-left:32px;border-left:4px solid #CCCCCC;letter-spacing:0;font-family:'neo-sans',sans-serif;text-align:left}
-.fusion-testimonials.clean .author{padding-top:10px!important;padding-bottom:5px!important}
-.fusion-testimonials .testimonial-pagination{padding-top:5px!important;padding-bottom:20px!important}
-.fusion-testimonials.clean .author strong{font-weight:500!important}
+.fusion-testimonials.clean blockquote{margin-bottom:0;padding-bottom:1em}
+.fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1.1em}
+.fusion-testimonials.clean .author,.fusion-testimonials .testimonial-pagination{padding-left:1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
+.fusion-testimonials.clean .author strong{font-weight:500}
 .fusion-testimonials .testimonial-pagination{margin-bottom:2em}
-.fusion-testimonials .testimonial-pagination a{border:2px solid #CCCCCC!important}
-.fusion-testimonials .testimonial-pagination a:hover{background:#CCCCCC!important}
-.fusion-testimonials .testimonial-pagination a.activeSlide{background:#999999!important}
+.fusion-testimonials .testimonial-pagination a{border:2px solid #CCCCCC}
+.fusion-testimonials .testimonial-pagination a:hover{background:#CCCCCC}
+.fusion-testimonials .testimonial-pagination a.activeSlide{background:#999999}
 
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
@@ -588,7 +546,7 @@ input.pdfemb-page-num{border-radius:6px;color:#333333}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
-h4,h4 strong,h5,h5 strong,h6,h6 strong{font-weight:400!important}
+h4,h4 strong,h5,h5 strong,h6,h6 strong,.tfs-slider .fusion-title h3, .tfs-slider .fusion-title h4, .tfs-slider .fusion-title h3 strong, .tfs-slide .fusion-title h4 strong{font-weight:400!important}
 table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:10px}
 #wrapper #main .fusion-portfolio-content>h2.fusion-post-title{margin-bottom:0}
