@@ -439,11 +439,12 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 
 /* Google Maps */
 .fusion-google-map .infoBox{width:auto}
-.fusion-google-map .infoBox img{margin:4px;opacity:.4}
-.fusion-google-map .infoBox .fusion-info-box{border-radius:6px;box-shadow:0 0 24px 0 rgba(0,0,0,.4);font-family:'open-sans',sans-serif;font-size:.9em;line-height:1.6em;white-space:nowrap}
+.fusion-google-map .infoBox img{margin:4px!important;border-radius:32px;opacity:.4}
+.fusion-google-map .infoBox .fusion-info-box{padding:1em;border-radius:6px;font-family:'open-sans',sans-serif;line-height:1.6;box-shadow:0 0 24px 0 rgba(0,0,0,.4)}
 .fusion-google-map .infoBox .fusion-info-box span,.fusion-google-map .infoBox .fusion-info-box strong{display:block}
-.fusion-google-map .infoBox .fusion-info-box strong{font-family:'neo-sans',sans-serif;font-size:1.1em;font-weight:500}
+.fusion-google-map .infoBox .fusion-info-box strong{white-space:nowrap;font-family:'neo-sans',sans-serif;font-size:1.4em;font-weight:500}
 .fusion-google-map .infoBox .fusion-info-box a{display:inline-block;color:#FFFFFF}
+.fusion-google-map div[role='button']{width:32px;height:32px}
 
 /* Botones */
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600;line-height:1.25;border-radius:12px}
