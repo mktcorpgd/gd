@@ -34,7 +34,6 @@ body{font-family:'open-sans',sans-serif;font-size:16px;line-height:1.6}
 input::-webkit-input-placeholder{line-height:normal!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog{transition:all .1s ease-in-out}
 sup{line-height:1}
-#main a:hover{text-decoration:underline}
 .post-content p b,.post-content p strong{font-weight:600}
 iframe,.modal .fullwidth-modal{width:100%}
 .post-content p .far+strong,.gotolink a{font-family:'open-sans',sans-serif;font-size:120%}
@@ -467,7 +466,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-post-content-container{margin:0!important;border:none!important}
 .fusion-portfolio{overflow:visible}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow .col{position:relative;background:#FFFFFF!important;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
-.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:.8rem 1rem;text-decoration:none!important}
+.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:.8rem 1rem}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper{border-bottom:1px solid #CCCCCC;border-radius:12px 12px 24px 0px}
 
 /* Tips */
@@ -809,7 +808,7 @@ span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
 	.fusion-portfolio article:not(.expanded) .fusion-post-content *{opacity:0}
 	.fusion-portfolio article.expanded .fusion-post-content,.fusion-portfolio article.expanded .fusion-col-spacing,.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
 	.fusion-portfolio article .wp-video-shortcode.mejs-video{margin-bottom:.4em}
-	.fusion-portfolio article .more-info{float:left;width:100%;padding:0 1rem .5rem;cursor:pointer;color:#666666;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600;text-decoration:none!important}
+	.fusion-portfolio article .more-info{float:left;width:100%;padding:0 1rem .5rem;cursor:pointer;color:#666666;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600}
 	.fusion-portfolio article .more-info.open{padding-bottom:0}
 	.fusion-portfolio article .more-info.open i{transform:rotate(180deg)}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
