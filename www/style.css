@@ -391,25 +391,21 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .logged-in-as+#comment-textarea{margin-bottom:0}
 
 /* Footer */
-.fusion-footer-widget-area{padding-top:32px!important;background:#222222!important}
-.fusion-widget-area .sub-menu{margin-left:0!important}
-.fusion-footer-widget-area .widget-title{color:#FFFFFF;margin-bottom:.5em;font-size:80%;text-transform:uppercase}
+.fusion-footer-widget-area,.fusion-footer-copyright-area{padding:2em 0;background:#222222!important}
+.fusion-footer-widget-area .widget-title{margin-bottom:.5em;color:#FFFFFF;font-size:.9rem;text-transform:uppercase}
+.fusion-footer-widget-area .fusion-widget-area .sub-menu{margin-left:0}
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:#FFFFFF}
-.fusion-footer-widget-area ul{margin:15px 0;padding-left:0;list-style:none}
-.fusion-footer-widget-area ul li{padding:5px 0!important;line-height:1.25;border:0!important}
-.fusion-footer-widget-area .widget_nav_menu li.social-link{display:inline-block;padding-right:10px!important}
-.fusion-footer-widget-area ul li:not(.social-link) a{font-size:.8em;line-height:1.2}
-.fusion-footer-widget-area ul li:not(.social-link) a:hover{text-decoration:underline}
-.fusion-footer-widget-area ul li:not(.social-link) a>span{display:block;margin-top:0;font-family:'open-sans',sans-serif;font-weight:400;font-size:80%;line-height:1.3;color:rgba(255,255,255,.7)}
-.fusion-footer-widget-area ul li.logo-footer{margin-top:5px!important}
-.panel-collapse .panel-strong{display:block;margin-top:1em!important;margin-bottom:.2em;color:#555555!important;font-size:.8em;line-height:1.5;letter-spacing:1px;text-transform:uppercase}
-.fusion-footer-copyright-area{padding-top:1em;padding-bottom:2em;background:#222222!important}
-.fusion-copyright-notice{font-size:.7rem}
+.fusion-footer-widget-area ul{margin:1em 0;padding-left:0;list-style:none}
+.fusion-footer-widget-area ul li{padding:.25em 0;line-height:1.4;border:0}
+.fusion-footer-widget-area ul li a{font-size:.8rem;line-height:1.2}
+.fusion-footer-widget-area ul li a:hover{text-decoration:underline}
+.fusion-footer-widget-area ul li a>span{display:block;margin-top:0;font-size:.7rem;line-height:1.3;color:rgba(255,255,255,.7)}
+.fusion-footer-widget-area ul li.logo-footer{margin-top:.5em}
+.fusion-copyright-notice{font-size:.8rem}
 .fusion-copyright-notice,.fusion-copyright-notice a{color:#CCCCCC!important}
 .fusion-copyright-notice>div>div:nth-child(1){text-align:left}
-.fusion-copyright-notice>div>div:nth-child(2){padding-right:3em;text-align:right;font-size:.8em}
+.fusion-copyright-notice>div>div:nth-child(2){padding-right:3em;text-align:right;font-size:.8rem}
 #footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
-
 
 /* Pricing */
 .fusion-pricing-table{margin:0}
