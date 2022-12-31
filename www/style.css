@@ -47,7 +47,8 @@ iframe,.modal .fullwidth-modal{width:100%}
 .zindex99{z-index:99}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
-h3 img[src*='flag-'],h4 img[src*='flag-']{width:22px;height:22px;top:4px}
+img[src*='flag-']{border-radius:128px}
+h3 img[src*='flag-'],h4 img[src*='flag-']{width:22px;height:22px;position:relative;top:4px}
 .white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,html body .white .fusion-accordian .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li,.white .toggle-content a{color:#FFFFFF!important}
 .bkg-white{background:#FFFFFF}
 .list-style-none .fusion-text ul,.list-style-none .fusion-text ul li{margin:0;padding:0;list-style:none}
@@ -149,7 +150,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 
 /* Menú - Banderas */
 .country-flag.menu-item .menu-text{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
-.country-flag.menu-item img[src*='flag-']{margin-right:4px;width:15px;height:15px;position:relative;top:-2px;border-radius:32px}
+.country-flag.menu-item img[src*='flag-']{margin-right:4px;width:15px;height:15px;position:relative;top:-2px}
 .country-flag.menu-item .sub-menu img[src*='flag-']{top:6px;width:13px;height:13px}
 
 /* Menú - Logo */
@@ -195,7 +196,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-slider-sc .flex-direction-nav li{font-size:2em}
 .fusion-body .fusion-slider-sc .flex-direction-nav a{padding:0 .5em;line-height:.8;color:rgba(0,0,0,.4)}
 .flexslider .slides .caption img{display:inline-block;margin-top:1em;max-width:200px;width:auto}
-.flexslider .slides .caption img[src*='flag-']{margin:1em .25em 0;width:32px;height:32px;border-radius:48px}
+.flexslider .slides .caption img[src*='flag-']{margin:1em .25em 0;width:32px;height:32px}
 .flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
 
 /* Búsqueda */
