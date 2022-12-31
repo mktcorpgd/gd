@@ -212,9 +212,23 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 
 /* Contenido */
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
-.post-content div blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif;font-weight:400;font-style:normal;font-size:1.2em;line-height:1.5}
-.post-content div blockquote strong{font-weight:400!important}
+.post-content blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif;font-weight:400;font-style:normal;font-size:1.2em;line-height:1.5}
+.post-content blockquote strong{font-weight:400!important}
 .post-content img[class*='wp-image']{margin-bottom:15px;margin-top:10px;background:#FFFFFF;border:1px solid #CCCCCC;border-radius:12px}
+
+/* Testimonios */
+.fusion-testimonials blockquote{padding-left:1em}
+.fusion-testimonials blockquote q:after,.fusion-testimonials blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:30px;color:#CCCCCC;z-index:-1}
+.fusion-testimonials blockquote q{padding:0;background:none;font-size:1.1em}
+.fusion-testimonials blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
+.fusion-testimonials .author{padding-left:1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
+.fusion-testimonials .author strong,.fusion-testimonials .author a{font-weight:500}
+.fusion-testimonials .testimonial-pagination{padding-left:1em;text-align:left;}
+.fusion-testimonials .testimonial-pagination{margin-bottom:2em}
+.fusion-testimonials .testimonial-pagination a{border:2px solid #CCCCCC}
+.fusion-testimonials .testimonial-pagination a:hover{background:#CCCCCC}
+.fusion-testimonials .testimonial-pagination a.activeSlide{background:#999999}
+
 
 .fusion-post-title-meta-wrap{margin-bottom:0}
 .fusion-post-title-meta-wrap .entry-title{font-size:48px!important;line-height:1.2!important}
@@ -250,18 +264,6 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 .single-avada_portfolio .suite .fusion-imageframe img[src*='svg']{width:90%}
 .single-avada_portfolio .suite .fusion-text a{font-size:1em}
 .fusion-image-switch-after.visible{opacity:1!important}
-
-/* Testimonios */
-.fusion-testimonials blockquote q:after,.fusion-testimonials blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:30px;color:#CCCCCC;z-index:-1}
-.fusion-testimonials blockquote q{padding:0;background:none;font-size:1.1em}
-.fusion-testimonials blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
-.fusion-testimonials .author{padding-left:1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
-.fusion-testimonials .author strong,.fusion-testimonials .author a{font-weight:500}
-.fusion-testimonials .testimonial-pagination{padding-left:1em;text-align:left;}
-.fusion-testimonials .testimonial-pagination{margin-bottom:2em}
-.fusion-testimonials .testimonial-pagination a{border:2px solid #CCCCCC}
-.fusion-testimonials .testimonial-pagination a:hover{background:#CCCCCC}
-.fusion-testimonials .testimonial-pagination a.activeSlide{background:#999999}
 
 /* Formularios */
 div.wpcf7>form p{margin-top:0;margin-right:20px}
@@ -492,10 +494,6 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 
 /* Tips */
 article.category-tips .fusion-blog-layout-grid .fusion-post-wrapper{border-bottom-right-radius:32px}
-
-/* Contenido */
-.post-content .fusion-portfolio-content blockquote{margin-bottom:10px;line-height:1.4;text-align:left}
-.post-content .fusion-portfolio-content ul,.post-content .fusion-portfolio-content ul li{background:none;box-shadow:none}
 
 /* Blog */
 article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:inline-block;padding:.1em .5em;position:absolute;top:0;right:0;font-size:.8em;font-family:'open-sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
