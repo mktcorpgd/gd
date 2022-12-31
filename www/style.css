@@ -463,7 +463,9 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .wp-video-shortcode{max-width:none!important}
 
 /* Grilla */
-.fusion-post-content-container{margin:0!important;border:none!important}
+.fusion-post-content-container{margin:0!important}
+.fusion-blog-layout-grid .post .flexslider, .fusion-blog-layout-grid .post .fusion-post-wrapper, .fusion-blog-layout-timeline .fusion-timeline-arrow, .fusion-blog-layout-timeline .fusion-timeline-date, .fusion-blog-layout-timeline .fusion-timeline-line, .fusion-blog-layout-timeline .post, .fusion-blog-layout-timeline .post .flexslider, .fusion-blog-timeline-layout .post, .fusion-blog-timeline-layout .post .flexslider, .fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,.fusion-post-content-container{border:none!important}
+.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper, .avada-blog-archive-layout-masonry .fusion-blog-archive .fusion-blog-layout-masonry .post .fusion-post-content-wrapper, .avada-blog-archive-layout-timeline .fusion-blog-archive .fusion-blog-layout-timeline .post .fusion-post-content-wrapper, .avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper, .avada-blog-layout-masonry .fusion-blog-archive .fusion-blog-layout-masonry .post .fusion-post-content-wrapper, .avada-blog-layout-timeline .fusion-blog-archive .fusion-blog-layout-timeline .post .fusion-post-content-wrapper{padding:0}
 .fusion-portfolio{overflow:visible}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow .col{position:relative;background:#FFFFFF!important;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:.8rem 1rem}
