@@ -217,13 +217,13 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 .post-content img[class*='wp-image']{margin-bottom:15px;margin-top:10px;background:#FFFFFF;border:1px solid #CCCCCC;border-radius:12px}
 
 /* Testimonios */
-.fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:1em;border-left:4px solid #CCCCCC}
+.fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:1em;padding-bottom:.5em;border-left:4px solid #EAEAEA!important}
 .fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:20px;color:#CCCCCC;z-index:-1}
 .fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1.1em}
 .fusion-testimonials.clean blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
-.fusion-testimonials.clean .author{margin-top:0;padding-left:1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
+.fusion-testimonials.clean .author{margin-top:0;padding:.5em 1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
 .fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:500}
-.fusion-testimonials.clean .testimonial-pagination{padding-left:1em;text-align:left;}
+.fusion-testimonials.clean .testimonial-pagination{padding-left:1.5em;text-align:left;}
 .fusion-testimonials.clean .testimonial-pagination{margin-bottom:2em}
 .fusion-testimonials.clean .testimonial-pagination a{border:2px solid #CCCCCC}
 .fusion-testimonials.clean .testimonial-pagination a:hover{background:#CCCCCC}
