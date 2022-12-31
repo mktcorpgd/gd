@@ -253,11 +253,11 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 
 /* Testimonios */
 .fusion-testimonials blockquote q:after,.fusion-testimonials blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:30px;color:#CCCCCC;z-index:-1}
-.fusion-testimonials.clean blockquote{margin-bottom:0;padding-bottom:1em}
-.fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1.1em;letter-spacing:0}
-.fusion-testimonials.clean blockquote q,.fusion-testimonials.clean .author{text-align:left}
-.fusion-testimonials.clean .author,.fusion-testimonials .testimonial-pagination{padding-left:1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
-.fusion-testimonials.clean .author strong{font-weight:500}
+.fusion-testimonials blockquote q{padding:0;background:none;font-size:1.1em}
+.fusion-testimonials blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
+.fusion-testimonials .author{padding-left:1em;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif}
+.fusion-testimonials .author strong,.fusion-testimonials .author a{font-weight:500}
+.fusion-testimonials .testimonial-pagination{padding-left:1em;text-align:left;}
 .fusion-testimonials .testimonial-pagination{margin-bottom:2em}
 .fusion-testimonials .testimonial-pagination a{border:2px solid #CCCCCC}
 .fusion-testimonials .testimonial-pagination a:hover{background:#CCCCCC}
