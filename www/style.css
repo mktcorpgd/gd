@@ -194,9 +194,9 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-slider-sc .flex-direction-nav a{background:none!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em}
 .fusion-body .fusion-slider-sc .flex-direction-nav a{padding:0 .5em;line-height:.8;color:rgba(0,0,0,.4)}
-.flexslider .slides .caption img{display:inline-block!important;margin-top:15px;max-width:200px;width:auto!important}
-.flexslider .slides .caption img[src*='flag-']{margin:1em .2em 0;width:24px;height:24px;border-radius:48px}
-.flexslider .slides .caption a+img[src*='partner']{margin:1em 0 0 2em}
+.flexslider .slides .caption img{display:inline-block;margin-top:1em;max-width:200px;width:auto}
+.flexslider .slides .caption img[src*='flag-']{margin:1em .25em 0;width:32px;height:32px;border-radius:48px}
+.flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
 
 /* Búsqueda */
 body.search #content{width:100%}
