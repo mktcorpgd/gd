@@ -367,6 +367,10 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .mc4wp-checkbox-contact-form-7 span{font-size:.9em}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
 .white .mc4wp-checkbox-contact-form-7~em,.white .mc4wp-checkbox-contact-form-7~em a{color:#FFFFFF!important}
+.white .wpcf7 input:not([type='submit']):hover,body.error404 .searchform input:hover,.white .wpcf7 select:not(.highlight):hover,.white .wpcf7 textarea:hover,.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:not(.highlight):hover,.fusion-widget-area .wpcf7 textarea:hover,#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:not(.highlight):hover,#sidebar .wpcf7 textarea:hover,.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:not(.highlight):hover,.modal .wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.wpcf7 input:not([type='submit']):hover,.wpcf7 select:not(.highlight):hover,.wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):hover a,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):focus a{background:#FFFFFF!important;border-color:#555555!important}
+.wpcf7 input:not([type='submit']):focus,.wpcf7 select:not(.highlight):focus,.wpcf7 textarea:focus,#respond input:not([type='submit']):focus,#respond textarea:focus{border-color:#777777!important}
+.fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']):hover,.fusion-column-wrapper .wpcf7 select:not(.highlight):not(:disabled):hover,.fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.white .fusion-one-full input:not([type='submit']),.white .fusion-one-full select,.white .fusion-one-full textarea{background:#FFFFFF!important}
+.white .wpcf7 input:not([type='submit']),body.error404 .searchform input,.white .fusion-column-wrapper .wpcf7 select:not(:disabled):hover,.white .fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.fusion-tabs:not(.tab-filters) .nav{background:#FAFAFA}
 
 /* Comentarios */
 #commentform{float:left;width:100%;clear:both}
@@ -400,11 +404,14 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-footer-widget-area ul li:not(.social-link) a:hover{text-decoration:underline}
 .fusion-footer-widget-area ul li:not(.social-link) a>span{display:block;margin-top:0;font-family:'open-sans',sans-serif;font-weight:400;font-size:80%;line-height:1.3;color:rgba(255,255,255,.7)}
 .fusion-footer-widget-area ul li.logo-footer{margin-top:5px!important}
-.fusion-footer-widget-area .current-menu-item>a{color:#FFFFFF!important}
 .panel-collapse .panel-strong{display:block;margin-top:1em!important;margin-bottom:.2em;color:#555555!important;font-size:.8em;line-height:1.5;letter-spacing:1px;text-transform:uppercase}
-.post-content .panel-p:not(:last-child){margin-bottom:0!important}
-#casos-de-uso .fusion-accordian .nav ul{padding-left:0!important}
-.project-description.post-content .fusion-three-fourth+.fusion-one-fourth h4{text-transform:uppercase;letter-spacing:1px}
+.fusion-footer-copyright-area{padding-top:1em;padding-bottom:2em;background:#222222!important}
+.fusion-copyright-notice{font-size:.7rem}
+.fusion-copyright-notice,.fusion-copyright-notice a{color:#CCCCCC!important}
+.fusion-copyright-notice>div>div:nth-child(1){text-align:left}
+.fusion-copyright-notice>div>div:nth-child(2){padding-right:3em;text-align:right;font-size:.8em}
+#footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
+
 
 /* Pricing */
 .fusion-pricing-table{margin:0}
@@ -430,35 +437,13 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-pricing-table .panel-footer{padding:0!important}
 .fusion-pricing-table .fusion-button.fusion-button-default-size{width:100%;border-radius:0!important;box-shadow:none!important;margin-bottom:0!important}
 
-
-/* Persona */
-.fusion-person .person-content.fusion-clearfix{margin-top:-25px;text-align:right}
-.fusion-person .person-shortcode-image-wrapper,.fusion-person .person-desc{float:left;margin:0}
-.fusion-person .person-shortcode-image-wrapper{width:25%}
-.fusion-person .person-image-container.person-rounded-overflow{border-top-right-radius:0!important;border-bottom-right-radius:0!important}
-.fusion-person .person-desc{width:75%;padding:20px 25px 15px!important;border-radius:12px;border-top-left-radius:0}
-.fusion-person .person-desc .person-author{display:block}
-.fusion-person .person-desc .person-author .person-name{font-family:'neo-sans',sans-serif;font-weight:500!important;font-size:24px}
-.fusion-person .person-desc .person-author .person-title{margin-top:5px;font-size:16px;line-height:20px;font-weight:500;letter-spacing:0}
-.fusion-person .person-desc .person-author .fusion-social-networks{float:left;max-width:100%!important;width:100%}
-.fusion-person .person-desc img[src*='flag']{margin-right:0!important}
-.fusion-person .person-author-wrapper,.fusion-person .fusion-social-networks .fusion-social-networks-wrapper{display:block!important;text-align:left}
-.fusion-person .fusion-social-networks .fusion-social-network-icon{float:left;margin:10px 0 0px 11px}
-.fusion-person .fusion-social-networks .fusion-icon-blogger:before{content:'\f2c2Business card link ↗'!important;font-family:'neo-sans','Font Awesome 6 Pro',sans-serif!important;font-weight:900}
-
 /* Google Maps */
-.fusion-google-map .infoBox .fusion-info-box{border-radius:6px;box-shadow:0 0 24px 0 rgba(0,0,0,.4);font-family:'open-sans',sans-serif;font-size:.9em!important;line-height:1.6em!important;padding:12px 18px!important;white-space:nowrap}
-.fusion-google-map .infoBox .fusion-info-box span{display:block!important}
-.fusion-google-map .infoBox .fusion-info-box strong{display:block;font-family:'neo-sans',sans-serif;font-size:18px;font-weight:500!important}
-.fusion-google-map .infoBox img{margin:4px!important;opacity:.4!important;border-radius:12px}
-.fusion-google-map .infoBox .fusion-info-box a{display:inline-block;color:#FFFFFF!important;text-decoration:none;line-height:140%}
-.fusion-google-map .infoBox .fusion-info-box a:hover{color:#FFFFFF!important;text-decoration:underline}
-.fusion-google-map .infoBox .fa{font-size:16px;position:relative;top:2px}
-.markers{text-align:center}
-.markers .marker-link.fusion-button{padding:8px!important;margin-bottom:0!important}
-.markers .marker-link.fusion-button:nth-child(1){width:33%;border-right:none!important;border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-bottom-left-radius:0!important}
-.markers .marker-link.fusion-button:nth-child(2){width:34%;border-right:none!important;border-radius:0!important}
-.markers .marker-link.fusion-button:nth-child(3){width:33%;border-bottom-left-radius:0!important;border-top-left-radius:0!important;border-bottom-right-radius:0!important}
+.fusion-google-map .infoBox{width:auto}
+.fusion-google-map .infoBox img{margin:4px;opacity:.4}
+.fusion-google-map .infoBox .fusion-info-box{border-radius:6px;box-shadow:0 0 24px 0 rgba(0,0,0,.4);font-family:'open-sans',sans-serif;font-size:.9em;line-height:1.6em;white-space:nowrap}
+.fusion-google-map .infoBox .fusion-info-box span,.fusion-google-map .infoBox .fusion-info-box strong{display:block}
+.fusion-google-map .infoBox .fusion-info-box strong{font-family:'neo-sans',sans-serif;font-size:1.1em;font-weight:500}
+.fusion-google-map .infoBox .fusion-info-box a{display:inline-block;color:#FFFFFF}
 
 /* Botones */
 #main #comment-submit,#main .comment-submit,#reviews input#submit,.button-default,.button.default,.comment-form input[type='submit'],.fusion-button,.fusion-button-default,.fusion-footer-widget-area .fusion-privacy-placeholder .button-default,.fusion-portfolio-one .fusion-button,.post-password-form input[type='submit'],.slidingbar-area .button-default,.ticket-selector-submit-btn[type=submit],.tml-submit-wrap input[type='submit'],.wpcf7-form input[type='submit'],.wpcf7-submit,input.button-default{font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600;line-height:1.25;border-radius:12px}
@@ -517,7 +502,6 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 .fusion-content-boxes.shadow .col .heading a{padding:1em .8em}
 .fusion-content-boxes.shadow .col .fontawesome-icon{min-width:50px;margin-right:.2em;text-align:center}
 
-
 /* Recursos */
 body.single-format-link .post-content .fusion-widget-area img.preview{float:left;margin-right:2em;border-radius:12px;border:2px solid #CCCCCC}
 body.single-format-link .fusion-sharing-box,body.single-format-link .fusion-sharing-box .fusion-social-networks{text-align:center}
@@ -527,6 +511,8 @@ body.single-format-link .fusion-page-title-wrapper{display:block}
 body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusion-page-title-secondary{margin:0;width:100%;text-align:center!important}
 body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-align:center}
 .pdfemb-pagescontainer{margin:0}
+
+/* Visor PDF */
 div.pdfemb-viewer{display:block;margin:0 auto 2em;max-height:260px;border:none;border-radius:12px}
 div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{box-shadow:none;border:none!important;background:none;border-radius:0}
 div.pdfemb-toolbar-top{display:grid!important;grid-template-columns:10% 10% 70% 10%;background:#333333}
@@ -563,6 +549,13 @@ table th{font-size:1.1em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
+.fusion-portfolio article .fusion-post-content .fusion-fullwidth{padding:0;opacity:1}
+.fusion-portfolio article .fusion-post-content .fusion-flex-column{margin:0}
+.fusion-portfolio article .fusion-post-content .wp-video{margin:.5em 0 0}
+.fusion-portfolio article .fusion-post-content{width:100%;padding:0 1rem}
+.fusion-portfolio article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
+.fusion-portfolio article .fusion-post-content p{line-height:1.4;padding:0}
+.fusion-portfolio article .fusion-post-content ul{margin-top:5px}
 
 /* Portfolio - Botones */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{float:left;margin-top:1em;padding-left:1rem;padding-bottom:.6em;z-index:10}
@@ -729,13 +722,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .page-text{letter-spacing:1px;position:relative;text-transform:uppercase}
 .fusion-tabs .nav-tabs li a:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
-.fusion-portfolio article .fusion-post-content .fusion-fullwidth{padding:0;opacity:1}
-.fusion-portfolio article .fusion-post-content .fusion-flex-column{margin:0}
-.fusion-portfolio article .fusion-post-content .wp-video{margin:.5em 0 0}
-.fusion-portfolio article .fusion-post-content{width:100%;padding:0 1rem}
-.fusion-portfolio article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-.fusion-portfolio article .fusion-post-content p{line-height:1.4;padding:0}
-.fusion-portfolio article .fusion-post-content ul{margin-top:5px}
+.tab-filters .nav li.fusion-active,.tab-filters .nav li.active,.fusion-filters li.fusion-active{background:#FFFFFF}
 
 /* Paginación */
 .pagination{margin:20px 0 0!important;width:100%;text-align:center}
@@ -770,36 +757,6 @@ body.page.page-template-100-width .post-content>.fusion-fullwidth.radius2x{borde
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .radius-rounded{border-radius:256px!important}
 span.no-radius,img.no-radius{border:0!important;border-radius:0!important}
-
-/* Propiedades combinadas */
-.wpcf7-form-control-wrap,.fusion-blog-layout-grid .fusion-post-wrapper h2 a,.fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper h2 a{display:block}
-.white .wpcf7 input:not([type='submit']):hover,body.error404 .searchform input:hover,.white .wpcf7 select:not(.highlight):hover,.white .wpcf7 textarea:hover,.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:not(.highlight):hover,.fusion-widget-area .wpcf7 textarea:hover,#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:not(.highlight):hover,#sidebar .wpcf7 textarea:hover,.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:not(.highlight):hover,.modal .wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.wpcf7 input:not([type='submit']):hover,.wpcf7 select:not(.highlight):hover,.wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):hover a,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):focus a{background:#FFFFFF!important;border-color:#555555!important}
-.wpcf7 input:not([type='submit']):focus,.wpcf7 select:not(.highlight):focus,.wpcf7 textarea:focus,#respond input:not([type='submit']):focus,#respond textarea:focus{border-color:#777777!important}
-
-.fusion-tabs.clean.vertical-tabs .nav-tabs li,.category-recursos .fusion-title-size-one h1,.fusion-one-half .flexslider,.page .post-slideshow,.fusion-reading-box-container p,.fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-wrapper .fusion-post-content.post-content,.fusion-blog-layout-grid h2,.fusion-footer-widget-column{margin-bottom:0!important}
-.fusion-portfolio-content-wrapper .fusion-portfolio-content h2{margin-bottom:5px!important}
-.no-margin-heading.fusion-content-boxes.fusion-columns-3 .fusion-column{margin-bottom:1em}
-.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text select,.fusion-copyright-content .fusion-one-half:last-of-type{text-align:right}
-.fusion-footer-copyright-area{padding-top:15px!important;padding-bottom:30px!important;background:#222222!important}
-.fusion-footer-copyright-area a:not(.fusion-social-network-icon):hover,.fusion-copyright-notice p a:hover{text-decoration:underline}
-.fusion-copyright-notice{font-size:.7rem}
-.fusion-copyright-notice,.fusion-copyright-notice a{color:#CCCCCC!important}
-.fusion-copyright-notice>div>div:nth-child(1){text-align:left}
-.fusion-copyright-notice>div>div:nth-child(2){padding-right:3em;text-align:right;font-size:.8em}
-#footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
-.fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']):hover,.fusion-column-wrapper .wpcf7 select:not(.highlight):not(:disabled):hover,.fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.white .fusion-one-full input:not([type='submit']),.white .fusion-one-full select,.white .fusion-one-full textarea{background:#FFFFFF!important}
-.white .wpcf7 input:not([type='submit']),body.error404 .searchform input,.white .fusion-column-wrapper .wpcf7 select:not(:disabled):hover,.white .fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.fusion-tabs:not(.tab-filters) .nav{background:#FAFAFA}
-.fusion-widget-area .wpcf7-form-control-wrap,#sidebar .wpcf7-form-control-wrap,.modal .wpcf7-form-control-wrap,.fusion-fullwidth.nonhundred-percent-fullwidth .wpcf7 .wpcf7-form-control-wrap{box-shadow:none!important}
-.fusion-google-map .infoBox{width:auto!important}
-.fusion-column-wrapper p strong a .fa,.fusion-tabs:not(.tab-filters).horizontal-tabs.clean .nav-tabs li .tab-link{margin-right:0!important}
-.fusion-content-boxes.content-boxes-icon-on-top .heading .icon{margin-bottom:5px!important}
-body.site-id-1.single-avada_portfolio div.project-content>div>div.fusion-fullwidth .fusion-title-size-six:first-child,body.site-id-5.single-avada_portfolio div.project-content>div>div.fusion-fullwidth .fusion-title-size-six:first-child,body.site-id-25.single-avada_portfolio div.project-content>div>div.fusion-fullwidth .fusion-title-size-six:first-child{margin-top:0!important;margin-bottom:8px!important;font-size:18px!important}
-.fusion-main-menu ul li.current-menu-item>a>span>span,.fusion-accordian .fusion-panel,.fusion-portfolio-wrapper .fusion-post-slideshow,.fusion-blog-layout-grid-wrapper .fusion-post-slideshow{border-bottom:0!important}
-.wpml-ls-native,.fusion-posts-container .fusion-post-content-wrapper,body.home .fusion-posts-container-no.fusion-no-meta-info.fusion-blog-layout-grid .fusion-post-content-wrapper{padding:0!important}
-.fusion-megamenu .fusion-megamenu-title a:hover,.tab-filters .nav{background:none!important}
-.fusion-counters-box .content-box-percentage,#main .white .fusion-columns-6 .content-box-heading{font-family:'neo-sans',sans-serif;font-weight:500!important}
-.fusion-modal.cargando .modal-p,.fusion-footer .fusion-columns{margin:0}
-.tab-filters .nav li.fusion-active,.tab-filters .nav li.active,.fusion-filters li.fusion-active{background:#FFFFFF}
 
 /* Desktop */
 @media (min-width:920px) {
