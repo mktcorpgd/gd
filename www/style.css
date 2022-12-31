@@ -34,7 +34,7 @@ body{font-family:'open-sans',sans-serif;font-size:16px;line-height:1.6}
 input::-webkit-input-placeholder{line-height:normal!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog{transition:all .1s ease-in-out}
 sup{line-height:1}
-#content a:hover{text-decoration:underline}
+#main a:hover{text-decoration:underline}
 .post-content p b,.post-content p strong{font-weight:600}
 iframe,.modal .fullwidth-modal{width:100%}
 .post-content p .far+strong,.gotolink a{font-family:'open-sans',sans-serif;font-size:120%}
