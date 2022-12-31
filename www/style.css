@@ -588,7 +588,7 @@ input.pdfemb-page-num{border-radius:6px;color:#333333}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
-h4,h4 strong,h5,h5 strong,h6,h6 strong{font-weight:400}
+h4,h4 strong,h5,h5 strong,h6,h6 strong{font-weight:400!important}
 table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:10px}
 #wrapper #main .fusion-portfolio-content>h2.fusion-post-title{margin-bottom:0}
