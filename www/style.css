@@ -390,13 +390,14 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .logged-in-as+#comment-textarea{margin-bottom:0}
 
 /* Footer */
+.fusion-footer-widget-column{margin-bottom:0}
 .fusion-footer-widget-area,.fusion-footer-copyright-area{padding:2em 0;background:#222222!important}
 .fusion-footer-widget-area .widget-title{margin-bottom:.5em;color:#FFFFFF;font-size:.9rem;text-transform:uppercase}
 .fusion-footer-widget-area .fusion-widget-area .sub-menu{margin-left:0}
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:#FFFFFF}
 .fusion-footer-widget-area ul{margin:1em 0;padding-left:0;list-style:none}
 .fusion-widget-area .widget .recentcomments, .fusion-widget-area .widget_archive li, .fusion-widget-area .widget_categories li, .fusion-widget-area .widget_layered_nav li, .fusion-widget-area .widget_links li, .fusion-widget-area .widget_meta li, .fusion-widget-area .widget_nav_menu li, .fusion-widget-area .widget_pages li, .fusion-widget-area .widget_product_categories li, .fusion-widget-area .widget_recent_entries li, .fusion-widget-area .widget_rss li{padding:.25em 0;line-height:1.4;border:none}
-.fusion-footer-widget-area ul li a{font-size:.8rem;line-height:1.2}
+.fusion-footer-widget-area ul li a{font-size:.8rem;line-height:1.3}
 .fusion-footer-widget-area ul li a:hover{text-decoration:underline}
 .fusion-footer-widget-area ul li a>span{display:block;margin-top:0;font-size:.7rem;line-height:1.3;color:rgba(255,255,255,.7)}
 .fusion-footer-widget-area ul li.logo-footer{margin-top:.5em}
