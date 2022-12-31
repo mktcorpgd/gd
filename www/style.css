@@ -465,11 +465,9 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 
 /* Grilla */
 .fusion-post-content-container{margin:0!important;border:none!important}
-#main .post h2 a,#main article h2 a,.related-posts .awb-carousel .swiper-slide a{color:#333333}
 .fusion-portfolio{overflow:visible}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow .col{position:relative;background:#FFFFFF!important;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
-.fusion-blog-layout-grid .fusion-post-content-wrapper h2 a{display:block}
-.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{padding:.8rem 1rem}
+.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:.8rem 1rem}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper{border-bottom:1px solid #CCCCCC;border-radius:12px 12px 24px 0px}
 
 /* Tips */
@@ -525,14 +523,13 @@ input.pdfemb-page-num{border-radius:6px;color:#333333}
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
 h4,h4 strong,h5,h5 strong,h6,h6 strong,.tfs-slider .fusion-title h3, .tfs-slider .fusion-title h4, .tfs-slider .fusion-title h3 strong, .tfs-slide .fusion-title h4 strong{font-weight:400!important}
 #main .fusion-woocommerce-quick-view-container .product_title, #wrapper #main .fusion-portfolio-content > h1.fusion-post-title, #wrapper #main .fusion-portfolio-content > h2.fusion-post-title, #wrapper #main .fusion-post-content > .blog-shortcode-post-title, #wrapper #main .fusion-post-content > h1.fusion-post-title, #wrapper #main .fusion-post-content > h2.fusion-post-title, #wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title, #wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title, #wrapper #main .post > h1.fusion-post-title, #wrapper #main .post > h2.fusion-post-title, .single-product #main .product h1.product_title, .single-product #main .product h2.product_title{font-size:1.3em}
+#main .post h2 a,#main article h2 a,.related-posts .awb-carousel .swiper-slide a{color:#333333}
 table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:10px}
-#wrapper #main .fusion-portfolio-content>h2.fusion-post-title{margin-bottom:0}
 
 /* Portfolio */
 .fusion-portfolio-grid .fusion-portfolio-content{margin-top:0}
 .fusion-portfolio .fusion-post-content{float:left;padding-bottom:0}
-.fusion-portfolio .fusion-post-title a{padding-bottom:.4rem!important}
 .fusion-portfolio-meta span{display:inline-block;color:#999999!important}
 .fusion-portfolio-content .fusion-portfolio-meta{margin:-9px 0 0;padding:0 1rem;position:absolute;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta + h2 a{padding-top:.4em}
