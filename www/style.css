@@ -468,7 +468,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper{border-bottom:1px solid #CCCCCC;border-radius:12px 12px 24px 0px}
 
 /* Tips */
-article.category-tips .fusion-blog-layout-grid .fusion-post-wrapper{border-bottom-right-radius:32px}
+article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 
 /* Blog */
 article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:inline-block;padding:.1em .5em;position:absolute;top:0;right:0;font-size:.8em;font-family:'open-sans',sans-serif;background:rgba(0,0,0,.4);border-top-right-radius:12px;border-bottom-left-radius:6px;color:#FFFFFF;z-index:10}
