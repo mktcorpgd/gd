@@ -563,8 +563,8 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 
 /* Title bar */
 .fusion-page-title-bar{padding-top:1.3em;padding-bottom:1em;background:none;border:none}
+.fusion-page-title-bar .fusion-page-title-row h1{font-size:1.2em}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
-.fusion-page-title-bar-center .fusion-page-title-captions,.fusion-page-title-bar-center .fusion-page-title-secondary,body.post-template-default.single-format-standard .fusion-page-title-bar .fusion-page-title-row h1{text-align:left}
 
 .fusion-single-line-meta{display:inline-block;width:100%}
 .fusion-meta-info-wrapper,.fusion-single-line-meta,.meta-tags{color:#999999!important}
