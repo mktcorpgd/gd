@@ -562,8 +562,8 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 .fusion-reading-box-container .reading-box .reading-box-description{font-size:1.1em;line-height:1.5;font-family:'open-sans',sans-serif;font-weight:400}
 
 /* Title bar */
-.fusion-page-title-bar{padding-top:1.3em;padding-bottom:1em;background:none;border:none}
-.fusion-page-title-bar .fusion-page-title-row h1{font-size:1.2em}
+.fusion-page-title-bar{height:auto;padding-top:1.3em;padding-bottom:1em;background:none;border:none}
+.fusion-page-title-bar .fusion-page-title-row h1{font-size:2.4em}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 
 .fusion-single-line-meta{display:inline-block;width:100%}
