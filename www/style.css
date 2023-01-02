@@ -42,6 +42,7 @@ iframe,.modal .fullwidth-modal{width:100%}
 .uppercase{text-transform:uppercase}
 .zindex1{z-index:1}
 .zindex99{z-index:99}
+.bkg-size80{background-size:80% 80%}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
