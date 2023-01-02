@@ -10,8 +10,11 @@ div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,
 .mobile-only,
 .no-featured-image .fusion-image-wrapper,
 .no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-grid .fusion-portfolio-buttons,.fusion-search-button,
-.no-tags .meta-tags,article.category-blog .fusion-single-line-meta,
-body.archive.category-recursos .fusion-single-line-meta,body.archive.category-tips .fusion-post-content-wrapper,.related-posts .fusion-carousel-meta,body.archive .fusion-portfolio-content .fusion-portfolio-meta,
+.no-tags .meta-tags,
+article.category-recursos .fusion-single-line-meta,article.category-blog .fusion-single-line-meta,article.category-casos .fusion-single-line-meta,article.category-datasheets .fusion-single-line-meta,article.category-whitepapers .fusion-single-line-meta,
+article.category-blog+.related-posts .fusion-carousel-meta,article.category-casos+.related-posts .fusion-carousel-meta,article.category-datasheets+.related-posts .fusion-carousel-meta,article.category-whitepapers+.related-posts .fusion-carousel-meta,
+article.tips .fusion-post-content-wrapper,
+body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .fusion-portfolio-meta a[href*='/c-solo-contacto'],
 .c-solo-contacto .more-link,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,.fusion-portfolio-content .fusion-text~p .more-link,
 .fusion-sharing-box h4,
@@ -456,6 +459,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 
 /* Grilla */
 .fusion-post-content-container{margin:0!important}
+.fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-wrapper .fusion-post-content.post-content{margin-bottom:0}
 .fusion-blog-layout-grid .post .flexslider,.fusion-blog-layout-grid .post .fusion-post-wrapper,.fusion-blog-layout-timeline .fusion-timeline-arrow,.fusion-blog-layout-timeline .fusion-timeline-date,.fusion-blog-layout-timeline .fusion-timeline-line,.fusion-blog-layout-timeline .post,.fusion-blog-layout-timeline .post .flexslider,.fusion-blog-timeline-layout .post,.fusion-blog-timeline-layout .post .flexslider,.fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,.fusion-post-content-container{border:none!important}
 .avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-archive-layout-masonry .fusion-blog-archive .fusion-blog-layout-masonry .post .fusion-post-content-wrapper,.avada-blog-archive-layout-timeline .fusion-blog-archive .fusion-blog-layout-timeline .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-masonry .fusion-blog-archive .fusion-blog-layout-masonry .post .fusion-post-content-wrapper,.avada-blog-layout-timeline .fusion-blog-archive .fusion-blog-layout-timeline .post .fusion-post-content-wrapper{padding:0}
 .fusion-portfolio{overflow:visible}
