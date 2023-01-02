@@ -135,7 +135,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-megamenu-holder{border-top:none}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu,.fusion-main-menu .fusion-menu-item-button a,.fusion-megamenu-title a{cursor:default}
 .fusion-main-menu>ul>li>a,.fusion-vertical-menu-widget ul.menu li a,.side-nav li a,.fusion-mobile-nav-holder .fusion-mobile-nav-item[data-item-id*='wpml'] a{font-weight:400}
-.fusion-main-menu>ul>li>a{padding-top:0;padding-bottom:0;height:66px!important;line-height:65px}
+.fusion-main-menu>ul>li>a{height:66px!important}
 .fusion-main-menu>ul>li>a,.fusion-main-menu .sub-menu a,.fusion-megamenu-title{padding-left:10px!important;padding-right:10px!important}
 .fusion-main-menu .sub-menu li a,.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a{padding-top:2px!important;padding-bottom:2px!important;white-space:nowrap;font-size:.9rem!important}
 .fusion-main-menu .sub-menu li a span>span:not(.wpml-ls-native),.fusion-mobile-nav-holder .sub-menu li a span>span:not(.wpml-ls-native){display:block;position:relative;top:-2px;font-size:.7em;line-height:1;opacity:.8}
@@ -165,7 +165,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 /* Menú - CTA */
 .fusion-main-menu>ul>.fusion-menu-item-button:hover>a{background-color:transparent!important}
 .fusion-main-menu .fusion-menu-item-button a>span{font-weight:400}
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2);color:#FFFFFF}
+.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)}
 .fusion-main-menu .fusion-menu-item-button .menu-text span.fusion-button-text-left{padding-left:20px;background:rgba(0,0,0,0);font-weight:400}
 .fusion-main-menu .fusion-button{font-size:1em}
@@ -440,11 +440,11 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button,.fusion-button-default,.fusion-load-more-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit']{padding:.45rem .65rem;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-size:1.1em;line-height:normal;font-weight:600;border-radius:12px}
+.wpcf7-form input[type='submit']{padding:.5rem .9rem;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-size:1.1em;line-height:normal;font-weight:600;border-radius:12px}
 .wpcf7-form input[type='submit']{width:auto}
-.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.6rem .8rem;font-size:.9em}
+.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.4rem .7rem;font-size:.9em}
 .button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a{padding:.6rem 1rem;font-size:1.2em}
-.button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.85rem 1.1rem;font-size:1.5em}
+.button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.8rem 1.2rem;font-size:1.5em}
 .wpcf7-submit{margin-top:.5em}
 a.cta-link{display:block;margin-top:-10px;text-align:center;font-family:'open-sans',sans-serif}
 a.cta-link strong{font-weight:600}
