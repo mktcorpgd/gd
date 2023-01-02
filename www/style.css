@@ -231,7 +231,6 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 
 .fusion-post-title-meta-wrap{margin-bottom:0}
 .fusion-post-title-meta-wrap .entry-title{font-size:48px!important;line-height:1.2!important}
-.fusion-page-title-bar .fusion-page-title-row h1{font-size:36px}
 .fusion-page-title-bar .fusion-breadcrumbs{padding:0 0 5px;font-size:.7em;line-height:1.3}
 .fusion-page-title-bar .fusion-breadcrumbs,.fusion-page-title-bar .fusion-breadcrumbs a,.fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:#999999}
 
@@ -497,6 +496,7 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 /* Recursos */
 body.single-format-link #content{width:100%}
 body.single-format-link .avada-page-titlebar-wrapper.bkg{background:rgba(0,0,0,.4);background-blend-mode:multiply}
+body.single-format-link .fusion-page-title-row h1{display:block}
 body.single-format-link .avada-page-titlebar-wrapper.bkg,body.single-format-link .fusion-page-title-row h1,body.single-format-link .fusion-page-title-secondary,body.single-format-link .widget_text{text-align:center}
 
 /* Visor PDF */
@@ -565,13 +565,9 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 .fusion-reading-box-container .reading-box .reading-box-description{font-size:1.1em;line-height:1.5;font-family:'open-sans',sans-serif;font-weight:400}
 
 /* Title bar */
-.fusion-page-title-bar{display:inline-block;padding-top:1.3em!important;padding-bottom:1em;height:auto!important;position:relative;background:none!important;border:none!important;z-index:99!important}
-body.single-avada_portfolio .fusion-page-title-bar{padding-bottom:1em;border-bottom:none!important}
-body.single-avada_portfolio .fusion-breadcrumbs,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.single-avada_portfolio .fusion-breacrumbs .fusion-breadcrumb-sep{margin-top:0!important}
-body.single-avada_portfolio .fusion-page-title-bar-center .fusion-page-title-captions,body.single-avada_portfolio .fusion-page-title-bar-center .fusion-page-title-secondary{text-align:left!important}
-
-body.post-template-default.single-format-standard .fusion-page-title-bar .fusion-page-title-row h1{font-size:2.4em!important;line-height:110%!important;font-weight:500;text-align:left!important}
-.fusion-page-title-bar h3{color:#555555!important;font-family:'open-sans',sans-serif!important;font-weight:400;font-size:14px!important;letter-spacing:1px!important;text-transform:uppercase}
+.fusion-page-title-bar{padding-top:1.3em;padding-bottom:1em;background:none;border:none}
+.fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
+.fusion-page-title-bar-center .fusion-page-title-captions,.fusion-page-title-bar-center .fusion-page-title-secondary,body.post-template-default.single-format-standard .fusion-page-title-bar .fusion-page-title-row h1{text-align:left}
 
 .fusion-single-line-meta{display:inline-block;width:100%}
 .fusion-meta-info-wrapper,.fusion-single-line-meta,.meta-tags{color:#999999!important}
@@ -765,7 +761,6 @@ span.no-radius,img.no-radius{border:none!important;border-radius:0!important}
 	#inicio .fusion-content-boxes.content-boxes-icon-on-top .content-container,#inicio .fusion-content-boxes .fusion-column,#inicio .fusion-content-boxes.content-boxes-icon-on-top .heading{margin-bottom:0!important}
 	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 	.table-1,.table-2,.tkt-slctr-tbl-wrap-dv{overflow:inherit}
-	.fusion-page-title-bar .fusion-page-title-row h1{line-height:1.1!important}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:19%!important}
 	.modal-lg{width:1200px}
@@ -865,7 +860,6 @@ span.no-radius,img.no-radius{border:none!important;border-radius:0!important}
 	body.home.site-id-25 .fusion-content-boxes.fusion-columns-2 .content-box-column{margin:10% 5%!important;width:90%!important}
 	body.home.site-id-25 .fusion-content-boxes.fusion-columns-2 .content-box-column-1{margin-top:0!important}
 	body.home.site-id-25 .fusion-content-boxes.fusion-columns-2 .content-box-column-2{margin-bottom:0!important}
-	.fusion-page-title-bar .fusion-page-title-row h1{padding-right:0!important;font-size:1.6em!important;line-height:105%!important;text-align:left}
 	body.post-template-default.single-format-standard .fusion-page-title-bar .fusion-page-title-row h1{width:100%;padding-right:0;font-size:2em!important;line-height:100%!important}
 	.fusion-header,.fusion-mobile-nav-holder{padding-left:20px;padding-right:20px}
 	.content-box-column p{line-height:1.5}
