@@ -153,9 +153,9 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-megamenu-title a:not([href*='#']){cursor:pointer}
 
 /* Menú - Banderas */
-.country-flag.menu-item .menu-text{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
-.country-flag.menu-item img[src*='flag-']{margin-right:4px;width:15px;height:15px;position:relative;top:-2px}
-.country-flag.menu-item .sub-menu img[src*='flag-']{top:6px;width:13px;height:13px}
+.country-flag.menu-item li a span{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
+.country-flag.menu-item img[src*='flag-']{width:15px;height:15px}
+.country-flag.menu-item .sub-menu img[src*='flag-']{width:13px;height:13px}
 
 /* Menú - Logo */
 .fusion-logo{transition:opacity .1s ease-in-out}
