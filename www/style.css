@@ -506,6 +506,7 @@ body.single-format-link .fusion-theme-sharing-box .fusion-social-networks{text-a
 .pdfemb-pagescontainer{margin:0}
 
 /* Visor PDF */
+/*
 div.pdfemb-viewer{display:block;margin:0 auto 2em;max-height:260px;border:none;border-radius:12px}
 div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled],div.pdfemb-toolbar{box-shadow:none;border:none!important;background:none;border-radius:0}
 div.pdfemb-toolbar-top{display:grid!important;grid-template-columns:10% 10% 70% 10%;background:#333333}
@@ -518,6 +519,7 @@ div.pdfemb-toolbar button.pdfemb-prev:before{content:''}
 div.pdfemb-toolbar button.pdfemb-download:before{content:''}
 .pdfemb-page-num{padding:0}
 input.pdfemb-page-num{border-radius:6px;color:#333333}
+*/
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -652,7 +654,8 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-accordian .panel-body>h5{margin-top:0;margin-bottom:.25em;font-size:1.1em}
 
 /* Posts relacionados */
-.related-posts>.fusion-title{font-size:1.2em}
+.related-posts>.fusion-title{font-size:.9em}
+
 .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom-right-radius:24px}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev{background:none!important;top:36%;left:initial!important;line-height:1}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next:before,.awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{color:rgba(0,0,0,.6);font-size:2em!important}
@@ -672,8 +675,8 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .related-posts .awb-carousel .swiper-slide .fusion-carousel-item-wrapper{visibility:visible}
 .related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
 .related-posts .fusion-carousel-meta{padding:0 1rem .8rem}
-.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.2em!important;font-weight:500;position:relative;z-index:10}
-.related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:.8rem 1rem .4rem}
+.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.2em;font-weight:500;position:relative;z-index:10}
+.related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:.6rem .8rem}
 
 /* Galería */
 .gallery-item{margin-top:0;padding:10px 10px 0}
