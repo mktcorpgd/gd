@@ -496,6 +496,7 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 body.single-format-link #content{width:100%}
 body.single-format-link .avada-page-titlebar-wrapper.bkg{background:rgba(0,0,0,.4);background-blend-mode:multiply}
 body.single-format-link .fusion-page-title-wrapper,body.single-format-link .fusion-page-title-row h1{display:block}
+body.single-format-link .fusion-builder-row-1{background:none}
 body.single-format-link .fusion-page-title-row h1{color:#FFFFFF}
 body.single-format-link .fusion-page-title-row h1,body.single-format-link .widget_text{text-align:center}
 
