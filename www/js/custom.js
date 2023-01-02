@@ -82,6 +82,11 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	}
 
 	// Enviar evento a Analytics
+	gtag('event','form_sent', {
+		'event_category': 'Formularios',
+		'event_name': event_action
+	});
+			
 	ga('send', {
 		hitType: 'event',
 		eventCategory: 'Formularios',
