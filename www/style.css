@@ -115,7 +115,6 @@ body:not(.page-id-39954):not(.page-id-41066) .fusion-modal.contacto-rapido .moda
 /* Header - Transparente */
 .header-transparent .fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
 .header-transparent .fusion-header-wrapper{width:100%;position:absolute}
-.header-transparent .fusion-builder-row-1{padding-top:66px}
 
 /* Header - Colores */
 .fusion-main-menu .sub-menu .current-menu-item>a,.fusion-main-menu .sub-menu .current-menu-parent>a,.fusion-main-menu .sub-menu .current_page_item>a{background-color:transparent!important}
