@@ -345,12 +345,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-form input[type='submit']:focus{background:#FFFFFF!important}
 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:12px}
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:6px}
-.fusion-button-default-size,.fusion-portfolio-one .fusion-button{-webkit-appearance:none;font-style:normal}
-.fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text){display:inline-block;margin-right:10px;margin-bottom:10px}
-.fusion-column-wrapper .fusion-button-wrapper>.fusion-button.button-flat:not(.no-text)>span{font-weight:600}
-.wpcf7 .wpcf7-submit{font-family:'open-sans',sans-serif!important}
-.modal-.wpcf7 .wpcf7-submit{margin-bottom:0}
-#wpcf7-f40006-o1 .wpcf7-response-output.success,#wpcf7-f40006-p39954-o2 .wpcf7-response-output.success{margin-bottom:0!important}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:#FFFFFF;font-weight:600;background:#419466;border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:'open-sans',sans-serif;font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:#419466;color:#FFFFFF}
 .mc4wp-checkbox-contact-form-7{cursor:pointer}
