@@ -7,10 +7,10 @@ jQuery(document).ready(function() {
 		jQuery('input[name="SAMEDATAPAX[]"]').trigger('click');
 		jQuery('select[name=ORG] option:contains('+jQuery('input[name=gdORG_mc]').val()+')').prop('selected','selected');
 		jQuery('select[name=CC_UNIT] option:contains('+jQuery('input[name=gdUNIT_mc]').val()+')').prop('selected','selected');
-		jQuery('input[name=FNAMEPAX1]').val(jQuery('input[name=FNAME]').val());
-		jQuery('input[name=LNAMEPAX1]').val(jQuery('input[name=LNAME]').val());
-		jQuery('input[name=EMAILPAX1]').val(jQuery('input[name=EMAIL]').val());
-		jQuery('input[name=PHONEPAX1]').val(jQuery('input[name=gdPHONE_mc]').val());
+		jQuery('input[name=FNAMEPAXA]').val(jQuery('input[name=FNAME]').val());
+		jQuery('input[name=LNAMEPAXA]').val(jQuery('input[name=LNAME]').val());
+		jQuery('input[name=EMAILPAXA]').val(jQuery('input[name=EMAIL]').val());
+		jQuery('input[name=PHONEPAXA]').val(jQuery('input[name=gdPHONE_mc]').val());
 		jQuery('input[name=DNIPAX]').val(jQuery('input[name=gdDNI_mc]').val());
 		jQuery('input[name=NACPAX]').val(jQuery('input[name=gdBIRTH_mc]').val());
 		}
@@ -20,7 +20,7 @@ jQuery(document).ready(function() {
 			samedataPaxChecked();
 		}
 		else {
-			jQuery('input[name$=PAX1]').val('');
+			jQuery('input[name$=PAXA]').val('');
 			jQuery('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
 		}
 	});
@@ -28,13 +28,13 @@ jQuery(document).ready(function() {
 	jQuery('input[name="PAXWHAT"]').change(function() {
 		jQuery('.wpcf7-submit').removeClass('disabled');
 		if ( this.value == 'Envío' ) {
-			jQuery('input[name=FNAMEPAX1]').val('');
-			jQuery('input[name=LNAMEPAX1]').val('');
+			jQuery('input[name=FNAMEPAXA]').val('');
+			jQuery('input[name=LNAMEPAXA]').val('');
 		}
 		else {
 			if ( samedata_is_checked == true ) {
-				jQuery('input[name=FNAMEPAX1]').val(jQuery('input[name=FNAME]').val());
-				jQuery('input[name=LNAMEPAX1]').val(jQuery('input[name=LNAME]').val());	
+				jQuery('input[name=FNAMEPAXA]').val(jQuery('input[name=FNAME]').val());
+				jQuery('input[name=LNAMEPAXA]').val(jQuery('input[name=LNAME]').val());	
 			}
 		}
 	});
