@@ -383,14 +383,8 @@ jQuery(document).ready(function() {
 			var inputtext_name = jQuery(this).closest('.columns').find('input[type=text]').attr('name');
 			var init_inputtext_name = inputtext_name.substr(0,5);
 			if ( this.checked ) {
-				jQuery('input[name^='+init_inputtext_name+']+.wpcf7-not-valid-tip').hide();
 				if ( checkbox_name == 'NOW[]' ) {
 					jQuery('input[name='+inputtext_name+']').val('Inmediata');
-				}
-				else if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
-					jQuery('input[name^='+init_inputtext_name+']+.wpcf7-not-valid-tip').hide();
-					jQuery('input[name^='+init_inputtext_name+'PLACE]').val('—').attr('readonly',true);
-					jQuery('input[name^='+init_inputtext_name+'DATE]').val('').attr('disabled',true);
 				}
 				else if ( checkbox_name.indexOf('NOT') > -1 ) {
 					jQuery('input[name^='+inputtext_name+']+.wpcf7-not-valid-tip').hide();
@@ -402,14 +396,7 @@ jQuery(document).ready(function() {
 				}
 			}
 			else {
-				if ( checkbox_name == 'ALOJNOT[]' || checkbox_name == 'AUTONOT[]' ) {
-					jQuery('input[name^='+init_inputtext_name+']+.wpcf7-not-valid-tip').show();
-					jQuery('input[name^='+init_inputtext_name+']').val('').removeAttr('readonly').removeAttr('disabled');
-				}
-				else {
-					jQuery('input[name^='+inputtext_name+']+.wpcf7-not-valid-tip').show();
-					jQuery('input[name^='+inputtext_name+']').val('').removeAttr('disabled');
-				}
+				jQuery('input[name^='+inputtext_name+']').val('').removeAttr('disabled');
 			}
 		});	
 	}
