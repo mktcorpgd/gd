@@ -16,7 +16,7 @@ body a:hover{color:#340018}
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover,.fusion-pricingtable-column .panel-container:hover .fusion-button{border-color:#340018;background:#340018;color:#FFFFFF}
 .fusion-pricing-table .list-group .list-group-item:hover{background:#340018!important}
 .fusion-pricingtable-column .panel-container:hover .fusion-button .fusion-button-text{color:#FFFFFF}
-.wpcf7 input:not([type='submit']).highlight,select.highlight,.white select.highlight{background:#7E1F4B!important;border:2px solid #7E1F4B!important}
+.wpcf7 input:not([type='submit']).highlight,select.highlight{background:#7E1F4B!important;border:2px solid #7E1F4B!important}
 .wpcf7 input:not([type='submit']).highlight:hover,select.highlight:hover{border-color:#340018!important;background:#340018!important;}
 #content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover{background:#340018!important}
 #main{padding-left:0!important;padding-right:0!important}

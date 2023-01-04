@@ -14,7 +14,6 @@ body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs,body.sing
 .fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover{border-color:#A142A6;background:#A142A6;color:#FFFFFF}
 .fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-grid-with-text .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{background-color:#552156!important}
 #content .button-default:hover,#content .button-default:focus,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,input[type='submit']:not(.sending):focus{background:#A142A6!important;color:#FFFFFF!important}
-.white .wpcf7-form input[type='submit']{color:#552156}
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open{background:#89388D!important}
 body.home .fusion-blog-shortcode:not(.news) .blog-shortcode-post-title{text-align:center!important}
 body:not(.home) .fusion-posts-container article.category-c-productos-servicios .fusion-post-content{padding-bottom:53px!important}
@@ -39,8 +38,7 @@ body:not(.home) .fusion-posts-container article.category-c-productos-servicios .
 #como-empezar .fusion-builder-row-inner .new{border-top-right-radius:8px;border-bottom-right-radius:8px;overflow:hidden}
 #como-empezar .fusion-builder-row-inner .new:before{height:100%;content:'\25B6';color:#EAEAEA;position:absolute;left:-10px;font-size:24px;line-height:330%;z-index:1}
 #como-empezar .fusion-builder-row-inner .new.one_row:before{line-height:215%}
-.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-filters .fusion-filter.fusion-active a,.panel-title a .fusion-toggle-heading,.panel-title a .fa-fusion-box,.white .wpcf7 .wpcf7-submit{color:#552156}
-related-posts .awb-carousel .swiper-slide a
+.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-filters .fusion-filter.fusion-active a,.panel-title a .fusion-toggle-heading,.panel-title a .fa-fusion-box{color:#552156}
 .fusion-tabs .nav-tabs li a:hover,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-filters .fusion-filter a:hover,.fusion-content-boxes.shadow>.fusion-column>.col.link-area-box-hover .icon i,.fusion-content-boxes.shadow>.fusion-column>.col.link-area-box-hover h2,.fusion-portfolio-content-wrapper:hover .more-info,.wpcf7-form input[type='submit'].sending:hover,.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a,.fusion-testimonials.clean .author a:hover,.related-posts .awb-carousel .swiper-slide:hover a{color:#A142A6}
 #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#content .box-buttons .fusion-post-content .fusion-button:hover{background:#A142A6!important}
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:#89388D!important}
