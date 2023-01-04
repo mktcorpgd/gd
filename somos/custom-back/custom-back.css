@@ -69,11 +69,11 @@ input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,in
 #major-publishing-actions{background:#FAFAFA;border:0!important}
 #titlediv #title{font-family:'neo-sans',sans-serif;font-weight:400}
 .wrap .add-new-h2,.wrap .add-new-h2:active,.wrap .page-title-action,.wrap .page-title-action:active{font-family:'neo-sans',sans-serif;color:#0E316E;box-shadow:none!important;border-radius:6px;font-size:14px;font-weight:400!important;text-shadow:none!important}
-.wp-core-ui .button,.wp-core-ui .button-primary,.wp-core-ui .button-secondary{font-family:'neo-sans',sans-serif;font-weight:400;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important;border-radius:6px;border-color:#F0582B;text-shadow:none!important}
+.wp-core-ui .button,.wp-core-ui .button-primary,.wp-core-ui .button-secondary{font-family:'neo-sans',sans-serif;font-weight:400;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)!important;border-radius:6px;border-color:#CCCCCC;text-shadow:none!important}
 .wp-core-ui .button,.wp-core-ui .button-secondary{color:#F0582B;background:#FAFAFA}
 .wp-core-ui .button-secondary:focus,.wp-core-ui .button-secondary:hover,.wp-core-ui .button.focus,.wp-core-ui .button.hover,.wp-core-ui .button:focus,.wp-core-ui .button:hover{background:rgba(0,0,0,.025);border-color:#1F4483;color:#1F4483}
+.wp-core-ui .button-primary{color:#FFFFFF!important;border-color:#F0582B;background:#F0582B}
 .wp-core-ui .button-primary:focus,.wp-core-ui .button-primary:hover{background:#1F4483!important}
-.wp-core-ui .button-primary{border-radius:12px;color:#FFFFFF!important;background:#F0582B}
 .supsystic-plugin .button-primary,.ui-dialog .button.button-hero{background:#F0582B!important}
 .supsystic-plugin .button:hover,.supsystic-plugin .button-primary:hover{background:#1F4483!important}
 #wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important}
