@@ -450,6 +450,7 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #custom_html-25 h3.toggle>i.fa-minus-square+a:after,
 #content h3.toggle>i.fa-plus-square+a:after,
 #content h3.toggle>i.fa-minus-square+a:after{content:''}
+body.page-id-15131 #content ul li h3.toggle {top: 0.2em;left: -1em;}
 
 /* Buscadores */
 body>.is-search-form{margin:52px auto 1em;width:95%}
