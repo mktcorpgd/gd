@@ -281,30 +281,6 @@ jQuery(document).ready(function() {
 	}
 
 
-	// CONTENIDOS - Animar scroll según "hidden_link" elegido
-	jQuery(document).on('click','.hidden_link,.gotolink a',function(e) {
-		var link_id = jQuery(this).attr('href');
-		jQuery('html,body').animate({
-			scrollTop: jQuery(link_id).offset().top-150
-		},1000);
-		jQuery(link_id).find('.fusion-portfolio-content-wrapper').addClass('hover');
-		jQuery('.fusion-portfolio-content-wrapper:not(.hover)').css('opacity','.5');
-		setTimeout(function() {
-			jQuery(link_id).find('.fusion-portfolio-content-wrapper').removeClass('hover');
-			jQuery('.fusion-portfolio-content-wrapper:not(.hover)').css('opacity','1');
-		},2000);
-		e.preventDefault();
-	});
-	jQuery('.hidden_link').on({
-		mouseenter: function () {
-			jQuery('.fusion-image-switch img:last-child').css('opacity',1);
-		},
-		mouseleave: function () {
-			jQuery('.fusion-image-switch img:last-child').css('opacity',0);
-		}
-	});
-
-
 	// CONTENIDOS - Convertir a dropcap primer párrafo de nota
 	if ( jQuery('body').hasClass('single-format-standard') ) {
 		jQuery('span[id^=more]').remove();
@@ -405,7 +381,7 @@ jQuery(document).ready(function() {
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
 
 
-	// CONTENIDOS - Mostrar preview
+	// CONTENIDOS - Mostrar preview para recursos que se descarguen
 	if ( jQuery('body.single-format-link').length ) {
 		var site_id = jQuery('body').attr('class');
 		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
@@ -421,17 +397,8 @@ jQuery(document).ready(function() {
 		if ( site_id == 'sites/5/' ) {
 			link_href = link_href.substring(3,link_href.length);
 		}
-		jQuery('.avada-page-titlebar-wrapper').addClass('bkg')
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
 		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
-	}
-
-
-	// CONTENIDOS - Si es una entrada para lectura, no fijar sidebar
-	if ( jQuery('body').hasClass('single-format-standard') ) {
-		if ( jQuery('#content>article').hasClass('category-blog') || jQuery('#content>article').hasClass('category-noticias') || jQuery('#content>article').hasClass('category-casos') || jQuery('.not-stucked').length ) {
-			jQuery('#sidebar .fusion-sidebar-inner-content').addClass('not-stucked');
-		}
 	}
 
 
