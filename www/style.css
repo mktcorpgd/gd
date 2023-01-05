@@ -674,6 +674,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .tab-filters .nav li .fontawesome-icon{margin-right:5px!important}
 .tab-filters .nav li a,.fusion-filters li a{width:100%}
 .tab-filters .nav-tabs{margin-bottom:1em!important}
+.fusion-tabs .nav-tabs li .tab-link .fontawesome-icon{min-width:24px;text-align:center}
 body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.7em 1em}
 .post-content .fusion-tabs:not(.tab-filters){border:2px solid rgba(0,0,0,.2)!important;background:#FFFFFF;border-radius:12px;overflow:hidden}
@@ -684,7 +685,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.vertical-tabs .nav-tabs{padding-left:0;left:0}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
 .fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#555555;font-weight:400!important;font-family:'open-sans',sans-serif;font-size:1rem!important;white-space:nowrap}
-.fusion-tabs .nav-tabs li a{background:#CCCCCC!important;border:none;border-radius:0!important}
+.fusion-tabs .nav-tabs li a{border:none;border-radius:0!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border:none!important;overflow:hidden}
 .fusion-tabs:not(.tab-filters) .nav-tabs li .tab-link .fusion-tab-heading{letter-spacing:0;position:relative}
 .fusion-tabs:not(.tab-filters) .tab-content>.tab-pane>h5{margin-top:15px;margin-bottom:10px}
