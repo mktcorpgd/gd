@@ -491,6 +491,7 @@ body.single-format-link .widget_text img,body.single-format-link .widget_text .w
 body.single-format-link .widget_text img{border-radius:12px;border:2px solid #CCCCCC}
 body.single-format-link .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
+body.single-format-link .widget_text .wpcf7-form input[type='email']{font-size:1.2em}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
