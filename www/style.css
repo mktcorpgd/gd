@@ -489,7 +489,8 @@ body.single-format-link .fusion-page-title-row h1,body.single-format-link .widge
 body.single-format-link .fusion-builder-row-1{background:none}
 body.single-format-link .widget_text img,body.single-format-link .widget_text .wpcf7{float:left}
 body.single-format-link .widget_text img{border-radius:12px;border:2px solid #CCCCCC}
-body.single-format-link .widget_text .wpcf7{margin-left:1em}
+body.single-format-link .widget_text .wpcf7{margin-left:2em}
+body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
