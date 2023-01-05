@@ -620,22 +620,10 @@ body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;
 .project-content>div>div>div>div>div>p:nth-child(1)+p{border-top:4px solid #FAFAFA;margin-bottom:0;padding-top:2.4em}
 
 /* Toggle */
-.fusion-accordian .panel-heading h4 a div.fusion-toggle-icon-wrapper i{position:relative;bottom:1px}
-.fusion-accordian .fusion-toggle-icon-wrapper{align-items:stretch;line-height:24px;margin-right:5px}
 .fusion-accordian .fusion-toggle-icon-wrapper i{background:none!important}
 .fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before{content:'\f067'!important;font-family:'Font Awesome 6 Pro'!important}
 .fusion-accordian .active .fusion-toggle-icon-wrapper i:before{content:'\f068'!important}
-html .fusion-accordian .panel-title .active .fa-fusion-box,html .fusion-accordian .panel-title a:hover .fa-fusion-box{background:none!important}
-.fusion-accordian .panel-title a{display:flex;padding:5px 0 0!important}
-body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-family:'open-sans',sans-serif;font-weight:600!important;margin-top:4px;text-transform:uppercase}
-.fusion-column-wrapper>h4{margin-bottom:.6em!important}
-.fusion-accordian .panel-title a{letter-spacing:0}
 .fusion-accordian .panel-body{color:#333333;line-height:1.6}
-.fusion-accordian .panel-body ul,.fusion-accordian .panel-body ol{margin-top:0!important;padding-left:20px}
-.fusion-accordian .panel-ul{padding-left:48px}
-.fusion-accordian .panel-ul li{margin-bottom:5px}
-.fusion-accordian .fusion-panel.fusion-toggle-no-divider{margin-bottom:5px}
-.fusion-accordian .panel-body>h5{margin-top:0;margin-bottom:.25em;font-size:1.1em}
 
 /* Posts relacionados */
 .related-posts>.fusion-title{font-size:.9em}
