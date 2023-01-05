@@ -678,7 +678,7 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-tabs li.fusion-active,.fusion-tabs li.active,.fusion-filters li.fusion-active{background:#FFFFFF}
 .fusion-filter.fusion-active a{line-height:inherit}
 .fusion-tab-link{cursor:pointer}
-.fusion-tabs .tab-pane{border:12px;border:1px solid #EAEAEA}
+.fusion-tabs.vertical-tabs .tab-pane{border:12px;border:2px solid #EAEAEA}
 .fusion-tabs.vertical-tabs .nav-tabs>li .tab-link{padding-left:1em}
 
 /* Paginación */
