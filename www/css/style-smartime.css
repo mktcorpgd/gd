@@ -4,8 +4,11 @@ body.has-sidebar #content{width:100%}
 html.avada-is-100-percent-template #main.width-100{padding:0}
 ::-moz-selection{background:#01A7B7;color:#FFFFFF}
 ::selection{background:#01A7B7;color:#FFFFFF}
-body a,.fusion-accordian .panel-heading .panel-title a,.fusion-tabs .nav-tabs li .fusion-tab-heading, .tab-filters .nav li a, .fusion-filters li a{color:#9A619E}
-body a,.title-color,.fusion-accordian .panel-heading .panel-title a:hover,.fusion-accordian .panel-heading .panel-title a:hover span,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading{color:#01A7B7}
+body a,.fusion-accordian .panel-heading .panel-title a,.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading, .tab-filters .nav li a, .fusion-filters li a{color:#9A619E}
+body a,
+.fusion-accordian .panel-heading .panel-title a:hover,.fusion-accordian .panel-heading .panel-title a:hover span,
+.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,
+.title-color h1,.title-color h2,.title-color h3,.title-color h4,.title-color h5,.title-color h6{color:#01A7B7}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,
