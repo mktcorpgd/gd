@@ -213,6 +213,7 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
 .post-content blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid #CCCCCC;font-family:'neo-sans',sans-serif;font-weight:400;font-style:normal;font-size:1.2em;line-height:1.5}
 .post-content blockquote strong{font-weight:400!important}
+.post-password{padding:1em 2em;text-align:center}
 
 /* Testimonios */
 .fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:1em;padding-bottom:.5em;border-left:4px solid #EAEAEA!important}
@@ -324,11 +325,11 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .white .fusion-content-widget-area .widget{margin-bottom:0!important}
 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight{padding:10px 20px;height:auto}
 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,input.highlight::placeholder{font-family:'open-sans',sans-serif!important;font-weight:600!important}
-.fusion-widget-area .wpcf7 input:not([type='submit']),.fusion-widget-area .wpcf7 select,.widget select,.fusion-widget-area .wpcf7 textarea,#sidebar .wpcf7 input:not([type='submit']),#sidebar .wpcf7 select,#sidebar .wpcf7 textarea,.modal .wpcf7 input:not([type='submit']),.modal .wpcf7 select,.modal .wpcf7 textarea,#respond input:not([type='submit']),#respond textarea{background:#FAFAFA;color:#333333;position:relative;z-index:1}
+.fusion-widget-area .wpcf7 input:not([type='submit']),.fusion-widget-area .wpcf7 select,.widget select,.fusion-widget-area .wpcf7 textarea,#sidebar .wpcf7 input:not([type='submit']),#sidebar .wpcf7 select,#sidebar .wpcf7 textarea,.modal .wpcf7 input:not([type='submit']),.modal .wpcf7 select,.modal .wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{background:#FAFAFA;color:#333333;position:relative;z-index:1}
 .wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,.wpcf7-form .wpcf7-select,.widget select,.wpcf7-form .wpcf7-text,.wpcf7-form textarea,#comment-input input,#comment-textarea textarea,.avada-select .select2-container .select2-choice,.avada-select .select2-container .select2-choice2,.chzn-container .chzn-drop,.chzn-container-single .chzn-single,.comment-form-comment textarea,.fusion-body .avada-select-parent select,.input-text,.main-nav-search-form input,.post-password-form label input[type=password],.search-page-search-form input,input.s,input[type=email],input[type=number],input[type=password],input[type=text],select,textarea{font-size:14px}
-.wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.widget select,.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea{font-weight:400;height:auto!important;border-radius:6px!important}
-#respond input:not([type='submit']),#respond textarea{padding:9px 10px!important}
-.wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.wpcf7 textarea{padding:8px 10px!important}
+.wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.widget select,.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{font-weight:400;height:auto!important;border-radius:6px!important}
+#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{padding:9px 10px!important}
+.wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.wpcf7 textarea,.post-password-form input[type='password']{padding:8px 10px!important}
 .widget select{padding:8px 10px}
 .wpcf7 input[type='date']{padding-bottom:5px!important}
 .wpcf7 textarea,#respond textarea{height:85px!important}
@@ -350,8 +351,8 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .mc4wp-checkbox-contact-form-7{cursor:pointer}
 .mc4wp-checkbox-contact-form-7 span{font-size:.9em}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
-.white .wpcf7 input:not([type='submit']):hover,body.error404 .searchform input:hover,.white .wpcf7 select:not(.highlight):hover,.white .wpcf7 textarea:hover,.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:not(.highlight):hover,.fusion-widget-area .wpcf7 textarea:hover,#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:not(.highlight):hover,#sidebar .wpcf7 textarea:hover,.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:not(.highlight):hover,.modal .wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.wpcf7 input:not([type='submit']):hover,.wpcf7 select:not(.highlight):hover,.wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):hover a,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):focus a{background:#FFFFFF!important;border-color:#555555!important}
-.wpcf7 input:not([type='submit']):focus,.wpcf7 select:not(.highlight):focus,.wpcf7 textarea:focus,#respond input:not([type='submit']):focus,#respond textarea:focus{border-color:#777777!important}
+.white .wpcf7 input:not([type='submit']):hover,body.error404 .searchform input:hover,.white .wpcf7 select:not(.highlight):hover,.white .wpcf7 textarea:hover,.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:not(.highlight):hover,.fusion-widget-area .wpcf7 textarea:hover,#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:not(.highlight):hover,#sidebar .wpcf7 textarea:hover,.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:not(.highlight):hover,.modal .wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.wpcf7 input:not([type='submit']):hover,.wpcf7 select:not(.highlight):hover,.wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):hover a,.fusion-tabs:not(.tab-filters) .nav-tabs li:not(.active):focus a,.post-password-form input[type='password']:hover{background:#FFFFFF!important;border-color:#555555!important}
+.wpcf7 input:not([type='submit']):focus,.wpcf7 select:not(.highlight):focus,.wpcf7 textarea:focus,#respond input:not([type='submit']):focus,#respond textarea:focus,.post-password-form input[type='password']:focus{border-color:#777777!important}
 .fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']):hover,.fusion-column-wrapper .wpcf7 select:not(.highlight):not(:disabled):hover,.fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.white .fusion-one-full input:not([type='submit']),.white .fusion-one-full select,.white .fusion-one-full textarea{background:#FFFFFF!important}
 .white .wpcf7 input:not([type='submit']),body.error404 .searchform input,.white .fusion-column-wrapper .wpcf7 select:not(:disabled):hover,.white .fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.fusion-tabs:not(.tab-filters) .nav{background:#FAFAFA}
 
@@ -667,27 +668,25 @@ body.single .fusion-accordian .panel-p>a{display:inline-block;height:28px;font-f
 .fusion-gallery .fusion-gallery-column .fusion-gallery-image{border-radius:12px}
 
 /* Tabs */
-.tab-filters .nav ul,.fusion-filters{display:block;margin-bottom:2em!important;line-height:1.3!important;border-radius:6px 6px 12px 12px;box-shadow:0 2px 12px 0px rgba(0,0,0,.2)!important;border:none;overflow:hidden}
+.fusion-tabs .nav ul,.fusion-filters{display:block;margin-bottom:2em;line-height:1.3;border-radius:6px 6px 12px 12px;box-shadow:0 2px 12px 0px rgba(0,0,0,.2)!important;border:none;overflow:hidden}
 .fusion-filter.fusion-active a{line-height:inherit}
-.tab-filters .nav li:hover,.fusion-filters li:hover{background:#FAFAFA}
-.tab-filters .nav li,.fusion-filters li{background:#EAEAEA;font-family:'open-sans',sans-serif;text-align:center}
-.tab-filters .nav li .fontawesome-icon{margin-right:5px!important}
-.tab-filters .nav li a,.fusion-filters li a{width:100%}
-.tab-filters .nav-tabs{margin-bottom:1em!important}
+.fusion-tabs li:hover,.fusion-filters li:hover{background:#FAFAFA}
+.fusion-tabs li,.fusion-filters li{background:#EAEAEA;font-family:'open-sans',sans-serif;text-align:center}
+.fusion-tabs li .fontawesome-icon{margin-right:5px!important}
+.fusion-tabs li a,.fusion-filters li a{width:100%}
+.fusion-tabs-tabs{margin-bottom:1em!important}
+.fusion-tabs{margin-bottom:25px}
 .fusion-tabs .nav-tabs li .tab-link .fontawesome-icon{min-width:24px;text-align:center}
-body.home .tab-filters .tab-pane{background:none!important}
 .fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.7em 1em}
 .post-content .fusion-tabs:not(.tab-filters){border:2px solid rgba(0,0,0,.2)!important;background:#FFFFFF;border-radius:12px;overflow:hidden}
-.fusion-tabs{margin-bottom:25px}
 .fusion-tab-link{cursor:pointer}
 .fusion-tabs.vertical-tabs .nav-tabs li .tab-link{padding:10px 15px;white-space:normal}
 .fusion-tabs .tab-pane,.fusion-tabs.horizontal-tabs .nav{border:none!important;outline:none!important}
 .fusion-tabs.vertical-tabs .nav-tabs{padding-left:0;left:0}
 .fusion-tabs.classic .tab-content .fusion-mobile-tab-nav:nth-last-child(2) .nav-tabs li:not(.active){border:none!important}
-.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{color:#555555;font-weight:400!important;font-family:'open-sans',sans-serif;font-size:1rem!important;white-space:nowrap}
+.fusion-tabs .nav-tabs li .fusion-tab-heading,.fusion-tabs li a,.fusion-filters li a{color:#555555;font-weight:400!important;font-family:'open-sans',sans-serif;font-size:1rem!important;white-space:nowrap}
 .fusion-tabs .nav-tabs li a{border:none;border-radius:0!important}
 .fusion-tabs:not(.tab-filters) .nav-tabs{border:none!important;overflow:hidden}
-.fusion-tabs:not(.tab-filters) .nav-tabs li .tab-link .fusion-tab-heading{letter-spacing:0;position:relative}
 .fusion-tabs:not(.tab-filters) .tab-content>.tab-pane>h5{margin-top:15px;margin-bottom:10px}
 .fusion-tabs:not(.tab-filters) .tab-content .wp-caption{margin-top:48px}
 .fusion-tabs:not(.tab-filters) .tab-content .wp-caption-text{color:#555555;font-size:.875em;font-style:italic;margin-top:5px}
@@ -695,7 +694,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .page-text{letter-spacing:1px;position:relative;text-transform:uppercase}
 .fusion-tabs .nav-tabs li a:hover{background:#FFFFFF!important}
 .fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover{background:#FFFFFF!important}
-.tab-filters .nav li.fusion-active,.tab-filters .nav li.active,.fusion-filters li.fusion-active{background:#FFFFFF}
+.fusion-tabs li.fusion-active,.fusion-tabs li.active,.fusion-filters li.fusion-active{background:#FFFFFF}
 
 /* Paginación */
 .pagination{margin:20px 0 0!important;width:100%;text-align:center}
@@ -716,7 +715,7 @@ body.home .tab-filters .tab-pane{background:none!important}
 .fusion-footer .fusion-social-network-icon:hover{opacity:1}
 
 /* Otros */
-.no-border,.modal-content,.tfs-slider .overlay-link,.tab-filters .nav li a,.nav-tabs a,.fusion-filters li a,.nav-tabs a{border:none!important}
+.no-border,.modal-content,.tfs-slider .overlay-link,.fusion-tabs li a,.nav-tabs a,.fusion-filters li a,.nav-tabs a{border:none!important}
 .fusion-layout-column:not(.no-radius) .fusion-video,.fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
 .mejs-container *{font-family:'open-sans',sans-serif}
 .mejs-time{padding:14px 6px 0;font-size:13px}
@@ -744,7 +743,7 @@ span.no-radius,img.no-radius{border:none!important;border-radius:0!important}
 	body.customize-support .header-transparent .hundred-percent-height{height:calc(100vh - 32px)!important}
 
 	/* Tabs */
-	.tab-filters .nav li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em!important}
+	.fusion-tabs li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em!important}
 	.fusion-filters .fusion-filter{display:table-cell;float:none;width:1%}
 	.fusion-filters .fusion-filter a{line-height:1.15}
 	.fusion-tabs.horizontal-tabs.clean .tab-content{margin-top:0!important;padding:20px}
@@ -838,20 +837,18 @@ span.no-radius,img.no-radius{border:none!important;border-radius:0!important}
 	.fusion-open-submenu{min-width:56px;height:43px!important;line-height:38px!important}
 	body.has-sidebar.layout-wide-mode #content{margin-bottom:0!important}
 	.mobile-only{display:inline-block!important}
-	.fusion-tabs.clean .tab-content .tab-pane{padding:10px}
 
 	.fusion-header,.fusion-mobile-nav-holder{padding-left:20px;padding-right:20px}
 
 	.fusion-footer-widget-area .widget-title{margin-top:2em;margin-bottom:0}
 	.fusion-footer-widget-area ul li a{font-size:120%}
 	.fusion-tabs.clean .nav-tabs{margin-bottom:0!important}
-	.fusion-tabs .fusion-mobile-tab-nav{margin-bottom:1em!important}
 	.fusion-tabs.clean .nav-tabs li{margin-bottom:0!important}
-	.fusion-tabs .nav-tabs li .fusion-tab-heading,.tab-filters .nav li a,.fusion-filters li a{white-space:normal}
+	.fusion-tabs .nav-tabs li .fusion-tab-heading,.fusion-tabs li a,.fusion-filters li a{white-space:normal}
 	.fusion-tabs.clean .nav-tabs li.active{margin-bottom:-10px}
 	.fusion-tabs.clean .tab-content .tab-pane.active{margin-top:0!important;border-top-left-radius:0;border-top-right-radius:0}
 	.fusion-tabs .fusion-mobile-tab-nav .tab-link{padding-right:48px!important}
-	.tab-filters .nav li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.9em 1em!important}
+	.fusion-tabs li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.9em 1em!important}
 	.fusion-tabs.clean .nav-tabs li .tab-link{padding-right:2.4em!important}
 	.fusion-mobile-tab-nav{position:relative}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder{padding-top:10px!important;padding-bottom:10px!important;position:relative;top:10px}
