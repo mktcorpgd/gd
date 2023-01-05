@@ -8,7 +8,7 @@ body a,
 .fusion-accordian .panel-heading .panel-title a,.fusion-accordian .fusion-toggle-icon-unboxed .panel-title a.active,
 .fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.tab-filters .nav li a, .fusion-filters li a{color:#9A619E}
 body a:hover,
-.fusion-accordian .panel-heading .panel-title a:hover,.fusion-accordian .fusion-toggle-icon-unboxed .panel-title a:hover:not(.active) .fa-fusion-box:before,.fusion-accordian .active .fusion-toggle-icon-wrapper i:before
+.fusion-accordian .panel-heading .panel-title a:hover,.fusion-accordian .panel-heading .panel-title a.active.fusion-accordian .fusion-toggle-icon-unboxed .panel-title a:hover:not(.active) .fa-fusion-box:before,.fusion-accordian .fusion-toggle-icon-unboxed .panel-title a.active .fusion-toggle-icon-wrapper i:before,
 .fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading{color:#01A7B7}
 .title-color h1,.title-color h2,.title-color h3,.title-color h4,.title-color h5,.title-color h6{color:#01A7B7!important}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
