@@ -1,5 +1,5 @@
 /* Smartime */
-#sidebar,.widget .heading{display:none}
+#sidebar,.widget .heading,.fusion-main-menu-search{display:none}
 body.has-sidebar #content{width:100%}
 html.avada-is-100-percent-template #main.width-100{padding:0}
 ::-moz-selection{background:#01A7B7;color:#FFFFFF}
