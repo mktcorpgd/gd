@@ -325,6 +325,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']),.fusion-column-wrapper .wpcf7 select,.widget select,.fusion-column-wrapper .wpcf7 textarea{width:100%!important;background:#FFFFFF;position:relative;z-index:1}
 .wpcf7{position:relative}
 .white .fusion-content-widget-area .widget{margin-bottom:0!important}
+.wpcf7-select-parent .wpcf7-select{appearance:auto}
 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight{padding:10px 20px;height:auto}
 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,input.highlight::placeholder{font-family:'open-sans',sans-serif!important;font-weight:600!important}
 .fusion-widget-area .wpcf7 input:not([type='submit']),.fusion-widget-area .wpcf7 select,.widget select,.fusion-widget-area .wpcf7 textarea,#sidebar .wpcf7 input:not([type='submit']),#sidebar .wpcf7 select,#sidebar .wpcf7 textarea,.modal .wpcf7 input:not([type='submit']),.modal .wpcf7 select,.modal .wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{background:#FAFAFA;color:#333333;position:relative;z-index:1}
