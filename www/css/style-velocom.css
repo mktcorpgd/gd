@@ -10,10 +10,10 @@ body.has-sidebar #content{width:100%}
 html.avada-is-100-percent-template #main.width-100{padding:0}
 ::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
 ::selection{background:var(--mainColor);color:var(--whiteColor)}
-#wrapper a,
+#main a,
 .fusion-accordian .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,
 .fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--subColor)}
-#wrapper a:hover,
+#main a:hover,
 .fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
 .fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover,
 .fusion-title h1,.fusion-title h2,.fusion-title h3,.fusion-title h4,.fusion-title h5,.fusion-title h6{color:var(--mainColor)!important}
