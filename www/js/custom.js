@@ -446,14 +446,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Agregar clase para selects con highlight
-	jQuery('.wpcf7-select').each(function(i) {
-		if ( jQuery(this).hasClass('highlight') ) {
-			jQuery(this).parent().addClass('parent-highlight');
-		}
-	});
-
-
 	// FORMULARIOS - Convertir a mayúsculas
 	jQuery('input[name*="ORG"]').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toUpperCase());

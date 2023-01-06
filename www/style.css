@@ -7,7 +7,7 @@
 .logged-in-as,
 .select-arrow,
 #respond .fusion-title,.comment-form-cookies-consent,.commentlist .the-comment .comment-text em+br,
-div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,
+div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.screen-reader-response
 .mobile-only,
 .no-featured-image .fusion-image-wrapper,
 .no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-grid .fusion-portfolio-buttons,.fusion-search-button,
@@ -52,7 +52,7 @@ iframe,.modal .fullwidth-modal{width:100%}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-']{width:22px;height:22px;position:relative;top:2px}
-.white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,html body .white .fusion-accordian .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li,.white .toggle-content a,.white .mc4wp-checkbox-contact-form-7~em,.white .mc4wp-checkbox-contact-form-7~em a,
+.white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .content-box-heading,.white .content-container,.white .heading,.white .icon i,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.fusion-accordian.white .fusion-toggle-heading,.fusion-accordian.white .panel-heading .panel-title a,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,.white blockquote,.white .fusion-accordian .fusion-panel .panel-title a,.white .fusion-accordian .panel-title a .fa-fusion-box,html body .white .fusion-accordian .panel-title a:hover .fa-fusion-box,.white .fusion-layout-column,.accordian.white .panel-body li,.white .toggle-content a,.white .mc4wp-checkbox-contact-form-7~em,.white .mc4wp-checkbox-contact-form-7~em a,.white div.wpcf7:before,
 .fusion-mobile-menu-icons a,.fusion-mobile-menu-icons a:after,.fusion-mobile-menu-icons a:before,
 html .fusion-open-submenu,
 .fusion-menu .searchform .fusion-search-form-content .fusion-search-field input::placeholder,.fusion-main-menu .fusion-dropdown-menu li a,.fusion-main-menu li a,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item.current-menu-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a,.fusion-main-menu>ul>li>a:hover,
@@ -264,100 +264,74 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 
 /* Formularios */
 .wpcf7 ::placeholder{color:#555555;opacity:1}
-div.wpcf7>form p{margin-top:0;margin-right:20px}
-div.wpcf7>form .fusion-one-half.fusion-column-last p{margin-right:0}
-div.wpcf7{margin:0 auto;padding:0}
-.fusion-one-full div.wpcf7{max-width:500px}
+div.wpcf7{margin:0 auto;padding:0;position:relative}
 div.wpcf7:before{display:block;margin-top:-.6em;width:100%;margin-bottom:5px;font-size:.7em;line-height:1.6;font-style:italic}
-.white div.wpcf7:before{color:#FFFFFF}
-.fusion-layout-column.fusion-three-fifth div.wpcf7{max-width:100%}
+div.wpcf7>form p{margin-top:0;margin-right:1em}
 .modal div.wpcf7{max-width:100%}
-div.wpcf7 .screen-reader-response{position:absolute;overflow:hidden;clip:rect(1px,1px,1px,1px);height:1px;width:1px;border:none;margin:0;padding:0}
-.wpcf7-form-control-wrap{position:relative}
+.fusion-one-full div.wpcf7{max-width:500px}
+.fusion-widget-area .wpcf7 input:not([type='submit']),.fusion-widget-area .wpcf7 select,.fusion-widget-area .wpcf7 textarea,.widget select,
+#sidebar .wpcf7 input:not([type='submit']),#sidebar .wpcf7 select,#sidebar .wpcf7 textarea,
+.modal .wpcf7 input:not([type='submit']),.modal .wpcf7 select,.modal .wpcf7 textarea,
+#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:#333333;border:1px solid #CCCCCC;border-radius:6px;background:#FAFAFA;font-size:.9em;font-weight:400;z-index:1}
+.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:hover,.fusion-widget-area .wpcf7 textarea:hover,.widget select:hover,
+#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:hover,#sidebar .wpcf7 textarea:hover,
+.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:hover,.modal .wpcf7 textarea:hover,
+#respond input:not([type='submit']):hover,#respond textarea:hover,.post-password-form input[type='password']:hover{background:#FFFFFF;border-color:#999999}
+.fusion-widget-area .wpcf7 input:not([type='submit']):focus,.fusion-widget-area .wpcf7 select:focus,.fusion-widget-area .wpcf7 textarea:focus,.widget select:focus,
+#sidebar .wpcf7 input:not([type='submit']):focus,#sidebar .wpcf7 select:focus,#sidebar .wpcf7 textarea:focus,
+.modal .wpcf7 input:not([type='submit']):focus,.modal .wpcf7 select:focus,.modal .wpcf7 textarea:focus,
+#respond input:not([type='submit']):focus,#respond textarea:focus,.post-password-form input[type='password']:focus{background:#FFFFFF;border-color:#777777}
+.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,#respond .fusion-one-half:not(.fusion-column-last) input{border-top-right-radius:0;border-bottom-right-radius:0;border-right-width:1px}
+.wpcf7 .fusion-one-half.fusion-column-last input,.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-top-left-radius:0;border-bottom-left-radius:0;border-left-width:1px}
 div.wpcf7 input[type='file']{cursor:pointer}
-div.wpcf7 input[type='file']:disabled{cursor:default}
-div.wpcf7 .wpcf7-submit:disabled{cursor:not-allowed}
-div.wpcf7 .fusion-one-full,div.wpcf7 .fusion-one-full p{text-align:center;line-height:1.4}
-div.wpcf7 .fusion-one-full .wpcf7-checkbox{text-align:left}
-div.wpcf7 .fusion-layout-column>label{margin-top:10px;display:block;text-align:left;font-size:90%}
-div.wpcf7 .fusion-layout-column>label>.wpcf7-form-control-wrap{margin-top:5px}
-div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:'neo-sans',sans-serif;letter-spacing:1px;color:#777777;z-index:10}
-.wpcf7-form-control:not(.wpcf7-acceptance) span.wpcf7-list-item{margin-left:0!important;padding:5px;width:100%;background:rgba(0,0,0,.2);border:2px solid rgba(0,0,0,.2);border-radius:6px}
-.wpcf7-free-text{float:left;margin-top:10px!important}
-.wpcf7-free-text:not([disabled]){display:block}
-.wpcf7-not-valid:not(.highlight),.white .fusion-layout-column .wpcf7-not-valid:not(.highlight){background:#FFFFFF!important}
-.wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:'neo-sans',sans-serif;line-height:1.5;font-weight:400!important;border-radius:3px;background:rgba(255,255,255,.6);color:#FF5151!important;font-size:.65em!important;z-index:1}
-.wpcf7-not-valid-tip:hover{background:rgba(255,255,255,.9)}
-.highlight+.wpcf7-not-valid-tip{background:rgba(255,255,255,.9)}
-.fusion-one-half .wpcf7-not-valid-tip{right:10px}
-.fusion-one-half.fusion-column-last .wpcf7-not-valid-tip{right:11px}
-.wpcf7-validation-errors,.wpcf7-acceptance-missing{color:#FF5151!important}
-.fusion-layout-column.iframe .fusion-column-wrapper{border-radius:12px;overflow:hidden}
-.wpcf7 .fusion-layout-column>span:not(.mc4wp-checkbox),#respond .fusion-layout-column span{display:block;margin-bottom:5px}
-.wpcf7 .wpcf7-form .fusion-one-third:nth-child(2) input:not([type='submit']){border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-right:0!important}
-.wpcf7 .wpcf7-form .fusion-one-third:nth-child(3) input:not([type='submit']){border-radius:0!important}
-.wpcf7 .wpcf7-form .fusion-one-third.fusion-column-last input:not([type='submit']){border-top-left-radius:0!important;border-bottom-left-radius:0!important;border-left:0!important}
-.wpcf7 input:read-only:not([type='submit']),.wpcf7 input:disabled:not([type='submit']),.wpcf7 select:disabled,.wpcf7 textarea:disabled{color:#999999!important;cursor:default}
-.wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 select,.widget select,.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea{margin:0;width:100%!important;position:relative;z-index:1}
-.wpcf7 input:not([type='submit']),.wpcf7-form select,.widget select,.wpcf7-form textarea,#respond input:not([type='submit']),#respond textarea{border:1px solid #CCCCCC!important}
-.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,#respond .fusion-one-half:not(.fusion-column-last) input{border-top-right-radius:0!important;border-bottom-right-radius:0!important;border-right-width:1px!important}
-.wpcf7 .fusion-one-half.fusion-column-last input,.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-top-left-radius:0!important;border-bottom-left-radius:0!important;border-left-width:1px!important}
-.wpcf7 .fusion-one-half+.fusion-one-fourth input{border-radius:0!important}
-.wpcf7 .fusion-one-half+.fusion-one-fourth+.fusion-one-fourth input{border-top-left-radius:0!important;border-bottom-left-radius:0!important;border-left-width:1px!important}
-.wpcf7 .fusion-one-half:not(.fusion-column-last) .fusion-text .wpcf7-not-valid-tip{float:right;margin-right:8px}
-.wpcf7 .fusion-one-full>a{display:inline-block;padding:4px 0;font-family:'open-sans',sans-serif;font-size:95%;font-weight:400!important;text-align:center;line-height:1.15;opacity:.9}
-.wpcf7 .fusion-one-full>a:hover{opacity:1}
-.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
-.wpcf7-form:not(.init) div.wpcf7-response-output{margin:.3em auto 0!important;padding:.3em .4em!important;position:relative;text-align:center!important;background-color:#FF5151!important;color:#FFFFFF!important}
-.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:fit-content;border:none!important;border-radius:6px;box-shadow:none!important;font-size:.875em!important;line-height:1.1;font-style:italic;text-align:center!important;text-transform:none!important}
-.wpcf7-response-inner{margin:0 auto!important;padding:5px 4px!important;width:95%;line-height:1.3}
-input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em!important}
-.fusion-title+.wpcf7-response-inner{border-bottom-left-radius:0;border-bottom-right-radius:0}
-.wpcf7 form div.wpcf7-response-output.info{margin:0 0 5px!important;padding:4px!important;background-color:#F1B500!important;color:#FFFFFF!important}
-.wpcf7 form.sent div.wpcf7-response-output,.wpcf7-response-inner.sent{background-color:#419466!important;color:#FFFFFF!important}
-.wpcf7-response-inner.warning{background-color:#F1B500!important;color:#FFFFFF!important}
-.wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
-.wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600;color:#419466;background:#FFFFFF;border-color:#FFFFFF}
-.wpcf7-response-inner.sent .menu-text.fusion-button{color:#419466}
-.wpcf7-response-inner.warning .menu-text.fusion-button{color:#F1B500}
-#content .wpcf7-response-inner .menu-text.fusion-button:hover{color:#FFFFFF;background:none!important}
-.wpcf7-spam{background-color:#F1B500!important;color:#FFFFFF!important}
-.fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']),.fusion-column-wrapper .wpcf7 select,.widget select,.fusion-column-wrapper .wpcf7 textarea{width:100%!important;background:#FFFFFF;position:relative;z-index:1}
-.wpcf7{position:relative}
-.white .fusion-content-widget-area .widget{margin-bottom:0!important}
+div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:default}
 .wpcf7-select-parent .wpcf7-select{appearance:auto}
-.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight{padding:10px 20px;height:auto}
-.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,input.highlight::placeholder{font-family:'open-sans',sans-serif!important;font-weight:600!important}
-.fusion-widget-area .wpcf7 input:not([type='submit']),.fusion-widget-area .wpcf7 select,.widget select,.fusion-widget-area .wpcf7 textarea,#sidebar .wpcf7 input:not([type='submit']),#sidebar .wpcf7 select,#sidebar .wpcf7 textarea,.modal .wpcf7 input:not([type='submit']),.modal .wpcf7 select,.modal .wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{background:#FAFAFA;color:#333333;position:relative;z-index:1}
-.wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,.wpcf7-form .wpcf7-select,.widget select,.wpcf7-form .wpcf7-text,.wpcf7-form textarea,#comment-input input,#comment-textarea textarea,.avada-select .select2-container .select2-choice,.avada-select .select2-container .select2-choice2,.chzn-container .chzn-drop,.chzn-container-single .chzn-single,.comment-form-comment textarea,.fusion-body .avada-select-parent select,.input-text,.main-nav-search-form input,.post-password-form label input[type=password],.search-page-search-form input,input.s,input[type=email],input[type=number],input[type=password],input[type=text],select,textarea{font-size:14px}
-.wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.widget select,.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{font-weight:400;height:auto!important;border-radius:6px!important}
-#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{padding:9px 10px!important}
-.wpcf7 input:not([type='submit']),body.error404 .searchform input,.wpcf7 select,.wpcf7 textarea,.post-password-form input[type='password']{padding:8px 10px!important}
-.widget select{padding:8px 10px}
-.wpcf7 input[type='date']{padding-bottom:5px!important}
-.wpcf7 textarea,#respond textarea{height:85px!important}
-.wpcf7 .fusion-one-full>a>i{display:inline-block;padding-right:5px;text-indent:0;color:inherit}
-.wpcf7 .fusion-one-full>a>img{display:inline-block;margin-right:5px}
-.wpcf7-form select[disabled]{opacity:.4}
-.white .wpcf7 div:nth-child(2)>span>div>select{font-weight:600}
-.wpcf7 form .ajax-loader{background-image:none}
+.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight{padding:1em 1.4em;font-size:1.4em;font-weight:600;height:auto}
+.wpcf7 textarea,#respond textarea{height:85px}
+.wpcf7-form input[disabled],.wpcf7-form select[disabled],.wpcf7-form textarea[disabled]{opacity:.4}
 .wpcf7.sending,.wpcf7 input.sending,.wpcf7 select.sending,.wpcf7 input.sending{cursor:wait}
+.wpcf7-form input[type='submit'].sending,.wpcf7-form input[type='submit'].sending:hover,.wpcf7-form input[type='submit'].sending:focus{color:#999999!important;background:#FFFFFF!important;border-color:#999999!important}
 .wpcf7.sending form>div{opacity:.6}
 .wpcf7.sending:after{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;z-index:10}
-.wpcf7-form input[type='submit'].sending{border-color:#999999!important;color:#999999!important}
-.wpcf7-form input[type='submit'].sending:hover,.wpcf7-form input[type='submit'].sending:focus{background:#FFFFFF!important;color:#999999!important;border-color:#999999!important}
-.wpcf7-form input[type='submit']:focus{background:#FFFFFF!important}
-.wpcf7-select-parent .wpcf7-select.highlight{border-radius:12px}
-.wpcf7 .wpcf7-select-parent .wpcf7-select.highlight{border-radius:6px}
+
+.wpcf7 form .ajax-loader{background-image:none}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:#FFFFFF;font-weight:600;background:#419466;border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:'open-sans',sans-serif;font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:#419466;color:#FFFFFF}
 .mc4wp-checkbox-contact-form-7{cursor:pointer}
 .mc4wp-checkbox-contact-form-7 span{font-size:.9em}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
-.white .wpcf7 input:not([type='submit']):hover,body.error404 .searchform input:hover,.white .wpcf7 select:not(.highlight):hover,.white .wpcf7 textarea:hover,.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:not(.highlight):hover,.fusion-widget-area .wpcf7 textarea:hover,#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:not(.highlight):hover,#sidebar .wpcf7 textarea:hover,.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:not(.highlight):hover,.modal .wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.wpcf7 input:not([type='submit']):hover,.wpcf7 select:not(.highlight):hover,.wpcf7 textarea:hover,#respond input:not([type='submit']):hover,#respond textarea:hover,.fusion-blog-layout-grid-wrapper.empresas .fusion-post-wrapper .fusion-image-wrapper,.post-password-form input[type='password']:hover{background:#FFFFFF!important;border-color:#555555!important}
-.wpcf7 input:not([type='submit']):focus,.wpcf7 select:not(.highlight):focus,.wpcf7 textarea:focus,#respond input:not([type='submit']):focus,#respond textarea:focus,.post-password-form input[type='password']:focus{border-color:#777777!important}
-.fusion-column-wrapper .wpcf7 input:not([type='submit']):not([type='checkbox']):hover,.fusion-column-wrapper .wpcf7 select:not(.highlight):not(:disabled):hover,.fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover,.white .fusion-one-full input:not([type='submit']),.white .fusion-one-full select,.white .fusion-one-full textarea{background:#FFFFFF!important}
-.white .wpcf7 input:not([type='submit']),body.error404 .searchform input,.white .fusion-column-wrapper .wpcf7 select:not(:disabled):hover,.white .fusion-column-wrapper .wpcf7 textarea:not(:disabled):hover{background:#FAFAFA}
+
+.wpcf7-form-control-wrap{position:relative}
+div.wpcf7 .fusion-layout-column>label{margin-top:10px;display:block;text-align:left;font-size:90%}
+div.wpcf7 .fusion-layout-column>label>.wpcf7-form-control-wrap{margin-top:5px}
+div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:'neo-sans',sans-serif;letter-spacing:1px;color:#777777;z-index:10}
+.wpcf7-form-control:not(.wpcf7-acceptance) span.wpcf7-list-item{margin-left:0;padding:5px;width:100%;background:rgba(0,0,0,.2);border:2px solid rgba(0,0,0,.2);border-radius:6px}
+.wpcf7-free-text{float:left;margin-top:10px}
+.wpcf7-free-text:not([disabled]){display:block}
+.wpcf7-not-valid:not(.highlight),.white .fusion-layout-column .wpcf7-not-valid:not(.highlight){background:#FFFFFF}
+.wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:'neo-sans',sans-serif;line-height:1.5;font-weight:400;border-radius:3px;background:rgba(255,255,255,.6);color:#FF5151;font-size:.65em;z-index:1}
+.wpcf7-not-valid-tip:hover{background:rgba(255,255,255,.9)}
+.highlight+.wpcf7-not-valid-tip{background:rgba(255,255,255,.9)}
+.fusion-one-half .wpcf7-not-valid-tip{right:10px}
+.fusion-one-half.fusion-column-last .wpcf7-not-valid-tip{right:11px}
+.wpcf7-validation-errors,.wpcf7-acceptance-missing{color:#FF5151}
+.wpcf7 .fusion-layout-column>span:not(.mc4wp-checkbox),#respond .fusion-layout-column span{display:block;margin-bottom:.25em}
+.wpcf7 .fusion-one-full>a{display:inline-block;padding:4px 0;font-size:.9em;font-weight:400;text-align:center;line-height:1.15}
+.wpcf7-form.init div.wpcf7-response-output{padding:0}
+.wpcf7-form:not(.init) div.wpcf7-response-output{margin:.3em auto 0;padding:.3em .4em;position:relative;text-align:center;background-color:#FF5151;color:#FFFFFF}
+.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:fit-content;border:none;border-radius:6px;box-shadow:none;font-size:.875em;line-height:1.1;font-style:italic;text-align:center;text-transform:none}
+.wpcf7-response-inner{margin:0 auto;padding:5px 4px;width:95%;line-height:1.3}
+input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em}
+.fusion-title+.wpcf7-response-inner{border-bottom-left-radius:0;border-bottom-right-radius:0}
+.wpcf7 form div.wpcf7-response-output.info{margin:0 0 5px;padding:4px;background-color:#F1B500;color:#FFFFFF}
+.wpcf7 form.sent div.wpcf7-response-output,.wpcf7-response-inner.sent{background-color:#419466;color:#FFFFFF}
+.wpcf7-response-inner.warning{background-color:#F1B500;color:#FFFFFF}
+.wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
+.wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600;color:#419466;background:#FFFFFF;border-color:#FFFFFF}
+.wpcf7-response-inner.sent .menu-text.fusion-button{color:#419466}
+.wpcf7-response-inner.warning .menu-text.fusion-button{color:#F1B500}
+#content .wpcf7-response-inner .menu-text.fusion-button:hover{color:#FFFFFF;background:none}
+.wpcf7-spam{background-color:#F1B500;color:#FFFFFF}
 
 /* Comentarios */
 #commentform{float:left;width:100%;clear:both}
