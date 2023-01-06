@@ -1,7 +1,7 @@
 
 /* Red Capricornio */
 :root{--mainColor:#7E1F4B;--subColor:#340018;--whiteColor:#FFFFFF;--successColor:#419466;--warningColor:#F19C00;}
-.fusion-social-links-footer,.fusion-pricing-table .panel-body{display:none!important}
+.fusion-social-links-footer,.fusion-pricing-table .panel-body,.fusion-secondary-header{display:none!important}
 #sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
 
 /* Plantilla CSS */
