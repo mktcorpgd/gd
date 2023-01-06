@@ -95,9 +95,6 @@ jQuery('.address_maps').on('focus', function() {
 // velocomfibra.com.ar
 if ( jQuery('body').hasClass('postid-25656') || jQuery('body').hasClass('page-id-25050') ) {
 	
-	// GENERAL - WhatsApp
-	jQuery('.fusion-secondary-header .fusion-contact-info-phone-number a,.fusion-copyright-notice a[href*="tel:"]').text('WhatsApp').attr('href','https://api.whatsapp.com/send?phone=5491131216219');
-
 	// MAPA DE COBERTURA
 	var map;
 	var geocoder;
