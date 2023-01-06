@@ -1,7 +1,9 @@
 /* Red Capricornio */
-.fusion-single-line-meta a[href*='red-capricornio'],article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after,
-#sidebar,.widget .heading,.fusion-main-menu-search{display:none}
 :root{--mainColor:#B92917;--subColor:#11541D;--whiteColor:#FFFFFF}
+.fusion-single-line-meta a[href*='red-capricornio'],article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:none}
+
+/* Plantilla CSS */
+#sidebar,.widget .heading,.fusion-main-menu-search{display:none}
 body.has-sidebar #content{width:100%}
 html.avada-is-100-percent-template #main.width-100{padding:0}
 ::-moz-selection{background:var(--subColor);color:var(--whiteColor)}
@@ -15,7 +17,7 @@ body a:hover,
 .fusion-title h1,.fusion-title h2,.fusion-title h3,.fusion-title h4,.fusion-title h5,.fusion-title h6{color:var(--subColor)!important}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,
-.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,
+.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 .wpcf7-form input[type='submit']:hover,
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--subColor)}
