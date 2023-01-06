@@ -1,28 +1,31 @@
 /* Red Capricornio */
-.fusion-main-menu>ul>li:last-child{display:none!important}
-::-moz-selection{background:#11541D!important;color:#FFFFFF}::selection{background:#11541D!important;color:#FFFFFF}
+#sidebar,.widget .heading,.fusion-main-menu-search,
+.fusion-single-line-meta a[href*='red-capricornio'],article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:none}
+body.has-sidebar #content{width:100%}
+html.avada-is-100-percent-template #main.width-100{padding:0}
+::-moz-selection{background:#11541D;color:#FFFFFF}
+::selection{background:#11541D;color:#FFFFFF}
+body a,
+.fusion-accordian .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,
+.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:#B92917}
+body a:hover,
+.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
+.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover,
+.fusion-author .fusion-author-title,.fusion-post-content h3,.fusion-title h3,.person-author-wrapper span,.post-content h3,.project-content h3,.sidebar .widget h3,.title h3,h3{color:#11541D}
+.title-color h1,.title-color h2,.title-color h3,.title-color h4,.title-color h5,.title-color h6{color:#11541D!important}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
+.button-default:hover,.fusion-button-default-size:hover,.fusion-button:hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,
+.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,
+#main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
+.wpcf7-form input[type='submit']:hover,
+.fusion-modal.contacto-rapido .fusion-fullwidth{background:#11541D}
+.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button,.fusion-button-default,.fusion-body .fusion-load-more-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
+#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
+.wpcf7-form input[type='submit']{background:#B92917}
+.fusion-reading-box-container .reading-box{border-color:#B92917}
 
-/* Header: transparente */
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:#11541D}
-
-.fusion-footer-widget-area{background:#FFFFFF}
-body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p:first-of-type:first-letter,body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>span+*::first-letter{color:#B92917}
-.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#B92917!important}
-body.single-avada_portfolio .fusion-page-title-bar{background:linear-gradient(90deg,rgba(17,84,29,.8) 0%,rgba(185,41,23,.8) 100%)!important}
-body.single-avada_portfolio .fusion-page-title-bar h1,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs a,body.single-avada_portfolio .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:#FFFFFF!important}
-.fusion-button:not(.button-custom):not(.menu-text),.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-load-more-button.fusion-blog-button,.wpcf7-form input[type='submit']{border-color:#B92917!important;color:#B92917}
-.fusion-button:not(.button-custom):not(.menu-text):hover,.fusion-button:not(.button-custom):not(.menu-text):focus,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,.fusion-load-more-button.fusion-blog-button:hover,.wpcf7-form input[type='submit']:hover,.fusion-content-boxes .heading .heading-link:hover .content-box-heading{border-color:#B92917;background:#B92917;color:#FFFFFF}
-.fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text{background:none;color:#B92917}
-#content .button-default:hover,.wpcf7 .wpcf7-form input[type='submit']:not(.sending):hover,.fusion-blog-layout-grid .fusion-post-wrapper .fusion-image-wrapper img,.fusion-carousel .fusion-carousel-item img{background-color:#B92917!important}
-.brand-bkg:before{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background-image:linear-gradient(90deg,rgba(17,84,29,1) 0%,rgba(185,41,23,1) 100%)}
-body:not(.home) .fusion-posts-container article.category-c-productos-servicios .fusion-post-content{padding-bottom:53px!important}
-.w80 .wpcf7 .wpcf7-submit:hover{background:#B92917!important;border-color:#FFFFFF!important}
-.fusion-one-fourth h5,.wpcf7 .fusion-one-full>p i,.wpcf7 .fusion-one-full>p a{color:#B92917}
-.fusion-one-third h2,.fusion-one-half h2,.fusion-one-fourth h2,.fusion-mobile-menu-icons a:before,.wpcf7 .fusion-one-full>p:hover i,.wpcf7 .fusion-one-full>p a:hover,.fusion-content-boxes .heading .heading-link:hover .content-box-heading{color:#B92917}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input:not([type='submit']),.fusion-main-menu .fusion-main-menu-search-open{background:#B92917!important}
-.post-content p strong a:hover,.post-content p>a:hover,.post-content p>a:active,.post-content ol li a:hover,.post-content ol li a:active,.post-content ul li a:hover,.post-content ul li a:active,.wpcf7 .fusion-one-full a:hover,.wpcf7 .fusion-one-full a:active,.toggle-content a:hover,.fusion-accordian .panel-title a:hover,.toggle-content a:hover{color:#11541D}
-#main #comment-submit,.wpcf7 .fusion-one-full>a{color:#B92917}
-#main #comment-submit:hover{background-color:#B92917}
-.fusion-single-line-meta span.meta-tags{color:transparent!important}
-span.meta-tags>a[rel='tag']{pointer-events:none}
-.fusion-modal.contacto-rapido .fusion-fullwidth{background:#B92917!important}
+/* Desktop */
+@media (min-width:920px) {
+    .modal-lg{width:600px}
+}

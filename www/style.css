@@ -565,14 +565,13 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 .fusion-page-title-bar .fusion-page-title-row h1{font-size:2.4em}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 
+/* Metas */
 .fusion-single-line-meta{display:inline-block;width:100%}
-.fusion-meta-info-wrapper,.fusion-single-line-meta,.meta-tags{color:#999999!important}
+.fusion-meta-info-wrapper,.fusion-single-line-meta,.meta-tags{color:transparent}
 .fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a,.fusion-single-line-meta span:not(.meta-tags),.fusion-single-line-meta a{font-size:.7rem!important}
 .meta-tags a{cursor:text}
-.fusion-meta-info-wrapper .fusion-inline-sep{color:#555555}
+.fusion-meta-info-wrapper .fusion-inline-sep{color:#CCCCCC}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{margin-top:10px}
-
-/* Metas */
 .fusion-single-line-meta,.fusion-portfolio-meta{float:left;padding:0 1rem .4rem;line-height:1}
 .fusion-single-line-meta>span:not(.meta-tags),.fusion-single-line-meta a,.fusion-portfolio-meta a,.fusion-carousel-meta span,.fusion-meta-info-wrapper span:not(.meta-tags),.fusion-meta-info-wrapper a{border-bottom:0!important;color:#555555!important;font-size:1em;text-decoration:none}
 .fusion-single-line-meta a:not([rel='author']):hover,.fusion-portfolio-meta a:hover{text-decoration:underline}
@@ -580,6 +579,7 @@ body.page-id-21044 ul.fusion-checklist .fusion-li-item{padding:0}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{text-decoration:none;color:#555555}
 .post .fusion-meta-info a:not[rel='author']:hover,.fusion-breadcrumbs span a:hover span{text-decoration:underline!important}
 body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;border-top-right-radius:12px}
+
 .fusion-builder-placeholder{background:rgba(0,0,0,.2)!important;border-radius:6px;color:#555555!important}
 .fusion-fullwidth.msg-inv p{color:#FFFFFF;font-size:20px;font-style:italic;margin-bottom:0;text-align:center}
 .fusion-fullwidth.msg-inv p a{color:#FAFAFA}
