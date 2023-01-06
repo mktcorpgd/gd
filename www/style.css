@@ -432,7 +432,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button,.fusion-button-default,.fusion-body .fusion-load-more-button,
-.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-blog-shortcode .fusion-load-more-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-blog-shortcode .fusion-load-more-button,.fusion-button-text,.button-default .fusion-button-text,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit']{margin:0 auto;padding:.5rem .9rem;width:auto;height:auto;color:#FFFFFF;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
 .wpcf7-form input[type='submit']{width:auto}
