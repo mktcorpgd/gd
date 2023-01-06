@@ -60,11 +60,6 @@ document.addEventListener('wpcf7mailsent', function(e) {
 		event_action = 'Recurso (BR)';
 	}
 
-	// SMARTIME
-	else if ( e.detail.contactFormId == 23299 ) {
-		event_action = 'Contacto';
-	}
-
 	// VELOCOM
 	else if ( e.detail.contactFormId == 23530 ) {
 		event_action = 'Contacto';
