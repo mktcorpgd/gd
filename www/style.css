@@ -269,24 +269,18 @@ div.wpcf7:before{display:block;margin-top:-.6em;width:100%;margin-bottom:5px;fon
 div.wpcf7>form p{margin-top:0;margin-right:1em}
 .modal div.wpcf7{max-width:100%}
 .fusion-one-full div.wpcf7{max-width:500px}
-.fusion-widget-area .wpcf7 input:not([type='submit']),.fusion-widget-area .wpcf7 select,.fusion-widget-area .wpcf7 textarea,.widget select,
-#sidebar .wpcf7 input:not([type='submit']),#sidebar .wpcf7 select,#sidebar .wpcf7 textarea,
-.modal .wpcf7 input:not([type='submit']),.modal .wpcf7 select,.modal .wpcf7 textarea,
+.wpcf7 input:not([type='submit']),.wpcf7 .wpcf7-select-parent .wpcf7-select,.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:#333333;border:1px solid #CCCCCC;border-radius:6px;background:#FAFAFA;font-size:.9em;font-weight:400;z-index:1}
-.fusion-widget-area .wpcf7 input:not([type='submit']):hover,.fusion-widget-area .wpcf7 select:hover,.fusion-widget-area .wpcf7 textarea:hover,.widget select:hover,
-#sidebar .wpcf7 input:not([type='submit']):hover,#sidebar .wpcf7 select:hover,#sidebar .wpcf7 textarea:hover,
-.modal .wpcf7 input:not([type='submit']):hover,.modal .wpcf7 select:hover,.modal .wpcf7 textarea:hover,
+.wpcf7 input:not([type='submit']):hover,.wpcf7 .wpcf7-select-parent .wpcf7-select:hover,.wpcf7 textarea:hover,
 #respond input:not([type='submit']):hover,#respond textarea:hover,.post-password-form input[type='password']:hover{background:#FFFFFF;border-color:#999999}
-.fusion-widget-area .wpcf7 input:not([type='submit']):focus,.fusion-widget-area .wpcf7 select:focus,.fusion-widget-area .wpcf7 textarea:focus,.widget select:focus,
-#sidebar .wpcf7 input:not([type='submit']):focus,#sidebar .wpcf7 select:focus,#sidebar .wpcf7 textarea:focus,
-.modal .wpcf7 input:not([type='submit']):focus,.modal .wpcf7 select:focus,.modal .wpcf7 textarea:focus,
+.wpcf7 input:not([type='submit']):focus,.wpcf7 .wpcf7-select-parent .wpcf7-select:focus,.wpcf7 textarea:focus,
 #respond input:not([type='submit']):focus,#respond textarea:focus,.post-password-form input[type='password']:focus{background:#FFFFFF;border-color:#777777}
 .wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,#respond .fusion-one-half:not(.fusion-column-last) input{border-top-right-radius:0;border-bottom-right-radius:0;border-right-width:1px}
 .wpcf7 .fusion-one-half.fusion-column-last input,.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-top-left-radius:0;border-bottom-left-radius:0;border-left-width:1px}
 div.wpcf7 input[type='file']{cursor:pointer}
 div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:default}
 .wpcf7-select-parent .wpcf7-select{appearance:auto}
-.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight{padding:1em 1.4em;font-size:1.4em;font-weight:600;height:auto}
+.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight{padding:.2em .4em;font-size:1.1em;font-weight:600;height:auto}
 .wpcf7 textarea,#respond textarea{height:85px}
 .wpcf7-form input[disabled],.wpcf7-form select[disabled],.wpcf7-form textarea[disabled]{opacity:.4}
 .wpcf7.sending,.wpcf7 input.sending,.wpcf7 select.sending,.wpcf7 input.sending{cursor:wait}
