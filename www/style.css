@@ -186,7 +186,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .tfs-slider .slide-content-container .heading{margin:0}
 .tfs-slider .slide-content-container .buttons{margin-top:1.5em}
 .tfs-slider .slide-content-container .caption{margin-bottom:.8em}
-.tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.4)}
+.tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.6)}
 .hero-img+.fusion-fullwidth{padding-top:4em}
 .hero-img .fusion-title-size-one{margin-bottom:.5em;font-size:3em}
 .hero-img .fusion-title-size-four{font-size:1.4em}
