@@ -25,7 +25,7 @@ body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .no-title .widget-title,
 body.single article.post.format-link .fusion-post-slideshow,body.single .fusion-post-title-meta-wrap,
 body.search #sidebar,
-body.single-format-link #sidebar,
+body.single-format-link #sidebar,body.single-format-link .post-content .heading,
 body.single-format-video article .fusion-flexslider,
 body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer,
 .fusion-footer-widget-area .widget_nav_menu li a:before,
@@ -465,7 +465,7 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 
 /* Recursos */
 body.single-format-link #content{width:100%}
-body.single-format-link .avada-page-titlebar-wrapper{background-color:rgba(0,0,0,.4);background-blend-mode:multiply}
+body.single-format-link .avada-page-titlebar-wrapper{background-color:rgba(0,0,0,.8);background-blend-mode:multiply}
 body.single-format-link .fusion-page-title-wrapper,body.single-format-link .fusion-page-title-row h1{display:block}
 body.single-format-link .fusion-page-title-row h1{color:#FFFFFF}
 body.single-format-link .fusion-page-title-row h1,body.single-format-link .widget_text{text-align:center}
