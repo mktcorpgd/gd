@@ -318,7 +318,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7 .fusion-one-full>a{display:inline-block;padding:4px 0;font-size:.9em;font-weight:400;text-align:center;line-height:1.15}
 .wpcf7 .fusion-one-full .wpcf7-response-output+em{float:left;display:block;width:100%;margin:.5em 0 1em;font-size:.8em;line-height:1.2;text-align:center}
 .wpcf7-form.init div.wpcf7-response-output{padding:0}
-.wpcf7-form:not(.init) div.wpcf7-response-output{margin:.3em auto 0;padding:.3em .4em;position:relative;text-align:center;background-color:#FF5151;color:#FFFFFF}
+.wpcf7-form:not(.init) div.wpcf7-response-output{margin:.3em auto 0;padding:.3em .4em;position:relative;text-align:center;border:none;background-color:#FF5151;color:#FFFFFF}
 .wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7-response-inner{width:fit-content;border:none;border-radius:6px;box-shadow:none;font-size:.875em;line-height:1.1;font-style:italic;text-align:center;text-transform:none}
 .wpcf7-response-inner{margin:0 auto;padding:5px 4px;width:95%;line-height:1.3}
 input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em}
