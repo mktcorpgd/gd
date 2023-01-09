@@ -1,7 +1,4 @@
 /* Velocom */
-.map,.tfs-slider h2 span,.caption h3 span,div.TYPE2,.modal.loading .modal-header,.fusion-portfolio-meta,.step2,.fusion-title.fusion-sep-none.step2,
-#sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
-.fusion-social-links-footer,.fusion-pricing-table .panel-body,.fusion-secondary-header{display:none!important}
 :root{--mainColor:#AE1857;--highlightColor:#E94180;--whiteColor:#FFFFFF;--successColor:#419466;--warningColor:#F19C00;}
 
 /* Plantilla CSS */
@@ -24,6 +21,10 @@
 .fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}
 
 /* Custom */
+.map,.tfs-slider h2 span,.caption h3 span,div.TYPE2,.modal.loading .modal-header,.fusion-portfolio-meta,.step2,.fusion-title.fusion-sep-none.step2,
+#sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
+.fusion-social-links-footer,.fusion-pricing-table .panel-body,.fusion-secondary-header{display:none!important}
+
 .fusion-pricing-table .panel-body{padding:0!important}
 .fusion-pricing-table .panel-heading{padding:10px 5px 8px!important}
 .fusion-pricing-table .panel-heading h3{font-size:1.6em}
