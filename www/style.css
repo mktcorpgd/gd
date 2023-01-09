@@ -672,7 +672,7 @@ body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;
 .mejs-container *{font-family:'open-sans',sans-serif}
 .mejs-time{padding:14px 6px 0;font-size:13px}
 .fusion-video.no-radius{border-radius:0}
-.rounded,.map{-webkit-appearance:none!important;border-radius:12px;overflow:hidden}
+.rounded,.map{appearance:none!important;border-radius:12px;overflow:hidden}
 .post-content p .fusion-imageframe{border-radius:6px}
 .radius1x,.fusion-separator~.fusion-google-map{border-radius:12px;overflow:hidden}
 .radius2x{border-radius:24px;overflow:hidden}
