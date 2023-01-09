@@ -1,25 +1,21 @@
-/* Branding: Sersat */
-::-moz-selection{background:#43C297!important;color:#FFFFFF}::selection{background:#43C297!important;color:#FFFFFF}
+/* Sersat */
+:root{--mainColor:#109B84;--highlightColor:#43C297;--whiteColor:#FFFFFF;}
 
-/* Header: transparente */
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:#43C297}
-
-#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text),#wrapper.sersat .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.sersat input[type='submit']:not(.sending),#wrapper.sersat .wpcf7-form input[type='submit']:not(.sending),#wrapper.sersat #main #comment-submit,#boxed-wrapper.sersat~.modal input[type='submit']:not(.sending),#boxed-wrapper.sersat~.modal .wpcf7-form input[type='submit']:not(.sending){background:#43C297!important;color:#FFFFFF}
-#wrapper.sersat #content .button-default:hover,#wrapper.sersat input[type='submit']:not(.sending):hover,#boxed-wrapper.sersat~.modal input[type='submit']:not(.sending):hover{background:#FFFFFF!important;color:#43C297!important}
-#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text):hover,#wrapper.sersat .fusion-main-menu .fusion-menu-item-button .menu-text:hover span,#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left,#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left,.fusion-button:not(.whitetxt):hover,.fusion-button:not(.whitetxt):hover .fusion-button-text{color:#43C297!important}
-#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#FFFFFF}
-#wrapper.sersat ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6,#boxed-wrapper.sersat~.modal .modal-title,#wrapper.sersat #agenda h2,#wrapper.sersat .fusion-checklist .fusion-li-icon{color:#109B84!important}
-#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text):hover,#wrapper.sersat .fusion-button:not(.button-custom):not(.menu-text):focus,#wrapper.sersat .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover{background:#FFFFFF!important;color:#43C297!important}
-#wrapper.sersat .post-content .fusion-text a,#wrapper.sersat .wpcf7 .fusion-one-full a,#wrapper.sersat .fusion-accordian .panel-title a,#wrapper.sersat .toggle-content a,#wrapper.sersat .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,#boxed-wrapper.sersat~.modal .wpcf7 .fusion-one-full>a{color:#109B84}
-#wrapper.sersat .post-content .fusion-text a:hover,#wrapper.sersat .post-content .fusion-text a:active,#wrapper.sersat .wpcf7 .fusion-one-full a:hover,#wrapper.sersat .wpcf7 .fusion-one-full a:active,#wrapper.sersat .fusion-accordian .panel-title a:hover,#wrapper.sersat .toggle-content a:hover,#boxed-wrapper.sersat~.modal .wpcf7 .fusion-one-full>a:hover{color:#43C297!important}
-.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a{color:#43C297!important}
-#wrapper.sersat .box-buttons .fusion-portfolio-content .fusion-button,#wrapper.sersat .box-buttons .fusion-post-content .fusion-button{color:#43C297!important}
-#wrapper.sersat #content .box-buttons .fusion-portfolio-content .fusion-button:hover,#wrapper.sersat #content .box-buttons .fusion-post-content .fusion-button:hover{background:#FFFFFF!important}
-.fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading,.fusion-portfolio-content-wrapper:hover .more-info{color:#12B59A!important}
-.fusion-fullwidth.fullwidth-box.gradient-st:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-st:after{background:linear-gradient(270deg,rgba(16,155,132,0) 50%,rgba(16,155,132,1) 100%)!important}
-.fusion-modal.contacto-rapido .fusion-fullwidth{background:#109B84!important}
-
-/* Mobile */
-@media (max-width:920px) {
-    .fusion-fullwidth.fullwidth-box.gradient-st:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-st:after{background:linear-gradient(0deg,rgba(16,155,132,0) 50%,rgba(16,155,132,1) 100%)!important}
-}
+/* Plantilla CSS */
+::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
+::selection{background:var(--mainColor);color:var(--whiteColor)}
+.fusion-accordian .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,
+.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--highlightColor)}
+.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
+.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover{color:var(--mainColor)!important}
+.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
+#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
+.wpcf7-form input[type='submit']{background:var(--highlightColor)}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
+.button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,
+.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
+#main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
+.wpcf7-form input[type='submit']:hover,
+.fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
+.fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}

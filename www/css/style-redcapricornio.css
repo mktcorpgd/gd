@@ -1,6 +1,5 @@
 /* Red Capricornio */
 :root{--mainColor:#B92917;--subColor:#11541D;--whiteColor:#FFFFFF}
-.fusion-single-line-meta a[href*='red-capricornio'],article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:none}
 
 /* Plantilla CSS */
 #sidebar,.widget .heading,.fusion-main-menu-search{display:none}
@@ -25,3 +24,6 @@ html.avada-is-100-percent-template #main.width-100{padding:0}
 .wpcf7-form input[type='submit']:hover,
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
 .fusion-reading-box-container .reading-box{border-color:var(--subColor)}
+
+/* Custom */
+.fusion-single-line-meta a[href*='red-capricornio'],article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:none}

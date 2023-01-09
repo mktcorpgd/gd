@@ -32,6 +32,25 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales span,body.no-partners .fusion-footer .partners,.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
+/* Plantilla CSS */
+::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
+::selection{background:var(--mainColor);color:var(--whiteColor)}
+.fusion-accordian .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,
+.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--highlightColor)}
+.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
+.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover{color:var(--mainColor)!important}
+.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
+#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
+.wpcf7-form input[type='submit']{background:var(--highlightColor)}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
+.button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,
+.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
+#main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
+.wpcf7-form input[type='submit']:hover,
+.fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
+.fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}
+
 /* General */
 body{font-family:'open-sans',sans-serif;font-size:16px;line-height:1.6}
 #reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:#333333}
@@ -54,7 +73,7 @@ img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-']{width:22px;height:22px;position:relative;top:2px}
 .white .widget .widget-title,.white h2,.white h3,.white h4,.white h5,.white p,.white .fusion-text,.white .fusion-text a,.white .icon i,
 .white .content-box-heading,.white .content-container,.white .heading,.white .fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .icon .circle-no,.white.fusion-content-boxes .content-container h5,.fusion-content-boxes.white .content-container a,
-#main .white .panel-heading .panel-title a span,#main .white .panel-heading .panel-title a span i,#main .white .panel-heading .panel-title a:hover span,#main .white .panel-heading .panel-title a:hover span i,.white .toggle-content a,
+.white .panel-heading .panel-title a span,.white .panel-heading .panel-title a span i,.white .panel-heading .panel-title a:hover span,.white .panel-heading .panel-title a:hover span i,.white .toggle-content a,
 .white blockquote,.white .fusion-layout-column,.white .mc4wp-checkbox-contact-form-7~em,.white .mc4wp-checkbox-contact-form-7~em a,.white div.wpcf7:before,
 .fusion-mobile-menu-icons a,.fusion-mobile-menu-icons a:after,.fusion-mobile-menu-icons a:before,
 html .fusion-open-submenu,

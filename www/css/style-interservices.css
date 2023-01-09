@@ -1,24 +1,21 @@
-/* Branding: Interservices */
-::-moz-selection{background:#F44E02!important;color:#FFFFFF}::selection{background:#F44E02!important;color:#FFFFFF}
+/* Interservices */
+:root{--mainColor:#BF250D;--highlightColor:#F44E02;--whiteColor:#FFFFFF;}
 
-/* Header: transparente */
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:#BF250D}
-
-#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text),#wrapper.interservices .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,#wrapper.interservices input[type='submit']:not(.sending),#wrapper.interservices .wpcf7-form input[type='submit']:not(.sending),#wrapper.interservices #main #comment-submit,#boxed-wrapper.interservices~.modal input[type='submit']:not(.sending),#boxed-wrapper.interservices~.modal .wpcf7-form input[type='submit']:not(.sending){border-color:#F44E02;background:#F44E02!important;color:#FFFFFF}
-#wrapper.interservices #content .button-default:hover,#wrapper.interservices input[type='submit']:not(.sending):hover,#boxed-wrapper.interservices~.modal input[type='submit']:not(.sending):hover,#wrapper.interservices #content .button-default:focus,#wrapper.interservices input[type='submit']:not(.sending):focus,#boxed-wrapper.interservices~.modal input[type='submit']:not(.sending):focus{background:#FFFFFF!important;color:#F44E02!important}
-#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text,#wrapper.interservices .fusion-main-menu .fusion-menu-item-button .menu-text:hover span,#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text) .fusion-button-text i.button-icon-left,#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text) i.button-icon-left{color:#FFFFFF}
-#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text):hover i.button-icon-left{color:#F44E02}
-#wrapper.interservices ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6,#boxed-wrapper.interservices~.modal .modal-title,#wrapper.interservices #agenda h2,#wrapper.interservices .fusion-checklist .fusion-li-icon{color:#BF250D!important}
-#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text):hover,#wrapper.interservices .fusion-button:not(.button-custom):not(.menu-text):focus,#wrapper.interservices .fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover{background-color:#F44E02!important}
-#wrapper.interservices .post-content .fusion-text a,#wrapper.interservices .wpcf7 .fusion-one-full a,#wrapper.interservices .fusion-accordian .panel-title a,#wrapper.interservices .toggle-content a,#wrapper.interservices .fusion-portfolio-grid .fusion-portfolio-content-wrapper h2 a,#boxed-wrapper.interservices~.modal .wpcf7 .fusion-one-full>a{color:#BF250D}
-#wrapper.interservices .post-content .fusion-text a:hover,#wrapper.interservices .post-content .fusion-text a:active,#wrapper.interservices .wpcf7 .fusion-one-full a:hover,#wrapper.interservices .wpcf7 .fusion-one-full a:active,#wrapper.interservices .fusion-accordian .panel-title a:hover,#wrapper.interservices .toggle-content a:hover,#boxed-wrapper.interservices~.modal .wpcf7 .fusion-one-full>a:hover,.fusion-button:not(.whitetxt):hover .fusion-button-text,.fusion-post-wrapper:hover h2 a,.fusion-portfolio-content-wrapper:hover h2 a,#wrapper.interservices .box-buttons .fusion-portfolio-content .fusion-button,#wrapper.interservices .box-buttons .fusion-post-content .fusion-button,.fusion-portfolio-content-wrapper:hover .more-info{color:#F44E02!important}
-.fusion-tabs .nav-tabs li.active a,.fusion-filters .fusion-filter.fusion-active a,.fusion-filters .fusion-filter a:hover,.fusion-tabs .nav-tabs li.active a .fusion-tab-heading,.fusion-tabs .nav-tabs li a:hover .fusion-tab-heading{color:#E02C10!important}
-.fusion-fullwidth.fullwidth-box.gradient-i:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-i:after{background:linear-gradient(270deg,rgba(191,37,13,0) 50%,rgba(191,37,13,1) 100%)!important}
-.fusion-modal.contacto-rapido .fusion-fullwidth{background:#BF250D!important}
-#accordion-26161-1 .panel-title a{display:block;font-size:1.6em!important}
-#accordion-26161-1 .panel-title a .fusion-toggle-heading{font-weight:500!important}
-
-/* Mobile */
-@media (max-width:920px) {
-    .fusion-fullwidth.fullwidth-box.gradient-i:after,.fusion-fullwidth.fullwidth-box.video-background.gradient-i:after{background:linear-gradient(0deg,rgba(191,37,13,0) 50%,rgba(191,37,13,1) 100%)!important}
-}
+/* Plantilla CSS */
+::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
+::selection{background:var(--mainColor);color:var(--whiteColor)}
+.fusion-accordian .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,
+.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--highlightColor)}
+.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
+.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover{color:var(--mainColor)!important}
+.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
+#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
+.wpcf7-form input[type='submit']{background:var(--highlightColor)}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
+.button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,
+.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
+#main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
+.wpcf7-form input[type='submit']:hover,
+.fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
+.fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}

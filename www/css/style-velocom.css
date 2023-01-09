@@ -2,38 +2,14 @@
 .map,.tfs-slider h2 span,.caption h3 span,div.TYPE2,.modal.loading .modal-header,.fusion-portfolio-meta,.step2,.fusion-title.fusion-sep-none.step2,
 #sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
 .fusion-social-links-footer,.fusion-pricing-table .panel-body,.fusion-secondary-header{display:none!important}
-:root{--mainColor:#AE1857;--subColor:#E94180;--whiteColor:#FFFFFF;--successColor:#419466;--warningColor:#F19C00;}
+:root{--mainColor:#AE1857;--highlightColor:#E94180;--whiteColor:#FFFFFF;--successColor:#419466;--warningColor:#F19C00;}
 
-/* Plantilla CSS */
-#sidebar,.widget .heading,.fusion-main-menu-search{display:none}
-body.has-sidebar #content{width:100%}
-html.avada-is-100-percent-template #main.width-100{padding:0}
-::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
-::selection{background:var(--mainColor);color:var(--whiteColor)}
-#main a,
-.fusion-accordian .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,
-.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--subColor)}
-#main a:hover,
-.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
-.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover{color:var(--mainColor)!important}
-.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,
-.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
-#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit']{background:var(--subColor)}
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
-.button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,
-.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
-#main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
-.wpcf7-form input[type='submit']:hover,
-.fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
-.fusion-reading-box-container .reading-box{border-color:var(--subColor)}
-
-/* Precios */
+/* Custom */
 .fusion-pricing-table .panel-body{padding:0!important}
 .fusion-pricing-table .panel-heading{padding:10px 5px 8px!important}
 .fusion-pricing-table .panel-heading h3{font-size:1.6em}
 .fusion-pricing-table .list-group .list-group-item{font-size:.8em}
-.fusion-pricing-table .list-group .list-group-item{background:var(--subColor)!important;color:#FFFFFF}
+.fusion-pricing-table .list-group .list-group-item{background:var(--highlightColor)!important;color:#FFFFFF}
 .sep-boxed-pricing .panel-container,.fusion-pricing-table .fusion-panel{background:none!important}
 .fusion-accordian .panel-title{font-size:.75em}
 .fusion-reading-box-container .reading-box{border:none!important}
