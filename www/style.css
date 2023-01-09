@@ -242,8 +242,6 @@ body.error404 .fusion-page-title-wrapper{justify-content:center}
 .fusion-page-title-bar .fusion-breadcrumbs,.fusion-page-title-bar .fusion-breadcrumbs a,.fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:#999999}
 
 body.single article>.flexslider{border-radius:24px;overflow:hidden}
-body.single-avada_portfolio article>.flexslider{margin-top:-24px;border-top-left-radius:0;border-top-right-radius:0;}
-
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
 body.single blockquote h2,body.single blockquote h3,body.single blockquote h4,body.single blockquote h5,body.single blockquote h6{margin-top:0!important}
 body.single-format-standard:not(.single-avada_portfolio) #main .post .post-content .fusion-text:first-of-type>h2:first-of-type{margin-top:0;font-size:1.8em!important;font-weight:400!important}
@@ -680,7 +678,8 @@ body.single article.category-blog .fusion-meta-info{border-top-left-radius:12px;
 .radius1x,.fusion-separator~.fusion-google-map{border-radius:12px;overflow:hidden}
 .radius2x{border-radius:24px;overflow:hidden}
 .radius2xbottom{border-bottom-right-radius:24px;border-bottom-left-radius:24px}
-body.page.page-template-100-width .post-content>.fusion-fullwidth.radius2x{border-radius:0}
+
+body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .radius-rounded{border-radius:256px!important}
 span.no-radius,img.no-radius{border:none!important;border-radius:0!important}
