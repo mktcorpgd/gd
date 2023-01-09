@@ -20,8 +20,12 @@
 .fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
 .fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}
 
+/* Custom */
+.fusion-portfolio.destacados .fusion-portfolio-content-wrapper{display:grid;grid-template-columns:20% 80%}
+.fusion-portfolio.destacados .fusion-image-wrapper{background:#EAEAEA;border-bottom:none;border-radius:0}
+.fusion-portfolio.destacados .fusion-image-wrapper img{padding:.8em}
+
 /* Mobile */
 @media (max-width:920px) {
-	#nav_menu-5,#nav_menu-11,#nav_menu-6,#nav_menu-7{width:100%}
 	.fusion-portfolio.destacados .fusion-portfolio-content-wrapper{grid-template-columns:100%}
 }
