@@ -501,7 +501,7 @@ table th{font-size:1.1em}
 .fusion-portfolio-grid .fusion-portfolio-content{margin-top:.2em;position:relative}
 .fusion-portfolio .fusion-post-content{float:left;padding-bottom:0}
 .fusion-portfolio-meta span{display:inline-block;color:#999999!important}
-.fusion-portfolio-content .fusion-portfolio-meta{margin:-9px 0 0;padding:0 1rem;position:absolute;top:0;font-size:0;color:transparent;z-index:10}
+.fusion-portfolio-content .fusion-portfolio-meta{margin:-12px 0 0;padding:0 1rem;position:absolute;top:0;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
 .fusion-portfolio-content .fusion-portfolio-meta a{float:left;margin-right:.7em;font-size:.7rem}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-']{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 1px rgba(0,0,0,.2);border-radius:32px;overflow:hidden}
@@ -697,7 +697,6 @@ span.no-radius,img.no-radius{border:none!important;border-radius:0!important}
 	.fusion-filters .fusion-filter{display:table-cell;float:none;width:1%}
 	.fusion-filters .fusion-filter a{line-height:1.15}
 	.fusion-tabs li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em}
-	.fusion-tabs.horizontal-tabs .tab-content{margin-top:0;padding:2em}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
 
 	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
