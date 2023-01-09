@@ -45,8 +45,8 @@ iframe,.modal .fullwidth-modal{width:100%}
 .gotolink a{display:block;margin:10px 0 15px;line-height:1.25;text-decoration:underline}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
 .uppercase{text-transform:uppercase}
-.zindex1{z-index:1}
-.zindex99{z-index:99;overflow:visible;}
+.zindex1{z-index:1!important}
+.zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:#FFFFFF}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column{padding:0!important}
