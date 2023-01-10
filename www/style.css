@@ -631,7 +631,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:#FFFFFF}
 .fusion-footer-widget-area ul{margin:1em 0;padding-left:0;list-style:none}
 .fusion-widget-area .widget .recentcomments,.fusion-widget-area .widget_archive li,.fusion-widget-area .widget_categories li,.fusion-widget-area .widget_layered_nav li,.fusion-widget-area .widget_links li,.fusion-widget-area .widget_meta li,.fusion-widget-area .widget_nav_menu li,.fusion-widget-area .widget_pages li,.fusion-widget-area .widget_product_categories li,.fusion-widget-area .widget_recent_entries li,.fusion-widget-area .widget_rss li{padding:.25em 0;line-height:1.4;border:none}
-.fusion-footer-widget-area ul li a{font-size:.8rem;line-height:1.3}
+.fusion-footer-widget-area ul li a{font-size:.8rem;line-height:1.3;cursor:pointer}
 .fusion-footer-widget-area ul li a:hover{text-decoration:underline}
 .fusion-footer-widget-area ul li a>span{display:block;margin-top:0;font-size:.7rem;line-height:1.3;color:rgba(255,255,255,.7)}
 .fusion-footer-widget-area ul li.logo-footer{margin-top:.5em}
