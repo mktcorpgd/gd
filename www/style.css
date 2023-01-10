@@ -170,7 +170,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 /* Menú - CTA */
 .fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)}
-.fusion-main-menu .fusion-button{font-weight:400;font-size:1em}
+.fusion-main-menu .menu-text.fusion-button{font-weight:400;font-size:1em}
 
 /* Menú - Buscador */
 .fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important;font-weight:900}
