@@ -10,7 +10,7 @@
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit']{background:var(--highlightColor)}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
-.fusion-modal.contacto-rapido .fusion-fullwidth,.fusion-modal.contacto-rapido .modal-dialog,
+.fusion-modal.contacto-rapido .fusion-fullwidth,.fusion-modal.contacto-rapido .modal-content,
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
