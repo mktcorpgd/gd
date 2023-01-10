@@ -5,26 +5,3 @@
 .map,.tfs-slider h2 span,.caption h3 span,div.TYPE2,.modal.loading .modal-header,.fusion-portfolio-meta,.step2,.fusion-title.fusion-sep-none.step2,
 #sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
 .fusion-social-links-footer,.fusion-pricing-table .panel-body,.fusion-secondary-header{display:none!important}
-
-/*
-.fusion-pricing-table .panel-body{padding:0!important}
-.fusion-pricing-table .panel-heading{padding:10px 5px 8px!important}
-.fusion-pricing-table .panel-heading h3{font-size:1.6em}
-.fusion-pricing-table .list-group .list-group-item{font-size:.8em}
-.fusion-pricing-table .list-group .list-group-item{background:var(--highlightColor)!important;color:#FFFFFF}
-.sep-boxed-pricing .panel-container,.fusion-pricing-table .fusion-panel{background:none!important}
-
-.fusion-reading-box-container .reading-box{border:none!important}
-.fusion-reading-box-container .reading-box h2{font-size:2em!important;margin-bottom:20px}
-.fusion-reading-box-container .reading-box .reading-box-additional{padding:0!important;background:none;color:#FFFFFF;}
-*/
-
-#mapvf-cobertura{height:400px;border-radius:12px}
-#mapvf-cobertura.warning{border:2px solid var(--warningColor)}
-#mapvf-cobertura.sent{border:2px solid var(--successColor)}
-#pac{margin:10px 5%;padding:8px 11px;width:90%;font-family:'Open-Sans',sans-serif;font-size:1.4em;border-radius:6px;background-color:#FFFFFF;box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
-
-.controls.pac-target-input.warning,.controls.pac-target-input.sent{font-weight:bold}
-.controls.pac-target-input.warning{border-color:var(--warningColor)!important;background:var(--warningColor)!important;color:#FFFFFF!important}
-.controls.pac-target-input.sent,.wpcf7 input:not([type='submit']).highlight.sent{border-color:var(--successColor)!important;background:var(--successColor)!important;color:#FFFFFF!important}
-.controls.pac-target-input.sent::placeholder,.controls.pac-target-input.warning::placeholder{color:#FFFFFF}
