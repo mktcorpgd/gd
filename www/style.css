@@ -183,7 +183,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .modal .modal-dialog{margin:60px auto 0;border-radius:12px;opacity:0;visibility:hidden}
 .modal.in .modal-dialog{box-shadow:0 5px 25px rgba(0,0,0,.4);opacity:1;visibility:visible}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
-.modal-content{padding:1.4em 1em;box-shadow:none;border-radius:12px}
+.modal-content{padding:1.4em 1em;box-shadow:none}
 .modal .modal-body{padding:0}
 .modal .modal-body>h4{margin-top:0;margin-bottom:10px}
 .modal .modal-body a:not(.fusion-button):hover{text-decoration:underline}
@@ -339,8 +339,9 @@ div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:de
 .wpcf7 form .ajax-loader{background-image:none}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:#FFFFFF;font-weight:600;background:#419466;border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:'open-sans',sans-serif;font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:#419466;color:#FFFFFF}
-.mc4wp-checkbox-contact-form-7{cursor:pointer}
-.mc4wp-checkbox-contact-form-7 span{font-size:.9em}
+.mc4wp-checkbox-contact-form-7{display:block;text-align:center}
+.mc4wp-checkbox-contact-form-7 label{cursor:pointer}
+.mc4wp-checkbox-contact-form-7 input{display:inline-block;margin:0 .5em 0 0;position:relative;bottom:1px}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
 
 .wpcf7-form-control-wrap{position:relative}
@@ -511,7 +512,7 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 .fusion-content-boxes .content-container img.aligncenter{margin-bottom:20px}
 .fusion-content-boxes.shadow .col .heading,.fusion-content-boxes.shadow .col a{display:block}
 .fusion-content-boxes.shadow .col .heading{margin-bottom:0}
-.fusion-content-boxes.shadow .col .heading a{padding:1em .8em}
+.fusion-content-boxes.shadow .col .heading a{width:100%;padding:1em .8em}
 .fusion-content-boxes.shadow .col .fontawesome-icon{min-width:50px;margin-right:.2em;text-align:center}
 
 /* Visor PDF */
