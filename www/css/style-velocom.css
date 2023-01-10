@@ -6,23 +6,24 @@
 #sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
 .fusion-social-links-footer,.fusion-pricing-table .panel-body,.fusion-secondary-header{display:none!important}
 
+/*
 .fusion-pricing-table .panel-body{padding:0!important}
 .fusion-pricing-table .panel-heading{padding:10px 5px 8px!important}
 .fusion-pricing-table .panel-heading h3{font-size:1.6em}
 .fusion-pricing-table .list-group .list-group-item{font-size:.8em}
 .fusion-pricing-table .list-group .list-group-item{background:var(--highlightColor)!important;color:#FFFFFF}
 .sep-boxed-pricing .panel-container,.fusion-pricing-table .fusion-panel{background:none!important}
-.fusion-accordian .panel-title{font-size:.75em}
+
 .fusion-reading-box-container .reading-box{border:none!important}
 .fusion-reading-box-container .reading-box h2{font-size:2em!important;margin-bottom:20px}
 .fusion-reading-box-container .reading-box .reading-box-additional{padding:0!important;background:none;color:#FFFFFF;}
-#sidebar p{margin:25px 0 5px}
-body:not(.home) .tfs-slider .buttons .fusion-button,body:not(.home) .tfs-slider .buttons .fusion-button:hover,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button,body:not(.home) .fusion-fullwidth.fullwidth-box:not(.header-transparent):not(.fusion-builder-row-2) .fusion-button:hover{border:2px solid #340018!important}
+*/
+
 #mapvf-cobertura{height:400px;border-radius:12px}
 #mapvf-cobertura.warning{border:2px solid var(--warningColor)}
 #mapvf-cobertura.sent{border:2px solid var(--successColor)}
 #pac{margin:10px 5%;padding:8px 11px;width:90%;font-family:'Open-Sans',sans-serif;font-size:1.4em;border-radius:6px;background-color:#FFFFFF;box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
-.fusion-content-boxes a{text-decoration:underline}
+
 .controls.pac-target-input.warning,.controls.pac-target-input.sent{font-weight:bold}
 .controls.pac-target-input.warning{border-color:var(--warningColor)!important;background:var(--warningColor)!important;color:#FFFFFF!important}
 .controls.pac-target-input.sent,.wpcf7 input:not([type='submit']).highlight.sent{border-color:var(--successColor)!important;background:var(--successColor)!important;color:#FFFFFF!important}
