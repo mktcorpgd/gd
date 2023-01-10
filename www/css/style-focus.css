@@ -1,21 +1,2 @@
 /* Focus */
-:root{--mainColor:#39457E;--highlightColor:#5668BF;--whiteColor:#FFFFFF;}
-
-/* Plantilla CSS */
-::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
-::selection{background:var(--mainColor);color:var(--whiteColor)}
-.fusion-accordian .panel-heading .panel-title a span,.fusion-accordian .panel-heading .panel-title a span i,.fusion-accordian .panel-heading .panel-title a.active span,.fusion-accordian .panel-heading .panel-title a.active span i,
-.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--mainColor)}
-.fusion-accordian .panel-heading .panel-title a:hover span,.fusion-accordian .panel-heading .panel-title a:hover span i,
-.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover,#main .about-author .title a:hover,#main .post h2 a:hover,.fusion-open-submenu:hover,.fusion-pagination .next:hover,.fusion-pagination .next:hover:after,.fusion-pagination .prev:hover,.fusion-pagination .prev:hover:before,.fusion-read-more:hover:after,.more a:hover:after,.pagination .pagination-next:hover:after,.pagination .pagination-prev:hover:before,.pagination-next:hover:after,.pagination-prev:hover:before,.project-content .project-info .project-info-box a:hover,.rtl .fusion-read-more:hover:before,.rtl .more a:hover:before,.single-navigation a[rel=next]:hover:after,.single-navigation a[rel=prev]:hover:before,h5.toggle:hover a,.fusion-content-boxes.shadow .col:hover .icon i,.fusion-content-boxes.shadow .col:hover h2{color:var(--highlightColor)}
-.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
-.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
-#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit']{background:var(--highlightColor)}
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
-.button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
-.button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
-#main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
-.wpcf7-form input[type='submit']:hover,
-.fusion-modal.contacto-rapido .fusion-fullwidth{background:var(--mainColor)}
-.fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}
+:root{--mainColor:#39457E;--highlightColor:#5668BF;}
