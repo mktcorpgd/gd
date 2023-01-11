@@ -41,14 +41,14 @@ input::-webkit-input-placeholder{line-height:normal!important}
 .fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog{transition:all .1s ease-in-out}
 sup{line-height:1}
 .post-content p b,.post-content p strong{font-weight:600}
-iframe,.modal .fullwidth-modal{width:100%}
+iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
 .uppercase{text-transform:uppercase}
 .zindex1{z-index:1!important}
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:#FFFFFF}
-.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template #main.width-100{padding:0!important}
+.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-']{width:22px;height:22px;position:relative;top:2px}
