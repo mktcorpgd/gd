@@ -16,18 +16,16 @@ jQuery(document).ready(function() {
 		);
 	}
 	
-	// IoP:
-	if ( jQuery('body').hasClass('page-id-43399') ) {
-		jQuery(document).on('click','.suite .fusion-modal-text-link',function() {
-			var title_suite = jQuery(this).parent().parent().parent().find('.imageframe-align-center img').attr('alt');
-			jQuery('input[name=TITLE]').val(title_suite);
-			jQuery('.fusion-modal.contacto-rapido h3').text('Contactar por '+title_suite);
-		});
-		jQuery(document).on('click','.fusion-menu-item-button .fusion-modal-text-link',function() {
-			jQuery('input[name=TITLE]').val(jQuery('.entry-title').text());
-			jQuery('.fusion-modal.contacto-rapido h3').text('Contactanos para más información');
-		});
-	}
+	// Suite IoP:
+	jQuery(document).on('click','.suite .fusion-modal-text-link',function() {
+		var title_suite = jQuery(this).parent().parent().parent().find('.imageframe-align-center img').attr('alt');
+		jQuery('input[name=TITLE]').val(title_suite);
+		jQuery('.fusion-modal.contacto-rapido h3').text('Contactar por '+title_suite);
+	});
+	jQuery(document).on('click','.fusion-menu-item-button .fusion-modal-text-link',function() {
+		jQuery('input[name=TITLE]').val(jQuery('.entry-title').text());
+		jQuery('.fusion-modal.contacto-rapido h3').text('Contactanos para más información');
+	});
 
 	// Si viene de un país:
 	if ( jQuery('#wrapper').hasClass('country-flag') ) {
