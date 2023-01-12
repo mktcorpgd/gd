@@ -198,9 +198,11 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-modal.contacto-rapido .modal-title{text-align:center}
 
 /* Slider/Hero */
+.tfs-slider .fusion-title h2{color:#FFFFFF!important;line-height:1.2!important}
+.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.8rem!important;line-height:1.4!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 1em}
-.tfs-slider .slide-content-container .caption{margin-bottom:.8em}
 .tfs-slider .slide-content-container .buttons{margin-top:1.5em}
+.tfs-slider .slide-content-container .caption{margin-bottom:.8em}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.6)}
 .tfs-slider .flex-direction-nav a{color:transparent}
 .tfs-slider .flex-direction-nav a.flex-prev:before,.tfs-slider .flex-direction-nav a.flex-next:before{color:#FFFFFF;font-family:'Font Awesome 6 Pro'}
