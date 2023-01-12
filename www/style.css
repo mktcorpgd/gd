@@ -68,6 +68,7 @@ html .fusion-open-submenu,
 .no-border,.modal-content,.tfs-slider .overlay-link{border:none!important}
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .fusion-layout-column:not(.no-radius) .fusion-video,.fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
+.fusion-caret .fusion-dropdown-indicator:before,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -460,7 +461,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-blog-layout-grid article.format-video .fusion-post-content.post-content{background:#FFFFFF}
 .embed{display:block;margin:0 auto;background:#222222;position:relative;border-radius:12px;overflow:hidden}
 .play-yt-video{width:100%;cursor:pointer}
-.yt-video:not(.playing):after{content:'\f144';display:grid;width:100%;height:100%;align-items:center;text-align:center;font-family:'Font Awesome 6 Pro';font-weight:bold;position:absolute;top:0;left:0;font-size:5em;line-height:2em;color:rgba(255,255,255,.8);background:rgba(0,0,0,.2);pointer-events:none}
+.yt-video:not(.playing):after{content:'\f144';display:grid;width:100%;height:100%;align-items:center;text-align:center;font-weight:bold;position:absolute;top:0;left:0;font-size:5em;line-height:2em;color:rgba(255,255,255,.8);background:rgba(0,0,0,.2);pointer-events:none}
 .yt-video:not(.playing):hover:after{font-size:5.5em;color:rgba(255,255,255,1)}
 .smcx-embed,.smcx-embed>.smcx-iframe-container{max-width:100%!important;border:none!important}
 
@@ -523,7 +524,6 @@ div.pdfemb-toolbar-top{display:grid!important;grid-template-columns:10% 10% 70% 
 div.pdfemb-toolbar div{margin:0;padding:.6em .8em;font-size:.9em;color:#FFFFFF;text-align:right;font-family:'open-sans',sans-serif}
 div.pdfemb-toolbar button,div.pdfemb-toolbar button[disabled]{margin:0!important;padding:0;border:none;box-shadow:none;font-size:1.2em;line-height:1;cursor:pointer}
 div.pdfemb-toolbar button[disabled]{color:rgba(255,255,255,.4)}
-div.pdfemb-toolbar button:before{font-family:'Font Awesome 6 Pro',sans-serif}
 div.pdfemb-toolbar button.pdfemb-next:before{content:''}
 div.pdfemb-toolbar button.pdfemb-prev:before{content:''}
 div.pdfemb-toolbar button.pdfemb-download:before{content:''}
@@ -559,7 +559,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Toggle */
 .fusion-accordian .fusion-toggle-icon-wrapper i{background:none!important}
-.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before{content:'\f067'!important;font-family:'Font Awesome 6 Pro'!important}
+.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before{content:'\f067'!important}
 .fusion-accordian .active .fusion-toggle-icon-wrapper i:before{content:'\f068'!important}
 .fusion-accordian .panel-body{color:#333333;line-height:1.6}
 
@@ -827,7 +827,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-mobile-nav-holder>ul>li>ul>li a{font-family:'open-sans',sans-serif;font-weight:400;padding-left:20px!important;padding-right:20px!important}
 	#posts-container .fusion-blog-layout-grid{margin:0!important}
 	#sidebar{margin-left:-30px!important;margin-right:-30px!important;padding:30px!important;width:calc(100% + 60px)!important;overflow:hidden;z-index:9999}
-	.fusion-open-submenu:before{content:'\f107';font-size:24px;font-family:'Font Awesome 6 Pro'}
+	.fusion-open-submenu:before{content:'\f107';font-size:24px}
 	.fusion-mobile-nav-item.light-weight span{font-weight:400}
 	.fusion-mobile-nav-holder>ul li a{font-weight:500}
 	.fusion-footer .widget .fusion-social-networks.boxed-icons .fusion-social-network-icon:last-child{margin-right:0}
