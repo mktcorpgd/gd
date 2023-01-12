@@ -16,11 +16,6 @@ jQuery(document).ready(function() {
 		);
 	}
 	
-	// Ocultar partners:
-	if ( jQuery('.no-partners').length ) {
-		jQuery('body').addClass('no-partners');
-	}
-
 	// IoP:
 	if ( jQuery('body').hasClass('page-id-43399') ) {
 		jQuery(document).on('click','.suite .fusion-modal-text-link',function() {
