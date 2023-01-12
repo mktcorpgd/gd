@@ -1,11 +1,11 @@
 jQuery(document).ready(function() {
 
-	// En mobile trasladar elementos del menú
+	// Mobile - Trasladar elementos del menú
 	if ( jQuery(window).width() < 920 ) {
 		jQuery('.mobile-hidden>ul>li').appendTo('.mobile-append .sub-menu');
 	}
 
-	// En escritorio al pasar mouse mostrar descripción de pilares
+	// Escritorio - Al pasar mouse mostrar descripción de pilares
 	if ( jQuery(window).width() > 920 ) {
 		jQuery('.pilares .fusion_builder_column_inner .fusion-column-wrapper').hover(
 			function() {
@@ -19,31 +19,6 @@ jQuery(document).ready(function() {
 	// Ocultar partners:
 	if ( jQuery('.no-partners').length ) {
 		jQuery('body').addClass('no-partners');
-	}
-    // Si necesita branding: Datco, Focus, Interservices, Sersat:
-	if ( jQuery('.branding').length ) {
-		jQuery('body').addClass('branding');
-		var branding =jQuery('.fusion-fullwidth.branding').attr('class');
-		branding = branding.substring(branding.indexOf('branding')+9,branding.length);
-		branding = branding.substring(0,branding.indexOf(' '));
-		jQuery('#wrapper,#boxed-wrapper').addClass(branding);
-		jQuery('#wrapper .fusion-logo-link img').attr('srcset','');
-		if ( jQuery('.fusion-fullwidth.branding').hasClass('grupo_datco') ) {
-			jQuery('#wrapper .fusion-standard-logo,#wrapper .fusion-mobile-logo').attr('src','/wp-content/uploads/'+branding+'-ima_h-one_stroke-dark.svg');
-		}
-		else if ( jQuery('.fusion-fullwidth.branding').hasClass('networks0g') ) {
-			jQuery('#wrapper .fusion-standard-logo,#wrapper .fusion-mobile-logo').attr('src','/wp-content/uploads/'+branding+'-ima_h-one_stroke-dark.svg');
-			jQuery('<img src="/wp-content/uploads/sigfox_0goperator-dark.svg" width="121" height="48" alt="Sigfox 0G Operator" class="sigfox_0goperator" />').insertAfter('#wrapper .fusion-standard-logo,#wrapper .fusion-mobile-logo');
-		}
-		else {
-			if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-				jQuery('#wrapper .fusion-standard-logo,#wrapper .fusion-mobile-logo').attr('src','/wp-content/uploads/'+branding+'-white.svg');
-			}
-			else {
-				jQuery('#wrapper .fusion-standard-logo,#wrapper .fusion-mobile-logo').attr('src','/wp-content/uploads/'+branding+'-ima_h-one_stroke-dark-es.svg');
-			}
-		}
-		jQuery('link[rel="shortcut icon"]').attr('href','/favicon_'+branding+'.ico');		
 	}
 
 	// IoP:
@@ -59,7 +34,7 @@ jQuery(document).ready(function() {
 		});
 	}
 
-	// SI VIENE DE UN PAÍS:
+	// Si viene de un país:
 	if ( jQuery('#wrapper').hasClass('country-flag') ) {
 		var ctry = location.pathname;
 		ctry = ctry.substring(1,ctry.length-1);
