@@ -631,6 +631,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Footer */
 .fusion-footer-widget-column{margin-bottom:0}
+.landing .fusion-footer-widget-area.fusion-widget-area{padding-top:0!important}
 .fusion-footer-widget-area,.fusion-footer-copyright-area{padding:2em 0;background:#222222!important}
 .fusion-footer-widget-area .widget-title{margin-bottom:.5em;color:#FFFFFF;font-size:.9rem;text-transform:uppercase}
 .fusion-footer-widget-area .fusion-widget-area .sub-menu{margin-left:0}

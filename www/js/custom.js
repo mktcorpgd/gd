@@ -120,10 +120,8 @@ jQuery(document).ready(function() {
 
 
 	// Si es una landing:
-	if ( jQuery('.fusion-fullwidth.landing').length ) {
+	if ( jQuery('.landing').length ) {
 		jQuery('.fusion-wrapper').addClass('landing');
-		jQuery('.fusion-main-menu-search,.fusion-icon-search,.fusion-footer-widget-area').hide();
-		jQuery('.fusion-footer-widget-area.fusion-widget-area').css('padding-top','0!important');
 	}
 
 
