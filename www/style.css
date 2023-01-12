@@ -198,7 +198,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-modal.contacto-rapido .modal-title{text-align:center}
 
 /* Slider/Hero */
-.tfs-slider .slide-content-container .heading{margin:0 1em}
+.tfs-slider .slide-content-container .heading{margin:0 0 1em}
 .tfs-slider .slide-content-container .caption{margin-bottom:.8em}
 .tfs-slider .slide-content-container .buttons{margin-top:1.5em}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.6)}
