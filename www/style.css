@@ -198,7 +198,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-modal.contacto-rapido .modal-title{text-align:center}
 
 /* Contador */
-.fusion-counters-box .content-box-counter{font-family:'neo-sans',sans-serif}
+.fusion-counters-box .content-box-counter{font-weight:500;font-family:'neo-sans',sans-serif}
 
 /* Slider/Hero */
 .tfs-slider .fusion-title h2{color:#FFFFFF!important;line-height:1.1!important}
