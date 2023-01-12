@@ -205,7 +205,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .tfs-slider .slide-content-container .buttons{margin-top:1.5em}
 .tfs-slider .slide-content-container .caption{margin-bottom:.8em}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.6)}
-.tfs-slider .flex-direction-nav a{color:transparent;position:relative}
+.tfs-slider .flex-direction-nav a{color:red;position:relative}
 .tfs-slider .flex-direction-nav li.flex-nav-prev a:before,.tfs-slider .flex-direction-nav li.flex-nav-next a:before{color:white}
 .tfs-slider .flex-direction-nav li.flex-nav-prev a:before{content:'<'}
 .tfs-slider .flex-direction-nav li.flex-nav-next a:before{content:'>'}
