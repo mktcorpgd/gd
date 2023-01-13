@@ -615,7 +615,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 /* Paginación */
 .pagination{margin:20px 0 0;width:100%;text-align:center}
 .pagination .current{background:#CCCCCC}
-.pagination>a,.pagination>span{width:38px;height:38px;border:none;border-radius:50%;padding:.4em .6em;position:relative;font-size:1rem}
+.pagination>a,.pagination>span{width:40px;height:40px;border:none!important;border-radius:50%!important}
 .pagination>span{cursor:default}
 .pagination>a:not(.pagination-next):not(.pagination-prev){background:#FFFFFF}
 .pagination>a:hover:not(.pagination-next):not(.pagination-prev){background:#FFFFFF}
@@ -625,6 +625,9 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .pagination-next:after{right:0}
 .pagination-prev:before{left:0;margin-left:0}
 .pagination .current{border-radius:12px}
+.pagination .pagination-prev:before,.pagination .pagination-next:after{font-family:'Font Awesome 6 Pro'}
+.pagination .pagination-prev:after{content:'\f053'}
+.pagination .pagination-next:after{content:'\f054'}
 
 /* Social */
 .fusion-footer .fusion-social-network-icon{display:inline-block;margin:0 8px;width:24px;text-align:center;opacity:.9}
