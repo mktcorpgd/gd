@@ -569,6 +569,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before{content:'\f067'!important}
 .fusion-accordian .active .fusion-toggle-icon-wrapper i:before{content:'\f068'!important}
 .fusion-accordian .panel-body{color:#333333;line-height:1.6}
+.fusion-accordian .fusion-panel.fusion-toggle-no-divider .panel-title a{padding:.5em 0}
 
 /* Posts relacionados */
 .related-posts>.fusion-title{font-size:.9em}
