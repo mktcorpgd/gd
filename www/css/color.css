@@ -12,7 +12,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white):not(.hero-img) 
 .fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
 .fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.fusion-filters li a:hover,.fusion-content-boxes.shadow .col:hover .icon i,.fusion-content-boxes.shadow .col:hover h2,
 .fusion-portfolio article .more-info:hover{color:var(--subColor)!important}
-.fusion-modal.contacto-rapido h3.modal-title{color:var(--whiteColor)}
+.fusion-modal.contacto-rapido h3.modal-title,.fusion-button:hover i{color:var(--whiteColor)}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,
 .fusion-modal.contacto-rapido .fusion-fullwidth,.fusion-modal.contacto-rapido .modal-content{background:var(--mainColor)}
 .button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
