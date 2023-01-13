@@ -51,7 +51,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:var(--whiteColor)}
-.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100{padding:0!important}
+.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative;top:2px}
