@@ -1,5 +1,5 @@
 /* Silica Networks */
-:root{--mainColor:#497718;--highlightColor:#87B227;}
+:root{--mainColor:#497718;--subColor:#324C1B;--highlightColor:#87B227;}
 
 /* Custom */
 .fusion-portfolio.destacados .fusion-portfolio-content-wrapper{display:grid;grid-template-columns:20% 80%}
