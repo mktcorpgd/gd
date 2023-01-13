@@ -31,7 +31,8 @@ body.single-format-video article .fusion-flexslider,
 html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
 body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer,.landing #partners_footer,
 .fusion-footer-widget-area .widget_nav_menu li a:before,
-.pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile{display:none!important}
+.pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,
+.modal.contacto-rapido .fusion-title-size-one,.modal.contacto-rapido .fusion-title-size-one+.fusion-title{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
@@ -438,7 +439,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],
 .fusion-button-text,.button-default .fusion-button-text{color:var(--whiteColor)!important}
 .button-default.button-small,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.4rem .7rem;font-size:.9em}
-.button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.header-transparent.fusion-builder-row-1 .fusion-button{padding:.6rem 1rem;font-size:1.2em}
+.button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.header-transparent.fusion-builder-row-1 .fusion-button:not(.button-small){padding:.6rem 1rem;font-size:1.2em}
 .button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.8rem 1.2rem;font-size:1.5em}
 .wpcf7-form input[type='submit']{display:grid}
 .wpcf7-form input[type='submit'],.fusion-body .fusion-load-more-button{margin-top:.5em}
