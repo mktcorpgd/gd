@@ -228,17 +228,6 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .flexslider .slides .caption img[src*='flag-']{margin:1em .25em 0;width:32px;height:32px}
 .flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
 
-/* Búsqueda */
-body.search #content{width:100%}
-body.search .fusion-page-title-captions{width:100%;text-align:center}
-body.search-no-results h2{margin-bottom:0}
-body.search-no-results .fusion-title-size-two{margin-bottom:5px!important}
-.fusion-search-form-classic .searchform .fusion-search-form-content .fusion-search-field input{padding:16px!important;width:100%!important;height:auto!important;text-align:center!important;font-size:24px!important;line-height:1.5!important;border:none!important;border-radius:0!important}
-.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{width:100%!important;color:var(--whiteColor)!important}
-#main .searchform .fusion-search-form-content .fusion-search-field input{display:block;margin:0 auto;max-width:600px;background:#FAFAFA;border:1px solid #CCCCCC!important;border-radius:24px!important}
-#main .search-page-search-form-bottom{margin-top:30px;padding-top:30px}
-body.error404 .fusion-page-title-wrapper{justify-content:center}
-
 /* Contenido */
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
 .post-content blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid #CCCCCC;font-family:var(--titleFont);font-weight:400;font-style:normal;font-size:1.2em;line-height:1.5}
@@ -325,7 +314,7 @@ div.wpcf7:before{display:block;margin-top:-.6em;width:100%;margin-bottom:5px;fon
 div.wpcf7>form p{margin-top:0;margin-right:1em}
 .fusion-one-full div.wpcf7{max-width:500px}
 .wpcf7 input:not([type='submit']):not([type='checkbox']),.wpcf7-select-parent .wpcf7-select,.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password']{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:var(--textColor);border:1px solid #CCCCCC;border-radius:6px;background:#FAFAFA;font-size:.9em;font-weight:400;z-index:1}
+#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password'],#main .searchform .fusion-search-form-content .fusion-search-field input{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:var(--textColor);border:1px solid #CCCCCC;border-radius:6px;background:#FAFAFA;font-size:.9em;font-weight:400;z-index:1}
 .wpcf7 input:not([type='submit']):hover,.wpcf7-select-parent .wpcf7-select:hover,.wpcf7 textarea:hover,
 #respond input:not([type='submit']):hover,#respond textarea:hover,.post-password-form input[type='password']:hover{background:var(--whiteColor);border-color:#999999}
 .wpcf7 input:not([type='submit']):focus,.wpcf7-select-parent .wpcf7-select:focus,.wpcf7 textarea:focus,
@@ -384,6 +373,11 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner.warning .menu-text.fusion-button{color:#F1B500}
 #content .wpcf7-response-inner .menu-text.fusion-button:hover{color:var(--whiteColor);background:none}
 .wpcf7-spam{background-color:#F1B500;color:var(--whiteColor)}
+
+/* Búsqueda */
+.searchform .fusion-search-form-content .fusion-search-field input{display:block;margin:0 auto;max-width:600px;font-size:1.4em;text-align:center;border-radius:24px;}
+.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{color:var(--whiteColor)}
+body.search-no-results h2,.search-page-search-form{text-align:center}
 
 /* Comentarios */
 .comment-form .form-submit{margin-top:10px}
