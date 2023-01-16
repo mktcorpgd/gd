@@ -377,6 +377,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 body.search #content{width:100%}
 body.search .fusion-page-title-wrapper{display:block}
 body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrapper,.fusion-error-page-search,.search-page-search-form{text-align:center}
+.search-page-search-form{margin-top:0;border:none}
 #main .searchform .fusion-search-form-content .fusion-search-field input{margin:0 auto;max-width:600px;text-align:center}
 
 /* Comentarios */
