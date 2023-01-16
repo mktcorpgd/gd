@@ -437,7 +437,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],
-.fusion-button-text,.button-default .fusion-button-text{color:var(--whiteColor)!important}
+.fusion-button-text,.button-default .fusion-button-text{color:var(--whiteColor)}
 .button-default.button-small,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.4rem .7rem;font-size:.9em}
 .button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.header-transparent.fusion-builder-row-1 .fusion-button:not(.button-small){padding:.6rem 1rem;font-size:1.2em}
 .button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.8rem 1.2rem;font-size:1.5em}
