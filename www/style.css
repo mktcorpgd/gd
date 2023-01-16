@@ -200,7 +200,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 /* Contador */
 .fusion-counters-box .content-box-counter{font-weight:500;font-family:var(--titleFont)}
 
-/* Slider/Hero */
+/* Hero/Slider */
 .tfs-slider .fusion-title h2{color:var(--whiteColor)!important;font-size:3.4rem!important;line-height:1.1!important}
 .tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.4rem!important;line-height:1.3!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 1rem}
@@ -722,10 +722,16 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Mobile */
 @media (max-width:920px) {
+	/* Ocultar */
 	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none!important}
+	/* Mostrar */
 	.mobile-only{display:inline-block!important}
+	
+	/* General */
 	body{font-size:18px;line-height:1.6}
 	.modal-content{margin-left:1em;margin-right:1em}
+
+	/* Slider */
 	.tfs-slider .fusion-title{margin-bottom:0!important}
 	.tfs-slider .fusion-title h2{font-size:2.6rem!important}
 
@@ -753,11 +759,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-body .fusion-title.fusion-sep-none .title-heading-right{text-align:left}
 
 	/* Footer */
-	.fusion-footer-widget-area .widget-title{margin-top:4em}
-	#nav_menu-2>.widget-title{margin-top:2em}
+	.fusion-footer-widget-area .widget-title{margin-top:3em}
 	.fusion-footer-widget-area ul li a{font-size:1.2em}
-	.fusion-footer .widget .fusion-social-networks.boxed-icons .fusion-social-network-icon:last-child{margin-right:0}
-	.fusion-footer .fusion-columns .fusion-column{margin-bottom:1em}
 	#partners_footer .fusion-layout-column{padding:1em;width:50%!important}
 }
 
