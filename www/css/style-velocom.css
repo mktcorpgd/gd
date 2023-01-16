@@ -2,5 +2,7 @@
 :root{--mainColor:#AE1857;--subColor:#CD346C;--highlightColor:#E94180;}
 
 /* Custom */
-.map,.tfs-slider h2 span,.caption h3 span,div.TYPE2,.modal.loading .modal-header,.fusion-portfolio-meta,.step2,.fusion-title.fusion-sep-none.step2,
-#sidebar .heading h4,.fusion-footer-widget-area.fusion-widget-area,.modal:not(.cobertura) .fusion-modal-text-link,.step2{display:none}
+.map,.tfs-slider h2 span,.caption h3 span,
+div.TYPE2,
+.modal.loading .modal-header,.fusion-portfolio-meta,
+.step2{display:none}
