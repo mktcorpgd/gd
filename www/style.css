@@ -730,8 +730,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.mobile-only{display:inline-block!important}
 	body{font-size:18px;line-height:1.6}
 
-	html:not(.avada-has-site-width-percent) .tfs-slider .slide-content-container{padding-top:6em}
-	.tfs-slider .fusion-title h2{font-size:3rem!important}
+	.tfs-slider .fusion-title{margin-bottom:.2em!important}
+	.tfs-slider .fusion-title h2{font-size:2.6rem!important}
 
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
 
