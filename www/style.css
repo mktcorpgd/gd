@@ -737,11 +737,13 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
 	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
+	.fusion-header-wrapper:not(.on-top) .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-bottom:0}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-mobile-nav-holder{padding-top:10px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item{font-size:18px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .fusion-mobile-nav-item a{padding-top:1.2em;padding-bottom:1.2em;border:none;letter-spacing:0!important;font-weight:400}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
+	.fusion-mobile-nav-holder .wpml-ls-native{padding:0}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 
