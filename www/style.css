@@ -735,7 +735,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.awb-icon-bars:before,.fusion-open-submenu:before{display:inline-block}
 	.awb-icon-bars[aria-expanded='true']:before{transform:rotate(90deg)}
 	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
-	.fusion-mobile-menu-design-modern .fusion-open-submenu{padding-right:32px;height:43px}
+	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-mobile-nav-holder{padding-top:10px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
