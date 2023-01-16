@@ -144,7 +144,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 /* Menú - CTA */
 .fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)}
-.fusion-main-menu .menu-text.fusion-button{font-weight:400;font-size:1em}
+.fusion-main-menu .menu-text.fusion-button{margin-bottom:0;font-weight:400;font-size:1em}
 
 /* Menú - Buscador */
 .fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important;font-weight:900}
@@ -411,7 +411,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-pricingtable-column .panel-container:hover{transform:scale(1.025);box-shadow:0 0 24px rgba(0,0,0,.4)}
 .fusion-pricingtable-column.standout .panel-container{box-shadow:0 0 32px rgba(0,0,0,.6)}
 .fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 0 40px rgba(0,0,0,.4)}
-.fusion-pricing-table .panel-wrapper{padding:0 1em}
 .fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
 .fusion-pricing-table .standout .panel-body{padding:.5em}
 .fusion-pricing-table .panel-heading{padding:1em .5em .5em!important}
@@ -703,7 +702,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
 	.fusion-widget-area.sticky{position:sticky;top:120px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
-	.fusion-pricingtable-column.standout .panel-container{padding:0!important;top:30px;box-shadow:0 0 24px rgba(0,0,0,.6)}
+	.fusion-pricingtable-column.standout .panel-container{padding:0!important;top:45px}
 	.fusion-pricingtable-column:not(.standout) .panel-container{margin-top:2em}
 	
 	/* Portfolio */
