@@ -641,8 +641,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-footer-widget-area .widget-title{margin-bottom:.5em;color:var(--whiteColor);font-size:.9rem;text-transform:uppercase}
 .fusion-footer-widget-area .fusion-widget-area .sub-menu{margin-left:0}
 .fusion-footer-widget-area a,.fusion-footer-widget-area a:hover{color:var(--whiteColor)}
-.fusion-footer-widget-area ul{margin:1em 0;padding-left:0;list-style:none}
-.fusion-widget-area .widget .recentcomments,.fusion-widget-area .widget_archive li,.fusion-widget-area .widget_categories li,.fusion-widget-area .widget_layered_nav li,.fusion-widget-area .widget_links li,.fusion-widget-area .widget_meta li,.fusion-widget-area .widget_nav_menu li,.fusion-widget-area .widget_pages li,.fusion-widget-area .widget_product_categories li,.fusion-widget-area .widget_recent_entries li,.fusion-widget-area .widget_rss li{padding:.25em 0;line-height:1.4;border:none}
+.fusion-footer-widget-area ul{padding-left:0;list-style:none}
+.fusion-widget-area .widget .recentcomments,.fusion-widget-area .widget_archive li,.fusion-widget-area .widget_categories li,.fusion-widget-area .widget_layered_nav li,.fusion-widget-area .widget_links li,.fusion-widget-area .widget_meta li,.fusion-widget-area .widget_nav_menu li,.fusion-widget-area .widget_pages li,.fusion-widget-area .widget_product_categories li,.fusion-widget-area .widget_recent_entries li,.fusion-widget-area .widget_rss li{padding:.4em 0!important;line-height:1.4;border:none}
 .fusion-footer-widget-area ul li a{font-size:.8rem;line-height:1.3;cursor:pointer}
 .fusion-footer-widget-area ul li a:hover{text-decoration:underline}
 .fusion-footer-widget-area ul li a>span{display:block;margin-top:0;font-size:.7rem;line-height:1.3;color:rgba(255,255,255,.7)}
@@ -734,9 +734,9 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
 
 	.awb-icon-bars:before{content:'\f0c9'}
-	.fusion-mobile-menu-design-modern .fusion-open-submenu{height:43px}
 	.fusion-open-submenu:before{content:'\f107'}
-	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
+	.awb-icon-bars[aria-expanded='true']:before,.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
+	.fusion-mobile-menu-design-modern .fusion-open-submenu{height:43px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item{font-size:18px}
@@ -744,10 +744,9 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
-
 	.fusion-body .fusion-title.fusion-sep-none .title-heading-right{text-align:left}
-
-	.fusion-footer-widget-area .widget-title{margin-top:2em;margin-bottom:0}
+	.fusion-footer-widget-area .widget-title{margin-top:4em}
+	#nav_menu-2>.widget-title{margin-top:2em}
 	.fusion-footer-widget-area ul li a{font-size:1.2em}
 	.fusion-footer .widget .fusion-social-networks.boxed-icons .fusion-social-network-icon:last-child{margin-right:0}
 	.fusion-footer .fusion-columns .fusion-column{margin-bottom:1em}
