@@ -24,7 +24,7 @@
 .suite .fusion-layout-column.fusion-one-third:not(.not-available) .fusion-column-wrapper:hover .fusion-column-content-centered:after{opacity:1}
 .suite .fusion-column-content-centered .fusion-text-4{top:-10px}
 .suite .fusion-text{padding:0 1em;color:var(--whiteColor);transform:rotateY(180deg)}
-.suite .fusion-one-third .fusion-text p{text-align:left}
+.suite .fusion-one-third .fusion-text p{margin-bottom:0;text-align:left}
 .suite .fusion-text a{color:var(--whiteColor)!important;font-size:1.2em;font-weight:500;font-family:'Neo-Sans',sans-serif}
 #smarcloud-ar .imageframe-align-center{top:16px}
 .single-avada_portfolio #smarcloud-ar .imageframe-align-center{top:25px}
