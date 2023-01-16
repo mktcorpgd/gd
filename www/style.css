@@ -512,6 +512,7 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 
 /* Content boxes */
 .fusion-content-boxes .link-area-box{cursor:inherit}
+.fusion-content-boxes .fusion-column{margin-bottom:1em}
 .fusion-content-boxes.box-shadow .fusion-column{padding:1em 2em}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper{padding:2em;box-shadow:0 30px 80px rgba(0,0,0,.2);border-radius:24px}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{box-shadow:0 30px 100px rgba(0,0,0,.4);cursor:pointer}
@@ -738,13 +739,13 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item a{background:none;border:none}
 	.fusion-mobile-nav-holder>ul>li.fusion-mobile-nav-item>a{font-weight:400}
 
+	.fusion-body .fusion-title.fusion-sep-none .title-heading-right{text-align:left}
+
 	.fusion-footer-widget-area .widget-title{margin-top:2em;margin-bottom:0}
 	.fusion-footer-widget-area ul li a{font-size:1.2em}
 	.fusion-footer .widget .fusion-social-networks.boxed-icons .fusion-social-network-icon:last-child{margin-right:0}
 	.fusion-footer .fusion-columns .fusion-column{margin-bottom:1em}
-
-	#partners_footer .fusion-layout-column,#partners_footer .fusion-layout-column.fusion-one-sixth{padding:0 3%;width:50%}
-	.partners-logos .fusion-imageframe{margin:1em;max-width:120px}
+	#partners_footer .fusion-layout-column{padding:1em;width:50%!important}
 }
 
 /* Mobile (vertical) */
