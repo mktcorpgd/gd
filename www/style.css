@@ -552,7 +552,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .meta-tags{pointer-events:none}
 .meta-tags a{cursor:text}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:#CCCCCC}
-.fusion-single-line-meta,.fusion-portfolio-meta{padding:0 1rem .4rem;line-height:1}
+.fusion-single-line-meta,.fusion-portfolio-meta{margin:-8px 0 0!important;padding:0 1rem .4rem;line-height:1.2}
 .post .fusion-meta-info{margin:.5em 0;padding:0;border:none;background:none}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{text-decoration:none;color:#555555}
 
