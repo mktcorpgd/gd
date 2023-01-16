@@ -125,25 +125,6 @@ jQuery(document).ready(function() {
 	}
 
 
-	// Con bandera:
-	if ( jQuery('.fusion-fullwidth.country-flag').length ) {
-		jQuery('#wrapper').addClass('country-flag');
-		jQuery('.country-flag').removeClass('hidden');
-		if ( jQuery('.fusion-fullwidth.landing').length ) {
-			var flag = jQuery('.fusion-fullwidth.country-flag').attr('class');
-			flag = flag.substr(flag.indexOf('country-flag')+13,2);
-		}
-		else { 
-			var flag = window.location.pathname;
-			flag = flag.substring(1,flag.length-1);
-			jQuery('.country-flag.menu-item>a').attr('href','/'+flag);
-		}
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-gd_'+flag+'.svg');
-		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-gd_'+flag+'"]').attr('alt');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',cur_title);
-	}
-
-
 	// GENERAL - Guardar código de idioma
 	var lang = jQuery('html').attr('lang').substring(0,2);
 
@@ -156,28 +137,10 @@ jQuery(document).ready(function() {
 	jQuery(window).scroll(function() {
 		scrollHeaderTransp();
 	});
-	if ( jQuery('.gradient-gd').length ) {
-		jQuery('#wrapper').addClass('gradient-gd');
-	}
-	if ( jQuery('.gradient-b').length ) {
-		jQuery('#wrapper').addClass('gradient-b');
-	}
-	if ( jQuery('.gradient-s').length ) {
-		jQuery('#wrapper').addClass('gradient-s');
-	}
-	if ( jQuery('.slider').length ) {
-		jQuery('#wrapper').addClass('slider');
-	}
-	if ( jQuery('.no-menu').length ) {
-		jQuery('#wrapper').addClass('no-menu');
-	}
-	if ( jQuery('.no-header-logo').length ) {
-		jQuery('#wrapper').addClass('no-header-logo');
-	}
 
 
 	// CONTENIDOS - Abrir en una nueva pestaña
-	jQuery(document).on('click','body.site-id-26 #prensa .fusion-post-content.post-content>h2>a,body.site-id-26 #prensa span.meta-tags a',function(e) {
+	jQuery(document).on('click','#prensa .fusion-post-content.post-content>h2>a,#prensa span.meta-tags a',function(e) {
 		window.open(this.href,'_blank');
 		e.preventDefault();
 		e.stopPropagation();

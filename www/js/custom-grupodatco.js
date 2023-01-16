@@ -27,6 +27,24 @@ jQuery(document).ready(function() {
 		jQuery('.fusion-modal.contacto-rapido h3').text('Contactanos para más información');
 	});
 
+	// Con bandera:
+	if ( jQuery('.fusion-fullwidth.country-flag').length ) {
+		jQuery('#wrapper').addClass('country-flag');
+		jQuery('.country-flag').removeClass('hidden');
+		if ( jQuery('.fusion-fullwidth.landing').length ) {
+			var flag = jQuery('.fusion-fullwidth.country-flag').attr('class');
+			flag = flag.substr(flag.indexOf('country-flag')+13,2);
+		}
+		else { 
+			var flag = window.location.pathname;
+			flag = flag.substring(1,flag.length-1);
+			jQuery('.country-flag.menu-item>a').attr('href','/'+flag);
+		}
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+flag+'.svg');
+		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-'+flag+'"]').attr('alt');
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',cur_title);
+	}
+
 	// Si viene de un país:
 	if ( jQuery('#wrapper').hasClass('country-flag') ) {
 		var ctry = location.pathname;
