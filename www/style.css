@@ -25,7 +25,7 @@ body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .fusion-megamenu-bullet,
 .no-title .widget-title,
 body.single article.post.format-link .fusion-post-slideshow,body.single .fusion-post-title-meta-wrap,
-body.search #sidebar,.error-page .oops,
+body.search #sidebar,.fusion-error-page-search p,.error-page .oops,
 body.single-format-link #sidebar,body.single-format-link .post-content .heading,
 body.single-format-video article .fusion-flexslider,
 html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
@@ -89,8 +89,6 @@ table th{font-size:1.1em}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft,.fusion-header-v2 .fusion-secondary-header{border:none}
 .fusion-secondary-header a:hover{text-decoration:underline}
 .fusion-secondary-menu>ul>li>a{padding:.2em .8em}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input::placeholder{color:rgba(255,255,255,.4)}
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:1em .8em;text-align:center;color:var(--whiteColor)}
 
 /* Header - Transparente */
 .header-transparent .fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
@@ -375,11 +373,10 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-spam{background-color:#F1B500;color:var(--whiteColor)}
 
 /* Búsqueda */
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:1em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
 body.search #content{width:100%}
 body.search .fusion-page-title-wrapper{display:block}
-body.search #content h2,.fusion-error-page-search,.search-page-search-form{text-align:center}
-.searchform .fusion-search-form-content .fusion-search-field input{display:block;margin:0 auto;max-width:600px;font-size:1.4em;text-align:center;border-radius:24px}
-.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{color:var(--whiteColor)}
+body.search #content h2,body.search .fusion-page-title-wrapper,.fusion-error-page-search,.search-page-search-form{text-align:center}
 
 /* Comentarios */
 .comment-form .form-submit{margin-top:10px}
