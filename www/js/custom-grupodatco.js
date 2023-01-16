@@ -65,8 +65,8 @@ jQuery(document).ready(function() {
 		ctry_url = urlParams.get('ctry');
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item').removeClass('hidden');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-gd_'+ctry_url+'.svg');
-		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-gd_'+ctry_url+'"]').attr('alt');
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
+		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-'+ctry_url+'"]').attr('alt');
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',cur_title);
 	}
 
