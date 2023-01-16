@@ -1,5 +1,9 @@
 jQuery(document).ready(function() {
 
+	// Ocultar partners
+	if ( jQuery('.no-partners').length ) {
+		jQuery('#partners_footer').hide();
+	}
 	// Mobile - Trasladar elementos del menú
 	if ( jQuery(window).width() < 920 ) {
 		jQuery('.mobile-hidden>ul>li').appendTo('.mobile-append .sub-menu');
