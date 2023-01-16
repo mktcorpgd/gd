@@ -733,7 +733,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 	/* Slider */
 	.tfs-slider .fusion-title{margin-bottom:0!important}
-	.tfs-slider .fusion-title h2{font-size:2.6rem!important}
+	.tfs-slider .fusion-title h2,.header-transparent .fusion-title.fusion-title-1.fusion-title-size-one{font-size:2.6rem!important}
 
 	/* Menú */
 	.awb-icon-bars:before{content:'\f0c9'}
