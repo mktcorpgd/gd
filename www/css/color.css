@@ -24,3 +24,5 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white):not(.hero-img) 
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 .wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead{background:var(--subColor)}
+
+body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item a{background:var(--mainColor)}
