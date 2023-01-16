@@ -729,14 +729,15 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none!important}
 	.mobile-only{display:inline-block!important}
 	body{font-size:18px;line-height:1.6}
-
+	.modal-content{margin-left:1em;margin-right:1em}
 	.tfs-slider .fusion-title{margin-bottom:0!important}
 	.tfs-slider .fusion-title h2{font-size:2.6rem!important}
 
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
 
 	.fusion-mobile-menu-design-modern .fusion-open-submenu{height:43px}
-	.fusion-open-submenu:before{content:'\f107'}
+	.fusion-open-submenu:before{transition:rotate 1s ease-in-out;content:'\f107'}
+	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item{font-size:18px}
