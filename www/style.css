@@ -25,7 +25,7 @@ body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .fusion-megamenu-bullet,
 .no-title .widget-title,
 body.single article.post.format-link .fusion-post-slideshow,body.single .fusion-post-title-meta-wrap,
-body.search #sidebar,.fusion-error-page-search p,.error-page .oops,
+body.search #sidebar,.fusion-error-page-search h3,.fusion-error-page-search p,.error-page .oops,
 body.single-format-link #sidebar,body.single-format-link .post-content .heading,
 body.single-format-video article .fusion-flexslider,
 html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
@@ -373,10 +373,10 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-spam{background-color:#F1B500;color:var(--whiteColor)}
 
 /* Búsqueda */
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:1em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
 body.search #content{width:100%}
 body.search .fusion-page-title-wrapper{display:block}
-body.search #content h2,body.search .fusion-page-title-wrapper,.fusion-error-page-search,.search-page-search-form{text-align:center}
+body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrapper,.fusion-error-page-search,.search-page-search-form{text-align:center}
 
 /* Comentarios */
 .comment-form .form-submit{margin-top:10px}
