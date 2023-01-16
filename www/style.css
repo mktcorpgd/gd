@@ -375,6 +375,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-spam{background-color:#F1B500;color:var(--whiteColor)}
 
 /* Búsqueda */
+body.search #content{width:100%}
 .searchform .fusion-search-form-content .fusion-search-field input{display:block;margin:0 auto;max-width:600px;font-size:1.4em;text-align:center;border-radius:24px;}
 .fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{color:var(--whiteColor)}
 body.search-no-results h2,.search-page-search-form{text-align:center}
