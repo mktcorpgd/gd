@@ -71,7 +71,7 @@ html .fusion-open-submenu,
 .no-border,.modal-content,.tfs-slider .overlay-link{border:none!important}
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .fusion-layout-column:not(.no-radius) .fusion-video,.fusion-video:not(.no-radius){max-height:720px;border-radius:12px;overflow:hidden}
-.fusion-caret .fusion-dropdown-indicator:before,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
+.fusion-caret .fusion-dropdown-indicator:before,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.awb-icon-bars:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -735,6 +735,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
 
+	.awb-icon-bars:before{content:'\f0c9'}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu{height:43px}
 	.fusion-open-submenu:before{transition:rotate 1s ease-in-out;content:'\f107'}
 	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
