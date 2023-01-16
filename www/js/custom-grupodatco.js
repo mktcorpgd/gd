@@ -2,7 +2,7 @@ jQuery(document).ready(function() {
 
 	// Ocultar partners
 	if ( jQuery('.no-partners').length ) {
-		jQuery('#partners_footer,.fusion-main-menu-search').hide();
+		jQuery('#partners_footer,.fusion-main-menu-search,.fusion-footer-widget-area').hide();
 	}
 	// Mobile - Trasladar elementos del menú
 	if ( jQuery(window).width() < 920 ) {
