@@ -425,7 +425,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-pricing-table .fusion-panel{border:none!important}
 .fusion-pricing-table .panel-heading{border-bottom:1px solid rgba(0,0,0,.2)}
 .fusion-pricing-table .panel-footer{padding:0!important}
-.fusion-pricing-table .fusion-button.fusion-button-default-size{width:100%;border-radius:0}
+.fusion-pricing-table .fusion-button.fusion-button-default-size{margin-bottom:0;width:100%;border-radius:0}
 
 /* Botones */
 .button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
