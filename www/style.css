@@ -131,7 +131,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-megamenu-title a:not([href*='#']){cursor:pointer}
 
 /* Menú - Banderas */
-.country-flag li a span{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
+.country-flag a span{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
 .country-flag img[src*='flag-']{width:15px;height:15px}
 .country-flag .sub-menu img[src*='flag-']{width:13px;height:13px}
 
@@ -730,17 +730,20 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.mobile-only{display:inline-block!important}
 	body{font-size:18px;line-height:1.6}
 
+	html:not(.avada-has-site-width-percent) .tfs-slider .slide-content-container{padding-top:6em}
 	.tfs-slider .fusion-title h2{font-size:3rem!important}
 
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
 
 	.fusion-mobile-menu-design-modern .fusion-open-submenu{height:43px}
 	.fusion-open-submenu:before{content:'\f107'}
-	.fusion-mobile-menu-design-modern .fusion-header{padding-top:10px;padding-bottom:10px}
-	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder{padding-top:10px}
+	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
+	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item{font-size:18px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .fusion-mobile-nav-item a{padding-top:1.2em;padding-bottom:1.2em;border:none;letter-spacing:0!important;font-weight:400}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
+	.country-flag img[src*='flag-']{width:18px;height:18px}
+	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 
 	.fusion-body .fusion-title.fusion-sep-none .title-heading-right{text-align:left}
 
