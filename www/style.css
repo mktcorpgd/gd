@@ -430,7 +430,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit']{margin:0 auto;padding:.5rem .9rem;width:auto;height:auto;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
+.wpcf7-form input[type='submit']{margin:0 auto .5em;padding:.5rem .9rem;width:auto;height:auto;font-family:'open-sans','Font Awesome 6 Pro',sans-serif;font-weight:600;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
 .button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],
@@ -722,6 +722,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Mobile */
 @media (max-width:920px) {
+	
 	/* Ocultar */
 	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none!important}
 	/* Mostrar */
@@ -730,6 +731,9 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	/* General */
 	body{font-size:18px;line-height:1.6}
 	.modal-content{margin-left:1em;margin-right:1em}
+
+	/* Encabezados */
+	#main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.6em}
 
 	/* Slider */
 	.tfs-slider .fusion-title{margin-bottom:0!important}
