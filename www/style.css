@@ -729,11 +729,12 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.tfs-slider .fusion-title{margin-bottom:0!important}
 	.tfs-slider .fusion-title h2{font-size:2.6rem!important}
 
-	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
-
+	/* Menú */
 	.awb-icon-bars:before{content:'\f0c9'}
 	.fusion-open-submenu:before{content:'\f107'}
-	.awb-icon-bars[aria-expanded='true']:before,.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
+	.awb-icon-bars:before,.fusion-open-submenu:before{display:inline-block}
+	.awb-icon-bars[aria-expanded='true']:before{transform:rotate(90deg)}
+	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu{height:43px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
@@ -742,7 +743,14 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
+
+	/* Formularios */
+	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
+
+	/* Contenido */
 	.fusion-body .fusion-title.fusion-sep-none .title-heading-right{text-align:left}
+
+	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:4em}
 	#nav_menu-2>.widget-title{margin-top:2em}
 	.fusion-footer-widget-area ul li a{font-size:1.2em}
