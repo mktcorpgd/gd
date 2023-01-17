@@ -592,14 +592,14 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-gallery .fusion-gallery-column .fusion-gallery-image{border-radius:12px}
 
 /* Tabs */
-.fusion-tabs .nav ul,.fusion-filters,.fusion-tabs .nav-tabs li .tab-link,.fusion-filters li a{border:none!important}
+.fusion-tabs .nav ul,.fusion-filters,.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a{border:none!important}
 .fusion-tabs .nav ul,.fusion-filters{display:block;margin-bottom:2em;line-height:1.3;border-radius:6px 6px 12px 12px;box-shadow:0 2px 24px 0px rgba(0,0,0,.2);overflow:hidden}
-.fusion-tabs li,.fusion-filters li{background:#EAEAEA;font-family:var(--titleFont);text-align:center}
-.fusion-tabs li:hover,.fusion-filters li:hover{background:#FAFAFA}
-.fusion-tabs .nav-tabs li .tab-link,.fusion-filters li a{padding:.7em 1em;border-radius:0}
-.fusion-tabs .nav-tabs li .tab-link .fontawesome-icon{min-width:24px;text-align:center}
-.fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a{color:#555555;font-size:1rem}
-.fusion-tabs li.fusion-active,.fusion-tabs li.active,.fusion-filters li.fusion-active{background:var(--whiteColor)}
+.fusion-tabs .nav-tabs>li,.fusion-filters li{background:#EAEAEA;font-family:var(--titleFont);text-align:center}
+.fusion-tabs .nav-tabs>li:hover,.fusion-filters li:hover{background:#FAFAFA}
+.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a{padding:.7em 1em;border-radius:0}
+.fusion-tabs .nav-tabs>li .tab-link .fontawesome-icon{min-width:24px;text-align:center}
+.fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,.fusion-filters li a{color:#555555;font-size:1rem}
+.fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active{background:var(--whiteColor)}
 .fusion-filter.fusion-active a{line-height:inherit}
 .fusion-tab-link{cursor:pointer}
 .fusion-tabs.vertical-tabs .tab-pane{border-radius:6px 6px 12px 12px;border:2px solid #EAEAEA}
@@ -675,7 +675,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	/* Tabs */
 	.fusion-filters .fusion-filter{display:table-cell;float:none;width:1%}
 	.fusion-filters .fusion-filter a{line-height:1.15}
-	.fusion-tabs li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em}
+	.fusion-tabs .nav-tabs>li a,.fusion-tabs.clean .nav-tabs li .tab-link,.fusion-filters li a{padding:.8em .4em}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
 
 	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
