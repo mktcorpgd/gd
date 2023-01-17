@@ -669,7 +669,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-header{height:66px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
 	.header-transparent .hundred-percent-height{height:calc(100vh)!important}
-	body.customize-support .header-transparent .hundred-percent-height{height:calc(100vh - 32px)!important}
+	body.customize-support .header-transparent .hundred-percent-height{height:calc(100vh - 32px)!important;background-size:cover}
 	.header-transparent #main{padding:0!important}
 	.header-transparent #main>.fusion-row{max-width:100%}
 
