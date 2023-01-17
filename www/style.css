@@ -51,7 +51,10 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
-h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative;top:2px}
+h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative;top:2px;border:2px solid rgba(0,0,0,.1)}
+h3 img[src*='flag-']{width:20px;height:20px}
+h4 img[src*='flag-']{width:22px;height:22px}
+h5 img[src*='flag-']{width:24px;height:24px}
 .white .widget .widget-title,
 .white h1,.white h2,.white h3,.white h4,.white h5,.white h6,
 .white .fusion-text,.white .fusion-text a,
@@ -128,7 +131,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-megamenu-title a:not([href*='#']){cursor:pointer}
 
 /* Menú - Banderas */
-.country-flag.menu-item-has-children a span{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
+.country-flag.menu-item-has-children a span.menu-text{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
 .country-flag img[src*='flag-']{width:15px;height:15px}
 .country-flag .sub-menu img[src*='flag-']{width:13px;height:13px}
 
