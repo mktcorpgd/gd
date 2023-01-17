@@ -29,7 +29,8 @@ html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
 body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer,.landing #partners_footer,
 .fusion-footer-widget-area .widget_nav_menu li a:before,
 .pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,
-.modal.contacto-rapido .fusion-title-size-one,.modal.contacto-rapido .fusion-title-size-one+.fusion-title{display:none!important}
+.modal.contacto-rapido .fusion-title-size-one,.modal.contacto-rapido .fusion-title-size-one+.fusion-title,
+.modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info{display:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
@@ -48,7 +49,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:var(--whiteColor)}
-.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent{padding:0!important}
+.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative;top:2px;border:2px solid rgba(0,0,0,.1)}
