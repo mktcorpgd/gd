@@ -310,7 +310,7 @@ div.wpcf7:before{display:block;margin-top:-.6em;width:100%;margin-bottom:5px;fon
 div.wpcf7>form p{margin-top:0;margin-right:1em}
 .fusion-one-full div.wpcf7{max-width:500px}
 .wpcf7 input:not([type='submit']):not([type='checkbox']),.wpcf7-select-parent .wpcf7-select,.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password'],#main .searchform .fusion-search-form-content .fusion-search-field input,.pac_input{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:var(--textColor);border:1px solid #CCCCCC;border-radius:6px;background:#FAFAFA;font-size:.9em;font-weight:400;z-index:1}
+#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password'],#main .searchform .fusion-search-form-content .fusion-search-field input,#pac{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:var(--textColor);border:1px solid #CCCCCC;border-radius:6px;background:#FAFAFA;font-size:.9em;font-weight:400;z-index:1}
 .wpcf7 input:not([type='submit']):hover,.wpcf7-select-parent .wpcf7-select:hover,.wpcf7 textarea:hover,
 #respond input:not([type='submit']):hover,#respond textarea:hover,.post-password-form input[type='password']:hover{background:var(--whiteColor);border-color:#999999}
 .wpcf7 input:not([type='submit']):focus,.wpcf7-select-parent .wpcf7-select:focus,.wpcf7 textarea:focus,
@@ -490,7 +490,7 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 .fusion-google-map .infoBox .fusion-info-box a{display:inline-block;color:var(--whiteColor)}
 .fusion-google-map div[role='button']{width:32px;height:32px}
 .pac-item-query{font-size:1em}
-.pac_input{margin:.6em 5%;width:90%;font-size:1.4em;background-color:var(--whiteColor);box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
+#pac{margin:.6em 5%;width:90%;font-size:1.4em;background-color:var(--whiteColor);box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
 .pac-container{border-radius:0 12px 12px 0;box-shadow:0 0 24px rgba(0,0,0,.2)}
 .controls.pac-target-input.warning,.controls.pac-target-input.sent{font-weight:bold}
 .controls.pac-target-input.warning{border-color:var(--warningColor);background:var(--warningColor);color:var(--whiteColor)}
