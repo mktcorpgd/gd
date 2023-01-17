@@ -490,6 +490,8 @@ article.fusion-post-grid.has-post-thumbnail[class*='noticias'][class*='tag-'] .f
 .fusion-google-map .infoBox .fusion-info-box a{display:inline-block;color:var(--whiteColor)}
 .fusion-google-map div[role='button']{width:32px;height:32px}
 .gmap{height:300px;border-radius:12px}
+.gmap.sent{border:2px solid --successColor}
+.gmap.sent{border:2px solid --successColor}
 #pac{margin:.6em 5%;width:90%;font-size:1.4em;background-color:var(--whiteColor);box-shadow:0 0 16px rgba(0,0,0,.3);text-align:center;text-overflow:ellipsis}
 .pac-container{margin-top:.25em;border-radius:6px 6px 12px 12px;box-shadow:0 0 24px rgba(0,0,0,.2)}
 .pac-item{padding:.2em .8em;font-size:.8em;font-family:var(--textFont);border-top: 1px solid #EAEAEA;cursor:pointer}

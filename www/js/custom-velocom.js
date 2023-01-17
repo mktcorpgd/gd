@@ -223,18 +223,18 @@ if ( jQuery('body').hasClass('postid-25656') || jQuery('body').hasClass('page-id
 				jQuery('input[name=COBERTURA_MSG]').val(cobertura_msg_ok);
 				jQuery('.wpcf7-response-inner').remove();
 				jQuery(address_msg_ok).insertAfter('input.controls');
-				jQuery(address_msg_ok).insertBefore('#mapvf-cobertura');
+				jQuery(address_msg_ok).insertBefore('.gmap');
 				jQuery(button_contact).appendTo('.fusion-title+.wpcf7-response-inner');
-				jQuery('.pac_input,#mapvf-cobertura').removeClass('warning').addClass('sent');
+				jQuery('.pac_input,.gmap').removeClass('warning').addClass('sent');
 			}
 			else {
 				jQuery('input[name=COBERTURA_STATUS]').val(cobertura_status_error);
 				jQuery('input[name=COBERTURA_MSG]').val(cobertura_msg_error);
 				jQuery('.wpcf7-response-inner').remove();
 				jQuery(address_msg_error).insertAfter('.pac_input');
-				jQuery(address_msg_error).insertBefore('#mapvf-cobertura');
+				jQuery(address_msg_error).insertBefore('.gmap');
 				jQuery(button_contact).appendTo('.fusion-title+.wpcf7-response-inner');
-				jQuery('.pac_input,#mapvf-cobertura').removeClass('sent').addClass('warning');
+				jQuery('.pac_input,.gmap').removeClass('sent').addClass('warning');
 			}
 			var input_value = jQuery('input.controls.active').val();
 			jQuery('input.controls:not(.active)').val(input_value);
