@@ -19,7 +19,6 @@ body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .fusion-portfolio-meta a[href*='/c-solo-contacto'],.fusion-portfolio-content .fusion-portfolio-meta a:not([href*='flag-']),
 .c-solo-contacto .more-link,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,.fusion-portfolio-content .fusion-text~p .more-link,
 .fusion-sharing-box h4,
-#wrapper:not(.country-flag) .country-flag.hidden,
 .fusion-megamenu-bullet,
 .no-title .widget-title,
 body.single article.post.format-link .fusion-post-slideshow,body.single .fusion-post-title-meta-wrap,
@@ -129,7 +128,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-megamenu-title a:not([href*='#']){cursor:pointer}
 
 /* Menú - Banderas */
-.country-flag a span{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
+.country-flag.menu-item-has-children a span{display:grid;grid-template-columns:1.5em 1fr;align-items:center}
 .country-flag img[src*='flag-']{width:15px;height:15px}
 .country-flag .sub-menu img[src*='flag-']{width:13px;height:13px}
 
