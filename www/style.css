@@ -659,6 +659,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Desktop */
 @media (min-width:920px) {
+
+	/* General */
 	.white-space-nowrap .fusion-toggle-heading{white-space:nowrap}
 
 	/* Header */
@@ -712,22 +714,19 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-portfolio article .more-info.open i{transform:rotate(180deg)}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:.5em}
+
 }
 
 /* Mobile */
 @media (max-width:920px) {
-	
-	/* Ocultar */
+
+	/* Ocultar/Mostrar */
 	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none!important}
-	/* Mostrar */
 	.mobile-only{display:inline-block!important}
 	
 	/* General */
 	body{font-size:18px;line-height:1.6}
 	.modal-content{margin-left:1em;margin-right:1em}
-
-	/* Encabezados */
-	#main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.6em}
 
 	/* Slider */
 	.tfs-slider .fusion-title{margin-bottom:0!important}
@@ -760,4 +759,5 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
 	.fusion-footer-widget-area ul li a{font-size:1.2em}
 	#partners_footer .fusion-layout-column{padding:1em;width:50%!important}
+
 }
