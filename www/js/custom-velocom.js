@@ -78,16 +78,13 @@ for (var i = 0; i < inputs_address.length; i++) {
 	});
 }
 var selected = false;
-jQuery('.address_maps').on('focus', function() {
-	if( selected != true ) {
-		selected = false;
-	}
+jQuery('.address_maps').on('focus',function() {
+	selected = false;
+	var cur_value = jQuery(this).val();
+	jQuery(this).data('cur_value',cur_value);
 }).on('blur', function() {
-	if ( selected == false ) {
-		jQuery(this).val('');
-	}
-	if ( jQuery(this).val().length == 0 ) {
-		selected = false;
+	if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
+		jQuery(this).val('').removeClass('filled').siblings('a').remove();
 	}
 });
 
