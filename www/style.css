@@ -698,19 +698,20 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
 	.fusion-widget-area.sticky{position:sticky;top:120px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
-	.fusion-pricingtable-column.standout .panel-container{padding:0!important;top:45px}
+
+	/* Precios */
+	.fusion-pricingtable-column.standout .panel-container{padding:0!important;top:25px}
 	.fusion-pricingtable-column:not(.standout) .panel-container{margin-top:2em}
 	
 	/* Portfolio */
-	.fusion-portfolio article.expanded{height:auto!important}
+	.fusion-portfolio article.expanded,.fusion-portfolio article.expanded .fusion-post-content,.fusion-portfolio article.expanded .fusion-col-spacing,.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
 	.fusion-portfolio article:not(.expanded) .fusion-buttons{margin:0;padding:0;opacity:0;height:0;overflow:hidden}
 	.fusion-portfolio article.expanded .fusion-buttons{opacity:1;height:auto}
 	.fusion-portfolio article.opacity:not(.expanded){opacity:.6;pointer-events:none}
 	.fusion-portfolio article:not(.expanded) .fusion-post-content{height:0;overflow:hidden}
 	.fusion-portfolio article:not(.expanded) .fusion-post-content *{opacity:0}
-	.fusion-portfolio article.expanded .fusion-post-content,.fusion-portfolio article.expanded .fusion-col-spacing,.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
 	.fusion-portfolio article .wp-video-shortcode.mejs-video{margin-bottom:.4em}
-	.fusion-portfolio article .more-info{display:block!important;padding:0 1rem .5rem;cursor:pointer;color:#555555;font-family:var(--textColor),var(--iconFont),sans-serif;font-weight:600}
+	.fusion-portfolio article .more-info{display:block;padding:0 1rem .5rem;cursor:pointer;color:#555555;font-family:var(--textColor),var(--iconFont),sans-serif;font-weight:600}
 	.fusion-portfolio article .more-info.open{padding-bottom:0}
 	.fusion-portfolio article .more-info.open i{transform:rotate(180deg)}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90}
@@ -722,8 +723,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 @media (max-width:920px) {
 
 	/* Ocultar/Mostrar */
-	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none!important}
-	.mobile-only{display:inline-block!important}
+	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none}
+	.mobile-only{display:inline-block}
 	
 	/* General */
 	body{font-size:18px;line-height:1.6}
