@@ -316,8 +316,8 @@ jQuery(document).ready(function() {
 
 	}
 
-	// CONTENIDO - Mostrar mes actual en legales
-	if ( jQuery('#legales').length ) {
+	// CONTENIDO - Mostrar mes actual
+	if ( jQuery('.cur_month').length ) {
 		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 		const d = new Date();
 		var getDaysInMonth = function(month,year) {
@@ -326,9 +326,9 @@ jQuery(document).ready(function() {
 		var lastday = getDaysInMonth(d.getMonth()+1,d.getFullYear());
 		var cur_month = monthNames[d.getMonth()];
 		var cur_year = new Date().getFullYear();
-		jQuery('#legales .cur_month').text(cur_month);
-		jQuery('#legales .cur_year').text(cur_year);
-		jQuery('#legales .last_day').text(lastday);
+		jQuery('.cur_month').text(cur_month);
+		jQuery('.cur_year').text(cur_year);
+		jQuery('.last_day').text(lastday);
 	}
 
 
@@ -358,7 +358,7 @@ jQuery(document).ready(function() {
 	}
 
 
-	// FORMULARIOS - Si existe: asignar nuevo responsable
+	// FORMULARIOS - Si existe #RESP: asignar nuevo responsable
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
 		new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
@@ -371,7 +371,7 @@ jQuery(document).ready(function() {
 	}	
 
 
-	// FORMULARIOS - Si existe: asignar copiar oculta
+	// FORMULARIOS - Si existe #RESP_BCC: asignar responsable en copiar oculta
 	if ( jQuery('#RESP_BCC').length ) {
 		var new_resps = '';
 		jQuery('#RESP_BCC a').each(function(i) {
@@ -384,12 +384,6 @@ jQuery(document).ready(function() {
 	}
 
 	
-	// FORMULARIOS - Si existe: asignar copiar oculta
-	if ( jQuery('body.single-avada_portfolio').length ) {
-		jQuery('input[name="BREADCRUMB"]').val(jQuery('.fusion-breadcrumbs').text());
-	}
-	
-
 	// FORMULARIOS - Abrir formulario de contacto
 	if ( window.location.href.indexOf('#contacto') > -1 ) {
 		jQuery('#open-contacto-rapido').trigger('click');
@@ -460,12 +454,9 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Guardar URL y título en inputs
+	// FORMULARIOS - Guardar título y URL en inputs
 	if ( jQuery('input[name="TITLE"]').length ) {
-		var entry_title = jQuery('.entry-title:first').text();
-		jQuery('input[name="TITLE"]').each(function() {
-			jQuery(this).attr('value',entry_title);
-		});
+		jQuery('input[name="TITLE"]').val(document.title);
 	}
 	if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
 		if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
@@ -475,11 +466,15 @@ jQuery(document).ready(function() {
 			jQuery('input[name="HREF"]').val(window.location.href);
 		}
 	}
-	// Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
-	if ( jQuery('body').hasClass('page-id-42955') || jQuery('body').hasClass('page-id-26163') || jQuery('body').hasClass('page-id-39457') || jQuery('body').hasClass('page-id-39485') || jQuery('body').hasClass('page-id-26159') || jQuery('body').hasClass('page-id-26161') || jQuery('body').hasClass('page-id-26165') ) {
+
+
+	// AUTOMATION Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
+	if ( jQuery('.isUN').length ) {
 		var src_input = jQuery('input[name*="SRC"]').val();
 		jQuery('input[name*="SRC"]').val(src_input+'+UN');
 	}
+
+
 	// Asignar orígen de lead
 	var site_id = jQuery('body').attr('class');
 	site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
