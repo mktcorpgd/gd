@@ -608,7 +608,7 @@ jQuery(document).ready(function() {
 
 	// MODAL - Trasladar nombre de producto/servicio a ventana modal
 	jQuery('.fusion-portfolio-post .fusion-button').on('click',function(e) {
-		var title_post = jQuery(this).text();
+		var title_post = jQuery(this).closest('h2 a').text();
 		if ( jQuery(this).attr('data-target') == '.fusion-modal.demo' ) {
 			if ( lang == 'es' ) {
 				modal_title_lang = 'Solicitar demo gratuita para';
