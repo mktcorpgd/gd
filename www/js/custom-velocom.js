@@ -84,7 +84,7 @@ jQuery('.address_maps').on('focus',function() {
 	jQuery(this).data('cur_value',cur_value);
 }).on('blur', function() {
 	if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
-		jQuery(this).val('').removeClass('filled').siblings('a').remove();
+		jQuery(this).val('');
 	}
 });
 
