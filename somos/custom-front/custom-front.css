@@ -658,6 +658,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
 .widget .sc-button.small{padding:.3em .6em}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
+.sc-button+.sc-button,button+button{margin-right:0}
 #content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
