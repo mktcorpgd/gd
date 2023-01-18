@@ -608,8 +608,6 @@ jQuery(document).ready(function() {
 
 	// MODAL - Trasladar nombre de producto/servicio a ventana modal
 	jQuery('.fusion-portfolio-post .fusion-modal-text-link').on('click',function(e) {
-		var title_post = jQuery(this).parent().parent().find('h2 a').text();
-		console.log(title_post);
 		if ( jQuery(this).attr('data-target') == '.fusion-modal.demo' ) {
 			if ( lang == 'es' ) {
 				modal_title_lang = 'Solicitar demo gratuita para';
@@ -632,6 +630,7 @@ jQuery(document).ready(function() {
 				modal_title_lang = 'Contato para';
 			}
 		}
+		var title_post = jQuery(this).parent().parent().find('h2 a').text();
 		jQuery('input[name="TITLE"]').val(title_post);
 		jQuery('.fusion-modal .modal-title').html(modal_title_lang+' <span>'+title_post+'</span>');
 		e.preventDefault();
