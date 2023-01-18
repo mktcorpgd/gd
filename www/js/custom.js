@@ -607,16 +607,8 @@ jQuery(document).ready(function() {
 
 
 	// MODAL - Trasladar nombre de producto/servicio a ventana modal
-	jQuery('.button-right.fusion-modal-text-link,.entry-title .fusion-modal-text-link,.fusion-image-wrapper .fusion-modal-text-link').on('click',function(e) {
-		if ( jQuery(this).hasClass('button-right') ) {
-			var title_post = jQuery(this).parent().parent().parent().find('h2 a').text();
-		}
-		else {
-			var title_post = jQuery(this).text();
-		}
-		if ( jQuery(this).parent().hasClass('fusion-image-wrapper') ) {
-			var title_post = jQuery(this).attr('aria-label');
-		}
+	jQuery('.fusion-portfolio-post .fusion-button').on('click',function(e) {
+		var title_post = jQuery(this).text();
 		if ( jQuery(this).attr('data-target') == '.fusion-modal.demo' ) {
 			if ( lang == 'es' ) {
 				modal_title_lang = 'Solicitar demo gratuita para';
@@ -641,8 +633,6 @@ jQuery(document).ready(function() {
 		}
 		jQuery('input[name="TITLE"]').val(title_post);
 		jQuery('.fusion-modal .modal-title').html(modal_title_lang+' <span>'+title_post+'</span>');
-		var mail_href = jQuery('#boxed-wrapper~.modal .wpcf7 .fusion-one-full>a:not(.CF7-phone)').attr('href');
-		jQuery('#boxed-wrapper~.modal .wpcf7 .fusion-one-full>a:not(.CF7-phone)').attr('href',mail_href+'?subject=Contacto desde '+window.location);
 		e.preventDefault();
 	});
 
