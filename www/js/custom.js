@@ -95,15 +95,6 @@ document.addEventListener('wpcf7submit', function(e) {
 }, false);
 
 
-// PARA EVENTOS:
-if ( window.location.href.indexOf('/eventos/') > -1 ) {
-
-	if ( window.location.href.indexOf('#registrarme') > -1 ) {
-		jQuery('#registrarme input[name*="FNAME"]').focus();
-	}
-
-}
-
 // Menú transparente
 function scrollHeaderTransp() {
 	var scroll = jQuery(window).scrollTop();
@@ -656,28 +647,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// PESTAÑAS - Si tiene #tab en la URL, scrollear hasta las pestañas
-	if ( window.location.href.indexOf('#tab') > -1 ) {
-		if ( jQuery(window).width() < 920 ) {
-			jQuery('html,body').animate({
-				scrollTop: jQuery('.fusion-tabs-1').offset().top-200
-			},1000);
-			var tab_hash = window.location.href;
-			tab_hash = tab_hash.substring(tab_hash.indexOf('#'),tab_hash.length);
-			if ( tab_hash.indexOf('?') > -1 ) {
-				tab_hash = tab_hash.substring(0,tab_hash.indexOf('?'));
-			}
-			jQuery('.fusion-mobile-tab-nav').removeClass('hide-tab-pane');
-			jQuery(tab_hash).trigger('click');
-		}
-		else {
-			jQuery('html,body').animate({
-				scrollTop: jQuery('.fusion-tabs-1').offset().top-350
-			},1000);
-		}
-	}
-
-
 	// FOOTER - Mover bloque de partners
 	if ( jQuery('#partners_footer').length && !jQuery('body').hasClass('page-id-45066') ) {
 		jQuery('#partners_footer').insertBefore('.fusion-footer-widget-area');
@@ -689,48 +658,14 @@ jQuery(document).ready(function() {
 	jQuery('.fusion-copyright-notice span.cur_year').text((new Date).getFullYear());
 
 
-	// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
+	// PRECIOS - Cambiar comas por puntos
 	if ( jQuery('.fusion-pricing-table').length ) {
-		jQuery('.fusion-pricingtable-column .fusion-panel').click(function(e) {
-			var title_pricing = jQuery(this).find('.panel-heading .title-row').text();
-			if ( jQuery('select[name="TITLE"]').length ) {
-				jQuery('select[name="TITLE"]').val(title_pricing);
-			}
-			if ( jQuery('select[name="SPEED"]').length ) {
-				var speed_pricing = title_pricing.substring(title_pricing.indexOf('Internet ')+9,title_pricing.length);
-				jQuery('select[name="SPEED"]').val(speed_pricing);
-			}
-			if ( jQuery('select[name="SERVICE"]').length ) {
-				jQuery('select[name="SERVICE"]').val(title_pricing);
-			}
-			// Velocom
-			if ( jQuery('body').hasClass('site-id-6') && jQuery('body').hasClass('single-avada_portfolio') ) {
-				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
-				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-				if ( lugar_class != 'null' ) {
-					title_pricing = title_pricing+' en '+lugar_name;
-				}
-			}
-			jQuery(".fusion-modal[class*='contacto-rapido-internet'] .modal-title").text(title_pricing);	
-		});
 		jQuery('.integer-part').each(function() {
 			var text = jQuery(this).text();
 			jQuery(this).text(text.replace(',','.')); 
 		});
 
 	}
-
-
-	// PRECIOS - Si tiene "--" tachar fila y bajar opacidad
-	jQuery('.list-group-item').each(function(i){
-		if ( jQuery(this).text().indexOf('–') > -1 ) {
-			jQuery(this).text(jQuery(this).text().substring(1,jQuery(this).text().length));
-			jQuery(this).css({
-				'text-decoration':'line-through',
-				'opacity':0.6
-			});
-		}
-	});
 
 
 });
