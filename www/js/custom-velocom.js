@@ -1,16 +1,8 @@
-// Función para normalizar textos
-var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
-
-
 // HEADER - Transformar teléfonos en link:
 jQuery('.fusion-contact-info-phone-number').each(function(i) {
 	var value = jQuery(this).text();
 	jQuery(this).html('<a href="tel:'+value+'">'+value+'</a>');
 });
-
-
-// GENERAL - Función para obtener variables GET
-jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
 
 
 // CONTENIDO - Página dinámica para servicio de internet
@@ -78,7 +70,10 @@ for (var i = 0; i < inputs_address.length; i++) {
 	});
 }
 var selected = false;
-jQuery('.address_maps').on('focus',function() {
+
+
+// Limpiar campo de dirección si no se selecciona un resultado
+jQuery('.address_maps,.pac_input').on('focus',function() {
 	selected = false;
 	var cur_value = jQuery(this).val();
 	jQuery(this).data('cur_value',cur_value);
@@ -90,7 +85,7 @@ jQuery('.address_maps').on('focus',function() {
 
 
 // velocomfibra.com.ar
-if ( jQuery('body').hasClass('postid-25656') || jQuery('body').hasClass('page-id-25050') ) {
+if ( jQuery('body').hasClass('postid-25656') ) {
 	
 	// MAPA DE COBERTURA
 	var map;
