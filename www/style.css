@@ -345,7 +345,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-free-text{margin-top:10px}
 .wpcf7-free-text:not([disabled]){display:block}
 .wpcf7-not-valid:not(.highlight),.white .fusion-layout-column .wpcf7-not-valid:not(.highlight){background:var(--whiteColor)}
-.wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:var(--titleFont);line-height:1.5;font-weight:400;border-radius:3px;background:rgba(255,255,255,.6);color:var(--warningColor);font-size:.65em;z-index:1}
+.wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:var(--titleFont);line-height:1.5;font-weight:400;border-radius:3px;background:rgba(255,255,255,.6);color:var(--errorColor);font-size:.65em;z-index:1}
 .wpcf7-not-valid-tip:hover{background:rgba(255,255,255,.9)}
 .highlight+.wpcf7-not-valid-tip{background:rgba(255,255,255,.9)}
 .fusion-one-half .wpcf7-not-valid-tip{right:10px}
@@ -361,8 +361,8 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em}
 .fusion-title+.wpcf7-response-inner{border-bottom-left-radius:0;border-bottom-right-radius:0}
 .wpcf7 .wpcf7-form.failed .wpcf7-response-output,.wpcf7 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7 .wpcf7-form.spam .wpcf7-response-output,.wpcf7 .wpcf7-form.unaccepted .wpcf7-response-output{background-color:var(--errorColor);color:var(--whiteColor)}
-.wpcf7 form.sent div.wpcf7-response-output,.wpcf7-response-inner.sent{background-color:var(--successColor);color:var(--whiteColor)}
-.wpcf7-response-inner.warning,.wpcf7 form div.wpcf7-response-output.info{background-color:#F1B500;color:var(--whiteColor)}
+.wpcf7 .wpcf7-form.sent .wpcf7-response-output{background-color:var(--successColor);color:var(--whiteColor)}
+.wpcf7-response-inner.warning,.wpcf7 form div.wpcf7-response-output.info{background-color:var(--warningColor);color:var(--whiteColor)}
 .wpcf7 form div.wpcf7-response-output.info{margin:0 0 5px;padding:4px}
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600;color:var(--successColor);background:var(--whiteColor);border-color:var(--whiteColor)}
