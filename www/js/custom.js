@@ -384,12 +384,6 @@ jQuery(document).ready(function() {
 	}
 
 	
-	// FORMULARIOS - Si existe: asignar copiar oculta
-	if ( jQuery('body.single-avada_portfolio').length ) {
-		jQuery('input[name="BREADCRUMB"]').val(jQuery('.fusion-breadcrumbs').text());
-	}
-	
-
 	// FORMULARIOS - Abrir formulario de contacto
 	if ( window.location.href.indexOf('#contacto') > -1 ) {
 		jQuery('#open-contacto-rapido').trigger('click');
@@ -492,54 +486,46 @@ jQuery(document).ready(function() {
 	idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
 	idform = idform.substring(0,idform.indexOf('-'));
 	var src = jQuery('input[name*="SRC"]').val();
-	if ( site_id == 1 ) { // GD - grupodatco.com
-		if ( page_id == 43399 ) { // IOP
+	if ( site_id == 1 ) { // grupodatco.com
+		if ( page_id == 43399 ) { // /iop
 			leadmkt = 'IOP';
 		}
-		else if ( page_id == 23431 ) { // IOT
+		else if ( page_id == 23431 ) { // /iot
 			leadmkt = 'IOT';
 		}
-		else if ( page_id == 26159 ) { // DSW
+		else if ( page_id == 26159 ) { // /soluciones-tecnologicas
 			leadmkt = 'DSW';
 		}
-		else if ( page_id == 26163 ) { // DIT
+		else if ( page_id == 26163 ) { // /datco-infraestructura 
 			leadmkt = 'DIT';
 		}
-		else if ( page_id == 26159 ) { // F
+		else if ( page_id == 26159 ) { // /focus
 			leadmkt = 'F';
 		}
-		else if ( page_id == 26161 ) { // I
+		else if ( page_id == 26161 ) { // /interservices
 			leadmkt = 'I';
 		}
-		else if ( page_id == 26165 ) { // ST
+		else if ( page_id == 26165 ) { // /sersat
 			leadmkt = 'ST';
 		}
 		else {
 			leadmkt = 'GD';
-			jQuery('input[name*="SRC"]').val(src);	
 		}
 	}
 	else if ( site_id == 5 ) { // silicanetworks.com
 		leadmkt = 'SCO'
-		jQuery('input[name*="SRC"]').val(src);
-	}
-	else if ( site_id == 16 ) { // smartime.com.ar
-		leadmkt = 'IOP';
 	}
 	else if ( site_id == 25 ) { // baitcon.com
 		leadmkt = 'B';
-		jQuery('input[name*="SRC"]').val(src);	
 	}
-	else if ( site_id == 26 ) { // redcapricornio.net
-		leadmkt = 'SIT';
-	}
-	else if ( site_id == 28 ) { // velocomfibra.com.ar
+	else if ( site_id == 6 ) { // velocom.com.ar
 		leadmkt = 'V';
 	}
 	else {
 		leadmkt = 'GD';
 	}
-	jQuery('input[name=LEADMKT]').val('MKT-'+leadmkt);
+	jQuery('input[name*="SRC"]').val(src);	
+	jQuery('input[name="LEADMKT"]').val('MKT-'+leadmkt);
 
 
 	// FORMULARIOS - Limpiar espacios iniciales y finales al cambiar/salir de campo (blur)
