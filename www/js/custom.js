@@ -1,6 +1,9 @@
 // GENERAL - Función para obtener variables GET
 jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
 
+// GENERAL - Función para normalizar textos
+var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
+
 // FORMULARIOS - Ejecutar al confirmar envío de mail
 document.addEventListener('wpcf7mailsent', function(e) {
 
@@ -94,15 +97,6 @@ document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
 
-
-// PARA EVENTOS:
-if ( window.location.href.indexOf('/eventos/') > -1 ) {
-
-	if ( window.location.href.indexOf('#registrarme') > -1 ) {
-		jQuery('#registrarme input[name*="FNAME"]').focus();
-	}
-
-}
 
 // Menú transparente
 function scrollHeaderTransp() {
@@ -316,8 +310,8 @@ jQuery(document).ready(function() {
 
 	}
 
-	// CONTENIDO - Mostrar mes actual en legales
-	if ( jQuery('#legales').length ) {
+	// CONTENIDO - Mostrar mes actual
+	if ( jQuery('.cur_month').length ) {
 		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 		const d = new Date();
 		var getDaysInMonth = function(month,year) {
@@ -326,9 +320,9 @@ jQuery(document).ready(function() {
 		var lastday = getDaysInMonth(d.getMonth()+1,d.getFullYear());
 		var cur_month = monthNames[d.getMonth()];
 		var cur_year = new Date().getFullYear();
-		jQuery('#legales .cur_month').text(cur_month);
-		jQuery('#legales .cur_year').text(cur_year);
-		jQuery('#legales .last_day').text(lastday);
+		jQuery('.cur_month').text(cur_month);
+		jQuery('.cur_year').text(cur_year);
+		jQuery('.last_day').text(lastday);
 	}
 
 
@@ -358,7 +352,7 @@ jQuery(document).ready(function() {
 	}
 
 
-	// FORMULARIOS - Si existe: asignar nuevo responsable
+	// FORMULARIOS - Si existe #RESP: asignar nuevo responsable
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
 		new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
@@ -371,7 +365,7 @@ jQuery(document).ready(function() {
 	}	
 
 
-	// FORMULARIOS - Si existe: asignar copiar oculta
+	// FORMULARIOS - Si existe #RESP_BCC: asignar responsable en copiar oculta
 	if ( jQuery('#RESP_BCC').length ) {
 		var new_resps = '';
 		jQuery('#RESP_BCC a').each(function(i) {
@@ -454,12 +448,9 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Guardar URL y título en inputs
+	// FORMULARIOS - Guardar título y URL en inputs
 	if ( jQuery('input[name="TITLE"]').length ) {
-		var entry_title = jQuery('.entry-title:first').text();
-		jQuery('input[name="TITLE"]').each(function() {
-			jQuery(this).attr('value',entry_title);
-		});
+		jQuery('input[name="TITLE"]').val(document.title);
 	}
 	if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
 		if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
@@ -469,11 +460,15 @@ jQuery(document).ready(function() {
 			jQuery('input[name="HREF"]').val(window.location.href);
 		}
 	}
-	// Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
-	if ( jQuery('body').hasClass('page-id-42955') || jQuery('body').hasClass('page-id-26163') || jQuery('body').hasClass('page-id-39457') || jQuery('body').hasClass('page-id-39485') || jQuery('body').hasClass('page-id-26159') || jQuery('body').hasClass('page-id-26161') || jQuery('body').hasClass('page-id-26165') ) {
+
+
+	// AUTOMATION Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
+	if ( jQuery('.isUN').length ) {
 		var src_input = jQuery('input[name*="SRC"]').val();
 		jQuery('input[name*="SRC"]').val(src_input+'+UN');
 	}
+
+
 	// Asignar orígen de lead
 	var site_id = jQuery('body').attr('class');
 	site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
@@ -607,16 +602,7 @@ jQuery(document).ready(function() {
 
 
 	// MODAL - Trasladar nombre de producto/servicio a ventana modal
-	jQuery('.button-right.fusion-modal-text-link,.entry-title .fusion-modal-text-link,.fusion-image-wrapper .fusion-modal-text-link').on('click',function(e) {
-		if ( jQuery(this).hasClass('button-right') ) {
-			var title_post = jQuery(this).parent().parent().parent().find('h2 a').text();
-		}
-		else {
-			var title_post = jQuery(this).text();
-		}
-		if ( jQuery(this).parent().hasClass('fusion-image-wrapper') ) {
-			var title_post = jQuery(this).attr('aria-label');
-		}
+	jQuery('.fusion-portfolio-post .fusion-modal-text-link').on('click',function(e) {
 		if ( jQuery(this).attr('data-target') == '.fusion-modal.demo' ) {
 			if ( lang == 'es' ) {
 				modal_title_lang = 'Solicitar demo gratuita para';
@@ -639,34 +625,11 @@ jQuery(document).ready(function() {
 				modal_title_lang = 'Contato para';
 			}
 		}
+		var title_post = jQuery(this).parent().parent().find('h2 a').text();
 		jQuery('input[name="TITLE"]').val(title_post);
 		jQuery('.fusion-modal .modal-title').html(modal_title_lang+' <span>'+title_post+'</span>');
-		var mail_href = jQuery('#boxed-wrapper~.modal .wpcf7 .fusion-one-full>a:not(.CF7-phone)').attr('href');
-		jQuery('#boxed-wrapper~.modal .wpcf7 .fusion-one-full>a:not(.CF7-phone)').attr('href',mail_href+'?subject=Contacto desde '+window.location);
 		e.preventDefault();
 	});
-
-
-	// PESTAÑAS - Si tiene #tab en la URL, scrollear hasta las pestañas
-	if ( window.location.href.indexOf('#tab') > -1 ) {
-		if ( jQuery(window).width() < 920 ) {
-			jQuery('html,body').animate({
-				scrollTop: jQuery('.fusion-tabs-1').offset().top-200
-			},1000);
-			var tab_hash = window.location.href;
-			tab_hash = tab_hash.substring(tab_hash.indexOf('#'),tab_hash.length);
-			if ( tab_hash.indexOf('?') > -1 ) {
-				tab_hash = tab_hash.substring(0,tab_hash.indexOf('?'));
-			}
-			jQuery('.fusion-mobile-tab-nav').removeClass('hide-tab-pane');
-			jQuery(tab_hash).trigger('click');
-		}
-		else {
-			jQuery('html,body').animate({
-				scrollTop: jQuery('.fusion-tabs-1').offset().top-350
-			},1000);
-		}
-	}
 
 
 	// FOOTER - Mover bloque de partners
@@ -680,48 +643,14 @@ jQuery(document).ready(function() {
 	jQuery('.fusion-copyright-notice span.cur_year').text((new Date).getFullYear());
 
 
-	// PRECIOS - Al clickear botón de tabla de precios abrir ventana modal de contacto y copiar título
+	// PRECIOS - Cambiar comas por puntos
 	if ( jQuery('.fusion-pricing-table').length ) {
-		jQuery('.fusion-pricingtable-column .fusion-panel').click(function(e) {
-			var title_pricing = jQuery(this).find('.panel-heading .title-row').text();
-			if ( jQuery('select[name="TITLE"]').length ) {
-				jQuery('select[name="TITLE"]').val(title_pricing);
-			}
-			if ( jQuery('select[name="SPEED"]').length ) {
-				var speed_pricing = title_pricing.substring(title_pricing.indexOf('Internet ')+9,title_pricing.length);
-				jQuery('select[name="SPEED"]').val(speed_pricing);
-			}
-			if ( jQuery('select[name="SERVICE"]').length ) {
-				jQuery('select[name="SERVICE"]').val(title_pricing);
-			}
-			// Velocom
-			if ( jQuery('body').hasClass('site-id-6') && jQuery('body').hasClass('single-avada_portfolio') ) {
-				var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
-				var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-				if ( lugar_class != 'null' ) {
-					title_pricing = title_pricing+' en '+lugar_name;
-				}
-			}
-			jQuery(".fusion-modal[class*='contacto-rapido-internet'] .modal-title").text(title_pricing);	
-		});
 		jQuery('.integer-part').each(function() {
 			var text = jQuery(this).text();
 			jQuery(this).text(text.replace(',','.')); 
 		});
 
 	}
-
-
-	// PRECIOS - Si tiene "--" tachar fila y bajar opacidad
-	jQuery('.list-group-item').each(function(i){
-		if ( jQuery(this).text().indexOf('–') > -1 ) {
-			jQuery(this).text(jQuery(this).text().substring(1,jQuery(this).text().length));
-			jQuery(this).css({
-				'text-decoration':'line-through',
-				'opacity':0.6
-			});
-		}
-	});
 
 
 });
