@@ -243,10 +243,6 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-t
 body.single-format-standard:not(.single-avada_portfolio) article.category-blog .post-content .fusion-text:first-of-type>h3.cta{margin-top:30px;font-size:2em}
 body.single-format-standard:not(.single-avada_portfolio) #sidebar h3.cta{margin-top:0;font-size:1.8em;line-height:1.15!important}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
-.single-avada_portfolio .suite .fusion-one-third .fusion-text p{font-size:.8em}
-.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-4,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-5,.single-avada_portfolio .suite .fusion-column-content-centered .fusion-text-6{top:-15px}
-.single-avada_portfolio .suite .fusion-imageframe img[src*='svg']{width:90%}
-.single-avada_portfolio .suite .fusion-text a{font-size:1em}
 .fusion-image-switch-after.visible{opacity:1!important}
 
 /* Recursos */
