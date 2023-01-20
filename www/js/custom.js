@@ -475,9 +475,6 @@ jQuery(document).ready(function() {
 		var post_id = jQuery('body').attr('class');
 		post_id = post_id.substr(post_id.indexOf('postid-')+7,5);
 		post_id = post_id.trim();
-		var idform = jQuery('.wpcf7').attr('id');
-		idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
-		idform = idform.substring(0,idform.indexOf('-'));
 		var leadmkt = '';
 		if ( site_id == 1 ) { // grupodatco.com
 			if ( page_id == 43399 ) { // /iop
@@ -520,7 +517,7 @@ jQuery(document).ready(function() {
 		else {
 			leadmkt = 'GD';
 		}
-		jQuery('input[name="LEADMKT"]').val('MKT-'+leadmkt);	
+		jQuery('input[name="LEADMKT"]').val('MKT-'+leadmkt);
 	}
 
 
