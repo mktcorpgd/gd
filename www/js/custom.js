@@ -452,75 +452,76 @@ jQuery(document).ready(function() {
 	if ( jQuery('input[name="TITLE"]').length ) {
 		jQuery('input[name="TITLE"]').val(document.title);
 	}
-	if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
-		if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
-			jQuery('input[name*="SRC"]').val(window.location.href);
+	if ( jQuery('input[name*="SRC"]').length ) {
+		var src_input = window.location.href;
+		jQuery('input[name*="SRC"]').val(src_input);
+		if ( jQuery('input[name="HREF"]').length ) {
+			jQuery('input[name="HREF"]').val(src_input);
 		}
-		else if ( jQuery('input[name="HREF"]').length ) {
-			jQuery('input[name="HREF"]').val(window.location.href);
+		if ( jQuery('.isUN').length ) {
+			jQuery('input[name*="SRC"]').val(src_input+'+UN');
 		}
-	}
-
-
-	// AUTOMATION Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
-	if ( jQuery('.isUN').length ) {
-		var src_input = jQuery('input[name*="SRC"]').val();
-		jQuery('input[name*="SRC"]').val(src_input+'+UN');
 	}
 
 
 	// Asignar orígen de lead
-	var site_id = jQuery('body').attr('class');
-	site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
-	site_id = site_id.trim();
-	var page_id = jQuery('body').attr('class');
-	page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
-	page_id = page_id.trim();
-	var leadmkt = '';
-	var idform = jQuery('.wpcf7').attr('id');
-	idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
-	idform = idform.substring(0,idform.indexOf('-'));
-	var src = jQuery('input[name*="SRC"]').val();
-	if ( site_id == 1 ) { // grupodatco.com
-		if ( page_id == 43399 ) { // /iop
-			leadmkt = 'IOP';
+	if ( jQuery('input[name="LEADMKT"]').length ) {
+		var site_id = jQuery('body').attr('class');
+		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
+		site_id = site_id.trim();
+		var page_id = jQuery('body').attr('class');
+		page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
+		page_id = page_id.trim();
+		var post_id = jQuery('body').attr('class');
+		post_id = post_id.substr(post_id.indexOf('postid-')+7,5);
+		post_id = post_id.trim();
+		var idform = jQuery('.wpcf7').attr('id');
+		idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
+		idform = idform.substring(0,idform.indexOf('-'));
+		var leadmkt = '';
+		if ( site_id == 1 ) { // grupodatco.com
+			if ( page_id == 43399 ) { // /iop
+				leadmkt = 'IOP';
+			}
+			else if ( page_id == 23431 ) { // /iot
+				leadmkt = 'IOT';
+			}
+			else if ( page_id == 26159 ) { // /soluciones-tecnologicas
+				leadmkt = 'DSW';
+			}
+			else if ( page_id == 26163 ) { // /datco-infraestructura 
+				leadmkt = 'DIT';
+			}
+			else if ( page_id == 26159 ) { // /focus
+				leadmkt = 'F';
+			}
+			else if ( page_id == 26161 ) { // /interservices
+				leadmkt = 'I';
+			}
+			else if ( page_id == 26165 ) { // /sersat
+				leadmkt = 'ST';
+			}
+			else if ( post_id == 19615 ) { // www.smartime.com.ar
+				leadmkt = 'IOP';
+			}
+			else {
+				leadmkt = 'GD';
+			}
 		}
-		else if ( page_id == 23431 ) { // /iot
-			leadmkt = 'IOT';
+		else if ( site_id == 5 ) { // silicanetworks.com
+			leadmkt = 'SCO'
 		}
-		else if ( page_id == 26159 ) { // /soluciones-tecnologicas
-			leadmkt = 'DSW';
+		else if ( site_id == 25 ) { // baitcon.com
+			leadmkt = 'B';
 		}
-		else if ( page_id == 26163 ) { // /datco-infraestructura 
-			leadmkt = 'DIT';
-		}
-		else if ( page_id == 26159 ) { // /focus
-			leadmkt = 'F';
-		}
-		else if ( page_id == 26161 ) { // /interservices
-			leadmkt = 'I';
-		}
-		else if ( page_id == 26165 ) { // /sersat
-			leadmkt = 'ST';
+		else if ( site_id == 6 ) { // velocom.com.ar
+			leadmkt = 'V';
 		}
 		else {
 			leadmkt = 'GD';
 		}
+		jQuery('input[name="LEADMKT"]').val('MKT-'+leadmkt);	
 	}
-	else if ( site_id == 5 ) { // silicanetworks.com
-		leadmkt = 'SCO'
-	}
-	else if ( site_id == 25 ) { // baitcon.com
-		leadmkt = 'B';
-	}
-	else if ( site_id == 6 ) { // velocom.com.ar
-		leadmkt = 'V';
-	}
-	else {
-		leadmkt = 'GD';
-	}
-	jQuery('input[name*="SRC"]').val(src);	
-	jQuery('input[name="LEADMKT"]').val('MKT-'+leadmkt);
 
 
 	// FORMULARIOS - Limpiar espacios iniciales y finales al cambiar/salir de campo (blur)
