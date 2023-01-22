@@ -10,7 +10,17 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	// Variables
 	var event_action = '';
 
-	// BAITCON
+
+	// grupodatco.com
+	if ( e.detail.contactFormId == 35652 ) {
+		event_action = 'Contacto';
+	}
+	else if ( e.detail.contactFormId == 22540 ) {
+		event_action = 'Recurso';
+	}
+
+
+	// baitcon.com
 	if ( e.detail.contactFormId == 27561 ) {
 		event_action = 'Contacto';
 		var callback = function () {
@@ -26,58 +36,43 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	else if ( e.detail.contactFormId == 27563 ) {
 		event_action = 'Recurso';
 	}
-	else if ( e.detail.contactFormId == 28530 ) {
-		event_action = 'Newsletter';
-	}
 
-	// GRUPO DATCO
-	else if ( e.detail.contactFormId == 35652 ) {
-		event_action = 'Contacto';
-	}
-	else if ( e.detail.contactFormId == 22540 ) {
-		event_action = 'Recurso';
-	}
 
-	// RED CAPRICORNIO
-	else if ( e.detail.contactFormId == 25323 ) {
-		event_action = 'Contacto';
-	}
-
-	// SILICA NETWORKS
+	// silicanetworks.com
 	else if ( e.detail.contactFormId == 22820 ) {
 		event_action = 'Contacto (ES)';
-	}
-	else if ( e.detail.contactFormId == 31114 ) {
-		event_action = 'Contacto (EN)';
-	}
-	else if ( e.detail.contactFormId == 24097 ) {
-		event_action = 'Contacto (BR)';
 	}
 	else if ( e.detail.contactFormId == 31529 ) {
 		event_action = 'Recurso (ES)';
 	}
+	else if ( e.detail.contactFormId == 31114 ) {
+		event_action = 'Contacto (EN)';
+	}
 	else if ( e.detail.contactFormId == 33992 ) {
 		event_action = 'Recurso (EN)';
+	}
+	else if ( e.detail.contactFormId == 24097 ) {
+		event_action = 'Contacto (BR)';
 	}
 	else if ( e.detail.contactFormId == 33995 ) {
 		event_action = 'Recurso (BR)';
 	}
 
-	// VELOCOM
+
+	// velocom.com.ar
 	else if ( e.detail.contactFormId == 23530 ) {
-		event_action = 'Contacto';
+		event_action = 'Contacto Internet';
 		gtag('event', 'conversion', {'send_to': 'AW-698636057/nP_BCLC5ufYBEJmukc0C'});
 	}
 	else if ( e.detail.contactFormId == 19204 ) {
 		event_action = 'Solicitud';
 	}
-
-	// VELOCOM FIBRA
 	else if ( e.detail.contactFormId == 25052 ) {
-		event_action = 'Contacto';
+		event_action = 'Contacto Fibra';
 		jQuery('.controls.pac-target-input').removeClass('warning').removeClass('sent');
 		jQuery('.wpcf7-response-inner').remove();
 	}
+
 
 	// Enviar evento
 	ga('send', {
