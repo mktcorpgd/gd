@@ -182,8 +182,9 @@ jQuery(document).ready(function() {
 		else {
 			site_id = '';
 		}
-		console.log(site_id);
-		console.log(link_ref);
+		if ( jQuery('.wpml-ls-native').length ) {
+			link_ref = link_ref.substring(3,link_ref.length);
+		}
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg');
 		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
 	}
