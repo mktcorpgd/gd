@@ -90,7 +90,6 @@ table th{font-size:1.1em}
 .fusion-secondary-menu>ul>li>a{padding:.2em .8em}
 
 /* Header - Transparente */
-#wrapper.header-transparent .avada-page-titlebar-wrapper{padding-top:66px}
 .header-transparent .fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
 .header-transparent .fusion-header-wrapper{width:100%;position:fixed}
 

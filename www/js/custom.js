@@ -119,7 +119,7 @@ jQuery(document).ready(function() {
 
 
 	// MENÚ - Si tiene la clase: convertir en transparente el fondo del header
-	if ( jQuery('.header-transparent').length ) {
+	if ( jQuery('.post-content .header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
 	scrollHeaderTransp();
