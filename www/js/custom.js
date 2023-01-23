@@ -177,7 +177,7 @@ jQuery(document).ready(function() {
 		var link_ref = window.location.pathname;
 		if ( site_id != 1 ) { // si no es grupodatco.com
 			site_id = 'sites/'+site_id+'/';
-			link_ref = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
+			link_ref = link_ref.substring(link_ref.indexOf('/')+1,link_ref.length-1);
 		}
 		else {
 			site_id = '';
