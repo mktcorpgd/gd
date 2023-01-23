@@ -129,6 +129,7 @@ jQuery(document).ready(function() {
 
 
 	// CONTENIDOS - Si slider está vacío:
+	console.log(jQuery('#sliders-container').is(':empty'));
 	if ( jQuery('#sliders-container').is(':empty') ) {
 		jQuery('#sliders-container').addClasS('empty');
 	}
