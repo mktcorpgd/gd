@@ -690,7 +690,10 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.modal iframe{max-height:400px!important}
 
 	.fusion-layout-column.sticky{position:sticky;top:90px}
-	body.customize-support .fusion-layout-column.sticky{position:sticky;top:120px}
+	.fusion-header-layout-v2 .fusion-layout-column.sticky{top:130px}
+	body.customize-support .fusion-layout-column.sticky{top:120px}
+	body.fusion-header-layout-v2.customize-support .fusion-layout-column.sticky{top:150px}
+	
 	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.shadow>.fusion-column>.col:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
 	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
 	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
