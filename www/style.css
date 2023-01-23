@@ -123,8 +123,8 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
 .fusion-header-wrapper:not(.on-top) .fusion-main-menu .sub-menu,.fusion-header-wrapper:not(.on-top) .fusion-megamenu-wrapper,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-main-menu .sub-menu,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .awb-menu__main-ul_row{justify-content:center}
-.awb-menu__main-li_regular.current-menu-ancestor .awb-menu__main-a_regular,.awb-menu__main-li_regular.current-menu-item .awb-menu__main-a_regular,.awb-menu__main-li_regular.current-menu-parent .awb-menu__main-a_regular,.awb-menu__main-li_regular.expanded .awb-menu__main-a_regular,.awb-menu__main-li_regular.hover .awb-menu__main-a_regular,.awb-menu__main-li_regular:active .awb-menu__main-a_regular,.awb-menu__main-li_regular:focus .awb-menu__main-a_regular,.awb-menu__main-li_regular:focus-within .awb-menu__main-a_regular,.awb-menu__main-li_regular:hover .awb-menu__main-a_regular{padding:0 1rem}
-.awb-menu_row .menu-text{color:var(--whiteColor)}
+.awb-menu__main-ul_row a{padding:0 1rem!important}
+.awb-menu__main-ul_row a .menu-text{color:var(--whiteColor)}
 
 /* Menú - Mega */
 .fusion-megamenu-wrapper{overflow:hidden}
