@@ -39,47 +39,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	// Comportamiento según se agreguen/quiten grupos
-	jQuery('.wpcf7 .control_group').click(function(e){
-		var what_todo = jQuery(this).attr('id');
-		var counter = parseInt(jQuery('#num_groups').val());
-		if ( what_todo == 'add' ) {
-			var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
-			if ( (counter >= 1) && (counter <= num_groups_limit) ) {
-				counter++;
-				jQuery('.control_group').removeClass('disabled');
-				jQuery('#num_groups').val(counter);
-			}
-			if ( counter == num_groups_limit ) {
-				jQuery('#add').addClass('disabled');
-			}
-		}
-		else if ( what_todo == 'remove' ) {
-			var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
-			if ( counter > 1 ) {
-				counter--;
-				jQuery('.control_group').removeClass('disabled');
-				jQuery('#num_groups').val(counter);
-			}
-			if ( counter == 1 ) {
-				jQuery('#remove').addClass('disabled');
-			}
-		}
-	});
-	jQuery('#num_groups').bind('keyup change click', function (e) {
-		var counter = parseInt(jQuery('#num_groups').val());
-		var num_groups_limit = parseInt(jQuery('#num_groups_limit').text());
-		if ( counter > 1 ) {
-			jQuery('.control_group').removeClass('disabled');
-		}
-		if ( counter == 1 ) {
-			jQuery('#remove').addClass('disabled');
-		}
-		if ( counter == num_groups_limit ) {
-			jQuery('#add').addClass('disabled');
-		}
-	});
-	
+
 	// Autocompletado por Google Maps API
 	ApplyAutoComplete(jQuery('.address_maps'));
 	var selected = false;
