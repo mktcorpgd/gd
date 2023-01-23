@@ -130,8 +130,8 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Si slider está vacío:
 	var sdltr = jQuery('#sliders-container').text();
-	if ( sdltr.length == 1 ) {
-		jQuery('#sliders-container').addClass('empty');
+	if ( sdltr.length > 1 ) {
+		jQuery('#sliders-container').addClass('has-content');
 	}
   
 
