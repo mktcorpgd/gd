@@ -119,7 +119,7 @@ jQuery(document).ready(function() {
 
 
 	// MENÚ - Si tiene la clase: convertir en transparente el fondo del header
-	if ( jQuery('.post-content .header-transparent').length ) {
+	if ( jQuery('.header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
 	scrollHeaderTransp();
@@ -305,6 +305,7 @@ jQuery(document).ready(function() {
 
 	}
 
+	
 	// CONTENIDO - Mostrar mes actual
 	if ( jQuery('.cur_month').length ) {
 		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
@@ -331,19 +332,18 @@ jQuery(document).ready(function() {
 		var site_id = jQuery('body').attr('class');
 		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
 		site_id = site_id.trim();
-		if ( site_id != 1 ) {
+		var link_ref = window.location.pathname;
+		if ( site_id != 1 ) { // si no es grupodatco.com
 			site_id = 'sites/'+site_id+'/';
+			link_ref = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
 		}
 		else {
 			site_id = '';
 		}
-		var link_href = window.location.pathname;
-		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
-		if ( site_id == 'sites/5/' ) {
-			link_href = link_href.substring(3,link_href.length);
-		}
-		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
-		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+		console.log(site_id);
+		console.log(link_ref);
+		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg');
+		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
 	}
 
 
