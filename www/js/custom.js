@@ -131,7 +131,7 @@ jQuery(document).ready(function() {
 	// CONTENIDOS - Si slider está vacío:
 	jQuery('#sliders-container').html().trim();
 	var sdltr = jQuery('#sliders-container').text();
-	console.log(sdltr);
+	console.log('sdltr='+sdltr);
 	if ( jQuery('#sliders-container').is(':empty') ) {
 		jQuery('#sliders-container').addClasS('empty');
 	}
