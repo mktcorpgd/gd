@@ -108,14 +108,14 @@ function scrollHeaderTransp() {
 jQuery(document).ready(function() {
 
 
-	// Si es una landing:
+	// GENERAL - Guardar código de idioma
+	var lang = jQuery('html').attr('lang').substring(0,2);
+
+	
+	// GENERAL - Si es una landing:
 	if ( jQuery('.landing').length ) {
 		jQuery('.fusion-wrapper').addClass('landing');
 	}
-
-
-	// GENERAL - Guardar código de idioma
-	var lang = jQuery('html').attr('lang').substring(0,2);
 
 
 	// MENÚ - Si tiene la clase: convertir en transparente el fondo del header
@@ -128,6 +128,12 @@ jQuery(document).ready(function() {
 	});
 
 
+	// CONTENIDOS - Si slider está vacío:
+	if ( jQuery('#sliders-container').is(':empty')){
+		jQuery('#sliders-container').addClasS('empty');
+	}
+  
+
 	// CONTENIDOS - Abrir en una nueva pestaña
 	jQuery(document).on('click','#prensa .fusion-post-content.post-content>h2>a,#prensa span.meta-tags a',function(e) {
 		window.open(this.href,'_blank');
@@ -136,7 +142,54 @@ jQuery(document).ready(function() {
 	});
 
 
-	// BOTONES - Agregar botones en cajas para categorías
+	// CONTENIDOS - Eliminar atributos title de las imágenes
+	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
+	jQuery('#content img[title]').each(function(i){jQuery(this).removeAttr('title');});
+	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
+
+
+	// CONTENIDOS - Ocultar párrafos con espacios en blanco
+	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
+	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
+
+
+	// CONTENIDO - Mostrar mes actual
+	if ( jQuery('.cur_month').length ) {
+		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+		const d = new Date();
+		var getDaysInMonth = function(month,year) {
+			return new Date(year, month, 0).getDate();
+		};
+		var lastday = getDaysInMonth(d.getMonth()+1,d.getFullYear());
+		var cur_month = monthNames[d.getMonth()];
+		var cur_year = new Date().getFullYear();
+		jQuery('.cur_month').text(cur_month);
+		jQuery('.cur_year').text(cur_year);
+		jQuery('.last_day').text(lastday);
+	}
+
+
+	// RECURSO - Mostrar preview
+	if ( jQuery('body.single-format-link').length ) {
+		var site_id = jQuery('body').attr('class');
+		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
+		site_id = site_id.trim();
+		var link_ref = window.location.pathname;
+		if ( site_id != 1 ) { // si no es grupodatco.com
+			site_id = 'sites/'+site_id+'/';
+			link_ref = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
+		}
+		else {
+			site_id = '';
+		}
+		console.log(site_id);
+		console.log(link_ref);
+		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg');
+		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+	}
+
+
+	// PORTFOLIO - Agregar botones en cards
 	if ( jQuery('.fusion-portfolio').length ) {
 		var btn_info;
 		var btn_left;
@@ -218,43 +271,22 @@ jQuery(document).ready(function() {
 	}
 
 
-	// CONTENIDOS - Categorías de países como banderas
-	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
-		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
-			jQuery(this).empty();
-		});
-	}
-
-
-	// CONTENIDOS - Convertir a dropcap primer párrafo de nota
-	if ( jQuery('body').hasClass('single-format-standard') ) {
-		jQuery('span[id^=more]').remove();
-	}
-
-
-	// CONTENIDOS - Eliminar atributos title de las imágenes
-	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
-	jQuery('#content img[title]').each(function(i){jQuery(this).removeAttr('title');});
-	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
-
-
-	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
-	var btn_info;
-	var btn_hide;
-	if ( lang == 'es' ) {
-		btn_info = 'Más info';
-		btn_hide = 'Ocultar';
-	}
-	else if ( lang == 'en' ) {
-		btn_info = 'Info';
-		btn_hide = 'Hide';
-	}
-	else if ( lang == 'pt' ) {
-		btn_info = 'Mais info';
-		btn_hide = 'Ocultar';
-	}
-	jQuery('.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info').show();
+	// PORTFOLIO - Desktop / Mostrar/ocultar información
 	if ( jQuery(window).width() > 920 ) {
+		var btn_info;
+		var btn_hide;
+		if ( lang == 'es' ) {
+			btn_info = 'Más info';
+			btn_hide = 'Ocultar';
+		}
+		else if ( lang == 'en' ) {
+			btn_info = 'Info';
+			btn_hide = 'Hide';
+		}
+		else if ( lang == 'pt' ) {
+			btn_info = 'Mais info';
+			btn_hide = 'Ocultar';
+		}
 		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.fusion-portfolio article').toggleClass('opacity');
@@ -305,45 +337,12 @@ jQuery(document).ready(function() {
 
 	}
 
-	
-	// CONTENIDO - Mostrar mes actual
-	if ( jQuery('.cur_month').length ) {
-		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-		const d = new Date();
-		var getDaysInMonth = function(month,year) {
-			return new Date(year, month, 0).getDate();
-		};
-		var lastday = getDaysInMonth(d.getMonth()+1,d.getFullYear());
-		var cur_month = monthNames[d.getMonth()];
-		var cur_year = new Date().getFullYear();
-		jQuery('.cur_month').text(cur_month);
-		jQuery('.cur_year').text(cur_year);
-		jQuery('.last_day').text(lastday);
-	}
 
-
-	// CONTENIDOS - Ocultar párrafos con espacios en blanco
-	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
-	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
-
-
-	// CONTENIDOS - Mostrar preview para recursos que se descarguen
-	if ( jQuery('body.single-format-link').length ) {
-		var site_id = jQuery('body').attr('class');
-		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
-		site_id = site_id.trim();
-		var link_ref = window.location.pathname;
-		if ( site_id != 1 ) { // si no es grupodatco.com
-			site_id = 'sites/'+site_id+'/';
-			link_ref = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
-		}
-		else {
-			site_id = '';
-		}
-		console.log(site_id);
-		console.log(link_ref);
-		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg');
-		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+	// META - Categorías de países como banderas
+	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
+		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
+			jQuery(this).empty();
+		});
 	}
 
 
@@ -459,7 +458,7 @@ jQuery(document).ready(function() {
 	}
 
 
-	// Asignar orígen de lead
+	// FORMULARIOS - Salesforce: asignar orígen de lead
 	if ( jQuery('input[name="LEADMKT"]').length ) {
 		var site_id = jQuery('body').attr('class');
 		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
@@ -558,10 +557,10 @@ jQuery(document).ready(function() {
 
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
-	var url = window.location.pathname;
-	url = url.substring(0,url.length-1);
-	var slug = url.substring(url.lastIndexOf('/')+1,url.length);
 	if ( jQuery('#sidebar .cta-link').length ) {
+		var url = window.location.pathname;
+		url = url.substring(0,url.length-1);
+		var slug = url.substring(url.lastIndexOf('/')+1,url.length);
 		jQuery('#sidebar .cta-link').attr({
 			'href': '/datasheet-'+slug+'/'
 		});

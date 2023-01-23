@@ -659,6 +659,9 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 /* Desktop */
 @media (min-width:920px) {
 
+	/* Mostrar/Ocultar */
+	.fusion-portfolio .more-info,.fusion-portfolio .fusion-buttons{display:block}
+
 	/* General */
 	.white-space-nowrap .fusion-toggle-heading{white-space:nowrap}
 
@@ -666,7 +669,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.fusion-header{height:66px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
 	.header-transparent .hundred-percent-height{height:calc(100vh)!important}
-	body.customize-support .header-transparent .hundred-percent-height{height:calc(100vh - 32px)!important;background-size:cover}
+	body.customize-support .header-transparent .hundred-percent-height,#sliders-container,.tfs-slider .background-image{height:calc(100vh - 32px)!important;background-size:cover}
 	.header-transparent #main{padding:0!important}
 	.header-transparent #main>.fusion-row{max-width:100%}
 
@@ -720,9 +723,9 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 /* Mobile */
 @media (max-width:920px) {
 
-	/* Ocultar/Mostrar */
-	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none}
+	/* Mostrar/Ocultar */
 	.mobile-only{display:inline-block}
+	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none}
 	
 	/* General */
 	body{font-size:18px;line-height:1.6}
