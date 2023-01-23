@@ -668,6 +668,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	/* Header */
 	.fusion-header{height:66px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
+	.header-transparent .flexslider{height:auto!important}
 	.header-transparent .hundred-percent-height,.header-transparent #sliders-container:not(.empty),#sliders-container:not(.empty) .background-image{height:calc(100vh)!important}
 	body.customize-support .header-transparent .hundred-percent-height,body.customize-support #sliders-container:not(.empty),body.customize-support #sliders-container:not(.empty) .background-image{height:calc(100vh - 32px)!important;background-size:cover}
 	.header-transparent #main{padding:0!important}
