@@ -123,7 +123,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-header-wrapper:not(.on-top) .fusion-main-menu .sub-menu,.fusion-header-wrapper:not(.on-top) .fusion-megamenu-wrapper,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-main-menu .sub-menu,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .fusion-menu a{padding:0 1rem!important;font-family:var(--titleFont);font-size:1.2em}
 .fusion-menu a .menu-text{color:var(--whiteColor)}
-.fusion-widget-menu a{padding:0 1em;border-right:2px solid rgba(255,255,255,.2)}
+.fusion-widget-menu li a{padding:0 1em;border-right:2px solid rgba(255,255,255,.2)}
 .fusion-widget-menu li:last-child a{border-right:none}
 
 /* Menú - Mega */
