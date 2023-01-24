@@ -28,7 +28,7 @@ body.single-format-video article .fusion-flexslider,
 html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
 body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer,
 .landing #partners_footer,.landing .fusion-main-menu-search,
-.fusion-footer-widget-area .widget_nav_menu li a:before,
+.fusion-footer-widget-area .widget_nav_menu li a:before,.fusion-widget-menu a:after,
 .pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,
 .modal.contacto-rapido .fusion-title-size-one,.modal.contacto-rapido .fusion-title-size-one+.fusion-title,
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
@@ -125,7 +125,6 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-menu a .menu-text{color:var(--whiteColor)}
 .fusion-widget-menu a{padding:0 1em;border-right:2px solid rgba(255,255,255,.2)}
 .fusion-widget-menu li:last-child a{border-right:none}
-.fusion-widget-menu a:after{display:none}
 
 /* Menú - Mega */
 .fusion-megamenu-wrapper{overflow:hidden}
