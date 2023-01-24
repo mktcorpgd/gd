@@ -10,7 +10,17 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	// Variables
 	var event_action = '';
 
-	// BAITCON
+
+	// grupodatco.com
+	if ( e.detail.contactFormId == 35652 ) {
+		event_action = 'Contacto';
+	}
+	else if ( e.detail.contactFormId == 22540 ) {
+		event_action = 'Recurso';
+	}
+
+
+	// baitcon.com
 	if ( e.detail.contactFormId == 27561 ) {
 		event_action = 'Contacto';
 		var callback = function () {
@@ -26,58 +36,43 @@ document.addEventListener('wpcf7mailsent', function(e) {
 	else if ( e.detail.contactFormId == 27563 ) {
 		event_action = 'Recurso';
 	}
-	else if ( e.detail.contactFormId == 28530 ) {
-		event_action = 'Newsletter';
-	}
 
-	// GRUPO DATCO
-	else if ( e.detail.contactFormId == 35652 ) {
-		event_action = 'Contacto';
-	}
-	else if ( e.detail.contactFormId == 22540 ) {
-		event_action = 'Recurso';
-	}
 
-	// RED CAPRICORNIO
-	else if ( e.detail.contactFormId == 25323 ) {
-		event_action = 'Contacto';
-	}
-
-	// SILICA NETWORKS
+	// silicanetworks.com
 	else if ( e.detail.contactFormId == 22820 ) {
 		event_action = 'Contacto (ES)';
-	}
-	else if ( e.detail.contactFormId == 31114 ) {
-		event_action = 'Contacto (EN)';
-	}
-	else if ( e.detail.contactFormId == 24097 ) {
-		event_action = 'Contacto (BR)';
 	}
 	else if ( e.detail.contactFormId == 31529 ) {
 		event_action = 'Recurso (ES)';
 	}
+	else if ( e.detail.contactFormId == 31114 ) {
+		event_action = 'Contacto (EN)';
+	}
 	else if ( e.detail.contactFormId == 33992 ) {
 		event_action = 'Recurso (EN)';
+	}
+	else if ( e.detail.contactFormId == 24097 ) {
+		event_action = 'Contacto (BR)';
 	}
 	else if ( e.detail.contactFormId == 33995 ) {
 		event_action = 'Recurso (BR)';
 	}
 
-	// VELOCOM
+
+	// velocom.com.ar
 	else if ( e.detail.contactFormId == 23530 ) {
-		event_action = 'Contacto';
+		event_action = 'Contacto Internet';
 		gtag('event', 'conversion', {'send_to': 'AW-698636057/nP_BCLC5ufYBEJmukc0C'});
 	}
 	else if ( e.detail.contactFormId == 19204 ) {
 		event_action = 'Solicitud';
 	}
-
-	// VELOCOM FIBRA
 	else if ( e.detail.contactFormId == 25052 ) {
-		event_action = 'Contacto';
+		event_action = 'Contacto Fibra';
 		jQuery('.controls.pac-target-input').removeClass('warning').removeClass('sent');
 		jQuery('.wpcf7-response-inner').remove();
 	}
+
 
 	// Enviar evento
 	ga('send', {
@@ -113,14 +108,14 @@ function scrollHeaderTransp() {
 jQuery(document).ready(function() {
 
 
-	// Si es una landing:
+	// GENERAL - Guardar código de idioma
+	var lang = jQuery('html').attr('lang').substring(0,2);
+
+	
+	// GENERAL - Si es una landing:
 	if ( jQuery('.landing').length ) {
 		jQuery('.fusion-wrapper').addClass('landing');
 	}
-
-
-	// GENERAL - Guardar código de idioma
-	var lang = jQuery('html').attr('lang').substring(0,2);
 
 
 	// MENÚ - Si tiene la clase: convertir en transparente el fondo del header
@@ -133,6 +128,13 @@ jQuery(document).ready(function() {
 	});
 
 
+	// CONTENIDOS - Si slider está vacío:
+	var sdltr = jQuery('#sliders-container').text();
+	if ( sdltr.length > 1 ) {
+		jQuery('#sliders-container').addClass('has-content');
+	}
+  
+
 	// CONTENIDOS - Abrir en una nueva pestaña
 	jQuery(document).on('click','#prensa .fusion-post-content.post-content>h2>a,#prensa span.meta-tags a',function(e) {
 		window.open(this.href,'_blank');
@@ -141,7 +143,55 @@ jQuery(document).ready(function() {
 	});
 
 
-	// BOTONES - Agregar botones en cajas para categorías
+	// CONTENIDOS - Eliminar atributos title de las imágenes
+	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
+	jQuery('#content img[title]').each(function(i){jQuery(this).removeAttr('title');});
+	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
+
+
+	// CONTENIDOS - Ocultar párrafos con espacios en blanco
+	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
+	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
+
+
+	// CONTENIDO - Mostrar mes actual
+	if ( jQuery('.cur_month').length ) {
+		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+		const d = new Date();
+		var getDaysInMonth = function(month,year) {
+			return new Date(year, month, 0).getDate();
+		};
+		var lastday = getDaysInMonth(d.getMonth()+1,d.getFullYear());
+		var cur_month = monthNames[d.getMonth()];
+		var cur_year = new Date().getFullYear();
+		jQuery('.cur_month').text(cur_month);
+		jQuery('.cur_year').text(cur_year);
+		jQuery('.last_day').text(lastday);
+	}
+
+
+	// RECURSO - Mostrar preview
+	if ( jQuery('body.single-format-link').length ) {
+		var site_id = jQuery('body').attr('class');
+		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
+		site_id = site_id.trim();
+		var link_ref = window.location.pathname;
+		link_ref = link_ref.substring(link_ref.indexOf('/')+1,link_ref.length-1);
+		if ( site_id != 1 ) { // si no es grupodatco.com
+			site_id = 'sites/'+site_id+'/';
+		}
+		else {
+			site_id = '';
+		}
+		if ( jQuery('.wpml-ls-native').length ) {
+			link_ref = link_ref.substring(3,link_ref.length);
+		}
+		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg');
+		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+	}
+
+
+	// PORTFOLIO - Agregar botones en cards
 	if ( jQuery('.fusion-portfolio').length ) {
 		var btn_info;
 		var btn_left;
@@ -223,43 +273,22 @@ jQuery(document).ready(function() {
 	}
 
 
-	// CONTENIDOS - Categorías de países como banderas
-	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
-		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
-			jQuery(this).empty();
-		});
-	}
-
-
-	// CONTENIDOS - Convertir a dropcap primer párrafo de nota
-	if ( jQuery('body').hasClass('single-format-standard') ) {
-		jQuery('span[id^=more]').remove();
-	}
-
-
-	// CONTENIDOS - Eliminar atributos title de las imágenes
-	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
-	jQuery('#content img[title]').each(function(i){jQuery(this).removeAttr('title');});
-	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
-
-
-	// CONTENIDOS - Mostrar/ocultar información para portfolio con imagen y título
-	var btn_info;
-	var btn_hide;
-	if ( lang == 'es' ) {
-		btn_info = 'Más info';
-		btn_hide = 'Ocultar';
-	}
-	else if ( lang == 'en' ) {
-		btn_info = 'Info';
-		btn_hide = 'Hide';
-	}
-	else if ( lang == 'pt' ) {
-		btn_info = 'Mais info';
-		btn_hide = 'Ocultar';
-	}
-	jQuery('.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info').show();
+	// PORTFOLIO - Desktop / Mostrar/ocultar información
 	if ( jQuery(window).width() > 920 ) {
+		var btn_info;
+		var btn_hide;
+		if ( lang == 'es' ) {
+			btn_info = 'Más info';
+			btn_hide = 'Ocultar';
+		}
+		else if ( lang == 'en' ) {
+			btn_info = 'Info';
+			btn_hide = 'Hide';
+		}
+		else if ( lang == 'pt' ) {
+			btn_info = 'Mais info';
+			btn_hide = 'Ocultar';
+		}
 		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.fusion-portfolio article').toggleClass('opacity');
@@ -310,45 +339,12 @@ jQuery(document).ready(function() {
 
 	}
 
-	// CONTENIDO - Mostrar mes actual
-	if ( jQuery('.cur_month').length ) {
-		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-		const d = new Date();
-		var getDaysInMonth = function(month,year) {
-			return new Date(year, month, 0).getDate();
-		};
-		var lastday = getDaysInMonth(d.getMonth()+1,d.getFullYear());
-		var cur_month = monthNames[d.getMonth()];
-		var cur_year = new Date().getFullYear();
-		jQuery('.cur_month').text(cur_month);
-		jQuery('.cur_year').text(cur_year);
-		jQuery('.last_day').text(lastday);
-	}
 
-
-	// CONTENIDOS - Ocultar párrafos con espacios en blanco
-	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
-	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
-
-
-	// CONTENIDOS - Mostrar preview para recursos que se descarguen
-	if ( jQuery('body.single-format-link').length ) {
-		var site_id = jQuery('body').attr('class');
-		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
-		site_id = site_id.trim();
-		if ( site_id != 1 ) {
-			site_id = 'sites/'+site_id+'/';
-		}
-		else {
-			site_id = '';
-		}
-		var link_href = window.location.pathname;
-		link_href = link_href.substring(link_href.indexOf('/')+1,link_href.length-1);
-		if ( site_id == 'sites/5/' ) {
-			link_href = link_href.substring(3,link_href.length);
-		}
-		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg');
-		jQuery('<img src="/wp-content/uploads/'+site_id+link_href+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+	// META - Categorías de países como banderas
+	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
+		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
+			jQuery(this).empty();
+		});
 	}
 
 
@@ -452,83 +448,73 @@ jQuery(document).ready(function() {
 	if ( jQuery('input[name="TITLE"]').length ) {
 		jQuery('input[name="TITLE"]').val(document.title);
 	}
-	if ( jQuery('input[name*="SRC"]:not(.manual)').length ) {
-		if ( jQuery('input[name*="SRC"]').val().length == 0 ) {
-			jQuery('input[name*="SRC"]').val(window.location.href);
+	if ( jQuery('input[name*="SRC"]').length ) {
+		var src_input = window.location.href;
+		jQuery('input[name*="SRC"]').val(src_input);
+		if ( jQuery('input[name="HREF"]').length ) {
+			jQuery('input[name="HREF"]').val(src_input);
 		}
-		else if ( jQuery('input[name="HREF"]').length ) {
-			jQuery('input[name="HREF"]').val(window.location.href);
+		if ( jQuery('.isUN').length ) {
+			jQuery('input[name*="SRC"]').val(src_input+'+UN');
 		}
 	}
 
 
-	// AUTOMATION Si es página de alguna UN o es un subsitio, identificarlo con "+UN" para automation GD-Auto21:
-	if ( jQuery('.isUN').length ) {
-		var src_input = jQuery('input[name*="SRC"]').val();
-		jQuery('input[name*="SRC"]').val(src_input+'+UN');
-	}
-
-
-	// Asignar orígen de lead
-	var site_id = jQuery('body').attr('class');
-	site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
-	site_id = site_id.trim();
-	var page_id = jQuery('body').attr('class');
-	page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
-	page_id = page_id.trim();
-	var leadmkt = '';
-	var idform = jQuery('.wpcf7').attr('id');
-	idform = idform.substring(idform.indexOf('wpcf7-')+6,idform.length);
-	idform = idform.substring(0,idform.indexOf('-'));
-	var src = jQuery('input[name*="SRC"]').val();
-	if ( site_id == 1 ) { // GD - grupodatco.com
-		if ( page_id == 43399 ) { // IOP
-			leadmkt = 'IOP';
+	// FORMULARIOS - Salesforce: asignar orígen de lead
+	if ( jQuery('input[name="LEADMKT"]').length ) {
+		var site_id = jQuery('body').attr('class');
+		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
+		site_id = site_id.trim();
+		var page_id = jQuery('body').attr('class');
+		page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
+		page_id = page_id.trim();
+		var post_id = jQuery('body').attr('class');
+		post_id = post_id.substr(post_id.indexOf('postid-')+7,5);
+		post_id = post_id.trim();
+		var leadmkt = '';
+		if ( site_id == 1 ) { // grupodatco.com
+			if ( page_id == 43399 ) { // /iop
+				leadmkt = 'IOP';
+			}
+			else if ( page_id == 23431 ) { // /iot
+				leadmkt = 'IOT';
+			}
+			else if ( page_id == 26159 ) { // /soluciones-tecnologicas
+				leadmkt = 'DSW';
+			}
+			else if ( page_id == 26163 ) { // /datco-infraestructura 
+				leadmkt = 'DIT';
+			}
+			else if ( page_id == 26159 ) { // /focus
+				leadmkt = 'F';
+			}
+			else if ( page_id == 26161 ) { // /interservices
+				leadmkt = 'I';
+			}
+			else if ( page_id == 26165 ) { // /sersat
+				leadmkt = 'ST';
+			}
+			else if ( post_id == 19615 ) { // www.smartime.com.ar
+				leadmkt = 'IOP';
+			}
+			else {
+				leadmkt = 'GD';
+			}
 		}
-		else if ( page_id == 23431 ) { // IOT
-			leadmkt = 'IOT';
+		else if ( site_id == 5 ) { // silicanetworks.com
+			leadmkt = 'SCO'
 		}
-		else if ( page_id == 26159 ) { // DSW
-			leadmkt = 'DSW';
+		else if ( site_id == 25 ) { // baitcon.com
+			leadmkt = 'B';
 		}
-		else if ( page_id == 26163 ) { // DIT
-			leadmkt = 'DIT';
-		}
-		else if ( page_id == 26159 ) { // F
-			leadmkt = 'F';
-		}
-		else if ( page_id == 26161 ) { // I
-			leadmkt = 'I';
-		}
-		else if ( page_id == 26165 ) { // ST
-			leadmkt = 'ST';
+		else if ( site_id == 6 ) { // velocom.com.ar
+			leadmkt = 'V';
 		}
 		else {
 			leadmkt = 'GD';
-			jQuery('input[name*="SRC"]').val(src);	
 		}
+		jQuery('input[name="LEADMKT"]').val('MKT-'+leadmkt);
 	}
-	else if ( site_id == 5 ) { // silicanetworks.com
-		leadmkt = 'SCO'
-		jQuery('input[name*="SRC"]').val(src);
-	}
-	else if ( site_id == 16 ) { // smartime.com.ar
-		leadmkt = 'IOP';
-	}
-	else if ( site_id == 25 ) { // baitcon.com
-		leadmkt = 'B';
-		jQuery('input[name*="SRC"]').val(src);	
-	}
-	else if ( site_id == 26 ) { // redcapricornio.net
-		leadmkt = 'SIT';
-	}
-	else if ( site_id == 28 ) { // velocomfibra.com.ar
-		leadmkt = 'V';
-	}
-	else {
-		leadmkt = 'GD';
-	}
-	jQuery('input[name=LEADMKT]').val('MKT-'+leadmkt);
 
 
 	// FORMULARIOS - Limpiar espacios iniciales y finales al cambiar/salir de campo (blur)
@@ -573,10 +559,10 @@ jQuery(document).ready(function() {
 
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
-	var url = window.location.pathname;
-	url = url.substring(0,url.length-1);
-	var slug = url.substring(url.lastIndexOf('/')+1,url.length);
 	if ( jQuery('#sidebar .cta-link').length ) {
+		var url = window.location.pathname;
+		url = url.substring(0,url.length-1);
+		var slug = url.substring(url.lastIndexOf('/')+1,url.length);
 		jQuery('#sidebar .cta-link').attr({
 			'href': '/datasheet-'+slug+'/'
 		});
