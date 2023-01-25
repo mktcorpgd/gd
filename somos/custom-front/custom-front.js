@@ -404,8 +404,7 @@ jQuery(document).ready(function() {
 		
 	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
 	var id_form = jQuery('.wpcf7:first').attr('id');
-	id_form = id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')+2);
-	console.log(id_form);
+	id_form = id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')-2);
 	if ( jQuery('.wpcf7-select').length ) {
 		jQuery('.wpcf7-select option').each(function(i) {
 			if ( id_form == 29440 ) {
