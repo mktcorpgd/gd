@@ -403,9 +403,12 @@ jQuery(document).ready(function() {
 
 		
 	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
+	var id_form = jQuery('.wpcf7:first').attr('id');
+	id_form = id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')+2);
+	console.log(id_form);
 	if ( jQuery('.wpcf7-select').length ) {
 		jQuery('.wpcf7-select option').each(function(i) {
-			if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
+			if ( id_form == 29440 ) {
 				// Casos: asignar ID de categoría como valor
 				var input_value = jQuery(this).text();
 				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
@@ -424,7 +427,7 @@ jQuery(document).ready(function() {
 				jQuery(this).attr('disabled','disabled');
 			}
 		});
-		if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
+		if ( id_form == 29440 ) {
 			jQuery(document).on('change','.wpcf7-select',function() {
 				var input_name = jQuery(this).attr('name');
 				// Si es un select multiple
