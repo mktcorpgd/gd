@@ -409,6 +409,7 @@ jQuery(document).ready(function() {
 		jQuery('.wpcf7-select option').each(function(i) {
 			// Casos: asignar ID de categoría como valor
 			var input_value = jQuery(this).text();
+			console.log(input_value);
 			if ( input_value.indexOf(';') > -1 ) {
 				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
 				input_value = input_value.substring(0,input_value.indexOf(';'));
