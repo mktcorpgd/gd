@@ -561,7 +561,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .gp-pagination{width:100%;margin:1em 0;grid-area:pages;grid-row:initial}
 .gp-pagination ul.page-numbers{margin:0;text-align:center;overflow:visible}
 .gp-pagination ul.page-numbers li .page-numbers{display:inline-block;padding:.1em .7em;color:#F0582B;text-decoration:none;font-size:.9rem;line-height:1.8;font-weight:400;font-family:'neo-sans',sans-serif;border-radius:12px}
-.gp-pagination ul.page-numbers li a:hover{background:#1F4483;color:#FFFFFF}
+.gp-pagination ul.page-numbers li a:hover{background:#1F4483;color:#FFFFFF!important;text-decoration:none!important}
 .gp-pagination ul.page-numbers li .page-numbers.current{background:#F0582B;color:#FFFFFF}
 .gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:'Font Awesome 6 Pro'}
 .gp-pagination ul.page-numbers li .page-numbers.prev:before{content:'\f104'}
