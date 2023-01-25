@@ -405,57 +405,60 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
 	if ( jQuery('.wpcf7-select').length ) {
 		jQuery('.wpcf7-select option').each(function(i) {
-			if ( jQuery(this).text().indexOf(';') > -1 ) {
+			if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
+				// Casos: asignar ID de categoría como valor
 				var input_value = jQuery(this).text();
 				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
 				input_value = input_value.substring(0,input_value.indexOf(';'));
 				jQuery(this).attr('data-cat-id',id_cat);
-				if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
-					jQuery(this).val(id_cat);
-				}
+				jQuery(this).val(id_cat);
 				jQuery(this).text(input_value);
-			}
-			if ( jQuery(this).text().indexOf('-') > -1 ) {
-				var input_value = jQuery(this).text();
-				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 && jQuery('body').hasClass('page-id-26272') ) {
+				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') ) {
+					// Casos: quitar los números de los CC (sólo nombres de UN/UAC)
+					var input_value = jQuery(this).text();
 					input_value = input_value.substring(input_value.indexOf('-')+2,input_value.length);
+					jQuery(this).text(input_value).val(input_value);
 				}
-				jQuery(this).text(input_value).val(input_value);
 			}
 			if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—') {
 				jQuery(this).attr('disabled','disabled');
 			}
 		});
-		jQuery(document).on('change','.wpcf7-select',function() {
-			var input_name = jQuery(this).attr('name');
-			// Si es un select multiple
-			if ( input_name.indexOf('[]') > -1 ) {
-				var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
-					return jQuery(el).text();
-				});
-				var val_comma = selMulti.join('; ');
-				input_name= input_name.substring(0,input_name.length-2);
-				if ( jQuery('.wpcf7-'+input_name).length ) {
-					jQuery('.wpcf7-'+input_name).text(val_comma);
-				}
-				if ( jQuery('input[name='+input_name+'TXT]').length ) {
-					jQuery('input[name='+input_name+'TXT]').val(val_comma);
-				}
-			}
-			else {
-				var val_single = jQuery('option:selected',this).text();
-				if ( jQuery('.wpcf7-'+input_name).length ) {
-					jQuery('.wpcf7-'+input_name).text(val_single);
-				}
-				if ( jQuery('input[name='+input_name+'TXT]').length ) {
-					if ( input_name == 'CC_UNIT') {
-						val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
+		if ( jQuery('.wpcf7').attr('id') == 'wpcf7-f29440-p29106-o1') {
+			jQuery(document).on('change','.wpcf7-select',function() {
+				var input_name = jQuery(this).attr('name');
+				// Si es un select multiple
+				if ( input_name.indexOf('[]') > -1 ) {
+					var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
+						return jQuery(el).text();
+					});
+					var val_comma = selMulti.join('; ');
+					input_name= input_name.substring(0,input_name.length-2);
+					// Copiar valores 
+					if ( jQuery('.wpcf7-'+input_name).length ) {
+						jQuery('.wpcf7-'+input_name).text(val_comma);
 					}
-					jQuery('input[name='+input_name+'TXT]').val(val_single);
+					if ( jQuery('input[name='+input_name+'TXT]').length ) {
+						jQuery('input[name='+input_name+'TXT]').val(val_comma);
+					}
 				}
-			}
-		});
+				else {
+					// Copiar valores 
+					var val_single = jQuery('option:selected',this).text();
+					if ( jQuery('.wpcf7-'+input_name).length ) {
+						jQuery('.wpcf7-'+input_name).text(val_single);
+					}
+					if ( jQuery('input[name='+input_name+'TXT]').length ) {
+						if ( input_name == 'CC_UNIT') {
+							val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
+						}
+						jQuery('input[name='+input_name+'TXT]').val(val_single);
+					}
+				}
+			});
+		}
 	}
+
 
 	// FORMULARIOS - Comportamiento según se agreguen/quiten grupos
 	jQuery('.wpcf7 .control_group').click(function(e){
