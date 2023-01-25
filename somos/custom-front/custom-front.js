@@ -404,12 +404,11 @@ jQuery(document).ready(function() {
 		
 	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
 	var id_form = jQuery('.wpcf7:first').attr('id');
-	id_form = id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')-2);
+	id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')-2));
 	if ( jQuery('.wpcf7-select').length ) {
 		jQuery('.wpcf7-select option').each(function(i) {
 			// Casos: asignar ID de categoría como valor
 			var input_value = jQuery(this).text();
-			console.log(input_value);
 			if ( input_value.indexOf(';') > -1 ) {
 				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
 				input_value = input_value.substring(0,input_value.indexOf(';'));
