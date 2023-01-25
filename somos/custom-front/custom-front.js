@@ -418,8 +418,7 @@ jQuery(document).ready(function() {
 			}
 			if ( id_form == 29440 ) {
 				// Casos: quitar los números de los CC (sólo nombres de UN/UAC)
-				console.log('CC_UNIT'+jQuery(this).parent().attr('name').indexOf('CC_UNIT'));
-				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') ) {
+				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 ) {
 					var input_value = jQuery(this).text();
 					input_value = input_value.substring(input_value.indexOf('-')+2,input_value.length);
 					jQuery(this).text(input_value).val(input_value);
