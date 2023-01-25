@@ -91,6 +91,7 @@ table th{font-size:1.1em}
 
 /* Header - Transparente */
 .header-transparent .fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
+.header-transparent .fusion-secondary-header{background:rgba(0,0,0,.4)}
 .header-transparent .fusion-header-wrapper{width:100%;position:fixed}
 
 /* Header - Colores */
