@@ -107,9 +107,10 @@ function scrollHeaderTransp() {
 
 jQuery(document).ready(function() {
 
-
+	// GENERAL - Cargar logo
 	jQuery('.fusion-logo-link').css('opacity','1');
-	
+
+
 	// GENERAL - Guardar código de idioma
 	var lang = jQuery('html').attr('lang').substring(0,2);
 
