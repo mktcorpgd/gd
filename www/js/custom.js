@@ -107,6 +107,7 @@ function scrollHeaderTransp() {
 
 jQuery(document).ready(function() {
 
+	
 	// GENERAL - Cargar logo
 	jQuery('.fusion-logo-link').css('opacity','1');
 
