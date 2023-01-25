@@ -407,16 +407,18 @@ jQuery(document).ready(function() {
 	id_form = id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')-2);
 	if ( jQuery('.wpcf7-select').length ) {
 		jQuery('.wpcf7-select option').each(function(i) {
-			if ( id_form == 29440 ) {
-				// Casos: asignar ID de categoría como valor
-				var input_value = jQuery(this).text();
+			// Casos: asignar ID de categoría como valor
+			var input_value = jQuery(this).text();
+			if ( input_value.indexOf(';') > -1 ) {
 				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
 				input_value = input_value.substring(0,input_value.indexOf(';'));
 				jQuery(this).attr('data-cat-id',id_cat);
 				jQuery(this).val(id_cat);
 				jQuery(this).text(input_value);
+			}
+			if ( id_form == 29440 ) {
+				// Casos: quitar los números de los CC (sólo nombres de UN/UAC)
 				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') ) {
-					// Casos: quitar los números de los CC (sólo nombres de UN/UAC)
 					var input_value = jQuery(this).text();
 					input_value = input_value.substring(input_value.indexOf('-')+2,input_value.length);
 					jQuery(this).text(input_value).val(input_value);
