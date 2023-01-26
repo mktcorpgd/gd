@@ -449,9 +449,6 @@ jQuery(document).ready(function() {
 					var val_comma = selMulti.join('; ');
 					input_name= input_name.substring(0,input_name.length-2);
 					// Copiar valores 
-					if ( jQuery('.wpcf7-'+input_name).length ) {
-						jQuery('.wpcf7-'+input_name).text(val_comma);
-					}
 					if ( jQuery('input[name='+input_name+'TXT]').length ) {
 						jQuery('input[name='+input_name+'TXT]').val(val_comma);
 					}
@@ -459,9 +456,6 @@ jQuery(document).ready(function() {
 				else {
 					// Copiar valores 
 					var val_single = jQuery('option:selected',this).text();
-					if ( jQuery('.wpcf7-'+input_name).length ) {
-						jQuery('.wpcf7-'+input_name).text(val_single);
-					}
 					if ( jQuery('input[name='+input_name+'TXT]').length ) {
 						if ( input_name == 'CC_UNIT') {
 							val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
