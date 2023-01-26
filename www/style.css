@@ -52,7 +52,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:var(--whiteColor)}
-.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent{padding:0!important}
+.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container{padding:0!important}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative;top:2px;border:2px solid rgba(0,0,0,.1)}
@@ -88,7 +88,7 @@ table th{font-size:1.1em}
 .header-transparent .fusion-header-wrapper{width:100%;position:fixed}
 
 /* Menú */
-.fusion-megamenu-title a[href='#no-title']{visibility:hidden;}
+.fusion-megamenu-title a[href='#no-title']{visibility:hidden}
 .fusion-megamenu-title a,.fusion-megamenu-holder{background:none!important}
 .fusion-megamenu-holder{border-top:none}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu,.fusion-main-menu .fusion-menu-item-button a,.fusion-megamenu-title a{cursor:default}
@@ -404,7 +404,6 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricing-table .list-group-item{padding-top:.2em;padding-bottom:.2em;border:none}
 .fusion-pricing-table .fusion-panel{border:none!important}
 .fusion-pricing-table .panel-heading{border-bottom:1px solid rgba(0,0,0,.2)}
-.fusion-pricing-table .panel-footer{padding:0!important}
 .fusion-pricing-table .fusion-button.fusion-button-default-size{margin-bottom:0;width:100%;border-radius:0}
 
 /* Botones */
@@ -662,7 +661,6 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	.header-transparent .flexslider{height:auto!important}
 	.header-transparent .hundred-percent-height,.header-transparent #sliders-container.has-content,#sliders-container.has-content .background-image{height:calc(100vh)!important}
 	body.customize-support .header-transparent .hundred-percent-height,body.customize-support #sliders-container.has-content,body.customize-support #sliders-container.has-content .background-image{height:calc(100vh - 32px)!important;background-size:cover}
-	.header-transparent #main{padding:0!important}
 	.header-transparent #main>.fusion-row{max-width:100%}
 
 	/* Tabs */
@@ -696,7 +694,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
 
 	/* Precios */
-	.fusion-pricingtable-column.standout .panel-container{padding:0!important;top:25px}
+	.fusion-pricingtable-column.standout .panel-container{top:25px}
 	.fusion-pricingtable-column:not(.standout) .panel-container{margin-top:2em}
 	
 	/* Portfolio */
