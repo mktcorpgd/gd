@@ -376,8 +376,8 @@ jQuery(document).ready(function() {
 	});
 	  
 
-	// FORMULARIOS - Checkbox para opcionales
-	if ( jQuery('.check_add') ) {
+	// FORMULARIOS - Si existe un checkbox para información adicional
+	if ( jQuery('.check_add').length ) {
 		jQuery('.check_add input[type=checkbox]').change(function() {
 			var checkbox_name = jQuery(this).attr('name');
 			var inputtext_name = jQuery(this).closest('.columns').find('input[type=text]').attr('name');
@@ -402,21 +402,25 @@ jQuery(document).ready(function() {
 	}
 
 		
-	// FORMULARIOS - Repartir valores (ID) y textos (nombre) de categorías en opciones
+	// FORMULARIOS - Si existe un select
 	if ( jQuery('.wpcf7-select').length ) {
 		var id_form = jQuery('.wpcf7:first').attr('id');
 		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
 		jQuery('.wpcf7-select option').each(function(i) {
-			// Casos: asignar ID de categoría como valor
-			var input_value = jQuery(this).text();
-			if ( input_value.indexOf(';') > -1 ) {
-				var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
-				input_value = input_value.substring(0,input_value.indexOf(';'));
-				jQuery(this).attr('data-cat-id',id_cat);
-				jQuery(this).val(id_cat);
-				jQuery(this).text(input_value);
+			if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—') {
+				jQuery(this).attr('disabled','disabled');
 			}
+			// Si es formulario para enviar caso de referencia
 			if ( id_form == 29440 ) {
+				// Asignar ID de categoría como valor
+				var input_value = jQuery(this).text();
+				if ( input_value.indexOf(';') > -1 ) {
+					var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
+					input_value = input_value.substring(0,input_value.indexOf(';'));
+					jQuery(this).attr('data-cat-id',id_cat);
+					jQuery(this).val(id_cat);
+					jQuery(this).text(input_value);
+				}
 				// Casos: quitar los números de los CC (sólo nombres de UN/UAC)
 				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 ) {
 					var input_value = jQuery(this).text();
@@ -424,11 +428,9 @@ jQuery(document).ready(function() {
 					jQuery(this).text(input_value).val(input_value);
 				}
 			}
-			if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—') {
-				jQuery(this).attr('disabled','disabled');
-			}
 		});
-		if ( id_form == 29440 ) {
+			// Si es formulario para enviar caso de referencia
+			if ( id_form == 29440 ) {
 			jQuery(document).on('change','.wpcf7-select',function() {
 				var input_name = jQuery(this).attr('name');
 				// Si es un select multiple
