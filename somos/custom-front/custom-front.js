@@ -428,6 +428,14 @@ jQuery(document).ready(function() {
 					jQuery(this).text(input_value).val(input_value);
 				}
 			}
+			else {
+				// Quitar ID de categoría del texto
+				var input_value = jQuery(this).text();
+				if ( input_value.indexOf(';') > -1 ) {
+					var input_value = input_value.substring(0,input_value.indexOf(';'));
+					jQuery(this).val(input_value).text(input_value);
+				}
+			}
 		});
 			// Si es formulario para enviar caso de referencia
 			if ( id_form == 29440 ) {
