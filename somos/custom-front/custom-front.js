@@ -407,38 +407,25 @@ jQuery(document).ready(function() {
 		var id_form = jQuery('.wpcf7:first').attr('id');
 		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
 		jQuery('.wpcf7-select option').each(function(i) {
+			// General - Marcar como deshabilitado si tiene — delante (<optgroup> no disponible en CF7)
 			if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—') {
 				jQuery(this).attr('disabled','disabled');
 			}
-			// Si es formulario para enviar caso de referencia
+			// Casos de referencia - Si es formulario para enviar nuevo caso
 			if ( id_form == 29440 ) {
-				// Asignar ID de categoría como valor
-				var input_value = jQuery(this).text();
-				if ( input_value.indexOf(';') > -1 ) {
-					var id_cat = input_value.substring(input_value.indexOf(';')+1,input_value.length);
-					input_value = input_value.substring(0,input_value.indexOf(';'));
-					jQuery(this).attr('data-cat-id',id_cat);
-					jQuery(this).val(id_cat);
-					jQuery(this).text(input_value);
-				}
-				// Casos: quitar los números de los CC (sólo nombres de UN/UAC)
-				if ( jQuery(this).parent().attr('name').indexOf('CC_UNIT') > -1 ) {
-					var input_value = jQuery(this).text();
-					input_value = input_value.substring(input_value.indexOf('-')+2,input_value.length);
-					jQuery(this).text(input_value).val(input_value);
-				}
-			}
-			else {
-				// Quitar ID de categoría del texto
-				var input_value = jQuery(this).text();
-				if ( input_value.indexOf(';') > -1 ) {
-					var input_value = input_value.substring(0,input_value.indexOf(';'));
-					jQuery(this).val(input_value).text(input_value);
+				// Si hay un ; -> Asignar ID
+				var text_opc = jQuery(this).text();
+				if ( text_opc.indexOf(';') > -1 ) {
+					var id_opc = text_opc.substring(text_opc.indexOf(';')+1,text_opc.length);
+					text_opc = text_opc.substring(0,text_opc.indexOf(';'));
+					jQuery(this).text(text_opc).attr({
+						'data-cat-id':id_opc,
+						'value':id_opc});
 				}
 			}
 		});
-			// Si es formulario para enviar caso de referencia
-			if ( id_form == 29440 ) {
+		// Si es formulario para enviar caso de referencia
+		if ( id_form == 29440 ) {
 			jQuery(document).on('change','.wpcf7-select',function() {
 				var input_name = jQuery(this).attr('name');
 				// Si es un select multiple
@@ -448,13 +435,13 @@ jQuery(document).ready(function() {
 					});
 					var val_comma = selMulti.join('; ');
 					input_name= input_name.substring(0,input_name.length-2);
-					// Copiar valores 
+					// Copiar valores en su hidden TXT
 					if ( jQuery('input[name='+input_name+'TXT]').length ) {
 						jQuery('input[name='+input_name+'TXT]').val(val_comma);
 					}
 				}
 				else {
-					// Copiar valores 
+					// Copiar valores en su hidden TXT
 					var val_single = jQuery('option:selected',this).text();
 					if ( jQuery('input[name='+input_name+'TXT]').length ) {
 						if ( input_name == 'CC_UNIT') {
