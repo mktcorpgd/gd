@@ -140,7 +140,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('body.post-template-default article').attr('class').indexOf('category-casos-') > -1 ) {
 		jQuery('table td span').each(function(i) {
 			if ( jQuery(this).is(':empty') || jQuery(this).text() == '.' ) {
-				jQuery(this).parent().addClass('empty');
+				jQuery(this).parent().parent().addClass('empty');
 			}
 		});
 	}

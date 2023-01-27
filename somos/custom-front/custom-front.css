@@ -31,7 +31,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Eventos */
 body:not(.single-event) article.event p,body.single-event .entry-content h4,.eventorganiser-event-meta+hr,.eo-event-meta~hr,.gp-blog-wrapper>.eo-events-nav,
 /* Posts */
-.gp-blog-wrapper[class*='gp-blog-columns'] section.category-un .post-text,table td.empty,
+.gp-blog-wrapper[class*='gp-blog-columns'] section.category-un .post-text,tr.empty,
 /* Admin */
 body:not(.role-administrator) .only-admin,
 /* Entradas */
