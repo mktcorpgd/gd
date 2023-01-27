@@ -136,27 +136,14 @@ jQuery(document).ready(function() {
 	});
 
 
-	// CASOS - Si es miércoles: avisar para carga de casos
-	/*var today = new Date();
-	var day = today.getDay() || 7;
-	if ( day == 3 && (jQuery('body').hasClass('role-comercial_ar') || jQuery('body').hasClass('role-administrator')) ) {
-		if ( jQuery.cookie('hide_modal-casos') !== 'hidden') {
-			jQuery.magnificPopup.open({
-				items: {
-					src: '<div id="modal-casos" class="white-popup"><h2>Compartí tu experiencia de ventas</h2><p><i class="far fa-trophy"></i>Contanos qué proyecto cerraste y de qué se trata para que tus compañeros/as se enteren. Lo dejaremos registrado y esperamos que sea un disparador de nuevas ventas.</p><div class="buttons"><a class="sc-button large" href="/marketing/nuevos-casos/">Enviar nuevo caso de cliente</a><br /><a id="hide_modal-casos" class="sc-button small inline" href="#hide_modal-casos">Recordarme en 1 semana</a></div></div>',
-					type: 'inline'
-				}
-			});
-		}
+	// CASOS - Marcar filas vacías
+	if ( jQuery('body.post-template-default article').attr('class').indexOf('category-casos-') > -1 ) {
+		jQuery('table td span').each(function(i) {
+			if ( jQuery(this).text().is(':empty') || jQuery(this).text() == '.' ) {
+				jQuery(this).parent().addClass('empty');
+			}
+		});
 	}
-	else {
-		jQuery.cookie('hide_modal-casos',null);
-	}
-	jQuery(document).on('click','#hide_modal-casos',function(e) {
-		jQuery.cookie('hide_modal-casos','hidden',{expires:7});
-		jQuery.magnificPopup.close();
-		e.preventDefault();
-	});*/
 
 
 	// CONTENIDOS - Ocultar párrafos con espacios en blanco
