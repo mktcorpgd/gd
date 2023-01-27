@@ -141,7 +141,7 @@ jQuery(document).ready(function() {
 		jQuery('table td span').each(function(i) {
 			console.log(jQuery(this).attr('name'));
 			console.log(jQuery(this).is(':empty') || jQuery(this).text() == '.');
-			if ( jQuery(this).text().is(':empty') || jQuery(this).text() == '.' ) {
+			if ( jQuery(this).is(':empty') || jQuery(this).text() == '.' ) {
 				jQuery(this).parent().addClass('empty');
 			}
 		});
