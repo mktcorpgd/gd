@@ -578,7 +578,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 #content article[class*='category-casos-'] table th,#content article[class*='busquedas-'] table th,#content article[class*='category-casos-'] table td:first-child,#content article[class*='busquedas-'] table td:first-child,.padder.category-casos-de-referencia .wpcf7 table td:first-child{background:#0E316E;color:#FFFFFF;font-family:'neo-sans',sans-serif}
 #content article[class*='category-casos-'] table th strong,#content article[class*='busquedas-'] table th strong,#content article[class*='category-casos-'] table td:first-child strong,#content article[class*='busquedas-'] table td:first-child strong,.padder.category-casos-de-referencia .wpcf7 table td:first-child strong{font-weight:500}
 #content article[class*='busquedas-laborales'] table td:first-child {width:30%;}
-#content article[class*='busquedas-laborales'] table td:last-child {width:70%;}
+#content article[class*='busquedas-laborales'] table td:last-child {width:70%;max-width: 400px;}
 #content .category-casos-un-baitcon table td:first-child{background:#89388D}
 #content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:#1C8DCE}
 #content .category-casos-un-focus table td:first-child{background:#39457E}
