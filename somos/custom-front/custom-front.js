@@ -139,6 +139,8 @@ jQuery(document).ready(function() {
 	// CASOS - Marcar filas vacías
 	if ( jQuery('body.post-template-default article').attr('class').indexOf('category-casos-') > -1 ) {
 		jQuery('table td span').each(function(i) {
+			console.log(jQuery(this).attr('name'));
+			console.log(jQuery(this).text().is(':empty') || jQuery(this).text() == '.');
 			if ( jQuery(this).text().is(':empty') || jQuery(this).text() == '.' ) {
 				jQuery(this).parent().addClass('empty');
 			}
