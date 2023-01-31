@@ -58,7 +58,7 @@ img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative;top:2px;border:2px solid rgba(0,0,0,.1)}
 .list-style-none .fusion-text ul,.list-style-none .fusion-text ul li{margin:0;padding:0;list-style:none}
 .fusion-image-element:not(.fusion-image-align-center){display:inline-block}
-.radius1x,.fusion-separator~.fusion-google-map,.rounded,.map{border-radius:12px;overflow:hidden}
+.radius1x, .radius1x .content-box-wrapper,.fusion-separator~.fusion-google-map,.rounded,.map{border-radius:12px;overflow:hidden}
 .radius2x{border-radius:24px;overflow:hidden}
 .no-radius{border:none!important;border-radius:0!important}
 .no-border,.modal-content,.tfs-slider .overlay-link{border:none!important}
