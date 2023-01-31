@@ -44,7 +44,7 @@ a,li,i,.wpcf7 input,.wpcf7 button,.fusion-blog-layout-grid .fusion-post-wrapper,
 #reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:var(--textColor)}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
-.post-content p b,.post-content p strong{font-weight:600}
+.post-content p b,.post-content p strong,.content-container strong{font-weight:600}
 iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
 .uppercase{text-transform:uppercase}
@@ -491,11 +491,11 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 /* Cajas con íconos */
 .fusion-content-boxes .link-area-box{cursor:inherit}
 .fusion-content-boxes .fusion-column{margin-bottom:1em}
+.fusion-content-boxes.content-boxes-icon-on-top .content-container,.fusion-content-boxes.content-boxes-icon-on-side.no-heading{margin-bottom:0}
+.fusion-content-boxes .fusion-read-more-button{margin-top:0}
 .fusion-content-boxes.box-shadow .fusion-column{padding:1em 2em}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper{padding:2em;box-shadow:0 30px 80px rgba(0,0,0,.2);border-radius:24px}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{box-shadow:0 30px 100px rgba(0,0,0,.4);cursor:pointer}
-.fusion-content-boxes .fusion-read-more-button{margin-top:0}
-.fusion-content-boxes.content-boxes-icon-on-top .content-container{margin-bottom:0}
 .fusion-content-boxes .content-wrapper-background{padding:25px}
 .fusion-content-boxes .content-container img.aligncenter{margin-bottom:20px}
 .fusion-content-boxes.shadow .col .heading,.fusion-content-boxes.shadow .col a{display:block}
