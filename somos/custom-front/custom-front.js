@@ -529,8 +529,8 @@ jQuery(document).ready(function() {
 	}
 	
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
-	jQuery('#post-content.postid-49885 .toggle-box').show();
-	jQuery('#post-content.postid-49885 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery('body.postid-49885 #content .toggle-box').show();
+	jQuery('body.postid-49885 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 
 	// LATERAL - Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();
