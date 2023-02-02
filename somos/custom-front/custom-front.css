@@ -481,7 +481,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-content ul,.UseyourDrive .tippy-content ul{padding:0}
 #UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.8em .6em;font-family:'neo-sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500}
-#UseyourDrive .files .entry{margin:.4em 0;border-radius:12px}
+#UseyourDrive .files .entry{margin:.8em .4em 0;border-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:last-child{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 #UseyourDrive [data-layout=list] .entry,#UseyourDrive .nav-header{padding:0 .4em}
@@ -663,7 +663,6 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
 .widget .sc-button.small{padding:.3em .6em}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
-.sc-button+.sc-button,button+button{margin-right:0}
 #content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
