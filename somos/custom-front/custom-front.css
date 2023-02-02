@@ -144,7 +144,7 @@ body.role- #header{top:0}
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
 #nav .menu .sub-menu li ul{margin-top:1.6em;left:20%}
 #nav .menu li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:'Font Awesome 6 Pro'}
-#nav .menu li.menu-item-has-children:after{position:absolute;top:7px;right:5px;font-size:.8em}
+#nav .menu li.menu-item-has-children:after{position:absolute;top:7px;right:5px;font-size:.8em;pointer-events:none}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px;right:5px}
 #nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
