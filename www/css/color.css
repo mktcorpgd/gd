@@ -37,6 +37,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{background:var(--highlightColor)}
 .white .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
+.white .wpcf7-form input[type='submit']:hover{color:var(--whiteColor)}
 .fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
