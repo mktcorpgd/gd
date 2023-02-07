@@ -1,5 +1,5 @@
 /* Grupo Datco */
-:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;}
+:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;}
 
 /* Custom */
 .suite{border-top-left-radius:48px;border-top-right-radius:48px}
