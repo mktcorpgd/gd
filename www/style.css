@@ -52,7 +52,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:var(--whiteColor)}
-.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template body.single-avada_portfolio #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container{padding:0!important}
+.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container{padding:0!important}
 .width-100 .fusion-fullwidth,.width-100 .nonhundred-percent-fullwidth{margin-left:inherit;margin-right:inherit}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
