@@ -585,6 +585,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Pestañas/Filtros */
 .fusion-tabs .nav ul,.fusion-filters,.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a,.fusion-tabs.vertical-tabs.classic .nav-tabs>li .tab-link,.fusion-tabs .tab-content>.active,.fusion-tabs.horizontal-tabs .nav{border:none!important}
+.fusion-tabs.sticky-tabs>.nav{top:90px}
+body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-tabs .nav ul,.fusion-filters{display:block;margin-bottom:2em;line-height:1.3;border-radius:6px 6px 12px 12px;box-shadow:0 2px 16px 0px rgba(0,0,0,.1);overflow:hidden}
 .fusion-tabs .nav-tabs>li,.fusion-filters li{background:var(--whiteAltColor);font-family:var(--titleFont);text-align:center}
 .fusion-tabs .nav-tabs>li:hover,.fusion-filters li:hover{background:var(--whiteColor)}
