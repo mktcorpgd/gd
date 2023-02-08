@@ -432,7 +432,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-buttons.two .fusion-button:first-child{border-top-right-radius:4px;border-bottom-right-radius:4px}
 .fusion-buttons.two .fusion-button+.fusion-button{border-top-left-radius:4px;border-bottom-left-radius:4px}
 .fusion-portfolio-four .fusion-button{padding:.4rem .5rem}
-.tag-solo-contacto .fusion-buttons.two .fusion-button+.fusion-button{border-radius:12px}
+.tag-solo-contacto .fusion-buttons.two .fusion-button+.fusion-button{margin-left:0;border-radius:12px}
 
 /* Videos */
 .fusion-video{max-width:1280px;max-height:720px;width:100%}
