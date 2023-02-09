@@ -382,9 +382,6 @@ jQuery(document).ready(function() {
 	if ( window.location.href.indexOf('#contacto') > -1 ) {
 		jQuery('#open-contacto-rapido').trigger('click');
 	}
-	if ( window.location.href.indexOf('#oferta') > -1 ) {
-		jQuery('#open-oferta-librestream').trigger('click');
-	}
 
 
 	// FORMULARIOS - Agregar clase para mostrar color default cuando se selecciona
@@ -464,60 +461,9 @@ jQuery(document).ready(function() {
 	}
 
 
-	// FORMULARIOS - Salesforce: asignar orígen de lead
+	// FORMULARIOS - Salesforce: asignar "Web"
 	if ( jQuery('input[name="LEADMKT"]').length ) {
-		var site_id = jQuery('body').attr('class');
-		site_id = site_id.substr(site_id.indexOf('site-id-')+8,2);
-		site_id = site_id.trim();
-		var page_id = jQuery('body').attr('class');
-		page_id = page_id.substr(page_id.indexOf('page-id-')+8,5);
-		page_id = page_id.trim();
-		var post_id = jQuery('body').attr('class');
-		post_id = post_id.substr(post_id.indexOf('postid-')+7,5);
-		post_id = post_id.trim();
-		var leadmkt = '';
-		if ( site_id == 1 ) { // grupodatco.com
-			if ( page_id == 43399 ) { // /iop
-				leadmkt = 'IOP';
-			}
-			else if ( page_id == 23431 ) { // /iot
-				leadmkt = 'IOT';
-			}
-			else if ( page_id == 26159 ) { // /soluciones-tecnologicas
-				leadmkt = 'DSW';
-			}
-			else if ( page_id == 26163 ) { // /datco-infraestructura 
-				leadmkt = 'DIT';
-			}
-			else if ( page_id == 26159 ) { // /focus
-				leadmkt = 'F';
-			}
-			else if ( page_id == 26161 ) { // /interservices
-				leadmkt = 'I';
-			}
-			else if ( page_id == 26165 ) { // /sersat
-				leadmkt = 'ST';
-			}
-			else if ( post_id == 19615 ) { // www.smartime.com.ar
-				leadmkt = 'IOP';
-			}
-			else {
-				leadmkt = 'GD';
-			}
-		}
-		else if ( site_id == 5 ) { // silicanetworks.com
-			leadmkt = 'SCO'
-		}
-		else if ( site_id == 25 ) { // baitcon.com
-			leadmkt = 'B';
-		}
-		else if ( site_id == 6 ) { // velocom.com.ar
-			leadmkt = 'V';
-		}
-		else {
-			leadmkt = 'GD';
-		}
-		jQuery('input[name="LEADMKT"]').val('MKT-'+leadmkt);
+		jQuery('input[name="LEADMKT"]').val('Web');
 	}
 
 
