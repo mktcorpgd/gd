@@ -30,7 +30,7 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .landing #partners_footer,.landing .fusion-main-menu-search,
 .fusion-footer-widget-area .widget_nav_menu li a:before,.fusion-widget-menu a:after,
 .pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,
-.modal.contacto-rapido .fusion-title-size-one,.modal.contacto-rapido .fusion-title-size-one+.fusion-title,
+.modal[class*='contacto-rapido'] .fusion-title-size-one,.modal[class*='contacto-rapido'] .fusion-title-size-one+.fusion-title,
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
 .pac-icon,.pac-logo:after{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info{display:none}
@@ -52,7 +52,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:var(--whiteColor)}
-.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template #main.width-100,.modal.contacto-rapido .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
+.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,html.avada-is-100-percent-template #main.width-100,.modal[class*='contacto-rapido'] .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
 .width-100 .fusion-fullwidth,.width-100 .nonhundred-percent-fullwidth{margin-left:inherit;margin-right:inherit}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
@@ -182,7 +182,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .modal-header .close{margin:0!important;padding:0;width:40px;height:40px;line-height:1;position:absolute;top:0;right:0;color:var(--grayColor);background:none;border:none;cursor:pointer}
 .modal-header .close:hover{color:var(--grayColor)}
 .modal div.wpcf7{max-width:100%}
-.fusion-modal.contacto-rapido .modal-title,.fusion-modal.contacto-rapido .wpcf7 .fusion-one-full{text-align:center}
+.fusion-modal[class*='contacto-rapido'] .modal-title,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full{text-align:center}
 
 /* Contador */
 .fusion-counters-box .content-box-counter{font-weight:500;font-family:var(--titleFont)}
