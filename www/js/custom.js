@@ -455,9 +455,6 @@ jQuery(document).ready(function() {
 		if ( jQuery('input[name="HREF"]').length ) {
 			jQuery('input[name="HREF"]').val(src_input);
 		}
-		if ( jQuery('.isUN').length ) {
-			jQuery('input[name*="SRC"]').val(src_input+'+UN');
-		}
 	}
 
 
