@@ -195,6 +195,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .tfs-slider .flex-direction-nav a.flex-prev:before,.tfs-slider .flex-direction-nav a.flex-next:before{color:var(--whiteColor);font-family:'Font Awesome 6 Pro'}
 .tfs-slider .flex-direction-nav a.flex-prev:before{content:'\f053'}
 .tfs-slider .flex-direction-nav a.flex-next:before{content:'\f054'}
+.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
 .hero-img .fusion-title-size-one{margin-bottom:.5em;font-size:3em}
 .hero-img .fusion-title-size-four{font-size:1.3em}
 .hero-img .fusion-title-size-four h4{line-height:1.3!important}
@@ -217,23 +218,15 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
 .post-content blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont);font-weight:400;font-style:normal;font-size:1.2em;line-height:1.5}
 .post-content blockquote strong{font-weight:400!important}
-.post-password{padding:1em 2em;text-align:center}
 .ilightbox-holder{background:var(--whiteColor);border-radius:24px;overflow:hidden}
 .fusion-post-title-meta-wrap{margin-bottom:0}
-.fusion-post-title-meta-wrap .entry-title{font-size:48px!important;line-height:1.2!important}
-.fusion-page-title-bar .fusion-breadcrumbs{padding:0 0 5px;font-size:.7em;line-height:1.3}
-.fusion-page-title-bar .fusion-breadcrumbs,.fusion-page-title-bar .fusion-breadcrumbs a,.fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-link>span{color:var(--grayColor)}
+.fusion-post-title-meta-wrap .entry-title{font-size:2.4em;line-height:1.3}
 body.single article>.flexslider{border-radius:24px;overflow:hidden}
-body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
-body.single blockquote h2,body.single blockquote h3,body.single blockquote h4,body.single blockquote h5,body.single blockquote h6{margin-top:0!important}
-body.single-format-standard:not(.single-avada_portfolio) #main .post .post-content .fusion-text:first-of-type>h2:first-of-type{margin-top:0;font-size:1.8em!important;font-weight:400!important}
-body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-text:first-of-type>p+h2:first-of-type{margin-top:revert!important}
-body.single-format-standard:not(.single-avada_portfolio) article.category-blog .post-content .fusion-text:first-of-type>h3.cta{margin-top:30px;font-size:2em}
-body.single-format-standard:not(.single-avada_portfolio) #sidebar h3.cta{margin-top:0;font-size:1.8em;line-height:1.15!important}
+.post-password{padding:1em 2em;text-align:center}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
-.fusion-image-switch-after.visible{opacity:1!important}
 
 /* Recursos */
+body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
 body.single-format-link #content{width:100%}
 body.single-format-link .avada-page-titlebar-wrapper{background-color:rgba(0,0,0,.8);background-blend-mode:multiply}
 body.single-format-link .fusion-page-title-wrapper,body.single-format-link .fusion-page-title-row h1{display:block}
@@ -674,7 +667,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
-	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%!important}
+	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
 
 	.modal-lg{width:1200px}
 	.modal-sm{width:600px}
