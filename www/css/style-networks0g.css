@@ -2,4 +2,4 @@
 :root{--mainColor:#692D87;--subColor:#692D87;--highlightColor:#4D1968;}
 
 /* Custom */
-.tfs-slider ul.slides li .slide-content-container .slide-content{padding:15%}
+.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:10%}
