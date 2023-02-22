@@ -43,7 +43,7 @@ li a{display:block}
 #content ul li:hover,#content .action-buttons a:hover,.button.big:hover,.button.big.green:hover{
   color:var(--whiteColor)!important}
 #content .action-buttons a,.button.big{font-family:var(--titleFont),sans-serif;font-weight:500}
-#content ul li span{color:var(--whiteColor);font-family:var(--titleFont),sans-serif;font-weight:500;border-bottom:none}
+#content ul li span{color:var(--whiteColor);font-family:var(--titleFont),sans-serif;font-weight:400;border-bottom:none}
 #content ul li span.address-block{text-decoration:none}
 #content ul li:last-child{border:none}
 #content ul .role{margin:0 auto!important;padding:3px 8px;display:inline-block;width:auto;position:relative;bottom:1px;background:rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-size:70%}
