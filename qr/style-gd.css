@@ -1,1 +1,4 @@
-body{background-image:url(https://www.grupodatco.com/qr/img/grupo_datco-bkg_1920_1080.jpg?v=202211)}#contact-person{background-image:url(https://www.grupodatco.com/qr/img/gd-ima_h-blanco.svg);background-size:145px 48px}#content p.hint{background:#f0582b}#contact-info li{border:1px solid #ffb201!important}#content .action-buttons a,.button.big,.button.big.green{background:#f0582b!important}#content .action-buttons a:hover,.button.big:hover,.button.big.green:hover{background:#1f4483!important}ul.qr-hint{background-image:url(https://www.grupodatco.com/qr/img/gd-iso-color.svg);background-size:48px 48px}
+:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;}
+body{background-image:url('https://git.grupodatco.com/qr/img/grupo_datco-bkg_1920_1080.jpg')}
+#contact-person{background-image:url('https://www.grupodatco.com/qr/img/gd-ima_h-blanco.svg');background-size:145px 48px}
+ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/gd-iso-color.svg')}

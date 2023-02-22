@@ -1,1 +1,4 @@
-body{background-image:url(https://www.grupodatco.com/qr/img/baitcon-bkg_1920_1080.jpg?v=202211)}#contact-person{background-image:url(https://www.grupodatco.com/qr/img/b-ima_h-blanco-es.svg);background-size:182px 48px}#content p.hint{background:#874493}#content .action-buttons a,.button.big,.button.big.green{background:#552156!important}#content .action-buttons a:hover,.button.big:hover,.button.big.green:hover{background:#a142a6!important}ul.qr-hint{background-image:url(https://www.grupodatco.com/qr/img/b-iso-color.svg);background-size:48px 48px}
+:root{--mainColor:#89388D;--subColor:#A142A6;--highlightColor:#552156;}
+body{background-image:url('https://git.grupodatco.com/qr/img/baitcon-bkg_1920_1080.jpg')}
+#contact-person{background-image:url('https://git.grupodatco.com/qr/img/b-ima_h-blanco-es.svg');background-size:182px 48px}
+ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/b-iso-color.svg')}

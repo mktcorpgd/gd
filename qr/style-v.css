@@ -1,1 +1,4 @@
-body{background-image:url(https://www.grupodatco.com/qr/img/velocom-bkg_1920_1080.jpg?v=202211)}#contact-person{background-image:url(https://www.grupodatco.com/qr/img/v-ima_h-blanco.svg);background-size:110px 48px}#content p.hint{background:#ae1a57}#content .action-buttons a,.button.big,.button.big.green{background:#e94180!important}#content .action-buttons a:hover,.button.big:hover,.button.big.green:hover{background:#cd346c!important}ul.qr-hint{background-image:url(https://www.grupodatco.com/qr/img/v-iso-color.svg);background-size:48px 48px}
+:root{--mainColor:#AE1857;--subColor:#CD346C;--highlightColor:#E94180;}
+body{background-image:url('https://git.grupodatco.com/qr/img/velocom-bkg_1920_1080.jpg')}
+#contact-person{background-image:url('https://git.grupodatco.com/qr/img/v-ima_h-blanco.svg');background-size:110px 48px}
+ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/v-iso-color.svg')}
