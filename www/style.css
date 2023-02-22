@@ -13,7 +13,7 @@ div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.
 .no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-grid .fusion-portfolio-buttons,
 .no-tags .meta-tags,
 article.category-recursos .fusion-single-line-meta,article.category-blog .fusion-single-line-meta,article.category-casos .fusion-single-line-meta,article.category-datasheets .fusion-single-line-meta,article.category-whitepapers .fusion-single-line-meta,
-.related-posts .fusion-carousel-meta .fusion-inline-sep+span,
+.related-posts .fusion-carousel-meta .fusion-inline-sep,.related-posts .fusion-carousel-meta .fusion-inline-sep+span,
 article.category-blog+.related-posts .fusion-carousel-meta,article.category-casos+.related-posts .fusion-carousel-meta,article.category-datasheets+.related-posts .fusion-carousel-meta,article.category-whitepapers+.related-posts .fusion-carousel-meta,
 article.category-tips .fusion-post-content-wrapper,
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,
