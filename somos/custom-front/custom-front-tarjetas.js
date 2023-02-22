@@ -73,7 +73,7 @@ jQuery(document).ready(function() {
 	// 1. Habilitar oficina después de seleccionar empresa
 	jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-grupo_datco-frente-22.png');
 	jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-grupo_datco-dorso-22.png');
-	jQuery('select[name=ORG] option:contains(Datco Soluciones),select[name=ORG] option:contains(IT4W)').hide();
+	jQuery('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
 	jQuery('.wpcf7 select[name=ORG]').change(function() {
 		if ( jQuery(this).val() != '—' ) {
 			var tp_org = jQuery('select[name=ORG] option:selected').val();
