@@ -29,16 +29,16 @@
 #content .columns .tp.digital #mobile-logo{background:none;border:none;border-radius:0}
 #content .columns .tp.digital:not(.zerog_networks) #mobile-logo{height:40px}
 #content .columns .tp.digital.zerog_networks #mobile-logo{height:32px}
-#content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.6);background-image:url('https://www.grupodatco.com/qr/img/grupo_datco-bkg_1920_1080.png');background-position:center left;background-size:cover;background-blend-mode:multiply}
+#content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.6);background-image:url('https://git.grupodatco.com/qr/img/grupo_datco-bkg_1920_1080.jpg');background-position:center left;background-size:cover;background-blend-mode:multiply}
 #content .columns .tp.digital.grupo_datco li{border:1px solid #FFB201}
-#content .columns .tp.digital.zerog_networks #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/zerog_networks-bkg_1920_1080.png')}
-#content .columns .tp.digital.baitcon #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/baitcon-bkg_1920_1080.png')}
-#content .columns .tp.digital.datco #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/datco-bkg_1920_1080.png')}
-#content .columns .tp.digital.focus #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/focus-bkg_1920_1080.png')}
-#content .columns .tp.digital.interservices #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/interservices-bkg_1920_1080.png');}
-#content .columns .tp.digital.sersat #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/sersat-bkg_1920_1080.png')}
-#content .columns .tp.digital.silica_networks #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/silica_networks-bkg_1920_1080.png')}
-#content .columns .tp.digital.velocom #mobile-content{background-image:url('https://www.grupodatco.com/qr/img/velocom-bkg_1920_1080.png')}
+#content .columns .tp.digital.zerog_networks #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/zerog_networks-bkg_1920_1080.jpg')}
+#content .columns .tp.digital.baitcon #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/baitcon-bkg_1920_1080.jpg')}
+#content .columns .tp.digital.datco #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/datco-bkg_1920_1080.jpg')}
+#content .columns .tp.digital.focus #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/focus-bkg_1920_1080.jpg')}
+#content .columns .tp.digital.interservices #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/interservices-bkg_1920_1080.jpg');}
+#content .columns .tp.digital.sersat #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/sersat-bkg_1920_1080.jpg')}
+#content .columns .tp.digital.silica_networks #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/silica_networks-bkg_1920_1080.jpg')}
+#content .columns .tp.digital.velocom #mobile-content{background-image:url('https://git.grupodatco.com/qr/img/velocom-bkg_1920_1080.jpg')}
 #content .columns.two .tp h3,#content .columns.two .tp h5,#content .columns.two .tp.grupo_datco h3,#content .columns.two .tp.grupo_datco h5{color:#0E316E}
 #content .columns.two .tp.zerog_networks h3,#content .columns.two .tp.zerog_networks h5{color:#692D87}
 #content .columns.two .tp.baitcon h3,#content .columns.two .tp.baitcon h5{color:#89388D}
