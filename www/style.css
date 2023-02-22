@@ -745,7 +745,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Contenido */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
-	body.single article>.flexslider{margin:0 -30px}
+	body.single article>.flexslider{margin:0 -30px;border-radius:0}
 
 	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
