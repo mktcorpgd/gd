@@ -8,10 +8,9 @@ jQuery(document).ready(function() {
 	jQuery('span.fname').text(fname);
 	jQuery('span.lname').text(lname);
 	jQuery('span.email').text(email);
-	var username = jQuery('#wpadminbar #wp-admin-bar-user-info .username').text().replace(' ','-');
+	var username = jQuery('#wp-admin-bar-user-info span.username').text().replace(' ','-');
 	console.log(username);
 	jQuery('input[name=USERNAME]').val(username);
-
 
 	// Datos de tarjetas
 	var tp_data = new Array();
