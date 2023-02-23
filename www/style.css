@@ -748,11 +748,12 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Formularios */
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
 	#comment-input{grid-template-columns:1fr}
+	#comment-input .form-submit{grid-column:1}
 	
 	/* Contenido */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
 	body.single article>.flexslider{margin:0 -30px;border-radius:0}
-	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1.1em!important}
+	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:.9em!important}
 
 	/* Sidebar */
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
