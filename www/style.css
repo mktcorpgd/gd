@@ -486,6 +486,7 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 
 /* Cajas con íconos */
 .fusion-content-boxes .link-area-box{cursor:inherit}
+.fusion-content-boxes .link-area-box-hover{color:inherit}
 .fusion-content-boxes .fusion-column{margin-bottom:1em}
 .fusion-content-boxes.content-boxes-icon-on-top .content-container,.fusion-content-boxes.no-heading .heading{margin-bottom:0}
 .fusion-content-boxes.less-heading .heading{margin-bottom:5px}
