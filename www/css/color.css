@@ -39,7 +39,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{background:var(--highlightColor)}
 .white .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
-.white .wpcf7-form input[type='submit']:hover.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
+.white .wpcf7-form input[type='submit']:hover,.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
 .fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}
 img[src*='flag-']{border-color:var(--lightgrayColor)}
 .white img[src*='flag-']{border-color:var(--whiteColor)}
