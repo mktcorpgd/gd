@@ -37,9 +37,9 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{background:var(--highlightColor)}
-.white .wpcf7-form input[type='submit'],body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
-.white .wpcf7-form input[type='submit']:hover,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']:hover,.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
+.wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{background:var(--highlightColor)}
+.white .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
+.white .wpcf7-form input[type='submit']:hover.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
 .fusion-reading-box-container .reading-box{border-color:var(--highlightColor)}
 img[src*='flag-']{border-color:var(--lightgrayColor)}
 .white img[src*='flag-']{border-color:var(--whiteColor)}
