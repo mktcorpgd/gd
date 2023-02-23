@@ -730,13 +730,16 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.awb-icon-bars:before,.fusion-open-submenu:before{display:inline-block}
 	.awb-icon-bars[aria-expanded='true']:before{transform:rotate(90deg)}
 	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
+	.fusion-is-sticky .awb-icon-bars[aria-expanded='true']:before{transform:rotate(0deg)}
 	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
-	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-mobile-nav-holder{padding-top:0;max-height:50vh;position:relative;top:10px;border-top:4px solid rgba(0,0,0,.4);overflow:auto}
+	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-mobile-nav-holder{max-height:50vh;overflow:auto}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item{font-size:18px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .fusion-mobile-nav-item a{height:auto;padding-top:.5em;padding-bottom:.5em;border:none;line-height:1.5;letter-spacing:0!important;font-weight:400}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
+	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item .fusion-modal-text-link-button .menu-text{display:block;
+		width:100%;background:rgba(0,0,0,.2);padding:.25em .5em;border-radius:12px;text-align:center;}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 
@@ -747,6 +750,9 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
 	body.single article>.flexslider{margin:0 -30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1.1em!important}
+
+	/* Sidebar */
+	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:0 30px}
 
 	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
