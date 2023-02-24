@@ -563,7 +563,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .gray-to-color .awb-carousel img:hover{filter:saturate(100%)}
 .related-posts .awb-swiper{overflow:visible}
 .related-posts .awb-carousel .fusion-carousel-holder{padding:0;width:100%!important;position:relative!important}
-.related-posts .awb-carousel .swiper-slide{display:inline-block;margin-left:0!important;margin-right:4%;margin-bottom:30px;position:relative;box-shadow:0 0 12px -2px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
+.related-posts .awb-carousel .swiper-slide{display:inline-block;margin-left:0!important;margin-right:4%;margin-bottom:30px;position:relative;box-shadow:0 4px 12px -4px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
 .related-posts .awb-carousel .swiper-slide:last-child{margin-right:0}
 .related-posts .awb-carousel .swiper-slide .fusion-carousel-item-wrapper{visibility:visible}
 .related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
@@ -683,9 +683,9 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.fusion-header-layout-v2.customize-support .fusion-layout-column.sticky{top:150px}
 	
 	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.shadow>.fusion-column>.col:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
-	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
+	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
-	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 4px 12px -4px rgba(0,0,0,.4)}
+	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
 
 	body:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{position:sticky;top:95px}
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
