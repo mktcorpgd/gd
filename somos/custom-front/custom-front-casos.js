@@ -39,6 +39,8 @@ jQuery(document).ready(function() {
 	jQuery(document).on('input','.wpcf7-text,.wpcf7-number,.wpcf7-textarea,.wpcf7-date',function() {
 		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
 		var input_value = jQuery(this).val();
+		console.log(input_name);
+		console.log(input_value);
 		if ( input_name == 'NOMCASO' ) {
 			if ( input_value.length > 0 ) {
 				jQuery('.preview').show();
@@ -53,6 +55,8 @@ jQuery(document).ready(function() {
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
 		var input_value = jQuery(this).val();
+		console.log(input_name);
+		console.log(input_value);
 		jQuery('.wpcf7-'+input_name).text(input_value);
 		copyPostContent();
 	});
