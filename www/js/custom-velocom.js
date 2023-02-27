@@ -166,8 +166,8 @@ if ( jQuery('body').hasClass('postid-25656') ) {
 		polygon_stelmo.setMap(map);
 		var cobertura_status_ok = 'Con cobertura';
 		var cobertura_status_error = 'Sin cobertura'
-		var cobertura_msg_ok = 'confirmando que tu domicilio cuenta con cobertura para Velocom Fibra y estaremos contactándote a la brevedad.';
-		var cobertura_msg_error = 'informando que, por el momento, tu domicilio no cuenta con cobertura para solicitar Velocom Fibra. Igualmente estaremos contactándote a la brevedad, ya que nuestra red se encuentra en constante crecimiento.'
+		var cobertura_msg_ok = 'Este es un mensaje automático confirmando que tu domicilio cuenta con cobertura para Velocom Fibra y estaremos contactándote a la brevedad.';
+		var cobertura_msg_error = 'Este es un mensaje automático informando que, por el momento, tu domicilio no cuenta con cobertura para solicitar Velocom Fibra. Igualmente estaremos contactándote a la brevedad, ya que nuestra red se encuentra en constante crecimiento.'
 		var address_msg_ok = '<div class="wpcf7-response-inner sent">¡Tu dirección se encuentra en nuestra cobertura!</div>';
 		var address_msg_error = '<div class="wpcf7-response-inner warning">Nuestra red se encuentra en constante crecimiento.<br /><strong>Contactanos para analizar tu solicitud de manera personalizada.</strong></div>';
 		var button_contact = '<a class="fusion-modal-text-link" data-toggle="modal" data-target=".fusion-modal.contacto-rapido"><span class="menu-text fusion-button button-default button-small">Contactanos</span></a>';
