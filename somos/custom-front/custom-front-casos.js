@@ -48,6 +48,8 @@ jQuery(document).ready(function() {
 			}
 		}
 		jQuery('.wpcf7-'+input_name).text(input_value);
+		console.log(input_name);
+		console.log(input_value);
 		copyPostContent();
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
