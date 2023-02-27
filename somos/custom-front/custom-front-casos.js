@@ -38,20 +38,14 @@ jQuery(document).ready(function() {
 	jQuery(document).on('input','.wpcf7-text,.wpcf7-number,.wpcf7-textarea,.wpcf7-date',function() {
 		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
 		var input_value = jQuery(this).val();
-		if ( input_name == 'NOMCASO' ) {
-			input_value = jQuery(this).val()+' - ';
-		}
 		jQuery('.wpcf7-'+input_name).text(input_value);
 		copyPostContent();
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
+		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
+		var input_value = jQuery(this).val();
+		jQuery('.wpcf7-'+input_name).text(input_value);
 		copyPostContent();
-	});
-
-
-	// Convertir a letras capitales
-	jQuery('input[name*=NOMCASO]').on('input',function (e) {
-		jQuery(this).capitalize();
 	});
 
 	
