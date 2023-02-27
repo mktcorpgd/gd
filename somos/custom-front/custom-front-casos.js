@@ -36,7 +36,7 @@ jQuery(document).ready(function() {
 
 	// Al escribir o seleccionar reemplazar valores en la celda correspondiente de la tabla
 	jQuery('.preview').hide();
-	jQuery(document).on('input','.wpcf7-hidden,.wpcf7-text,.wpcf7-number,.wpcf7-textarea,.wpcf7-date',function() {
+	jQuery(document).on('input','.wpcf7-text,.wpcf7-number,.wpcf7-textarea,.wpcf7-date',function() {
 		var input_name = jQuery(this).attr('name');
 		var input_value = jQuery(this).val();
 		if ( input_name == 'NOMCASO' ) {
@@ -48,11 +48,15 @@ jQuery(document).ready(function() {
 			}
 		}
 		jQuery('.wpcf7-'+input_name).text(input_value);
-		console.log(input_name);
-		console.log(input_value);
 		copyPostContent();
 	});
 	jQuery(document).on('change','.wpcf7-select',function() {
+		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
+		var input_value = jQuery(this).val();
+		if ( jQuery('input[name='+input_name+'TXT]').length ) {
+			input_value = jQuery('input[name='+input_name+'TXT]').val();
+			jQuery('.wpcf7-'+input_name).text(input_value);
+		}
 		copyPostContent();
 	});
 
