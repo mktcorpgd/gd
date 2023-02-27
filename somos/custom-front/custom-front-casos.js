@@ -38,6 +38,12 @@ jQuery(document).ready(function() {
 	jQuery(document).on('input','.wpcf7-text,.wpcf7-number,.wpcf7-textarea,.wpcf7-date',function() {
 		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
 		var input_value = jQuery(this).val();
+		if ( input_name == 'NOMCASO' && input_value.length > 0 ) {
+			jQuery('.preview').show();
+		}
+		else {
+			jQuery('.preview').hide();
+		}
 		jQuery('.wpcf7-'+input_name).text(input_value);
 		copyPostContent();
 	});
