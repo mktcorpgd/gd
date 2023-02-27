@@ -37,7 +37,7 @@ jQuery(document).ready(function() {
 	// Al escribir o seleccionar reemplazar valores en la celda correspondiente de la tabla
 	jQuery('.preview').hide();
 	jQuery(document).on('input','.wpcf7-hidden,.wpcf7-text,.wpcf7-number,.wpcf7-textarea,.wpcf7-date',function() {
-		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
+		var input_name = jQuery(this).attr('name');
 		var input_value = jQuery(this).val();
 		if ( input_name == 'NOMCASO' ) {
 			if ( input_value.length > 0 ) {
