@@ -53,6 +53,9 @@ jQuery(document).ready(function() {
 	jQuery(document).on('change','.wpcf7-select',function() {
 		var input_name = jQuery(this).attr('name').replace(/[[]]/g,'');
 		var input_value = jQuery(this).val();
+		console.log(input_name);
+		console.log(input_value);
+		console.log(jQuery('input[name='+input_name+'TXT]').length);
 		if ( jQuery('input[name='+input_name+'TXT]').length ) {
 			input_value = jQuery('input[name='+input_name+'TXT]').val();
 			jQuery('.wpcf7-'+input_name).text(input_value);
