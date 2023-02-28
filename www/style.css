@@ -217,7 +217,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 
 /* Contenido */
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
-.post-content blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont);font-weight:400;font-style:normal;font-size:1.2em;line-height:1.5}
+.post-content blockquote{margin:0 0 1em;margin-left:0;padding:1.6em 2em;background:none;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont);font-weight:400;font-style:normal;font-size:1.2rem;line-height:1.5}
 .post-content blockquote strong{font-weight:400!important}
 .ilightbox-holder{background:var(--whiteColor);border-radius:24px;overflow:hidden}
 .fusion-post-title-meta-wrap{margin-bottom:0}
@@ -267,7 +267,7 @@ body.single-format-link .widget_text .wpcf7-form input[type='email']{font-size:1
 /* Testimonios */
 .fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:1em;padding-bottom:.5em;border-left:4px solid var(--lightgrayColor)!important}
 .fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:20px;color:var(--lightgrayColor);z-index:-1}
-.fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1.1em}
+.fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1em}
 .fusion-testimonials.clean blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
 .fusion-testimonials.clean .author{margin-top:0;padding:.5em 1em;line-height:1.25;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont)}
 .fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:500}
@@ -517,8 +517,10 @@ div.pdfemb-toolbar button.pdfemb-download:before{content:''}
 input.pdfemb-page-num{border-radius:6px;color:var(--textColor)}
 
 /* Listas */
-.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{display:grid;grid-template-columns:45% 45%;grid-column-gap:5%}
-ul.fusion-checklist .fusion-li-item{padding:0 0 10px}
+.fusion-checklist,ul.fusion-checklist{margin-top:1em}
+.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{margin-top:1em;display:grid;grid-template-columns:1fr 1fr;grid-column-gap:5%}
+ul.fusion-checklist{margin-top:.5em}
+ul.fusion-checklist .fusion-li-item{padding:0 0 .4em}
 ul.fusion-checklist .fusion-li-item p{word-break:break-word}
 ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;margin-bottom:0!important;padding-top:4px;font-size:1em}
 .fusion-checklist,ul.fusion-checklist{font-size:inherit!;line-height:inherit}
@@ -764,6 +766,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
+	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
 
 	/* Sidebar */
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
