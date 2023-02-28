@@ -295,10 +295,6 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
 #comment-input .form-submit{margin:0;grid-column:span 2}
 .wpcf7-select-parent .wpcf7-select{padding:.425em 0.8em}
-.wpcf7 input:not([type='submit']):hover,.wpcf7-select-parent .wpcf7-select:hover,.wpcf7 textarea:hover,
-#respond input:not([type='submit']):hover,#respond textarea:hover,.post-password-form input[type='password']:hover{background:var(--whiteColor);border-color:var(--grayColor)}
-.wpcf7 input:not([type='submit']):focus,.wpcf7-select-parent .wpcf7-select:focus,.wpcf7 textarea:focus,
-#respond input:not([type='submit']):focus,#respond textarea:focus,.post-password-form input[type='password']:focus{background:var(--whiteColor);border-color:var(--grayColor)}
 .wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,#respond .fusion-one-half:not(.fusion-column-last) input{border-top-right-radius:0;border-bottom-right-radius:0;border-right-width:1px}
 .wpcf7 .fusion-one-half.fusion-column-last input,.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-top-left-radius:0;border-bottom-left-radius:0;border-left-width:1px}
 div.wpcf7 input[type='file']{cursor:pointer}
