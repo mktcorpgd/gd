@@ -40,7 +40,9 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{background:var(--highlightColor)}
 .white .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
 .white .wpcf7-form input[type='submit']:hover,.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
-.fusion-reading-box-container .reading-box,.wpcf7-captchar:focus,.wpcf7-form .wpcf7-date:focus,.wpcf7-form .wpcf7-number:focus,.wpcf7-form .wpcf7-quiz:focus,.wpcf7-form .wpcf7-select:focus,.wpcf7-form .wpcf7-text:focus{border-color:var(--highlightColor)}
+.fusion-reading-box-container .reading-box,
+.wpcf7-captchar:hover,.wpcf7-form .wpcf7-date:hover,.wpcf7-form .wpcf7-number:hover,.wpcf7-form .wpcf7-quiz:hover,.wpcf7-form .wpcf7-select:hover,.wpcf7-form .wpcf7-text:hover,
+.wpcf7-captchar:focus,.wpcf7-form .wpcf7-date:focus,.wpcf7-form .wpcf7-number:focus,.wpcf7-form .wpcf7-quiz:focus,.wpcf7-form .wpcf7-select:focus,.wpcf7-form .wpcf7-text:focus{border-color:var(--highlightColor)}
 img[src*='flag-']{border-color:var(--lightgrayColor)}
 .white img[src*='flag-']{border-color:var(--whiteColor)}
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
