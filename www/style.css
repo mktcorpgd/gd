@@ -68,6 +68,7 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative
 .fusion-caret .fusion-dropdown-indicator:before,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.awb-icon-bars:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
 .fusion-modal-text-link{cursor:pointer}
 .fullwidth-center{display:block;width:100%;text-align:center}
+body.page .fusion-fullwidth,body.single .fusion-fullwidth{padding-left:0;padding-right:0}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -223,7 +224,6 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-post-title-meta-wrap{margin-bottom:0}
 .fusion-post-title-meta-wrap .entry-title{font-size:2.4em;line-height:1.3}
 body.single article>.flexslider{border-radius:12px;overflow:hidden}
-body.single .fusion-fullwidth{padding-left:0;padding-right:0}
 body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1 h3,body.single .fusion-text.fusion-text-1 h4,body.single .fusion-text.fusion-text-1 h5{margin-top:0}
 .post-password{padding:1em 2em;text-align:center}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
