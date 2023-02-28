@@ -265,14 +265,13 @@ body.single-format-link .widget_text .wpcf7-form input[type='email']{font-size:1
 .fusion-portfolio article .fusion-post-content ul{margin-top:5px}
 
 /* Testimonios */
-.fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:1em;padding-bottom:.5em;border-left:4px solid var(--lightgrayColor)!important}
+.fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:20px;padding-bottom:.5em;border-left:4px solid var(--lightgrayColor)!important}
 .fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:20px;color:var(--lightgrayColor);z-index:-1}
 .fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1em}
 .fusion-testimonials.clean blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
-.fusion-testimonials.clean .author{margin-top:0;padding:.5em 1em;font-size:.9em;line-height:1.25;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont)}
+.fusion-testimonials.clean .author{margin-top:0;padding:0 20px 20px;font-size:.9em;line-height:1.25;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont)}
 .fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:500}
-.fusion-testimonials.clean .testimonial-pagination{padding-left:1.5em;text-align:left;}
-.fusion-testimonials.clean .testimonial-pagination{margin-bottom:2em}
+.fusion-testimonials.clean .testimonial-pagination{margin:1em 0 2em;padding-left:24px;text-align:left;}
 .fusion-testimonials.clean .testimonial-pagination a{border:2px solid var(--lightgrayColor)}
 .fusion-testimonials.clean .testimonial-pagination a:hover{background:var(--lightgrayColor)}
 .fusion-testimonials.clean .testimonial-pagination a.activeSlide{background:var(--grayColor)}
