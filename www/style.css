@@ -765,7 +765,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
-	.fusion-imageframe>
+	.fusion-image-element>span{display:block;margin:1em 0}
 
 	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
