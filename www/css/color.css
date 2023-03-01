@@ -45,6 +45,15 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 #respond input:not([type='submit']):hover,#respond textarea:hover,.post-password-form input[type='password']:hover,
 .wpcf7-captchar:focus,.wpcf7-form .wpcf7-date:focus,.wpcf7-form .wpcf7-number:focus,.wpcf7-form .wpcf7-quiz:focus,.wpcf7-form .wpcf7-select:focus,.wpcf7-form .wpcf7-text:focus,.wpcf7 textarea:focus,.wpcf7 input:not([type='submit']):focus,
 #respond input:not([type='submit']):focus,#respond textarea:focus,.post-password-form input[type='password']:focus{background:var(--whiteColor);border-color:var(--highlightColor)}
+.wpcf7 .wpcf7-form.failed .wpcf7-response-output,.wpcf7 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7 .wpcf7-form.spam .wpcf7-response-output,.wpcf7 .wpcf7-form.unaccepted .wpcf7-response-output{background-color:var(--errorColor);color:var(--whiteColor)}
+.wpcf7-response-inner.warning,.wpcf7 form div.wpcf7-response-output.info{background-color:var(--warningColor);color:var(--whiteColor)}
+.wpcf7 .wpcf7-form.sent .wpcf7-response-output,.wpcf7-response-inner.sent{background-color:var(--successColor);color:var(--whiteColor)}
+.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{background-color:var(--infoColor);color:var(--whiteColor)}
+.wpcf7-response-inner .menu-text.fusion-button{background:var(--whiteColor);border-color:var(--whiteColor)}
+.wpcf7-response-inner.sent .menu-text.fusion-button{color:var(--successColor)}
+.wpcf7-response-inner.warning .menu-text.fusion-button{color:var(--warningColor)}
+#content .wpcf7-response-inner .menu-text.fusion-button:hover{color:var(--whiteColor);background:none}
+.wpcf7-spam{background-color:var(--warningColor);color:var(--whiteColor)}
 img[src*='flag-']{border-color:var(--lightgrayColor)}
 .white img[src*='flag-']{border-color:var(--whiteColor)}
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
