@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
 
 	
 	// GENERAL - Cargar logo
-	jQuery('.fusion-logo-link').css('opacity','1');
+	jQuery('.fusion-header-wrapper').css('opacity','1');
 
 
 	// GENERAL - Guardar código de idioma
