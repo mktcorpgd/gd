@@ -240,7 +240,6 @@ body.single-format-link .widget_text img{border-radius:12px;border:2px solid var
 body.single-format-link .widget_text img,body.single-format-link .widget_text .wpcf7{float:left}
 body.single-format-link .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
-body.single-format-link .widget_text .wpcf7-form input[type='email']{font-size:1.2em}
 
 /* Portfolio */
 .fusion-portfolio-grid .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
@@ -310,6 +309,7 @@ div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:de
 .wpcf7-form input[type='submit'].sending,.wpcf7-form input[type='submit'].sending:hover,.wpcf7-form input[type='submit'].sending:focus{color:var(--grayColor)!important;background:var(--whiteColor)!important;border-color:var(--grayColor)!important}
 .wpcf7.sending form>div{opacity:.6}
 .wpcf7.sending:after{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;z-index:10}
+.wpcf7-form .fusion-one-full input[type='email']{font-size:1.2em}
 
 .wpcf7 form .ajax-loader{background-image:none}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:var(--whiteColor);font-weight:600;background:var(--successColor);border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:var(--textFont);font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
