@@ -68,7 +68,6 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .fusion-caret .fusion-dropdown-indicator:before,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.awb-icon-bars:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
 .fusion-modal-text-link{cursor:pointer}
-.fullwidth-center{display:block;width:100%;text-align:center}
 body.page .fusion-fullwidth,body.single .fusion-fullwidth{padding-left:0;padding-right:0}
 
 /* Encabezados */
@@ -745,6 +744,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 		width:100%;background:rgba(0,0,0,.2);padding:.25em .5em;border-radius:12px;text-align:center;}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
+	.fullwidth-center{display:block;width:100%;text-align:center}
 
 	/* Formularios */
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
