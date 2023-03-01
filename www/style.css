@@ -766,7 +766,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
-	.fusion-image-element:not([class*='fusion-image-align-']){display:block;margin:2em 0}
+	.fusion-image-element:not([class*='fusion-image-align-']){display:block;margin:2em 0;text-align:center}
 	.fusion-image-element:not([class*='fusion-image-align-']):last-child{margin-bottom:0}
 
 	/* Footer */
