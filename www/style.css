@@ -59,7 +59,6 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 img[src*='flag-']{border-radius:128px}
 h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative;top:2px;border-width:1px;border-style:solid}
 .list-style-none .fusion-text ul,.list-style-none .fusion-text ul li{margin:0;padding:0;list-style:none}
-.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
 .radius1x,.radius1x .content-box-wrapper,.fusion-separator~.fusion-google-map,.rounded,.map,
 .fusion-body .fusion-content-sep.sep-solid,.fusion-body .fusion-separator-border.sep-solid,.fusion-body .fusion-separator.sep-solid{border-radius:12px;overflow:hidden}
 .radius2x{border-radius:24px;overflow:hidden}
@@ -658,34 +657,39 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.customize-support .header-transparent .hundred-percent-height,body.customize-support #sliders-container.has-content,body.customize-support #sliders-container.has-content .background-image{height:calc(100vh - 32px)!important;background-size:cover}
 	.header-transparent #main>.fusion-row{max-width:100%}
 
-	/* Tabs */
-	.fusion-filters .fusion-filter a{line-height:1.15}
-	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
-
-	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
-
-	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
-	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
-	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
-
-	.modal-lg{width:1200px}
-	.modal-sm{width:600px}
-	.modal iframe{max-height:400px!important}
-
-	.fusion-layout-column.sticky{position:sticky;top:90px}
-	.fusion-header-layout-v2 .fusion-layout-column.sticky{top:130px}
-	body.customize-support .fusion-layout-column.sticky{top:120px}
-	body.fusion-header-layout-v2.customize-support .fusion-layout-column.sticky{top:150px}
-	
-	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.shadow>.fusion-column>.col:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
-	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
-	.related-posts .awb-carousel .swiper-slide{width:30%!important}
-	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
-
+	/* Sidebar */
 	body:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{position:sticky;top:95px}
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
 	.fusion-widget-area.sticky{position:sticky;top:120px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
+
+	/* Slider */
+	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
+	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
+
+	/* Contenidos */
+	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
+	.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
+	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
+	.modal-lg{width:1200px}
+	.modal-sm{width:600px}
+	.modal iframe{max-height:400px!important}
+	.fusion-layout-column.sticky{position:sticky;top:90px}
+	.fusion-header-layout-v2 .fusion-layout-column.sticky{top:130px}
+	body.customize-support .fusion-layout-column.sticky{top:120px}
+	body.fusion-header-layout-v2.customize-support .fusion-layout-column.sticky{top:150px}
+
+	/* Tabs */
+	.fusion-filters .fusion-filter a{line-height:1.15}
+	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
+
+	/* Blog/Portfolio */
+	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.shadow>.fusion-column>.col:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
+	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
+
+	/* Posts relacionados */
+	.related-posts .awb-carousel .swiper-slide{width:30%!important}
+	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
 
 	/* Precios */
 	.fusion-pricingtable-column.standout .panel-container{top:25px}
@@ -720,6 +724,9 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-author .fusion-author-title,.fusion-modal .modal-title,.fusion-widget-area h3,.post-content h3,.project-content h3,h3{font-size:1.4em}
 	.fusion-carousel-title,.fusion-person .person-author-wrapper .person-name,.fusion-person .person-author-wrapper .person-title,.fusion-rollover .fusion-rollover-content .fusion-rollover-title,.fusion-sharing-box h4,.fusion-tabs .nav-tabs > li .fusion-tab-heading,.fusion-tabs-widget .fusion-tabs-nav ul li a,.fusion-theme-sharing-box h4,.fusion-widget-area h4,.person-author-wrapper,.popover .popover-title,.post-content h4,.tribe-events-single ul.tribe-related-events li .tribe-related-events-title,h4{font-size:1.3em}
 	.fusion-widget-area h5,.post-content h5,h5{font-size:1.2em}
+
+	/* Sidebar */
+	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
 
 	/* Slider */
 	.tfs-slider .fusion-title{margin-bottom:0!important}
@@ -759,9 +766,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
-
-	/* Sidebar */
-	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
 
 	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
