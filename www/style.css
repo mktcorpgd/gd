@@ -585,7 +585,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-filter.fusion-active a{line-height:inherit}
 .fusion-tab-link{cursor:pointer}
 .fusion-tabs .tab-pane{padding:2em 0 0}
-.fusion-tabs .nav-tabs.nav-justified>li{white-space:nowrap}
+.fusion-tabs .nav-tabs.nav-justified>li{display:block;width:auto}
 .fusion-tabs.clean .nav-tabs li{margin-bottom:0}
 .fusion-tabs.vertical-tabs .tab-pane{border-radius:6px 6px 12px 12px;border:2px solid var(--lightgrayColor)}
 .fusion-tabs.vertical-tabs .nav-tabs>li .tab-link{padding-left:1em}
