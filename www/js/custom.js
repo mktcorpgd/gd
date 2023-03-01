@@ -108,10 +108,6 @@ function scrollHeaderTransp() {
 jQuery(document).ready(function() {
 
 	
-	// GENERAL - Cargar header
-	jQuery('.fusion-header-wrapper').css('opacity','1');
-
-
 	// GENERAL - Guardar código de idioma
 	var lang = jQuery('html').attr('lang').substring(0,2);
 

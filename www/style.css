@@ -35,7 +35,6 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
 .pac-icon,.pac-logo:after{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none,.project-content .fusion-fullwidth:not(.no-featured-image) .tag-solo-contacto:not(.turbomaster):not(.datasheet) .fusion-post-content p,.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .fusion-buttons,.fusion-portfolio .more-info{display:none}
-.fusion-header-wrapper{opacity:0}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
 /* General */
@@ -766,6 +765,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
+	.fusion-imageframe>
 
 	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
