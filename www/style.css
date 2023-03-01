@@ -409,6 +409,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 a.cta-link{display:block;margin-top:-10px;text-align:center;font-family:var(--textFont)}
 a.cta-link strong{font-weight:600}
 a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
+.fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 
 /* Botones - Portfolio */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:.5em;padding:.5rem 1rem}
@@ -668,7 +669,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Contenidos */
 	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
 	.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
-	.fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 	.modal-lg{width:1200px}
 	.modal-sm{width:600px}
 	.modal iframe{max-height:400px!important}
