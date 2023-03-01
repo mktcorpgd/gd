@@ -108,7 +108,7 @@ function scrollHeaderTransp() {
 jQuery(document).ready(function() {
 
 	
-	// GENERAL - Cargar logo
+	// GENERAL - Cargar header
 	jQuery('.fusion-header-wrapper').css('opacity','1');
 
 
