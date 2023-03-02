@@ -340,7 +340,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7 form div.wpcf7-response-output.info{margin:0 0 5px;padding:4px}
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
-.post-password-form label input[type='submit']{margin-top:1em!important}
 
 /* Búsqueda */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
@@ -675,6 +674,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.customize-support .fusion-layout-column.sticky{top:120px}
 	body.fusion-header-layout-v2.customize-support .fusion-layout-column.sticky{top:150px}
 	.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
+	.post-password-form input[type='submit']{margin-left:1em!important}
 	.post-password-form label input[type='password']{max-width:300px}
 
 	/* Tabs */
@@ -756,7 +756,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.wpcf7-form input[type='submit']{padding:.7rem .9rem}	
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
-	
+	.post-password-form input[type='submit']{margin-top:1em!important}
+
 	/* Contenido */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
