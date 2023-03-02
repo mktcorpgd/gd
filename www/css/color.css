@@ -64,6 +64,7 @@ img[src*='flag-']{border-color:var(--lightgrayColor)}
 
 @media (max-width: 920px) {
 	body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item a,.fusion-body .fusion-header-wrapper .fusion-header,.fusion-body .fusion-header-wrapper .fusion-secondary-main-menu,.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{background:var(--mainColor)}
+	.fusion-mobile-nav-holder ul.fusion-sub-menu-open a{background:rgba(0,0,0,.2)}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{background:var(--highlightColor)}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content a,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .widget-title,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']:hover{color:var(--whiteColor)}
