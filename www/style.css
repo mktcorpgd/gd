@@ -369,7 +369,8 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .logged-in-as+#comment-textarea{margin-bottom:0}
 
 /* Precios */
-.fusion-pricing-table{margin:0;background:none!important}
+.fusion-pricing-table{margin:0}
+.fusion-pricing-table,.panel-wrapper:hover .list-group-item{background:none!important}
 .fusion-pricing-table .panel-body{padding:0}
 .fusion-pricing-table .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block}
 .fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;border-top:4px solid rgba(0,0,0,.2);border-bottom:4px solid rgba(0,0,0,.2);border-radius:0;box-shadow:none;cursor:initial;overflow:hidden}
