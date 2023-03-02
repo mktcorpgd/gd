@@ -373,7 +373,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricing-table .panel-body{padding:0}
 .fusion-pricing-table .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block}
 .fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2);cursor:initial;overflow:hidden}
-.fusion-pricingtable-column .panel-wrapper:first-child .panel-container{border-bottom-right-radius:0;border-top-right-radius:0}
+.fusion-pricingtable-column .panel-wrapper:nth-child(1) .panel-container{border-bottom-right-radius:0;border-top-right-radius:0}
 .fusion-pricingtable-column .panel-wrapper:last-child .panel-container{border-top-left-radius:0;border-bottom-left-radius:0}
 .fusion-pricingtable-column .panel-container:hover{transform:scale(1.025);box-shadow:0 0 24px rgba(0,0,0,.4)}
 .fusion-pricingtable-column.standout .panel-container{box-shadow:0 0 32px rgba(0,0,0,.6)}
