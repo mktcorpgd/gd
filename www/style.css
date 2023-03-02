@@ -77,7 +77,7 @@ table th{font-size:1.1em}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
-.fusion-header-wrapper .fusion-header{width:100%;top:0;box-shadow:0 4px 16px 0 rgba(0,0,0,.4);transition:all .5s ease-in-out}
+.fusion-header-wrapper .fusion-header{width:100%;top:0;box-shadow:0 0 12px 0 rgba(0,0,0,.6);transition:all .5s ease-in-out}
 .fusion-header-wrapper.on-top .fusion-header{box-shadow:0 0 0 0 rgba(0,0,0,0)}
 .fusion-header-wrapper.on-top .fusion-secondary-header{background:rgba(0,0,0,.4)}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft,.fusion-header-v2 .fusion-secondary-header{border:none}
@@ -409,6 +409,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 a.cta-link{display:block;margin-top:-10px;text-align:center;font-family:var(--textFont)}
 a.cta-link strong{font-weight:600}
 a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
+.fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 
 /* Botones - Portfolio */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:.5em;padding:.5rem 1rem}
@@ -733,10 +734,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Menú */
 	.awb-icon-bars:before{content:'\f0c9'}
 	.fusion-open-submenu:before{content:'\f107'}
-	.awb-icon-bars:before,.fusion-open-submenu:before{display:inline-block}
-	.awb-icon-bars[aria-expanded='true']:before{transform:rotate(90deg)}
-	.fusion-open-submenu[aria-expanded='true']:before{transform:rotate(180deg)}
-	.fusion-is-sticky .awb-icon-bars[aria-expanded='true']:before{transform:rotate(0deg)}
 	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-mobile-nav-holder{max-height:50vh;overflow:auto}
