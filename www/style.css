@@ -374,6 +374,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricing-table .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block}
 .fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2);cursor:initial;overflow:hidden}
 .fusion-pricingtable-column:first-child .panel-container{border-bottom-right-radius:0;border-top-right-radius:0}
+.fusion-pricingtable-column:not(.standout) .panel-container{border-radius:0}
 .fusion-pricingtable-column:last-child .panel-container{border-top-left-radius:0;border-bottom-left-radius:0}
 .fusion-pricingtable-column .panel-container:hover{transform:scale(1.025);box-shadow:0 0 24px rgba(0,0,0,.4)}
 .fusion-pricingtable-column.standout .panel-container{box-shadow:0 0 32px rgba(0,0,0,.6)}
@@ -588,6 +589,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-tab-link{cursor:pointer}
 .fusion-tabs .tab-pane{padding:2em 0 0}
 .fusion-tabs.clean .nav-tabs li{margin-bottom:0}
+.fusion-tabs.horizontal-tabs .tab-content{margin-top:2em}
 .fusion-tabs.vertical-tabs .tab-pane{border-radius:6px 6px 12px 12px;border:2px solid var(--lightgrayColor)}
 .fusion-tabs.vertical-tabs .nav-tabs>li .tab-link{padding-left:1em}
 
