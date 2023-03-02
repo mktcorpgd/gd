@@ -766,7 +766,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.partners-logos .fusion-column-content{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
 
 	/* Botones */
-	.fusion-button-wrapper{margin:.5em 0 0;display:block}
+	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
 
 	/* Tabs */
 	.fusion-filters{display:block}
