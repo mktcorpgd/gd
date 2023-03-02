@@ -169,7 +169,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 
 /* Modal */
 .modal-backdrop.in{opacity:.5!important;transition:none!important}
-.modal{transition:none!important;opacity:1!important;z-index:99999}
+.modal{transition:none!important;opacity:1!important;z-index:99999;overflow:auto}
 .modal .modal-dialog{margin:60px auto 0;border-radius:12px;opacity:0;visibility:hidden}
 .modal.in .modal-dialog{box-shadow:0 5px 25px rgba(0,0,0,.4);opacity:1;visibility:visible}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
