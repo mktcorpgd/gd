@@ -7,27 +7,10 @@
 .fusion-mobile-nav-holder .fusion-mobile-nav-item a:hover{background-color:rgba(0,0,0,.2)!important}
 .fusion-.fusion-main-menu .current-menu-ancestor>a,.fusion-.fusion-main-menu .current-menu-item>a,.fusion-.fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart)>a:before,.fusion-.fusion-main-menu .current-menu-parent>a,.fusion-.fusion-main-menu .current_page_item>a{color:var(--whiteColor)!important;border-color:var(--whiteColor)!important}
 .fusion-main-menu>ul>li.partner:hover a,.fusion-mobile-nav-holder>ul>li.partner:hover a,.fusion-mobile-nav-holder>ul>li.button-header:hover a,.fusion-mobile-nav-holder>ul>li.button-header-no-boders:hover a,.fusion-mobile-nav-holder>ul>li.fusion-modal-text-link-button:hover a{background-color:rgba(0,0,0,.0)!important}
-html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title):hover{background:none}
-html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title) span{border-bottom:1px solid rgba(255,255,255,0)}
-html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title) span:before {
-	content: '';
-    position: absolute;
-    display:block;
-    left: 0;
-    top:90%;
-    margin:0 auto;
-    height: 2px;
-    background-color: #FFFFFF;
-    width: 0%;
-    transition: width 1s ease;
-}
-html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title) span{
-    position:relative;
-    transition: all 0.3s ease-out;
-}
-html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title) span:hover:before {
-    width: 100%;
-}
+html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title):hover{background:rgba(0,0,0,.2)!important}
+html .fusion-main-menu .sub-menu li:not(.fusion-menu-item-button) a:not(.awb-justify-title)>span:before{content:'';margin:0 auto;display:block;width:0%;height:1px;position:absolute;left:0;top:100%;background-color:var(--whiteColor);transition:width .5s ease}
+html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title)>span{position:relative;transition:all .3s ease-out}
+html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title)>span:hover:before{width:100%}
 .avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item>a{background:none}
 .avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item:not(.country-flag)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor:not(.country-flag)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item:not(.country-flag)>a .menu-text{border-bottom:1px solid rgba(255,255,255,.6)}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:var(--whiteColor)!important;opacity:1!important}
