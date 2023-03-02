@@ -376,9 +376,9 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricingtable-column:first-child .panel-container{border-bottom-right-radius:0;border-top-right-radius:0}
 .fusion-pricingtable-column:not(.standout) .panel-container{border-radius:0}
 .fusion-pricingtable-column:last-child .panel-container{border-top-left-radius:0;border-bottom-left-radius:0}
-.fusion-pricingtable-column .panel-container:hover{transform:scale(1.025);box-shadow:0 0 24px rgba(0,0,0,.4)}
 .fusion-pricingtable-column.standout .panel-container{box-shadow:0 0 32px rgba(0,0,0,.6)}
-.fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 0 40px rgba(0,0,0,.4)}
+.fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 -20px 30px rgba(0,0,0,.2)}
+.fusion-pricingtable-column .panel-container:hover{box-shadow:0 0 24px rgba(0,0,0,.6)}
 .full-boxed-pricing .standout .panel-container{margin:-5px -20px}
 .fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
 .fusion-pricing-table .standout .price{font-size:1.1em}
