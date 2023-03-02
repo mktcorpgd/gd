@@ -674,7 +674,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.customize-support .fusion-layout-column.sticky{top:120px}
 	body.fusion-header-layout-v2.customize-support .fusion-layout-column.sticky{top:150px}
 	.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
-	.post-password-form input[type='submit']{margin-left:1em!important}
+	.post-password-form input[type='submit']{margin-left:1em;position:relative;top:5px}
 	.post-password-form label input[type='password']{max-width:300px}
 
 	/* Tabs */
