@@ -377,6 +377,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricingtable-column.standout .panel-container{box-shadow:0 0 32px rgba(0,0,0,.6)}
 .fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 0 40px rgba(0,0,0,.4)}
 .fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
+.fusion-pricing-table .standout .price{font-size:1.1em}
 .fusion-pricing-table .panel-heading{padding:1em .5em .5em!important}
 .fusion-pricing-table .panel-heading,.fusion-pricing-table .panel-body{background:var(--whiteColor)!important}
 .fusion-pricing-table .panel-heading h3{font-size:1.6em}
