@@ -369,18 +369,19 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .logged-in-as+#comment-textarea{margin-bottom:0}
 
 /* Precios */
-.fusion-pricing-table{margin:0}
+.fusion-pricing-table{margin:0;background:none!important}
+.fusion-pricing-table .panel-body{padding:0}
 .fusion-pricing-table .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block}
 .fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2);cursor:initial;overflow:hidden}
 .fusion-pricingtable-column .panel-container:hover{transform:scale(1.025);box-shadow:0 0 24px rgba(0,0,0,.4)}
 .fusion-pricingtable-column.standout .panel-container{box-shadow:0 0 32px rgba(0,0,0,.6)}
 .fusion-pricingtable-column:not(.standout) .panel-container{box-shadow:0 0 40px rgba(0,0,0,.4)}
 .fusion-pricing-table .standout .panel-heading h3{font-size:2.2em}
-.fusion-pricing-table .standout .panel-body{padding:.5em}
 .fusion-pricing-table .panel-heading{padding:1em .5em .5em!important}
 .fusion-pricing-table .panel-heading,.fusion-pricing-table .panel-body{background:var(--whiteColor)!important}
 .fusion-pricing-table .panel-heading h3{font-size:1.6em}
 .fusion-pricing-table .panel-body,.fusion-pricing-table .panel-body .list-group .list-group-item{background:var(--whiteAltColor)}
+.fusion-pricing-table .panel-body .price{padding:1em}
 .fusion-pricing-table .panel-body .price .integer-part{font-size:3em;font-weight:500;letter-spacing:-2px}
 .fusion-pricing-table .panel-body .price .time{font-size:1em;font-style:normal;font-weight:normal;line-height:1}
 .fusion-pricing-table .panel-body .price .currency{top:-18px;left:-2px;font-size:1.4em;font-weight:400;opacity:.6}
