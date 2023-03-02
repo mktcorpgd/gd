@@ -40,7 +40,7 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{vis
 /* General */
 :root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--blackColor:#222222;--lightgrayColor:#CCCCCC;--grayColor:#999999;--textColor:#333333;--metaColor:#666666;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
 body{font-family:var(--textFont);font-size:16px;line-height:1.6}
-a,li,i,.wpcf7 input,.wpcf7 button,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-wrapper .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col,.fusion-portfolio article,.fusion-portfolio article .more-info.open i,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .swiper-slide,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header{transition:all .1s ease-in-out!important}
+a,li,i,.wpcf7 input,.wpcf7 button,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-wrapper .fusion-portfolio-content-wrapper,.fusion-content-boxes.shadow>.fusion-column>.col,.fusion-portfolio article,.fusion-portfolio article .more-info.open i,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .swiper-slide,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text{transition:all .1s ease-in-out!important}
 #reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:var(--textColor)}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
@@ -127,8 +127,8 @@ table th{font-size:1.1em}
 .fusion-logo img{height:48px}
 
 /* Menú - CTA */
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.2)}
-.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.4)}
+.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.4)}
+.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.5)}
 .fusion-main-menu .menu-text.fusion-button{margin-bottom:0;font-weight:400;font-size:1em}
 
 /* Menú - Buscador */
@@ -401,7 +401,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],
 .fusion-button-text,.button-default .fusion-button-text{color:var(--whiteColor)}
-.button-default.button-small,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.4rem .7rem;font-size:.9em}
+.button-default.button-small,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.5rem .7rem;font-size:.9em}
 .button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.header-transparent.fusion-builder-row-1 .fusion-button:not(.button-small){padding:.6rem 1rem;font-size:1.2em}
 .button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.8rem 1.2rem;font-size:1.5em}
 .wpcf7-form input[type='submit']{display:grid}
@@ -743,8 +743,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .fusion-mobile-nav-item a{height:auto;padding-top:.5em;padding-bottom:.5em;border:none;line-height:1.5;letter-spacing:0!important;font-weight:400}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a span span{line-height:1.5}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
-	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item.fusion-modal-text-link-button .menu-text{display:block;
-		width:100%;background:rgba(0,0,0,.2);padding:.25em .5em;border-radius:12px;text-align:center;}
+	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item.fusion-modal-text-link-button .menu-text{display:block;width:100%;background:rgba(0,0,0,.4);padding:.5em;border-radius:12px;text-align:center;}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 	.fullwidth-center{display:block;width:100%;text-align:center}
