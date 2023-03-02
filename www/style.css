@@ -681,7 +681,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
 	.post-password-form input[type='submit']{margin-left:1em;position:relative;top:5px}
 	.post-password-form label input[type='password']{max-width:300px}
-	.fusion-pricingtable-column.standout .panel-container{margin:-5px -20px;top:-20px;border-radius:12px;border:4px solid rgba(0,0,0,.2)}
+	.fusion-pricingtable-column.standout .panel-container{margin:-5px -20px;top:-20px;border-radius:12px}
 
 	/* Tabs */
 	.fusion-filters .fusion-filter a{line-height:1.15}
