@@ -740,6 +740,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item{font-size:18px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .fusion-mobile-nav-item a{height:auto;padding-top:.5em;padding-bottom:.5em;border:none;line-height:1.5;letter-spacing:0!important;font-weight:400}
+	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a span span{line-height:1.5}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item.fusion-modal-text-link-button .menu-text{display:block;
 		width:100%;background:rgba(0,0,0,.2);padding:.25em .5em;border-radius:12px;text-align:center;}
