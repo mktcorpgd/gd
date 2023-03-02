@@ -667,7 +667,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
 
 	/* Contenidos */
-	#main{padding-bottom:0}
 	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
 	.fusion-image-element:not(.fusion-image-align-center){display:inline-block}
 	.modal-lg{width:1200px}
@@ -719,6 +718,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	
 	/* General */
 	body{font-size:18px;line-height:1.6}
+	#main{padding-bottom:0}
 	.modal-content{margin-left:1em;margin-right:1em}
 	.fusion-author .fusion-author-title,.fusion-modal .modal-title,.fusion-widget-area h3,.post-content h3,.project-content h3,h3{font-size:1.4em}
 	.fusion-carousel-title,.fusion-person .person-author-wrapper .person-name,.fusion-person .person-author-wrapper .person-title,.fusion-rollover .fusion-rollover-content .fusion-rollover-title,.fusion-sharing-box h4,.fusion-tabs .nav-tabs > li .fusion-tab-heading,.fusion-tabs-widget .fusion-tabs-nav ul li a,.fusion-theme-sharing-box h4,.fusion-widget-area h4,.person-author-wrapper,.popover .popover-title,.post-content h4,.tribe-events-single ul.tribe-related-events li .tribe-related-events-title,h4{font-size:1.3em}
