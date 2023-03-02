@@ -140,6 +140,7 @@ table th{font-size:1.1em}
 
 /* Páginas */
 body.page .post-slideshow{border-radius:24px;pointer-events:none}
+.post-password-required{margin:2em 30px;background:var(--whiteAltColor);border-radius:12px;text-align:center}
 
 /* Tablas */
 .fusion-panel table,.fusion-text table,.tkt-slctr-tbl-wrap-dv table{background:none!important;border:none!important;box-shadow:none!important}
@@ -287,7 +288,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .fusion-one-full div.wpcf7{max-width:500px}
 .wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
 .wpcf7 input:not([type='submit']):not([type='checkbox']),.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,.post-password-form input[type='password'],#main .searchform .fusion-search-form-content .fusion-search-field input,#pac{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-size:.9em;font-weight:400;z-index:1}
+#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{margin:0;padding:.5em .8em;width:100%;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-size:.9em;font-weight:400;z-index:1}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{padding:.5em 0.8em}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
 #comment-input .form-submit{margin:0;grid-column:span 2}
@@ -763,6 +764,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
 	.fusion-image-element:not([class*='fusion-image-align-']){margin:.5em 0}
 	.partners-logos .fusion-column-content,#partners_footer .fusion-layout-column{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
+	.post-password-required{padding-left:3em}
 
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
