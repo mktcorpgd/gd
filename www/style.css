@@ -140,7 +140,7 @@ table th{font-size:1.1em}
 
 /* Páginas */
 body.page .post-slideshow{border-radius:24px;pointer-events:none}
-.post-password-required{margin:2em 30px;padding:1em 2em;background:var(--whiteAltColor);border:1px solid var(--lightgrayColor); border-radius:12px;text-align:center}
+.post-password-required{margin:2em 30px;padding:1em 2em;border:1px solid var(--lightgrayColor); border-radius:12px;text-align:center}
 
 /* Tablas */
 .fusion-panel table,.fusion-text table,.tkt-slctr-tbl-wrap-dv table{background:none!important;border:none!important;box-shadow:none!important}
@@ -340,7 +340,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7 form div.wpcf7-response-output.info{margin:0 0 5px;padding:4px}
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
-.post-password-form label input[type='submit']{margin-top:1em}
+.post-password-form label input[type='submit']{margin-top:1em!important}
 
 /* Búsqueda */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
