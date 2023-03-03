@@ -692,9 +692,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Posts relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
 	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
-
-	/* Precios */
-	.fusion-pricingtable-column{top:2em}
 	
 	/* Portfolio */
 	.fusion-portfolio article.expanded,.fusion-portfolio article.expanded .fusion-post-content,.fusion-portfolio article.expanded .fusion-col-spacing,.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
