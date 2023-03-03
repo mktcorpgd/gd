@@ -486,12 +486,12 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-content-boxes .fusion-read-more-button{margin-top:0}
 .fusion-content-boxes.box-shadow .fusion-column{padding:1em 2em}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper{padding:2em;box-shadow:0 30px 80px rgba(0,0,0,.2);border-radius:24px}
+.fusion-content-boxes.box-shadow .content-container p,.fusion-content-boxes.box-shadow .content-container ul{margin:0}
+.fusion-content-boxes.box-shadow .content-container p,.fusion-content-boxes.box-shadow .content-container ul{margin:0}
+.fusion-content-boxes.box-shadow .content-container ul{padding-left:1em}
+.fusion-content-boxes.box-shadow .content-container .read-more{margin-top:1em}
 .fusion-content-boxes .content-wrapper-background{padding:25px}
 .fusion-content-boxes .content-container img.aligncenter{margin-bottom:20px}
-.fusion-content-boxes.shadow .col .heading,.fusion-content-boxes.shadow .col a{display:block}
-.fusion-content-boxes.shadow .col .heading{margin-bottom:0}
-.fusion-content-boxes.shadow .col .heading a{width:100%;padding:1em .8em}
-.fusion-content-boxes.shadow .col .fontawesome-icon{min-width:50px;margin-right:.2em;text-align:center}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
