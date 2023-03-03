@@ -46,7 +46,8 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-secondary-header{background:var(--subColor)}
 
 .white .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
-.white .wpcf7-form input[type='submit']:hover,.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
+.white .wpcf7-form input[type='submit']:hover{background:var(--subColor);color:var(--whiteColor)}
+,.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
 .fusion-reading-box-container .reading-box,
 img[src*='flag-']{border-color:var(--lightgrayColor)}
 .white img[src*='flag-']{border-color:var(--whiteColor)}
