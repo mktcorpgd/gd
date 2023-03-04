@@ -29,7 +29,7 @@ html .fusion-open-submenu,
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):not(.has-mask-background) .fusion-layout-column:not(.white) .fusion-title *,html body #main .fusion-fullwidth:not(.white) .fusion-layout-column:not(.white) .fusion-content-boxes:not(.white) .fusion-content-box-hover .link-area-box-hover .icon i,.fusion-pricing-table .panel-heading h3{color:var(--mainColor)!important}
 .about-author .title a,.fusion-blog-pagination .pagination .pagination-next:after,.fusion-blog-pagination .pagination .pagination-prev:before,.fusion-hide-pagination-text .pagination-next:after,.fusion-hide-pagination-text .pagination-prev:before,.fusion-load-more-button,.fusion-rollover a,.pagination .pagination-next:after,.pagination .pagination-prev:before,.project-content .project-info .project-info-box a,.shop_attributes tr th,.single-navigation a[rel=next]:after,.single-navigation a[rel=prev]:before,body a,body a:after,body a:before,
 .fusion-portfolio article .more-info,
-#main .post:hover h2 a,#main .post h2 a:hover,#main article h2 a:hover,.related-posts .awb-carousel .swiper-slide a:hover,
+#main .fusion-portfolio-content-wrapper:hover h2 a,#main .post h2 a:hover,#main article h2 a:hover,.related-posts .awb-carousel .swiper-slide a:hover,
 #main .about-author .title a:hover,.fusion-open-submenu:hover,.fusion-pagination .next:hover,.fusion-pagination .next:hover:after,.fusion-pagination .prev:hover,.fusion-pagination .prev:hover:before,.fusion-read-more:hover:after,.more a:hover:after,.pagination .pagination-next:hover:after,.pagination .pagination-prev:hover:before,.pagination-next:hover:after,.pagination-prev:hover:before,.project-content .project-info .project-info-box a:hover,.rtl .fusion-read-more:hover:before,.rtl .more a:hover:before,.single-navigation a[rel=next]:hover:after,.single-navigation a[rel=prev]:hover:before,a:hover,h5.toggle:hover a,.fusion-filters .fusion-filter.fusion-active a,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading{color:var(--highlightColor)}
 .fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
 .fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-filters li a:hover,.fusion-content-boxes.shadow .col:hover .icon i,.fusion-content-boxes.shadow .col:hover h2,
@@ -69,6 +69,7 @@ body .wpcf7 .wpcf7-info a{color:var(--whiteColor)}
 
 
 .fusion-content-boxes.extra-border-img .heading img{border-radius:50%;border:4px solid var(--extraColor)}
+.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{background:var(--whiteColor)}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .fontawesome-icon,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .content-box-heading{color:var(--highlightColor)}
 
 
