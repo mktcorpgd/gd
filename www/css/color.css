@@ -1,15 +1,18 @@
-/* Color */
+/* Selección */
 ::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
 ::selection{background:var(--mainColor);color:var(--whiteColor)}
+
+/* Menú */
 .fusion-main-menu .sub-menu .current-menu-item>a,.fusion-main-menu .sub-menu .current-menu-parent>a,.fusion-main-menu .sub-menu .current_page_item>a{background-color:transparent!important}
 .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-ancestor>a,.fusion-is-sticky .fusion-main-menu>ul>li.current-menu-item>a,.fusion-is-sticky .fusion-main-menu>ul>li.current-menu-parent>a,.fusion-is-sticky .fusion-main-menu>ul>li.current_page_item>a,.fusion-is-sticky .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo)>a:hover,.fusion-main-menu>ul>li.current-menu-ancestor>a,.fusion-main-menu>ul>li.current-menu-item>a,.fusion-main-menu>ul>li.current-menu-parent>a,.fusion-main-menu>ul>li.current_page_item>a,.fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo)>a:hover,.fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):hover>a,html .fusion-main-menu li,html .fusion-main-menu .current-menu-item a,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a,.fusion-mobile-nav-holder .fusion-mobile-nav-item.current-menu-item>a,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a,.fusion-mobile-nav-item.current-menu-item>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current-menu-parent>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li.current_page_item>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current-menu-parent>a,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li.current_page_item>a,.fusion-.fusion-main-menu .current-menu-ancestor>a,.fusion-.fusion-main-menu .current-menu-item>a,.fusion-.fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart)>a:before,.fusion-.fusion-main-menu .current-menu-parent>a,.fusion-.fusion-main-menu .current_page_item>a,body:not(.mobile-menu-design-flyout) .fusion-mobile-current-nav-item>a,body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item.current-menu-item>a{background:none}
 .avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):hover,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button):hover>a:not(.fusion-icon-sliding-bar),.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):not([href^='#']):hover{background:rgba(0,0,0,.2)!important}
 .fusion-mobile-nav-holder .fusion-mobile-nav-item a:hover{background-color:rgba(0,0,0,.2)!important}
-.fusion-.fusion-main-menu .current-menu-ancestor>a,.fusion-.fusion-main-menu .current-menu-item>a,.fusion-.fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart)>a:before,.fusion-.fusion-main-menu .current-menu-parent>a,.fusion-.fusion-main-menu .current_page_item>a{color:var(--whiteColor)!important;border-color:var(--whiteColor)!important}
 .fusion-main-menu>ul>li.partner:hover a,.fusion-mobile-nav-holder>ul>li.partner:hover a,.fusion-mobile-nav-holder>ul>li.button-header:hover a,.fusion-mobile-nav-holder>ul>li.button-header-no-boders:hover a,.fusion-mobile-nav-holder>ul>li.fusion-modal-text-link-button:hover a{background-color:rgba(0,0,0,.0)!important}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-title):hover{background:rgba(0,0,0,.1)!important}
 .avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor>a,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item>a{background:none}
 .avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item:not(.country-flag)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor:not(.country-flag)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item:not(.country-flag)>a .menu-text{border-bottom:1px solid rgba(255,255,255,.6)}
+
+/* Blanco */
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:var(--whiteColor)!important;opacity:1!important}
 .white .widget .widget-title,
 .white h1,.white h2,.white h3,.white h4,.white h5,.white h6,
@@ -19,36 +22,42 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusio
 .fusion-mobile-menu-icons a,.fusion-mobile-menu-icons a:after,.fusion-mobile-menu-icons a:before,
 html .fusion-open-submenu,
 .fusion-menu .searchform .fusion-search-form-content .fusion-search-field input::placeholder,.fusion-main-menu .fusion-dropdown-menu li a,.fusion-main-menu li a,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item.current-menu-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a,.fusion-main-menu>ul>li>a:hover,
-.hero-img h1,.hero-img h4{color:var(--whiteColor)!important}
+.hero-img h1,.hero-img h4,
+.fusion-.fusion-main-menu .current-menu-ancestor>a,.fusion-.fusion-main-menu .current-menu-item>a,.fusion-.fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart)>a:before,.fusion-.fusion-main-menu .current-menu-parent>a,.fusion-.fusion-main-menu .current_page_item>a{color:var(--whiteColor)!important}
+.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{background:var(--whiteColor)}
+.white .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
+.white .wpcf7-form input[type='submit']:hover{background:var(--subColor);color:var(--whiteColor)}
+.white img[src*='flag-']{border-color:var(--whiteColor)}
+
+/* Principal */
 .fusion-accordian:not(.white) .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,
 .fusion-tabs .nav-tabs li .tab-link .fusion-tab-heading,.fusion-filters li a,
 .fusion-content-boxes .icon .fontawesome-icon,.fusion-content-boxes:not(.white) .heading .content-box-heading,.fusion-content-boxes .fusion-content-box-hover .fusion-read-more:hover,.fusion-content-boxes .fusion-content-box-hover .fusion-read-more:hover:after,.fusion-content-boxes .fusion-content-box-hover .fusion-read-more:hover:before,.fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .heading .content-box-heading,.fusion-content-boxes .fusion-content-box-hover .link-area-box-hover .heading .heading-link .content-box-heading,.fusion-content-boxes .fusion-content-box-hover .link-area-box-hover.link-area-box .fusion-read-more,.fusion-content-boxes .fusion-content-box-hover .link-area-box-hover.link-area-box .fusion-read-more::after,.fusion-content-boxes .fusion-content-box-hover .link-area-box-hover.link-area-box .fusion-read-more::before,.fusion-content-boxes .fusion-content-box-hover .link-area-link-icon-hover .heading .content-box-heading,.fusion-content-boxes .fusion-content-box-hover .link-area-link-icon-hover .heading .heading-link .content-box-heading,.fusion-content-boxes .fusion-content-box-hover .link-area-link-icon-hover .icon .circle-no,.fusion-content-boxes .fusion-content-box-hover .link-area-link-icon-hover.link-area-box .fusion-read-more,.fusion-content-boxes .fusion-content-box-hover .link-area-link-icon-hover.link-area-box .fusion-read-more::after,.fusion-content-boxes .fusion-content-box-hover .link-area-link-icon-hover.link-area-box .fusion-read-more::before{color:var(--mainColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):not(.has-mask-background) .fusion-layout-column:not(.white) .fusion-title *,html body #main .fusion-fullwidth:not(.white) .fusion-layout-column:not(.white) .fusion-content-boxes:not(.white) .fusion-content-box-hover .link-area-box-hover .icon i,.fusion-pricing-table .panel-heading h3{color:var(--mainColor)!important}
-.about-author .title a,.fusion-blog-pagination .pagination .pagination-next:after,.fusion-blog-pagination .pagination .pagination-prev:before,.fusion-hide-pagination-text .pagination-next:after,.fusion-hide-pagination-text .pagination-prev:before,.fusion-load-more-button,.fusion-rollover a,.pagination .pagination-next:after,.pagination .pagination-prev:before,.project-content .project-info .project-info-box a,.shop_attributes tr th,.single-navigation a[rel=next]:after,.single-navigation a[rel=prev]:before,body a,body a:after,body a:before,
-.fusion-portfolio article .more-info,
-#main .fusion-portfolio-content-wrapper:hover h2 a,#main .post h2 a:hover,#main article h2 a:hover,.related-posts .awb-carousel .swiper-slide a:hover,
-#main .about-author .title a:hover,.fusion-open-submenu:hover,.fusion-pagination .next:hover,.fusion-pagination .next:hover:after,.fusion-pagination .prev:hover,.fusion-pagination .prev:hover:before,.fusion-read-more:hover:after,.more a:hover:after,.pagination .pagination-next:hover:after,.pagination .pagination-prev:hover:before,.pagination-next:hover:after,.pagination-prev:hover:before,.project-content .project-info .project-info-box a:hover,.rtl .fusion-read-more:hover:before,.rtl .more a:hover:before,.single-navigation a[rel=next]:hover:after,.single-navigation a[rel=prev]:hover:before,a:hover,h5.toggle:hover a,.fusion-filters .fusion-filter.fusion-active a,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading{color:var(--highlightColor)}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header,
+.fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content{background:var(--mainColor)}
+
+/* Secundario */
 .fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
 .fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-filters li a:hover,.fusion-content-boxes.shadow .col:hover .icon i,.fusion-content-boxes.shadow .col:hover h2,
 .fusion-portfolio article .more-info:hover,.fusion-checklist .fusion-li-icon,ul.fusion-checklist .fusion-li-icon{color:var(--subColor)!important}
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header,
-.fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content{background:var(--mainColor)}
-.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
-.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
-#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{background:var(--highlightColor)}
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 .wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-secondary-header{background:var(--subColor)}
 
-.white .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
-.white .wpcf7-form input[type='submit']:hover{background:var(--subColor);color:var(--whiteColor)}
-.fusion-modal[class*='contacto-rapido'] h3.modal-title,.fusion-button i,.fusion-button:hover i,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full>a{color:var(--whiteColor)}
-.fusion-reading-box-container .reading-box,
-img[src*='flag-']{border-color:var(--lightgrayColor)}
-.white img[src*='flag-']{border-color:var(--whiteColor)}
+/* Destacado */
+.about-author .title a,.fusion-blog-pagination .pagination .pagination-next:after,.fusion-blog-pagination .pagination .pagination-prev:before,.fusion-hide-pagination-text .pagination-next:after,.fusion-hide-pagination-text .pagination-prev:before,.fusion-load-more-button,.fusion-rollover a,.pagination .pagination-next:after,.pagination .pagination-prev:before,.project-content .project-info .project-info-box a,.shop_attributes tr th,.single-navigation a[rel=next]:after,.single-navigation a[rel=prev]:before,body a,body a:after,body a:before,
+.fusion-portfolio article .more-info,
+#main .fusion-portfolio-content-wrapper:hover h2 a,#main .post h2 a:hover,#main article h2 a:hover,.related-posts .awb-carousel .swiper-slide a:hover,
+#main .about-author .title a:hover,.fusion-open-submenu:hover,.fusion-pagination .next:hover,.fusion-pagination .next:hover:after,.fusion-pagination .prev:hover,.fusion-pagination .prev:hover:before,.fusion-read-more:hover:after,.more a:hover:after,.pagination .pagination-next:hover:after,.pagination .pagination-prev:hover:before,.pagination-next:hover:after,.pagination-prev:hover:before,.project-content .project-info .project-info-box a:hover,.rtl .fusion-read-more:hover:before,.rtl .more a:hover:before,.single-navigation a[rel=next]:hover:after,.single-navigation a[rel=prev]:hover:before,a:hover,h5.toggle:hover a,.fusion-filters .fusion-filter.fusion-active a,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading{color:var(--highlightColor)}
+.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .fontawesome-icon,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .content-box-heading{color:var(--highlightColor)!important}
+.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
+#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
+.wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input{background:var(--highlightColor)}
 
+/* Formularios */
 .wpcf7-captchar:hover,.wpcf7-form .wpcf7-date:hover,.wpcf7-form .wpcf7-number:hover,.wpcf7-form .wpcf7-quiz:hover,.wpcf7-form .wpcf7-select:hover,.wpcf7-select-parent .wpcf7-select:hover,.wpcf7-form .wpcf7-text:hover,.wpcf7 textarea:hover,.wpcf7 input:not([type='submit']):hover,
 #respond input:not([type='submit']):hover,#respond textarea:hover,.post-password-form label input[type='password']:hover,
 .wpcf7-captchar:focus,.wpcf7-form .wpcf7-date:focus,.wpcf7-form .wpcf7-number:focus,.wpcf7-form .wpcf7-quiz:focus,.wpcf7-form .wpcf7-select:focus,.wpcf7-select-parent .wpcf7-select:focus,.wpcf7-form .wpcf7-text:focus,.wpcf7 textarea:focus,.wpcf7 input:not([type='submit']):focus,
@@ -64,16 +73,16 @@ body .wpcf7 .wpcf7-info a{color:var(--whiteColor)}
 .wpcf7-spam{background-color:var(--warningColor);color:var(--whiteColor)}
 #content .wpcf7-response-inner .menu-text.fusion-button:hover{color:var(--whiteColor);background:none}
 
-
+/* Extras */
+.fusion-reading-box-container .reading-box,
+img[src*='flag-']{border-color:var(--lightgrayColor)}
 .fusion-content-boxes.extra-border-img .heading img{border-radius:50%;border:4px solid var(--extraColor)}
-.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{background:var(--whiteColor)}
-.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .fontawesome-icon,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover .content-box-heading{color:var(--highlightColor)}
 
-
+/* Mobile */
 @media (max-width: 920px) {
-	body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item a,.fusion-body .fusion-header-wrapper .fusion-header,.fusion-body .fusion-header-wrapper .fusion-secondary-main-menu,.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{background:var(--mainColor)}
 	.fusion-mobile-nav-holder ul.fusion-sub-menu-open a{background:rgba(0,0,0,.2)}
+	body:not(.mobile-menu-design-flyout) .fusion-mobile-nav-item a,.fusion-body .fusion-header-wrapper .fusion-header,.fusion-body .fusion-header-wrapper .fusion-secondary-main-menu,.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{background:var(--mainColor)}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{background:var(--highlightColor)}
-	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content a,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .widget-title,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']:hover{color:var(--whiteColor)}
+	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']{background:var(--whiteColor);color:var(--highlightColor)}
 }
