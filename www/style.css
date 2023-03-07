@@ -371,6 +371,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 /* Precios */
 .fusion-pricing-table{margin:0;background:none!important}
 .fusion-pricingtable-column .fusion-panel{border:none!important}
+.fusion-pricingtable-column:hover .panel-heading,.fusion-pricingtable-column:hover .panel-body,.fusion-pricingtable-column:hover .list-group .list-group-item,.fusion-pricing-table .panel-wrapper:hover .fusion-panel{background:none!important}
 .fusion-pricingtable-column .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block}
 .fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;border-top:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1);border-radius:0;box-shadow:none;cursor:initial;overflow:hidden}
 .fusion-pricingtable-column:first-child .panel-container{border-left:1px solid rgba(0,0,0,.1);border-radius:12px;border-bottom-right-radius:0;border-top-right-radius:0}
@@ -389,9 +390,6 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricingtable-column.standout .panel-container:hover{box-shadow:0 0 36px 12px rgba(0,0,0,.1)}
 .fusion-pricingtable-column.standout .panel-heading h3{font-size:2.2em}
 .fusion-pricingtable-column.standout .price{font-size:1.1em}
-.fusion-pricingtable-column,.panel-wrapper:hover .list-group-item,.fusion-pricingtable-column .panel-wrapper:hover .fusion-panel{background:none!important}
-.fusion-pricingtable-column .panel-heading,.fusion-pricingtable-column .panel-body,.fusion-pricingtable-column .list-group .list-group-item{background:var(--whiteAltColor)!important}
-.fusion-pricingtable-column:hover .panel-heading,.fusion-pricingtable-column:hover .panel-body,.fusion-pricingtable-column:hover .list-group .list-group-item{background:var(--whiteColor)!important}
 
 /* Botones */
 .button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
