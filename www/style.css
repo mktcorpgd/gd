@@ -490,7 +490,7 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper{background:var(--whiteAltColor);box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border-radius:24px}
 .fusion-content-boxes.box-shadow .content-container p,.fusion-content-boxes.box-shadow .content-container ul{margin:0}
 .fusion-content-boxes.box-shadow .content-container ul{padding-left:1em}
-.fusion-content-boxes.box-shadow .read-more{margin:1rem 0 1rem 1.5rem}
+.fusion-content-boxes.box-shadow .fusion-read-more-button{margin:1rem 0 1rem 1.5rem}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
