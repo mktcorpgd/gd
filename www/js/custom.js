@@ -155,7 +155,7 @@ jQuery(document).ready(function() {
 
 
 	// CONTENIDO - Mostrar mes actual
-	if ( jQuery('.cur_month').length ) {
+	if ( jQuery('.cur_year').length || jQuery('.cur_month').length ) {
 		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 		const d = new Date();
 		var getDaysInMonth = function(month,year) {
