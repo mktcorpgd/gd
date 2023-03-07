@@ -370,8 +370,8 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 
 /* Precios */
 .fusion-pricing-table{margin:0;background:none!important}
-.fusion-pricingtable-column .fusion-panel{border:none!important}
-.fusion-pricingtable-column:hover .panel-heading,.fusion-pricingtable-column:hover .panel-body,.fusion-pricingtable-column:hover .list-group .list-group-item,.fusion-pricing-table .panel-wrapper:hover .fusion-panel{background:none!important}
+.fusion-pricingtable-column .fusion-panel,.fusion-pricingtable-column .list-group .list-group-item{border:none!important}
+.fusion-pricingtable-column:hover .panel-heading,.fusion-pricingtable-column:hover .panel-body,.fusion-pricingtable-column:hover .list-group .list-group-item{background:none!important}
 .fusion-pricingtable-column .panel-wrapper:not(:last-child) .panel-body .price>span:not(.time){display:inline-block}
 .fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;border-top:1px solid rgba(0,0,0,.1);border-bottom:1px solid rgba(0,0,0,.1);border-radius:0;box-shadow:none;cursor:initial;overflow:hidden}
 .fusion-pricingtable-column:first-child .panel-container{border-left:1px solid rgba(0,0,0,.1);border-radius:12px;border-bottom-right-radius:0;border-top-right-radius:0}
