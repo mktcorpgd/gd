@@ -13,7 +13,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-ti
 .avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item:not(.country-flag)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor:not(.country-flag)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item:not(.country-flag)>a .menu-text{border-bottom:1px solid rgba(255,255,255,.6)}
 
 /* Blanco */
-body .wpcf7 .wpcf7-info a,.pricing-table-1.full-boxed-pricing.fusion-pricing-table .panel-wrapper:hover .panel-heading h3,.pricing-table-2.full-boxed-pricing.fusion-pricing-table .panel-wrapper:hover .panel-heading h3,.fusion-pricing-table .panel-wrapper:hover .panel-heading h3,.fusion-modal[class*='contacto-rapido'] .modal-title{color:var(--whiteColor)}
+body .wpcf7 .wpcf7-info a,.pricing-table-1.full-boxed-pricing.fusion-pricing-table .panel-wrapper:hover .panel-heading h3,.pricing-table-2.full-boxed-pricing.fusion-pricing-table .panel-wrapper:hover .panel-heading h3,.fusion-pricing-table .panel-wrapper:hover .panel-heading h3,.fusion-modal[class*='contacto-rapido'] .modal-title,.white .button-default:hover .fusion-button-text,.white .fusion-button:hover i{color:var(--whiteColor)}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:var(--whiteColor)!important;opacity:1!important}
 .white .widget .widget-title,
 .white h1,.white h2,.white h3,.white h4,.white h5,.white h6,
