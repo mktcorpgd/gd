@@ -185,6 +185,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-modal[class*='contacto-rapido'] .modal-title,.fusion-modal[class*='contacto-rapido'] .wpcf7 .fusion-one-full{text-align:center}
 
 /* Contador */
+.no-padding-top .fusion-counters-box .fusion-counter-box .counter-box-container{padding-top:0}
 .fusion-counters-box .content-box-counter{font-weight:500;font-family:var(--titleFont)}
 
 /* Hero/Slider */
