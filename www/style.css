@@ -104,6 +104,7 @@ table th{font-size:1.1em}
 .fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
 .fusion-header-wrapper:not(.on-top) .fusion-main-menu .sub-menu,.fusion-header-wrapper:not(.on-top) .fusion-megamenu-wrapper,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-main-menu .sub-menu,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .fusion-menu.awb-menu__main-ul a{padding:0 1rem!important;font-family:var(--titleFont);font-size:1.2em}
+.fusion-menu.awb-menu__main-ul a:hover{text-decoration:underline}
 .fusion-menu.awb-menu__main-ul a .menu-text{color:var(--whiteColor)}
 .fusion-main-menu>ul>li>a .fusion-caret{margin-left:5px;opacity:.5}
 .fusion-main-menu>ul>li:hover>a .fusion-caret{opacity:.8}
