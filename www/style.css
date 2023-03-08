@@ -452,6 +452,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 /* Blog */
 article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{display:block;box-sizing:border-box;width:100%;padding:.1em 1rem;position:absolute;top:0;right:0;font-size:.6em;font-family:var(--textFont);background:rgba(0,0,0,.4);color:var(--whiteColor);z-index:10}
 article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:after{content:'Nota de prensa'}
+.fusion-blog-no-images article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper{padding-top:.5em}
 .fusion-post-grid .fusion-image-wrapper{background-position:top center;background-repeat:none;background-size:cover}
 .fusion-post-grid .fusion-image-wrapper a{display:block;width:100%;height:100%}
 
