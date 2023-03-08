@@ -23,7 +23,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white) 
 /* Secundario */
 .fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
 .fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-filters li a:hover,.fusion-content-boxes.shadow .col:hover .icon i,.fusion-content-boxes.shadow .col:hover h2,
-.fusion-portfolio article .more-info:hover,.fusion-checklist .fusion-li-icon,ul.fusion-checklist .fusion-li-icon{color:var(--subColor)!important}
+.fusion-checklist .fusion-li-icon,ul.fusion-checklist .fusion-li-icon{color:var(--subColor)!important}
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
