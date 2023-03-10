@@ -347,8 +347,8 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500}
 .wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left;width:100%}
 .wpcf7 label>i{color:#CCCCCC;cursor:default}
-.wpcf7 label>i[class*='fa-solid']{width:16px;text-align:right;position:absolute;top:50%;left:-22px}
-.wpcf7 label>i[class*='fa-info-circle']:hover{color:#999999}
+.wpcf7 label>i[class*='fa-solid']:not([class*='circle-info']){width:16px;text-align:right;position:absolute;top:50%;left:-22px}
+.wpcf7 label>i[class*='fa-circle-info']:hover{color:#0E316E}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 
 /* Datepicker */
