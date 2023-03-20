@@ -144,7 +144,7 @@ body.role- #header{top:0}
 #nav .menu .sub-menu li a{margin:0;padding:.2em .4em;color:#FFFFFF;font-size:.9em}
 #nav .menu .sub-menu li ul{margin-top:1.6em;left:20%}
 #nav .menu li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:'Font Awesome 6 Pro'}
-#nav .menu li.menu-item-has-children:after{position:absolute;top:7px;right:5px;font-size:.8em;pointer-events:none}
+#nav .menu li.menu-item-has-children:after{position:absolute;top:7px;right:5px;font-size:.8em}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px;right:5px}
 #nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
@@ -452,7 +452,7 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #content h3.toggle>i.fa-minus-square+a:after{content:''}
 body.page-id-15131 #content ul li h3.toggle {top: 0.2em;left: -1em;}
 body.postid-49885 #content h3.toggle {margin-bottom:1em;font-weight:500}
-body.postid-49885 .toggle-box p{margin-bottom: 1.5em;}
+body.postid-49885 .toggle-box{margin-bottom: 1.5em;}
 
 /* Buscadores */
 body>.is-search-form{margin:52px auto 1em;width:95%}
@@ -481,7 +481,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-content ul,.UseyourDrive .tippy-content ul{padding:0}
 #UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.8em .6em;font-family:'neo-sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500}
-#UseyourDrive .files .entry{margin:.8em .4em 0;border-radius:12px}
+#UseyourDrive .files .entry{margin:.4em 0;border-radius:12px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:last-child{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 #UseyourDrive [data-layout=list] .entry,#UseyourDrive .nav-header{padding:0 .4em}
@@ -663,8 +663,8 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
 .widget .sc-button.small{padding:.3em .6em}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
-#content .sc-button.small,#content button.small{font-weight:500!important}
-.widget .sc-button.small{font-weight:400!important}
+.sc-button+.sc-button,button+button{margin-right:0}
+#content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
