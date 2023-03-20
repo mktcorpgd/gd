@@ -1,2 +1,5 @@
 /* Baitcon */
 :root{--mainColor:#89388D;--subColor:#A142A6;--highlightColor:#552156;}
+
+/* Custom */
+.fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}

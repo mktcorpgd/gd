@@ -155,7 +155,7 @@ jQuery(document).ready(function() {
 
 
 	// CONTENIDO - Mostrar mes actual
-	if ( jQuery('.cur_month').length ) {
+	if ( jQuery('.cur_year').length || jQuery('.cur_month').length ) {
 		const monthNames = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
 		const d = new Date();
 		var getDaysInMonth = function(month,year) {
@@ -259,7 +259,15 @@ jQuery(document).ready(function() {
 				modal += '.demo"';
 			}
 			else {
-				modal += '.contacto-rapido"';
+				if ( lang == 'es' ) {
+					modal += '.contacto-rapido"';
+				}
+				else if ( lang == 'en' ) {
+					modal += '.contacto-rapido-en"';
+				}
+				else if ( lang == 'pt' ) {
+					modal += '.contacto-rapido-pt"';
+				}
 			}
 			var html_buttons;
 			var btn_q;
@@ -509,19 +517,6 @@ jQuery(document).ready(function() {
 		jQuery('#sidebar .cta-link').attr({
 			'href': '/datasheet-'+slug+'/'
 		});
-	}
-
-
-	// SIDEBAR - Si existe un CTA diferente:
-	if ( jQuery('#content>article.portfolio_tags-demo-form').length ) {
-		jQuery('.sidebar h4').text('Quiero solicitar una demo');
-		jQuery('.fusion-modal.contacto-rapido .modal-title').text('Quiero solicitar una demo para '+jQuery('span.entry-title').text());
-		jQuery('input[name="SUBJ"]').attr('value','demo');
-	}
-	if ( jQuery('#content>article.portfolio_tags-reunion-form').length ) {
-		jQuery('.sidebar h4').text('Quiero agendar una reunión');
-		jQuery('.fusion-modal.contacto-rapido .modal-title').text('Quiero agendar una reunión para conocer '+jQuery('span.entry-title').text());
-		jQuery('input[name="SUBJ"]').attr('value','reunión');
 	}
 
 
