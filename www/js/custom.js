@@ -231,8 +231,8 @@ jQuery(document).ready(function() {
 					btn_right = 'Contato';
 				}
 			}
-			console.log(jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') && (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')));
-			/*if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') && (jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto')) ) {
+			console.log(jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet'));
+			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
 				btn_left = 'Ver datasheet';
 				var link_id = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
 				link_id = link_id.substring(link_id.indexOf('servicio/')+9,link_id.length-1);
@@ -252,7 +252,7 @@ jQuery(document).ready(function() {
 					'href': link_post,
 					'target': link_target
 				});
-			}*/
+			}
 			var classes_button = 'fusion-button button-flat fusion-button-round button-default';
 			var modal = ' data-toggle="modal" data-target=".fusion-modal';
 			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
