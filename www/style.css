@@ -10,7 +10,7 @@
 div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.screen-reader-response,
 .mobile-only,
 .no-featured-image .fusion-image-wrapper,
-.no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-grid .fusion-portfolio-buttons,
+.no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-post .fusion-portfolio-buttons,
 .no-tags .meta-tags,
 article.category-recursos .fusion-single-line-meta,article.category-blog .fusion-single-line-meta,article.category-casos .fusion-single-line-meta,article.category-datasheets .fusion-single-line-meta,article.category-whitepapers .fusion-single-line-meta,
 .related-posts .fusion-carousel-meta .fusion-inline-sep,.related-posts .fusion-carousel-meta .fusion-inline-sep+span,
@@ -40,7 +40,7 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{vis
 /* General */
 :root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--blackColor:#222222;--lightgrayColor:#CCCCCC;--grayColor:#999999;--textColor:#333333;--metaColor:#666666;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
 body{font-family:var(--textFont);font-size:16px;line-height:1.6}
-a,li,i,.wpcf7 input,.wpcf7 button,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-wrapper .fusion-portfolio-content-wrapper,.fusion-portfolio article,.fusion-portfolio article .more-info.open i,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .swiper-slide,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text,.fusion-pricing-table .panel-wrapper .fusion-panel,.fusion-pricing-table .panel-wrapper .panel-heading h3{transition:all .1s ease-in-out!important}
+a,li,i,.wpcf7 input,.wpcf7 button,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-wrapper .fusion-portfolio-content-wrapper,.fusion-portfolio article,.fusion-portfolio article .more-info.open i,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .swiper-slide,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text,.fusion-pricing-table .panel-wrapper .fusion-panel,.fusion-pricing-table .panel-wrapper .panel-heading h3{transition:all .1s ease-in-out!important}
 #reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:var(--textColor)}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
@@ -50,7 +50,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .uppercase{text-transform:uppercase}
 .zindex1{z-index:1!important}
 .zindex99{z-index:99!important;overflow:visible!important}
-.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover .more-info span{text-decoration:underline}
+.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .more-info span{text-decoration:underline}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:var(--whiteColor)}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,.modal[class*='contacto-rapido'] .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
@@ -240,7 +240,7 @@ body.single-format-link .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 
 /* Portfolio */
-.fusion-portfolio-grid .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
+.fusion-portfolio-post .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
 .fusion-portfolio .fusion-post-content{padding-bottom:0}
 .fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 1rem;position:absolute;top:-2px;font-size:0;color:transparent;z-index:10}
@@ -443,9 +443,9 @@ article[class*='solo-contacto'] .fusion-buttons.two .fusion-button+.fusion-butto
 .avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper{padding-top:0}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:0 0 .5em}
 .fusion-portfolio{overflow:visible}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper{position:relative;background:var(--whiteColor)!important;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper{position:relative;background:var(--whiteColor)!important;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:.8rem 1rem;font-weight:400}
-.fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-grid .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-radius:12px 12px 24px 0px}
+.fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-radius:12px 12px 24px 0px}
 .fusion-image-wrapper,.fusion-portfolio-content h2{margin-bottom:0!important}
 
 /* Tips */
@@ -688,7 +688,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
 
 	/* Blog/Portfolio */
-	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-grid .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
+	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
 	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
 
 	/* Posts relacionados */
