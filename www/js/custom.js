@@ -204,9 +204,6 @@ jQuery(document).ready(function() {
 				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
 					btn_right = 'Prueba gratuita';
 				}
-				else if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
-					btn_right = 'Ver datasheet';
-				}
 				else {
 					btn_right = 'Contactar';
 				}
@@ -230,28 +227,6 @@ jQuery(document).ready(function() {
 				else {
 					btn_right = 'Contato';
 				}
-			}
-			console.log(jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet'));
-			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('datasheet') ) {
-				btn_left = 'Ver datasheet';
-				var link_id = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
-				link_id = link_id.substring(link_id.indexOf('servicio/')+9,link_id.length-1);
-				jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('id',link_id);
-				if ( link_id.indexOf('-2') > -1 ) {
-					link_id = link_id.substring(0,link_id.length-2);
-				}
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').attr('class').indexOf('turbomaster') > -1 ) {
-					link_post = 'https://www.silicanetworks.com/datasheet-'+link_id;
-					var link_target = '_blank';
-				}
-				else {
-					link_post = '/datasheet-'+link_id;
-					var link_target = '_self';
-				}
-				jQuery('.fusion-portfolio-post:eq('+i+') h2 a,.fusion-portfolio-post:eq('+i+') .fusion-image-wrapper a').attr({
-					'href': link_post,
-					'target': link_target
-				});
 			}
 			var classes_button = 'fusion-button button-flat fusion-button-round button-default';
 			var modal = ' data-toggle="modal" data-target=".fusion-modal';
