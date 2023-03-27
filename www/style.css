@@ -18,7 +18,7 @@ article.category-blog+.related-posts .fusion-carousel-meta,article.category-caso
 article.category-tips .fusion-post-content-wrapper,
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .fusion-portfolio-meta a[href*='/c-solo-contacto'],.fusion-portfolio-content .fusion-portfolio-meta a:not([href*='flag-']),
-.c-solo-contacto .more-link,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,.fusion-portfolio-content .fusion-text~p .more-link,.tag-solo-contacto .fusion-buttons .fusion-button:first-child,
+.c-solo-contacto .fusion-buttons .fusion-button:first-child,.tag-solo-contacto:not(.turbomaster):not(.datasheet) .more-link,.fusion-portfolio-content .fusion-text~p .more-link,.tag-solo-contacto .fusion-buttons .fusion-button:first-child,
 .fusion-sharing-box h4,
 .fusion-megamenu-bullet,
 .no-title .widget-title,
