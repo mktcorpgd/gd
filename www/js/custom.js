@@ -196,63 +196,36 @@ jQuery(document).ready(function() {
 		var btn_info;
 		var btn_left;
 		var btn_right
+		var btn_html;
+		var btn_q;
+		var btn_classes = 'fusion-button button-flat fusion-button-round button-default';
+		var btn_modal = ' data-toggle="modal" data-target=".fusion-modal';
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var link_post = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
 			if ( lang == 'es' ) {
 				btn_info = 'Más info';
 				btn_left = 'Conocer más';
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					btn_right = 'Prueba gratuita';
-				}
-				else {
-					btn_right = 'Contactar';
-				}
+				btn_right = 'Contactar';
+				btn_modal += '.contacto-rapido"';
 			}
 			else if ( lang == 'en' ) {
 				btn_info = 'More info';
 				btn_left = 'Learn more';
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					btn_right = 'Free trial';
-				}
-				else {
-					btn_right = 'Contact';
-				}
+				btn_right = 'Contact';
+				btn_modal += '.contacto-rapido-en"';
 			}
 			else if ( lang == 'pt' ) {
 				btn_info = 'Mais info';
 				btn_left = 'Saber mais';
-				if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-					btn_right = 'Teste grátis';
-				}
-				else {
-					btn_right = 'Contato';
-				}
+				btn_right = 'Contato';
+				btn_modal += '.contacto-rapido-pt"';
 			}
-			var classes_button = 'fusion-button button-flat fusion-button-round button-default';
-			var modal = ' data-toggle="modal" data-target=".fusion-modal';
-			if ( jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('demo') ) {
-				classes_button += ' fusion-modal-text-link';
-				modal += '.demo"';
-			}
-			else {
-				if ( lang == 'es' ) {
-					modal += '.contacto-rapido"';
-				}
-				else if ( lang == 'en' ) {
-					modal += '.contacto-rapido-en"';
-				}
-				else if ( lang == 'pt' ) {
-					modal += '.contacto-rapido-pt"';
-				}
-			}
-			var html_buttons;
-			var btn_q;
 			if ( !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('tag-solo-contacto') || !jQuery('.fusion-portfolio-post:eq('+i+')').hasClass('c-solo-contacto') ) {
-				html_buttons = '<a class="'+classes_button+'" href="'+link_post+'"><span class="fusion-button-text">'+btn_left+'</span></a>';
-				var btn_q = 'two';
+				btn_html = '<a class="'+btn_classes+'" href="'+link_post+'"><span class="fusion-button-text">'+btn_left+'</span></a>';
+				btn_q = 'two';
 			}
-			html_buttons += '<a class="'+classes_button+' fusion-modal-text-link" '+modal+'><span class="fusion-button-text">'+btn_right+'</span></a>';
-			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a><div class="fusion-buttons '+btn_q+'">'+html_buttons+'</div>');
+			btn_html += '<a class="'+btn_classes+' fusion-modal-text-link" '+btn_modal+'><span class="fusion-button-text">'+btn_right+'</span></a>';
+			jQuery('.fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a><div class="fusion-buttons '+btn_q+'">'+btn_html+'</div>');
 		});
 	}
 
