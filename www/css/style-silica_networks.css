@@ -5,7 +5,6 @@
 .fusion-portfolio.destacados .fusion-portfolio-content-wrapper{display:grid;grid-template-columns:20% 80%}
 .fusion-portfolio.destacados .fusion-image-wrapper{background:#EAEAEA;border-bottom:none;border-radius:0}
 .fusion-portfolio.destacados .fusion-image-wrapper img{padding:.8em}
-.postid-32719 .fusion-portfolio-content .fusion-buttons.two .fusion-button:first-child {display: none;}
 
 /* Mobile */
 @media (max-width:920px) {
