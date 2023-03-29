@@ -59,7 +59,7 @@ jQuery(document).ready(function() {
 	tp_phone['ar_otra'] = '+54';
 	tp_address['br_sao paulo'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
 	tp_phone['br_sao paulo'] = '+55 (19) 3037-1623';
-	tp_address['cl_santiago'] = 'Av. El Bosque Norte (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
+	tp_address['cl_santiago'] = 'Av. El Bosque Norte 500 (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
 	tp_phone['cl_santiago'] = '+56 (2) 2253-5200';
 	tp_address['mx_ciudad de mexico'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
 	tp_phone['mx_ciudad de mexico'] = '+52 (55) 5279-9930';
