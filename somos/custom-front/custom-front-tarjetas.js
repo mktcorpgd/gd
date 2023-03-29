@@ -119,7 +119,7 @@ jQuery(document).ready(function() {
 		var office = RemoveAccents(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
 		var ctry_office = ctry+'_'+office;
 		if ( ctry_office == 'cl_santiago' ) {
-			jQuery('input[name=CTRYMAIL]').val('mkt_cl@grupodatco.com')
+			jQuery('input[name=CTRYMAIL]').val('libreria_cl@grupodatco.com')
 		}
 		else {
 			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
