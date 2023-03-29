@@ -2,6 +2,7 @@ jQuery(document).ready(function() {
 
 	
 	// Copiar datos del solicitante
+	jQuery('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
 	jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
 	function samedataPaxChecked() {
 		jQuery('input[name="SAMEDATAPAX[]"]').trigger('click');
