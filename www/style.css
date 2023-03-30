@@ -47,11 +47,10 @@ sup{line-height:1}
 .post-content p b,.post-content p strong,.content-container strong{font-weight:600}
 iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
-.fusion-text a,.fusion-content-boxes a{text-decoration:underline}
+.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-content-boxes a,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .more-info span{text-decoration:underline}
 .uppercase{text-transform:uppercase}
 .zindex1{z-index:1!important}
 .zindex99{z-index:99!important;overflow:visible!important}
-.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .more-info span{text-decoration:underline}
 .bkg-size80{background-size:80% 80%}
 .bkg-white{background:var(--whiteColor)}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,.modal[class*='contacto-rapido'] .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
