@@ -214,8 +214,10 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .flexslider .slides .caption img{display:inline-block;margin-top:1em;max-width:200px;width:auto}
 .flexslider .slides .caption img[src*='flag-']{margin:1em .25em 0;width:32px;height:32px}
 .flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
-.awb-swiper-button-next,.awb-swiper-button-prev{padding:0 .1em;background:none!important;opacity:.8}
+.awb-swiper-button-next,.awb-swiper-button-prev,.fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{background:none!important;opacity:.8}
 .awb-swiper-button-next:hover,.awb-swiper-button-prev:hover{opacity:1}
+.awb-swiper-button-next,.awb-swiper-button-prev{padding:0 .1em}
+.fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
 
 /* Contenido */
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
