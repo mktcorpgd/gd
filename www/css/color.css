@@ -82,7 +82,7 @@ img[src*='flag-']{border-color:var(--lightgrayColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white) .fusion-layout-column:not(.white) .fusion-title h6{color:var(--grayColor)!important}
 .awb-swiper-button-next,.awb-swiper-button-prev{color:var(--metaColor)!important}
 .fusion-tabs .nav ul, .fusion-filters{background:var(--whiteAltColor)}
-.fusion-tabs .nav-tabs>li,.fusion-filters li,.fusion-tabs .nav-tabs>li.fusion-active, .fusion-tabs .nav-tabs>li.active, .fusion-filters li.fusion-active{background:none;color:var(--highlightColor)}
+.fusion-tabs .nav-tabs>li,.fusion-filters li,.fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active,.fusion-tabs .nav-tabs>li.fusion-active a,.fusion-tabs .nav-tabs>li.active a,.fusion-filters li.fusion-active a{background:none;color:var(--highlightColor)}
 
 /* Mobile */
 @media (max-width: 920px) {
