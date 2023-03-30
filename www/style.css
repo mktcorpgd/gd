@@ -47,6 +47,7 @@ sup{line-height:1}
 .post-content p b,.post-content p strong,.content-container strong{font-weight:600}
 iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
+.fusion-text a,.fusion-content-boxes a{text-decoration:underline}
 .uppercase{text-transform:uppercase}
 .zindex1{z-index:1!important}
 .zindex99{z-index:99!important;overflow:visible!important}
