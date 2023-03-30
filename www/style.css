@@ -226,6 +226,7 @@ body.single article>.flexslider{border-radius:12px;overflow:hidden}
 body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1 h3,body.single .fusion-text.fusion-text-1 h4,body.single .fusion-text.fusion-text-1 h5{margin-top:0}
 .post-password{padding:1em 2em;text-align:center}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
+.ilightbox-toolbar.smooth a{border-radius:6px}
 
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
@@ -422,6 +423,7 @@ article[class*='solo-contacto'] .fusion-buttons.two .fusion-button+.fusion-butto
 /* Videos */
 .fusion-video{max-width:1280px;max-height:720px;width:100%}
 .wp-video-shortcode.mejs-video,.fusion-video iframe,iframe{border:2px solid rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
+.ilightbox-holder iframe{border:none}
 .mejs-container,.mejs-container .mejs-controls,.mejs-embed,.mejs-embed body{background:rgba(0,0,0,.4)}
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,.mejs-controls .mejs-time-rail span{border-radius:6px;overflow:hidden}
 .fusion-blog-layout-grid article.format-video .fusion-post-content.post-content{background:var(--whiteColor)}
