@@ -296,7 +296,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
+	/* FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
 	jQuery('.wpcf7-submit:not([readonly])').on('click',function(e) {
 		if ( jQuery(this).val().indexOf('...') === -1 ) {
 			jQuery(this).attr('name',jQuery(this).val());
@@ -315,7 +315,7 @@ jQuery(document).ready(function() {
 			jQuery('#'+form_id).addClass('sending');
 			jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').addClass('sending');
 		}
-	});
+	});*/
 
 
 	// FORMULARIOS - Guardar título y URL en inputs
