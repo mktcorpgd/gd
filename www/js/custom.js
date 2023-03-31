@@ -13,6 +13,28 @@ document.addEventListener('wpcf7submit', function(e) {
 }, false);
 */
 
+/* FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
+jQuery('.wpcf7-submit:not([readonly])').on('click',function(e) {
+	if ( jQuery(this).val().indexOf('...') === -1 ) {
+		jQuery(this).attr('name',jQuery(this).val());
+		var sending_lang = '';
+		if ( lang == 'es' || lang == 'pt' ) {
+			sending_lang = 'Enviando...';
+		}
+		else if ( lang == 'en' ) {
+			sending_lang = 'Sending...';
+		}
+		jQuery(this).attr({
+			value: sending_lang,
+			readonly: 'readonly'
+		});
+		var form_id = jQuery(this).parent().parent().parent().attr('id');
+		jQuery('#'+form_id).addClass('sending');
+		jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').addClass('sending');
+	}
+});*/
+
+
 // Menú transparente
 function scrollHeaderTransp() {
 	var scroll = jQuery(window).scrollTop();
@@ -294,28 +316,6 @@ jQuery(document).ready(function() {
 	jQuery('input[name*="FNAME"],input[name*="LNAME"],input[name*="ROLE"]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
-
-
-	/* FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
-	jQuery('.wpcf7-submit:not([readonly])').on('click',function(e) {
-		if ( jQuery(this).val().indexOf('...') === -1 ) {
-			jQuery(this).attr('name',jQuery(this).val());
-			var sending_lang = '';
-			if ( lang == 'es' || lang == 'pt' ) {
-				sending_lang = 'Enviando...';
-			}
-			else if ( lang == 'en' ) {
-				sending_lang = 'Sending...';
-			}
-			jQuery(this).attr({
-				value: sending_lang,
-				readonly: 'readonly'
-			});
-			var form_id = jQuery(this).parent().parent().parent().attr('id');
-			jQuery('#'+form_id).addClass('sending');
-			jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').addClass('sending');
-		}
-	});*/
 
 
 	// FORMULARIOS - Guardar título y URL en inputs
