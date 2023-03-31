@@ -4,94 +4,14 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 // GENERAL - Función para normalizar textos
 var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
 
-// FORMULARIOS - Ejecutar al confirmar envío de mail
-document.addEventListener('wpcf7mailsent', function(e) {
-
-	// Variables
-	var event_action = '';
-
-
-	// grupodatco.com
-	if ( e.detail.contactFormId == 35652 ) {
-		event_action = 'Contacto';
-	}
-	else if ( e.detail.contactFormId == 22540 ) {
-		event_action = 'Recurso';
-	}
-
-
-	// baitcon.com
-	if ( e.detail.contactFormId == 27561 ) {
-		event_action = 'Contacto';
-		var callback = function () {
-			if (typeof(url) != 'undefined') {
-				window.location = url;
-			}
-		};
-		gtag('event', 'conversion', {
-			'send_to': 'AW-10869955594/qOq2CMqV_asDEIq4mb8o',
-			'event_callback': callback
-		});		
-	}
-	else if ( e.detail.contactFormId == 27563 ) {
-		event_action = 'Recurso';
-	}
-
-
-	// silicanetworks.com
-	else if ( e.detail.contactFormId == 22820 ) {
-		event_action = 'Contacto (ES)';
-	}
-	else if ( e.detail.contactFormId == 31529 ) {
-		event_action = 'Recurso (ES)';
-	}
-	else if ( e.detail.contactFormId == 31114 ) {
-		event_action = 'Contacto (EN)';
-	}
-	else if ( e.detail.contactFormId == 33992 ) {
-		event_action = 'Recurso (EN)';
-	}
-	else if ( e.detail.contactFormId == 24097 ) {
-		event_action = 'Contacto (BR)';
-	}
-	else if ( e.detail.contactFormId == 33995 ) {
-		event_action = 'Recurso (BR)';
-	}
-
-
-	// velocom.com.ar
-	else if ( e.detail.contactFormId == 23530 ) {
-		event_action = 'Contacto Internet';
-		gtag('event', 'conversion', {'send_to': 'AW-698636057/nP_BCLC5ufYBEJmukc0C'});
-	}
-	else if ( e.detail.contactFormId == 19204 ) {
-		event_action = 'Solicitud';
-	}
-	else if ( e.detail.contactFormId == 25052 ) {
-		event_action = 'Contacto Fibra';
-		jQuery('.controls.pac-target-input').removeClass('warning').removeClass('sent');
-		jQuery('.wpcf7-response-inner').remove();
-	}
-
-
-	// Enviar evento
-	ga('send', {
-		hitType: 'event',
-		eventCategory: 'Formularios',
-		eventAction: event_action
-	});
-
-}, false);
-
-
-// FORMULARIOS - Ejecutar al enviar con o sin error
+/* FORMULARIOS - Ejecutar al enviar con o sin error
 document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7.sending .wpcf7-submit').val(jQuery('.wpcf7.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
 	jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').removeClass('sending');
 	jQuery('.wpcf7').removeClass('sending');
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
-
+*/
 
 // Menú transparente
 function scrollHeaderTransp() {
