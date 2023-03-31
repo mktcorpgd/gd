@@ -1,18 +1,18 @@
-/* GENERAL - Función para obtener variables GET
+// GENERAL - Función para obtener variables GET
 jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
 
 // GENERAL - Función para normalizar textos
 var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
-*/
 
-/* FORMULARIOS - Ejecutar al enviar con o sin error
+
+// FORMULARIOS - Ejecutar al enviar con o sin error
 document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7.sending .wpcf7-submit').val(jQuery('.wpcf7.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
 	jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').removeClass('sending');
 	jQuery('.wpcf7').removeClass('sending');
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
-*/
+
 
 // Menú transparente
 function scrollHeaderTransp() {
@@ -226,7 +226,7 @@ jQuery(document).ready(function() {
 	}
 
 
-	/* FORMULARIOS - Si existe #RESP: asignar nuevo responsable
+	// FORMULARIOS - Si existe #RESP: asignar nuevo responsable
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
 		new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
@@ -377,7 +377,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-*/
+
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
 	if ( jQuery('#sidebar .cta-link').length ) {
