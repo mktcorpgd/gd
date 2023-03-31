@@ -4,35 +4,14 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 // GENERAL - Función para normalizar textos
 var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
 
-/* FORMULARIOS - Ejecutar al enviar con o sin error
+
+// FORMULARIOS - Ejecutar al enviar con o sin error
 document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7.sending .wpcf7-submit').val(jQuery('.wpcf7.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
 	jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').removeClass('sending');
 	jQuery('.wpcf7').removeClass('sending');
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
-*/
-
-/* FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
-jQuery('.wpcf7-submit:not([readonly])').on('click',function(e) {
-	if ( jQuery(this).val().indexOf('...') === -1 ) {
-		jQuery(this).attr('name',jQuery(this).val());
-		var sending_lang = '';
-		if ( lang == 'es' || lang == 'pt' ) {
-			sending_lang = 'Enviando...';
-		}
-		else if ( lang == 'en' ) {
-			sending_lang = 'Sending...';
-		}
-		jQuery(this).attr({
-			value: sending_lang,
-			readonly: 'readonly'
-		});
-		var form_id = jQuery(this).parent().parent().parent().attr('id');
-		jQuery('#'+form_id).addClass('sending');
-		jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').addClass('sending');
-	}
-});*/
 
 
 // Menú transparente
@@ -246,7 +225,7 @@ jQuery(document).ready(function() {
 		});
 	}
 
-/*
+
 	// FORMULARIOS - Si existe #RESP: asignar nuevo responsable
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
@@ -318,6 +297,28 @@ jQuery(document).ready(function() {
 	});
 
 
+	// FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
+	jQuery('.wpcf7-submit:not([readonly])').on('click',function(e) {
+		if ( jQuery(this).val().indexOf('...') === -1 ) {
+			jQuery(this).attr('name',jQuery(this).val());
+			var sending_lang = '';
+			if ( lang == 'es' || lang == 'pt' ) {
+				sending_lang = 'Enviando...';
+			}
+			else if ( lang == 'en' ) {
+				sending_lang = 'Sending...';
+			}
+			jQuery(this).attr({
+				value: sending_lang,
+				readonly: 'readonly'
+			});
+			var form_id = jQuery(this).parent().parent().parent().attr('id');
+			jQuery('#'+form_id).addClass('sending');
+			jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').addClass('sending');
+		}
+	});
+
+
 	// FORMULARIOS - Guardar título y URL en inputs
 	if ( jQuery('input[name="TITLE"]').length ) {
 		jQuery('input[name="TITLE"]').val(document.title);
@@ -376,7 +377,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-*/
+
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
 	if ( jQuery('#sidebar .cta-link').length ) {
