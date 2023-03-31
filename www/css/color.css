@@ -1,5 +1,5 @@
 /* Global */
-:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--blackColor:#222222;--lightgrayColor:#CCCCCC;--grayColor:#999999;--textColor:#333333;--metaColor:#666666;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
+:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--blackColor:#222222;--lightgrayColor:#CCCCCC;--grayColor:#999999;--textColor:#333333;--metaColor:#666666;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;}
 
 /* Selección */
 ::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
