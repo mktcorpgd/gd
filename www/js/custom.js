@@ -1,10 +1,3 @@
-// GENERAL - Función para obtener variables GET
-jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
-
-// GENERAL - Función para normalizar textos
-var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
-
-
 // FORMULARIOS - Ejecutar al enviar con o sin error
 document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7.sending .wpcf7-submit').val(jQuery('.wpcf7.sending .wpcf7-submit').attr('name')).removeClass('sending').removeAttr('readonly');
@@ -12,7 +5,6 @@ document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7').removeClass('sending');
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
-
 
 // Menú transparente
 function scrollHeaderTransp() {
@@ -25,7 +17,7 @@ function scrollHeaderTransp() {
 	}
 }
 
-
+// Cuando temrine de cargar:
 jQuery(document).ready(function() {
 
 	
@@ -68,11 +60,6 @@ jQuery(document).ready(function() {
 	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
 	jQuery('#content img[title]').each(function(i){jQuery(this).removeAttr('title');});
 	jQuery('.fusion-icon-blogger').each(function(i){jQuery(this).removeAttr('title');});
-
-
-	// CONTENIDOS - Ocultar párrafos con espacios en blanco
-	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
-	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
 
 
 	// CONTENIDO - Mostrar mes actual
