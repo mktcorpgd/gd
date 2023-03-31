@@ -1,5 +1,5 @@
 /* Global */
-:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--blackColor:#222222;--textColor:#333333;--metaColor:#666666;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;}
+:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--textColor:#333333;--blackColor:#222222;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;}
 
 /* Selección */
 ::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
