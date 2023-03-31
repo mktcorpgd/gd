@@ -226,7 +226,7 @@ jQuery(document).ready(function() {
 	}
 
 
-	// FORMULARIOS - Si existe #RESP: asignar nuevo responsable
+	/* FORMULARIOS - Si existe #RESP: asignar nuevo responsable
 	if ( jQuery('#RESP').length ) {
 		var new_resp = jQuery('#RESP a').attr('href');
 		new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
@@ -377,7 +377,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-
+*/
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
 	if ( jQuery('#sidebar .cta-link').length ) {
