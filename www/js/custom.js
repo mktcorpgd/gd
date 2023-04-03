@@ -240,8 +240,13 @@ jQuery(document).ready(function() {
 
 	
 	// FORMULARIOS - Abrir formulario de contacto
-	if ( window.location.href.indexOf('#contacto') > -1 ) {
-		jQuery('#open-contacto-rapido').trigger('click');
+	if ( window.location.href.indexOf('#') > -1 ) {
+		if ( window.location.href.indexOf('#contacto') > -1 ) {
+			jQuery('#open-contacto-rapido').trigger('click');
+		}
+		else if ( window.location.href.indexOf('#consultar') > -1 ) {
+			jQuery('#open-consultar-internet').trigger('click');
+		}
 	}
 
 
