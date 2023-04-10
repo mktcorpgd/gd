@@ -51,7 +51,7 @@ jQuery(document).ready(function() {
 	tp_phone['ar_mendoza'] = '+54 (261) 429-5886';
 	tp_address['ar_rosario'] = 'Cochabamba 1019 (S2000DWE)<br />Rosario, Santa Fe<br />Argentina';
 	tp_phone['ar_rosario'] = '+54 (341) 485-3803';
-	tp_address['ar_posadas'] = 'Acevedo 3241 (N3300HKQ)<br />Posadas, Misiones<br />Argentina';
+	tp_address['ar_posadas'] = 'Acevedo 3241 (N3300HKQ)<br />Piso 3, Depto. F<br />Posadas, Misiones<br />Argentina';
 	tp_phone['ar_posadas'] = '';
 	tp_address['ar_neuquen'] = 'Juan Larrea 595 (Q8300JVD)<br />Neuquén<br />Argentina';
 	tp_phone['ar_neuquen'] = '+54 (299) 525-9119';
