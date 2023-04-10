@@ -248,7 +248,7 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .fusion-portfolio-post .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
 .fusion-portfolio .fusion-post-content{padding-bottom:0}
 .fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
-.fusion-portfolio-content .fusion-portfolio-meta{padding:0 1rem;position:absolute;top:-2px;font-size:0;color:transparent;z-index:10}
+.fusion-portfolio-content .fusion-portfolio-meta{padding:0 1rem;position:absolute;top:-9px;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
 .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-']{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 2px var(--lightgrayColor);border-radius:32px;overflow:hidden}

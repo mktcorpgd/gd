@@ -21,7 +21,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Drive */
-#UseyourDrive div.scroll-to-top,
+#UseyourDrive div.scroll-to-top,.useyourdrive-modal-buttons,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
 /* Formularios */
@@ -465,6 +465,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .error404 h2{font-size:1.2em;font-weight:400}
 
 /* Drive */
+.UseyourDrive.useyourdrive-modal{backdrop-filter:none}
 #UseyourDrive{margin-bottom:1em}
 #UseyourDrive div{font-size:.8rem;font-weight:400}
 #UseyourDrive .ajax-filelist{height:auto;min-height:auto;font-size:1em}
