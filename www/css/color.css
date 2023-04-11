@@ -76,7 +76,7 @@ html .fusion-open-submenu,
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{background:var(--whiteColor)}
 .white .wpcf7-form input[type='submit'],.white .button-default:not(.button-custom){background:var(--whiteColor);color:var(--highlightColor)}
 .white .wpcf7-form input[type='submit']:hover,.white .button-default:not(.button-custom):hover{background:var(--subColor);color:var(--whiteColor)}
-.white img[src*='flag-']{border-color:var(--whiteColor)}
+.white img[src*='flag-'],.white blockquote{border-color:var(--whiteColor)}
 
 /* Extras */
 .fusion-reading-box-container .reading-box,
