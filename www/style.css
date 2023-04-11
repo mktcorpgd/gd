@@ -134,8 +134,8 @@ table th{font-size:1.1em}
 .fusion-main-menu .menu-text.fusion-button{margin-bottom:0;font-weight:400;font-size:1em}
 
 /* Menú - Buscador */
-.fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)}
-.fusion-main-menu .fusion-main-menu-search a:hover:after,.fusion-main-menu .fusion-main-menu-search-open a:after{color:rgba(255,255,255,1)}
+.fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important}
+.fusion-main-menu .fusion-main-menu-search a:hover:after,.fusion-main-menu .fusion-main-menu-search-open a:after{color:rgba(255,255,255,1)!important}
 .fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents{padding:0;width:100%;position:fixed;border:none}
 
 /* Páginas */
