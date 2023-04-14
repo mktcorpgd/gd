@@ -472,7 +472,7 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-post-grid .fusion-image-wrapper a{display:block;width:100%;height:100%}
 
 /* Google Maps */
-.fusion-google-map .infoBox{width:auto}
+.fusion-google-map .infoBox{width:auto!important}
 .fusion-google-map .infoBox img{margin:4px!important;border-radius:32px;opacity:.4}
 .fusion-google-map .infoBox .fusion-info-box{padding:1em;border-radius:6px;font-family:var(--textFont);line-height:1.6;box-shadow:0 0 24px 0 rgba(0,0,0,.4)}
 .fusion-google-map .infoBox .fusion-info-box span,.fusion-google-map .infoBox .fusion-info-box strong{display:block}
