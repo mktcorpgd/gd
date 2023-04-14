@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
 
 
 	// CONTENIDOS - Si slider está vacío:
-	var sdltr = jQuery('#sliders-container').text();
+	var sdltr = jQuery('#sliders-container').text().trim();
 	if ( sdltr.length > 1 ) {
 		jQuery('#sliders-container').addClass('has-content');
 	}
