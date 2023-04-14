@@ -337,6 +337,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .highlight+.wpcf7-not-valid-tip{background:rgba(255,255,255,.9)}
 .fusion-one-half .wpcf7-not-valid-tip{right:10px}
 .fusion-one-half.fusion-column-last .wpcf7-not-valid-tip{right:11px}
+.wpcf7-select-parent+.wpcf7-not-valid-tip{right:20px}
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
 .wpcf7 .fusion-layout-column>span:not(.mc4wp-checkbox),#respond .fusion-layout-column span{display:block;margin-bottom:.25em;text-align:left}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}

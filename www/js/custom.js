@@ -355,7 +355,16 @@ jQuery(document).ready(function() {
 			jQuery(this).parent('.wpcf7-select-parent').siblings('.wpcf7-not-valid-tip').show();
 		}
 	});
+	jQuery('-wpcf7-form-control-wrap input:radio').change(function() {
+		if ( jQuery(this).is(':checked') ) {
+			jQuery(this).closest('.wpcf7-radio').siblings('.wpcf7-not-valid-tip').hide();
+		}
+		else {
+			jQuery(this).closest('.wpcf7-radio').siblings('.wpcf7-not-valid-tip').hide();
 
+		}
+	});
+	
 
 	// FORMULARIOS - Comprobar si hay campos opcionales
 	jQuery('.wpcf7-form-control:not(.wpcf7-submit):not(.hidden):not([type=hidden]').each(function(i) {
