@@ -770,8 +770,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
 	.post-password-form input[type='submit']{margin-top:1em!important}
-	.wpcf7-form-control.wpcf7-radio.highlight{float:left;margin-bottom:1em}
-	.wpcf7-list-item{display:block}
+	.wpcf7-form-control.wpcf7-radio.highlight{padding:0}
 
 	/* Contenido */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
