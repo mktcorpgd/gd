@@ -178,7 +178,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .modal .modal-body>h4{margin-top:0;margin-bottom:10px}
 .modal .modal-body a:not(.fusion-button):hover{text-decoration:underline}
 .modal-body .fusion-fullwidth{border-radius:12px}
-.fusion-modal .modal-header{margin-bottom:1em;min-height:auto;padding:0;border:none}
+.fusion-modal .modal-header{margin-bottom:.5em;min-height:auto;padding:0;border:none}
 .modal-header .close{margin:0!important;padding:0;width:40px;height:40px;line-height:1;position:absolute;top:0;right:0;color:rgba(0,0,0,.4);background:none;border:none;cursor:pointer}
 .modal-header .close:hover{color:var(--grayColor)}
 .modal div.wpcf7{max-width:100%}
@@ -770,6 +770,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
 	.post-password-form input[type='submit']{margin-top:1em!important}
+	.wpcf7-form-control.wpcf7-radio.highlight{float:left;margin-bottom:1em}
+	.wpcf7-list-item{display:block}
 
 	/* Contenido */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
