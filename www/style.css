@@ -599,9 +599,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active{text-decoration:underline}
 .fusion-filter.fusion-active a{line-height:inherit}
 .fusion-tab-link{cursor:pointer}
-.fusion-tabs .tab-pane{padding:2em 0 0}
 .fusion-tabs.clean .nav-tabs li{margin-bottom:0}
-.fusion-tabs.horizontal-tabs .tab-content{margin-top:2em!important}
+.fusion-tabs.horizontal-tabs .tab-content{margin-top:1em}
 .fusion-tabs.vertical-tabs .tab-pane{border-radius:6px 6px 12px 12px;border:2px solid var(--lightgrayColor)}
 .fusion-tabs.vertical-tabs .nav-tabs>li .tab-link{padding-left:1em}
 
