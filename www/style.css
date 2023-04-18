@@ -294,12 +294,14 @@ div.wpcf7{margin:0 auto;padding:0;position:relative}
 div.wpcf7:before{display:block;margin-top:-.6em;width:100%;margin-bottom:5px;font-size:.7em;line-height:1.6;font-style:italic}
 div.wpcf7>form p{margin-top:0;margin-right:1em}
 .fusion-one-full div.wpcf7{max-width:500px}
-.wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
+.wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,
+.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
 .wpcf7 input:not([type='submit']),.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{padding:.5em .8em;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-size:.9em;font-weight:400;z-index:1}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{width:100%}
-.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{padding:.5em 0.8em}
+#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'].wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{width:100%}
+.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.5em}
+.wpcf7-select{color:var(--textColor)}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
 #comment-input .form-submit{margin:0;grid-column:span 2}
 .wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,#respond .fusion-one-half:not(.fusion-column-last) input{border-top-right-radius:0;border-bottom-right-radius:0;border-right-width:1px}
@@ -374,7 +376,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .commentlist .the-comment .comment-author.meta{margin-bottom:10px;color:var(--metaColor)}
 .commentlist .the-comment .comment-text{margin-left:0;padding:0 15px;font-style:italic;line-height:1.6;border-left:4px solid var(--lightgrayColor)}
 .commentlist .the-comment .comment-text p{margin-top:5px}
-.commentlist .children{border-left:30px solid #FAFAFA;padding-left:10px}
+.commentlist .children{border-left:30px solid var(--whiteAltColor);padding-left:10px}
 .single .comments-container{margin-top:40px}
 #comments .fusion-title{margin-bottom:5px}
 #respond textarea{font-size:1.2em}
