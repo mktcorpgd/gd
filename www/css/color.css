@@ -22,6 +22,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-ti
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white) .fusion-layout-column:not(.white) .fusion-title *,html body #main .fusion-fullwidth:not(.white) .fusion-layout-column:not(.white) .fusion-content-boxes:not(.white) .fusion-content-box-hover .link-area-box-hover .icon i{color:var(--mainColor)!important}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header,
 .fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content{background:var(--mainColor)}
+#wrapper .post-content blockquote,.comment-text blockquote,.fusion-body blockquote,.fusion-pagination .current,.fusion-pagination .page-numbers.current,.pagination .current,.progress-bar-content{border-color:var(--mainColor)}
 
 /* Secundario */
 .fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
@@ -84,7 +85,7 @@ img[src*='flag-']{border-color:var(--lightgrayColor)}
 .fusion-content-boxes.extra-border-img .heading img{border-radius:50%;border:4px solid var(--extraColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white) .fusion-layout-column:not(.white) .fusion-title h6{color:var(--metaColor)!important}
 .awb-swiper-button-next,.awb-swiper-button-prev{color:var(--metaColor)!important}
-.fusion-tabs .nav ul, .fusion-filters{background:var(--whiteAltColor)}
+.fusion-tabs .nav ul,.fusion-filters{background:var(--whiteAltColor)}
 .fusion-tabs .nav-tabs>li,.fusion-filters li,.fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active,.fusion-tabs .nav-tabs>li.fusion-active a,.fusion-tabs .nav-tabs>li.active a,.fusion-filters li.fusion-active a{background:none;color:var(--highlightColor)}
 
 /* Mobile */
