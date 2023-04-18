@@ -301,7 +301,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{width:100%}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.5em}
-.wpcf7-select{color:var(--textColor)}
+.wpcf7-select.selected{color:var(--textColor)}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
 #comment-input .form-submit{margin:0;grid-column:span 2}
 .wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,#respond .fusion-one-half:not(.fusion-column-last) input{border-top-right-radius:0;border-bottom-right-radius:0;border-right-width:1px}
