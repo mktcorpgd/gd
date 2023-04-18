@@ -407,11 +407,11 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricingtable-column.standout .price{font-size:1.1em}
 
 /* Botones */
-.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
+.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit']{margin:0 auto .5em;padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;box-shadow:0 3px 6px rgba(0,0,0,.2)!important;border-radius:12px}
-.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
+.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],
 .fusion-button-text,.button-default .fusion-button-text{color:var(--whiteColor)}
@@ -764,7 +764,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Formularios */
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
-	.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
+	.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 	.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 	#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 	.wpcf7-form input[type='submit']{padding:.7rem .9rem}	
