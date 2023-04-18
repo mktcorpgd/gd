@@ -48,7 +48,8 @@ sup{line-height:1}
 iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
 .width-800 .tab-content{margin:0 auto;width:800px}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
-.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-content-boxes a,.fusion-copyright-notice a:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .more-info span{text-decoration:underline}
+.post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a,.flex-next:hover,.flex-prev:hover{text-decoration:none}
+.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-content-boxes a,.fusion-copyright-notice a:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .more-info span,.fusion-footer-widget-area ul li a:hover,.modal .modal-body a:not(.fusion-button):hover,.fusion-menu.awb-menu__main-ul a:hover,.fusion-title a{text-decoration:underline}
 .uppercase{text-transform:uppercase}
 .zindex1{z-index:1!important}
 .zindex99{z-index:99!important;overflow:visible!important}
@@ -106,7 +107,6 @@ table th{font-size:1.1em}
 .fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
 .fusion-header-wrapper:not(.on-top) .fusion-main-menu .sub-menu,.fusion-header-wrapper:not(.on-top) .fusion-megamenu-wrapper,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-main-menu .sub-menu,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .fusion-menu.awb-menu__main-ul a{padding:0 1rem!important;font-family:var(--titleFont);font-size:1.2em}
-.fusion-menu.awb-menu__main-ul a:hover{text-decoration:underline}
 .fusion-main-menu>ul>li>a .fusion-caret{margin-left:5px;opacity:.5}
 .fusion-main-menu>ul>li:hover>a .fusion-caret{opacity:.8}
 .fusion-widget-menu li a{padding:0 1em!important;border-right:2px solid rgba(255,255,255,.2)!important}
@@ -176,7 +176,6 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
 .modal-content{padding:1.4em 1em;box-shadow:none}
 .modal .modal-body>h4{margin-top:0;margin-bottom:10px}
-.modal .modal-body a:not(.fusion-button):hover{text-decoration:underline}
 .modal-body .fusion-fullwidth{border-radius:12px}
 .fusion-modal .modal-header{margin-bottom:.5em;min-height:auto;padding:0;border:none}
 .modal-header .close{margin:0!important;padding:0;width:40px;height:40px;line-height:1;position:absolute;top:0;right:0;color:rgba(0,0,0,.4);background:none;border:none;cursor:pointer}
@@ -202,7 +201,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .hero-img+.fusion-fullwidth.fusion-builder-row-2{padding:5% 0}
 .main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev{background:none}
 .flex-next,.flex-prev{font-size:2.4em}
-.flex-next:hover,.flex-prev:hover{text-decoration:none;color:var(--whiteColor)}
+.flex-next:hover,.flex-prev:hover{color:var(--whiteColor)}
 .flex-control-paging li a{background:rgba(0,0,0,.4);box-shadow:none}
 .flex-control-paging li a.flex-active{background:var(--whiteColor)}
 .flex-control-paging li a:hover{background:rgba(0,0,0,.6)}
@@ -551,7 +550,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-meta-info-wrapper .fusion-inline-sep{color:var(--lightgrayColor)}
 .fusion-single-line-meta,.fusion-portfolio-meta{margin-top:-8px!important;padding:0 1rem .8rem;line-height:1.2}
 .post .fusion-meta-info{margin:.5em 0;padding:0;border:none;background:none}
-.post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{text-decoration:none;color:var(--metaColor)}
+.post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{color:var(--metaColor)}
 
 /* Colapsables */
 .fusion-accordian .fusion-toggle-icon-wrapper i{background:none!important}
@@ -635,7 +634,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-footer-widget-area ul{padding-left:0;list-style:none}
 .fusion-widget-area .widget .recentcomments,.fusion-widget-area .widget_archive li,.fusion-widget-area .widget_categories li,.fusion-widget-area .widget_layered_nav li,.fusion-widget-area .widget_links li,.fusion-widget-area .widget_meta li,.fusion-widget-area .widget_nav_menu li,.fusion-widget-area .widget_pages li,.fusion-widget-area .widget_product_categories li,.fusion-widget-area .widget_recent_entries li,.fusion-widget-area .widget_rss li{padding:.4em 0!important;line-height:1.4;border:none}
 .fusion-footer-widget-area ul li a{font-size:.8rem;line-height:1.3;cursor:pointer}
-.fusion-footer-widget-area ul li a:hover{text-decoration:underline}
 .fusion-footer-widget-area ul li a>span{display:block;margin-top:0;font-size:.7rem;line-height:1.3;color:rgba(255,255,255,.7)}
 .fusion-footer-widget-area ul li.logo-footer{margin-top:.5em}
 .fusion-copyright-notice{font-size:.8rem}
