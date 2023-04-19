@@ -507,7 +507,7 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-content-boxes.less-heading .heading,.fusion-content-boxes.less-heading .fusion-column{margin-bottom:.25em}
 .fusion-content-boxes .content-wrapper-background{padding:1em}
 .fusion-content-boxes .content-container img.aligncenter{margin-bottom:1.2em}
-.fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon, .fusion-content-boxes.content-boxes-icon-with-title .heading-with-icon .fontawesome-icon{margin-right:1em}
+.fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon, .fusion-content-boxes.content-boxes-icon-with-title .heading-with-icon .fontawesome-icon{margin-right:.25em}
 .fusion-content-boxes.box-shadow .fusion-column .heading,.fusion-content-boxes.box-shadow .fusion-column .heading-link
 {display:block;width:100%}
 .fusion-content-boxes.box-shadow .fusion-column .heading-link{padding:1rem 1.5rem}
