@@ -234,6 +234,10 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 
+.hover-boxes .fusion-column{padding:1em}
+.hover-boxes .fusion-column:hover{background:var(--mainColor)}
+.hover-boxes .fusion-column:hover *{color:white}
+
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
 body.single-format-link #content{width:100%}
