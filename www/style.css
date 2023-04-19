@@ -398,7 +398,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricingtable-column .panel-container{padding:0;background:none;border-radius:12px;border-top:1px solid rgba(0,0,0,.2);border-bottom:1px solid rgba(0,0,0,.2);border-radius:0;box-shadow:none;cursor:initial;overflow:hidden}
 .fusion-pricingtable-column:first-child .panel-container{border-left:1px solid rgba(0,0,0,.2);border-radius:12px;border-bottom-right-radius:0;border-top-right-radius:0}
 .fusion-pricingtable-column:last-child .panel-container{border-right:1px solid rgba(0,0,0,.2);border-radius:12px;border-top-left-radius:0;border-bottom-left-radius:0}
-.fusion-pricingtable-column .panel-heading{padding:1em .5em 0!important;border-bottom:none}
+.fusion-pricingtable-column .panel-heading{padding:1em .5em!important;border-bottom:none}
 .fusion-pricingtable-column .panel-heading h3{font-size:1.6em}
 .fusion-pricingtable-column .panel-body{padding:0}
 .fusion-pricingtable-column .panel-body .price{padding:.5em}
@@ -596,7 +596,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-gallery .fusion-gallery-column .fusion-gallery-image{border-radius:12px}
 
 /* Pestañas/Filtros */
-.fusion-tabs .nav ul,.fusion-filters,.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a,.fusion-tabs.vertical-tabs.classic .nav-tabs>li .tab-link,.fusion-tabs .tab-content>.active,.fusion-tabs.horizontal-tabs .nav{border:none!important}
+.fusion-tabs .nav ul,.fusion-filters,.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a,.fusion-tabs.vertical-tabs.classic .nav-tabs>li .tab-link,.fusion-tabs .tab-content>.active,.fusion-tabs.horizontal-tabs .nav{border:none!important;outline:none!important}
 .fusion-tabs.sticky-tabs>.nav{top:90px}
 body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-tabs .nav ul,.fusion-filters{display:flex;align-items:center;margin-top:0;margin-bottom:2em;line-height:1.3;border-radius:6px 6px 12px 12px;box-shadow:0 2px 16px 0px rgba(0,0,0,.2);overflow:hidden}
