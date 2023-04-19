@@ -503,10 +503,10 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-content-boxes .link-area-box-hover{color:inherit}
 .fusion-content-boxes.content-boxes-icon-on-top .content-container,.fusion-content-boxes.no-heading .heading,.fusion-content-boxes.no-heading-title .heading,.fusion-content-boxes.box-shadow .heading{margin-bottom:0}
 .fusion-content-boxes.no-heading .content-container h4,.fusion-content-boxes.no-heading-title .content-container h4,.fusion-content-boxes .fusion-read-more-button{margin-top:0}
-.fusion-content-boxes.less-heading .heading{margin-bottom:5px}
-.fusion-content-boxes .content-wrapper-background{padding:25px}
-.fusion-content-boxes .content-container img.aligncenter{margin-bottom:20px}
-.fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon, .fusion-content-boxes.content-boxes-icon-with-title .heading-with-icon .fontawesome-icon{margin-right:15px}
+.fusion-content-boxes.less-heading .heading,.fusion-content-boxes.less-heading .fusion-column{margin-bottom:.25em}
+.fusion-content-boxes .content-wrapper-background{padding:1em}
+.fusion-content-boxes .content-container img.aligncenter{margin-bottom:1.2em}
+.fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .fontawesome-icon, .fusion-content-boxes.content-boxes-icon-with-title .heading-with-icon .fontawesome-icon{margin-right:1em}
 .fusion-content-boxes.box-shadow .fusion-column .heading,.fusion-content-boxes.box-shadow .fusion-column .heading-link
 {display:block;width:100%}
 .fusion-content-boxes.box-shadow .fusion-column .heading-link{padding:1rem 1.5rem}
