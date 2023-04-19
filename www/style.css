@@ -135,7 +135,6 @@ table th{font-size:1.1em}
 .fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.4)}
 .fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.6)}
 .fusion-main-menu .menu-text.fusion-button{margin-bottom:0;font-weight:400;font-size:1em}
-.header-transparent.window .fusion-main-menu .fusion-menu-item-button .menu-text{background:none}
 
 /* Menú - Buscador */
 .fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important}
