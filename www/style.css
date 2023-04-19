@@ -111,7 +111,7 @@ table th{font-size:1.1em}
 .fusion-main-menu>ul>li:hover>a .fusion-caret{opacity:.8}
 .fusion-widget-menu li a{padding:0 1em!important;border-right:2px solid rgba(255,255,255,.2)!important}
 .fusion-widget-menu li:last-child a{border-right:none!important}
-.wpml-ls-menu-item.menu-item-has-children{font-size:.8em;text-transform:uppercase;letter-spacing:1px}
+.wpml-ls-menu-item.menu-item-has-children>a{font-size:.8em;text-transform:uppercase;letter-spacing:1px}
 
 /* Menú - Mega */
 .fusion-megamenu-wrapper{overflow:hidden}
@@ -419,7 +419,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-button-text,.button-default .fusion-button-text{color:var(--whiteColor)}
 .button-default.button-small,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.5rem .7rem;font-size:.9em}
 .button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.header-transparent.fusion-builder-row-1 .fusion-button:not(.button-small):not(.button-xlarge){padding:.6rem 1rem;font-size:1.2em}
-.button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.8rem 1.2rem;font-size:1.5em}
+.button-default.button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.8rem 1.2rem;font-size:1.5em}
 .wpcf7-form input[type='submit']{display:grid}
 .wpcf7-form input[type='submit'],.fusion-body .fusion-load-more-button{margin-top:.5em}
 a.cta-link{display:block;margin-top:-10px;text-align:center;font-family:var(--textFont)}
