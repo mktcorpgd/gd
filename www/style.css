@@ -111,7 +111,7 @@ table th{font-size:1.1em}
 .fusion-main-menu>ul>li:hover>a .fusion-caret{opacity:.8}
 .fusion-widget-menu li a{padding:0 1em!important;border-right:2px solid rgba(255,255,255,.2)!important}
 .fusion-widget-menu li:last-child a{border-right:none!important}
-.wpml-ls-menu-item{font-size:.8em;text-transform:uppercase;letter-spacing:1px}
+.wpml-ls-menu-item.menu-item-has-children{font-size:.8em;text-transform:uppercase;letter-spacing:1px}
 
 /* Menú - Mega */
 .fusion-megamenu-wrapper{overflow:hidden}
