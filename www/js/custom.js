@@ -35,6 +35,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('.post-content .header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
+	if ( jQuery('.post-content .window').length ) {
+		jQuery('#wrapper').addClass('window');
+	}
 	scrollHeaderTransp();
 	jQuery(window).scroll(function() {
 		scrollHeaderTransp();
