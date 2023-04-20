@@ -233,7 +233,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 
-.hover-boxes .fusion-layout-column{margin-bottom:0;padding:2em 1em;border:1em solid #FFFFFF;border-radius:12px;overflow:hidden}
+.hover-boxes .fusion-layout-column{margin-bottom:0;padding:2em 1em 0;border:1em solid #FFFFFF;border-radius:12px;overflow:hidden}
 .hover-boxes .fusion-layout-column:hover{border-radius:48px;background:var(--mainColor)}
 .hover-boxes .fusion-layout-column:hover *{color:white!important}
 .hover-boxes .fusion-layout-column .fusion-button{margin:0;position:relative;bottom:-10px;opacity:0}
