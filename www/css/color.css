@@ -22,7 +22,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-ti
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):not(.hover-boxes) .fusion-layout-column:not(.white) .fusion-title *,html body #main .fusion-fullwidth:not(.white) .fusion-layout-column:not(.white) .fusion-content-boxes:not(.white) .fusion-content-box-hover .link-area-box-hover .icon i{color:var(--mainColor)!important}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header,
 .fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content{background:var(--mainColor)}
-.fusion-tabs.horizontal-tabs .nav-tabs>.active>.tab-link,.fusion-filters .fusion-filter.fusion-active{background:var(--mainColor)!important}
+.fusion-tabs.horizontal-tabs .nav-tabs>.active>.tab-link,.fusion-filters .fusion-filter.fusion-active a{background:var(--mainColor)!important}
 #wrapper .post-content blockquote,.comment-text blockquote,.fusion-body blockquote,.fusion-pagination .current,.fusion-pagination .page-numbers.current,.pagination .current,.progress-bar-content{border-color:var(--subColor)}
 
 /* Secundario */
