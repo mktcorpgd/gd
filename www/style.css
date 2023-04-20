@@ -72,7 +72,7 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative
 .fusion-modal-text-link{cursor:pointer}
 i[class^='fa-']{display:inline-block;font-style:normal}
 .header-transparent.watermask{overflow:hidden}
-.header-transparent.watermask .fontawesome-icon{font-size:23em!important;opacity:.1;position:absolute;bottom:0;right:0}
+.header-transparent.watermask .fontawesome-icon{transform:rotate(15deg);font-size:23em!important;opacity:.1;position:absolute;bottom:0;right:0}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
