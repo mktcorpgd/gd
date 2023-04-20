@@ -607,6 +607,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-tabs .nav-tabs>li,.fusion-filters li{background:var(--whiteAltColor);font-family:var(--titleFont);text-align:center}
 .fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a,.fusion-tabs.clean .nav-tabs li .tab-link{padding:.7em 2em;background:none!important}
 .fusion-filters li a,.fusion-tabs .nav-tabs li .tab-link{margin:.25em .5em;border-radius:12px}
+.fusion-tabs.horizontal-tabs.clean .nav-tabs li .tab-link{margin-right:.25em!important}
 .fusion-tabs .nav-tabs>li .tab-link .fontawesome-icon{min-width:24px;text-align:center}
 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--metaColor);font-size:1.15rem}
 .fusion-filter.fusion-active a{line-height:inherit}
