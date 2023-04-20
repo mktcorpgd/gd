@@ -28,7 +28,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
 .fusion-content-boxes.shadow .col:hover .icon i,.fusion-content-boxes.shadow .col:hover h2,
 .fusion-checklist .fusion-li-icon,ul.fusion-checklist .fusion-li-icon{color:var(--subColor)!important}
-.button-default:hover,.fusion-button-default-size:hover,.fusion-button:not(.button-custom):hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
+.button-default:hover,.fusion-button-default-size:hover,.fusion-button:hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 .wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-secondary-header{background:var(--subColor)}
@@ -38,13 +38,13 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .fusion-portfolio article .more-info,
 #main .fusion-portfolio-content-wrapper:hover h2 a,#main .post h2 a:hover,#main article h2 a:hover,.related-posts .awb-carousel .swiper-slide a:hover,
 #main .about-author .title a:hover,.fusion-open-submenu:hover,.fusion-pagination .next:hover,.fusion-pagination .next:hover:after,.fusion-pagination .prev:hover,.fusion-pagination .prev:hover:before,.fusion-read-more:hover:after,.more a:hover:after,.pagination .pagination-next:hover:after,.pagination .pagination-prev:hover:before,.pagination-next:hover:after,.pagination-prev:hover:before,.project-content .project-info .project-info-box a:hover,.rtl .fusion-read-more:hover:before,.rtl .more a:hover:before,.single-navigation a[rel=next]:hover:after,.single-navigation a[rel=prev]:hover:before,a:hover,h5.toggle:hover a,.fusion-filters .fusion-filter.fusion-active a,.fusion-tabs .nav-tabs li.active .tab-link .fusion-tab-heading,.white .button-default .fusion-button-text,.white .fusion-button i,
-.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-filters li a:hover,.fusion-pricing-table .button-default:not(.button-custom) .fusion-button-text{color:var(--highlightColor)}
+.fusion-tabs .nav-tabs li .tab-link:hover .fusion-tab-heading,.fusion-filters li a:hover,.fusion-pricing-table .button-default .fusion-button-text{color:var(--highlightColor)}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper.link-area-box-hover .fontawesome-icon,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper.link-area-box-hover .content-box-heading,html body #main .fusion-fullwidth:not(.white) .fusion-layout-column:not(.white) .fusion-content-boxes:not(.white) .fusion-content-box-hover .link-area-box-hover .heading-link .icon i,html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white) .fusion-layout-column:not(.white) .fusion-title a{color:var(--highlightColor)!important}
-.button-default:not(.button-custom),.fusion-button-default-size,.fusion-button:not(.button-custom),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default:not(.button-custom),.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
+.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input,
-.fusion-pricing-table .panel-wrapper:hover .fusion-panel,.fusion-pricing-table .panel-wrapper:hover .button-default:not(.button-custom) .fusion-button-text.ilightbox-toolbar.smooth a:hover{background:var(--highlightColor);color:var(--whiteColor)}
+.fusion-pricing-table .panel-wrapper:hover .fusion-panel,.fusion-pricing-table .panel-wrapper:hover .button-default .fusion-button-text,.ilightbox-toolbar.smooth a:hover{background:var(--highlightColor);color:var(--whiteColor)}
 
 /* Formularios */
 .wpcf7-captchar:hover,.wpcf7-form .wpcf7-date:hover,.wpcf7-form .wpcf7-number:hover,.wpcf7-form .wpcf7-quiz:hover,.wpcf7-form .wpcf7-select:hover,.wpcf7-select-parent .wpcf7-select:hover,.wpcf7-form .wpcf7-text:hover,.wpcf7 textarea:hover,.wpcf7 input:not([type='submit']):hover,
@@ -75,8 +75,8 @@ html .fusion-open-submenu,
 .hero-img h1,.hero-img h4,
 .fusion-.fusion-main-menu .current-menu-ancestor>a,.fusion-.fusion-main-menu .current-menu-item>a,.fusion-.fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart)>a:before,.fusion-.fusion-main-menu .current-menu-parent>a,.fusion-.fusion-main-menu .current_page_item>a{color:var(--whiteColor)!important}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{background:var(--whiteColor)}
-.white .wpcf7-form input[type='submit'],.white .button-default:not(.button-custom),.fusion-pricing-table .button-default:not(.button-custom){background:var(--whiteColor);color:var(--highlightColor)}
-.white .wpcf7-form input[type='submit']:hover,.white .button-default:not(.button-custom):hover{background:var(--subColor);color:var(--whiteColor)}
+.white .wpcf7-form input[type='submit'],.white .button-default,.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--highlightColor)}
+.white .wpcf7-form input[type='submit']:hover,.white .button-default:hover{background:var(--subColor);color:var(--whiteColor)}
 .white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote,.hover-boxes .fusion-layout-column:hover blockquote{border-color:var(--whiteColor)}
 
 /* Extras */
