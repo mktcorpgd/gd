@@ -239,6 +239,8 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .hover-boxes .fusion-layout-column:hover{border-radius:48px;box-shadow:inset 0 0 12px rgba(0,0,0,.2)}
 .hover-boxes .fusion-layout-column .fusion-button{margin:0;position:relative;bottom:0;opacity:0}
 .hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-10px;opacity:1}
+.hover-boxes .fusion-layout-column .fusion-title i{opacity:.6}
+.hover-boxes .fusion-layout-column:hover .fusion-title i{opacity:1}
 
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
