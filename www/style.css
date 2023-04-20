@@ -236,7 +236,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .ilightbox-toolbar.smooth a{border-radius:6px}
 
 .hover-boxes .fusion-layout-column{margin-bottom:0;padding:2em 1em 0;border:1em solid #FFFFFF;border-radius:12px}
-.hover-boxes .fusion-layout-column:hover{border-radius:48px;background:rgba(0,0,0,.2)}
+.hover-boxes .fusion-layout-column:hover{border-radius:48px;box-shadow:inset 0 0 12px rgba(0,0,0,.2)}
 .hover-boxes .fusion-layout-column .fusion-button{margin:0;position:relative;bottom:0;opacity:0}
 .hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-10px;opacity:1}
 
