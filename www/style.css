@@ -605,7 +605,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-tabs .nav ul,.fusion-filters{display:flex;align-items:center;margin-top:0;margin-bottom:2em;line-height:1.3;border-radius:6px 6px 12px 12px;box-shadow:0 2px 16px 0px rgba(0,0,0,.2);overflow:hidden}
 .fusion-tabs .nav-tabs.nav-justified>li,.fusion-filters .fusion-filter{margin:0;flex:auto}
 .fusion-tabs .nav-tabs>li,.fusion-filters li{background:var(--whiteAltColor);font-family:var(--titleFont);text-align:center}
-.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a,.fusion-tabs.clean .nav-tabs li .tab-link{padding:.7em 2em;background:none!important;border-radius:0}
+.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a,.fusion-tabs.clean .nav-tabs li .tab-link{padding:.7em 2em;background:none!important}
 .fusion-filters li a,.fusion-tabs .nav-tabs li .tab-link{margin:.25em .5em;border-radius:12px}
 .fusion-tabs .nav-tabs>li .tab-link .fontawesome-icon{min-width:24px;text-align:center}
 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,.fusion-filters li a{color:var(--metaColor);font-size:1.15rem}
