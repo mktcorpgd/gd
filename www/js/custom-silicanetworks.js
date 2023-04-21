@@ -7,9 +7,9 @@ jQuery(document).ready(function() {
 
 	// Empresas
 	function fullInfo() {
-		var service = jQuery('input[name=SRV]').val();
-		var srvinternet = jQuery('input[name=SRVINTERNET]').val();
-		var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]').val();
+		var service = jQuery('input[name=SRV]:checked').val();
+		var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
+		var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
 		var msg = jQuery('textarea[name=MSG]').val();
 		jQuery('input[name=FULLINFO').val(service+' '+srvinternet+' ('+srvinternetvel+') / '+msg);
 	}
