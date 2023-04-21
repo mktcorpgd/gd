@@ -20,9 +20,9 @@ jQuery(document).ready(function() {
 		fullInfoSRV();
 	});
 	jQuery('textarea[name=SRVMSG]').on('input',function() {
-		var srvfullinfo = jQuery('input[name=SRVFULL]').val();
+		var srvfull = jQuery('input[name=SRVFULL]').val();
 		var srvmsg = jQuery(this).val();
-		jQuery('textarea[name=SRVMSG]').val(srvfullinfo+' / '+srvmsg);
+		jQuery('textarea[name=SRVFULLINFO]').val(srvfull+' / '+srvmsg);
 	});
 	
 
