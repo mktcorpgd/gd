@@ -313,8 +313,8 @@ div.wpcf7 input[type='file']{cursor:pointer}
 div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:default}
 .wpcf7-select-parent .wpcf7-select{appearance:auto}
 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,.wpcf7-radio.highlight{padding:.4em;font-size:1.6rem;font-weight:600;height:auto}
+.wpcf7-radio input{margin-right:.2em;position:relative;top:-2px}
 .wpcf7-radio.highlight{padding-left:0}
-.wpcf7-radio.highlight input{margin-right:.2em;position:relative;top:-2px}
 .wpcf7-list-item{margin:0 1em 0 0}
 .wpcf7-list-item-label{cursor:pointer}
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7 .wpcf7-text.highlight,.wpcf7 .wpcf7-radio.highlight{font-size:1.1em}
