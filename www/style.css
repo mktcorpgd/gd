@@ -46,7 +46,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
 .post-content p b,.post-content p strong,.content-container strong{font-weight:600}
 iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
-.width-800,.width-800 .tab-content{margin:0 auto!important;width:800px!important}
+.width-800:not(.fusion-tabs),.width-800 .tab-content{margin:0 auto!important;width:800px!important}
 .width-600{margin:0 auto!important;max-width:600px}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a,.flex-next:hover,.flex-prev:hover{text-decoration:none}
