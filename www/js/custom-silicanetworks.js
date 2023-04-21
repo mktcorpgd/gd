@@ -14,13 +14,15 @@ jQuery(document).ready(function() {
 		if ( service.indexOf('Internet') > -1 ) {
 			service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
 		}
-		jQuery('input[name=SRVFULLINFO]').val(service+' / '+msg);
+		jQuery('input[name=SRVFULL]').val(service);
 	}
 	jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
 		fullInfoSRV();
 	});
-	jQuery('textarea[name=SRVMSG]').change(function() {
-		fullInfoSRV();
+	jQuery('textarea[name=SRVMSG]').on('input',function() {
+		var srvfullinfo = jQuery('input[name=SRVFULL]').val();
+		var srvmsg = jQuery(this).val();
+		jQuery('textarea[name=SRVMSG]').val(srvfullinfo+' / '+srvmsg);
 	});
 	
 
