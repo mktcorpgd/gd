@@ -14,7 +14,7 @@ body.page-child.parent-pageid-36729 .fusion-copyright-content{text-align:center}
 #productos .fusion-builder-row{margin-top:-90px}
 
 .hover-boxes .fusion-column-wrapper{margin-bottom:0;padding:1.5em 1.5em 0;background:#FFFFFF;box-shadow:0 0 12px rgba(0,0,0,.2);border-radius:12px}
-.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{border-radius:24px;box-shadow:0 0 18px rgba(0,0,0,.4)}
+.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{border-radius:24px;background:#FFFFFF;box-shadow:0 0 18px rgba(0,0,0,.4)}
 .hover-boxes .fusion-layout-column .fusion-button{margin:0;position:relative;bottom:0;opacity:0}
 .hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-10px;opacity:1}
 .hover-boxes .fusion-layout-column .fusion-title i{opacity:.6}
