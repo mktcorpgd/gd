@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 		if ( service.indexOf('Internet') > -1 ) {
 			service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
 		}
-		jQuery('input[name=FULLINFO').val(service+' / '+msg);
+		jQuery('input[name=FULLINFO]').val(service+' / '+msg);
 	}
 	jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
 		fullInfo();
