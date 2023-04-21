@@ -10,7 +10,6 @@ jQuery(document).ready(function() {
 		var service = jQuery('input[name=SRV]:checked').val();
 		var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
 		var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
-		var msg = jQuery('textarea[name=MSG]').val();
 		if ( service.indexOf('Internet') > -1 ) {
 			service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
 		}
@@ -22,7 +21,8 @@ jQuery(document).ready(function() {
 	jQuery('textarea[name=SRVMSG]').on('input',function() {
 		var srvfull = jQuery('input[name=SRVFULL]').val();
 		var srvmsg = jQuery(this).val();
-		jQuery('textarea[name=SRVFULLINFO]').val(srvfull+' / '+srvmsg);
+		var srvfullinfo = srvfull+' / '+srvmsg;
+		jQuery('input[name=SRVFULLINFO]').val(srvfullinfo);
 	});
 	
 
