@@ -72,6 +72,7 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative
 .fusion-modal-text-link{cursor:pointer}
 i[class^='fa-']{display:inline-block;font-style:normal}
 hr{margin:1em 0;height:0;background:none;border:none;border-top:3px solid var(--lightgrayColor)}
+hr.thin{margin:.5em 0;height:0;background:none;border:none;border-top:1px solid var(--lightgrayColor)}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -314,7 +315,7 @@ div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:de
 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,.wpcf7-radio.highlight{padding:.4em;font-size:1.6rem;font-weight:600;height:auto}
 .wpcf7-radio input{margin-top:0;margin-right:.2em;position:relative;top:-2px}
 .wpcf7-radio.highlight{padding-left:0}
-.wpcf7-list-item{margin:0 1em 0 0}
+.wpcf7-list-item{margin:0 .75em 0 0}
 .wpcf7-list-item-label{cursor:pointer}
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7 .wpcf7-text.highlight,.wpcf7 .wpcf7-radio.highlight{font-size:1.1em}
 .wpcf7 textarea,#respond textarea{height:85px}
