@@ -14,6 +14,7 @@ jQuery(document).ready(function() {
 			service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
 		}
 		jQuery('input[name=SRVFULL]').val(service);
+		jQuery('input[name=SRVFULLINFO]').val(service);
 	}
 	jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
 		fullInfoSRV();
