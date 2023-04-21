@@ -5,6 +5,19 @@ jQuery(document).ready(function() {
 		jQuery('#wpcf7-f31529-p32849-o1 .wpcf7-submit').val('Descargar mapa de red');
 	}
 
+	// Empresas
+	function fullInfo() {
+		var service = jQuery('input[name=SRV]').val();
+		var srvinternet = jQuery('input[name=SRVINTERNET]').val();
+		var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]').val();
+		var msg = jQuery('textarea[name=MSG]').val();
+		jQuery('input[name=FULLINFO').val(service+' '+srvinternet+' ('+srvinternetvel+') / '+msg);
+	}
+	jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
+		fullInfo();
+	});
+	
+
 	// Animaciones en destacados
 	jQuery('.fusion-portfolio.destacados .fusion-portfolio-content-wrapper').hover(
 		function() {
