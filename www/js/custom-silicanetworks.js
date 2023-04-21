@@ -6,7 +6,7 @@ jQuery(document).ready(function() {
 	}
 
 	// Empresas
-	function fullInfo() {
+	function fullInfoSRV() {
 		var service = jQuery('input[name=SRV]:checked').val();
 		var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
 		var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
@@ -14,13 +14,13 @@ jQuery(document).ready(function() {
 		if ( service.indexOf('Internet') > -1 ) {
 			service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
 		}
-		jQuery('input[name=FULLINFO]').val(service+' / '+msg);
+		jQuery('input[name=SRVFULLINFO]').val(service+' / '+msg);
 	}
 	jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
-		fullInfo();
+		fullInfoSRV();
 	});
-	jQuery('textarea[name=MSG]').on('input',function() {
-		fullInfo();
+	jQuery('textarea[name=SRVMSG]').change(function() {
+		fullInfoSRV();
 	});
 	
 
