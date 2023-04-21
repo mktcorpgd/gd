@@ -10,8 +10,7 @@ jQuery(document).ready(function() {
 		var service = jQuery('input[name=SRV]:checked').val();
 		var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
 		var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
-		var msg = jQuery('textarea[name=MSG]').val();
-		console.log(msg);
+		var msg = jQuery('textarea[name=MSG]').attr('value');
 		if ( service.indexOf('Internet') > -1 ) {
 			service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
 		}
