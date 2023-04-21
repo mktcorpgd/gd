@@ -21,7 +21,7 @@ body.page-child.parent-pageid-36729 .fusion-copyright-content{text-align:center}
 .hover-boxes .fusion-layout-column:hover .fusion-title i{opacity:1}
 .fusion-body #wrapper .hover-boxes .fusion-title h3{color:var(--textColor)}
 .watermark{overflow:hidden}
-.watermark .fontawesome-icon,.watermark i[class^='fa']{transform:rotate(15deg);color:#FFFFFF;font-size:23em!important;opacity:.1;position:absolute;top:-20%;right:-30%;z-index:-1}
+.watermark .fontawesome-icon,.watermark i[class^='fa']{transform:rotate(15deg);color:#FFFFFF;font-size:23em!important;opacity:.1;position:absolute;top:-20%;right:-5%;z-index:-1}
 
 /* Mobile */
 @media (max-width:920px) {
