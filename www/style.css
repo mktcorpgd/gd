@@ -235,14 +235,6 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 
-.hover-boxes .fusion-column-wrapper{margin-bottom:0;padding:.5em 1em 0;border:1em solid #FFFFFF;box-shadow:0 0 12px rgba(0,0,0,.2);border-radius:12px}
-.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{border-radius:48px;box-shadow:inset 0 0 12px rgba(0,0,0,.2)}
-.hover-boxes .fusion-layout-column .fusion-button{margin:0;position:relative;bottom:0;opacity:0}
-.hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-10px;opacity:1}
-.hover-boxes .fusion-layout-column .fusion-title i{opacity:.6}
-.hover-boxes .fusion-layout-column:hover .fusion-title i{opacity:1}
-.fusion-body #wrapper .hover-boxes .fusion-title h3{color:var(--textColor)}
-
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
 body.single-format-link #content{width:100%}
