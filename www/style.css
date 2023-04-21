@@ -71,8 +71,8 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative
 .fusion-caret .fusion-dropdown-indicator:before,.fusion-main-menu-icon:after,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.awb-icon-bars:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
 .fusion-modal-text-link{cursor:pointer}
 i[class^='fa-']{display:inline-block;font-style:normal}
-.header-transparent.watermask{overflow:hidden}
-.header-transparent.watermask .fontawesome-icon{transform:rotate(15deg);font-size:23em!important;opacity:.1;position:absolute;bottom:0;right:0}
+.header-transparent.watermark{overflow:hidden}
+.header-transparent.watermark .fontawesome-icon{transform:rotate(15deg);font-size:23em!important;opacity:.1;position:absolute;bottom:0;right:0}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
