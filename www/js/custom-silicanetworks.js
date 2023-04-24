@@ -30,7 +30,8 @@ jQuery(document).ready(function() {
 		});
 
 		// Cambio URL en logo
-		jQuery('.fusion-logo-link').attr('href','/empresas');
+		var type_srv = jQuery('.type-srv a').attr('href');
+		jQuery('.fusion-logo-link').attr('href',type_srv);
 
 	}
 	
