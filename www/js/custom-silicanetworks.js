@@ -6,25 +6,33 @@ jQuery(document).ready(function() {
 	}
 
 	// Empresas
-	function fullInfoSRV() {
-		var service = jQuery('input[name=SRV]:checked').val();
-		var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
-		var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
-		if ( service.indexOf('Internet') > -1 ) {
-			service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
+	if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
+
+		// Copiar información en campo oculto
+		function fullInfoSRV() {
+			var service = jQuery('input[name=SRV]:checked').val();
+			var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
+			var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
+			if ( service.indexOf('Internet') > -1 ) {
+				service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
+			}
+			jQuery('input[name=SRVFULL]').val(service);
+			jQuery('input[name=SRVFULLINFO]').val(service);
 		}
-		jQuery('input[name=SRVFULL]').val(service);
-		jQuery('input[name=SRVFULLINFO]').val(service);
+		jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
+			fullInfoSRV();
+		});
+		jQuery('textarea[name=SRVMSG]').on('input',function() {
+			var srvfull = jQuery('input[name=SRVFULL]').val();
+			var srvmsg = jQuery(this).val();
+			var srvfullinfo = srvfull+' / '+srvmsg;
+			jQuery('input[name=SRVFULLINFO]').val(srvfullinfo);
+		});
+
+		// Cambio URL en logo
+		jQuery('.fusion-logo-link').attr('/empresas');
+		
 	}
-	jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
-		fullInfoSRV();
-	});
-	jQuery('textarea[name=SRVMSG]').on('input',function() {
-		var srvfull = jQuery('input[name=SRVFULL]').val();
-		var srvmsg = jQuery(this).val();
-		var srvfullinfo = srvfull+' / '+srvmsg;
-		jQuery('input[name=SRVFULLINFO]').val(srvfullinfo);
-	});
 	
 
 	// Animaciones en destacados
