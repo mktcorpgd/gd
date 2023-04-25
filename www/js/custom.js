@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
 		var btn_right
 		var btn_html;
 		var btn_q;
-		var btn_classes = 'fusion-button button-flat fusion-button-round button-default';
+		var btn_classes = 'fusion-button button-flat fusion-button-round button-default portfolio-button';
 		var btn_modal = ' data-toggle="modal" data-target=".fusion-modal';
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var link_post = jQuery('.fusion-portfolio-post:eq('+i+') h2 a').attr('href');
