@@ -23,7 +23,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header,
 .fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content{background:var(--mainColor)}
 .fusion-tabs.horizontal-tabs .nav-tabs>.active>.tab-link,.fusion-filters .fusion-filter.fusion-active a{background:var(--mainColor)!important}
-#wrapper .post-content blockquote,.comment-text blockquote,.fusion-body blockquote,.fusion-pagination .current,.fusion-pagination .page-numbers.current,.pagination .current,.progress-bar-content{border-color:var(--subColor)}
+.fusion-reading-box-container .reading-box{border-color:var(--mainColor)}
 
 /* Secundario */
 .fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a:hover .fusion-toggle-icon-wrapper i:before,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-icon-wrapper i:before,
@@ -33,6 +33,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 .wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-secondary-header{background:var(--subColor)}
+#wrapper .post-content blockquote,.comment-text blockquote,.fusion-body blockquote,.fusion-pagination .current,.fusion-pagination .page-numbers.current,.pagination .current,.progress-bar-content{border-color:var(--subColor)}
 
 /* Destacado */
 .about-author .title a,.fusion-blog-pagination .pagination .pagination-next:after,.fusion-blog-pagination .pagination .pagination-prev:before,.fusion-hide-pagination-text .pagination-next:after,.fusion-hide-pagination-text .pagination-prev:before,.fusion-load-more-button,.fusion-rollover a,.pagination .pagination-next:after,.pagination .pagination-prev:before,.project-content .project-info .project-info-box a,.shop_attributes tr th,.single-navigation a[rel=next]:after,.single-navigation a[rel=prev]:before,body a,body a:after,body a:before,
