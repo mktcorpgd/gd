@@ -234,8 +234,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .post-password{padding:1em 2em;text-align:center}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 .legales .fusion-toggle-icon-wrapper{display:none}
-.legales .panel-title{font-size:1.2em}
-.legales .panel-collapse{font-size:.9em;font-style:italic}
+.legales .panel-title{font-size:1.2em!important}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 
 /* Recursos */
@@ -299,7 +298,6 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 div.wpcf7{margin:0 auto;padding:0;position:relative}
 div.wpcf7:before{display:block;margin-top:-.6em;width:100%;margin-bottom:5px;font-size:.7em;line-height:1.6;font-style:italic}
 div.wpcf7>form p{margin-top:0;margin-right:1em}
-.fusion-one-full div.wpcf7{max-width:500px}
 .wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
 .wpcf7 input:not([type='submit']),.wpcf7 textarea,
