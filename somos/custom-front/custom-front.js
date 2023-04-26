@@ -413,34 +413,31 @@ jQuery(document).ready(function() {
 				}
 			}
 		});
-		// Si es formulario para enviar caso de referencia
-		if ( id_form == 29440 ) {
-			jQuery(document).on('change','.wpcf7-select',function() {
-				var input_name = jQuery(this).attr('name');
-				// Si es un select multiple
-				if ( input_name.indexOf('[]') > -1 ) {
-					var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
-						return jQuery(el).text();
-					});
-					var val_comma = selMulti.join('; ');
-					input_name= input_name.substring(0,input_name.length-2);
-					// Copiar valores en su hidden TXT
-					if ( jQuery('input[name='+input_name+'TXT]').length ) {
-						jQuery('input[name='+input_name+'TXT]').val(val_comma);
-					}
+		jQuery(document).on('change','.wpcf7-select',function() {
+			var input_name = jQuery(this).attr('name');
+			// Si es un select multiple
+			if ( input_name.indexOf('[]') > -1 ) {
+				var selMulti = jQuery.map(jQuery('option:selected',this), function(el,i) {
+					return jQuery(el).text();
+				});
+				var val_comma = selMulti.join('; ');
+				input_name= input_name.substring(0,input_name.length-2);
+				// Copiar valores en su hidden TXT
+				if ( jQuery('input[name='+input_name+'TXT]').length ) {
+					jQuery('input[name='+input_name+'TXT]').val(val_comma);
 				}
-				else {
-					// Copiar valores en su hidden TXT
-					var val_single = jQuery('option:selected',this).text();
-					if ( jQuery('input[name='+input_name+'TXT]').length ) {
-						if ( input_name == 'CC_UNIT') {
-							val_single = val_single.substring(0,val_single.indexOf('('))
-						}
-						jQuery('input[name='+input_name+'TXT]').val(val_single);
+			}
+			else {
+				// Copiar valores en su hidden TXT
+				var val_single = jQuery('option:selected',this).text();
+				if ( jQuery('input[name='+input_name+'TXT]').length ) {
+					if ( input_name == 'CC_UNIT') {
+						val_single = val_single.substring(0,val_single.indexOf('('))
 					}
+					jQuery('input[name='+input_name+'TXT]').val(val_single);
 				}
-			});
-		}
+			}
+		});
 	}
 
 
