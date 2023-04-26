@@ -235,6 +235,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
 .legales .fusion-toggle-icon-wrapper{display:none}
 .legales .panel-title{font-size:1.2em!important}
+.legales .panel-title .fusion-toggle-heading{margin-left:0!important}
 .legales .panel-body,.legales .panel-body p{margin-top:0!important}
 .legales .panel-body p{font-size:.8em}
 .ilightbox-toolbar.smooth a{border-radius:6px}
