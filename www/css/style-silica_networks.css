@@ -19,6 +19,7 @@ body.page-child.parent-pageid-36729 .fusion-copyright-content{text-align:center}
 .hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{transform:scale(1.05);border-radius:24px}
 .hover-boxes .fusion-layout-column .fusion-button{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
 .hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-10px;opacity:1}
+.hover-boxes .fusion-layout-column .fusion-title{padding-right:60px}
 .hover-boxes .fusion-layout-column .fusion-title i{position:absolute;top:10px;right:10px;font-size:1.6em;transform:rotate(10deg);opacity:.1}
 .hover-boxes .fusion-layout-column:hover .fusion-title i{opacity:1}
 .full-height .fusion-layout-column{height:95%}
