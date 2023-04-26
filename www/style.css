@@ -233,6 +233,9 @@ body.single article>.flexslider{border-radius:12px;overflow:hidden}
 body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1 h3,body.single .fusion-text.fusion-text-1 h4,body.single .fusion-text.fusion-text-1 h5{margin-top:0}
 .post-password{padding:1em 2em;text-align:center}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
+.legales .fusion-toggle-icon-wrapper{display:none}
+.legales .panel-title{font-size:1.2em}
+.legales .panel-collapse{font-size:.9em;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 
 /* Recursos */
