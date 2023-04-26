@@ -434,7 +434,7 @@ jQuery(document).ready(function() {
 					var val_single = jQuery('option:selected',this).text();
 					if ( jQuery('input[name='+input_name+'TXT]').length ) {
 						if ( input_name == 'CC_UNIT') {
-							val_single = val_single.substring(val_single.indexOf('-')+2,val_single.length)
+							val_single = val_single.substring(0,val_single.indexOf('('))
 						}
 						jQuery('input[name='+input_name+'TXT]').val(val_single);
 					}
