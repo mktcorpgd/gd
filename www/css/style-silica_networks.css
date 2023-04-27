@@ -23,7 +23,6 @@ body.page-child.parent-pageid-36729 .fusion-copyright-content{text-align:center}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:60px}
 .hover-boxes .fusion-layout-column .fusion-title i{position:absolute;top:10px;right:10px;font-size:1.6em;transform:rotate(10deg);opacity:.1}
 .hover-boxes .fusion-layout-column:hover .fusion-title i{transform:scale(1.05);opacity:1}
-.fusion-body #wrapper .hover-boxes .fusion-title h3{color:var(--textColor)}
 .watermark{overflow:hidden}
 .watermark .fontawesome-icon,.watermark i[class^='fa']{transform:rotate(15deg);font-size:23em!important;opacity:.1;position:absolute;top:-20%;right:-30%;z-index:-1}
 
