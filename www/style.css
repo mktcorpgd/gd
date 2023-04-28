@@ -240,6 +240,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .legales .panel-body,.legales .panel-body p{margin-top:0!important}
 .legales .panel-body p{text-align:center;font-size:.7em;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
+.project-content .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
 
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
