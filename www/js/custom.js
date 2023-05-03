@@ -247,8 +247,8 @@ jQuery(document).ready(function() {
 		if ( window.location.href.indexOf('#contacto') > -1 ) {
 			jQuery('#open-contacto-rapido').trigger('click');
 		}
-		else if ( window.location.href.indexOf('#empresas') > -1 ) {
-			jQuery('#open-internet').trigger('click');
+		else if ( window.location.href.indexOf('#contacto-empresas') > -1 ) {
+			jQuery('#open-contacto-empresas').trigger('click');
 		}
 	}
 
