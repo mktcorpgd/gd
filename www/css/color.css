@@ -1,5 +1,5 @@
 /* Global */
-:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--textColor:#333333;--blackColor:#222222;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;}
+:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#444444;--textColor:#333333;--blackColor:#222222;--successColor:#419466;--warningColor:#F19C00;--errorColor:#FF5151;--infoColor:#0169B3;}
 
 /* Selección */
 ::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
@@ -18,9 +18,8 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-ti
 /* Texto */
 .fusion-body #wrapper .hover-boxes .fusion-title :not([class*='fa']){color:var(--textColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):not(.hover-boxes):not(.custom-title) .fusion-layout-column:not(.white):not(.custom-title) .fusion-title *{color:var(--textColor)!important}
-.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header,
 .fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content,
-.fusion-modal[class*='empresas'] .fusion-fullwidth,.fusion-modal[class*='empresas'] .modal-content{background:var(--textColor)}
+.fusion-modal[class*='empresas'] .fusion-fullwidth,.fusion-modal[class*='empresas'] .modal-content{background:var(--blackColor)}
 
 /* Principal */
 .fusion-accordian:not(.white) .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,
@@ -97,6 +96,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white) 
 .awb-swiper-button-next,.awb-swiper-button-prev{color:var(--metaColor)!important}
 .fusion-tabs .nav ul,.fusion-filters{background:var(--whiteAltColor)}
 .fusion-tabs .nav-tabs>li,.fusion-filters li,.fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active,.fusion-tabs .nav-tabs>li.fusion-active a,.fusion-tabs .nav-tabs>li.active a,.fusion-filters li.fusion-active a{background:none;color:var(--highlightColor)}
+.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:var(--darkgrayColor)}
 
 /* Mobile */
 @media (max-width: 920px) {
