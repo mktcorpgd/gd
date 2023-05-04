@@ -18,8 +18,11 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-ti
 /* Texto */
 .fusion-body #wrapper .hover-boxes .fusion-title :not([class*='fa']){color:var(--textColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):not(.hover-boxes):not(.custom-title) .fusion-layout-column:not(.white):not(.custom-title) .fusion-title *{color:var(--textColor)!important}
+
+/* Negro */
 .fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content,
-.fusion-modal[class*='empresas'] .fusion-fullwidth,.fusion-modal[class*='empresas'] .modal-content{background:var(--blackColor)}
+.fusion-modal[class*='empresas'] .fusion-fullwidth,.fusion-modal[class*='empresas'] .modal-content,.fusion-secondary-header{background:var(--blackColor)}
+.fusion-footer-widget-area,.fusion-footer-copyright-area{background:var(--blackColor)!important}
 
 /* Principal */
 .fusion-accordian:not(.white) .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,
@@ -35,7 +38,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
-.wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-secondary-header{background:var(--subColor)}
+.wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead{background:var(--subColor)}
 #wrapper .post-content blockquote,.comment-text blockquote,.fusion-body blockquote,.fusion-pagination .current,.fusion-pagination .page-numbers.current,.pagination .current,.progress-bar-content{border-color:var(--subColor)}
 
 /* Destacado */
