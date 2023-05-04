@@ -16,7 +16,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-ti
 .avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-item:not(.country-flag):not(.wpml-ls-menu-item)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current-menu-ancestor:not(.country-flag):not(.wpml-ls-menu-item)>a .menu-text,.avada-menu-highlight-style-background .fusion-main-menu>ul>li.current_page_item:not(.country-flag):not(.wpml-ls-menu-item)>a .menu-text{border-bottom:1px solid rgba(255,255,255,.6)}
 
 /* Texto */
-.fusion-body #wrapper .hover-boxes .fusion-title *{color:var(--textColor)}
+.fusion-body #wrapper .hover-boxes .fusion-title :not([class*='fa']){color:var(--textColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):not(.hover-boxes):not(.custom-title) .fusion-layout-column:not(.white):not(.custom-title) .fusion-title *{color:var(--textColor)!important}
 
 /* Principal */
