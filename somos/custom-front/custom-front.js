@@ -54,22 +54,22 @@ document.addEventListener('wpcf7mailsent', function(event) {
 // GENERAL - Redireccionar según oficina
 if (  jQuery('body').attr('class').indexOf('home') > -1 ) {
 	if ( jQuery('body').attr('class').indexOf('office-ar') > -1 ) {
-		window.location = '#tab-Argentina';
+		jQuery('.ui-tabs-anchor[href="#tab-Argentina"]').trigger('click');
 	}
 	else if ( jQuery('body').attr('class').indexOf('office-br') > -1 ) {
-		window.location = '#tab-Brasil';
+		jQuery('.ui-tabs-anchor[href="#tab-Brasil"]').trigger('click');
 	}
 	else if ( jQuery('body').attr('class').indexOf('office-cl') > -1 ) {
-		window.location = '#tab-Chile';
+		jQuery('.ui-tabs-anchor[href="#tab-Chile"]').trigger('click');
 	}
 	else if ( jQuery('body').attr('class').indexOf('office-mx') > -1 ) {
-		window.location = '#tab-Mxico';
+		jQuery('.ui-tabs-anchor[href="#tab-Mxico"]').trigger('click');
 	}
 	else if ( jQuery('body').attr('class').indexOf('office-pe') > -1 ) {
-		window.location = '#tab-Per';
+		jQuery('.ui-tabs-anchor[href="#tab-Per"]').trigger('click');
 	}
 	else if ( jQuery('body').attr('class').indexOf('office-pr') > -1 ) {
-		window.location = '#tab-PuertoRico';
+		jQuery('.ui-tabs-anchor[href="#tab-PuertoRico"]').trigger('click');
 	}	
 }
 
