@@ -51,11 +51,24 @@ document.addEventListener('wpcf7mailsent', function(event) {
 }, false);
 
 // GENERAL - Redireccionar según oficina
-console.log(jQuery('body').attr('class').indexOf('office-ar') > -1);
 if ( jQuery('body').attr('class').indexOf('office-ar') > -1 ) {
 	window.location = '#tab-Argentina';
 }
-
+else if ( jQuery('body').attr('class').indexOf('office-br') > -1 ) {
+	window.location = '#tab-Brasil';
+}
+else if ( jQuery('body').attr('class').indexOf('office-cl') > -1 ) {
+	window.location = '#tab-Chile';
+}
+else if ( jQuery('body').attr('class').indexOf('office-mx') > -1 ) {
+	window.location = '#tab-Mxico';
+}
+else if ( jQuery('body').attr('class').indexOf('office-pe') > -1 ) {
+	window.location = '#tab-Per';
+}
+else if ( jQuery('body').attr('class').indexOf('office-pr') > -1 ) {
+	window.location = '#tab-PuertoRico';
+}
 
 
 jQuery(document).ready(function() {
