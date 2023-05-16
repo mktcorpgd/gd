@@ -40,9 +40,8 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{vis
 
 /* General */
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
-body{font-family:var(--textFont);font-size:16px;line-height:1.6}
+body{font-size:16px;line-height:1.6}
 a,li,i,.wpcf7 input,.wpcf7 button,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-wrapper .fusion-portfolio-content-wrapper,.fusion-portfolio article,.fusion-portfolio article .more-info.open i,.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.related-posts .awb-carousel .swiper-slide,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text,.fusion-pricing-table .panel-wrapper .fusion-panel,.fusion-pricing-table .panel-wrapper .panel-heading h3,.fusion-footer .fusion-social-network-icon{transition:all .1s ease-in-out!important}
-#reviews #comments>h2,#wrapper .meta,.fusion-blog-timeline-layout .fusion-timeline-date,.fusion-body #main .tribe-common .tribe-events-c-day-marker__date,.fusion-body .fusion-wrapper #main .tribe-common .tribe-common-h6--min-medium,.fusion-body .tribe-block__tickets__registration__tickets__header,.fusion-body .tribe-common .tribe-common-b2,.fusion-body .tribe-common .tribe-common-b3,.fusion-main-menu .fusion-custom-menu-item-contents,.fusion-project-details-tb .project-info h4,.fusion-rollover .price .amount,.post .post-content,.post-content blockquote,.project-content .project-info h4,.review blockquote div,.search input,.sidebar .jtwt,.sidebar .widget .recentcomments,.sidebar .widget_archive li,.sidebar .widget_categories li,.sidebar .widget_layered_nav li,.sidebar .widget_links li,.sidebar .widget_meta li,.sidebar .widget_nav_menu li,.sidebar .widget_pages li,.sidebar .widget_product_categories li,.sidebar .widget_recent_entries li,.title-row,body{color:var(--textColor)}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
 .post-content p b,.post-content p strong,.content-container strong{font-weight:600}
@@ -56,7 +55,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex1{z-index:1!important}
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
-.bkg-white{background:var(--whiteColor)}
+.fixed{background-attachment:fixed}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,.modal[class*='contacto-rapido'] .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
 .width-100 .fusion-fullwidth,.width-100 .nonhundred-percent-fullwidth{margin-left:inherit;margin-right:inherit}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
@@ -81,7 +80,6 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
 h4,h4 strong,h5,h5 strong,h6,h6 strong,.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4,.tfs-slider .fusion-title h3 strong,.tfs-slide .fusion-title h4 strong{font-weight:400!important}
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{margin:0;font-size:1.3em}
-#main .post h2 a,#main article h2 a,.related-posts .awb-carousel .swiper-slide a{color:var(--textColor)}
 table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:10px}
 
