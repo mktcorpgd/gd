@@ -53,6 +53,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input,
 .fusion-pricing-table .panel-wrapper:hover .fusion-panel,.fusion-pricing-table .panel-wrapper:hover .button-default,.ilightbox-toolbar.smooth a:hover,.hover-boxes .fusion-layout-column:hover .fusion-button{background:var(--highlightColor);color:var(--whiteColor)}
+.fusion-pricingtable-column .fusion-button.fusion-button-default-size{background-color:var(--highlightColor)!important}
 .hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{box-shadow:0 0 18px var(--highlightColor)}
 
 /* Formularios */
