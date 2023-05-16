@@ -420,6 +420,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricingtable-column.standout .panel-container:hover{box-shadow:0 0 36px 12px rgba(0,0,0,.2)}
 .fusion-pricingtable-column.standout .panel-heading h3{font-size:2.2em}
 .fusion-pricingtable-column.standout .price{font-size:1.1em}
+.fusion-pricing-table .fusion-aligncenter{padding:.5em}
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
