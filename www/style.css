@@ -74,6 +74,8 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-']{position:relative
 i[class^='fa-']{display:inline-block;font-style:normal}
 hr{margin:1em 0;height:4px;background:rgba(0,0,0,.2);border:none;border-radius:2px}
 hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-radius:1px}
+.white hr{background:rgba(255,255,255,.2)}
+.white hr.thin{background:rgba(255,255,255,.2)}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -314,6 +316,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7-select.selected{color:var(--textColor)}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
 #comment-input .form-submit{margin:0;grid-column:span 2}
+[data-class=wpcf7cf_group],.wpcf7cf_remove,.wpcf7cf_add{margin:1em 0}
 .wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,#respond .fusion-one-half:not(.fusion-column-last) input{border-top-right-radius:0;border-bottom-right-radius:0;border-right-width:1px}
 .wpcf7 .fusion-one-half.fusion-column-last input,.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-top-left-radius:0;border-bottom-left-radius:0;border-left-width:1px}
 div.wpcf7 input[type='file']{cursor:pointer}
