@@ -56,7 +56,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .fixed{background-attachment:fixed}
-.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,.modal[class*='contacto-rapido'] .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-pricing-table .panel-footer,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
+.nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,.modal[class*='contacto-rapido'] .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
 .width-100 .fusion-fullwidth,.width-100 .nonhundred-percent-fullwidth{margin-left:inherit;margin-right:inherit}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
 img[src*='flag-']{border-radius:128px}
@@ -420,7 +420,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .fusion-pricingtable-column.standout .panel-container:hover{box-shadow:0 0 36px 12px rgba(0,0,0,.2)}
 .fusion-pricingtable-column.standout .panel-heading h3{font-size:2.2em}
 .fusion-pricingtable-column.standout .price{font-size:1.1em}
-.fusion-pricing-table .fusion-aligncenter{padding:.5em}
+.fusion-pricing-table .panel-footer{padding:.5em}
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,

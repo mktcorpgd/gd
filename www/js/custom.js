@@ -455,8 +455,11 @@ jQuery(document).ready(function() {
 			var text = jQuery(this).text();
 			jQuery(this).text(text.replace(',','.')); 
 		});
-
 	}
 
+	// PRECIOS - Asignar opción del botón a select
+	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button',function(e) {
+		console.log('ok');
+	});
 
 });
