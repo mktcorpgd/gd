@@ -39,7 +39,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .white .button-default:not(.portfolio-button):hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
-.wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-pricingtable-column .fusion-button.fusion-button-default-size:hover{background:var(--subColor)}
+.wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-pricing-table .panel-wrapper:hover .button-default{background:var(--subColor)}
 #wrapper .post-content blockquote,.comment-text blockquote,.fusion-body blockquote,.fusion-pagination .current,.fusion-pagination .page-numbers.current,.pagination .current,.progress-bar-content{border-color:var(--subColor)}
 
 /* Destacado */
@@ -53,7 +53,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,.fusion-load-more-button.fusion-blog-button,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input,
-.fusion-pricing-table .panel-wrapper:hover .fusion-panel,.fusion-pricing-table .panel-wrapper:hover .button-default,.ilightbox-toolbar.smooth a:hover,.hover-boxes .fusion-layout-column:hover .fusion-button{background:var(--highlightColor);color:var(--whiteColor)}
+.fusion-pricing-table .panel-wrapper:hover .fusion-panel,.ilightbox-toolbar.smooth a:hover,.hover-boxes .fusion-layout-column:hover .fusion-button{background:var(--highlightColor);color:var(--whiteColor)}
 .hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{box-shadow:0 0 18px var(--highlightColor)}
 
 /* Formularios */
