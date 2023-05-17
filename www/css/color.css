@@ -36,7 +36,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.hero-img):not(.white):
 .fusion-content-boxes.shadow .col:hover .icon i,.fusion-content-boxes.shadow .col:hover h2,
 .fusion-checklist .fusion-li-icon,ul.fusion-checklist .fusion-li-icon{color:var(--subColor)!important}
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
-.white .button-default:not(.portfolio-button),
+.white .button-default:not(.portfolio-button):hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 .wpcf7-form input[type='submit']:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-next:hover,.fusion-blog-pagination .fusion-hide-pagination-text .pagination-prev:hover,.fusion-blog-pagination .pagination .current,.fusion-date-and-formats .fusion-date-box,.table-2 table thead,.fusion-pricingtable-column .fusion-button.fusion-button-default-size:hover{background:var(--subColor)}
