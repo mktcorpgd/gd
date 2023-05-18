@@ -462,7 +462,7 @@ jQuery(document).ready(function() {
 		if ( jQuery('select[name="SRV"]').length ) {
 			var option = jQuery('.entry-title').text();
 			console.log(option);
-			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
+			jQuery('select[name="SRV"] option:seleced').val(option);
 			if ( jQuery('select[name="SRVINTERNETVEL"]').length ) {
 				var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
 				console.log(speed);
