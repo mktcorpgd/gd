@@ -461,10 +461,10 @@ jQuery(document).ready(function() {
 	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button,.fusion-button[data-toggle="modal"]',function(e) {
 		if ( jQuery('select[name="SRV"]').length ) {
 			var option = jQuery('.entry-title').text();
-			jQuery('select[name="SRV"] option:seleced').val(option);
+			jQuery('select[name="SRV"] option:selected').val(option);
 			if ( jQuery('select[name="SRVINTERNETVEL"]').length ) {
 				var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
-				jQuery('select[name="SRVINTERNETVEL"] option:seleced').val(speed);
+				jQuery('select[name="SRVINTERNETVEL"] option:selected').val(speed);
 			}
 		}
 	});
