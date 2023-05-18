@@ -463,7 +463,7 @@ jQuery(document).ready(function() {
 		console.log(option);
 		jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
 		if ( jQuery('.fusion-pricing-table').length ) {
-			var speed = jQuery('.title-row');
+			var speed = jQuery(this).parent().parent('.panel-heading').find('.title-row').text();
 			console.log(speed);
 			jQuery('select[name="SRVINTERNETVEL"] option:contains('+speed+')').prop('selected',true);
 		}
