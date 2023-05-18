@@ -464,7 +464,7 @@ jQuery(document).ready(function() {
 			console.log(option);
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
 			if ( jQuery('select[name="SRVINTERNETVEL"]').length ) {
-				var speed = jQuery(this).parent().parent('.panel-heading').find('.title-row').text();
+				var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
 				console.log(speed);
 				jQuery('select[name="SRVINTERNETVEL"] option:contains('+speed+')').prop('selected',true);
 			}
