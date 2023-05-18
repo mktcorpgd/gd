@@ -461,7 +461,12 @@ jQuery(document).ready(function() {
 	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button',function(e) {
 		var option = jQuery('.entry-title').text();
 		console.log(option);
-		jQuery('select option:contains('+option+')').prop('selected',true);
+		jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
+		if ( jQuery('.fusion-pricing-table').length ) {
+			var speed = jQuery('.title-row');
+			console.log(speed);
+			jQuery('select[name="SRVINTERNETVEL"] option:contains('+speed+')').prop('selected',true);
+		}
 	});
 
 });
