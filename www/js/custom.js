@@ -458,14 +458,16 @@ jQuery(document).ready(function() {
 	}
 
 	// PRECIOS - Asignar opción del botón a select
-	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button',function(e) {
-		var option = jQuery('.entry-title').text();
-		console.log(option);
-		jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
-		if ( jQuery('.fusion-pricing-table').length ) {
-			var speed = jQuery(this).parent().parent('.panel-heading').find('.title-row').text();
-			console.log(speed);
-			jQuery('select[name="SRVINTERNETVEL"] option:contains('+speed+')').prop('selected',true);
+	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button,.fusion-button[data-toggle="modal"]',function(e) {
+		if ( jQuery('select[name="SRV"]').length ) {
+			var option = jQuery('.entry-title').text();
+			console.log(option);
+			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
+			if ( jQuery('select[name="SRVINTERNETVEL"]').length ) {
+				var speed = jQuery(this).parent().parent('.panel-heading').find('.title-row').text();
+				console.log(speed);
+				jQuery('select[name="SRVINTERNETVEL"] option:contains('+speed+')').prop('selected',true);
+			}
 		}
 	});
 
