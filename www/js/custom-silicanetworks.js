@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
 			var service = jQuery('input[name=SRV]:checked').val();
 			var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
 			var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
-			if ( service.indexOf('Internet') > -1 ) {
+			if ( service.indexOf('Internet / Tránsito IP') > -1 ) {
 				service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
 			}
 			jQuery('input[name=SRVFULL]').val(service);
