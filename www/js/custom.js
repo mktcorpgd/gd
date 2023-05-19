@@ -463,6 +463,7 @@ jQuery(document).ready(function() {
 			var option = jQuery('.entry-title').text();
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
 			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
+			console.log(srv_index);
 			if ( srv_index == 1 || srv_index == 2 ) {
 				jQuery('div[data-id="internet-velocidad"]').show();
 			}
