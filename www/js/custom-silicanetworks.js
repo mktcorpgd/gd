@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
 		jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
 			fullInfoSRV();
 		});
-		jQuery('textarea[name=SRVMSG]').on('input',function() {
+		jQuery('textarea[name=MSG]').on('input',function() {
 			fullInfoSRV();
 		});
 
