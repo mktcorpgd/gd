@@ -9,28 +9,27 @@ jQuery(document).ready(function() {
 	if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
 
 		// Copiar información en campo oculto
-		function fullInfoSRV() {
-			var srv = jQuery('select[name=SRV] option:selected').val();
-			var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
+		function fullInfo() {
 			var msg = jQuery('textarea[name=MSG]').val();
-			console.log(srv);
-			console.log(srvspeed);
-			console.log(msg);
-			if ( srv.indexOf('Internet') > -1 ) {
-				srv = 'Internet '+srvspeed;
+			if ( jQuery('select[name=SRV]').length ) {
+				var srv = jQuery('select[name=SRV] option:selected').val();
+				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
+				var srvspeed_index = jQuery('select[name=SRVSPEED] option:selected').index();
+				console.log(srvspeed_index);
+				if ( srvspeed_index > 1 ) {
+					srv = srv+' ('+srvspeed+')';
+				}		
+				if ( msg.length > 0 ) {
+					jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
+				}
 			}
-			if ( msg.length > 0 ) {
-				jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
-			}
-			else {
-				jQuery('input[name=FULLINFO]').val(srv);
-			}
+			jQuery('input[name=FULLINFO]').val(msg);
 		}
 		jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
-			fullInfoSRV();
+			fullInfo();
 		});
 		jQuery('textarea[name=MSG]').on('input',function() {
-			fullInfoSRV();
+			fullInfo();
 		});
 
 		// Cambio URL en logo
