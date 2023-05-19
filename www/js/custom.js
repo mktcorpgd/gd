@@ -465,10 +465,10 @@ jQuery(document).ready(function() {
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
 			if ( option == 'Internet / Tránsito IP') {
 				jQuery('div[data-id="internet-velocidad"]').show();
-				if ( jQuery('select[name="SRVINTERNETVEL"]').length ) {
+				if ( jQuery('select[name="SRVSPEED"]').length ) {
 					var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
 					console.log(speed);
-					jQuery('select[name="SRVINTERNETVEL"] option:contains('+speed+')').prop('selected',true);
+					jQuery('select[name="SRVSPEED"] option:contains('+speed+')').prop('selected',true);
 				}	
 			}
 		}
