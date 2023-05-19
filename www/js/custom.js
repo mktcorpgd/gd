@@ -464,7 +464,9 @@ jQuery(document).ready(function() {
 			console.log(option);
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
 			if ( option == 'Internet / Tránsito IP') {
-				jQuery('div[data-id="internet-velocidad"]').show();
+				if ( jQuery('.div[data-id="internet-velocidad"]').length ) {
+					jQuery('div[data-id="internet-velocidad"]').show();
+				}
 				if ( jQuery('select[name="SRVSPEED"]').length ) {
 					var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
 					console.log(speed);
