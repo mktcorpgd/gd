@@ -21,6 +21,9 @@ jQuery(document).ready(function() {
 				if ( msg.length > 0 ) {
 					jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
 				}
+				else {
+					jQuery('input[name=FULLINFO]').val(srv);
+				}
 			}
 			else {
 				jQuery('input[name=FULLINFO]').val(msg);
