@@ -10,23 +10,19 @@ jQuery(document).ready(function() {
 
 		// Copiar información en campo oculto
 		function fullInfoSRV() {
-			var service = jQuery('input[name=SRV]:checked').val();
-			var srvinternet = jQuery('input[name=SRVINTERNET]:checked').val();
-			var srvinternetvel = jQuery('input[name=SRVINTERNETVEL]:checked').val();
-			if ( service.indexOf('Internet / Tránsito IP') > -1 ) {
-				service = 'Internet '+srvinternet+' ('+srvinternetvel+')';
+			var srv = jQuery('select[name=SRV] option:selected').val();
+			var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
+			var msg = jQuery('textarea[name=MSG]').val();
+			if ( srv.indexOf('Internet') > -1 ) {
+				srv = 'Internet '+srvspeed;
 			}
-			jQuery('input[name=SRVFULL]').val(service);
-			jQuery('input[name=SRVFULLINFO]').val(service);
+			jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
 		}
-		jQuery('input[name=SRV],input[name=SRVINTERNET],input[name=SRVINTERNETVEL]').change(function() {
+		jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
 			fullInfoSRV();
 		});
 		jQuery('textarea[name=SRVMSG]').on('input',function() {
-			var srvfull = jQuery('input[name=SRVFULL]').val();
-			var srvmsg = jQuery(this).val();
-			var srvfullinfo = srvfull+' / '+srvmsg;
-			jQuery('input[name=SRVFULLINFO]').val(srvfullinfo);
+			fullInfoSRV();
 		});
 
 		// Cambio URL en logo

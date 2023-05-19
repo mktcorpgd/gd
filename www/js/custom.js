@@ -462,16 +462,16 @@ jQuery(document).ready(function() {
 		if ( jQuery('select[name="SRV"]').length ) {
 			var option = jQuery('.entry-title').text();
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
-			if ( option == 'Internet / Tránsito IP') {
+			if ( option == 'Internet' ) {
 				if ( jQuery('.div[data-id="internet-velocidad"]').length ) {
 					jQuery('div[data-id="internet-velocidad"]').show();
 				}
-				if ( jQuery('select[name="SRVSPEED"]').length ) {
-					var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
-					jQuery('select[name="SRVSPEED"] option:contains('+speed+')').prop('selected',true);
-				}	
 			}
 		}
+		if ( jQuery('select[name="SRVSPEED"]').length ) {
+			var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
+			jQuery('select[name="SRVSPEED"] option:contains('+speed+')').prop('selected',true);
+		}	
 	});
 
 });
