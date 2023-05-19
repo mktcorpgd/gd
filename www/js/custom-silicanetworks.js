@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 			if ( jQuery('select[name=SRV]').length ) {
 				var srv = jQuery('select[name=SRV] option:selected').val();
 				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
-				var srvspeed_index = jQuery('select[name=SRVSPEED] option:selected').index();
+				var srvspeed_index = jQuery('select[name=SRVSPEED]').prop('selectedIndex');
 				console.log(srvspeed_index);
 				if ( srvspeed_index > 1 ) {
 					srv = srv+' ('+srvspeed+')';
