@@ -19,7 +19,12 @@ jQuery(document).ready(function() {
 			if ( srv.indexOf('Internet') > -1 ) {
 				srv = 'Internet '+srvspeed;
 			}
-			jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
+			if ( msg.length > 0 ) {
+				jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
+			}
+			else {
+				jQuery('input[name=FULLINFO]').val(srv);
+			}
 		}
 		jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
 			fullInfoSRV();
