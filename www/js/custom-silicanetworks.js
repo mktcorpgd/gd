@@ -22,7 +22,9 @@ jQuery(document).ready(function() {
 					jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
 				}
 			}
-			jQuery('input[name=FULLINFO]').val(msg);
+			else {
+				jQuery('input[name=FULLINFO]').val(msg);
+			}
 		}
 		jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
 			fullInfo();
