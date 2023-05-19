@@ -459,6 +459,7 @@ jQuery(document).ready(function() {
 
 	// PRECIOS - Asignar opción del botón a select
 	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button,.fusion-button[data-toggle="modal"]',function(e) {
+		console.log(e.target);
 		if ( jQuery('select[name="SRV"]').length ) {
 			var option = jQuery('.entry-title').text();
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
