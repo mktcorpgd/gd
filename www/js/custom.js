@@ -463,14 +463,12 @@ jQuery(document).ready(function() {
 			var option = jQuery('.entry-title').text();
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
 			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
-			console.log(srv_index);
 			if ( srv_index == 1 || srv_index == 2 ) {
 				jQuery('div[data-id="internet-velocidad"]').show();
 			}
 		}
 		var panel = jQuery(this).parent().parent('.panel-footer').length;
-		console.log(panel);
-		if ( panel > -1 ) {
+		if ( panel > 0 ) {
 			var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
 			jQuery('select[name="SRVSPEED"] option:contains('+speed+')').prop('selected',true);
 		}
