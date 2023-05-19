@@ -13,9 +13,9 @@ jQuery(document).ready(function() {
 			var msg = jQuery('textarea[name=MSG]').val();
 			if ( jQuery('select[name=SRV]').length ) {
 				var srv = jQuery('select[name=SRV] option:selected').val();
-				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
-				var srvspeed_index = jQuery('select[name=SRVSPEED]').prop('selectedIndex');
-				if ( srvspeed_index > 0 ) {
+				var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
+				if ( srv_index == 1 || srv_index == 2 ) {
+					var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
 					srv = srv+' ('+srvspeed+')';
 				}		
 				if ( msg.length > 0 ) {
