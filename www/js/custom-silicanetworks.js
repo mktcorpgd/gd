@@ -13,6 +13,9 @@ jQuery(document).ready(function() {
 			var srv = jQuery('select[name=SRV] option:selected').val();
 			var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
 			var msg = jQuery('textarea[name=MSG]').val();
+			console.log(srv);
+			console.log(srvspeed);
+			console.log(msg);
 			if ( srv.indexOf('Internet') > -1 ) {
 				srv = 'Internet '+srvspeed;
 			}
