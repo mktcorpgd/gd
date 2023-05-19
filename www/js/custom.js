@@ -461,7 +461,6 @@ jQuery(document).ready(function() {
 	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button,.fusion-button[data-toggle="modal"]',function(e) {
 		if ( jQuery('select[name="SRV"]').length ) {
 			var option = jQuery('.entry-title').text();
-			console.log(option);
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
 			if ( option == 'Internet / Tránsito IP') {
 				if ( jQuery('.div[data-id="internet-velocidad"]').length ) {
@@ -469,7 +468,6 @@ jQuery(document).ready(function() {
 				}
 				if ( jQuery('select[name="SRVSPEED"]').length ) {
 					var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
-					console.log(speed);
 					jQuery('select[name="SRVSPEED"] option:contains('+speed+')').prop('selected',true);
 				}	
 			}
