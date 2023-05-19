@@ -459,20 +459,20 @@ jQuery(document).ready(function() {
 
 	// PRECIOS - Asignar opción del botón a select
 	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button,.fusion-button[data-toggle="modal"]',function(e) {
-		console.log(e.target);
 		if ( jQuery('select[name="SRV"]').length ) {
 			var option = jQuery('.entry-title').text();
 			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
-			if ( option == 'Internet' ) {
-				if ( jQuery('.div[data-id="internet-velocidad"]').length ) {
-					jQuery('div[data-id="internet-velocidad"]').show();
-				}
+			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
+			if ( srv_index == 1 || srv_index == 2 ) {
+				jQuery('div[data-id="internet-velocidad"]').show();
 			}
 		}
-		if ( jQuery('select[name="SRVSPEED"]').length ) {
+		var panel = jQuery(this).parent().parent('.panel-footer').length;
+		console.log(panel);
+		if ( panel > -1 ) {
 			var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
 			jQuery('select[name="SRVSPEED"] option:contains('+speed+')').prop('selected',true);
-		}	
+		}
 	});
 
 });
