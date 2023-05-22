@@ -526,6 +526,7 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-content-boxes.box-shadow .content-container p,.fusion-content-boxes.box-shadow .content-container ul{margin:0}
 .fusion-content-boxes.box-shadow .content-container ul{padding-left:1em}
 .fusion-content-boxes.box-shadow .fusion-read-more-button{margin:0 0 1.5rem 1.5rem}
+.fusion-content-boxes.box-shadow .fontawesome-icon{margin-right:15px}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
