@@ -1,4 +1,4 @@
 :root{--mainColor:#1C8DCE;--subColor:#209FE8;--highlightColor:#115B82;}
-body{background-image:url('https://git.grupodatco.com/qr/img/datco-bkg_1920_1080.jpg')}
-#contact-person{background-image:url('https://git.grupodatco.com/qr/img/d-ima_h-blanco-es.svg');background-size:182px 48px}
+body{background-image:url('https://git.grupodatco.com/qr/img/d-bkg_1920_1080.jpg')}
+#contact-person{background-image:url('https://git.grupodatco.com/qr/img/d-ima_h-blanco.svg');background-size:182px 48px}
 ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/d-iso-color.svg')}

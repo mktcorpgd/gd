@@ -1,4 +1,4 @@
 :root{--mainColor:#497718;--subColor:#324C1B;--highlightColor:#87B227;}
-body{background-image:url('https://git.grupodatco.com/qr/img/silica_networks-bkg_1920_1080.jpg')}
-#contact-person{background-image:url('https://git.grupodatco.com/qr/img/s-ima_h-blanco-es.svg');background-size:182px 48px}
+body{background-image:url('https://git.grupodatco.com/qr/img/s-bkg_1920_1080.jpg')}
+#contact-person{background-image:url('https://git.grupodatco.com/qr/img/s-ima_h-blanco.svg');background-size:182px 48px}
 ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/s-iso-color.svg')}

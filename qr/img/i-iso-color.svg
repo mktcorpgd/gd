@@ -1,1 +1,16 @@
-<svg id="Interservices" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79.79 79.79"><defs><style>.cls-1{fill:#bf250d;}.cls-2{fill:#fff;}</style></defs><path class="cls-1" d="M77.56,34.35,45.44,2.23a8,8,0,0,0-11.31.22L2.45,34.13a8,8,0,0,0-.22,11.31L34.35,77.56a8,8,0,0,0,11.31-.23L77.34,45.66A8,8,0,0,0,77.56,34.35Z"/><rect class="cls-2" x="48.2" y="6.22" width="4.96" height="32.32" transform="translate(-0.98 42.39) rotate(-45)"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Interservices" xmlns="http://www.w3.org/2000/svg" width="28.15mm" height="28.15mm" viewBox="0 0 79.79 79.79">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #bf250d;
+      }
+    </style>
+  </defs>
+  <path class="cls-2" d="m77.56,34.35L45.44,2.23c-3.06-3.06-8.13-2.96-11.31.22L2.45,34.13c-3.19,3.18-3.28,8.25-.22,11.31l32.12,32.12c3.06,3.06,8.13,2.96,11.31-.22l31.68-31.67c3.18-3.18,3.28-8.25.22-11.31Z"/>
+  <rect class="cls-1" x="48.2" y="6.22" width="4.96" height="32.32" transform="translate(-.98 42.39) rotate(-45)"/>
+</svg>

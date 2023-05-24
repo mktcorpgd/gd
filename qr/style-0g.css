@@ -1,4 +1,4 @@
 :root{--mainColor:#692D87;--subColor:#692D87;--highlightColor:#4D1968;}
-body{background-image:url('https://git.grupodatco.com/qr/img/zerog_networks-bkg_1920_1080.jpg')}
-#contact-person{background-image:url('https://git.grupodatco.com/qr/img/zerog-ima_h-blanco.svg');background-size:282px 48px}
-ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/zerog-iso-color.svg')}
+body{background-image:url('https://git.grupodatco.com/qr/img/0g-bkg_1920_1080.jpg')}
+#contact-person{background-image:url('https://git.grupodatco.com/qr/img/0g-ima_h-blanco-sigfox.svg');background-size:282px 48px}
+ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/0g-iso-color.svg')}

@@ -1,4 +1,4 @@
 :root{--mainColor:#39457E;--subColor:#4958A3;--highlightColor:#5668BF;}
-body{background-image:url('https://git.grupodatco.com/qr/img/focus-bkg_1920_1080.jpg')}
-#contact-person{background-image:url('https://git.grupodatco.com/qr/img/f-ima_h-blanco-es.svg');background-size:182px 48px}
+body{background-image:url('https://git.grupodatco.com/qr/img/f-bkg_1920_1080.jpg')}
+#contact-person{background-image:url('https://git.grupodatco.com/qr/img/f-ima_h-blanco.svg');background-size:182px 48px}
 ul.qr-hint{background-image:url('https://git.grupodatco.com/qr/img/f-iso-color.svg')}
