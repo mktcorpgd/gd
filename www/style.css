@@ -558,7 +558,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Barra de título */
 .fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){height:auto;padding-top:2em;padding-bottom:2em;background:none;border:none}
-.fusion-page-title-bar .fusion-page-title-row h1{font-size:2.4em;line-height:1.1!important}
+.fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important;font-size:2.4em;line-height:1.1!important}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 
 /* Metas */
