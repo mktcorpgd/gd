@@ -5,43 +5,37 @@ jQuery(document).ready(function() {
 		jQuery('#wpcf7-f31529-p32849-o1 .wpcf7-submit').val('Descargar mapa de red');
 	}
 
-	// Empresas
-	if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
-
-		// Copiar información en campo oculto
-		function fullInfo() {
-			var msg = jQuery('textarea[name=MSG]').val();
-			if ( jQuery('select[name=SRV]').length ) {
-				var srv = jQuery('select[name=SRV] option:selected').val();
-				var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
-				if ( srv_index == 1 || srv_index == 2 ) {
-					var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
-					srv = srv+' ('+srvspeed+')';
-				}		
-				if ( msg.length > 0 ) {
-					jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
-				}
-				else {
-					jQuery('input[name=FULLINFO]').val(srv);
-				}
+	// Copiar información en campo oculto
+	function fullInfo() {
+		var msg = jQuery('textarea[name=MSG]').val();
+		if ( jQuery('select[name=SRV]').length ) {
+			var srv = jQuery('select[name=SRV] option:selected').val();
+			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
+			if ( srv_index == 1 || srv_index == 2 ) {
+				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
+				srv = srv+' ('+srvspeed+')';
+			}		
+			if ( msg.length > 0 ) {
+				jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
 			}
 			else {
-				jQuery('input[name=FULLINFO]').val(msg);
+				jQuery('input[name=FULLINFO]').val(srv);
 			}
 		}
-		jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
-			fullInfo();
-		});
-		jQuery('textarea[name=MSG]').on('input',function() {
-			fullInfo();
-		});
-
-		// Cambio URL en logo
-		var type_srv = jQuery('.type-srv a').attr('href');
-		jQuery('.fusion-logo-link').attr('href',type_srv);
-
+		else {
+			jQuery('input[name=FULLINFO]').val(msg);
+		}
 	}
-	
+	jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
+		fullInfo();
+	});
+	jQuery('textarea[name=MSG]').on('input',function() {
+		fullInfo();
+	});
+
+	// Cambio URL en logo
+	var type_srv = jQuery('.type-srv a').attr('href');
+	jQuery('.fusion-logo-link').attr('href',type_srv);
 
 	// Animaciones en destacados
 	jQuery('.fusion-portfolio.destacados .fusion-portfolio-content-wrapper').hover(
