@@ -34,8 +34,10 @@ jQuery(document).ready(function() {
 	});
 
 	// Cambio URL en logo
-	var type_srv = jQuery('.type-srv a').attr('href');
-	jQuery('.fusion-logo-link').attr('href',type_srv);
+	if ( jQuery('.type-srv').length ) {
+		var type_srv = jQuery('.type-srv a').attr('href');
+		jQuery('.fusion-logo-link').attr('href',type_srv);
+	}
 
 	// Animaciones en destacados
 	jQuery('.fusion-portfolio.destacados .fusion-portfolio-content-wrapper').hover(
