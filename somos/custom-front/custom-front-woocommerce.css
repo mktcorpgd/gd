@@ -47,3 +47,10 @@ display:none;}
 .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
     float: left;
 }
+
+.woocommerce-products-header{
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
