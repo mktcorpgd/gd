@@ -45,24 +45,31 @@ jQuery(document).ready(function() {
 		switch(ctry) {
 			case 'ar':
 				var ctry_name = 'Argentina';
+				var ctry_url = 'ar';
 				break;
 			case 'br':
 				var ctry_name = 'Brasil';
+				var ctry_url = 'br';
 				break;
 			case 'cl':
 				var ctry_name = 'Chile';
+				var ctry_url = 'cl';
 				break;
 			case 'mx':
 				var ctry_name = 'México';
+				var ctry_url = 'mx';
 				break;
 			case 'pe':
 				var ctry_name = 'Perú';
+				var ctry_url = 'pe';
 				break;
 			case 'pr':
 				var ctry_name = 'Puerto Rico';
+				var ctry_url = 'pr';
 				break;
 			case 'uy':
 				var ctry_name = 'Uruguay';
+				var ctry_url = 'uy';
 				break;
 		}
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty();
