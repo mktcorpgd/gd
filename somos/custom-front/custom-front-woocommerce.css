@@ -8,11 +8,8 @@
      flex-wrap: wrap;
     display: flex;
     margin: 0px;
-    padding: 20px;
-    background: white;
-    align-content: flex-end;
-    border-radius: 10px;
-}
+     align-content: flex-end;
+ }
 
 .woocommerce ul.products li.product .button {
     display: inline-block;
@@ -48,9 +45,11 @@ display:none;}
     float: left;
 }
 
-.woocommerce-products-header{
+.padder{
     padding: 20px;
     background: white;
     border-radius: 10px;
     text-align: center;
 }
+
+
