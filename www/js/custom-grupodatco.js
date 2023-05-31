@@ -66,7 +66,7 @@ jQuery(document).ready(function() {
 				break;
 		}
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span').empty();
-		jQuery('<span> '+ctry_name+'</span>').insertAfter('.country-flag.menu-item.fusion-dropdown-menu>a>span>img');
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span').html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var curhref = jQuery(this).find('a').attr('href');
 			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
@@ -77,9 +77,8 @@ jQuery(document).ready(function() {
 		ctry_url = urlParams.get('ctry');
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item').removeClass('hidden');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
-		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-'+ctry_url+'"]').attr('alt');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',cur_title);
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span').empty();
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span').html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
 	}
 
 });
