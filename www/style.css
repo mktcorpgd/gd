@@ -276,7 +276,7 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .fusion-portfolio article .fusion-post-content .wp-video{margin:.5em 0 0}
 .fusion-portfolio article .fusion-post-content{width:100%;padding:0 1rem}
 .fusion-portfolio article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-.fusion-portfolio article .fusion-post-content p{line-height:1.4;padding:0}
+.fusion-portfolio article .fusion-post-content p{margin:0;padding:0;line-height:1.4}
 .fusion-portfolio article .fusion-post-content ul{margin-top:5px}
 
 /* Testimonios */
@@ -799,7 +799,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
-	.fusion-image-element:not([class*='fusion-image-align-']){margin:.5em 0}
+	.fusion-image-element:not([class*='fusion-image-align-']){margin-left:0}
 	.partners-logos .fusion-column-content,#partners_footer .fusion-layout-column{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
 
 	/* Botones */
