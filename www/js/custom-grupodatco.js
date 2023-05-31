@@ -82,7 +82,7 @@ jQuery(document).ready(function() {
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
-		ctry_url = urlParams.get('ctry');
+		ctry = urlParams.get('ctry');
 		switch(ctry) {
 			case 'ar':
 				var ctry_name = 'Argentina';
