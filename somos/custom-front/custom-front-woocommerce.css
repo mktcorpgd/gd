@@ -1,1 +1,43 @@
-h1{color:red;background:pink;}
+#content li {
+    margin-bottom: 5px;
+    line-height: 1.4;
+    flex-grow: 1;
+}
+
+#content ul {
+    list-style-type: disc;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    align-content: flex-end;
+    border-radius: 10px;
+}
+
+.woocommerce ul.products li.product .button {
+    display: inline-block;
+    margin-top: 1em;
+    color: white;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
+    padding: 0.5em 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.woocommerce img, .woocommerce-page img {
+     border-radius: 10px;
+}
+
+.woocommerce img, .woocommerce-page img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.woocommerce ul.products li.product .price {
+    color: #0e316e; 
+    font-size: 1em;
+}
