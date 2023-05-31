@@ -424,7 +424,7 @@ body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrappe
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-button.button-flat{margin:0 auto .5em;padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
-.fusion-button.fusion-button-span-yes{width:100%}
+.fusion-button.fusion-button-span-yes{width:100%;text-align:center}
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],.fusion-button.button-flat{box-shadow:0 3px 6px rgba(0,0,0,.2)!important}
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
@@ -574,7 +574,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before{content:'\f067'!important}
 .fusion-accordian .active .fusion-toggle-icon-wrapper i:before{content:'\f068'!important}
 .fusion-accordian .panel-body{color:var(--textColor);line-height:1.6}
-.fusion-accordian .panel-title .fusion-toggle-heading{margin-left:.5em}
+.fusion-accordian .panel-title .fusion-toggle-heading{margin-left:.5em;line-height:1.2}
 .fusion-accordian .panel-title a .fa-fusion-box:before{font-size:1em}
 .fusion-accordian .fusion-panel.fusion-toggle-no-divider .panel-title a{padding:.3em 0}
 .fusion-accordian .fusion-toggle-icon-unboxed .panel-heading .fusion-toggle-icon-wrapper{position:relative;bottom:1px;left:-2px}
