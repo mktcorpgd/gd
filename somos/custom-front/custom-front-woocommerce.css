@@ -7,7 +7,7 @@
 #content ul {
      flex-wrap: wrap;
     display: flex;
-    margin: 10px;
+    margin: 0px;
     padding: 20px;
     background: white;
     align-content: flex-end;
@@ -39,4 +39,11 @@
 .woocommerce ul.products li.product .price {
     color: #0e316e; 
     font-size: 1em;
+}
+
+p.woocommerce-result-count{
+display:none;}
+
+.woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering {
+    float: left;
 }
