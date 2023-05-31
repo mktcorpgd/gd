@@ -241,6 +241,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .legales .panel-body p{text-align:center;font-size:.7em;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 .project-content .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
+body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important}
 
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
@@ -557,7 +558,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Barra de título */
 .fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){height:auto;padding-top:2em;padding-bottom:2em;background:none;border:none}
-.fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important;font-size:2.4em;line-height:1.1!important}
+.fusion-page-title-bar .fusion-page-title-row h1{font-size:2.4em;line-height:1.1!important}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 
 /* Metas */
