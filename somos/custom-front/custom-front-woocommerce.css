@@ -63,3 +63,16 @@ font-size: 1em;
 line-height: 1em;}
 
 
+.woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
+    float: none;
+    width: 100%;
+}
+
+#content table th, #content table td {
+    vertical-align: middle;
+    line-height: 0.5;
+}
+
+.product-name{
+    line-height: 1;
+}
