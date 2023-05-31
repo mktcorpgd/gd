@@ -65,6 +65,8 @@ jQuery(document).ready(function() {
 				var ctry_name = 'Uruguay';
 				break;
 		}
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span').empty();
+		jQuery('<span> '+ctry_name+'</span>').insertAfter('.country-flag.menu-item.fusion-dropdown-menu>a>span>img');
 		jQuery('.fusion-portfolio-post').each(function(i) {
 			var curhref = jQuery(this).find('a').attr('href');
 			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
