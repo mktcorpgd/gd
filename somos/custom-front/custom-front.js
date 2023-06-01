@@ -51,7 +51,7 @@ document.addEventListener('wpcf7mailsent', function(event) {
 }, false);
 
 
-// GENERAL - Redireccionar según oficina
+//  GENERAL - Redireccionar según oficina
 /*if ( jQuery('body').attr('class').indexOf('home') > -1 ) {
 	if ( jQuery('body').attr('class').indexOf('office-ar') > -1 ) {
 		jQuery('.ui-tabs-anchor[href="#tab-Argentina"]').trigger('click');
