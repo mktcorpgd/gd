@@ -52,7 +52,7 @@ document.addEventListener('wpcf7mailsent', function(event) {
 
 
 // GENERAL - Redireccionar según oficina
-if ( jQuery('body').attr('class').indexOf('home') > -1 ) {
+/*if ( jQuery('body').attr('class').indexOf('home') > -1 ) {
 	if ( jQuery('body').attr('class').indexOf('office-ar') > -1 ) {
 		jQuery('.ui-tabs-anchor[href="#tab-Argentina"]').trigger('click');
 	}
@@ -71,7 +71,7 @@ if ( jQuery('body').attr('class').indexOf('home') > -1 ) {
 	else if ( jQuery('body').attr('class').indexOf('office-pr') > -1 ) {
 		jQuery('.ui-tabs-anchor[href="#tab-PuertoRico"]').trigger('click');
 	}	
-}
+}*/
 
 
 jQuery(document).ready(function() {
