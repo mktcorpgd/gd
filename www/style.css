@@ -476,7 +476,8 @@ article[class*='solo-contacto'] .fusion-buttons.two .fusion-button+.fusion-butto
 .avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper{padding-top:0}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:0 0 .5em}
 .fusion-portfolio{overflow:visible}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper{position:relative;background:var(--whiteColor)!important;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper{position:relative;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important;border-radius:12px}
+.fusion-portfolio-content,.fusion-post-content-wrapper{background:var(--whiteColor)!important;}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:.8rem 1rem;font-weight:400}
 .expanded .fusion-portfolio-content-wrapper h2 a{padding-bottom:.25em}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-radius:12px 12px 24px 0px}
