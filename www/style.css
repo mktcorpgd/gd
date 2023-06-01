@@ -698,7 +698,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
 
 	/* Slider */
-	.header-transparent .fusion-title{margin-bottom:.5em}
+	.header-transparent .fusion-title.fusion-title-size-one{margin-bottom:.5em}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
 
@@ -784,6 +784,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 	.fullwidth-center{display:block;width:100%;text-align:center}
+	.fusion-megamenu-holder{width:500px!important}
 
 	/* Formularios */
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
