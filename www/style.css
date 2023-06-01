@@ -690,6 +690,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.header-transparent .hundred-percent-height,.header-transparent #sliders-container.has-content,#sliders-container.has-content .background-image{height:calc(100vh)!important}
 	body.customize-support .header-transparent .hundred-percent-height,body.customize-support #sliders-container.has-content,body.customize-support #sliders-container.has-content .background-image{height:calc(100vh - 32px)!important;background-size:cover}
 	.header-transparent #main>.fusion-row{max-width:100%}
+	.fusion-megamenu-holder{width:500px!important}
 
 	/* Sidebar */
 	body:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{position:sticky;top:95px}
@@ -784,7 +785,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 	.fullwidth-center{display:block;width:100%;text-align:center}
-	.fusion-megamenu-holder{width:500px!important}
 
 	/* Formularios */
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
