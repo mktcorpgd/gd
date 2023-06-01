@@ -55,6 +55,7 @@ iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-av
 .zindex99{z-index:99!important;overflow:visible!important}
 .bkg-size80{background-size:80% 80%}
 .fixed{background-attachment:fixed}
+.bkg-cover{background-size:cover}
 .nopadding,.nopadding>div,.fusion-content-boxes.nopadding .fusion-column,.modal[class*='contacto-rapido'] .fusion-fullwidth.header-transparent,.modal.contate-nos .fusion-fullwidth.header-transparent,.header-transparent #main,.fusion-megamenu-title,.fusion-pricingtable-column.standout .panel-container,.modal-open,.modal .modal-body,.avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid .post .fusion-post-content-wrapper,.fusion-mobile-nav-holder .wpml-ls-native,.pdfemb-page-num,.wpcf7-form.init div.wpcf7-response-output{padding:0!important}
 .width-100 .fusion-fullwidth,.width-100 .nonhundred-percent-fullwidth{margin-left:inherit;margin-right:inherit}
 .text-align-center,.text-align-center-desktop,.text-align-center .fusion-column-wrapper{text-align:center}
