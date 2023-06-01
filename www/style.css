@@ -700,6 +700,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
 
 	/* Slider */
+	.header-transparent .fusion-title{margin-bottom:.5em}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
 
@@ -766,7 +767,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
 
 	/* Slider */
-	.tfs-slider .fusion-title{margin-bottom:0!important}
+	.tfs-slider .fusion-title,.header-transparent .fusion-title{margin-bottom:0!important}
 	.tfs-slider .fusion-title h2,.header-transparent .fusion-title.fusion-title-1.fusion-title-size-one{font-size:2.6rem!important}
 	.header-transparent .fusion-title.fusion-title-size-four h4{font-size:1.4rem!important}
 
