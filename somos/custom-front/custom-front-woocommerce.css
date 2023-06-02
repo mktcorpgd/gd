@@ -34,6 +34,20 @@
     text-align: center;
 }
 
+.woocommerce-message, .woocommerce-error {
+    border: none;
+    border-radius: 5px;
+}
+
+.product-name{
+    line-height: 120%;
+}
+
+
+.woocommerce .woocommerce-error .button, .woocommerce .woocommerce-info .button, .woocommerce .woocommerce-message .button, .woocommerce-page .woocommerce-error .button, .woocommerce-page .woocommerce-info .button, .woocommerce-page .woocommerce-message .button {
+    color: white;
+}
+
 section.related.products{
    display:none;
    }
