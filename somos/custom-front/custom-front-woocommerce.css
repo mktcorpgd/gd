@@ -28,8 +28,8 @@
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.added::after, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.added::after, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.added::after {
     font-family: WooCommerce;
     content: "\e017";
-    margin-left: 3em;
-    margin-top: 0.3em;
+/*    margin-left: 3em;
+    margin-top: 0.3em;*/
     vertical-align: bottom;
     text-align: center;
 }
