@@ -34,6 +34,10 @@
     text-align: center;
 }
 
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button:hover{
+   color:white;
+}
+
 .woocommerce-message, .woocommerce-error {
     border: none;
     border-radius: 5px;
