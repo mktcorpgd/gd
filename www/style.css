@@ -691,6 +691,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.customize-support .header-transparent .hundred-percent-height,body.customize-support #sliders-container.has-content,body.customize-support #sliders-container.has-content .background-image{height:calc(100vh - 32px)!important;background-size:cover}
 	.header-transparent #main>.fusion-row{max-width:100%}
 	.fusion-megamenu-holder{width:500px!important}
+	.fusion-main-menu .fusion-dropdown-menu .sub-menu li a{white-space:nowrap}
 
 	/* Sidebar */
 	body:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{position:sticky;top:95px}
