@@ -1,9 +1,19 @@
+#content ul {
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0px;
+    align-content: flex-end;
+ }
+
 #content li {
     line-height: 1.4;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2em;
 }
+
+
+/*botones agregar a carrito*/
 
 .woocommerce ul.products li.product .button {
     display: flex;
@@ -14,7 +24,6 @@
     align-self: flex-end;
     width: 100%;
 }
-
 
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) a.button.added::after, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.added::after, .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) input.button.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce #respond input#submit.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce a.button.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce button.button.added::after, :where(body:not(.woocommerce-block-theme-has-button-styles)) .woocommerce input.button.added::after {
     font-family: WooCommerce;
@@ -29,18 +38,15 @@
     margin: 0 auto;
    }
 
-#content ul {
-     flex-wrap: wrap;
-    display: flex;
-    margin: 0px;
-     align-content: flex-end;
- }
-
-.woocommerce ul.products li.product .button {
+   .woocommerce ul.products li.product .button {
     display: inline-block;
     margin-top: 1em;
     color: white;
 }
+
+
+
+
 
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
     padding: 0.5em 0;
