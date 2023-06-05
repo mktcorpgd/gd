@@ -582,7 +582,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Posts relacionados */
 .related-posts>.fusion-title{font-size:.9em}
-.awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom-right-radius:24px}
+.fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom-right-radius:24px}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev{background:none!important;top:36%;left:initial!important;line-height:1}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next:before,.awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{color:rgba(0,0,0,.6);font-size:2em!important}
 .fusion-body .awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{right:1px}
@@ -598,7 +598,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .related-posts .awb-carousel .swiper-slide{display:inline-block;margin-left:0!important;margin-right:4%;margin-bottom:30px;position:relative;box-shadow:0 4px 12px -4px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
 .related-posts .awb-carousel .swiper-slide:last-child{margin-right:0}
 .related-posts .awb-carousel .swiper-slide .fusion-carousel-item-wrapper{visibility:visible}
-.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
+.related-posts .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
 .related-posts .fusion-carousel-meta{padding:0 1rem .8rem}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.2em;position:relative;z-index:10}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:.6rem .8rem}
