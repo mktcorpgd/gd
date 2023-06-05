@@ -239,7 +239,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .legales .panel-body,.legales .panel-body p{margin-top:0!important}
 .legales .panel-body p{text-align:center;font-size:.7em;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
-.project-content .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
+.project-content .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important}
 
 /* Recursos */
