@@ -119,7 +119,7 @@ table th{font-size:1.1em}
 .fusion-megamenu-wrapper{overflow:hidden}
 .fusion-megamenu-wrapper .fusion-megamenu-border{border-bottom:none}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu{padding:10px 0}
-.fusion-megamenu-title{padding-bottom:5px;font-family:var(--textFont);opacity:.8}
+.fusion-megamenu-title{margin-bottom:.25em;font-size:.6em;letter-spacing:1px;text-transform:uppercase;font-family:var(--textFont);opacity:.8}
 .fusion-megamenu-title a:not([href*='#']){cursor:pointer}
 
 /* Menú - Banderas */
