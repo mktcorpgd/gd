@@ -49,7 +49,7 @@ sup{line-height:1}
 iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a,.flex-next:hover,.flex-prev:hover{text-decoration:none}
-.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-content-boxes a,.fusion-copyright-notice a:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .more-info span,.fusion-footer-widget-area ul li a:hover,.modal .modal-body a:not(.fusion-button):not([role='button']):hover,.fusion-menu.awb-menu__main-ul a:hover,.fusion-title a{text-decoration:underline}
+.fusion-secondary-header a:hover,.fusion-text a:hover,.fusion-content-boxes a,.fusion-copyright-notice a:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .more-info span,.fusion-footer-widget-area ul li a:hover,.modal .modal-body a:not(.fusion-button):not([role='button']):hover,.fusion-menu.awb-menu__main-ul a:hover,.fusion-title a:hover{text-decoration:underline}
 .uppercase{text-transform:uppercase}
 .zindex1{z-index:1!important}
 .zindex99{z-index:99!important;overflow:visible!important}
