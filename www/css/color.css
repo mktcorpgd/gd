@@ -88,7 +88,7 @@ html .fusion-open-submenu,
 .hero-img h1,.hero-img h4,
 .fusion-.fusion-main-menu .current-menu-ancestor>a,.fusion-.fusion-main-menu .current-menu-item>a,.fusion-.fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart)>a:before,.fusion-.fusion-main-menu .current-menu-parent>a,.fusion-.fusion-main-menu .current_page_item>a,.fusion-pricingtable-column .fusion-button.fusion-button-default-size{color:var(--whiteColor)!important}
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover,.hover-boxes .fusion-column-wrapper,.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper,.bkg-white{background:var(--whiteColor)}
-.white .wpcf7-form input[type='submit'],.white .button-default:not(.portfolio-button),.slide-content-container .button-default:not(.portfolio-button),.fysion.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--highlightColor)}
+.white .wpcf7-form input[type='submit'],.white .button-default:not(.portfolio-button),.slide-content-container .button-default:not(.portfolio-button),.fysion.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--mainColor)}
 .white .wpcf7-form input[type='submit']:hover,.slide-content-container .button-default:not(.portfolio-button):hover{background:var(--subColor);color:var(--whiteColor)}
 .white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
 
