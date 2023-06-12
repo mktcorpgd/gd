@@ -188,6 +188,8 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 
 /* Contador */
 .no-padding-top .fusion-counters-box .fusion-counter-box .counter-box-container{padding-top:0}
+.no-padding-bottom .fusion-counters-box .fusion-counter-box .counter-box-container{padding-bottom:0}
+.fusion-counters-box .fusion-counter-box .counter-box-container{border:none}
 .fusion-counters-box .content-box-counter{font-weight:500;font-family:var(--titleFont)}
 
 /* Hero/Slider */
