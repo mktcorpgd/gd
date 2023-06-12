@@ -304,7 +304,7 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .fusion-theme-sharing-box{margin-top:0!important;padding:0;height:auto;background:none}
 .fusion-theme-sharing-box .fusion-social-networks{display:block;margin-bottom:2em;padding:0;width:100%}
 .fusion-sharing-box .fusion-social-networks a{margin:0 5px;padding:8px;background:var(--whiteAltColor);border-radius:12px}
-.fusion-sharing-box .fusion-social-networks a:hover{background:var(--highlightColor)}
+.fusion-sharing-box .fusion-social-networks a:hover{color:var(--whiteColor);background:var(--highlightColor)}
 
 /* Formularios */
 .wpcf7 ::placeholder{color:var(--metaColor);opacity:1}
