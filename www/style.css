@@ -192,6 +192,10 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-counters-box .fusion-counter-box .counter-box-container{border:none}
 .fusion-counters-box .content-box-counter{font-weight:500;font-family:var(--titleFont)}
 
+/* Gráficos */
+.fusion-chart.legend-bottom .fusion-chart-legend-wrap{padding-top:10px}
+.fusion-chart .fusion-chart-legend-wrap li span{font-size:.8em;border-radius:6px}
+
 /* Hero/Slider */
 .tfs-slider .fusion-title h2{color:var(--whiteColor)!important;font-size:3.6rem!important;line-height:1.15!important}
 .tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.6rem!important;line-height:1.15!important}
