@@ -24,7 +24,7 @@ body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .no-title .widget-title,
 body.single article.post.format-link .fusion-post-slideshow,body.single .fusion-post-title-meta-wrap,
 .fusion-search-button,body.search #sidebar,body.search article.avada_portfolio .fusion-single-line-meta span:first-child,body.search article.avada_portfolio .fusion-single-line-meta span:first-child+.fusion-inline-sep,.fusion-error-page-search>h3,.fusion-error-page-search>p,.search-page-search-form-bottom>p,.error-page .oops,
-body.single-format-link #sidebar,body.single-format-link .post-content .heading,
+body.single-format-link #sidebar,
 body.single-format-video article .fusion-flexslider,
 html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
 body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer,
@@ -256,8 +256,8 @@ body.single-format-link .avada-page-titlebar-wrapper{background-color:rgba(0,0,0
 body.single-format-link .fusion-page-title-wrapper,body.single-format-link .fusion-page-title-row h1{display:block}
 body.single-format-link .fusion-page-title-row h1{color:var(--whiteColor)}
 body.single-format-link .fusion-builder-row-1{background:none}
-body.single-format-link .widget_text img{border-radius:12px;border:2px solid var(--lightgrayColor)}
-body.single-format-link .widget_text img,body.single-format-link .widget_text .wpcf7{float:left}
+body.single-format-link .textwidget img{border-radius:12px;border:2px solid var(--lightgrayColor)}
+body.single-format-link .textwidget{display:grid;grid-template-columns:25% 75%;}
 body.single-format-link .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 
