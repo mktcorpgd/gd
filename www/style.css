@@ -193,6 +193,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-counters-box .content-box-counter{font-weight:500;font-family:var(--titleFont)}
 
 /* Gráficos */
+.fusion-chart .fusion-chart-title{margin-top:0}
 .fusion-chart.legend-bottom .fusion-chart-legend-wrap{padding-top:10px}
 .fusion-chart .fusion-chart-legend-wrap li span{font-size:.8em;border-radius:6px}
 
