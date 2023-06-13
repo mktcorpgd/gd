@@ -202,7 +202,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.6rem!important;line-height:1.15!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 1rem}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.75)}
-.tfs-slider .flex-control-nav{bottom:3em}
+.tfs-slider .flex-control-nav{bottom:-3em!important}
 .tfs-slider .flex-direction-nav a{color:transparent}
 .tfs-slider .flex-direction-nav a.flex-prev:before,.tfs-slider .flex-direction-nav a.flex-next:before{color:var(--whiteColor);font-family:'Font Awesome 6 Pro'}
 .tfs-slider .flex-direction-nav a.flex-prev:before{content:'\f053'}
