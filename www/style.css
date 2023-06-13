@@ -231,7 +231,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 .fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
 
 /* Contenido */
-body.single-format-standard:not(.single-avada_portfolio) .post-content{margin:-2em auto;padding-top:3em;padding-left:5%;width:80%;border-left:4px solid var(--extraColor)}
+body.single-format-standard:not(.single-avada_portfolio) .post-content{margin:-2em auto;padding-top:3em;padding-left:5%;padding-bottom:3em;width:80%;border-left:4px solid var(--extraColor)}
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
 .post-content blockquote{margin:0 0 1em;margin-left:0;padding:1em 1.25em;background:none;border-left:4px solid rgba(0,0,0,.4);border-radius:4px;font-family:var(--textFont);font-weight:400;font-style:normal;font-size:1.2rem;line-height:1.5}
 .post-content blockquote strong{font-weight:400!important}
