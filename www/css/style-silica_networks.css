@@ -42,6 +42,4 @@ body.page-id-36729 .modal-lg .fusion-layout-column.fusion-column-first,body.page
 /* Desktop */
 @media (min-width:920px) {
 	body.page-id-36729 .modal-lg,body.page-child.parent-pageid-36729 .modal-lg{width:600px}
-	.full-height .fusion-layout-column{height:95%}
-	.full-height .fusion-layout-column .fusion-column-wrapper{position:relative}
 }
