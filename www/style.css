@@ -227,7 +227,9 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 /* Entradas */
 body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important}
 body.single-format-standard:not(.single-avada_portfolio) #main,body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{margin:0 auto;max-width:1100px}
-body.single-format-standard:not(.single-avada_portfolio) .post-content{margin:-2em auto;padding-top:3em;padding-left:5%;padding-bottom:3em;width:80%;font-size:1.2em;border-left:4px solid var(--extraColor)}
+body.single-format-standard:not(.single-avada_portfolio) article>.flexslider{margin-bottom:0}
+body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{padding-bottom:1em}
+body.single-format-standard:not(.single-avada_portfolio) .post-content{margin:-2em auto;padding-top:3em;padding-left:5%;padding-bottom:3em;width:80%;font-size:1.2em;border-radius:24px;border-left:4px solid var(--extraColor)}
 
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
