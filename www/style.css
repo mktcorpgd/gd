@@ -200,7 +200,7 @@ table th{font-size:1.1em}
 .ilightbox-holder{background:var(--whiteColor);border-radius:24px;overflow:hidden}
 .fusion-post-title-meta-wrap{margin-bottom:0}
 .fusion-post-title-meta-wrap .entry-title{font-size:2.4em;line-height:1.3}
-body.single article>.flexslider{border-radius:12px;overflow:hidden}
+body.single article>.flexslider{border-radius:24px;overflow:hidden}
 body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1 h3,body.single .fusion-text.fusion-text-1 h4,body.single .fusion-text.fusion-text-1 h5{margin-top:0}
 .post-password{padding:1em 2em;text-align:center}
 #legales p,.legales{font-size:.8em;line-height:1.25;font-style:italic}
