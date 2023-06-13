@@ -19,10 +19,10 @@ body.page-child.parent-pageid-36729 .fusion-copyright-content{text-align:center}
 body.page-id-36729 .modal-lg .fusion-layout-column.fusion-column-first,body.page-child.parent-pageid-36729 .modal-lg .fusion-layout-column.fusion-column-first{width:100%!important}
 
 /* Hover Boxes */
-.hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:1.5em 1.5em 1em;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
+.hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:1.5em;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
 .hover-boxes .fusion-layout-column:hover{transform:scale(1.05)}
 .hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{border-radius:24px}
-.hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-30px;opacity:1}
+.hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-20px;opacity:1}
 .hover-boxes .fusion-layout-column .fusion-button{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:30px;font-size:1.525em}
 .fusion-body #wrapper .hover-boxes .fusion-layout-column:hover .fusion-title :not([class*='fa']){color:var(--highlightColor)}
