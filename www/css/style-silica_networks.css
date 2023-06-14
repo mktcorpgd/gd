@@ -26,7 +26,7 @@ body.page-id-36729 .modal-lg .fusion-layout-column.fusion-column-first,body.page
 .hover-boxes .fusion-layout-column:hover .fusion-title i{transform:scale(1.05);opacity:1}
 .hover-boxes .fusion-layout-column .fusion-text p{margin-bottom:10px}
 .fusion-portfolio .fusion-layout-column:hover,.hover-boxes .fusion-layout-column:hover{transform:scale(1.05)}
-.fusion-portfolio .fusion-layout-column:hover .fusion-column-wrapper,.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{border-radius:24px}
+.fusion-portfolio .fusion-layout-column:hover .fusion-portfolio-content-wrapper,.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper{border-radius:24px}
 .fusion-portfolio .fusion-layout-column .fusion-buttons,.hover-boxes .fusion-layout-column .fusion-button{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
 .fusion-portfolio .fusion-layout-column:hover .fusion-buttons,.hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-10px;opacity:1}
 
