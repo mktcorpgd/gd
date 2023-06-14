@@ -136,7 +136,7 @@ jQuery(document).ready(function() {
 				btn_q = 'two';
 			}
 			btn_html += '<a class="'+btn_classes+' fusion-modal-text-link" '+btn_modal+'><span class="fusion-button-text">'+btn_right+'</span></a>';
-			jQuery('.fusion-portfolio:not(.not-expanded) .fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a><div class="fusion-buttons '+btn_q+'">'+btn_html+'</div>');
+			jQuery('.fusion-portfolio:not(.not-expanded) .fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a>');
 			jQuery('.fusion-portfolio .fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<div class="fusion-buttons '+btn_q+'">'+btn_html+'</div>');
 		});
 	}
