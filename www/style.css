@@ -244,6 +244,7 @@ body.single-format-link .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 
 /* Portfolio */
+.project-description>.fusion-fullwidth>.fusion-builder-row>.fusion-layout-column>.fusion-column-wrapper{margin:0}
 .fusion-portfolio-post .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
 .fusion-portfolio .fusion-post-content{padding-bottom:0}
 .fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
