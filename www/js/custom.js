@@ -157,7 +157,7 @@ jQuery(document).ready(function() {
 			btn_info = 'Mais info';
 			btn_hide = 'Ocultar';
 		}
-		jQuery('.fusion-portfolio-post h2 a,.fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+		jQuery('.fusion-portfolio:not(.not-expanded) .fusion-portfolio-post h2 a,.fusion-portfolio:not(.not-expanded) .fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.fusion-portfolio article').toggleClass('opacity');
 			var $more_info = jQuery(this).closest('article').find('.more-info');
