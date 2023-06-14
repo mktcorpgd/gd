@@ -744,12 +744,12 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
 	
 	/* Portfolio */
-	.fusion-portfolio article.expanded,.fusion-portfolio article.expanded .fusion-post-content,.fusion-portfolio article.expanded .fusion-col-spacing,.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
-	.fusion-portfolio article:not(.expanded) .fusion-buttons{margin:0;padding:0;opacity:0;height:0;overflow:hidden}
-	.fusion-portfolio article.expanded .fusion-buttons{opacity:1;height:auto}
+	.fusion-portfolio:not(.not-expanded) article.expanded,.fusion-portfolio:not(.not-expanded) article.expanded .fusion-post-content,.fusion-portfolio:not(.not-expanded) article.expanded .fusion-col-spacing,.fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
+	.fusion-portfolio:not(.not-expanded) article:not(.expanded) .fusion-buttons{margin:0;padding:0;opacity:0;height:0;overflow:hidden}
+	.fusion-portfolio:not(.not-expanded) article.expanded .fusion-buttons{opacity:1;height:auto}
 	.fusion-portfolio article.opacity:not(.expanded){opacity:.6;pointer-events:none}
-	.fusion-portfolio article:not(.expanded) .fusion-post-content{height:0;overflow:hidden}
-	.fusion-portfolio article:not(.expanded) .fusion-post-content *{opacity:0}
+	.fusion-portfolio:not(.not-expanded) article:not(.expanded) .fusion-post-content{height:0;overflow:hidden}
+	.fusion-portfolio:not(.not-expanded) article:not(.expanded) .fusion-post-content *{opacity:0}
 	.fusion-portfolio article .wp-video-shortcode.mejs-video{margin-bottom:.4em}
 	.fusion-portfolio article .more-info{display:block;padding:0 1.5rem .5rem;cursor:pointer;color:var(--metaColor);font-family:var(--textFont),var(--iconFont),sans-serif;font-weight:600}
 	.fusion-portfolio article .more-info.open{padding-bottom:0}
