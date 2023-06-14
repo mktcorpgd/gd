@@ -736,7 +736,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
 
 	/* Blog/Portfolio */
-	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);transform:translateY(-2px)}
+	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover{box-shadow:0 6px 16px -2px rgba(0,0,0,.2);}
 	.single .fusion-blog-layout-grid .fusion-post-wrapper:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
 
 	/* Posts relacionados */
