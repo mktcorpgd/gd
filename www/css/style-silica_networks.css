@@ -1,18 +1,21 @@
 /* Silica Networks */
 :root{--mainColor:#497718;--subColor:#324C1B;--highlightColor:#87B227;}
 
+/* General */
+body.page-id-36729 #nav_menu-5,body.page-id-36729 #nav_menu-11,body.page-id-36729 #nav_menu-6,body.page-id-36729 #nav_menu-7,
+body.page-id-36729 .fusion-social-links-footer,body.page-id-36729 .fusion-main-menu-search,
+body.page-child.parent-pageid-36729 #nav_menu-5,body.page-child.parent-pageid-36729 #nav_menu-11,body.page-child.parent-pageid-36729 #nav_menu-6,body.page-child.parent-pageid-36729 #nav_menu-7,
+body.page-child.parent-pageid-36729 .fusion-social-links-footer,body.page-child.parent-pageid-36729 .fusion-main-menu-search,
+body.page-id-36729 .not-empresas.fusion-layout-column,body.parent-pageid-36729 .not-empresas.fusion-layout-column,
+article.post-37497 .fusion-buttons.two .fusion-button:first-child,article.post-37499 .fusion-buttons.two .fusion-button:first-child,article.post-37502 .fusion-buttons.two .fusion-button:first-child,
+body.home .fusion-header-wrapper.on-top .fusion-secondary-header{display:none!important}
+
 /* Custom */
 .fusion-portfolio.destacados .fusion-portfolio-content-wrapper{display:grid;grid-template-columns:20% 80%}
 .fusion-portfolio.destacados .fusion-image-wrapper{background:#EAEAEA;border-bottom:none}
 .fusion-portfolio.destacados .fusion-image-wrapper img{padding:.8em}
 
 /* Empresas */
-body.page-id-36729 #nav_menu-5,body.page-id-36729 #nav_menu-11,body.page-id-36729 #nav_menu-6,body.page-id-36729 #nav_menu-7,
-body.page-id-36729 .fusion-social-links-footer,body.page-id-36729 .fusion-main-menu-search,
-body.page-child.parent-pageid-36729 #nav_menu-5,body.page-child.parent-pageid-36729 #nav_menu-11,body.page-child.parent-pageid-36729 #nav_menu-6,body.page-child.parent-pageid-36729 #nav_menu-7,
-body.page-child.parent-pageid-36729 .fusion-social-links-footer,body.page-child.parent-pageid-36729 .fusion-main-menu-search,
-body.page-id-36729 .not-empresas.fusion-layout-column,body.parent-pageid-36729 .not-empresas.fusion-layout-column,
-article.post-37497 .fusion-buttons.two .fusion-button:first-child,article.post-37499 .fusion-buttons.two .fusion-button:first-child,article.post-37502 .fusion-buttons.two .fusion-button:first-child{display:none!important}
 body.page-id-36729 .fusion-copyright-content,
 body.page-child.parent-pageid-36729 .fusion-copyright-content{text-align:center}
 body.page-id-36729 .modal-lg .fusion-layout-column.fusion-column-first,body.page-child.parent-pageid-36729 .modal-lg .fusion-layout-column.fusion-column-first{width:100%!important}
