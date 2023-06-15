@@ -136,7 +136,7 @@ jQuery(document).ready(function() {
 				btn_q = 'two';
 			}
 			btn_html += '<a class="'+btn_classes+' fusion-modal-text-link" '+btn_modal+'><span class="fusion-button-text">'+btn_right+'</span></a>';
-			jQuery('.fusion-portfolio:not(.not-expanded) .fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a>');
+			jQuery('.fusion-portfolio:not(.not-collapsable) .fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<a href="#info" class="more-info"><i class="fa-solid fa-angle-down"></i> <span>'+btn_info+'</span></a>');
 			jQuery('.fusion-portfolio .fusion-portfolio-post:eq('+i+') .fusion-portfolio-content').append('<div class="fusion-buttons '+btn_q+'">'+btn_html+'</div>');
 		});
 	}
@@ -158,7 +158,7 @@ jQuery(document).ready(function() {
 			btn_info = 'Mais info';
 			btn_hide = 'Ocultar';
 		}
-		jQuery('.fusion-portfolio:not(.not-expanded) .fusion-portfolio-post h2 a,.fusion-portfolio:not(.not-expanded) .fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
+		jQuery('.fusion-portfolio:not(.not-collapsable) .fusion-portfolio-post h2 a,.fusion-portfolio:not(.not-collapsable) .fusion-portfolio-content-wrapper .fusion-image-wrapper a').on('click',function(e) {
 			jQuery(this).closest('article').toggleClass('expanded');
 			jQuery('.fusion-portfolio article').toggleClass('opacity');
 			var $more_info = jQuery(this).closest('article').find('.more-info');
