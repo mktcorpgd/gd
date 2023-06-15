@@ -77,7 +77,8 @@ body .wpcf7 .wpcf7-info a,.pricing-table-1.full-boxed-pricing.fusion-pricing-tab
 .button-default:hover,.fusion-button-default-size:hover,.fusion-button:hover,.fusion-body .fusion-button-default-size:hover,button.button:hover,.button.default:hover,.fusion-button:hover,.fusion-button-default:hover,.fusion-body .fusion-load-more-button:hover,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button:hover,
 .button-medium:hover,.fusion-body .fusion-button-medium:hover,.fusion-button_size-medium .fusion-button-default-size:hover,.fusion-load-more-button.fusion-blog-button:hover,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
-#main #comment-submit .fusion-button-text,.comment-form input[type="submit"] .fusion-button-text{color:var(--whiteColor)}
+#main #comment-submit .fusion-button-text,.comment-form input[type="submit"] .fusion-button-text,
+.fusion-fullwidth.header-transparent .fusion-button-wrapper+.fusion-button-wrapper .fusion-button .fusion-button-text{color:var(--whiteColor)}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:var(--whiteColor)!important;opacity:1!important}
 .white .widget .widget-title,
 .white h1,.white h2,.white h3,.white h4,.white h5,.white h6,
@@ -105,7 +106,8 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .fusion-tabs .nav-tabs>li,.fusion-filters li,.fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active,.fusion-tabs .nav-tabs>li.fusion-active a,.fusion-tabs .nav-tabs>li.active a,.fusion-filters li.fusion-active a{background:none;color:var(--highlightColor)}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:var(--darkgrayColor)}
 body.single article>.flexslider{border:4px solid var(--extraColor)}
-.fusion-fullwidth.header-transparent .fusion-button-wrapper+.fusion-button-wrapper .fusion-button{background:none;box-shadow:0 0 -2px var(--whiteColor)}
+.fusion-fullwidth.header-transparent .fusion-button-wrapper+.fusion-button-wrapper .fusion-button{background:none;box-shadow:inset 0 0 0px 2px var(--whiteColor)!important;opacity:.9}
+.fusion-fullwidth.header-transparent .fusion-button-wrapper+.fusion-button-wrapper .fusion-button:hover{opacity:1}
 
 /* Mobile */
 @media (max-width: 920px) {
