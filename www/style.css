@@ -86,7 +86,7 @@ table th{font-size:1.1em}
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
 .fusion-header-wrapper .fusion-header{width:100%;top:0;box-shadow:0 0 12px 0 rgba(0,0,0,.6);transition:all .5s ease-in-out}
 .fusion-header-wrapper.on-top .fusion-header{box-shadow:0 0 0 0 rgba(0,0,0,0)}
-.fusion-header-wrapper.on-top .fusion-secondary-header{background:rgba(0,0,0,.4)}
+.fusion-header-wrapper.on-top .fusion-secondary-header{background:rgba(0,0,0,.6)}
 .fusion-secondary-header,.fusion-top-header .fusion-header,.fusion-secondary-menu>ul>li,.fusion-secondary-header .fusion-alignleft,.fusion-header-v2 .fusion-secondary-header{border:none}
 .fusion-secondary-menu>ul>li>a{padding:.4em .8em;height:auto}
 
