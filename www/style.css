@@ -439,7 +439,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 
 /* Botones - Portfolio */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:.5em;padding:.5rem 1.25rem}
-.fusion-portfolio.not-expanded .fusion-portfolio-content .fusion-buttons{margin-top:0}
+.fusion-portfolio.not-collapsable .fusion-portfolio-content .fusion-buttons{margin-top:0}
 .fusion-buttons.two .fusion-button+.fusion-button{margin-left:.4em}
 .fusion-buttons.two .fusion-button:first-child{border-top-right-radius:4px;border-bottom-right-radius:4px}
 .fusion-buttons.two .fusion-button+.fusion-button{border-top-left-radius:4px;border-bottom-left-radius:4px}
@@ -758,9 +758,9 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-portfolio article .more-info.open i{line-height:1;transform:rotate(180deg)}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;overflow:visible}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:.5em}
-	.fusion-portfolio.not-expanded .fusion-portfolio-post .fusion-portfolio-content{height:100%}
-	.fusion-portfolio.not-expanded .fusion-portfolio-content{position:relative}
-	.fusion-portfolio.not-expanded .fusion-portfolio-content .fusion-buttons{position:absolute;bottom:0}
+	.fusion-portfolio.not-collapsable .fusion-portfolio-post .fusion-portfolio-content{height:100%}
+	.fusion-portfolio.not-collapsable .fusion-portfolio-content{position:relative}
+	.fusion-portfolio.not-collapsable .fusion-portfolio-content .fusion-buttons{position:absolute;bottom:0}
 
 }
 
