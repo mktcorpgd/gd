@@ -16,14 +16,14 @@ jQuery(document).ready(function() {
 				srv = srv+' ('+srvspeed+')';
 			}		
 			if ( msg.length > 0 ) {
-				jQuery('input[name=FULLINFO]').val(srv+' / '+msg);
+				jQuery('input[name=PAINSF]').val(srv+' / '+msg);
 			}
 			else {
-				jQuery('input[name=FULLINFO]').val(srv);
+				jQuery('input[name=PAINSF]').val(srv);
 			}
 		}
 		else {
-			jQuery('input[name=FULLINFO]').val(msg);
+			jQuery('input[name=PAINSF]').val(msg);
 		}
 	}
 	jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {

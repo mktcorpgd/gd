@@ -329,8 +329,8 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Salesforce: asignar "Web"
-	if ( jQuery('input[name="LEADMKT"]').length ) {
-		jQuery('input[name="LEADMKT"]').val('Web');
+	if ( jQuery('input[name="ORIGSF"]').length ) {
+		jQuery('input[name="ORIGSF"]').val('Web');
 	}
 
 
