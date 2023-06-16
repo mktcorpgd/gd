@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 	// Copiar información en campo oculto
 	function fullInfo() {
 		var msg = jQuery('textarea[name=MSG]').val();
-		if ( jQuery('select[name=SRV]').length ) {
+		if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
 			var srv = jQuery('select[name=SRV] option:selected').val();
 			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
 			if ( srv_index == 1 || srv_index == 2 ) {
