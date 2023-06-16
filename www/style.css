@@ -105,8 +105,9 @@ table th{font-size:1.1em}
 .fusion-main-menu .sub-menu li a,.fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a{padding:.5em .6em!important;font-size:.9rem!important;line-height:1.3}
 .fusion-main-menu .sub-menu li a span>span:not(.wpml-ls-native),.fusion-mobile-nav-holder .sub-menu li a span>span:not(.wpml-ls-native){display:block;font-size:.7em;line-height:1;opacity:.8}
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{border:none}
-.fusion-main-menu .sub-menu{width:100%;}
-.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{width:auto;border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
+.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{border-radius:6px;box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
+.fusion-main-menu .sub-menu{min-width:auto;width:100%}
+.fusion-megamenu-wrapper{width:auto}
 .fusion-header-wrapper:not(.on-top) .fusion-main-menu .sub-menu,.fusion-header-wrapper:not(.on-top) .fusion-megamenu-wrapper,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-main-menu .sub-menu,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .fusion-menu.awb-menu__main-ul a{padding:0 1rem!important;font-family:var(--titleFont);font-size:1.2em}
 .fusion-main-menu>ul>li>a .fusion-caret{margin-left:5px;opacity:.5}
