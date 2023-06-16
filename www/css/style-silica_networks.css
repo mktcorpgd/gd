@@ -2,6 +2,7 @@
 :root{--mainColor:#497718;--subColor:#324C1B;--highlightColor:#87B227;}
 
 /* General */
+body.page-id-36729 .fusion-social-networks,body.page-child.parent-pageid-36729 .fusion-social-networks,
 body.page-id-36729 .not-empresas.fusion-layout-column,body.parent-pageid-36729 .not-empresas.fusion-layout-column,
 article.post-37497 .fusion-buttons.two .fusion-button:first-child,article.post-37499 .fusion-buttons.two .fusion-button:first-child,article.post-37502 .fusion-buttons.two .fusion-button:first-child,
 body.home .fusion-header-wrapper.on-top .fusion-secondary-header{display:none!important}
@@ -12,6 +13,8 @@ body.home .fusion-header-wrapper.on-top .fusion-secondary-header{display:none!im
 .fusion-portfolio.destacados .fusion-image-wrapper img{padding:.8em}
 
 /* Empresas */
+body.page-id-36729 .fusion-copyright-content,
+body.page-child.parent-pageid-36729 .fusion-copyright-content{text-align:center}
 body.page-id-36729 .modal-lg .fusion-layout-column.fusion-column-first,body.page-child.parent-pageid-36729 .modal-lg .fusion-layout-column.fusion-column-first{width:100%!important}
 
 /* Hover Boxes */
