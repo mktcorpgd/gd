@@ -103,9 +103,9 @@ img[src*='flag-']{border-color:var(--lightgrayColor)}
 .fusion-content-boxes.extra-border-img .heading img{border-radius:50%;border:4px solid var(--extraColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-column:not(.white) .fusion-title h6{color:var(--metaColor)!important}
 .awb-swiper-button-next,.awb-swiper-button-prev{color:var(--metaColor)!important}
-.fusion-portfolio:not(.solo-contacto) .fusion-buttons.two .fusion-button+.fusion-button:hover,.fusion-portfolio article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button:hover{background:var(--whiteAltColor)}
 .fusion-fullwidth.header-transparent .button-default:not(.portfolio-button):hover,.white .wpcf7-form input[type='submit']:hover,.white .button-default:not(.portfolio-button):hover,.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button:hover,.slide-content-container .button-default:not(.portfolio-button):hover,.fusion.fusion-pricing-table .button-default:hover,
-.fusion-tabs .nav ul,.fusion-filters{background:var(--whiteAltColor)!important}
+.fusion-tabs .nav ul,.fusion-filters,
+.fusion-portfolio:not(.solo-contacto) .fusion-buttons.two .fusion-button+.fusion-button:hover,.fusion-portfolio article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button:hover{background:var(--whiteAltColor)!important}
 .fusion-tabs .nav-tabs>li,.fusion-filters li,.fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active,.fusion-tabs .nav-tabs>li.fusion-active a,.fusion-tabs .nav-tabs>li.active a,.fusion-filters li.fusion-active a{background:none;color:var(--highlightColor)}
 .fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-header,.fusion-body .fusion-is-sticky.fusion-header-wrapper .fusion-secondary-main-menu,.fusion-main-menu .sub-menu,.fusion-megamenu-wrapper,.fusion-top-header .fusion-header,.avada-html-is-archive .fusion-top-header .fusion-header{background:var(--darkgrayColor)}
 .fusion-fullwidth.header-transparent .fusion-button-wrapper+.fusion-button-wrapper .fusion-button:not(.primary),.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary){background:none!important;box-shadow:inset 0 0 0px 2px var(--whiteColor)!important;opacity:.9}
