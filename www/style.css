@@ -458,8 +458,8 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-buttons.two .fusion-button+.fusion-button{margin-left:.4em}
 .fusion-buttons.two .fusion-button:first-child{border-top-right-radius:4px;border-bottom-right-radius:4px}
 .fusion-buttons.two .fusion-button+.fusion-button{border-top-left-radius:4px;border-bottom-left-radius:4px}
-.fusion-portfolio-five .fusion-button,.fusion-portfolio-four .fusion-button,.fusion-portfolio-three .fusion-button{padding:.4rem .6rem}
-.fusion-portfolio-five .fusion-button .fusion-button-text,.fusion-portfolio-four .fusion-button .fusion-button-text,.fusion-portfolio-three .fusion-button .fusion-button-text{font-size:1rem}
+.fusion-portfolio .fusion-button{padding:.5rem .7rem}
+.fusion-portfolio .fusion-button .fusion-button-text{font-size:1rem}
 .fusion-portfolio.solo-contacto .fusion-buttons.two .fusion-button+.fusion-button,article[class*='solo-contacto'] .fusion-buttons.two .fusion-button+.fusion-button,.no-info-btn .fusion-buttons.two .fusion-button+.fusion-button,.no-contact-btn .fusion-buttons.two .fusion-button{margin-left:0;font-size:1em;border-radius:8px}
 
 /* Comentarios */
