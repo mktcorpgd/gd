@@ -434,7 +434,11 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit'],.fusion-button.button-flat{margin:.75em auto .5em;padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
+.wpcf7-form input[type='submit'],.fusion-button.button-flat{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
+.button-default:not(.portfolio-button),.fusion-button-default-size,.fusion-button:not(.portfolio-button),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
+#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
+.wpcf7-form input[type='submit'],.fusion-button.button-flat:not(.portfolio-button){margin:.75em auto .5em}
 .fusion-button.fusion-button-span-yes{width:100%;text-align:center}
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],.fusion-button.button-flat{box-shadow:0 3px 6px rgba(0,0,0,.2)!important}
 .button-default.button-small,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.5rem .7rem;font-size:.9em}
