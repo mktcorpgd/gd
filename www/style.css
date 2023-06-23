@@ -289,7 +289,7 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper{padding-top:0}
 .fusion-portfolio-boxed .fusion-portfolio-content{padding:0 0 .5em}
 .fusion-portfolio{overflow:visible}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.box-shadow .content-box-wrapper{position:relative;border-radius:12px 12px 9px 9px;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper{position:relative;border-radius:12px 12px 9px 9px;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important}
 .fusion-portfolio-content,.fusion-post-content-wrapper{background:var(--whiteColor)!important;border-bottom-left-radius:9px;border-bottom-right-radius:9px}
 .no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:1.25rem 1.5rem .75rem;font-weight:400}
@@ -742,7 +742,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
 
 	/* Blog/Portfolio */
-	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.hover-boxes .fusion-layout-column:hover,.box-shadow.content-box-wrapper{transform:scale(1.05)}
+	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.hover-boxes .fusion-layout-column:hover,.box-shadow.fusion-content-boxes .content-wrapper-background{transform:scale(1.05)}
 	
 	/* Posts relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
