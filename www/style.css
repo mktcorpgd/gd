@@ -752,7 +752,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Blog/Portfolio */
 	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper.hover,.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover,.fusion-portfolio .fusion-layout-column:hover,.hover-boxes .fusion-layout-column:hover{transform:scale(1.05)}
-	.fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{border-top-left-radius:24px;border-top-right-radius:24px}
+	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-blog-layout-grid .fusion-post-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover .fusion-image-wrapper{border-top-left-radius:24px;border-top-right-radius:24px}
 	
 	/* Posts relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
