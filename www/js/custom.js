@@ -330,7 +330,7 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Salesforce
 	function fullInfo() {
-		var msg = jQuery('textarea[name=MSG]').val();
+		var msg = jQuery('textarea.activefield[name=MSG]').val();
 		// Si es Silica Empresas:
 		if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
 			var srv = jQuery('select[name=SRV] option:selected').val();
@@ -341,6 +341,7 @@ jQuery(document).ready(function() {
 			}		
 			if ( msg.length > 0 ) {
 				jQuery('input[name=PAINSF]').val(srv+' / '+msg);
+				jQuery('.activefield').removeClass('activefield');
 			}
 			else {
 				jQuery('input[name=PAINSF]').val(srv);
@@ -348,12 +349,15 @@ jQuery(document).ready(function() {
 		}
 		else {
 			jQuery('input[name=PAINSF]').val(msg);
+			jQuery('.activefield').removeClass('activefield');
 		}
 	}
 	jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
+		jQuery(this).addClass('activefield');
 		fullInfo();
 	});
 	jQuery('textarea[name=MSG]').on('input',function() {
+		jQuery(this).addClass('activefield');
 		fullInfo();
 	});
 	if ( jQuery('input[name="ORIGSF"]').length ) {
