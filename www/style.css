@@ -262,13 +262,6 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
-.fusion-portfolio article .fusion-post-content .fusion-fullwidth{padding:0;opacity:1}
-.fusion-portfolio article .fusion-post-content .fusion-flex-column{margin:0}
-.fusion-portfolio article .fusion-post-content .wp-video{margin:.5em 0 0}
-.fusion-portfolio article .fusion-post-content{width:100%;padding:0 1.5rem}
-.fusion-portfolio article .fusion-post-content blockquote{padding-top:0;padding-bottom:0}
-.fusion-portfolio article .fusion-post-content p{margin:0;padding:0;font-size:.9em;line-height:1.4}
-.fusion-portfolio article .fusion-post-content ul{margin-top:5px}
 
 /* Hover Boxes */
 .hover-boxes .fusion-layout-column{margin-top:-5em;height:115%}
@@ -302,6 +295,15 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-blog-no-images article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper{padding-top:.5em}
 .fusion-post-grid .fusion-image-wrapper{background-position:top center;background-repeat:none;background-size:cover}
 .fusion-post-grid .fusion-image-wrapper a{display:block;width:100%;height:100%}
+
+/* Blog/Portfolio */
+.fusion-portfolio article .fusion-post-content,.fusion-blog-layout-grid article .fusion-post-content-container{width:100%;padding:0 1.5rem}
+.fusion-portfolio article .fusion-post-content .fusion-fullwidth,.fusion-blog-layout-grid article .fusion-post-content-container .fusion-fullwidth{padding:0;opacity:1}
+.fusion-portfolio article .fusion-post-content .fusion-flex-column,.fusion-blog-layout-grid article .fusion-post-content-container .fusion-flex-column{margin:0}
+.fusion-portfolio article .fusion-post-content .wp-video,.fusion-blog-layout-grid article .fusion-post-content-container .wp-video{margin:.5em 0 0}
+.fusion-portfolio article .fusion-post-content blockquote,.fusion-blog-layout-grid article .fusion-post-content-container blockquote{padding-top:0;padding-bottom:0}
+.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
+.fusion-portfolio article .fusion-post-content ul,.fusion-blog-layout-grid article .fusion-post-content-container ul{margin-top:5px}
 
 /* Contador */
 .no-padding-top .fusion-counters-box .fusion-counter-box .counter-box-container{padding-top:0}
