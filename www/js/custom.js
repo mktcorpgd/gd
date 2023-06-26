@@ -355,7 +355,6 @@ jQuery(document).ready(function() {
 	jQuery('textarea[name=MSG]').on('input',function() {
 		fullInfo();
 	});
-
 	if ( jQuery('input[name="ORIGSF"]').length ) {
 		jQuery('input[name="ORIGSF"]').val('Web');
 	}
