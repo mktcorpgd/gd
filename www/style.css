@@ -748,7 +748,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
 
 	/* Blog/Portfolio */
-	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.hover-boxes .fusion-layout-column:hover,.box-shadow.fusion-content-boxes .content-wrapper-background{transform:scale(1.05)}
+	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.hover-boxes .fusion-layout-column:hover,.box-shadow.fusion-content-boxes .content-box-wrapper{transform:scale(1.05)}
 	
 	/* Posts relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
