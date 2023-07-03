@@ -271,7 +271,8 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .hover-boxes .fusion-layout-column i{position:absolute;top:.65em;right:.4em;font-size:2em;transform:rotate(10deg);opacity:.1}
 .hover-boxes .fusion-layout-column:hover i{transform:scale(1.05);opacity:1}
 .hover-boxes .fusion-layout-column .fusion-text p{margin-bottom:10px}
-.hover-boxes .fusion-layout-column .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{margin:0;padding:0;position:absolute;bottom:0;right:10px;opacity:0}
+.hover-boxes .fusion-layout-column .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
+.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{padding:0}
 .hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper:hover .fusion-buttons{bottom:-20px;opacity:1}
 
 /* Grilla */
