@@ -95,8 +95,9 @@ html .fusion-open-submenu,
 .fusion-menu .searchform .fusion-search-form-content .fusion-search-field input::placeholder,.fusion-main-menu .fusion-dropdown-menu li a,.fusion-main-menu li a,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-mobile-nav-holder .fusion-mobile-current-nav-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item.current-menu-item>a,.fusion-mobile-nav-holder .fusion-mobile-nav-item a,.fusion-main-menu>ul>li>a:hover,
 .hero-img h1,.hero-img h4,
 .fusion-.fusion-main-menu .current-menu-ancestor>a,.fusion-.fusion-main-menu .current-menu-item>a,.fusion-.fusion-main-menu .current-menu-item:not(.fusion-main-menu-cart)>a:before,.fusion-.fusion-main-menu .current-menu-parent>a,.fusion-.fusion-main-menu .current_page_item>a,.fusion-pricingtable-column .fusion-button.fusion-button-default-size{color:var(--whiteColor)!important}
-.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover,.hover-boxes .fusion-column-wrapper,.bkg-white,
+.fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover,.bkg-white,
 .fusion-portfolio:not(.solo-contacto) article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button,.fusion-portfolio article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button{background:var(--whiteColor)}
+.hover-boxes .fusion-column-wrapper{background:var(--whiteColor)!important}
 .fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button),.white .wpcf7-form input[type='submit'],.white .button-default:not(.portfolio-button),.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.slide-content-container .button-default:not(.portfolio-button),.fusion.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--highlightColor)}
 .white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
 
