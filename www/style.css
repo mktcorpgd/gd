@@ -268,7 +268,7 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:30px;font-size:1.525em}
 .hover-boxes .fusion-layout-column .fusion-title *{margin:-.25em 0 0!important}
-.hover-boxes .fusion-layout-column i{position:absolute;top:.65em;right:.4em;font-size:1.6em;transform:rotate(10deg);opacity:.1}
+.hover-boxes .fusion-layout-column i{position:absolute;top:.65em;right:.4em;font-size:2em;transform:rotate(10deg);opacity:.1}
 .hover-boxes .fusion-layout-column:hover i{transform:scale(1.05);opacity:1}
 .hover-boxes .fusion-layout-column .fusion-text p{margin-bottom:10px}
 .fusion-portfolio .fusion-layout-column .fusion-buttons,.hover-boxes .fusion-layout-column .fusion-button{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
