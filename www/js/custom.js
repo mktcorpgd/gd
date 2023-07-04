@@ -81,6 +81,12 @@ jQuery(document).ready(function() {
 	}
 
 
+	// CONTENIDO - Entradas: CTA antes de artículos relacionados
+	if ( jQuery('body.single-format-standard:not(.single-avada_portfolio)').length ) {
+		jQuery('#sidebar').insertAfter('.post-content');
+	}
+
+
 	// RECURSO - Mostrar preview
 	if ( jQuery('body.single-format-link').length ) {
 		var site_id = jQuery('body').attr('class');
