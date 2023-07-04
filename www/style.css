@@ -743,7 +743,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.post-password-form label input[type='password']{max-width:300px}
 	.fusion-pricingtable-column.standout .panel-container{margin:-5px -20px;top:-5px;border-radius:12px}
 	body.single-format-standard:not(.single-avada_portfolio).has-sidebar #content{width:100%}
-	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar{float:none!important;width:100%!important;text-align:center}
+	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar{margin:0 auto;float:none!important;width:80%!important;text-align:center}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{position:relative!important;top:0!important}
 
 	/* Tabs */
