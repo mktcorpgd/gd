@@ -345,11 +345,11 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 
 /* Testimonios */
 .fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:20px;padding-bottom:.5em;border-left:4px solid var(--lightgrayColor)!important}
-.fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:0;left:20px;color:var(--lightgrayColor);z-index:-1}
+.fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:-10px;left:20px;color:var(--lightgrayColor);z-index:-1}
 .fusion-testimonials.clean blockquote q{padding:0;background:none;font-size:1em}
 .fusion-testimonials.clean blockquote q,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
 .fusion-testimonials.clean .author{margin-top:0;padding:0 20px 20px;font-size:.9em;line-height:1.25;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont)}
-.fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:500}
+.fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:400}
 .fusion-testimonials.clean .testimonial-pagination{margin:1em 0 2em;padding-left:24px;text-align:left;}
 .fusion-testimonials.clean .testimonial-pagination a{border:2px solid var(--lightgrayColor)}
 .fusion-testimonials.clean .testimonial-pagination a:hover{background:var(--lightgrayColor)}
@@ -826,6 +826,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
 	.fusion-image-element:not([class*='fusion-image-align-']){margin-left:0}
 	.partners-logos .fusion-column-content,#partners_footer .fusion-layout-column{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
+	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
+	body.single-format-standard:not(.single-avada_portfolio) .fusion-fullwidth{padding-left:0;padding-right:0}
 
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
