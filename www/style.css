@@ -837,6 +837,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Tabs */
 	.fusion-filters{display:block}
+	.fusion-tabs .tab-content>.active{margin-bottom:3em}
 
 	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
