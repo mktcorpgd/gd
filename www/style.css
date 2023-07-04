@@ -509,7 +509,6 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-pricing-table .panel-footer{padding:.5em}
 
 /* Videos */
-.fusion-video{max-width:1280px;max-height:720px;width:100%}
 .wp-video-shortcode.mejs-video,.fusion-video iframe,iframe{border:2px solid rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
 .ilightbox-holder iframe{border:none}
 .mejs-container,.mejs-container .mejs-controls,.mejs-embed,.mejs-embed body{background:rgba(0,0,0,.4)}
