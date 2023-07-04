@@ -828,6 +828,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.partners-logos .fusion-column-content,#partners_footer .fusion-layout-column{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
 	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-fullwidth{padding-left:0;padding-left:0}
+	.fusion-page-title-bar .fusion-page-title-row h1{font-size:2em}
 
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
