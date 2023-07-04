@@ -41,7 +41,7 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{vis
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
 body{font-size:16px;line-height:1.6}
 a,li,i,.wpcf7 input,.wpcf7 button,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text,.fusion-pricing-table .panel-wrapper .fusion-panel,.fusion-pricing-table .panel-wrapper .panel-heading h3,.fusion-footer .fusion-social-network-icon,.fusion-post-content{transition:all .1s ease-in-out!important}
-.fusion-main-menu>ul>li>a .fusion-caret,.related-posts .awb-carousel .swiper-slide,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-blog-layout-grid .fusion-post-wrapper,.hover-boxes .fusion-layout-column,.box-shadow.fusion-content-boxes .content-box-wrapper{transition:all .3s ease-in-out!important}
+.fusion-main-menu>ul>li>a .fusion-caret,.related-posts .awb-carousel .swiper-slide,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-blog-layout-grid .fusion-post-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.hover-boxes *,.fusion-portfolio.not-collapsable *{transition:all .3s ease-in-out!important}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
 .post-content p b,.post-content p strong,.content-container strong{font-weight:600}
@@ -268,11 +268,12 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:30px;font-size:1.525em}
 .hover-boxes .fusion-layout-column .fusion-title *{margin:-.25em 0 0!important}
-.hover-boxes .fusion-layout-column .fusion-title i{position:absolute;top:.65em;right:.4em;font-size:1.6em;transform:rotate(10deg);opacity:.1}
-.hover-boxes .fusion-layout-column:hover .fusion-title i{transform:scale(1.05);opacity:1}
+.hover-boxes .fusion-layout-column i{position:absolute;top:.65em;right:.4em;font-size:2em;transform:rotate(10deg);opacity:.1}
+.hover-boxes .fusion-layout-column:hover i{transform:scale(1.05);opacity:1}
 .hover-boxes .fusion-layout-column .fusion-text p{margin-bottom:10px}
-.fusion-portfolio .fusion-layout-column .fusion-buttons,.hover-boxes .fusion-layout-column .fusion-button{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
-.fusion-portfolio .fusion-layout-column:hover .fusion-buttons,.hover-boxes .fusion-layout-column:hover .fusion-button{bottom:-10px;opacity:1}
+.hover-boxes .fusion-layout-column .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
+.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{padding:0}
+.hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper:hover .fusion-buttons{bottom:-20px;opacity:1}
 
 /* Grilla */
 .fusion-post-content-container{margin:0!important}
@@ -776,7 +777,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Mostrar/Ocultar */
 	.mobile-only{display:inline-block}
-	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before{display:none}
+	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before,.partners-logos .fusion-column-content:before,#partners_footer .fusion-row:before,.partners-logos .fusion-column-content:after,#partners_footer .fusion-row:after{display:none}
 	
 	/* General */
 	body{font-size:18px;line-height:1.6}
