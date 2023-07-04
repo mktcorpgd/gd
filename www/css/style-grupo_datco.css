@@ -2,14 +2,14 @@
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;}
 
 /* Custom */
-.tfs-slider ul.slides li.slide-id-44630 .slide-content-container .slide-content,
-.tfs-slider ul.slides li.slide-id-44633 .slide-content-container .slide-content{padding-right:23%}
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
 
 /* Desktop */
 @media (min-width:920px) {
 	body.page-id-39954 #pilares-4 .fusion-read-more-button{visibility:hidden;display:block;margin-top:0;width:100%;height:100%;position:absolute;top:0;left:0}
 	.pilares .fusion-column-wrapper .fusion-text{height:0;transition:all 1s ease-in-out;overflow:hidden}
+	.tfs-slider ul.slides li.slide-id-44630 .slide-content-container .slide-content,
+	.tfs-slider ul.slides li.slide-id-44633 .slide-content-container .slide-content{padding-right:23%}
 }
 
 /* Mobile */

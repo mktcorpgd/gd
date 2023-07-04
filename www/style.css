@@ -827,7 +827,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-image-element:not([class*='fusion-image-align-']){margin-left:0}
 	.partners-logos .fusion-column-content,#partners_footer .fusion-layout-column{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
 	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
-	body.single-format-standard:not(.single-avada_portfolio) .fusion-fullwidth{padding-left:0;padding-right:0}
+	body.single-format-standard:not(.single-avada_portfolio) .fusion-fullwidth{padding-left:0;padding-left:0}
 
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
