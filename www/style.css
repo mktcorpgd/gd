@@ -159,7 +159,7 @@ table th{font-size:1.1em}
 
 /* Hero/Slider */
 .tfs-slider .fusion-title h2{color:var(--whiteColor)!important;font-size:3.6rem!important;line-height:1.15!important}
-.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.6rem!important;line-height:1.15!important}
+.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.6rem!important;line-height:1.25!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 1rem}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.75)}
 .tfs-slider .flex-control-nav{bottom:-3em!important}
@@ -191,7 +191,7 @@ table th{font-size:1.1em}
 .fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
 
 /* Barra de título */
-.fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){height:auto;padding-top:2em;padding-bottom:2em;background:none;border:none}
+.fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){height:auto;padding-top:2em;padding-bottom:2em;background:var(--lightgrayColor);border:none}
 .fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important;font-size:3em;line-height:1.1!important}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 
@@ -828,7 +828,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
 	.fusion-image-element:not([class*='fusion-image-align-']){margin-left:0}
-	.partners-logos .fusion-column-content,#partners_footer .fusion-layout-column{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
+	.partners-logos .fusion-row,#partners_footer .fusion-row{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
 	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-fullwidth{padding-left:0;padding-left:0}
 	.fusion-page-title-bar .fusion-page-title-row h1{font-size:2em}
