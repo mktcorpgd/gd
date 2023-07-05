@@ -98,7 +98,7 @@ html .fusion-open-submenu,
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover,.bkg-white,
 .fusion-portfolio:not(.solo-contacto) article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button,.fusion-portfolio article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button{background:var(--whiteColor)}
 .hover-boxes .fusion-column-wrapper{background:var(--whiteColor)!important}
-.fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button),.white .wpcf7-form input[type='submit'],.white .button-default:not(.portfolio-button),.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.slide-content-container .button-default:not(.portfolio-button),.fusion.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--highlightColor)}
+.fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button),.white .wpcf7-form input[type='submit'],.white .button-default:not(.portfolio-button),.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.white .fusion-blog-shortcode .fusion-load-more-button,.slide-content-container .button-default:not(.portfolio-button),.fusion.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--highlightColor)}
 .white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
 
 /* Extras */
@@ -107,7 +107,7 @@ img[src*='flag-']{border-color:var(--lightgrayColor)}
 .fusion-content-boxes.extra-border-img .heading img{border-radius:50%;border:4px solid var(--extraColor)}
 html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-column:not(.white) .fusion-title h6{color:var(--metaColor)!important}
 .awb-swiper-button-next,.awb-swiper-button-prev{color:var(--metaColor)!important}
-.fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button):hover,.white .wpcf7-form input[type='submit']:hover,.white .button-default:not(.portfolio-button):hover,.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button:hover,.slide-content-container .button-default:not(.portfolio-button):hover,.fusion.fusion-pricing-table .button-default:hover,
+.fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button):hover,.white .wpcf7-form input[type='submit']:hover,.white .button-default:not(.portfolio-button):hover,.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button:hover,.white .fusion-blog-shortcode .fusion-load-more-button:hover,.slide-content-container .button-default:not(.portfolio-button):hover,.fusion.fusion-pricing-table .button-default:hover,
 .fusion-tabs .nav ul,.fusion-filters,
 .fusion-portfolio:not(.solo-contacto) article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button:hover,.fusion-portfolio article:not([class*='solo-contacto']) .fusion-buttons.two .fusion-button+.fusion-button:hover{background:var(--whiteAltColor)!important}
 .fusion-tabs .nav-tabs>li,.fusion-filters li,.fusion-tabs .nav-tabs>li.fusion-active,.fusion-tabs .nav-tabs>li.active,.fusion-filters li.fusion-active,.fusion-tabs .nav-tabs>li.fusion-active a,.fusion-tabs .nav-tabs>li.active a,.fusion-filters li.fusion-active a{background:none;color:var(--highlightColor)}
