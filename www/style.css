@@ -265,7 +265,7 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
 
 /* Hover Boxes */
-.hover-boxes .fusion-layout-column{margin-top:-5em;height:115%}
+.hover-boxes .fusion-layout-column{margin-top:-5em}
 .hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:30px;font-size:1.525em}
 .hover-boxes .fusion-layout-column .fusion-title *{margin:-.25em 0 0!important}
@@ -748,6 +748,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single-format-standard:not(.single-avada_portfolio).has-sidebar #content{width:100%}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar{margin:0 auto;float:none!important;width:80%!important;text-align:center}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{position:relative!important;top:0!important}
+	.hover-boxes .fusion-layout-column{margin-top:-5em;height:115%}
 
 	/* Tabs */
 	.fusion-filters .fusion-filter a{line-height:1.15}
