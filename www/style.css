@@ -288,6 +288,7 @@ body.single-format-link .widget_text .wpcf7-form>em{text-align:left}
 .fusion-portfolio-content,.fusion-post-content-wrapper{background:var(--whiteColor)!important;border-bottom-left-radius:9px;border-bottom-right-radius:9px}
 .no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:1.25rem 1.5rem;font-weight:400}
+.fusion-portfolio-content-wrapper h2 a{padding-bottom:.5rem}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper,.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-top-left-radius:12px;border-top-right-radius:12px}
 .fusion-image-wrapper,.fusion-portfolio-content h2{margin-bottom:0!important}
 
