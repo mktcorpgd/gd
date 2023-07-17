@@ -19,7 +19,7 @@ article.category-tips .fusion-post-content-wrapper,
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .fusion-portfolio-meta a[href*='solo-contacto'],.fusion-portfolio-content .fusion-portfolio-meta a:not([href*='flag-']),
 .fusion-portfolio.solo-contacto .fusion-buttons .fusion-button:first-child,article[class*='solo-contacto'] .fusion-buttons .fusion-button:first-child,.no-info-btn .fusion-buttons .fusion-button:first-child,.no-contact-btn .fusion-buttons .fusion-button+.fusion-button,
-.fusion-sharing-box h4,
+.fusion-sharing-box h4,.fusion-theme-sharing-box .fusion-social-networks,
 .fusion-megamenu-bullet,
 .no-title .widget-title,
 body.single .fusion-post-title-meta-wrap,
@@ -359,14 +359,6 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-testimonials.clean .testimonial-pagination a{border:2px solid var(--lightgrayColor)}
 .fusion-testimonials.clean .testimonial-pagination a:hover{background:var(--lightgrayColor)}
 .fusion-testimonials.clean .testimonial-pagination a.activeSlide{background:var(--grayColor)}
-
-/* Compartir */
-.fusion-sharing-box{padding:0;background:none;position:relative;top:20px}
-.fusion-theme-sharing-box .fusion-social-networks-wrapper{justify-content:center}
-.fusion-theme-sharing-box{margin-top:0!important;padding:0;height:auto;background:none}
-.fusion-theme-sharing-box .fusion-social-networks{display:block;margin-bottom:2em;padding:0;width:100%}
-.fusion-sharing-box .fusion-social-networks a{margin:0 5px;padding:8px;background:var(--whiteAltColor);border-radius:12px}
-.fusion-sharing-box .fusion-social-networks a:hover{color:var(--whiteColor);background:var(--highlightColor)}
 
 /* Formularios */
 .wpcf7 ::placeholder{color:var(--metaColor);opacity:1}
