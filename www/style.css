@@ -402,8 +402,8 @@ div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:de
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
 .wpcf7-form-control-wrap{position:relative}
 div.wpcf7 .fusion-layout-column{margin-bottom:0}
-div.wpcf7 .fusion-layout-column>label{margin-top:10px;display:block;text-align:left;font-size:90%}
-div.wpcf7 .fusion-layout-column>label>.wpcf7-form-control-wrap{margin-top:5px}
+div.wpcf7 .fusion-layout-column>label{margin-top:10px;display:block;text-align:left;font-size:.6em;letter-spacing:1px;color:rgba(255,255,255,.4);text-transform:uppercase}
+div.wpcf7 .fusion-layout-column>label *{color:var(--textColor);font-size:.9rem}
 div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:var(--titleFont);letter-spacing:1px;color:var(--grayColor);z-index:10}
 .wpcf7-free-text{margin-top:10px}
 .wpcf7-free-text:not([disabled]){display:block}
