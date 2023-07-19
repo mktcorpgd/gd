@@ -244,7 +244,7 @@ body.single-format-link .fusion-builder-row-1{background:none}
 body.single-format-link .textwidget img{border-radius:12px;border:2px solid var(--lightgrayColor)}
 body.single-format-link .textwidget{display:grid;grid-template-columns:25% 75%;}
 body.single-format-link .widget_text .wpcf7{margin-left:2em}
-body.single-format-link .widget_text .wpcf7-form>div{font-size:.8em;font-style:italic;text-align:left}
+body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em;text-align:left}
 
 /* Portfolio */
 .fusion-portfolio-post .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
