@@ -368,7 +368,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
 .wpcf7 input:not([type='submit']),.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{padding:.7em .8em;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;z-index:1}
+#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{padding:.7em .8em;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;font-size:.9rem;z-index:1}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{margin:.75em 0 0;width:100%}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.425em .5em}
@@ -422,8 +422,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
-.fusion-layout-column>label{font-size:.95em}
-.fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;position:absolute;top:22px;left:.4em;font-weight:400;font-size:.875rem;line-height:normal;color:var(--metaColor);z-index:10;pointer-events:none}
+.fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;position:absolute;top:22px;left:.4em;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);z-index:10;pointer-events:none}
 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-160%);color:var(--whiteAltColor);opacity:.6;font-size:.75em}
 .wpcf7-form .fusion-one-full input[type='email']{font-size:1.2em}
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7 .wpcf7-text.highlight,.wpcf7 .wpcf7-radio.highlight{font-size:1.1em}
