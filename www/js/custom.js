@@ -421,6 +421,26 @@ jQuery(document).ready(function() {
 	});
 
 
+	// FORMULARIOS - AnimaciÃ³n para etiquetas
+	jQuery(':input').each(function(i){
+		if ( jQuery(this).val().length > 0 ) {
+			jQuery(this).parents('.fusion-layout-column').addClass('focused');
+		};
+	});
+	jQuery(document).on('focus',':input',function(){
+		jQuery(this).parents('.fusion-layout-column').addClass('focused');
+	});
+	jQuery(document).on('blur',':input',function(){
+		var inputValue = jQuery(this).val();
+		if ( inputValue == '' ) {
+			jQuery(this).removeClass('filled');
+			jQuery(this).parents('.fusion-layout-column').removeClass('focused');
+		} else {
+			jQuery(this).addClass('filled');
+		}
+	});
+	
+
 	// SIDEBAR - Si existe link a datasheet: asignar URL
 	if ( jQuery('#sidebar .cta-link').length ) {
 		var url = window.location.pathname;

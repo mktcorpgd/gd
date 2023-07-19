@@ -429,6 +429,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
+.fusion-layout-column.focused>label>span{transform:translateY(-160%);opacity:.6;font-size:.75em}
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
