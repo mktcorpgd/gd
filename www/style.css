@@ -393,7 +393,7 @@ div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:de
 .wpcf7 form .ajax-loader{background-image:none}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:var(--whiteColor);font-weight:600;background:var(--successColor);border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:var(--textFont);font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:var(--successColor);color:var(--whiteColor)}
-.mc4wp-checkbox-contact-form-7{display:block;font-size:.8em;text-align:center}
+.mc4wp-checkbox-contact-form-7{display:block;margin-top:.75em;font-size:.8em;text-align:center}
 .mc4wp-checkbox-contact-form-7 label{cursor:pointer}
 .mc4wp-checkbox-contact-form-7 input{display:inline-block;margin:0 .5em 0 0;position:relative;bottom:1px}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
@@ -423,7 +423,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.2em .4em;position:absolute;top:19px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:var(--whiteColor);border-radius:6px 6px 0 0;box-shadow:inset 0 0 0 0 var(--metaColor);z-index:10;pointer-events:none}
-.fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-90%);background:var(--whiteAltColor);box-shadow:inset 0 1px 0 0 var(--metaColor);font-size:.65em}
+.fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-90%) translateX(1px);background:var(--whiteAltColor);box-shadow:inset 0 1px 0 0 var(--metaColor);font-size:.65em}
 .fusion-layout-column.focused:hover>label>span:not(.wpcf7-form-control-wrap){box-shadow:inset 0 1px 0 0 var(--highlightColor)}
 .wpcf7-form .fusion-one-full input[type='email']{font-size:1.2em}
 .wpcf7 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7 .wpcf7-text.highlight,.wpcf7 .wpcf7-radio.highlight{font-size:1.1em}
