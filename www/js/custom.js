@@ -299,7 +299,7 @@ jQuery(document).ready(function() {
 	});
 
 	// FORMULARIOS - Eliminare placeholder
-	jQuery('.address_maps').removeAttr('placeholder');
+	jQuery('.address_maps,.pac_input').removeAttr('placeholder');
 
 
 	// FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
