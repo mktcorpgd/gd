@@ -427,7 +427,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
-.fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;position:absolute;top:18px;left:.4em;font-weight:400;font-size:1em;line-height:normal;color:var(--grayColor);z-index:10;pointer-events:none}
+.fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;position:absolute;top:18px;left:.4em;font-weight:400;font-size:1em;line-height:normal;color:var(--metaColor);z-index:10;pointer-events:none}
 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-160%);opacity:.6;font-size:.75em}
 
 /* Botones */
