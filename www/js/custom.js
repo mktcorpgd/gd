@@ -298,6 +298,9 @@ jQuery(document).ready(function() {
 		jQuery(this).capitalize();
 	});
 
+	// FORMULARIOS - Eliminare placeholder
+	jQuery('.address_maps').removeAttr('placeholder');
+
 
 	// FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
 	jQuery('.wpcf7-submit:not([readonly])').on('click',function(e) {
