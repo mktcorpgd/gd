@@ -40,8 +40,8 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{vis
 /* General */
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
 body{font-size:16px;line-height:1.6}
-a,li,i,.wpcf7 input,.wpcf7 button,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text,.fusion-pricing-table .panel-wrapper .fusion-panel,.fusion-pricing-table .panel-wrapper .panel-heading h3,.fusion-footer .fusion-social-network-icon,.fusion-post-content{transition:all .1s ease-in-out!important}
-.fusion-main-menu>ul>li>a .fusion-caret,.related-posts .awb-carousel .swiper-slide,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-blog-layout-grid .fusion-post-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.hover-boxes *,.fusion-portfolio.not-collapsable *,.fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){transition:all .3s ease-in-out!important}
+a,li,i,.wpcf7 input,.wpcf7 button,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text,.fusion-pricing-table .panel-wrapper .fusion-panel,.fusion-pricing-table .panel-wrapper .panel-heading h3,.fusion-footer .fusion-social-network-icon,.fusion-post-content,.fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){transition:all .1s ease-in-out!important}
+.fusion-main-menu>ul>li>a .fusion-caret,.related-posts .awb-carousel .swiper-slide,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-blog-layout-grid .fusion-post-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.hover-boxes *,.fusion-portfolio.not-collapsable *{transition:all .3s ease-in-out!important}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
 .post-content p b,.post-content p strong,.content-container strong{font-weight:600}
@@ -368,7 +368,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
 .wpcf7 input:not([type='submit']),.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{padding:.5em .8em;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-size:.9em;font-weight:400;z-index:1}
+#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{margin:.5em 0 .25em;padding:.5em .8em;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;z-index:1}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{width:100%}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.425em .5em}
@@ -380,19 +380,16 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 div.wpcf7 input[type='file']{cursor:pointer}
 div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:default}
 .wpcf7-select-parent .wpcf7-select{appearance:auto}
-.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,.wpcf7-radio.highlight{padding:.4em;font-size:1.6rem;font-weight:600;height:auto}
 .wpcf7-radio input{margin-top:0;margin-right:.2em;position:relative;top:-2px}
 .wpcf7-list-item{margin:0 .75em 0 0}
 .wpcf7-list-item.last{margin-right:0}
 .wpcf7-list-item-label{cursor:pointer}
-.wpcf7 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7 .wpcf7-text.highlight,.wpcf7 .wpcf7-radio.highlight{font-size:1.1em}
 .wpcf7 textarea,#respond textarea{height:85px}
 .wpcf7-form input[disabled],.wpcf7-form select[disabled],.wpcf7-form textarea[disabled]{opacity:.4}
 .wpcf7.sending,.wpcf7 input.sending,.wpcf7 select.sending,.wpcf7 input.sending{cursor:wait}
 .wpcf7-form input[type='submit'].sending,.wpcf7-form input[type='submit'].sending:hover,.wpcf7-form input[type='submit'].sending:focus{color:var(--grayColor)!important;background:var(--whiteColor)!important;border-color:var(--grayColor)!important}
 .wpcf7.sending form>div{opacity:.6}
 .wpcf7.sending:after{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;z-index:10}
-.wpcf7-form .fusion-one-full input[type='email']{font-size:1.2em}
 .wpcf7 form .ajax-loader{background-image:none}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:var(--whiteColor);font-weight:600;background:var(--successColor);border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:var(--textFont);font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:var(--successColor);color:var(--whiteColor)}
@@ -401,7 +398,6 @@ div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:de
 .mc4wp-checkbox-contact-form-7 input{display:inline-block;margin:0 .5em 0 0;position:relative;bottom:1px}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
 .wpcf7-form-control-wrap{position:relative}
-div.wpcf7 .fusion-layout-column{margin-bottom:0}
 div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:var(--titleFont);letter-spacing:1px;color:var(--grayColor);z-index:10}
 .wpcf7-free-text{margin-top:10px}
 .wpcf7-free-text:not([disabled]){display:block}
@@ -414,7 +410,6 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-select-parent+.wpcf7-not-valid-tip{right:20px}
 .wpcf7-radio+.wpcf7-not-valid-tip{top:20px}
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
-.wpcf7 .fusion-layout-column .wpcf7-form-control-wrap:not(.mc4wp-checkbox),#respond .fusion-layout-column .wpcf7-form-control-wrap{display:block;margin-bottom:.5em}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}
 .wpcf7 .fusion-one-full .wpcf7-response-output+em{display:block;width:100%;margin:.5em 0 1em;font-size:.8rem!important;line-height:1.2;text-align:center}
 .wpcf7-form:not(.init) div.wpcf7-response-output,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{float:left;width:100%;margin:.5em auto;padding:.4em .6em;position:relative;text-align:center;border:none!important}
@@ -427,8 +422,13 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .fusion-modal-text-link{display:block;margin:10px 0 5px}
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
+.fusion-layout-column>label{font-size:.9em}
 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;position:absolute;top:18px;left:.4em;font-weight:400;font-size:1em;line-height:normal;color:var(--metaColor);z-index:10;pointer-events:none}
 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-160%);opacity:.6;font-size:.75em}
+.wpcf7-form .fusion-one-full input[type='email']{font-size:1.2em}
+.wpcf7 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7 .wpcf7-text.highlight,.wpcf7 .wpcf7-radio.highlight{font-size:1.1em}
+.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,.wpcf7-radio.highlight{padding:.4em;font-size:1.6rem;font-weight:600;height:auto}
+
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
