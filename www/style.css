@@ -425,8 +425,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.2em .4em;position:absolute;top:19px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px 6px 0 0;box-shadow:inset 0 0 0 0 var(--metaColor);z-index:10;pointer-events:none}
 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-90%) translateX(1px);background:var(--whiteAltColor);box-shadow:inset 0 1px 0 0 var(--metaColor);font-size:.65em}
 .fusion-layout-column.focused:hover>label>span:not(.wpcf7-form-control-wrap){box-shadow:inset 0 1px 0 0 var(--highlightColor)}
-.wpcf7 .wpcf7-select-parent .wpcf7-select.highlight,.wpcf7 .wpcf7-text.highlight,.wpcf7 .wpcf7-radio.highlight{font-size:1.1em}
-.wpcf7-select-parent .wpcf7-select.highlight,.wpcf7-text.highlight,.wpcf7-radio.highlight{padding:.4em;font-size:1.6rem;font-weight:600;height:auto}
 
 
 /* Botones */
@@ -816,7 +814,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
 	.post-password-form input[type='submit']{margin-top:1em!important}
-	.wpcf7-form-control.wpcf7-radio.highlight{padding:0}
 
 	/* Contenidos */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
