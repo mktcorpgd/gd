@@ -536,8 +536,8 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .pac-container{margin-top:.25em;border-radius:6px 6px 12px 12px;box-shadow:0 0 24px rgba(0,0,0,.2);z-index:999999}
 .pac-item{padding:.2em .8em;font-size:.8em;font-family:var(--textFont);border-top: 1px solid var(--lightgrayColor);cursor:pointer}
 .controls.pac-target-input.warning,.controls.pac-target-input.sent{font-weight:bold}
-.controls.pac-target-input.warning{border-color:var(--warningColor);background:var(--warningColor);color:var(--whiteColor)}
-.controls.pac-target-input.sent,.wpcf7 input:not([type='submit']).highlight.sent{border-color:var(--successColor);background:var(--successColor);color:var(--whiteColor)}
+.controls.pac-target-input.warning{border-color:var(--warningColor);background:var(--warningColor)!important;color:var(--whiteColor)}
+.controls.pac-target-input.sent,.wpcf7 input:not([type='submit']).highlight.sent{border-color:var(--successColor);background:var(--successColor)!important;color:var(--whiteColor)}
 .controls.pac-target-input.sent::placeholder,.controls.pac-target-input.warning::placeholder{color:var(--whiteColor)}
 
 /* Cajas con íconos */
