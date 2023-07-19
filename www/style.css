@@ -275,6 +275,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .hover-boxes .fusion-layout-column .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{margin:0;position:absolute;bottom:0;right:10px;opacity:0}
 .fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{padding:0}
 .hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper:hover .fusion-buttons{bottom:-20px;opacity:1}
+.hover-boxes .fusion-portfolio-content-wrapper h2 a{padding-bottom:1rem}
 
 /* Grilla */
 .fusion-post-content-container{margin:0!important}
