@@ -368,9 +368,9 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
 .wpcf7 input:not([type='submit']),.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{margin:.75em 0 0;padding:.7em .8em;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;z-index:1}
+#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{padding:.7em .8em;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;z-index:1}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{width:100%}
+#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{margin:.75em 0 0;width:100%}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.425em .5em}
 .wpcf7-select.selected{color:var(--textColor)}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
