@@ -193,6 +193,7 @@ table th{font-size:1.1em}
 .fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){height:auto;padding-top:2em;padding-bottom:2em;background:none;border:none}
 .fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important;font-size:3em;line-height:1.1!important}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
+.fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-item+.fusion-breadcrumb-item{margin-left:10px;padding-left:10px;margin-left:1px solid var(--lightgrayColor)}
 
 /* Contenidos */
 .post-content a[src*='.jpg'],.post-content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
