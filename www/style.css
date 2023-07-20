@@ -35,7 +35,6 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
 .pac-icon,.pac-logo:after{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .more-info{display:none}
-body.single-format-standard:not(.single-avada_portfolio) .fusion-breadcrumbs{visibility:hidden}
 
 /* General */
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
@@ -269,7 +268,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .project-info{border:4px solid var(--lightgrayColor);background:var(--whiteAltColor);border-radius:12px;padding:1em}
 .project-info-box{margin-bottom:0!important;border-bottom:none!important}
 .project-info-box+.project-info-box{padding-bottom:0!important}
-.project-content > div.project-info > div:nth-child(3) .project-terms{padding:.5em 1em;font-family:'Neo-Sans',sans-serif;font-size:1.2em;font-weight:500;pointer-events:none}
+.project-content > div.project-info > div:nth-child(3) .project-terms{font-family:'Neo-Sans',sans-serif;font-size:1.2em;font-weight:500;pointer-events:none}
 .project-content > div.project-info > div:nth-child(3) .project-terms a{color:var(--mainColor)}
 
 /* Hover Boxes */
