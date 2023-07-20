@@ -269,7 +269,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .project-info{border:3px solid var(--extraColor);border-radius:12px;padding:1em}
 .project-info-box{margin-bottom:0;border-bottom:none}
 .project-info-box+.project-info-box{padding-bottom:0}
-.project-content > div.project-info > div:nth-child(3) .project-terms{display:block;padding:1em;width:100%;background:var(--mainColor);border-radius:6px;font-family:'Neo-Sans',sans-serif;font-weight:500;pointer-events:none}
+.project-content > div.project-info > div:nth-child(3) .project-terms{display:block;padding:.5em 1em;width:100%;background:var(--mainColor);border-radius:6px;font-family:'Neo-Sans',sans-serif;font-weight:500;pointer-events:none}
 .project-content > div.project-info > div:nth-child(3) .project-terms a{display:block;color:var(--whiteColor)}
 
 
