@@ -768,7 +768,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-portfolio:not(.not-collapsable) article:not(.expanded) .fusion-post-content *{opacity:0}
 	.fusion-portfolio article .wp-video-shortcode.mejs-video{margin-bottom:.4em}
 	.fusion-portfolio article .more-info{display:block;padding:0 1.5rem .5rem;cursor:pointer;color:var(--metaColor);font-family:var(--textFont),var(--iconFont),sans-serif;font-weight:600}
-	.fusion-portfolio article .more-info:hover{text-decoration:underline}
+	.fusion-portfolio article .more-info:hover span{text-decoration:underline}
 	.fusion-portfolio article .more-info.open{margin-top:.5em;font-size:.8em;padding-bottom:0}
 	.fusion-portfolio article .more-info.open i{line-height:normal;transform:rotateX(180deg)}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;overflow:visible}
