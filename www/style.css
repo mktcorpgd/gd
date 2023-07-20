@@ -269,7 +269,8 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
     padding: 1em;
 }
 .project-info h3,.project-info-box h4,.project-terms a[href*='/flag-']+br{display:none}
-.project-content > div.project-info > div:nth-child(3) .project-terms a{display:block;background:var(--mainColor);color:var(--whiteColor);pointer-events:none}
+.project-content > div.project-info > div:nth-child(3) .project-terms{display:block;padding:1em;width:100%;background:var(--mainColor);pointer-events:none}
+.project-content > div.project-info > div:nth-child(3) .project-terms a{display:block;color:var(--whiteColor)}
 
 
 /* Hover Boxes */
