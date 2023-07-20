@@ -222,6 +222,7 @@ jQuery(document).ready(function() {
 		}
 	});
 
+	
 	// META - Categorías de países como banderas
 	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
 		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
