@@ -253,19 +253,24 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 1.5rem;position:absolute;top:-1px;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
 .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-'],body.avada_portfolio-template-default article.avada_portfolio[class*='portfolio_category-flag-']:before{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 2px var(--lightgrayColor);color:transparent;border-radius:32px;overflow:hidden}
-body.avada_portfolio-template-default article.avada_portfolio[class*='portfolio_category-flag-']:before{content:'';position:absolute;top:-16px;left:0}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 2px var(--lightgrayColor);color:transparent;border-radius:32px;overflow:hidden}
+.project-terms a[href*='/flag-']{width:24px;height:24px}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:2px}
-.no-featured-image .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-']{width:12px;height:12px}
-body.avada_portfolio-template-default article.avada_portfolio[class*='portfolio_category-flag-']:before{width:32px;height:32px}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-ar'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-ar:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-ar.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-br'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-br:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-br.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-cl'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-cl:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-cl.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-mx'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-mx:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-mx.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pe'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-pe:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pr'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-pr:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-uy:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
-.project-info{display:none}
+.no-featured-image .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-']{width:12px;height:12px}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-ar'],.project-terms a[href*='/flag-ar']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-ar.svg')}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-br'],.project-terms a[href*='/flag-br']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-br.svg')}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-cl'],.project-terms a[href*='/flag-cl']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-cl.svg')}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-mx'],.project-terms a[href*='/flag-mx']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-mx.svg')}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pe'],.project-terms a[href*='/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
+.project-info{display:none;border: 3px solid var(--extraColor);
+    border-radius: 12px;
+    padding: 1em;
+}
+.project-info h3,.project-info-box h4{display:none}
+.project-content > div.project-info > div:nth-child(3) .project-terms a{display:block;background:var(--mainColor);color:var(--whiteColor);pointer-events:none}
+
 
 /* Hover Boxes */
 .hover-boxes .fusion-layout-column{margin-top:-5em}
