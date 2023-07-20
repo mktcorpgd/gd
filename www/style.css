@@ -264,11 +264,8 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pe'],.project-terms a[href*='/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
-.project-info{display:none;border: 3px solid var(--extraColor);
-    border-radius: 12px;
-    padding: 1em;
-}
 .project-info h3,.project-info-box h4,.project-terms a[href*='/flag-']+br{display:none}
+.project-info{border:3px solid var(--extraColor);border-radius:12px;padding:1em}
 .project-content > div.project-info > div:nth-child(3) .project-terms{display:block;padding:1em;width:100%;background:var(--mainColor);pointer-events:none}
 .project-content > div.project-info > div:nth-child(3) .project-terms a{display:block;color:var(--whiteColor)}
 
