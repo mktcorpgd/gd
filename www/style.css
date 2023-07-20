@@ -403,9 +403,8 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-free-text{margin-top:10px}
 .wpcf7-free-text:not([disabled]){display:block}
 .wpcf7-not-valid:not(.highlight):not(.wpcf7-radio),.white .fusion-layout-column .wpcf7-not-valid:not(.highlight){background:var(--whiteColor)}
-.wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:var(--titleFont);line-height:1.5;font-weight:400;border-radius:3px;background:rgba(255,255,255,.6);color:var(--errorColor);font-size:.65em;z-index:1}
-.wpcf7-not-valid-tip:hover{background:rgba(255,255,255,.9)}
-.highlight+.wpcf7-not-valid-tip{background:rgba(255,255,255,.9)}
+.wpcf7-not-valid-tip{pointer-events:none;padding:0 4px;position:absolute;top:11px;right:11px;font-family:var(--titleFont);line-height:1.5;font-weight:400;border-radius:3px;background:var(--whiteColor);color:var(--errorColor);font-size:.65em;z-index:1}
+.wpcf7-not-valid-tip:hover{background:var(--whiteAltColor)}
 .fusion-one-half .wpcf7-not-valid-tip{right:10px}
 .fusion-one-half.fusion-column-last .wpcf7-not-valid-tip{right:11px}
 .wpcf7-select-parent+.wpcf7-not-valid-tip{right:20px}
