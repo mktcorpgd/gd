@@ -265,6 +265,7 @@ body.avada_portfolio-template-default article.avada_portfolio[class*='portfolio_
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pe'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-pe:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-pr'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-pr:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/categoria-producto-servicio/flag-uy'],body.avada_portfolio-template-default article.avada_portfolio.portfolio_category-flag-uy:before{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
+.project-info{display:none}
 
 /* Hover Boxes */
 .hover-boxes .fusion-layout-column{margin-top:-5em}
