@@ -272,7 +272,6 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .project-content > div.project-info > div:nth-child(3) .project-terms{padding:.5em 1em;font-family:'Neo-Sans',sans-serif;font-size:1.2em;font-weight:500;pointer-events:none}
 .project-content > div.project-info > div:nth-child(3) .project-terms a{color:var(--mainColor)}
 
-
 /* Hover Boxes */
 .hover-boxes .fusion-layout-column{margin-top:-5em}
 .hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
@@ -596,6 +595,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-single-line-meta,.fusion-portfolio-meta{margin-top:-8px!important;padding:0 1.5rem .8rem;line-height:1.2}
 .post .fusion-meta-info{margin:.5em 0;padding:0;border:none;background:none}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{color:var(--metaColor)}
+.awb-breadcrumb-list{font-size:0}
+.awb-breadcrumb-list *{font-size:.8rem}
 
 /* Colapsables */
 .fusion-accordian .fusion-toggle-icon-wrapper i{background:none!important}
