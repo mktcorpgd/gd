@@ -268,7 +268,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .project-info{border:2px solid var(--lightgrayColor);background:var(--whiteAltColor);border-radius:12px;padding:1em}
 .project-info-box{margin-bottom:0!important;border-bottom:none!important}
 .project-info-box+.project-info-box{padding-bottom:0!important}
-.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']){display:block;margin-top:.5em;font-size:.8em;color:var(--grayColor)!important;pointer-events:none}
+.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']){display:block;margin-top:.5em;font-size:.8em;color:var(--metaColor)!important;pointer-events:none}
 .project-content > div.project-info > div:nth-child(3) .project-terms{display:block;padding:.5em 1em;width:100%;background:var(--mainColor);border-radius:6px;font-family:'Neo-Sans',sans-serif;font-size:1.2em;font-weight:500;pointer-events:none}
 .project-content > div.project-info > div:nth-child(3) .project-terms a{display:block;color:var(--whiteColor)}
 
