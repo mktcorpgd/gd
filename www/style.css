@@ -254,8 +254,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
 .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 2px var(--lightgrayColor);color:transparent!important;border-radius:32px;overflow:hidden;pointer-events:none}
-.project-terms a[href*='/flag-']{margin:.5em}
-.project-terms a:not([href*='/flag-']){display:block;margin-top:.5em;font-size:.8em;color:var(--grayColor);pointer-events:none}
+.project-terms a[href*='/flag-']{margin:.25em}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:2px}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-']{width:12px;height:12px}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-ar'],.project-terms a[href*='/flag-ar']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-ar.svg')}
@@ -266,10 +265,11 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
 .project-info h3,.project-info-box h4,.project-terms a[href*='/flag-']+br{display:none}
-.project-info{border:2px solid var(--grayColor);background:var(--lightgrayColor);border-radius:12px;padding:1em}
-.project-info-box{margin-bottom:0;border-bottom:none}
-.project-info-box+.project-info-box{padding-bottom:0}
-.project-content > div.project-info > div:nth-child(3) .project-terms{display:block;padding:.5em 1em;width:100%;background:var(--mainColor);border-radius:6px;font-family:'Neo-Sans',sans-serif;font-weight:500;pointer-events:none}
+.project-info{border:2px solid var(--lightgrayColor);background:var(--whiteAltColor);border-radius:12px;padding:1em}
+.project-info-box{margin-bottom:0!important;border-bottom:none!important}
+.project-info-box+.project-info-box{padding-bottom:0!important}
+.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']){display:block;margin-top:.5em;font-size:.8em;color:var(--grayColor)!important;pointer-events:none}
+.project-content > div.project-info > div:nth-child(3) .project-terms{display:block;padding:.5em 1em;width:100%;background:var(--mainColor);border-radius:6px;font-family:'Neo-Sans',sans-serif;font-size:1.2em;font-weight:500;pointer-events:none}
 .project-content > div.project-info > div:nth-child(3) .project-terms a{display:block;color:var(--whiteColor)}
 
 
