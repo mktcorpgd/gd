@@ -265,7 +265,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pe'],.project-terms a[href*='/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
-.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']){display:none}
+.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 .project-info{border:2px solid var(--lightgrayColor);background:var(--whiteAltColor);border-radius:12px;padding:1em}
 .project-info-box{margin-bottom:0!important;border-bottom:none!important}
 .project-info-box+.project-info-box{padding-bottom:0!important}
