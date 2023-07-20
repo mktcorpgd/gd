@@ -215,6 +215,13 @@ jQuery(document).ready(function() {
 	}
 
 
+	// PORTFOLIO - Sin padding para banderas en breadcrumb
+	jQuery('.fusion-breadcrumb-item').each(function(i) {
+		if ( jQuery(this).children('a').attr('href').indexOf('flag-') > -1 ) {
+			jQuery(this).addClass('nopadding');
+		}
+	});
+
 	// META - Categorías de países como banderas
 	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
 		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
