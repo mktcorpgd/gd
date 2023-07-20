@@ -253,7 +253,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 1.5rem;position:absolute;top:-1px;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
 .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 2px var(--lightgrayColor);color:transparent!important;border-radius:32px;overflow:hidden}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 2px var(--lightgrayColor);color:transparent!important;border-radius:32px;overflow:hidden;pointer-events:none}
 .project-terms a[href*='/flag-']{margin:.5em}
 .project-terms a:not([href*='/flag-']){display:block;margin-top:.5em;font-size:.8em;color:var(--grayColor);pointer-events:none}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:2px}
