@@ -584,7 +584,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 
 /* Caja de texto */
 .fusion-reading-box-container .reading-box{padding:1em 1.4em;line-height:1.6;border-radius:12px;border-width:3px!important}
-.fusion-reading-box-container .reading-box h2{font-weight:400!important;font-size:1.3em;line-height:1.25}
+.fusion-reading-box-container .reading-box h2{text-align:left;font-size:1.3em;line-height:1.25}
 .fusion-reading-box-container .reading-box .reading-box-description{font-size:1.1em;line-height:1.5;font-family:var(--textFont);font-weight:400}
 
 /* Metas */
