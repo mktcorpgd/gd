@@ -2,7 +2,11 @@ jQuery(document).ready(function() {
 
 	// Ocultar partners
 	if ( jQuery('.no-partners').length ) {
-		jQuery('#partners_footer,.fusion-main-menu-search,.fusion-footer-widget-area').hide();
+		jQuery('#wrapper').addClass('no-partners');
+	}
+	// Ocultar menú en footer
+	if ( jQuery('.no-footer-menus').length ) {
+		jQuery('#wrapper').addClass('no-footer-menus');
 	}
 	// Mobile - Trasladar elementos del menú
 	if ( jQuery(window).width() < 920 ) {
