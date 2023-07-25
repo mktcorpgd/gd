@@ -547,10 +547,18 @@ jQuery(document).ready(function() {
 			}
 		});
 	}
+
+
+	// FORMULARIOS - Reemplazar nombres de usuarios con espacio
+	if ( jQuery('input[name=USRURL').length ) {
+		jQuery('input[name=USRURL').val().replace(' ','-');
+	}
 	
+
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
 	jQuery('body.postid-49885 #content .toggle-box').show();
 	jQuery('body.postid-49885 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+
 
 	// LATERAL - Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();
@@ -569,7 +577,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	
 	// LATERAL - Expandir widget
 	jQuery('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
 	jQuery(document).on('click','.widget .widgettitle .topopup',function(e) {
