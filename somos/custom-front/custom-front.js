@@ -551,7 +551,8 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Reemplazar nombres de usuarios con espacio
 	if ( jQuery('input[name=USRURL').length ) {
-		jQuery('input[name=USRURL').val().replace(' ','-');
+		var usrurl = jQuery('input[name=USRURL').val().replace(' ','-');
+		jQuery('input[name=USRURL').val(usrurl);
 	}
 	
 
