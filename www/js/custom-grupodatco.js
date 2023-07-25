@@ -1,13 +1,5 @@
 jQuery(document).ready(function() {
 
-	// Ocultar partners
-	if ( jQuery('.no-partners').length ) {
-		jQuery('#wrapper').addClass('no-partners');
-	}
-	// Ocultar menú en footer
-	if ( jQuery('.no-footer-menus').length ) {
-		jQuery('#wrapper').addClass('no-footer-menus');
-	}
 	// Mobile - Trasladar elementos del menú
 	if ( jQuery(window).width() < 920 ) {
 		jQuery('.mobile-hidden>ul>li').appendTo('.mobile-append .sub-menu');

@@ -31,7 +31,8 @@ jQuery(document).ready(function() {
 	}
 
 
-	// MENÚ - Si tiene la clase: convertir en transparente el fondo del header
+	// SI TIENE CLASES:
+	// MENÚ - Fondo transparente
 	if ( jQuery('.post-content .header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
@@ -42,6 +43,14 @@ jQuery(document).ready(function() {
 	jQuery(window).scroll(function() {
 		scrollHeaderTransp();
 	});
+	// FOOTER - Ocultar partners
+	if ( jQuery('.no-partners').length ) {
+		jQuery('#wrapper').addClass('no-partners');
+	}
+	// FOOTER - Ocultar widgets de menú
+	if ( jQuery('.no-footer-menus').length ) {
+		jQuery('#wrapper').addClass('no-footer-menus');
+	}
 
 
 	// CONTENIDOS - Si slider está vacío:
