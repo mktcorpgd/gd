@@ -3,12 +3,3 @@
 
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
-.tfs-slider .fusion-title h2{font-size:2.6rem!important}
-.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.2rem!important;line-height:1.5!important}
-
-/* Desktop */
-@media (min-width: 920px) {
-	.tfs-slider ul.slides li .slide-content-container .slide-content {
-		padding-right: 50%;
-	}
-}

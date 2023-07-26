@@ -159,8 +159,8 @@ table th{font-size:1.1em}
 .fusion-modal[class*='empresas'] .modal-title{text-align:center}
 
 /* Hero/Slider */
-.tfs-slider .fusion-title h2{color:var(--whiteColor)!important;font-size:3.6rem!important;line-height:1.15!important}
-.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.6rem!important;line-height:1.25!important}
+.tfs-slider .fusion-title h2{color:var(--whiteColor)!important;font-size:2.6rem!important;line-height:1.15!important}
+.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.2rem!important;line-height:1.5!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 1rem}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.75)}
 .tfs-slider .flex-control-nav{bottom:-3em!important}
@@ -734,7 +734,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Slider */
 	.header-transparent .fusion-title.fusion-title-size-one{margin-bottom:.5em}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
-	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:37%}
+	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:50%}
 
 	/* Contenidos */
 	.width-800:not(.fusion-tabs),.width-800 .tab-content{margin-left:auto!important;margin-right:auto!important;width:800px!important}
