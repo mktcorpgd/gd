@@ -276,7 +276,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 
 /* Hover Boxes */
 .hover-boxes .fusion-layout-column{margin-top:-5em}
-.hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
+.hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;position:relative;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:30px;font-size:1.525em}
 .hover-boxes .fusion-layout-column .fusion-title *{margin:-.25em 0 0!important}
 .hover-boxes .fusion-layout-column i{position:absolute;top:.65em;right:.4em;font-size:2em;transform:rotate(10deg);opacity:.1}
