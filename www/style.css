@@ -634,6 +634,8 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title{margin-top:0;margin-bottom:0;font-size:1.2em;position:relative;z-index:10}
 .related-posts .fusion-carousel-title-below-image .fusion-carousel-title a{display:block;padding:.6rem .8rem}
 .fusion-image-carousel-fixed .awb-swiper .fusion-image-wrapper img{max-height:75px}
+.awb-swiper .fusion-carousel-item-wrapper{border:2px solid rgba(0,0,0,.2);border-radius:6px;overflow:hidden}
+.awb-swiper .fusion-carousel-item-wrapper a[data-rel*='iLightbox']{cursor:zoom-in}
 .awb-swiper:not(.swiper-fade) .swiper-wrapper{align-items:center}
 
 /* Galería */
