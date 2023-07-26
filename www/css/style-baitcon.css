@@ -3,6 +3,7 @@
 
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
+body.page-id-31819 .role-field,body.page-id-31819 .msg-field{display:none}
 
 /* Desktop */
 @media (min-width:920px) {
