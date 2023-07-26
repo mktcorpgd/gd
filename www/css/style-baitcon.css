@@ -3,3 +3,8 @@
 
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
+
+/* Desktop */
+@media (min-width:920px) {
+	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:50%}
+}

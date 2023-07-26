@@ -734,7 +734,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Slider */
 	.header-transparent .fusion-title.fusion-title-size-one{margin-bottom:.5em}
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
-	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:50%}
+	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:60%}
 
 	/* Contenidos */
 	.width-800:not(.fusion-tabs),.width-800 .tab-content{margin-left:auto!important;margin-right:auto!important;width:800px!important}
