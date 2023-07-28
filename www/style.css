@@ -189,7 +189,7 @@ table th{font-size:1.1em}
 .flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
 .awb-swiper-button-next,.awb-swiper-button-prev,.fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{background:none!important;opacity:.8}
 .awb-swiper-button-next:hover,.awb-swiper-button-prev:hover{opacity:1}
-.awb-swiper-button-next,.awb-swiper-button-prev{padding:0 .1em}
+.awb-swiper-button-next,.awb-swiper-button-prev{padding:0 .1em;font-size:2em}
 .fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
 
 /* Barra de título */
