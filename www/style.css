@@ -614,6 +614,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 /* Posts relacionados */
 .related-posts>.fusion-title{font-size:.9em}
 .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom-right-radius:24px}
+.fusion-image-carousel.radius1x .awb-carousel .swiper-slide .fusion-image-wrapper{border:2px solid var(--lightgrayColor)}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev{background:none!important;top:36%;left:initial!important;line-height:1}
 .awb-carousel .fusion-carousel-nav .fusion-nav-next:before,.awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{color:rgba(0,0,0,.6);font-size:2em!important}
 .fusion-body .awb-carousel .fusion-carousel-nav .fusion-nav-prev:before{right:1px}
