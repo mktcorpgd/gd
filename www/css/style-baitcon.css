@@ -9,6 +9,8 @@
 body.page-id-31819 .role-field,body.page-id-31819 .msg-field,body.page-id-31819 .fusion-footer-copyright-area,body.page-id-31925 .fusion-footer-copyright-area{display:none}
 body.page-id-31819 .wpcf7 .fusion-layout-column.org-field{width:100%}
 body.page-id-31819 .wpcf7 .fusion-layout-column.org-field input{border-radius:6px!important}
+body.page-id-31819 .awb-imageframe-caption{text-align:left}
+body.page-id-31819 .awb-imageframe-caption-title{font-family:var(--titleFont)}
 
 /* Desktop */
 @media (min-width:920px) {
