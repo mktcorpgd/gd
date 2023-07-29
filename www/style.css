@@ -733,6 +733,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
 	.fusion-widget-area.sticky{position:sticky;top:120px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
+	body.has-sidebar #main .sidebar{text-align:center}
+	body.has-sidebar #main .sidebar h3{margin-top:0}
 
 	/* Slider */
 	.header-transparent .fusion-title.fusion-title-size-one{margin-bottom:.5em}
@@ -756,6 +758,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar{margin:0 auto;float:none!important;width:80%!important;text-align:center}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{position:relative!important;top:0!important}
 	.hover-boxes .fusion-layout-column{margin-top:-5em;height:115%}
+	.fusion-page-title-bar .fusion-page-title-row h1{width:80%}
 
 	/* Tabs */
 	.fusion-filters .fusion-filter a{line-height:1.15}
