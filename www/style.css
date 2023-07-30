@@ -215,7 +215,6 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .legales .panel-body p{text-align:center;font-size:.7em;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 .project-content .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
-.single-related-posts{padding:0 2em}
 body.has-sidebar #main .sidebar{text-align:center}
 body.has-sidebar #main .sidebar h3{margin-top:0}
 
@@ -756,6 +755,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{position:relative!important;top:0!important}
 	.hover-boxes .fusion-layout-column{margin-top:-5em;height:115%}
 	.fusion-page-title-bar .fusion-page-title-row h1{width:80%}
+	.single-related-posts{padding:0 2em}
 
 	/* Tabs */
 	.fusion-filters .fusion-filter a{line-height:1.15}
