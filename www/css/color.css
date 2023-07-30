@@ -120,6 +120,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{background:var(--highlightColor)}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .widget-title,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content h3,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content a:not(.fusion-button){color:var(--whiteColor)}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit'],body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .fusion-button{background:var(--whiteColor);color:var(--highlightColor)}
-	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']:hover,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .fusion-button:hover{color:var(--subColor)}
+	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .fusion-button .fusion-button-text{color:var(--highlightColor)}
+	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .wpcf7-form input[type='submit']:hover,body.has-sidebar #main .sidebar .fusion-sidebar-inner-content .fusion-button:hover .fusion-button-text{color:var(--subColor)}
 
 }
