@@ -846,7 +846,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-page-title-bar .fusion-page-title-row h1{font-size:2em}
 	body.post-template-default.single .post-content .fusion-fullwidth{padding-left:0;padding-right:0}
 	.fusion-page-title-bar-left .fusion-page-title-secondary{margin-top:1em}
-	
+
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
 	.fusion-button-wrapper+.fusion-button-wrapper{margin:0!important}
@@ -856,6 +856,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Footer */
 	.fusion-footer-widget-area .widget-title{margin-top:3em}
-	.fusion-footer-widget-area ul li a{font-size:1.2em}
+	.fusion-footer-widget-area ul li a{font-size:1em}
 
 }
