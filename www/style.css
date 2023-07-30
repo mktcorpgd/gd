@@ -625,7 +625,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .gray-to-color .awb-carousel img:hover{filter:saturate(100%)}
 .related-posts .awb-swiper{overflow:visible}
 .related-posts .awb-carousel .fusion-carousel-holder{padding:0;width:100%!important;position:relative!important}
-.related-posts .awb-carousel .swiper-slide{display:inline-block;margin-left:0!important;margin-right:4%;margin-bottom:30px;position:relative;box-shadow:0 4px 12px -4px rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
+.related-posts .awb-carousel .swiper-slide{display:inline-block;margin-left:0!important;margin-right:4%;margin-bottom:30px;position:relative;box-shadow:0 0 12px -2px rgba(0,0,0,.4);border-radius:12px;overflow:hidden}
 .related-posts .awb-carousel .swiper-slide:last-child{margin-right:0}
 .related-posts .awb-carousel .swiper-slide .fusion-carousel-item-wrapper{visibility:visible}
 .related-posts .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{display:block}
@@ -766,7 +766,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	
 	/* Posts relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
-	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px -2px rgba(0,0,0,.4)}
+	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px 0 rgba(0,0,0,.5)}
 	
 	/* Portfolio */
 	.fusion-portfolio:not(.not-collapsable) article.expanded,.fusion-portfolio:not(.not-collapsable) article.expanded .fusion-post-content,.fusion-portfolio:not(.not-collapsable) article.expanded .fusion-col-spacing,.fusion-portfolio:not(.not-collapsable) .fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
