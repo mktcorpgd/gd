@@ -216,6 +216,8 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .ilightbox-toolbar.smooth a{border-radius:6px}
 .project-content .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
 .single-related-posts{padding:0 2em}
+body.has-sidebar #main .sidebar{text-align:center}
+body.has-sidebar #main .sidebar h3{margin-top:0}
 
 /* Búsqueda */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
@@ -730,8 +732,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
 	.fusion-widget-area.sticky{position:sticky;top:120px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
-	body.has-sidebar #main .sidebar{text-align:center}
-	body.has-sidebar #main .sidebar h3{margin-top:0}
 
 	/* Slider */
 	.header-transparent .fusion-title.fusion-title-size-one{margin-bottom:.5em}
