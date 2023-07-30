@@ -754,7 +754,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar{margin:0 auto;float:none!important;width:80%!important;text-align:center}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{position:relative!important;top:0!important}
 	.hover-boxes .fusion-layout-column{margin-top:-5em;height:115%}
-	.fusion-page-title-bar .fusion-page-title-row h1{width:80%}
+	body.post-template-default.single .fusion-page-title-bar .fusion-page-title-row h1{width:80%}
 	.single-related-posts{padding:0 2em}
 
 	/* Tabs */
