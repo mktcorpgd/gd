@@ -483,7 +483,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #UseyourDrive .tippy-content li>a,.UseyourDrive .tippy-content li>a{padding:.8em .6em;font-family:'neo-sans',sans-serif}
 #UseyourDrive .tippy-content .nav-sorting-list .sort-selected{font-weight:500}
 #UseyourDrive .files .entry{margin:.4em 0}
-#UseyourDrive .files .entry.folder{width:49%!important;margin:.4em .5%}
+#UseyourDrive .files.wpcp-thumb-view .entry.folder{width:49%!important;margin:.4em .5%}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry{border-radius:6px}
 #UseyourDrive .UseyourDrive.files.wpcp-list-view .entry:last-child{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 #UseyourDrive [data-layout=list] .entry,#UseyourDrive .nav-header{padding:0 .4em}
