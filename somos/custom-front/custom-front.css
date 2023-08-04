@@ -820,6 +820,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
 	.bottom_logos{font-size:1.2em;line-height:1.5}
 	.bottom_logos a img{width:120px}
+	.post-loop .category-reportes {display: grid;grid-template-columns: 35% 65%}
 }
 
 /* Mobile */
