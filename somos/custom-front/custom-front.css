@@ -813,7 +813,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
 	body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
 	body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
-	body.post-loop.category-reportes{display: grid;grid-template-columns: 35% 65%}
+	section.post-loop.category-reportes{display: grid;grid-template-columns: 35% 65%}
 	#UseyourDrive.video .jp-video{min-height:370px}
 	.ui-widget-content{float:left}
 	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
