@@ -1,1 +1,0 @@
-jQuery(document).ready((function(){if(jQuery("body").hasClass("page-id-32849")&&jQuery("#wpcf7-f31529-p32849-o1 .wpcf7-submit").val("Descargar mapa de red"),jQuery(".type-srv").length){var e=jQuery(".type-srv a").attr("href");jQuery(".fusion-logo-link").attr("href",e)}}));
