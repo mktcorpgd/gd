@@ -427,7 +427,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-radio+.wpcf7-not-valid-tip{top:20px}
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}
-.wpcf7 .fusion-one-full .wpcf7-response-output+em{float:left;display:block;width:100%;margin:0 0 1em;font-size:.8rem!important;line-height:1.2;text-align:center}
+.wpcf7 .fusion-one-full .wpcf7-response-output+em{float:left;display:block;width:100%;margin:1em 0;font-size:.8rem!important;line-height:1.2;text-align:center}
 .wpcf7-form:not(.init) div.wpcf7-response-output,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{float:left;width:100%;margin:.5em auto;padding:.4em .6em;position:relative;text-align:center;border:none!important}
 .wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{margin:.4em auto}
 .wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.wpcf7-response-inner{width:fit-content;border:none;border-radius:6px;box-shadow:none;font-size:.875rem;line-height:1.2;font-style:italic;text-align:center;text-transform:none}
