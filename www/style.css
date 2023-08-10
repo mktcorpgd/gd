@@ -325,7 +325,6 @@ article.fusion-post-grid[class*='noticias'][class*='tag-'] .fusion-post-wrapper:
 .fusion-portfolio article .fusion-post-content .fusion-flex-column,.fusion-blog-layout-grid article .fusion-post-content-container .fusion-flex-column{margin:0}
 .fusion-portfolio article .fusion-post-content .wp-video,.fusion-blog-layout-grid article .fusion-post-content-container .wp-video{margin:.5em 0 0}
 .fusion-portfolio article .fusion-post-content blockquote,.fusion-blog-layout-grid article .fusion-post-content-container blockquote{padding-top:0;padding-bottom:0}
-.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
 .fusion-portfolio article .fusion-post-content ul,.fusion-blog-layout-grid article .fusion-post-content-container ul{margin-top:5px}
 
 /* Contador */
@@ -761,6 +760,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.single-related-posts{padding:0 2em}
 	#main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content{top:90px!important}
 	body.customize-support #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content{top:120px!important}
+	.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
 
 	/* Tabs */
 	.fusion-filters .fusion-filter a{line-height:1.15}
@@ -803,6 +803,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-author .fusion-author-title,.fusion-modal .modal-title,.fusion-widget-area h3,.post-content h3,.project-content h3,h3{font-size:1.4em}
 	.fusion-carousel-title,.fusion-person .person-author-wrapper .person-name,.fusion-person .person-author-wrapper .person-title,.fusion-rollover .fusion-rollover-content .fusion-rollover-title,.fusion-sharing-box h4,.fusion-tabs .nav-tabs > li .fusion-tab-heading,.fusion-tabs-widget .fusion-tabs-nav ul li a,.fusion-theme-sharing-box h4,.fusion-widget-area h4,.person-author-wrapper,.popover .popover-title,.post-content h4,.tribe-events-single ul.tribe-related-events li .tribe-related-events-title,h4{font-size:1.3em}
 	.fusion-widget-area h5,.post-content h5,h5{font-size:1.2em}
+	#main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.5em}
 
 	/* Sidebar */
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
@@ -827,6 +828,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 	.fullwidth-center{display:block;width:100%;text-align:center}
+	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header{padding-top:10px;padding-bottom:10px}
+	.fusion-secondary-menu>ul>li>a{font-size:.8em;text-align:center}
 
 	/* Formularios */
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
@@ -854,6 +857,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
 	.fusion-button-wrapper+.fusion-button-wrapper{margin:0!important}
+	.fusion-portfolio .fusion-button .fusion-button-text{font-size:1.2rem}
 
 	/* Tabs */
 	.fusion-filters{display:block}
