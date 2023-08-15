@@ -469,7 +469,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 
 /* Drive */
 .UseyourDrive.useyourdrive-modal{backdrop-filter:none}
-#UseyourDrive{margin-bottom:1em}
+#UseyourDrive{clear:both;margin-bottom:1em}
 #UseyourDrive div{font-size:.8rem;font-weight:400}
 #UseyourDrive .ajax-filelist{height:auto;min-height:auto;font-size:1em}
 #UseyourDrive .files .ajax-filelist{padding:0}
