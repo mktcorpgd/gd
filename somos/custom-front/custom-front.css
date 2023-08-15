@@ -792,7 +792,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .kit>.menu li.columns.three{width:31.33%}
 .kit>.menu li a{display:block;padding:.5em 1em;font-weight:400;text-decoration:none!important;background:#FAFAFA;border:2px solid #CCCCCC;border-radius:12px}
 .kit>.menu li a:hover{background:#F0582B;border-color:#FFFFFF;color:#FFFFFF!important}
-.kit>.menu li a:before{content:'';display:block;width:100%;font-size:48px;height:48px;font-family:'Font Awesome 6 Duotone'}
+.kit>.menu li a:before{content:'';display:block;width:100%;font-size:2em;height:48px;font-family:'Font Awesome 6 Duotone'}
 .kit>.menu li.pdf a:before{content:'\f1c1'}
 .kit>.menu li.doc a:before{content:'\e5ed'}
 
