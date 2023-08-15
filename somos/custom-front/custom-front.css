@@ -149,7 +149,8 @@ body.role- #header{top:0}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px;right:5px}
 #nav .menu li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:#FFFFFF}
-#nav .menu li.menu-item-has-children:hover:after{transform:rotateX(180deg)top:8px}
+#nav .menu li.menu-item-has-children:hover:after{transform:rotateX(180deg);top:8px}
+#nav .menu .sub-menu li.menu-item-has-children:hover:after{top:5px}
 
 /* Meta */
 .gp-meta-cats{font-size:0}
