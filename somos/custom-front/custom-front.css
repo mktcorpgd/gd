@@ -794,8 +794,6 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .kit>.menu li a:before{content:'';display:block;width:100%;height:48px;font-family:'Font Awesome 6 Duotone'}
 .kit>.menu li.pdf a:before{content:'\f1c1'}
 .kit>.menu li.doc a:before{content:'\e5ed'}
-.kit>.menu li.pdf a:before{content:'\f1c1'}
-.kit>.menu li.pdf a:before{content:'\f1c1'}
 
 /* Footer */
 #copyright{padding:2em 1em;font-family:'neo-sans',sans-serif;color:#555555}
