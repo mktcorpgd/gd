@@ -163,7 +163,7 @@ table th{font-size:1.1em}
 #sliders-container.has-content .background-image{background-size:cover!important}
 .fusion-body .header-transparent .fusion-title.fusion-title-size-one,.tfs-slider .fusion-title h1,.tfs-slider .fusion-title h2
 {color:var(--whiteColor)!important;font-size:2.6rem!important;line-height:1.15!important}
-.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1.2rem!important;line-height:1.5!important}
+.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4,.fusion-body .header-transparent .fusion-title.fusion-title-size-four{font-size:1.2rem!important;line-height:1.5!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 1rem}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.4)}
 .tfs-slider .flex-control-nav{bottom:-3em!important}
