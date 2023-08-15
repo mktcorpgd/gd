@@ -787,10 +787,10 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 
 /* Kit */
 .kit>.menu li{padding:.5em 1em;text-align:center;background:#FAFAFA;border:2px solid #999999;border-radius:12px}
-.kit>.menu li:hover{background:#F0582B;border-color:#FFFFFF;color:#FFFFFF}
-.kit>.menu li>a{display:block;font-size:1.4em;font-weight:400;font-family:'neo-sans',sans-serif}
-.kit>.menu li>a:before{content:'';display:block;width:100%;height:48px;font-family:'Font Awesome 6 Pro'}
-.kit>.menu li>a.pdf:before{content:'\f1c1'}
+.kit>.menu li a{display:block;font-size:1.4em;font-weight:400;font-family:'neo-sans',sans-serif;text-decoration:none}
+.kit>.menu li a:hover{background:#F0582B;border-color:#FFFFFF;color:#FFFFFF}
+.kit>.menu li a:before{content:'';display:block;width:100%;height:48px;font-family:'Font Awesome 6 Pro'}
+.kit>.menu li a.pdf:before{content:'\f1c1'}
 
 /* Footer */
 #copyright{padding:2em 1em;font-family:'neo-sans',sans-serif;color:#555555}
