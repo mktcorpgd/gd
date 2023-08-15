@@ -793,9 +793,10 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .kit>.menu li a{display:block;padding:.5em 1em;font-size:.9em;font-weight:400;text-decoration:none!important;color:#333333;background:#FAFAFA;border:2px solid #CCCCCC;border-radius:12px}
 .kit>.menu li a:hover{background:#F0582B;border-color:#FFFFFF;color:#FFFFFF!important}
 .kit>.menu li a:before{content:'';display:block;width:100%;font-size:3em;height:64px;font-family:'Font Awesome 6 Pro'}
+.kit>.menu li.file a:before{content:'\f15c'}
 .kit>.menu li.pdf a:before{content:'\f1c1'}
-.kit>.menu li.doc a:before{content:'\e5ed'}
-.kit>.menu li.ppt a:before{content:'\f1c4'}
+.kit>.menu li.word a:before{content:'\f1c2'}
+.kit>.menu li.pwrp a:before{content:'\f1c4'}
 
 /* Footer */
 #copyright{padding:2em 1em;font-family:'neo-sans',sans-serif;color:#555555}
