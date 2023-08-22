@@ -151,6 +151,7 @@ jQuery(document).ready(function() {
 
 	jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
 		jQuery(this).toggleClass('open');
+		e.stopPropagation();
 	});
 
 	// GENERAL - Si hay cumpleaños:
