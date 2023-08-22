@@ -113,7 +113,7 @@ jQuery(document).ready(function() {
 		}
 		office_class = office_class.substring(0,2);
 		unit_class = unit_class.substring(0,unit_class.indexOf(' '));
-		jQuery('h1.page-title').text('Kit de materiales para '+unit);
+		jQuery('title,h1.page-title').text('Kit de materiales para '+unit);
 		jQuery('.kit.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
 	}
 
