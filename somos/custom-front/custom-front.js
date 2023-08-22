@@ -99,6 +99,9 @@ jQuery(document).ready(function() {
 			var org = decodeURIComponent(jQuery.getPrm('org'));
 			var office = decodeURIComponent(jQuery.getPrm('office'));
 			var unit = decodeURIComponent(jQuery.getPrm('unit'));
+			if ( org == null || office == null || unit == null ) {
+				jQuery('No se encontró información. Por favor, utiliza el botón en el mail que te enviamos');
+			}
 		}
 		else {
 			var org = jQuery('input[name=gdORG_mc]').val();
