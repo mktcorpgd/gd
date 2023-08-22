@@ -149,6 +149,9 @@ jQuery(document).ready(function() {
 	}
 	gpHeaderMobileTopNav();
 
+	jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
+		jQuery(this).toggleClass('open');
+	});
 
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
