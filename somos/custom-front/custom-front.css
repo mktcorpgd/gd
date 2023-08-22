@@ -805,7 +805,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .wp-classic-menu-block>.menu ul{display:block;height:0;position:relative;left:auto!important;opacity:0;overflow:hidden}
 .wp-classic-menu-block>.menu ul.sub-menu{margin:0 0 0 1em!important}
 .wp-classic-menu-block>.menu li.open ul.sub-menu{height:auto;opacity:1}
-.wp-classic-menu-block>.menu li.menu-item.menu-item-has-children{margin:0!important}
+.wp-classic-menu-block>.menu li.open.menu-item.menu-item-has-children{margin:0!important}
 
 /* Footer */
 #copyright{padding:2em 1em;font-family:'neo-sans',sans-serif;color:#555555}
