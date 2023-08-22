@@ -86,6 +86,12 @@ jQuery(document).ready(function() {
 		
 	}
 
+	// KIT - Obtener UN y país
+	var org = decodeURIComponent(jQuery.getPrm('org'));
+	var ctry = decodeURIComponent(jQuery.getPrm('ctry'));
+	var org_class = normalize(org.toLowerCase());if(org_class.slice(-1)=='-'){org_class=org_class.slice(0,-1);}
+	var ctry_class = normalize(ctry.toLowerCase());if(ctry_class.slice(-1)=='-'){ctry_class=ctry_class.slice(0,-1);}
+
 
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
