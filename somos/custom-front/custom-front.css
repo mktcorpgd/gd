@@ -802,8 +802,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .kit>.menu li.pdf a:before{content:'\f1c1'}
 .kit>.menu li.word a:before{content:'\f1c2'}
 .kit>.menu li.pwrp a:before{content:'\f1c4'}
-.wp-classic-menu-block>.menu ul{display:block;height:0;position:relative}
-.wp-classic-menu-block>.menu li:hover>ul{height:auto}
+.wp-classic-menu-block>.menu ul{display:block;height:0;position:relative;left:auto!important}
+.wp-classic-menu-block>.menu li:hover>ul{margin-top:0!important;height:auto}
 
 /* Footer */
 #copyright{padding:2em 1em;font-family:'neo-sans',sans-serif;color:#555555}
