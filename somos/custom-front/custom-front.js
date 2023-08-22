@@ -87,29 +87,35 @@ jQuery(document).ready(function() {
 	}
 
 	// KIT - Obtener UN y país
-	jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
-		jQuery(this).toggleClass('open');
-		e.stopPropagation();
-	});
-	jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
-		e.preventDefault();
-	});
-	if ( org_class != null && office_class!= null ) {
-		var org = decodeURIComponent(jQuery.getPrm('org'));
-		var office = decodeURIComponent(jQuery.getPrm('office'));
-		var unit = decodeURIComponent(jQuery.getPrm('unit'));
-		var org_class = normalize(org.toLowerCase());
-		var office_class = normalize(office.toLowerCase());
-		var unit_class = normalize(unit.toLowerCase());
+	if ( jQuery('body').hasClass('page-id-54299') ) {
+		jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
+			jQuery(this).toggleClass('open');
+			e.stopPropagation();
+		});
+		jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
+			e.preventDefault();
+		});
+		if ( org_class != null && office_class!= null ) {
+			var org = decodeURIComponent(jQuery.getPrm('org'));
+			var office = decodeURIComponent(jQuery.getPrm('office'));
+			var unit = decodeURIComponent(jQuery.getPrm('unit'));
+			var org_class = normalize(org.toLowerCase());
+			var office_class = normalize(office.toLowerCase());
+			var unit_class = normalize(unit.toLowerCase());
+		}
+		else {
+			var org_class = jQuery('input[name=gdORG_mc]').val();
+			var office_class = normalize(jQuery('input[name=gdOFFICE_mc]').val());
+			var unit_class = normalize(jQuery('input[name=gdUNIT_mc]').val());
+			var org_class = normalize(jQuery('input[name=gdORG_mc]').val());
+			var office_class = normalize(jQuery('input[name=gdOFFICE_mc]').val());
+			var unit_class = normalize(jQuery('input[name=gdUNIT_mc]').val());
+		}
+		office_class = office_class.substring(0,2);
+		unit_class = unit_class.substring(0,unit_class.indexOf(' '));
+		jQuery('.kit.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
+		jQuery('.page-title').text('Kit para empresa país');
 	}
-	else {
-		var org_class = normalize(jQuery('input[name=gdORG_mc]').val());
-		var office_class = normalize(jQuery('input[name=gdOFFICE_mc]').val());
-		var unit_class = normalize(jQuery('input[name=gdUNIT_mc]').val());
-	}
-	office_class = office_class.substring(0,2);
-	unit_class = unit_class.substring(0,unit_class.indexOf(' '));
-	jQuery('.kit.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
 
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
