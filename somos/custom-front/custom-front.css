@@ -787,7 +787,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 
 /* Kit */
 .kit,.wp-classic-menu-block>.menu li{display:none!important}
-.wp-classic-menu-block>.menu.visible,.wp-classic-menu-block>.menu li.visible{display:block!important}
+.kit.visible,.wp-classic-menu-block>.menu li.visible{display:block!important}
 .wp-classic-menu-block>.menu ul{transition:all .3s ease-in-out}
 .kit>.menu li{display:block;padding:0}
 .kit.grid>.menu li{margin:1%;text-align:center}
