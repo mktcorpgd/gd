@@ -142,6 +142,9 @@ jQuery(document).ready(function() {
 		jQuery(this).toggleClass('open');
 		e.stopPropagation();
 	});
+	jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
+		e.preventDefault();
+	});
 
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
