@@ -95,7 +95,7 @@ jQuery(document).ready(function() {
 		jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
 			e.preventDefault();
 		});
-		if ( org_class != null && office_class!= null ) {
+		if ( !jQuery('body').hasClass('logged-in') ) {
 			var org = decodeURIComponent(jQuery.getPrm('org'));
 			var office = decodeURIComponent(jQuery.getPrm('office'));
 			var unit = decodeURIComponent(jQuery.getPrm('unit'));
