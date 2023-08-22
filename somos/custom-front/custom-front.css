@@ -796,15 +796,15 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .kit.file-list>.menu li{margin:0.5% 0;width:100%}
 .kit.file-list>.menu li a:before{display:inline-block;width:24px;height:auto;font-size:1.2em}
 .kit>.menu li a{display:block;padding:.5em 1em;font-size:.9em;font-weight:400;text-decoration:none!important;color:#333333!important;background:#FAFAFA;border:2px solid #CCCCCC;border-radius:12px}
-.kit>.menu li a:hover{background:#F0582B;border-color:#FFFFFF}
+.kit>.menu li a:hover{background:#F0582B;border-color:#F0582B}
 .kit>.menu li a:hover,.kit>.menu li a:hover:before{color:#FFFFFF!important}
 .kit>.menu li.file a:before{content:'\f15c'}
 .kit>.menu li.pdf a:before{content:'\f1c1'}
 .kit>.menu li.word a:before{content:'\f1c2'}
 .kit>.menu li.pwrp a:before{content:'\f1c4'}
 .wp-classic-menu-block>.menu ul{display:block;height:0;position:relative;left:auto!important;opacity:0;overflow:hidden}
-.wp-classic-menu-block>.menu ul.sub-menu{margin:0!important}
-.wp-classic-menu-block>.menu li.open>ul.sub-menu{height:auto;opacity:1}
+.wp-classic-menu-block>.menu ul.sub-menu{margin:0 0 0 1em!important}
+.wp-classic-menu-block>.menu li.open ul.sub-menu{height:auto;opacity:1}
 .wp-classic-menu-block>.menu li.menu-item.menu-item-has-children{margin:0!important}
 
 /* Footer */
