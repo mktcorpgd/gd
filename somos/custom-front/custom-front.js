@@ -87,12 +87,26 @@ jQuery(document).ready(function() {
 	}
 
 	// KIT - Obtener UN y país
-	var org = decodeURIComponent(jQuery.getPrm('org'));
-	var ctry = decodeURIComponent(jQuery.getPrm('ctry'));
-	var org_class = normalize(org.toLowerCase());if(org_class.slice(-1)=='-'){org_class=org_class.slice(0,-1);}
-	var ctry_class = normalize(ctry.toLowerCase());if(ctry_class.slice(-1)=='-'){ctry_class=ctry_class.slice(0,-1);}
-	console.log(org_class);
-	console.log(ctry_class);
+	jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
+		jQuery(this).toggleClass('open');
+		e.stopPropagation();
+	});
+	jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
+		e.preventDefault();
+	});
+	if ( org_class != null && office_class!= null ) {
+		var org = decodeURIComponent(jQuery.getPrm('org'));
+		var office = decodeURIComponent(jQuery.getPrm('office'));
+		var org_class = normalize(org.toLowerCase());if(org_class.slice(-1)=='-'){org_class=org_class.slice(0,-1);}
+		var office_class = normalize(office.toLower|Case());if(office_class.slice(-1)=='-'){office_class=office_class.slice(0,-1);}
+		jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).show();
+	}
+	else {
+		var org_class = jQuery('input[name=gdORG_mc]').val();
+		var office_class = jQuery('input[name=gdOFFICE_mc]').val();
+		jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).show();
+	}
+
 
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
@@ -138,13 +152,6 @@ jQuery(document).ready(function() {
 	}
 	gpHeaderMobileTopNav();
 
-	jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
-		jQuery(this).toggleClass('open');
-		e.stopPropagation();
-	});
-	jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
-		e.preventDefault();
-	});
 
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
