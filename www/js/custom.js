@@ -301,16 +301,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Convertir a letras capitales
-	jQuery.fn.capitalize = function(e) {
-		jQuery.each(this,function() {
-			var split = this.value.split(' ');
-			for (var i = 0,len = split.length; i < len; i++) {
-				split[i] = split[i].charAt(0).toUpperCase()+split[i].substr(1).toLowerCase();
-			}
-			this.value = split.join(' ');
-		});
-		return this;
-	};
+	jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
 	jQuery('input[name*="FNAME"],input[name*="LNAME"],input[name*="ROLE"]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});

@@ -2,31 +2,13 @@
 !function(){function t(){document.body.classList.add("loaded")}var e=document.getElementById("loftloader-wrapper");if(e){if(window.addEventListener("load",function(e){t()}),e.dataset&&e.dataset.showCloseTime){var a=parseInt(e.dataset.showCloseTime,10),n=!1,o=e.getElementsByClassName("loader-close-button");a&&o.length&&(setTimeout(function(){o[0].style.display=""},a),o[0].addEventListener("click",function(e){t()}))}e.dataset.maxLoadTime&&(n=e.dataset.maxLoadTime,(n=parseInt(n,10))&&setTimeout(function(){t()},n))}}();
 
 // Eliminar caracteres especiales
-function RemoveAccents(str) {
-	var accents = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
-	var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
-	str = str.split('');
-	var strLen = str.length;
-	var i,x;
-	for (var i=0; i<strLen; i++) {
-		if ( (x=accents.indexOf(str[i])) != -1 ) {
-			str[i] = accentsOut[x];
-		}
-	}
-	return str.join('');
-}
+var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
+
+// Obtener variables GET
+jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
 
 // Convertir texto a letras capitales
-jQuery.fn.capitalize = function(e) {
-	jQuery.each(this,function(){
-		var split = this.value.split(' ');
-		for (var i=0,len=split.length; i<len; i++) {
-			split[i] = split[i].charAt(0).toUpperCase()+split[i].substr(1).toLowerCase();
-		}
-		this.value = split.join(' ');
-	});
-	return this;
-};
+jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
 
 // FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit',function(e) {
