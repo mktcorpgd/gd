@@ -97,16 +97,19 @@ jQuery(document).ready(function() {
 	if ( org_class != null && office_class!= null ) {
 		var org = decodeURIComponent(jQuery.getPrm('org'));
 		var office = decodeURIComponent(jQuery.getPrm('office'));
-		var org_class = normalize(org.toLowerCase());if(org_class.slice(-1)=='-'){org_class=org_class.slice(0,-1);}
-		var office_class = normalize(office.toLower|Case());if(office_class.slice(-1)=='-'){office_class=office_class.slice(0,-1);}
+		var unit = decodeURIComponent(jQuery.getPrm('unit'));
+		var org_class = normalize(org.toLowerCase());
+		var office_class = normalize(office.toLowerCase());
+		var unit_class = normalize(unit.toLowerCase());
 	}
 	else {
 		var org_class = normalize(jQuery('input[name=gdORG_mc]').val());
 		var office_class = normalize(jQuery('input[name=gdOFFICE_mc]').val());
+		var unit_class = normalize(jQuery('input[name=gdUNIT_mc]').val());
 	}
 	office_class = office_class.substring(0,2);
-	jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible').show();
-
+	unit_class = unit_class.substring(0,unit_class.indexOf(' '));
+	jQuery('.wp-classic-menu-block>.menu.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
 
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
