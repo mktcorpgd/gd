@@ -109,8 +109,7 @@ jQuery(document).ready(function() {
 		var office_class = normalize(office.toLowerCase());
 		office_class = office_class.substring(0,2);
 		var unit_class = normalize(unit.toLowerCase());
-		console.log(unit_class);
-		unit_class = unit_class.substring(0,unit_class.indexOf(' '));
+		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		console.log(org_class);
 		console.log(office_class);
 		console.log(unit_class);
