@@ -99,13 +99,12 @@ jQuery(document).ready(function() {
 		var office = decodeURIComponent(jQuery.getPrm('office'));
 		var org_class = normalize(org.toLowerCase());if(org_class.slice(-1)=='-'){org_class=org_class.slice(0,-1);}
 		var office_class = normalize(office.toLower|Case());if(office_class.slice(-1)=='-'){office_class=office_class.slice(0,-1);}
-		jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).show();
 	}
 	else {
-		var org_class = jQuery('input[name=gdORG_mc]').val();
-		var office_class = jQuery('input[name=gdOFFICE_mc]').val();
-		jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).show();
+		var org_class = normalize(jQuery('input[name=gdORG_mc]').val());
+		var office_class = normalize(jQuery('input[name=gdOFFICE_mc]').val());
 	}
+	jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).show();
 	console.log(org_class);
 	console.log(office_class);
 
