@@ -105,8 +105,7 @@ jQuery(document).ready(function() {
 		var office_class = normalize(jQuery('input[name=gdOFFICE_mc]').val());
 	}
 	office_class = office_class.substring(0,2);
-	jQuery('.wp-classic-menu-block>.menu li').addClass('visible');
-	jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).show();
+	jQuery('.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible').show();
 
 
 	// ATRIBUTOS - Personalizar
