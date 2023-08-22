@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
 	}
 	office_class = office_class.substring(0,2);
 	unit_class = unit_class.substring(0,unit_class.indexOf(' '));
-	jQuery('.wp-classic-menu-block>.menu.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
+	jQuery('.kit.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
 
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
