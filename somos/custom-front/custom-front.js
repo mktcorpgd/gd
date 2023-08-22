@@ -114,7 +114,7 @@ jQuery(document).ready(function() {
 		var unit_class = normalize(unit.toLowerCase());
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('title,h1.page-title').text('Kit de materiales para '+unit);
-		jQuery('.kit.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
+		jQuery('.kit.'+unit_class+',.kit.un .wp-classic-menu-block>.menu li.'+org_class+',.kit.un .wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
 	}
 
 
