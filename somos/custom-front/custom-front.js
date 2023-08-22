@@ -99,23 +99,21 @@ jQuery(document).ready(function() {
 			var org = decodeURIComponent(jQuery.getPrm('org'));
 			var office = decodeURIComponent(jQuery.getPrm('office'));
 			var unit = decodeURIComponent(jQuery.getPrm('unit'));
-			var org_class = normalize(org.toLowerCase());
-			var office_class = normalize(office.toLowerCase());
-			var unit_class = normalize(unit.toLowerCase());
 		}
 		else {
 			var org = jQuery('input[name=gdORG_mc]').val();
 			var office = jQuery('input[name=gdOFFICE_mc]').val();
 			var unit = jQuery('input[name=gdUNIT_mc]').val();
-			var org_class = normalize(jQuery('input[name=gdORG_mc]').val());
-			var office_class = normalize(jQuery('input[name=gdOFFICE_mc]').val());
-			var unit_class = normalize(jQuery('input[name=gdUNIT_mc]').val());
 		}
+		var org_class = normalize(org.toLowerCase());
+		var office_class = normalize(office.toLowerCase());
 		office_class = office_class.substring(0,2);
+		var unit_class = normalize(unit.toLowerCase());
 		unit_class = unit_class.substring(0,unit_class.indexOf(' '));
 		jQuery('title,h1.page-title').text('Kit de materiales para '+unit);
 		jQuery('.kit.'+unit_class+',.wp-classic-menu-block>.menu li.'+org_class+',.wp-classic-menu-block>.menu li.'+office_class).addClass('visible');
 	}
+
 
 	// ATRIBUTOS - Personalizar
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
