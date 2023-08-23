@@ -559,10 +559,11 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-content-boxes .link-area-box-hover{color:inherit}
 .fusion-content-boxes.content-boxes-icon-on-top .content-container,.fusion-content-boxes.no-heading .heading,.fusion-content-boxes.no-heading-title .heading{margin-bottom:0}
 .fusion-content-boxes.content-boxes-icon-with-title .heading-with-icon .fontawesome-icon{text-align:center}
-.fusion-content-boxes.no-heading .content-container h4,.fusion-content-boxes.no-heading-title .content-container h4,.fusion-content-boxes .fusion-read-more-button{margin-top:0}
+.fusion-content-boxes.no-heading .content-container *,.fusion-content-boxes.no-heading-title .content-container *,.fusion-content-boxes .fusion-read-more-button{margin-top:0}
 .fusion-content-boxes.less-heading .heading,.fusion-content-boxes.less-heading .fusion-column{margin-bottom:.25em}
 .fusion-content-boxes .content-wrapper-background{padding:1em}
 .fusion-content-boxes .content-container img.aligncenter{margin-bottom:1.2em}
+.fusion-content-boxes.no-heading-title .content-container h4{font-size:1.4em}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
