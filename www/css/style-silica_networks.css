@@ -20,5 +20,6 @@ body.page-id-36729 .modal-lg .fusion-layout-column.fusion-column-first,body.page
 /* Desktop */
 @media (min-width:920px) {
 	body.page-id-36729 .modal-lg,body.page-child.parent-pageid-36729 .modal-lg{width:600px}
-	.tfs-slider ul.slides li.slide-id-38227 .slide-content-container .slide-content{padding-right:55%}
+	.tfs-slider ul.slides li.slide-id-36055 .slide-content-container .slide-content{padding-right:50%}
+	.tfs-slider ul.slides li.slide-id-38227 .slide-content-container .slide-content,.tfs-slider ul.slides li.slide-id-38282 .slide-content-container .slide-content{padding-right:55%}
 }
