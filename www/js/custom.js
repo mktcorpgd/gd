@@ -93,7 +93,6 @@ jQuery(document).ready(function() {
 	// CONTENIDO - Entradas: CTA antes de artículos relacionados
 	if ( jQuery('body.single-format-standard:not(.single-avada_portfolio)').length ) {
 		jQuery('#sidebar').insertAfter('.post-content');
-		jQuery('#respond').insertAfter('.related-posts');
 	}
 
 
