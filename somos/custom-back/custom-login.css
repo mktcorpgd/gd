@@ -9,7 +9,7 @@ a{color:#0E316E}
 a:active,a:hover,body.login #nav a:hover,body.login #nav a:focus{color:#FFFFFF!important;text-decoration:underline}
 #login{padding:.5em}
 #login form p{width:100%}
-body.login form,body.login .message,body.login #login_error{background:#FFFFFF;border:0!important;border-radius:24px;box-shadow:0 0 24px rgba(0,0,0,.1)}
+body.login form,body.login .message,body.login #login_error{background:#FFFFFF;border:0!important;border-radius:24px 24px 0 0;box-shadow:0 0 24px rgba(0,0,0,.1)}
 body.login .message,body.login #login_error{padding:10px!important;border:0!important;border-radius:6px;text-align:center}
 body.login .message{background:#1F4483;color:#FFFFFF}
 body.login .message a{color:#FFFFFF!important}
