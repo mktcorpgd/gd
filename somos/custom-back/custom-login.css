@@ -15,7 +15,7 @@ body.login .message{background:#1F4483;color:#FFFFFF}
 body.login .message a{color:#FFFFFF!important}
 body.login #login_error{background:#FF5151;color:#FFFFFF;padding-bottom:0}
 body.login #login_error a{display:inline-block;width:100%;font-weight:700;color:#FFFFFF!important}
-body.login div#login h1 a{margin:20px auto!important;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-ima_h-one_stroke-dark-128h.png')!important;background-size:contain;width:193px!important;height:64px!important;pointer-events:none!important}
+body.login div#login h1 a{margin:20px auto!important;background:none;width:100%!important;height:auto!important;text-indent:0}
 body.login label{margin-bottom:0;color:#555555;font-size:110%;font-family:'neo-sans',sans-serif;font-weight:400}
 body.login form{padding-bottom:25px}
 body:not(.login-action-lostpassword).login form{border-bottom-left-radius:0;border-bottom-right-radius:0}
