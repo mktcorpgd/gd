@@ -26,13 +26,13 @@ body.login input[type='text'],body.login input[type='password'],body.login form 
 body.login form input[type='checkbox']{width:20px;height:20px;border-radius:4px}
 body.login .button.wp-hide-pw{top:6px;color:#0E316E!important;box-shadow:none!important;border:none!important;outline:none!important}
 body.login #nav{margin-top:0;padding:0 0 30px}
-body:not(.login-action-lostpassword).login #nav:before{content:'Los datos de acceso son independientes de la red corporativa. Si no recordás tu contraseña, podés recuperar el acceso en el enlace debajo.';display:block;padding:15px 15px 5px;font-style:italic;font-size:.9em;line-height:1.4;background:#0E316E;color:#FFFFFF}
-body.login #nav a{display:block;padding:20px 0;box-shadow:none!important;font-size:120%;font-family:'neo-sans',sans-serif;font-weight:500;color:#FAFAFA;outline:none;text-decoration:none}
-body:not(.login-action-lostpassword).login #nav a{padding:0 20px 15px;box-shadow:none!important;color:#FFFFFF;background:#0E316E;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
+body:not(.login-action-lostpassword).login #nav:after{content:'Los datos de acceso son independientes de la red corporativa. Si no recordás tu contraseña, podés recuperar el acceso en el enlace debajo.';display:block;font-style:italic;line-height:1.3;color:#555555}
+body.login #nav a{font-family:'neo-sans',sans-serif;font-weight:500;color:#F0582B;outline:none;text-decoration:none}
+body:not(.login-action-lostpassword).login #nav a{color:#1F4483}
 input[type='radio']:checked:before,input[type='checkbox']:checked:before{width:22px;height:22px;font-size:22px;color:#0E316E;position:relative;top:1px}
 #wp-submit{float:none;display:inline;padding:.5em .8em;font-family:'neo-sans',sans-serif;font-size:1.3em;line-height:1.25;font-weight:500;white-space:normal;text-shadow:none;border-radius:12px}
 #wlcms-login-wrapper{background:none}
-#nav{text-align:center}
+v#na{background:#EAEAEA;padding:12px 24px 34px}
 .wp-core-ui .button-group.button-large .button,.wp-core-ui .button.button-large{background:#F0582B!important;border:0!important;border-radius:12px;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important}
 .wp-core-ui .button-group.button-large .button:hover,.wp-core-ui .button.button-large:hover{background:#1F4483!important;transform:translateY(1px)}
 .wp-core-ui .button-group.button-large .button:active,.wp-core-ui .button.button-large:active{transform:translateY(0)}
