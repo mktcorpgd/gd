@@ -491,6 +491,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .commentlist .children{border-left:30px solid var(--whiteAltColor);padding-left:10px}
 .single .comments-container{margin-top:40px}
 #comments .fusion-title{margin-bottom:5px}
+#respond{margin:1em auto;max-width:830px}
 #respond textarea{font-size:1.2em}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
