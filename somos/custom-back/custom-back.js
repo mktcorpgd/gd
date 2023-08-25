@@ -1,9 +1,5 @@
 jQuery(document).ready(function(){
 
-	
-	// LOGIN - Marcar "Recordarme"
-	jQuery('#rememberme').attr('checked',true);
-
 
 	// GENERAL - Cambiar idioma del botón en barra de administración
 	jQuery('#wp-admin-bar-maintenance_options>a[title*=Off]').text('Mantenimiento desactivado').attr('title','Mantenimiento desactivado');
