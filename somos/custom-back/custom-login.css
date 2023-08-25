@@ -26,7 +26,7 @@ body.login input[type='text'],body.login input[type='password'],body.login form 
 body.login form input[type='checkbox']{width:20px;height:20px;border-radius:4px}
 body.login .button.wp-hide-pw{top:6px;color:#0E316E!important;box-shadow:none!important;border:none!important;outline:none!important}
 body.login #nav{margin-top:0;padding:0 24px 12PX;background:#FFFFFF;border-bottom-left-radius:24px;border-bottom-right-radius:24px}
-body:not(.login-action-lostpassword).login #nav:after{background:#EAEAEA;content:'Los datos de acceso son independientes de la red corporativa. Si no recordás tu contraseña, podés recuperar el acceso en el enlace debajo.';display:block;margin-top:1em;padding:.5em 1em;border-radius:6px;font-style:italic;line-height:1.3;color:#555555}
+body:not(.login-action-lostpassword).login #nav:after{background:#EAEAEA;content:'Los datos de acceso en Somos Grupo Datco son independientes de la red corporativa.';display:block;margin-top:1em;padding:.5em 1em;border-radius:6px;font-style:italic;line-height:1.3;color:#555555}
 body.login #nav a{font-family:'neo-sans',sans-serif;color:#F0582B!important;box-shadow:none!important;outline:none;text-decoration:none}
 body.login #nav a:hover{color:#1F4483!important;text-decoration:underline!important}
 input[type='radio']:checked:before,input[type='checkbox']:checked:before{width:22px;height:22px;font-size:22px;color:#0E316E;position:relative;top:1px}
