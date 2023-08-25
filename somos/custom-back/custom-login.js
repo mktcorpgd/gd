@@ -1,2 +1,6 @@
-// LOGIN - Marcar "Recordarme"
-$('#rememberme').attr('checked',true);
+jQuery(document).ready(function(){
+
+	// LOGIN - Marcar "Recordarme"
+	jQuery('#rememberme').attr('checked',true);
+
+});
