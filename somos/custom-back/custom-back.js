@@ -2,7 +2,7 @@ jQuery(document).ready(function(){
 
 	
 	// LOGIN - Marcar "Recordarme"
-	jQuery('#rememberme').attr('checked',true);
+	jQuery('#rememberme').checked(true);
 
 
 	// GENERAL - Cambiar idioma del botón en barra de administración
