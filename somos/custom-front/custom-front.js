@@ -86,7 +86,7 @@ jQuery(document).ready(function() {
 		
 	}
 
-	// KIT - Obtener UN y país
+	// KIT
 	if ( jQuery('body').hasClass('page-id-54299') ) {
 		jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
 			jQuery(this).toggleClass('open');
@@ -95,19 +95,9 @@ jQuery(document).ready(function() {
 		jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
 			e.preventDefault();
 		});
-		if ( !jQuery('body').hasClass('logged-in') ) {
-			var org = decodeURIComponent(jQuery.getPrm('org'));
-			var office = decodeURIComponent(jQuery.getPrm('office'));
-			var unit = decodeURIComponent(jQuery.getPrm('unit'));
-			if ( org == null || office == null || unit == null ) {
-				jQuery('No se encontró información. Por favor, utiliza el botón en el mail que te enviamos');
-			}
-		}
-		else {
-			var org = jQuery('input[name=gdORG_mc]').val();
-			var office = jQuery('input[name=gdOFFICE_mc]').val();
-			var unit = jQuery('input[name=gdUNIT_mc]').val();
-		}
+		var org = jQuery('input[name=gdORG_mc]').val();
+		var office = jQuery('input[name=gdOFFICE_mc]').val();
+		var unit = jQuery('input[name=gdUNIT_mc]').val();
 		var org_class = normalize(org.toLowerCase());
 		var office_class = normalize(office.toLowerCase());
 		office_class = office_class.substring(0,2);
