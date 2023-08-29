@@ -492,7 +492,7 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .single .comments-container{margin-top:40px}
 #comments .fusion-title{margin-bottom:5px}
 #respond{margin:1em auto;max-width:830px}
-#respond textarea{font-size:1.2em}
+#respond textarea{font-size:1.1em}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
 .logged-in-as+#comment-textarea{margin-bottom:0}
@@ -757,7 +757,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-pricingtable-column.standout .panel-container{margin:-5px -20px;top:-5px;border-radius:12px}
 	body.single-format-standard:not(.single-avada_portfolio).has-sidebar #content{width:100%}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar{margin:0 auto;float:none!important;width:80%!important;text-align:center}
-	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{position:relative!important;top:0!important}
+	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{margin-top:2em;position:relative!important;top:0!important}
 	.hover-boxes .fusion-layout-column{margin-top:-5em;height:115%}
 	.single-related-posts{padding:0 2em}
 	.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
