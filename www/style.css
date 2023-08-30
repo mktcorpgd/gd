@@ -237,6 +237,7 @@ body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar 
 body.single-format-standard:not(.single-avada_portfolio) #main,body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{margin:0 auto;max-width:1100px}
 body.single-format-standard:not(.single-avada_portfolio) article>.flexslider{margin-bottom:0}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{padding-bottom:1em}
+body.single-format-standard:not(.single-avada_portfolio) .post-content{padding-top:3em}
 
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
@@ -754,7 +755,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.post-password-form input[type='submit']{margin-left:1em;position:relative;top:5px}
 	.post-password-form label input[type='password']{max-width:300px}
 	.fusion-pricingtable-column.standout .panel-container{margin:-5px -20px;top:-5px;border-radius:12px}
-	body.single-format-standard:not(.single-avada_portfolio) .post-content{margin:0 auto;padding-top:3em;padding-left:5%;padding-bottom:3em;width:80%;font-size:1.2em;border-bottom-left-radius:4px;border-left:4px solid var(--lightgrayColor)}
+	body.single-format-standard:not(.single-avada_portfolio) .post-content{margin:0 auto;padding-left:5%;padding-bottom:3em;width:80%;font-size:1.2em;border-bottom-left-radius:4px;border-left:4px solid var(--lightgrayColor)}
 	body.single-format-standard:not(.single-avada_portfolio).has-sidebar #content{width:100%}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar{margin:0 auto;float:none!important;width:80%!important;text-align:center}
 	body.single-format-standard:not(.single-avada_portfolio) .post-content+#sidebar>div{margin-top:2em;position:relative!important;top:0!important}
@@ -794,9 +795,10 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Mostrar/Ocultar */
 	.mobile-only{display:inline-block}
-	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before,.partners-logos .fusion-column-content:before,#partners_footer .fusion-row:before,.partners-logos .fusion-column-content:after,#partners_footer .fusion-row:after{display:none}
+	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before,.partners-logos .fusion-column-content:before,#partners_footer .fusion-row:before,.partners-logos .fusion-column-content:after,#partners_footer .fusion-row:after,.fusion-breadcrumbs{display:none}
 	
 	/* General */
+	.fusion-responsive-typography-calculated{--minFontSize:calc(var(--typography_factor) * 14)}
 	body{font-size:18px;line-height:1.6}
 	#main{padding-bottom:0}
 	.modal-content{margin-left:1em;margin-right:1em}
