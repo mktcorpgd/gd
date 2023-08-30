@@ -798,7 +798,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before,.partners-logos .fusion-column-content:before,#partners_footer .fusion-row:before,.partners-logos .fusion-column-content:after,#partners_footer .fusion-row:after,.fusion-breadcrumbs{display:none}
 	
 	/* General */
-	.fusion-responsive-typography-calculated{--minFontSize:calc(var(--typography_factor) * 14)}
 	body{font-size:18px;line-height:1.6}
 	#main{padding-bottom:0}
 	.modal-content{margin-left:1em;margin-right:1em}
