@@ -196,7 +196,7 @@ table th{font-size:1.1em}
 
 /* Barra de título */
 .fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){height:auto;padding-top:2em;padding-bottom:2em;background:none;border:none}
-.fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important;font-size:2.2em;line-height:1.1!important}
+.fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important;font-size:2.2em!important;line-height:1.1!important}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-item+.fusion-breadcrumb-item{margin-left:10px;padding-left:10px;margin-left:1px solid var(--lightgrayColor)}
 
@@ -851,7 +851,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.partners-logos .fusion-column-content,#partners_footer .fusion-row{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
 	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-fullwidth{padding-left:0;padding-left:0}
-	.fusion-page-title-bar .fusion-page-title-row h1{font-size:2em}
+	.fusion-page-title-bar .fusion-page-title-row h1{font-size:1.6em!important}
 	body.post-template-default.single .post-content .fusion-fullwidth{padding-left:0;padding-right:0}
 	.fusion-page-title-bar-left .fusion-page-title-secondary{margin-top:1em}
 
