@@ -223,6 +223,14 @@ jQuery(document).ready(function() {
 		mainClass: 'mfp-img-mobile',
 		tClose: 'Cerrar (Esc)',
 		tLoading: 'Cargando...',
+		gallery: {
+			enabled: true,
+			navigateByImgClick: true,
+			preload: [0,1],
+			tPrev: 'Anterior (tecla ←)',
+			tNext: 'Siguiente (tecla →)',
+			tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
+		},
 		image: {
 			tError: 'La imagen no pudo ser cargada.',
 			titleSrc: function(item) {
