@@ -194,7 +194,7 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Convertir a popup
 	jQuery('.wp-block-gallery').magnificPopup({
-		delegate: 'a',
+		delegate: 'figure',
 		type: 'image',
 		mainClass: 'mfp-img-mobile',
 		tClose: 'Cerrar (Esc)',
