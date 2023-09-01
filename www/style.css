@@ -818,6 +818,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.awb-icon-bars:before{content:'\f0c9'}
 	.fusion-open-submenu:before{content:'\f107'}
 	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
+	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded="false"]:before{transform:rotateX(0)}
+	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded="true"]:before{transform:rotateX(180deg)}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-mobile-nav-holder{max-height:50vh;overflow:auto}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder>ul{border:none}
