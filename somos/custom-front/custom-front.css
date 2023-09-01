@@ -547,7 +547,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_doc_lib_breadcrumb_item+.dashicons:before{content:'\f054'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-header{    letter-spacing: 0;
     font-family: 'neo-sans',sans-serif;
-    margin: 0!important;
+    margin: 0 0 .4em!important;
     padding: .6em 12px .4em;
 	background:#0E316E;
     border-radius: 6px;
