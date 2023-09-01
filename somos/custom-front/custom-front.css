@@ -538,8 +538,8 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center;}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:50%}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-2{flex-basis:25%}
-.mo_doc_lib_responsive-table .mo_doc_lib_fcol-3{flex-basis:15%}
-.mo_doc_lib_responsive-table .mo_doc_lib_fcol-4{flex-basis:10%}
+.mo_doc_lib_responsive-table .mo_doc_lib_fcol-4{flex-basis:15%}
+.mo_doc_lib_responsive-table .mo_doc_lib_fcol-5{flex-basis:10%}
 .mo_doc_lib_search_box__autocomplete{max-width:200px}
 .mo_doc_lib_search_box__inputbox{font-size:.9em}
 .mo_doc_lib_container{padding:0}
