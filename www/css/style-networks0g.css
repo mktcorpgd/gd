@@ -1,2 +1,5 @@
 /* 0G Networks */
 :root{--mainColor:#692D87;--subColor:#692D87;--highlightColor:#4D1968;}
+
+/* Custom */
+.fusion-logo img{height:32px}
