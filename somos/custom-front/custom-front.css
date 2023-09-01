@@ -543,8 +543,10 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_doc_lib_responsive-table .mo_doc_lib_table-header{    letter-spacing: 0;
     font-family: 'neo-sans',sans-serif;
     margin: 0!important;
-    padding: .8em 12px;
+    padding: .4em 12px;
     border-radius: 12px 12px 6px 6px;
+	font-size: .8rem;
+    text-transform: none;
 }
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row {
     font-family: 'open-sans',sans-serif;
