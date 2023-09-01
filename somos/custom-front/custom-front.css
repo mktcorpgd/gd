@@ -534,6 +534,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .ilightbox-holder.smooth.UseyourDrive{border-radius:12px;overflow:hidden}
 .ilightbox-header .tippy-content{padding-left:0;padding-right:0}
 
+#mo_doc_lib_container__loader{height:auto!important;border:none!important}
 .mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center;}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:50%}
 .mo_doc_lib_search_box__autocomplete{max-width:200px}
@@ -544,7 +545,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
     font-family: 'neo-sans',sans-serif;
     margin: 0!important;
     padding: .4em 12px;
-    border-radius: 12px 12px 6px 6px;
+    border-radius: 6px 6px 2px 2px;
 	font-size: .8rem;
     text-transform: none;
 }
