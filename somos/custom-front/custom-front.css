@@ -534,7 +534,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .ilightbox-holder.smooth.UseyourDrive{border-radius:12px;overflow:hidden}
 .ilightbox-header .tippy-content{padding-left:0;padding-right:0}
 
-.mo_doc_lib_responsive-table li{justify-content:flex-start}
+.mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center;}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:50%}
 .mo_doc_lib_search_box__autocomplete{max-width:200px}
 #mo_doc_lib_breadcrumb{padding:0;font-size:.9em}
@@ -542,16 +542,17 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_doc_lib_table-header{background:#0E316E}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-header{    letter-spacing: 0;
     font-family: 'neo-sans',sans-serif;
-    margin: 0;
+    margin: 0!important;
     padding: .8em 12px;
-    border-radius: 6px;
+    border-radius: 12px 12px 6px 6px;
 }
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row {
     font-family: 'open-sans',sans-serif;
-    margin: 0;
+    margin: 0!important;
     padding: .4em 12px;
     font-size: .9em;
     border-radius: 0;
+	box-shadow:none;
 }
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
