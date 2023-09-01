@@ -573,6 +573,20 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_sps_class_embed_folder{padding:0;border:2px solid #EAEAEA;border-radius:6px;color:#333333;}
 .mo_sps_class_embed_folder_image{border:none}
 .mo_sps_class_embed_folder_title{padding:.6em;font-size:.8rem}
+.modal{z-index:999999999}
+.modal-content{border-radius:12px}
+.iframe-header{font-family:'neo-sans',sans-serif;text-align:left;color:#333333}
+.close{position:relative}
+.close:before{content: '✖';
+    font-size: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+	color: #555555;
+}
 
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
