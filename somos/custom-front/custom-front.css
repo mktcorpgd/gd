@@ -569,7 +569,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_doc_lib_table-row:hover {
     background-color: #EAEAEA;
 }
-.mo_doc_lib_file_download{display:block;padding:.4em;background:#F0582B;border-radius:6px;color:#FFFFFF!important}
+.mo_doc_lib_file_download{display:block;padding:.4em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover{background:#1F4483}
 .mo_doc_lib_file_download:before{content:'\f33d';font-family:'Font Awesome 6 Pro'}
 .mo_doc_lib_file_download img{display:none}
