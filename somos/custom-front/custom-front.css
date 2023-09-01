@@ -572,7 +572,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_doc_lib_file_download{padding:.4em .6em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover{background:#1F4483}
 .mo_doc_lib_file_download:before{content:'\f33d';font-family:'Font Awesome 6 Pro'}
-.mo_doc_lib_folder[breadcrumb*='A4'],.mo_doc_lib_folder[breadcrumb*='assets'],.mo_doc_lib_folder[breadcrumb*='dev'],.mo_doc_lib_folder[breadcrumb*='print'],.mo_doc_lib_file[breadcrumb*='.ai'],.mo_doc_lib_file_download img{display:none}
+li[name='mo_doc_lib_folder'][breadcrumb*='A4'],li[name='mo_doc_lib_folder'][breadcrumb*='assets'],li[name='mo_doc_lib_folder'][breadcrumb*='dev'],li[name='mo_doc_lib_folder'][breadcrumb*='print'],li[name='mo_doc_lib_file'][breadcrumb*='.ai'],.mo_doc_lib_file_download img{display:none}
 
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
