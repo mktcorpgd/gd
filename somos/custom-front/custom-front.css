@@ -570,6 +570,9 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .mo_doc_lib_file_download{padding:.4em .6em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover{background:#1F4483}
 .mo_doc_lib_file_download:before{content:'\f33d';font-family:'Font Awesome 6 Pro'}
+.mo_sps_class_embed_folder{padding:0;border:2px solid #EAEAEA;border-radius:6px;color:#333333;}
+.mo_sps_class_embed_folder_image{border:none}
+.mo_sps_class_embed_folder_title{padding:.6em;font-size:.8rem}
 
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
