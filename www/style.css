@@ -43,7 +43,7 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro'}
 body{font-size:16px;line-height:1.6}
 a,li,i,.wpcf7 input,.wpcf7 button,.fusion-main-menu .fusion-menu-item-button .menu-text,.awb-carousel .fusion-carousel-nav .fusion-nav-next,.awb-carousel .fusion-carousel-nav .fusion-nav-prev,.yt-video:not(.playing):after,#wrapper.header-transparent .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-header-wrapper.on-top .fusion-header li[data-classes*='social-link'] a[href='#inicio'],.fusion-pricingtable-column .panel-container,.modal .modal-dialog,.fusion-open-submenu:before,.modal-header .close,.fusion-logo,#wrapper .product-category a h2.woocommerce-loop-category__title,.fusion-main-menu>ul>li>a .fusion-menu-description,a,a:after,a:before,.fusion-header-wrapper,.fusion-secondary-header,.fusion-main-menu .fusion-menu-item-button .menu-text,.fusion-pricing-table .panel-wrapper .fusion-panel,.fusion-pricing-table .panel-wrapper .panel-heading h3,.fusion-footer .fusion-social-network-icon,.fusion-post-content,.fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){transition:all .1s ease-in-out!important}
-.fusion-main-menu>ul>li>a .fusion-caret,.related-posts .awb-carousel .swiper-slide,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-blog-layout-grid .fusion-post-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.hover-boxes *,.fusion-portfolio.not-collapsable *{transition:all .3s ease-in-out!important}
+.fusion-main-menu>ul>li>a .fusion-caret,.related-posts .awb-carousel .swiper-slide,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-blog-layout-grid .fusion-post-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.hover-boxes *,.fusion-portfolio.not-collapsable *,.fusion-mobile-menu-icons a,.fusion-mobile-menu-design-modern .fusion-open-submenu{transition:all .3s ease-in-out!important}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
 .post-content p b,.post-content p strong,.content-container strong{font-weight:600}
@@ -819,7 +819,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-open-submenu:before{content:'\f107'}
 	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
 	.fusion-mobile-menu-icons a[aria-expanded='false']:before{transform:rotateY(0deg)}
-	.fusion-mobile-menu-icons a[aria-expanded='true']:before{transform:rotateY(90deg)}
+	.fusion-mobile-menu-icons a[aria-expanded='true']:before{transform:rotateY(90deg);opacity:.4}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded='false']:before{transform:rotateX(0deg)}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded='true']:before{transform:rotateX(180deg)}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
