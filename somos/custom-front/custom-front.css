@@ -543,7 +543,8 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 #mo_doc_lib_breadcrumb{padding:0;font-size:.9em}
 .mo_doc_lib_breadcrumb_item{margin:0;padding:0;background:none!important;box-shadow:none}
 .mo_doc_lib_breadcrumb_item:hover{color:#F0582B}
-.mo_doc_lib_breadcrumb_item+.dashicons{content:'\f054'!important;font-family:'Font Awesome 6 Pro';color:#999999;top:15px}
+.mo_doc_lib_breadcrumb_item+.dashicons{font-family:'Font Awesome 6 Pro';color:#999999;top:15px}
+.mo_doc_lib_breadcrumb_item+.dashicons:before{content:'\f054'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-header{    letter-spacing: 0;
     font-family: 'neo-sans',sans-serif;
     margin: 0!important;
