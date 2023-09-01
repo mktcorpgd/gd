@@ -576,7 +576,8 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 .modal{z-index:999999999}
 .modal-content{border-radius:12px}
 .iframe-header{font-family:'neo-sans',sans-serif;text-align:left;color:#333333}
-.close{position:relative;top:-10px}
+.close{position:relative;top:-10px;opacity:.6;}
+.close:hover{opacity:1}
 .close:before{content: '✖';
     font-size: 1em;
     position: absolute;
