@@ -593,7 +593,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 
 .mo_doc_lib_file_download,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a{padding:.4em .6em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:hover{background:#1F4483}
-.mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'Descargar \f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
+.mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
 
 
 /* Banderas */
