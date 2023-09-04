@@ -563,7 +563,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
     border-radius: 6px;
 	box-shadow:none;
 }
-.mo_doc_lib_responsive-table .mo_doc_lib_col{padding:0 .4em}
+.mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
 .mo_doc_lib_table-row:hover {
     background-color: #EAEAEA;
 }
