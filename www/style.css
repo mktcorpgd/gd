@@ -854,7 +854,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}
 	.fusion-checklist.two-cols,ul.fusion-checklist.two-cols{grid-template-columns:1fr}
 	.fusion-image-element:not([class*='fusion-image-align-']){margin-left:0}
-	.partners-logos .fusion-column-content,#partners_footer .fusion-row{display:grid;margin:0 0 2em;grid-template-columns:1fr 1fr;grid-gap:2em;text-align:center}
+	.partners-logos .fusion-column-wrapper,#partners_footer .fusion-row{display:grid;grid-template-columns:1fr 1fr;grid-gap:.5em 2em;text-align:center}
 	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-fullwidth{padding-left:0;padding-left:0}
 	body.post-template-default.single .post-content .fusion-fullwidth{padding-left:0;padding-right:0}
