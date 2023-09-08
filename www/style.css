@@ -811,7 +811,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
 
 	/* Slider */
-	.tfs-slider .fusion-title:not(.fusion-title-size-one),.header-transparent .fusion-title:not(.fusion-title-size-one){margin-bottom:.25em!important}
+	.tfs-slider .fusion-title:not(.fusion-title-size-one),.header-transparent .fusion-fullwidth.fusion-builder-row-1 .fusion-title:not(.fusion-title-size-one){margin-bottom:.25em!important}
 	.tfs-slider .fusion-title h2,.header-transparent .fusion-title.fusion-title-1.fusion-title-size-one{font-size:2.6rem!important}
 	.header-transparent .fusion-title.fusion-title-size-four h4{font-size:1.4rem!important}
 
@@ -843,7 +843,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 	.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 	#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-	.wpcf7-form input[type='submit']{padding:.7rem .9rem}	
+	.wpcf7-form input[type='submit']{gpadding:.7rem .9rem}	
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
 	.post-password-form input[type='submit']{margin-top:1em!important}
