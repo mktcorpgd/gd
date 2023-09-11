@@ -231,7 +231,15 @@ jQuery(document).ready(function() {
 		}
 	});
 
-	
+
+	// PESTAÑAS - Mobile: presentar juntas
+	if ( jQuery('.fusion-mobile-tab-nav').length ) {
+		jQuery('.fusion-mobile-tab-nav').each(function(i) {
+			jQuery(this).insertBefore('.tab-pane:first');
+		});	
+	}
+
+
 	// META - Categorías de países como banderas
 	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
 		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
