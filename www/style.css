@@ -462,6 +462,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-button.button-flat{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
+.tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button{padding:0!important;background:none!important}
 .tribe-events-c-subscribe-dropdown__button-text {
     padding: .5rem .9rem!important;
     width: auto!important;
