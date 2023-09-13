@@ -100,6 +100,7 @@ body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-s
 .tribe-events-event-meta dl{margin:1em .8rem}
 .tribe-events-event-meta dd{margin-bottom:.5em;color:var(--textFont)}
 .tribe-events-event-meta dd abbr{text-decoration:none!important}
+.tribe-events-venue-map>div{border-radius:12px}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
