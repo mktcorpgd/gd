@@ -93,7 +93,7 @@ body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-s
 .fusion-events-featured-image .fusion-events-single-title-content h2{font-size:3em}
 .single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{font-weight:400!important;font-size:1.4em}
 .tribe-events-single-event-description.tribe-events-content.entry-content.description,.tribe-events.tribe-common,.fusion-event-meta-columns{margin:0 auto;width:80%}
-.single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__container, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;text-align:center}
+.single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__container, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;width:100%;text-align:center}
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button{padding:0!important;background:none!important}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-single-section-title, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-single-section-title{padding:.6rem .8rem;background:var(--darkgrayColor);border-radius:12px;font-size:1.2em}
 .tribe-events-event-meta{font-family:var(--textFont)}
