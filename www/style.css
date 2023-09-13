@@ -83,7 +83,13 @@ h4,h4 strong,h5,h5 strong,h6,h6 strong,.tfs-slider .fusion-title h3,.tfs-slider 
 #main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{margin:0;font-size:1.3em}
 table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0}
+
+/* Eventos */
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
+.tribe-events-single>.tribe_events{overflow:visible}
+.fusion-events-featured-image{box-shadow:0 0 24px rgba(0,0,0,.2)}
+body .fusion-events-single-title-content, body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
+body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-shadow:0 0 24px rgba(0,0,0,.2)}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
@@ -774,7 +780,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	
 	/* Posts relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
-	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px 0 rgba(0,0,0,.5)}
+	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px 0 rgba(0,0,0,.6)}
 	
 	/* Portfolio */
 	.fusion-portfolio:not(.not-collapsable) article.expanded,.fusion-portfolio:not(.not-collapsable) article.expanded .fusion-post-content,.fusion-portfolio:not(.not-collapsable) article.expanded .fusion-col-spacing,.fusion-portfolio:not(.not-collapsable) .fusion-portfolio-wrapper .fusion-col-spacing{height:auto!important}
