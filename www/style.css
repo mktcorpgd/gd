@@ -90,6 +90,7 @@ table th{font-size:1.1em}
 .fusion-events-featured-image .tribe-events-event-image{border-radius:0 0 24px 24px;box-shadow:0 0 24px rgba(0,0,0,.2);overflow:hidden}
 body .fusion-events-single-title-content, body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
 body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-shadow:0 0 24px rgba(0,0,0,.2)}
+.fusion-events-featured-image .fusion-events-single-title-content h2{font-size:3em}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
