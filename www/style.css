@@ -98,7 +98,8 @@ body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-s
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-single-section-title, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-single-section-title{padding:.6rem .8rem;background:var(--darkgrayColor);border-radius:12px;font-size:1.2em}
 .tribe-events-event-meta{font-family:var(--textFont)}
 .tribe-events-event-meta dl{margin:1em .8rem}
-.single-tribe_events .tribe-events-single .tribe-events-event-meta{color:var(--textFont);text-decoration:none!important}
+.tribe-events-event-meta dd{color:var(--textFont)}
+.tribe-events-event-meta dd abbr{text-decoration:none!important}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
