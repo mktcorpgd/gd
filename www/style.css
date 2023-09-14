@@ -36,7 +36,7 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,
 .modal .not-modal,
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
-.pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-content blockquote:before,.tribe-events-content blockquote:after{display:none!important}
+.pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-content blockquote:before,.tribe-events-content blockquote:after,.tribe-events-gmap:before{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .more-info{display:none}
 
 /* General */
@@ -95,7 +95,9 @@ body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-s
 .tribe-events-single-event-description.tribe-events-content.entry-content.description,.tribe-events.tribe-common,.fusion-event-meta-columns{margin:0 auto;width:80%}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content{margin-top:-12px}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__container, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;margin:-3em auto 0;white-space:nowrap}
-.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a{padding:0}
+.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a,.tribe-events-address .tribe-address .tribe-country-name, .tribe-events-address .tribe-address .tribe-delimiter, .tribe-events-address .tribe-address .tribe-events-abbr, .tribe-events-address .tribe-address .tribe-postal-code, .tribe-events-address .tribe-address .tribe-region{padding:0}
+.tribe-events-content a{border-bottom:none}
+.tribe-events-content a:hover{text-decoration:underline}
 .tribe-events-c-subscribe-dropdown__list{border-radius:6px 6px 12px 12px}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a:hover, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a:hover{background:var(--highlightColor);color:var(--whiteColor)}
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button{display:block;width:100%;text-align:center;padding:0!important;background:none!important}
@@ -107,6 +109,8 @@ body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-s
 .tribe-events-event-meta dd abbr{text-decoration:none!important}
 .tribe-events-venue-map>div{border-radius:12px}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area{border-radius:24px;border:4px solid #EAEAEA}
+.tribe-events-meta-group dd[class*='-url']{position:relative}
+.tribe-events-meta-group dd[class*='-url']:before{content:'\f0c1'}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
