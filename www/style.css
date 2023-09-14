@@ -109,9 +109,10 @@ body .fusion-events-single-title-content{margin:2em 1em;border-radius:12px;box-s
 .tribe-events-event-meta dd abbr{text-decoration:none!important}
 .tribe-events-venue-map>div{border-radius:12px}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area{border-radius:24px;border:4px solid #EAEAEA}
-.tribe-events-gmap:before{color:var(--metaColor);opacity:.6}
+.single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url']:before{color:var(--metaColor);font-family:'Font Awesome 6 Pro';font-weight:normal;opacity:.6}
+.single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url']:before{content:'\f3c5'}
+.tribe-events-meta-group dd[class*='-url']:before{content:'\f0c1'}
 .tribe-events-meta-group dd[class*='-url']{position:relative}
-.tribe-events-meta-group dd[class*='-url']:before{content:'\f0c1';color:var(--metaColor);font-family:'Font Awesome 6 Pro';opacity:.6}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
