@@ -36,7 +36,7 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,
 .modal .not-modal,
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
-.pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-content blockquote:before,.tribe-events-content blockquote:afte{display:none!important}
+.pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-content blockquote:before,.tribe-events-content blockquote:after{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .more-info{display:none}
 
 /* General */
@@ -889,7 +889,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 	.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 	#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-	.wpcf7-form input[type='submit']{gpadding:.7rem .9rem}	
+	.wpcf7-form input[type='submit']{padding:.7rem .9rem}	
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
 	.post-password-form input[type='submit']{margin-top:1em!important}
