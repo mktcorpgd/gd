@@ -76,6 +76,7 @@ hr{margin:1em 0;height:4px;background:rgba(0,0,0,.2);border:none;border-radius:2
 hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-radius:1px}
 .white hr{background:rgba(255,255,255,.2)}
 .white hr.thin{background:rgba(255,255,255,.2)}
+.fusion-fullwidth.overlay:after{content:'';width:100%;height:100%;position:absolute;top:0;left:0}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -88,7 +89,7 @@ table th{font-size:1.1em}
 .single-tribe_events #content{margin-bottom:0}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 .tribe-events-single>.tribe_events{overflow:visible}
-.fusion-events-featured-image{margin-bottom:0}
+.fusion-events-featured-image{margin-bottom:0;z-index:10}
 .fusion-events-featured-image .tribe-events-event-image{box-shadow:0 0 24px rgba(0,0,0,.4);overflow:hidden}
 body .fusion-events-single-title-content, body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
 body .fusion-events-single-title-content{border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2)}
