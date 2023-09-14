@@ -113,7 +113,7 @@ body .fusion-events-single-title-content{border-radius:12px;box-shadow:0 0 12px 
 .tribe-events-venue-map>div{border-radius:12px}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area{margin-top:0;padding:4em 0;background:var(--darkgrayColor)!important}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area *{color:var(--whiteAltColor)}
-.single-tribe_events #tribe-events-content .fusion-content-widget-area a:hover{color:var(--whiteColor)}
+.single-tribe_events #tribe-events-content .fusion-content-widget-area a:hover:before{color:var(--whiteColor)}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url'] a:before{display:inline-block;width:20px;margin-right:6px;text-align:center;color:var(--whiteColor);font-family:'Font Awesome 6 Pro';font-weight:normal;opacity:.6}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url'] a:before{content:'\f3c5'}
 .tribe-events-meta-group dd[class*='-url'] a:before{content:'\f0c1'}
