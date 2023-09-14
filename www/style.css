@@ -87,6 +87,7 @@ table th{font-size:1.1em}
 /* Eventos */
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 .tribe-events-single>.tribe_events{overflow:visible}
+.fusion-events-featured-image{margin-bottom:0}
 .fusion-events-featured-image .tribe-events-event-image{box-shadow:0 0 24px rgba(0,0,0,.4);overflow:hidden}
 body .fusion-events-single-title-content, body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
 body .fusion-events-single-title-content{border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2)}
@@ -108,7 +109,8 @@ body .fusion-events-single-title-content{border-radius:12px;box-shadow:0 0 12px 
 .tribe-events-event-meta dd{margin-bottom:.5em;color:var(--textFont)}
 .tribe-events-event-meta dd abbr{text-decoration:none!important}
 .tribe-events-venue-map>div{border-radius:12px}
-.single-tribe_events #tribe-events-content .fusion-content-widget-area{border-radius:24px;border:4px solid #EAEAEA}
+.single-tribe_events #tribe-events-content .fusion-content-widget-area{background:var(--darkgrayColor)}
+.single-tribe_events #tribe-events-content .fusion-content-widget-area *{color:var(--whiteAltColor)}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url']:before{min-width:18px;margin-right:10px;color:var(--metaColor);font-family:'Font Awesome 6 Pro';font-weight:normal;opacity:.6}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url']:before{content:'\f3c5'}
 .tribe-events-meta-group dd[class*='-url'] a:before{content:'\f0c1'}
@@ -810,7 +812,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
 
 	/* Eventos */
-	body .fusion-events-single-title-content{margin:2em 1em}
+	body .fusion-events-single-title-content{margin:0 0 2em 2em;width:90%!important}
 
 	/* Pestañas/Filtros */
 	.fusion-filters .fusion-filter a{line-height:1.15}
