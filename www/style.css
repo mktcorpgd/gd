@@ -814,6 +814,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Eventos */
 	body .fusion-events-single-title-content{margin:0 0 -2em 2em;width:90%!important}
+	.fusion-event-meta-wrapper{margin:0 auto;width:80%}
 
 	/* Pestañas/Filtros */
 	.fusion-filters .fusion-filter a{line-height:1.15}
