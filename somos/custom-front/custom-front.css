@@ -564,6 +564,7 @@ input[type='text'].shared-link-url{font-size:1.6em;text-align:center;border-radi
 	box-shadow:none;
 }
 .mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
+.mo_doc_lib_table-header .mo_doc_lib_col{color:#FFFFFF}
 .mo_doc_lib_table-row:hover {
     background-color: #EAEAEA;
 }
