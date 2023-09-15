@@ -619,7 +619,7 @@ body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Chile'] a:be
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Mxico'] a:before,#tab-MX .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-mx.svg)}
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)}
 body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)}
-body.home .gp-blog-wrapper+.sc-button.large, {display:block;margin:.5em auto}
+body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .gp-meta-comments{margin-left:.3rem;padding-left:.5rem;border-left:2px solid #EAEAEA;font-family:'open-sans','Font Awesome 6 Pro',sans-serif}
 
 /* Paginación */
