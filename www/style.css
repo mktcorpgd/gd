@@ -93,7 +93,7 @@ table th{font-size:1.1em}
 .tribe-events.tribe-common{z-index:10}
 .fusion-events-featured-image .tribe-events-event-image{box-shadow:0 0 24px rgba(0,0,0,.4);overflow:hidden}
 body .fusion-events-single-title-content, body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
-body .fusion-events-single-title-content{border-radius:12px;box-shadow:0 0 12px rgba(0,0,0,.2)}
+body .fusion-events-single-title-content{padding:1em 4em;box-shadow:0 0 12px rgba(0,0,0,.2)}
 .fusion-events-featured-image .fusion-events-single-title-content h2{font-size:3em;line-height:1.1}
 .single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{font-weight:400!important;font-size:1.4em}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content{margin-top:-12px}
@@ -818,7 +818,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
 
 	/* Eventos */
-	body .fusion-events-single-title-content{margin:-2em 5%;width:90%!important}
+	body .fusion-events-single-title-content{width:100%!important;position:relative!important}
 	.fusion-event-meta-wrapper{margin:0 auto!important;width:80%}
 
 	/* Pestañas/Filtros */
