@@ -86,10 +86,10 @@ table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0}
 
 /* Eventos */
+.tribe-events-single .fusion-events-featured-image{display:none}
 .single-tribe_events #content{margin-bottom:0}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 .tribe-events-single>.tribe_events{overflow:visible}
-.tribe-events-single .fusion-events-featured-image{margin-bottom:0;z-index:99}
 .tribe-events.tribe-common{z-index:10}
 .fusion-events-featured-image .tribe-events-event-image{box-shadow:0 0 24px rgba(0,0,0,.4);overflow:hidden}
 body .fusion-events-single-title-content, body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
