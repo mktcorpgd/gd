@@ -86,7 +86,7 @@ table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0}
 
 /* Eventos */
-.tribe-events-single .fusion-events-featured-image{display:none}
+.tribe-events-single .tribe-events-event-image{display:none}
 .single-tribe_events #content{margin-bottom:0}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 .tribe-events-single>.tribe_events{overflow:visible}
