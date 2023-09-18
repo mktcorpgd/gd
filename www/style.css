@@ -101,8 +101,7 @@ body .fusion-events-single-title-content{border-radius:12px;box-shadow:0 0 12px 
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a,.tribe-events-address .tribe-address .tribe-country-name, .tribe-events-address .tribe-address .tribe-delimiter, .tribe-events-address .tribe-address .tribe-events-abbr, .tribe-events-address .tribe-address .tribe-postal-code, .tribe-events-address .tribe-address .tribe-region,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item{padding:0}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-meta-group dd, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-meta-group dd{border:none}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a{padding:.4em .8em}
-.tribe-events-content a{border-bottom:none}
-.tribe-events-content a:hover{text-decoration:underline}
+.tribe-events-content a{border-bottom:none!important}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{overflow:hidden;border-radius:6px 6px 12px 12px}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a:hover, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a:hover{background:var(--highlightColor);color:var(--whiteColor)}
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button{display:block;width:100%;text-align:center;padding:0!important;background:none!important}
@@ -467,6 +466,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}
 .wpcf7 .fusion-one-full .wpcf7-response-output+em{float:left;display:block;width:100%;margin:.5em 0 1em;font-size:.8rem!important;line-height:1.2;text-align:center}
+.wpcf7 .fusion-one-full .wpcf7-response-output+em a:hover{text-decoration:underline}
 .wpcf7-form:not(.init) div.wpcf7-response-output,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{float:left;width:100%;margin:.5em auto;padding:.4em .6em;position:relative;text-align:center;border:none!important}
 .wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{margin:.4em auto}
 .wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.wpcf7-response-inner{width:fit-content;border:none;border-radius:6px;box-shadow:none;font-size:.875rem;line-height:1.2;font-style:italic;text-align:center;text-transform:none}
