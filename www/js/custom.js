@@ -96,12 +96,6 @@ jQuery(document).ready(function() {
 	}
 
 
-	// CONTENIDO - Eventos: limpiar espacios en .timezone
-	if ( jQuery('body.tribe_events-template-default').length ) {
-		jQuery('.timezone').trim();
-	}
-
-
 	// RECURSO - Mostrar preview
 	if ( jQuery('body.single-format-link').length ) {
 		var site_id = jQuery('body').attr('class');
