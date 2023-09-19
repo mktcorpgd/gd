@@ -86,8 +86,10 @@ table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0}
 
 /* Eventos */
+body.tribe_events-template-default .fusion-main-menu{display:none}
 .single-tribe_events #content{margin-bottom:0}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
+.fusion-events-featured-image{margin-bottom:0}
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
 .fusion-events-featured-image .tribe-events-event-image{box-shadow:0 0 24px rgba(0,0,0,.4);overflow:hidden}
