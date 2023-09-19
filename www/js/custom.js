@@ -98,7 +98,7 @@ jQuery(document).ready(function() {
 
 	// CONTENIDO - Eventos: limpiar espacios en .timezone
 	if ( jQuery('body.tribe_events-template-default').length ) {
-		jQuery('.timezeon').trim();
+		jQuery('.timezone').trim();
 	}
 
 
