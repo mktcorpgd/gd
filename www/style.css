@@ -91,6 +91,7 @@ body.tribe_events-template-default .fusion-main-menu,body.tribe_events-template-
 body.tribe_events-template-default .fusion-logo-link{pointer-events:none}
 .timezone:before{content:'('}
 .timezone:after{content:')'}
+.tribe-event-time:after{content:' h'}
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
 .fusion-events-single-title{max-width:1200px}
