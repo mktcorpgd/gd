@@ -440,7 +440,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS - AnimaciÃ³n para etiquetas
+	// FORMULARIOS - Animación para etiquetas
 	jQuery(':input').each(function(i){
 		if ( jQuery(this).val().length > 0 ) {
 			jQuery(this).parents('.fusion-layout-column').addClass('focused');
