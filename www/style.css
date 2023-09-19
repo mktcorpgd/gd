@@ -86,7 +86,7 @@ table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0}
 
 /* Eventos */
-body.tribe_events-template-default .fusion-main-menu,body.tribe_events-template-default .fusion-mobile-menu-icons,body.tribe_events-template-default .fusion-header-sticky-height,.no-date .tribe-events-meta-group.tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-single-section-title{display:none!important}
+body.tribe_events-template-default .fusion-main-menu,body.tribe_events-template-default .fusion-mobile-menu-icons,body.tribe_events-template-default .fusion-header-sticky-height,.no-date .tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-meta-group-organizer, .no-date .tribe-events-single-section-title{display:none!important}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 body.tribe_events-template-default .fusion-logo-link{pointer-events:none}
 .timezone:before{content:'/'}
