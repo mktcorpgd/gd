@@ -104,7 +104,7 @@ body .fusion-ec-hover-type.hover-type-none, body .fusion-tribe-primary-info .tri
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown{margin:0}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a,.tribe-events-address .tribe-address .tribe-country-name, .tribe-events-address .tribe-address .tribe-delimiter, .tribe-events-address .tribe-address .tribe-events-abbr, .tribe-events-address .tribe-address .tribe-postal-code, .tribe-events-address .tribe-address .tribe-region,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item{padding:0}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-meta-group dd, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-meta-group dd{border:none}
-.fusion-event-meta-wrapper.no-date{display:block}
+body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{display:block}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a{padding:.4em .8em}
 .tribe-events-content a{border-bottom:none!important}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{overflow:hidden;border-radius:6px 6px 12px 12px}
@@ -934,7 +934,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.tribe_events-template-default .fusion-logo{display:block;width:100%;text-align:center}
 	.fusion-events-featured-image .fusion-events-single-title-content h2,.single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{margin:.5em 0 .25em;text-align:center}
 	.tribe-events-schedule .timezone{display:block;font-size:.6em}
-	body .fusion-events-single-title-content{display:block!important;border-radius:0}
 
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
