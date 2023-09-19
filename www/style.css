@@ -827,7 +827,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Eventos */
 	body.tribe_events-template-default .fusion-logo-link{margin-top:1.5em}
 	body.tribe_events-template-default .fusion-logo img{height:90px}
-	.fusion-event-meta-wrapper{margin:0 auto!important;display:grid;grid-template-columns:1fr 1fr;width:80%}
+	.fusion-event-meta-wrapper:not(.no-date){margin:0 auto!important;display:grid;grid-template-columns:1fr 1fr;width:80%}
 
 	/* Pestañas/Filtros */
 	.fusion-filters .fusion-filter a{line-height:1.15}
