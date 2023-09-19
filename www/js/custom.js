@@ -33,10 +33,10 @@ jQuery(document).ready(function() {
 
 	// SI TIENE CLASES:
 	// MENÚ - Fondo transparente
-	if ( jQuery('.post-content .header-transparent').length ) {
+	if ( jQuery('#content .header-transparent').length ) {
 		jQuery('#wrapper').addClass('header-transparent');
 	}
-	if ( jQuery('.post-content .window').length ) {
+	if ( jQuery('#content .window').length ) {
 		jQuery('#wrapper').addClass('window');
 	}
 	scrollHeaderTransp();
@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
 
 	// CONTENIDO - Entradas: CTA antes de artículos relacionados
 	if ( jQuery('body.single-format-standard:not(.single-avada_portfolio)').length ) {
-		jQuery('#sidebar').insertAfter('.post-content');
+		jQuery('#sidebar').insertAfter('#content');
 	}
 
 
