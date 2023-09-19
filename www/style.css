@@ -86,7 +86,7 @@ table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0}
 
 /* Eventos */
-body.tribe_events-template-default .fusion-main-menu,body.tribe_events-template-default .fusion-mobile-menu-icons,body.tribe_events-template-default .fusion-header-sticky-height,.no-date .tribe-events-meta-group.tribe-events-meta-group-details,.no-date .tribe-events-venue-map{display:none!important}
+body.tribe_events-template-default .fusion-main-menu,body.tribe_events-template-default .fusion-mobile-menu-icons,body.tribe_events-template-default .fusion-header-sticky-height,.no-date .tribe-events-meta-group.tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-single-section-title{display:none!important}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 body.tribe_events-template-default .fusion-logo-link{pointer-events:none}
 .timezone:before{content:'/'}
@@ -117,7 +117,8 @@ body .fusion-events-single-title-content{border-radius:12px;box-shadow:0 0 12px 
 .tribe-events-event-meta dd{margin-bottom:.5em;color:var(--textFont)}
 .tribe-events-event-meta dd abbr{text-decoration:none!important}
 .tribe-events-venue-map>div{border-radius:12px}
-.single-tribe_events #tribe-events-content .fusion-content-widget-area{margin-top:0;padding:4em 1em;background:var(--darkgrayColor)!important}
+.single-tribe_events #tribe-events-content .fusion-content-widget-area{margin-top:0;padding:4em 1em;background:var(--subColor)!important}
+.single-tribe_events #tribe-events-content .fusion-content-widget-area{}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area *{color:var(--whiteAltColor)}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area *:hover,.single-tribe_events #tribe-events-content .fusion-content-widget-area a:before:hover{color:var(--whiteColor)}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url'] a:before{display:inline-block;width:20px;margin-right:10px;text-align:center;color:var(--whiteColor);font-family:'Font Awesome 6 Pro';font-weight:normal;opacity:.6}
