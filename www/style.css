@@ -932,7 +932,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Eventos */
 	body.tribe_events-template-default .fusion-logo{display:block;text-align:center}
-	.fusion-events-featured-image .fusion-events-single-title-content h2,.single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{margin-bottom:.5em;text-align:center}
+	.fusion-events-featured-image .fusion-events-single-title-content h2,.single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{margin:.5em 0 .25em;text-align:center}
 	.tribe-events-schedule .timezone{display:block;font-size:.6em}
 	body .fusion-events-single-title-content{display:block!important;border-radius:0}
 
