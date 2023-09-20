@@ -96,7 +96,7 @@ body.tribe_events-template-default .fusion-logo-link{pointer-events:none}
 body.tribe_events-template-default .fusion-logo{display:block;width:100%;text-align:center}
 .fusion-events-single-title{max-width:1200px}
 .fusion-events-featured-image{margin-bottom:0}
-body .fusion-ec-hover-type.hover-type-none, body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
+body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
 .fusion-events-featured-image .fusion-events-single-title-content{background:none;position:relative}
 .fusion-events-featured-image .fusion-events-single-title-content h2{display:block;width:100%;font-size:3em;text-align:center}
 .single-tribe_events #tribe-events-content .fusion-events-featured-image .updated{margin-top:1em;width:100%;text-align:center}
