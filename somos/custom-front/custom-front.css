@@ -244,6 +244,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #post-content>h2>i[class*='circle']{padding-right:.4em;color:#555555}
 body:not(.home) .padder{background:#FFFFFF;border-top-width:12px;border-top-style:solid;border-top-color:transparent;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body.post-template-default.single h1{color:#0E316E}
+body.post-template-default.single #content article.category-iot h1,body.page-id-18351 #content h1{color:#692D87}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
 body.post-template-default.single #content article[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1,body.page-id-28032 #content h1,body.page-id-28029 #content h1{color:#1C8DCE}
 body.post-template-default.single #content article.category-focus h1,body.page-id-11299 #content h1{color:#39457E}
