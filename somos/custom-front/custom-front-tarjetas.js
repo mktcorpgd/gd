@@ -116,7 +116,7 @@ jQuery(document).ready(function() {
 		}
 		var this_value = jQuery(this).val();
 		var ctry = this_value.substring(0,2).toLowerCase();
-		var office = RemoveAccents(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
+		var office = normalize(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
 		var ctry_office = ctry+'_'+office;
 		if ( ctry_office == 'cl_santiago' ) {
 			jQuery('input[name=CTRYMAIL]').val('libreria_cl@grupodatco.com')
@@ -169,7 +169,7 @@ jQuery(document).ready(function() {
 			}
 			var ctry_office = jQuery('.wpcf7 select[name=OFFICE] option:selected').val();
 			var ctry = jQuery('.wpcf7 select[name=OFFICE] option:selected').val().substr(0,2).toLowerCase();
-			var office = RemoveAccents(ctry_office.substr(5,3).toLowerCase());
+			var office = normalize(ctry_office.substr(5,3).toLowerCase());
 			ctry_office = ctry+'_'+office;
 			jQuery(this).val(jQuery(this).val());
 			jQuery('.tpdata.'+span_class).text(jQuery(this).val());
