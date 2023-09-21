@@ -491,57 +491,24 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_breadcrumb_item:hover{color:#F0582B}
 .mo_doc_lib_breadcrumb_item>i,.mo_doc_lib_breadcrumb_item:before{font-family:'Font Awesome 6 Pro';color:#999999}
 .mo_doc_lib_breadcrumb_item:not([id*='home']):before{padding:0 .4em;content:'\f054';font-size:.8em}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-header{    letter-spacing: 0;
-    font-family: 'neo-sans',sans-serif;
-    margin: 0 0 .4em!important;
-    padding: .6em .4em .4em;
-	background:#1F4483;
-    border-radius: 0 6px 6px 6px;
-	font-size: .8rem;
-    text-transform: none;
-}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row {
-    font-family: 'open-sans',sans-serif;
-    margin: 0!important;
-    padding: .4em 12px;
-    font-size: .8rem;
-    border-radius: 6px;
-	box-shadow:none;
-}
-.mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-header{letter-spacing:0;font-family:'neo-sans',sans-serif;margin:0 0 .4em!important;padding:.6em .4em .4em;background:#1F4483;border-radius:0 6px 6px 6px;font-size:.8rem;text-transform:none}.mo_doc_lib_responsive-table .mo_doc_lib_table-row{font-family:'open-sans',sans-serif;margin:0!important;padding:.4em 12px;font-size:.8rem;border-radius:6px;box-shadow:none}.mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
 .mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;color:#FFFFFF}
-.mo_doc_lib_table-row:hover {
-    background-color: #EAEAEA;
-}
-.mo_sps_class_embed_folder{padding:0;border:2px solid #EAEAEA;border-radius:6px;color:#333333;}
+.mo_doc_lib_table-row:hover{background-color:#EAEAEA}.mo_sps_class_embed_folder{padding:0;border:2px solid #EAEAEA;border-radius:6px;color:#333333;}
 .mo_sps_class_embed_folder_image{border:none}
-
 .modal{z-index:999999999}
 .modal-content{border-radius:12px}
 .iframe-header{font-family:'neo-sans',sans-serif;text-align:left;color:#333333}
 .close{position:relative;top:-10px;opacity:.6;}
 .close:hover{opacity:1}
-.close:before{content: '✖';
-    font-size: 1em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #FFFFFF;
-	color: #555555;
-}
-.mo_sps_class_doc_container .mo_sps_class_doc__list{display:grid;grid-template-columns:1fr 1fr;grid-gap:1em}
+.close:before{content:'✖';font-size:1em;position:absolute;top:0;left:0;width:100%;height:100%;background:#FFFFFF;color:#555555}.mo_sps_class_doc_container .mo_sps_class_doc__list{display:grid;grid-template-columns:1fr 1fr;grid-gap:1em}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div{width:100%;margin:0!important;padding:0!important;border:2px solid #EAEAEA;border-radius:6px;color:#333333;}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe{max-height:200px}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div,.mo_sps_class_embed_folder_title{width:100%;padding:.6em;font-size:.8rem}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div{display:flex}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div{float:none!important}
-
 .mo_doc_lib_file_download,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a{padding:.4em .6em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:hover{background:#1F4483}
 .mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
-
 
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
