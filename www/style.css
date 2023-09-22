@@ -134,7 +134,7 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .tribe-events-meta-group dd[class*='-url']{position:relative}
 body.tribe_events-template-default .fusion-header{position:absolute!important;top:0!important;box-shadow:none!important;background:none!important}
 .tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events){position:relative}
-.tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events):before{    content: '';
+.fusion-events-featured-image:before{    content: '';
     background: rgb(0,0,0);
     background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 100%);
     width: 100%;
