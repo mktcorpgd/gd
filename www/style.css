@@ -88,7 +88,7 @@ table th{font-size:1.1em}
 /* Eventos */
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-main-menu,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-mobile-menu-icons,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header-sticky-height,.no-date .tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-meta-group-organizer, .no-date .tribe-events-single-section-title,body.tribe_events-template-default .tribe-events-event-image,body.tribe_events-template-default.avada-has-titlebar-hide #sidebar{display:none!important}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
-body.tribe_events-template-default .fusion-logo-link{pointer-events:none}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{pointer-events:none}
 .timezone:before{content:'/'}
 .tribe-event-time:after{content:' h'}
 .tribe-events-single>.tribe_events{overflow:visible}
@@ -133,7 +133,7 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url'] a:before{content:'\f3c5'}
 .tribe-events-meta-group dd[class*='-url'] a:before{content:'\f0c1'}
 .tribe-events-meta-group dd[class*='-url']{position:relative}
-body.tribe_events-template-default .fusion-header{position:absolute!important;top:0!important;box-shadow:none!important;background:none!important}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header{position:absolute!important;top:0!important;box-shadow:none!important;background:none!important}
 .tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events){position:relative}
 .fusion-events-featured-image:before{    content: '';
     background: rgb(0,0,0);
@@ -159,7 +159,7 @@ body.tribe_events-template-default .fusion-header{position:absolute!important;to
 /* Header - Transparente */
 .header-transparent .fusion-header-wrapper.on-top .fusion-header{background:rgba(0,0,0,0)}
 .header-transparent .fusion-header-wrapper{width:100%}
-body:not(.tribe_events-template-default) .header-transparent .fusion-header-wrapper{position:fixed}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transparent .fusion-header-wrapper{position:fixed}
 
 /* Menú */
 .fusion-megamenu-title a[href='#no-title']{visibility:hidden}
@@ -845,8 +845,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
 
 	/* Eventos */
-	body.tribe_events-template-default .fusion-logo-link{margin-top:1.5em}
-	body.tribe_events-template-default .fusion-logo img{height:90px}
+	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{margin-top:1.5em}
+	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img{height:90px}
 	.fusion-event-meta-wrapper:not(.no-date){margin:0 auto!important;display:grid;grid-template-columns:1fr 1fr;width:80%}
 
 	/* Pestañas/Filtros */
