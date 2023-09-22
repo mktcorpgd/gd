@@ -93,13 +93,13 @@ body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event{dis
 .tribe-event-time:after{content:' h'}
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
+.fusion-events-featured-image{margin-bottom:0}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header{position:absolute!important;top:0!important;box-shadow:none!important;background:none!important}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo{display:block;width:100%;text-align:center}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{pointer-events:none}
 body.tribe_events-template-default.avada-has-titlebar-hide #content{width:100%!important}
 .fusion-events-single-title{max-width:1200px}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-tribe-primary-info .tribe-events-list-event-title a, body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body.tribe_events-template-default.avada-has-titlebar-hide .tribe-mini-calendar div[id*=daynum-] a, body.tribe_events-template-default.avada-has-titlebar-hide .tribe-mini-calendar div[id*=daynum-] span, body.tribe_events-template-default.avada-has-titlebar-hide .datepicker.dropdown-menu table tr td span.month, body.tribe_events-template-default.avada-has-titlebar-hide .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
-body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image{margin-bottom:0}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content{background:none;position:relative}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content h2{display:block;width:100%;font-size:4em;text-align:center}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated{display:block;margin-top:1em;width:100%;text-align:center}
