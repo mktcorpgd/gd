@@ -99,14 +99,13 @@ body.tribe_events-template-default .fusion-logo{display:block;width:100%;text-al
 body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
 .fusion-events-featured-image .fusion-events-single-title-content{background:none;position:relative}
 .fusion-events-featured-image .fusion-events-single-title-content h2{display:block;width:100%;font-size:3em;text-align:center}
-.single-tribe_events #tribe-events-content .fusion-events-featured-image .updated{margin-top:1em;width:100%;text-align:center}
-
+.single-tribe_events #tribe-events-content .fusion-events-featured-image .updated{display:block;margin-top:1em;width:100%;text-align:center}
 .single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{font-weight:400!important;font-size:1.4em}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content{margin-top:-12px}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__container, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;margin:-7em auto 0;white-space:nowrap}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown,.fusion-event-meta-wrapper.no-date .tribe-events-event-meta{margin:0!important}
 .fusion-event-meta-wrapper.no-date .tribe-events-event-meta{text-align:center}
-.info-event{margin:0 auto;max-width:1200px}
+.info-event{margin:8em auto 2em;max-width:1200px}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item a,.tribe-events-address .tribe-address .tribe-country-name, .tribe-events-address .tribe-address .tribe-delimiter, .tribe-events-address .tribe-address .tribe-events-abbr, .tribe-events-address .tribe-address .tribe-postal-code, .tribe-events-address .tribe-address .tribe-region,.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list-item{padding:0}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-meta-group dd, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-meta-group dd{border:none}
 body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{display:block}
@@ -118,7 +117,8 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-single-section-title, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-single-section-title{padding:.6rem .8rem;background:rgba(0,0,0,.4);border-radius:12px;font-size:1.2em}
 .tribe-events-event-meta{font-family:var(--textFont)}
 .tribe-venue,.tribe-organizer,.single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-meta-group dt, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-meta-group dt{font-weight:600}
-.no-date .tribe-venue{font-family:var(--titleFont);font-weight:400;font-size:2em}
+.no-date .tribe-venue{margin-bottom:0!important;padding-bottom:0!important;font-family:var(--titleFont);font-weight:400;font-size:1.6em}
+.no-date .tribe-events-meta-group a{color:var(--whiteColor)}
 .tribe-events-event-meta dl{margin:1em .8rem}
 .tribe-events-event-meta dd{margin-bottom:.5em;color:var(--textFont)}
 .tribe-events-event-meta dd abbr{text-decoration:none!important}
