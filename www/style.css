@@ -135,7 +135,8 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .tribe-events-meta-group dd[class*='-url'] a:before{content:'\f0c1'}
 .tribe-events-meta-group dd[class*='-url']{position:relative}
 .tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events){position:relative}
-.fusion-events-featured-image:before{    content: '';
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-ec-hover-type.hover-type-none{position:relative}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image:before{    content: '';
     background: rgb(0,0,0);
     background: linear-gradient(135deg, rgba(0,0,0,.6) 0%, rgba(0,0,0,0) 100%);
     width: 100%;
@@ -145,7 +146,6 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
     z-index: 0;
     top: 0;
 }
-.fusion-ec-hover-type.hover-type-none{position:relative}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
