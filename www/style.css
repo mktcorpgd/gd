@@ -86,7 +86,7 @@ table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0}
 
 /* Eventos */
-body.tribe_events-template-default .fusion-main-menu,body.tribe_events-template-default .fusion-mobile-menu-icons,body.tribe_events-template-default .fusion-header-sticky-height,.no-date .tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-meta-group-organizer, .no-date .tribe-events-single-section-title,body.tribe_events-template-default .tribe-events-event-image,body.tribe_events-template-default.avada-has-titlebar-hide #sidebar{display:none!important}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-main-menu,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-mobile-menu-icons,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header-sticky-height,.no-date .tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-meta-group-organizer, .no-date .tribe-events-single-section-title,body.tribe_events-template-default .tribe-events-event-image,body.tribe_events-template-default.avada-has-titlebar-hide #sidebar{display:none!important}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 body.tribe_events-template-default .fusion-logo-link{pointer-events:none}
 .timezone:before{content:'/'}
@@ -94,7 +94,7 @@ body.tribe_events-template-default .fusion-logo-link{pointer-events:none}
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
 body.tribe_events-template-default.avada-has-titlebar-hide #content{width:100%!important}
-body.tribe_events-template-default .fusion-logo{display:block;width:100%;text-align:center}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo{display:block;width:100%;text-align:center}
 .fusion-events-single-title{max-width:1200px}
 .fusion-events-featured-image{margin-bottom:0}
 body .fusion-tribe-primary-info .tribe-events-list-event-title a, body .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body .tribe-mini-calendar div[id*=daynum-] a, body .tribe-mini-calendar div[id*=daynum-] span, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td span.month, body.avada-ec-views-v1 .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
