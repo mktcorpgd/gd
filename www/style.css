@@ -86,6 +86,7 @@ table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0;font-size:1.4em!important}
 
 /* Eventos */
+.tribe-filter-live #main{overflow:visible}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-main-menu,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-mobile-menu-icons,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header-sticky-height,.no-date .tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-meta-group-organizer, .no-date .tribe-events-single-section-title,body.tribe_events-template-default .tribe-events-event-image,body.tribe_events-template-default.avada-has-titlebar-hide #sidebar,
 body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event,body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-content-widget-area{display:none!important}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap{display:grid;font-size:.8em}
@@ -96,6 +97,7 @@ body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event,bod
 .tribe-events.tribe-common{z-index:10}
 .fusion-events-featured-image{margin-bottom:0}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header{position:absolute!important;top:0!important;box-shadow:none!important;background:none!important}
+.tribe-events-c-subscribe-dropdown-content{position:absolute}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo{display:block;width:100%;text-align:center}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{pointer-events:none}
 body.tribe_events-template-default.avada-has-titlebar-hide #content{width:100%!important}
