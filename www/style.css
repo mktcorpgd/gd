@@ -150,6 +150,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
     z-index: 0;
     top: 0;
 }
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container{padding:0}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
