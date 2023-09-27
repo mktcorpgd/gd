@@ -133,6 +133,7 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .tribe-events-event-meta dd{margin-bottom:.5em;color:var(--textFont)}
 .tribe-events-event-meta dd abbr{text-decoration:none!important}
 .tribe-events-event-meta dd abbr.tribe-events-start-date,.tribe-events-event-meta dd abbr.tribe-events-start-date{font-size:2em}
+.tribe-events-time-zone,.tribe-venue{font-size:1.3em}
 .fusion-event-meta-wrapper.no-date dd{color:var(--whiteColor)}
 .tribe-events-venue-map>div{border-radius:12px}
 .tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events){position:relative}
