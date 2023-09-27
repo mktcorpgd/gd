@@ -163,6 +163,11 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .fusion-body #main .tribe-events .tribe-events-c-view-selector:not(.tribe-events-c-view-selector--tabs) .tribe-events-c-view-selector__content{padding:0;border:none}
 .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-day__event-title, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-title{margin-bottom:.5em}
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event-wrapper{border-left:4px solid var(--lightgrayColor)}
+.tribe-common .tribe-common-b2--bold:after{content:'|';font-weight:normal}
+.fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-description p{display:-webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
