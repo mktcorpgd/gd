@@ -166,7 +166,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .tribe-common .tribe-common-b2--bold:after{content:'|';font-weight:normal}
 .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-description p{display:-webkit-box;-webkit-line-clamp: 3;-webkit-box-orient: vertical;overflow: hidden;}
 .fusion-body .fusion-wrapper #main .tribe-events .datepicker .day.new, .fusion-body .fusion-wrapper #main .tribe-events .datepicker .day.old,.fusion-body .fusion-wrapper #main .tribe-events .datepicker span.active, .fusion-body .fusion-wrapper #main .tribe-events .datepicker td.active{border-radius:12px}
-.fusion-body .fusion-wrapper #main .tribe-events .datepicker span.active, .fusion-body .fusion-wrapper #main .tribe-events .datepicker td.active{color:var(--whiteColor);font-weight:700}
+.fusion-body .fusion-wrapper #main .tribe-events .datepicker span.active, .fusion-body .fusion-wrapper #main .tribe-events .datepicker td.active{color:var(--whiteColor)!important;font-weight:700}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
