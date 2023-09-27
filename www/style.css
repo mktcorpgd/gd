@@ -102,9 +102,9 @@ body.tribe_events-template-default.avada-has-titlebar-hide #content{width:100%!i
 .fusion-events-single-title{max-width:1200px}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-tribe-primary-info .tribe-events-list-event-title a, body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events-venue-widget .tribe-venue-widget-thumbnail .tribe-venue-widget-venue-name, body.tribe_events-template-default.avada-has-titlebar-hide .tribe-mini-calendar div[id*=daynum-] a, body.tribe_events-template-default.avada-has-titlebar-hide .tribe-mini-calendar div[id*=daynum-] span, body.tribe_events-template-default.avada-has-titlebar-hide .datepicker.dropdown-menu table tr td span.month, body.tribe_events-template-default.avada-has-titlebar-hide .datepicker.dropdown-menu table tr td.day{background:var(--subColor)}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content{background:none;position:relative}
-body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content h2{display:block;width:100%;font-size:4em;text-align:center}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content h2{display:block;width:100%;color:var(--whiteColor);font-size:4em;text-align:center}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated{display:block;margin-top:1em;width:100%;text-align:center}
-body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{font-weight:400!important;font-size:1.4em}
+body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{color:var(--whiteColor);font-weight:400!important;font-size:1.4em}
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin:8em auto 2em;max-width:1200px}
 body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events .tribe-events-c-subscribe-dropdown__container,body.tribe_events-template-default.avada-has-titlebar-hide .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;margin:-11em auto 0;white-space:nowrap}
 body.tribe_events-template-default:not(.avada-has-titlebar-hide) .tribe-events-single-event-description{font-size:1.2em}
@@ -161,6 +161,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-map__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-photo__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-summary__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-widget-events-list__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events.tribe-common--breakpoint-medium .tribe-events-pro-week-day-selector__day-daynum{font-weight:500;color:var(--metaColor)}
 .fusion-body #main .tribe-events .datepicker,.fusion-body #main .tribe-events .tribe-events-c-view-selector:not(.tribe-events-c-view-selector--tabs) .tribe-events-c-view-selector__content{border-radius:12px}
 .fusion-body #main .tribe-events .tribe-events-c-view-selector:not(.tribe-events-c-view-selector--tabs) .tribe-events-c-view-selector__content{padding:0;border:none}
+.fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-day__event-title, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-title{margin-bottom:.5em}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
