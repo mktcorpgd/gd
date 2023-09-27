@@ -154,6 +154,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
     top: 0;
 }
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container{padding:0}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border{border:2px solid var(--grayColor)}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
@@ -459,7 +460,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7-captchar,.wpcf7-form .wpcf7-date,.wpcf7-form .wpcf7-number,.wpcf7-form .wpcf7-quiz,
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.wpcf7-form .wpcf7-text,
 .wpcf7 input:not([type='submit']),.wpcf7 textarea,
-#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password']{padding:.7em .8rem;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;font-size:.9rem;z-index:1}
+#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.fusion-body #main .tribe-events .tribe-events-c-events-bar--border{padding:.7em .8rem;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;font-size:.9rem;z-index:1}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{margin:.75em 0 0;width:100%}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.625em .55rem}
@@ -523,7 +524,8 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit'],.fusion-button.button-flat{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
+.wpcf7-form input[type='submit'],.fusion-button.button-flat,
+.tribe-common-c-btn.tribe-events-c-search__button{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
 .tribe-events-c-subscribe-dropdown__button-text {
     padding: .5rem .9rem!important;
     width: auto!important;
