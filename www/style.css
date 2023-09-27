@@ -154,7 +154,11 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
     top: 0;
 }
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container{padding:0}
+.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event-details{width:100%}
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-events-bar--border{border:2px solid var(--grayColor)}
+.fusion-body .tribe-events .tribe-events-calendar-list__event-datetime,.fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-date-tag-weekday{color:var(--textColor)}
+.fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-date-tag-weekday, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-map__event-date-tag-month .tribe-events-pro-map__event-date-tag-weekday, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-photo__event-date-tag-month, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-photo__event-date-tag-weekday, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-summary__event-date-tag-weekday, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-week-day-selector__day-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-week-day-selector__day-weekday, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-week-grid__header-column-weekday, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-widget-events-list__event-date-tag-month{font-family:var(--textFont)}
+.fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-map__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-photo__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-summary__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-widget-events-list__event-date-tag-daynum, .fusion-body .fusion-wrapper #main .tribe-events.tribe-common--breakpoint-medium .tribe-events-pro-week-day-selector__day-daynum{font-weight:500;color:var(--metaColor)}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
