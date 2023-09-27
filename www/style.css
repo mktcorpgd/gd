@@ -131,6 +131,7 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .single-tribe_events #tribe-events-content .fusion-content-widget-area.fusion-event-meta-columns-4.fusion-event-meta-venue-apart .tribe-events-event-meta.secondary .tribe-events-venue-map{padding:0}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-single-section-title, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-single-section-title{background:none;font-size:1.2em}
 .tribe-events-event-meta{font-family:var(--textFont)}
+.tribe-common-c-btn-border-small.tribe-events-c-top-bar__today-button,.fusion-body .fusion-wrapper #main .tribe-events .tribe-events-c-top-bar__datepicker .tribe-events-c-top-bar__datepicker-button{font-family:var(--titleFont)}
 .tribe-venue,.tribe-organizer,.single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-meta-group dt, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-meta-group dt,.tribe-events-start-date,.tribe-events-start-time{font-weight:600}
 .no-date .tribe-venue{margin-bottom:0!important;padding-bottom:0!important;font-family:var(--titleFont);font-weight:400;font-size:1.6em}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-meta-group dd, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-meta-group dd{margin-bottom:0;padding-bottom:0}
