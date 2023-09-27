@@ -88,7 +88,7 @@ table th{font-size:1.1em}
 /* Eventos */
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-main-menu,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-mobile-menu-icons,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header-sticky-height,.no-date .tribe-events-meta-group-details,.no-date .tribe-events-venue-map,.no-date .tribe-events-meta-group-organizer, .no-date .tribe-events-single-section-title,body.tribe_events-template-default .tribe-events-event-image,body.tribe_events-template-default.avada-has-titlebar-hide #sidebar,
 body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event,body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-content-widget-area{display:none!important}
-.single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap{display:inline-flex}
+.single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap{display:grid;font-size:.8em}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 .timezone:before{content:'/'}
 .tribe-event-time:after{content:' h'}
