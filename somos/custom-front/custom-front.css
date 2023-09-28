@@ -43,6 +43,8 @@ body.home .page-title,body.home .gp-meta-cats,
 body[class*='category-busquedas-laborales'] .gp-meta-cats a[href$='/busquedas-laborales-argentina/'],
 /* YouTube */
 .yotu-playlist .yotu-pagination-top,.content-details .yotu-videos,
+/* Tips */
+.page-id-55300 .gp-blog-wrapper section .gp-loop-meta,
 /* Salesforce */
 article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-date,section.category-salesforce .post-text p,body.post-template-default article.category-salesforce .yotu-videos,body.archive.category-2828 .gp-loop-meta,
 /* Modal */
