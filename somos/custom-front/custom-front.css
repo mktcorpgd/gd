@@ -737,6 +737,13 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 #wp-calendar tbody td.eo-event-cat-asistimos.eo-event-cat-otros a{background:linear-gradient(135deg,#338A6C 50%,#F18C10 50%)}
 #wp-calendar tbody td.eo-event-past a,#wp-calendar tbody td.eo-past-date a{background:#BBBBBB;text-decoration:line-through}
 
+#wp-calendar tbody td.eo-event-cat-propios.eo-event-cat-patrocinamos.eo-past-date a{background:#BBBBBB;text-decoration:line-through}
+#wp-calendar tbody td.eo-event-cat-propios.eo-event-cat-asistimos.eo-past-date a{background:#BBBBBB;text-decoration:line-through}
+#wp-calendar tbody td.eo-event-cat-propios.eo-event-cat-otros.eo-past-date a{background:#BBBBBB;text-decoration:line-through}
+#wp-calendar tbody td.eo-event-cat-patrocinamos.eo-event-cat-asistimos.eo-past-date a{background:#BBBBBB;text-decoration:line-through}
+#wp-calendar tbody td.eo-event-cat-patrocinamos.eo-event-cat-otros.eo-past-date a{background:#BBBBBB;text-decoration:line-through}
+#wp-calendar tbody td.eo-event-cat-asistimos.eo-event-cat-otros.eo-past-date a{background:#BBBBBB;text-decoration:line-through}
+
 /* Modal */
 .mfp-content .widget .widgettitle{margin-top:0;padding-top:0;font-size:1.2em}
 .mfp-close,.mfp-arrow{position:fixed}
