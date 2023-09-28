@@ -61,7 +61,7 @@ jQuery(document).ready(function() {
   
 
 	// CONTENIDOS - Abrir en una nueva pestaña
-	jQuery(document).on('click','#prensa .fusion-post-content.post-content>h2>a,#prensa span.meta-tags a',function(e) {
+	jQuery(document).on('click','#prensa .fusion-post-content.post-content>h2>a,#prensa span.meta-tags a,.tribe-events-calendar-list__event:not(.cat_propios)',function(e) {
 		window.open(this.href,'_blank');
 		e.preventDefault();
 		e.stopPropagation();
