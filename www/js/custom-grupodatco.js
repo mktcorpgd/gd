@@ -57,6 +57,7 @@ jQuery(document).ready(function() {
 		jQuery('.fusion-button,.menu-item a').each(function(i) {
 			var curhref = jQuery(this).attr('href');
 			if ( curhref.indexOf('?') > -1 && curhref.indexOf('#') === -1 ) {
+				console.log(curhref);
 				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
 			}
 			else {
