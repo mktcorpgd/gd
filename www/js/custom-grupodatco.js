@@ -16,29 +16,17 @@ jQuery(document).ready(function() {
 		);
 	}
 	
-	// Con bandera:
+	// Si es una página de país:
 	if ( jQuery('.fusion-fullwidth.country-flag').length ) {
 		jQuery('#wrapper').addClass('country-flag');
 		jQuery('.country-flag').removeClass('hidden');
-		if ( jQuery('.fusion-fullwidth.landing').length ) {
-			var flag = jQuery('.fusion-fullwidth.country-flag').attr('class');
-			flag = flag.substr(flag.indexOf('country-flag')+13,2);
-		}
-		else { 
-			var flag = window.location.pathname;
-			flag = flag.substring(1,flag.length-1);
-			jQuery('.country-flag.menu-item>a').attr('href','/'+flag);
-		}
+		var flag = window.location.pathname;
+		flag = flag.substring(1,flag.length-1);
+		jQuery('.country-flag.menu-item>a').attr('href','/'+flag);
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+flag+'.svg');
 		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-'+flag+'"]').attr('alt');
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',cur_title);
-	}
-
-	// Si viene de un país:
-	if ( jQuery('#wrapper').hasClass('country-flag') ) {
-		var ctry = location.pathname;
-		ctry = ctry.substring(1,ctry.length-1);
-		switch(ctry) {
+		switch(flag) {
 			case 'ar':
 				var ctry_name = 'Argentina';
 				var ctry_url = 'ar';
@@ -68,18 +56,16 @@ jQuery(document).ready(function() {
 				var ctry_url = 'uy';
 				break;
 		}
-		jQuery('.fusion-portfolio-post').each(function(i) {
-			var curhref = jQuery(this).find('a').attr('href');
-			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
-		});
-		jQuery('.tfs-button-1').each(function(i) {
-			var curhref = jQuery(this).find('a').attr('href');
-			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
+		jQuery('.fusion-button').each(function(i) {
+			var curhref = jQuery(this).attr('href');
+			jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
 		});
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty();
 		jQuery('.country-flag.menu-item > a > span.menu-text').html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
 	}
+
+	// Si viene de una página de país:
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
 		ctry = urlParams.get('ctry');
@@ -113,9 +99,9 @@ jQuery(document).ready(function() {
 				var ctry_url = 'uy';
 				break;
 		}
-		jQuery('.fusion-portfolio-post').each(function(i) {
-			var curhref = jQuery(this).find('a').attr('href');
-			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
+		jQuery('.fusion-button').each(function(i) {
+			var curhref = jQuery(this).attr('href');
+			jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
 		});
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty();
