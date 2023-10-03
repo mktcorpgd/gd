@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
 			var curhref = jQuery(this).attr('href');
 			if ( curhref.indexOf('?') > -1 ) {
 				console.log(curhref);
-				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
+				jQuery(this).attr('href','ctry='+ctry_url');
 			}
 			else {
 				jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
