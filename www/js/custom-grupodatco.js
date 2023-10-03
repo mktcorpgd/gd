@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 				var ctry_url = 'uy';
 				break;
 		}
-		jQuery('.fusion-button').each(function(i) {
+		jQuery('.fusion-button,.menu-item a').each(function(i) {
 			var curhref = jQuery(this).attr('href');
 			if ( curhref.indexOf('?') > -1 ) {
 				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
@@ -104,9 +104,14 @@ jQuery(document).ready(function() {
 				var ctry_url = 'uy';
 				break;
 		}
-		jQuery('.fusion-button').each(function(i) {
+		jQuery('.fusion-button,.menu-item a').each(function(i) {
 			var curhref = jQuery(this).attr('href');
-			jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
+			if ( curhref.indexOf('?') > -1 ) {
+				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
+			}
+			else {
+				jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
+			}
 		});
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty();
