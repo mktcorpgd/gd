@@ -39,7 +39,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('#content .window').length ) {
 		jQuery('#wrapper').addClass('window');
 	}
-	jQuery('.country-flag').removeClass('hidden');
+	if ( jQuery('.menu-item.country-flag').length ) {
+		jQuery('.menu-item.country-flag').removeClass('hidden');
+	}
 	scrollHeaderTransp();
 	jQuery(window).scroll(function() {
 		scrollHeaderTransp();
