@@ -54,7 +54,7 @@ jQuery(document).ready(function() {
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',ctry_name);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty().html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
-		jQuery('a.fusion-button:not([href^="#"]),.menu-item a:not([href^="#"])').each(function(i) {
+		jQuery('a.fusion-button:not([href^="#"]):not(.fusion-modal-text-link),.menu-item a:not([href^="#"])').each(function(i) {
 			var curhref = jQuery(this).attr('href');
 			if ( curhref.indexOf('?') > -1 ) {
 				console.log(curhref);
