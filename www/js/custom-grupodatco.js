@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty().html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
 		jQuery('.fusion-button,.menu-item a').each(function(i) {
 			var curhref = jQuery(this).attr('href');
-			if ( curhref.indexOf('?') > -1 ) {
+			if ( curhref.indexOf('?') > -1 && curhref.indexOf('#') === -1 ) {
 				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
 			}
 			else {
@@ -107,7 +107,7 @@ jQuery(document).ready(function() {
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty().html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
 		jQuery('.fusion-button,.menu-item a').each(function(i) {
 			var curhref = jQuery(this).attr('href');
-			if ( curhref.indexOf('?') > -1 ) {
+			if ( curhref.indexOf('?') > -1 && curhref.indexOf('#') === -1 ) {
 				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
 			}
 			else {
