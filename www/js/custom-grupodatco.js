@@ -22,10 +22,6 @@ jQuery(document).ready(function() {
 		jQuery('.country-flag').removeClass('hidden');
 		var flag = window.location.pathname;
 		flag = flag.substring(1,flag.length-1);
-		jQuery('.country-flag.menu-item>a').attr('href','/'+flag);
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+flag+'.svg');
-		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-'+flag+'"]').attr('alt');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',cur_title);
 		switch(flag) {
 			case 'ar':
 				var ctry_name = 'Argentina';
@@ -56,6 +52,10 @@ jQuery(document).ready(function() {
 				var ctry_url = 'uy';
 				break;
 		}
+		jQuery('.country-flag.menu-item>a').attr('href','/'+ctry_url);
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
+		var cur_title = jQuery('.country-flag.menu-item.fusion-dropdown-menu .sub-menu li span img[src*="flag-'+ctry_url+'"]').attr('alt');
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',ctry_name);
 		jQuery('.fusion-button,.menu-item a').each(function(i) {
 			var curhref = jQuery(this).attr('href');
 			if ( curhref.indexOf('?') > -1 ) {
