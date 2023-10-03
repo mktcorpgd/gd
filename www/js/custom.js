@@ -39,7 +39,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('#content .window').length ) {
 		jQuery('#wrapper').addClass('window');
 	}
-	jQuery('.country-flag').show();
+	jQuery('.country-flag').removeClass('hidden');
 	scrollHeaderTransp();
 	jQuery(window).scroll(function() {
 		scrollHeaderTransp();
