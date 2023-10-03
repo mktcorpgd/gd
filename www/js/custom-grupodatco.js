@@ -58,7 +58,12 @@ jQuery(document).ready(function() {
 		}
 		jQuery('.fusion-button').each(function(i) {
 			var curhref = jQuery(this).attr('href');
-			jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
+			if ( curhref.indexOf('?') > -1 ) {
+				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
+			}
+			else {
+				jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
+			}
 		});
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty();
@@ -66,7 +71,7 @@ jQuery(document).ready(function() {
 	}
 
 	// Si viene de una página de país:
-	if ( window.location.href.indexOf('?ctry') > -1 ) {
+	if ( window.location.href.indexOf('ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
 		ctry = urlParams.get('ctry');
 		switch(ctry) {
