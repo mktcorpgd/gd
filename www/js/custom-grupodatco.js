@@ -54,9 +54,9 @@ jQuery(document).ready(function() {
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',ctry_name);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty().html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
-		jQuery('.fusion-button,.menu-item a').each(function(i) {
+		jQuery('.fusion-button:not([href^=#]),.menu-item a:not([href^=#])').each(function(i) {
 			var curhref = jQuery(this).attr('href');
-			if ( curhref.indexOf('?') > -1 && curhref.indexOf('#') === -1 ) {
+			if ( curhref.indexOf('?') > -1 ) {
 				console.log(curhref);
 				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
 			}
@@ -100,15 +100,13 @@ jQuery(document).ready(function() {
 				var ctry_url = 'uy';
 				break;
 		}
-		console.log(ctry_name);
-		console.log(ctry_url);
 		jQuery('.fusion-logo-link,.country-flag.menu-item>a').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
 		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',ctry_name);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty().html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
-		jQuery('.fusion-button,.menu-item a').each(function(i) {
+		jQuery('.fusion-button:not([href^=#]),.menu-item a:not([href^=#])').each(function(i) {
 			var curhref = jQuery(this).attr('href');
-			if ( curhref.indexOf('?') > -1 && curhref.indexOf('#') === -1 ) {
+			if ( curhref.indexOf('?') > -1 ) {
 				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
 			}
 			else {
