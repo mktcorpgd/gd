@@ -72,6 +72,10 @@ jQuery(document).ready(function() {
 			var curhref = jQuery(this).find('a').attr('href');
 			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
 		});
+		jQuery('.tfs-button-1').each(function(i) {
+			var curhref = jQuery(this).find('a').attr('href');
+			jQuery(this).find('a').attr('href',curhref+'?ctry='+ctry);
+		});
 		jQuery('.fusion-logo-link').attr('href','/'+ctry_url);
 		jQuery('.country-flag.menu-item > a > span.menu-text').empty();
 		jQuery('.country-flag.menu-item > a > span.menu-text').html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
