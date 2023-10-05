@@ -108,12 +108,12 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-tribe-primary
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content{background:none;position:relative}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content h2
 {display:block;width:100%;color:var(--whiteColor);font-size:4em;text-align:center}
-body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content+h4{display:block;width:80%;margin:0 auto;color:var(--whiteColor);font-size:1.2em;text-align:center}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image .fusion-events-single-title-content+h4{display:block;width:80%;margin:0 auto;color:var(--whiteColor);font-size:2em;text-align:center}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated{display:block;margin-top:1em;width:100%;text-align:center}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{font-weight:400!important;font-size:1.4em}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{color:transparent}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3 span{color:var(--whiteColor)}
-body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin:8em auto;max-width:1200px}
+body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin:8em auto 4em;max-width:1200px}
 body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events .tribe-events-c-subscribe-dropdown__container,body.tribe_events-template-default.avada-has-titlebar-hide .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;margin:0 auto 4em}
 body.tribe_events-template-default:not(.avada-has-titlebar-hide) .tribe-events-single-event-description{font-size:1.2em}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .single-tribe_events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text{white-space:nowrap}
