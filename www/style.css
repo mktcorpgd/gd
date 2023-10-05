@@ -149,9 +149,6 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .tribe-events-venue-map>div{border-radius:12px}
 .tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events){position:relative}
 .tribe-events-single .tribe-events.tribe-common{z-index:99999}
-body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-content-widget-area *{color:var(--whiteAltColor)}
-body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-content-widget-area *:hover,.single-tribe_events #tribe-events-content .fusion-content-widget-area a:before:hover{color:var(--whiteColor)}
-body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .tribe-events-event-meta .tribe-events-gmap:before,body.tribe_events-template-default.avada-has-titlebar-hide .sidebar .tribe-events-event-meta .tribe-events-gmap:before,.tribe-events-meta-group dd[class*='-url'] a:before{color:var(--whiteColor)}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-ec-hover-type.hover-type-none{position:relative}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image:before{    content: '';
     background: rgb(0,0,0);
