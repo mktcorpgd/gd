@@ -22,7 +22,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Drive */
-#UseyourDrive div.scroll-to-top,[id*='mo_sps_upload_file'],.mo_doc_lib_table-row[breadcrumb*='A4'],.mo_doc_lib_table-row[breadcrumb*='assets'],.mo_doc_lib_table-row[breadcrumb*='dev'],.mo_doc_lib_table-row[breadcrumb*='old'],.mo_doc_lib_table-row[breadcrumb*='print'],.mo_doc_lib_table-row[breadcrumb*='.ai'],.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,
+[id*='mo_sps_upload_file'],.mo_doc_lib_table-row[breadcrumb*='A4'],.mo_doc_lib_table-row[breadcrumb*='assets'],.mo_doc_lib_table-row[breadcrumb*='dev'],.mo_doc_lib_table-row[breadcrumb*='old'],.mo_doc_lib_table-row[breadcrumb*='print'],.mo_doc_lib_table-row[breadcrumb*='.ai'],.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
 /* Formularios */
@@ -95,7 +95,7 @@ a:hover{color:#F0582B}
 article.category-casos-de-referencia .padder:before,article.category-casos-de-referencia .padder:after,
 body.page-id-29106 #content .padder:before,body.page-id-29106 #content .padder:after,
 body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:after,
-#tab-Casosdeuso #UseyourDrive .padder:before,#tab-Casosdeuso #UseyourDrive .padder:after,.wpcf7-response-output,div[class*='wpcf7-response-'],.wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio,.buttons,.buttons-download,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{clear:both}
+.wpcf7-response-output,div[class*='wpcf7-response-'],.wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio,.buttons,.buttons-download,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a{clear:both}
 .not-visible{visibility:hidden}
 body,input[type='text'],input[type='search'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'open-sans',sans-serif}
 abbr[title]{border-bottom:0;cursor:inherit;text-decoration:none}
@@ -607,11 +607,11 @@ article.category-busquedas-laborales #post-content .lider_rrhh{display:inline-bl
 article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child){padding-left:.4em;border-left:1px solid #CCCCCC}
 
 /* Uso interno / Sólo Argentina */
-body.page-id-44050 #content .padder:before,article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before,#tab-Casosdeuso #UseyourDrive .padder:before{display:block;color:#555555;text-align:center;font-size:1em;line-height:1.2;font-weight:400;font-style:italic}
+body.page-id-44050 #content .padder:before,article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before{display:block;color:#555555;text-align:center;font-size:1em;line-height:1.2;font-weight:400;font-style:italic}
 body.single article .padder:before{text-align:left}
 body.page-id-44050 #content .padder:before{content:'Válido para Argentina (AMBA)'}
 body.page-id-44050 #content .padder:before{padding-bottom:1em}
-article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before,#tab-Casosdeuso #UseyourDrive .padder:before{content:'Información de uso interno'}
+article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before{content:'Información de uso interno'}
 
 /* Pestañas */
 .ui-widget-content{padding:0;top:0;background:none;border:none!important;overflow:visible}
@@ -834,9 +834,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	section.post-loop.category-reportes{display: grid;grid-template-columns: 35% 65%}
 	section.post-loop.category-reportes a{font-size: 21px;color: #f0582b;}
 	section.post-loop.category-reportes a:hover{color: #0E316E;}
-	#UseyourDrive.video .jp-video{min-height:370px}
 	.ui-widget-content{float:left}
-	.sc-tabs #UseyourDrive .files.layout-grid .entry{margin:10px 10px 5px;max-width:200px}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
 	.bottom_logos{font-size:1.2em;line-height:1.5}
