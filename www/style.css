@@ -94,7 +94,7 @@ body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event,bod
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 .timezone:before{content:'/'}
 .tribe-event-time:after{content:' h'}
-body.tribe_events-template-default.avada-has-titlebar-hide .tribe-event-date-start{content:' h'}
+body.tribe_events-template-default.avada-has-titlebar-hide .tribe-event-date-start:after{content:'h'}
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
 .fusion-events-featured-image{margin-bottom:0}
