@@ -882,7 +882,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Eventos */
 	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{margin-top:1.5em}
 	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img{height:90px}
-	.fusion-event-meta-wrapper{margin:0 auto!important;display:grid;grid-template-columns:1fr 1fr}
+	body.tribe_events-template-default:not(.avada-has-titlebar-hide) .fusion-event-meta-wrapper{margin:0 auto!important;display:grid;grid-template-columns:1fr 1fr}
 	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-event-meta-wrapper .tribe-events-single-section{margin:0 auto!important;display:grid!important;grid-template-columns:1fr 1fr 1fr}
 	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-event-meta-wrapper{width:80%}
 
