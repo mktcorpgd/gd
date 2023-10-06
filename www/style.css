@@ -124,7 +124,7 @@ body.tribe_events-template-default:not(.avada-has-titlebar-hide) .tribe-events-s
 .single-tribe_events #main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content{padding-top:0!important}
 .single-tribe_events main .fusion-content-widget-area .widget .heading .widget-title{color:var(--textFont)}
 .fusion-body #main .tribe-events .tribe-events-calendar-month__header-column-title{color:var(--metaColor)}
-.single-tribe_events #tribe-events-content .fusion-content-widget-area{margin:4em 0}
+.single-tribe_events #tribe-events-content .fusion-content-widget-area{margin:0;padding:4em 0;background:#FAFAFA!important}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area .tribe-events-event-meta .tribe-events-meta-group{padding:0;width:100%!important}
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-meta-group dd, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-meta-group dd{border:none}
 body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{display:block}
