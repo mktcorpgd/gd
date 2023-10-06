@@ -114,6 +114,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3 span,body.tribe_events-template-default.avada-has-titlebar-hide .info-event .tribe-event-date-start a{color:var(--whiteColor);opacity:1!important}
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event .tribe-event-date-start a{text-decoration:underline}
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin:8em auto 4em;max-width:1200px}
+body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;margin-top:2em}
 body.tribe_events-template-default:not(.avada-has-titlebar-hide) .tribe-events-single-event-description{font-size:1.2em}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .single-tribe_events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text{white-space:nowrap}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content, .tribe-block__events-link .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content{margin-top:-12px}
