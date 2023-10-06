@@ -75,7 +75,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.tribe-venue').length ) {
 		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
 		var tribe_venue = jQuery('.tribe-venue').text().trim();
-		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search"'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
+		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
 	}
 
 
