@@ -88,7 +88,7 @@ jQuery(document).ready(function() {
 
 	// KIT
 	if ( jQuery('body').hasClass('page-id-54299') ) {
-		jQuery('.wp-classic-menu-block>.menu li').click(function(e) {
+		jQuery('.wp-classic-menu-block>.menu li:not(.file):not(.pwrp):not(.word)').click(function(e) {
 			jQuery(this).toggleClass('open');
 			e.stopPropagation();
 		});
