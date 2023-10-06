@@ -73,6 +73,7 @@ jQuery(document).ready(function() {
 
 	// CONTENIDOS - Evento: mover lugar luego de fecha y hora
 	if ( jQuery('.tribe-venue').length ) {
+		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details');
 		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
 		var tribe_venue = jQuery('.tribe-venue').text().trim();
 		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
