@@ -72,7 +72,10 @@ jQuery(document).ready(function() {
 
 
 	// CONTENIDOS - Evento: mover lugar luego de fecha y hora
-	jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search"'+jQuery('.tribe-venue').text()+'" target="_blank">'+jQuery('.tribe-venue').text()+'</a>');
+	if ( jQuery('.tribe-venue').length ) {
+		var tribe_venue = jQuery('.tribe-venue').text().trim();
+		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search"'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
+	}
 
 
 	// CONTENIDOS - Eliminar atributos title de las imágenes
