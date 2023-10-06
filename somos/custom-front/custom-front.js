@@ -107,6 +107,7 @@ jQuery(document).ready(function() {
 		jQuery('h4.org-office').text(org+' / '+office);
 		jQuery('.kit.'+unit_class+',.kit.un>.menu li.'+office_class+',.kit.un>.menu li.'+org_class+',.kit.un>.menu li.'+org_class+' *').addClass('visible');
 		jQuery('.kit.un>.menu li.menu-item-has-children').addClass('open');
+		jQuery('.wp-classic-menu-block a[href*="#"]').attr('target','_blank');
 	}
 
 
