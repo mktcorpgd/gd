@@ -195,6 +195,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transparent .fusion-header-wrapper{position:fixed}
 
 /* Menú */
+.fusion-main-menu{overflow:visible!important}
 .fusion-megamenu-title a[href='#no-title']{visibility:hidden}
 .fusion-megamenu-title a,.fusion-megamenu-holder{background:none!important}
 .fusion-megamenu-holder{border-top:none}
