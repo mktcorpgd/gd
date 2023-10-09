@@ -36,7 +36,7 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .pdfemb-zoomout,.pdfemb-zoomin,.pdfemb-zoomin+div,div.pdfemb-toolbar button.pdfemb-fs,.pdfemb-wantmobile,
 .modal .not-modal,
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
-.pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-content blockquote:before,.tribe-events-content blockquote:after,.tribe-events-start-date-label,.tribe-events-start-date-label,.tribe-events-start-time-label,.tribe-events-single-section-title.fusion-responsive-typography-calculated,.tribe-events-meta-group dd a:before,.tribe-organizer-url,.tribe-events-calendar-list__event-featured-image-wrapper.tribe-common-g-col,.tribe-events-event-categories-label,.tribe-events-footer,#tribe-events-footer,.tribe-events-calendar-list-nav.tribe-events-c-nav,.tribe-events-header__breadcrumbs.tribe-events-c-breadcrumbs,.tribe-events-header__title,body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3 .tribe-event-time,body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events-event-categories{display:none!important}
+.pac-icon,.pac-logo:after,.fusion-mobile-menu-sep{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,#legales span,.fusion-portfolio .more-info{display:none}
 
 /* General */
@@ -455,19 +455,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-button.button-flat,
-.tribe-common-c-btn.tribe-events-c-search__button{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
-.tribe-events-c-subscribe-dropdown__button-text {
-    padding: .5rem .9rem!important;
-    width: auto!important;
-    height: auto!important;
-    font-family: var(--titleFont),var(--iconFont),sans-serif!important;
-    font-weight: 500!important;
-    font-size: 1.4em!important;
-    line-height: normal!important;
-    letter-spacing: 0!important;
-    text-transform: none!important;
-    border-radius: 12px!important;
-}
 .button-default:not(.portfolio-button),.fusion-button-default-size,.fusion-button:not(.portfolio-button),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
@@ -785,13 +772,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.single-related-posts{padding:0 2em}
 	.fusion-portfolio article .fusion-post-content p,.fusion-blog-layout-grid article .fusion-post-content-container p{margin:0;padding:0;font-size:.9em;line-height:1.4}
 
-	/* Eventos */
-	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{margin-top:1.5em}
-	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img{height:90px}
-	body.tribe_events-template-default:not(.avada-has-titlebar-hide) .fusion-event-meta-wrapper{margin:0 auto!important;display:grid;grid-template-columns:1fr 1fr}
-	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-event-meta-wrapper .tribe-events-single-section{margin:0 auto!important;display:grid!important;grid-template-columns:1fr 1fr 1fr}
-	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-event-meta-wrapper{margin:0 auto!important;width:80%}
-
 	/* Pestañas/Filtros */
 	.fusion-filters .fusion-filter a{line-height:1.15}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
@@ -892,12 +872,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-page-title-bar-left .fusion-page-title-secondary{margin-top:1em}
 	.box-shadow.fusion-content-boxes .fusion-column{margin-bottom:1em}
 	.fusion-tabs .nav ul,.fusion-filters{margin-bottom:1em}
-
-	/* Eventos */
-	body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin-top:6em}
-	.single-tribe_events #tribe-events-content .tribe-events-event-meta, .single-tribe_events .sidebar .tribe-events-event-meta{padding:0}
-	.fusion-events-featured-image .fusion-events-single-title-content h2,.single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{text-align:center}
-	.tribe-events-schedule .timezone{display:block;font-size:.6em}
 
 	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}

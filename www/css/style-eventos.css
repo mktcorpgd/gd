@@ -1,4 +1,5 @@
 /* Eventos */
+.tribe-events-content blockquote:before,.tribe-events-content blockquote:after,.tribe-events-start-date-label,.tribe-events-start-date-label,.tribe-events-start-time-label,.tribe-events-single-section-title.fusion-responsive-typography-calculated,.tribe-events-meta-group dd a:before,.tribe-organizer-url,.tribe-events-calendar-list__event-featured-image-wrapper.tribe-common-g-col,.tribe-events-event-categories-label,.tribe-events-footer,#tribe-events-footer,.tribe-events-calendar-list-nav.tribe-events-c-nav,.tribe-events-header__breadcrumbs.tribe-events-c-breadcrumbs,.tribe-events-header__title,body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3 .tribe-event-time,body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events-event-categories{display:none!important}
 .tribe-filter-live #main{overflow:visible}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-main-menu,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-mobile-menu-icons,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header-sticky-height,body.tribe_events-template-default .tribe-events-event-image,body.tribe_events-template-default.avada-has-titlebar-hide #sidebar,
 body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event{display:none!important}
@@ -83,3 +84,22 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .tribe-events-calendar-list__event.cat_patrocinamos:before{content:'Patrocinamos'}
 .tribe-events-calendar-list__event.cat_asistimos:before{content:'Asistimos'}
 .tribe-events-calendar-list__event.cat_otros:before{content:'Otros'}
+.tribe-common-c-btn.tribe-events-c-search__button{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:500;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
+.tribe-events-c-subscribe-dropdown__button-text{padding:.5rem .9rem!important;width:auto!important;height:auto!important;font-family:var(--titleFont),var(--iconFont),sans-serif!important;font-weight:500!important;font-size:1.4em!important;line-height:normal!important;letter-spacing:0!important;text-transform:none!important;border-radius:12px!important}
+
+/* Desktop */
+@media (min-width:920px) {
+	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{margin-top:1.5em}
+	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img{height:90px}
+	body.tribe_events-template-default:not(.avada-has-titlebar-hide) .fusion-event-meta-wrapper{margin:0 auto!important;display:grid;grid-template-columns:1fr 1fr}
+	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-event-meta-wrapper .tribe-events-single-section{margin:0 auto!important;display:grid!important;grid-template-columns:1fr 1fr 1fr}
+	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-event-meta-wrapper{margin:0 auto!important;width:80%}
+}
+
+/* Mobile */
+@media (max-width:920px) {
+	body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin-top:6em}
+	.single-tribe_events #tribe-events-content .tribe-events-event-meta, .single-tribe_events .sidebar .tribe-events-event-meta{padding:0}
+	.fusion-events-featured-image .fusion-events-single-title-content h2,.single-tribe_events #tribe-events-content .fusion-events-featured-image .updated h3{text-align:center}
+	.tribe-events-schedule .timezone{display:block;font-size:.6em}
+}
