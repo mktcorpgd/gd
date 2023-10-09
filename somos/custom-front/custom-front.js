@@ -96,16 +96,14 @@ jQuery(document).ready(function() {
 			e.preventDefault();
 		});
 		var org = jQuery('input[name=gdORG_mc]').val();
-		var office = jQuery('input[name=gdOFFICE_mc]').val();
-		var unit = jQuery('input[name=gdUNIT_mc]').val();
-		var org_class = normalize(org.toLowerCase());
 		var office_class = normalize(office.toLowerCase());
+		var office = jQuery('input[name=gdOFFICE_mc]').val();
+		var org_class = normalize(org.toLowerCase());
 		office_class = office_class.substring(0,2);
+		var unit = jQuery('input[name=gdUNIT_mc]').val();
 		var unit_class = normalize(unit.toLowerCase());
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
-		jQuery('.kit.'+unit_class+',.kit.un>.menu li.'+office_class+',.kit.un>.menu li.'+org_class+',.kit.un>.menu li.'+org_class+' *').addClass('visible');
-		jQuery('.kit.un>.menu li.menu-item-has-children').addClass('open');
 		jQuery('.wp-classic-menu-block .menu-item a:not([href*="#"])').attr('target','_blank');
 	}
 
