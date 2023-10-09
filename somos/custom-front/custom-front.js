@@ -97,10 +97,9 @@ jQuery(document).ready(function() {
 			e.preventDefault();
 		});
 		var org = jQuery('input[name=gdORG_mc]').val();
-		var office_class = normalize(office.toLowerCase());
-		var office = jQuery('input[name=gdOFFICE_mc]').val();
 		var org_class = normalize(org.toLowerCase());
-		office_class = office_class.substring(0,2);
+		var office = jQuery('input[name=gdOFFICE_mc]').val();
+		var office_class = normalize(office.toLowerCase());
 		var unit = jQuery('input[name=gdUNIT_mc]').val();
 		var unit_class = normalize(unit.toLowerCase());
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
