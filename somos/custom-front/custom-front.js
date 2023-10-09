@@ -103,8 +103,7 @@ jQuery(document).ready(function() {
 		office_class = office_class.substring(0,2);
 		var unit_class = normalize(unit.toLowerCase());
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
-		jQuery('title,h1.page-title').text('Kit de materiales para '+unit);
-		jQuery('h4.org-office').text(org+' / '+office);
+		jQuery('h4.unit').text(unit);
 		jQuery('.kit.'+unit_class+',.kit.un>.menu li.'+office_class+',.kit.un>.menu li.'+org_class+',.kit.un>.menu li.'+org_class+' *').addClass('visible');
 		jQuery('.kit.un>.menu li.menu-item-has-children').addClass('open');
 		jQuery('.wp-classic-menu-block .menu-item a:not([href*="#"])').attr('target','_blank');
