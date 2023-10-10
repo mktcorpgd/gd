@@ -83,16 +83,10 @@ jQuery(document).ready(function() {
 			if ( old_href.indexOf('google.com') > -1 ) {
 				elmts.splice(3, 1);
 			}
-			else if ( old_href.indexOf('outlook.office.com') > -1 ) {
-				elmts.splice(7, 1);
-			}
-			else if ( old_href.indexOf('outlook.live.com') > -1 ) {
-				elmts.splice(7, 1);
-
+			else if ( old_href.indexOf('outlook.') > -1 ) {
+				elmts.splice(6, 1);
 			}
 			var new_href = elmts.join('&');
-			console.log('old_href='+old_href);
-			console.log('new_href='+new_href);
 			jQuery(this).attr('href',new_href);
 		});
 	}
