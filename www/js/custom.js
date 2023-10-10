@@ -92,7 +92,7 @@ jQuery(document).ready(function() {
 			}
 			var new_href = elmts.join('&amp;');
 			console.log(new_href);
-			jQuery(this).attr('href',new_href);
+			//jQuery(this).attr('href',new_href);
 		});
 	}
 
