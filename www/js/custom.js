@@ -90,8 +90,8 @@ jQuery(document).ready(function() {
 				elmts.splice(7, 1);
 
 			}
-			console.log(new_href);
 			var new_href = elmts.join('&amp;');
+			console.log(new_href);
 			jQuery(this).attr('href',new_href);
 		});
 	}
