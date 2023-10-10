@@ -80,8 +80,8 @@ jQuery(document).ready(function() {
 		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
 			var old_href = jQuery(this).attr('href');
 			var elmts = old_href.split('&');
-			console.log(old_href.indexOf('google.com.ar') > -1);
-			if ( old_href.indexOf('google.com.ar') > -1 ) {
+			console.log(old_href.indexOf('google.com') > -1);
+			if ( old_href.indexOf('google.com') > -1 ) {
 				elmts.splice(3, 1);
 			}
 			/*else if ( old_href.indexOf('outlook.office.com') > -1 ) {
