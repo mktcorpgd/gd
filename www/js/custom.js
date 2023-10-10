@@ -71,12 +71,17 @@ jQuery(document).ready(function() {
 	});
 
 
-	// CONTENIDOS - Evento: mover lugar luego de fecha y hora
+	// CONTENIDOS - Eventos
 	if ( jQuery('.tribe-venue').length ) {
 		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
 		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
 		var tribe_venue = jQuery('.tribe-venue').text().trim();
 		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
+		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
+			var new_href = jQuery(this).attr('href');
+			new_href = new_href.substring(0,new_href.indexOf('&amp;detals'));
+			console.log(new_href);
+		});
 	}
 
 
