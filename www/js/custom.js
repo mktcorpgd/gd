@@ -79,11 +79,21 @@ jQuery(document).ready(function() {
 		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
 		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
 			var old_href = jQuery(this).attr('href');
-			var elmts = old_href.split('&amp;');
-			elmts.splice(3, 1);
-			var new_href = elmts.join('&amp;');
-			console.log(new_href);
+			if ( old_href.indexOf('google.com.ar') > -1 ) {
+				var elmts = old_href.split('&amp;');
+				elmts.splice(3, 1);
+			}
+			else if ( old_href.indexOf('outlook.office.com') > -1 ) {
+				var elmts = old_href.split('&amp;');
+				elmts.splice(7, 1);
+			}
+			else if ( old_href.indexOf('outlook.live.com') > -1 ) {
+				var elmts = old_href.split('&amp;');
+				elmts.splice(7, 1);
 
+			}
+			var new_href = elmts.join('&amp;');
+			jQuery(this).attr('href',new_href);
 		});
 	}
 
