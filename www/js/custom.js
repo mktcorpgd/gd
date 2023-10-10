@@ -78,9 +78,12 @@ jQuery(document).ready(function() {
 		var tribe_venue = jQuery('.tribe-venue').text().trim();
 		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
 		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
-			var new_href = jQuery(this).attr('href');
-			new_href = new_href.split('&amp;');
+			var old_href = jQuery(this).attr('href');
+			var elmts = old_href.split('&amp;');
+			elmts.splice(3, 1);
+			var new_href = elmts.join('&amp;');
 			console.log(new_href);
+
 		});
 	}
 
