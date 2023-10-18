@@ -81,7 +81,7 @@ jQuery(document).ready(function() {
 			if ( tp_org.indexOf('0g') != -1 ) {
 				tp_org = tp_org = tp_org.replace(/0g/g,'zerog');
 			}
-			jQuery('.tp').removeClass().addClass('tp '+tp_org);
+			jQuery('#'+id_form+' .tp').removeClass().addClass('tp '+tp_org);
 			jQuery('#mobile-logo').fadeOut('fast', function() {
 			jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
 			}).fadeIn('fast');
@@ -91,15 +91,15 @@ jQuery(document).ready(function() {
 			jQuery('#tp_dorso').fadeOut('fast', function() {
 				jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso-22.png');
 			}).fadeIn('fast');
-			jQuery('.wpcf7-form>div.step2').css('opacity','1');
-			jQuery('.wpcf7-form>div.step2 :input').prop('disabled',false);
-			jQuery('.wpcf7-form>.step2').removeClass('step2');
+			jQuery('#'+id_form+' .step2').css('opacity','1');
+			jQuery('#'+id_form+' .step2 :input').prop('disabled',false);
+			jQuery('#'+id_form+' .step2').removeClass('step2');
 			if ( jQuery(window).width() < 960 ) {
-				jQuery('html,body').animate({scrollTop:jQuery('.wpcf7 select[name=OFFICE]').offset().top-150},'fast','linear',function(){
-					jQuery('.wpcf7 select[name=OFFICE]').focus();
+				jQuery('html,body').animate({scrollTop:jQuery('#'+id_form+' select[name=OFFICE]').offset().top-150},'fast','linear',function(){
+					jQuery('#'+id_form+' select[name=OFFICE]').focus();
 				});
 			}
-			jQuery('.tpdata.web').text(tp_web[tp_org]);
+			jQuery('#'+id_form+' .tpdata.web').text(tp_web[tp_org]);
 		}
 	});
 
@@ -107,9 +107,10 @@ jQuery(document).ready(function() {
 	// 2. Habilitar el resto después de seleccionar oficina
 	jQuery('select[name=OFFICE] option:contains(AR - Externo / Freelance)').hide();
 	jQuery('.wpcf7 select[name=OFFICE]').change(function(){
+		var id_form = jQuery(this).closest('.wpcf7').attr('id');
 		if ( jQuery(window).width() < 960 ) {
-			jQuery('html,body').animate({scrollTop:jQuery('.step3:first').offset().top-100},'fast','linear',function(){
-				jQuery('.step3:first').focus();
+			jQuery('html,body').animate({scrollTop:jQuery('#'+id_form+' .step3:first').offset().top-100},'fast','linear',function(){
+				jQuery('#'+id_form+' .step3:first').focus();
 			});
 		}
 		var this_value = jQuery(this).val();
@@ -123,10 +124,10 @@ jQuery(document).ready(function() {
 		else {
 			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
 		}
-		jQuery('input[name=PHONE]').val(tp_phone[ctry_office]);
-		jQuery('.tpdata.phone').text(tp_phone[ctry_office]);
-		jQuery('textarea[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi,'\n'));
-		jQuery('.tpdata.address').html(tp_address[ctry_office]);
+		jQuery('#'+id_form+' input[name=PHONE]').val(tp_phone[ctry_office]);
+		jQuery('#'+id_form+' textarea[name=ADDRESS]').val(tp_address[ctry_office].replace(/<br\s*\/?>/gi,'\n'));
+		jQuery('#'+id_form+' .tpdata.phone').text(tp_phone[ctry_office]);
+		jQuery('#'+id_form+' .tpdata.address').html(tp_address[ctry_office]);
 		var mobile_phone_cod_ctry = tp_phone[ctry_office].substr(0,3);
 		if ( mobile_phone_cod_ctry.length > 0 ) {
 			var mobile_phone_cod_loc = tp_phone[ctry_office].substring(tp_phone[ctry_office].lastIndexOf('(')+1,tp_phone[ctry_office].lastIndexOf(')'));
@@ -139,10 +140,10 @@ jQuery(document).ready(function() {
 			else {
 				var mobile_phone_cod = mobile_phone_cod_ctry+' ';
 			}
-			jQuery('input[name=MOBILE_PHONE]').val(mobile_phone_cod);
-			jQuery('.tpdata.mobile_phone').html(mobile_phone_cod);
+			jQuery('#'+id_form+' input[name=MOBILE_PHONE]').val(mobile_phone_cod);
+			jQuery('#'+id_form+' .tpdata.mobile_phone').html(mobile_phone_cod);
 		}
-		jQuery('.step3,.disabled').removeClass('step3').removeClass('disabled');
+		jQuery('#'+id_form+' .step3,#'+id_form+' .disabled').removeClass('step3').removeClass('disabled');
 	});
 
 
