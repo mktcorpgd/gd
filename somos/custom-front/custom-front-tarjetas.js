@@ -80,10 +80,8 @@ jQuery(document).ready(function() {
 			if ( tp_org.indexOf('0g') != -1 ) {
 				tp_org = tp_org = tp_org.replace(/0g/g,'zerog');
 			}
+			console.log('tp_org='+tp_org);
 			jQuery('.tp').removeClass().addClass('tp '+tp_org);
-			if ( jQuery('body').hasClass('page-id-24225') ) {
-				jQuery('.tp').addClass('digital');
-			}
 			jQuery('#mobile-logo').fadeOut('fast', function() {
 			jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
 			}).fadeIn('fast');
