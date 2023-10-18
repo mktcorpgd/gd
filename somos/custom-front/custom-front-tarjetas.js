@@ -61,7 +61,7 @@ jQuery(document).ready(function() {
 	tp_phone['br_sao-paulo'] = '+55 (19) 3037-1623';
 	tp_address['cl_santiago'] = 'Av. El Bosque Norte 500 (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
 	tp_phone['cl_santiago'] = '+56 (2) 2253-5200';
-	tp_address['mx_ciudad de mexico'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
+	tp_address['mx_ciudad-de-mexico'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
 	tp_phone['mx_ciudad-de-mexico'] = '+52 (55) 5279-9930';
 	tp_address['pe_lima'] = 'Av. Camino Real 355 (15073)<br />Piso 2<br />San Isidro, Lima<br />Perú';
 	tp_phone['pe_lima'] = '+51 (1) 616-0770';
