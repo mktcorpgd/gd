@@ -81,16 +81,18 @@ jQuery(document).ready(function() {
 			if ( tp_org.indexOf('0g') != -1 ) {
 				tp_org = tp_org = tp_org.replace(/0g/g,'zerog');
 			}
-			jQuery('#'+id_form+' .tp').removeClass().addClass('tp '+tp_org);
-			jQuery('#mobile-logo').fadeOut('fast', function() {
-			jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
-			}).fadeIn('fast');
-				jQuery('#tp_frente').fadeOut('fast', function() {
-				jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente-22.png');
-			}).fadeIn('fast');
-			jQuery('#tp_dorso').fadeOut('fast', function() {
-				jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso-22.png');
-			}).fadeIn('fast');
+			if ( id_form == 'wpcf7-f24224-p18546-o2' ) {
+				jQuery('#'+id_form+' .tp').removeClass().addClass('tp digital '+tp_org);
+				jQuery('#mobile-logo').fadeOut('fast', function() {
+				jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
+				}).fadeIn('fast');
+					jQuery('#tp_frente').fadeOut('fast', function() {
+					jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente-22.png');
+				}).fadeIn('fast');
+				jQuery('#tp_dorso').fadeOut('fast', function() {
+					jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso-22.png');
+				}).fadeIn('fast');
+			}
 			jQuery('#'+id_form+' .step2').css('opacity','1');
 			jQuery('#'+id_form+' .step2 :input').prop('disabled',false);
 			jQuery('#'+id_form+' .step2').removeClass('step2');
