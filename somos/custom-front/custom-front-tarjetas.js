@@ -74,6 +74,8 @@ jQuery(document).ready(function() {
 	jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-grupo_datco-dorso-22.png');
 	jQuery('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
 	jQuery('.wpcf7 select[name=ORG]').change(function() {
+		var id_form = jQuery(this).closest('.wpcf7').attr('id');
+		console.log(id_form);
 		if ( jQuery(this).val() != '—' ) {
 			var tp_org = jQuery('select[name=ORG] option:selected').val();
 			tp_org = tp_org.replace(/ /,'_').toLowerCase();
