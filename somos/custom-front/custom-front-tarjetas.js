@@ -77,7 +77,7 @@ jQuery(document).ready(function() {
 		var id_form = jQuery(this).closest('.wpcf7').attr('id');
 		console.log(id_form);
 		if ( jQuery(this).val() != '—' ) {
-			var tp_org = jQuery('select[name=ORG] option:selected').val();
+			var tp_org = jQuery('#'+id_form+' select[name=ORG] option:selected').val();
 			tp_org = tp_org.replace(/ /,'_').toLowerCase();
 			if ( tp_org.indexOf('0g') != -1 ) {
 				tp_org = tp_org = tp_org.replace(/0g/g,'zerog');
