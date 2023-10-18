@@ -814,7 +814,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
-	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:.5em 1em}
+	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{grid-gap:0 1em .5em 1em}
 	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail,body.archive .gp-blog-wrapper section .post-thumbnail,body.search .gp-blog-wrapper section .post-thumbnail{max-width:100%}
 	body.single .gp-entry-meta .gp-meta-cats{padding-left:.8rem;border-left:2px solid #EAEAEA}
 	body.fullwidth #content .gp-search{margin:.5em auto 0;padding:0 1em;width:80%}
