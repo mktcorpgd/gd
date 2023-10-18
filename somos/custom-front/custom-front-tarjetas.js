@@ -29,18 +29,18 @@ jQuery(document).ready(function() {
 	tp_web['sersat'] = 'sersat.grupodatco.com';
 	tp_web['silica_networks'] = 'silicanetworks.com';
 	tp_web['velocom'] = 'velocom.com.ar';
-	tp_address['ar_caba - san martin'] = 'San Martín 640 (C1004AAN)<br />Microcentro, CABA<br />Argentina';
-	tp_phone['ar_caba - san martin'] = '+54 (11) 4103-1300';
-	tp_address['ar_caba - catulo'] = 'Cátulo Castillo 3251 (C1261ACB)<br />Distrito Tecnológico, CABA<br />Argentina';
-	tp_phone['ar_caba - catulo'] = '+54 (11) 4103-1300';
-	tp_address['ar_caba - jujuy'] = 'Av. Jujuy 1956 (C1247ABA)<br />Parque Patricios, CABA<br />Argentina';
-	tp_phone['ar_caba - jujuy'] = '+54 (11) 4103-1300';
-	tp_address['ar_la plata'] = 'Av. 51 511 (B1904AVK)<br />Of. 301<br />La Plata, Buenos Aires<br />Argentina'
-	tp_phone['ar_la plata'] = '';
-	tp_address['ar_bahia blanca'] = 'España 41 (B8000JFA)<br />Bahía Blanca, Buenos Aires<br />Argentina';
-	tp_phone['ar_bahia blanca'] = '+54 (291) 451-8376';
-	tp_address['ar_mar del plata'] = 'Av. Constitución 5075 (B7605EYA)<br />PB, Oficina 106<br />Mar del Plata, Buenos Aires<br />Argentina';
-	tp_phone['ar_mar del plata'] = '+54 (223) 471-5073';
+	tp_address['ar_caba---san martin'] = 'San Martín 640 (C1004AAN)<br />Microcentro, CABA<br />Argentina';
+	tp_phone['ar_caba---san martin'] = '+54 (11) 4103-1300';
+	tp_address['ar_caba---catulo'] = 'Cátulo Castillo 3251 (C1261ACB)<br />Distrito Tecnológico, CABA<br />Argentina';
+	tp_phone['ar_caba---catulo'] = '+54 (11) 4103-1300';
+	tp_address['ar_caba---jujuy'] = 'Av. Jujuy 1956 (C1247ABA)<br />Parque Patricios, CABA<br />Argentina';
+	tp_phone['ar_caba---jujuy'] = '+54 (11) 4103-1300';
+	tp_address['ar_la-plata'] = 'Av. 51 511 (B1904AVK)<br />Of. 301<br />La Plata, Buenos Aires<br />Argentina'
+	tp_phone['ar_la-plata'] = '';
+	tp_address['ar_bahia-blanca'] = 'España 41 (B8000JFA)<br />Bahía Blanca, Buenos Aires<br />Argentina';
+	tp_phone['ar_bahia-blanca'] = '+54 (291) 451-8376';
+	tp_address['ar_mar-del-plata'] = 'Av. Constitución 5075 (B7605EYA)<br />PB, Oficina 106<br />Mar del Plata, Buenos Aires<br />Argentina';
+	tp_phone['ar_mar-del-plata'] = '+54 (223) 471-5073';
 	tp_address['ar_pilar'] = 'Av. Sgto. Cayetano Beliera 3025 (B1629WWA)<br />M3, PB Of. 01<br />Pilar Centro, Buenos Aires<br />Argentina'
 	tp_phone['ar_pilar'] = '+54 (351) 522-0808';
 	tp_address['ar_cordoba'] = 'Jacobo Joule 5353 (X5021)<br />Piso 1, Of. 111<br />Complejo Quadra 54, Córdoba, Argentina';
@@ -57,16 +57,16 @@ jQuery(document).ready(function() {
 	tp_phone['ar_neuquen'] = '+54 (299) 525-9119';
 	tp_address['ar_otra'] = 'Localidad, Provincia<br />Argentina';
 	tp_phone['ar_otra'] = '+54';
-	tp_address['br_sao paulo'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
-	tp_phone['br_sao paulo'] = '+55 (19) 3037-1623';
+	tp_address['br_sao-paulo'] = 'Rua Maria Monteiro 786 (13025151)<br />Sala 14<br />Cambuí, Campinas, São Paulo<br />Brasil';
+	tp_phone['br_sao-paulo'] = '+55 (19) 3037-1623';
 	tp_address['cl_santiago'] = 'Av. El Bosque Norte 500 (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
 	tp_phone['cl_santiago'] = '+56 (2) 2253-5200';
 	tp_address['mx_ciudad de mexico'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
-	tp_phone['mx_ciudad de mexico'] = '+52 (55) 5279-9930';
+	tp_phone['mx_ciudad-de-mexico'] = '+52 (55) 5279-9930';
 	tp_address['pe_lima'] = 'Av. Camino Real 355 (15073)<br />Piso 2<br />San Isidro, Lima<br />Perú';
 	tp_phone['pe_lima'] = '+51 (1) 616-0770';
-	tp_address['pr_san juan'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />San Juan<br />Puerto Rico';
-	tp_phone['pr_san juan'] = '';
+	tp_address['pr_san-juan'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />San Juan<br />Puerto Rico';
+	tp_phone['pr_san-juan'] = '';
 
 
 	// 1. Habilitar oficina después de seleccionar empresa
@@ -86,7 +86,9 @@ jQuery(document).ready(function() {
 				jQuery('#mobile-logo').fadeOut('fast', function() {
 				jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
 				}).fadeIn('fast');
-					jQuery('#tp_frente').fadeOut('fast', function() {
+			}
+			if ( id_form == 'wpcf7-f16691-p18546-o1' ) {
+				jQuery('#tp_frente').fadeOut('fast', function() {
 					jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente-22.png');
 				}).fadeIn('fast');
 				jQuery('#tp_dorso').fadeOut('fast', function() {
