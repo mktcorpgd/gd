@@ -87,7 +87,6 @@ jQuery(document).ready(function() {
 	}
 
 	// Kit
-	console.log(jQuery('.kit').length);
 	if ( jQuery('.kit').length ) {
 		jQuery('.wp-classic-menu-block>.menu li:not(.file):not(.pwrp):not(.word)').click(function(e) {
 			jQuery(this).toggleClass('open');
