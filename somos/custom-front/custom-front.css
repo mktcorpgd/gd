@@ -362,7 +362,8 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7 label>i[class*='fa-solid']:not([class*='circle-info']){width:16px;text-align:right;position:absolute;top:50%;left:-22px}
 .wpcf7 label>i[class*='circle-info']:hover{color:#666666}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
-body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item{display: flex;}
+body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item{display:flex;}
+body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item.first{display:none}
 
 /* Datepicker */
 .xdsoft_time.xdsoft_old{pointer-events:none;opacity:.6;}
