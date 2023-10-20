@@ -363,7 +363,7 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7 label>i[class*='circle-info']:hover{color:#666666}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
 .page-id-52937.wpcf7-form-control-wrap.DIGITAL.wpcf7-list-item{display: flex;}
-.page-id-52937 .wpcf7-form-control-wrap .DIGITAL .wpcf7-list-item{display: flex;}
+.page-id-52937 .wpcf7-form-control-wrap.DIGITAL .wpcf7-list-item{display: flex;}
 
 /* Datepicker */
 .xdsoft_time.xdsoft_old{pointer-events:none;opacity:.6;}
