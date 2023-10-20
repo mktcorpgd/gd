@@ -778,6 +778,8 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 /* Kit */
 .wp-classic-menu-block>.menu ul{transition:all .3s ease-in-out}
 .kit>.menu li{display:block;padding:0}
+.kit>.menu>li{font-size:1.2em;font-size:'neo-sans',sans-serif;font-weight:500}
+.kit>.menu>li>ul>li{font-size:1.1em;font-weight:600}
 .kit.grid>.menu li{margin:1%;text-align:center}
 .kit.grid>.menu li.columns.two{width:48%}
 .kit.grid>.menu li.columns.three{width:31.33%}
