@@ -76,7 +76,7 @@ jQuery(document).ready(function() {
 		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
 		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
 		var tribe_venue = jQuery('.tribe-venue').text().trim();
-		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
+		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search/'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
 		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
 			var old_href = jQuery(this).attr('href');
 			var elmts = old_href.split('&');
