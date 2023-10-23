@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 
 
 	// Mostrar contenidos por ajax:
-	jQuery('.slick-slide').each(function(i) {
+	/*jQuery('.slick-slide').each(function(i) {
 		var href_link = jQuery('.content-title',this).find('a').attr('href');
 		if ( (jQuery(this).height() > 150 && jQuery(window).width() > 960) || (jQuery(this).height() > 140 && jQuery(window).width() < 960) ) {
 			jQuery(this).addClass('more-info');
@@ -87,7 +87,7 @@ jQuery(document).ready(function() {
 			}
 		}
 	});
-
+*/
 
 	// Abrir contador
 	/*if ( jQuery.cookie('suprise-viewed') != 'yes' ) {
