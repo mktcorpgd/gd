@@ -308,7 +308,8 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .box-shadow.fusion-content-boxes .content-box-wrapper{padding:12px 6px}
 .box-shadow.fusion-content-boxes .content-box-wrapper .heading{margin-bottom:0}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.fusion-events-post .fusion-column-wrapper{position:relative;border-radius:12px 12px 9px 9px;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important}
-.fusion-portfolio-content,.fusion-post-content-wrapper,.fusion-events-post .fusion-events-content-wrapper{background:var(--whiteColor)!important;border-bottom-left-radius:9px;border-bottom-right-radius:9px}
+.fusion-portfolio-content,.fusion-post-content-wrapper,.fusion-events-post .fusion-events-content-wrapper{background:var(--whiteColor)!important}
+.fusion-portfolio-content,.fusion-post-content-wrapper{border-bottom-left-radius:9px;border-bottom-right-radius:9px}
 .no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper,.no-featured-image .fusion-events-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a,.fusion-events-content-wrapper h4{display:block;padding:1.25rem 1.5rem;font-weight:400}
 .fusion-events-content-wrapper h4{font-size:1.1em}
