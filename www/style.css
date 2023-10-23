@@ -313,6 +313,8 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper,.no-featured-image .fusion-events-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a,.fusion-events-content-wrapper h4{display:block;padding:1.25rem 1.5rem;font-weight:400}
 .fusion-events-content-wrapper h4 span{font-size:1.2em;font-family:var(--textFont);color:var(--metaColor)}
+.fusion-post-grid.has-post-thumbnail .fusion-post-content-wrapper h2 a{padding-top:1rem}
+.fusion-post-grid.has-post-thumbnail .fusion-post-content-wrapper .fusion-single-line-meta{padding-bottom:1rem}
 .fusion-portfolio-content-wrapper h2 a{padding-bottom:.5rem}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper,.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-top-left-radius:12px;border-top-right-radius:12px}
 .fusion-image-wrapper,.fusion-portfolio-content h2{margin-bottom:0!important}
