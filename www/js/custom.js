@@ -143,12 +143,14 @@ jQuery(document).ready(function() {
 
 
 	// EVENTOS - Ocultar evento interno
-	jQuery('article.tribe-events-calendar-list__event').each(function(i) {
-		if ( jQuery(this).hasClass('cat_internos') ) {
-			jQuery(this).closest('.tribe-events-calendar-list__event-row').addClass('hidden');
-		}
-	});
-	
+	if ( jQuery('.article.tribe-events-calendar-list__event').length ) {
+		jQuery('article.tribe-events-calendar-list__event').each(function(i) {
+			if ( jQuery(this).hasClass('cat_internos') ) {
+				jQuery(this).closest('.tribe-events-calendar-list__event-row').addClass('hidden');
+			}
+		});	
+	}
+
 
 	// PORTFOLIO - Agregar botones en cards
 	if ( jQuery('.fusion-portfolio').length && !jQuery('.more-info').length ) {
