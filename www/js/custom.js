@@ -143,12 +143,13 @@ jQuery(document).ready(function() {
 
 
 	// EVENTOS - Ocultar evento interno
-	console.log(jQuery('.tribe-filter-bar-c-filter').length);
 	if ( jQuery('.tribe-filter-bar-c-filter').length ) {
 		jQuery('.tribe-filter-bar-c-filter').addClass('tribe-filter-bar-c-filter--open');
-		jQuery('.select2-results__option:contains("Propios")').addClass('hidden');
-		jQuery('.select2-results__option:contains("Internos")').addClass('hidden');
-		jQuery('.select2-results__option:contains("Patrocinamos")').addClass('hidden');
+		jQuery('.tribe-common-form-control-checkbox__label').each(function(i) {
+			if ( jQuery(this).attr('for').indexOf('internos') || jQuery(this).attr('for').indexOf('propios') || jQuery(this).attr('for').indexOf('patrocinamos') ) {
+				jQuery(this).closest('tribe-common-form-control-checkbox').addClass('hidden');
+			}
+		});
 	}
 
 
