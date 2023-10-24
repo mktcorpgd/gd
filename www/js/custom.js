@@ -143,7 +143,7 @@ jQuery(document).ready(function() {
 
 
 	// EVENTOS - Ocultar evento interno
-	if ( jQuery('.article.tribe-events-calendar-list__event').length ) {
+	if ( jQuery('article.tribe-events-calendar-list__event').length ) {
 		jQuery('article.tribe-events-calendar-list__event').each(function(i) {
 			if ( jQuery(this).hasClass('cat_internos') ) {
 				jQuery(this).closest('.tribe-events-calendar-list__event-row').addClass('hidden');
