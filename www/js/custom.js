@@ -143,8 +143,11 @@ jQuery(document).ready(function() {
 
 
 	// EVENTOS - Ocultar evento interno
-	if ( jQuery('.tribe-filter-bar-c-filter') ) {
+	if ( jQuery('.tribe-filter-bar-c-filter').length ) {
 		jQuery('.tribe-filter-bar-c-filter').addClass('tribe-filter-bar-c-filter--open');
+		jQuery('.select2-results__option:contains("Internos")').addClass('hidden');
+		jQuery('.select2-results__option:contains("Internos")').addClass('hidden');
+		jQuery('.select2-results__option:contains("Internos")').addClass('hidden');
 		jQuery('.select2-results__option:contains("Internos")').addClass('hidden');
 	}
 
