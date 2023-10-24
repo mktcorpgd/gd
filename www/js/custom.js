@@ -143,13 +143,8 @@ jQuery(document).ready(function() {
 
 
 	// EVENTOS - Ocultar evento interno
-	if ( jQuery('article.tribe-events-calendar-list__event').length ) {
-		jQuery('.select2-results__option:contains(Interno)').addClass('hidden');
-		jQuery('article.tribe-events-calendar-list__event').each(function(i) {
-			if ( jQuery(this).hasClass('cat_internos') ) {
-				jQuery(this).closest('.tribe-events-calendar-list__event-row').addClass('hidden');
-			}
-		});	
+	if ( jQuery('.tribe-filter-bar-c-filter__toggle-text') ) {
+		jQuery('.select2-results__option:contains("Internos")').addClass('hidden');
 	}
 
 
