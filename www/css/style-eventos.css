@@ -61,7 +61,7 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .tribe-events-start-time,.tribe-venue{display:inline-block;font-family:var(--titleFont);font-weight:500;font-size:1.3em}
 .fusion-content-widget-area .tribe-events-start-time:after{content:' h'}
 .tribe-venue{padding-bottom:0}
-.tribe-events-venue-map>div,.fusion-body .tribe-filter-bar .tribe-filter-bar__filters-container .tribe-filter-bar-c-filter__container{border-radius:12px}
+.tribe-events-venue-map>div,.fusion-body .tribe-filter-bar .tribe-filter-bar__filters-container .tribe-filter-bar-c-filter__container{border-radius:12px;background:none;border:2px solid var(--lightgrayColor);}
 .tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events){position:relative}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-ec-hover-type.hover-type-none{position:relative}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image:before{content:'';background:rgb(0,0,0);background:linear-gradient(135deg,rgba(0,0,0,.8) 0%,rgba(0,0,0,.4) 100%);width:100%;height:100%;position:absolute;left:0;z-index:0;top:0}.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container{min-height:auto;padding:0}
@@ -85,7 +85,6 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .tribe-events-calendar-list__event:before,.tribe-events-calendar-list__event .tribe-events-calendar-list__event-details:before{font-size:.8em}
 .tribe-events-calendar-list__event:before{padding-left:var(--tec-grid-gutter-half);color:var(--grayColor)}
 .tribe-events-calendar-list__event .tribe-events-calendar-list__event-details:before{color:var(--textColor)}
-
 .tribe-events-calendar-list__event.cat_propios:before{content:'Propios'}
 .tribe-events-calendar-list__event.cat_patrocinamos:before{content:'Patrocinamos'}
 .tribe-events-calendar-list__event.cat_asistimos:before{content:'Asistimos'}
@@ -99,6 +98,9 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .tribe-events-calendar-list__event.cat_silica-networks .tribe-events-calendar-list__event-details:before{content:'Silica Networks'}
 .tribe-events-calendar-list__event.cat_velocom .tribe-events-calendar-list__event-details:before{content:'Velocom'}
 .tribe-events-c-subscribe-dropdown__button-text{padding:.5rem .9rem!important;width:auto!important;height:auto!important;font-family:var(--titleFont),var(--iconFont),sans-serif!important;font-weight:500!important;font-size:1.4em!important;line-height:normal!important;letter-spacing:0!important;text-transform:none!important;border-radius:12px!important}
+.fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input, .fusion-body #main .tribe-common-form-control-radio__input.tribe-common-form-control-radio__input{border:2px solid var(--highlightColor);border-radius:6px}
+.fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input:checked, .fusion-body #main .tribe-common-form-control-radio__input.tribe-common-form-control-radio__input:checked{background:var(--highlightColor)}
+.fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input:checked:before, .fusion-body #main .tribe-common-form-control-radio__input.tribe-common-form-control-radio__input:checked:before{color:var(--whiteColor)}
 
 /* Desktop */
 @media (min-width:920px) {
