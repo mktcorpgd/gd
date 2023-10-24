@@ -71,26 +71,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// CONTENIDOS - Eventos
-	if ( jQuery('.tribe-venue').length ) {
-		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
-		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
-		var tribe_venue = jQuery('.tribe-venue').text().trim();
-		jQuery('.tribe-event-date-start').append(' h en '+tribe_venue);
-		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
-			var old_href = jQuery(this).attr('href');
-			var elmts = old_href.split('&');
-			if ( old_href.indexOf('google.com') > -1 ) {
-				elmts.splice(3, 1);
-			}
-			else if ( old_href.indexOf('outlook.') > -1 ) {
-				elmts.splice(6, 1);
-			}
-			var new_href = elmts.join('&');
-			jQuery(this).attr('href',new_href);
-		});
-	}
-
 
 	// CONTENIDOS - Eliminar atributos title de las imágenes
 	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
@@ -140,6 +120,35 @@ jQuery(document).ready(function() {
 		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
 	}
 
+
+	// EVENTOS - Cambios en link para agregar a calendario
+	if ( jQuery('.tribe-venue').length ) {
+		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
+		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
+		var tribe_venue = jQuery('.tribe-venue').text().trim();
+		jQuery('.tribe-event-date-start').append(' h en '+tribe_venue);
+		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
+			var old_href = jQuery(this).attr('href');
+			var elmts = old_href.split('&');
+			if ( old_href.indexOf('google.com') > -1 ) {
+				elmts.splice(3, 1);
+			}
+			else if ( old_href.indexOf('outlook.') > -1 ) {
+				elmts.splice(6, 1);
+			}
+			var new_href = elmts.join('&');
+			jQuery(this).attr('href',new_href);
+		});
+	}
+
+
+	// EVENTOS - Ocultar evento interno
+	jQuery('article.tribe-events-calendar-list__event').each(function(i) {
+		if ( jQuery(this).hasClass('cat_internos') ) {
+			jQuery(this).closest('.tribe-events-calendar-list__event-row').addClass('hidden');
+		}
+	});
+	
 
 	// PORTFOLIO - Agregar botones en cards
 	if ( jQuery('.fusion-portfolio').length && !jQuery('.more-info').length ) {
