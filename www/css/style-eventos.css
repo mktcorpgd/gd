@@ -80,11 +80,19 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .tribe-events .tribe-events-calendar-day__event-datetime-wrapper time, .tribe-events .tribe-events-calendar-month__day-date time{font-size:.8em;font-weight:400;font-family:var(--textFont);color:var(--textColor)}
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__day{min-height:120px}
 .fusion-body #main .tribe-events .tribe-events-calendar-month__header-column-title{text-transform:none;font-weight:400!important}
-.tribe-events-calendar-list__event:before{padding-left:var(--tec-grid-gutter-half);font-size:.8em;color:var(--grayColor)}
+.tribe-events-calendar-list__event:before,.tribe-events-calendar-list__event .tribe-events-calendar-list__event-details:before{padding-left:var(--tec-grid-gutter-half);font-size:.8em;color:var(--grayColor)}
 .tribe-events-calendar-list__event.cat_propios:before{content:'Propios'}
 .tribe-events-calendar-list__event.cat_patrocinamos:before{content:'Patrocinamos'}
 .tribe-events-calendar-list__event.cat_asistimos:before{content:'Asistimos'}
 .tribe-events-calendar-list__event.cat_otros:before{content:'Otros'}
+.tribe-events-calendar-list__event.cat_0g-networks .tribe-events-calendar-list__event-details:before{content:'0G Networks'}
+.tribe-events-calendar-list__event.cat_datco .tribe-events-calendar-list__event-details:before{content:'Datco'}
+.tribe-events-calendar-list__event.cat_baitcon .tribe-events-calendar-list__event-details:before{content:'Baitcon'}
+.tribe-events-calendar-list__event.cat_focus .tribe-events-calendar-list__event-details:before{content:'Focus'}
+.tribe-events-calendar-list__event.cat_interservices .tribe-events-calendar-list__event-details:before{content:'Interservices'}
+.tribe-events-calendar-list__event.cat_sersat .tribe-events-calendar-list__event-details:before{content:'Sersat'}
+.tribe-events-calendar-list__event.cat_silica-networks .tribe-events-calendar-list__event-details:before{content:'Silica Networks'}
+.tribe-events-calendar-list__event.cat_velocom .tribe-events-calendar-list__event-details:before{content:'Velocom'}
 .tribe-events-c-subscribe-dropdown__button-text{padding:.5rem .9rem!important;width:auto!important;height:auto!important;font-family:var(--titleFont),var(--iconFont),sans-serif!important;font-weight:500!important;font-size:1.4em!important;line-height:normal!important;letter-spacing:0!important;text-transform:none!important;border-radius:12px!important}
 
 /* Desktop */
