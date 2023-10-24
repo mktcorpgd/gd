@@ -492,7 +492,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-4{flex-basis:15%}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-5{flex-basis:10%}
 .mo_doc_lib_container{padding:0}
-[id*='mo_doc_lib_breadcrumb']{background:#EAEAEA;padding:0 .7em!important;font-size:.7rem;border-radius:6px 6px 0 0;border:1px solid #1F4483;border-bottom:none}
+[id*='mo_doc_lib_breadcrumb']{background:#EAEAEA;padding:0 .7em!important;font-size:.7rem;border-radius:6px 6px 0 0;border:1px solid #CCCCCC;border-bottom:none}
 .mo_doc_lib_breadcrumb_item{margin:0;padding:0;height:20px;background:none!important;box-shadow:none}
 .mo_doc_lib_breadcrumb_item:hover{color:#F0582B}
 .mo_doc_lib_breadcrumb_item>i,.mo_doc_lib_breadcrumb_item:before{font-family:'Font Awesome 6 Pro';color:#999999}
