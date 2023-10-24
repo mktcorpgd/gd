@@ -45,7 +45,8 @@ body.tribe_events-template-default:not(.avada-has-titlebar-hide) .tribe-events-s
 body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{display:block}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a{padding:.4em .8em;color:var(--highlightColor)}
 .tribe-events-content a{border-bottom:none!important}
-.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{overflow:hidden;position:absolute;border-radius:6px 6px 12px 12px}
+.tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__content{position:relative}
+.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{width:100%;overflow:hidden;position:absolute;top:-10px;border-radius:6px 6px 12px 12px}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a:hover, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list .tribe-events-c-subscribe-dropdown__list-item a:hover{background:var(--highlightColor);color:var(--whiteColor)!important}
 .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button{display:block;width:100%;text-align:center;padding:0!important;background:none!important}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area.fusion-event-meta-columns-4.fusion-event-meta-venue-apart .tribe-events-event-meta.secondary .tribe-events-venue-map{padding:0;border-radius:12px;overflow:hidden}
