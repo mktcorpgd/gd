@@ -145,8 +145,8 @@ jQuery(document).ready(function() {
 	// EVENTOS - Ocultar evento interno
 	if ( jQuery('.tribe-filter-bar-c-filter').length ) {
 		jQuery('.tribe-filter-bar-c-filter').addClass('tribe-filter-bar-c-filter--open');
-		jQuery('.tribe-common-form-control-checkbox__label').each(function(i) {
-			if ( jQuery(this).attr('for').indexOf('internos') || jQuery(this).attr('for').indexOf('propios') || jQuery(this).attr('for').indexOf('patrocinamos') ) {
+		jQuery('.tribe-filter-bar-c-checkbox').each(function(i) {
+			if ( jQuery(this).children('.tribe-common-form-control-checkbox__input').attr('id').indexOf('internos') || jQuery(this).children('.tribe-common-form-control-checkbox__input').attr('id').indexOf('propios') || jQuery(this).children('.tribe-common-form-control-checkbox__input').attr('id').indexOf('patrocinamos') ) {
 				jQuery(this).closest('tribe-common-form-control-checkbox').addClass('hidden');
 			}
 		});
