@@ -80,7 +80,8 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .tribe-events .tribe-events-calendar-day__event-datetime-wrapper time, .tribe-events .tribe-events-calendar-month__day-date time{font-size:.8em;font-weight:400;font-family:var(--textFont);color:var(--textColor)}
 .tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-month__day{min-height:120px}
 .fusion-body #main .tribe-events .tribe-events-calendar-month__header-column-title{text-transform:none;font-weight:400!important}
-.tribe-events-calendar-list__event:before,.tribe-events-calendar-list__event .tribe-events-calendar-list__event-details:before{padding-left:var(--tec-grid-gutter-half);font-size:.8em;color:var(--grayColor)}
+.tribe-events-calendar-list__event:before,.tribe-events-calendar-list__event .tribe-events-calendar-list__event-details:before{font-size:.8em;color:var(--grayColor)}
+.tribe-events-calendar-list__event:before{padding-left:var(--tec-grid-gutter-half)}
 .tribe-events-calendar-list__event.cat_propios:before{content:'Propios'}
 .tribe-events-calendar-list__event.cat_patrocinamos:before{content:'Patrocinamos'}
 .tribe-events-calendar-list__event.cat_asistimos:before{content:'Asistimos'}
