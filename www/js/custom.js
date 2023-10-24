@@ -147,7 +147,7 @@ jQuery(document).ready(function() {
 		jQuery('.tribe-filter-bar-c-filter').addClass('tribe-filter-bar-c-filter--open');
 		jQuery('.tribe-filter-bar-c-checkbox').each(function(i) {
 			if ( jQuery(this).children('.tribe-common-form-control-checkbox__input').attr('id').indexOf('internos') || jQuery(this).children('.tribe-common-form-control-checkbox__input').attr('id').indexOf('propios') || jQuery(this).children('.tribe-common-form-control-checkbox__input').attr('id').indexOf('patrocinamos') ) {
-				jQuery(this).closest('tribe-common-form-control-checkbox').addClass('hidden');
+				jQuery(this).closest('.tribe-common-form-control-checkbox').addClass('hidden');
 			}
 		});
 	}
