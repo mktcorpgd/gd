@@ -101,6 +101,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input, .fusion-body #main .tribe-common-form-control-radio__input.tribe-common-form-control-radio__input{border:2px solid var(--lightgrayColor);border-radius:6px}
 .fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input:checked, .fusion-body #main .tribe-common-form-control-radio__input.tribe-common-form-control-radio__input:checked{border:2px solid var(--highlightColor);background:var(--highlightColor)}
 .fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input:checked:before, .fusion-body #main .tribe-common-form-control-radio__input.tribe-common-form-control-radio__input:checked:before{color:var(--whiteColor)}
+.fusion-body .tribe-filter-bar .tribe-filter-bar-c-checkbox .tribe-common-form-control-checkbox__label{position:relative;top:2px}
 
 /* Desktop */
 @media (min-width:920px) {
