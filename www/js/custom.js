@@ -249,11 +249,13 @@ jQuery(document).ready(function() {
 
 
 	// PORTFOLIO - Sin padding para banderas en breadcrumb
-	jQuery('.fusion-breadcrumb-item').each(function(i) {
-		if ( jQuery(this).children('a').attr('href').indexOf('flag-') > -1 ) {
-			jQuery(this).addClass('nopadding');
-		}
-	});
+	if ( jQuery('.fusion-breadcrumb-item a[href*="/flag-"]').length ) {
+		jQuery('.fusion-breadcrumb-item').each(function(i) {
+			if ( jQuery(this).children('a').attr('href').indexOf('flag-') > -1 ) {
+				jQuery(this).addClass('nopadding');
+			}
+		});	
+	}
 
 
 	// PESTAÑAS - Mobile: presentar juntas
@@ -265,7 +267,7 @@ jQuery(document).ready(function() {
 
 
 	// META - Categorías de países como banderas
-	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
+	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').length ) {
 		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
 			jQuery(this).empty();
 		});
