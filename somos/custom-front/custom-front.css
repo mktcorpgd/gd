@@ -14,7 +14,7 @@ body.archive.category-2796 .gp-blog-wrapper section .gp-meta-cats a[href$='/busq
 .eo-event-meta li strong,
 footer.entry-meta,
 body.single article.category-beneficios .gp-meta-date,body section.category-beneficios .gp-loop-meta,body section.category-kit-marca .gp-loop-meta,body section.category-tu-imagen-corporativa .gp-loop-meta,
-body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/newsletter-baitcon/'],body.page-template-default .gp-meta-cats a~a[href*='/recursos-marketing/'],
+body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/newsletter-baitcon/'],body.page-template-default .gp-meta-cats a[href*='/recursos-marketing/'],
 body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
 body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
