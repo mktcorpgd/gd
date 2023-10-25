@@ -104,6 +104,9 @@ jQuery(document).ready(function() {
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block .menu-item a:not([href*="#"])').attr('target','_blank');
+		if ( unit_class.indexOf('uas') > -1 ) {
+			jQuery('.menu-item:not(.uas)').hide();
+		}
 	}
 
 
