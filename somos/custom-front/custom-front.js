@@ -88,7 +88,7 @@ jQuery(document).ready(function() {
 
 	// Kit
 	if ( jQuery('.kit').length ) {
-		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').click(function(e) {
+		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf):not(.visible)').click(function(e) {
 			jQuery(this).toggleClass('open');
 			e.stopPropagation();
 		});
@@ -104,7 +104,7 @@ jQuery(document).ready(function() {
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
-		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
+		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf):not(.visible)').addClass('open');
 		if ( unit_class.indexOf('uas') > -1 ) {
 			jQuery('.kit .menu-item:not(.uas)').hide();
 		}
