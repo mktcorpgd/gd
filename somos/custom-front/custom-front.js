@@ -105,7 +105,7 @@ jQuery(document).ready(function() {
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block .menu-item a:not([href*="#"])').attr('target','_blank');
 		if ( unit_class.indexOf('uas') > -1 ) {
-			jQuery('.wp-classic-menu-block>.menu li').addClass('open');
+			jQuery('.wp-classic-menu-block>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
 			jQuery('.menu-item:not(.uas)').hide();
 		}
 	}
