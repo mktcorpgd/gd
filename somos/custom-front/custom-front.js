@@ -112,6 +112,9 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
 			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
 			jQuery('.kit .menu-item a[href="#'+org_class+'"]+.sub-menu>li').show();
+			if ( unit.indexOf('SCAI') == -1 ) {
+				jQuery('.kit .menu-item a:contains("IoP")').hide();
+			}
 		}
 	}
 
