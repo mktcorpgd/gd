@@ -115,6 +115,10 @@ jQuery(document).ready(function() {
 			if ( unit.indexOf('SCAI') == -1 ) {
 				jQuery('.kit .menu-item a:contains("IoP")').hide();
 			}
+			if ( org == 'Datco' ) {
+				var ctry_office = office.substring(0,2);
+				console.log(ctry_office);
+			}
 		}
 	}
 
