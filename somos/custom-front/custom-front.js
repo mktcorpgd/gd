@@ -109,7 +109,8 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item:not(.uas):not(.visible)').hide();
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
-			jQuery('.kit .menu-item:not(:contains("'+org+'")):not(.visible)').hide();
+			console.log(org);
+			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
 			jQuery('.kit .menu-item:contains("'+org+'")>.sub-menu>li').show();
 		}
 	}
