@@ -110,7 +110,7 @@ jQuery(document).ready(function() {
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
 			jQuery('.kit .menu-item:not(:contains("'+org+'")):not(.visible)').hide();
-			jQuery('.kit .menu-item:contains("'+org+'")>li').show();
+			jQuery('.kit .menu-item:contains("'+org+'")>.sub-menu>li').show();
 		}
 	}
 
