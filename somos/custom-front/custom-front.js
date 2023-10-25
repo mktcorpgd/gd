@@ -106,10 +106,10 @@ jQuery(document).ready(function() {
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf):not(.visible)').addClass('open');
 		if ( unit_class.indexOf('uas') > -1 ) {
-			jQuery('.kit .menu-item:not(.uas)').hide();
+			jQuery('.kit .menu-item:not(.uas):not(.visible)').hide();
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
-			jQuery('.kit .menu-item:not(:contains("'+org+'"))').hide();
+			jQuery('.kit .menu-item:not(:contains("'+org+'")):not(.visible)').hide();
 		}
 	}
 
