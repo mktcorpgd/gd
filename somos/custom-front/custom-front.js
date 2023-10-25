@@ -104,9 +104,12 @@ jQuery(document).ready(function() {
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block .menu-item a:not([href*="#"])').attr('target','_blank');
+		jQuery('.wp-classic-menu-block>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
 		if ( unit_class.indexOf('uas') > -1 ) {
-			jQuery('.wp-classic-menu-block>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
 			jQuery('.menu-item:not(.uas)').hide();
+		}
+		if ( unit_class.indexOf('un') > -1 ) {
+			jQuery('.menu-item:not(:contains("Baitcon"))').hide();
 		}
 	}
 
