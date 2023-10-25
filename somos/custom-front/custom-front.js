@@ -109,7 +109,7 @@ jQuery(document).ready(function() {
 			jQuery('.menu-item:not(.uas)').hide();
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
-			jQuery('.menu-item:not(:contains("Baitcon"))').hide();
+			jQuery('.menu-item:not(:contains("'+org+'"))').hide();
 		}
 	}
 
