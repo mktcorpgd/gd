@@ -111,7 +111,7 @@ jQuery(document).ready(function() {
 		if ( unit_class.indexOf('un') > -1 ) {
 			console.log(org);
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
-			jQuery('.kit .menu-item:contains("'+org+'")>.sub-menu>li').show();
+			//jQuery('.kit .menu-item:contains("'+org+'")>.sub-menu>li').show();
 		}
 	}
 
