@@ -88,11 +88,11 @@ jQuery(document).ready(function() {
 
 	// Kit
 	if ( jQuery('.kit').length ) {
-		jQuery('.wp-classic-menu-block>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').click(function(e) {
+		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').click(function(e) {
 			jQuery(this).toggleClass('open');
 			e.stopPropagation();
 		});
-		jQuery('.wp-classic-menu-block>.menu li a[href^="#"]').click(function(e) {
+		jQuery('.wp-classic-menu-block.kit>.menu li a[href^="#"]').click(function(e) {
 			e.preventDefault();
 		});
 		var org = jQuery('input[name=gdORG_mc]').val();
@@ -103,13 +103,13 @@ jQuery(document).ready(function() {
 		var unit_class = normalize(unit.toLowerCase());
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
-		jQuery('.wp-classic-menu-block .menu-item a:not([href*="#"])').attr('target','_blank');
-		jQuery('.wp-classic-menu-block>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
+		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
+		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
 		if ( unit_class.indexOf('uas') > -1 ) {
-			jQuery('.menu-item:not(.uas)').hide();
+			jQuery('.kit .menu-item:not(.uas)').hide();
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
-			jQuery('.menu-item:not(:contains("'+org+'"))').hide();
+			jQuery('.kit .menu-item:not(:contains("'+org+'"))').hide();
 		}
 	}
 
