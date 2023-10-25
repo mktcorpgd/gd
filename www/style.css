@@ -26,7 +26,7 @@ body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 body.single .fusion-post-title-meta-wrap,
 .fusion-search-button,body.search #sidebar,body.search article.avada_portfolio .fusion-single-line-meta span:first-child,body.search article.avada_portfolio .fusion-single-line-meta span:first-child+.fusion-inline-sep,.fusion-error-page-search>h3,.fusion-error-page-search>p,.search-page-search-form-bottom>p,.error-page .oops,
 body.single-format-link article>.flexslider,body.single-format-link #sidebar,
-body.single-format-video article .fusion-flexslider,
+body.single-format-video article .fusion-flexslider,.fusion-events-shortcode .fusion-events-thumbnail,
 html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
 body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer,
 .landing #partners_footer,.landing .fusion-main-menu-search,
@@ -81,7 +81,7 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
 h4,h4 strong,h5,h5 strong,h6,h6 strong,.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4,.tfs-slider .fusion-title h3 strong,.tfs-slide .fusion-title h4 strong,.weight-400 *{font-weight:400!important}
-#main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{margin:0;font-size:1.3em}
+#main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title,#wrapper .fusion-events-shortcode .fusion-events-meta h2{margin:0;font-size:1.3em}
 table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0;font-size:1.4em!important}
 
@@ -303,14 +303,19 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-blog-layout-grid .post .flexslider,.fusion-blog-layout-grid .post .fusion-post-wrapper,.fusion-blog-layout-timeline .fusion-timeline-arrow,.fusion-blog-layout-timeline .fusion-timeline-date,.fusion-blog-layout-timeline .fusion-timeline-line,.fusion-blog-layout-timeline .post,.fusion-blog-layout-timeline .post .flexslider,.fusion-blog-timeline-layout .post,.fusion-blog-timeline-layout .post .flexslider,.fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,.fusion-post-content-container{border:none!important}
 .avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-content-wrapper{padding-top:.5em}
 .avada-blog-archive-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper,.avada-blog-layout-grid .fusion-blog-archive .fusion-blog-layout-grid article[class*='noticias'][class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper{padding-top:0}
-.fusion-portfolio-boxed .fusion-portfolio-content{padding:0 0 .5em}
+.fusion-portfolio-boxed .fusion-portfolio-content,.fusion-events-post .fusion-events-content-wrapper{padding:0 0 .5em!important}
 .fusion-portfolio{overflow:visible}
 .box-shadow.fusion-content-boxes .content-box-wrapper{padding:12px 6px}
 .box-shadow.fusion-content-boxes .content-box-wrapper .heading{margin-bottom:0}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper{position:relative;border-radius:12px 12px 9px 9px;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important}
-.fusion-portfolio-content,.fusion-post-content-wrapper{background:var(--whiteColor)!important;border-bottom-left-radius:9px;border-bottom-right-radius:9px}
-.no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
-.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a{display:block;padding:1.25rem 1.5rem;font-weight:400}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.fusion-events-post .fusion-column-wrapper{position:relative;border-radius:12px 12px 9px 9px;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important}
+.fusion-portfolio-content,.fusion-post-content-wrapper,.fusion-events-post .fusion-column-wrapper{background:var(--whiteColor)!important}
+.fusion-portfolio-content,.fusion-post-content-wrapper{border-bottom-left-radius:9px;border-bottom-right-radius:9px}
+.no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper,.no-featured-image .fusion-events-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
+.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.25rem 1.5rem;font-weight:400}
+.fusion-events-content-wrapper h4{padding:0 1.5rem 1rem}
+.fusion-events-content-wrapper h4 span{font-size:1.2em;font-family:var(--textFont);color:var(--metaColor)}
+.fusion-post-grid.has-post-thumbnail .fusion-post-content-wrapper h2 a{padding-top:1rem}
+.fusion-post-grid.has-post-thumbnail .fusion-post-content-wrapper .fusion-single-line-meta{padding-bottom:1rem}
 .fusion-portfolio-content-wrapper h2 a{padding-bottom:.5rem}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper,.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-top-left-radius:12px;border-top-right-radius:12px}
 .fusion-image-wrapper,.fusion-portfolio-content h2{margin-bottom:0!important}

@@ -71,26 +71,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	// CONTENIDOS - Eventos
-	if ( jQuery('.tribe-venue').length ) {
-		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
-		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
-		var tribe_venue = jQuery('.tribe-venue').text().trim();
-		jQuery('.tribe-event-date-start').append(' h @ <a href="https://www.google.com/maps/search'+tribe_venue+'" target="_blank">'+tribe_venue+'</a>');
-		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
-			var old_href = jQuery(this).attr('href');
-			var elmts = old_href.split('&');
-			if ( old_href.indexOf('google.com') > -1 ) {
-				elmts.splice(3, 1);
-			}
-			else if ( old_href.indexOf('outlook.') > -1 ) {
-				elmts.splice(6, 1);
-			}
-			var new_href = elmts.join('&');
-			jQuery(this).attr('href',new_href);
-		});
-	}
-
 
 	// CONTENIDOS - Eliminar atributos title de las imágenes
 	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
@@ -138,6 +118,33 @@ jQuery(document).ready(function() {
 		}
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg');
 		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+	}
+
+
+	// EVENTOS - Cambios en link para agregar a calendario
+	if ( jQuery('.tribe-venue').length ) {
+		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
+		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
+		var tribe_venue = jQuery('.tribe-venue').text().trim();
+		jQuery('.tribe-event-date-start').append(' h en '+tribe_venue);
+		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
+			var old_href = jQuery(this).attr('href');
+			var elmts = old_href.split('&');
+			if ( old_href.indexOf('google.com') > -1 ) {
+				elmts.splice(3, 1);
+			}
+			else if ( old_href.indexOf('outlook.') > -1 ) {
+				elmts.splice(6, 1);
+			}
+			var new_href = elmts.join('&');
+			jQuery(this).attr('href',new_href);
+		});
+	}
+
+
+	// EVENTOS - Ocultar evento interno
+	if ( jQuery('.tribe-filter-bar-c-filter').length ) {
+		jQuery('.tribe-filter-bar-c-filter').addClass('tribe-filter-bar-c-filter--open');
 	}
 
 
@@ -249,11 +256,13 @@ jQuery(document).ready(function() {
 
 
 	// PORTFOLIO - Sin padding para banderas en breadcrumb
-	jQuery('.fusion-breadcrumb-item').each(function(i) {
-		if ( jQuery(this).children('a').attr('href').indexOf('flag-') > -1 ) {
-			jQuery(this).addClass('nopadding');
-		}
-	});
+	if ( jQuery('.fusion-breadcrumb-item a[href*="/flag-"]').length ) {
+		jQuery('.fusion-breadcrumb-item').each(function(i) {
+			if ( jQuery(this).children('a').attr('href').indexOf('flag-') > -1 ) {
+				jQuery(this).addClass('nopadding');
+			}
+		});	
+	}
 
 
 	// PESTAÑAS - Mobile: presentar juntas
@@ -265,7 +274,7 @@ jQuery(document).ready(function() {
 
 
 	// META - Categorías de países como banderas
-	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a').length ) {
+	if ( jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').length ) {
 		jQuery('.fusion-portfolio-content .fusion-portfolio-meta a[href*="/flag-"]').each(function() {
 			jQuery(this).empty();
 		});
