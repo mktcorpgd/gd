@@ -125,16 +125,13 @@ jQuery(document).ready(function() {
 			}
 		}
 		if ( office.indexOf('AR') > -1 ) {
-			jQuery('.kit .menu-item.cl,.kit .menu-item.mx,.kit .menu-item.pe,.kit .menu-item.pr').hide();
+			jQuery('.kit .menu-item.cl-pe,.kit .menu-item.mx-pr').hide();
 		}
-		if ( office.indexOf('CL') > -1 ) {
-			jQuery('.kit .menu-item.ar,.kit .menu-item.mx,.kit .menu-item.pe,.kit .menu-item.pr').hide();
+		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
+			jQuery('.kit .menu-item.ar,.kit .menu-item.mx-pr').hide();
 		}
-		if ( office.indexOf('PE') > -1 ) {
-			jQuery('.kit .menu-item.ar,.kit .menu-item.cl,.kit .menu-item.mx,.kit .menu-item.pr').hide();
-		}
-		if ( office.indexOf('MX') > -1 ) {
-			jQuery('.kit .menu-item.ar,.kit .menu-item.cl,.kit .menu-item.mx,.kit .menu-item.pr').hide();
+		if ( office.indexOf('MX') > -1 || office.indexOf('PR') > -1 ) {
+			jQuery('.kit .menu-item.ar,.kit .menu-item.cl-pe').hide();
 		}
 	}
 
