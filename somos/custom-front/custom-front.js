@@ -104,12 +104,16 @@ jQuery(document).ready(function() {
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
-		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
+		if ( unit_class.indexOf('uac') > -1 ) {
+			jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
+		}
 		if ( unit_class.indexOf('uas') > -1 ) {
+			jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
 			jQuery('.kit .menu-item:not(.uas):not(.visible)').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
+			jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
 			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
 			jQuery('.kit .menu-item a[href="#'+org_class+'"]+.sub-menu>li').show();
