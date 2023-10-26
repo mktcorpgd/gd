@@ -106,6 +106,12 @@ jQuery(document).ready(function() {
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		if ( unit_class.indexOf('uac') > -1 ) {
 			//jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
+			if ( office.indexOf('AR') > -1 ) {
+				jQuery('.kit .menu-item.cl').hide();
+				jQuery('.kit .menu-item.mx').hide();
+				jQuery('.kit .menu-item.pe').hide();
+				jQuery('.kit .menu-item.pr').hide();
+			}
 		}
 		if ( unit_class.indexOf('uas') > -1 ) {
 			jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
@@ -115,8 +121,8 @@ jQuery(document).ready(function() {
 		if ( unit_class.indexOf('un') > -1 ) {
 			jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
-			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
 			jQuery('.kit .menu-item a[href="#'+org_class+'"]+.sub-menu>li').show();
+			jQuery('.kit .menu-item:contains("Grupo Datco")').show();
 			if ( unit.indexOf('SCAI') == -1 ) {
 				jQuery('.kit .menu-item a:contains("IoP")').hide();
 			}
