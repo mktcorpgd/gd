@@ -107,6 +107,7 @@ jQuery(document).ready(function() {
 		jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf):not(.visible)').addClass('open');
 		if ( unit_class.indexOf('uas') > -1 ) {
 			jQuery('.kit .menu-item:not(.uas):not(.visible)').hide();
+			jQuery('.kit .menu-item.uas .sub-menu>li').show();
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
