@@ -95,7 +95,7 @@ jQuery(document).ready(function() {
 		jQuery('.wp-classic-menu-block.kit>.menu li a[href^="#"]').click(function(e) {
 			e.preventDefault();
 		});
-		var org = jQuery('input[name=gdORG_mc]').val();
+		var org = jQuery('input[name=gdORGPROF]').val();
 		var org_class = normalize(org.toLowerCase());
 		var office = jQuery('input[name=gdOFFICE_mc]').val();
 		var office_class = normalize(office.toLowerCase());
