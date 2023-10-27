@@ -124,7 +124,7 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item a:contains("IoP")').show();
 		}
 		if ( office.indexOf('AR') > -1 ) {
-			jQuery('.kit .menu-item.cl-pe,.kit .menu-item.mx-pr').hide();
+			jQuery('.kit .menu-item.cl-pe:not(.ar),.kit .menu-item.mx-pr:not(.ar)').hide();
 		}
 		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
 			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
