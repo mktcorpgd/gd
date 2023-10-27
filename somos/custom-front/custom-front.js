@@ -117,7 +117,7 @@ jQuery(document).ready(function() {
 		if ( unit_class.indexOf('un') > -1 ) {
 			jQuery('.wp-classic-menu-block.kit>.menu li.folder').addClass('open');
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
-			jQuery('.kit .menu-item a[href*="#'+org_class+'"]+.sub-menu>li,.kit .menu-item:contains("Grupo Datco"):not(:contains("IoP")),.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
+			jQuery('.kit .menu-item a[href*="#'+org_class+'"]+.sub-menu>li,.kit .menu-item:contains("Grupo Datco"),.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
 			//,.kit .menu-item:contains("Grupo Datco")>.sub-menu>li
 			if ( unit.indexOf('SCAI') == -1 ) {
 				jQuery('.kit .menu-item a:contains("IoP")').show();
