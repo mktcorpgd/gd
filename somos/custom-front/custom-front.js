@@ -118,14 +118,10 @@ jQuery(document).ready(function() {
 			jQuery('.wp-classic-menu-block.kit>.menu li.folder').addClass('open');
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
 			jQuery('.kit .menu-item a[href*="#'+org_class+'"]+.sub-menu>li,.kit .menu-item:contains("Grupo Datco"),.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
-			jQuery('.kit .menu-item a:contains("IoP")').hide();
-			if ( unit.indexOf('SCAI') == -1 ) {
-				jQuery('.kit .menu-item a:contains("IoP")').show();
-			}
-			if ( org == 'Datco' ) {
-				var ctry_office = office.substring(0,2);
-				console.log(ctry_office);
-			}
+		}
+		jQuery('.kit .menu-item a:contains("IoP")').hide();
+		if ( unit.indexOf('SCAI') == -1 ) {
+			jQuery('.kit .menu-item a:contains("IoP")').show();
 		}
 		if ( office.indexOf('AR') > -1 ) {
 			jQuery('.kit .menu-item.cl-pe,.kit .menu-item.mx-pr').hide();
