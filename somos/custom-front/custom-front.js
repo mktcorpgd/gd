@@ -105,7 +105,9 @@ jQuery(document).ready(function() {
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		if ( unit_class.indexOf('uac') > -1 ) {
-			//jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
+			if ( office.indexOf('AR') == -1 ) {
+				jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
+			}
 		}
 		if ( unit_class.indexOf('uas') > -1 ) {
 			jQuery('.wp-classic-menu-block.kit>.menu li:not(.file):not(.pwrp):not(.word):not(.pdf)').addClass('open');
