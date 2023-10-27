@@ -119,7 +119,6 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item:not(.visible):not(:contains("'+org+'"))').hide();
 			jQuery('.kit .menu-item a[href*="#'+org_class+'"]+.sub-menu>li,.kit .menu-item:contains("Grupo Datco"),.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
 			jQuery('.kit .menu-item a:contains("IoP")').hide();
-			//,.kit .menu-item:contains("Grupo Datco")>.sub-menu>li
 			if ( unit.indexOf('SCAI') == -1 ) {
 				jQuery('.kit .menu-item a:contains("IoP")').show();
 			}
