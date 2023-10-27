@@ -131,10 +131,10 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item.cl-pe,.kit .menu-item.mx-pr').hide();
 		}
 		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
-			jQuery('.kit .menu-item.ar,.kit .menu-item.mx-pr').hide();
+			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
 		}
 		if ( office.indexOf('MX') > -1 || office.indexOf('PR') > -1 ) {
-			jQuery('.kit .menu-item.ar,.kit .menu-item.cl-pe').hide();
+			jQuery('.kit .menu-item.ar:not(.mx-pr),.kit .menu-item.cl-pe').hide();
 		}
 	}
 
