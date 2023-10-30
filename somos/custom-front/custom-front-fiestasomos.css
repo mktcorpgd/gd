@@ -4,7 +4,7 @@ body {background-color:#ffffff!important;background-image:url(https://somos.grup
 body:not(.home) .padder{background:#ffffff!important;color:#333333!important}
 body.page #content h1{color:#333333!important}
 a{color:#bf15ba!important}
-a:hover{color:#eceeef!important}
+a:hover{color:#333333!important}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:#333333!important}
 .post-thumbnail.single-thumbnail img{width:100%!important}
 @media(min-width:960px) {
