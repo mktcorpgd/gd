@@ -3,7 +3,7 @@ body {background-color:#ffffff!important;background-image:url(https://somos.grup
 #page-wrapper{padding-top:1em;padding-bottom:1em}
 body:not(.home) .padder{background:#ffffff!important;color:#333333!important}
 body.page #content h1{color:#333333!important}
-a{color:#cbf0ff!important}
+a{color:#bf15ba!important}
 a:hover{color:#eceeef!important}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:#333333!important}
 .post-thumbnail.single-thumbnail img{width:100%!important}
@@ -15,3 +15,5 @@ a:hover{color:#eceeef!important}
 	body{background-position:bottom!important;background-repeat:no-repeat!important}
 	#content-wrapper{padding-top:0!important}
 }
+
+.wpcf7 button, .button, .sc-button, .yotu-playlist .yotu-pagination-more, #respond #submit, .wpcf7 input[type='submit'], #text-4 h3 a { background: #0f6ab5!important; }
