@@ -619,7 +619,8 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .ui-widget-content{padding:0;top:0;background:none;border:none!important;overflow:visible}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#777777;font-weight:400;font-family:'open-sans',sans-serif;font-style:italic}
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:1em}
-body.home #post-content .ui-tabs .ui-tabs-nav li{margin-bottom:.25em;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);overflow:hidden}
+body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.25em}
+body.home #post-content .ui-tabs .ui-tabs-nav li{box-shadow:0 2px 4px 0px rgba(0,0,0,.2);overflow:hidden}
 .ui-tabs .ui-tabs-nav li{margin-bottom:.5em}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:#F0582B;text-decoration:underline}
 #post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:#333333;line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:'neo-sans',sans-serif;text-decoration:none;background:#F6F6F6;border:1px solid rgba(0,0,0,.1)}
