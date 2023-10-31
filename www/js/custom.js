@@ -342,6 +342,8 @@ jQuery(document).ready(function() {
 
 	jQuery('.wpcf7-text').keydown(function (e) {
 		if ( isNaN(jQuery(this).val()) ) {
+		}
+		else{
 			e.preventDefault();
 		}
 	});
