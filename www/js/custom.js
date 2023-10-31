@@ -342,12 +342,12 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Bloquear números para campos de texto
-	jQuery('.wpcf7-text').on('keydown keypress',function(e) {
+	/*jQuery('.wpcf7-text').on('keydown keypress',function(e) {
 		var keyCode = e.which;
 		if ((keyCode === 8) || (keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || keyCode === 32 || (keyCode >= 33 && keyCode <= 47) || (keyCode >= 58 && keyCode <= 64) || (keyCode >= 91 && keyCode <= 96) || (keyCode >= 123 && keyCode <= 126) || e.shiftKey || e.altKey || e.ctrlKey || (keyCode >= 192 && keyCode <= 255) ) {
 			e.preventDefault();
 		}
-	});
+	});*/
 		
 
 	// FORMULARIOS - Convertir a letras capitales
