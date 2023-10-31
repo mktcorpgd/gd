@@ -344,7 +344,7 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Bloquear números para campos de texto
 	jQuery('.wpcf7-text').on('keydown keypress',function(e) {
 		var keyCode = e.which;
-		if ((keyCode < 65 || keyCode > 90) && (keyCode < 97 || keyCode > 122)) {
+		if ((keyCode < 65 || keyCode > 90) && (keyCode < 97 || keyCode > 122) && keyCode !== 32 && !e.ctrlKey && !e.altKey && !e.shiftKey) {
 			e.preventDefault();
 		}
 	});
