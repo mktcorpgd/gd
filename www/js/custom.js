@@ -340,7 +340,7 @@ jQuery(document).ready(function() {
 		jQuery(this).find('strong').text(jQuery(this).find('strong').text().toLowerCase());
 	});
 
-	jQuery('.wpcf7-text').keydown(function (e) {
+	jQuery('.wpcf7-text').on('input',function(e) {
 		var numRegex = /^[0-9]+$/;
 		if ( numRegex.test(jQuery(this).val()) ) {
 			e.preventDefault();
