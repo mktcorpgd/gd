@@ -342,21 +342,23 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Bloquear números para campos de texto
-	jQuery('.wpcf7-text').on('keydown', function(e) {
+	jQuery('.wpcf7-text').on('keydown',function(e) {
 		var keyCode = e.which;
-		if ((keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (keyCode >= 32 && keyCode <= 47) || (keyCode >= 58 && keyCode <= 64) || (keyCode >= 91 && keyCode <= 96) || (keyCode >= 123 && keyCode <= 126)) {
+		if ((keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (keyCode >= 32 && keyCode <= 47) || (keyCode >= 58 && keyCode <= 64) || (keyCode >= 91 && keyCode <= 96) || (keyCode >= 123 && keyCode <= 126) || keyCode === 32) {
 			var inputChar = String.fromCharCode(keyCode);
-			if (/^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ]+$/.test(inputChar)) {
+			if (/^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ\s]+$/.test(inputChar)) {
 				return true;
 			}
 			if (e.ctrlKey || e.shiftKey || e.altKey) {
 				return true;
 			}
 			e.preventDefault();
+		} else if ((keyCode >= 48 && keyCode <= 57)) {
+			e.preventDefault();
 		}
-	});
+});
 
-	
+
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
 	jQuery('input[name*="FNAME"],input[name*="LNAME"],input[name*="ROLE"]').on('input',function (e) {
