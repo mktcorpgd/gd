@@ -16,5 +16,8 @@ a:hover{color:#333333!important}
 	#content-wrapper{padding-top:0!important}
 }
 
+p.infoutil {background: #333;border-radius: 15px;padding: 20px;color: white;}
+p.infoutil a {color:#2a90e5!important;}
+p.infoutil a:hover {color:#ffffff!important;}
 
 .wpcf7 button, .button, .sc-button, .yotu-playlist .yotu-pagination-more, #respond #submit, .wpcf7 input[type='submit'], #text-4 h3 a { background: #0f6ab5!important; }
