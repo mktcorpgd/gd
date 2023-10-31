@@ -343,7 +343,7 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Bloquear números para campos de texto
 	jQuery('.wpcf7-text').on('keydown keypress',function(e) {
-		var allowedKeys = [8, 9, 32, 13, 16, 17, 18, 20, 27, 33, 34, 35, 36, 37, 38, 39, 40, 45, 46, 144];
+		var allowedKeys = [8,9,32,13,16,17,18,20,27,33,34,35,36,37,38,39,40,45,46,144];
 		if (allowedKeys.indexOf(e.keyCode) === -1) {
 			e.preventDefault();
 		}
