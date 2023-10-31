@@ -13,11 +13,11 @@ body.page-id-31819 .awb-imageframe-caption-title{font-family:var(--titleFont)}
 
 /* Desktop */
 @media (min-width:920px) {
-	body.page-id-31819 .fusion-header-wrapper{display:none!important}
+	body.page-id-31819 .fusion-header-wrapper,body.page-id-page-id-31925 .fusion-header-wrapper{display:none!important}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:50%}
 }
 
 /* Mobile */
 @media (max-width:920px) {
-	body.page-id-31819 .fusion-mobile-menu-icons{display:none!important}
+	body.page-id-31819 .fusion-mobile-menu-icons,body.page-id-page-id-31925 .fusion-mobile-menu-icons{display:none!important}
 }
