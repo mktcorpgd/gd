@@ -340,6 +340,17 @@ jQuery(document).ready(function() {
 		jQuery(this).find('strong').text(jQuery(this).find('strong').text().toLowerCase());
 	});
 
+	jQuery('input[type="text"]').keydown(function (e) {
+		if (e.shiftKey || e.ctrlKey || e.altKey) {
+			e.preventDefault();
+		} else {
+			var key = e.keyCode;
+			if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90))) {
+				e.preventDefault();
+			}
+		}
+	});
+		
 
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
@@ -347,7 +358,7 @@ jQuery(document).ready(function() {
 		jQuery(this).capitalize();
 	});
 
-	// FORMULARIOS - Eliminare placeholder
+	// FORMULARIOS - Eliminar placeholder
 	jQuery('.address_maps,.pac_input').removeAttr('placeholder');
 
 
