@@ -13,5 +13,11 @@ body.page-id-31819 .awb-imageframe-caption-title{font-family:var(--titleFont)}
 
 /* Desktop */
 @media (min-width:920px) {
+	body.page-id-3189 .fusion-header-wrapper{display:none}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:50%}
+}
+
+/* Mobile */
+@media (max-width:920px) {
+	body.page-id-3189 .fusion-header-wrapper .fusion-mobile-menu-icons{display:none}
 }
