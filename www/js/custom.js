@@ -342,7 +342,7 @@ jQuery(document).ready(function() {
 
 	jQuery('.wpcf7-text').keydown(function (e) {
 		var numRegex = /^[0-9]+$/;
-		if (numRegex.test(jQuery(this).val())) {
+		if ( numRegex.test(jQuery(this).val()) ) {
 			e.preventDefault();
 		}
 	});
