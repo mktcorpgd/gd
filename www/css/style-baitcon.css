@@ -19,5 +19,5 @@ body.page-id-31819 .awb-imageframe-caption-title{font-family:var(--titleFont)}
 
 /* Mobile */
 @media (max-width:920px) {
-	body.page-id-31819 .fusion-header-wrapper .fusion-mobile-menu-icons{display:none!important}
+	body.page-id-31819 .fusion-mobile-menu-icons{display:none!important}
 }
