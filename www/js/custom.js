@@ -341,9 +341,8 @@ jQuery(document).ready(function() {
 	});
 
 	jQuery('.wpcf7-text').keydown(function (e) {
-		if ( isNaN(jQuery(this).val()) ) {
-		}
-		else{
+		var numRegex = /^[0-9]+$/;
+		if (numRegex.test(jQuery(this).val())) {
 			e.preventDefault();
 		}
 	});
