@@ -340,11 +340,11 @@ jQuery(document).ready(function() {
 		jQuery(this).find('strong').text(jQuery(this).find('strong').text().toLowerCase());
 	});
 
-	
+
 	// FORMULARIOS - Bloquear números para campos de texto
-	jQuery('.wpcf7-text').on('input',function(e) {
-		var numRegex = /^[0-9]+$/;
-		if ( numRegex.test(jQuery(this).val()) ) {
+	jQuery('.wpcf7-text').on('keydown keypress',function(e) {
+		var allowedKeys = [8, 9, 32, 13, 16, 17, 18, 20, 27, 33, 34, 35, 36, 37, 38, 39, 40, 45, 46, 144];
+		if (allowedKeys.indexOf(e.keyCode) === -1) {
 			e.preventDefault();
 		}
 	});
