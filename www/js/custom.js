@@ -340,7 +340,7 @@ jQuery(document).ready(function() {
 		jQuery(this).find('strong').text(jQuery(this).find('strong').text().toLowerCase());
 	});
 
-	jQuery('input[type="text"]').keydown(function (e) {
+	jQuery('.wpcf7-text').keydown(function (e) {
 		if ( isNaN(jQuery(this).val()) ) {
 			e.preventDefault();
 		}
