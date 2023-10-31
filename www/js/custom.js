@@ -356,7 +356,7 @@ jQuery(document).ready(function() {
 		} else if ((keyCode >= 48 && keyCode <= 57)) {
 			e.preventDefault();
 		}
-});
+	});
 
 
 	// FORMULARIOS - Convertir a letras capitales
