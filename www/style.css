@@ -193,9 +193,10 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .flexslider .slides .caption img{display:inline-block;margin-top:1em;max-width:200px;width:auto}
 .flexslider .slides .caption img[src*='flag-']{margin:1em .25em 0;width:32px;height:32px}
 .flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
-.awb-swiper-button-next,.awb-swiper-button-prev,.fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{background:none!important;opacity:.8}
+.awb-swiper-button-next,.awb-swiper-button-prev,.fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{margin:0 .4em;background:rgba(0,0,0,.4)!important;border-radius:12px;opacity:.8}
 .awb-swiper-button-next:hover,.awb-swiper-button-prev:hover{opacity:1}
-.awb-swiper-button-next,.awb-swiper-button-prev{padding:0 .1em;font-size:2em}
+.awb-swiper-button-next,.awb-swiper-button-prev{padding:0 .4em;font-size:2em}
+.awb-swiper-button-next>i,.awb-swiper-button-prev>i{color:#FFFFFF!important}
 .fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
 
 /* Barra de título */
@@ -287,7 +288,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 
 /* Hover Boxes */
 .hover-boxes .fusion-layout-column{margin-top:-5em}
-.hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;position:relative;box-shadow:0 0 24px rgba(0,0,0,.3);border-radius:12px}
+.hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;position:relative;box-shadow:0 0 24px rgba(0,0,0,.2);border-radius:12px}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:30px;font-size:1.525em}
 .hover-boxes .fusion-layout-column .fusion-title *{margin:-.25em 0 0!important}
 .hover-boxes .fusion-layout-column i{position:absolute;top:.65em;right:.4em;font-size:2em;transform:rotate(10deg);opacity:.1}
