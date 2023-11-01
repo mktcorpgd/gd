@@ -195,8 +195,10 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
 .awb-swiper-button-next,.awb-swiper-button-prev,.fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{margin:0 .4em;background:rgba(0,0,0,.4)!important;border-radius:12px;opacity:.8}
 .awb-swiper-button-next:hover,.awb-swiper-button-prev:hover{opacity:1}
-.awb-swiper-button-next,.awb-swiper-button-prev{padding:0 .4em;font-size:2em}
-.awb-swiper-button-next>i,.awb-swiper-button-prev>i{color:#FFFFFF!important}
+.awb-swiper-button-next,.awb-swiper-button-prev{padding:.2em .4em;font-size:2em}
+.awb-swiper-button-next>i,.awb-swiper-button-prev>i{position:relative;bottom:2px;color:#FFFFFF}
+.awb-swiper-button-next>i{left:2px}
+.awb-swiper-button-prev>i{right:2px}
 .fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
 
 /* Barra de título */
