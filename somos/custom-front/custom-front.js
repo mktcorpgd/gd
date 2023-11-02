@@ -119,6 +119,9 @@ jQuery(document).ready(function() {
 		if ( office.indexOf('AR') > -1 ) {
 			jQuery('.kit .menu-item.cl-pe:not(.ar),.kit .menu-item.mx-pr:not(.ar)').hide();
 		}
+		if ( office.indexOf('BR') > -1 ) {
+			jQuery('.kit .menu-item:not(.pt)').hide();
+		}
 		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
 			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
 		}
