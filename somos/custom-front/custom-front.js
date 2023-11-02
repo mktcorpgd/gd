@@ -120,7 +120,7 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item.cl-pe:not(.ar),.kit .menu-item.mx-pr:not(.ar)').hide();
 		}
 		if ( office.indexOf('BR') > -1 ) {
-			jQuery('.kit .menu-item:not(.pt)').hide();
+			jQuery('.kit .menu-item:not(.visible):not(.pt)').hide();
 		}
 		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
 			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
