@@ -121,6 +121,10 @@ jQuery(document).ready(function() {
 		}
 		if ( office.indexOf('BR') > -1 ) {
 			jQuery('.kit .menu-item:not(.visible):not(.pt)').hide();
+			if ( unit_class.indexOf('uas') > -1 ) {
+				jQuery('.kit .menu-item:not(.uas):not(.visible),.kit .menu-item.propuestas-comerciales').hide();
+				jQuery('.kit .menu-item.uas>.sub-menu>li').show();
+			}	
 		}
 		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
 			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
