@@ -763,7 +763,8 @@ img.mfp-img{max-height:90vh}
 figcaption{text-align:left;padding:.4em .3em;color:#999999;font-size:.8em;line-height:1.2;font-style:italic}
 .gallery-item figcaption{color:#FFFFFF;background:rgba(0,0,0,.5)}
 .wp-block-image a+figcaption,.grid-gallery .gg-link{cursor:zoom-in}
-.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {background:#333;padding:5px;}
+.wp-block-gallery{margin:2em 0}
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {background:#333;padding:5px}
 
 /* Videos */
 body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
