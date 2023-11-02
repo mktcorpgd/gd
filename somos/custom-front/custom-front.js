@@ -104,18 +104,11 @@ jQuery(document).ready(function() {
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
-		if ( unit_class.indexOf('uac') > -1 ) {
-			if ( office.indexOf('AR') == -1 ) {
-				jQuery('.wp-classic-menu-block.kit>.menu li.folder').addClass('open');
-			}
-		}
 		if ( unit_class.indexOf('uas') > -1 ) {
-			jQuery('.wp-classic-menu-block.kit>.menu li.folder').addClass('open');
 			jQuery('.kit .menu-item:not(.uas):not(.visible),.kit .menu-item.propuestas-comerciales').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 		}
 		if ( unit_class.indexOf('un') > -1 ) {
-			jQuery('.wp-classic-menu-block.kit>.menu li.folder').addClass('open');
 			jQuery('.kit .menu-item:not(:contains("'+org+'")):not(.visible)').hide();
 			jQuery('.kit .menu-item a[href*="#'+org_class+'"]+.sub-menu>li,.kit .menu-item:contains("Grupo Datco"),.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
 			jQuery('.kit .menu-item:contains("IoP"):not(.visible)').hide();
