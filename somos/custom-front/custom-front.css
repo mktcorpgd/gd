@@ -139,7 +139,6 @@ body.role- #header{top:0}
 #nav .menu li{margin-left:.1em}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'neo-sans',sans-serif;font-size:1em;font-weight:400}
 #nav .menu li a{display:block;padding:.4em .5em;white-space:nowrap}
-#nav .menu li .sub-menu li>a>i{float:right;position:relative;top:3px;color:#FFFFFF}
 #nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover{background:rgba(0,0,0,.3)}
 #nav .menu li a:hover,#nav .menu li:hover>a{border-radius:4px}
 #nav .menu li a:hover,#mobile-nav .menu li>a:hover{text-decoration:none}
@@ -149,6 +148,7 @@ body.role- #header{top:0}
 #nav .menu .sub-menu .sub-menu{background-color:#1F4483}
 #nav .menu .sub-menu li a{margin:0;padding:.3em .4em;color:#FFFFFF;font-size:.9em;line-height:1.5}
 #nav .menu .sub-menu li ul{margin-top:1.6em;left:20%}
+#nav .menu .sub-menu li>a>i{float:right;position:relative;top:3px;color:#FFFFFF}
 #nav .menu li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:'Font Awesome 6 Pro'}
 #nav .menu li.menu-item-has-children:after{position:absolute;top:7px;right:5px;font-size:.8em}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px;right:5px}
