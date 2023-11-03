@@ -110,7 +110,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 @media (min-width:920px) {
 	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link{margin-top:1.5em}
 	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img{height:90px}
-	.tribe-events-single-section{margin:0 auto!important;display:grid!important;grid-template-columns:1fr 1fr 1fr}
+	.tribe-events-single-section{margin:0 auto!important;display:grid!important;grid-template-columns:1fr 1fr}
 	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-event-meta-wrapper{margin:0 auto!important;max-width:1200px;width:80%}
 }
 
