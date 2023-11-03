@@ -122,11 +122,12 @@ jQuery(document).ready(function() {
 
 
 	// EVENTOS - Cambios en link para agregar a calendario
-	if ( jQuery('.tribe-venue').length ) {
-		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
-		jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
-		var tribe_venue = jQuery('.tribe-venue').text().trim();
-		jQuery('.tribe-event-date-start').append(' h en '+tribe_venue);
+	if ( jQuery('body.tribe_events-template-default').length ) {
+		if ( jQuery('.info-event').length ) {
+			jQuery('.excerpt').insertAfter('.info-event .tribe-events-single-event-title');
+			var tribe_venue = jQuery('.tribe-venue').text().trim();
+			jQuery('.tribe-event-date-start').append(' h en '+tribe_venue);
+		}
 		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
 			var old_href = jQuery(this).attr('href');
 			var elmts = old_href.split('&');
