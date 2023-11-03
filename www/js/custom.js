@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
 		}
 		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
 		if ( jQuery('.tribe-events-meta-group-gmap').length ) {
-			jQuery('.tribe-events-meta-group-gmap').insertAfter('.tribe-events-meta-group-venue h4');
+			jQuery('.tribe-events-meta-group-gmap').insertAfter('.tribe-events-meta-group-venue dl');
 		}
 		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
 			var old_href = jQuery(this).attr('href');
