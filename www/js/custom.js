@@ -128,6 +128,7 @@ jQuery(document).ready(function() {
 			var tribe_venue = jQuery('.tribe-venue').text().trim();
 			jQuery('.tribe-event-date-start').append(' h en '+tribe_venue);
 		}
+		jQuery('.tribe-events.tribe-common').insertAfter('.fusion-content-widget-area .tribe-events-meta-group.tribe-events-meta-group-details dl');
 		jQuery('.tribe-events-c-subscribe-dropdown__list-item-link').each(function(i){
 			var old_href = jQuery(this).attr('href');
 			var elmts = old_href.split('&');
