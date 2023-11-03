@@ -69,7 +69,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .wpcf7 .wpcf7-form.failed .wpcf7-response-output,.wpcf7 .wpcf7-form.invalid .wpcf7-response-output,.wpcf7 .wpcf7-form.spam .wpcf7-response-output,.wpcf7 .wpcf7-form.unaccepted .wpcf7-response-output{background-color:var(--errorColor);color:var(--whiteColor)}
 .wpcf7-response-inner.warning,.wpcf7 form div.wpcf7-response-output.info{background-color:var(--warningColor);color:var(--whiteColor)}
 .wpcf7 .wpcf7-form.sent .wpcf7-response-output,.wpcf7-response-inner.sent{background-color:var(--successColor);color:var(--whiteColor)}
-.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{background-color:var(--infoColor);color:var(--whiteColor)}
+.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.tribe-events-notices{background-color:var(--infoColor);color:var(--whiteColor)}
 .wpcf7-response-inner .menu-text.fusion-button{background:var(--whiteColor);border-color:var(--whiteColor)}
 .wpcf7-response-inner.sent .menu-text.fusion-button{color:var(--successColor)}
 .wpcf7-response-inner.warning .menu-text.fusion-button{color:var(--warningColor)}
