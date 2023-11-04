@@ -9,7 +9,7 @@ document.addEventListener('wpcf7submit', function(e) {
 // Menú transparente
 function scrollHeaderTransp() {
 	var scroll = jQuery(window).scrollTop();
-	if ( scroll < 20 ) {
+	if ( scroll < 60 ) {
 		jQuery('.fusion-header-wrapper').addClass('on-top');
 	}
 	else {
