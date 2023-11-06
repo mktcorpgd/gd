@@ -764,7 +764,7 @@ img.mfp-img{max-height:90vh}
 figcaption{text-align:left;padding:.4em .3em;color:#999999;font-size:.8em;line-height:1.2;font-style:italic}
 .gallery-item figcaption{color:#FFFFFF;background:rgba(0,0,0,.5)}
 .wp-block-image a+figcaption,.grid-gallery .gg-link{cursor:zoom-in}
-.wp-block-gallery,.wp-block-embed{margin:2em 0}
+.wp-block-gallery{margin:2em 0}
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption{background:#333;padding:5px}
 
 /* Videos */
@@ -777,6 +777,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-column-3 li{padding-bottom:.5em!important;margin-right:4%!important;margin-bottom:1.5em!important;width:30.66%;background:#0E316E;border-radius:12px;box-shadow:0 10px 12px -12px rgba(0,0,0,.5);overflow:hidden}
 .yotu-column-3 li:hover{background:#F0582B;box-shadow:0 10px 12px -10px #F0582B;transform:translateY(-2px)}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
+.wp-block-embed{margin-bottom:2em}
 
 /* Kit */
 .kit>.menu li{display:block;padding:0}
