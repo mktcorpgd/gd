@@ -125,9 +125,7 @@ jQuery(document).ready(function() {
 				jQuery('.kit .menu-item:not(.uas):not(.visible),.kit .menu-item.propuestas-comerciales').hide();
 				jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 			}
-			else if ( unit_class.indexOf('un') > -1 ) {
-				jQuery('.kit .menu-item.br').show();
-			}
+			jQuery('.kit .menu-item.br').show();
 		}
 		if ( office.indexOf('CL') > -1 ) {
 			jQuery('.kit .menu-item.cl').show();
