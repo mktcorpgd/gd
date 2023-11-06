@@ -126,7 +126,7 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item ul .menu-item:not(.uy)').hide();
 		}
 		if ( unit_class.indexOf('uas') > -1 ) {
-			jQuery('.kit .menu-item.propuestas-comerciales').hide();
+			jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales .menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales .menu-item:not(:contains("Grupo Datco"))').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 		}
 		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
