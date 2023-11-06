@@ -104,6 +104,24 @@ jQuery(document).ready(function() {
 		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
+		if ( office.indexOf('AR') > -1 ) {
+			jQuery('.kit .menu-item.cl-pe:not(.ar),.kit .menu-item.mx-pr:not(.ar)').hide();
+			jQuery('.kit .menu-item.es,.kit .menu-item.en').show();
+		}
+		if ( office.indexOf('BR') > -1 ) {
+			jQuery('.kit .menu-item:not(.visible):not(.pt),.kit .menu-item.es,.kit .menu-item.en').hide();
+			jQuery('.kit .menu-item.br,.kit .menu-item.pt').show();
+		}
+		if ( office.indexOf('CL') > -1 ) {
+			jQuery('.kit .menu-item.cl').show();
+			jQuery('.kit .menu-item.es,.kit .menu-item.en').show();
+		}
+		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
+			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
+		}
+		if ( office.indexOf('MX') > -1 || office.indexOf('PR') > -1 ) {
+			jQuery('.kit .menu-item.ar:not(.mx-pr),.kit .menu-item.cl-pe').hide();
+		}
 		if ( unit_class.indexOf('uas') > -1 ) {
 			jQuery('.kit .menu-item:not(.uas):not(.visible),.kit .menu-item.propuestas-comerciales').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
@@ -115,27 +133,6 @@ jQuery(document).ready(function() {
 			if ( unit.indexOf('SCAI') > -1 ) {
 				jQuery('.kit .menu-item:contains("IoP")').show();
 			}	
-		}
-		if ( office.indexOf('AR') > -1 ) {
-			jQuery('.kit .menu-item.cl-pe:not(.ar),.kit .menu-item.mx-pr:not(.ar)').hide();
-			jQuery('.kit .menu-item.es,.kit .menu-item.en').show();
-		}
-		if ( office.indexOf('BR') > -1 ) {
-			jQuery('.kit .menu-item:not(.visible):not(.pt),.kit .menu-item.es,.kit .menu-item.en').hide();
-			if ( unit_class.indexOf('uas') > -1 ) {
-				jQuery('.kit .menu-item:not(.uas):not(.visible),.kit .menu-item.propuestas-comerciales').hide();
-				jQuery('.kit .menu-item.uas>.sub-menu>li').show();
-			}
-			jQuery('.kit .menu-item.br,.kit .menu-item.pt').show();
-		}
-		if ( office.indexOf('CL') > -1 ) {
-			jQuery('.kit .menu-item.cl').show();
-		}
-		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
-			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
-		}
-		if ( office.indexOf('MX') > -1 || office.indexOf('PR') > -1 ) {
-			jQuery('.kit .menu-item.ar:not(.mx-pr),.kit .menu-item.cl-pe').hide();
 		}
 }
 
