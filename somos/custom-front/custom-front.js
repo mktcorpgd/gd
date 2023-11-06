@@ -105,36 +105,39 @@ jQuery(document).ready(function() {
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		if ( office.indexOf('AR') > -1 ) {
-			jQuery('.kit .menu-item.cl-pe:not(.ar),.kit .menu-item.mx-pr:not(.ar)').hide();
-			jQuery('.kit .menu-item.es,.kit .menu-item.en').show();
+			jQuery('.kit .menu-item ul li ul .menu-item:not(.ar)').hide();
 		}
 		if ( office.indexOf('BR') > -1 ) {
-			jQuery('.kit .menu-item:not(.visible):not(.pt),.kit .menu-item.es,.kit .menu-item.en').hide();
-			jQuery('.kit .menu-item.br,.kit .menu-item.pt').show();
+			jQuery('.kit .menu-item ul li ul .menu-item:not(.br)').hide();
 		}
 		if ( office.indexOf('CL') > -1 ) {
-			jQuery('.kit .menu-item.cl').show();
-			jQuery('.kit .menu-item.es,.kit .menu-item.en').show();
+			jQuery('.kit .menu-item ul li ul .menu-item:not(.cl)').hide();
 		}
-		if ( office.indexOf('CL') > -1 || office.indexOf('PE') > -1 ) {
-			jQuery('.kit .menu-item.ar:not(.cl-pe),.kit .menu-item.mx-pr').hide();
+		if ( office.indexOf('MX') > -1 ) {
+			jQuery('.kit .menu-item ul li ul .menu-item:not(.mx)').hide();
 		}
-		if ( office.indexOf('MX') > -1 || office.indexOf('PR') > -1 ) {
-			jQuery('.kit .menu-item.ar:not(.mx-pr),.kit .menu-item.cl-pe').hide();
+		if ( office.indexOf('PE') > -1 ) {
+			jQuery('.kit .menu-item ul li ul .menu-item:not(.pe)').hide();
+		}
+		if ( office.indexOf('PR') > -1 ) {
+			jQuery('.kit .menu-item ul li ul .menu-item:not(.pr)').hide();
+		}
+		if ( office.indexOf('UY') > -1 ) {
+			jQuery('.kit .menu-item ul li ul .menu-item:not(.uy)').hide();
 		}
 		if ( unit_class.indexOf('uas') > -1 ) {
-			jQuery('.kit .menu-item:not(.uas):not(.visible),.kit .menu-item.propuestas-comerciales').hide();
+			jQuery('.kit .menu-item.propuestas-comerciales').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 		}
 		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
-			jQuery('.kit .menu-item:not(:contains("'+org+'")):not(.visible)').hide();
+			jQuery('.kit .menu-item:not(:contains("'+org+'"))').hide();
 			jQuery('.kit .menu-item a[href*="#'+org_class+'"]+.sub-menu>li,.kit .menu-item:contains("Grupo Datco"),.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
-			jQuery('.kit .menu-item:contains("IoP"):not(.visible)').hide();
 			if ( unit.indexOf('SCAI') > -1 ) {
 				jQuery('.kit .menu-item:contains("IoP")').show();
 			}	
 		}
-}
+		jQuery('.kit .menu-item.visible').hide();
+	}
 
 
 	// ATRIBUTOS - Personalizar
