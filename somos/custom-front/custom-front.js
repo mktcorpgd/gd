@@ -121,13 +121,12 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item.es,.kit .menu-item.en').show();
 		}
 		if ( office.indexOf('BR') > -1 ) {
-			jQuery('.kit .menu-item:not(.visible):not(.pt)').hide();
-			jQuery('.kit .menu-item.es,.kit .menu-item.en').hide();
+			jQuery('.kit .menu-item:not(.visible):not(.pt),.kit .menu-item.es,.kit .menu-item.en').hide();
 			if ( unit_class.indexOf('uas') > -1 ) {
 				jQuery('.kit .menu-item:not(.uas):not(.visible),.kit .menu-item.propuestas-comerciales').hide();
 				jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 			}
-			jQuery('.kit .menu-item.pt').show();
+			jQuery('.kit .menu-item.br,.kit .menu-item.pt').show();
 		}
 		if ( office.indexOf('CL') > -1 ) {
 			jQuery('.kit .menu-item.cl').show();
