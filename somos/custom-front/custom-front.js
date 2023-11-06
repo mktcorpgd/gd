@@ -105,25 +105,25 @@ jQuery(document).ready(function() {
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		if ( office.indexOf('AR') > -1 ) {
-			jQuery('.kit .menu-item ul li ul .menu-item:not(.ar)').hide();
+			jQuery('.kit .menu-item ul .menu-item:not(.ar)').hide();
 		}
 		if ( office.indexOf('BR') > -1 ) {
-			jQuery('.kit .menu-item ul li ul .menu-item:not(.br)').hide();
+			jQuery('.kit .menu-item ul .menu-item:not(.br)').hide();
 		}
 		if ( office.indexOf('CL') > -1 ) {
-			jQuery('.kit .menu-item ul li ul .menu-item:not(.cl)').hide();
+			jQuery('.kit .menu-item ul .menu-item:not(.cl)').hide();
 		}
 		if ( office.indexOf('MX') > -1 ) {
-			jQuery('.kit .menu-item ul li ul .menu-item:not(.mx)').hide();
+			jQuery('.kit .menu-item ul .menu-item:not(.mx)').hide();
 		}
 		if ( office.indexOf('PE') > -1 ) {
-			jQuery('.kit .menu-item ul li ul .menu-item:not(.pe)').hide();
+			jQuery('.kit .menu-item ul .menu-item:not(.pe)').hide();
 		}
 		if ( office.indexOf('PR') > -1 ) {
-			jQuery('.kit .menu-item ul li ul .menu-item:not(.pr)').hide();
+			jQuery('.kit .menu-item ul .menu-item:not(.pr)').hide();
 		}
 		if ( office.indexOf('UY') > -1 ) {
-			jQuery('.kit .menu-item ul li ul .menu-item:not(.uy)').hide();
+			jQuery('.kit .menu-item ul .menu-item:not(.uy)').hide();
 		}
 		if ( unit_class.indexOf('uas') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales').hide();
