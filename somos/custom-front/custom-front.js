@@ -136,7 +136,7 @@ jQuery(document).ready(function() {
 				jQuery('.kit .menu-item:contains("IoP")').show();
 			}	
 		}
-		jQuery('.kit .menu-item.visible').hide();
+		jQuery('.kit .menu-item.visible').show();
 	}
 
 
