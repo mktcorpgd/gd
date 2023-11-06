@@ -129,7 +129,7 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .ppts>ul>.menu-item:not(:contains("Grupo Datco"))').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 		}
-		if ( unit_class.indexOf('uac') > -1 ) {
+		if ( unit_class.indexOf('uac') > -1 || unit_class.indexOf('umac') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales').show();
 		}
 		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
