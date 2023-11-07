@@ -95,11 +95,10 @@ jQuery(document).ready(function() {
 		jQuery('.wp-classic-menu-block.kit>.menu li a[href^="#"]').click(function(e) {
 			e.preventDefault();
 		});
+		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		var org = jQuery('input[name=gdORGPROF]').val();
 		var office = jQuery('input[name=gdOFFICE_mc]').val();
 		var unit = jQuery('input[name=gdUNIT_mc]').val();
-		jQuery('h4.unit').text(unit);
-		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		if ( office.indexOf('AR') > -1 ) {
 			jQuery('.kit .menu-item ul .menu-item:not(.ar)').hide();
 		}
@@ -132,6 +131,7 @@ jQuery(document).ready(function() {
 		if ( unit.indexOf('SCAI') > -1 ) {
 			jQuery('.kit .menu-item:contains("IoP")').show();
 		}	
+		jQuery('h4.unit').text(unit);
 		jQuery('.kit .menu-item.visible').show();
 	}
 
