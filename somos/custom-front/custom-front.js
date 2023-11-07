@@ -90,7 +90,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('.kit').length ) {
 		jQuery('.wp-classic-menu-block.kit>.menu>li.folder>a').click(function(e) {
 			jQuery(this).parent().toggleClass('open');
-			e.stopPropagation();
+			e.preventDefault();
 		});
 		jQuery('.wp-classic-menu-block.kit>.menu li a[href^="#"]').click(function(e) {
 			e.preventDefault();
