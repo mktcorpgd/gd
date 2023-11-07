@@ -96,12 +96,8 @@ jQuery(document).ready(function() {
 			e.preventDefault();
 		});
 		var org = jQuery('input[name=gdORGPROF]').val();
-		var org_class = normalize(org.toLowerCase());
 		var office = jQuery('input[name=gdOFFICE_mc]').val();
-		var office_class = normalize(office.toLowerCase());
 		var unit = jQuery('input[name=gdUNIT_mc]').val();
-		var unit_class = normalize(unit.toLowerCase());
-		unit_class = unit_class.substring(0,unit_class.indexOf('-'));
 		jQuery('h4.unit').text(unit);
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		if ( office.indexOf('AR') > -1 ) {
@@ -125,18 +121,18 @@ jQuery(document).ready(function() {
 		if ( office.indexOf('UY') > -1 ) {
 			jQuery('.kit .menu-item ul .menu-item:not(.uy)').hide();
 		}
-		if ( unit_class.indexOf('uas') > -1 ) {
+		if ( unit.indexOf('UAS') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .ppts>ul>.menu-item:not(:contains("Grupo Datco"))').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 		}
-		if ( unit_class.indexOf('uac') > -1 || unit_class.indexOf('umac') > -1 ) {
+		if ( unit.indexOf('UAC') > -1 || unit.indexOf('UMAC') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales').show();
-			if ( unit_class.indexOf('umac') > -1 ) {
+			if ( unit.indexOf('UMAC') > -1 ) {
 				jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
 				jQuery('.kit ul>.menu-item a:contains("Grupo Datco")+.sub-menu+li').show();
 			}
 		}
-		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
+		if ( unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
 			jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
 			jQuery('.kit ul>.menu-item a[href="#grupo-datco"]+.sub-menu+li').show();
 			if ( unit.indexOf('SCAI') > -1 ) {
