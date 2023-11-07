@@ -125,20 +125,13 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .ppts>ul>.menu-item:not(:contains("Grupo Datco"))').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
 		}
-		if ( unit.indexOf('UAC') > -1 || unit.indexOf('UMAC') > -1 ) {
-			jQuery('.kit .menu-item.propuestas-comerciales').show();
-			if ( unit.indexOf('UMAC') > -1 ) {
-				jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-				jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu+li').show();
-			}
-		}
-		if ( unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
+		if ( unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
 			jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
 			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu+li').show();
-			if ( unit.indexOf('SCAI') > -1 ) {
-				jQuery('.kit .menu-item:contains("IoP")').show();
-			}	
 		}
+		if ( unit.indexOf('SCAI') > -1 ) {
+			jQuery('.kit .menu-item:contains("IoP")').show();
+		}	
 		jQuery('.kit .menu-item.visible').show();
 	}
 
