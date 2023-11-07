@@ -30,7 +30,7 @@ jQuery(document).ready(function(){
 
 
 	// USUARIOS - Perfil: deshabilitar ciertos campos y mover otros
-	jQuery('body.profile-php.no-customize-support input[name=gdANNIV_mc],body.profile-php.no-customize-support input[name=ocp_job_title]').addClass('disabled');
+	jQuery('body.profile-php.no-customize-support input[name=gdANNIV_mc],body.profile-php.no-customize-support input[name=ocp_job_title],body.profile-php.no-customize-support input[name=gdUNIT_mc]').addClass('disabled');
 	jQuery('select[name=gdORGPROF] option[value="Datco Soluciones"],select[name=gdORGPROF] option[value="IT4W"]').hide();
 
 
