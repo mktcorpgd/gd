@@ -138,7 +138,7 @@ jQuery(document).ready(function() {
 		}
 		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
 			jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-			jQuery('.kit ul>.menu-item a:contains("Grupo Datco")+.sub-menu+li').show();
+			jQuery('.kit ul>.menu-item a[href="#grupo-datco"]+.sub-menu+li').show();
 			if ( unit.indexOf('SCAI') > -1 ) {
 				jQuery('.kit .menu-item:contains("IoP")').show();
 			}	
