@@ -88,8 +88,8 @@ jQuery(document).ready(function() {
 
 	// Kit
 	if ( jQuery('.kit').length ) {
-		jQuery('.wp-classic-menu-block.kit>.menu li.folder').click(function(e) {
-			jQuery(this).toggleClass('open');
+		jQuery('.wp-classic-menu-block.kit>.menu>li.folder>a').click(function(e) {
+			jQuery(this).parent().toggleClass('open');
 			e.stopPropagation();
 		});
 		jQuery('.wp-classic-menu-block.kit>.menu li a[href^="#"]').click(function(e) {
