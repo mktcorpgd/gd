@@ -97,6 +97,7 @@ jQuery(document).ready(function() {
 		});
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		var org = jQuery('input[name=gdORGPROF]').val();
+		var org_class = normalize(org.toLowerCase());
 		var office = jQuery('input[name=gdOFFICE_mc]').val();
 		var unit = jQuery('input[name=gdUNIT_mc]').val();
 		if ( office.indexOf('AR') > -1 ) {
@@ -129,7 +130,7 @@ jQuery(document).ready(function() {
 		}
 		if ( unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
 			jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li,.kit .menu-item:contains("'+org+'"),.kit .menu-item:contains("'+org+'")+.sub-menu>li').show();
+			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li,.kit .menu-item:contains("'+org+'"),.kit .menu-item a[href*="'+org_class+'"]+.sub-menu>li').show();
 		}
 		if ( unit.indexOf('SCAI') > -1 ) {
 			jQuery('.kit .menu-item:contains("IoP")').show();
