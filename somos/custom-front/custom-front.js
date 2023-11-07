@@ -133,7 +133,7 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item.propuestas-comerciales').show();
 			if ( unit_class.indexOf('umac') > -1 ) {
 				jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-				jQuery('.kit ul>.menu-item:contains("Grupo Datco") li').show();
+				jQuery('.kit ul>.menu-item a:contains("Grupo Datco")+.sub-menu+li').show();
 			}
 		}
 		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
