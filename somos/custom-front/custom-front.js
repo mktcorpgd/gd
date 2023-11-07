@@ -128,13 +128,13 @@ jQuery(document).ready(function() {
 		if ( unit.indexOf('UAC') > -1 || unit.indexOf('UMAC') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales').show();
 			if ( unit.indexOf('UMAC') > -1 ) {
-				jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-				jQuery('.kit ul>.menu-item a:contains("Grupo Datco")+.sub-menu+li').show();
+				jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
+				jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu+li').show();
 			}
 		}
 		if ( unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
-			jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-			jQuery('.kit ul>.menu-item a[href="#grupo-datco"]+.sub-menu+li').show();
+			jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
+			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu+li').show();
 			if ( unit.indexOf('SCAI') > -1 ) {
 				jQuery('.kit .menu-item:contains("IoP")').show();
 			}	
