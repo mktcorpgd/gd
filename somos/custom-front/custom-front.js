@@ -134,7 +134,6 @@ jQuery(document).ready(function() {
 		}
 		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
 			jQuery('.kit .menu-item:not(:contains("'+org+'"))').hide();
-			jQuery('.kit .menu-item a[href*="#'+org_class+'"]+.sub-menu>li,.kit .menu-item:contains("Grupo Datco"),.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li').show();
 			if ( unit.indexOf('SCAI') > -1 ) {
 				jQuery('.kit .menu-item:contains("IoP")').show();
 			}	
