@@ -129,7 +129,7 @@ jQuery(document).ready(function() {
 		}
 		if ( unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
 			jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li,.kit .menu-item:contains("'+org+'")').show();
+			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li,.kit .menu-item:contains("'+org+'"),.kit .menu-item:contains("'+org+'") .menu-item').show();
 		}
 		if ( unit.indexOf('SCAI') > -1 ) {
 			jQuery('.kit .menu-item:contains("IoP")').show();
