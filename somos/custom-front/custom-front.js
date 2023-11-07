@@ -132,11 +132,11 @@ jQuery(document).ready(function() {
 		if ( unit_class.indexOf('uac') > -1 || unit_class.indexOf('umac') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales').show();
 			if ( unit_class.indexOf('umac') > -1 ) {
-				jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
+				jQuery('.kit ul>.menu-item:not(:contains("'+org+'"))').hide();
 			}
 		}
 		if ( unit_class.indexOf('un') > -1 || unit_class.indexOf('pm') > -1 ) {
-			jQuery('.kit ul>.menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
+			jQuery('.kit ul>.menu-item:not(:contains("'+org+'"))').hide();
 			if ( unit.indexOf('SCAI') > -1 ) {
 				jQuery('.kit .menu-item:contains("IoP")').show();
 			}	
