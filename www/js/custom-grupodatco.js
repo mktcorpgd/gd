@@ -20,7 +20,6 @@ jQuery(document).ready(function() {
 	if ( jQuery('.fusion-fullwidth.country-flag').length ) {
 		var flag = window.location.pathname;
 		flag = flag.substring(1,flag.length-1);
-		console.log(flag);
 		switch(flag) {
 			case 'ar':
 				var ctry_name = 'Argentina';
