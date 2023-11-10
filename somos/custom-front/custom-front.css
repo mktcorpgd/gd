@@ -439,7 +439,7 @@ h3.toggle .fa-plus-square:before{content:'\f067'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
 h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:#F0582B}
 #content h3.toggle{font-weight:400;font-size:1.1em;line-height:1}
-.widget h3.toggle{margin-bottom:0;font-size:1.1em;font-weight:400}
+.widget h3.toggle{margin-top:5px;margin-bottom:0;font-size:1.1em;font-weight:400}
 .widget h3.toggle i{width:18px}
 .toggle-box{margin:5px 0 0;overflow:visible}
 .widget .toggle-box h5,.widget .toggle-box h6{color:#333333;text-align:left;text-transform:none}
