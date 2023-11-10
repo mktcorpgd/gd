@@ -8,18 +8,15 @@ body:not(.role-capital_humano) #wp-admin-bar-altas-bajas,
 /* Not AR */
 body:not([class*='office-ar']) section[class*='category-argentina-2'],
 /* Metas */
-.single .gp-entry-meta i,.gp-post-meta:before,
-body.single article.category-beneficios .gp-meta-date,body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/newsletter-baitcon/'],body.single article[class*='category-politicas-procesos'] .gp-meta-date,
-body.page-template-default .gp-meta-cats a[href*='/recursos-marketing/'],
-body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],
-body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],
-body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],
+.single .gp-entry-meta i,.gp-post-meta:before,body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.page-id-26272 .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.page-id-26272 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/argentina/'],body.category-2370 section.category-casos-de-referencia .gp-post-meta a[href$='/categoria/novedades/casos-de-referencia/'],body.single article[class*='category-casos-'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/novedades/argentina/'],
 body.page.fullwidth h1+.gp-post-meta,
 body.archive.category-2796 .gp-blog-wrapper section .gp-meta-cats a[href$='/busquedas-laborales/'],
 .eo-event-meta li strong,
-body section.category-beneficios .gp-loop-meta,body section.category-kit-marca .gp-loop-meta,body section.category-tu-imagen-corporativa .gp-loop-meta,body section.category-reportes .gp-meta-cats,
-body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
 footer.entry-meta,
+body.single article.category-beneficios .gp-meta-date,body section.category-beneficios .gp-loop-meta,body section.category-kit-marca .gp-loop-meta,body section.category-tu-imagen-corporativa .gp-loop-meta,
+body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-meta-cats a~a[href$='/newsletter-baitcon/'],body.page-template-default .gp-meta-cats a[href*='/recursos-marketing/'],
+body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
+body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
 #search-3>h3,.is-screen-reader-text,.is-search-form.is-form-id-26276 button,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,.error404 .gp-search p,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
 /* Cumpleaños */
@@ -404,7 +401,7 @@ input.static_gmap+a img{display:block;width:100%}
 input.static_gmap+a:hover{border-color:#F0582B}
 
 /* Sidebar */
-.sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px;box-shadow:0 1px 4px 0 rgba(0,0,0,.2)}
+.sidebar .widget{margin-bottom:1em;padding:0 1em 1em;border-radius:12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)}
 #text-7 .widget{text-align:center}
 .widget,.textwidget{line-height:1.3}
 .widget p{margin:0 0 .4em}
