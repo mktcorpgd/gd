@@ -37,7 +37,7 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .modal .not-modal,
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
 .pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-notices+.tribe_events .wpcf7{display:none!important}
-.wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,#legales .panel-body span,.fusion-portfolio .more-info{display:none}
+.wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,#legales .panel-body span,.fusion-portfolio .more-info{display:none}
 
 /* General */
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--awb-padding-left:0;--awb-padding-right:0;}
