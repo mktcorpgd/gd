@@ -402,9 +402,11 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.fusion-body #main .tribe-events .tribe-events-c-events-bar--border{padding:.7em .8rem;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;font-size:.9rem;z-index:1}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{margin:.75rem 0 0;width:100%}
-.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container{z-index:10}
+.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container{z-index:99}
 .intl-tel-input{margin-top:.75rem}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.625em .55rem}
+.country-list{max-width:250px}
+.intl-tel-input .country-list .country-name, .intl-tel-input .country-list .flag-box{color:var(--textFont)}
 .wpcf7-select.selected{color:var(--textColor)}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
 #comment-input .form-submit{margin:0;grid-column:span 2}
