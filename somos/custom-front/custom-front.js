@@ -33,60 +33,10 @@ document.addEventListener('wpcf7mailsent', function(event) {
 }, false);
 
 
-//  GENERAL - Redireccionar según oficina
-/*if ( jQuery('body').attr('class').indexOf('home') > -1 ) {
-	if ( jQuery('body').attr('class').indexOf('office-ar') > -1 ) {
-		jQuery('.ui-tabs-anchor[href="#tab-Argentina"]').trigger('click');
-	}
-	else if ( jQuery('body').attr('class').indexOf('office-br') > -1 ) {
-		jQuery('.ui-tabs-anchor[href="#tab-Brasil"]').trigger('click');
-	}
-	else if ( jQuery('body').attr('class').indexOf('office-cl') > -1 ) {
-		jQuery('.ui-tabs-anchor[href="#tab-Chile"]').trigger('click');
-	}
-	else if ( jQuery('body').attr('class').indexOf('office-mx') > -1 ) {
-		jQuery('.ui-tabs-anchor[href="#tab-Mxico"]').trigger('click');
-	}
-	else if ( jQuery('body').attr('class').indexOf('office-pe') > -1 ) {
-		jQuery('.ui-tabs-anchor[href="#tab-Per"]').trigger('click');
-	}
-	else if ( jQuery('body').attr('class').indexOf('office-pr') > -1 ) {
-		jQuery('.ui-tabs-anchor[href="#tab-PuertoRico"]').trigger('click');
-	}	
-}*/
-
-
 jQuery(document).ready(function() {
 
-	// GOOGLE FORMS
-	if ( jQuery('iframe[src*="docs.google.com/forms"]').length ) {
 
-		// Traer nombre, apelliedo y mail
-		var fname = jQuery('#usrfname').val();
-		var lname = jQuery('#usrlname').val();
-		var email = jQuery('#usremail').val();
-
-		// Generación de URL <iframe>
-		var formid = jQuery('#gform').text();
-
-		/* Encuesta GD40
-		if ( jQuery('body').hasClass('page-id-25343') ) {
-			jQuery('iframe').attr('src','https://docs.google.com/forms/d/e/'+formid+'/viewform?embedded=true&entry.908291152='+fname+'&entry.696987736='+lname+'&entry.774317379='+email);
-		}*/
-
-		// Autoajustar altura de iframe después de enviar:
-		var loadCounter = 0;
-		var loaded = function() {
-			loadCounter += 1;
-			if (loadCounter === 2) {
-				jQuery('article.category-encuestas iframe').attr('height','300px');
-				jQuery(window).scrollTo(0,0)
-			}
-		}
-		
-	}
-
-	// Kit
+	// KIT
 	if ( jQuery('.kit').length ) {
 		jQuery('.wp-classic-menu-block.kit .menu li.folder>a').click(function(e) {
 			jQuery(this).parent().toggleClass('open');
@@ -140,14 +90,6 @@ jQuery(document).ready(function() {
 	}
 
 
-	// ATRIBUTOS - Personalizar
-	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
-	jQuery('body.page-id-26272 .is-search-input,article[class*=category-casos-] .is-search-input').attr('placeholder','Buscar por cliente, solución, UN o UAC');
-	jQuery('body.page-id-41477 .is-search-input').attr('placeholder','Buscar por tema');
-	jQuery('img[title],.read-more[title]').each(function(){jQuery(this).removeAttr('title');});
-	jQuery('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
-
-
 	// MOBILE
 	function headerMobile() {
 		if ( jQuery(window).width() < 960 ) {
@@ -194,6 +136,18 @@ jQuery(document).ready(function() {
 	});
 
 
+	// GENERAL - Ir hacia parte de la página
+	jQuery('a[href^=#goto]').on('click',function(e) {
+		var goto_selector = jQuery(this).attr('href').substring(5,jQuery(this).attr('href').length);
+		jQuery('html,body').animate({
+			scrollTop: jQuery('#'+goto_selector).offset().top-100},
+			'slow',
+			'easeInBounce'
+		);
+		e.preventDefault();
+	});
+
+		
 	// CASOS - Marcar filas vacías
 	if ( jQuery('body.post-template-default').length ) {
 		if ( jQuery('article').attr('class').indexOf('category-casos-') > -1 ) {
@@ -306,26 +260,17 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		jQuery(this).prev('a').trigger('click');
 	});
-
-
-	// Ir hacia parte de la página
-	jQuery('a[href^=#goto]').on('click',function(e) {
-		var goto_selector = jQuery(this).attr('href').substring(5,jQuery(this).attr('href').length);
-		jQuery('html,body').animate({
-			scrollTop: jQuery('#'+goto_selector).offset().top-100},
-			'slow',
-			'easeInBounce'
-		);
-		e.preventDefault();
-	});
-
-
-	// MANTENIMIENTO - Cambiar idioma del botón en barra de administración
-	jQuery('#wp-admin-bar-maintenance_options>a[title*=Off]').text('Mantenimiento desactivado');
-	jQuery('#wp-admin-bar-maintenance_options>a[title*=On]').text('Mantenimiento activado');
-
-
-	// FORMULARIOS - [IMPORTANTE PARA MAILCHIMP] Agregar textos para la opción free_text en checkbox
+	
+		
+	// FORMULARIOS - Atributos
+	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
+	jQuery('body.page-id-26272 .is-search-input,article[class*=category-casos-] .is-search-input').attr('placeholder','Buscar por cliente, solución, UN o UAC');
+	jQuery('body.page-id-41477 .is-search-input').attr('placeholder','Buscar por tema');
+	jQuery('img[title],.read-more[title]').each(function(){jQuery(this).removeAttr('title');});
+	jQuery('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
+	
+		
+	// FORMULARIOS - [Mailchimp] Agregar textos para la opción free_text en checkbox
 	jQuery('.wpcf7-free-text').blur(function(e) {
 		if ( jQuery(this).attr('data-usage') != 'true') {
 			jQuery(this).attr('data-text',jQuery(this).parent().find('input[type=checkbox]').val());
@@ -549,7 +494,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// [Merchandising] FORMULARIOS - Cambiar opción por ítem con costo según cantidad
+	// FORMULARIOS [Merchandising] - Cambiar opción por ítem con costo según cantidad
 	if ( jQuery('.MERCH1').length ) {
 		var obj_scosto = 0;
 		jQuery('.MERCH1 option').each(function(i) {
