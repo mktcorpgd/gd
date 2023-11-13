@@ -406,7 +406,8 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .intl-tel-input{margin-top:.75rem}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.625em .55rem}
 .country-list{max-width:250px;border-radius:6px}
-.intl-tel-input .country-list .flag-box{color:var(--textFont)}
+.intl-tel-input .country-list .country{padding:.1em 0 .1em .4em}
+.intl-tel-input .country-list .country .dial-code{font-size:.9em;color:var(--metaColor)}
 .wpcf7-select.selected{color:var(--textColor)}
 #comment-input{display:grid;grid-template-columns:1fr 1fr;grid-gap:10px}
 #comment-input .form-submit{margin:0;grid-column:span 2}
