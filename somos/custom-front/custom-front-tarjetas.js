@@ -123,7 +123,7 @@ jQuery(document).ready(function() {
 		var ctry_office = ctry+'_'+office;
 		console.log(ctry_office);
 		if ( ctry_office == 'cl_santiago' ) {
-			jQuery('input[name=CTRYMAIL]').val('libreria_cl@grupodatco.com')
+			jQuery('input[name=CTRYMAIL]').val('libreria@datco.cl')
 		}
 		else {
 			jQuery('input[name=CTRYMAIL]').val('libreria@datco.net')
