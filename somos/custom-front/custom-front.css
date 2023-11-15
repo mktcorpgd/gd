@@ -526,32 +526,12 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_file_download,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a{padding:.4em .6em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:hover{background:#1F4483}
 .mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
-.mo_sps_class_embed_file_image{border:none}
+.mo_sps_class_embed_file_image{padding:0;border:none}
 .mo_sps_class_embed_file_image>img{width:100%}
-.mo_sps_class_embed_file_title{padding:0 .4em .4em}
-.mo_sps_class_embed_file__downloadLink {
-	display: block;
-	width: auto;
-	position: absolute;
-	top: 10px;
-	right: 10px;
-	text-decoration :none;
-	background: #F0582B;
-	border-radius: 6px;
-	box-sizing: border-box;
-}
-.mo_sps_class_embed_file__downloadLink:hover {
-	background:#1F4483;
-}
-.mo_sps_class_embed_file__downloadLink:before {
-    content: '\f019';
-    display: block;
-	margin: 0;
-	padding: .2em .4em;
-	font-family: 'Font Awesome 6 Pro';
-    text-align: center;
-	color: #FFFFFF;
-}
+.mo_sps_class_embed_file_title{padding:.4em}
+.mo_sps_class_embed_file__downloadLink{display:block;width:auto;position:absolute;top:10px;right:10px;text-decoration:none;background:#F0582B;border-radius:6px}
+.mo_sps_class_embed_file__downloadLink:hover{background:#1F4483}
+.mo_sps_class_embed_file__downloadLink:before{content:'\f019';display:block;margin:0;padding:.2em .4em;font-family:'Font Awesome 6 Pro';text-align:center;color:#FFFFFF}
 
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
@@ -889,7 +869,6 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
 	.bottom_logos{font-size:1.2em;line-height:1.5}
 	.bottom_logos a img{width:120px}
-	
 }
 
 /* Mobile */
@@ -949,6 +928,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#copyright a img{width:160px}
 	.info-material{font-size:1rem}
 	.mo_doc_lib_responsive-table .mo_doc_lib_col:before{flex-basis:30%}
+	.mo_sps_class_doc_container .mo_sps_class_doc__list{grid-template-columns:1fr}
 }
 @media (max-width:920px) and (orientation:portrait) {
 	#mobile-nav .menu{max-height:330px}
