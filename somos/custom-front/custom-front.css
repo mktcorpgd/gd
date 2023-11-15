@@ -928,7 +928,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#copyright a img{width:160px}
 	.info-material{font-size:1rem}
 	.mo_doc_lib_responsive-table .mo_doc_lib_col:before{flex-basis:30%}
-	.mo_sps_class_doc_container .mo_sps_class_doc__list{grid-template-columns:1fr}
+	.mo_sps_class_doc_container .mo_sps_class_doc__list{grid-template-columns:1fr 1fr}
 }
 @media (max-width:920px) and (orientation:portrait) {
 	#mobile-nav .menu{max-height:330px}
