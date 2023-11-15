@@ -362,11 +362,11 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7 label>i[class*='fa-solid']:not([class*='circle-info']){width:16px;text-align:right;position:absolute;top:50%;left:-22px}
 .wpcf7 label>i[class*='circle-info']:hover{color:#666666}
 div.wpcf7 .ajax-loader.is-active{visibility:visible}
-body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item{display:flex;}
+body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item{display:flex}
 body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item.first{display:none}
 
 /* Datepicker */
-.xdsoft_time.xdsoft_old{pointer-events:none;opacity:.6;}
+.xdsoft_time.xdsoft_old{pointer-events:none;opacity:.6}
 .xdsoft_datetimepicker{font-family:'open-sans',sans-serif;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border:none;border-radius:12px}
 .xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box,.xdsoft_datetimepicker .xdsoft_calendar,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_calendar td:hover,.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current{border-radius:6px}
 .xdsoft_datetimepicker .xdsoft_label>.xdsoft_select,.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current,.xdsoft_datetimepicker .xdsoft_calendar th{font-weight:400}
@@ -464,9 +464,9 @@ h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #custom_html-25 h3.toggle>i.fa-minus-square+a:after,
 #content h3.toggle>i.fa-plus-square+a:after,
 #content h3.toggle>i.fa-minus-square+a:after{content:''}
-body.page-id-15131 #content ul li h3.toggle {top: 0.2em;left: -1em;}
+body.page-id-15131 #content ul li h3.toggle {top:0.2em;left:-1em}
 body.postid-49885 #content h3.toggle {margin-bottom:1em;font-weight:500}
-body.postid-49885 .toggle-box{margin-bottom: 1.5em;}
+body.postid-49885 .toggle-box{margin-bottom:1.5em}
 
 /* Buscadores */
 body>.is-search-form{margin:52px auto 1em;width:95%}
@@ -486,7 +486,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .info-material a{text-decoration:underline}
 .info-material strong,.info-material strong a{font-weight:700}
 [id*='mo_doc_lib_container__loader']{height:auto!important;border:none!important}
-.mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center;}
+.mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:50%}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-2{flex-basis:25%}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-4{flex-basis:15%}
@@ -506,17 +506,17 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{content:'\f1c3'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pdf']:before{content:'\f1c1'}
 .mo_doc_lib_table-row:hover{background-color:#EAEAEA}
-.mo_sps_class_embed_folder{padding:0;border:2px solid #EAEAEA;border-radius:6px;color:#333333;}
+.mo_sps_class_embed_folder{padding:0;border:2px solid #EAEAEA;border-radius:6px;color:#333333}
 .mo_sps_class_embed_folder_image{border:none}
 .modal{z-index:999999999}
 .modal-content{border-radius:12px}
 .iframe-header{font-family:'neo-sans',sans-serif;text-align:left;color:#333333}
-.close{position:relative;top:-10px;opacity:.6;}
+.close{position:relative;top:-10px;opacity:.6}
 .close:hover{opacity:1}
 .close:before{content:'✖';font-size:1em;position:absolute;top:0;left:0;width:100%;height:100%;background:#FFFFFF;color:#555555}
 [id*='sps_embed_container']{max-width:100%!important}
 .mo_sps_class_doc_container .mo_sps_class_doc__list{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}
-.mo_sps_class_doc_container .mo_sps_class_doc__list>div{width:100%;margin:0!important;padding:0!important;border:2px solid #EAEAEA;border-radius:6px;color:#333333;}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div{width:100%;margin:0!important;padding:0!important;border:2px solid #EAEAEA;border-radius:6px;color:#333333;overflow:hidden}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe{max-height:200px}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div,.mo_sps_class_embed_folder_title{width:100%;padding:.6em;font-size:.8rem}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div{display:flex}
@@ -524,6 +524,35 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_file_download,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a{padding:.4em .6em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:hover{background:#1F4483}
 .mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
+.mo_sps_class_embed_file_image{display:block;border:none}
+.mo_sps_class_embed_file_title{padding:.2em .4em}
+.mo_sps_class_embed_file__downloadLink {
+    margin: 0 5%;
+    width: auto;
+    height: 32px;
+    display: block;
+    position: absolute;
+    bottom: 23px;
+    left: 10px;
+    text-decoration:none;
+    background: #F0582B;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+.mo_sps_class_embed_file__downloadLink:hover {
+	background:#1F4483;
+}
+.mo_sps_class_embed_file__downloadLink:before {
+    content: '\f019';
+	font-family: 'Font Awesome 6 Pro';
+	padding: .2em .4em;
+    text-align: center;
+    display: grid;
+    align-items: center;
+	color: #FFFFFF;
+}
+.mo_sps_class_embed_file_image{padding:0;border:none}
+.mo_sps_class_embed_file_image>img{width:100%}
 
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
@@ -571,7 +600,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 
 /* Tablas */
 .wp-block-table{margin-bottom:2em;overflow:hidden}
-#content table td:not(.line){border:none;border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2);}
+#content table td:not(.line){border:none;border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2)}
 #content table tbody tr:last-child td{border-bottom:1px solid rgba(0,0,0,.2)}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
 #content table tbody tr{background:none}
@@ -669,7 +698,7 @@ a.button.fullwidth{width:100%}
 #text-4 h3{margin:0 0 .8em;font-size:1.15em}
 #text-4 h3 a{display:block}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.5em .6em;font-size:1.6em}
-.page-id-55300 .sc-button.large, .wpcf7 button.large, .page-id-41477 .sc-button.large, .wpcf7 button.large, .page-id-15131 .sc-button.large, .wpcf7 button.large {font-size: 1.2em;display: block;margin: 0 auto;}
+.page-id-55300 .sc-button.large, .wpcf7 button.large, .page-id-41477 .sc-button.large, .wpcf7 button.large, .page-id-15131 .sc-button.large, .wpcf7 button.large {font-size: 1.2em;display: block;margin: 0 auto}
 
 /* Tarjeta digital */
 #custom_html-23{text-align:center}
@@ -782,7 +811,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-video-thumb-wrp::after{top:52%}
 .yotu-video-thumb-wrp:before{display:block;width:100%;height:100%;background:rgba(0,0,0,.4)}
 .yotu-video-thumb-wrp:after{padding-top:0;content:'\f144';height:1.5em;text-align:center;font-size:2em;color:#FFFFFF;font-family:'Font Awesome 6 Pro';background:none}
-#content .yotu-videos .yotu-video h3{display:block;margin-top:.4em!important;padding:0 .7em;color:#FFFFFF;font-weight:400;font-size:.9em;line-height:1.3!important;white-space:normal;}
+#content .yotu-videos .yotu-video h3{display:block;margin-top:.4em!important;padding:0 .7em;color:#FFFFFF;font-weight:400;font-size:.9em;line-height:1.3!important;white-space:normal}
 .yotu-column-3 li{padding-bottom:.5em!important;margin-right:4%!important;margin-bottom:1.5em!important;width:30.66%;background:#0E316E;border-radius:12px;box-shadow:0 10px 12px -12px rgba(0,0,0,.5);overflow:hidden}
 .yotu-column-3 li:hover{background:#F0582B;box-shadow:0 10px 12px -10px #F0582B;transform:translateY(-2px)}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
@@ -829,6 +858,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-webkit-appearance:textfield;-moz-appearance:textfield;appearance:textfield}
 	li.only-mobile,#mobile-nav-button{display:none!important}
+	body.home section.post-loop.category-reportes .gp-blog-wrapper section .gp-meta-cats{display:none}
 	.sidebar{font-size:14px}
 	body>.is-search-form input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	body>.is-search-form.is-search-form input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
@@ -852,10 +882,9 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
 	body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
 	body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
-	body.home section.post-loop.category-reportes{display: grid;grid-template-columns: 35% 65%}
-	body.home section.post-loop.category-reportes a{font-size: 21px;color: #f0582b;}
-	body.home section.post-loop.category-reportes a:hover{color: #0E316E;}
-	body.home section.post-loop.category-reportes .gp-blog-wrapper section .gp-meta-cats {display:none;}
+	body.home section.post-loop.category-reportes{display:grid;grid-template-columns:35% 65%}
+	body.home section.post-loop.category-reportes a{font-size:1.2em;color:#F0582B}
+	body.home section.post-loop.category-reportes a:hover{color:#0E316E}
 	.ui-widget-content{float:left}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
