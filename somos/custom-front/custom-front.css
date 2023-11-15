@@ -66,7 +66,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 ::-ms-input-placeholder{color:#555555}
 p:not(.gp-comment-meta) strong{font-weight:700}
 section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i{transition:all .1s ease-in-out!important}
-#nav .menu li.menu-item-has-children:after,.wp-classic-menu-block>.menu ul,.kit>.menu li,#logo{transition:all .3s ease-in-out!important}
+#nav .menu li.menu-item-has-children:after,.wp-classic-menu-block>.menu ul,.kit>.menu li,#logo,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
 body{background-color:#EAEAEA;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos.png');background-position:top center;letter-spacing:-.1px;background-repeat:repeat;background-size:100%;background-attachment:scroll}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:#333333;font-size:16px}
 h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:'neo-sans',sans-serif}
@@ -518,6 +518,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 [id*='sps_embed_container']{max-width:100%!important}
 .mo_sps_class_doc_container .mo_sps_class_doc__list{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div{width:100%;margin:0!important;padding:0!important;border:2px solid #EAEAEA;border-radius:6px;color:#333333;overflow:hidden}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div{border:2px solid #F0582B}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe{max-height:200px}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div,.mo_sps_class_embed_folder_title{width:100%;padding:.6em;font-size:.8rem}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div{display:flex}
@@ -527,7 +528,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
 .mo_sps_class_embed_file_image{border:none}
 .mo_sps_class_embed_file_image>img{width:100%}
-.mo_sps_class_embed_file_title{padding:.2em .4em}
+.mo_sps_class_embed_file_title{padding:0 .4em .4em}
 .mo_sps_class_embed_file__downloadLink {
 	display: block;
 	width: auto;
@@ -545,7 +546,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_sps_class_embed_file__downloadLink:before {
     content: '\f019';
     display: block;
-	margin: 0 .4em 0 0;
+	margin: 0;
 	padding: .2em .4em;
 	font-family: 'Font Awesome 6 Pro';
     text-align: center;
