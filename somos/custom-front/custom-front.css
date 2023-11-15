@@ -516,7 +516,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .close:hover{opacity:1}
 .close:before{content:'✖';font-size:1em;position:absolute;top:0;left:0;width:100%;height:100%;background:#FFFFFF;color:#555555}
 [id*='sps_embed_container']{max-width:100%!important}
-.mo_sps_class_doc_container .mo_sps_class_doc__list{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}
+.mo_sps_class_doc_container .mo_sps_class_doc__list{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em;align-items:start}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div{width:100%;margin:0!important;padding:0!important;border:2px solid #EAEAEA;border-radius:6px;color:#333333;overflow:hidden}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div:hover{background:#FAFAFA;border:2px solid #F0582B}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe{max-height:200px}
