@@ -485,7 +485,8 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .info-material i{display:inline-block;margin-right:.4em}
 .info-material a{text-decoration:underline}
 .info-material strong,.info-material strong a{font-weight:700}
-[id*='mo_doc_lib_container__loader']{height:auto!important;border:none!important}
+[id*='mo_doc_lib_container__loader']{width:100%!important;height:auto!important;border:none!important;background:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-repeat:no-repeat;background-position:center center}
+[id*='mo_doc_lib_container__loader']>img{display:none!important}
 .mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:50%}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-2{flex-basis:25%}
@@ -500,7 +501,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-header{letter-spacing:0;font-family:'neo-sans',sans-serif;margin:0 0 .4em!important;padding:.4em .8em;background:#1F4483;border-radius:3px 3px 6px 6px;font-size:.8rem;text-transform:none}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row{font-family:'open-sans',sans-serif;margin:0!important;padding:.4em .8em;font-size:.8rem;border-radius:6px;box-shadow:none}
 .mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
-.mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;color:#FFFFFF}
+.mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;line-height:1.1;color:#FFFFFF}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1:before{content:'\f15b';margin-right:.4em;font-size:1.6em;font-weight:900;font-family:'Font Awesome 6 Pro';color:#666666}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{color:#D24726;content:'\f1c4'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{color:#2B579A;content:'\f1c2'}
