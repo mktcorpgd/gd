@@ -500,6 +500,9 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
 .mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;line-height:1.1;color:#FFFFFF}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1:before{content:'\f15b';margin-right:.4em;font-size:1.6em;font-weight:900;font-family:'Font Awesome 6 Pro';color:#666666}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div:not(.mo_sps_class_embed_file):before{content:'\f15b';font-size:1.6em;font-weight:900;font-family:'Font Awesome 6 Pro';color:#666666}
+.mo_sps_class_embed_file[data-sharepoint_name*="-blanco"]{background:#999999}
+#mo_sps_doc__list_53 .mo_sps_class_embed_file_image>img{padding:.4em}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{color:#D24726;content:'\f1c4'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{color:#2B579A;content:'\f1c2'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{color:#217346;content:'\f1c3'}
