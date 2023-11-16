@@ -500,16 +500,6 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
 .mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;line-height:1.1;color:#FFFFFF}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1:before{content:'\f15b';margin-right:.4em;font-size:1.6em;font-weight:900;font-family:'Font Awesome 6 Pro';color:#666666}
-.mo_sps_class_doc_container .mo_sps_class_doc__list>div:not(.mo_sps_class_embed_file):before{content:'\f15b';font-size:1.6em;font-weight:900;font-family:'Font Awesome 6 Pro';color:#666666;display: grid;
-    position: absolute;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-}
-.mo_sps_class_embed_folder_image>img{display:none}
-.mo_sps_class_embed_file[data-sharepoint_name*="-blanco"]{background:#999999}
-#mo_sps_doc__list_53 .mo_sps_class_embed_file_image>img{padding:.4em}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{color:#D24726;content:'\f1c4'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{color:#2B579A;content:'\f1c2'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{color:#217346;content:'\f1c3'}
@@ -547,6 +537,17 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_sps_class_embed_file__downloadLink{display:block;width:auto;position:absolute;top:10px;right:10px;text-decoration:none;background:#F0582B;border-radius:6px;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
 .mo_sps_class_embed_file__downloadLink:hover{background:#1F4483}
 .mo_sps_class_embed_file__downloadLink:before{content:'\f019';display:block;margin:0;padding:.2em .4em;font-size:.8rem;font-family:'Font Awesome 6 Pro';text-align:center;color:#FFFFFF}
+.mo_sps_class_embed_file[data-sharepoint_name*="-blanco"]{background:#999999}
+#mo_sps_doc__list_53 .mo_sps_class_embed_file_image>img{padding:.4em}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div:not(.mo_sps_class_embed_file):before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*="zip"]{margin-top:-.4em;content:'\f15b';font-size:2.6em;font-weight:900;font-family:'Font Awesome 6 Pro';color:#666666;display: grid;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.mo_sps_class_embed_folder_image>img,.mo_sps_class_embed_file[data-sharepoint_name*="zip"] .mo_sps_class_embed_file_image>img{display:none}
+
 
 /* Banderas */
 section[class*='novedades'] .post-text h2:before,section[class*='regional'] .post-text h2:before,section[class*='argentina'] .post-text h2:before,section[class*='argentina-2'] .post-text h2:before,section[class*='brasil'] .post-text h2:before,section[class*='chile'] .post-text h2:before,section[class*='mexico'] .post-text h2:before,section[class*='peru'] .post-text h2:before,section[class*='puerto-rico'] .post-text h2:before{content:'';display:inline-block;width:16px;height:16px;background-size:100% 100%;background-position:center center;background-repeat:no-repeat;background-size:contain;border-radius:50% 0 0 50%;background-color:#FFFFFF;border:2px solid #FFFFFF;border-right:none;position:absolute;top:10px;right:0;font-size:1em;text-align:center}
