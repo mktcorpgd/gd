@@ -547,7 +547,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 }
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*="zip"]:before{color:#F8BB14;content:'\e5ee'}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*="pdf"]:before{color:#B51308;content:'\f1c1'}
-.mo_sps_class_doc__list .mo_sps_class_embed_folder_image,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*="zip"],.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*="pdf"]{min-height:80px}
+.mo_sps_class_doc__list .mo_sps_class_embed_folder_image,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*="zip"] .mo_sps_class_embed_file_image,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*="pdf"] .mo_sps_class_embed_file_image{min-height:80px}
 .mo_sps_class_embed_folder_image>img,.mo_sps_class_embed_file[data-sharepoint_name*="zip"] .mo_sps_class_embed_file_image>img{display:none}
 
 
