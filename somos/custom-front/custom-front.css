@@ -502,9 +502,9 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
 .mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;color:#FFFFFF}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1:before{content:'\f15b';margin-right:.4em;font-size:1.6em;font-weight:900;font-family:'Font Awesome 6 Pro';color:#666666}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{color:#C43E1C;content:'\f1c4'}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{color:#185ABD;content:'\f1c2'}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{color:#107C41;content:'\f1c3'}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{color:#D24726;content:'\f1c4'}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{color:#2B579A;content:'\f1c2'}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{color:#217346;content:'\f1c3'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pdf']:before{color:#B51308;content:'\f1c1'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.jpg']:before,
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.jpeg']:before,
