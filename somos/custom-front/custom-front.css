@@ -21,8 +21,8 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 #search-3>h3,.is-screen-reader-text,.is-search-form.is-form-id-26276 button,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,.error404 .gp-search p,.padder article.post.no-results h1,#content section[class*='busquedas'] p,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
-/* Drive */
-[id*='mo_sps_upload_file'],[breadcrumb*='A4'],[breadcrumb*='assets'],[breadcrumb*='dev'],[breadcrumb*='old'],[breadcrumb*='print'],[breadcrumb*='.ai'],[breadcrumb*='.psd'],[breadcrumb*='.Firma'],[breadcrumb*='.Capacitaciones'],[breadcrumb*='_Firma'],.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],
+/* Sharepoint Sync */
+[id*='mo_sps_upload_file'],[breadcrumb*='A4'],[breadcrumb*='assets'],[breadcrumb*='dev'],[breadcrumb*='old'],[breadcrumb*='print'],[breadcrumb*='.ai'],[breadcrumb*='.psd'],[breadcrumb*='.Firma'],[breadcrumb*='.Capacitaciones'],[breadcrumb*='_Firma'],.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],.mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
 /* Formularios */
@@ -478,7 +478,7 @@ body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;f
 body.fullwidth #content .is-search-input{font-size:1.5em}
 .error404 h2{font-size:1.2em;font-weight:400}
 
-/* Drive */
+/* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:'open-sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
 .fileupload-container+.info-material{padding-top:0}
 .file-container .info-material{margin-top:1em}
