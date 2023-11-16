@@ -485,7 +485,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .info-material i{display:inline-block;margin-right:.4em}
 .info-material a{text-decoration:underline}
 .info-material strong,.info-material strong a{font-weight:700}
-[id*='mo_doc_lib_container__loader']{width:100%!important;height:80px!important;border:none!important;background:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-repeat:no-repeat;background-position:center center}
+[id*='mo_doc_lib_container__loader']{width:100%!important;min-height:80px!important;border:none!important;background:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-repeat:no-repeat;background-position:center center}
 [id*='mo_doc_lib_container__loader']>img{display:none!important}
 .mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:50%}
