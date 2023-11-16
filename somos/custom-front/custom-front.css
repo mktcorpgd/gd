@@ -22,7 +22,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Sharepoint Sync */
-[id*='mo_sps_upload_file'],[breadcrumb*='A4'],[breadcrumb*='assets'],[breadcrumb*='dev'],[breadcrumb*='old'],[breadcrumb*='print'],[breadcrumb*='.ai'],[breadcrumb*='.psd'],[breadcrumb*='.Firma'],[breadcrumb*='.Capacitaciones'],[breadcrumb*='_Firma'],.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],.mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5,[id*='mo_doc_lib_container__loader']>img,
+[id*='mo_sps_upload_file'],[breadcrumb*='A4'],[breadcrumb*='assets'],[breadcrumb*='dev'],[breadcrumb*='old'],[breadcrumb*='print'],[breadcrumb*='.ai'],[breadcrumb*='.psd'],[breadcrumb*='.Firma'],[breadcrumb*='.Capacitaciones'],[breadcrumb*='_Firma'],.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],[id*='mo_doc_lib_container__loader']>img,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
 /* Formularios */
@@ -53,11 +53,10 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 .gp-meta-cats a[href$='/categoria/uns/'],.gp-meta-cats a[href$='/categoria/argentina-2/'],.hidden-front,
 /* Google Maps */
 .pac-icon,.pac-logo:after{display:none!important}
-/* Oculto no forzado */
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
-/* Público */
 body:not(.logged-in) #custom_html-23{display:none}
+.mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* General */
 ::-moz-selection{background:#0E316E!important;color:#FFFFFF}
@@ -639,7 +638,7 @@ body.page-id-44050 #content .padder:before{padding-bottom:1em}
 article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before{content:'Información de uso interno'}
 
 /* Pestañas */
-.ui-widget-content{width:100%;padding:0;top:0;background:none;border:none!important;overflow:visible}
+.ui-widget-content{padding:0;top:0;background:none;border:none!important;overflow:visible}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:#777777;font-weight:400;font-family:'open-sans',sans-serif;font-style:italic}
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:1em;border:1px solid rgba(0,0,0,.1);border-radius:12px;overflow:hidden}
 body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
