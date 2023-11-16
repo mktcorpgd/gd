@@ -511,7 +511,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.png']:before,
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.svg']:before{content:'\f1c5'}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.zip']:before{content:'\e5ee'}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[name="folder"]{content:'\f07b'}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[name*="folder"]{content:'\f07b'}
 .mo_doc_lib_table-row:hover{background-color:#EAEAEA}
 .mo_sps_class_embed_folder{padding:0;border:2px solid #EAEAEA;border-radius:6px;color:#333333}
 .mo_sps_class_embed_folder_image{border:none}
