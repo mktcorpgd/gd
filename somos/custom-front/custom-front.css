@@ -530,9 +530,9 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_file_download,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a{padding:.4em .6em;background:#F0582B;border-radius:6px;text-decoration:none!important;color:#FFFFFF!important}
 .mo_doc_lib_file_download:hover,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:hover{background:#1F4483}
 .mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
-.mo_sps_class_embed_file_image{padding:0;border:none;border-bottom:1px solid #EAEAEA}
+.mo_sps_class_embed_file_image{padding:0;border:none}
 .mo_sps_class_embed_file_image>img{width:100%}
-.mo_sps_class_embed_file_title{padding:.4em}
+.mo_sps_class_embed_file_title{padding:.4em;border-top:1px solid #EAEAEA}
 .mo_sps_class_embed_file__downloadLink{display:block;width:auto;position:absolute;top:10px;right:10px;text-decoration:none;background:#F0582B;border-radius:6px;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
 .mo_sps_class_embed_file__downloadLink:hover{background:#1F4483}
 .mo_sps_class_embed_file__downloadLink:before{content:'\f019';display:block;margin:0;padding:.2em .4em;font-size:.8rem;font-family:'Font Awesome 6 Pro';text-align:center;color:#FFFFFF}
