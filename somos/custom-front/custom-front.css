@@ -543,8 +543,8 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_sps_class_doc__list .mo_sps_class_embed_folder_image img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div:not([data-sharepoint_name*=".jpeg"]):not([data-sharepoint_name*=".jpg"]):not([data-sharepoint_name*=".png"]) img{display:none}
 .mo_sps_class_doc__list .mo_sps_class_embed_folder_image,.mo_sps_class_doc_container .mo_sps_class_doc__list>div:not([data-sharepoint_name*=".jpeg"]):not([data-sharepoint_name*=".jpg"]):not([data-sharepoint_name*=".png"]) .mo_sps_class_embed_file_image{min-height:80px}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[name*="folder"]:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_folder:before{content:'\f07b'!important;color:#F8BB14!important}
-.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*=".zip"]:before{content:'\e5ee'!important;color:#F8BB14}
-.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*=".pdf"]:before{content:'\f1c1'!important;color:#B51308}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*=".zip"]:before{content:'\e5ee'!important;color:#F8BB14!important}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*=".pdf"]:before{content:'\f1c1'!important;color:#B51308!important}
 #mo_sps_doc__list_53 .mo_sps_class_embed_file_image img{padding:.6em}
 
 /* Banderas */
