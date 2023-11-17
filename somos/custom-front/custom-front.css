@@ -417,6 +417,9 @@ input.static_gmap+a:hover{border-color:#F0582B}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
 .widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{margin:.2em 0 .4em 0;max-height:165px;border-top:2px solid #CCCCCC;border-bottom:2px solid #CCCCCC;overflow-x:hidden;overflow-y:auto}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid #CCCCCC}
+.widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
+.widget h3.cta a{color:#F0582B}
+.widget h3.cta a:hover{color:#1F4483}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:'neo-sans',sans-serif;color:#0E316E;font-style:normal}
