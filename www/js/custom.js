@@ -407,6 +407,27 @@ jQuery(document).ready(function() {
 			jQuery('input[name="HREF"]').val(src_input);
 		}
 	}
+	var src = jQuery('input[name*="SRC"]').val();
+	if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').is(':checked') ) {
+		jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+	}
+	else {
+		var src = src.substr(0,src.indexOf('#mc4wp'));
+		console.log(src);
+		jQuery('input[name*="SRC"]').val(src);
+	}
+	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
+		var src = jQuery('input[name*="SRC"]').val();
+		console.log(src);
+		if ( jQuery(this).is(':checked') ) {
+			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+		}
+		else {
+			src = src.substr(0,src.indexOf('#mc4wp'));
+			console.log(src);
+			jQuery('input[name*="SRC"]').val(src);
+		}
+	});
 
 
 	// FORMULARIOS - Salesforce
@@ -478,18 +499,6 @@ jQuery(document).ready(function() {
 		else {
 			jQuery(this).closest('.wpcf7-radio').siblings('.wpcf7-not-valid-tip').hide();
 
-		}
-	});
-	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
-		var src = jQuery('input[name*="SRC"]').val();
-		console.log(src);
-		if ( jQuery(this).is(':checked') ) {
-			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
-		}
-		else {
-			src = src.substr(0,src.indexOf('#mc4wp'));
-			console.log(src);
-			jQuery('input[name*="SRC"]').val(src);
 		}
 	});
 	
