@@ -401,10 +401,18 @@ jQuery(document).ready(function() {
 		jQuery('input[name="TITLE"]').val(document.title);
 	}
 	if ( jQuery('input[name*="SRC"]').length ) {
-		var src_input = window.location.href;
-		jQuery('input[name*="SRC"]').val(src_input);
-		if ( jQuery('input[name="HREF"]').length ) {
-			jQuery('input[name="HREF"]').val(src_input);
+		var src = window.location.href;
+		if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').length ) {
+			if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').is(':checked') ) {
+				jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+			}
+			else {
+				src = src.substring(0,src.indexOf('#mc4wp'));
+				jQuery('input[name*="SRC"]').val(src);
+			}
+			if ( jQuery('input[name="HREF"]').length ) {
+				jQuery('input[name="HREF"]').val(src_input);
+			}
 		}
 	}
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
@@ -414,7 +422,6 @@ jQuery(document).ready(function() {
 		}
 		else {
 			src = src.substring(0,src.indexOf('#mc4wp'));
-			console.log(src);
 			jQuery('input[name*="SRC"]').val(src);
 		}
 	});
