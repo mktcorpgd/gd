@@ -407,6 +407,7 @@ jQuery(document).ready(function() {
 				jQuery('input[name*="SRC"]').val(src+'#mc4wp');
 			}
 			else {
+				console.log(src);
 				src = src.substring(0,src.indexOf('#mc4wp'));
 				jQuery('input[name*="SRC"]').val(src);
 			}
