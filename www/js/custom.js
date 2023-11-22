@@ -406,11 +406,6 @@ jQuery(document).ready(function() {
 			if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').is(':checked') ) {
 				jQuery('input[name*="SRC"]').val(src+'#mc4wp');
 			}
-			else {
-				console.log(src);
-				src = src.substring(0,src.indexOf('#mc4wp'));
-				jQuery('input[name*="SRC"]').val(src);
-			}
 			if ( jQuery('input[name="HREF"]').length ) {
 				jQuery('input[name="HREF"]').val(src_input);
 			}
@@ -418,6 +413,7 @@ jQuery(document).ready(function() {
 	}
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
 		var src = window.location.href;
+		console.log(src);
 		if ( jQuery(this).is(':checked') ) {
 			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
 		}
