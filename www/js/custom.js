@@ -480,6 +480,15 @@ jQuery(document).ready(function() {
 
 		}
 	});
+	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
+		if ( jQuery(this).is(':checked') ) {
+			jQuery(this).closest('input[name="mc4wp_checkbox"]').val(1);
+		}
+		else {
+			jQuery(this).closest('input[name="mc4wp_checkbox"]').val(0);
+
+		}
+	});
 	
 
 	// FORMULARIOS - Comprobar si hay campos opcionales
