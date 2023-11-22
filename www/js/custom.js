@@ -481,11 +481,15 @@ jQuery(document).ready(function() {
 		}
 	});
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
+		var src = jQuery('input[name*="SRC"]').val();
+		console.log(src);
 		if ( jQuery(this).is(':checked') ) {
-			jQuery('#mc4wp_checkbox').prop('checked',true);
+			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
 		}
 		else {
-			jQuery('#mc4wp_checkbox').prop('checked',false);
+			src = src.substr(0,src.indexOf('#mc4wp'));
+			console.log(src);
+			jQuery('input[name*="SRC"]').val(src);
 		}
 	});
 	
