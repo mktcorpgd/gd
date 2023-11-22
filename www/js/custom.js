@@ -482,10 +482,10 @@ jQuery(document).ready(function() {
 	});
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
 		if ( jQuery(this).is(':checked') ) {
-			jQuery('.wpcf7-acceptance input[name="mc4wp_checkbox"]').prop('checked',true);
+			jQuery('#mc4wp_checkbox').prop('checked',true);
 		}
 		else {
-			jQuery('wpcf7-acceptance input[name="mc4wp_checkbox"]').prop('checked',false);
+			jQuery('#mc4wp_checkbox').prop('checked',false);
 		}
 	});
 	
