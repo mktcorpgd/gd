@@ -6,7 +6,8 @@ document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
 
-document.addEventListener('wpcf7sent', function(e) {
+// FORMULARIOS - Ejecutar al enviar con éxito
+document.addEventListener('wpcf7mailsent', function(e) {
 	jQuery('.focused').removeClass('focused');
 	jQuery('.filled').removeClass('filled');
 }, false);
