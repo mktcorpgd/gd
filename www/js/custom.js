@@ -413,12 +413,10 @@ jQuery(document).ready(function() {
 	}
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
 		var src = window.location.href;
-		console.log(src);
 		if ( jQuery(this).is(':checked') ) {
 			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
 		}
 		else {
-			src = src.substring(0,src.indexOf('#mc4wp'));
 			jQuery('input[name*="SRC"]').val(src);
 		}
 	});
