@@ -407,23 +407,13 @@ jQuery(document).ready(function() {
 			jQuery('input[name="HREF"]').val(src_input);
 		}
 	}
-	var src = jQuery('input[name*="SRC"]').val();
-	if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').is(':checked') ) {
-		jQuery('input[name*="SRC"]').val(src+'#mc4wp');
-	}
-	else {
-		var src = src.substr(0,src.indexOf('#mc4wp'));
-		console.log(src);
-		jQuery('input[name*="SRC"]').val(src);
-	}
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
-		var src = jQuery('input[name*="SRC"]').val();
-		console.log(src);
+		var src = window.location.href;
 		if ( jQuery(this).is(':checked') ) {
 			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
 		}
 		else {
-			src = src.substr(0,src.indexOf('#mc4wp'));
+			src = src.substring(0,src.indexOf('#mc4wp'));
 			console.log(src);
 			jQuery('input[name*="SRC"]').val(src);
 		}
