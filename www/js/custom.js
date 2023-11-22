@@ -481,10 +481,13 @@ jQuery(document).ready(function() {
 		}
 	});
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
+		console.log(jQuery(this).is(':checked'));
 		if ( jQuery(this).is(':checked') ) {
+			console.log('true');
 			jQuery(this).closest('input[name="mc4wp_checkbox"]').val(1);
 		}
 		else {
+			console.log('false');
 			jQuery(this).closest('input[name="mc4wp_checkbox"]').val(0);
 
 		}
