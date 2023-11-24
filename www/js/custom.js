@@ -6,6 +6,12 @@ document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
 
+// FORMULARIOS - Ejecutar al enviar con éxito
+document.addEventListener('wpcf7mailsent', function(e) {
+	jQuery('.focused').removeClass('focused');
+	jQuery('.filled').removeClass('filled');
+}, false);
+
 // Menú transparente
 function scrollHeaderTransp() {
 	var scroll = jQuery(window).scrollTop();
@@ -401,12 +407,25 @@ jQuery(document).ready(function() {
 		jQuery('input[name="TITLE"]').val(document.title);
 	}
 	if ( jQuery('input[name*="SRC"]').length ) {
-		var src_input = window.location.href;
-		jQuery('input[name*="SRC"]').val(src_input);
-		if ( jQuery('input[name="HREF"]').length ) {
-			jQuery('input[name="HREF"]').val(src_input);
+		var src = window.location.href;
+		if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').length ) {
+			if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').is(':checked') ) {
+				jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+			}
+			if ( jQuery('input[name="HREF"]').length ) {
+				jQuery('input[name="HREF"]').val(src_input);
+			}
 		}
 	}
+	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
+		var src = window.location.href;
+		if ( jQuery(this).is(':checked') ) {
+			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+		}
+		else {
+			jQuery('input[name*="SRC"]').val(src);
+		}
+	});
 
 
 	// FORMULARIOS - Salesforce
