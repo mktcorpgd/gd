@@ -390,7 +390,7 @@ body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item.fir
 
 /* Google Maps */
 .pac-container{font-family:'open-sans',sans-serif;border-radius:6px;border:none;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);z-index:999999}
-.pac-item{padding:.3em .6em}
+.pac-item{padding:.3em .6em;font-size:1.1em}
 .pac-item-query,.pac-item-query+span{float:left;line-height:1.5}
 .pac-item-query+span{width:100%;overflow:hidden;text-overflow:ellipsis}
 input.static_gmap.filled{border-bottom-left-radius:0;border-bottom-right-radius:0}
