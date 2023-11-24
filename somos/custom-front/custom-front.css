@@ -891,7 +891,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav .menu li a i,.mo_doc_lib_col>img{display:none!important}
 	#wp-admin-bar-custom-node-2{display:block}
 	body,input,textarea,select{font-size:20px}
-	input,textarea,select{line-height:1.6em}
+	input[type='text'], input[type='search'], input[type='url'], input[type='date'], input[type='email'], input[type='tel'], input[type='number'], textarea, select, .wpcf7-list-item-label{font-size:1.2rem!important;line-height:1.6em}
 	.sidebar{font-size:18px}
 	.gp-responsive #page-wrapper{padding:0}
 	#container #content,.padder,.gp-responsive .sidebar{padding:1em 1em 0}
