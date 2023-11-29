@@ -438,7 +438,7 @@ jQuery(document).ready(function() {
 			if ( srv_index == 1 || srv_index == 2 ) {
 				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
 				srv = srv+' ('+srvspeed+')';
-			}		
+			}
 			if ( msg.length > 0 ) {
 				jQuery('input[name=PAINSF]').val(srv+' / '+msg);
 				jQuery('.activefield').removeClass('activefield');
@@ -460,9 +460,6 @@ jQuery(document).ready(function() {
 		jQuery(this).addClass('activefield');
 		fullInfo();
 	});
-	if ( jQuery('input[name="ORIGSF"]').length ) {
-		jQuery('input[name="ORIGSF"]').val('Web');
-	}
 
 
 	// FORMULARIOS - Limpiar espacios iniciales y finales al cambiar/salir de campo (blur)
