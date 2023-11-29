@@ -1,15 +1,18 @@
 jQuery(document).ready(function() {
 
+
 	// MENÚ - Cambio URL en logo
 	if ( jQuery('.type-srv').length ) {
 		var type_srv = jQuery('.type-srv a').attr('href');
 		jQuery('.fusion-logo-link').attr('href',type_srv);
 	}
 	
+
     // Mapa de red
 	if ( jQuery('body').hasClass('page-id-32849') ) {
 		jQuery('#wpcf7-f31529-p32849-o1 .wpcf7-submit').val('Descargar mapa de red');
 	}
+
 
 	// FORMULARIOS - Abrir formulario de contacto
 	if ( window.location.href.indexOf('#') > -1 ) {
@@ -18,4 +21,39 @@ jQuery(document).ready(function() {
 		}
 	}
 
+
+	// FORMULARIOS - Salesforce
+	function fullInfo() {
+		var msg = jQuery('textarea.activefield[name=MSG]').val();
+		// Si es Silica Empresas:
+		if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
+			var srv = jQuery('select[name=SRV] option:selected').val();
+			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
+			if ( srv_index == 1 || srv_index == 2 ) {
+				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
+				srv = srv+' ('+srvspeed+')';
+			}
+			if ( msg.length > 0 ) {
+				jQuery('input[name=PAINSF]').val(srv+' / '+msg);
+				jQuery('.activefield').removeClass('activefield');
+			}
+			else {
+				jQuery('input[name=PAINSF]').val(srv);
+			}
+		}
+		else {
+			jQuery('input[name=PAINSF]').val(msg);
+			jQuery('.activefield').removeClass('activefield');
+		}
+	}
+	jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
+		jQuery(this).addClass('activefield');
+		fullInfo();
+	});
+	jQuery('textarea[name=MSG]').on('input',function() {
+		jQuery(this).addClass('activefield');
+		fullInfo();
+	});	
+
+	
 });
