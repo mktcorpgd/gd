@@ -6,6 +6,12 @@ document.addEventListener('wpcf7submit', function(e) {
 	jQuery('.wpcf7-submit').trigger('blur');
 }, false);
 
+// FORMULARIOS - Ejecutar al enviar con éxito
+document.addEventListener('wpcf7mailsent', function(e) {
+	jQuery('.focused').removeClass('focused');
+	jQuery('.filled').removeClass('filled');
+}, false);
+
 // Menú transparente
 function scrollHeaderTransp() {
 	var scroll = jQuery(window).scrollTop();
@@ -401,49 +407,25 @@ jQuery(document).ready(function() {
 		jQuery('input[name="TITLE"]').val(document.title);
 	}
 	if ( jQuery('input[name*="SRC"]').length ) {
-		var src_input = window.location.href;
-		jQuery('input[name*="SRC"]').val(src_input);
-		if ( jQuery('input[name="HREF"]').length ) {
-			jQuery('input[name="HREF"]').val(src_input);
+		var src = window.location.href;
+		if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').length ) {
+			if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').is(':checked') ) {
+				jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+			}
+			if ( jQuery('input[name="HREF"]').length ) {
+				jQuery('input[name="HREF"]').val(src_input);
+			}
 		}
 	}
-
-
-	// FORMULARIOS - Salesforce
-	function fullInfo() {
-		var msg = jQuery('textarea.activefield[name=MSG]').val();
-		// Si es Silica Empresas:
-		if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
-			var srv = jQuery('select[name=SRV] option:selected').val();
-			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
-			if ( srv_index == 1 || srv_index == 2 ) {
-				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
-				srv = srv+' ('+srvspeed+')';
-			}		
-			if ( msg.length > 0 ) {
-				jQuery('input[name=PAINSF]').val(srv+' / '+msg);
-				jQuery('.activefield').removeClass('activefield');
-			}
-			else {
-				jQuery('input[name=PAINSF]').val(srv);
-			}
+	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
+		var src = window.location.href;
+		if ( jQuery(this).is(':checked') ) {
+			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
 		}
 		else {
-			jQuery('input[name=PAINSF]').val(msg);
-			jQuery('.activefield').removeClass('activefield');
+			jQuery('input[name*="SRC"]').val(src);
 		}
-	}
-	jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
-		jQuery(this).addClass('activefield');
-		fullInfo();
 	});
-	jQuery('textarea[name=MSG]').on('input',function() {
-		jQuery(this).addClass('activefield');
-		fullInfo();
-	});
-	if ( jQuery('input[name="ORIGSF"]').length ) {
-		jQuery('input[name="ORIGSF"]').val('Web');
-	}
 
 
 	// FORMULARIOS - Limpiar espacios iniciales y finales al cambiar/salir de campo (blur)
