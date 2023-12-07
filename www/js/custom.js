@@ -77,7 +77,6 @@ jQuery(document).ready(function() {
 	});
 
 
-
 	// CONTENIDOS - Eliminar atributos title de las imágenes
 	jQuery('#content a[title]').each(function(i){jQuery(this).removeAttr('title');});
 	jQuery('#content img[title]').each(function(i){jQuery(this).removeAttr('title');});
@@ -376,6 +375,7 @@ jQuery(document).ready(function() {
 		jQuery(this).capitalize();
 	});
 
+
 	// FORMULARIOS - Eliminar placeholder
 	jQuery('.address_maps,.pac_input').removeAttr('placeholder');
 
@@ -572,6 +572,7 @@ jQuery(document).ready(function() {
 		});
 	}
 
+	
 	// PRECIOS - Asignar opción del botón a select
 	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button,.fusion-button[data-toggle="modal"]',function(e) {
 		if ( jQuery('select[name="SRV"]').length ) {

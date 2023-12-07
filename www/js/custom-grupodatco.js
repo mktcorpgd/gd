@@ -20,6 +20,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('.fusion-fullwidth.country-flag').length ) {
 		var flag = window.location.pathname;
 		flag = flag.substring(1,flag.length-1);
+		if ( flag == 'cl' ) {
+			jQuery('.fusion-social-network-icon[href*="linkedin.com"]').attr('href','/company/grupodatcocl');
+		}
 		switch(flag) {
 			case 'ar':
 				var ctry_name = 'Argentina';
