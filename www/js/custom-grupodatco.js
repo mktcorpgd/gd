@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
 		var flag = window.location.pathname;
 		flag = flag.substring(1,flag.length-1);
 		if ( flag == 'cl' ) {
-			jQuery('.fusion-social-network-icon[href*="linkedin.com"]').attr('href','/company/grupodatcocl');
+			jQuery('.fusion-social-network-icon[href*="linkedin.com"]').attr('href','https://linkedin.com/company/grupodatcocl');
 		}
 		switch(flag) {
 			case 'ar':
