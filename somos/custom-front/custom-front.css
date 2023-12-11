@@ -536,17 +536,17 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div:not([data-sharepoint_name*='.jpeg']):not([data-sharepoint_name*='.jpg']):not([data-sharepoint_name*='.png']):before{margin-top:-.5em;padding:0;content:'\f15b';color:#666666;font-size:2.6em;font-weight:900;font-family:'Font Awesome 6 Pro';display:grid;width:100%;height:80px;position:absolute;top:20px;align-items:center;text-align:center}
 .mo_sps_class_doc__list .mo_sps_class_embed_folder_image img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div:not([data-sharepoint_name*='.jpeg']):not([data-sharepoint_name*='.jpg']):not([data-sharepoint_name*='.png']) img{display:none}
 .mo_sps_class_doc__list .mo_sps_class_embed_folder_image,.mo_sps_class_doc_container .mo_sps_class_doc__list>div:not([data-sharepoint_name*='.jpeg']):not([data-sharepoint_name*='.jpg']):not([data-sharepoint_name*='.png']) .mo_sps_class_embed_file_image{min-height:80px}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[name*='folder']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_folder:before{content:'\f07b';color:#F8BB14!important}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{content:'\f1c4';color:#D24726}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{content:'\f1c2';color:#2B579A}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{content:'\f1c3';color:#217346}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pdf']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.pdf']:before{content:'\f1c1';color:#B51308;}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.zip']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.zip']:before{content:'\e5ee'}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[name*='folder']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_folder:before{content:'\f07b'!important;color:#F8BB14!important}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{content:'\f1c4'!important;color:#D24726}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{content:'\f1c2'!important;color:#2B579A}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{content:'\f1c3'!important;color:#217346}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pdf']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.pdf']:before{content:'\f1c1'!important;color:#B51308;}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.zip']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.zip']:before{content:'\e5ee'!important}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.jpg']:before,
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.jpeg']:before,
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.png']:before{content:'\f1c5'}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.svg']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.svg']:before{content:'\e64b'}
-.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.ai']:before{content:'\e64c'}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.png']:before{content:'\f1c5'!important}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.svg']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.svg']:before{content:'\e64b'!important}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.ai']:before{content:'\e64c'!important}
 
 #mo_sps_doc__list_53 .mo_sps_class_embed_file_image img{padding:.6em}
 
