@@ -551,7 +551,6 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 
 .mo_sps_class_embed_file[data-sharepoint_name*='-blanco'][data-sharepoint_name*='.png'] img{background:#999999}
 .mo_sps_class_embed_file[data-sharepoint_name*='ima']{display:none!important}
-.mo_sps_class_embed_file:after{padding:.4em;font-size:.9em}
 .mo_sps_class_embed_file[data-sharepoint_name*='ima_h'][data-sharepoint_name*='color']:after{content:'Horizontal | Color'}
 .mo_sps_class_embed_file[data-sharepoint_name*='ima_v'][data-sharepoint_name*='color']:after{content:'Vertical | Color'}
 .mo_sps_class_embed_file[data-sharepoint_name*='ima_h'][data-sharepoint_name*='blanco']:after{content:'Horizontal | Blanco'}
