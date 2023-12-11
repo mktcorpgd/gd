@@ -18,7 +18,7 @@ article.category-recursos .fusion-single-line-meta,body:not(.search) article.cat
 article.category-blog+.related-posts .fusion-carousel-meta,article.category-casos+.related-posts .fusion-carousel-meta,article.category-datasheets+.related-posts .fusion-carousel-meta,article.category-whitepapers+.related-posts .fusion-carousel-meta,
 article.category-tips .fusion-post-content-wrapper,
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,
-.fusion-portfolio-meta a[href*='solo-contacto'],.fusion-portfolio-content .fusion-portfolio-meta a:not([href*='flag-']),
+.fusion-portfolio-meta a[href*='solo-contacto'],.fusion-portfolio-content .fusion-portfolio-meta a:not([href*='flag-']),.fusion-portfolio-content .fusion-portfolio-meta a:not([href*='logo-']),
 .fusion-portfolio.solo-contacto .fusion-buttons .fusion-button:first-child,article[class*='solo-contacto'] .fusion-buttons .fusion-button:first-child,.no-info-btn .fusion-buttons .fusion-button:first-child,.no-contact-btn .fusion-buttons .fusion-button+.fusion-button,
 .fusion-sharing-box h4,.fusion-theme-sharing-box .fusion-social-networks,
 .fusion-megamenu-bullet,
@@ -279,6 +279,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pe'],.project-terms a[href*='/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
+.no-featured-image .fusion-portfolio-content .fusion-portfolio-meta a[href*='/logo-']{width:100%;height:32px}
 .project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 .fusion-project-details-tb .project-description, .project-content .project-description{width:82%}
 .fusion-project-details-tb .project-info, .project-content .project-info{width:18%}
