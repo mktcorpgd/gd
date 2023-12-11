@@ -282,7 +282,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 .fusion-project-details-tb .project-description, .project-content .project-description{width:82%}
 .fusion-project-details-tb .project-info, .project-content .project-info{width:18%}
-.project-info{border:2px solid var(--lightgrayColor);background:var(--whiteAltColor);border-radius:12px;padding:.5em}
+.project-info{border:10px solid var(--whiteColor);border-radius:12px;padding:.5em}
 .project-info-box{margin-bottom:0!important;border-bottom:none!important}
 .project-info-box+.project-info-box{padding-bottom:0!important}
 .project-content > div.project-info > div:nth-child(3) .project-terms{font-family:'Neo-Sans',sans-serif;font-size:1.2em;font-weight:500;pointer-events:none}
