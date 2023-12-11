@@ -546,7 +546,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.png']:before{content:'\f1c5'!important}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.svg']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.svg']:before{content:'\e64b'!important}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.ai']:before{content:'\e64c'!important}
-#mo_sps_doc__list_53 .mo_sps_class_embed_file_image img{padding:.6em}
+body.page-id-11181 .mo_sps_class_embed_file_image img{padding:.6em}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='-blanco'][data-sharepoint_name*='.png'] img{background:#999999}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima'] .mo_sps_class_embed_file_title,body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='color'] .mo_sps_class_embed_file_title,body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='blanco'] .mo_sps_class_embed_file_title,body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='negro'] .mo_sps_class_embed_file_title,body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='iso'] .mo_sps_class_embed_file_title{display:none!important}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='color']:after{content:'Color'}
