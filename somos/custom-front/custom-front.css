@@ -536,7 +536,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:'neo-sans','Font Awesome 6 Pro'}
 .mo_sps_class_embed_file_image{padding:0;border:none}
 .mo_sps_class_embed_file_image img{width:100%}
-.mo_sps_class_embed_file_title,.mo_sps_class_embed_folder_title,.mo_sps_class_embed_file:after{padding:.4em;font-size:.8rem;border-top:1px solid #EAEAEA}
+.mo_sps_class_embed_file_title,.mo_sps_class_embed_folder_title,.mo_sps_class_embed_file:after{display:block;padding:.4em;font-size:.8rem;border-top:1px solid #EAEAEA}
 .mo_sps_class_embed_file:hover .mo_sps_class_embed_file_title,.mo_sps_class_embed_file:hover .mo_sps_class_embed_folder_title{border-top:1px solid #F0582B}
 .mo_sps_class_embed_file__downloadLink{display:block;width:auto;position:absolute;top:10px;right:10px;text-decoration:none;background:#F0582B;border-radius:6px;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
 .mo_sps_class_embed_file__downloadLink:hover{background:#1F4483}
@@ -549,8 +549,9 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.pdf']:before{content:'\f1c1'!important;color:#B51308!important}
 #mo_sps_doc__list_53 .mo_sps_class_embed_file_image img{padding:.6em}
 
-body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='-blanco'][data-sharepoint_name*='.png'] img{background:#999999}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima'] .mo_sps_class_embed_file_title,body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='iso'] .mo_sps_class_embed_file_title{display:none!important}
+body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='-blanco'][data-sharepoint_name*='.png'] img{background:#999999}
+body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='gd'] .mo_sps_class_embed_file_image:before{content:'Grupo Datco'}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima_h'][data-sharepoint_name*='color']:after{content:'Horizontal | Color'}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima_v'][data-sharepoint_name*='color']:after{content:'Vertical | Color'}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima_h'][data-sharepoint_name*='blanco']:after{content:'Horizontal | Blanco'}
