@@ -518,7 +518,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 .mo_sps_class_doc_container .mo_sps_class_doc__list{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em;align-items:start}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div{width:100%;margin:0!important;padding:0!important;position:relative;border:2px solid #EAEAEA;border-radius:6px;color:#333333;overflow:hidden}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div:hover{background:#1F4483;border:2px solid #1F4483;color:#FFFFFF}
-.mo_sps_class_doc_container .mo_sps_class_doc__list>div:hover :before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div:hover :after,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='png']:hover:before{background:#1F4483}
+.mo_sps_class_doc_container .mo_sps_class_doc__list>div:hover :before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div:hover :after,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='png']:before:hover{background:#1F4483}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe{max-height:200px}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div,.mo_sps_class_embed_folder_title{width:100%;padding:.6em;font-size:.8rem}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div{display:flex}
