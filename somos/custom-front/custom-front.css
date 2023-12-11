@@ -550,7 +550,7 @@ body.fullwidth #content .is-search-input{font-size:1.5em}
 #mo_sps_doc__list_53 .mo_sps_class_embed_file_image img{padding:.6em}
 
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='-blanco'][data-sharepoint_name*='.png'] img{background:#999999}
-body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima']{display:none!important}
+body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima'] .mo_sps_class_embed_file_title,body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='iso'] .mo_sps_class_embed_file_title{display:none!important}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima_h'][data-sharepoint_name*='color']:after{content:'Horizontal | Color'}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima_v'][data-sharepoint_name*='color']:after{content:'Vertical | Color'}
 body.page-id-11181 .mo_sps_class_embed_file[data-sharepoint_name*='ima_h'][data-sharepoint_name*='blanco']:after{content:'Horizontal | Blanco'}
