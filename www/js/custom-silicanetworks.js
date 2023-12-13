@@ -43,17 +43,19 @@ jQuery(document).ready(function() {
 		}
 		else {
 			jQuery('input[name=PAINSF]').val(msg);
-			jQuery('.activefield').removeClass('activefield');
 		}
 	}
-	jQuery('select[name=SRV],select[name=SRVSPEED').change(function() {
+	jQuery('select[name=SRV],select[name=SRVSPEED]').change(function() {
 		jQuery(this).addClass('activefield');
 		fullInfo();
 	});
 	jQuery('textarea[name=MSG]').on('input',function() {
 		jQuery(this).addClass('activefield');
 		fullInfo();
-	});	
+	});
+	jQuery('textarea[name=MSG],select[name=SRV],select[name=SRVSPEED]').on('blur',function() {
+		jQuery(this).removeClass('activefield');
+	});
 
 	
 });
