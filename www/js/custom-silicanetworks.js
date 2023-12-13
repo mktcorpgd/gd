@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Salesforce
 	function fullInfo() {
-		var msg = jQuery('textarea[name=MSG]').val();
+		var msg = jQuery('textarea.activefield[name=MSG]').val();
 		// Si es Silica Empresas:
 		if ( jQuery('body').hasClass('page-id-36729') || jQuery('body').hasClass('parent-pageid-36729') ) {
 			var srv = jQuery('select[name=SRV] option:selected').val();
