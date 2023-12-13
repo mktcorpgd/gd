@@ -35,7 +35,6 @@ jQuery(document).ready(function() {
 			}
 			if ( msg.length > 0 ) {
 				jQuery('input[name=PAINSF]').val(srv+' / '+msg);
-				jQuery('.activefield').removeClass('activefield');
 			}
 			else {
 				jQuery('input[name=PAINSF]').val(srv);
