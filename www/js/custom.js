@@ -406,11 +406,11 @@ jQuery(document).ready(function() {
 	if ( jQuery('input[name="TITLE"]').length ) {
 		jQuery('input[name="TITLE"]').val(document.title);
 	}
-	if ( jQuery('input[name*="SRC"]').length ) {
+	if ( jQuery('input[name*="URL"]').length ) {
 		var src = window.location.href;
 		if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').length ) {
 			if ( jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').is(':checked') ) {
-				jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+				jQuery('input[name*="URL"]').val(src+'#mc4wp');
 			}
 			if ( jQuery('input[name="HREF"]').length ) {
 				jQuery('input[name="HREF"]').val(src_input);
@@ -420,10 +420,10 @@ jQuery(document).ready(function() {
 	jQuery('input[name="_mc4wp_subscribe_contact-form-7"]').change(function() {
 		var src = window.location.href;
 		if ( jQuery(this).is(':checked') ) {
-			jQuery('input[name*="SRC"]').val(src+'#mc4wp');
+			jQuery('input[name*="URL"]').val(src+'#mc4wp');
 		}
 		else {
-			jQuery('input[name*="SRC"]').val(src);
+			jQuery('input[name*="URL"]').val(src);
 		}
 	});
 
