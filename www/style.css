@@ -336,7 +336,7 @@ body.archive.category-noticias .meta-tags{font-size:0}
 
 /* Blog/Portfolio */
 .fusion-portfolio article .fusion-post-content,.fusion-blog-layout-grid article .fusion-post-content-container{width:100%;padding:0 1.5rem}
-.fusion-blog-layout-grid article .fusion-post-content-container{padding-bottom:1rem}
+body:not(.archive) .fusion-blog-layout-grid article .fusion-post-content-container{padding-bottom:1rem}
 .fusion-portfolio article .fusion-post-content .fusion-fullwidth,.fusion-blog-layout-grid article .fusion-post-content-container .fusion-fullwidth{padding:0;opacity:1}
 .fusion-portfolio article .fusion-post-content .fusion-flex-column,.fusion-blog-layout-grid article .fusion-post-content-container .fusion-flex-column{margin:0}
 .fusion-portfolio article .fusion-post-content .wp-video,.fusion-blog-layout-grid article .fusion-post-content-container .wp-video{margin:.5em 0 0}
