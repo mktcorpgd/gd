@@ -309,6 +309,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .box-shadow.fusion-content-boxes .content-box-wrapper{padding:12px 6px}
 .box-shadow.fusion-content-boxes .content-box-wrapper .heading{margin-bottom:0}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper,.fusion-events-post .fusion-column-wrapper{position:relative;border-radius:12px 12px 9px 9px;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border:none!important}
+.fusion-portfolio-post .fusion-portfolio-content-wrapper{overflow:visible}
 .fusion-portfolio-content,.fusion-post-content-wrapper,.fusion-events-post .fusion-column-wrapper{background:var(--whiteColor)!important}
 .fusion-portfolio-content,.fusion-post-content-wrapper{border-radius:9px;border-radius:9px}
 .image-wrapper+.fusion-portfolio-content,.fusion-post-slideshow+.fusion-post-content-wrapper{border-bottom-left-radius:9px;border-bottom-right-radius:9px}
@@ -892,7 +893,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-image-element:not([class*='fusion-image-align-']){margin-left:0}
 	.partners-logos .fusion-column-wrapper,#partners_footer .fusion-row{display:grid;grid-template-columns:1fr 1fr;grid-gap:.5em 2em;text-align:center}
 	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
-	body.post-template-default.single .post-content .fusion-fullwidth,body.avada_portfolio-template-default.single-avada_portfolio .fusion-fullwidth{padding-left:0;padding-right:0}
+	body.post-template-default.single .post-content .fusion-fullwidth{padding-left:0;padding-right:0}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{padding-bottom:0}
 	.fusion-page-title-bar .fusion-page-title-row h1{font-size:1.6em!important}
 	body:not(.single-avada_portfolio) .fusion-page-title-bar-left .fusion-page-title-secondary{margin-top:1em}
