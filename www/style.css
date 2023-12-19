@@ -630,7 +630,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .meta-tags{pointer-events:none}
 .meta-tags a{cursor:text}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:var(--lightgrayColor)}
-article.post .fusion-post-slideshow+.fusion-post-wrapper .fusion-single-line-meta,article.fusion-portfolio-post .fusion-image-wrapper+.fusion-portfolio-content .fusion-portfolio-meta{margin-top:-8px!important;padding:0 1.5rem .8rem;line-height:1.2}
+article.post .fusion-post-slideshow+.fusion-post-content-wrapper .fusion-single-line-meta,article.fusion-portfolio-post .fusion-image-wrapper+.fusion-portfolio-content .fusion-portfolio-meta{margin-top:-8px!important;padding:0 1.5rem .8rem;line-height:1.2}
 .post .fusion-meta-info{margin:.5em 0;padding:0;border:none;background:none}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{color:var(--metaColor)}
 .awb-breadcrumb-list{font-size:0}
