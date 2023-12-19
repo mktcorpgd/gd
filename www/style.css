@@ -287,7 +287,6 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .project-content > div.project-info > div:nth-child(3) .project-terms a{color:var(--mainColor)}
 
 /* Hover Boxes */
-.hover-boxes .fusion-layout-column{margin-top:-5em}
 .hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;position:relative;box-shadow:0 0 24px rgba(0,0,0,.2);border-radius:12px}
 .hover-boxes .fusion-layout-column .fusion-title{padding-right:30px;font-size:1.525em}
 .hover-boxes .fusion-layout-column .fusion-title *{margin:-.25em 0 0!important}
@@ -801,7 +800,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Blog/Portfolio */
 	.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.hover-boxes .fusion-layout-column:hover,.box-shadow.fusion-content-boxes .content-box-wrapper:hover{transform:scale(1.025)}
-	
+	.hover-boxes .fusion-layout-column{margin-top:-5em}
+
 	/* Posts relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
 	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px 0 rgba(0,0,0,.6)}
@@ -848,7 +848,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-fullwidth:not(.fusion-builder-row-1) .fusion-title{margin-top:1em!important}
 	.tfs-slider .fusion-title h2,.header-transparent .fusion-title.fusion-title-1.fusion-title-size-one{font-size:2rem!important}
 	.header-transparent .fusion-title.fusion-title-size-four h4{font-size:1.4rem!important}
-	.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary){margin-top:0!important}
+	.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary),.tfs-slider .slide-content-container .tfs-button-1, .tfs-slider .slide-content-container .tfs-button-2{margin-top:0!important}
 
 	/* Menú */
 	.awb-icon-bars:before{content:'\f0c9'}
