@@ -18,7 +18,7 @@ article.category-recursos .fusion-single-line-meta,body:not(.search) article.cat
 article.category-blog+.related-posts .fusion-carousel-meta,article.category-casos+.related-posts .fusion-carousel-meta,article.category-datasheets+.related-posts .fusion-carousel-meta,article.category-whitepapers+.related-posts .fusion-carousel-meta,
 article.category-tips .fusion-post-content-wrapper,
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,
-.fusion-portfolio-meta a[href*='solo-contacto'],.fusion-portfolio-content .fusion-portfolio-meta a:not([href*='flag-']),
+.fusion-portfolio-meta a[href*='solo-contacto'],.fusion-portfolio-content .fusion-portfolio-meta a[href*='aceleracion-digital'],
 .fusion-portfolio.solo-contacto .fusion-buttons .fusion-button:first-child,article[class*='solo-contacto'] .fusion-buttons .fusion-button:first-child,.no-info-btn .fusion-buttons .fusion-button:first-child,.no-contact-btn .fusion-buttons .fusion-button+.fusion-button,
 .fusion-sharing-box h4,.fusion-theme-sharing-box .fusion-social-networks,
 .fusion-megamenu-bullet,
@@ -265,8 +265,20 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 1.5rem;position:absolute;top:-1px;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
-.fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{display:inline-block;width:16px;height:16px;box-shadow:0 0 0 1px var(--lightgrayColor);color:transparent!important;border-radius:32px;overflow:hidden;pointer-events:none}
+.fusion-portfolio-content .fusion-portfolio-meta a{    margin-right: .7em;
+    font-size: .7rem;
+    background: var(--whiteColor);
+    padding: .1em .4em;
+    border-radius: 6px;
+    border-top: 1px solid var(--lightgrayColor);
+    position: relative;
+    top: 3px;
+    color: var(--metaColor);
+}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{float:left;display:inline-block;width:16px;height:16px;color:transparent!important;border-radius:32px;overflow:hidden;pointer-events:none;position: relative;
+    top: -1px;
+    background-size: 100%!important;
+}
 .project-terms{width:100%;text-align:center}
 .project-terms a[href*='/flag-']{margin:.25em .3em 0}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:2px}
