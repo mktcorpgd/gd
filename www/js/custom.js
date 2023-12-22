@@ -371,8 +371,8 @@ jQuery(document).ready(function() {
 
 	// Configurar el evento keypress para el campo de entrada
 	jQuery('input[name*="PHONE"]').on('keydown',function(e) {
-		var charCode = e.which;
-		if (charCode < 48 || charCode > 57) {
+		var char = String.fromCharCode(e.which);
+		if (!/[\d#*]/.test(char)) {
 			e.preventDefault();
 		}
 	});
