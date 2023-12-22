@@ -372,13 +372,17 @@ jQuery(document).ready(function() {
 	// Configurar el evento keypress para el campo de entrada
 	jQuery('input[name*="PHONE"]').on('keydown',function(e) {
 		var char = String.fromCharCode(e.which);
-		if (!/[\d#*\b]/.test(char) && !isArrowKey(event)) {
+		if (!/[\d#*\b]/.test(char) && !isArrowKey(e) && !isNumericPadKey(e)) {
 			e.preventDefault();
 		}
-		function isArrowKey(event) {
-			return event.key.startsWith('Arrow');
+		function isArrowKey(e) {
+			return e.key.startsWith('Arrow');
 		}
-	});
+		function isNumericPadKey(e) {
+			var numericPadKeys = ['0','1','2','3','4','5','6','7','8','9'];
+			return numericPadKeys.includes(e.key);
+		}
+});
 	
 
 	// FORMULARIOS - Convertir a letras capitales
