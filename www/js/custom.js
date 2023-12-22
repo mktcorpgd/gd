@@ -369,6 +369,15 @@ jQuery(document).ready(function() {
 	});
 
 
+	// Configurar el evento keypress para el campo de entrada
+	jQuery('input[name*="PHONE"]').on('keydown',function(e) {
+		var charCode = e.which;
+		if (charCode < 48 || charCode > 57) {
+			e.preventDefault();
+		}
+	});
+	
+
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
 	jQuery('input[name*="FNAME"],input[name*="LNAME"],input[name*="ROLE"]').on('input',function (e) {
