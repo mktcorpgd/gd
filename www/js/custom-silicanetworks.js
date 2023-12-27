@@ -30,10 +30,10 @@ jQuery(document).ready(function() {
 			if ( srv_index == 1 || srv_index == 2 ) {
 				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
 				srv = srv+' ('+srvspeed+')';
-				console.log(srv);
-				jQuery('input[name=MSG]').val(srv);
 			}
-		}
+			console.log(srv);
+			jQuery('textarea[name=MSG]').val(srv);
+	}
 	}
 	jQuery('select[name=SRV],select[name=SRVSPEED]').change(function() {
 		jQuery(this).addClass('activefield');
