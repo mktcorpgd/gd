@@ -363,7 +363,7 @@ jQuery(document).ready(function() {
 				return true;
 			}
 			e.preventDefault();
-		} else if ((keyCode >= 48 && keyCode <= 57) || keyCode === 9) {
+		} else if ((keyCode >= 48 && keyCode <= 57)) {
 			e.preventDefault();
 		}
 	});
