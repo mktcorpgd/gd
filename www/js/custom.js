@@ -354,7 +354,7 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Sólo letras y caracteres especiales para campos de nombres
 	jQuery('input[name*="NAME"]').on('keydown',function(e) {
 		var keyCode = e.which;
-		if ((keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (keyCode >= 32 && keyCode <= 47) || (keyCode >= 58 && keyCode <= 64) || (keyCode >= 91 && keyCode <= 96) || (keyCode >= 123 && keyCode <= 126) || keyCode === 32) {
+		if ((keyCode >= 65 && keyCode <= 90) || (keyCode >= 97 && keyCode <= 122) || (keyCode >= 32 && keyCode <= 47) || (keyCode >= 58 && keyCode <= 64) || (keyCode >= 91 && keyCode <= 96) || (keyCode >= 123 && keyCode <= 126) || keyCode === 32 || keyCode === 9 ) {
 			var inputChar = String.fromCharCode(keyCode);
 			if (/^[a-zA-ZáéíóúÁÉÍÓÚüÜñÑ\s]+$/.test(inputChar)) {
 				return true;
