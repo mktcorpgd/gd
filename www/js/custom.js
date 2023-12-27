@@ -371,8 +371,8 @@ jQuery(document).ready(function() {
 
 	// Configurar el evento keypress para el campo de entrada
 	jQuery('input[name*="PHONE"]').on('keydown',function(e) {
-		var char = String.fromCharCode(e.which);
-		if (!/[\d#*\b]/.test(char) && !isArrowKey(e) && !isNumericPadKey(e)) {
+		var keyCode = String.fromCharCode(e.which);
+		if (!/[\d#*\b]/.test(keyCode) && !isArrowKey(e) && !isNumericPadKey(e) && keyCode !== 9 ) {
 			e.preventDefault();
 		}
 		function isArrowKey(e) {
