@@ -31,8 +31,8 @@ jQuery(document).ready(function() {
 				var srvspeed = jQuery('select[name=SRVSPEED] option:selected').val();
 				srv = srv+' ('+srvspeed+')';
 			}
-			console.log(srv);
 			jQuery('textarea[name=MSG]').val(srv);
+			jQuery('textarea[name=MSG]').closest('.fusion-layout-column').addClass('focused');
 	}
 	}
 	jQuery('select[name=SRV],select[name=SRVSPEED]').change(function() {
