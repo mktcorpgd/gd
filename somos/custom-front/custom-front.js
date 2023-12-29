@@ -201,7 +201,7 @@ jQuery(document).ready(function() {
 			tError: 'La solicitud falló.'
 		}
 	});
-	jQuery('.wp-block-image:not(.custom-link):not(.no-lightbox)').magnificPopup({
+	jQuery('body:not(.page-id-31537) .wp-block-image:not(.custom-link):not(.no-lightbox)').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		mainClass: 'mfp-img-mobile',
