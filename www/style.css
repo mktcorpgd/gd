@@ -37,7 +37,7 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
 .pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-notices+.tribe_events .wpcf7,
 #wp-admin-bar-ate-status-bar,#wp-admin-bar-WPML_ALS .otgs-ico-help.js-otgs-popover-tooltip,#wp-admin-bar-customize,#wp-admin-bar-duplicate-post{display:none!important}
-.wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,#legales .panel-body span,.fusion-portfolio .more-info{display:none}
+.wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,#legales .panel-body span,.fusion-portfolio .more-info,.wy-hide,.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 
 /* General */
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--awb-padding-left:0;--awb-padding-right:0;}
@@ -228,7 +228,8 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .project-content .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
 body.has-sidebar #main .sidebar h3{margin-top:0}
 .absolute .fusion-builder-row.fusion-row{position:initial}
-
+.wy-tooltip{color:#FFFFFF;background:var(--textColor);position:absolute;padding:.6em .8em;text-align:left;border-radius:6px;font-size:.65em;line-height:1.2;z-index:99999999}
+  
 /* Búsqueda */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
 body.search #content{width:100%}
@@ -279,7 +280,6 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pe'],.project-terms a[href*='/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
-.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 .fusion-project-details-tb .project-description, .project-content .project-description{width:82%}
 .fusion-project-details-tb .project-info, .project-content .project-info{width:18%}
 .project-info{border:10px solid var(--whiteColor);border-radius:12px;padding:.5em}
