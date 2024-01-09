@@ -366,6 +366,9 @@ jQuery(document).ready(function() {
 		else if ( window.location.href.indexOf('#contacto-empresas') > -1 ) {
 			jQuery('#open-contacto-empresas').trigger('click');
 		}
+		else if ( window.location.href.indexOf('#soporte') > -1 ) {
+			jQuery('#open-soporte').trigger('click');
+		}
 	}
 
 
