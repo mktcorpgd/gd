@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 		jQuery('input[name=PHONEPAXA]').val(jQuery('input[name=gdPHONE_mc]').val());
 		jQuery('input[name=DNIPAX]').val(jQuery('input[name=gdDNI_mc]').val());
 		jQuery('input[name=NACPAX]').val(jQuery('input[name=gdBIRTH_mc]').val());
-		}
+	}
 	samedataPaxChecked();
 	jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
 		if ( this.checked ) {
