@@ -551,7 +551,7 @@ jQuery(document).ready(function() {
 			return false;
 		}
 	});
-	jQuery('.wpcf7-form').submit(function(e) {
+	jQuery('form').submit(function(e) {
 		var confirm = confirm('¿Confirmas el envío de la solicitud?');
 		if (confirm) {
 			return true;
