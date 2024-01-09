@@ -542,6 +542,28 @@ jQuery(document).ready(function() {
 		var usrurl = jQuery('input[name=USRURL]').val().replace(' ','-');
 		jQuery('input[name=USRURL]').val(usrurl);
 	}
+
+
+	// FORMULARIOS - Evitar el envío de formulario con tecla enter y confirmar antes de enviar
+	jQuery(document).ready(function() {
+		jQuery(window).keydown(function(event) {
+			if (event.keyCode == 13) {
+				event.preventDefault();
+				return false;
+			}
+		});
+		jQuery('.wpcf7-form').submit(function(e) {
+			var confirm = confirm('¿Confirmas el envío de la solicitud?');
+			if (confirm) {
+				return true;
+			}
+			else {
+				e.preventDefault();
+				return false;
+			}
+		});
+	});
+	 
 	
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
