@@ -551,16 +551,6 @@ jQuery(document).ready(function() {
 			return false;
 		}
 	});
-	jQuery('form').submit(function(e) {
-		var confirm = confirm('¿Confirmas el envío de la solicitud?');
-		if (confirm) {
-			return true;
-		}
-		else {
-			e.preventDefault();
-			return false;
-		}
-	});	 
 	
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
