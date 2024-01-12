@@ -542,15 +542,6 @@ jQuery(document).ready(function() {
 		var usrurl = jQuery('input[name=USRURL]').val().replace(' ','-');
 		jQuery('input[name=USRURL]').val(usrurl);
 	}
-
-
-	// FORMULARIOS - Evitar el envío de formulario con tecla enter y confirmar antes de enviar
-	jQuery(window).keydown(function(event) {
-		if (event.keyCode == 13) {
-			event.preventDefault();
-			return false;
-		}
-	});
 	
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
