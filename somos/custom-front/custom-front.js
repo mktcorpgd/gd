@@ -32,6 +32,20 @@ document.addEventListener('wpcf7mailsent', function(event) {
 	}
 }, false);
 
+// FORMULARIOS - Evitar que se envíe presionando tecla Enter
+document.addEventListener('DOMContentLoaded', function() {
+	var form = document.querySelector('.wpcf7-form');
+	if (form) {
+		form.addEventListener('keypress', function(e) {
+			var key = e.which || e.keyCode;
+			if (key === 13) {
+				e.preventDefault();
+				return false;
+			}
+		});
+	}
+});
+
 
 jQuery(document).ready(function() {
 
