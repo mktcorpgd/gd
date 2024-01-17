@@ -115,7 +115,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button-wrapper+.fusion-button-wrapper .fusion-button:not(.primary):hover,.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary):hover{background:rgba(255,255,255,.2)!important;opacity:1}
 .fusion-button.only-icon{background:transparent;box-shadow:none!important}
 .fusion-button.only-icon i{margin:0!important}
-.fusion-page-title-bar .fusion-breadcrumbs a{color:var(--grayColor)}
+.fusion-page-title-bar .fusion-breadcrumbs a,.fusion-page-title-bar .fusion-breadcrumbs a:hover{color:var(--grayColor)}
 
 /* Mobile */
 @media (max-width: 920px) {

@@ -206,6 +206,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important;font-size:2.2em!important;line-height:1.1!important}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-item+.fusion-breadcrumb-item{margin-left:10px;padding-left:10px;margin-left:1px solid var(--lightgrayColor)}
+.fusion-page-title-bar .fusion-breadcrumbs a:hover{text-decoration:underline}
 
 /* Contenidos */
 #content a[src*='.jpg'],#content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
