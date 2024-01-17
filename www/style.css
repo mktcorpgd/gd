@@ -36,7 +36,8 @@ body.single-avada_portfolio #partners_footer,body.category-tips #partners_footer
 .modal .not-modal,
 .modal.contate-nos .fusion-title-size-one,.modal.contate-nos .fusion-title-size-one+.fusion-title,
 .pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-notices+.tribe_events .wpcf7,
-#wp-admin-bar-ate-status-bar,#wp-admin-bar-WPML_ALS .otgs-ico-help.js-otgs-popover-tooltip,#wp-admin-bar-customize,#wp-admin-bar-duplicate-post{display:none!important}
+#wp-admin-bar-ate-status-bar,#wp-admin-bar-WPML_ALS .otgs-ico-help.js-otgs-popover-tooltip,#wp-admin-bar-customize,#wp-admin-bar-duplicate-post,
+body.avada-has-titlebar-hide .fusion-project-details-tb .project-info,body.avada-has-titlebar-hide .project-content .project-info{display:none!important}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,#legales .panel-body span,.fusion-portfolio .more-info,.wy-hide,.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 
 /* General */
@@ -282,6 +283,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
 .fusion-project-details-tb .project-description, .project-content .project-description{width:82%}
+body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,body.avada-has-titlebar-hide .project-content .project-description{width:100%}
 .fusion-project-details-tb .project-info, .project-content .project-info{width:18%}
 .project-info{border:10px solid var(--whiteColor);border-radius:12px;padding:.5em}
 .project-info-box{margin-bottom:0!important;padding-bottom:5px!important;border-bottom:none!important}
