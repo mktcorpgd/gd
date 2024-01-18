@@ -232,7 +232,8 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 body.has-sidebar #main .sidebar h3{margin-top:0}
 .absolute .fusion-builder-row.fusion-row{position:initial}
 .wy-tooltip{color:#FFFFFF;background:var(--textColor);position:absolute;padding:.6em .8em;text-align:left;border-radius:6px;font-size:.65em;line-height:1.2;z-index:99999999}
-  
+.video-75 .fullwidth-video video{transform:scale(.75)!important}
+
 /* Búsqueda */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
 body.search #content{width:100%}
