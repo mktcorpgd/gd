@@ -85,6 +85,8 @@ body .wpcf7 .wpcf7-info a,.pricing-table-1.full-boxed-pricing.fusion-pricing-tab
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 #main #comment-submit .fusion-button-text,.comment-form input[type="submit"] .fusion-button-text,
 .fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button-wrapper+.fusion-button-wrapper .fusion-button:not(.primary) .fusion-button-text,.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary) .fusion-button-text,.white .pagination .pagination-prev:before,.white .pagination .pagination-next:before{color:var(--whiteColor)}
+.white .pagination>a:not(.pagination-next):not(.pagination-prev){border:2px solid #FFFFFF!important;background:none;color:#FFFFFF}
+.white .pagination .current{background:none;color:rgba(255,255,255,.4)!important;border:2px solid rgba(255,255,255,.4)!important}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:var(--whiteColor)!important;opacity:1!important}
 .white .widget .widget-title,
 .white h1,.white h2,.white h3,.white h4,.white h5,.white h6,
