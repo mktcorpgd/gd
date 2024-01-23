@@ -859,6 +859,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.tfs-slider .fusion-title h2,.header-transparent .fusion-title.fusion-title-1.fusion-title-size-one{font-size:2rem!important}
 	.header-transparent .fusion-title.fusion-title-size-four h4{font-size:1.4rem!important}
 	.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary),.tfs-slider .slide-content-container .tfs-button-1, .tfs-slider .slide-content-container .tfs-button-2{margin-top:0!important}
+	.tfs-slider .mobile_video_image{width:100%;position:absolute;background-size:cover}
 
 	/* Menú */
 	.awb-icon-bars:before{content:'\f0c9'}
