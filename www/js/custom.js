@@ -525,8 +525,6 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Animación para etiquetas
 	jQuery(':input').each(function(i){
-		console.log(jQuery(this).attr('name'));
-		console.log(jQuery(this).val().length > 0);
 		if ( jQuery(this).val().length > 0 ) {
 			jQuery(this).parents('.fusion-layout-column').addClass('focused');
 		};
@@ -633,6 +631,7 @@ jQuery(document).ready(function() {
 		var panel = jQuery(this).parent().parent('.panel-footer').length;
 		if ( panel > 0 ) {
 			var speed = jQuery(this).parent().parent().parent().find('.title-row').text();
+			jQuery('select[name="SRVSPEED"]').parents('.fusion-layout-column').addClass('focused');
 			jQuery('select[name="SRVSPEED"] option:contains('+speed+')').prop('selected',true);
 		}
 	});
