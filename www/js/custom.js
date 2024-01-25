@@ -620,10 +620,10 @@ jQuery(document).ready(function() {
 	
 	// PRECIOS - Asignar opción del botón a select
 	jQuery(document).on('click','.fusion-pricing-table .panel-footer .fusion-button,.fusion-button[data-toggle="modal"]',function(e) {
-		if ( jQuery('select[name="SRV"]').length ) {
+		if ( jQuery('select[name="SRVCORP"]').length ) {
 			var option = jQuery('.entry-title').text();
-			jQuery('select[name="SRV"] option:contains('+option+')').prop('selected',true);
-			var srv_index = jQuery('select[name=SRV]').prop('selectedIndex');
+			jQuery('select[name="SRVCORP"] option:contains('+option+')').prop('selected',true);
+			var srv_index = jQuery('select[name=SRVCORP]').prop('selectedIndex');
 			if ( srv_index == 1 || srv_index == 2 ) {
 				jQuery('div[data-id="internet-velocidad"]').show();
 			}
