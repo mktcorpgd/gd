@@ -254,6 +254,7 @@ body.single-format-standard:not(.single-avada_portfolio) #main,body.single-forma
 body.single-format-standard:not(.single-avada_portfolio) article>.flexslider{margin-bottom:0}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{padding-bottom:1em}
 body.single-format-standard:not(.single-avada_portfolio) .post-content{padding-top:3em}
+body.single-format-standard:not(.single-avada_portfolio) .post-content>.fusion-fullwidth{padding:0}
 
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
@@ -516,8 +517,8 @@ a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
 .fusion-portfolio.solo-contacto .fusion-buttons.two .fusion-button+.fusion-button,article[class*='solo-contacto'] .fusion-buttons.two .fusion-button+.fusion-button,.no-info-btn .fusion-buttons.two .fusion-button+.fusion-button,.no-contact-btn .fusion-buttons.two .fusion-button{margin-left:0;font-size:1em;border-radius:8px}
 
 /* Comentarios */
-.comment-form .form-submit{margin-top:10px}
-.comment-form #comment-submit{border-top-left-radius:0;border-top-right-radius:0}
+.comment-form .form-submit{margin-top:0}
+.comment-form #comment-submit{border-top-left-radius:3px!important;border-top-right-radius:3px!important}
 .comment>div>div.comment-box>div.comment-text>em{display:block;font-size:.8em;color:var(--grayColor)}
 .commentlist{margin-bottom:30px}
 .commentlist .comment-author strong{margin-bottom:2px;text-transform:capitalize;padding-right:0;display:block;color:var(--textColor);font-family:var(--titleFont);font-size:1.6em;font-weight:500;line-height:1.5}
