@@ -465,7 +465,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .tribe-events-notices{position:absolute;z-index:999999}
 .tribe-events-notices li{text-align:center}
 .wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{margin:.4em auto}
-.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.wpcf7-response-inner{width:fit-content;border:none;border-radius:6px;box-shadow:none;font-size:.875rem;line-height:1.2;font-style:italic;text-align:center;text-transform:none}
+.wpcf7 div.wpcf7-response-output,.wpcf7 .wpcf7-error,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.wpcf7-response-inner{border:none;border-radius:6px;box-shadow:none;font-size:.875rem;line-height:1.2;font-style:italic;text-align:center;text-transform:none}
 .wpcf7-response-inner{margin:0 auto;padding:5px 4px;width:95%;line-height:1.3}
 input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;font-size:.75em}
 .fusion-title+.wpcf7-response-inner{border-bottom-left-radius:0;border-bottom-right-radius:0}
