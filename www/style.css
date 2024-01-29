@@ -214,6 +214,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 /* Contenidos */
 #content a[src*='.jpg'],#content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
 #content blockquote{margin:0 0 1em;margin-left:0;padding:1em 1.25em;background:none;border-left:4px solid rgba(0,0,0,.4);border-radius:4px;font-family:var(--textFont);font-weight:400;font-style:normal;font-size:1.2rem;line-height:1.5}
+#content blockquote.testimonials-shortcode-blockquote{border-bottom-left-radius:0}
 #blockquote blockquote p:last-child{margin-bottom:0}
 #content blockquote strong{font-weight:400!important}
 .ilightbox-holder{background:var(--whiteColor);border-radius:12px;overflow:hidden}
@@ -389,8 +390,8 @@ body:not(.archive) .fusion-blog-layout-grid article .fusion-post-content-contain
 /* Testimonios */
 .fusion-testimonials.clean blockquote{margin-bottom:0;padding-left:20px;padding-bottom:.5em;border-left:4px solid var(--lightgrayColor)!important}
 .fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:-10px;left:20px;color:var(--lightgrayColor);z-index:-1}
-.fusion-testimonials blockquote .awb-quote{padding:0;background:none;font-size:1em}
-.fusion-testimonials blockquote .awb-quote,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
+.fusion-testimonials.clean blockquote .awb-quote{padding:0;background:none;font-size:1em}
+.fusion-testimonials.clean blockquote .awb-quote,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
 .fusion-testimonials.clean .author{margin-top:0;padding:0 20px 20px;font-size:.9em;line-height:1.25;border-left:4px solid var(--lightgrayColor);font-family:var(--titleFont)}
 .fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:400}
 .fusion-testimonials.clean .testimonial-pagination{margin:1em 0 2em;padding-left:24px;text-align:left}
