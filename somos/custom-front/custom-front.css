@@ -190,6 +190,7 @@ article.event-category-otros .eo-event-meta>li a[rel='tag']{color:#F18C10!import
 article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:#FFFFFF!important}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
 .gp-meta-cats a[href*='/datco']{color:#1C8DCE}
+/*
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco'],h1+.gp-meta-cats a[href*='/datco']{border-color:#1C8DCE}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco']:hover,h1+.gp-meta-cats a[href*='/datco']:hover{background:#1C8DCE}
 .gp-meta-cats a[href*='baitcon']{color:#89388D}
@@ -210,6 +211,7 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='sersat']:hover,h1+.gp-meta-c
 .gp-meta-cats a[href*='velocom']{color:#AE1A57}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='velocom'],h1+.gp-meta-cats a[href*='velocom']{border-color:#AE1A57}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='velocom']:hover,h1+.gp-meta-cats a[href*='velocom']:hover{background:#AE1A57}
+*/
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/'],h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']{color:#419466;border-color:#419466}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover{background:#419466}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before{display:inline-block;margin-right:2px;content:'\f00c';font-weight:500;font-family:'Font Awesome 6 Pro'}
