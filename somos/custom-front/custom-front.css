@@ -189,28 +189,29 @@ article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li 
 article.event-category-otros .eo-event-meta>li a[rel='tag']{color:#F18C10!important}
 article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:#FFFFFF!important}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
-/*
-.gp-meta-cats a[href*='/datco']{color:#1C8DCE}
+
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco'],h1+.gp-meta-cats a[href*='/datco']{border-color:#1C8DCE}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco']:hover,h1+.gp-meta-cats a[href*='/datco']:hover{background:#1C8DCE}
-.gp-meta-cats a[href*='baitcon']{color:#89388D}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='baitcon'],h1+.gp-meta-cats a[href*='baitcon']{border-color:#89388D}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='baitcon']:hover,h1+.gp-meta-cats a[href*='baitcon']:hover{background:#89388D}
-.gp-meta-cats a[href*='focus']{color:#39457E}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='focus'],h1+.gp-meta-cats a[href*='focus']{border-color:#39457E}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='focus']:hover,h1+.gp-meta-cats a[href*='focus']:hover{background:#39457E}
-.gp-meta-cats a[href*='interservices']{color:#BF250D}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='interservices'],h1+.gp-meta-cats a[href*='interservices']{border-color:#BF250D}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='interservices']:hover,h1+.gp-meta-cats a[href*='interservices']:hover{background:#BF250D}
-.gp-meta-cats a[href*='silica']{color:#87B217}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='silica'],h1+.gp-meta-cats a[href*='silica']{border-color:#87B217}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='silica']:hover,h1+.gp-meta-cats a[href*='silica']:hover{background:#87B217}
-.gp-meta-cats a[href*='sersat']{color:#109B84}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='sersat'],h1+.gp-meta-cats a[href*='sersat']{border-color:#109B84}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='sersat']:hover,h1+.gp-meta-cats a[href*='sersat']:hover{background:#109B84}
-.gp-meta-cats a[href*='velocom']{color:#AE1A57}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='velocom'],h1+.gp-meta-cats a[href*='velocom']{border-color:#AE1A57}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='velocom']:hover,h1+.gp-meta-cats a[href*='velocom']:hover{background:#AE1A57}
+/*
+.gp-meta-cats a[href*='/datco']{color:#1C8DCE}
+.gp-meta-cats a[href*='baitcon']{color:#89388D}
+.gp-meta-cats a[href*='focus']{color:#39457E}
+.gp-meta-cats a[href*='interservices']{color:#BF250D}
+.gp-meta-cats a[href*='silica']{color:#87B217}
+.gp-meta-cats a[href*='sersat']{color:#109B84}
+.gp-meta-cats a[href*='velocom']{color:#AE1A57}
 */
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/'],h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']{color:#419466;border-color:#419466}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover{background:#419466}
