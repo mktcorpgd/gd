@@ -189,8 +189,8 @@ article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li 
 article.event-category-otros .eo-event-meta>li a[rel='tag']{color:#F18C10!important}
 article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:#FFFFFF!important}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:#F0582B;color:#FFFFFF!important}
-.gp-meta-cats a[href*='/datco']{color:#1C8DCE}
 /*
+.gp-meta-cats a[href*='/datco']{color:#1C8DCE}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco'],h1+.gp-meta-cats a[href*='/datco']{border-color:#1C8DCE}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco']:hover,h1+.gp-meta-cats a[href*='/datco']:hover{background:#1C8DCE}
 .gp-meta-cats a[href*='baitcon']{color:#89388D}
