@@ -505,11 +505,7 @@ a.cta-link strong{font-weight:600}
 a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 .no-label>i{margin-right:0}
-.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
-.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
-#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-.wpcf7-form input[type='submit'],.fusion-button.button-flat,
-.tfs-slider .slide-content-container .buttons a:active,.slide-content-container .button-default:active,.fusion-main-menu .menu-text.fusion-button:active,.wpcf7-form input[type='submit']:active,.fusion-body .fusion-blog-button:active,.fusion-body .fusion-button:active{transform:scale(.985)}
+.slide-content-container .button-default:active,.fusion-main-menu .menu-text.fusion-button:active,.wpcf7-form input[type='submit']:active,.fusion-body .fusion-blog-button:active,.fusion-body .fusion-button:active{transform:scale(.985)}
 
 /* Botones - Portfolio */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:.5em;padding:.5rem 1.25rem}
