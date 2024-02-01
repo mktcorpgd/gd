@@ -509,7 +509,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-button.button-flat,
-.slide-content-container .button-default:active,.fusion-main-menu .menu-text.fusion-button:active,.wpcf7-form input[type='submit']:active,.fusion-body .fusion-blog-button:active,.fusion-body .fusion-button:active{transform:scale(.985)}
+.tfs-slider .slide-content-container .buttons a:active,.slide-content-container .button-default:active,.fusion-main-menu .menu-text.fusion-button:active,.wpcf7-form input[type='submit']:active,.fusion-body .fusion-blog-button:active,.fusion-body .fusion-button:active{transform:scale(.985)}
 
 /* Botones - Portfolio */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:.5em;padding:.5rem 1.25rem}
