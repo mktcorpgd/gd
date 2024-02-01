@@ -7,7 +7,7 @@
 .logged-in-as,
 .select-arrow,
 #respond .fusion-title,.comment-form-cookies-consent,.commentlist .the-comment .comment-text em+br,
-div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.screen-reader-response,.wpcf7-spinner,span[data-name="mc4wp_checkbox"],.fusion-slider-loading,
+div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.screen-reader-response,.wpcf7-spinner,span[data-name='mc4wp_checkbox'],.fusion-slider-loading,
 .mobile-only,
 .no-featured-image .fusion-image-wrapper,
 .no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-post .fusion-portfolio-buttons,
@@ -502,9 +502,14 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-body .fusion-load-more-button{margin-top:2em}
 a.cta-link{display:block;margin-top:-10px;text-align:center;font-family:var(--textFont)}
 a.cta-link strong{font-weight:600}
-a.cta-link i[class*=fa]{padding-right:4px;position:relative;bottom:1px}
+a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 .no-label>i{margin-right:0}
+.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
+.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
+#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
+.wpcf7-form input[type='submit'],.fusion-button.button-flat,
+.slide-content-container .button-default:active,.fusion-main-menu .menu-text.fusion-button:active,.wpcf7-form input[type='submit']:active,.fusion-body .fusion-blog-button:active,.fusion-body .fusion-button:active{transform:scale(.985)}
 
 /* Botones - Portfolio */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:.5em;padding:.5rem 1.25rem}
