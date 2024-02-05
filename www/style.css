@@ -122,6 +122,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .fusion-widget-menu li a{padding:0 1em!important;border-right:2px solid rgba(255,255,255,.2)!important}
 .fusion-widget-menu li:last-child a{border-right:none!important}
 .wpml-ls-menu-item.menu-item-has-children>a{border:none;font-size:.8em!important;text-transform:uppercase;letter-spacing:1px}
+.avada-menu-highlight-style-background .fusion-main-menu>ul>li .menu-text{border-bottom:2px solid rgba(0,0,0,0)!important}
 
 /* Menú - Mega */
 .fusion-megamenu-wrapper{overflow:hidden}
