@@ -819,7 +819,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .mfp-content #wp-calendar tfoot td a{pointer-events:none}
 
 /* Imágenes */
-#content figure.no-borders img{border:none}
+#content .no-borders img{border:none}
 img.mfp-img{max-height:90vh}
 .gallery-item img,.wp-block-image img,.wp-block-image:not(.is-style-rounded) img,#post-content>p>img{background:none;border:1px solid rgba(0,0,0,.2);border-radius:12px}
 .gallery-item{margin:0;padding:16px;box-sizing:border-box}
