@@ -5,9 +5,9 @@ body{background-color:#FAFAFA}
 .wp-block-separator{background:none}
 body:not(.home) .padder{background:none;box-shadow:none}
 .wp-block-column #timelinegd+.buttons{margin:.4em 0 0}
-.wp-block-column #timelinegd,.wp-block-columns:not(.no-bkg) .wp-block-column{clear:both;margin:0 .5em}
+.wp-block-column #timelinegd,.wp-block-columns:not(.no-bkg) .wp-block-column{clear:both}
 .wp-block-column #timelinegd{margin-top:0}
-.wp-block-columns.no-bkg .wp-block-column{margin:0 .5em;padding:0;background:none}
+.wp-block-columns.no-bkg .wp-block-column{padding:0;background:none}
 #content-wrapper{margin-top:5em}
 #content h1,.container_countdown h1{margin-bottom:0;font-size:3em}
 #content h2.wp-block-heading{font-size:1.8em}
