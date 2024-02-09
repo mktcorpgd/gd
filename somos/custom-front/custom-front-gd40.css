@@ -112,6 +112,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 	body.home .gp-blog-wrapper+.post-loop{border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 	body.single-event #content .eo-event-meta li:first-child{font-size:2em}
 	.content-details img{max-width:70px}
+	#nuestrahistoria,#nuestrahistoria+.wp-block-columns{margin-left:3em}
 }
 
 /* Mobile */
