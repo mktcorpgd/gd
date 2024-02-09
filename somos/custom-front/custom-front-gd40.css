@@ -41,7 +41,8 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .youtube .wp-block-column .yotuwp.yotu-playlist{padding-bottom:0}
 .youtube .wp-block-column iframe{margin-top:0;border-radius:24px}
 .youtube .yotu-wrapper-player,.youtube .yotu-wrapper-player iframe{margin:0;max-height:360px}
-.yotu-button-prs{padding:.4em .9em;font-family:'neo-sans',sans-serif;font-size:.9em;font-weight:400;line-height:1.15}
+.yotu-playlist .yotu-pagination{font-size:.9em!important}
+.yotu-button-prs{padding:.4em .9em;font-family:'neo-sans',sans-serif;font-size:.9em;font-weight:400!important;line-height:1.15}
 .yotu-playlist .yotu-pagination{padding-top:0}
 .yotu-playlist .yotu-pagination a.yotu-active::after{color:#999999;top:-3px}
 .yotu-button-prs:hover{text-decoration:none}
