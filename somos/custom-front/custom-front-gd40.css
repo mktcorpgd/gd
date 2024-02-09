@@ -113,6 +113,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 	body.single-event #content .eo-event-meta li:first-child{font-size:2em}
 	.content-details img{max-width:70px}
 	#post-content>.wp-block-columns{margin:0 3em}
+	.slimScrollDiv{width:100%!important}
 }
 
 /* Mobile */
