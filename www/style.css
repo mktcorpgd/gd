@@ -234,7 +234,6 @@ body.has-sidebar #main .sidebar h3{margin-top:0}
 .absolute .fusion-builder-row.fusion-row{position:initial}
 .wy-tooltip{color:#FFFFFF;background:var(--textColor);position:absolute;padding:.6em .8em;text-align:left;border-radius:6px;font-size:.65em;line-height:1.2;z-index:99999999}
 .fullwidth-video video{width:100vw!important}
-.project-description.post-content.fusion-project-description-details > div > div > div.fusion-layout-column.fusion_builder_column.fusion-builder-column-0.fusion_builder_column_1_1.fusion-one-full.fusion-column-first.fusion-column-last > div > div.fusion-reading-box-container.reading-box-container-1{margin-top:0}
 
 /* Búsqueda */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
