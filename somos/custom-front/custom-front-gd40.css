@@ -11,6 +11,7 @@ body:not(.home) .padder{background:none;box-shadow:none}
 #content-wrapper{margin-top:5em}
 #content h1,.mfp-content h1,.ays-fs-title,.ays_score,.container_countdown h1,h2.shadow{color:#0E316E}
 #content h1,.container_countdown h1{margin-bottom:0;font-size:3em}
+#content h2{font-size:1.8em}
 #content h4{margin-top:.2em}
 #content h4 i{padding-right:.3em;opacity:.4}
 body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
