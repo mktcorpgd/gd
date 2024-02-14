@@ -14,4 +14,18 @@ body.postid-25544 .fusion-secondary-header,body.postid-25544 .header-transparent
 body.postid-25544 .fusion-header .fusion-logo{margin-top:0!important;padding:.2em .6em .6em;background:#FAFAFA;border-radius:0 0 12px 12px}
 body.postid-25544 .fusion-main-menu .sub-menu{background:rgba(0,0,0,.6)!important}
 body.postid-25544 .fusion-main-menu li a,body.postid-25544 .fusion-main-menu .sub-menu li a{color:var(--whiteColor)!important}
-
+body.postid-25544 .wpcf7-select-parent .wpcf7-select {
+    text-align: center;
+    font-size: 1.4em;
+    padding: .4em;
+    background: var(--highlightColor);
+	color: var(--whiteColor);
+	font-weight: 600;
+    border: none;
+	border-radius: 64px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+body.postid-25544 .wpcf7-select-parent .wpcf7-select:hover{
+	background: var(--mainColor)!important;
+}
