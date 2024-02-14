@@ -12,5 +12,6 @@ div.TYPE2,
 #nav ul li ul li a, #sticky-nav ul li ul li a, #wrapper #nav ul li ul li > a, #wrapper #sticky-nav ul li ul li > a, .fusion-main-menu .sub-menu, .fusion-main-menu .sub-menu li a, .fusion-megamenu-widgets-container, .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:hover, .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-secondary-header a{color:var(--textColor)!important}
 body.postid-25544 .fusion-secondary-header,body.postid-25544 .header-transparent .fusion-header-wrapper .fusion-header{background:transparent!important}
 body.postid-25544 .fusion-header .fusion-logo{margin-top:0!important;padding:.2em .6em .6em;background:#FAFAFA;border-radius:0 0 12px 12px}
-body.postid-25544 #nav ul li ul li a,body.postid-25544 #sticky-nav ul li ul li a,body.postid-25544 #wrapper #nav ul li ul li > a,body.postid-25544 #wrapper #sticky-nav ul li ul li > a,body.postid-25544 .fusion-main-menu .sub-menu,body.postid-25544 .fusion-main-menu .sub-menu li a,body.postid-25544 .fusion-megamenu-widgets-container,body.postid-25544 .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:hover,body.postid-25544 .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled{color:var(--whiteColor)!important}
+body.postid-25544 .fusion-main-menu .sub-menu{background:rgba(0,0,0,.6)!important}
+body.postid-25544 .fusion-main-menu li a,body.postid-25544 .fusion-main-menu .sub-menu li a{color:var(--whiteColor)!important}
 
