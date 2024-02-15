@@ -16,7 +16,7 @@ body.postid-25544 .fusion-header .fusion-logo{margin-top:0!important;padding:.2e
 body.postid-25544 .fusion-main-menu,body.postid-25544 .fusion-main-menu .sub-menu{background:rgba(0,0,0,.8)!important}
 body.postid-25544 .fusion-main-menu{border-radius:0 0 12px 12px}
 body.postid-25544 .fusion-main-menu li a,body.postid-25544 .fusion-main-menu .sub-menu li a{color:var(--whiteColor)!important}
-body.postid-25544 .wpcf7-select-parent .wpcf7-select {
+body.postid-25544 .wpcf7-select-parent .wpcf7-select:not(.wpcf7-validates-as-required) {
     text-align: center;
     font-size: 1.4em;
     padding: .4em;
@@ -28,6 +28,6 @@ body.postid-25544 .wpcf7-select-parent .wpcf7-select {
     max-width: 500px;
     margin: 0 auto;
 }
-body.postid-25544 .wpcf7-select-parent .wpcf7-select:hover{
+body.postid-25544 .wpcf7-select-parent .wpcf7-select:not(.wpcf7-validates-as-required):hover{
 	background: var(--mainColor)!important;
 }
