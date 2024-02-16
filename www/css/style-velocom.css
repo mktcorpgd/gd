@@ -12,8 +12,9 @@ div.TYPE2,
 
 body.postid-25544 .fusion-header-wrapper .fusion-secondary-header{display:none!important}
 body.postid-25544 .header-transparent .fusion-header-wrapper .fusion-header{background:transparent!important}
-body.postid-25544 .fusion-header .fusion-logo{margin-top:0!important;padding:.2em .6em .6em;background:#FAFAFA;border-radius:0 0 12px 12px;box-shadow:0 8px 12px -6px var(--mainColor)}
+body.postid-25544 .fusion-header .fusion-logo{padding:.2em .6em .6em;background:#FAFAFA;border-radius:12px;box-shadow:0 8px 12px -6px var(--mainColor)}
 body.postid-25544 .fusion-main-menu,body.postid-25544 .fusion-main-menu .sub-menu{background:rgba(0,0,0,.9)!important;box-shadow:0 0 0 2px #FFFFFF}
+body.postid-25544 .fusion-main-menu{margin-top:10px}
 body.postid-25544 .fusion-main-menu,body.postid-25544 .fusion-header-wrapper .fusion-main-menu .sub-menu{border-radius:12px!important}
 body.postid-25544 .fusion-main-menu li:first-child{border-bottom-left-radius:12px}
 body.postid-25544 .fusion-main-menu li:last-child{border-bottom-right-radius:12px}
