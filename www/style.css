@@ -225,7 +225,7 @@ body.single .fusion-text.fusion-text-1 h2,body.single .fusion-text.fusion-text-1
 .legales .panel-title a{display:block!important;text-align:center}
 .legales .panel-title .fusion-toggle-heading{margin-left:0!important}
 .legales .panel-body,.legales .panel-body p{margin-top:0!important}
-.legales .panel-body{text-align:center;font-size:.7em;line-height:1.25;font-style:italic}
+.fusion-text.legales,.legales .panel-body{text-align:center;font-size:.7em;line-height:1.25;font-style:italic}
 .ilightbox-toolbar.smooth a{border-radius:6px}
 .project-content .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:6px!important}
 body.has-sidebar #main .sidebar h3{margin-top:0}
