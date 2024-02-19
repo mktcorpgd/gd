@@ -142,7 +142,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .fusion-logo img{height:48px}
 
 /* Menú - CTA */
-.fusion-main-menu .menu-text.fusion-button{margin:0;font-weight:400;font-size:1em}
+.fusion-main-menu .menu-text.fusion-button{margin:0;font-size:1em}
 
 /* Menú - Buscador */
 .fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important}
