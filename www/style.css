@@ -142,8 +142,6 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .fusion-logo img{height:48px}
 
 /* Menú - CTA */
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:rgba(0,0,0,.4)}
-.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:rgba(0,0,0,.6)}
 .fusion-main-menu .menu-text.fusion-button{margin:0;font-weight:400;font-size:1em}
 
 /* Menú - Buscador */
@@ -286,9 +284,9 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pe'],.project-terms a[href*='/flag-pe']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pe.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-pr'],.project-terms a[href*='/flag-pr']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-pr.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-uy'],.project-terms a[href*='/flag-uy']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-uy.svg')}
-.fusion-project-details-tb .project-description, .project-content .project-description{width:100%}
+.fusion-project-details-tb .project-description,.project-content .project-description{width:100%}
 body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,body.avada-has-titlebar-hide .project-content .project-description{width:100%}
-.fusion-project-details-tb .project-info, .project-content .project-info{width:100%}
+.fusion-project-details-tb .project-info,.project-content .project-info{width:100%}
 .project-info{border:10px solid var(--whiteColor);border-radius:12px;padding:.5em}
 .project-info-box{margin-bottom:0!important;padding-bottom:5px!important;border-bottom:none!important}
 .project-info-box+.project-info-box{padding-bottom:0!important}
@@ -411,7 +409,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{margin:.75rem 0 0;width:100%}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.625em .55rem}
-.intl-tel-input.allow-dropdown .flag-container, .intl-tel-input.separate-dial-code .flag-container{padding:0;z-index:99}
+.intl-tel-input.allow-dropdown .flag-container,.intl-tel-input.separate-dial-code .flag-container{padding:0;z-index:99}
 .intl-tel-input{margin-top:.75rem}
 .intl-tel-input .country-list{max-height:208px;border-radius:6px}
 .intl-tel-input .country-list .country{padding:.1em 0 .1em .4em}
@@ -863,7 +861,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-fullwidth:not(.fusion-builder-row-1) .fusion-title{margin-top:1em!important}
 	.tfs-slider .fusion-title h2,.header-transparent .fusion-title.fusion-title-1.fusion-title-size-one{font-size:2rem!important}
 	.header-transparent .fusion-title.fusion-title-size-four h4{font-size:1.4rem!important}
-	.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary),.tfs-slider .slide-content-container .tfs-button-1, .tfs-slider .slide-content-container .tfs-button-2{margin-top:0!important}
+	.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary),.tfs-slider .slide-content-container .tfs-button-1,.tfs-slider .slide-content-container .tfs-button-2{margin-top:0!important}
 
 	/* Menú */
 	.awb-icon-bars:before{content:'\f0c9'}
@@ -885,7 +883,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 	.fullwidth-center{display:block;width:100%;text-align:center}
-	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header, .fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header{padding-top:10px;padding-bottom:10px}
+	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-secondary-menu>ul>li>a{text-align:center}
 
 	/* Formularios */
