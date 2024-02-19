@@ -529,10 +529,10 @@ jQuery(document).ready(function() {
 			jQuery(this).parents('.fusion-layout-column').addClass('focused');
 		};
 	});
-	jQuery(document).on('focus',':input',function(){
+	jQuery(document).on('focus',':input[type=text],textarea,select',function(){
 		jQuery(this).parents('.fusion-layout-column').addClass('focused');
 	});
-	jQuery(document).on('blur',':input',function(){
+	jQuery(document).on('blur',':input[type=text],textarea,select',function(){
 		var inputValue = jQuery(this).val();
 		if ( inputValue == '' ) {
 			jQuery(this).removeClass('filled');
