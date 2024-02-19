@@ -269,6 +269,6 @@ if ( jQuery('body').hasClass('postid-25656') ) {
 	}
 
 	// FORMULARIOS - Bloquear "próximamente"
-	jQuery('.proximamente,option[value*="Próximamente"]').attr('disabled','disabled');
+	jQuery('.proximamente').attr('disabled','disabled');
 
 }
