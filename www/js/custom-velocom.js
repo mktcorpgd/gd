@@ -17,6 +17,7 @@ jQuery('.fusion-contact-info-phone-number').each(function(i) {
 var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 var site_name = jQuery("meta[property='og:site_name']").attr("content");
+jQuery('.proximamente').attr('disabled','disabled');
 if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,.legales').hide();
@@ -24,7 +25,6 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 	else {
 		jQuery('.not-selected').removeClass('not-selected');
 		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-		jQuery('.proximamente').attr('disabled','disabled');
 		jQuery('.plan:not(.'+lugar_class+')').hide();
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 		jQuery('select[name="LOC"]').parents('.fusion-layout-column').addClass('focused');
