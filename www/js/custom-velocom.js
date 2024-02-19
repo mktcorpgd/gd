@@ -19,7 +19,7 @@ var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)==
 var site_name = jQuery("meta[property='og:site_name']").attr("content");
 if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
-		jQuery('.caption,.price span,#legales').hide();
+		jQuery('.caption,.price span,.legales').hide();
 	}
 	else {
 		jQuery('.not-selected').removeClass('not-selected');
@@ -28,7 +28,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 		jQuery('.plan:not(.'+lugar_class+')').hide();
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 		jQuery('select[name="LOC"]').parents('.fusion-layout-column').addClass('focused');
-		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',#legales .panel-body span.'+lugar_class+',#legales .cur_month,#legales .cur_year,#legales .last_day,.step2').show();
+		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 		if ( jQuery('.map iframe').length ) {
 			jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
 			jQuery('.map').show();	
