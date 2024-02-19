@@ -524,7 +524,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Animación para etiquetas
-	jQuery(':input').each(function(i){
+	jQuery(':input[type=text]').each(function(i){
 		if ( jQuery(this).val().length > 0 ) {
 			jQuery(this).parents('.fusion-layout-column').addClass('focused');
 		};
