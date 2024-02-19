@@ -17,7 +17,6 @@ jQuery('.fusion-contact-info-phone-number').each(function(i) {
 var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 var site_name = jQuery("meta[property='og:site_name']").attr("content");
-jQuery('.proximamente,option[value*="Próximamente"]').attr('disabled','disabled');
 if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,.legales').hide();
@@ -268,4 +267,8 @@ if ( jQuery('body').hasClass('postid-25656') ) {
 	if ( jQuery(window).width() < 920 ) {
 		jQuery('#menu-header-top').hide();
 	}
+
+	// FORMULARIOS - Bloquear "próximamente"
+	jQuery('.proximamente,option[value*="Próximamente"]').attr('disabled','disabled');
+
 }
