@@ -524,15 +524,15 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Animación para etiquetas
-	jQuery(':input[type=text],:input[type=email],:input[type=number],textarea,select').each(function(i){
+	jQuery(':input[type=text],:input[type=email],:input[type=number],:input[type=tel],textarea,select').each(function(i){
 		if ( jQuery(this).val().length > 0 ) {
 			jQuery(this).parents('.fusion-layout-column').addClass('focused');
 		};
 	});
-	jQuery(document).on('focus',':input[type=text],:input[type=email],:input[type=number],textarea,select',function(){
+	jQuery(document).on('focus',':input[type=text],:input[type=email],:input[type=number],:input[type=tel],textarea,select',function(){
 		jQuery(this).parents('.fusion-layout-column').addClass('focused');
 	});
-	jQuery(document).on('blur',':input[type=text],:input[type=email],:input[type=number],textarea,select',function(){
+	jQuery(document).on('blur',':input[type=text],:input[type=email],:input[type=number],:input[type=tel],textarea,select',function(){
 		var inputValue = jQuery(this).val();
 		if ( inputValue == '' ) {
 			jQuery(this).removeClass('filled');
