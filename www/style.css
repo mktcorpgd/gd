@@ -472,7 +472,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
 .wpcf7 .fusion-layout-column{margin:0;position:relative}
-.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.2em .4em;position:absolute;top:35%;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px 6px 0 0;box-shadow:inset 0 0 0 0 var(--metaColor);z-index:10;pointer-events:none}
+.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.2em .4em;position:absolute;top:19px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px 6px 0 0;box-shadow:inset 0 0 0 0 var(--metaColor);z-index:10;pointer-events:none}
 .wpcf7 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-90%) translateX(1px);background:var(--whiteAltColor);box-shadow:inset 0 1px 0 0 var(--metaColor);font-size:.65em}
 .wpcf7 .fusion-layout-column.focused:hover>label>span:not(.wpcf7-form-control-wrap){box-shadow:inset 0 1px 0 0 var(--highlightColor)}
 
@@ -897,6 +897,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.post-password-form input[type='submit']{margin-top:1em!important}
 	.wpcf7 input:not([type='submit']),.wpcf7 textarea,
 	#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.fusion-body #main .tribe-events .tribe-events-c-events-bar--border,.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){font-size:1.1rem}
+	.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){top:21px}
 
 	/* Contenidos */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
