@@ -895,6 +895,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
 	.post-password-form input[type='submit']{margin-top:1em!important}
+	.wpcf7 input:not([type='submit']),.wpcf7 textarea,
+	#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.fusion-body #main .tribe-events .tribe-events-c-events-bar--border,.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){font-size:1.1rem}
 
 	/* Contenidos */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
