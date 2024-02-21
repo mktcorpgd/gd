@@ -161,7 +161,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .modal-header .close{margin:0!important;padding:0;width:40px;height:40px;line-height:1;position:absolute;top:0;right:0;color:rgba(200,200,200,.4);background:none;border:none;cursor:pointer}
 .modal-header .close:hover{color:var(--grayColor)}
 .modal div.wpcf7{max-width:100%}
-.fusion-modal[class*='empresas'] .modal-title{text-align:center}
+.fusion-modal[class*='empresas'] .modal-title,.cargando{text-align:center}
 
 /* Hero/Slider */
 #sliders-container.has-content .background-image{background-size:cover!important}
