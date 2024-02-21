@@ -273,7 +273,7 @@ if ( jQuery('body').hasClass('postid-25656') ) {
 (function( $ ) {
 	'use strict';
 	jQuery(document).ready( function(){
-		var $option = jQuery('option:contains("próx")');
+		var $option = jQuery('select.highlight option:contains("próx")');
 		$option.attr('disabled',true);
 	});
 })(jQuery)  
