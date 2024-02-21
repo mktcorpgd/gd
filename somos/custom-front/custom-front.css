@@ -18,7 +18,7 @@ body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-
 body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
 body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
-#search-3>h3,.is-screen-reader-text,.is-search-form.is-form-id-26276 button,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,.error404 .gp-search p,.padder article.post.no-results h1,#content section[class*='busquedas'] p,body.search .gp-blog-wrapper section .post-thumbnail,
+#search-3>h3,.is-screen-reader-text,.is-search-form.is-form-id-26276 button,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,.is-search-submit,body.search section.type-page .gp-loop-meta,.is-search-sections .left-section,.gp-search-submit,body.search #content form.is-search-form,body.search #content h4,.error404 .gp-search p,.error404 h2,.padder article.post.no-results h1,#content section[class*='busquedas'] p,body.search .gp-blog-wrapper section .post-thumbnail,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Sharepoint Sync */
@@ -253,6 +253,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #post-content>h2{margin-top:0}
 #post-content>h2>i[class*='circle']{padding-right:.4em;color:#555555}
 body:not(.home) .padder{background:#FFFFFF;border-top-width:12px;border-top-style:solid;border-top-color:transparent;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+body.error404 .padder{background:none}
 body.post-template-default.single h1,body.page-id-18106 #content h1{color:#0E316E}
 body.post-template-default.single #content article.category-iot h1,body.page-id-18351 #content h1{color:#692D87}
 body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
@@ -488,7 +489,6 @@ body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;f
 .error404 .gp-search{margin-top:1em}
 #content .is-search-input{font-size:1.1em;text-align:center}
 body.fullwidth #content .is-search-input{font-size:1.5em}
-.error404 h2{font-size:1.2em;font-weight:400}
 
 #ajaxsearchlitesettings1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asl_r .results .item div.etc,form.is-search-form{display:none!important}
 #header{border:none!important}
