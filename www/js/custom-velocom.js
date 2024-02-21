@@ -57,29 +57,34 @@ jQuery('select[name=LOC]').change(function() {
 		},500);	
 	}
 });
+jQuery('select.highlight option:contains("Próximamente"),select.highlight option:first').attr('disabled',true);
 
 
-// FORMULARIO - Domicilio a través de Google Maps
-inputs_address = document.getElementsByClassName('address_maps');
-for (var i = 0; i < inputs_address.length; i++) {
-	var autocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
-	autocomplete.addListener('place_changed', function() {
-		selected = true;
-	});
-}
-var selected = false;
+// Google Maps
+if ( jQuery('.address_maps').length ) {
 
-
-// Limpiar campo de dirección si no se selecciona un resultado
-jQuery('.address_maps,.pac_input').on('focus',function() {
-	selected = false;
-	var cur_value = jQuery(this).val();
-	jQuery(this).data('cur_value',cur_value);
-}).on('blur', function() {
-	if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
-		jQuery(this).val('');
+	// FORMULARIO - Domicilio a través de Google Maps
+	inputs_address = document.getElementsByClassName('address_maps');
+	for (var i = 0; i < inputs_address.length; i++) {
+		var autocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
+		autocomplete.addListener('place_changed', function() {
+			selected = true;
+		});
 	}
-});
+	var selected = false;
+
+	// Limpiar campo de dirección si no se selecciona un resultado
+	jQuery('.address_maps,.pac_input').on('focus',function() {
+		selected = false;
+		var cur_value = jQuery(this).val();
+		jQuery(this).data('cur_value',cur_value);
+	}).on('blur', function() {
+		if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
+			jQuery(this).val('');
+		}
+	});
+
+}
 
 
 // velocomfibra.com.ar
