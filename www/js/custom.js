@@ -524,12 +524,10 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Animación para etiquetas
-	jQuery(':input[type=text],:input[type=email],:input[type=number],:input[type=tel],textarea,select').each(function(i){
-		if ( !jQuery(this).prop('disabled') == true ) {
-			if ( jQuery(this).val().length > 0 ) {
-				jQuery(this).parents('.fusion-layout-column').addClass('focused');
-			}
-		};
+	jQuery(':input[type=text],:input[type=email],:input[type=number],:input[type=tel],textarea,select:not(.highlight)').each(function(i) {
+		if ( jQuery(this).val().length > 0 ) {
+			jQuery(this).parents('.fusion-layout-column').addClass('focused');
+		}
 	});
 	jQuery(document).on('focus',':input[type=text],:input[type=email],:input[type=number],:input[type=tel],textarea,select',function(){
 		jQuery(this).parents('.fusion-layout-column').addClass('focused');
