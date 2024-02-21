@@ -238,42 +238,4 @@ if ( jQuery('body').hasClass('postid-25656') ) {
 	// IMPORTANTE
 	initMap();
 
-	// CONTACTO - Copiar datos de formulario al escribir
-	jQuery('.wpcf7-text').on('input', function(e) {
-		var input_name = jQuery(this).attr('name');
-		jQuery('input[name='+input_name+']').val(jQuery(this).val());
-	});
-	jQuery('.wpcf7-select').on('change', function(e) {
-		var input_name = jQuery(this).attr('name');
-		jQuery('select[name='+input_name+']').val(jQuery(this).val());
-		if ( input_name == 'SERVICE' ) {
-			jQuery('input[name=TITLE]').val(jQuery(this).val());
-		}
-	});
-
-	// PRECIOS - Las filas vacías o con menos de 1 caracter agregar clase "blank"
-	jQuery('.list-group-item').each(function(i) {
-		if ( jQuery(this).text().length < 2 ) {
-			jQuery(this).addClass('blank');
-		}
-	});
-
-	// PRECIOS - Clickear al precionar la columna
-	jQuery(document).on('click','.fusion-panel',function(e) {
-		jQuery(this).find('.fusion-button').click();
-	});
-
-	// MOBILE - Mover link de arrepentimiento
-	if ( jQuery(window).width() < 920 ) {
-		jQuery('#menu-header-top').hide();
-	}
-
 }
-
-(function( $ ) {
-	'use strict';
-	jQuery(document).ready( function(){
-		var $option = jQuery('select.highlight option:contains("Próximamente"),select.highlight option:first');
-		$option.attr('disabled',true);
-	});
-})(jQuery)  
