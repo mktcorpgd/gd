@@ -141,6 +141,10 @@ jQuery(document).ready(function() {
 	gpHeaderMobileTopNav();
 
 
+	// GENERAL - Buscador
+	jQuery('.asl_w_container').insertBefore('#left-content-wrapper');
+
+
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
 		jQuery('.bdays_today img').attr('src','/wp-content/uploads/birthday-gd1.gif');

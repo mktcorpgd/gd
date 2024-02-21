@@ -489,7 +489,57 @@ body>.is-search-form.is-form-id-26276 input[type='search']{margin:0;width:100%;f
 #content .is-search-input{font-size:1.1em;text-align:center}
 body.fullwidth #content .is-search-input{font-size:1.5em}
 .error404 h2{font-size:1.2em;font-weight:400}
-body.search .post-loop.type-page{}
+
+#ajaxsearchlitesettings1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asl_r .results .item div.etc,form.is-search-form{display:none!important}
+#header{border:none!important}
+#content-wrapper{margin-top:50px}
+.asl_w_container,.probox,div.asl_w,div.asl_w .probox .promagnifier,div.asl_w .probox div.prosettings{border:none!important;box-shadow:none!important}
+#ajaxsearchlite1 .probox .proinput,div.asl_w .probox .proinput{margin:0!important;padding:0!important}
+.asl_w_container{margin-bottom:10px;z-index:10}
+div[id*=ajaxsearchlite].asl_m{margin:0 auto;width:78%;overflow:visible;background:none}
+#ajaxsearchlite1 .probox,div.asl_w .probox{height:auto;align-items:center;overflow:visible}
+div.asl_m .probox .proclose,div.asl_m .probox .proloading,div.asl_m .probox .promagnifier,div.asl_m .probox .prosettings{position:absolute}
+div.asl_m .probox .proclose,div.asl_m .probox .promagnifier,div.asl_m .probox .prosettings{height:100%!important}
+div.asl_m .probox .prosettings{right:45px}
+div.asl_m .probox .promagnifier{right:12px}
+div.asl_m .probox .proclose{right:74px}
+div.asl_m .probox .proloading{width:22px;height:22px;right:79px}
+div.asl_m .probox .proclose:before,div.asl_m .probox .promagnifier .innericon:before,div.asl_m .probox .prosettings .innericon:before{display:grid;align-items:center;height:100%;color:rgba(255,255,255,.8);font-family:'Font Awesome 6 Pro',sans-serif;position:relative;font-size:1.3em}
+div.asl_m .probox .prosettings .innericon:before{content:'\e17c'}
+div.asl_m .probox .promagnifier .innericon:before{content:'\f002'}
+div.asl_m .probox .proclose:before{content:'\f00d'}
+div.asl_m .probox .proclose:hover:before,div.asl_m .probox .promagnifier .innericon:hover:before,div.asl_m .probox .prosettings .innericon:hover:before{color:#FFFFFF}
+#ajaxsearchlite1 .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em .6em!important;color:#FFFFFF!important;background:#1F4483!important;border:4px solid rgba(0,0,0,.2)!important;border-top:none!important;border-radius:0 0 12px 12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)!important;font-size:1.2em!important;line-height:normal;text-align:left}
+#ajaxsearchlite1 .probox .proinput input::placeholder{color:#FFFFFF!important}
+div.asl_s.searchsettings form{background:#FFFFFF;border-radius:6px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5);border:1px solid #eaeaea}
+div[id*=ajaxsearchliteres].wpdreams_asl_results div.resdrg span.highlighted{background:0 0!important;color:#333333!important;font-weight:400!important;text-decoration:underline}
+div.asl_r.vertical{margin-top:-2px!important;background:#FFFFFF!important;border:2px solid #1f4381!important;border-radius:6px 6px 12px 12px;box-shadow:0 4px 24px -12px rgba(0,0,0,.5)!important}
+div.asl_r .results .item{padding:.2em .4em}
+div.asl_r .results .item:hover{background:rgba(0,0,0,.025)}
+#ajaxsearchlitesettings1{background:none;overflow:visible}
+div.asl_s.searchsettings .asl_option_inner .asl_option_checkbox{background:#999!important;box-shadow:none!important;border-radius:3px}
+div.asl_s.searchsettings .asl_option_inner input:checked+.asl_option_checkbox{background:#F0582B!important}
+div.asl_s.searchsettings .asl_option_label{color:#333333;font-size:.9em;font-weight:400;text-shadow:none}
+div.asl_s.searchsettings form fieldset legend{font-size:.8em;color:#555555}
+div.asl_s.searchsettings fieldset{margin:.4em 0!important}
+div.asl_r .results .item .asl_content h3{font-size:1em}
+div.asl_r .results .item .asl_content h3 a{color:#333333!important;font-family:neo-sans,sans-serif!important;font-size:inherit!important;line-height:normal!important}
+div.asl_r .results .item .asl_content{padding:.4em 0}
+div.asl_r .results .item .asl_content .asl_desc{margin-top:.2em;font-size:.9em;letter-spacing:-.1px}
+div.asl_w .probox div.asl_simple-circle{border:3px solid rgba(255,255,255,.8)}
+#ajaxsearchlite1 .probox, div.asl_w .probox{background:none!important}
+@media (max-width: 782px) {
+	div.asl_r .results .item .asl_content .asl_desc {display:none}
+	#content-wrapper {
+		padding-top: 14px;
+	}
+	div[id*=ajaxsearchlite].asl_m {
+	width: 95%;
+	}
+	#ajaxsearchlite1 .probox .proinput input.orig {
+	font-size: 1.4em!important;
+	}
+}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:'open-sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
