@@ -5,7 +5,6 @@
 .useful-links,
 .not-selected,
 .logged-in-as,
-.select-arrow,
 #respond .fusion-title,.comment-form-cookies-consent,.commentlist .the-comment .comment-text em+br,
 div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.screen-reader-response,.wpcf7-spinner,span[data-name='mc4wp_checkbox'],.fusion-slider-loading,
 .mobile-only,
@@ -423,7 +422,6 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7 .fusion-one-half.fusion-column-last input,.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-top-left-radius:0;border-bottom-left-radius:0;border-left-width:1px}
 div.wpcf7 input[type='file']{cursor:pointer}
 div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:default}
-.wpcf7-select-parent .wpcf7-select{appearance:auto}
 .wpcf7-radio input{margin-top:0;margin-right:.2em;position:relative;top:-2px}
 .wpcf7-list-item{margin:.5em .75em 0 0}
 .wpcf7-list-item.last{margin-right:0}
