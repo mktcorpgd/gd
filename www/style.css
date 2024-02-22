@@ -477,7 +477,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-select-parent .wpcf7-select:focus+.select-arrow{transform:rotateX(180deg)}
 .fusion-column-wrapper>.wpcf7-select-parent{max-width:500px;margin:0 auto}
 .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight:not(.wpcf7-validates-as-required){margin-top:0;padding:.4em;font-size:1.4em;text-align:center;color:var(--whiteColor);font-weight:600;background:var(--highlightColor);border:none;border-radius:64px}
-.fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight+.select-arrow{color:var(--whiteColor)!important}
+#wrapper .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight+.select-arrow{top:0;color:var(--whiteColor)!important}
 .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight:not(.wpcf7-validates-as-required):hover{background:var(--mainColor)!important}
 
 /* Botones */
