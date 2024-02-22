@@ -509,7 +509,7 @@ div.asl_m .probox .prosettings .innericon:before{content:'\e17c'}
 div.asl_m .probox .promagnifier .innericon:before{content:'\f002'}
 div.asl_m .probox .proclose:before{content:'\f00d'}
 div.asl_m .probox .proclose:hover:before,div.asl_m .probox .promagnifier .innericon:hover:before,div.asl_m .probox .prosettings .innericon:hover:before{color:#FFFFFF}
-#ajaxsearchlite1 .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em .6em!important;color:#FFFFFF!important;background:#1F4483!important;border:4px solid rgba(0,0,0,.2)!important;border-top:none!important;border-radius:0 0 12px 12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)!important;font-size:1.2em!important;line-height:normal;text-align:left}
+#ajaxsearchlite1 .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em 7.4em .5em .6em!important;color:#FFFFFF!important;background:#1F4483!important;border:4px solid rgba(0,0,0,.2)!important;border-top:none!important;border-radius:0 0 12px 12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)!important;font-size:1.2em!important;line-height:normal;text-align:left}
 #ajaxsearchlite1 .probox .proinput input::placeholder{color:#FFFFFF!important}
 div.asl_s.searchsettings form{background:#FFFFFF;border-radius:6px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5);border:1px solid #eaeaea}
 div[id*=ajaxsearchliteres].wpdreams_asl_results div.resdrg span.highlighted{background:0 0!important;color:#333333!important;font-weight:400!important;text-decoration:underline}
@@ -528,18 +528,6 @@ div.asl_r .results .item .asl_content{padding:.4em 0}
 div.asl_r .results .item .asl_content .asl_desc{margin-top:.2em;font-size:.9em;letter-spacing:-.1px}
 div.asl_w .probox div.asl_simple-circle{border:3px solid rgba(255,255,255,.8)}
 #ajaxsearchlite1 .probox, div.asl_w .probox{background:none!important}
-@media (max-width: 782px) {
-	div.asl_r .results .item .asl_content .asl_desc {display:none}
-	#content-wrapper {
-		padding-top: 14px;
-	}
-	div[id*=ajaxsearchlite].asl_m {
-	width: 95%;
-	}
-	#ajaxsearchlite1 .probox .proinput input.orig {
-	font-size: 1.4em!important;
-	}
-}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:'open-sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
@@ -970,7 +958,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 
 /* Mobile */
 @media (max-width:782px) {
-	#mobile-nav .menu li a i,.mo_doc_lib_col>img{display:none!important}
+	#mobile-nav .menu li a i,.mo_doc_lib_col>img,div.asl_r .results .item .asl_content .asl_desc{display:none!important}
 	#wp-admin-bar-custom-node-2{display:block}
 	body,input,textarea,select{font-size:20px}
 	input[type='text'], input[type='search'], input[type='url'], input[type='date'], input[type='email'], input[type='tel'], input[type='number'], textarea, select, .wpcf7-list-item-label{font-size:1.2rem!important;line-height:1.6em}
@@ -1002,7 +990,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#header .is-search-form.is-form-id-26276 input[type='search']::placeholder{color:#FFFFFF}
 	#header .is-search-form.is-form-id-26276 input[type='search']{position:relative;top:3px;text-align:center;color:#FFFFFF;font-size:1em;line-height:1;background:rgba(0,0,0,.2);border:none;border-radius:32px}
 	.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{height:35px!important}
-	#content-wrapper{padding-top:64px}
+	#content-wrapper{padding-top:14px}
 	#header .is-search-form.is-form-id-26276 input[type='search']:focus::placeholder{color:rgba(255,255,255,.6)}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
 	.gp-responsive .gp-blog-wrapper.spacing-normal section{margin-bottom:1.2em}
@@ -1026,6 +1014,9 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.info-material{font-size:1rem}
 	.mo_doc_lib_responsive-table .mo_doc_lib_col:before{flex-basis:30%}
 	.mo_sps_class_doc_container .mo_sps_class_doc__list{grid-template-columns:1fr 1fr}
+	div.asl_r .results .item .asl_content .asl_desc {display:none}
+	div[id*=ajaxsearchlite].asl_m{width:95%}
+	#ajaxsearchlite1 .probox .proinput input.orig{font-size:1.4em!important}
 }
 @media (max-width:920px) and (orientation:portrait) {
 	#mobile-nav .menu{max-height:330px}
