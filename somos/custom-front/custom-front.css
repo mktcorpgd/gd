@@ -1014,9 +1014,9 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.info-material{font-size:1rem}
 	.mo_doc_lib_responsive-table .mo_doc_lib_col:before{flex-basis:30%}
 	.mo_sps_class_doc_container .mo_sps_class_doc__list{grid-template-columns:1fr 1fr}
-	div.asl_r .results .item .asl_content .asl_desc {display:none}
+	.asl_w_container{margin:0 15%;width:70%;position:fixed;top:58px;border-radius: 22px;z-index:9999}
 	div[id*=ajaxsearchlite].asl_m{width:95%}
-	#ajaxsearchlite1 .probox .proinput input.orig{font-size:1.4em!important}
+	#ajaxsearchlite1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:12px}
 }
 @media (max-width:920px) and (orientation:portrait) {
 	#mobile-nav .menu{max-height:330px}
