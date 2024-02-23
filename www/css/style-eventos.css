@@ -106,6 +106,9 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input:checked+label,.fusion-body .tribe-filter-bar .tribe-filter-bar-c-checkbox .tribe-common-form-control-checkbox__label:hover{color:var(--highlightColor)!important}
 .fusion-body #main .tribe-common-form-control-checkbox__input.tribe-common-form-control-checkbox__input:checked:before, .fusion-body #main .tribe-common-form-control-radio__input.tribe-common-form-control-radio__input:checked:before{color:var(--whiteColor)}
 .fusion-body .tribe-filter-bar .tribe-filter-bar-c-checkbox .tribe-common-form-control-checkbox__label{position:relative;top:2px}
+body.tribe_events-template-default.avada-has-titlebar-hide .tribe-events-notices{position:absolute;z-index:999999}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide) .tribe-events-notices{float:none;position:relative;border-radius:12px;z-index:10}
+.tribe-events-notices li{text-align:center}
 
 /* Desktop */
 @media (min-width:920px) {
