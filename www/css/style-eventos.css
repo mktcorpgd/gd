@@ -8,7 +8,7 @@ body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event,.tr
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap, .single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap{display:grid;font-size:.8em}
 .tribe-events-content h2, .tribe-events-content h3, .tribe-events-content h4, .tribe-events-content h5, .tribe-events-content h6{font-family:var(--titleFont)}
 .timezone{display:block;margin:.4em 0 0;font-size:.6em}
-.timezone:before{content:'/'}
+.timezone:before{content:'UTC'}
 .tribe-event-time:after{content:' h'}
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
