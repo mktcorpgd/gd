@@ -216,8 +216,8 @@ h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='velocom']:hover,h1+.gp-meta-
 .gp-meta-cats a[href*='sersat']{color:#109B84}
 .gp-meta-cats a[href*='velocom']{color:#AE1A57}
 */
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/'],h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']{color:#419466;border-color:#419466}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover{background:#419466}
+h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/'],h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']{color:#188549;border-color:#188549}
+h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover{background:#188549}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before{display:inline-block;margin-right:2px;content:'\f00c';font-weight:500;font-family:'Font Awesome 6 Pro'}
 #content iframe:not(.yotu-video-placeholder):not([src*='action=mo_sps_sync_file']){display:block;width:100%;max-height:320px;border-radius:12px}
 
@@ -326,7 +326,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdiscuz-loading-bar{width:56px;height:56px;top:auto!important;bottom:10px;right:90px;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-size:cover;background-position:center center;background-repeat:no-repeat}
 #wpdiscuz-comment-message{top:auto!important;right:90px;bottom:19px;font-size:.9em}
 #wpdiscuz-comment-message > div{border-radius:12px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6)}
-#wpdiscuz-comment-message > div.wpdiscuz-message-error{background-color:#FF5151}
+#wpdiscuz-comment-message > div.wpdiscuz-message-error{background-color:#ED2626}
 #wpdcom .wpd-comment .wpd-reply-to a{color:#999999;opacity:1}
 #wpdcom .wpd-comment .wpd-reply-to a:hover{color:#999999;text-decoration:underline}
 #wpdcom .wpd-comment-text *{margin-bottom:0}
@@ -381,9 +381,9 @@ input.small{margin-top:0;font-size:.9rem}
 div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:#333333}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:4px;border:none}
-.wpcf7-form .wpcf7-not-valid,input.inline.highlight.wpcf7-not-valid{border-color:#FF5151}
-.wpcf7-not-valid .wpcf7-list-item-label{color:#FF5151}
-.wpcf7-not-valid-tip{display:block;position:absolute;bottom:-22px;right:0;;color:#FF5151;text-transform:uppercase;font-size:.5rem;line-height:1;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
+.wpcf7-form .wpcf7-not-valid,input.inline.highlight.wpcf7-not-valid{border-color:#ED2626}
+.wpcf7-not-valid .wpcf7-list-item-label{color:#ED2626}
+.wpcf7-not-valid-tip{display:block;position:absolute;bottom:-22px;right:0;;color:#ED2626;text-transform:uppercase;font-size:.5rem;line-height:1;font-weight:400;letter-spacing:.5px;white-space:nowrap;z-index:10;cursor:default;pointer-events:none}
 input[type='file']+.wpcf7-not-valid-tip{bottom:-15px}
 select[name*='[]']+.wpcf7-not-valid-tip{bottom:-4px}
 .wpcf7-response-output,div[class*='wpcf7-response-']{width:100%;margin:1em auto 2em;border-radius:12px;font-size:.9em;line-height:1.4;text-align:center}
@@ -396,8 +396,8 @@ body .wpcf7-validation-errors a{display:block;color:#FFFFFF;text-decoration:none
 .wpcf7-response-msg a{color:#F0582B}
 .wpcf7-response-msg.info{background-color:#0169B3}
 .wpcf7-response-msg.info a{color:#FFFFFF}
-.wpcf7-form.invalid .wpcf7-response-output{background-color:#FF5151}
-.wpcf7-form.sent .wpcf7-response-output{background-color:#419466}
+.wpcf7-form.invalid .wpcf7-response-output{background-color:#ED2626}
+.wpcf7-form.sent .wpcf7-response-output{background-color:#188549}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:#F1B500}
 .wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left;width:100%}
 .wpcf7 label>i{color:#CCCCCC;cursor:default}
