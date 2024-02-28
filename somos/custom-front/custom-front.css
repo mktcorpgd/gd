@@ -314,6 +314,11 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #0E316E}
 #wpdcom .wpd-thread-head{border-bottom:2px solid #EAEAEA}
 #wpdcom .wpd-thread-head .wpd-thread-info{letter-spacing:0;text-transform:none}
+#wpdcom .wpd-comment-date{font-size:.9em;position:relative;top:2px}
+#wpdcom .wpd-comment-header .wpd-comment-author{font-size:1em;font-family:'open-sans',sans-serif;letter-spacing:0;color:#333333}
+#wpdcom .wpd-comment .wpd-avatar img, #wpdcom .wpd-comment .wpd-avatar img.avatar{padding:0}
+#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#0E316E}
+#wpdcom .wpd-comment .wpd-comment-label{margin-top:-4px;border-radius:12px;background:#0E316E}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
