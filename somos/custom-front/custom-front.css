@@ -311,6 +311,7 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .ql-editor > *,#wpdcom .ql-editor::before{letter-spacing:0;font-family:'open-sans',sans-serif}
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover,#wpdcom .ql-toolbar button:hover .ql-stroke{color:#F0582B!important}
 #wpdcom .ql-toolbar button:hover .ql-fill{fill:#F0582B!important}
+#wpdcom .ql-toolbar button:hover .ql-stroke{stroke:#F0582B!important}
 #wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #0E316E}
 #wpdcom .wpd-thread-head{border-bottom:2px solid #EAEAEA}
 #wpdcom .wpd-thread-head .wpd-thread-info{letter-spacing:0;text-transform:none}
