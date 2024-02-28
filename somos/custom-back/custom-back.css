@@ -28,7 +28,7 @@ body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-
 body{color:#333333}
 body,#wp-content-editor-tools{background:#FAFAFA;border:0!important}
 body a{color:#0E316E}
-body a:hover{color:#F0582B}
+body a:hover,.ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover{color:#F0582B}
 ul#adminmenu a.wp-has-current-submenu:after,ul#adminmenu>li.current>a.current:after{border-right-color:#FAFAFA!important}
 .wrap h1,.wrap h2,.wrap h3,.wrap h4,.wrap h5,.wrap h6{font-family:'neo-sans',sans-serif!important}
 h1,h2,h3{color:#0E316E}
