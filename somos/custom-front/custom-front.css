@@ -326,8 +326,8 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .ql-toolbar{border-radius:0 0 6px 6px}
 #wpdiscuz-loading-bar{width:56px;height:56px;top:auto!important;bottom:10px;right:90px;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-size:cover;background-position:center center;background-repeat:no-repeat}
 #wpdiscuz-comment-message{top:auto!important;right:90px;bottom:10px;border-radius:12px;font-size:.9em}
-#wpdcom .wpd-comment .wpd-reply-to a{color:#999999}
-#wpdcom .wpd-comment .wpd-reply-to a:hover{text-decoration:underline}
+#wpdcom .wpd-comment .wpd-reply-to a{color:#999999;opacity:1}
+#wpdcom .wpd-comment .wpd-reply-to a:hover{color:#999999;text-decoration:underline}
 
 
 /* Salesforce */
