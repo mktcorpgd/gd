@@ -27,7 +27,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 .mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],[id*='mo_doc_lib_container__loader']>img,.mo_sps_class_embed_file[data-sharepoint_name="Grupo_Datco-Manual_Identidad.pdf"],
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
-#wpdcom .wpd-form-head,[wpd-tooltip]::after,[wpd-tooltip]::before,
+#wpdcom .wpd-form-head,[wpd-tooltip]::after,[wpd-tooltip]::before,.wpd-comment-label,
 /* Formularios */
 .wpcf7 .hidden,div.wpcf7 .ajax-loader,.wpcf7 .wpcf7-validates-as-required.valid~label,.mc4wp-checkbox,#content .wpcf7+h2,.wpcf7-radio.wpcf7-not-valid+.wpcf7-not-valid-tip,.wpcf7-checkbox.wpcf7-not-valid+.wpcf7-not-valid-tip,span.phone_ext_block,#wpcf7-f16691-p18546-o1>div:nth-child(7),.wpcf7-display-none,div.wpcf7 div.ajax-error,.wpcf7 a[href='#map'],.screen-reader-response,
 /* Galería de fotos */
@@ -318,9 +318,8 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .wpd-comment-date{font-size:.9em;position:relative;top:2px}
 #wpdcom .wpd-comment-header .wpd-comment-author{font-size:1.1em;font-family:'open-sans',sans-serif;letter-spacing:0;color:#333333}
 #wpdcom .wpd-comment .wpd-avatar img, #wpdcom .wpd-comment .wpd-avatar img.avatar{padding:0}
-#wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#0E316E}
-#wpdcom .wpd-comment .wpd-comment-label,#wpdcom .wpd-comment.wpd-reply .wpd-comment-label{padding:.4em 0;font-size:.9rem;line-height:normal;margin-top:-4px;border-radius:12px;background:#0E316E}
-#wpdcom .ql-container{border:1px solid #917676;background:#F6F6F6;border-radius:6px 6px 0 0}
+#wpdcom .wpd-comment.wpd-reply .wpd-avatar img, #wpdcom .wpd-comment.wpd-reply .wpd-avatar img.avatar{border-color:#EAEAEA}
+#wpdcom .ql-container{border:1px solid #CCCCCC;background:#F6F6F6;border-radius:6px 6px 0 0}
 #wpdcom .ql-container:hover{background:#FFFFFF}
 #wpdcom .ql-toolbar{border-radius:0 0 6px 6px}
 #wpdiscuz-loading-bar{width:56px;height:56px;top:auto!important;bottom:10px;right:90px;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-size:cover;background-position:center center;background-repeat:no-repeat}
