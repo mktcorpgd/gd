@@ -15,7 +15,9 @@ body.no-customize-support table.fh-profile-upload-options,body.no-customize-supp
 /* Eventos */
 body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-type-event .check-column,
 /* Footer */
-#wpfooter
+#wpfooter,
+/* Comentarios */
+#wpdcom .wpd-form-head
 {display:none!important}
 /* Oculto no forzado */
 .toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
