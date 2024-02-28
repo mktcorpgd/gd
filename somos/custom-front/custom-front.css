@@ -293,7 +293,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 
 /* Comentarios */
 .comments-area{margin:0 auto;width:100%}
-#comments{padding-bottom:1em}
+#comments{margin:0;padding-bottom:1em}
 #comments #reply-title{margin-top:0;margin-bottom:0;padding:5px 30px;line-height:150%;background:#FAFAFA}
 #comments #reply-title a{color:#FFFFFF}
 #comments .comment-reply-link,#comments #cancel-comment-reply-link{padding:.2em .4em;color:#F0582B;font-weight:400;font-size:.8em;font-family:'neo-sans',sans-serif;background:#FAFAFA;border-radius:6px}
@@ -307,8 +307,11 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 #comments .commentlist li .gp-comment-content{margin-left:0}
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
 #comments .commentlist .children li.comment{margin:1em 0 0 0;padding-left:1em;border-left:2px solid rgba(0,0,0,.1)}
+body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .ql-editor > *{letter-spacing:0;font-family:'open-sans',sans-serif}
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover{color:#F0582B}
+#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:4px solid #0E316E}
+#wpdcom .wpd-thread-head{border-bottom:4px solid #EAEAEA}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
