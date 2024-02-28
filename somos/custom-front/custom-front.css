@@ -313,21 +313,23 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .wpd-comment .wpd-comment-header{padding-bottom:0}
 #wpdcom .ql-toolbar button:hover .ql-fill{fill:#F0582B!important}
 #wpdcom .ql-toolbar button:hover .ql-stroke{stroke:#F0582B!important}
-#wpdcom .wpd-thread-head .wpd-thread-info{border-bottom:2px solid #0E316E}
+#wpdcom .wpd-thread-head .wpd-thread-info{padding:.4em;letter-spacing:0;text-transform:none;border-bottom:2px solid #0E316E}
 #wpdcom .wpd-thread-head{border-bottom:2px solid #EAEAEA}
-#wpdcom .wpd-thread-head .wpd-thread-info{letter-spacing:0;text-transform:none}
 #wpdcom .wpd-comment-date{font-size:.9em;position:relative;top:2px}
 #wpdcom .wpd-comment-header .wpd-comment-author{font-size:1.1em;font-family:'open-sans',sans-serif;letter-spacing:0;color:#333333}
 #wpdcom .wpd-comment .wpd-avatar img, #wpdcom .wpd-comment .wpd-avatar img.avatar{padding:0}
 #wpdcom.wpd-layout-1 .wpd-comment .wpd-blog-post_author .wpd-avatar img{border-color:#0E316E}
-#wpdcom .wpd-comment .wpd-comment-label{margin-top:-4px;border-radius:12px;background:#0E316E}
-#wpdcom .ql-container{border:1px solid #CCCCCC;background:#F6F6F6;border-radius:6px 6px 0 0}
+#wpdcom .wpd-comment .wpd-comment-label,#wpdcom .wpd-comment.wpd-reply .wpd-comment-label{font-size:.9rem;margin-top:-4px;border-radius:12px;background:#0E316E}
+#wpdcom .ql-container{border:1px solid #917676;background:#F6F6F6;border-radius:6px 6px 0 0}
 #wpdcom .ql-container:hover{background:#FFFFFF}
 #wpdcom .ql-toolbar{border-radius:0 0 6px 6px}
 #wpdiscuz-loading-bar{width:56px;height:56px;top:auto!important;bottom:10px;right:90px;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-size:cover;background-position:center center;background-repeat:no-repeat}
-#wpdiscuz-comment-message{top:auto!important;right:90px;bottom:10px;border-radius:12px;font-size:.9em}
+#wpdiscuz-comment-message{top:auto!important;right:90px;bottom:19px;font-size:.9em}
+#wpdiscuz-comment-message > div{border-radius:12px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6)}
+#wpdiscuz-comment-message > div.wpdiscuz-message-error{background-color:#FF5151}
 #wpdcom .wpd-comment .wpd-reply-to a{color:#999999;opacity:1}
 #wpdcom .wpd-comment .wpd-reply-to a:hover{color:#999999;text-decoration:underline}
+#wpdcom .wpd-comment-text *{margin-bottom:0}
 
 
 /* Salesforce */
