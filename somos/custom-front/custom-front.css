@@ -307,7 +307,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 #comments .commentlist li .gp-comment-content{margin-left:0}
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
 #comments .commentlist .children li.comment{margin:1em 0 0 0;padding-left:1em;border-left:2px solid rgba(0,0,0,.1)}
-body.postid-61069 #comments{margin:0;padding:0}
+body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .ql-editor > *,#wpdcom .ql-editor::before{letter-spacing:0;font-family:'open-sans',sans-serif}
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover,#wpdcom .ql-toolbar button:hover .ql-stroke,#wpdcom .ql-toolbar button.ql-spoiler:hover, #wpdcom .ql-toolbar button.ql-sourcecode:hover, #wpdcom .ql-toolbar .wmu-upload-wrap .wmu-add i:hover,#wpdcom .wpd_label__check i.wpdicon-on{color:#F0582B!important}
 #wpdcom .wpd-comment .wpd-comment-header{padding-bottom:0}
@@ -334,7 +334,8 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .wpd_label__check i.wpdicon-on:hover{background:#1F4483;border:2px solid #1F4483}
 #wpdcom .wpd_label__check i.wpdicon-off{background:#FFFFFF;border:2px solid #999999;color:#999999}
 #wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999}
-
+#wpdcom .wpd-tools-actions{border-radius:6px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);font-family:'open-sans',sans-serif;font-size:.9em}
+#wpdcom .wpd-tools-actions .wpd-cta-button:hover{border-radius:6px}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
