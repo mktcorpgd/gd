@@ -169,6 +169,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .folded #wpwrap #adminmenuwrap ul#adminmenu .menu-logo{padding-left:6px!important;width:24px}
 .metabox-holder .postbox-container .empty-container{border:0!important}
 #step-2>div:nth-child(23){margin-bottom:20px!important}
+#wpcontent{padding-left:20px!important}
 
 /* Toggle */
 .toggle ul li{margin-left:40px!important;list-style:disc!important}
