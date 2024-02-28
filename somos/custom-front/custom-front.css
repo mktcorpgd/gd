@@ -309,7 +309,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 #comments .commentlist .children li.comment{margin:1em 0 0 0;padding-left:1em;border-left:2px solid rgba(0,0,0,.1)}
 body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .ql-editor > *,#wpdcom .ql-editor::before{letter-spacing:0;font-family:'open-sans',sans-serif}
-.ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover,#wpdcom .ql-toolbar button:hover .ql-stroke,#wpdcom .ql-toolbar button.ql-spoiler:hover, #wpdcom .ql-toolbar button.ql-sourcecode:hover, #wpdcom .ql-toolbar .wmu-upload-wrap .wmu-add i:hover{color:#F0582B!important}
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover,#wpdcom .ql-toolbar button:hover .ql-stroke,#wpdcom .ql-toolbar button.ql-spoiler:hover, #wpdcom .ql-toolbar button.ql-sourcecode:hover, #wpdcom .ql-toolbar .wmu-upload-wrap .wmu-add i:hover,#wpdcom .wpd_label__check i.wpdicon-on{color:#F0582B!important}
 #wpdcom .wpd-comment .wpd-comment-header{padding-bottom:0}
 #wpdcom .ql-toolbar button:hover .ql-fill{fill:#F0582B!important}
 #wpdcom .ql-toolbar button:hover .ql-stroke{stroke:#F0582B!important}
@@ -329,6 +329,9 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .wpd-comment .wpd-reply-to a:hover{color:#999999;text-decoration:underline}
 #wpdcom .wpd-comment-text *{margin-bottom:0}
 #wpdcom .wpd-comment-text{color:#555555}
+#wpdcom .wpd_label__check i{border:2px solid #F0582B;color:#F0582B;border-radius:6px}
+#wpdcom .wpd_label__check i.wpdicon-on{background:#F0582B;color:#FFFFFF}
+#wpdcom .wpd_label__check i.wpdicon-off{border-color:#999999;color:#999999;background:#FFFFFF}
 
 
 /* Salesforce */
