@@ -329,9 +329,11 @@ body.postid-61069 #comments{margin:0;padding:0}
 #wpdcom .wpd-comment .wpd-reply-to a:hover{color:#999999;text-decoration:underline}
 #wpdcom .wpd-comment-text *{margin-bottom:0}
 #wpdcom .wpd-comment-text{color:#555555}
-#wpdcom .wpd_label__check i{border:2px solid #F0582B;color:#F0582B;border-radius:6px}
-#wpdcom .wpd_label__check i.wpdicon-on{background:#F0582B;color:#FFFFFF}
-#wpdcom .wpd_label__check i.wpdicon-off{border-color:#999999;color:#999999;background:#FFFFFF}
+#wpdcom .wpd_label__check i{color:#F0582B;border-radius:6px}
+#wpdcom .wpd_label__check i.wpdicon-on{background:#F0582B;border:2px solid #F0582B;color:#FFFFFF}
+#wpdcom .wpd_label__check i.wpdicon-on:hover{background:#1F4483;border:2px solid #1F4483}
+#wpdcom .wpd_label__check i.wpdicon-off{background:#FFFFFF;border:2px solid #999999;color:#999999}
+#wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999}
 
 
 /* Salesforce */
