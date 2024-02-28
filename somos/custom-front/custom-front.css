@@ -336,7 +336,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd_label__check i.wpdicon-on:hover{background:#1F4483;border:1px solid #1F4483;color:#FFFFFF!important}
 #wpdcom .wpd_label__check i.wpdicon-off{background:#FAFAFA;border:1px solid #FAFAFA;color:#999999!important}
 #wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999;color:#FFFFFF!important}
-#wpdcom .wpd-tools-actions{border-radius:6px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);font-family:'open-sans',sans-serif;font-size:.9em}
+#wpdcom .wpd-tools-actions{padding:.2em;border-radius:6px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);font-family:'open-sans',sans-serif;font-size:.8em}
 #wpdcom .wpd-tools-actions .wpd-cta-button:hover{border-radius:6px}
 #wpdcom .wpd-form-row .wpd-form-col-right{width:100%}
 
@@ -767,6 +767,7 @@ body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border:none;box
 /* Botones */
 #page-wrapper{overflow:visible}
 .wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button{margin:0;padding:.4em .6em;color:#FFFFFF;font-family:'open-sans',sans-serif;font-size:1.1em;letter-spacing:0;line-height:normal;text-align:center;background:#F0582B!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2);text-decoration:none!important;text-shadow:none;outline:none}
+#wpdcom .wpd-second-button:hover, #wpdcom .wpd-prim-button:hover{opacity:1}
 #wpdcom .wpd_label__check i.wpdicon-off{border-radius:6px}
 .sc-button,.sc-button:hover{margin:0}
 .wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button{font-weight:600!important;border-radius:12px!important}
