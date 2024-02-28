@@ -69,7 +69,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#555555}
 ::-ms-input-placeholder{color:#555555}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asl_r .results .item,#wpdcom .ql-container{transition:all .1s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asl_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i{transition:all .1s ease-in-out!important}
 #nav .menu li.menu-item-has-children:after,.wp-classic-menu-block>.menu ul,.kit>.menu li,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#EAEAEA;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos-2023.png');background-position:top center;letter-spacing:-.1px;background-repeat:repeat;background-size:100%;background-attachment:scroll}
@@ -311,6 +311,8 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .ql-editor > *,#wpdcom .ql-editor::before{letter-spacing:0;font-family:'open-sans',sans-serif}
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover,#wpdcom .ql-toolbar button:hover .ql-stroke,#wpdcom .ql-toolbar button.ql-spoiler:hover, #wpdcom .ql-toolbar button.ql-sourcecode:hover, #wpdcom .ql-toolbar .wmu-upload-wrap .wmu-add i:hover,#wpdcom .wpd_label__check i.wpdicon-on{color:#F0582B!important}
 #wpdcom .wpd-comment .wpd-comment-header{padding-bottom:0}
+#wpdcom .ql-toolbar{padding:.2em .4em}
+#wpdcom .ql-toolbar span.wmu-upload-wrap{top:3px}
 #wpdcom .ql-toolbar button:hover .ql-fill{fill:#F0582B!important}
 #wpdcom .ql-toolbar button:hover .ql-stroke{stroke:#F0582B!important}
 #wpdcom .wpd-thread-head .wpd-thread-info{padding:.4em;letter-spacing:0;text-transform:none;border-bottom:2px solid #0E316E}
@@ -333,7 +335,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd_label__check i.wpdicon-on{background:#FAFAFA;border:1px solid #EAEAEA;color:#F0582B!important}
 #wpdcom .wpd_label__check i.wpdicon-on:hover{background:#1F4483;border:1px solid #1F4483;color:#FFFFFF!important}
 #wpdcom .wpd_label__check i.wpdicon-off{background:#FAFAFA;border:1px solid #FAFAFA;color:#999999!important}
-#wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999}
+#wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999;color:#FFFFFF!important}
 #wpdcom .wpd-tools-actions{border-radius:6px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);font-family:'open-sans',sans-serif;font-size:.9em}
 #wpdcom .wpd-tools-actions .wpd-cta-button:hover{border-radius:6px}
 #wpdcom .wpd-form-row .wpd-form-col-right{width:100%}
@@ -768,8 +770,8 @@ body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border:none;box
 #wpdcom .wpd_label__check i.wpdicon-off{border-radius:6px}
 .sc-button,.sc-button:hover{margin:0}
 .wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button{font-weight:600!important;border-radius:12px!important}
-.wpcf7 button:hover,.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
-.wpcf7 button:active,.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active{background:#0E316E!important}
+.wpcf7 button:hover,.button:hover,.sc-button:hover,.yotu-playlist .yotu-pagination-more:hover,#respond #submit:hover,.wpcf7 input[type='submit']:hover,#text-4 h3 a:hover,#wpdcom .wpd-prim-button:hover{background:#1F4483!important;box-shadow:0 2px 2px 0px rgba(0,0,0,.4)}
+.wpcf7 button:active,.button:active,.sc-button:active,.yotu-playlist .yotu-pagination-more:active,#respond #submit:active,.wpcf7 input[type='submit']:active,#text-4 h3 a:active,#wpdcom .wpd-prim-button:active{background:#0E316E!important}
 .wpcf7 input[type='submit']{display:block;margin:1em auto 0;border:none!important}
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:#CCCCCC;background:#CCCCCC;opacity:1}
 .sc-button>i,.wpcf7 button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
