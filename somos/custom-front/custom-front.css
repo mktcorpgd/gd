@@ -330,9 +330,9 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-comment-text *{margin-bottom:0}
 #wpdcom .wpd-comment-text{color:#555555}
 #wpdcom .wpd_label__check i{color:#F0582B;border-radius:6px}
-#wpdcom .wpd_label__check i.wpdicon-on{background:#F0582B;border:2px solid #F0582B;color:#FFFFFF}
-#wpdcom .wpd_label__check i.wpdicon-on:hover{background:#1F4483;border:2px solid #1F4483}
-#wpdcom .wpd_label__check i.wpdicon-off{background:#FFFFFF;border:2px solid #999999;color:#999999}
+#wpdcom .wpd_label__check i.wpdicon-on{background:#FAFAFA;border:1px solid #EAEAEA;color:#F0582B!important}
+#wpdcom .wpd_label__check i.wpdicon-on:hover{background:#1F4483;border:1px solid #1F4483;color:#FFFFFF!important}
+#wpdcom .wpd_label__check i.wpdicon-off{background:#FAFAFA;border:1px solid #FAFAFA;color:#999999!important}
 #wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999}
 #wpdcom .wpd-tools-actions{border-radius:6px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);font-family:'open-sans',sans-serif;font-size:.9em}
 #wpdcom .wpd-tools-actions .wpd-cta-button:hover{border-radius:6px}
