@@ -17,7 +17,7 @@ body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-
 /* Footer */
 #wpfooter,
 /* Comentarios */
-#wpdcom .wpd-form-head
+#wpdcom .wpd-form-head,#wpdcom[wpd-tooltip]:hover::after,[wpd-tooltip]:hover::before
 {display:none!important}
 /* Oculto no forzado */
 .toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
