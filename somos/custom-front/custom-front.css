@@ -336,6 +336,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999}
 #wpdcom .wpd-tools-actions{border-radius:6px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);font-family:'open-sans',sans-serif;font-size:.9em}
 #wpdcom .wpd-tools-actions .wpd-cta-button:hover{border-radius:6px}
+#wpdcom .wpd-form-row .wpd-form-col-right{width:100%}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
