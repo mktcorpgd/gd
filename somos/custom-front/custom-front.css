@@ -332,6 +332,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-comment-text *{margin-bottom:0}
 #wpdcom .wpd-comment-text{color:#555555}
 #wpdcom .wpd_label__check i{color:#F0582B;border-radius:6px}
+#wpdcom .wpd_label__check i.wpdicon{font-size:.8em}
 #wpdcom .wpd_label__check i.wpdicon-on{background:#FAFAFA;border:1px solid #EAEAEA;color:#F0582B!important}
 #wpdcom .wpd_label__check i.fa-bell.wpdicon{width:auto}
 #wpdcom .wpd_label__check i.fa-bell.wpdicon:after{content:'Notificarme por respuestas';display:inline-block;padding-left:.4em; font-weight:600}
