@@ -308,6 +308,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
 #comments .commentlist .children li.comment{margin:1em 0 0 0;padding-left:1em;border-left:2px solid rgba(0,0,0,.1)}
 #wpdcom .ql-editor > *{letter-spacing:0;font-family:'open-sans',sans-serif}
+.ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover{color:#F0582B}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
