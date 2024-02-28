@@ -319,7 +319,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-thread-head{border-bottom:2px solid #EAEAEA}
 #wpdcom .wpd-comment-date{font-size:.9em;position:relative;top:2px}
 #wpdcom .wpd-comment-header .wpd-comment-author{font-size:1.1em;font-family:'open-sans',sans-serif;letter-spacing:0;color:#333333}
-#wpdcom .wpd-comment .wpd-avatar img, #wpdcom .wpd-comment .wpd-avatar img.avatar{padding:0;border-color:#EAEAEA}
+#wpdcom .wpd-comment .wpd-avatar img, #wpdcom .wpd-comment .wpd-avatar img.avatar,#wpdcom .wpd-form .wpd-avatar img, #wpdcom .wpd-form .wpd-avatar img.avatar{padding:0;border-color:#EAEAEA!important}
 #wpdcom .ql-container{border:1px solid #CCCCCC;background:#F6F6F6;border-radius:6px 6px 0 0}
 #wpdcom .ql-container:hover{background:#FFFFFF}
 #wpdcom .ql-toolbar{border-radius:0 0 6px 6px}
