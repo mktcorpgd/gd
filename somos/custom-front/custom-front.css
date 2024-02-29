@@ -105,7 +105,8 @@ body.page-id-26272 #content .padder:before,body.page-id-26272 #content .padder:a
 body,input[type='text'],input[type='search'],input[type='url'],input[type='tel'],input[type='date'],input[type='number'],select,textarea,#sidebar .menu li .menu-subtitle{font-family:'open-sans',sans-serif}
 abbr[title]{border-bottom:0;cursor:inherit;text-decoration:none}
 input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,.wpcf7-list-item-label{font-family:'open-sans',sans-serif;font-size:1rem!important;line-height:1.2;letter-spacing:-.01em}
-input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select{margin:.3em 0 .6em;width:100%;height:auto;background:#F6F6F6;border:1px solid #CCCCCC;border-radius:6px;box-shadow:none}
+input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,
+#ajaxsearchpro4_1 .probox .proinput input.orig, #ajaxsearchpro4_2 .probox .proinput input.orig, div.asp_m.asp_m_4 .probox .proinput input.orig{margin:.3em 0 .6em;width:100%;height:auto;background:#F6F6F6;border:1px solid #CCCCCC;border-radius:6px;box-shadow:none}
 input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='email'],input[type='tel'],input[type='number'],textarea{padding:.5em .6em!important}
 select{position:relative;padding:.37em .6em}
 textarea{height:auto;line-height:1.3}
