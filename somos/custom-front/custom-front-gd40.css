@@ -120,7 +120,8 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 @media (max-width:960px) {
 	.wp-block-column #timelinegd,.wp-block-column .wp-block-column{margin:1em 0 0}
 	.wp-block-column>h4{margin-left:-1.05rem;margin-right:-1.05rem;font-size:1.2em}
-	#menu40gd{top:110px;left:0}
+	#menu40gd{left:0}
+	#menu40gd ul{font-size:.8em}
 	#menu40gd ul li{line-height:1.5}
 	#menu40gd ul li:not(:last-child){border-right:none}
 	#menu40gd>span{display:none}
