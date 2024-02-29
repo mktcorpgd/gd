@@ -563,6 +563,8 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 #post-content .probox .proinput input.orig{margin:.6em 0;padding:.5em .6em!important;box-sizing:border-box;font-size:1rem!important;font-size:1rem!important;color:#555555!important;background:#F6F6F6!important;border:2px solid #CCCCCC!important}
 #post-content .probox .proinput input.orig:hover,#post-content .probox .proinput input.orig:focus{background:#FFFFFF!important;border:2px solid #999999!important}
 #post-content .probox .proinput input.orig::placeholder{font-size:1rem!important}
+#post-content .probox .promagnifier .innericon:before{color:#CCCCCC!important}
+#post-content .probox .promagnifier .innericon:hover:before{color:#999999!important}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:'open-sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
