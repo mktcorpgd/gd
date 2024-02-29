@@ -964,7 +964,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
-	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper{grid-gap:.5em 1em}
+	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper{margin-bottom:1em;grid-gap:.5em 1em}
 	.gp-blog-wrapper[class*='gp-blog-columns'] section .post-thumbnail,body.archive .gp-blog-wrapper section .post-thumbnail{max-width:100%}
 	body.single .gp-entry-meta .gp-meta-cats{padding-left:.8rem;border-left:2px solid #EAEAEA}
 	body.single article[class*='category-politicas-procesos'] .gp-meta-date+.gp-meta-cats{padding-left:0;border-left:none}
