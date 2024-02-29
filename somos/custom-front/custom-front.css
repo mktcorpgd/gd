@@ -69,7 +69,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#555555}
 ::-ms-input-placeholder{color:#555555}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *,div.asp_w.asp_r .results a span.overlap{transition:all .1s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *,div.asp_r{transition:all .1s ease-in-out!important}
 #nav .menu li.menu-item-has-children:after,.wp-classic-menu-block>.menu ul,.kit>.menu li,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#EAEAEA;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos-2023.png');background-position:top center;letter-spacing:-.1px;background-repeat:repeat;background-size:100%;background-attachment:scroll}
@@ -543,7 +543,6 @@ div.asp_m .probox .proclose:hover:before,div.asp_m .probox .promagnifier .inneri
 div[id*='ajaxsearchpro'] .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em 7.4em .5em .6em!important;color:#FFFFFF!important;background:#1F4483!important;border:4px solid rgba(0,0,0,.2)!important;border-top:none!important;border-radius:0 0 12px 12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)!important;font-size:1.2em!important;line-height:normal;text-align:left}
 div[id*='ajaxsearchpro'] .probox .proinput input::placeholder{font-size:1.1em!important;color:#FFFFFF!important}
 div.asp_s.searchsettings form{background:#FFFFFF;border-radius:6px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5);border:1px solid #eaeaea}
-div[id*='ajaxsearchprores'].wpdreams_asl_results div.resdrg span.highlighted{background:0 0!important;color:#333333!important;font-weight:400!important;text-decoration:underline}
 div.asp_r.vertical{margin-top:-2px!important;background:#FFFFFF!important;border:2px solid #1f4381!important;border-radius:6px 6px 12px 12px!important;box-shadow:0 4px 24px -12px rgba(0,0,0,.5)!important}
 div.asp_r .results .item{padding:.2em .4em}
 div.asp_r .results .item:hover{background:rgba(0,0,0,.025)}
