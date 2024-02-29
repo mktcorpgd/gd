@@ -553,8 +553,9 @@ div.asp_s.searchsettings .asp_option_inner input:checked+.asp_option_checkbox{ba
 div.asp_s.searchsettings .asp_option_label{color:#333333;font-size:.9em;font-weight:400;text-shadow:none}
 div.asp_s.searchsettings form fieldset legend{font-size:.8em;color:#555555}
 div.asp_s.searchsettings fieldset{margin:.4em 0!important}
-div.asp_r .results .item .asp_content h3{font-size:1.1em!important}
+div.asp_r .results .item .asp_content h3{font-size:1.2em!important}
 div.asp_r .results .item .asp_content h3 a{color:#333333!important;font-family:'neo-sans',sans-serif!important;font-size:inherit!important;font-weight:400!important;line-height:normal!important}
+div.asp_r .results .item .asp_content:hover h3 a{color:#F0582B!important}
 div.asp_r .results .item .asp_content{padding:.4em 0}
 div.asp_r .results .item .asp_content .asp_res_text{margin-top:.2em;font-size:.9em;letter-spacing:-.1px}
 div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
