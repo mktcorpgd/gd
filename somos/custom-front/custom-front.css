@@ -560,7 +560,7 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 #ajaxsearchpro1_1 .probox, div.asp_w .probox{position:relative;background:none!important}
 #post-content .probox>div:not(.proinput){display:none}
 #post-content .probox{height:auto!important}
-#post-content .probox .proinput input.orig{padding:.5em .6em!important;box-sizing:border-box;font-size:1rem!important;color:#555555!important;background:#F6F6F6;border:1px solid #CCCCCC}
+#post-content .probox .proinput input.orig{padding:.5em .6em!important;box-sizing:border-box;font-size:1rem!important;font-size:1rem!important;color:#555555!important;background:#F6F6F6;border:2px solid #CCCCCC}
 #post-content .probox .proinput input.orig:hover,#post-content .probox .proinput input.orig:focus{background:#FFFFFF;border:1px solid #999999}
 #post-content .probox .proinput input.orig::placeholder{font-size:1rem!important}
 
