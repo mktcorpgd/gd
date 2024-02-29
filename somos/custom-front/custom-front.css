@@ -69,7 +69,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#555555}
 ::-ms-input-placeholder{color:#555555}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *{transition:all .1s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *,div.asp_w.asp_r .results a span.overlap{transition:all .1s ease-in-out!important}
 #nav .menu li.menu-item-has-children:after,.wp-classic-menu-block>.menu ul,.kit>.menu li,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#EAEAEA;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos-2023.png');background-position:top center;letter-spacing:-.1px;background-repeat:repeat;background-size:100%;background-attachment:scroll}
@@ -519,8 +519,6 @@ body.postid-49885 #content h3.toggle {margin-bottom:1em;font-weight:500}
 body.postid-49885 .toggle-box{margin-bottom:1.5em}
 
 /* Buscadores */
-body>.is-search-form{margin:52px auto 1em;width:95%}
-.error404 .gp-search{margin-top:1em}
 #__original__ajaxsearchprosettings1_1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asp_r .results .item div.etc,form.is-search-form{display:none!important}
 #header{border:none!important}
 .asp_w_container{margin-top:50px}
@@ -555,7 +553,7 @@ div.asp_s.searchsettings .asp_option_label{color:#333333;font-size:.9em;font-wei
 div.asp_s.searchsettings form fieldset legend{font-size:.8em;color:#555555}
 div.asp_s.searchsettings fieldset{margin:.4em 0!important}
 div.asp_r .results .item .asp_content h3{font-size:1.1em!important}
-div.asp_r .results .item .asp_content h3 a{color:#333333!important;font-family:'neo-sans',sans-serif!important;font-size:inherit!important;line-height:normal!important}
+div.asp_r .results .item .asp_content h3 a{color:#333333!important;font-family:'neo-sans',sans-serif!important;font-size:inherit!important;font-weight:400!important;line-height:normal!important}
 div.asp_r .results .item .asp_content .asp_res_text{margin-top:.2em}
 div.asp_r .results .item .asp_content{padding:.4em 0}
 div.asp_r .results .item .asp_content .asp_desc{margin-top:.2em;font-size:.9em;letter-spacing:-.1px}
