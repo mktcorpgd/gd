@@ -521,17 +521,17 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 /* Buscadores */
 #__original__ajaxsearchprosettings1_1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asp_r .results .item div.etc,form.is-search-form{display:none!important}
 #header{border:none!important}
-.asp_w_container{position:fixed;margin-top:50px;margin-bottom:10px;z-index:10}
-.asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings{border:none!important;box-shadow:none!important}
+.asp_w_container{position:fixed;margin-top:50px;margin-bottom:10px;z-index:10;overflow:visible}
+.asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,#ajaxsearchpro1_1 .probox .proinput input.autocomplete, #ajaxsearchpro1_2 .probox .proinput input.autocomplete, div.asp_m.asp_m_1 .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
 body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible;background:none!important}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
 div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute!important}
-div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{top:-2px;height:100%!important}
+div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{top:-3px;height:100%!important}
 div.asp_m .probox .prosettings{right:45px}
 div.asp_m .probox .promagnifier{right:12px}
 div.asp_m .probox .proclose{right:74px}
-div.asp_m .probox .proloading{right:79px;width:22px!important;height:22px!important;max-width:22px!important;max-height:22px!important;min-width:22px!important;min-height:22px!important}
+div.asp_m .probox .proloading{top:5px;right:80px;width:22px!important;height:22px!important;max-width:22px!important;max-height:22px!important;min-width:22px!important;min-height:22px!important}
 div.asp_m .probox .proloading .asp_loader .asp_loader-inner{border:3px solid rgba(255,255,255,.8)!important}
 div.asp_m .probox .proclose:before,div.asp_m .probox .promagnifier .innericon:before,div.asp_m .probox .prosettings .innericon:before{display:grid;align-items:center;height:100%;color:rgba(255,255,255,.8);font-family:'Font Awesome 6 Pro',sans-serif;position:relative;font-size:1.3em}
 div.asp_m .probox .prosettings .innericon:before{content:'\e17c'}
