@@ -521,15 +521,13 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 /* Buscadores */
 body>.is-search-form{margin:52px auto 1em;width:95%}
 .error404 .gp-search{margin-top:1em}
-#content .is-search-input{font-size:1.1em;text-align:center}
-body.fullwidth #content .is-search-input{font-size:1.5em}
 #__original__ajaxsearchprosettings1_1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asp_r .results .item div.etc,form.is-search-form{display:none!important}
 #header{border:none!important}
-#content-wrapper{margin-top:50px}
+.asp_w_container{margin-top:50px}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
 .asp_w_container{margin-bottom:10px;z-index:10}
-div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%;overflow:visible;background:none}
+div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible;background:none}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
 div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute}
 div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{height:100%!important}
@@ -543,6 +541,7 @@ div.asp_m .probox .promagnifier .innericon:before{content:'\f002'}
 div.asp_m .probox .proclose:before{content:'\f00d'}
 div.asp_m .probox .proclose:hover:before,div.asp_m .probox .promagnifier .innericon:hover:before,div.asp_m .probox .prosettings .innericon:hover:before{color:#FFFFFF}
 #ajaxsearchpro1_1 .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em 7.4em .5em .6em!important;color:#FFFFFF!important;background:#1F4483!important;border:4px solid rgba(0,0,0,.2)!important;border-top:none!important;border-radius:0 0 12px 12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)!important;font-size:1.2em!important;line-height:normal;text-align:left}
+#ajaxsearchpro1_1 .probox .proinput input.autocomplete, #ajaxsearchpro1_2 .probox .proinput input.autocomplete, div.asp_m.asp_m_1 .probox .proinput input.autocomplete{font-size:1.2em!important}
 #ajaxsearchpro1_1 .probox .proinput input::placeholder{color:#FFFFFF!important}
 div.asp_s.searchsettings form{background:#FFFFFF;border-radius:6px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5);border:1px solid #eaeaea}
 div[id*='ajaxsearchprores'].wpdreams_asl_results div.resdrg span.highlighted{background:0 0!important;color:#333333!important;font-weight:400!important;text-decoration:underline}
@@ -560,7 +559,7 @@ div.asp_r .results .item .asp_content h3 a{color:#333333!important;font-family:n
 div.asp_r .results .item .asp_content{padding:.4em 0}
 div.asp_r .results .item .asp_content .asp_desc{margin-top:.2em;font-size:.9em;letter-spacing:-.1px}
 div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
-#ajaxsearchpro1_1 .probox, div.asp_w .probox{background:none!important}
+#ajaxsearchpro1_1 .probox, div.asp_w .probox{position:relative;background:none!important}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:'open-sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
