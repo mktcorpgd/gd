@@ -29,7 +29,7 @@ body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .grid-gallery-caption{width:auto}
 .grid-gallery-caption figcaption{background:rgba(14,49,110,.6)}
 .grid-gallery-caption figcaption .gg-image-caption{font-size:.9em}
-#menu40gd{margin-bottom:0;width:100%;text-align:center;position:fixed;bottom:127px;z-index:90}
+#menu40gd{margin-bottom:0;width:100%;text-align:center;position:fixed;bottom:0;z-index:90}
 #menu40gd ul,#menu40gd ul li{display:inline-block;margin:0;padding:0;list-style:none}
 #menu40gd ul{padding:.5em;font-family:'neo-sans',sans-serif;font-size:.9em;font-weight:500;background:#F0582B;border-top-left-radius:12px;border-top-right-radius:12px;color:#FFFFFF;text-align:center;transition:top .1s ease-in-out}
 #menu40gd ul li:not(:last-child){border-right:2px solid rgba(255,255,255,.2)}
