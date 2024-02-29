@@ -527,7 +527,7 @@ body>.is-search-form{margin:52px auto 1em;width:95%}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
 .asp_w_container{margin-bottom:10px;z-index:10}
-div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible;background:none!important}
+body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible;background:none!important}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
 div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute!important}
 div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{top:-2px;height:100%!important}
@@ -554,8 +554,9 @@ div.asp_s.searchsettings .asp_option_inner input:checked+.asp_option_checkbox{ba
 div.asp_s.searchsettings .asp_option_label{color:#333333;font-size:.9em;font-weight:400;text-shadow:none}
 div.asp_s.searchsettings form fieldset legend{font-size:.8em;color:#555555}
 div.asp_s.searchsettings fieldset{margin:.4em 0!important}
-div.asp_r .results .item .asp_content h3{font-size:1em}
-div.asp_r .results .item .asp_content h3 a{color:#333333!important;font-family:neo-sans,sans-serif!important;font-size:inherit!important;line-height:normal!important}
+div.asp_r .results .item .asp_content h3{font-size:1.1em!important}
+div.asp_r .results .item .asp_content h3 a{color:#333333!important;font-family:'neo-sans',sans-serif!important;font-size:inherit!important;line-height:normal!important}
+div.asp_r .results .item .asp_content .asp_res_text{margin-top:.2em}
 div.asp_r .results .item .asp_content{padding:.4em 0}
 div.asp_r .results .item .asp_content .asp_desc{margin-top:.2em;font-size:.9em;letter-spacing:-.1px}
 div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
