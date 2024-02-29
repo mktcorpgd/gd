@@ -533,7 +533,7 @@ div.asp_m .probox .prosettings{right:45px}
 div.asp_m .probox .promagnifier{right:12px}
 div.asp_m .probox .proclose{right:74px}
 div.asp_m .probox .proloading{right:79px}
-div.asp_m .probox .proloading .asp_loader{width:22px!important;height:22px!important}
+div.asp_m .probox .proloading .asp_loader{width:22px!important;height:22px!important;max-width:22px!important;max-height:22px!important;min-width:22px!important;min-height:22px!important}
 div.asp_m .probox .proloading .asp_loader .asp_loader-inner{border:2px solid #FFFFFF!important}
 div.asp_m .probox .proclose:before,div.asp_m .probox .promagnifier .innericon:before,div.asp_m .probox .prosettings .innericon:before{display:grid;align-items:center;height:100%;color:rgba(255,255,255,.8);font-family:'Font Awesome 6 Pro',sans-serif;position:relative;font-size:1.3em}
 div.asp_m .probox .prosettings .innericon:before{content:'\e17c'}
