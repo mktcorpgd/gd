@@ -527,10 +527,10 @@ body>.is-search-form{margin:52px auto 1em;width:95%}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
 .asp_w_container{margin-bottom:10px;z-index:10}
-div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible;background:none}
+div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible;background:none!important}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
-div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute}
-div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{height:100%!important}
+div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute!important}
+div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{top:-2px;height:100%!important}
 div.asp_m .probox .prosettings{right:45px}
 div.asp_m .probox .promagnifier{right:12px}
 div.asp_m .probox .proclose{right:74px}
@@ -545,7 +545,7 @@ div.asp_m .probox .proclose:hover:before,div.asp_m .probox .promagnifier .inneri
 #ajaxsearchpro1_1 .probox .proinput input::placeholder{color:#FFFFFF!important}
 div.asp_s.searchsettings form{background:#FFFFFF;border-radius:6px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5);border:1px solid #eaeaea}
 div[id*='ajaxsearchprores'].wpdreams_asl_results div.resdrg span.highlighted{background:0 0!important;color:#333333!important;font-weight:400!important;text-decoration:underline}
-div.asp_r.vertical{margin-top:-2px!important;background:#FFFFFF!important;border:2px solid #1f4381!important;border-radius:6px 6px 12px 12px;box-shadow:0 4px 24px -12px rgba(0,0,0,.5)!important}
+div.asp_r.vertical{margin-top:-2px!important;background:#FFFFFF!important;border:2px solid #1f4381!important;border-radius:6px 6px 12px 12px!important;box-shadow:0 4px 24px -12px rgba(0,0,0,.5)!important}
 div.asp_r .results .item{padding:.2em .4em}
 div.asp_r .results .item:hover{background:rgba(0,0,0,.025)}
 div[id*='ajaxsearchprosettings']{background:none;overflow:visible}
