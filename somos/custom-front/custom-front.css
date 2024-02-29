@@ -522,7 +522,7 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 #__original__ajaxsearchprosettings1_1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asp_r .results .item div.etc,form.is-search-form{display:none!important}
 #header{border:none!important}
 .asp_w_container{position:fixed;margin-top:50px;margin-bottom:10px;z-index:10;overflow:visible}
-.asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,#ajaxsearchpro1_1 .probox .proinput input.autocomplete, #ajaxsearchpro1_2 .probox .proinput input.autocomplete, div.asp_m.asp_m_1 .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
+.asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,div.asp_m.ajaxsearchpro .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
 body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible;background:none!important}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
