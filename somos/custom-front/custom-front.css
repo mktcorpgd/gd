@@ -352,7 +352,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 .wpducm-mention-list-container .wpducm-mention-list-item:hover{background:#FAFAFA!important;color:#F0582B}
 #wpdcom .wpd-comment-header .wpd-comment-link{padding-top:0}
 #wpdcom .wpdiscuz-edit-form-wrap .wc_save_wrap{margin-top:5px}
-#wpdcom .ql-container:before{content:'Tip: puedes mencionar a alguien usando @';font-size:.8em;width:100%;display:block;padding:.2em;box-sizing:border-box;text-align:right;color:#999999}
+#wpdcom .ql-container:before{content:'Tip: puedes mencionar a alguien usando @';position:absolute;top:4px;right:4px;box-sizing:border-box;font-size:.8em;text-align:right;color:#999999}
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
 section.category-salesforce{border-width:2px;border-color:#0E316E}
