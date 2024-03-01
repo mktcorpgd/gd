@@ -325,7 +325,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .ql-container:hover{background:#FFFFFF}
 #wpdcom .ql-toolbar{border-radius:0 0 6px 6px}
 #wpdiscuz-loading-bar{width:56px;height:56px;top:auto!important;bottom:10px;right:90px;background-image:url('https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg');background-size:cover;background-position:center center;background-repeat:no-repeat}
-#wpdiscuz-comment-message{top:auto!important;right:90px;bottom:19px;font-size:.9em}
+#wpdiscuz-comment-message{width:auto!important;top:auto!important;right:90px;bottom:19px;font-size:.9em}
 #wpdiscuz-comment-message > div{border-radius:12px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6)}
 #wpdiscuz-comment-message > div.wpdiscuz-message-error{background-color:#ED2626}
 #wpdcom .wpd-comment-text *{margin-bottom:0}
@@ -345,7 +345,10 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-up{color:#188549!important}
 #wpdcom .wpd-down{color:#ED2626!important}
 #wpdcom .wpd-comment-text .hint .avatar, #wpdcom .wpd-comment-text .wpd-umcguest .avatar{position:relative;top:4px}
-#comments #wpdcom span.wpd-user-nicename, #respond #wpdcom span.wpd-user-nicename, #wpdcom span.wpd-user-nicename{margin-left:.4em;padding:.2em .4em;font-family:'open-sans',sans-serif;background:#FAFAFA;border-radius:6px}
+#comments #wpdcom span.wpd-user-nicename, #respond #wpdcom span.wpd-user-nicename, #wpdcom span.wpd-user-nicename{margin-left:.4em;padding:.2em .4em;font-size:.6em;font-weight:400;font-family:'open-sans',sans-serif;background:#FAFAFA;border-radius:6px}
+.wpducm-mention-list{padding:.4em;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border-radius:12px}
+.wpducm-mention-list-container .wpducm-mention-list-item{font-family:'open-sans',sans-serif;background:#FFFFFF;border-radius:6px}
+.wpducm-mention-list-container .wpducm-mention-list-item:hover{background:#FAFAFA;color:#F0582B}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
