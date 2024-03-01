@@ -344,6 +344,8 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-form-row .wpd-form-col-right{width:100%}
 #wpdcom .wpd-up{color:#188549!important}
 #wpdcom .wpd-down{color:#ED2626!important}
+#wpdcom .wpd-comment-text .hint .avatar, #wpdcom .wpd-comment-text .wpd-umcguest .avatar{position:relative;top:4px}
+#comments #wpdcom span.wpd-user-nicename, #respond #wpdcom span.wpd-user-nicename, #wpdcom span.wpd-user-nicename{margin-left:.4em;padding:.2em .4em;font-family:'open-sans',sans-serif;background:#FAFAFA;border-radius:6px}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
