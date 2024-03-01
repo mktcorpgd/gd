@@ -340,6 +340,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd_label__check i.fa-bell.wpdicon.wpdicon-on:after{content:'Notificaciones activadas';display:inline-block;padding-left:.4em;font-family:'open-sans',sans-serif;font-weight:600}
 #wpdcom .wpd_label__check i.fa-bell-slash.wpdicon.wpdicon-off:after{content:'Notificaciones desactivadas';display:inline-block;padding-left:.4em;font-family:'open-sans',sans-serif;font-weight:600}
 #wpdcom .wpd_label__check i.wpdicon-off:hover{background:#999999;color:#FFFFFF!important}
+#wpdcom .wpd-tools{top:-3px}
 #wpdcom .wpd-tools-actions{padding:.2em;border-radius:6px;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);font-family:'open-sans',sans-serif;font-size:.8em}
 #wpdcom .wpd-tools-actions .wpd-cta-button:hover{border-radius:6px}
 #wpdcom .wpd-form-row .wpd-form-col-right{width:100%}
