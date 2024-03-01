@@ -354,7 +354,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-comment-header .wpd-comment-link{padding-top:0}
 #wpdcom .wpdiscuz-edit-form-wrap .wc_save_wrap{margin-top:5px}
 #wpdcom .ql-container:before{content:'Tip: puedes mencionar a alguien usando @ y su apellido';padding:.2em;position:absolute;top:-16px;right:4px;box-sizing:border-box;border-radius:3px 3px 0 0;font-size:.8em;text-align:right;color:#999999}
-#wpdcom .wmu-attached-images .attachment-thumbnail, #wpdcom .wmu-attached-images .wmu-attached-image{border:none;border-radius:6px}
+#wpdcom .wmu-attached-images .attachment-thumbnail, #wpdcom .wmu-attached-images .wmu-attached-image{height:auto!important;border:none;border-radius:6px}
 
 /* Salesforce */
 body.page-id-41477 .gp-blog-wrapper section.category-salesforce .post-text h2 a{text-align:center}
