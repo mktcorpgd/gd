@@ -57,7 +57,7 @@ jQuery('select[name=LOC]').change(function() {
 		},500);	
 	}
 });
-jQuery('select.highlight option:contains("Próximamente"),select.highlight option:first').attr('disabled',true);
+jQuery('.fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight option:contains("Próximamente"),.fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight option:first').attr('disabled',true);
 
 
 // Google Maps
