@@ -347,9 +347,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-comment-text .hint .avatar, #wpdcom .wpd-comment-text .wpd-umcguest .avatar{padding:0;position:relative;top:4px}
 #comments #wpdcom span.wpd-user-nicename, #respond #wpdcom span.wpd-user-nicename, #wpdcom span.wpd-user-nicename{margin-left:.4em;padding:.2em .4em;font-size:.8em;font-weight:400;font-family:'open-sans',sans-serif;background:#FAFAFA;border-radius:6px}
 .wpducm-mention-list{padding:.4em;background:#FFFFFF!important;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border-radius:12px}
-.wpducm-mention-list-container .wpducm-mention-list-item{margin-bottom:0!important;font-family:'open-sans',sans-serif;background:#FFFFFF;border:none!important}
-.wpducm-mention-list-container .wpducm-mention-list-item:first-child{border-top-left-radius:6px;border-top-right-radius:6px}
-.wpducm-mention-list-container .wpducm-mention-list-item:last-child{border-top-left-radius:6px;border-top-right-radius:6px}
+.wpducm-mention-list-container .wpducm-mention-list-item{margin-bottom:0!important;font-family:'open-sans',sans-serif;background:#FFFFFF!important;border-radius:6px;border:none!important}
 .wpducm-mention-list-container .wpducm-mention-list-item:hover{background:#FAFAFA!important;color:#F0582B}
 #wpdcom .wpd-comment-header .wpd-comment-link{padding-top:0}
 
