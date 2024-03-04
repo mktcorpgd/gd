@@ -27,7 +27,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 .mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],[id*='mo_doc_lib_container__loader']>img,.mo_sps_class_embed_file[data-sharepoint_name="Grupo_Datco-Manual_Identidad.pdf"],
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
-#wpdcom .wpd-form-head,[wpd-tooltip]::after,[wpd-tooltip]::before,.wpd-comment-label,#wpdcom .wpd-comment .wpd-reply-to,.user-tooltip,.wpd-comment-link,#wpdcom .ql-toolbar button.ql-spoiler, #wpdcom .ql-toolbar button.ql-sourcecode,
+#wpdcom .wpd-form-head,[wpd-tooltip]::after,[wpd-tooltip]::before,.wpd-comment-label,#wpdcom .wpd-comment .wpd-reply-to,.user-tooltip,.wpd-comment-link,#wpdcom .ql-toolbar button.ql-spoiler, #wpdcom .ql-toolbar button.ql-sourcecode,#wpdcom button.ql-code-block
 /* Formularios */
 .wpcf7 .hidden,div.wpcf7 .ajax-loader,.wpcf7 .wpcf7-validates-as-required.valid~label,.mc4wp-checkbox,#content .wpcf7+h2,.wpcf7-radio.wpcf7-not-valid+.wpcf7-not-valid-tip,.wpcf7-checkbox.wpcf7-not-valid+.wpcf7-not-valid-tip,span.phone_ext_block,#wpcf7-f16691-p18546-o1>div:nth-child(7),.wpcf7-display-none,div.wpcf7 div.ajax-error,.wpcf7 a[href='#map'],.screen-reader-response,
 /* Galería de fotos */
@@ -311,6 +311,8 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .ql-editor > *,#wpdcom .ql-editor::before{letter-spacing:0;font-family:'open-sans',sans-serif}
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected, .ql-snow .ql-toolbar .ql-picker-item:hover, .ql-snow .ql-toolbar .ql-picker-label.ql-active, .ql-snow .ql-toolbar .ql-picker-label:hover, .ql-snow .ql-toolbar button.ql-active, .ql-snow .ql-toolbar button:focus, .ql-snow .ql-toolbar button:hover, .ql-snow.ql-toolbar .ql-picker-item.ql-selected, .ql-snow.ql-toolbar .ql-picker-item:hover, .ql-snow.ql-toolbar .ql-picker-label.ql-active, .ql-snow.ql-toolbar .ql-picker-label:hover, .ql-snow.ql-toolbar button.ql-active, .ql-snow.ql-toolbar button:focus, .ql-snow.ql-toolbar button:hover,#wpdcom .ql-toolbar button:hover .ql-stroke,#wpdcom .ql-toolbar button.ql-spoiler:hover, #wpdcom .ql-toolbar button.ql-sourcecode:hover, #wpdcom .ql-toolbar .wmu-upload-wrap .wmu-add i:hover,#wpdcom .wpd_label__check i.wpdicon-on{color:#F0582B!important}
+#wpdcom .ql-toolbar button.ql-active .ql-stroke{color:#F0582B!important;stroke:#F0582B!important}
+#wpdcom .ql-toolbar button.ql-active .ql-fill{color:#F0582B!important;fill:#F0582B!important}
 #wpdcom .wpd-comment .wpd-comment-header{padding-bottom:0}
 #wpdcom .ql-toolbar{padding:.2em .4em}
 #wpdcom .ql-toolbar span.wmu-upload-wrap{top:3px}
