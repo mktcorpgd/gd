@@ -346,7 +346,7 @@ body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .wpd-form-row .wpd-form-col-right{width:100%}
 #wpdcom .wpd-up{color:#188549!important}
 #wpdcom .wpd-down{color:#ED2626!important}
-#wpdcom .wpd-comment-text .hint{margin-left:.2em;pointer-events:none}
+#wpdcom .wpd-comment-text .hint{margin-left:.2em;padding:0 .4em;pointer-events:none;background:#FAFAFA;border-radius:6px}
 #wpdcom .wpd-comment-text .hint .avatar, #wpdcom .wpd-comment-text .wpd-umcguest .avatar{width:16px!important;height:16px!important;padding:0;position:relative;top:4px}
 #comments #wpdcom span.wpd-user-nicename, #respond #wpdcom span.wpd-user-nicename, #wpdcom span.wpd-user-nicename{margin-left:.4em;padding:.2em .4em;font-size:.8em;font-weight:400;font-family:'open-sans',sans-serif;background:#FAFAFA;border-radius:6px}
 .wpducm-mention-list{padding:.4em;background:#FFFFFF!important;box-shadow:0 4px 16px -6px rgba(0,0,0,.6);border-radius:12px}
