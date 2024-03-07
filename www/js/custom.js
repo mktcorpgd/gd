@@ -332,11 +332,16 @@ jQuery(document).ready(function() {
 	}
 
 
-	// FORMULARIOS - Si existe #RESP: asignar nuevo responsable
+	// FORMULARIOS - Si existe #RESP: asignar responsable/s
 	if ( jQuery('#RESP').length ) {
-		var new_resp = jQuery('#RESP a').attr('href');
-		new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
-		jQuery('input[name="RESP"]').val(new_resp);
+		var resps = '';
+		jQuery('#RESP a').each(function(i) {
+			var new_resp = jQuery(this).attr('href');
+			new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
+			resps += new_resp+', ';
+		});
+		resps = resps.substring(0,resps.length-2);
+		jQuery('input[name="RESP"]').val(resps);
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
@@ -345,16 +350,16 @@ jQuery(document).ready(function() {
 	}	
 
 
-	// FORMULARIOS - Si existe #RESP_BCC: asignar responsable en copiar oculta
+	// FORMULARIOS - Si existe #RESP_BCC: asignar responsable/s en copia oculta
 	if ( jQuery('#RESP_BCC').length ) {
-		var new_resps = '';
+		var resps = '';
 		jQuery('#RESP_BCC a').each(function(i) {
 			var new_resp_bcc = jQuery(this).attr('href');
 			new_resp_bcc = new_resp_bcc.substring(new_resp_bcc.indexOf('mailto:')+7,new_resp_bcc.length);
-			new_resps += new_resp_bcc+', ';
+			resps += new_resp_bcc+', ';
 		});
-		new_resps = new_resps.substring(0,new_resps.length-2);
-		jQuery('input[name="RESP_BCC"]').val(new_resps);
+		resps = resps.substring(0,resps.length-2);
+		jQuery('input[name="RESP_BCC"]').val(resps);
 	}
 
 	
