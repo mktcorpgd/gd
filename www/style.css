@@ -785,7 +785,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Slider */
 	.tfs-slider ul.slides li .slide-content-container{padding-left:60px!important;padding-right:60px!important}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:40%}
-	.tfs-slider ul.slides li.slide-id-51333 .slide-content-container .slide-content{padding-right:35%}
+	.tfs-slider ul.slides li.slide-id-51333 .slide-content-container .slide-content,
+	.tfs-slider ul.slides li.slide-id-51359 .slide-content-container .slide-content{padding-right:35%}
 	.slide-id-50794 .slide-content,.slide-id-50828 .slide-content{padding-right:30%!important}
 
 	/* Contenidos */
