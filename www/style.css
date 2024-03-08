@@ -174,7 +174,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .tfs-slider .flex-direction-nav a.flex-prev:before,.tfs-slider .flex-direction-nav a.flex-next:before{color:var(--whiteColor);font-family:'Font Awesome 6 Pro'}
 .tfs-slider .flex-direction-nav a.flex-prev:before{content:'\f053'}
 .tfs-slider .flex-direction-nav a.flex-next:before{content:'\f054'}
-.tfs-slider .heading .fusion-title h1,.tfs-slider .heading .fusion-title h3{text-shadow:0 0 36px #000000}
+.tfs-slider .heading .fusion-title h1,.tfs-slider .heading .fusion-title h2{text-shadow:0 0 36px #000000}
 .tfs-slider .caption .fusion-title h3{text-shadow:0 0 18px #000000}
 
 .hero-img .fusion-title-size-one{margin-bottom:.5em;font-size:3em}
