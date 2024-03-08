@@ -105,6 +105,7 @@ html .fusion-open-submenu,
 .fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button),.white .wpcf7-form input[type='submit'],.white .button-default:not(.portfolio-button),.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.white .fusion-blog-shortcode .fusion-load-more-button,.slide-content-container .button-default:not(.portfolio-button),.fusion.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--highlightColor)}
 .white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
 .slide-content-container .button-default:not(.portfolio-button){box-shadow:0 3px 6px var(--highlightColor)!important}
+.slide-content-container .button-default:not(.portfolio-button):hover{box-shadow:0 3px 12px var(--mainColor)!important}
 
 /* Extras */
 .fusion-reading-box-container .reading-box,
