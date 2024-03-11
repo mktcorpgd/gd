@@ -264,7 +264,7 @@ body.single-format-link .fusion-page-title-wrapper,body.single-format-link .fusi
 body.single-format-link .fusion-page-title-row h1{text-align:center;color:var(--whiteColor)}
 body.single-format-link .fusion-builder-row-1:not(.no-preview){background:none}
 body.single-format-link .textwidget img,.fusion-text img{border-radius:12px;border:2px solid var(--lightgrayColor)}
-body.single-format-link .textwidget{display:grid;grid-template-columns:25% 75%}
+body.single-format-link .fusion-builder-row-1:not(.no-preview) .textwidget{display:grid;grid-template-columns:25% 75%}
 body.single-format-link .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 
