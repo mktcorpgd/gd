@@ -916,7 +916,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-image-element:not([class*='fusion-image-align-']){margin-left:0}
 	.partners-logos .fusion-column-wrapper,#partners_footer .fusion-row{display:grid;grid-template-columns:1fr 1fr;grid-gap:.5em 2em;text-align:center}
 	.fusion-portfolio .fusion-button{padding:.6rem .8rem}
-	body.post-template-default.single:not(.single-format-link) .post-content .fusion-fullwidth{padding-left:0;padding-right:0}
+	body.single-format-standard:not(.single-avada_portfolio) .post-content .fusion-fullwidth{padding-left:0;padding-right:0}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{padding-bottom:0}
 	.fusion-page-title-bar .fusion-page-title-row h1{font-size:1.6em!important}
 	body:not(.single-avada_portfolio) .fusion-page-title-bar-left .fusion-page-title-secondary{margin-top:1em}
