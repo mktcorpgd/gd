@@ -756,7 +756,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 #partners_footer .fusion-builder-row:nth-child(1) .fusion-imageframe{max-width:220px!important}
 #partners_footer .fusion-builder-row:nth-child(1) img[src*='redhat']{opacity:.7!important}
 .partners .fusion-builder-row:nth-child(1) img[src*='logo-footer']{opacity:1}
-.partners .fusion-builder-row:not(:nth-child(1)) img[src*='logo-footer']{opacity:.6}
+.partners .fusion-builder-row:not(:nth-child(1)) img[src*='logo-footer']{opacity:.8}
 .partners img{margin-top:0}
 .partners .fusion-imageframe{border:none!important}
 #partners_footer{z-index:1}
