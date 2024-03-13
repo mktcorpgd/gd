@@ -730,6 +730,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 /* Social */
 .fusion-footer .fusion-social-network-icon{width:24px;text-align:center;opacity:.9}
 .fusion-footer .fusion-social-network-icon:hover{opacity:1}
+.fusion-theme-sharing-box h4{text-align:right}
 
 /* Footer */
 .fusion-footer-widget-column{margin-bottom:0}

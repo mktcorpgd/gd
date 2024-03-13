@@ -111,7 +111,7 @@ html .fusion-open-submenu,
 .fusion-reading-box-container .reading-box,
 img[src*='flag-']{border-color:var(--lightgrayColor)}
 .fusion-content-boxes.extra-border-img .heading img{border-radius:50%;border:4px solid var(--extraColor)}
-html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-column:not(.white) .fusion-title h6{color:var(--metaColor)!important}
+html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-column:not(.white) .fusion-title h6,.fusion-theme-sharing-box h4{color:var(--metaColor)!important}
 .awb-swiper-button-next,.awb-swiper-button-prev,.fusion-events-content-wrapper h4{color:var(--metaColor)!important}
 .fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button):hover,.white .wpcf7-form input[type='submit']:hover,.white .button-default:not(.portfolio-button):hover,.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button:hover,.white .fusion-blog-shortcode .fusion-load-more-button:hover,.slide-content-container .button-default:not(.portfolio-button):hover,.fusion.fusion-pricing-table .button-default:hover,
 .fusion-tabs .nav ul,.fusion-filters{background:var(--whiteAltColor)!important}
