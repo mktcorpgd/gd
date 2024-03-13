@@ -3,7 +3,7 @@
 
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
-.fusion-social-networks .fusion-social-networks-wrapper:after{content:'#SocialChannel';color:#6F6F6F;font-size:.9em;font-family:var(--titleFont);position:relative;bottom:2px;right:4px}
+.fusion-social-links-footer .fusion-social-networks .fusion-social-networks-wrapper:after{content:'#SocialChannel';color:#6F6F6F;font-size:.9em;font-family:var(--titleFont);position:relative;bottom:2px;right:4px}
 
 /* Desktop */
 @media (min-width:920px) {
