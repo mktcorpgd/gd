@@ -849,7 +849,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Mostrar/Ocultar */
 	.mobile-only{display:inline-block}
-	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before,.partners-logos .fusion-column-content:before,#partners_footer .fusion-row:before,.partners-logos .fusion-column-content:after,#partners_footer .fusion-row:after,.fusion-breadcrumbs,.tfs-slider .flex-control-nav{display:none}
+	.tfs-slider .flex-control-nav{display:none!important}
+	.fusion-contact-info,.mobile-hidden,.more-info,.fusion-mobile-nav-item a:before,.partners-logos .fusion-column-content:before,#partners_footer .fusion-row:before,.partners-logos .fusion-column-content:after,#partners_footer .fusion-row:after,.fusion-breadcrumbs{display:none}
 	
 	/* General */
 	body{font-size:18px;line-height:1.6}
