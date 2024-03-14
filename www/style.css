@@ -490,7 +490,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-button.button-flat,
-.tribe-common-c-btn.tribe-events-c-search__button{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--textFont),var(--iconFont),sans-serif;font-weight:600;font-size:1.1em;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
+.tribe-common-c-btn.tribe-events-c-search__button{padding:.5rem .9rem;width:auto;height:auto;font-family:var(--textFont),var(--iconFont),sans-serif;font-weight:600;font-size:1.1rem;line-height:normal;letter-spacing:0;text-transform:none;border-radius:12px}
 .button-default:not(.portfolio-button),.fusion-button-default-size,.fusion-button:not(.portfolio-button),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
@@ -537,7 +537,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .single .comments-container{margin-top:40px}
 #comments .fusion-title{margin-bottom:5px}
 #respond{margin:1em auto;max-width:830px}
-#respond textarea{font-size:1.1em}
+#respond textarea{font-size:1em}
 #comments+#respond,#comments+#respond form{margin-top:0;padding-top:0;border-top:0}
 #wrapper #main #comments .fusion-title h3{font-weight:500;font-size:18px}
 .logged-in-as+#comment-textarea{margin-bottom:0}
