@@ -78,6 +78,7 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 .white hr.thin{background:rgba(255,255,255,.2)}
 .fusion-fullwidth.overlay:after{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0,0,0,.6);z-index:1}
 .fusion-loading-container{text-align:center;color:#FFFFFF}
+.small-shadow{box-shadow:0 0 24px rgba(0,0,0,.2)}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
@@ -151,7 +152,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .modal-backdrop.in{opacity:.5!important;transition:none!important}
 .modal{transition:none!important;opacity:1!important;z-index:99999;overflow:auto}
 .modal .modal-dialog{margin:60px auto 0;border-radius:12px;opacity:0;visibility:hidden}
-.modal.in .modal-dialog{box-shadow:0 5px 25px rgba(0,0,0,.4);opacity:1;visibility:visible}
+.modal.in .modal-dialog{box-shadow:0 16px 32px 0 rgba(0,0,0,.4);opacity:1;visibility:visible}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
 .modal-content{padding:1.4em 1em;box-shadow:none}
 .modal .modal-body>h4{margin-top:0;margin-bottom:10px}
