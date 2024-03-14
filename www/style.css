@@ -80,7 +80,7 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 .fusion-loading-container{text-align:center;color:#FFFFFF}
 .small-shadow:not(.fusion-title),.small-shadow.fusion-title>*{box-shadow:0 0 24px rgba(0,0,0,.2)}
 .small-shadow.fusion-title>*{padding:.4em .8em!important}
-.bkg-white.fusion-title>*{display:inline-block;background-color:#FFFFFF;border-radius:24px}
+.bkg-white.fusion-title>*{display:inline-block;background-color:#FFFFFF;border-radius:12px}
 
 /* Encabezados */
 h1,h1 strong,h2,h2 strong,h3,h3 strong{font-weight:500!important}
