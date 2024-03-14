@@ -79,6 +79,7 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 .fusion-fullwidth.overlay:after{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0,0,0,.6);z-index:1}
 .fusion-loading-container{text-align:center;color:#FFFFFF}
 .small-shadow:not(.fusion-title),.small-shadow.fusion-title>*{box-shadow:0 0 24px rgba(0,0,0,.2)}
+.small-shadow.fusion-title>*{padding:.4em .8em!important}
 .bkg-white.fusion-title>*{display:inline-block;background-color:#FFFFFF;border-radius:24px}
 
 /* Encabezados */
