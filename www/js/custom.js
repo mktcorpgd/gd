@@ -67,6 +67,12 @@ jQuery(document).ready(function() {
 	if ( sdltr.length > 1 ) {
 		jQuery('#sliders-container').addClass('has-content');
 	}
+	else {
+		jQuery('ul.slides li').each(function(i) {
+			var bkg_img = jQuery(this).find('.mobile_video_image').css('background-image');
+			jQuery(this).css('background-image',bkg_img);
+		});
+	}
   
 
 	// CONTENIDOS - Abrir en una nueva pestaña
