@@ -578,7 +578,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .yt-video:not(.playing):after{content:'\f144';display:grid;width:100%;height:100%;align-items:center;text-align:center;font-weight:bold;position:absolute;top:0;left:0;font-size:5em;line-height:2em;color:rgba(255,255,255,.8);background:rgba(0,0,0,.2);pointer-events:none}
 .yt-video:not(.playing):hover:after{font-size:5.5em;color:rgba(255,255,255,1)}
 .smcx-embed,.smcx-embed>.smcx-iframe-container{max-width:100%!important;border:none!important}
-.fusion-youtube+em{display:block;margin:.4em 0;font-size:.9em}
+.fusion-youtube+em{display:block;margin:.4em 0 0;font-size:.9em}
 
 /* Tips */
 article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
