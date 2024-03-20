@@ -14,7 +14,7 @@ body.tribe_events-template-default:not(.avada-has-titlebar-hide) .info-event,.tr
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
 .tribe-events-meta-group-details .tribe-events.tribe-common{margin:1em 0}
-.fusion-events-featured-image{margin-bottom:0}
+.fusion-events-featured-image,.tribe-events-content blockquote p:last-child{margin-bottom:0}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header{width:100%;position:absolute!important;top:0!important;box-shadow:none!important;background:none!important}
 .tribe-events-c-subscribe-dropdown-content{position:absolute!important}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo{display:block;width:100%;text-align:center}
