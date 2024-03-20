@@ -45,7 +45,7 @@ a,li,i,.wpcf7 input,.wpcf7 button,.fusion-main-menu .fusion-menu-item-button .me
 .fusion-header-wrapper .fusion-header,.gray-to-color .awb-carousel img{transition:all .4s ease-in-out!important}
 input::-webkit-input-placeholder{line-height:normal!important}
 sup{line-height:1}
-#content p b,#content p strong,.content-container strong{font-weight:600}
+#content p b,#content p strong,.content-container strong,bold,strong{font-weight:600}
 iframe,.modal .fullwidth-modal,html.avada-is-100-percent-template body.single-avada_portfolio.has-sidebar #content{width:100%}
 .not-uppercase,.not-uppercase h3,.not-uppercase h4,.not-uppercase h5,.not-uppercase .menu-text{text-transform:none!important}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a,.flex-next:hover,.flex-prev:hover{text-decoration:none}
@@ -77,7 +77,10 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 .white hr{background:rgba(255,255,255,.2)}
 .white hr.thin{background:rgba(255,255,255,.2)}
 .fusion-fullwidth.overlay:after{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0,0,0,.6);z-index:1}
-.fusion-loading-container{text-align:center;color:#FFFFFF}
+.fusion-loading-container{text-align:center}
+.white .fusion-loading-container{color:#FFFFFF}
+.fusion-loading-container .fusion-spinner-1, .fusion-loading-container .fusion-spinner-2, .fusion-loading-container .fusion-spinner-3{background:#999999}
+.white .fusion-loading-container .fusion-spinner-1,.white .fusion-loading-container .fusion-spinner-2,.white .fusion-loading-container .fusion-spinner-3{background:#FFFFFF}
 .small-shadow:not(.fusion-title),.small-shadow.fusion-title>*{box-shadow:0 4px 24px 0 rgba(0,0,0,.2)}
 .small-shadow.fusion-title>*{padding:.4em .8em!important}
 .bkg-white.fusion-title>*{display:inline-block;background-color:#FFFFFF;border-radius:12px}
@@ -276,9 +279,9 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 1.5rem;position:absolute;top:-8px;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
 .meta-on .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem;background:var(--whiteColor);padding:.1em .4em;border-radius:6px;border-top:1px solid var(--lightgrayColor);position:relative;top:3px;color:var(--metaColor)}
-.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{float:left;display:inline-block;margin-right:.4rem;width:16px;height:16px;color:transparent!important;box-shadow:0 0 4px 2px rgba(0,0,0,.2);border-radius:32px;overflow:hidden;pointer-events:none;position:relative;top:-1px;background-size:100%!important}
+.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{float:left;display:inline-block;margin-right:.4rem;width:16px;height:16px;color:transparent!important;box-shadow:0 0 0 2px rgba(0,0,0,.1);border-radius:32px;overflow:hidden;pointer-events:none;position:relative;top:-1px;background-size:100%!important}
 .project-terms{width:100%;text-align:center}
-.project-terms a[href*='/flag-']{float:none;margin:.2rem .4rem 0}
+.project-terms a[href*='/flag-']{float:none;margin:.2rem .4rem 0;width:24px;height:24px}
 .no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:-6px}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-ar'],.project-terms a[href*='/flag-ar']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-ar.svg')}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-br'],.project-terms a[href*='/flag-br']{background:url('https://www.grupodatco.com/wp-content/uploads/flag-br.svg')}
@@ -575,6 +578,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .yt-video:not(.playing):after{content:'\f144';display:grid;width:100%;height:100%;align-items:center;text-align:center;font-weight:bold;position:absolute;top:0;left:0;font-size:5em;line-height:2em;color:rgba(255,255,255,.8);background:rgba(0,0,0,.2);pointer-events:none}
 .yt-video:not(.playing):hover:after{font-size:5.5em;color:rgba(255,255,255,1)}
 .smcx-embed,.smcx-embed>.smcx-iframe-container{max-width:100%!important;border:none!important}
+.fusion-youtube+em{display:block;margin:.4em 0 0;font-size:.9em}
 
 /* Tips */
 article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
