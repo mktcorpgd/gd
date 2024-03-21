@@ -56,7 +56,10 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 .pac-icon,.pac-logo:after{display:none!important}
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
-body:not(.logged-in) #custom_html-23{display:none}
+body:not(.logged-in) #custom_html-23,
+/* Menú */
+.menu .menu-item.ar,.menu .menu-item.br,.menu .menu-item.cl,.menu .menu-item.mx,.menu .menu-item.pe,.menu .menu-item.pr,.menu .menu-item.uy{display:none}
+body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .menu-item.br,body[class*='office-cl'] .menu .menu-item.cl,body[class*='office-mx'] .menu .menu-item.mx,body[class*='office-pe'] .menu .menu-item.pe,body[class*='office-uy'] .menu .menu-item.pr,body[class*='office-pr'] .menu .menu-item.uy{display:block}
 .mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* General */
@@ -67,7 +70,7 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:#555555}
 ::-ms-input-placeholder{color:#555555}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *,div.asp_r,.wpducm-mention-list-container .wpducm-mention-list-item{transition:all .1s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *,div.asp_r,.wpducm-mention-list-container .wpducm-mention-list-item,#nav .menu li a{transition:all .1s ease-in-out!important}
 #nav .menu li.menu-item-has-children:after,.wp-classic-menu-block>.menu ul,.kit>.menu li,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
 #logo{transition:all 1s ease-in-out!important}
 body{background-color:#EAEAEA;background-image:url('https://somos.grupodatco.com/wp-content/uploads/bkg-somos-2023.png');background-position:top center;letter-spacing:-.1px;background-repeat:repeat;background-size:100%;background-attachment:scroll}
@@ -144,12 +147,13 @@ body.role- #header{top:0}
 #nav .menu li.separator{margin-left:.5em;padding-left:.5em;border-left:2px solid rgba(0,0,0,.2);border-radius:0}
 #nav .menu li{margin-left:.1em}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'neo-sans',sans-serif;font-size:1em;font-weight:400}
-#nav .menu li a{display:block;padding:.4em .5em;white-space:nowrap}
-#nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover{background:rgba(0,0,0,.3)}
-#nav .menu li a:hover,#nav .menu li:hover>a{border-radius:4px}
+#nav .menu li a{display:block;padding:.4em .5em;background:rgba(0,0,0,0);white-space:nowrap}
+#nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover{background:rgba(0,0,0,.2)}
+#nav .menu li a:hover,#nav .menu li:hover>a{border-radius:6px}
 #nav .menu li a:hover,#mobile-nav .menu li>a:hover{text-decoration:none}
 #nav .menu li:hover>.sub-menu{visibility:visible;line-height:1;min-width:100%;opacity:1}
 #nav .menu li.menu-item-has-children a{padding-right:1.2em}
+#nav .menu li.menu-item-has-children a[href^='#']{cursor:default}
 #nav .menu .sub-menu{display:block;width:fit-content;padding:.3em;background-color:#0E316E;box-shadow:0 12px 18px 0 rgba(0,0,0,.4);border-radius:6px;position:absolute;top:36px;left:0;visibility:hidden;opacity:0}
 #nav .menu .sub-menu .sub-menu{background-color:#1F4483}
 #nav .menu .sub-menu li a{margin:0;padding:.3em .4em;color:#FFFFFF;font-size:.9em;line-height:1.5}
