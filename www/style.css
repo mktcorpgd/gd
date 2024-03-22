@@ -561,7 +561,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-pricingtable-column .panel-body .price .currency{top:-18px;left:-2px;font-size:1.4em;font-weight:400;opacity:.6}
 .fusion-pricingtable-column .panel-body .price .currency,.fusion-pricingtable-column .panel-body .price .time{color:var(--metaColor);font-weight:400}
 .fusion-pricingtable-column .list-group-item{padding-top:.4em;padding-bottom:.4em;line-height:1.4;border:none}
-.fusion-pricingtable-column .fusion-button.fusion-button-default-size{margin-bottom:0;width:80%}
+.fusion-pricingtable-column .fusion-button.fusion-button-default-size{margin-bottom:0;width:65%}
 .fusion-pricingtable-column.standout .panel-container{border-radius:12px;border:4px solid rgba(0,0,0,.2);box-shadow:0 0 36px -12px rgba(0,0,0,.2)}
 .fusion-pricingtable-column.standout .panel-container:hover{box-shadow:0 0 36px 12px rgba(0,0,0,.2)}
 .fusion-pricingtable-column.standout .panel-heading h3{font-size:2.2em}
