@@ -37,7 +37,7 @@ body:not(.single-event) article.event p,body.single-event .entry-content h4,.eve
 /* Admin */
 body:not(.role-administrator) .only-admin,
 /* Entradas */
-.post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.home) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
+.post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.page-id-61726) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
 /* Home */
 body.page-id-61726 .page-title,body.page-id-61726 .gp-meta-cats,
 /* Búsquedas laborales */
@@ -54,7 +54,7 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 .gp-meta-cats a[href$='/categoria/uns/'],.gp-meta-cats a[href$='/categoria/argentina-2/'],.hidden-front,
 /* Google Maps */
 .pac-icon,.pac-logo:after{display:none!important}
-body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
+body:not(.page-id-61726) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
 body:not(.logged-in) #custom_html-23,
 /* Menú */
@@ -263,7 +263,7 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #post-content p a:hover,#post-content li a:hover{text-decoration:underline}
 #post-content>h2{margin-top:0}
 #post-content>h2>i[class*='circle']{padding-right:.4em;color:var(--metaColor)}
-body:not(.home) .padder{background:var(--whiteColor1);border-top-width:12px;border-top-style:solid;border-top-color:transparent;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
+body:not(.page-id-61726) .padder{background:var(--whiteColor1);border-top-width:12px;border-top-style:solid;border-top-color:transparent;box-shadow:0 10px 20px -12px rgba(0,0,0,.5)}
 body.error404 .padder{background:none;box-shadow:none}
 body.post-template-default.single h1,body.page-id-18106 #content h1{color:var(--mainColor)}
 body.post-template-default.single #content article.category-iot h1,body.page-id-18351 #content h1{color:#692D87}
@@ -1000,8 +1000,8 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.single article[class*='category-politicas-procesos'] .gp-meta-date+.gp-meta-cats{padding-left:0;border-left:none}
 	body.fullwidth #content .gp-search{margin:.5em auto 0;padding:0 1em;width:80%}
 	body.page-id-61726 .padder{padding:0}
-	body:not(.home) .padder{border-radius:12px}
-	body:not(.home) .post-thumbnail+.padder{border-top-left-radius:0;border-top-right-radius:0}
+	body:not(.page-id-61726) .padder{border-radius:12px}
+	body:not(.page-id-61726) .post-thumbnail+.padder{border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder,body.page-id-18106 .padder{border-top-width:6px;border-top-style:solid;border-top-color:var(--mainColor)}
 	body.post-template-default.single #content article.category-iot .padder,body.page-id-18351 .padder{border-top-color:#692D87}
 	body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
@@ -1061,7 +1061,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.gp-blog-wrapper section .gp-loop-meta,.gp-meta-cats a, article .eo-event-meta>li a[rel='tag']{font-size:.85rem}
 	.gp-blog-wrapper:not([class*='gp-blog-columns']) section .post-text h2{-webkit-line-clamp:3}
 	h1.page-title{font-size:1.6em}
-	body.page-template-default:not(.home) .post-thumbnail.single-thumbnail,body.page-template-default:not(.home) .post-thumbnail.single-thumbnail img,body:not(.home) .padder{border-radius:0}
+	body.page-template-default:not(.page-id-61726) .post-thumbnail.single-thumbnail,body.page-template-default:not(.page-id-61726) .post-thumbnail.single-thumbnail img,body:not(.page-id-61726) .padder{border-radius:0}
 	body.single .gp-meta-date{margin-bottom:.4em}
 	body.single .gp-post-meta{display:block}
 	.widget h3.toggle i{width:24px}
