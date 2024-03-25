@@ -65,6 +65,9 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 /* Global */
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;}
 
+/* Prueba */
+.separator.menu-item,.separator.menu-item~.menu-item{display:none}
+
 /* General */
 ::-moz-selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
 ::selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
@@ -141,7 +144,7 @@ span.resaltado-verde{color:#76923C}
 body.role- #header{top:0}
 
 /* Header */
-#header{padding:1.2em;background:var(--textColor);border-bottom:2px solid var(--extraColor);border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
+#header{padding:1em;background:var(--textColor);border-bottom:2px solid var(--extraColor);border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
 #logo:hover{transform:scale(1.05) rotate(360deg) translateX(5px)}
 
 /* Menú */
@@ -150,7 +153,7 @@ body.role- #header{top:0}
 #nav .menu li.separator{margin-left:.5em;padding-left:.5em;border-left:2px solid rgba(0,0,0,.2);border-radius:0}
 #nav .menu li{margin-left:.1em}
 #nav .menu li a,#mobile-nav .menu li a{font-family:'neo-sans',sans-serif;font-size:1em;font-weight:400}
-#nav .menu li a{display:block;padding:.4em .5em;background:rgba(0,0,0,0);white-space:nowrap}
+#nav .menu li a{display:block;padding:.6em .8em;background:rgba(0,0,0,0);white-space:nowrap}
 #nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover{background:rgba(0,0,0,.2)}
 #nav .menu li a:hover,#nav .menu li:hover>a{border-radius:6px}
 #nav .menu li a:hover,#mobile-nav .menu li>a:hover{text-decoration:none}
@@ -544,7 +547,7 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 body>.asp_w_container{position:fixed;margin-top:72px;margin-bottom:10px;z-index:10;overflow:visible}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,div.asp_m.ajaxsearchpro .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
-body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{margin:0 auto;width:78%!important;overflow:visible!important;background:none!important}
+body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{float:right;margin:0 auto;width:40%!important;overflow:visible!important;background:none!important}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
 div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute!important}
 div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{top:-3px;height:100%!important}
@@ -558,7 +561,7 @@ div.asp_m .probox .prosettings .innericon:before{content:'\e17c'}
 div.asp_m .probox .promagnifier .innericon:before{content:'\f002'}
 div.asp_m .probox .proclose:before{content:'\f00d'}
 div.asp_m .probox .proclose:hover:before,div.asp_m .probox .promagnifier .innericon:hover:before,div.asp_m .probox .prosettings .innericon:hover:before{color:var(--whiteColor1)}
-#ajaxsearchpro1_1 .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em 7.4em .5em .6em!important;color:var(--whiteColor1)!important;background:var(--subColor)!important;border:4px solid rgba(0,0,0,.2)!important;border-top:none!important;border-radius:0 0 12px 12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)!important;font-size:1rem!important;line-height:normal;text-align:left}
+#ajaxsearchpro1_1 .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em 7.4em .5em .6em!important;color:var(--textColor)!important;background:var(--whiteColor1)!important;border:none!important;border-top:none!important;border-radius:0;box-shadow:none!important;font-size:1rem!important;line-height:normal;text-align:left}
 #ajaxsearchpro1_1 .probox .proinput input::placeholder{font-size:1rem!important;color:var(--whiteColor1)!important}
 div.asp_s.searchsettings form{background:var(--whiteColor1);border-radius:6px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5);border:1px solid var(--lightgrayColor1)}
 div.asp_r.vertical{margin-top:-2px!important;background:var(--whiteColor1)!important;border:2px solid #1f4381!important;border-radius:6px 6px 12px 12px!important;box-shadow:0 4px 24px -12px rgba(0,0,0,.5)!important}
@@ -582,8 +585,8 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 #post-content .probox .proinput input.orig{padding:.5em .6em!important;box-sizing:border-box;font-size:1rem!important;font-size:1rem!important;color:var(--metaColor)!important;background:var(--lightgrayColor1)!important;border:2px solid var(--lightgrayColor2)!important}
 #post-content .probox .proinput input.orig:hover,#post-content .probox .proinput input.orig:focus{background:var(--whiteColor1)!important;border:2px solid var(--grayColor)!important}
 #post-content .probox .proinput input.orig::placeholder{font-size:1rem!important}
-#post-content .probox .promagnifier .innericon:before{color:var(--lightgrayColor2)!important}
-#post-content .probox .promagnifier .innericon:hover:before{color:var(--grayColor)!important}
+#post-content .probox .promagnifier .innericon:before{color:var(--metaColor)!important}
+#post-content .probox .promagnifier .innericon:hover:before{color:var(--textColor)!important}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:'open-sans',sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
