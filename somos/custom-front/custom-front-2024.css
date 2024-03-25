@@ -2,7 +2,7 @@
 @import url(https://git.grupodatco.com/fonts/webfonts.css);
 /* Oculto forzado */
 /* Admin */
-#wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.home #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
+#wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.page-id-61726 #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
 /* Not AR */
 body:not([class*='office-ar']) section[class*='category-argentina-2'],
 /* Metas */
@@ -39,7 +39,7 @@ body:not(.role-administrator) .only-admin,
 /* Entradas */
 .post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.home) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
 /* Home */
-body.home .page-title,body.home .gp-meta-cats,
+body.page-id-61726 .page-title,body.page-id-61726 .gp-meta-cats,
 /* Búsquedas laborales */
 body[class*='category-busquedas-laborales'] .gp-meta-cats a[href$='/busquedas-laborales-argentina/'],
 /* YouTube */
@@ -688,17 +688,17 @@ section[class*='puerto-rico'] .post-text h2:before,#tab-PuertoRico .post-text h2
 section[class*='uruguay'] .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-uy.svg)}
 
 /* Home */
-body.home .padder,body.home #post-content,body.home .sc-tab-panel,body.archive .padder,body.search .padder{margin:0;background:none;box-shadow:none}
-body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.9em}
-body.home #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.3em;width:1em;height:1em;border:1px solid var(--lightgrayColor1);position:relative;top:2px;background-size:contain;border-radius:50%}
-body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
-body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Argentina'] a:before,#tab-AR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-ar.svg)}
-body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Brasil'] a:before,#tab-BR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-br.svg)}
-body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Chile'] a:before,#tab-CL .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-cl.svg)}
-body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Mxico'] a:before,#tab-MX .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-mx.svg)}
-body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)}
-body.home #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)}
-body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
+body.page-id-61726 .padder,body.page-id-61726 #post-content,body.page-id-61726 .sc-tab-panel,body.archive .padder,body.search .padder{margin:0;background:none;box-shadow:none}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li a{font-size:.9em}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li a:before{content:'';display:inline-block;margin-right:.3em;width:1em;height:1em;border:1px solid var(--lightgrayColor1);position:relative;top:2px;background-size:contain;border-radius:50%}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Todas'] a:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-regional.svg)}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Argentina'] a:before,#tab-AR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-ar.svg)}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Brasil'] a:before,#tab-BR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-br.svg)}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Chile'] a:before,#tab-CL .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-cl.svg)}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Mxico'] a:before,#tab-MX .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-mx.svg)}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-Per'] a:before,#tab-PE .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pe.svg)}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li[aria-controls='tab-PuertoRico'] a:before,#tab-PR .post-text h2:before{background-image:url(https://somos.grupodatco.com/wp-content/uploads/flag-pr.svg)}
+body.page-id-61726 .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .gp-meta-comments{margin-left:.3rem;padding-left:.5rem;border-left:2px solid var(--lightgrayColor1);font-family:'open-sans','Font Awesome 6 Pro',sans-serif}
 
 /* Paginación */
@@ -779,7 +779,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .ui-widget-content{width:100%;padding:0;top:0;background:none;border:none!important;overflow:visible}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:var(--grayColor);font-weight:400;font-family:'open-sans',sans-serif;font-style:italic}
 #post-content .ui-tabs .ui-tabs-nav{display:inline-block;margin-bottom:1em;border:1px solid rgba(0,0,0,.1);border-radius:12px;overflow:hidden}
-body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
+body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)}
 .ui-tabs .ui-tabs-nav li{margin-bottom:0!important;top:0}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:var(--highlightColor);text-decoration:underline}
 #post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:var(--textColor);line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:'neo-sans',sans-serif;text-decoration:none;background:var(--whiteColor2)}
@@ -984,11 +984,11 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
 	input:not(.default)[type=number]{-webkit-appearance:textfield;-moz-appearance:textfield;appearance:textfield}
 	li.only-mobile,#mobile-nav-button{display:none!important}
-	body.home section.post-loop.category-reportes .gp-blog-wrapper section .gp-meta-cats{display:none}
+	body.page-id-61726 section.post-loop.category-reportes .gp-blog-wrapper section .gp-meta-cats{display:none}
 	.sidebar{font-size:14px}
 	body>.is-search-form input[type='search']{margin-bottom:0!important;box-shadow:0 6px 10px -8px rgba(0,0,0,.4)!important}
 	body>.is-search-form.is-search-form input[type='search']:focus{transform:scale(1.005);box-shadow:0 14px 10px -14px rgba(0,0,0,.7)!important}
-	body.home .padder,body.home #post-content,body.home .sc-tab-panel,body.archive .padder,body.search .padder{padding:0}
+	body.page-id-61726 .padder,body.page-id-61726 #post-content,body.page-id-61726 .sc-tab-panel,body.archive .padder,body.search .padder{padding:0}
 	.gp-blog-wrapper.gp-blog-columns-2,body.archive .gp-blog-wrapper,body.archive.tax-event .padder{grid-template-columns:1fr 1fr;grid-template-areas:"pages pages"}
 	.gp-blog-wrapper.gp-blog-columns-3{grid-template-columns:1fr 1fr 1fr}
 	.gp-blog-wrapper.gp-blog-columns-4{grid-template-columns:1fr 1fr 1fr 1fr}
@@ -997,7 +997,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.single .gp-entry-meta .gp-meta-cats{padding-left:.8rem;border-left:2px solid var(--lightgrayColor1)}
 	body.single article[class*='category-politicas-procesos'] .gp-meta-date+.gp-meta-cats{padding-left:0;border-left:none}
 	body.fullwidth #content .gp-search{margin:.5em auto 0;padding:0 1em;width:80%}
-	body.home .padder{padding:0}
+	body.page-id-61726 .padder{padding:0}
 	body:not(.home) .padder{border-radius:12px}
 	body:not(.home) .post-thumbnail+.padder{border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder,body.page-id-18106 .padder{border-top-width:6px;border-top-style:solid;border-top-color:var(--mainColor)}
@@ -1009,9 +1009,9 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
 	body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
 	body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
-	body.home section.post-loop.category-reportes{display:grid;grid-template-columns:35% 65%}
-	body.home section.post-loop.category-reportes a{font-size:1.2em;color:var(--highlightColor)}
-	body.home section.post-loop.category-reportes a:hover{color:var(--mainColor)}
+	body.page-id-61726 section.post-loop.category-reportes{display:grid;grid-template-columns:35% 65%}
+	body.page-id-61726 section.post-loop.category-reportes a{font-size:1.2em;color:var(--highlightColor)}
+	body.page-id-61726 section.post-loop.category-reportes a:hover{color:var(--mainColor)}
 	.ui-widget-content{float:left}
 	.wpcf7-select[multiple]{min-height:112px}
 	.mfp-content .widget{margin:0 auto;padding-top:1em;padding-bottom:1em;width:60%;position:inherit}
@@ -1064,7 +1064,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.single .gp-post-meta{display:block}
 	.widget h3.toggle i{width:24px}
 	.ui-tabs-nav>li{display:contents}
-	body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.75em}
+	body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li a{font-size:.75em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.sc-button-social{font-size:2.5em}
 	.jOrgChart table tr.child_box{padding:0}
