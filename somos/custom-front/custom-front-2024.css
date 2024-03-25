@@ -173,7 +173,7 @@ body.role- #header{top:0}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:var(--whiteColor1)}
 #nav .menu li.menu-item-has-children:hover:after{transform:rotateX(180deg);top:10px}
 #nav .menu .sub-menu li.menu-item-has-children:hover:after{top:3px}
-#menu-2024-destacado{display:flex;margin-top:3em;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+#menu-2024-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end}
 #menu-2024-destacado li{margin:0;list-style:none}
 #menu-2024-destacado li a{display:inline-block;padding:.4em .8em;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif}
 #menu-2024-destacado li a:hover{text-decoration:underline;}
@@ -549,7 +549,7 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 /* Buscadores */
 #__original__ajaxsearchprosettings1_1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asp_r .results .item div.etc,form.is-search-form{display:none!important}
 #header{border:none!important}
-body>.asp_w_container{position:fixed;top:104px;z-index:10;overflow:visible}
+body>.asp_w_container{position:fixed;top:104px;z-index:1;overflow:visible}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,div.asp_m.ajaxsearchpro .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
 body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{float:right;margin:0 auto;width:30%!important;overflow:visible!important;background:none!important}
@@ -566,7 +566,7 @@ div.asp_m .probox .prosettings .innericon:before{content:'\e17c'}
 div.asp_m .probox .promagnifier .innericon:before{content:'\f002'}
 div.asp_m .probox .proclose:before{content:'\f00d'}
 div.asp_m .probox .proclose:hover:before,div.asp_m .probox .promagnifier .innericon:hover:before,div.asp_m .probox .prosettings .innericon:hover:before{color:var(--textColor)}
-#ajaxsearchpro1_1 .probox .proinput input.orig{margin:0!important;width:100%!important;box-sizing:border-box!important;height:auto!important;padding:.5em 7.4em .5em .6em!important;color:var(--textColor)!important;background:var(--whiteColor1)!important;border:none!important;border-top:none!important;border-radius:0;box-shadow:none!important;font-size:1rem!important;line-height:normal;text-align:left}
+#ajaxsearchpro1_1 .probox .proinput input.orig{margin:0!important;width:100%!important;height:36px!important;box-sizing:border-box!important;height:auto!important;padding:.4rem 5rem .4rem .8rem!important;font-family:var(--titleFont)!important;color:var(--textColor)!important;background:var(--whiteColor1)!important;border:none!important;border-top:none!important;border-radius:0;box-shadow:none!important;font-size:1rem!important;line-height:normal;text-align:left}
 #ajaxsearchpro1_1 .probox .proinput input::placeholder{font-size:1rem!important;color:var(--metaColor)!important}
 div.asp_s.searchsettings form{background:var(--whiteColor1);border-radius:6px;box-shadow:0 10px 20px -12px rgba(0,0,0,.5);border:1px solid var(--lightgrayColor1)}
 div.asp_r.vertical{margin-top:-2px!important;background:var(--whiteColor1)!important;border:2px solid #1f4381!important;border-radius:6px 6px 12px 12px!important;box-shadow:0 4px 24px -12px rgba(0,0,0,.5)!important}
