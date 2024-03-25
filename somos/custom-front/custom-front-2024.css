@@ -144,7 +144,7 @@ body.role- #header{top:0}
 
 /* Header */
 #header{padding:1em;background:var(--textColor);border-bottom:2px solid var(--extraColor);border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
-#logo a:after{content:'Somos Grupo Datco';font-size:1.2rem;font-family:'neo-sans',sans-serif}
+#logo a:after{content:'Somos Grupo Datco';font-size:1.2rem;font-weight:400;font-family:'neo-sans',sans-serif}
 
 /* Menú */
 #nav{float:left}
