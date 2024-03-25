@@ -144,7 +144,9 @@ body.role- #header{top:0}
 
 /* Header */
 #header{padding:1em;background:var(--textColor);border-bottom:2px solid var(--extraColor);border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
-#logo a:after{content:'Somos Grupo Datco';font-size:1.2rem;font-weight:400;font-family:'neo-sans',sans-serif}
+#logo{margin-top:3px;margin-right:1em!important;padding-right:2em;border-right:1px solid rgba(255,255,255,.2)}
+#logo a{display:flex;align-items:center}
+#logo a:after{content:'Somos Grupo Datco';padding-left:.4em;font-size:1.2rem;font-weight:400;font-family:'neo-sans',sans-serif}
 
 /* Menú */
 #nav{float:left}
@@ -481,9 +483,9 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget li,.bdays_upcom>.birthday{padding:.4em 0;line-height:1.3;border-bottom:1px solid #DDDDDD}
 .widget li strong a{font-weight:400}
 .widget li:last-child,.bdays_upcom>.birthday:last-child{border-bottom:none}
-.widget .widgettitle{margin:0 0 .5em;padding:.4em 1em .4em 0;font-size:1.1em}
-.widget .widgettitle a{color:var(--metaColor);position:absolute;top:.4em;right:15px}
-.widget .widgettitle a:hover{transform:scale(1.15);color:var(--highlightColor)}
+.widget .widgettitle{margin:0 0 .5em;padding:1.4em 0 .4em 0;position:relative;font-size:1.1em}
+.widget .widgettitle a{color:var(--metaColor);position:absolute;top:.4em;right:0}
+.widget .widgettitle a:hover{color:var(--highlightColor)}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
 .widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{margin:.2em 0 .4em 0;max-height:165px;border-top:2px solid var(--lightgrayColor2);border-bottom:2px solid var(--lightgrayColor2);overflow-x:hidden;overflow-y:auto}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid var(--lightgrayColor2)}
@@ -885,7 +887,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .eo-events-nav a:hover{text-decoration:underline}
 .daysi{background:var(--mainColor);border-radius:50%;color:var(--whiteColor1);display:block}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
-.eo-widget-cal-wrap+.widget_ref{margin-top:.6em}
+.eo-widget-cal-wrap+.widget_ref{margin-top:.6em;margin-left:-11px}
 .eo_widget_calendar .widget_ref a{padding:.2em .35em;color:var(--whiteColor1);font-size:.8em}
 .eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.2)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
