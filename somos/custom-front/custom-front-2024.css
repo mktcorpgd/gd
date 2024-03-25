@@ -554,8 +554,8 @@ div.asp_m .probox .prosettings{right:45px}
 div.asp_m .probox .promagnifier{right:12px}
 div.asp_m .probox .proclose{right:74px}
 div.asp_m .probox .proloading,div.asp_m .probox .proloading .asp_loader{top:6px;right:80px;width:20px!important;height:20px!important;max-width:20px!important;max-height:20px!important;min-width:20px!important;min-height:20px!important}
-div.asp_m .probox .proloading .asp_loader .asp_loader-inner{border:3px solid rgba(255,255,255,.8)!important}
-div.asp_m .probox .proclose:before,div.asp_m .probox .promagnifier .innericon:before,div.asp_m .probox .prosettings .innericon:before{display:grid;align-items:center;height:100%;color:rgba(255,255,255,.8);font-family:'Font Awesome 6 Pro',sans-serif;position:relative;font-size:1.3em}
+div.asp_m .probox .proloading .asp_loader .asp_loader-inner{border:3px solid var(--metaColor)!important}
+div.asp_m .probox .proclose:before,div.asp_m .probox .promagnifier .innericon:before,div.asp_m .probox .prosettings .innericon:before{display:grid;align-items:center;height:100%;color:var(--metaColor);font-family:'Font Awesome 6 Pro',sans-serif;position:relative;font-size:1.3em}
 div.asp_m .probox .prosettings .innericon:before{content:'\e17c'}
 div.asp_m .probox .promagnifier .innericon:before{content:'\f002'}
 div.asp_m .probox .proclose:before{content:'\f00d'}
