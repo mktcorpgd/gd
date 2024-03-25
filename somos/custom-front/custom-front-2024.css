@@ -141,8 +141,8 @@ span.resaltado-verde{color:#76923C}
 body.role- #header{top:0}
 
 /* Header */
-#header{padding:8px;background:var(--mainColor);border-bottom:2px solid var(--extraColor);border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
-#logo:hover{transform:scale(1.1) rotate(720deg) translateX(5px)}
+#header{padding:1.2em;background:var(--textColor);border-bottom:2px solid var(--extraColor);border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
+#logo:hover{transform:scale(1.05) rotate(360deg) translateX(5px)}
 
 /* Menú */
 #nav{float:left}
