@@ -66,7 +66,7 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;}
 
 /* Prueba */
-.separator.menu-item,.separator.menu-item~.menu-item,#logo img{display:none}
+.separator.menu-item,.separator.menu-item~.menu-item{display:none}
 
 /* General */
 ::-moz-selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
@@ -144,7 +144,7 @@ body.role- #header{top:0}
 
 /* Header */
 #header{padding:1em;background:var(--textColor);border-bottom:2px solid var(--extraColor);border-radius:0;position:fixed;top:32px;left:0;z-index:9999}
-#logo{background-image:url('https://somos.grupodatco.com/wp-content/uploads/logo-somosgd.svg');background-repeat:no-repeat;background-size:contain}
+#logo a:after{content:'Somos Grupo Datco';font-size:1.2rem;font-family:'neo-sans',sans-serif}
 
 /* Menú */
 #nav{float:left}
@@ -469,7 +469,7 @@ input.static_gmap+a img{display:block;width:100%}
 input.static_gmap+a:hover{border-color:var(--highlightColor)}
 
 /* Sidebar */
-.sidebar .widget{margin-bottom:1em;padding:0 1.6em 1.4em;border-radius:12px}
+.sidebar .widget{margin-bottom:1em;padding:0 1.6em 1.4em;border-radius:12px;box-shadow:0 2px 4px 0 rgba(0,0,0,.2)}
 #text-7 .widget{text-align:center}
 .widget,.textwidget{line-height:1.3}
 .widget p{margin:0 0 .4em}
@@ -1033,6 +1033,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#sidebar-right{padding-top:0}
 	#nav{position:absolute;top:0;right:0}
 	#logo{margin-top:14px;margin-left:12px}
+	#logo img{width:36px;height:36px}
 	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:8px;padding:.4em;color:var(--whiteColor2);background:none!important;border-radius:6px;font-size:1.2em;line-height:1}
 	.widget .sc-button.small{margin-right:0;font-size:1.1em}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:var(--whiteColor1)}
