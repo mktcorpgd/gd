@@ -53,7 +53,9 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 /* Otros */
 .gp-meta-cats a[href$='/categoria/uns/'],.gp-meta-cats a[href$='/categoria/argentina-2/'],.hidden-front,
 /* Google Maps */
-.pac-icon,.pac-logo:after{display:none!important}
+.pac-icon,.pac-logo:after,
+/* Admin */
+body:not(.page-id-61726) #nav_menu-2{display:none!important}
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
 body:not(.logged-in) #custom_html-23,
@@ -547,7 +549,7 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 body>.asp_w_container{position:fixed;margin-top:72px;margin-bottom:10px;z-index:10;overflow:visible}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,div.asp_m.ajaxsearchpro .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
-body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{float:right;margin:0 auto;width:40%!important;overflow:visible!important;background:none!important}
+body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{float:right;margin:0 auto;width:30%!important;overflow:visible!important;background:none!important}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
 div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute!important}
 div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{top:-3px;height:100%!important}
