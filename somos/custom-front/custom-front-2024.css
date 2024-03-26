@@ -539,7 +539,7 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:var(--h
 #custom_html-11,#custom_html-24,#custom_html-28{padding-top:.8em}
 #custom_html-24>div>h3{margin-bottom:0;font-weight:500}
 h3.toggle>i.fa-minus-square:before,h3.toggle>i.fa-minus-square:before{font-weight:bold}
-h3.toggle>i.fa-plus-square+a:after,h3.toggle>i.fa-minus-square+a:after{font-size:.9em;font-family:var(--iconFont),sans-serif;position:absolute;top:2px;right:0}
+h3.toggle>i.fa-plus-square+a:after,h3.toggle>i.fa-minus-square+a:after{font-size:.9em;font-family:var(--iconFont),sans-serif;position:absolute;top:3px;right:0}
 h3.toggle>i.fa-plus-square+a:after{content:'\f067'}
 h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #custom_html-3>div>h3>i:before{content:'\f1fd'}
