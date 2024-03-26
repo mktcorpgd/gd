@@ -501,6 +501,8 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 #text-2{background:#EAD6D0}
 #custom_html-11{background:#CAD0DA}
 #sidebar-right h3.toggle a{font-weight:500!important}
+#sidebar-right h3.toggle:hover,#sidebar-right h3.toggle:hover a{color:var(--mainColor)}
+#sidebar-right h3.toggle:hover a{text-decoration:underline}
 .sidebar a,.widget .sc-button.small{color:var(--textColor)!important}
 .sidebar a.sc-button{text-decoration:underline!important}
 .sidebar a:hover{color:var(--mainColor)!important;text-decoration:underline}
