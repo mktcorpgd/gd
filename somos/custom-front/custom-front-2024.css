@@ -296,7 +296,7 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper article.event ul{margin-bottom:0}
 .gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:400}
 .gp-blog-wrapper.gp-blog-columns-3 section h2{text-align:center}
-.gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block;color:var(--mainColor)}
+.gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block;color:var(--textColor)}
 .gp-blog-wrapper section h2 a:hover{text-decoration:none;color:var(--mainColor)}
 .gp-blog-wrapper section:hover h2 a{color:var(--highlightColor)}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em}
@@ -823,9 +823,7 @@ body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-.widget .sc-button.small{padding:.3em .6em}
-.widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
-#content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
+#content .sc-button.small,#content button.small,.widget .sc-button.small{padding:0!important;background:none!important;color:var(--highlightColor)!important;font-weight:400!important}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
