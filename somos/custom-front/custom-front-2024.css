@@ -63,7 +63,7 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 .mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* Global */
-:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';}
+:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--regularRadsius:12px;}
 
 /* Prueba */
 .separator.menu-item,.separator.menu-item~.menu-item,.asp_filter_generic,.asp_filter_cpt,.bdays_today:not(.test2024),#custom_html-3,.textwidget .toggle i{display:none}
@@ -489,7 +489,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget li,.bdays_upcom>.birthday{padding:.4em 0;line-height:1.3;border-bottom:1px solid #DDDDDD}
 .widget li strong a{font-weight:400}
 .widget li:last-child,.bdays_upcom>.birthday:last-child{border-bottom:none}
-.widget .widgettitle{margin:1.4em 0 .5em;padding:0 0 .4em 0;position:relative;font-size:1.1em}
+.widget .widgettitle{margin:1em 0 .5em;padding:0 0 .4em 0;position:relative;font-size:1.1em}
 .widget .widgettitle a{color:var(--metaColor);position:absolute;top:0;right:0}
 .widget .widgettitle a:hover{color:var(--highlightColor)}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
@@ -498,6 +498,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
 .widget h3.cta a{color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
+#sidebar-right .widget .widgettitle{font-size:1.4em}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:var(--titleFont),sans-serif;color:var(--mainColor);font-style:normal}
