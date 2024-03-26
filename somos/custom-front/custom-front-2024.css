@@ -498,7 +498,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
 .widget h3.cta a{color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
-#sidebar-right .widget .widgettitle,#custom_html-11 .toggle,#custom_html-28 .toggle{font-size:1.4em}
+#sidebar-right .widget .widgettitle,#custom_html-11 .toggle{font-size:1.4em}
 #text-2{background:#EAD6D0}
 #custom_html-11,#custom_html-28{background:#CAD0DA}
 #sidebar-right h3.toggle a{font-weight:500!important}
@@ -538,7 +538,7 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:var(--h
 #custom_html-11,#custom_html-24,#custom_html-28{padding-top:.8em}
 #custom_html-24>div>h3{margin-bottom:0;font-weight:500}
 h3.toggle>i.fa-minus-square:before,h3.toggle>i.fa-minus-square:before{font-weight:bold}
-h3.toggle>i.fa-plus-square+a:after,h3.toggle>i.fa-minus-square+a:after{font-family:var(--iconFont),sans-serif;position:absolute;top:0;right:0}
+h3.toggle>i.fa-plus-square+a:after,h3.toggle>i.fa-minus-square+a:after{font-size:.9em;font-family:var(--iconFont),sans-serif;position:absolute;top:2px;right:0}
 h3.toggle>i.fa-plus-square+a:after{content:'\f067'}
 h3.toggle>i.fa-minus-square+a:after{content:'\f068'}
 #custom_html-3>div>h3>i:before{content:'\f1fd'}
