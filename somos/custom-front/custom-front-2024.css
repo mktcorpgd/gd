@@ -498,7 +498,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
 .widget h3.cta a{color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
-#sidebar-right .widget .widgettitle,#custom_html-11 .toggle{font-size:1.4em}
+#sidebar-right .widget .widgettitle,#custom_html-11 .toggle,#custom_html-28 .toggle{font-size:1.4em}
 #text-2{background:#EAD6D0}
 #custom_html-11{background:#CAD0DA}
 
@@ -516,7 +516,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 
 /* Colapsables */
 h3.toggle{position:relative;font-size:1.2em;line-height:1.6}
-h3.toggle a{display:table-cell;padding-left:5px}
+h3.toggle a{display:table-cell;padding-left:5px;line-height:normal}
 h3.toggle i{display:table-cell;font-size:.9em;text-align:center}
 h3.toggle .fa-plus-square:before{content:'\f067'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
