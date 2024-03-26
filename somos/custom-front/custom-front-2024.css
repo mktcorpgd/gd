@@ -501,8 +501,9 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 #sidebar-right .widget .widgettitle,#custom_html-11 .toggle,#custom_html-28 .toggle{font-size:1.4em}
 #text-2{background:#EAD6D0}
 #custom_html-11,#custom_html-28{background:#CAD0DA}
-.sidebar a{color:var(--textColor)}
-.sidebar a:hover{color:var(--mainColor);text-decoration:underline}
+.sidebar a{color:var(--textColor)!important}
+.sidebar a.sc-button{text-decoration:underline!important}
+.sidebar a:hover{color:var(--mainColor)!important;text-decoration:underline}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:var(--titleFont),sans-serif;color:var(--mainColor);font-style:normal}
