@@ -499,6 +499,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget h3.cta a{color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
 #sidebar-right .widget .widgettitle{font-size:1.4em}
+#text-2{background:#EAD6D0}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:var(--titleFont),sans-serif;color:var(--mainColor);font-style:normal}
