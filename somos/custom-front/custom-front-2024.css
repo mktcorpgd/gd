@@ -501,6 +501,8 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 #sidebar-right .widget .widgettitle,#custom_html-11 .toggle,#custom_html-28 .toggle{font-size:1.4em}
 #text-2{background:#EAD6D0}
 #custom_html-11,#custom_html-28{background:#CAD0DA}
+#sidebar-right a{color:var(--textColor)}
+#sidebar-right a:hover{color:var(--mainColor);text-decoration:underline}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:var(--titleFont),sans-serif;color:var(--mainColor);font-style:normal}
@@ -827,7 +829,11 @@ body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-#content .sc-button.small,#content button.small,.widget .sc-button.small{padding:0!important;background:none!important;box-shadow:none!important;color:var(--highlightColor)!important;font-weight:400!important;text-decoration:underline!important}
+.widget .sc-button.small{padding:.3em .6em}
+.widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
+#content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
+.widget .sc-button.small{padding:0!important;background:none!important;box-shadow:none!important;color:var(--highlightColor)!important;text-decoration:none!important}
+.widget .sc-button.small:hover{text-decoration:underline!important}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
