@@ -823,7 +823,7 @@ body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-#content .sc-button.small,#content button.small,.widget .sc-button.small{padding:0!important;background:none!important;color:var(--highlightColor)!important;font-weight:400!important}
+#content .sc-button.small,#content button.small,.widget .sc-button.small{padding:0!important;background:none!important;color:var(--highlightColor)!important;font-weight:400!important;text-decoration:underline!important}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
