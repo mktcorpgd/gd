@@ -66,7 +66,7 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--regularRadsius:12px;}
 
 /* Prueba */
-.separator.menu-item,.separator.menu-item~.menu-item,.asp_filter_generic,.asp_filter_cpt,.bdays_today:not(.test2024),#custom_html-3,.textwidget .toggle i,#custom_html-11 .toggle i,#custom_html-11 .toggle:not(:first-child){display:none}
+.separator.menu-item,.separator.menu-item~.menu-item,.asp_filter_generic,.asp_filter_cpt,.bdays_today:not(.test2024),#custom_html-3,.textwidget .toggle i,#custom_html-11 .toggle i,#custom_html-11 .toggle:not(:first-child),#custom_html-11 .toggle-box:not(:first-child){display:none}
 
 /* General */
 ::-moz-selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
