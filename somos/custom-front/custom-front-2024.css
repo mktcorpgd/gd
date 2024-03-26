@@ -66,7 +66,7 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--regularRadsius:12px;}
 
 /* Prueba */
-.separator.menu-item,.separator.menu-item~.menu-item,.asp_filter_generic,.asp_filter_cpt,.bdays_today:not(.test2024),#custom_html-3,.textwidget .toggle i{display:none}
+.separator.menu-item,.separator.menu-item~.menu-item,.asp_filter_generic,.asp_filter_cpt,.bdays_today:not(.test2024),#custom_html-3,.textwidget .toggle i,#custom_html-11 .toggle{display:none}
 
 /* General */
 ::-moz-selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
@@ -498,19 +498,20 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
 .widget h3.cta a{color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
-#sidebar-right .widget .widgettitle{font-size:1.4em}
+#sidebar-right .widget .widgettitle,#custom_html-11 .toggle{font-size:1.4em}
 #text-2{background:#EAD6D0}
+#custom_html-11{background:#CAD0DA}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:var(--titleFont),sans-serif;color:var(--mainColor);font-style:normal}
 .birthday_wish,.birthday_error{transform:rotate(-1deg);margin:1em 0 .5em;font-weight:500}
-.birthday_wish{margin:0;width:100%;color:var(--mainColor);font-size:1.4em;position:absolute;top:1em}
+.birthday_wish{margin:0;width:100%;color:var(--mainColor);font-size:1.6em;position:absolute;top:1em;left:0}
 .bdays_today .birthday_list .birthday_name{margin:.3em 0;padding:0;font-size:1.2em;line-height:1.2;font-weight:500;text-align:center;border:none}
 .birthday_error{margin:1em 0 .5em;font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
 .birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:var(--grayColor)}
 .widget .birthday_list{margin-bottom:.5em}
-.birthdays-widget{padding-top:4em}
+.birthdays-widget.bdays_today{padding-top:4em}
 .birthdays-widget img{width:100%!important}
 
 /* Colapsables */
