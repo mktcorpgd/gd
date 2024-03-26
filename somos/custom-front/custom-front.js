@@ -629,12 +629,12 @@ jQuery(document).ready(function() {
 	// EVENTOS - Agregar enlace a eventos del mes en menú y calendario
 	var yy = new Date().getFullYear();
 	var mm = ('0'+(new Date().getMonth()+1)).slice(-2);
-	jQuery('#eo_calendar_widget-7 .widget_ref').attr({
+	jQuery('.widget_calendar .widget_ref').attr({
 		'data-ny': yy,
 		'data-nm': mm
 	});
 	jQuery('#menu-item-18425>a').attr('href','/eventos/fecha/'+yy+'/'+mm+'/');
-	jQuery('#eo_calendar_widget-7 .widget_ref').after('<a href="/eventos/fecha/'+yy+'/'+mm+'/" class="sc-button blue small">Ver eventos del mes</a>');
+	jQuery('.widget_calendar .widget_ref').after('<a href="/eventos/fecha/'+yy+'/'+mm+'/" class="sc-button blue small">Ver eventos del mes</a>');
 
 
 	// EVENTOS - Agregar referencias para calendario de eventos y capacitaciones
