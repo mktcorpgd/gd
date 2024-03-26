@@ -831,10 +831,9 @@ body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
-.widget .sc-button.small{padding:.3em .6em}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
 #content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
-.widget .sc-button.small{padding:0!important;background:none!important;box-shadow:none!important;color:var(--highlightColor)!important;text-decoration:none!important}
+.widget .sc-button.small{padding:0!important;background:none!important;box-shadow:none!important;color:var(--textColor)!important;text-decoration:underline!important}
 .widget .sc-button.small:hover{text-decoration:underline!important}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
@@ -904,7 +903,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 .daysi{background:var(--mainColor);border-radius:50%;color:var(--whiteColor1);display:block}
 .eo-widget-cal-overlay{z-index:99;border-radius:50%}
 .eo-widget-cal-wrap+.widget_ref{margin-top:.6em;margin-left:-11px}
-.eo_widget_calendar .widget_ref a{padding:.2em .35em;color:var(--whiteColor1);font-size:.8em}
+.eo_widget_calendar .widget_ref a{padding:.2em .35em;color:var(--whiteColor1)!important;font-size:.8em}
 .eo_widget_calendar .widget_ref a:hover{text-decoration:none;box-shadow:inset 0 0 0 32px rgba(0,0,0,.2)}
 .eo_widget_calendar .widget_ref a:first-child{border-top-left-radius:6px;border-bottom-left-radius:6px}
 .eo_widget_calendar .widget_ref a:last-child{border-top-right-radius:6px;border-bottom-right-radius:6px}
