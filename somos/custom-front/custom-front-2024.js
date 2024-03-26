@@ -1,5 +1,7 @@
 jQuery(document).ready(function() {
 
-	// Todavía nada 
-	
+	// GENERAL - Si hay cumpleaños:
+	if ( jQuery('.bdays_today').length ) {
+	}
+
 });
