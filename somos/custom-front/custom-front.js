@@ -625,6 +625,10 @@ jQuery(document).ready(function() {
 	});
 	*/
 
+	// EVENTOS - Agregar referencias para calendario de eventos y capacitaciones
+	jQuery('#sidebar-left .eo-widget-cal-wrap').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="otros" href="/eventos/categoria/otros/">Otro</a></div>');
+
+
 	// EVENTOS - Agregar enlace a eventos del mes en menú y calendario
 	var yy = new Date().getFullYear();
 	var mm = ('0'+(new Date().getMonth()+1)).slice(-2);
@@ -634,10 +638,6 @@ jQuery(document).ready(function() {
 	});
 	jQuery('#menu-item-18425>a').attr('href','/eventos/fecha/'+yy+'/'+mm+'/');
 	jQuery('.eo_widget_calendar .widget_ref').after('<a href="/eventos/fecha/'+yy+'/'+mm+'/" class="sc-button blue small">Ver eventos del mes</a>');
-
-
-	// EVENTOS - Agregar referencias para calendario de eventos y capacitaciones
-	jQuery('#sidebar-left .eo-widget-cal-wrap').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="otros" href="/eventos/categoria/otros/">Otro</a></div>');
 
 
 	// EVENTOS - Convertir textos en descripción con "http" en link:
