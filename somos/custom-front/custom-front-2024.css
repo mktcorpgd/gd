@@ -194,7 +194,7 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-blog-wrapper section .gp-loop-meta strong{font-weight:400}
 .gp-blog-wrapper section .gp-meta-cats{display:block;margin:.2rem 0}
 .gp-blog-wrapper section .gp-meta-cats a{font-family:var(--textFont),sans-serif;font-weight:400}
-.gp-meta-date,.eo-event-date,.gp-meta-comments{font-weight:400}
+.gp-meta-date,.eo-event-date,.gp-meta-comments{font-size:1.1em;font-weight:400}
 .eo-event-date,.gp-meta-comments{margin:0}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none}
 .eo-event-date{margin:.2em 0;font-family:var(--titleFont),sans-serif;font-weight:500}
