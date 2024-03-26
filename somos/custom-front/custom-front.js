@@ -582,21 +582,6 @@ jQuery(document).ready(function() {
 		}
 		e.preventDefault();
 	});
-
-
-	// LATERAL - Expandir widget
-	jQuery('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
-	jQuery(document).on('click','.widget .widgettitle .topopup',function(e) {
-		e.preventDefault();
-		var get_widget = jQuery(this).parent().parent().attr('id');
-		var cloned_widget = jQuery('#'+get_widget).clone();
-		jQuery.magnificPopup.open({
-			items: {
-				src: cloned_widget,
-			},
-			type: 'inline'
-		});
-	});
 	
 
 	// LATERAL - Convertir a galería las referencias
