@@ -294,9 +294,9 @@ body.post-template-default.single #content article.category-velocom h1,body.page
 .gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper{display:grid}
 .gp-blog-wrapper section,.gp-blog-wrapper article.event{margin:0 0 .6em;width:100%;background:var(--whiteColor1);border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .gp-blog-wrapper article.event ul{margin-bottom:0}
-.gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:500}
+.gp-blog-wrapper section h2,.gp-blog-wrapper article.event h2{display:block;margin:0 0 .2em;font-size:1.2em;line-height:1.15;font-weight:400}
 .gp-blog-wrapper.gp-blog-columns-3 section h2{text-align:center}
-.gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block}
+.gp-blog-wrapper section h2 a,.gp-blog-wrapper article.event h2 a{display:block;color:var(--mainColor)}
 .gp-blog-wrapper section h2 a:hover{text-decoration:none;color:var(--mainColor)}
 .gp-blog-wrapper section:hover h2 a{color:var(--highlightColor)}
 .gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event{padding:.5em .8em}
