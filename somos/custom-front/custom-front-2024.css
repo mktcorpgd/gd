@@ -214,7 +214,7 @@ body.role- #header{top:0}
 #nav .menu .sub-menu li.menu-item-has-children:hover:after{top:3px}
 #menu-2024-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end;z-index:100}
 #menu-2024-destacado li{margin:0;list-style:none}
-#menu-2024-destacado li a{display:inline-block;margin:0 .8em;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif}
+#menu-2024-destacado li a{display:inline-block;margin:0 1em 0 0;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif}
 #menu-2024-destacado li a:hover{text-decoration:underline;}
 
 /* Meta */
@@ -1092,7 +1092,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	input[type='text'], input[type='search'], input[type='url'], input[type='date'], input[type='email'], input[type='tel'], input[type='number'], textarea, select, .wpcf7-list-item-label{font-size:1.2rem!important;line-height:1.6em}
 	.sidebar{font-size:18px}
 	.gp-responsive #page-wrapper{padding:0}
-	#container #content,.padder,.gp-responsive .sidebar{padding:1em 1em 0}
+	#container #content,.padder,.gp-responsive .sidebar{padding:1em 1rem 0}
 	.gp-responsive .sidebar{margin-top:0}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
@@ -1112,7 +1112,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:var(--whiteColor1)}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
-	#header{min-height:64px;padding:0;top:45px}
+	#header{min-height:64px;padding:0 1rem;top:45px}
 	.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{height:35px!important}
 	#content-wrapper{margin-top:100px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
@@ -1141,8 +1141,8 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	div[id*='ajaxsearchpro'].asp_m{width:95%}
 	body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{min-width:100%;width:100%}
 	#ajaxsearchpro1_1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:12px}
-	#menu-2024-destacado{display:block;width:100%;height:auto;padding:0!important;position:absolute;top:109px}
+	#menu-2024-destacado{display:block;width:100%;height:auto;padding:0 1rem!important;position:absolute;top:109px}
 	#menu-2024-destacado li{float:left}
-	#menu-2024-destacado li a{padding:.6em 0;font-size:.9em}
+	#menu-2024-destacado li a{margin:0 .6em 0 0;padding:.6em 0;font-size:.9em}
 	.gp-responsive .ui-tabs .ui-tabs-nav li{width:auto}
 }
