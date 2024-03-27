@@ -1097,10 +1097,9 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
 	#nav{position:absolute;top:0;right:0}
-	#logo{margin:14px 0 0 12px;border-right:none}
+	#logo{margin-top:15px;border-right:none}
 	#logo img{width:36px;height:36px}
-	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:8px;padding:.4em;color:var(--whiteColor2);background:none!important;border-radius:6px;font-size:1.2em;line-height:1}
-	.widget .sc-button.small{margin-right:0;font-size:1.1em}
+	#mobile-nav-button{margin-top:10px;background:none!important;font-size:1.3em}	.widget .sc-button.small{margin-right:0;font-size:1.1em}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:var(--whiteColor1)}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:none}
