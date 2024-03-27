@@ -500,8 +500,8 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget h3.cta a{color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
 #sidebar-right .widget .widgettitle,#custom_html-11 .toggle{font-size:1.4em}
-#text-2{background:#EAD6D0}
-#custom_html-11{background:#CAD0DA}
+#text-2{background:#CAD0DA}
+#custom_html-11{border-top:4px solid rgba(0,0,0,.2)}
 #sidebar-right h3.toggle a{font-weight:500!important}
 #sidebar-right h3.toggle:hover,#sidebar-right h3.toggle:hover a{color:var(--mainColor)!important}
 #sidebar-right h3.toggle:hover a{text-decoration:underline}
