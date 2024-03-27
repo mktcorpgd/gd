@@ -615,7 +615,7 @@ notification_image{align-items:flex-start!important;max-width:110px!important;wi
 notification_image img{border-radius:6px!important}
 notification_title{font-family:var(--titleFont),sans-serif!important;color:var(--textColor)!important}
 notification_title:hover{color:var(--mainColor)!important}
-popup_button btn{margin:0 auto;box-sizing:border-box;width:100%;height:auto;padding:.6em .8em!important;font-family:var(--textFont),sans-serif!important;font-weight:600!important;border-radius:12px}
+popup_button btn{box-sizing:border-box!important;width:100%!important;height:auto;padding:.6em .8em!important;font-family:var(--textFont),sans-serif!important;font-weight:600!important;border-radius:12px!important}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:var(--textFont),sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
@@ -820,7 +820,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button,#wpdcom .wpd-second-button,btn.webpushrUnknownBtn,btn.webpushrOffBtn{margin:0;padding:.4em .6em;color:var(--whiteColor1);font-family:var(--textFont),sans-serif;font-size:1em;letter-spacing:0;line-height:normal;text-align:center;background:var(--highlightColor)!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)!important;text-decoration:none!important;text-shadow:none;outline:none}
+.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button,#wpdcom .wpd-second-button,btn.webpushrUnknownBtn,btn.webpushrOffBtn{margin:0;padding:.4em .6em;color:var(--whiteColor1);font-family:var(--textFont),sans-serif!important;font-size:1em;letter-spacing:0;line-height:normal;text-align:center;background:var(--highlightColor)!important;border:none;box-shadow:0 2px 4px 0px rgba(0,0,0,.2)!important;text-decoration:none!important;text-shadow:none;outline:none}
 #wpdcom .wpd-second-button:hover, #wpdcom .wpd-prim-button:hover{opacity:1}
 #wpdcom .wpd_label__check i.wpdicon-off{border-radius:6px}
 .sc-button,.sc-button:hover{margin:0}
