@@ -836,8 +836,8 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 #content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
 .widget .sc-button.small{margin-top:1em;padding:0!important;background:none!important;box-shadow:none!important;color:var(--textColor)!important;text-decoration:underline!important}
 .widget .sc-button.small:hover{color:var(--mainColor)!important;text-decoration:underline!important}
-.widget .sc-button.small:after{content:'›';display:inline-block;padding-left:.4em}
-.widget .sc-button.small:hover:after{padding-left:.5em}
+.widget .sc-button.small:after{content:'›';display:inline-block;padding-left:.2em}
+.widget .sc-button.small:hover:after{padding-left:.4em}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
