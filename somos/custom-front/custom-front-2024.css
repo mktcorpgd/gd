@@ -614,6 +614,7 @@ promptPopup{border-radius:12px!important;font-family:var(--textFont),sans-serif!
 notification_image{max-width:130px!important;width:130px!important;border:none!important}
 notification_image img{border-radius:6px!important}
 notification_title{font-family:var(--titleFont),sans-serif!important;color:var(--textColor)!important}
+notification_title:hover{color:var(--mainColor)!important}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:var(--textFont),sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
