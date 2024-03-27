@@ -212,7 +212,7 @@ body.role- #header{top:0}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:var(--whiteColor1)}
 #nav .menu li.menu-item-has-children:hover:after{transform:rotateX(180deg);top:10px}
 #nav .menu .sub-menu li.menu-item-has-children:hover:after{top:3px}
-#menu-2024-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end;z-index:10}
+#menu-2024-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end;z-index:100}
 #menu-2024-destacado li{margin:0;list-style:none}
 #menu-2024-destacado li a{display:inline-block;margin:0 .8em;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif}
 #menu-2024-destacado li a:hover{text-decoration:underline;}
