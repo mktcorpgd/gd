@@ -1147,6 +1147,6 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.ui-tabs-nav>li{display:contents}
 	#post-content .ui-tabs .ui-tabs-nav{display:block;box-shadow:none;border-radius:0}
 	#post-content .ui-tabs .ui-tabs-nav li a{border-radius:6px}
-	.gp-responsive .ui-tabs .ui-tabs-nav li{margin:0 .2em .4em .2em!important;width:auto;border:none!important;border-radius:6px;overflow:hidden}
+	.gp-responsive .ui-tabs .ui-tabs-nav li{margin:0 .2em .4em .2em!important;width:auto;border:none!important;border-radius:6px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 	.gp-responsive .ui-tabs .ui-tabs-nav li:first-child{margin-left:0!important}
 }
