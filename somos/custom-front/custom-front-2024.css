@@ -523,7 +523,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 
 /* Colapsables */
 h3.toggle{position:relative;font-size:1.2em;line-height:1.6}
-h3.toggle a{display:table-cell;padding-left:0;font-weight:500;line-height:normal}
+h3.toggle a{display:table-cell;padding-left:0;font-weight:500;line-height:1.2}
 h3.toggle i{display:table-cell;font-size:.9em;text-align:center}
 h3.toggle .fa-plus-square:before{content:'\f067'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
