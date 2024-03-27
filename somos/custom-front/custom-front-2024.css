@@ -80,7 +80,7 @@ section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plu
 #nav .menu li a,#nav .menu li.menu-item-has-children:after,.wp-classic-menu-block>.menu ul,.kit>.menu li,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
 body{background-color:var(--lightgrayColor1);letter-spacing:-.1px}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:var(--textColor);font-size:16px}
-h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:600;font-family:var(--titleFont),sans-serif}
+h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:var(--titleFont),sans-serif}
 h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:var(--textColor);line-height:125%}
 h5,h6{font-weight:400}
 h1.page-title{float:left;width:100%;margin:0 0 .5em;font-size:2em;font-weight:500;line-height:1.15}
@@ -501,7 +501,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 #text-2{background:#EAD6D0}
 #custom_html-11{background:#CAD0DA}
 #sidebar-right h3.toggle a{font-weight:500!important}
-#sidebar-right h3.toggle:hover,#sidebar-right h3.toggle:hover a{color:var(--mainColor)}
+#sidebar-right h3.toggle:hover,#sidebar-right h3.toggle:hover a{color:var(--mainColor)!important}
 #sidebar-right h3.toggle:hover a{text-decoration:underline}
 .sidebar a,.widget .sc-button.small{color:var(--textColor)!important}
 .sidebar a.sc-button{text-decoration:underline!important}
@@ -836,7 +836,7 @@ body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border
 #content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
 .widget .sc-button.small{margin-top:1em;padding:0!important;background:none!important;box-shadow:none!important;color:var(--textColor)!important;text-decoration:underline!important}
 .widget .sc-button.small:hover{color:var(--mainColor)!important;text-decoration:underline!important}
-.widget .sc-button.small:after{content:'›';display:inline-block;padding-right:.4em}
+.widget .sc-button.small:after{content:'›';display:inline-block;padding-left:.4em}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
