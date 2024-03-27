@@ -500,14 +500,14 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
 #sidebar-right .widget .widgettitle,#custom_html-11 .toggle{font-size:1.4em}
 #text-2{background:#CAD0DA}
-#custom_html-11{background-image:url(https://somos.grupodatco.com/wp-content/uploads/bkg-top.svg);background-position:top center;background-repeat:no-repeat;background-size:200%}
-#custom_html-11 .widget ul:not(.birthday_list):not(.ui-tabs-nav){border-bottom:1px solid rgba(255,255,255,.1);}
 #sidebar-right h3.toggle a{font-weight:500!important}
 #sidebar-right h3.toggle:hover,#sidebar-right h3.toggle:hover a{color:var(--mainColor)!important}
 #sidebar-right h3.toggle:hover a{text-decoration:underline}
 .sidebar a,.widget .sc-button.small{color:var(--textColor)!important}
 .sidebar a.sc-button{text-decoration:underline!important}
 .sidebar a:hover{color:var(--mainColor)!important;text-decoration:underline}
+#custom_html-11{background-image:url(https://somos.grupodatco.com/wp-content/uploads/bkg-top.svg);background-position:top center;background-repeat:no-repeat;background-size:200%}
+#custom_html-11 .toggle-box{margin-bottom:0!important}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:var(--titleFont),sans-serif;color:var(--mainColor);font-style:normal}
