@@ -1146,6 +1146,6 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#menu-2024-destacado li:last-child a{margin:0}
 	.gp-responsive .ui-tabs .ui-tabs-nav li{margin:0 .2em;width:auto;border-radius:6px;overflow:hidden}
 	.gp-responsive .ui-tabs .ui-tabs-nav li:first-child{margin-left:0!important}
-	#post-content .ui-tabs .ui-tabs-nav{box-shadow:none;border-radius:0}
+	#post-content .ui-tabs .ui-tabs-nav{display:block;box-shadow:none;border-radius:0}
 	#post-content .ui-tabs .ui-tabs-nav li a{border-radius:6px}
 }
