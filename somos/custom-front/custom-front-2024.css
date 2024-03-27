@@ -517,7 +517,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .birthday_error{margin:1em 0 .5em;font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
 .birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:var(--grayColor)}
-.birthdays-widget.bdays_today{padding-top:2em;padding-bottom:1em}
+.birthdays-widget.bdays_today{padding-top:2em;padding-bottom:.4em}
 .birthdays-widget img{width:100%!important}
 
 /* Colapsables */
