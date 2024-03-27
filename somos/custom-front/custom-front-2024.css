@@ -67,41 +67,6 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 /* Global */
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--regularRadsius:12px;}
 
-/* Scrollbar */
-.widget ul::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
-}
-.widget ul::-webkit-scrollbar-button {
-  width: 0px;
-  height: 0px;
-}
-.widget ul::-webkit-scrollbar-thumb {
-  background: #cccccc;
-  border: 0px none #ffffff;
-  border-radius: 50px;
-}
-.widget ul::-webkit-scrollbar-thumb:hover {
-  background: #999999;
-}
-.widget ul::-webkit-scrollbar-thumb:active {
-  background: #1f4483;
-}
-.widget ul::-webkit-scrollbar-track {
-  background: #ffffff;
-  border: 0px solid #ffffff;
-  border-radius: 3px;
-}
-.widget ul::-webkit-scrollbar-track:hover {
-  background: #eaeaea;
-}
-.widget ul::-webkit-scrollbar-track:active {
-  background: #eaeaea;
-}
-.widget ul::-webkit-scrollbar-corner {
-  background: transparent;
-}
-
 /* Prueba */
 .separator.menu-item,.separator.menu-item~.menu-item,.asp_filter_generic,.asp_filter_cpt,.bdays_today:not(.test2024),#custom_html-3,.textwidget .toggle i,#custom_html-11 .toggle i,#custom_html-11 .toggle~.toggle,#custom_html-11 .toggle-box~.toggle-box,#custom_html-26,#custom_html-25{display:none!important}
 
@@ -545,6 +510,9 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .sidebar a:hover{color:var(--mainColor)!important;text-decoration:underline}
 #custom_html-11{background-image:url(https://somos.grupodatco.com/wp-content/uploads/bkg-top.svg);background-position:top center;background-repeat:no-repeat;background-size:200%}
 #custom_html-11 .toggle-box{margin-bottom:0!important}
+
+/* Sidebar - Scrollbar */
+.widget ul::-webkit-scrollbar{width:6px;height:6px}.widget ul::-webkit-scrollbar-button{width:0;height:0}.widget ul::-webkit-scrollbar-thumb{background:#cccccc;border:0 none #ffffff;border-radius:50px}.widget ul::-webkit-scrollbar-thumb:hover{background:#999999}.widget ul::-webkit-scrollbar-thumb:active{background:#1f4483}.widget ul::-webkit-scrollbar-track{background:#ffffff;border:0 solid #ffffff;border-radius:3px}.widget ul::-webkit-scrollbar-track:hover{background:#eaeaea}.widget ul::-webkit-scrollbar-track:active{background:#eaeaea}.widget ul::-webkit-scrollbar-corner{background:transparent}
 
 /* Cumpleaños */
 .bdays_today .birthday_list .birthday_name,.birthday_wish,.birthday_error{font-family:var(--titleFont),sans-serif;color:var(--mainColor);font-style:normal}
