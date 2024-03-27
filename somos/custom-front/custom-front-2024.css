@@ -53,7 +53,9 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 /* Otros */
 .gp-meta-cats a[href$='/categoria/uns/'],.gp-meta-cats a[href$='/categoria/argentina-2/'],.hidden-front,
 /* Google Maps */
-.pac-icon,.pac-logo:after{display:none!important}
+.pac-icon,.pac-logo:after,
+/* Nofiticationes */
+popup_poweredby{display:none!important}
 body:not(.page-id-61726) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
 body:not(.logged-in) #custom_html-23,
