@@ -611,7 +611,7 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 /* Notificaciones */
 popup_heading_text{font-family:var(--textFont),sans-serif!important;color:var(--textColor)!important;letter-spacing:0!important}
 promptPopup{border-radius:12px!important;font-family:var(--textFont),sans-serif!important}
-notification_image{align-items:flex-start!important;max-width:130px!important;width:130px!important;border:none!important}
+notification_image{align-items:flex-start!important;max-width:110px!important;width:110px!important;border:none!important}
 notification_image img{border-radius:6px!important}
 notification_title{font-family:var(--titleFont),sans-serif!important;color:var(--textColor)!important}
 notification_title:hover{color:var(--mainColor)!important}
