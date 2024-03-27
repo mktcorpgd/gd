@@ -586,8 +586,8 @@ div.asp_r.vertical{margin-top:-2px!important;background:var(--whiteColor1)!impor
 div.asp_r .results .item{padding:.2em .4em}
 div.asp_r .results .item:hover{background:rgba(0,0,0,.025)}
 div[id*='ajaxsearchprosettings']{background:none;overflow:visible}
-div.asp_s.searchsettings .asp_option_inner .asp_option_checkbox{background:var(--grayColor)!important;box-shadow:none!important;border-radius:3px}
-div.asp_s.searchsettings .asp_option_inner input:checked+.asp_option_checkbox{background:var(--highlightColor)!important}
+div.asp_s.searchsettings .asp_option_inner .asp_option_checkbox{background:var(--lightgrayColor2)!important;box-shadow:none!important;border-radius:3px}
+div.asp_s.searchsettings .asp_option_inner input:checked+.asp_option_checkbox{background:var(--textColor)!important}
 div.asp_s.searchsettings .asp_option_label{color:var(--textColor);font-size:.9em;font-weight:400;text-shadow:none}
 div.asp_s.searchsettings form fieldset legend{font-size:.8em;color:var(--metaColor)}
 div.asp_s.searchsettings fieldset{margin:.4em 0!important}
@@ -604,7 +604,7 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 #post-content .probox .proinput input.orig:hover,#post-content .probox .proinput input.orig:focus{background:var(--whiteColor1)!important;border:2px solid var(--grayColor)!important}
 #post-content .probox .proinput input.orig::placeholder{font-size:1rem!important}
 #post-content .probox .promagnifier .innericon:before{color:var(--metaColor)!important}
-#post-content .probox .promagnifier .innericon:hover:before{color:var(--textColor)!important}
+#post-content .probox .promagnifier .innericon:hover:before,#ajaxsearchprosettings1_1.searchsettings div.asp_option_label, #ajaxsearchprosettings1_2.searchsettings div.asp_option_label, #ajaxsearchprosettings1_1.searchsettings .asp_label, #ajaxsearchprosettings1_2.searchsettings .asp_label, div.asp_s.asp_s_1.searchsettings div.asp_option_label, div.asp_s.asp_s_1.searchsettings .asp_label{font-weight:400!important;color:var(--textColor)!important}
 
 /* Sharepoint Sync */
 .info-material{padding:1em 0 1em!important;font-family:var(--textFont),sans-serif;font-size:.8rem;line-height:1.4;font-style:italic;text-align:center}
