@@ -1099,7 +1099,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#nav{position:absolute;top:0;right:0}
 	#logo{margin-top:15px;border-right:none}
 	#logo img{width:36px;height:36px}
-	#mobile-nav-button{margin-top:10px;background:none!important;font-size:1.3em}	.widget .sc-button.small{margin-right:0;font-size:1.1em}
+	#mobile-nav-button{display:block!important;margin-top:11px;background:none!important;font-size:1.3em}	.widget .sc-button.small{margin-right:0;font-size:1.1em}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:var(--whiteColor1)}
 	#mobile-nav .menu{overflow-y:scroll}
 	#mobile-nav .menu li{border:none}
