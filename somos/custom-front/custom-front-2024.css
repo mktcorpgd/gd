@@ -599,7 +599,7 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 /* Buscadores */
 #__original__ajaxsearchprosettings1_1>form>fieldset:nth-child(4),#gp-fixed-padding,.probox .proclose svg,.probox .promagnifier svg,.probox .prosettings svg,div.asp_r .results .item div.etc,form.is-search-form{display:none!important}
 #header{border:none!important}
-body>.asp_w_container{position:fixed;top:104px;box-shadow:0 0 24px  0 rgba(0,0,0,.2)!important;z-index:5;overflow:visible}
+body>.asp_w_container{position:fixed;top:104px;box-shadow:0 0 24px  0 rgba(0,0,0,.2)!important;z-index:5;overflow:visible;z-index:100}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,div.asp_m.ajaxsearchpro .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
 body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{float:right;margin:0 auto;min-width:30%;width:30%!important;overflow:visible!important;background:none!important}
