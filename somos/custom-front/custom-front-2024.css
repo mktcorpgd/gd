@@ -1114,7 +1114,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	#header{min-height:64px;padding:0 1rem;top:45px}
 	.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{height:35px!important}
-	#content-wrapper{margin-top:100px}
+	#content-wrapper{margin-top:63px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
 	.gp-responsive .gp-blog-wrapper.spacing-normal section{margin-bottom:1.2em}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
@@ -1141,8 +1141,9 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	div[id*='ajaxsearchpro'].asp_m{width:95%}
 	body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{min-width:100%;width:100%}
 	#ajaxsearchpro1_1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:12px}
-	#menu-2024-destacado{display:block;width:100%;height:auto;padding:0 1rem!important;position:absolute;top:109px}
+	#menu-2024-destacado{display:block;width:100%;height:auto;padding:0 1rem!important;justify-content:flex-start;position:relative;top:0}
 	#menu-2024-destacado li{float:left}
-	#menu-2024-destacado li a{margin:0 .6em 0 0;padding:.6em 0;font-size:.9em}
+	#menu-2024-destacado li a{margin:0 1em 0 0;padding:.6em 0;font-size:.9em}
+	#menu-2024-destacado li:last-child a{margin:0}
 	.gp-responsive .ui-tabs .ui-tabs-nav li{width:auto}
 }
