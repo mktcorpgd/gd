@@ -1,5 +1,5 @@
 /* Fuentes */
-@import url(https://use.typekit.net/isp6rto.css?v=2);
+@import url(https://use.typekit.net/isp6rto.css);
 /* Oculto forzado */
 /* Admin */
 #wp-admin-bar-search,body:not(.single) #wp-admin-bar-edit_mode,#wp-admin-bar-easy-updates-manager-admin-bar,#wp-admin-bar-wp-logo,#wp-admin-bar-customize,body.page-id-61726 #wpadminbar ul#wp-admin-bar-root-default>li#wp-admin-bar-edit,body.role-subscriber #wp-admin-bar-new-content,
@@ -493,8 +493,8 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget .widgettitle a{color:var(--metaColor);position:absolute;top:0;right:0}
 .widget .widgettitle a:hover{color:var(--highlightColor)}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
-.widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{margin:.2em 0 .4em 0;max-height:165px;border-top:2px solid rgba(0,0,0,.1);border-bottom:2px solid rgba(0,0,0,.1);overflow-x:hidden;overflow-y:auto}
-#custom_html-11 .widget ul:not(.birthday_list):not(.ui-tabs-nav){border-top:2px solid rgba(255,255,255,.1);border-bottom:2px solid rgba(255,255,255,.1);}
+.widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{margin:.2em 0 .4em 0;max-height:165px;border-bottom:1px solid rgba(0,0,0,.1);overflow-x:hidden;overflow-y:auto}
+#custom_html-11 .widget ul:not(.birthday_list):not(.ui-tabs-nav){border-bottom:1px solid rgba(255,255,255,.1);}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid var(--lightgrayColor2)}
 .widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
 .widget h3.cta a{color:var(--highlightColor)}
@@ -1042,7 +1042,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 
 /* Mobile */
 @media (max-width:782px) {
-	#mobile-nav .menu li a i,.mo_doc_lib_col>img,div.asp_r .results .item .asp_content .asp_desc{display:none!important}
+	#mobile-nav .menu li a i,.mo_doc_lib_col>img,div.asp_r .results .item .asp_content .asp_desc,#logo a:after{display:none!important}
 	#wp-admin-bar-custom-node-2{display:block}
 	body,input,textarea,select{font-size:20px}
 	input[type='text'], input[type='search'], input[type='url'], input[type='date'], input[type='email'], input[type='tel'], input[type='number'], textarea, select, .wpcf7-list-item-label{font-size:1.2rem!important;line-height:1.6em}
@@ -1071,7 +1071,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	#header{min-height:64px;padding:0;top:46px}
 	.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{height:35px!important}
-	#content-wrapper{padding-top:14px}
+	#content-wrapper{margin-top:110px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
 	.gp-responsive .gp-blog-wrapper.spacing-normal section{margin-bottom:1.2em}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
@@ -1097,10 +1097,6 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body>.asp_w_container{margin:0 15%;width:70%;position:fixed;top:58px;border-radius: 22px;z-index:999999}
 	div[id*='ajaxsearchpro'].asp_m{width:95%}
 	#ajaxsearchpro1_1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:12px}
-}
-@media (max-width:920px) and (orientation:portrait) {
-	#mobile-nav .menu{max-height:330px}
-}
-@media (max-width:920px) and (orientation:landscape) {
-	#mobile-nav .menu{max-height:120px}
+	#menu-2024-destacado{display:block;width:100%;height:auto;top:110px}
+	#menu-2024-destacado li a{float:left;display:inline-block;padding:.4em 0;font-size:.9em}
 }
