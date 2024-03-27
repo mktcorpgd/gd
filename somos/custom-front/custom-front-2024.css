@@ -566,7 +566,7 @@ body.postid-49885 .toggle-box{margin-bottom:1.5em}
 body>.asp_w_container{position:fixed;top:104px;box-shadow:0 0 24px  0 rgba(0,0,0,.2)!important;z-index:5;overflow:visible}
 .asp_w_container,.probox,div.asp_w,div.asp_w .probox .promagnifier,div.asp_w .probox div.prosettings,div.asp_m.ajaxsearchpro .probox .proinput input.autocomplete{border:none!important;box-shadow:none!important}
 #ajaxsearchpro1_1 .probox .proinput,div.asp_w .probox .proinput{margin:0!important;padding:0!important}
-body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{float:right;margin:0 auto;width:30%!important;overflow:visible!important;background:none!important}
+body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{float:right;margin:0 auto;min-width:30%;width:30%!important;overflow:visible!important;background:none!important}
 #ajaxsearchpro1_1 .probox,div.asp_w .probox{height:auto;align-items:center;overflow:visible}
 div.asp_m .probox .proclose,div.asp_m .probox .proloading,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{position:absolute!important}
 div.asp_m .probox .proclose,div.asp_m .probox .promagnifier,div.asp_m .probox .prosettings{top:0;height:100%!important}
@@ -798,7 +798,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 /* Pestañas */
 .ui-widget-content{width:100%;padding:0;top:0;background:none;border:none!important;overflow:visible}
 .padder .sc-tabs .sc-tab-panel strong.gp-no-items-found{display:block;width:100%;text-align:center;color:var(--grayColor);font-weight:400;font-family:var(--textFont),sans-serif;font-style:italic}
-#post-content .ui-tabs .ui-tabs-nav{display:flex;flex-direction:row;justify-content:space-between;margin-bottom:1em;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
+#post-content .ui-tabs .ui-tabs-nav{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-between;margin-bottom:1em;border-radius:12px;box-shadow:0 6px 12px 0 rgba(0,0,0,.2);overflow:hidden}
 .ui-tabs .ui-tabs-nav li{display:flex;margin-bottom:0!important;flex-direction:column;flex-grow:1;justify-content:space-between;top:0;text-align:center}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:var(--highlightColor);text-decoration:underline}
 #post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:var(--textColor);line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:var(--titleFont),sans-serif;text-decoration:none;background:var(--whiteColor2)}
@@ -1052,7 +1052,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#sidebar-left{padding-bottom:0}
 	#sidebar-right{padding-top:0}
 	#nav{position:absolute;top:0;right:0}
-	#logo{margin-top:14px;margin-left:12px}
+	#logo{margin:14px 0 0 12px;border-right:none}
 	#logo img{width:36px;height:36px}
 	#mobile-nav-button{display:inline-block!important;margin-top:10px;margin-right:8px;padding:.4em;color:var(--whiteColor2);background:none!important;border-radius:6px;font-size:1.2em;line-height:1}
 	.widget .sc-button.small{margin-right:0;font-size:1.1em}
@@ -1092,9 +1092,12 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.info-material{font-size:1rem}
 	.mo_doc_lib_responsive-table .mo_doc_lib_col:before{flex-basis:30%}
 	.mo_sps_class_doc_container .mo_sps_class_doc__list{grid-template-columns:1fr 1fr}
-	body>.asp_w_container{margin:0 15%;width:70%;position:fixed;top:58px;border-radius: 22px;z-index:999999}
+	body>.asp_w_container{margin:0 10%;width:80%;position:fixed;top:60px;z-index:999999}
 	div[id*='ajaxsearchpro'].asp_m{width:95%}
+	body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{min-width:100%;width:100%}
 	#ajaxsearchpro1_1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:12px}
-	#menu-2024-destacado{display:block;width:100%;height:auto;top:110px}
+	#menu-2024-destacado{display:block;width:100%;height:auto;position:absolute;top:110px}
 	#menu-2024-destacado li a{float:left;display:inline-block;padding:.4em 0;font-size:.9em}
+	.gp-responsive .ui-tabs .ui-tabs-nav li{width:auto}
+	#post-content .ui-tabs .ui-tabs-nav{display:block}
 }
