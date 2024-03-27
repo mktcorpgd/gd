@@ -68,37 +68,37 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--regularRadsius:12px;}
 
 /* Scrollbar */
-::-webkit-scrollbar {
+.widget ul::-webkit-scrollbar {
   width: 6px;
   height: 6px;
 }
-::-webkit-scrollbar-button {
+.widget ul::-webkit-scrollbar-button {
   width: 0px;
   height: 0px;
 }
-::-webkit-scrollbar-thumb {
+.widget ul::-webkit-scrollbar-thumb {
   background: #cccccc;
   border: 0px none #ffffff;
   border-radius: 50px;
 }
-::-webkit-scrollbar-thumb:hover {
+.widget ul::-webkit-scrollbar-thumb:hover {
   background: #999999;
 }
-::-webkit-scrollbar-thumb:active {
+.widget ul::-webkit-scrollbar-thumb:active {
   background: #1f4483;
 }
-::-webkit-scrollbar-track {
+.widget ul::-webkit-scrollbar-track {
   background: #ffffff;
   border: 0px solid #ffffff;
   border-radius: 3px;
 }
-::-webkit-scrollbar-track:hover {
+.widget ul::-webkit-scrollbar-track:hover {
   background: #eaeaea;
 }
-::-webkit-scrollbar-track:active {
+.widget ul::-webkit-scrollbar-track:active {
   background: #eaeaea;
 }
-::-webkit-scrollbar-corner {
+.widget ul::-webkit-scrollbar-corner {
   background: transparent;
 }
 
@@ -1103,14 +1103,15 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:var(--whiteColor1)}
 	#mobile-nav .menu li{border:none}
 	#mobile-nav .menu>li:last-child{margin-bottom:1em}
-	#mobile-nav .menu li a{padding:.6em;font-size:1.1em}
+	#mobile-nav .menu li a{padding:.6em 0;font-size:1.1em}
 	#mobile-nav .menu li li a{padding:.5em}
+	#mobile-nav .menu li .sub-menu li{margin-left:10px}
 	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:.9em;line-height:normal}
-	#mobile-nav .menu li .mobile-dropdown-icon{padding-right:20px;line-height:2.35em;color:var(--whiteColor2)}
+	#mobile-nav .menu li .mobile-dropdown-icon{padding-right:0;line-height:2.35em;color:var(--whiteColor2)}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:var(--whiteColor1)}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
-	#header{min-height:64px;padding:0 1rem;top:45px}
+	#header{min-height:64px;padding:0 1rem 1rem;top:45px}
 	.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{height:35px!important}
 	#content-wrapper{margin-top:63px}
 	.gp-blog-wrapper{margin-top:.4em}
