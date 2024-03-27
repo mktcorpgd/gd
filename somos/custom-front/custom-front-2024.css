@@ -827,8 +827,8 @@ body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav{margin-bottom:.6em;border
 .sc-button.large,.wpcf7 button.large{font-size:1.2em}
 .sc-button.xlarge,.wpcf7 button.xlarge{margin-bottom:1em;font-size:1.3em}
 .sc-button.inline,.wpcf7 button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
-.sc-button-social{display:inline-block;margin:.2em .2em 0;color:var(--highlightColor);font-size:2em}
-.sc-button-social:hover{color:var(--subColor)}
+.sidebar .sc-button-social{display:inline-block;margin:.2em .2em 0;color:var(--highlightColor)!important;font-size:2em}
+.sidebar .sc-button-social:hover{color:var(--subColor)!important}
 .widget .toggle-box .sc-button:not(.inline){margin-top:.1em!important;margin-bottom:1em}
 .widget .toggle-box .sc-button.small{margin-bottom:1em}
 .widget .toggle-box:last-child .blue.sc-button:not(.inline){margin-bottom:0}
