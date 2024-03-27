@@ -1126,8 +1126,6 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.single .gp-meta-date{margin-bottom:.4em}
 	body.single .gp-post-meta{display:block}
 	.widget h3.toggle i{width:24px}
-	.ui-tabs-nav>li{display:contents}
-	body.page-id-61726 #post-content .ui-tabs .ui-tabs-nav li a{font-size:.75em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.sc-button-social{font-size:2.5em}
 	.jOrgChart table tr.child_box{padding:0}
@@ -1144,6 +1142,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#menu-2024-destacado li{float:left}
 	#menu-2024-destacado li a{margin:0 1em 0 0;padding:.6em 0;font-size:.9em}
 	#menu-2024-destacado li:last-child a{margin:0}
+	.ui-tabs-nav>li{display:contents}
 	#post-content .ui-tabs .ui-tabs-nav{display:block;box-shadow:none;border-radius:0}
 	#post-content .ui-tabs .ui-tabs-nav li a{border-radius:6px}
 	.gp-responsive .ui-tabs .ui-tabs-nav li{margin:0 .2em;width:auto;border-radius:6px;overflow:hidden}
