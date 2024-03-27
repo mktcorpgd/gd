@@ -10,5 +10,7 @@ jQuery(document).ready(function() {
 	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 	jQuery('#custom_html-24 .toggle-box').show();
 	jQuery('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery('#custom_html-28 .toggle-box').show();
+	jQuery('#custom_html-28 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 
 });
