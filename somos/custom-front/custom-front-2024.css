@@ -995,7 +995,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 .kit.file-list>.menu li.open{margin-bottom:0!important}
 
 /* Footer */
-#copyright{padding:2em 1em;font-family:var(--titleFont),sans-serif;color:var(--metaColor)}
+#copyright{padding:2em 1em;font-size:12px;font-family:var(--titleFont),sans-serif;color:var(--metaColor)}
 #copyright>div:nth-child(1){margin-bottom:.4em;font-size:1.1em}
 #copyright a{color:var(--metaColor)}
 #copyright a:hover{color:var(--subColor);text-decoration:none}
