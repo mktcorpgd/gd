@@ -494,6 +494,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget .widgettitle a:hover{color:var(--highlightColor)}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
 .widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{margin:.2em 0 .4em 0;max-height:165px;border-top:2px solid rgba(0,0,0,.1);border-bottom:2px solid rgba(0,0,0,.1);overflow-x:hidden;overflow-y:auto}
+#custom_html-11 .widget ul:not(.birthday_list):not(.ui-tabs-nav){border-top:2px solid rgba(255,255,255,.1);border-bottom:2px solid rgba(255,255,255,.1);}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid var(--lightgrayColor2)}
 .widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
 .widget h3.cta a{color:var(--highlightColor)}
