@@ -1140,7 +1140,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	div[id*='ajaxsearchpro'].asp_m{width:95%}
 	body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{min-width:100%;width:100%}
 	#ajaxsearchpro1_1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:12px}
-	#menu-2024-destacado{height:auto;padding:0 1rem!important;justify-content:flex-start;position:relative;top:0}
+	#menu-2024-destacado{width:100%;height:auto;padding:0 1rem!important;justify-content:flex-start;position:relative;top:0}
 	#menu-2024-destacado li{float:left}
 	#menu-2024-destacado li a{margin:0 1em 0 0;padding:.6em 0;font-size:.9em}
 	#menu-2024-destacado li:last-child a{margin:0}
