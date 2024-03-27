@@ -517,7 +517,6 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .birthday_error{margin:1em 0 .5em;font-size:1.2em}
 .birthday>div{display:block;text-align:left;cursor:inherit}
 .birthday>.birthday_date{margin:0;border-bottom:0;font-size:.8em;font-weight:500;color:var(--grayColor)}
-.widget .birthday_list{margin-bottom:.5em}
 .birthdays-widget.bdays_today{padding-top:2em;padding-bottom:1em}
 .birthdays-widget img{width:100%!important}
 
@@ -1067,9 +1066,9 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:var(--whiteColor1)}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
-	#header{min-height:64px;padding:0;top:46px}
+	#header{min-height:64px;padding:0;top:45px}
 	.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{height:35px!important}
-	#content-wrapper{margin-top:110px}
+	#content-wrapper{margin-top:100px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
 	.gp-responsive .gp-blog-wrapper.spacing-normal section{margin-bottom:1.2em}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
@@ -1092,12 +1091,12 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	.info-material{font-size:1rem}
 	.mo_doc_lib_responsive-table .mo_doc_lib_col:before{flex-basis:30%}
 	.mo_sps_class_doc_container .mo_sps_class_doc__list{grid-template-columns:1fr 1fr}
-	body>.asp_w_container{margin:0 10%;width:80%;position:fixed;top:60px;z-index:999999}
+	body>.asp_w_container{margin:0 15%;width:72%;position:fixed;top:60px;z-index:999999}
 	div[id*='ajaxsearchpro'].asp_m{width:95%}
 	body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{min-width:100%;width:100%}
 	#ajaxsearchpro1_1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:12px}
-	#menu-2024-destacado{display:block;width:100%;height:auto;position:absolute;top:110px}
-	#menu-2024-destacado li a{float:left;display:inline-block;padding:.4em 0;font-size:.9em}
+	#menu-2024-destacado{display:block;width:100%;height:auto;padding:0!important;position:absolute;top:109px}
+	#menu-2024-destacado li{float:left}
+	#menu-2024-destacado li a{padding:.6em 0;font-size:.9em}
 	.gp-responsive .ui-tabs .ui-tabs-nav li{width:auto}
-	#post-content .ui-tabs .ui-tabs-nav{display:block}
 }
