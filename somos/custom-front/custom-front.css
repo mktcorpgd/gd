@@ -1047,7 +1047,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav .menu li li>.mobile-dropdown-icon{line-height:1.85em}
 	#header{min-height:64px;padding:0;top:46px}
 	.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div{height:35px!important}
-	#content-wrapper{padding-top:14px}
+	#content-wrapper{margin-top:64px}
 	.gp-blog-wrapper[class*='gp-blog-columns'],body.archive .gp-blog-wrapper,body.search .gp-blog-wrapper{display:block}
 	.gp-responsive .gp-blog-wrapper.spacing-normal section{margin-bottom:1.2em}
 	.gp-blog-wrapper section .post-text p,.gp-blog-wrapper section .post-text p{line-height:1.5}
