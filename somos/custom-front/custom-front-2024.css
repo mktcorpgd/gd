@@ -1063,8 +1063,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#mobile-nav .menu>li:last-child{margin-bottom:1em}
 	#mobile-nav .menu li a{padding:.6em;font-size:1.1em}
 	#mobile-nav .menu li li a{padding:.5em}
-	#mobile-nav .menu li .sub-menu{background:var(--subColor)}
-	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:1em;line-height:normal}
+	#mobile-nav .menu li .sub-menu li a{font-weight:400;font-size:.9em;line-height:normal}
 	#mobile-nav .menu li .mobile-dropdown-icon{padding-right:20px;line-height:2.35em;color:var(--whiteColor2)}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon{color:var(--whiteColor1)}
 	#mobile-nav .menu li.gp-active>.mobile-dropdown-icon:before{content:'\f106'}
