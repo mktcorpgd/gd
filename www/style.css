@@ -478,7 +478,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
 .wpcf7 .fusion-layout-column{margin:0;position:relative}
-.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.1em .4em;position:absolute;top:20px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px;z-index:10;pointer-events:none}
+.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.05em .4em;position:absolute;top:20px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px;z-index:10;pointer-events:none}
 .wpcf7 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-115%) translateX(0);background:var(--whiteAltColor);color:var(--grayColor);font-size:.65em}
 #wrapper .select-arrow,.avada-select-parent .select-arrow,.fusion-modal-content .select-arrow,.select2-dropdown{background:none!important;top:14px;color:var(--textColor)!important}
 .wpcf7-select-parent .wpcf7-select:focus+.select-arrow{transform:rotateX(180deg)}
