@@ -417,7 +417,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{width:100%}
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.intl-tel-input{margin:.6rem 0 0}
 .wpcf7 input[type='checkbox']:not([name='_mc4wp_subscribe_contact-form-7']){float:left;margin:.4em .8em .4em 0}
-.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.7em .8rem}
+.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.65em .55rem}
 .wpcf7-checkbox.smaller{font-size:.9em}
 .intl-tel-input.allow-dropdown .flag-container,.intl-tel-input.separate-dial-code .flag-container{padding:0;z-index:99}
 .intl-tel-input .country-list{max-height:208px;border-radius:6px}
@@ -459,9 +459,10 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-not-valid-tip:hover{background:var(--whiteAltColor)}
 .fusion-one-half .wpcf7-not-valid-tip{right:10px}
 .fusion-one-half.fusion-column-last .wpcf7-not-valid-tip{right:11px}
+.wpcf7-select+.wpcf7-not-valid-tip{right:16px;}
 .wpcf7-select-parent+.wpcf7-not-valid-tip{top:24px;right:32px}
 .wpcf7-radio+.wpcf7-not-valid-tip{top:20px}
-.wpcf7-phonetext-country-code+.wpcf7-not-valid-tip{top:25px}
+.wpcf7-phonetext-country-code+.wpcf7-not-valid-tip{top:24px}
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
 .wpcf7-form textarea+.wpcf7-not-valid-tip{top:-11px}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}
