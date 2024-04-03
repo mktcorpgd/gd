@@ -505,9 +505,8 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 #sidebar-right h3.toggle a{font-weight:500!important}
 #sidebar-right h3.toggle:hover,#sidebar-right h3.toggle:hover a{color:var(--mainColor)!important}
 #sidebar-right h3.toggle:hover a{text-decoration:underline}
-.sidebar .widget:not(.widget_calendar) a,.widget .sc-button.small{color:var(--textColor)!important}
-.sidebar .widget:not(.widget_calendar) a:hover{color:var(--mainColor)!important;text-decoration:underline}
-.sidebar a.sc-button{text-decoration:underline!important}
+.sidebar .widget:not(.widget_calendar) a:not([class*='sc-button']),.widget .sc-button.small{color:var(--textColor)!important}
+.sidebar .widget:not(.widget_calendar) a:not([class*='sc-button']):hover{color:var(--mainColor)!important;text-decoration:underline}
 #custom_html-11{background-image:url(https://somos.grupodatco.com/wp-content/uploads/bkg-top.svg);background-position:top center;background-repeat:no-repeat;background-size:200%}
 #custom_html-11 .toggle-box{margin-bottom:0!important}
 
