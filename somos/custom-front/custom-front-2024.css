@@ -613,11 +613,11 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 
 /* Notificaciones */
 popup_heading_text{font-size:.9em;font-family:var(--textFont),sans-serif!important;color:var(--textColor)!important;letter-spacing:0!important}
-promptPopup{border-radius:var(--regularRadius)!important;font-family:var(--textFont),sans-serif!important}
-notification_image{align-items:flex-start!important;max-width:110px!important;width:110px!important;border:none!important}
+promptPopup{padding:0 .4em .6em!important;border-radius:var(--regularRadius)!important;font-family:var(--textFont),sans-serif!important}
+notification_image{align-items:flex-start!important;max-width:110px!important;width:110px!important;height:auto!important;border:none!important}
 notification_image img{border-radius:var(--smallRadius)!important}
 notification_title{font-family:var(--titleFont),sans-serif!important;color:var(--textColor)!important}
-notification_title:hover{color:var(--mainColor)!important}
+popup_notification:hover notification_title{text-decoration:underline;color:var(--mainColor)!important}
 popup_button btn{box-sizing:border-box!important;width:100%!important;height:auto;padding:.6em .8em!important;font-family:var(--textFont),sans-serif!important;font-weight:600!important;border-radius:var(--regularRadius)!important}
 
 /* Sharepoint Sync */
