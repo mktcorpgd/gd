@@ -848,11 +848,11 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .sidebar .sc-button-social:hover{color:var(--subColor)!important}
 .widget .toggle-box .sc-button:not(.inline){margin-top:.2em!important}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
-#content .sc-button.small,#content button.small,.widget .sc-button.small{font-weight:400!important}
-.widget .sc-button.small{margin-top:1em;padding:0!important;background:none!important;box-shadow:none!important;color:var(--highlightColor)!important;text-decoration:underline!important;text-underline-offset:4px}
-.widget .sc-button.small:hover{color:var(--mainColor)!important;text-decoration:underline!important}
-.widget .sc-button.small:after{content:'›';display:inline-block;padding-left:.2em}
-.widget .sc-button.small:hover:after{padding-left:.4em}
+#content .sc-button.small,#content button.small,.sidebar .widget .sc-button.small{font-weight:400!important}
+.sidebar .widget .sc-button.small{margin-top:1em;padding:0!important;background:none!important;box-shadow:none!important;color:var(--highlightColor)!important;text-decoration:underline!important;text-underline-offset:4px}
+.sidebar .widget .sc-button.small:hover{color:var(--mainColor)!important;text-decoration:underline!important}
+.sidebar .widget .sc-button.small:after{content:'›';display:inline-block;padding-left:.2em}
+.sidebar .widget .sc-button.small:hover:after{padding-left:.4em}
 .buttons,.buttons-download{margin:0 0 2em;text-align:center}
 a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
@@ -1069,7 +1069,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	#nav{position:absolute;top:0;right:0}
 	#logo{margin-top:15px;border-right:none}
 	#logo img{width:36px;height:36px}
-	#mobile-nav-button{display:block!important;margin-top:11px;background:none!important;font-size:1.3em}	.widget .sc-button.small{margin-right:0;font-size:1.1em}
+	#mobile-nav-button{display:block!important;margin-top:11px;background:none!important;font-size:1.3em}
 	#mobile-nav-button.gp-active{transform:rotate(90deg);color:var(--whiteColor1)}
 	#mobile-nav .menu{overflow:auto;max-height:378px}
 	#mobile-nav .menu li{border:none}
@@ -1098,6 +1098,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.single .gp-meta-date{margin-bottom:.4em}
 	body.single .gp-post-meta{display:block}
 	.widget h3.toggle i{width:24px}
+	.sidebar .widget .sc-button.small{margin-right:0;font-size:1.1em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.sc-button-social{font-size:2.5em}
 	.jOrgChart table tr.child_box{padding:0}
