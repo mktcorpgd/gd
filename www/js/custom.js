@@ -388,8 +388,10 @@ jQuery(document).ready(function() {
 			jQuery('#open-contacto-empresas').trigger('click');
 		}
 		else if ( window.location.href.indexOf('#soporte') > -1 ) {
-			console.log(window.location.href.indexOf('#soporte') > -1);
 			jQuery('#open-soporte').trigger('click');
+		}
+		else if ( window.location.href.indexOf('#trabajo') > -1 ) {
+			jQuery('#open-trabajo').trigger('click');
 		}
 	}
 
