@@ -338,7 +338,7 @@ jQuery(document).ready(function() {
 	}
 
 
-	// FORMULARIOS - Si existe #RESP: asignar responsable/s
+	// FORMULARIOS - Si existen otros responsables:
 	if ( jQuery('#RESP').length ) {
 		var resps = '';
 		jQuery('#RESP a').each(function(i) {
@@ -354,9 +354,19 @@ jQuery(document).ready(function() {
 		ctry_url = urlParams.get('ctry');
 		jQuery('input[name="RESP"]').val(ctry_url+'@grupodatco.com');
 	}	
+	if ( jQuery('#RESPCV').length ) {
+		var resps = '';
+		jQuery('#RESPCV a').each(function(i) {
+			var new_resp = jQuery(this).attr('href');
+			new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
+			resps += new_resp+', ';
+		});
+		resps = resps.substring(0,resps.length-2);
+		jQuery('input[name="RESPCV"]').val(resps);
+	}
 
 
-	// FORMULARIOS - Si existe #RESP_BCC: asignar responsable/s en copia oculta
+	// FORMULARIOS - Si existen otros responsables (ocultos):
 	if ( jQuery('#RESP_BCC').length ) {
 		var resps = '';
 		jQuery('#RESP_BCC a').each(function(i) {
