@@ -611,6 +611,7 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 #post-content .probox .promagnifier .innericon:hover:before,#ajaxsearchprosettings1_1.searchsettings div.asp_option_label, #ajaxsearchprosettings1_2.searchsettings div.asp_option_label, #ajaxsearchprosettings1_1.searchsettings .asp_label, #ajaxsearchprosettings1_2.searchsettings .asp_label, div.asp_s.asp_s_1.searchsettings div.asp_option_label, div.asp_s.asp_s_1.searchsettings .asp_label{font-weight:400!important;color:var(--textColor)!important}
 
 /* Notificaciones */
+prompticon3{filter:none!important;box-shadow:var(--largeShadow)}
 popup_heading_text{font-size:.9em;font-family:var(--textFont),sans-serif!important;color:var(--textColor)!important;letter-spacing:0!important}
 promptPopup{padding:0 .4em .6em!important;border-radius:var(--regularRadius)!important;font-family:var(--textFont),sans-serif!important}
 notification_image{align-items:flex-start!important;max-width:110px!important;width:110px!important;height:auto!important;border:none!important}
