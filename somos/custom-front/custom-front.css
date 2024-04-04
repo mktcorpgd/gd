@@ -586,7 +586,10 @@ div.asp_m .probox .proclose:before{content:'\f00d'}
 div.asp_m .probox .proclose:hover:before,div.asp_m .probox .promagnifier .innericon:hover:before,div.asp_m .probox .prosettings .innericon:hover:before{color:var(--textColor)}
 #ajaxsearchpro1_1 .probox .proinput input.orig{margin:0!important;width:100%!important;height:36px!important;box-sizing:border-box!important;padding:.4rem 5rem .4rem .8rem!important;font-family:var(--titleFont)!important;color:var(--textColor)!important;background:var(--whiteColor1)!important;border:none!important;border-top:none!important;border-radius:0;box-shadow:none!important;font-size:1rem!important;line-height:normal;text-align:left}
 #ajaxsearchpro1_1 .probox .proinput input::placeholder{font-size:1rem!important;font-family:var(--titleFont)!important;color:var(--metaColor)!important}
-div.asp_s.searchsettings form{background:var(--whiteColor1);border-radius:var(--smallRadius);box-shadow:var(--regularShadow);border:1px solid var(--lightgrayColor1)}
+div.div.asp_s.asp_s_1.searchsettings.asp_s{background:none!important}
+div.asp_w.asp_s.searchsettings fieldset{margin:.4em 0 0!important}
+div.asp_w.asp_s.searchsettings .asp_option{margin:0 0 .4em 0!important}
+div.asp_s.searchsettings form{background:var(--whiteColor1);border-radius:var(--smallRadius);box-shadow:var(--regularShadow)}
 div.asp_r.vertical{margin-top:-2px!important;background:var(--whiteColor1)!important;border-radius:var(--smallRadius) var(--smallRadius) var(--regularRadius) var(--regularRadius)!important;box-shadow:var(--largeShadow)!important}
 div.asp_r .results .item{padding:.2em .4em}
 div.asp_r .results .item:hover{background:rgba(0,0,0,.025)}
@@ -609,7 +612,7 @@ div.asp_w .probox div.asp_simple-circle{border:3px solid rgba(255,255,255,.8)}
 #post-content .probox .proinput input.orig:hover,#post-content .probox .proinput input.orig:focus{background:var(--whiteColor1)!important;border:2px solid var(--grayColor)!important}
 #post-content .probox .proinput input.orig::placeholder{font-size:1rem!important}
 #post-content .probox .promagnifier .innericon:before{color:var(--metaColor)!important}
-#post-content .probox .promagnifier .innericon:hover:before,#ajaxsearchprosettings1_1.searchsettings div.asp_option_label, #ajaxsearchprosettings1_2.searchsettings div.asp_option_label, #ajaxsearchprosettings1_1.searchsettings .asp_label, #ajaxsearchprosettings1_2.searchsettings .asp_label, div.asp_s.asp_s_1.searchsettings div.asp_option_label, div.asp_s.asp_s_1.searchsettings .asp_label{font-weight:400!important;color:var(--textColor)!important}
+#post-content .probox .promagnifier .innericon:hover:before,#ajaxsearchprosettings1_1.searchsettings div.asp_option_label, #ajaxsearchprosettings1_2.searchsettings div.asp_option_label, #ajaxsearchprosettings1_1.searchsettings .asp_label, #ajaxsearchprosettings1_2.searchsettings .asp_label, div.asp_s.asp_s_1.searchsettings div.asp_option_label, div.asp_s.asp_s_1.searchsettings .asp_label{font-size:.8em!important;font-weight:400!important;color:var(--textColor)!important}
 
 /* Notificaciones */
 prompticon3{filter:none!important;box-shadow:var(--largeShadow)}
