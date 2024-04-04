@@ -147,7 +147,10 @@ jQuery(document).ready(function() {
 
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
-		jQuery('.bdays_today img').attr('src','/wp-content/uploads/birthday-gd1.gif');
+		jQuery('.bdays_today img').attr('src','/wp-content/uploads/cumple-1.png');
+	}
+	else {
+		jQuery('#custom_html-27').addClass('nobday');
 	}
 	jQuery('.bdays_upcom').click(function(e){
 		jQuery(this).removeClass('collapse');
@@ -567,11 +570,13 @@ jQuery(document).ready(function() {
 	jQuery('body.postid-49885 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 
 
-	// LATERAL - Desplegables
+	// Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();
 	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 	jQuery('#custom_html-24 .toggle-box').show();
 	jQuery('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery('#custom_html-28 .toggle-box').show();
+	jQuery('#custom_html-28 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 	jQuery(document).on('click','.toggle',function(e) {
 		jQuery(this).next('.toggle-box').slideToggle();
 		if ( jQuery(this).find('i').hasClass('fa-plus-square') ) {
