@@ -140,9 +140,9 @@ jQuery(document).ready(function() {
 	}
 	gpHeaderMobileTopNav();
 
-	
+
 	// ADMIN - Etiquetas
-	jQuery('#wp-admin-bar-site-name').text('Escritorio');
+	//jQuery('#wp-admin-bar-site-name').text('Escritorio');
 
 
 	// GENERAL - Buscador
