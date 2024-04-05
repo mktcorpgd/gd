@@ -70,8 +70,8 @@ jQuery(document).ready(function() {
 
 
 	// 1. Habilitar oficina después de seleccionar empresa
-	jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-grupo_datco-frente-22.png');
-	jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-grupo_datco-dorso-22.png');
+	jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-grupo_datco-frente.png');
+	jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-grupo_datco-dorso.png');
 	jQuery('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
 	jQuery('.wpcf7 select[name=ORG]').change(function() {
 		var id_form = jQuery(this).closest('.wpcf7').attr('id');
@@ -89,10 +89,10 @@ jQuery(document).ready(function() {
 			}
 			if ( id_form == 'wpcf7-f16691-p18546-o1' ) {
 				jQuery('#tp_frente').fadeOut('fast', function() {
-					jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente-22.png');
+					jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-'+tp_org+'-frente.png');
 				}).fadeIn('fast');
 				jQuery('#tp_dorso').fadeOut('fast', function() {
-					jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso-22.png');
+					jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-'+tp_org+'-dorso.png');
 				}).fadeIn('fast');
 			}
 			jQuery('#'+id_form+' .step2').css('opacity','1');
