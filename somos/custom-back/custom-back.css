@@ -192,7 +192,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 body.wp-admin.post-type-event .row-title{pointer-events:none}
 
 /* Notificaciones */
-prompticon3{filter:none!important;box-shadow:12px 18px 0 rgba(0,0,0,.2)}
+prompticon3{filter:none!important;box-shadow:0 12px 18px 0 rgba(0,0,0,.2)}
 popup_heading_text{font-size:.9em;font-family:'open-sans',sans-serif!important;color:#333333!important;letter-spacing:0!important}
 promptPopup{padding:0 .4em .6em!important;border-radius:12px!important;font-family:'open-sans',sans-serif!important}
 notification_image{align-items:flex-start!important;max-width:110px!important;width:110px!important;height:auto!important;border:none!important}
