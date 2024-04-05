@@ -51,7 +51,7 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 /* Modal */
 .mfp-container .widget .widgettitle a,
 /* Otros */
-.gp-meta-cats a[href$='/categoria/uns/'],.gp-meta-cats a[href$='/categoria/argentina-2/'],.hidden-front,
+.gp-meta-cats a[href$='/categoria/uns/'],.gp-meta-cats a[href$='/categoria/argentina-2/'],.hidden-front,.widget h3.toggle i,
 /* Google Maps */
 .pac-icon,.pac-logo:after,
 /* Notificaciones */
@@ -497,7 +497,6 @@ h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:var(--h
 #content h3.toggle{font-weight:400;font-size:1.1em;line-height:1}
 .widget h3.toggle{margin-bottom:0;font-size:1.2em;font-weight:400}
 .widget h3.toggle:not(:first-child):not(:last-child){margin-top:.6em}
-.widget h3.toggle i{width:18px}
 .toggle-box{margin:5px 0 0;overflow:visible}
 .widget .toggle-box h5,.widget .toggle-box h6{color:var(--textColor);text-align:left;text-transform:none}
 .widget .toggle-box h5{margin:.6em 0;font-size:1em}
