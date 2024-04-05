@@ -15,7 +15,9 @@ body.no-customize-support table.fh-profile-upload-options,body.no-customize-supp
 /* Eventos */
 body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-type-event .check-column,
 /* Footer */
-#wpfooter
+#wpfooter,
+/* Notificaciones */
+popup_poweredby,notification_time,popup_close+popup_heading
 {display:none!important}
 /* Oculto no forzado */
 .toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
@@ -105,6 +107,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .row-title{font-family:'neo-sans';font-weight:400}
 #the-list th#userlogin{width:160px!important}
 #the-list .row-actions{color:transparent}
+#wpadminbar #wp-admin-bar-my-account.with-avatar>.ab-empty-item img, #wpadminbar #wp-admin-bar-my-account.with-avatar>a img{border:none!important;border-radius:12px}
 
 /* Campos */
 .wp-core-ui select{max-width:32em}
@@ -186,6 +189,18 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .user-tags label+label{padding-left:20px}
 .form-table .form-required.form-invalid td:after{position:relative;bottom:2px}
 body.wp-admin.post-type-event .row-title{pointer-events:none}
+
+/* Notificaciones */
+prompticon3{filter:none!important;box-shadow:var(--largeShadow)}
+popup_heading_text{font-size:.9em;font-family:var(--textFont),sans-serif!important;color:var(--textColor)!important;letter-spacing:0!important}
+promptPopup{padding:0 .4em .6em!important;border-radius:var(--regularRadius)!important;font-family:var(--textFont),sans-serif!important}
+notification_image{align-items:flex-start!important;max-width:110px!important;width:110px!important;height:auto!important;border:none!important}
+notification_image img{border-radius:var(--smallRadius)!important}
+notification_title{font-family:var(--titleFont),sans-serif!important;color:var(--textColor)!important}
+popup_notification:hover notification_title{text-decoration:underline;color:var(--mainColor)!important}
+popup_button btn{box-sizing:border-box!important;width:100%!important;height:auto;padding:.6em .8em!important;font-family:var(--textFont),sans-serif!important;font-weight:600!important;border-radius:var(--regularRadius)!important}
+popup_close{opacity:.8;background:var(--darkgrayColor)!important}
+popup_close:hover{opacity:1}
 
 /* Mobile */
 @media (max-width:960px) {
