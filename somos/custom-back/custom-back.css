@@ -191,15 +191,15 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 body.wp-admin.post-type-event .row-title{pointer-events:none}
 
 /* Notificaciones */
-prompticon3{filter:none!important;box-shadow:var(--largeShadow)}
-popup_heading_text{font-size:.9em;font-family:var(--textFont),sans-serif!important;color:var(--textColor)!important;letter-spacing:0!important}
-promptPopup{padding:0 .4em .6em!important;border-radius:var(--regularRadius)!important;font-family:var(--textFont),sans-serif!important}
+prompticon3{filter:none!important;box-shadow:12px 18px 0 rgba(0,0,0,.2)}
+popup_heading_text{font-size:.9em;font-family:'open-sans',sans-serif!important;color:#333333!important;letter-spacing:0!important}
+promptPopup{padding:0 .4em .6em!important;border-radius:12px!important;font-family:'open-sans',sans-serif!important}
 notification_image{align-items:flex-start!important;max-width:110px!important;width:110px!important;height:auto!important;border:none!important}
-notification_image img{border-radius:var(--smallRadius)!important}
-notification_title{font-family:var(--titleFont),sans-serif!important;color:var(--textColor)!important}
-popup_notification:hover notification_title{text-decoration:underline;color:var(--mainColor)!important}
-popup_button btn{box-sizing:border-box!important;width:100%!important;height:auto;padding:.6em .8em!important;font-family:var(--textFont),sans-serif!important;font-weight:600!important;border-radius:var(--regularRadius)!important}
-popup_close{opacity:.8;background:var(--darkgrayColor)!important}
+notification_image img{border-radius:6px!important}
+notification_title{font-family:'neo-sans',sans-serif!important;color:#333333!important}
+popup_notification:hover notification_title{text-decoration:underline;color:#0E316E!important}
+popup_button btn{box-sizing:border-box!important;width:100%!important;height:auto;padding:.6em .8em!important;font-family:'open-sans',sans-serif!important;font-weight:600!important;border-radius:12px!important}
+popup_close{opacity:.8;background:#404040!important}
 popup_close:hover{opacity:1}
 
 /* Mobile */
