@@ -67,9 +67,6 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 /* Global */
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#111111;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--xsmallRadius:3px;--smallRadius:6px;--regularRadius:12px;--largeRadius:24px;--smallShadow:0 4px 8px 0px rgba(0,0,0,.2);--smallShadowHover:0 2px 12px 0px rgba(0,0,0,.3);--regularShadow:0 6px 12px 0 rgba(0,0,0,.2);--regularShadowHover:0 4px 18px 0 rgba(0,0,0,.3);--largeShadow:0 12px 18px 0 rgba(0,0,0,.2);}
 
-/* Prueba */
-.separator.menu-item,.separator.menu-item~.menu-item,.asp_filter_generic,.asp_filter_cpt,.bdays_today:not(.test2024),#custom_html-3,.textwidget .toggle i,#custom_html-11 .toggle i,#custom_html-11 .toggle~.toggle,#custom_html-11 .toggle-box~.toggle-box,#custom_html-26,#custom_html-25{display:none!important}
-
 /* General */
 ::-moz-selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
 ::selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
