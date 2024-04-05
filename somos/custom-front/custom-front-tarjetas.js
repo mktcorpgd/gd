@@ -24,6 +24,7 @@ jQuery(document).ready(function() {
 	tp_web['grupo_datco'] = 'grupodatco.com';
 	tp_web['baitcon'] = 'baitcon.com';
 	tp_web['datco'] = 'datco.grupodatco.com';
+	tp_web['datco_xerox'] = 'grupodatco.com';
 	tp_web['focus'] = 'focus.grupodatco.com';
 	tp_web['interservices'] = 'interservices.grupodatco.com';
 	tp_web['sersat'] = 'sersat.grupodatco.com';
