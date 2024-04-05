@@ -85,7 +85,7 @@ jQuery(document).ready(function() {
 			if ( id_form == 'wpcf7-f24224-p18546-o2' ) {
 				jQuery('#'+id_form+' .tp').removeClass().addClass('tp digital '+tp_org);
 				jQuery('#mobile-logo').fadeOut('fast', function() {
-				jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-one_stroke-dark-es-96h.png');
+				jQuery('#mobile-logo').attr('src','/wp-content/uploads/'+tp_org+'-ima_h-blanco.png');
 				}).fadeIn('fast');
 			}
 			if ( id_form == 'wpcf7-f16691-p18546-o1' ) {
