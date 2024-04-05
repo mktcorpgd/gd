@@ -142,7 +142,7 @@ jQuery(document).ready(function() {
 
 
 	// ADMIN - Etiquetas
-	jQuery('#wp-admin-bar-site-name .ab-item').text('Escritorio');
+	jQuery('#wp-admin-bar-site-name>.ab-item').text('Escritorio');
 
 
 	// GENERAL - Buscador
