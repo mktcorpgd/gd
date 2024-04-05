@@ -108,6 +108,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #the-list th#userlogin{width:160px!important}
 #the-list .row-actions{color:transparent}
 #wpadminbar #wp-admin-bar-my-account.with-avatar>.ab-empty-item img, #wpadminbar #wp-admin-bar-my-account.with-avatar>a img{border:none!important;border-radius:12px}
+#wp-admin-bar-user-info .avatar{border-radius:12px}
 
 /* Campos */
 .wp-core-ui select{max-width:32em}
