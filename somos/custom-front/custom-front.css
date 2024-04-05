@@ -82,7 +82,7 @@ body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:var(--textColo
 h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:var(--titleFont),sans-serif}
 h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:var(--textColor);line-height:125%}
 h5,h6{font-weight:400}
-h1.page-title{float:left;width:100%;margin:0 0 .5em;font-size:2em;font-weight:500;line-height:1.15}
+h1.page-title{float:left;width:100%;margin:0 0 .5em;font-size:2em;font-weight:400;line-height:1.15}
 h2{font-size:1.4em}
 h3{font-size:1.3em}
 h4{font-size:1.1em}
@@ -207,33 +207,7 @@ article.event-category-asistimos .eo-event-meta>li a[rel='tag']{color:#338A6C!im
 article.event-category-asistimos .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#338A6C;color:var(--whiteColor1)!important}
 article.event-category-otros .eo-event-meta>li a[rel='tag']{color:#F18C10!important}
 article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:var(--whiteColor1)!important}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:var(--highlightColor);color:var(--whiteColor1)!important}
-
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco'],h1+.gp-meta-cats a[href*='/datco']{border-color:#1C8DCE}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='/datco']:hover,h1+.gp-meta-cats a[href*='/datco']:hover{background:#1C8DCE}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='baitcon'],h1+.gp-meta-cats a[href*='baitcon']{border-color:#89388D}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='baitcon']:hover,h1+.gp-meta-cats a[href*='baitcon']:hover{background:#89388D}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='focus'],h1+.gp-meta-cats a[href*='focus']{border-color:#39457E}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='focus']:hover,h1+.gp-meta-cats a[href*='focus']:hover{background:#39457E}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='interservices'],h1+.gp-meta-cats a[href*='interservices']{border-color:#BF250D}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='interservices']:hover,h1+.gp-meta-cats a[href*='interservices']:hover{background:#BF250D}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='silica'],h1+.gp-meta-cats a[href*='silica']{border-color:#87B217}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='silica']:hover,h1+.gp-meta-cats a[href*='silica']:hover{background:#87B217}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='sersat'],h1+.gp-meta-cats a[href*='sersat']{border-color:#109B84}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='sersat']:hover,h1+.gp-meta-cats a[href*='sersat']:hover{background:#109B84}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='velocom'],h1+.gp-meta-cats a[href*='velocom']{border-color:#AE1A57}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href*='velocom']:hover,h1+.gp-meta-cats a[href*='velocom']:hover{background:#AE1A57}
-/*
-.gp-meta-cats a[href*='/datco']{color:#1C8DCE}
-.gp-meta-cats a[href*='baitcon']{color:#89388D}
-.gp-meta-cats a[href*='focus']{color:#39457E}
-.gp-meta-cats a[href*='interservices']{color:#BF250D}
-.gp-meta-cats a[href*='silica']{color:#87B217}
-.gp-meta-cats a[href*='sersat']{color:#109B84}
-.gp-meta-cats a[href*='velocom']{color:#AE1A57}
-*/
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/'],h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']{color:var(--successColor);border-color:var(--successColor)}
-h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:hover{background:var(--successColor)}
+h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:var(--lightgrayColor2)}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before{display:inline-block;margin-right:2px;content:'\f00c';font-weight:500;font-family:var(--iconFont)}
 #content iframe:not(.yotu-video-placeholder):not([src*='action=mo_sps_sync_file']){display:block;width:100%;max-height:320px;border-radius:var(--regularRadius)}
 
@@ -271,15 +245,6 @@ body.post-type-archive-event h1{text-transform:capitalize}
 #post-content>h2>i[class*='circle']{padding-right:.4em;color:var(--metaColor)}
 body:not(.home) .padder{background:var(--whiteColor1);border-top-width:12px;border-top-style:solid;border-top-color:transparent;box-shadow:var(--largeShadow)}
 body.error404 .padder{background:none;box-shadow:none}
-body.post-template-default.single h1,body.page-id-18106 #content h1{color:var(--mainColor)}
-body.post-template-default.single #content article.category-iot h1,body.page-id-18351 #content h1{color:#692D87}
-body.post-template-default.single #content article.category-baitcon h1,body.page-id-11289 #content h1{color:#89388D}
-body.post-template-default.single #content article[class*='category-datco'] h1,body.page-id-11286 #content h1,body.page-id-11302 #content h1,body.page-id-28032 #content h1,body.page-id-28029 #content h1{color:#1C8DCE}
-body.post-template-default.single #content article.category-focus h1,body.page-id-11299 #content h1{color:#39457E}
-body.post-template-default.single #content article.category-interservices h1,body.page-id-11305 #content h1,body.page-id-28036 #content h1{color:#BF250D}
-body.post-template-default.single #content article.category-sersat h1,body.page-id-11308 #content h1{color:#109B84}
-body.post-template-default.single #content article.category-silica-networks h1,body.page-id-11283 #content h1,body.page-id-15096 #content h1{color:#497718}
-body.post-template-default.single #content article.category-velocom h1,body.page-id-11277 #content h1{color:#AE1A57}
 .post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
 #content .gp-blog-wrapper section .post-text p{margin-bottom:0;font-size:.9em;line-height:1.4}
 
