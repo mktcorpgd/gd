@@ -251,7 +251,7 @@ body.error404 .padder{background:none;box-shadow:none}
 /* Imagen destacada */
 .post-thumbnail.wrap{margin:0 0 2em}
 .post-thumbnail img,.post-thumbnail.single-thumbnail{background:var(--mainColor);border-radius:var(--largeRadius)}
-.post-thumbnail.single-thumbnail,.post-thumbnail.single-thumbnail img{border-top-left-radius:var(--regularRadius);border-top-right-radius:var(--regularRadius)}
+.post-thumbnail.single-thumbnail,.post-thumbnail.single-thumbnail img{border-top-left-radius:var(--largeRadius);border-top-right-radius:var(--largeRadius);border-bottom-left-radius:0;border-bottom-right-radius:0}
 .post-thumbnail.single-thumbnail img{display:block;margin:0 auto;width:60%}
 
 /* Feed */
@@ -1063,7 +1063,7 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 	body.single .gp-meta-date{margin-bottom:.4em}
 	body.single .gp-post-meta{display:block}
 	.widget h3.toggle i{width:24px}
-	.sidebar .widget .sc-button.small{margin-right:0;font-size:1.1em}
+	.sidebar .widget .sc-button.small{margin-right:0;font-size:.9em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.sc-button-social{font-size:2.5em}
 	.jOrgChart table tr.child_box{padding:0}
