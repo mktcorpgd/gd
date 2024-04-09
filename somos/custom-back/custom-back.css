@@ -110,9 +110,6 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #wpadminbar #wp-admin-bar-my-account.with-avatar>.ab-empty-item img, #wpadminbar #wp-admin-bar-my-account.with-avatar>a img{border:none!important;border-radius:12px}
 #wp-admin-bar-user-info .avatar{border-radius:12px}
 
-/* Contenido */
-#wpbody-content{float:none}
-
 /* Campos */
 .wp-core-ui select{max-width:32em}
 #your-profile .form-table,#createuser .form-table{font-size:1.1em}
