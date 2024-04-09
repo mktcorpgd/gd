@@ -929,8 +929,9 @@ figcaption{text-align:left;padding:.4em .3em;color:var(--grayColor);font-size:.8
 .wp-block-image a+figcaption,.grid-gallery .gg-link{cursor:zoom-in}
 .wp-block-gallery{margin:2em 0}
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption{background:var(--textColor);padding:5px}
-figure.wp-block-gallery.inline-gallery{display:flex;flex-wrap:nowrap;overflow:auto}
+figure.wp-block-gallery.inline-gallery{display:flex;gap:0;flex-wrap:nowrap;overflow:auto;border-radius:var(--regularRadius)}
 figure.wp-block-gallery.inline-gallery .wp-block-gallery{min-width:200px}
+figure.wp-block-gallery.inline-gallery .wp-block-gallery img{border-radius:0!important}
 
 /* Videos */
 body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
