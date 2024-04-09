@@ -583,7 +583,7 @@ notification_image{align-items:flex-start!important;max-width:110px!important;wi
 notification_image img{border-radius:var(--smallRadius)!important}
 notification_title{font-family:var(--titleFont),sans-serif!important;color:var(--textColor)!important}
 popup_notification:hover notification_title{text-decoration:underline;color:var(--mainColor)!important}
-popup_button btn{box-sizing:border-box!important;width:100%!important;height:auto;padding:.6em .8em!important;font-family:var(--textFont),sans-serif!important;font-weight:600!important;border-radius:var(--regularRadius)!important}
+promptpopup popup_button btn{box-sizing:border-box!important;width:100%!important;height:auto;padding:.6em .8em!important;font-family:var(--textFont),sans-serif!important;font-weight:600!important;border-radius:var(--regularRadius)!important}
 popup_close{opacity:.8;background:var(--darkgrayColor)!important}
 popup_close:hover{opacity:1}
 
