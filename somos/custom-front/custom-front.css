@@ -790,7 +790,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button,#wpdcom .wpd-second-button,btn.webpushrUnknownBtn,btn.webpushrOffBtn{margin:0;padding:.4em .6em;color:var(--whiteColor1);font-family:var(--textFont),sans-serif!important;font-size:1rem;letter-spacing:0;line-height:normal;text-align:center;background:var(--highlightColor)!important;border:none;box-shadow:var(--smallShadow)!important;text-decoration:none!important;text-shadow:none;outline:none}
+.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button,#wpdcom .wpd-second-button,btn.webpushrUnknownBtn,btn.webpushrOffBtn{margin:0;padding:.6em .8em;color:var(--whiteColor1);font-family:var(--textFont),sans-serif!important;font-size:1rem;letter-spacing:0;line-height:normal;text-align:center;background:var(--highlightColor)!important;border:none;box-shadow:var(--smallShadow)!important;text-decoration:none!important;text-shadow:none;outline:none}
 #wpdcom .wpd-second-button:hover,#wpdcom .wpd-prim-button:hover{opacity:1}
 #wpdcom .wpd_label__check i.wpdicon-off{border-radius:var(--smallRadius)}
 .sc-button,.sc-button:hover{margin:0}
@@ -823,7 +823,7 @@ a.button.fullwidth{width:100%}
 #text-4{margin:0;padding:0;background:none}
 #text-4 h3{margin:0 0 .8em;font-size:1.15em}
 #text-4 h3 a{display:block}
-.yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.4em .6em;font-size:1.6em}
+.yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.6em .8em;font-size:1rem}
 .page-id-55300 .sc-button.large,.wpcf7 button.large,.page-id-41477 .sc-button.large,.wpcf7 button.large,.page-id-15131 .sc-button.large,.wpcf7 button.large {font-size: 1.2em;display: block;margin: 0 auto}
 
 /* Tarjeta digital */
