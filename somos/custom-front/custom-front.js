@@ -193,7 +193,7 @@ jQuery(document).ready(function() {
 	// CONTENIDOS - Referencia de Internet Explorer para módulos de Dropbox
 	if ( jQuery('.yotu-playlist').length && !jQuery('body').hasClass('fullwidth')) {
 		if ( !jQuery('body.post-template-default article').hasClass('category-salesforce') ) {
-			jQuery('.yotu-playlist').prepend('<div class="info-material"><i class="fas fa-info-circle"></i><strong style="font-weight:600"><a href="https://www.youtube.com/grupodatco" target="_blank">Nuestro canal de YouTube</a> funciona como único repositorio para videos públicos e internos. Todo material de video interno o no autorizado a difundir públicamente son visibles sólo en nuestro portal.</strong><br />Tip: la descarga de un video de YouTube puede hacerse desde <a href="https://www.y2mate.com/es1/youtube" target="_blank">y2mate.com</a>.</div>');
+			jQuery('.yotu-playlist').prepend('<div class="info-material"><a href="https://www.youtube.com/grupodatco" target="_blank">Nuestro canal de YouTube</a> funciona como único repositorio para videos públicos e internos. Todo material de video interno o no autorizado a difundir públicamente son visibles sólo en nuestro portal.</div>');
 		}
 	}
 
