@@ -97,8 +97,8 @@ code{display:inline-block;margin:0;padding:.2em .4em;color:var(--grayColor);font
 code.block{width:100%;padding:.9em .6em;border-radius:var(--smallRadius)}
 .width-800{max-width:800px}
 input[type='submit'],select,textarea,button{outline:none!important}
-a{color:var(--mainColor)}
-a:hover{color:var(--highlightColor)}
+a{color:var(--highlightColor)}
+a:hover{color:var(--mainColor)}
 .no-margin{margin:0!important}
 .wpcf7 input[type='radio'],.wpcf7 .wpcf7-list-item-label,span[class*='starttime'] select,span[class*='endtime'] select,span.wpcf7-list-item,.wpcf7-select,.wpcf7-select:not([multiple]) option,select,.bcard .url_public_bcard,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,.wp-pagenavi span,.wp-pagenavi.cat-navi a,.wp-pagenavi.comment-navi a,.wp-pagenavi.post-navi a span,.page-links>span,.page-links>a,.pac-item,.wpcf7-form.invalid .wpcf7-response-output,.wpcf7 h3 i~i,.wpcf7 h4 i~i,.wpcf7 h5 i~i,div.wpcf7 input[type='file'],.wpcf7-form label>i[title],.wpcf7 label,body:not(.fullwidth) .gp-blog-wrapper[class*='gp-blog-columns']:not(.gp-blog-columns-2) section,#nav .menu li.menu-item-has-children:after,video{cursor:pointer}
 #comments .commentlist li .comment_container,.wpcf7cf_remove,.wpcf7cf_add,.gp-blog-wrapper section .post-text,.gp-blog-wrapper article.event,body.page-id-44050 #content .padder:before,body.page-id-44050 #content .padder:after,
