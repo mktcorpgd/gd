@@ -781,7 +781,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 #post-content .ui-tabs .ui-tabs-nav{display:flex;flex-wrap:wrap;flex-direction:row;justify-content:space-between;margin-bottom:1em;border-radius:var(--regularRadius);box-shadow:var(--regularShadow);overflow:hidden}
 .ui-tabs .ui-tabs-nav li{display:flex;margin-bottom:0!important;flex-direction:column;flex-grow:1;justify-content:space-between;top:0;text-align:center}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a,.widget .ui-tabs .ui-tabs-nav li.ui-state-active a{color:var(--highlightColor);text-decoration:underline}
-#post-content .ui-tabs .ui-tabs-nav li a{padding:.3em .6em;color:var(--textColor);line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:var(--titleFont),sans-serif;text-decoration:none;background:var(--whiteColor2)}
+#post-content .ui-tabs .ui-tabs-nav li a{padding:.4em .8em;color:var(--textColor);line-height:1.8;border-right:1px solid rgba(0,0,0,.2);position:relative;font-weight:400;font-family:var(--titleFont),sans-serif;text-decoration:none;background:var(--whiteColor2)}
 #post-content .ui-tabs .ui-tabs-nav li a:hover{background:var(--whiteColor1)}
 #post-content .ui-tabs .ui-tabs-nav li:last-child a{border-right:none}
 #post-content .ui-tabs .ui-tabs-nav li.ui-state-active a{text-decoration:none;background-color:var(--subColor);color:var(--whiteColor1)}
