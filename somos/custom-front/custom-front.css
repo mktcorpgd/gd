@@ -978,8 +978,8 @@ body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
 
 /* Footer */
 #copyright{padding:2em 1em;font-size:12px;font-family:var(--titleFont),sans-serif;color:var(--metaColor)}
-#copyright>div:nth-child(1){margin-bottom:.4em;font-size:1.1em}
-#copyright a{color:var(--metaColor)}
+#copyright>div:nth-child(1){margin-bottom:.4em;font-size:1.1em;color:var(--mainColor)}
+#copyright a{display:inline-block;padding:0 .4em;color:var(--metaColor)}
 #copyright a:hover{color:var(--subColor);text-decoration:none}
 
 /* Desktop */
