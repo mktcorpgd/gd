@@ -56,9 +56,6 @@ jQuery(document).ready(function() {
 			jQuery(this).parent().toggleClass('open');
 			e.preventDefault();
 		});
-		jQuery('.wp-classic-menu-block.kit>.menu li a[href^="#"]').click(function(e) {
-			e.preventDefault();
-		});
 		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
 		var org = jQuery('input[name=gdORGPROF]').val();
 		var org_class = normalize(org.toLowerCase());
@@ -144,6 +141,11 @@ jQuery(document).ready(function() {
 	// ADMIN - Etiquetas
 	jQuery('#wp-admin-bar-site-name>.ab-item').text('Escritorio');
 
+
+	// MENÚ - preventDefault en links con #
+	jQuery('.menu li a[href*="#"]').on('click',function(e) {
+		e.preventDefault()
+	});
 
 	// GENERAL - Buscador
 	jQuery('.asl_w_container').insertBefore('#left-content-wrapper');
