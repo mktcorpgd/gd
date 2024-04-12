@@ -11,7 +11,7 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
 
 // FORMULARIOS - Al enviar un form
-jQuery(document).on('click','.wpcf7-submit',function(e) {
+jQuery(document).on('click','.wpcf7-submit:not(.confirm)',function(e) {
 	jQuery(this).addClass('sending');
 	jQuery(this).closest('.wpcf7-form').addClass('sending');
 	jQuery(this).attr('name',jQuery(this).val());
