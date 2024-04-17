@@ -947,7 +947,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .wp-block-embed{margin-bottom:2em}
 
 /* Kit */
-body.page-id-54299 #content-wrapper{float:none;margin:0 auto;max-width:800px}
+body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:auto;max-width:800px}
 .kit>.menu li{display:block;padding:0}
 .kit.grid>.menu li{margin:1%;text-align:center}
 .kit.grid>.menu li.columns.two{width:48%}
