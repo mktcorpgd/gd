@@ -247,7 +247,7 @@ body.search #content{width:100%}
 body.search .fusion-page-title-wrapper{display:block}
 body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrapper,.fusion-error-page-search,.search-page-search-form{text-align:center}
 .search-page-search-form{margin-top:0;border:none}
-#main .searchform .fusion-search-form-content .fusion-search-field input{margin:0 auto;max-width:600px;text-align:center}
+#main .searchform .fusion-search-form-content .fusion-search-field input{margin:0 auto!important;max-width:600px;font-size:1.2em!important;text-align:center}
 
 /* Páginas */
 body.page .post-slideshow{border-radius:24px;pointer-events:none}
