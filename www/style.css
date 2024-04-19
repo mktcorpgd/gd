@@ -152,7 +152,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 /* Menú - Buscador */
 .fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important}
 .fusion-main-menu .fusion-main-menu-search a:hover:after,.fusion-main-menu .fusion-main-menu-search-open a:after{color:rgba(255,255,255,1)!important}
-.fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents{width:100%;position:fixed;background:none;border:none}
+.fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents{padding:0;width:100%;position:fixed;background:none;border:none}
 
 /* Modal */
 .modal-backdrop.in{opacity:.5!important;transition:none!important}
