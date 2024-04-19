@@ -241,8 +241,8 @@ body.has-sidebar #main .sidebar h3{margin-top:0}
 .wy-tooltip{max-width:600px;color:#FFFFFF;background:var(--textColor);position:absolute;padding:.6em .8em;text-align:left;border-radius:6px;font-size:.65em;line-height:1.2;z-index:99999999}
 .fullwidth-video video{width:100vw!important}
 
-/* Búsqueda */
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor);background:rgba(0,0,0,.2);border-radius:12px}
+/* Buscador */
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor);background:rgba(0,0,0,.2)}
 body.search #content{width:100%}
 body.search .fusion-page-title-wrapper{display:block}
 body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrapper,.fusion-error-page-search,.search-page-search-form{text-align:center}
