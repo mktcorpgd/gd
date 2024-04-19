@@ -152,7 +152,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 /* Menú - Buscador */
 .fusion-main-menu .fusion-main-menu-search a:after{color:rgba(255,255,255,.8)!important}
 .fusion-main-menu .fusion-main-menu-search a:hover:after,.fusion-main-menu .fusion-main-menu-search-open a:after{color:rgba(255,255,255,1)!important}
-.fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents{padding:0;width:100%;position:fixed;border:none}
+.fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents{padding:.4em 1em;width:100%;position:fixed;background:none;border:none}
 
 /* Modal */
 .modal-backdrop.in{opacity:.5!important;transition:none!important}
@@ -242,7 +242,7 @@ body.has-sidebar #main .sidebar h3{margin-top:0}
 .fullwidth-video video{width:100vw!important}
 
 /* Búsqueda */
-.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor)}
+.fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor);border-radius:12px}
 body.search #content{width:100%}
 body.search .fusion-page-title-wrapper{display:block}
 body.search .post-content>.fusion-title>h2,body.search .fusion-page-title-wrapper,.fusion-error-page-search,.search-page-search-form{text-align:center}
