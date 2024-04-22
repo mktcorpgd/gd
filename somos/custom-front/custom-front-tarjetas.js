@@ -82,10 +82,10 @@ jQuery(document).ready(function() {
 			tp_org = tp_org.replace(/ /,'_').toLowerCase();
 			tp_org = tp_org.replace(/\(|\)/g,'');
 			console.log(tp_org);
-			jQuery('#'+id_form+' .tp').removeClass().addClass('tp '+tp_org);
 			if ( tp_org.indexOf('0g') != -1 ) {
 				tp_org = tp_org = tp_org.replace(/0g/g,'zerog');
 			}
+			jQuery('#'+id_form+' .tp').removeClass().addClass('tp '+tp_org);
 			if ( id_form == 'wpcf7-f24224-p18546-o2' ) {
 				jQuery('#'+id_form+' .tp').addClass('digital');
 				jQuery('#mobile-logo').fadeOut('fast', function() {
