@@ -65,7 +65,7 @@ body[class*='office-ar'] .menu .menu-item.ar,body[class*='office-br'] .menu .men
 .mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* Global */
-:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#111111;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--xsmallRadius:3px;--smallRadius:6px;--regularRadius:12px;--largeRadius:24px;--xsmallShadow:0 2px 6px 0px rgba(0,0,0,.1);--smallShadow:0 4px 8px 0px rgba(0,0,0,.2);--smallShadowHover:0 2px 12px 0px rgba(0,0,0,.3);--regularShadow:0 6px 12px 0 rgba(0,0,0,.2);--regularShadowHover:0 4px 18px 0 rgba(0,0,0,.3);--largeShadow:0 12px 18px 0 rgba(0,0,0,.2);}
+:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#111111;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--bColor:#874493;--dColor:#2484B6;--fColor:#39457E;--iColor:#BF250D;--stColor:#109B84;--sColor:#497718;--vColor:#AE1A57;--zgColor:#692D87;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--xsmallRadius:3px;--smallRadius:6px;--regularRadius:12px;--largeRadius:24px;--xsmallShadow:0 2px 6px 0px rgba(0,0,0,.1);--smallShadow:0 4px 8px 0px rgba(0,0,0,.2);--smallShadowHover:0 2px 12px 0px rgba(0,0,0,.3);--regularShadow:0 6px 12px 0 rgba(0,0,0,.2);--regularShadowHover:0 4px 18px 0 rgba(0,0,0,.3);--largeShadow:0 12px 18px 0 rgba(0,0,0,.2);}
 
 /* General */
 ::-moz-selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
@@ -733,13 +733,13 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 #content article[class*='category-casos-'] table th strong,#content article[class*='busquedas-'] table th strong,#content article[class*='category-casos-'] table td:first-child strong,#content article[class*='busquedas-'] table td:first-child strong,.padder.category-casos-de-referencia .wpcf7 table td:first-child strong{font-weight:400}
 #content article[class*='casos-'] table td:first-child,#content article[class*='busquedas-laborales'] table td:first-child{width:30%}
 #content article[class*='casos-'] table td:last-child,#content article[class*='busquedas-laborales'] table td:last-child{width:70%;max-width:400px;word-wrap:break-word;word-break:break-word}
-#content .category-casos-un-baitcon table td:first-child{background:#89388D}
-#content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:#1C8DCE}
-#content .category-casos-un-focus table td:first-child{background:#39457E}
-#content .category-casos-un-interservices table td:first-child{background:#BF250D}
-#content .category-casos-un-sersat table td:first-child{background:#109B84}
-#content .category-casos-un-silica-comunicaciones table td:first-child,#content .category-casos-un-silica-infraestructura table td:first-child{background:#87B217}
-#content .category-casos-un-velocom table td:first-child{background:#AE1A57}
+#content .category-casos-un-baitcon table td:first-child{background:var(--bColor)}
+#content .category-casos-un-datco-software table td:first-child,#content .category-casos-un-datco-infraestructura table td:first-child{background:var(--dColor)}
+#content .category-casos-un-focus table td:first-child{background:var(--fColor)}
+#content .category-casos-un-interservices table td:first-child{background:var(--iColor)}
+#content .category-casos-un-sersat table td:first-child{background:var(--stColor)}
+#content .category-casos-un-silica-comunicaciones table td:first-child,#content .category-casos-un-silica-infraestructura table td:first-child{background:var(--sColor)}
+#content .category-casos-un-velocom table td:first-child{background:var(--vColor)}
 #content table th:first-child,#content table td:first-child{border-left:1px solid rgba(0,0,0,.2)}
 #content table td p{line-height:1.5}
 #content table thead tr:first-child th:first-child{border-top-left-radius:var(--regularRadius)}
@@ -1002,14 +1002,14 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 	body:not(.home) .padder{border-radius:var(--regularRadius)}
 	body:not(.home) .post-thumbnail+.padder{border-top-left-radius:0;border-top-right-radius:0}
 	body.post-template-default.single #content article .padder,body.page-id-18106 .padder{border-top-width:6px;border-top-style:solid;border-top-color:var(--mainColor)}
-	body.post-template-default.single #content article.category-iot .padder,body.page-id-18351 .padder{border-top-color:#692D87}
-	body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:#89388D}
-	body.post-template-default.single #content article[class*='category-datco'] .padder,body.page-id-11286 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder{border-top-color:#1C8DCE}
-	body.post-template-default.single #content article.category-focus .padder,body.page-id-11299 .padder{border-top-color:#39457E}
-	body.post-template-default.single #content article.category-interservices .padder,body.page-id-11305 .padder,body.page-id-28036 .padder{border-top-color:#BF250D}
-	body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:#109B84}
-	body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:#497718}
-	body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:#AE1A57}
+	body.post-template-default.single #content article.category-iot .padder,body.page-id-18351 .padder{border-top-color:var(--zgColor)}
+	body.post-template-default.single #content article.category-baitcon .padder,body.page-id-11289 .padder{border-top-color:var(--bColor)}
+	body.post-template-default.single #content article[class*='category-datco'] .padder,body.page-id-11286 .padder,body.page-id-11302 .padder,body.page-id-28032 .padder,body.page-id-28029 .padder{border-top-color:var(--dColor)}
+	body.post-template-default.single #content article.category-focus .padder,body.page-id-11299 .padder{border-top-color:var(--fColor)}
+	body.post-template-default.single #content article.category-interservices .padder,body.page-id-11305 .padder,body.page-id-28036 .padder{border-top-color:var(--iColor)}
+	body.post-template-default.single #content article.category-sersat .padder,body.page-id-11308 .padder{border-top-color:var(--stColor)}
+	body.post-template-default.single #content article.category-silica-networks .padder,body.page-id-11283 .padder,body.page-id-15096 .padder{border-top-color:var(--sColor)}
+	body.post-template-default.single #content article.category-velocom .padder,body.page-id-11277 .padder{border-top-color:var(--vColor)}
 	body.home section.post-loop.category-reportes{display:grid;grid-template-columns:35% 65%}
 	body.home section.post-loop.category-reportes a{font-size:1.2em;color:var(--highlightColor)}
 	body.home section.post-loop.category-reportes a:hover{color:var(--mainColor)}
