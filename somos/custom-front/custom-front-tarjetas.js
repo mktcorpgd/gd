@@ -42,7 +42,7 @@ jQuery(document).ready(function() {
 	tp_phone['ar_bahia-blanca'] = '+54 (291) 451-8376';
 	tp_address['ar_mar-del-plata'] = 'Av. Constitución 5075 (B7605EYA)<br />PB, Oficina 106<br />Mar del Plata, Buenos Aires<br />Argentina';
 	tp_phone['ar_mar-del-plata'] = '+54 (223) 471-5073';
-	tp_address['ar_pilar'] = 'Av. Sgto. Cayetano Beliera 3025 (B1629WWA)<br />M3, PB Of. 01<br />Pilar Centro, Buenos Aires<br />Argentina'
+	tp_address['ar_pilar'] = 'Av. Sgto. Cayetano Beliera 3025 (B1629WWA) - M3, PB Of. 01<br />Pilar Centro, Buenos Aires<br />Argentina'
 	tp_phone['ar_pilar'] = '+54 (351) 522-0808';
 	tp_address['ar_cordoba'] = 'Jacobo Joule 5353 (X5021)<br />Piso 1, Of. 111<br />Complejo Quadra 54, Córdoba, Argentina';
 	tp_phone['ar_cordoba'] = '+54 (351) 464-4495';

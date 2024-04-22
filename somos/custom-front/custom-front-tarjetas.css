@@ -8,8 +8,9 @@
 #content .columns.two .tp>img{border:2px solid var(--lightgrayColor1);border-radius:24px}
 #content .columns.two .tp ul{top:77px}
 #content .columns.two .tp ul li{padding-left:38px}
-#content .columns.two .tp ul li{margin:0;padding-bottom:4px;min-height:19.5px;color:var(--textColor);font-size:15px;line-height:1}
+#content .columns.two .tp ul li{margin:0;padding-bottom:4px;min-height:19.5px;color:var(--textColor);font-size:14px;line-height:1}
 #content .columns.two .tp ul li:last-child{margin-top:15px}
+#content .columns.two .tp img+em{font-size:.8em}
 #content .columns.two .tp h2,#content .columns.two .tp h4{color:var(--whiteColor1);text-indent:23px}
 #content .columns.two .tp h2{bottom:63px;font-size:22.5px}
 #content .columns.two .tp h4{bottom:42px;font-size:18.5px;font-weight:400}
