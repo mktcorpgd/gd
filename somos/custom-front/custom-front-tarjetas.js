@@ -76,10 +76,12 @@ jQuery(document).ready(function() {
 	jQuery('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
 	jQuery('.wpcf7 select[name=ORG]').change(function() {
 		var id_form = jQuery(this).closest('.wpcf7').attr('id');
+		console.log(id_form);
 		if ( jQuery(this).val() != '—' ) {
 			var tp_org = jQuery('#'+id_form+' select[name=ORG] option:selected').val();
 			tp_org = tp_org.replace(/ /,'_').toLowerCase();
 			tp_org = tp_org.replace(/\(|\)/g,'');
+			console.log(tp_org);
 			if ( tp_org.indexOf('0g') != -1 ) {
 				tp_org = tp_org = tp_org.replace(/0g/g,'zerog');
 			}
