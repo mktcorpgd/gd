@@ -16,7 +16,7 @@ body.single article[class*='category-baitcon'] h1+div:not(.gp-blog-wrapper) .gp-
 body:not(.archive):not(.search) .gp-blog-wrapper section[class*='category-politicas-procesos'] .gp-meta-date,
 body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Buscador */
-#search-3>h3,.is-screen-reader-text,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,body.search section.type-page .gp-loop-meta,.gp-search-submit,body.search #content h4,.error404 .gp-search p,.error404 h2,.padder article.post.no-results h1,#content section[class*='busquedas'] p,body.search .gp-blog-wrapper section .post-thumbnail,.asp_filter_generic,.asp_filter_cpt,
+#search-3>h3,.is-screen-reader-text,body.search #content .sc-divider,body.search #searchsubmit,body.search-no-results #content div>div>h3,body.search-no-results #content div>div>form>input.gp-search-submit,body.search section.type-page .gp-loop-meta,.gp-search-submit,body.search #content h4,.error404 .gp-search p,.error404 h2,.padder article.post.no-results h1,#content section[class*='busquedas'] p,body.search .gp-blog-wrapper section .post-thumbnail,.asp_filter_generic,.asp_filter_cpt,.gp-search>.asp_w_container,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Sharepoint Sync */
