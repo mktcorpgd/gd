@@ -765,6 +765,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .partners .fusion-builder-row:not(:nth-child(1)) img[src*='logo-footer']{opacity:.8}
 .partners img{margin-top:0}
 .partners .fusion-imageframe{border:none!important}
+#partners_footer{z-index:1}
 .logo-partner{border-radius:0!important}
 
 /* Desktop */
