@@ -14,10 +14,10 @@
 #content .columns.two .tp h2,#content .columns.two .tp h4{color:var(--whiteColor1);text-indent:23px}
 #content .columns.two .tp h2{bottom:63px;font-size:22.5px}
 #content .columns.two .tp h4{bottom:42px;font-size:18.5px;font-weight:400}
-#content .columns.two .tp h3,#content .columns.two .tp h5{text-indent:21px}
+#content .columns.two .tp h3,#content .columns.two .tp h5{padding-left:21px}
 #content .columns.two .tp h3,#content .columns.two .tp h5{margin-top:0}
 #content .columns.two .tp h3{top:18px;font-size:22px}
-#content .columns.two .tp h5{top:42px;font-size:18px;font-weight:400}
+#content .columns.two .tp h5{padding-right:10px;top:45px;font-size:15px;line-height:1.1;font-weight:400}
 #content .tp:not(.digital) li:not(.ui-state-default){margin-top:0;margin-bottom:0;padding-bottom:0;font-size:16px;line-height:16px}
 #content .tp li:not(.ui-state-default){font-weight:400}
 #content .columns .tp.digital #mobile-content{padding-top:2em;overflow-y:visible;overflow-x:hidden}
