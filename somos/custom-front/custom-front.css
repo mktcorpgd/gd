@@ -967,7 +967,8 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 .kit>.menu>li>a{font-size:1.1rem;font-weight:500}
 .kit>.menu>li>ul>li>a{font-size:1rem;font-weight:400}
 .kit>.menu li>a:before{display:block;width:100%;color:var(--grayColor);font-size:3em;height:64px;font-weight:900;font-family:var(--iconFont)}
-.kit>.menu li.folder>a:before{content:'\2b'}
+.kit>.menu li.folder>a:before{content:'\f07b'}
+.kit>.menu li.plus>a:before{content:'\2b'}
 .kit>.menu li.open>a:not([href*='grupo-datco']):not([href*='silica-networks']){opacity:.8}
 .kit>.menu li.open>a:before{content:'\f068'}
 .kit>.menu li.file a:before{content:'\f15c'}
