@@ -173,12 +173,12 @@ body.role- #header{top:0}
 #nav .menu .sub-menu .sub-menu{background-color:var(--textColor)}
 #nav .menu li.menu-item-has-children:after,#menu-header-destacado li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:var(--iconFont)}
 #nav .menu li.menu-item-has-children:after{position:absolute;top:12px;right:5px;font-size:.8em}
-#menu-header-destacado li.menu-item-has-children:after{position:absolute;top:5px;right:5px;font-size:.8em}
+#menu-header-destacado li.menu-item-has-children:after{position:absolute;top:3px;right:8px;font-size:.7em}
 #nav .menu li.menu-item-has-children:after,#menu-header-destacado li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
 #nav .menu li.menu-item-has-children:hover:after,#menu-header-destacado li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:var(--whiteColor1)}
 #nav .menu li.menu-item-has-children:hover:after,#menu-header-destacado li.menu-item-has-children:hover:after{transform:rotateX(180deg)}
 #nav .menu li.menu-item-has-children:hover:after{top:10px}
-#menu-header-destacado li.menu-item-has-children:hover:after{top:6px}
+#menu-header-destacado li.menu-item-has-children:hover:after{top:5px}
 #nav .menu .sub-menu li.menu-item-has-children:after{top:4px;right:5px}
 #nav .menu .sub-menu li.menu-item-has-children:hover:after{top:3px}
 #menu-header-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end;z-index:100}
