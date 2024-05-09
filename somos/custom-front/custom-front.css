@@ -176,10 +176,10 @@ body.role- #header{top:0}
 #nav .menu li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:var(--whiteColor1)}
 #nav .menu li.menu-item-has-children:hover:after{transform:rotateX(180deg);top:10px}
 #nav .menu .sub-menu li.menu-item-has-children:hover:after{top:3px}
-#menu-2024-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end;z-index:100}
-#menu-2024-destacado li{margin:0;list-style:none}
-#menu-2024-destacado li a{display:inline-block;margin:0 1em 0 0;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif}
-#menu-2024-destacado li a:hover{text-decoration:underline;}
+#menu-header-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end;z-index:100}
+#menu-header-destacado li{margin:0;list-style:none}
+#menu-header-destacado li a{display:inline-block;margin:0 1em 0 0;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif}
+#menu-header-destacado li a:hover{text-decoration:underline;}
 
 /* Meta */
 .gp-meta-cats{font-size:0}
@@ -1079,10 +1079,10 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 	div[id*='ajaxsearchpro'].asp_m{width:95%}
 	body>.asp_w_container div[id*='ajaxsearchpro'].asp_m{min-width:100%;width:100%}
 	#ajaxsearchpro1_1 .probox .proinput input.orig{font-size:1.4em!important;box-shadow:none!important;border-radius:var(--regularRadius)}
-	#menu-2024-destacado{width:100%;height:auto;padding:0 1rem!important;justify-content:flex-start;position:relative;top:0}
-	#menu-2024-destacado li{float:left}
-	#menu-2024-destacado li a{margin:0 .8em 0 0;padding:.6em 0;font-size:.9em}
-	#menu-2024-destacado li:last-child a{margin:0}
+	#menu-header-destacado{width:100%;height:auto;padding:0 1rem!important;justify-content:flex-start;position:relative;top:0}
+	#menu-header-destacado li{float:left}
+	#menu-header-destacado li a{margin:0 .8em 0 0;padding:.6em 0;font-size:.9em}
+	#menu-header-destacado li:last-child a{margin:0}
 	body.home #post-content .ui-tabs .ui-tabs-nav li a{font-size:.8em}
 	body.home #post-content .ui-tabs .ui-tabs-nav{margin-bottom:0}
 	.ui-tabs-nav>li{display:contents}
