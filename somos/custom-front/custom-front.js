@@ -52,7 +52,7 @@ jQuery(document).ready(function() {
 
 	// KIT
 	if ( jQuery('.kit').length ) {
-		jQuery('.wp-classic-menu-block.kit .menu li.folder>a').click(function(e) {
+		jQuery('.wp-classic-menu-block.kit .menu li.plus>a').click(function(e) {
 			jQuery(this).parent().toggleClass('open');
 			e.preventDefault();
 		});
