@@ -204,7 +204,7 @@ jQuery( document ).ready( function( $ ) {
 	--------------------------------------------------------------*/
 
 	function gpSwitchNavPosition() {
-		$( '#nav .menu > li' ).each( function() {
+		$( '#nav .menu > li,#menu-header-destacado > li' ).each( function() {
 			$( this ).on( 'mouseenter mouseleave', function( e ) {
 				if ( $( this ).find( 'ul' ).length > 0 ) {
 					var menuElement = $( 'ul:first', this ),
