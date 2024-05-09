@@ -20,7 +20,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Cumpleaños */
 .bdays_upcom>div>img,.bdays_upcom>div>div.birthday_wish,.birthdays-widget button,
 /* Sharepoint Sync */
-[id*='mo_sps_upload_file'],[breadcrumb*='A4'],[breadcrumb*='assets'],[breadcrumb*='dev'],[breadcrumb*='old'],[breadcrumb*='print']:not([name*='folder']),[breadcrumb*='.print'],body:not(.page-id-17533) [breadcrumb*='.ai'],[breadcrumb*='.psd'],[breadcrumb*='.Firma'],[breadcrumb*='.Capacitaciones'],[breadcrumb*='_Firma'],[breadcrumb*='_Pasados'],
+[id*='mo_sps_upload_file'],[breadcrumb*='A4'],[breadcrumb*='assets'],[breadcrumb*='dev'],[breadcrumb*='old'],[breadcrumb*='print']:not([name*='folder']),[breadcrumb*='.print'],[breadcrumb*='_print'],body:not(.page-id-17533) [breadcrumb*='.ai'],[breadcrumb*='.psd'],[breadcrumb*='.Firma'],[breadcrumb*='.Capacitaciones'],[breadcrumb*='_Firma'],[breadcrumb*='_Pasados'],
 [data-sharepoint_name*='A4'],[data-sharepoint_name*='assets'],[data-sharepoint_name*='dev'],[data-sharepoint_name*='old'],[data-sharepoint_name*='print'],[data-sharepoint_name*='.ai'],[data-sharepoint_name*='.psd'],[data-sharepoint_name*='.Firma'],[data-sharepoint_name*='.Capacitaciones'],[data-sharepoint_name*='_Firma'],[data-sharepoint_name*='-icon'],
 .mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],[id*='mo_doc_lib_container__loader']>img,.mo_sps_class_embed_file[data-sharepoint_name="Grupo_Datco-Manual_Identidad.pdf"],
 /* Comentarios */
