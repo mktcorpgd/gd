@@ -157,7 +157,7 @@ body.role- #header{top:0}
 #nav .menu li.separator{margin-left:.5em;padding-left:.5em;border-left:2px solid rgba(0,0,0,.2);border-radius:0}
 #nav .menu li{margin-left:.1em}
 #nav .menu li a,#menu-header-destacado li a,#mobile-nav .menu li a{font-family:var(--titleFont),sans-serif;font-size:1em;font-weight:400}
-#nav .menu li a,#menu-header-destacado li a{display:block;padding:.6em .8em;background:rgba(0,0,0,0);white-space:nowrap}
+#nav .menu li a{display:block;padding:.6em .8em;background:rgba(0,0,0,0);white-space:nowrap}
 #nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover,#menu-header-destacado .sub-menu li a:hover{background:rgba(0,0,0,.2)}
 #nav .menu li a:hover,#nav .menu li:hover>a,#menu-header-destacado li a:hover,#menu-header-destacado li:hover>a{border-radius:var(--smallRadius)}
 #nav .menu li a:hover,#menu-header-destacado li a:hover,#mobile-nav .menu li>a:hover{text-decoration:none}
@@ -657,7 +657,7 @@ popup_close:hover{opacity:1}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.ppt']:before{content:'\f1c4'!important;color:#D24726}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.dot']:before,.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.doc']:before{content:'\f1c2'!important;color:#2B579A}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.xls']:before{content:'\f1c3'!important;color:#217346}
-.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pdf']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.pdf']:before{content:'\f1c1'!important;color:#B51308}
+.mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.pdf']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.pdf']:before{content:'\f1c1'!important;color:#B51308;}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.zip']:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div.mo_sps_class_embed_file[data-sharepoint_name*='.zip']:before{content:'\e5ee'!important}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.jpg']:before,
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1[breadcrumb*='.jpeg']:before,
