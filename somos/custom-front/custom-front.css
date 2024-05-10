@@ -186,7 +186,7 @@ body.role- #header{top:0}
 #menu-header-destacado{display:flex;margin-top:3em;padding:.4rem .8rem!important;height:36px;position:fixed;top:104px;left:0;margin-top:0;background:var(--subColor);width:70%;align-items:center;flex-wrap:wrap;justify-content:flex-end;z-index:100}
 #menu-header-destacado li{margin:0;list-style:none;position:relative}
 #menu-header-destacado li a{display:inline-block;margin:0 1em 0 0;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif}
-#menu-header-destacado li a:hover{text-decoration:underline;}
+#menu-header-destacado>li>a:hover{text-decoration:underline;}
 
 /* Meta */
 .gp-meta-cats{font-size:0}
