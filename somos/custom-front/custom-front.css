@@ -155,7 +155,7 @@ body.role- #header{top:0}
 #nav{float:left}
 #nav .menu{margin:0}
 #nav .menu li.separator{margin-left:.5em;padding-left:.5em;border-left:2px solid rgba(0,0,0,.2);border-radius:0}
-#nav .menu li{margin-left:.1em}
+#nav .menu li{margin-left:.1em;}
 #nav .menu li a,#menu-header-destacado li a,#mobile-nav .menu li a{font-family:var(--titleFont),sans-serif;font-size:1em;font-weight:400}
 #nav .menu li a{display:block;padding:.6em .8em;background:rgba(0,0,0,0);white-space:nowrap}
 #nav .menu li a:hover,#nav .menu li:hover>a,#nav .menu .sub-menu li a:hover,#menu-header-destacado .sub-menu li a:hover{background:rgba(0,0,0,.2)}
