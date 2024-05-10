@@ -173,8 +173,9 @@ body.role- #header{top:0}
 #nav .menu .sub-menu li>a>i,#menu-header-destacado .sub-menu li>a>i{float:right;position:relative;top:3px;color:rgba(255,255,255,.6)}
 #nav .menu .sub-menu .sub-menu{background-color:var(--textColor)}
 #nav .menu li.menu-item-has-children:after,#menu-header-destacado li.menu-item-has-children:after,#mobile-nav .menu li>.mobile-dropdown-icon:before{content:'\f107';font-family:var(--iconFont)}
-#nav .menu li.menu-item-has-children:after{position:absolute;top:12px;right:5px;font-size:.8em}
-#menu-header-destacado li.menu-item-has-children:after{position:absolute;top:3px;right:8px;font-size:.7em}
+#nav .menu li.menu-item-has-children:after,#menu-header-destacado li.menu-item-has-children:after{position:absolute;font-size:.8em}
+#nav .menu li.menu-item-has-children:after{top:12px;right:5px}
+#menu-header-destacado li.menu-item-has-children:after{top:2px;right:9px}
 #nav .menu li.menu-item-has-children:after,#menu-header-destacado li.menu-item-has-children:after,#nav .menu li i{color:rgba(255,255,255,.6)}
 #nav .menu li.menu-item-has-children:hover:after,#menu-header-destacado li.menu-item-has-children:hover:after,#nav .menu li:hover i{color:var(--whiteColor1)}
 #nav .menu li.menu-item-has-children:hover:after,#menu-header-destacado li.menu-item-has-children:hover:after{transform:rotateX(180deg)}
