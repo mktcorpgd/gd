@@ -102,18 +102,6 @@ jQuery(document).ready(function() {
 
 
 	// MOBILE
-	function headerMobile() {
-		if ( jQuery(window).width() < 960 ) {
-			jQuery('.is-form-id-26276:first').insertAfter('#logo');
-		}
-		else {
-			jQuery('.is-form-id-26276:first').insertBefore('#page-wrapper');
-		}
-	}
-	headerMobile();
-	jQuery(window).resize(function() {
-		headerMobile();
-	});
 	jQuery('#mobile-nav-button').click(function(e) {
 		jQuery(this).toggleClass('gp-active');
 		jQuery('#mobile-nav').toggle();
