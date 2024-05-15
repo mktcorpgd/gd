@@ -37,7 +37,7 @@ body:not(.single-event) article.event p,body.single-event .entry-content h4,.eve
 /* Admin */
 body:not(.role-administrator) .only-admin,
 /* Entradas */
-.post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.home) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,
+.post-header,section.hidden,body.page-id-26272 .gp-blog-wrapper section .post-text h2:before,.gp-blog-wrapper section .post-text .read-more,body:not(.home) .gp-blog-wrapper section.category-certificaciones .post-text p,.gp-blog-wrapper section.category-graduaciones .post-text p,.gp-blog-wrapper section.category-ingresos .post-text p,.toggle-box+br,.bdays_upcom img,.bdays_upcom .birthday_wish,.bdays_today+br,section.post-loop.category-politicas-procesos-capital-humano-chile .gp-loop-meta,
 body[class*='office-ar-munro'] section.post-loop.category-aniversarios,
 body[class*='office-ar-munro'] [class*='no-visible-xerox-ar'],
 body[class*='office-cl-santa-clara'] [class*='no-visible-xerox-cl'],
