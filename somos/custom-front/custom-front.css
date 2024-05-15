@@ -96,7 +96,7 @@ h6{font-size:.9em}
 video{outline:none!important}
 blockquote{float:left;margin:.4em 0;padding:1em 0 1em 1.4em;font-size:1.05em;border-left:2px solid var(--extraColor);font-style:italic;overflow:inherit}
 p{margin-bottom:1em;line-height:1.5}
-hr{display:block;width:100%;height:4px;margin:1.5em 0 2em;padding:0;position:relative;background:var(--lightgrayColor1);border:none!important}
+hr{display:block;width:100%;height:4px;margin:2.5em 0 2em;padding:0;position:relative;background:var(--lightgrayColor1);border:none!important}
 hr.thin{height:1px}
 code{display:inline-block;margin:0;padding:.2em .4em;color:var(--grayColor);font-weight:bold;font-size:1em;line-height:1;background:var(--whiteColor2);border:none!important;border-radius:var(--xsmallRadius)}
 code.block{width:100%;padding:.9em .6em;border-radius:var(--smallRadius)}
@@ -819,7 +819,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .sc-button>i,.wpcf7 button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,.wpcf7 button.small,.wpcf7 button.medium,.wpcf7 button.large,.wpcf7 button.xlarge{padding:.4em .8em;line-height:normal}
 .sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.3em .6em;font-size:.9em;border-radius:var(--smallRadius)!important}
-.sc-button.medium,.wpcf7 button.medium{font-size:1.05em}
+.sc-button.medium,.wpcf7 button.medium{font-size:1em;font-weight:400!important}
 .sc-button.large,.wpcf7 button.large{font-size:1.2em}
 .sc-button.xlarge,.wpcf7 button.xlarge{margin-bottom:1em;font-size:1.3em}
 .sc-button.inline,.wpcf7 button.inline{margin:.2em .4em 0 0;padding:0 .4em;font-size:.85em}
