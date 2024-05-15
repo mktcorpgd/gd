@@ -131,7 +131,7 @@ jQuery(document).ready(function() {
 
 
 	// MENÚ - preventDefault en links con #
-	jQuery('.menu li a[href*="#"]').on('click',function(e) {
+	jQuery('.menu>li>a[href*="#"]').on('click',function(e) {
 		e.preventDefault()
 	});
 
