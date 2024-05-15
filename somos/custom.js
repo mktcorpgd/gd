@@ -171,33 +171,6 @@ jQuery( document ).ready( function( $ ) {
 		});
 	}
 
-
-	/*--------------------------------------------------------------
-	Prevent Empty Search - Thomas Scholz http://toscho.de 
-	--------------------------------------------------------------*/
-
-	$.fn.preventEmptySubmit = function( options ) {
-		var settings = {
-			inputselector: '#searchbar',
-			msg          : ghostpool_script.emptySearchText
-		};
-		if ( options ) {
-			$.extend( settings, options );
-		}
-		this.submit( function() {
-			var s = $( this ).find( settings.inputselector );
-			if ( !s.val() ) {
-				alert( settings.msg );
-				s.focus();
-				return false;
-			}
-			return true;
-		} );
-		return this;
-	};
-
-	$( '#searchform' ).preventEmptySubmit();
-
 	
 	/*--------------------------------------------------------------
 	Switch navigation position if near edge
@@ -269,81 +242,5 @@ jQuery( document ).ready( function( $ ) {
 	gpResizeHeader();
 	$( window ).resize( gpResizeHeader );
 
-
-	/*--------------------------------------------------------------
-	Login box
-	--------------------------------------------------------------*/
-
-	// Submit forms
-	var formArray = ['.gp-login-form', '.gp-lost-password-form', '.gp-register-form'];
-	
-	$.each( formArray, function( index, value ) {
-	
-		$( value ).submit( function() {
-			var form = $( this ); 
-			form.find( '.gp-login-results' ).html( '<div class="gp-verify-form">' + $( '.gp-login-results' ).data( 'verify' ) + '</div>' ).fadeIn();
-			var input_data = form.serialize();
-			$.ajax({
-				type: 'POST',
-				url:  ghostpool_script.url,
-				data: input_data,
-				success: function( msg ) {
-					
-					if ( $( '#content .gp-login-form .user_login' ).length && $( '#content .gp-login-form .user_login' ).val().length > 0 ) {
-					
-						window.location.replace( ghostpool_script.loginRedirect );	
-	
-					} else {
-						
-						form.find( '.gp-verify-form' ).remove();
-						
-						$( msg ).appendTo( form.find( '.gp-login-results' ) ).fadeIn( 'slow' );
-						
-						if ( $( '.gp-register-form' ).find( '.gp-login-results .gp-success' ) ) {						
-							$( '.gp-register-form' ).find( 'p, .gglcptch, .wp-submit' ).hide();
-						}
-						
-					}
-					
-				},
-				error: function( xhr, status, error ) {
-				
-					// Reset captcha on error
-					if ( $( '.gglcptch > div' ).length > 0 ) {
-						grecaptcha.getResponse();
-						grecaptcha.reset();
-					}
-										
-					form.find( '.gp-verify-form' ).remove();
-					
-					$( '<div>' ).html( xhr.responseText ).appendTo( form.find( '.gp-login-results' ) ).fadeIn( 'slow' );
-					
-				}
-			});
-			return false;
-		});
-	
-	});	
-	
-	// Switch to login form when clicking links
-	$( '.gp-login-link' ).click( function( event ) {
-		event.preventDefault();
-		$( '.gp-login-form-wrapper' ).show();
-		$( '.gp-lost-password-form-wrapper, .gp-social-login-form-wrapper' ).hide();
-		$( '.gp-login-results > div' ).remove();
-	});
-									
-	// Switch to lost password form when clicking link								
-	$( '.gp-lost-password-link' ).click( function( event ) {
-		event.preventDefault();
-		$( '.gp-lost-password-form-wrapper' ).show();
-		$( '.gp-login-form-wrapper, .gp-social-login-form-wrapper' ).hide();
-		$( '.gp-login-results > div' ).remove();
-	});
-	
-	// Close reset success message	
-	$( '#gp-close-reset-message' ).click( function() {
-		$( '#gp-reset-message' ).remove();
-	});
 		
 });
