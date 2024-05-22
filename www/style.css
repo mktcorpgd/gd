@@ -757,7 +757,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-copyright-notice>div>div:nth-child(1){text-align:left}
 .fusion-copyright-notice>div>div:nth-child(2){padding-right:3em;text-align:right;font-size:.8rem}
 #footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
-#partners_footer .fusion-builder-row img,.clients img,.vendors img,.partners img{opacity:.8!important}
+.clients img,.vendors img,.partners img{opacity:.8!important}
 #partners_footer{z-index:1}
 #partners_footer .fusion-layout-column.fusion-one-fifth,#partners_footer .fusion-layout-column.fusion-one-sixth{margin-bottom:0!important}
 #partners_footer .fusion-layout-column .fusion-imageframe:not(.imageframe-5){max-width:140px!important}
