@@ -58,7 +58,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input,
 .fusion-pricing-table .panel-wrapper:hover .fusion-panel,.ilightbox-toolbar.smooth a:hover,.hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:var(--highlightColor);color:var(--whiteColor)}
 .tribe-events-c-subscribe-dropdown__button-text{background:var(--highlightColor)!important;color:var(--whiteColor)!important}
-.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper:hover{box-shadow:0 0 18px var(--highlightColor)}
+.fusion-blog-layout-grid .fusion-post-wrapper:hover,.fusion-portfolio-post .fusion-portfolio-content-wrapper:hover,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper:hover,.hover-boxes .fusion-layout-column:hover .fusion-column-wrapper,.box-shadow.fusion-content-boxes .content-box-wrapper:hover{box-shadow:0 0 32px var(--lightgrayColor)}
 .fusion-main-menu .fusion-menu-item-button .menu-text{background:var(--highlightColor)}
 
 /* Formularios */
