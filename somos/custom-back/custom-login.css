@@ -25,7 +25,7 @@ body.login form .forgetmenot label{font-size:100%;position:relative;top:5px}
 body.login form .input,body.login form input[type='checkbox'],body.login input[type='text'],body.login input[type='password']{margin-top:5px;padding:6px 12px;font-size:20px;color:#333333;font-family:'open-sans',sans-serif;background:#FAFAFA;border:0!important;border-radius:6px;box-shadow:none!important;outline:none!important}
 body.login input[type='text'],body.login input[type='password'],body.login form input[type='checkbox']{border:2px solid #EAEAEA!important}
 body form.sending,form.sending input,form.sending select,form.sending input{cursor:wait}
-.wpcf7-submit.sending{opacity:.6;pointer-events:none}
+form.sending,form.sending+#nav{opacity:.6;pointer-events:none}
 body.login form input[type='checkbox']{width:20px;height:20px;border-radius:4px}
 body.login .button.wp-hide-pw{top:6px;color:#0E316E!important;box-shadow:none!important;border:none!important;outline:none!important}
 body.login #nav{margin-top:-1px;padding:0 24px 12PX;background:#FFFFFF;border-bottom-left-radius:24px;border-bottom-right-radius:24px}
