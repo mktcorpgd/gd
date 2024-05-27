@@ -84,7 +84,7 @@ section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plu
 .wp-classic-menu-block>.menu ul,.kit>.menu li,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
 body{background-color:var(--lightgrayColor1);letter-spacing:-.1px}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:var(--textColor);font-size:16px}
-h1,h2,h3,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:var(--titleFont),sans-serif}
+h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:var(--titleFont),sans-serif}
 h4,h5,h6{font-weight:400}
 h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:var(--textColor);line-height:125%}
 h5,h6{font-weight:400}
@@ -401,7 +401,7 @@ select[name*='[]']+.wpcf7-not-valid-tip{bottom:-4px}
 .wpcf7-response-output,.wpcf7-response-output a,div[class*='wpcf7-response-'],div[class*='wpcf7-response-'] a{color:var(--whiteColor1)}
 div[class*='wpcf7-response-'] a{text-decoration:underline}
 body .wpcf7-validation-errors a{display:block;color:var(--whiteColor1);text-decoration:none}
-.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg{padding:.4em .6em}
+.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg{padding:.8em 1em}
 .wpcf7-form>div+.wpcf7-response-msg{margin:0 auto .5em}
 .wpcf7-response-msg{background-color:var(--lightgrayColor1)}
 .wpcf7-response-msg a{color:var(--highlightColor)}
