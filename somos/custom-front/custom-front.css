@@ -70,7 +70,7 @@ body[class*='office-ar']:not([class*='munro']) .widget.ar,body[class*='office-br
 .mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* Global */
-:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#111111;--successColor:#419466;--errorColor:#FF5151;--infoColor:#046AB2;--bColor:#874493;--dColor:#2484B6;--fColor:#39457E;--iColor:#BF250D;--stColor:#109B84;--sColor:#497718;--vColor:#AE1A57;--zgColor:#692D87;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--xsmallRadius:3px;--smallRadius:6px;--regularRadius:12px;--largeRadius:24px;--xsmallShadow:0 2px 6px 0px rgba(0,0,0,.1);--smallShadow:0 4px 8px 0px rgba(0,0,0,.2);--smallShadowHover:0 2px 12px 0px rgba(0,0,0,.3);--regularShadow:0 6px 12px 0 rgba(0,0,0,.2);--regularShadowHover:0 4px 18px 0 rgba(0,0,0,.3);--largeShadow:0 12px 18px 0 rgba(0,0,0,.2);}
+:root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#111111;--successColor:#419466;--errorColor:#FF5151;--warningColor:#F1B500;--infoColor:#046AB2;--bColor:#874493;--dColor:#2484B6;--fColor:#39457E;--iColor:#BF250D;--stColor:#109B84;--sColor:#497718;--vColor:#AE1A57;--zgColor:#692D87;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--xsmallRadius:3px;--smallRadius:6px;--regularRadius:12px;--largeRadius:24px;--xsmallShadow:0 2px 6px 0px rgba(0,0,0,.1);--smallShadow:0 4px 8px 0px rgba(0,0,0,.2);--smallShadowHover:0 2px 12px 0px rgba(0,0,0,.3);--regularShadow:0 6px 12px 0 rgba(0,0,0,.2);--regularShadowHover:0 4px 18px 0 rgba(0,0,0,.3);--largeShadow:0 12px 18px 0 rgba(0,0,0,.2);}
 
 /* General */
 ::-moz-selection{background:var(--mainColor)!important;color:var(--whiteColor1)}
@@ -409,6 +409,7 @@ body .wpcf7-validation-errors a{display:block;color:var(--whiteColor1);text-deco
 .wpcf7-form.invalid .wpcf7-response-output{background-color:var(--errorColor)}
 .wpcf7-form.sent .wpcf7-response-output{background-color:var(--successColor)}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:var(--errorColor)}
+.wpcf7-response-msg.warning{background-color:var(--warningColor)}
 .wpcf7 h3,.wpcf7 h4,.wpcf7 h5,.wpcf7 p{float:left;width:100%}
 .wpcf7 label>i{color:var(--lightgrayColor2);cursor:default}
 .wpcf7 label>i[class*='fa-solid']:not([class*='circle-info']){width:16px;text-align:right;position:absolute;top:50%;left:-22px}
