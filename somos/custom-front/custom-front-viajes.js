@@ -1,48 +1,48 @@
-jQuery(document).ready(function() {
+jQuery(document).ready(function($) {
 
 	
 	// Copiar datos del solicitante
-	jQuery('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
-	jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
+	$('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
+	$('input[name=PHONE]').val($('input[name=gdPHONE_mc]').val());
 	function samedataPaxChecked() {
-		jQuery('input[name="SAMEDATAPAX[]"]').trigger('click');
-		jQuery('select[name=ORG] option:contains('+jQuery('input[name=gdORG_mc]').val()+')').prop('selected','selected');
-		jQuery('select[name=CC_UNIT] option:contains('+jQuery('input[name=gdUNIT_mc]').val()+')').prop('selected','selected');
-		jQuery('input[name=FNAMEPAXA]').val(jQuery('input[name=FNAME]').val());
-		jQuery('input[name=LNAMEPAXA]').val(jQuery('input[name=LNAME]').val());
-		jQuery('input[name=EMAILPAXA]').val(jQuery('input[name=EMAIL]').val());
-		jQuery('input[name=PHONEPAXA]').val(jQuery('input[name=gdPHONE_mc]').val());
-		jQuery('input[name=DNIPAX]').val(jQuery('input[name=gdDNI_mc]').val());
-		jQuery('input[name=NACPAX]').val(jQuery('input[name=gdBIRTH_mc]').val());
+		$('input[name="SAMEDATAPAX[]"]').trigger('click');
+		$('select[name=ORG] option:contains('+$('input[name=gdORG_mc]').val()+')').prop('selected','selected');
+		$('select[name=CC_UNIT] option:contains('+$('input[name=gdUNIT_mc]').val()+')').prop('selected','selected');
+		$('input[name=FNAMEPAXA]').val($('input[name=FNAME]').val());
+		$('input[name=LNAMEPAXA]').val($('input[name=LNAME]').val());
+		$('input[name=EMAILPAXA]').val($('input[name=EMAIL]').val());
+		$('input[name=PHONEPAXA]').val($('input[name=gdPHONE_mc]').val());
+		$('input[name=DNIPAX]').val($('input[name=gdDNI_mc]').val());
+		$('input[name=NACPAX]').val($('input[name=gdBIRTH_mc]').val());
 	}
 	samedataPaxChecked();
-	jQuery('input[name="SAMEDATAPAX[]"]').change(function() {
+	$('input[name="SAMEDATAPAX[]"]').change(function() {
 		if ( this.checked ) {
 			samedataPaxChecked();
 		}
 		else {
-			jQuery('input[name$=PAXA]').val('');
-			jQuery('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
+			$('input[name$=PAXA]').val('');
+			$('select[name=ORG],select[name=CC_UNIT]').prop('selectedIndex',0);
 		}
 	});
-	var samedata_is_checked = jQuery('input[name="SAMEDATAPAX[]"]').is(':checked');
-	jQuery('input[name="PAXWHAT"]').change(function() {
-		jQuery('.wpcf7-submit').removeClass('disabled');
+	var samedata_is_checked = $('input[name="SAMEDATAPAX[]"]').is(':checked');
+	$('input[name="PAXWHAT"]').change(function() {
+		$('.wpcf7-submit').removeClass('disabled');
 		if ( this.value == 'Envío' ) {
-			jQuery('input[name=FNAMEPAXA]').val('');
-			jQuery('input[name=LNAMEPAXA]').val('');
+			$('input[name=FNAMEPAXA]').val('');
+			$('input[name=LNAMEPAXA]').val('');
 		}
 		else {
 			if ( samedata_is_checked == true ) {
-				jQuery('input[name=FNAMEPAXA]').val(jQuery('input[name=FNAME]').val());
-				jQuery('input[name=LNAMEPAXA]').val(jQuery('input[name=LNAME]').val());	
+				$('input[name=FNAMEPAXA]').val($('input[name=FNAME]').val());
+				$('input[name=LNAMEPAXA]').val($('input[name=LNAME]').val());	
 			}
 		}
 	});
 
 
 	// Autocompletado por Google Maps API
-	ApplyAutoComplete(jQuery('.address_maps'));
+	ApplyAutoComplete($('.address_maps'));
 	var selected = false;
 	function ApplyAutoComplete(input) {
 		var places = [];
@@ -71,51 +71,92 @@ jQuery(document).ready(function() {
 		function fillInStaticGMap() {
 			var input_name = this.attrName;
 			selected = true;
-			if ( jQuery('input[name='+input_name+'].static_gmap').length ) {
+			if ( $('input[name='+input_name+'].static_gmap').length ) {
 				var address = this.getPlace().formatted_address;
 				var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=600x150&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 				var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
-				jQuery('input[name='+input_name+'].static_gmap').addClass('filled');
-				if ( jQuery('input[name='+input_name+'].static_gmap+a').length ) {
-					jQuery('input[name='+input_name+'].static_gmap+a').replaceWith(html_map);	
+				$('input[name='+input_name+'].static_gmap').addClass('filled');
+				if ( $('input[name='+input_name+'].static_gmap+a').length ) {
+					$('input[name='+input_name+'].static_gmap+a').replaceWith(html_map);	
 				}
 				else { 
-					jQuery('input[name='+input_name+'].static_gmap').after(html_map);	
+					$('input[name='+input_name+'].static_gmap').after(html_map);	
 				}
 			}
 		}
 	};
-	jQuery('.address_maps').on('focus',function() {
+	$('.address_maps').on('focus',function() {
 		selected = false;
-		var cur_value = jQuery(this).val();
-		jQuery(this).data('cur_value',cur_value);
+		var cur_value = $(this).val();
+		$(this).data('cur_value',cur_value);
 	}).on('blur', function() {
-		if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
-			jQuery(this).val('').removeClass('filled').siblings('a').remove();
+		if ( !selected && $(this).data('cur_value') != $(this).val() ) {
+			$(this).val('').removeClass('filled').siblings('a').remove();
 		}
 	});
 
 
 	// Asignar responsable según oficina
-	var gdOFFICE_mc = jQuery('input[name=gdOFFICE_mc]').val();
+	var gdOFFICE_mc = $('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
 	function assignResp() {
 		if ( gdOFFICE_mc == 'AR' ) {
-			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
-			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDAR]').val());
+			$('input[name=RESP]').val($('input[name=RESPAR]').val());
+			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}
 		else if ( gdOFFICE_mc == 'CL' ) {
-			jQuery('input[name=RESP]').val(jQuery('input[name=RESPCL]').val());
-			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDCL]').val());
+			$('input[name=RESP]').val($('input[name=RESPCL]').val());
+			$('input[name=MSGADD]').val($('input[name=MSGADDCL]').val());
 		}
 		else {
-			jQuery('input[name=RESP]').val(jQuery('input[name=RESPAR]').val());
-			jQuery('input[name=MSGADD]').val(jQuery('input[name=MSGADDAR]').val());
+			$('input[name=RESP]').val($('input[name=RESPAR]').val());
+			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}	
 	}
 	assignResp();
-	jQuery('select[name=RESPBOSS]').change(function() {
+	$('select[name=RESPBOSS]').change(function() {
 		assignResp();
 	});
+
+
+	// Confirmación de envío según día y horario
+	const feriados = ["01-01", "12-25"];
+	const ahora = new Date();
+	const diaSemana = ahora.getDay();
+	const hora = ahora.getHours();
+	const minutos = ahora.getMinutes();
+	const mes = String(ahora.getMonth() + 1).padStart(2, '0');
+	const dia = String(ahora.getDate()).padStart(2, '0');
+	const fechaActual = `${mes}-${dia}`;
+	const esFeriado = feriados.includes(fechaActual);
+	function estaEnRangoHorario(hora, minutos) {
+		if (hora >= 18 || hora < 9 || (hora === 17 && minutos >= 0) || (hora === 9 && minutos === 0)) {
+			return true;
+		}
+		return false;
+	}
+	const enRangoHorario = estaEnRangoHorario(hora, minutos);
+	const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
+	if (esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario)) {
+		$('.wpcf7-response-msg.outofoffice').show();
+		function confirmarEnvio(event) {
+			const confirmacion = confirm("[IMPORTANTE] Por solicitudes fuera de horario laboral (lunes a viernes de 18:00 a 9:00 h, sábados, domingos y feriados): llamar al 4103-1300 int. 1148 para recibir confirmación. ¿Deseas enviar la solicitud de remís?");
+			if (!confirmacion) {
+				$('.wpcf7-submit.sending').val($('.wpcf7-submit.sending').attr('name'));
+				$('.sending').removeClass('sending');
+				event.preventDefault();
+			}
+		}
+		$(document).on('click','.wpcf7-submit.confirm', function(event) {
+			$(this).addClass('sending');
+			$(this).closest('.wpcf7-form').addClass('sending');
+			$(this).attr('name',$(this).val());
+			$(this).val('Enviando...');
+			confirmarEnvio(event);
+		});
+	}
+	else {
+		$('.wpcf7-response-msg.outofoffice').hide();
+	}
 
 });

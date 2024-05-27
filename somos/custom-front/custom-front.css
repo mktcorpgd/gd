@@ -401,7 +401,7 @@ select[name*='[]']+.wpcf7-not-valid-tip{bottom:-4px}
 .wpcf7-response-output,.wpcf7-response-output a,div[class*='wpcf7-response-'],div[class*='wpcf7-response-'] a{color:var(--whiteColor1)}
 div[class*='wpcf7-response-'] a{text-decoration:underline}
 body .wpcf7-validation-errors a{display:block;color:var(--whiteColor1);text-decoration:none}
-.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg{padding:.8em 1em}
+.wpcf7-form.invalid .wpcf7-response-output,.wpcf7-form.sent .wpcf7-response-output,.wpcf7-form .wpcf7-response-output.alert,.wpcf7-response-msg{padding:1em 1.2em}
 .wpcf7-form>div+.wpcf7-response-msg{margin:0 auto .5em}
 .wpcf7-response-msg{background-color:var(--lightgrayColor1)}
 .wpcf7-response-msg a{color:var(--highlightColor)}
