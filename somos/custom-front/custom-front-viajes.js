@@ -139,6 +139,7 @@ jQuery(document).ready(function($) {
 	const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
 	if (esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario)) {
 		$('.wpcf7-response-msg.outofoffice').show();
+		$('.wpcf7-submit').addClass('confirm');
 		function confirmarEnvio(event) {
 			const confirmacion = confirm("[IMPORTANTE] Por solicitudes fuera de horario laboral (lunes a viernes de 18:00 a 9:00 h, sábados, domingos y feriados): llamar al 4103-1300 int. 1148 para recibir confirmación. ¿Deseas enviar la solicitud de remís?");
 			if (!confirmacion) {
