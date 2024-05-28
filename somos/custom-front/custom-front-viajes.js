@@ -139,22 +139,24 @@ jQuery(document).ready(function($) {
 	const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
 	if (esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario)) {
 		$('.wpcf7-response-msg.outofoffice').show();
-		$('.wpcf7-submit').addClass('confirm');
-		function confirmarEnvio(event) {
-			const confirmacion = confirm("[IMPORTANTE] Por solicitudes fuera de horario laboral (lunes a viernes de 18:00 a 9:00 h, sábados, domingos y feriados): llamar al 4103-1300 int. 1148 para recibir confirmación. ¿Deseas enviar la solicitud de remís?");
-			if (!confirmacion) {
-				$('.wpcf7-submit.sending').val($('.wpcf7-submit.sending').attr('name'));
-				$('.sending').removeClass('sending');
-				event.preventDefault();
+		if ( jQuery('input[name="gdOFFICE_mc"]').val().indexOf('AR') > -1 ) {
+			$('.wpcf7-submit').addClass('confirm');
+			function confirmarEnvio(event) {
+				const confirmacion = confirm("[IMPORTANTE]\nEsta es una solicitud fuera de horario laboral (lunes a viernes de 18:00 a 9:00 h, sábados, domingos o feriados). Por favor, llamar al 4103-1300 int. 1148 para recibir confirmación. ¿Deseas enviar la solicitud?\n[IMPORTANTE]");
+				if (!confirmacion) {
+					$('.wpcf7-submit.sending').val($('.wpcf7-submit.sending').attr('name'));
+					$('.sending').removeClass('sending');
+					event.preventDefault();
+				}
 			}
+			$(document).on('click','.wpcf7-submit.confirm', function(event) {
+				$(this).addClass('sending');
+				$(this).closest('.wpcf7-form').addClass('sending');
+				$(this).attr('name',$(this).val());
+				$(this).val('Enviando...');
+				confirmarEnvio(event);
+			});	
 		}
-		$(document).on('click','.wpcf7-submit.confirm', function(event) {
-			$(this).addClass('sending');
-			$(this).closest('.wpcf7-form').addClass('sending');
-			$(this).attr('name',$(this).val());
-			$(this).val('Enviando...');
-			confirmarEnvio(event);
-		});
 	}
 	else {
 		$('.wpcf7-response-msg.outofoffice').hide();
