@@ -145,7 +145,8 @@ jQuery(document).ready(function($) {
 		}
 		const enRangoHorario = estaEnRangoHorario(hora, minutos);
 		const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
-		if (esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario)) {
+		console.log(esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario));
+		if ( esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario) ) {
 			$('.wpcf7-response-msg.outofoffice').show();
 			$('.wpcf7-submit').addClass('confirm');
 			function confirmarEnvio(event) {
