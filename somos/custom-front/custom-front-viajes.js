@@ -134,7 +134,7 @@ jQuery(document).ready(function($) {
 		console.log(hora);
 		console.log(minutos);
 		console.log(mes);
-		console.log(hodiara);
+		console.log(dia);
 		console.log(fechaActual);
 		console.log(esFeriado);
 		function estaEnRangoHorario(hora, minutos) {
