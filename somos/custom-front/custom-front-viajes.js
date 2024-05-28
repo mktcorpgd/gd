@@ -130,6 +130,13 @@ jQuery(document).ready(function($) {
 		const dia = String(ahora.getDate()).padStart(2, '0');
 		const fechaActual = `${mes}-${dia}`;
 		const esFeriado = feriados.includes(fechaActual);
+		console.log(diaSemana);
+		console.log(hora);
+		console.log(minutos);
+		console.log(mes);
+		console.log(hodiara);
+		console.log(fechaActual);
+		console.log(esFeriado);
 		function estaEnRangoHorario(hora, minutos) {
 			if (hora >= 18 || hora < 9 || (hora === 17 && minutos >= 0) || (hora === 9 && minutos === 0)) {
 				return true;
