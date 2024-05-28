@@ -163,7 +163,7 @@ jQuery(document).ready(function($) {
 				$(this).attr('name',$(this).val());
 				$(this).val('Enviando...');
 				confirmarEnvio(event);
-			});	
+			});
 		}
 		else {
 			$('.wpcf7-response-msg.outofoffice').hide();
