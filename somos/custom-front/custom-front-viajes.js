@@ -120,26 +120,26 @@ jQuery(document).ready(function($) {
 
 
 	// Confirmación de envío según día y horario
-	const feriados = ["01-01", "12-25"];
-	const ahora = new Date();
-	const diaSemana = ahora.getDay();
-	const hora = ahora.getHours();
-	const minutos = ahora.getMinutes();
-	const mes = String(ahora.getMonth() + 1).padStart(2, '0');
-	const dia = String(ahora.getDate()).padStart(2, '0');
-	const fechaActual = `${mes}-${dia}`;
-	const esFeriado = feriados.includes(fechaActual);
-	function estaEnRangoHorario(hora, minutos) {
-		if (hora >= 18 || hora < 9 || (hora === 17 && minutos >= 0) || (hora === 9 && minutos === 0)) {
-			return true;
+	if ( jQuery('input[name="gdOFFICE_mc"]').val().indexOf('AR') > -1 ) {
+		const feriados = ["01-01", "12-25"];
+		const ahora = new Date();
+		const diaSemana = ahora.getDay();
+		const hora = ahora.getHours();
+		const minutos = ahora.getMinutes();
+		const mes = String(ahora.getMonth() + 1).padStart(2, '0');
+		const dia = String(ahora.getDate()).padStart(2, '0');
+		const fechaActual = `${mes}-${dia}`;
+		const esFeriado = feriados.includes(fechaActual);
+		function estaEnRangoHorario(hora, minutos) {
+			if (hora >= 18 || hora < 9 || (hora === 17 && minutos >= 0) || (hora === 9 && minutos === 0)) {
+				return true;
+			}
+			return false;
 		}
-		return false;
-	}
-	const enRangoHorario = estaEnRangoHorario(hora, minutos);
-	const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
-	if (esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario)) {
-		$('.wpcf7-response-msg.outofoffice').show();
-		if ( jQuery('input[name="gdOFFICE_mc"]').val().indexOf('AR') > -1 ) {
+		const enRangoHorario = estaEnRangoHorario(hora, minutos);
+		const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
+		if (esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario)) {
+			$('.wpcf7-response-msg.outofoffice').show();
 			$('.wpcf7-submit').addClass('confirm');
 			function confirmarEnvio(event) {
 				const confirmacion = confirm("[IMPORTANTE]\nEsta es una solicitud fuera de horario laboral (lunes a viernes de 18:00 a 9:00 h, sábados, domingos o feriados). Por favor, llamar al 4103-1300 int. 1148 para recibir confirmación. ¿Deseas enviar la solicitud?\n[IMPORTANTE]");
@@ -157,9 +157,9 @@ jQuery(document).ready(function($) {
 				confirmarEnvio(event);
 			});	
 		}
-	}
-	else {
-		$('.wpcf7-response-msg.outofoffice').hide();
+		else {
+			$('.wpcf7-response-msg.outofoffice').hide();
+		}
 	}
 
 });
