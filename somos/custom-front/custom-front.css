@@ -379,7 +379,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7-form>label{float:left}
 .wpcf7 div[data-id='paxb']{clear:both}
 .wpcf7 label>em,.wpcf7 label div[data-class='wpcf7cf_group'] span{display:block;font-size:.7em;font-family:var(--textFont),sans-serif}
-.wpcf7 label>em strong,.wpcf7 label div[data-class='wpcf7cf_group'] span strong,.bold{font-weight:600}
+.wpcf7 label>em strong,.wpcf7 label div[data-class='wpcf7cf_group'] span strong,.bold,.bold span{font-weight:600}
 .wpcf7 label strong{font-weight:500}
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0}
