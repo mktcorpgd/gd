@@ -147,8 +147,8 @@ jQuery(document).ready(function($) {
 		console.log(esFeriado);
 		console.log(esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario));*/
 		if ( esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario) ) {
-			$('.wpcf7-response-msg.outofoffice').show();
-			$('.wpcf7-submit').addClass('confirm');
+			$('.wpcf7-response-msg.important').show();
+			$('.wpcf7-submit,.wpcf7-form').addClass('confirm');
 			function confirmarEnvio(event) {
 				const confirmacion = confirm("[IMPORTANTE]\nEsta es una solicitud fuera de horario laboral (lunes a viernes de 18:00 a 9:00 h, sábados, domingos o feriados). Por favor, llamar al 4103-1300 int. 1148 para recibir confirmación. ¿Deseas enviar la solicitud?\n[IMPORTANTE]");
 				if (!confirmacion) {
