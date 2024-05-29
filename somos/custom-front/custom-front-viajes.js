@@ -121,7 +121,7 @@ jQuery(document).ready(function($) {
 
 	// Confirmación de envío según día y horario
 	if ( gdOFFICE_mc == 'AR' ) {
-		const feriados = ["01-01", "12-02", "13-02", "24-03", "29-03", "31-03", "01-05", "25-05", "20-06", "09-07", "08-12", "25-12"];
+		const feriados = ["01-01","12-02","13-02","24-03","29-03","31-03","01-05","25-05","17-06","20-06","09-07","08-12","25-12"];
 		const ahora = new Date();
 		const diaSemana = ahora.getDay();
 		const hora = ahora.getHours();
