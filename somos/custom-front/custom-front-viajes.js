@@ -138,7 +138,7 @@ jQuery(document).ready(function($) {
 		console.log(fechaActual);
 		console.log(esFeriado);
 		function estaEnRangoHorario(hora, minutos) {
-			if (hora >= 18 || hora < 9 || (hora === 17 && minutos >= 0) || (hora === 9 && minutos === 0)) {
+			if (hora >= 18 || hora <= 9 ) {
 				return true;
 			}
 			return false;
