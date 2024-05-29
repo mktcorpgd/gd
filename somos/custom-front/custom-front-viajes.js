@@ -166,7 +166,7 @@ jQuery(document).ready(function($) {
 			});
 		}
 		else {
-			$('.wpcf7-response-msg.outofoffice').hide();
+			$('.wpcf7-response-msg.important').hide();
 		}
 	}
 
