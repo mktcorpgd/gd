@@ -788,7 +788,7 @@ article.category-busquedas-laborales #post-content .lider_rrhh:not(:first-child)
 /* Uso interno / Sólo Argentina */
 body.page-id-44050 #content .padder:before,article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before{display:block;color:var(--metaColor);text-align:center;font-size:1em;line-height:1.2;font-weight:400;font-style:italic}
 body.single article .padder:before{text-align:left}
-body.page-id-44050 #content .padder:before{content:'Válido para Argentina (AMBA)'}
+body.page-id-44050 #content .padder:before{content:'Válido para AMBA (Argentina)'}
 body.page-id-44050 #content .padder:before{padding-bottom:1em}
 article.category-casos-de-referencia .padder:before,body.page-id-29106 #content .padder:before,body.page-id-26272 #content .padder:before{content:'Información de uso interno'}
 
