@@ -131,7 +131,7 @@ jQuery(document).ready(function($) {
 		const fechaActual = `${mes}-${dia}`;
 		const esFeriado = feriados.includes(fechaActual);
 		function estaEnRangoHorario(hora, minutos) {
-			if (hora >= 18 || hora <= 9 ) {
+			if (hora >= 18 || hora < 9 ) {
 				return true;
 			}
 			return false;
