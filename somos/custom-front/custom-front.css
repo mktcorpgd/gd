@@ -222,7 +222,7 @@ article.event-category-otros .eo-event-meta>li a[rel='tag']{color:#F18C10!import
 article.event-category-otros .entry-header+.entry-content .eo-event-meta>li a[rel='tag']:hover{background-color:#F18C10;color:var(--whiteColor1)!important}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a:hover,h1+.gp-meta-cats a:hover{background:var(--lightgrayColor1)}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before,h1+.gp-meta-cats a[href='https://somos.grupodatco.com/categoria/novedades/casos-de-referencia/casos-de-exito/']:before{display:inline-block;margin-right:2px;content:'\f00c';font-weight:500;font-family:var(--iconFont)}
-#content iframe:not(.yotu-video-placeholder):not([src*='action=mo_sps_sync_file']){display:block;width:100%;max-height:320px;border:1px solid var(--lightgrayColor2);border-radius:var(--regularRadius)}
+#content iframe:not(.yotu-video-placeholder):not([src*='action=mo_sps_sync_file']){display:block;margin-bottom:2em;width:100%;max-height:320px;border:1px solid var(--lightgrayColor2);border-radius:var(--regularRadius)}
 
 /* Contenido */
 .columns.two.center,.aligncenter{text-align:center}
