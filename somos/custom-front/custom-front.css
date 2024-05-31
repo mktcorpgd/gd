@@ -265,7 +265,7 @@ body.error404 .padder{background:none;box-shadow:none}
 .post-thumbnail{border-radius:var(--largeRadius);overflow:hidden}
 .post-thumbnail img{background:var(--mainColor)}
 #post-content>.post-thumbnail.wrap{margin:0 0 2em;border:1px solid var(--lightgrayColor1)}
-.post-thumbnail:not(.warp).single-thumbnail{border-radius:var(--largeRadius);border-bottom-left-radius:0;border-bottom-right-radius:0}
+.post-thumbnail:not(.warp).single-thumbnail{background:var(--mainColor);border-radius:var(--largeRadius);border-bottom-left-radius:0;border-bottom-right-radius:0}
 .post-thumbnail:not(.warp).single-thumbnail img{display:block;margin:0 auto;width:60%}
 
 /* Feed */
