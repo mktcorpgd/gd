@@ -29,7 +29,7 @@ popup_poweredby,notification_time,popup_close+popup_heading
 /* General */
 ::-webkit-input-placeholder,:-ms-input-placeholder{color:#333333}
 :-moz-placeholder,::-moz-placeholder{color:#333333;opacity:1}
-body{color:#333333}
+body{color:#333333;;letter-spacing:-.1px}
 body,#wp-content-editor-tools{background:#FAFAFA;border:0!important}
 body a{color:#0E316E}
 body a:hover{color:#F0582B}
