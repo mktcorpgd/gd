@@ -200,7 +200,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .fusion-slider-sc .flex-direction-nav a{background:none!important}
 .fusion-slider-sc .flex-direction-nav li{font-size:2em}
 .fusion-body .fusion-slider-sc .flex-direction-nav a{padding:0 .5em;line-height:.8;color:rgba(0,0,0,.4)}
-.flexslider .slides .caption img{display:inline-block;margin-top:1em;max-width:200px;width:auto}
+.flexslider .slides .caption img{display:inline-block;margin-top:1em;width:revert-layer}
 .flexslider .slides .caption img[src*='flag-']{margin:1em .25em 0;width:32px;height:32px}
 .flexslider .slides .caption a+img[src*='partner']{margin:.75em 0 0 2em}
 .awb-swiper-button-next,.awb-swiper-button-prev,.fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{background:none!important;border-radius:12px;opacity:.8}
@@ -800,6 +800,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:40%}
 	.tfs-slider ul.slides li.slide-id-51333 .slide-content-container .slide-content,
 	.tfs-slider ul.slides li.slide-id-51359 .slide-content-container .slide-content{padding-right:35%}
+	.tfs-slider ul.slides li.slide-id-52381 .slide-content-container .slide-content{padding-right:37%}
 	.slide-id-50794 .slide-content,.slide-id-50828 .slide-content{padding-right:30%!important}
 
 	/* Contenidos */
