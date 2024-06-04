@@ -376,7 +376,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 .wpcf7-list-item{margin:.25em 1em .25em 0;font-family:var(--textFont),sans-serif;font-weight:400}
 .wpcf7 .wpcf7-list-item.last{margin-right:0}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
-.wpcf7 label{color:var(--metaColor);font-size:.9em;font-family:var(--titleFont),sans-serif}
+.wpcf7 label{color:var(--metaColor);font-size:.8em}
 .wpcf7-form>label{float:left}
 .wpcf7 div[data-id='paxb']{clear:both}
 .wpcf7 label>em,.wpcf7 label div[data-class='wpcf7cf_group'] span{display:block;font-size:.7em;font-family:var(--textFont),sans-serif}
