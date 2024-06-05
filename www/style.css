@@ -344,7 +344,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 
 /* Blog */
 .noticias [class*='tag-'] .fusion-post-wrapper:after,body.archive.category-noticias [class*='tag-'] .fusion-post-wrapper:after{display:block;box-sizing:border-box;width:100%;padding:.1em 1.5rem;position:absolute;top:0;right:0;font-size:.6em;font-family:var(--textFont);background:rgba(0,0,0,.4);color:var(--whiteColor);z-index:10}
-.noticias [class*='tag-'] .fusion-post-wrapper:after,body.archive.category-noticias [class*='tag-'] .fusion-post-wrapper:after{content:'Nota de prensa'}
+.noticias [class*='tag-']:not(.tag-gacetilla-de-prensa) .fusion-post-wrapper:after,body.archive.category-noticias [class*='tag-']:not(.tag-gacetilla-de-prensa) .fusion-post-wrapper:after{content:'Nota de prensa'}
 .noticias .fusion-blog-no-images [class*='tag-'] .fusion-post-wrapper{padding-top:.5em}
 .fusion-blog-no-images article[class*='tag-red-capricornio-'] .fusion-post-wrapper{padding-top:0}
 .fusion-blog-no-images article[class*='tag-red-capricornio-'] .fusion-post-content-wrapper h2 a{padding-top:2em}
