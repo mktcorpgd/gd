@@ -350,7 +350,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-blog-no-images article[class*='tag-red-capricornio-'] .fusion-post-content-wrapper h2 a{padding-top:2em}
 .fusion-post-grid .fusion-image-wrapper{background-position:top center;background-repeat:none;background-size:cover}
 .fusion-post-grid .fusion-image-wrapper a{display:block;width:100%;height:100%}
-body.archive.category-noticias .meta-tags{font-size:0}
+body.archive[class*='category-'] .meta-tags{font-size:0}
 
 /* Blog/Portfolio */
 .fusion-portfolio article .fusion-post-content,.fusion-blog-layout-grid article .fusion-post-content-container{width:100%;padding:0 1.5rem}
