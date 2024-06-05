@@ -63,6 +63,12 @@ body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
 body:not(.logged-in) #custom_html-23,
 /* Menú */
+.menu .menu-item.ar:not(.munro),.menu .menu-item.br,.menu .menu-item.cl:not(.santa-clara),.menu .menu-item.mx,.menu .menu-item.pe,.menu .menu-item.pr,.menu .menu-item.uy,.menu .menu-item.munro,.menu .menu-item.santa-clara,
+.widget.ar:not(.munro),.widget.br,.widget.cl:not(.santa-clara),.widget.mx,.widget.pe,.menu .widget.pr,.menu .widget.uy,.widget.munro,.widget.santa-clara{display:none}
+body[class*='office-ar']:not([class*='munro']) .menu .menu-item.ar,body[class*='office-br'] .menu .menu-item.br,body[class*='office-cl']:not([class*='santa-clara']) .menu .menu-item.cl,body[class*='office-mx'] .menu .menu-item.mx,body[class*='office-pe'] .menu .menu-item.pe,body[class*='office-pr'] .menu .menu-item.pr,body[class*='office-uy'] .menu .menu-item.uy,body[class*='munro'] .menu .menu-item.munro,body[class*='santa-clara'] .menu .menu-item.santa-clara,
+body[class*='office-ar']:not([class*='munro']) .widget.ar,body[class*='office-br'] .widget.br,body[class*='office-cl']:not([class*='santa-clara']) .widget.cl,body[class*='office-mx'] .widget.mx,body[class*='office-pe'] .widget.pe,body[class*='office-pr'] .widget.pr,body[class*='office-uy'] .widget.uy,body[class*='munro'] .widget.munro,body[class*='santa-clara'] .widget.santa-clara{display:block}
+
+/*
 body[class*='office-ar']:not([class*='munro']) .menu .menu-item:not(.ar),body[class*='office-ar']:not([class*='munro']) .widget:not(.ar),
 body[class*='office-cl']:not([class*='santa-clara']) .menu .menu-item:not(.cl),body[class*='office-cl']:not([class*='santa-clara']) .widget:not(.cl),
 body[class*='munro'] .menu .menu-item:not(.munro),body[class*='munro'] .widget:not(.munro),
@@ -72,6 +78,7 @@ body[class*='office-mx'] .menu .menu-item:not(.mx),body[class*='office-mx'] .wid
 body[class*='office-pe'] .menu .menu-item:not(.pe),body[class*='office-pe'] .widget:not(.pe),
 body[class*='office-pr'] .menu .menu-item:not(.pr),body[class*='office-pr'] .widget:not(.pr),
 body[class*='office-uy'] .menu .menu-item:not(.uy),body[class*='office-uy'] .widget:not(.uy){display:none}
+*/
 .mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* Global */
