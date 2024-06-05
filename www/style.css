@@ -244,7 +244,7 @@ body.has-sidebar #main .sidebar h3{margin-top:0}
 .wy-tooltip{max-width:600px;color:#FFFFFF;background:var(--textColor);position:absolute;padding:.6em .8em;text-align:left;border-radius:6px;font-size:.65em;line-height:1.2;z-index:99999999}
 .fullwidth-video video{width:100vw!important}
 .swiper-autoheight,.swiper-autoheight .swiper-slide{max-width:auto!important}
-body.error404 .fusion-title.fusion-sep-none{text-align:center}
+body.error404 .fusion-title.fusion-sep-none *{text-align:center!important}
 
 /* Buscador */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor);background:rgba(0,0,0,.4)}
