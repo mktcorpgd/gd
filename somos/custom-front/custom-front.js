@@ -82,6 +82,12 @@ jQuery(document).ready(function() {
 		if ( office.indexOf('UY') > -1 ) {
 			jQuery('.kit .menu-item ul .menu-item:not(.uy)').hide();
 		}
+		if ( office.indexOf('Munro') > -1 ) {
+			jQuery('.kit .menu-item ul .menu-item:not(.munro)').hide();
+		}
+		if ( office.indexOf('Santa Clara') > -1 ) {
+			jQuery('.kit .menu-item ul .menu-item:not(.santa-clara)').hide();
+		}
 		if ( unit.indexOf('UAS') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .ppts>ul>.menu-item:not(:contains("Grupo Datco"))').hide();
 			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
