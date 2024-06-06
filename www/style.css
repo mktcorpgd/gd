@@ -893,8 +893,9 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.awb-icon-bars:before{content:'\f0c9'}
 	.fusion-open-submenu:before{content:'\f107'}
 	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
-	.fusion-mobile-menu-icons a[aria-expanded='false']:before{display:block;transform:rotateY(0deg)}
-	.fusion-mobile-menu-icons a[aria-expanded='true']:before{transform:rotateY(90deg);opacity:.4}
+	.fusion-mobile-menu-icons a.awb-icon-bars:before{display:block;}
+	.fusion-mobile-menu-icons a[aria-expanded='false']:before{transform:rotateZ(0deg)}
+	.fusion-mobile-menu-icons a[aria-expanded='true']:before{transform:rotateZ(90deg);opacity:.4}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded='false']:before{display:block;transform:rotateX(0deg)}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded='true']:before{transform:rotateX(180deg)}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header{padding-top:10px;padding-bottom:10px}
@@ -905,7 +906,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .fusion-mobile-nav-item a{height:auto;padding-top:.5em;padding-bottom:.5em;border:none;line-height:1.5;letter-spacing:0!important;font-weight:400}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a span span{line-height:1.5}
 	.fusion-mobile-menu-design-modern .fusion-mobile-nav-holder .sub-menu .fusion-mobile-nav-item a{font-size:.9em}
-	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item.fusion-modal-text-link-button:not(.not-button) .menu-text{display:block;width:100%;background:rgba(0,0,0,.4);padding:.5em;border-radius:12px;text-align:center}
+	.fusion-mobile-menu-design-modern .fusion-mobile-nav-item.fusion-modal-text-link-button a:not([data-target*=".faq"]) .menu-text{display:block;width:100%;background:rgba(0,0,0,.4);padding:.5em;border-radius:12px;text-align:center}
 	.country-flag img[src*='flag-']{width:18px;height:18px}
 	.country-flag .sub-menu img[src*='flag-']{width:16px;height:16px}
 	.fullwidth-center{display:block;width:100%;text-align:center}
