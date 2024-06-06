@@ -83,10 +83,10 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item ul .menu-item:not(.uy)').hide();
 		}
 		if ( office.indexOf('Munro') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.munro)').hide();
+			jQuery('.kit .menu-item ul .menu-item.munro').show();
 		}
 		if ( office.indexOf('Santa Clara') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.santa-clara)').hide();
+			jQuery('.kit .menu-item ul .menu-item.santa-clara').show();
 		}
 		if ( unit.indexOf('UAS') > -1 ) {
 			jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .ppts>ul>.menu-item:not(:contains("Grupo Datco"))').hide();
