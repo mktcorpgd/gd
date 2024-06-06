@@ -63,9 +63,9 @@ body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
 body:not(.logged-in) #custom_html-23,
 /* Menú y widgets (no Kit) - Ocultamos por clase de país/oficina para luego mostrar según oficina */
-.menu .menu-item.ar,.menu .menu-item.br,.menu .menu-item.cl,.menu .menu-item.mx,.menu .menu-item.pe,.menu .menu-item.pr,.menu .menu-item.uy,.menu .menu-item.munro,.menu .menu-item.santa-clara,
+.menu .menu-item.ar,.menu .menu-item.br,.menu .menu-item.cl,.menu .menu-item.mx,.menu .menu-item.pe,.menu .menu-item.pr,.menu .menu-item.uy,
 .widget.ar,.widget.br,.widget.cl,.widget.mx,.widget.pe,.menu .widget.pr,.menu .widget.uy,
-body[class*='munro'] .menu .menu-item.ar:not(.munro),body[class*='santa-clara'] .menu .menu-item.cl:not(.santa-clara),body[class*='munro'] .widget.ar:not(.munro),body[class*='santa-clara'] .widget.ar:not(.santa-clara),
+body[class*='office-ar']:not([class*='munro']) .menu .menu-item.munro,body[class*='office-cl']:not([class*='santa-clara']) .menu .menu-item.santa-clara,
 /* Kit */
 body:not([class*='munro']) .kit.xerox,body:not([class*='santa-clara']) .kit.xerox,
 body[class*='munro'] .kit:not(.xerox),body[class*='santa-clara'] .kit:not(.xerox){display:none}
