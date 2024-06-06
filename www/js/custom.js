@@ -564,6 +564,10 @@ jQuery(document).ready(function() {
 			jQuery(this).addClass('filled');
 		}
 	});
+
+
+	// FORMULARIOS - Deshabilitar opciones
+	jQuery('.prox').attr('disabled',true)
 	
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
