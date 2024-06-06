@@ -222,7 +222,7 @@ body.single-format-link .fusion-breadcrumbs{text-align:center}
 .fusion-page-title-bar .fusion-breadcrumbs a:hover{text-decoration:underline}
 body.single .post .fusion-meta-info{margin-top:0}
 body.single .fusion-post-title-meta-wrap{padding:0 0 1em}
-body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-meta-wrap a[rel='tag']{padding-right:.4em;font-size:.8rem}
+body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-meta-wrap a[rel='tag']{padding-right:1.2em;font-size:.8rem}
 
 /* Contenidos */
 #content a[src*='.jpg'],#content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
