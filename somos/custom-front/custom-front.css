@@ -77,7 +77,6 @@ body[class*='office-cl']:not([class*='santa-clara']) .widget.cl,
 body[class*='office-br'] .widget.br,body[class*='office-mx'] .widget.mx,body[class*='office-pe'] .widget.pe,body[class*='office-pr'] .widget.pr,body[class*='office-uy'] .widget.uy,
 body[class*='munro'] .menu .menu-item.munro,
 body[class*='santa-clara'] .menu .menu-item.santa-clara{display:block}
-body[class*='office-ar']:not([class*='munro']) .menu .menu-item.munro,body[class*='office-cl']:not([class*='santa-clara']) .menu .menu-item.santa-clara{display:none}
 .mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* Global */
