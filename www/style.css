@@ -220,8 +220,9 @@ body.single-format-link .fusion-breadcrumbs{text-align:center}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-item+.fusion-breadcrumb-item{margin-left:10px;padding-left:10px;margin-left:1px solid var(--lightgrayColor)}
 .fusion-page-title-bar .fusion-breadcrumbs a:hover{text-decoration:underline}
+body.single .post .fusion-meta-info{margin-top:0}
 body.single .fusion-post-title-meta-wrap{padding:0 0 1em}
-body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-meta-wrap a[rel='tag']{padding-right:.4em;font-size:1.1em}
+body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-meta-wrap a[rel='tag']{padding-right:.4em;font-size:.8rem}
 
 /* Contenidos */
 #content a[src*='.jpg'],#content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
@@ -265,7 +266,7 @@ body.page .post-slideshow{border-radius:24px;pointer-events:none}
 body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar .fusion-page-title-row h1{font-weight:400!important}
 body.single-format-standard:not(.single-avada_portfolio) #main,body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{margin:0 auto;max-width:1100px}
 body.single-format-standard:not(.single-avada_portfolio) article>.flexslider{margin-bottom:0}
-body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{padding-bottom:1em}
+body.single-format-standard:not(.single-avada_portfolio) .fusion-page-title-bar{padding-bottom:0}
 body.single-format-standard:not(.single-avada_portfolio) .post-content{padding-top:3em}
 body.single-format-standard:not(.single-avada_portfolio) .post-content>.fusion-fullwidth{padding:0}
 
