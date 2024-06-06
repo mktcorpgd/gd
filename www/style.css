@@ -220,7 +220,7 @@ body.single-format-link .fusion-breadcrumbs{text-align:center}
 .fusion-breadcrumbs,.fusion-breadcrumb-sep{margin-top:0}
 .fusion-page-title-bar .fusion-breadcrumbs .fusion-breadcrumb-item+.fusion-breadcrumb-item{margin-left:10px;padding-left:10px;margin-left:1px solid var(--lightgrayColor)}
 .fusion-page-title-bar .fusion-breadcrumbs a:hover{text-decoration:underline}
-body.single .fusion-post-title-meta-wrap{padding:1em 0}
+body.single .fusion-post-title-meta-wrap{padding:0 0 1em}
 body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-meta-wrap a[rel='tag']{padding-right:.4em;font-size:1.1em}
 
 /* Contenidos */
