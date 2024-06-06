@@ -96,6 +96,9 @@ jQuery(document).ready(function() {
 		if ( unit.indexOf('SCAI') > -1 ) {
 			jQuery('.kit .menu-item:contains("IoP")').show();
 		}	
+		if ( org.indexOf('GD Xerox') ) {
+			jQuery('.kit .menu-item:contains("Grupo Datco")').hide();
+		}
 		jQuery('h4.unit').text(unit);
 		jQuery('.kit .menu-item.visible').show();
 	}
