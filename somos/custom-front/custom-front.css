@@ -65,6 +65,7 @@ body:not(.logged-in) #custom_html-23,
 /* Menú y widgets (no Kit) - Ocultamos por clase de país/oficina para luego mostrar según oficina */
 .menu .menu-item.ar,.menu .menu-item.br,.menu .menu-item.cl,.menu .menu-item.mx,.menu .menu-item.pe,.menu .menu-item.pr,.menu .menu-item.uy,.menu .menu-item.munro,.menu .menu-item.santa-clara,
 .widget.ar,.widget.br,.widget.cl,.widget.mx,.widget.pe,.menu .widget.pr,.menu .widget.uy,
+body[class*='munro'] .menu .menu-item.ar:not(.munro),body[class*='santa-clara'] .menu .menu-item.cl:not(.santa-clara),body[class*='munro'] .widget.ar:not(.munro),body[class*='santa-clara'] .widget.ar:not(.santa-clara),
 /* Kit */
 body:not([class*='munro']) .kit.xerox,body:not([class*='santa-clara']) .kit.xerox,
 body[class*='munro'] .kit:not(.xerox),body[class*='santa-clara'] .kit:not(.xerox){display:none}
