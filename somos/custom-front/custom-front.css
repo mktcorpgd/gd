@@ -132,7 +132,7 @@ input[readonly]:not([class*='walcf7-']),textarea[readonly],input[disabled],texta
 span.resaltado-naranja{color:var(--highlightColor)}
 span.resaltado-azul{color:#3C73B5}
 span.resaltado-verde{color:#76923C}
-#content .no-borders img,#content .no-borders blockquote{border:none!important}
+#content .no-borders img{border:none!important}
 
 /* Admin */
 #wpadminbar{position:fixed;top:0;border-bottom:1px solid rgba(0,0,0,.2);z-index:999999}
