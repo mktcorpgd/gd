@@ -162,13 +162,11 @@ jQuery(document).ready(function() {
 
 	// GENERAL - Ir hacia parte de la página
 	jQuery('a[href^=#goto]').on('click',function(e) {
-        e.preventDefault(); // Previene el comportamiento predeterminado del enlace
+        e.preventDefault();
         var href = jQuery(this).attr('href');
-        console.log(href);
         var goto_selector = href.substring(5);
-        console.log(goto_selector);
-        var target = jQuery('#' + goto_selector);
-        if (target.length) {
+        var target = jQuery('#'+goto_selector);
+        if ( target.length ) {
             jQuery('html, body').animate({
                 scrollTop: target.offset().top - 150
             }, 'slow');
