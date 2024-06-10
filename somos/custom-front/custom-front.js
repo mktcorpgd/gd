@@ -162,12 +162,15 @@ jQuery(document).ready(function() {
 
 	// GENERAL - Ir hacia parte de la página
 	jQuery('a[href^=#goto]').on('click',function(e) {
+		console.log(jQuery(this).attr('href'));
 		var goto_selector = jQuery(this).attr('href').substring(5,jQuery(this).attr('href').length);
+		console.log(goto_selector);
+		/*
 		jQuery('html,body').animate({
 			scrollTop: jQuery('#'+goto_selector).offset().top-100},
 			'slow',
 			'easeInBounce'
-		);
+		);*/
 		e.preventDefault();
 	});
 
