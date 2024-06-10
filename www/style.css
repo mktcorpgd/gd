@@ -625,6 +625,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-content-boxes.no-heading-title .content-container h3{font-size:1.4em}
 .fusion-content-boxes.radius-icon .heading{margin-bottom:5px}
 .fusion-content-boxes.radius-icon .heading-with-icon img{border-radius:24px}
+.text-align-left .heading .icon i{display:inline-block}
 .text-align-left .heading .icon,.text-align-left .heading *,.text-align-left .content-container{text-align:left!important}
 .fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .content-box-heading{padding-left:1.4em!important}
 
