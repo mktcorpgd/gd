@@ -170,7 +170,7 @@ jQuery(document).ready(function() {
         var target = jQuery('#' + goto_selector);
         if (target.length) {
             jQuery('html, body').animate({
-                scrollTop: target.offset().top - 100
+                scrollTop: target.offset().top - 150
             }, 'slow');
         }
 	});
