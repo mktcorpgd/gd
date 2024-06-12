@@ -627,7 +627,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-content-boxes.radius-icon .heading-with-icon img{border-radius:24px}
 .text-align-left .heading .icon i{display:inline-block!important}
 .text-align-left .heading .icon,.text-align-left .heading *,.text-align-left .content-container{text-align:left!important}
-.fusion-content-boxes.content-boxes-icon-on-side .heading-with-icon .content-box-heading{padding-left:1.4em!important}
+.fusion-content-boxes.less-margin .heading-with-icon .content-box-heading{padding-left:1.4em!important}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
