@@ -34,6 +34,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .info-event .tribe-ev
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin:8em auto 4em;max-width:1200px}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;margin-top:2em;width:100%}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{max-width:200px;left:29.6%}
+body.post-type-archive-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{margin-top:-12px;left:0}
 .single-tribe_events #tribe-events-content .fusion-content-widget-area .tribe-events-event-meta.primary{align-items:start}
 body.tribe_events-template-default:not(.avada-has-titlebar-hide) .tribe-events-single-event-description{margin-bottom:2em;font-size:1.2em}
 .single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .single-tribe_events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__button-text, .tribe-events .tribe-events-c-subscribe-dropdown button.tribe-events-c-subscribe-dropdown__button-text{white-space:nowrap}
@@ -107,11 +108,12 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .tribe-events-n
 .tribe-events-notices li{text-align:center}
 .tag-zoom .tribe-venue:after{content:'';margin-top:1em;display:block;width:168px;height:300px;background-image:url('https://www.grupodatco.com/wp-content/uploads/logo_ZM_wordmark_bloom-RGB.svg');background-repeat:no-repeat;background-size:contain}
 .tribe-events .tribe-events-calendar-month__day--past .tribe-events-calendar-month__calendar-event-datetime{font-family:'open-sans',sans-serif;font-size:.9rem;color:#666666}
-.tribe-common .tribe-common-h--alt{font-family:'neo-sans',sans-serif;font-size:1.1rem}
+.tribe-common .tribe-common-h--alt{font-family:'neo-sans',sans-serif;font-size:1.1rem;line-height:1.2!important}
 .fusion-body .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner{background:var(--mainColor);color:var(--whiteColor)}
 .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner h3, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-week-grid__multiday-event-bar-inner h3{font-family:'neo-sans',sans-serif;font-size:1rem}
 .fusion-body .tribe-events.tribe-common .tribe-events-calendar-month__day:hover:after{margin:0 5% 2.5%;width:90%;height:4px;border-radius:4px;background:#F0582B}
 .tribe-events .tribe-events-calendar-month__day--past .tribe-events-calendar-month__calendar-event{opacity:.8}
+.tribe-common--breakpoint-full.tribe-events .tribe-events-c-top-bar__datepicker-desktop:after{content:'Eventos'}
 
 /* Desktop */
 @media (min-width:920px) {
