@@ -107,10 +107,11 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .tribe-events-n
 .tribe-events-notices li{text-align:center}
 .tag-zoom .tribe-venue:after{content:'';margin-top:1em;display:block;width:168px;height:300px;background-image:url('https://www.grupodatco.com/wp-content/uploads/logo_ZM_wordmark_bloom-RGB.svg');background-repeat:no-repeat;background-size:contain}
 .tribe-events .tribe-events-calendar-month__day--past .tribe-events-calendar-month__calendar-event-datetime{font-family:'open-sans',sans-serif;font-size:.9rem;color:#666666}
-.tribe-common .tribe-common-h--alt{font-size:1.1rem}
+.tribe-common .tribe-common-h--alt{font-family:'neo-sans',sans-serif;font-size:1.1rem}
 .fusion-body .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner{background:var(--mainColor);color:var(--whiteColor)}
 .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-month__multiday-event-bar-inner h3, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-pro-week-grid__multiday-event-bar-inner h3{font-family:'neo-sans',sans-serif;font-size:1rem}
 .fusion-body .tribe-events.tribe-common .tribe-events-calendar-month__day:hover:after{margin:0 5% 2.5%;width:90%;height:4px;background:#F0582B}
+.tribe-events .tribe-events-calendar-month__day--past .tribe-events-calendar-month__calendar-event{opacity:.8}
 
 /* Desktop */
 @media (min-width:920px) {
