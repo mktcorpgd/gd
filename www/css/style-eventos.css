@@ -81,7 +81,6 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .fusion-body #main .tribe-events .datepicker,.fusion-body #main .tribe-events .tribe-events-c-view-selector:not(.tribe-events-c-view-selector--tabs) .tribe-events-c-view-selector__content{border-radius:12px}
 .fusion-body #main .tribe-events .tribe-events-c-view-selector:not(.tribe-events-c-view-selector--tabs) .tribe-events-c-view-selector__content{padding:0;border:none}
 .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-day__event-title, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-title,.tribe-events-calendar-list__event-venue,.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event-venue{margin-bottom:.2em}
-.tribe-common--breakpoint-medium.tribe-events .tribe-events-calendar-list__event-wrapper{border-left:4px solid var(--lightgrayColor)}
 .tribe-common .tribe-common-b2--bold:after{content:'|';font-weight:normal}
 .tribe-common .tribe-common-b2--bold{font-family:'neo-sans',sans-serif;font-size:1.2em;font-weight:400}
 .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-day__event-description, .fusion-body .fusion-wrapper #main .tribe-events .tribe-events-calendar-list__event-description{margin-top:.5em}
