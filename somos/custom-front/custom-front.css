@@ -86,8 +86,8 @@ input::-webkit-input-placeholder{line-height:normal!important}
 :-ms-input-placeholder{color:var(--metaColor)}
 ::-ms-input-placeholder{color:var(--metaColor)}
 p:not(.gp-comment-meta) strong{font-weight:700}
-section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,#menu-header-destacado .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *,div.asp_r,.wpducm-mention-list-container .wpducm-mention-list-item,.widget .sc-button.small:after,popup_notification,popup_close,popup_button btn,#nav .menu li a,#menu-header-destacado li a,li.menu-item-has-children:after{transition:all .1s ease-in-out!important}
-.wp-classic-menu-block>.menu ul,.kit>.menu li,.mo_sps_class_doc_container .mo_sps_class_doc__list>div{transition:all .3s ease-in-out!important}
+section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plus),.yotu-column-3 li,html body #webpushr-bell-optin prompticon3,#custom_html-23 a img,#custom_html-23 a input,.sc-button,.gp-blog-wrapper,#text-4,.gp-blog-wrapper:not([class*='gp-blog-columns']) section,body:not(.single-event) article.event,#nav .menu .sub-menu,#menu-header-destacado .sub-menu,nav>.menu>li,.button,.sc-button,.mfp-content .sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#mobile-nav-button,#nav .menu li i,div.asp_r .results .item,#wpdcom .ql-container,#wpdcom .wpd_label__check i,#wpdcom button *,.wpd-comment-footer *,div.asp_r,.wpducm-mention-list-container .wpducm-mention-list-item,.widget .sc-button.small:after,popup_notification,popup_close,popup_button btn,#nav .menu li a,#menu-header-destacado li a,li.menu-item-has-children:after,.mo_sps_class_doc_container .mo_sps_class_doc__list>div,.mo_doc_lib_table-row{transition:all .1s ease-in-out!important}
+.wp-classic-menu-block>.menu ul,.kit>.menu li{transition:all .3s ease-in-out!important}
 body{background-color:var(--lightgrayColor1);letter-spacing:-.1px}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:var(--textColor);font-size:16px}
 h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:var(--titleFont),sans-serif}
@@ -636,7 +636,8 @@ popup_close:hover{opacity:1}
 .mo_doc_lib_responsive-table .mo_doc_lib_col{align-items:center;padding:0 .4em}
 .mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;line-height:1.1;color:var(--whiteColor1)}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1:before{min-width:20px;content:'\f15b';margin-right:.4em;font-size:1.6em;font-weight:900;font-family:var(--iconFont);color:var(--metaColor)}
-.mo_doc_lib_table-row:hover{background-color:var(--lightgrayColor1)}
+.mo_doc_lib_table-row:hover{background-color:var(--highlightColor);color:var(--whiteColor1)}
+.mo_doc_lib_table-row:hover .mo_doc_lib_col:before{color:var(--whiteColor1)}
 .mo_sps_class_embed_folder{padding:0;border:2px solid var(--lightgrayColor1);border-radius:var(--smallRadius);color:var(--textColor)}
 .mo_sps_class_embed_folder_image{border:none}
 .modal{z-index:999999999}
@@ -654,9 +655,7 @@ popup_close:hover{opacity:1}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div,.mo_sps_class_embed_folder_title{width:100%;padding:.6em;font-size:.8rem}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div{display:flex}
 .mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div{float:none!important}
-.mo_doc_lib_file_download,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a{padding:.4em .6em;background:var(--highlightColor);border-radius:var(--smallRadius);text-decoration:none!important;color:var(--whiteColor1)!important}
-.mo_doc_lib_file_download:hover,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:hover{background:var(--subColor)}
-.mo_doc_lib_file_download:before,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a:before{content:'\f33d';font-family:var(--titleFont),var(--iconFont)}
+.mo_doc_lib_file_download,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a{display:block;position:absolute;top:0;left:0;width:100%;height:100%;visibility:hidden}
 .mo_sps_class_embed_file_image{padding:0;border:none}
 .mo_sps_class_embed_file_image img{width:100%}
 .mo_sps_class_embed_file_title,.mo_sps_class_embed_folder_title,.mo_sps_class_embed_file:after{display:block;padding:.4em;font-size:.8rem}
