@@ -22,7 +22,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 /* Sharepoint Sync */
 [id*='mo_sps_upload_file'],[breadcrumb*='A4'],[breadcrumb*='assets'],[breadcrumb*='dev'],[breadcrumb*='old'],[breadcrumb*='print'],body:not(.page-id-17533) [breadcrumb*='.ai'],[breadcrumb*='.psd'],[breadcrumb*='.Firma'],[breadcrumb*='.Capacitaciones'],[breadcrumb*='_Firma'],[breadcrumb*='_Pasados'],
 [data-sharepoint_name*='A4'],[data-sharepoint_name*='assets'],[data-sharepoint_name*='dev'],[data-sharepoint_name*='old'],[data-sharepoint_name*='print'],[data-sharepoint_name*='.ai'],[data-sharepoint_name*='.psd'],[data-sharepoint_name*='.Firma'],[data-sharepoint_name*='.Capacitaciones'],[data-sharepoint_name*='_Firma'],[data-sharepoint_name*='-icon'],
-.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],[id*='mo_doc_lib_container__loader']>img,.mo_sps_class_embed_file[data-sharepoint_name="Grupo_Datco-Manual_Identidad.pdf"],
+.mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],[id*='mo_doc_lib_container__loader']>img,.mo_sps_class_embed_file[data-sharepoint_name="Grupo_Datco-Manual_Identidad.pdf"],.mo_doc_lib_responsive-table .mo_doc_lib_fcol-5,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
 #wpdcom .wpd-form-head,[wpd-tooltip]::after,[wpd-tooltip]::before,.wpd-comment-label,#wpdcom .wpd-comment .wpd-reply-to,.user-tooltip,.wpd-comment-link,#wpdcom .ql-toolbar button.ql-spoiler,#wpdcom .ql-toolbar button.ql-sourcecode,#wpdcom button.ql-code-block,
@@ -73,7 +73,6 @@ body[class*='munro'] iframe:not(.xerox),body[class*='santa-clara'] iframe:not(.x
 /* Menú y widgets (no Kit) - Mostramos según oficina */
 body[class*='office-ar']:not([class*='munro']) .menu .menu-item.ar,body[class*='office-br'] .menu .menu-item.br,body[class*='office-cl']:not([class*='santa-clara']) .menu .menu-item.cl,body[class*='office-mx'] .menu .menu-item.mx,body[class*='office-pe'] .menu .menu-item.pe,body[class*='office-pr'] .menu .menu-item.pr,body[class*='office-uy'] .menu .menu-item.uy,body[class*='munro'] .menu .menu-item.munro,body[class*='santa-clara'] .menu .menu-item.santa-clara,
 body[class*='office-ar']:not([class*='munro']) .widget.ar,body[class*='office-br'] .widget.br,body[class*='office-cl']:not([class*='santa-clara']) .widget.cl,body[class*='office-mx'] .widget.mx,body[class*='office-pe'] .widget.pe,body[class*='office-pr'] .widget.pr,body[class*='office-uy'] .widget.uy,body[class*='munro'] .widget.munro,body[class*='santa-clara'] .widget.santa-clara{display:block}
-.mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5{visibility:hidden}
 
 /* Global */
 :root{--mainColor:#0E316E;--subColor:#1F4483;--highlightColor:#F0582B;--extraColor:#FFB201;--whiteColor1:#FFFFFF;--whiteColor2:#FAFAFA;--lightgrayColor1:#EAEAEA;--lightgrayColor2:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#111111;--successColor:#419466;--errorColor:#FF5151;--warningColor:#F1B500;--infoColor:#046AB2;--bColor:#874493;--dColor:#2484B6;--fColor:#39457E;--iColor:#BF250D;--stColor:#109B84;--sColor:#497718;--vColor:#AE1A57;--zgColor:#692D87;--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--xsmallRadius:3px;--smallRadius:6px;--regularRadius:12px;--largeRadius:24px;--xsmallShadow:0 2px 6px 0px rgba(0,0,0,.1);--smallShadow:0 4px 8px 0px rgba(0,0,0,.2);--smallShadowHover:0 2px 12px 0px rgba(0,0,0,.3);--regularShadow:0 6px 12px 0 rgba(0,0,0,.2);--regularShadowHover:0 4px 18px 0 rgba(0,0,0,.3);--largeShadow:0 12px 18px 0 rgba(0,0,0,.2);}
@@ -621,10 +620,9 @@ popup_close:hover{opacity:1}
 .info-material strong,.info-material strong a{font-weight:700}
 [id*='mo_doc_lib_container__loader']{width:100%!important;min-height:80px!important;border:none!important;background:url(https://somos.grupodatco.com/wp-content/uploads/gd-loader.svg);background-repeat:no-repeat;background-position:center center}
 .mo_doc_lib_responsive-table li{justify-content:flex-start;align-items:center}
-.mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:50%}
+.mo_doc_lib_responsive-table .mo_doc_lib_fcol-1{flex-basis:60%}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-2{flex-basis:25%}
 .mo_doc_lib_responsive-table .mo_doc_lib_fcol-4{flex-basis:15%}
-.mo_doc_lib_responsive-table .mo_doc_lib_fcol-5{flex-basis:10%}
 .mo_doc_lib_container{padding:0}
 [id*='mo_doc_lib_breadcrumb']{background:var(--lightgrayColor1);margin-bottom:.2em;padding:0 .7em!important;font-size:.7rem;border-radius:var(--smallRadius) var(--smallRadius) var(--xsmallRadius) var(--xsmallRadius)}
 .mo_doc_lib_breadcrumb_item{margin:0;padding:0;height:20px;background:none!important;box-shadow:none}
