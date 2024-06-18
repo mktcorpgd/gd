@@ -11,6 +11,7 @@ div.TYPE2,
 #nav ul li ul li a,#sticky-nav ul li ul li a,#wrapper #nav ul li ul li > a,#wrapper #sticky-nav ul li ul li > a,.fusion-main-menu .sub-menu,.fusion-main-menu .sub-menu li a,.fusion-megamenu-widgets-container,.fusion-megamenu-wrapper .fusion-megamenu-submenu > a:hover,.fusion-megamenu-wrapper li .fusion-megamenu-title-disabled,.fusion-secondary-header a,html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:hover i,html .fusion-main-menu ul li a:hover img{color:var(--textColor)!important}
 .avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):hover,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button):hover>a:not(.fusion-icon-sliding-bar),.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):not([href^='#']):hover{background:rgba(0,0,0,.1)!important}
 .fusion-mobile-menu-design-modern .fusion-mobile-nav-item.fusion-modal-text-link-button a:not([data-target*=".faq"]) .menu-text{color:var(--whiteColor)!important}
+body.site-id-6 .fusion-footer-widget-area,body.site-id-6 .fusion-footer-copyright-area{padding:0!important}
 
 /* Fibra */
 body.postid-25544 .fusion-header-wrapper .fusion-secondary-header{display:none!important}
