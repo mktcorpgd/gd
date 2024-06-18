@@ -637,6 +637,7 @@ popup_close:hover{opacity:1}
 .mo_doc_lib_table-header .mo_doc_lib_col{white-space:nowrap;line-height:1.1;color:var(--whiteColor1)}
 .mo_doc_lib_responsive-table .mo_doc_lib_table-row .mo_doc_lib_col.mo_doc_lib_fcol-1:before{min-width:20px;content:'\f15b';margin-right:.4em;font-size:1.6em;font-weight:900;font-family:var(--iconFont);color:var(--metaColor)}
 .mo_doc_lib_table-row:hover{background-color:var(--highlightColor);color:var(--whiteColor1)}
+.mo_doc_lib_table-row:active{background-color:var(--mainColor)}
 .mo_doc_lib_table-row:hover .mo_doc_lib_col:before{color:var(--whiteColor1)!important}
 .mo_sps_class_embed_folder{padding:0;border:2px solid var(--lightgrayColor1);border-radius:var(--smallRadius);color:var(--textColor)}
 .mo_sps_class_embed_folder_image{border:none}
