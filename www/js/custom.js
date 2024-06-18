@@ -375,7 +375,6 @@ jQuery(document).ready(function() {
 			resps += new_resp_bcc+', ';
 		});
 		resps = resps.substring(0,resps.length-2);
-		console.log(resps);
 		jQuery('input[name="RESP_BCC"]').val(resps);
 	}
 
