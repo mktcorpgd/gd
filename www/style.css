@@ -710,6 +710,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 /* Galería */
 .gallery-item{margin-top:0;padding:10px 10px 0}
 .fusion-gallery .fusion-gallery-column .fusion-gallery-image{border-radius:12px}
+[id*='gallery'].gallery img{border:2px solid var(--lightgrayColor);border-radius:12px}
 
 /* Pestañas/Filtros */
 .fusion-tabs .nav ul,.fusion-filters,.fusion-tabs .nav-tabs>li .tab-link,.fusion-filters li a,.fusion-tabs.vertical-tabs.classic .nav-tabs>li .tab-link,.fusion-tabs .tab-content>.active,.fusion-tabs.horizontal-tabs .nav{border:none!important;outline:none!important}
