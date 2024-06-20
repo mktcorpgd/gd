@@ -547,7 +547,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Animación para etiquetas
-	jQuery(':input[type=text],:input[type=email],:input[type=number],:input[type=tel],:input[type=url],textarea,select:not(.highlight)').each(function(i) {
+	jQuery(':input[type=text]:not([name=PHONE]),:input[type=email],:input[type=number],:input[type=tel],:input[type=url],textarea,select:not(.highlight)').each(function(i) {
 		if ( jQuery(this).val().length > 0 ) {
 			jQuery(this).parents('.fusion-layout-column').addClass('focused');
 		}
