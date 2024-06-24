@@ -83,7 +83,7 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 .fusion-fullwidth.overlay:after{content:'';width:100%;height:100%;position:absolute;top:0;left:0;background:rgba(0,0,0,.6);z-index:1}
 .fusion-loading-container{text-align:center}
 .white .fusion-loading-container{color:#FFFFFF}
-.fusion-loading-container .fusion-spinner-1, .fusion-loading-container .fusion-spinner-2, .fusion-loading-container .fusion-spinner-3{background:#999999}
+.fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background:#999999}
 .white .fusion-loading-container .fusion-spinner-1,.white .fusion-loading-container .fusion-spinner-2,.white .fusion-loading-container .fusion-spinner-3{background:#FFFFFF}
 .small-shadow:not(.fusion-title),.small-shadow.fusion-title>*{box-shadow:0 4px 24px 0 rgba(0,0,0,.2)}
 .small-shadow.fusion-title>*{padding:.4em .8em!important}
@@ -895,10 +895,10 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.tfs-slider .fusion-title:not(.fusion-title-size-one){margin-top:1em!important}
 	.fusion-fullwidth:not(.fusion-builder-row-1) .fusion-title{margin-top:.5em!important}
 	.tfs-slider .fusion-title h2,.header-transparent .fusion-title.fusion-title-1.fusion-title-size-one{font-size:2rem!important}
-	.header-transparent .fusion-title:not(.custom-size) h4{font-size:1.4rem!important}
 	.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary),.tfs-slider .slide-content-container .tfs-button-1,.tfs-slider .slide-content-container .tfs-button-2{margin-top:0!important}
-	.fusion-body .header-transparent .fusion-title:not(.custom-size) h1, .tfs-slider .fusion-title h1, .tfs-slider .fusion-title h2{line-height:1.3}
-	.tfs-slider .fusion-title h3, .tfs-slider .fusion-title h4, .fusion-body .header-transparent .fusion-title.fusion-title-size-four h4{font-size:1rem!important}
+	.fusion-body .header-transparent .fusion-title:not(.custom-size) h1,.tfs-slider .fusion-title h1,.tfs-slider .fusion-title:not(.custom-size) h2{line-height:1.3}
+	.tfs-slider .fusion-title h3,.tfs-slider .fusion-title h4{font-size:1rem!important}
+	.header-transparent .fusion-title:not(.custom-size) h4{font-size:1.4rem!important}
 	.tfs-slider .slide-content-container .heading{margin:0 0 .25rem!important}
 
 	/* Menú */
@@ -937,7 +937,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.wpcf7 input:not([type='submit']),.wpcf7 textarea,
 	#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.fusion-body #main .tribe-events .tribe-events-c-events-bar--border,.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){font-size:1.1rem}
 	.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){top:21px}
-	.button-default.button-large, .button-large, .fusion-body .fusion-button-large, .fusion-button_size-large .fusion-button-default-size, .wpcf7-form input[type='submit'].button-large, .wpcf7-form input[type='submit'].fusion-button-large, .tfs-slider .buttons a, .fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button:not(.button-small):not(.button-xlarge){font-size:1em}
+	.button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button:not(.button-small):not(.button-xlarge){font-size:1em}
 
 	/* Contenidos */
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
