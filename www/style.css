@@ -455,7 +455,7 @@ input[name='telsfchk[]']+.wpcf7-list-item-label{font-size:.7rem}
 .wpcf7 form .ajax-loader{background-image:none}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:var(--whiteColor);font-weight:600;background:var(--successColor);border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:var(--textFont);font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:var(--successColor);color:var(--whiteColor)}
-.mc4wp-checkbox-contact-form-7{float:left;display:block;width:100%;margin:.25em 0;font-size:.7rem;text-align:center}
+.mc4wp-checkbox-contact-form-7{float:left;display:block;width:100%;margin:.25em 0;font-size:.7em;text-align:center}
 .mc4wp-checkbox-contact-form-7 label{cursor:pointer}
 .mc4wp-checkbox-contact-form-7 input{display:inline-block;margin:0 .5em 0 0;position:relative;bottom:1px}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
@@ -475,7 +475,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
 .wpcf7-form textarea+.wpcf7-not-valid-tip{top:-11px}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}
-.wpcf7 .fusion-one-full>em{float:left;display:block;width:100%;margin:.25em 0 1em;font-size:.8rem!important;line-height:1.4;text-align:center}
+.wpcf7 .fusion-one-full>em{float:left;display:block;width:100%;margin:.25em 0 1em;font-size:.8em!important;line-height:1.4;text-align:center}
 .wpcf7 .fusion-one-full>em a:hover,.wpcf7 .wpcf7-info a{text-decoration:underline!important}
 .wpcf7-form:not(.init) div.wpcf7-response-output,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.tribe-events-notices{float:left;width:100%;margin:.5em auto;padding:.4em .6em;position:relative;text-align:center;border:none!important}
 .wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{margin:.4em auto}
