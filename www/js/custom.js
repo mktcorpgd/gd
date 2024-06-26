@@ -205,6 +205,9 @@ jQuery(document).ready(function() {
 	}
 
 
+	jQuery('span[class*="tribe-events-c-top-bar"]').text('Fecha');
+
+
 	// PORTFOLIO - Agregar botones en cards
 	if ( jQuery('.fusion-portfolio').length && !jQuery('.more-info').length ) {
 		var btn_info;
