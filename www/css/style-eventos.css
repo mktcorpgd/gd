@@ -111,6 +111,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .tribe-events-n
 body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events #tribe-events-content .fusion-content-widget-area{margin-top:0}
 body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events dd abbr.tribe-events-start-date,body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-venue{font-size:1.6em}
 body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{left:0}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-common-c-btn-border .tribe-events-c-subscribe-dropdown__button{display:inline}
 
 /* Desktop */
 @media (min-width:920px) {
