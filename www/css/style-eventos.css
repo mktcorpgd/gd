@@ -108,8 +108,8 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .tribe-events-n
 .fusion-body .tribe-events.tribe-common .tribe-events-calendar-month__day:hover:after{margin:0 5% 2.5%;width:90%;height:4px;border-radius:4px;background:#F0582B}
 .tribe-events .tribe-events-calendar-month__day--past .tribe-events-calendar-month__calendar-event{opacity:.8}
 .tribe-common--breakpoint-full.tribe-events .tribe-events-c-top-bar__datepicker-desktop:after{content:'Eventos'}
-.single-tribe_events dd abbr.tribe-events-start-date,.single-tribe_events .tribe-venue{font-size:1.6em}
-.single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{left:0}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events dd abbr.tribe-events-start-date,body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-venue{font-size:1.6em}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{left:0}
 
 /* Desktop */
 @media (min-width:920px) {
