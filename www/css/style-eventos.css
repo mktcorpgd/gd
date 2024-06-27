@@ -108,10 +108,12 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .tribe-events-n
 .fusion-body .tribe-events.tribe-common .tribe-events-calendar-month__day:hover:after{margin:0 5% 2.5%;width:90%;height:4px;border-radius:4px;background:#F0582B}
 .tribe-events .tribe-events-calendar-month__day--past .tribe-events-calendar-month__calendar-event{opacity:.8}
 body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events #tribe-events-content .fusion-content-widget-area{margin-top:0}
-body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events dd abbr.tribe-events-start-date,body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-venue{font-size:1.6em}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events dd abbr.tribe-events-start-date{font-size:1.6em}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-venue{font-size:1.4em}
 body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-events-c-subscribe-dropdown .tribe-events-c-subscribe-dropdown__list{left:0}
-body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-common-c-btn-border .tribe-events-c-subscribe-dropdown__button{display:inline!important}
+body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button{display:inline!important}
 .tribe-events .datepicker table{width:100%}
+body.post-type-archive-tribe_events .tribe-events-c-subscribe-dropdown:before{content:'¡No te pierdas los próximos eventos de Grupo Datco!'}
 
 /* Desktop */
 @media (min-width:920px) {
