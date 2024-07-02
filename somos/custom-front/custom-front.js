@@ -50,63 +50,70 @@ document.addEventListener('DOMContentLoaded', function() {
 jQuery(document).ready(function() {
 
 
-	// KIT
+	// Kit
 	if ( jQuery('.kit').length ) {
-		jQuery('.wp-classic-menu-block.kit .menu li.plus>a').click(function(e) {
-			jQuery(this).parent().toggleClass('open');
-			e.preventDefault();
-		});
-		jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
+
+		// Plantillas
 		var org = jQuery('input[name=gdORGPROF]').val();
 		var org_class = normalize(org.toLowerCase());
 		var office = jQuery('input[name=gdOFFICE_mc]').val();
 		var unit = jQuery('input[name=gdUNIT_mc]').val();
-		if ( office.indexOf('AR') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.ar)').hide();
+		if ( jQuery('body').hasClass('page-id-54299') ) {
+			jQuery('.wp-classic-menu-block.kit .menu li.plus>a').click(function(e) {
+				jQuery(this).parent().toggleClass('open');
+				e.preventDefault();
+			});
+			jQuery('.wp-classic-menu-block.kit .menu-item a:not([href*="#"])').attr('target','_blank');
+			if ( office.indexOf('AR') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item:not(.ar)').hide();
+			}
+			if ( office.indexOf('BR') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item:not(.br)').hide();
+			}
+			if ( office.indexOf('CL') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item:not(.cl)').hide();
+			}
+			if ( office.indexOf('MX') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item:not(.mx)').hide();
+			}
+			if ( office.indexOf('PE') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item:not(.pe)').hide();
+			}
+			if ( office.indexOf('PR') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item:not(.pr)').hide();
+			}
+			if ( office.indexOf('UY') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item:not(.uy)').hide();
+			}
+			if ( office.indexOf('Munro') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item.munro').show();
+			}
+			if ( office.indexOf('Santa Clara') > -1 ) {
+				jQuery('.kit .menu-item ul .menu-item.santa-clara').show();
+			}
+			if ( unit.indexOf('UAS') > -1 ) {
+				jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .ppts>ul>.menu-item:not(:contains("Grupo Datco"))').hide();
+				jQuery('.kit .menu-item.uas>.sub-menu>li').show();
+			}
+			if ( unit.indexOf('UAC') > -1 || unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
+				jQuery('.kit .menu-item.propuestas-comerciales,.kit .menu-item.pt').show();
+			}
+			if ( unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
+				jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
+				jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li,.kit .menu-item:contains("'+org+'"),.kit .menu-item a[href*="'+org_class+'"]+.sub-menu>li').show();
+			}
+			if ( unit.indexOf('SCAI') > -1 ) {
+				jQuery('.kit .menu-item:contains("IoP")').show();
+			}	
+			if ( org.indexOf('GD Xerox') ) {
+				jQuery('.kit .menu-item:contains("Grupo Datco")').hide();
+			}
+			jQuery('h4.unit').text(unit);
+			jQuery('.kit .menu-item.visible').show();	
 		}
-		if ( office.indexOf('BR') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.br)').hide();
+		else if ( jQuery('body').hasClass('page-id-42920') ) {
+			jQuery('.kit.firmas .menu-item:contains("'+org+'")').hide();
 		}
-		if ( office.indexOf('CL') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.cl)').hide();
-		}
-		if ( office.indexOf('MX') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.mx)').hide();
-		}
-		if ( office.indexOf('PE') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.pe)').hide();
-		}
-		if ( office.indexOf('PR') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.pr)').hide();
-		}
-		if ( office.indexOf('UY') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item:not(.uy)').hide();
-		}
-		if ( office.indexOf('Munro') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item.munro').show();
-		}
-		if ( office.indexOf('Santa Clara') > -1 ) {
-			jQuery('.kit .menu-item ul .menu-item.santa-clara').show();
-		}
-		if ( unit.indexOf('UAS') > -1 ) {
-			jQuery('.kit .menu-item.propuestas-comerciales,.kit .folletos-digitales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .presentaciones-institucionales>ul>.menu-item:not(:contains("Grupo Datco")),.kit .ppts>ul>.menu-item:not(:contains("Grupo Datco"))').hide();
-			jQuery('.kit .menu-item.uas>.sub-menu>li').show();
-		}
-		if ( unit.indexOf('UAC') > -1 || unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
-			jQuery('.kit .menu-item.propuestas-comerciales,.kit .menu-item.pt').show();
-		}
-		if ( unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
-			jQuery('.kit .menu-item:not(:contains("'+org+'")):not("Grupo Datco")').hide();
-			jQuery('.kit .menu-item a[href="#grupo-datco"]+.sub-menu>li,.kit .menu-item:contains("'+org+'"),.kit .menu-item a[href*="'+org_class+'"]+.sub-menu>li').show();
-		}
-		if ( unit.indexOf('SCAI') > -1 ) {
-			jQuery('.kit .menu-item:contains("IoP")').show();
-		}	
-		if ( org.indexOf('GD Xerox') ) {
-			jQuery('.kit .menu-item:contains("Grupo Datco")').hide();
-		}
-		jQuery('h4.unit').text(unit);
-		jQuery('.kit .menu-item.visible').show();
 	}
 
 
