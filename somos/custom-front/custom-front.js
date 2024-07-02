@@ -50,10 +50,10 @@ document.addEventListener('DOMContentLoaded', function() {
 jQuery(document).ready(function() {
 
 
-	// Kit
+	// Menú estilo Kit
 	if ( jQuery('.kit').length ) {
 
-		// Plantillas
+		// Kit de materiales
 		var org = jQuery('input[name=gdORGPROF]').val();
 		var org_class = normalize(org.toLowerCase());
 		var office = jQuery('input[name=gdOFFICE_mc]').val();
@@ -111,6 +111,7 @@ jQuery(document).ready(function() {
 			jQuery('h4.unit').text(unit);
 			jQuery('.kit .menu-item.visible').show();	
 		}
+		// Firmas corporativas
 		else if ( jQuery('body').hasClass('page-id-42920') ) {
 			jQuery('.kit.firmas .menu-item:not(:contains("'+org+'"))').hide();
 		}
