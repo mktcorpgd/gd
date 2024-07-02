@@ -112,7 +112,7 @@ jQuery(document).ready(function() {
 			jQuery('.kit .menu-item.visible').show();	
 		}
 		else if ( jQuery('body').hasClass('page-id-42920') ) {
-			jQuery('.kit.firmas .menu-item:contains("'+org+'")').hide();
+			jQuery('.kit.firmas .menu-item:not(:contains("'+org+'"))').hide();
 		}
 	}
 
