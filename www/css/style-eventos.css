@@ -115,6 +115,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_ev
 body:not(.tribe_events-template-default.avada-has-titlebar-hide).single-tribe_events .tribe-common-c-btn-border.tribe-events-c-subscribe-dropdown__button{display:inline!important}
 .tribe-events .datepicker table{width:100%}
 body.post-type-archive-tribe_events .tribe-events-c-subscribe-dropdown:before{content:'¡No te pierdas los próximos eventos de Grupo Datco!';font-family:var(--titleFont);padding-right:1em;font-size:1.2em;font-weight:500}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-content-widget-area.fusion-event-meta-no-organizer dl,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-content-widget-area.fusion-event-meta-no-organizer dd{text-align:center!important}
 
 /* Desktop */
 @media (min-width:920px) {
