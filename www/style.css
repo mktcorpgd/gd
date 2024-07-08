@@ -733,7 +733,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 .fusion-tabs.vertical-tabs .tab-pane{border-radius:6px 6px 12px 12px;border:2px solid var(--lightgrayColor)}
 .fusion-tabs.vertical-tabs .nav-tabs>li .tab-link{padding-left:1em;padding-right:1em}
 .fusion-tabs .tab-content>.active{border-radius:24px}
-.fusion-tabs.horizontal-tabs .nav{position:sticky;top:110px;z-index:99}
 
 /* Paginación */
 .pagination{margin:20px 0 0;width:100%;text-align:center}
@@ -844,6 +843,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Pestañas/Filtros */
 	.fusion-filters .fusion-filter a{line-height:1.15}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
+	.fusion-tabs.horizontal-tabs .nav{position:sticky;top:110px;z-index:99}
 
 	/* Blog/Portfolio */
 	.hover-boxes .fusion-layout-column{margin-top:-5em}
