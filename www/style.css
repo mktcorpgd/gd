@@ -97,6 +97,7 @@ h4,h4 strong,h5,h5 strong,h6,h6 strong,.tfs-slider .fusion-title h3,.tfs-slider 
 #wrapper #main .fusion-portfolio.fusion-portfolio-four .fusion-portfolio-content > h2.fusion-post-title{font-size:1.2em}
 table th{font-size:1.1em}
 .sidebar .widget .heading h4{margin-top:0;margin-bottom:0;font-size:1.4em!important}
+.fusion-body .fusion-title .title-sep.sep-single{border-bottom-width:2px}
 
 /* Header */
 .avada-html-is-archive .fusion-top-header .fusion-header{background:none}
