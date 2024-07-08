@@ -958,6 +958,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.box-shadow.fusion-content-boxes .fusion-column{margin-bottom:1em}
 	.fusion-tabs .nav ul,.fusion-filters{margin-bottom:1em}
 	body.avada-has-header-hidden .fusion-fullwidth.header-transparent{padding-top:0}
+	.fusion-text[class*='fusion-text-columns-']{column-count:1}
 
 	/* Precios */
 	.fusion-pricingtable-column .panel-container{border-radius:24px!important;border:8px solid rgba(0,0,0,.2)}
