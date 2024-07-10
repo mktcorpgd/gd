@@ -2,8 +2,8 @@
 :root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#222222;--successColor:#419466;--warningColor:#FF9101;--errorColor:#FF5151;--infoColor:#046AB2;}
 
 /* Selección */
-::-moz-selection{background:var(--mainColor);color:var(--whiteColor)}
-::selection{background:var(--mainColor);color:var(--whiteColor)}
+::-moz-selection{background:var(--highlightColor);color:var(--whiteColor)}
+::selection{background:var(--highlightColor);color:var(--whiteColor)}
 
 /* Menú */
 .fusion-main-menu .sub-menu .current-menu-item>a,.fusion-main-menu .sub-menu .current-menu-parent>a,.fusion-main-menu .sub-menu .current_page_item>a{background-color:transparent!important}
