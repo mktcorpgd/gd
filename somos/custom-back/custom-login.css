@@ -36,10 +36,10 @@ body.login #nav>a{color:#FFFFFF!important;box-shadow:none!important;outline:none
 body.login #nav>a:hover{color:#1F4483!important;text-decoration:underline!important}
 input[type='radio']:checked:before,input[type='checkbox']:checked:before{width:22px;height:22px;font-size:22px;color:#0E316E;position:relative;top:1px}
 #wp-submit,.login .reset-pass-submit .button{float:none;display:inline;padding:.6em .8em;font-size:1.2em;line-height:1.25;font-weight:600;white-space:normal;text-shadow:none;border-radius:12px}
-.login .reset-pass-submit .button{font-weight:400;border-color:#F0582B;color:#F0582B}
+.login .reset-pass-submit .button{font-weight:400;border-width:0;box-shadow:0 0 0 1px #CCC;color:#F0582B}
 #wlcms-login-wrapper{background:none}
 .wp-core-ui .button-group.button-large .button,.wp-core-ui .button.button-large{background:#F0582B!important;border:0!important;border-radius:12px;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important}
-.wp-core-ui .button-group.button-large .button:hover,.wp-core-ui .button.button-large:hover{background:#1F4483!important;transform:translateY(1px)}
+.wp-core-ui .button-group.button-large .button:hover,.wp-core-ui .button.button-large:hover{background:#1F4483!important;color:#FFFFFF;transform:translateY(1px)}
 .wp-core-ui .button-group.button-large .button:active,.wp-core-ui .button.button-large:active{transform:translateY(0)}
 .login #pass-strength-result{margin-top:10px;border:none;border-radius:6px}
 @media only screen and (min-width:800px){
