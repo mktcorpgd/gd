@@ -54,6 +54,8 @@ jQuery(document).ready(function() {
 	tp_phone['ar_rosario'] = '+54 (341) 485-3803';
 	tp_address['ar_posadas'] = 'Acevedo 3241 (N3300HKQ)<br />Piso 3, Depto. F<br />Posadas, Misiones<br />Argentina';
 	tp_phone['ar_posadas'] = '';
+	tp_address['ar_munro'] = 'Cazadores de Coquimbo 2841 (B1605AZE) - Edificio 4, Piso 3° <br />Munro, Buenos Aires<br />Argentina'
+	tp_phone['ar_munro'] = '';
 	tp_address['ar_neuquen'] = 'Juan Larrea 595 (Q8300JVD)<br />Neuquén<br />Argentina';
 	tp_phone['ar_neuquen'] = '+54 (299) 525-9119';
 	tp_address['ar_otra'] = 'Localidad, Provincia<br />Argentina';
@@ -62,6 +64,8 @@ jQuery(document).ready(function() {
 	tp_phone['br_sao-paulo'] = '+55 (19) 3037-1623';
 	tp_address['cl_santiago'] = 'Av. El Bosque Norte 500 (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
 	tp_phone['cl_santiago'] = '+56 (2) 2253-5200';
+	tp_address['cl_santa-clara'] = 'vda. Santa Clara 684 (8580667)<br />Piso 15<br />Huechuraba, Santiago<br />Chile';
+	tp_phone['cl_santa-clara'] = '';
 	tp_address['mx_ciudad-de-mexico'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
 	tp_phone['mx_ciudad-de-mexico'] = '+52 (55) 5279-9930';
 	tp_address['pe_lima'] = 'Av. Camino Real 355 (15073)<br />Piso 2<br />San Isidro, Lima<br />Perú';
