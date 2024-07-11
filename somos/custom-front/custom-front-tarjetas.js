@@ -24,7 +24,7 @@ jQuery(document).ready(function() {
 	tp_web['grupo_datco'] = 'grupodatco.com';
 	tp_web['baitcon'] = 'baitcon.com';
 	tp_web['datco'] = 'datco.grupodatco.com';
-	tp_web['datco_xerox'] = 'grupodatco.com';
+	tp_web['gd_xerox'] = 'grupodatco.com';
 	tp_web['focus'] = 'focus.grupodatco.com';
 	tp_web['interservices'] = 'interservices.grupodatco.com';
 	tp_web['sersat'] = 'sersat.grupodatco.com';
@@ -64,7 +64,7 @@ jQuery(document).ready(function() {
 	tp_phone['br_sao-paulo'] = '+55 (19) 3037-1623';
 	tp_address['cl_santiago'] = 'Av. El Bosque Norte 500 (7550092)<br />Piso 15<br />Las Condes, Santiago<br />Chile';
 	tp_phone['cl_santiago'] = '+56 (2) 2253-5200';
-	tp_address['cl_santa-clara'] = 'vda. Santa Clara 684 (8580667)<br />Piso 15<br />Huechuraba, Santiago<br />Chile';
+	tp_address['cl_santa-clara'] = 'Av. Santa Clara 684 (8580667)<br />Huechuraba, Santiago<br />Chile';
 	tp_phone['cl_santa-clara'] = '';
 	tp_address['mx_ciudad-de-mexico'] = 'Montes Urales 424 (11000)<br />Piso 1B, Oficina 143<br />Lomas – Virreyes, CDMX<br />México';
 	tp_phone['mx_ciudad-de-mexico'] = '+52 (55) 5279-9930';
