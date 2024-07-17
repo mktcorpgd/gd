@@ -54,3 +54,9 @@ li a{display:block}
 #content .action-buttons a,.button.big,.button.big.green{background:var(--highlightColor)!important}
 #content .action-buttons a:hover,.button.big:hover,.button.big.green:hover{background:var(--subColor)!important}
 ul.qr-hint{background-size:48px 48px}
+
+
+*/Mobile*/
+@media only screen and (min-width: 768px) {
+  #content p.headline{margin-top: 80px !important;}
+}
