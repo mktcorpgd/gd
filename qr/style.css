@@ -49,7 +49,7 @@ li a{display:block}
 #content ul .role{margin:0 auto!important;padding:3px 8px;display:inline-block;width:auto;position:relative;bottom:1px;background:rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-size:70%}
 .social-container,.action-buttons{margin:10px auto 0}
 #download-vcard span,#call-now span{display:block!important}
-.action-buttons-container:nth-of-type(2) {display: none;}
+.social-container, .action-buttons-container:nth-of-type(2) {display: none;}
 
 /* Color */
 #content .action-buttons a,.button.big,.button.big.green{background:var(--highlightColor)!important}
