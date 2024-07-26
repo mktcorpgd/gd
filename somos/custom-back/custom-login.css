@@ -42,7 +42,7 @@ input[type='radio']:checked:before,input[type='checkbox']:checked:before{width:2
 .wp-core-ui .button-group.button-large .button:hover,.wp-core-ui .button.button-large:hover{background:#1F4483!important;color:#FFFFFF}
 .wp-core-ui .button-group.button-large .button:active,.wp-core-ui .button.button-large:active{background:#0E316E!important}
 .login #pass-strength-result{margin-top:10px;border:none;border-radius:6px}
-#user_login+span{margin:-1em 0 2em;color:#777777;font-size:.9em;font-style:italic}
+#user_login+span{margin:-1em 0 2em;color:#777777;font-size:.9em;line-height:1.2;font-style:italic}
 @media only screen and (min-width:800px){
 	#login{width:400px}
 }
