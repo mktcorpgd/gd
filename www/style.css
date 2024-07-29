@@ -86,7 +86,7 @@ hr.thin{margin:.5em 0;height:2px;background:rgba(0,0,0,.2);border:none;border-ra
 .fusion-loading-container .fusion-spinner-1,.fusion-loading-container .fusion-spinner-2,.fusion-loading-container .fusion-spinner-3{background:#999999}
 .white .fusion-loading-container .fusion-spinner-1,.white .fusion-loading-container .fusion-spinner-2,.white .fusion-loading-container .fusion-spinner-3{background:#FFFFFF}
 .small-shadow:not(.fusion-title){box-shadow:0 4px 24px 0 rgba(0,0,0,.2)}
-[class*='bkg-'].fusion-title>*{display:inline-block;padding:.4em .8em;border-radius:12px}
+[class*='bkg-'].fusion-title>*{display:inline-block;padding:.4em .8em!important;border-radius:12px}
 .bkg-white.fusion-title>*{background-color:#FFFFFF}
 .bkg-white2.fusion-title>*{background-color:#FAFAFA}
 #content .no-borders blockquote{border:none!important}
