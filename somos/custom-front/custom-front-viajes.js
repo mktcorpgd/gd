@@ -99,6 +99,7 @@ jQuery(document).ready(function($) {
 	// Asignar responsable según oficina
 	var gdOFFICE_mc = $('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
+	console.log(gdOFFICE_mc);
 	function assignResp() {
 		if ( gdOFFICE_mc == 'AR' ) {
 			$('input[name=RESP]').val($('input[name=RESPAR]').val());
@@ -120,6 +121,7 @@ jQuery(document).ready(function($) {
 
 
 	// Confirmación de envío según día y horario
+	console.log(gdOFFICE_mc == 'AR');
 	if ( gdOFFICE_mc == 'AR' ) {
 		const feriados = ["01-01","12-02","13-02","24-03","29-03","31-03","01-05","25-05","17-06","20-06","09-07","08-12","25-12"];
 		const ahora = new Date();
