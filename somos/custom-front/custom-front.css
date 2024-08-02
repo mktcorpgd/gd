@@ -61,7 +61,7 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 popup_poweredby,notification_time,popup_close+popup_heading{display:none!important}
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
-body:not(.logged-in) #custom_html-23,
+body:not(.logged-in) #custom_html-23,.offhours,
 /* Menú y widgets (no Kit) - Ocultamos por clase de país/oficina para luego mostrar según oficina */
 .menu .menu-item.ar,.menu .menu-item.br,.menu .menu-item.cl,.menu .menu-item.mx,.menu .menu-item.pe,.menu .menu-item.pr,.menu .menu-item.uy,.menu .menu-item.munro,.menu .menu-item.santa-clara,
 .widget.ar,.widget.br,.widget.cl,.widget.mx,.widget.pe,.widget.pr,.widget.uy,.widget.munro,.widget.santa-clara,
