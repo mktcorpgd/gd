@@ -491,9 +491,9 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
 .wpcf7 .fusion-layout-column{margin:0;position:relative}
 .wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.05em .4em;position:absolute;top:20px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px;z-index:10;pointer-events:none}
-.intl-tel-input.separate-dial-code .selected-dial-code{padding-left:0;font-size:0}
+.intl-tel-input.separate-dial-code .selected-dial-code{font-size:0}
 .intl-tel-input.separate-dial-code.allow-dropdown .selected-flag{width:auto;padding-right:10px}
-.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text]{padding-left:54px}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text]{padding-left:60px}
 .wpcf7 .fusion-layout-column:not(.no-country)>label[for='PHONE']>span:not(.wpcf7-form-control-wrap){left:80px}
 .wpcf7 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-115%) translateX(0);background:var(--whiteAltColor);color:var(--grayColor);font-size:.65em}
 .wpcf7 .fusion-layout-column.focused:not(.no-country)>label[for='PHONE']>span:not(.wpcf7-form-control-wrap){transform:translateY(-115%) translateX(-79%)}
