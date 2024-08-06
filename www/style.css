@@ -503,6 +503,8 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight:not(.wpcf7-validates-as-required){margin-top:0;padding:.4em;font-size:1.4em;text-align:center;color:var(--whiteColor);font-weight:600;background:var(--highlightColor);border:none;border-radius:64px}
 #wrapper .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight+.select-arrow{top:0;color:var(--whiteColor)!important}
 .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight:not(.wpcf7-validates-as-required):hover{background:var(--mainColor)!important}
+.wpcf7-form-control.wpcf7-recaptcha.g-recaptcha{display:block;text-align:center}
+.wpcf7-form-control.wpcf7-recaptcha.g-recaptcha>div{display:inline-block}
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
