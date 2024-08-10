@@ -374,11 +374,11 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7-form-control-wrap .check_add{float:right}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item{margin-right:0;padding-left:0}
-.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{position:relative;bottom:1px;font-size:.8rem}
+.wpcf7-form-control-wrap .check_add .wpcf7-list-item-label{position:relative;bottom:1px;font-size:.8rem!important}
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-form-control.wpcf7-checkbox,.wpcf7-form-control.wpcf7-checkbox{position:relative;top:3px}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{display:block;margin:.4em 0 .8em}
-.wpcf7 .wpcf7-list-item{margin:.25em 1em .25em 0;font-family:var(--textFont),sans-serif;font-weight:400}
+.wpcf7 .wpcf7-list-item{margin:0 1em .25em 0;display:inline-block;font-family:var(--textFont),sans-serif;font-weight:400}
 .wpcf7 .wpcf7-list-item.last{margin-right:0}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label{color:var(--metaColor);font-size:.8em}
@@ -828,7 +828,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:var(--lightgrayColor2);background:var(--lightgrayColor2);opacity:1}
 .sc-button>i,.wpcf7 button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,.wpcf7 button.small,.wpcf7 button.medium,.wpcf7 button.large,.wpcf7 button.xlarge{padding:.4em .8em;line-height:normal}
-.sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.3em .6em;font-size:.9em;border-radius:var(--smallRadius)!important}
+.sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.3em .6em;font-size:.8em;border-radius:var(--smallRadius)!important}
 .sc-button.medium,.wpcf7 button.medium{font-size:1em;font-weight:400!important}
 .sc-button.large,.wpcf7 button.large{font-size:1.2em}
 .sc-button.xlarge,.wpcf7 button.xlarge{margin-bottom:1em;font-size:1.3em}
