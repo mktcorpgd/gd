@@ -576,7 +576,9 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Ocultar en ABM:
-	jQuery('body.page-id-49605 select[name="CC_UNIT"] option:not(:contains("CL"))').hide();
+	if ( jQuery('body').hasClass('page-id-49605') ) {
+		jQuery('select[name="CC_UNIT"] option:not(:contains("CL")),select[name="CC_UNIT"] option:not(:contains("Chile"))').hide();
+	}
 	
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
