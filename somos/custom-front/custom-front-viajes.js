@@ -122,7 +122,7 @@ jQuery(document).ready(function($) {
 	// Confirmación de envío según día y horario
 	console.log(gdOFFICE_mc == 'AR');
 	if ( gdOFFICE_mc == 'AR' ) {
-		const feriados = ["01-01","12-02","13-02","24-03","29-03","31-03","01-05","25-05","17-06","20-06","09-07","08-12","25-12"];
+		const feriados = ["01-01","02-12","02-13","03-24","05-01","05-25","06-17","06-20","07-09","12-08","12-25"];
 		const ahora = new Date();
 		const diaSemana = ahora.getDay();
 		const hora = ahora.getHours();
@@ -139,15 +139,6 @@ jQuery(document).ready(function($) {
 		}
 		const enRangoHorario = estaEnRangoHorario(hora, minutos);
 		const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
-		console.log('enRangoHorario'+enRangoHorario);
-		console.log('esFinDeSemana'+esFinDeSemana);
-		console.log('esFeriado'+esFeriado);
-		console.log('ahora'+ahora);
-		console.log('diaSemana'+diaSemana);
-		console.log('hora'+hora);
-		console.log('minutos'+minutos);
-		console.log('mes'+mes);
-		console.log('dia'+dia);
 		if ( esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario) ) {
 			$('.wpcf7-response-msg.offhours').show();
 			$('.wpcf7-submit,.wpcf7-form').addClass('confirm');
