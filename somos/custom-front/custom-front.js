@@ -580,7 +580,7 @@ jQuery(document).ready(function() {
 		jQuery('select[name="CC_UNIT"] option:not(:contains("CL"))').hide();
 	}
 	if ( jQuery('body').hasClass('page-id-40285') ) {
-		jQuery('select[name="CC_UNIT"] option:not(:contains("AR"))').hide();
+		//jQuery('select[name="CC_UNIT"] option:not(:contains("AR"))').hide();
 	}
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
