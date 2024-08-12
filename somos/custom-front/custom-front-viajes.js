@@ -139,7 +139,15 @@ jQuery(document).ready(function($) {
 		}
 		const enRangoHorario = estaEnRangoHorario(hora, minutos);
 		const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
-		console.log(esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario));
+		console.log('enRangoHorario'+enRangoHorario);
+		console.log('esFinDeSemana'+esFinDeSemana);
+		console.log('esFeriado'+esFeriado);
+		console.log('ahora'+ahora);
+		console.log('diaSemana'+diaSemana);
+		console.log('hora'+hora);
+		console.log('minutos'+minutos);
+		console.log('mes'+mes);
+		console.log('dia'+dia);
 		if ( esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario) ) {
 			$('.wpcf7-response-msg.offhours').show();
 			$('.wpcf7-submit,.wpcf7-form').addClass('confirm');
