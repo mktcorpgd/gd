@@ -576,7 +576,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Ocultar en ABM:
-	jQuery('body.page-id-49605 select[name="CC_UNIT"] option:contains("CL")').hide();
+	jQuery('body.page-id-49605 select[name="CC_UNIT"] option:not(:contains("CL"))').hide();
 	
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
