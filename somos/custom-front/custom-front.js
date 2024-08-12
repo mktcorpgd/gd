@@ -573,6 +573,10 @@ jQuery(document).ready(function() {
 		var usrurl = jQuery('input[name=USRURL]').val().replace(' ','-');
 		jQuery('input[name=USRURL]').val(usrurl);
 	}
+
+
+	// FORMULARIOS - Ocultar en ABM:
+	jQuery('body.page-id-49605 select[name="CC_UNIT"] option:contains("CL")').hide();
 	
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
