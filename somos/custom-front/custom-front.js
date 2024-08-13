@@ -573,7 +573,15 @@ jQuery(document).ready(function() {
 		var usrurl = jQuery('input[name=USRURL]').val().replace(' ','-');
 		jQuery('input[name=USRURL]').val(usrurl);
 	}
-	
+
+
+	// FORMULARIOS - Ocultar en ABM:
+	if ( jQuery('body').hasClass('page-id-49605') ) {
+		jQuery('select[name="CC_UNIT"] option:not(:contains("CL"))').hide();
+	}
+	if ( jQuery('body').hasClass('page-id-40285') ) {
+		//jQuery('select[name="CC_UNIT"] option:not(:contains("AR"))').hide();
+	}
 
 	// PREGUNTAS FRECUENTES - Desplegables abiertos
 	jQuery('body.postid-49885 #content .toggle-box').show();
