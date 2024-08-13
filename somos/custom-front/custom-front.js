@@ -607,6 +607,8 @@ jQuery(document).ready(function() {
 		}
 		e.preventDefault();
 	});
+	jQuery('body.page-id-42920 #content .toggle-box').show();
+	jQuery('body.page-id-42920 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 
 	/*
 	// LATERAL - Expandir widget
