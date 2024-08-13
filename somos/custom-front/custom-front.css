@@ -414,7 +414,7 @@ body .wpcf7-validation-errors a{display:block;color:var(--whiteColor1);text-deco
 .wpcf7-response-msg a{color:var(--highlightColor)}
 .wpcf7-response-msg.info{background-color:var(--infoColor)}
 .wpcf7-response-msg.info a{color:var(--whiteColor1)}
-.wpcf7-form.invalid .wpcf7-response-output{background-color:var(--errorColor)}
+.wpcf7-form.failed .wpcf7-response-output,.wpcf7-form.invalid .wpcf7-response-output{background-color:var(--errorColor)}
 .wpcf7-form.sent .wpcf7-response-output{background-color:var(--successColor)}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:var(--errorColor)}
 .wpcf7-response-msg.warning{background-color:var(--warningColor)}
