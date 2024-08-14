@@ -414,7 +414,7 @@ body .wpcf7-validation-errors a{display:block;color:var(--whiteColor1);text-deco
 .wpcf7-response-msg a{color:var(--highlightColor)}
 .wpcf7-response-msg.info{background-color:var(--infoColor)}
 .wpcf7-response-msg.info a{color:var(--whiteColor1)}
-.wpcf7-form.invalid .wpcf7-response-output{background-color:var(--errorColor)}
+.wpcf7-form.failed .wpcf7-response-output,.wpcf7-form.invalid .wpcf7-response-output{background-color:var(--errorColor)}
 .wpcf7-form.sent .wpcf7-response-output{background-color:var(--successColor)}
 .wpcf7-response-output.alert,.wpcf7-response-alert{background-color:var(--errorColor)}
 .wpcf7-response-msg.warning{background-color:var(--warningColor)}
@@ -986,8 +986,6 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 .kit>.menu li a:hover i{color:var(--whiteColor1)}
 .kit>.menu li a:hover,.kit>.menu li a:hover:before{color:var(--whiteColor1)!important}
 .kit>.menu li a,.kit>.menu>li>ul>li>a{font-family:var(--titleFont),sans-serif}
-.kit.firmas>.menu li a{display:inline-block;border:none!important;background:var(--highlightColor);color:var(--whiteColor1)!important;box-shadow:var(--smallShadow)}
-.kit.firmas>.menu li a:hover{background:var(--subColor)}
 .kit>.menu>li>a{font-size:1.1rem;font-weight:500}
 .kit>.menu>li>ul>li>a{font-size:1rem;font-weight:400}
 .kit>.menu li>a:before{display:block;width:100%;color:var(--grayColor);font-size:3em;height:64px;font-weight:900;font-family:var(--iconFont)}
@@ -1002,6 +1000,10 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 .wp-classic-menu-block>.menu ul.sub-menu{display:block;margin:0 0 0 1em!important;height:0;position:relative;left:auto!important;opacity:0;overflow:hidden}
 .wp-classic-menu-block>.menu li.open>ul.sub-menu{margin-top:.3rem!important;height:auto;opacity:1}
 .kit.file-list>.menu li.open{margin-bottom:0!important}
+.kit.firmas ul{text-align:center}
+.kit.firmas ul li{display:inline-block}
+.kit.firmas>.menu li a{display:inline-block;border:none!important;background:var(--highlightColor);color:var(--whiteColor1)!important;box-shadow:var(--smallShadow)}
+.kit.firmas>.menu li a:hover{background:var(--subColor)}
 
 /* Footer */
 #copyright{padding:2em 1em;font-size:12px;font-family:var(--titleFont),sans-serif;color:var(--metaColor)}
