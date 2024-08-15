@@ -291,7 +291,14 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 		jQuery(this).prev('a').trigger('click');
 	});
-	
+
+
+	// CONTENIDOS - Desplegables abiertos
+	jQuery('body.postid-49885 #content .toggle-box').show();
+	jQuery('body.postid-49885 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery('body.page-id-42920 #content .toggle-box').show();
+	jQuery('body.page-id-42920 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+
 		
 	// FORMULARIOS - Atributos
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
@@ -582,13 +589,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('body').hasClass('page-id-40285') ) {
 		//jQuery('select[name="CC_UNIT"] option:not(:contains("AR"))').hide();
 	}
+	
 
-	// PREGUNTAS FRECUENTES - Desplegables abiertos
-	jQuery('body.postid-49885 #content .toggle-box').show();
-	jQuery('body.postid-49885 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-
-
-	// Desplegables
+	// LATERAL - Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();
 	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 	jQuery('#custom_html-24 .toggle-box').show();
