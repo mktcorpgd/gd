@@ -851,7 +851,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Pestañas/Filtros */
 	.fusion-filters .fusion-filter a{line-height:1.15}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
-	.fusion-tabs.horizontal-tabs .nav{position:sticky;top:96px;z-index:99}
+	.fusion-tabs.horizontal-tabs .nav{position:sticky;top:76px;z-index:99}
 	body.customize-support .fusion-tabs.horizontal-tabs .nav{top:110px}
 
 	/* Blog/Portfolio */
