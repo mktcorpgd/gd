@@ -67,7 +67,7 @@ body:not(.logged-in) #custom_html-23,.offhours,
 .widget.ar,.widget.br,.widget.cl,.widget.mx,.widget.pe,.widget.pr,.widget.uy,.widget.munro,.widget.santa-clara,
 /* Kit */
 body:not([class*='munro']):not([class*='santa-clara']) .kit.xerox,
-body[class*='munro'] .kit:not(.xerox),body[class*='santa-clara'] .kit:not(.xerox),
+body[class*='munro'] .kit:not(.xerox):not(.firmas),body[class*='santa-clara'] .kit:not(.xerox):not(.firmas),
 body:not([class*='munro']):not([class*='santa-clara']) iframe.xerox,
 body[class*='munro'] iframe:not(.xerox),body[class*='santa-clara'] iframe:not(.xerox){display:none}
 /* Menú y widgets (no Kit) - Mostramos según oficina */
