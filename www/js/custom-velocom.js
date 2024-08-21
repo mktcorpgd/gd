@@ -16,6 +16,7 @@ jQuery('.fusion-contact-info-phone-number').each(function(i) {
 // CONTENIDO - Página dinámica para servicio de internet
 var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+console.log('lugar_class='+lugar_class);
 var site_name = jQuery("meta[property='og:site_name']").attr("content");
 if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
@@ -28,6 +29,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 		jQuery('select[name="LOC"]').parents('.fusion-layout-column').addClass('focused');
 		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
+		var lugar_index = jQuery('option:selected',this).index();
 		if ( jQuery('.map iframe').length ) {
 			jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
 			jQuery('.map').show();	
