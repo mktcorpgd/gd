@@ -164,10 +164,11 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 /* Modal */
 .modal-backdrop.in{opacity:.5!important;transition:none!important}
 .modal{transition:none!important;opacity:1!important;z-index:99999;overflow:auto}
-.modal .modal-dialog{margin:60px auto 0;border-radius:12px;opacity:0;visibility:hidden}
+.modal .modal-dialog{margin:40px auto 0;border-radius:12px;opacity:0;visibility:hidden}
 .modal.in .modal-dialog{box-shadow:0 16px 32px 0 rgba(0,0,0,.4);opacity:1;visibility:visible}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
-.modal-content{padding:1.4em 1em;box-shadow:none}
+.fusion-modal .modal-dialog{max-height:calc(100% - 80px)}
+.modal-content{padding:1em;box-shadow:none}
 .modal .modal-body>h4{margin-top:0;margin-bottom:10px}
 .modal-body .fusion-fullwidth{border-radius:12px}
 .fusion-modal .modal-header{margin-bottom:.5em;min-height:auto;padding:0;border:none}
