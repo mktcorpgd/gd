@@ -428,7 +428,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 #respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.fusion-body #main .tribe-events .tribe-events-c-events-bar--border{padding:.7em .8rem;height:auto;position:relative;color:var(--textColor);border:1px solid var(--lightgrayColor);border-radius:6px;background:var(--whiteAltColor);font-weight:400;font-size:.9rem;z-index:1}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{width:100%}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.intl-tel-input{margin:.6rem 0 0}
-.wpcf7 input[type='checkbox']:not([name='_mc4wp_subscribe_contact-form-7']){float:left;margin:.4em .8em .4em 0}
+.wpcf7 input[type='checkbox']:not([name='_mc4wp_subscribe_contact-form-7']):not([name='mc4wp[]']){float:left;margin:.4em .8em .4em 0}
 .wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.65em .55rem}
 .wpcf7-checkbox.smaller{font-size:.9em}
 .intl-tel-input.allow-dropdown .flag-container,.intl-tel-input.separate-dial-code .flag-container{padding:0;z-index:99}
@@ -458,9 +458,9 @@ input[name='telsfchk[]']+.wpcf7-list-item-label{font-size:.7rem}
 .wpcf7 form .ajax-loader{background-image:none}
 .wpcf7 .wpcf7-response-output.success+a{display:block;margin:0 10px 5px;padding:5px;color:var(--whiteColor);font-weight:600;background:var(--successColor);border-top:1px solid rgba(0,0,0,.2);border-bottom-left-radius:6px;border-bottom-right-radius:6px;font-family:var(--textFont);font-style:normal;font-size:1.2em;line-height:1.4;opacity:1}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:var(--successColor);color:var(--whiteColor)}
-.mc4wp-checkbox-contact-form-7{float:left;display:block;width:100%;margin:.25em 0;font-size:.7em;text-align:center}
-.mc4wp-checkbox-contact-form-7 label{cursor:pointer}
-.mc4wp-checkbox-contact-form-7 input{display:inline-block;margin:0 .5em 0 0;position:relative;bottom:1px}
+.mc4wp-checkbox-contact-form-7,span[data-name="mc4wp"]{float:left;display:block;width:100%;margin:.25em 0;font-size:.7em;text-align:center}
+.mc4wp-checkbox-contact-form-7 label,span[data-name="mc4wp"] label{cursor:pointer}
+.mc4wp-checkbox-contact-form-7 input,span[data-name="mc4wp"] input{display:inline-block;margin:0 .5em 0 0;position:relative;bottom:1px}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
 .wpcf7-form-control-wrap{position:relative}
 div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:var(--titleFont);letter-spacing:1px;color:var(--grayColor);z-index:10}
