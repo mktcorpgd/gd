@@ -460,9 +460,9 @@ input[name='telsfchk[]']+.wpcf7-list-item-label{font-size:.7rem}
 .wpcf7 .wpcf7-response-output.success+a:hover{background:var(--successColor);color:var(--whiteColor)}
 span[data-name="mc4wp"]{font-size:.7em;text-align:center}
 span[data-name="mc4wp"] label{cursor:pointer}
-span[data-name="mc4wp"] input{display:inline-block;margin:0 .5em 0 0;position:relative;bottom:1px}
+span[data-name="mc4wp"] input{bottom:2px}
 span[data-name="mc4wp"]~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
-span[data-name="mc4wp"]+i{display:inline-block;color:var(--metaColor);font-weight:normal;cursor:pointer;padding-left:.4em;font-size:.8em}
+span[data-name="mc4wp"]+i{display:inline-block;color:var(--metaColor);font-weight:normal;cursor:pointer;padding-left:.4em;font-size:.8em;position:relative;top:1px}
 span[data-name="mc4wp"]+i:hover{color:var(--whiteAltColor)}
 .wpcf7-form-control-wrap{position:relative}
 div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:var(--titleFont);letter-spacing:1px;color:var(--grayColor);z-index:10}
