@@ -974,6 +974,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-tabs .nav ul,.fusion-filters{margin-bottom:1em}
 	body.avada-has-header-hidden .fusion-fullwidth.header-transparent{padding-top:0}
 	.fusion-text[class*='fusion-text-columns-']{column-count:1}
+	.no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:-11px}
+	.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{width:24px;height:24px}
 
 	/* Pricing */
 	.fusion-pricingtable-column .panel-container{border-radius:24px!important;border:8px solid rgba(0,0,0,.2)}
