@@ -957,6 +957,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button:not(.button-small):not(.button-xlarge){font-size:1em}
 
 	/* Content */
+	.fusion-body .header-transparent .fusion-title.fusion-title-size-one:not(.custom-size) h1,.tfs-slider .fusion-title h1,.tfs-slider .fusion-title h2{font-size:1.8rem!important}
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
 	.related-posts .fusion-carousel-title-below-image .fusion-carousel-title{font-size:1em!important}

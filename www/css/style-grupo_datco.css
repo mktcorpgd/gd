@@ -21,6 +21,7 @@ body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.
 /* Mobile */
 @media (max-width:920px) {
 	.hidden_link,#text-7 .textwidget .fusion-button i,#nav_menu-3 h4{display:none}
+	body.page-id-53273 .tfs-slider .fusion-title:not(.fusion-title-size-one){margin-top:0!important;margin-bottom:.4em!important}
 	body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title{padding:.2em .8em .2em 2em;margin-left:-2em!important}
 	body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title img{width:120px!important}
 }
