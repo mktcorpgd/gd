@@ -4,6 +4,12 @@
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
 .fusion-social-links-footer .fusion-social-networks .fusion-social-networks-wrapper:after{content:'#SocialChannel';color:#6F6F6F;font-size:.9em;font-family:var(--titleFont);position:relative;bottom:2px;right:4px}
+body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title{padding:.4em 1em .4em 3.6em;margin-left:-4em;background:#d51525;border-radius:0 68px 68px 0}
+body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.page-id-53273 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
+
+@media (min-width: 920px) {
+.tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:32%!important}
+}
 
 /* Desktop */
 @media (min-width:920px) {
@@ -14,4 +20,5 @@
 /* Mobile */
 @media (max-width:920px) {
 	.hidden_link,#text-7 .textwidget .fusion-button i,#nav_menu-3 h4{display:none}
+	body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title img{width:140px!important}
 }
