@@ -129,7 +129,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
 body.wps_page #wpbody{padding-left:5px}
-.user-tags.form-field td{display:grid;grid-template-columns:1fr 1fr 1fr}
+.form-table tr.user-tags td{display:grid;grid-template-columns:1fr 1fr 1fr}
 
 /* Primeros pasos */
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap .about-text{width:100%}
