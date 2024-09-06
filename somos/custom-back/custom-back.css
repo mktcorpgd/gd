@@ -99,7 +99,7 @@ li.wp-has-submenu.wp-has-current-submenu>a+ul{padding-top:0!important}
 .js.plugins-php .search-box .wp-filter-search{height:auto!important}
 .wp-ui-highlight{background:#0E316E;border-radius:6px}
 input[type='text'],input[type='search'],input[type='radio'],input[type='tel'],input[type='time'],input[type='url'],input[type='week'],input[type='password'],input[type='checkbox'],input[type='color'],input[type='date'],input[type='datetime'],input[type='datetime-local'],input[type='email'],input[type='month'],input[type='number'],select,textarea{border-radius:6px!important}
-input[type='checkbox']{width:auto!important;border-radius:4px!important}
+input[type='checkbox']{width:17px!important;border-radius:4px!important}
 #wpwrap #adminmenuwrap ul#adminmenu .menu-logo{margin-top:20px;opacity:1}
 #wp-auth-check-wrap #wp-auth-check{padding:0!important}
 #wp-auth-check-wrap #wp-auth-check-form{overflow:hidden!important}
