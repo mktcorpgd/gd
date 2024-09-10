@@ -5,12 +5,12 @@
 :root{--whiteColor:#FFFFFF;--textColor:#333333;--textFont:'open-sans';--titleFont:'neo-sans';}
 body:before,.clear,ul.gdpr,ul.qr-hint li.qr-hint,.social-share+p,#content p.company,#content ul li i,.button.big i,#wl-share-sms,#content .action-buttons a:first-child,a[href^='whatsapp://'],#content ul li.odd.mobile.phone-private i+span,i.map,.contact-address .subtitle,.contact-address .subtitle+br{display:none!important}
 html,body{margin:0;padding:0}
-body{background-size:cover;background-attachment:fixed!important;font-size:1.4em}
+body{background-size:cover;background-attachment:fixed!important;background-color:rgba(0,0,0,.4);background-blend-mode:multiply;font-size:1.4em}
 input,select,textarea{border-radius:12px!important;outline:none!important}
 li a{display:block}
 #content ul li,#content .action-buttons a,.button.big,.button.big.green,#content ul.social-links li a{transition:all .1s ease-in-out}
 #wrap,#wrap #main,.action-buttons-container,#footer{margin:0 auto!important}
-#wrap #main{padding-bottom:0!important;background:rgba(0,0,0,.4)}
+#wrap #main{padding-bottom:0!important}
 #content{background:none!important}
 #content .action-buttons-container{padding:0 10px 20px}
 #contact-person{padding-top:60px;background-repeat:no-repeat;background-position:center 20px;background-size:50%}
