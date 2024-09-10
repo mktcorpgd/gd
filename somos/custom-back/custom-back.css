@@ -99,7 +99,7 @@ li.wp-has-submenu.wp-has-current-submenu>a+ul{padding-top:0!important}
 .js.plugins-php .search-box .wp-filter-search{height:auto!important}
 .wp-ui-highlight{background:#0E316E;border-radius:6px}
 input[type='text'],input[type='search'],input[type='radio'],input[type='tel'],input[type='time'],input[type='url'],input[type='week'],input[type='password'],input[type='checkbox'],input[type='color'],input[type='date'],input[type='datetime'],input[type='datetime-local'],input[type='email'],input[type='month'],input[type='number'],select,textarea{border-radius:6px!important}
-input[type='checkbox']{border-radius:4px!important}
+input[type='checkbox']{width:17px!important;border-radius:4px!important}
 #wpwrap #adminmenuwrap ul#adminmenu .menu-logo{margin-top:20px;opacity:1}
 #wp-auth-check-wrap #wp-auth-check{padding:0!important}
 #wp-auth-check-wrap #wp-auth-check-form{overflow:hidden!important}
@@ -124,11 +124,12 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #your-profile .form-table input[type=date],#your-profile .form-table input[type=email],#your-profile .form-table input[type=password],#your-profile .form-table input[type=tel],#your-profile .form-table input[type=text],#your-profile .form-table select,#your-profile.form-table textarea,
 #createuser .form-table input[type=date],#createuser .form-table input[type=email],#createuser .form-table input[type=password],#createuser .form-table input[type=tel],#createuser .form-table input[type=text],#createuser .form-table select,#createuser.form-table textarea{font-size:1.3em}
 .form-table input.highlight{border:2px solid #F0582B}
-#adduser .form-field input,#createuser .form-field input,.regular-text,.form-table select,#display_name{width:18em}
+#adduser .form-field input:not([type=checkbox]),#createuser .form-field input:not([type=checkbox]),.regular-text,.form-table select,#display_name{width:18em}
 #pass-strength-result{margin-left:2.7em;width:18em}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
 body.wps_page #wpbody{padding-left:5px}
+.form-table tr.user-tags td{display:grid;grid-template-columns:1fr 1fr 1fr}
 
 /* Primeros pasos */
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap .about-text{width:100%}
@@ -192,7 +193,6 @@ html body #wpcontent{padding-left:20px!important}
 .toggle .toggle-inner p{display:block;margin:5px 0 0!important;border:0!important}
 .toggle .toggle-inner div{max-width:100%}
 .table-inner-structure{max-height:500px}
-.user-tags label+label{padding-left:20px}
 .form-table .form-required.form-invalid td:after{position:relative;bottom:2px}
 body.wp-admin.post-type-event .row-title{pointer-events:none}
 
@@ -222,4 +222,5 @@ popup_close:hover{opacity:1}
 	#adminmenuwrap:after{display:none!important}
 	.auto-fold #wpwrap:not(.wp-responsive-open) #adminmenuwrap ul#adminmenu .menu-logo{width:24px;left:6px!important}
 	.auto-fold #wpwrap.wp-responsive-open #adminmenuwrap ul#adminmenu .menu-logo{left:64px!important}
+	#your-profile .user-tags.form-field td{display:grid;grid-template-columns:1fr}
 }
