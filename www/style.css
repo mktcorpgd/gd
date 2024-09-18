@@ -38,7 +38,7 @@ body:not(.page-id-44832) #partners_footer div.swiper-slide[aria-label='1 / 27'],
 #wp-admin-bar-ate-status-bar,#wp-admin-bar-WPML_ALS .otgs-ico-help.js-otgs-popover-tooltip,#wp-admin-bar-customize,#wp-admin-bar-duplicate-post,
 body.avada-has-titlebar-hide .fusion-project-details-tb .project-info,body.avada-has-titlebar-hide .project-content .project-info,body.single-format-link .fusion-builder-row-1.no-preview img.preview,.fusion-header-sticky-height,
 body.no-future-events .menu-item.eventos,body.error404 .fusion-page-title-bar,body.error404 .error-message,body:not(.has-future-events) .eventos-menu,body.page-id-18422 .fusion-title.fusion-title-1.small-shadow{display:none!important}
-.grecaptcha-badge{visibility:hidden}
+.grecaptcha-badge,.visibility-hidden{visibility:hidden}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,.legales .panel-body span,.fusion-portfolio .more-info,.wy-hide,.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 
 /* General */
