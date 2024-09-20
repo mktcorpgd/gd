@@ -22,7 +22,6 @@ jQuery(document).on('click','.wpcf7-submit:not(.confirm)',function(e) {
 document.addEventListener('wpcf7submit', function(event) {
 	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-submit.sending').attr('name'));
 	jQuery('.sending').removeClass('sending');
-	jQuery('.sending').removeClass('sending');
 }, false);
 
 // FORMULARIOS - Respuesta afirmativa luego de enviar un form
