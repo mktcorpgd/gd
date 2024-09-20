@@ -22,6 +22,7 @@ jQuery(document).on('click','.wpcf7-submit:not(.confirm)',function(e) {
 document.addEventListener('wpcf7submit', function(event) {
 	jQuery('.wpcf7-submit.sending').val(jQuery('.wpcf7-submit.sending').attr('name'));
 	jQuery('.sending').removeClass('sending');
+	jQuery('.sending').removeClass('sending');
 }, false);
 
 // FORMULARIOS - Respuesta afirmativa luego de enviar un form
@@ -30,6 +31,13 @@ document.addEventListener('wpcf7mailsent', function(event) {
 		jQuery('input[name=PHONE]').val(jQuery('input[name=gdPHONE_mc]').val());
 		jQuery('.filledwithmap+a').hide();
 	}
+	if ( jQuery('div[data-class="wpcf7cf_group"]').length ) {
+		jQuery('div[data-class="wpcf7cf_group"]').hide();
+	}
+	const selects = document.querySelectorAll('select');
+	selects.forEach(select => {
+		select.selectedIndex = 0;
+	});
 }, false);
 
 // FORMULARIOS - Evitar que se envíe presionando tecla Enter
