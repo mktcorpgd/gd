@@ -453,6 +453,10 @@ jQuery(document).ready(function() {
 		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
 		jQuery('.wpcf7-select option').each(function(i) {
 			// General - Marcar como deshabilitado si tiene — delante (<optgroup> no disponible en CF7)
+			console.log(jQuery(this).index());
+			console.log(jQuery(this).text().length());
+			console.log(jQuery(this).text().indexOf('—'));
+			console.log(jQuery(this).text() != '—' || jQuery(this).text() != '&#xFEFF;—');
 			if ( jQuery(this).text().indexOf('—') > -1 && (jQuery(this).text() != '—' || jQuery(this).text() != '&#xFEFF;—') ) {
 				jQuery(this).attr('disabled','disabled');
 			}
