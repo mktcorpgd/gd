@@ -452,9 +452,8 @@ jQuery(document).ready(function() {
 		var id_form = jQuery('.wpcf7:first').attr('id');
 		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
 		jQuery('.wpcf7-select option').each(function(i) {
-			// General - Marcar como deshabilitado si tiene — delante (<optgroup> no disponible en CF7)
-			console.log(jQuery(this).text() == '—');
-			if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text() != '—' ) {
+			console.log(jQuery(this).text().length);
+			if ( jQuery(this).text().indexOf('—') > -1 && jQuery(this).text().length > 1 ) {
 				jQuery(this).attr('disabled','disabled');
 			}
 			// Casos de referencia - Si es formulario para enviar nuevo caso
