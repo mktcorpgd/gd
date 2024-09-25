@@ -934,6 +934,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 #wp-calendar tbody td.eo-event-cat-patrocinamos.eo-event-cat-asistimos.eo-past-date a{background:var(--lightgrayColor2);text-decoration:line-through}
 #wp-calendar tbody td.eo-event-cat-patrocinamos.eo-event-cat-otros.eo-past-date a{background:var(--lightgrayColor2);text-decoration:line-through}
 #wp-calendar tbody td.eo-event-cat-asistimos.eo-event-cat-otros.eo-past-date a{background:var(--lightgrayColor2);text-decoration:line-through}
+body.page-id-66726 .xdsoft_today,body.page-id-66726 .xdsoft_today+td,body.page-id-66726 .xdsoft_today+td+td,body.page-id-66726 .xdsoft_today+td+td+td,body.page-id-66726 .xdsoft_today+td+td+td+td,body.page-id-66726 .xdsoft_today+td+td+td+td+td,body.page-id-66726 .xdsoft_today+td+td+td+td+td+td{pointer-events:none;opacity:.6}
 
 /* Modal */
 .mfp-content .widget .widgettitle{margin-top:0;padding-top:0;font-size:1.2em}
