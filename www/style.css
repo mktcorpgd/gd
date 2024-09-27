@@ -465,7 +465,7 @@ input[name='telsfchk[]']+.wpcf7-list-item-label{font-size:.7rem}
 .mc4wp-checkbox-contact-form-7 label{cursor:pointer}
 .mc4wp-checkbox-contact-form-7 input{bottom:2px}
 .mc4wp-checkbox-contact-form-7 span{display:inline-block;padding-left:.2em}
-.mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0 1em;font-size:.8em;line-height:1}
+.mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0;font-size:.8em;line-height:1}
 .mc4wp-checkbox-contact-form-7 i{color:var(--metaColor);cursor:pointer;position:relative;top:1px}
 .mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor)}
 .wpcf7-form-control-wrap{position:relative}
@@ -484,7 +484,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
 .wpcf7-form textarea+.wpcf7-not-valid-tip{top:-11px}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}
-.wpcf7 .fusion-one-full>em{float:left;display:block;width:100%;margin:.25em 0 1em;font-size:.8em!important;line-height:1.4;text-align:center}
+.wpcf7 .fusion-one-full>em{float:left;display:block;width:100%;margin:.25em 0;font-size:.8em!important;line-height:1.4;text-align:center}
 .wpcf7 .fusion-one-full>em a:hover,.wpcf7 .wpcf7-info a{text-decoration:underline!important}
 .wpcf7-form:not(.init) div.wpcf7-response-output,.wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.tribe-events-notices{float:left;width:100%;margin:.5em auto;padding:.4em .6em;position:relative;text-align:center;border:none!important}
 .wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info{margin:.4em auto}
