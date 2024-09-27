@@ -497,7 +497,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-response-inner .menu-text.fusion-button{padding:9px 11px;font-size:1.2em;font-weight:600}
 .fusion-one-full .wpcf7-form{margin:0 auto;max-width:600px}
 .wpcf7 .fusion-layout-column{margin:0;position:relative}
-.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.05em .4em;position:absolute;top:20px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px;z-index:10;pointer-events:none}
+.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.05em .4em;position:absolute;top:18px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px;z-index:10;pointer-events:none}
 .intl-tel-input.separate-dial-code .selected-dial-code{font-size:0}
 .intl-tel-input.separate-dial-code.allow-dropdown .selected-flag{width:auto!important;padding-right:10px}
 .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text]{padding-left:60px}
@@ -950,7 +950,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 	.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 	#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
-	.wpcf7-form input[type='submit']{padding:.7rem .9rem}	
+	.wpcf7-form input[type='submit']{padding:.6em .8rem}	
 	#comment-input{grid-template-columns:1fr}
 	#comment-input .form-submit{grid-column:1}
 	.post-password-form input[type='submit']{margin-top:1em!important}
