@@ -467,7 +467,8 @@ input[name='telsfchk[]']+.wpcf7-list-item-label{font-size:.7rem}
 .mc4wp-checkbox-contact-form-7 span{display:inline-block;padding-left:.2em}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0;font-size:.8em;line-height:1}
 .mc4wp-checkbox-contact-form-7 i{color:var(--metaColor);cursor:pointer;position:relative;top:1px}
-.mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor)}
+.white .mc4wp-checkbox-contact-form-7 i{color:var(--whiteAltColor);opacity:.6}
+.mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor);opacity:1}
 .wpcf7-form-control-wrap{position:relative}
 div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:var(--titleFont);letter-spacing:1px;color:var(--grayColor);z-index:10}
 .wpcf7-free-text{margin-top:10px}
