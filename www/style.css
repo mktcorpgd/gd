@@ -73,7 +73,7 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-'],.fusion-body .fus
 .radius2x{border-radius:24px;overflow:hidden}
 .no-radius,.no-radius iframe{border:none!important;border-radius:0!important}
 .no-border,.modal-content,.tfs-slider .overlay-link{border:none!important}
-.tfs-slider .overlay,.fullwidth-box.video-background .fullwidth-overlay{margin-left:-50%;width:150%;background:radial-gradient(circle, rgba(0, 0, 0, .8) -10%, rgba(0, 0, 0, 0) 100%)!important}
+.tfs-slider .overlay,.fullwidth-box.video-background .fullwidth-overlay{margin-left:-50%;width:150%;background:radial-gradient(circle,rgba(0,0,0,.8) -10%,rgba(0,0,0,0) 100%)!important}
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .fusion-caret .fusion-dropdown-indicator:before,.fusion-main-menu-icon:after,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.awb-icon-bars:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
 .fusion-modal-text-link{cursor:pointer}
@@ -500,7 +500,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){margin:0;padding:.05em .4em;position:absolute;top:18px;left:8px;font-weight:400;font-size:.9rem;line-height:normal;color:var(--metaColor);background:rgba(0,0,0,0);border-radius:6px;z-index:10;pointer-events:none}
 .intl-tel-input.separate-dial-code .selected-dial-code{font-size:0}
 .intl-tel-input.separate-dial-code.allow-dropdown .selected-flag{width:auto!important;padding-right:10px}
-.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text]{padding-left:60px}
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input,.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=tel],.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-3 input[type=text]{padding-left:60px}
 .wpcf7 .fusion-layout-column:not(.no-country)>label[for='PHONE']>span:not(.wpcf7-form-control-wrap){left:80px}
 .wpcf7 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-115%) translateX(0);background:var(--whiteAltColor);color:var(--grayColor);font-size:.65em}
 .wpcf7 .fusion-layout-column.focused:not(.no-country)>label[for='PHONE']>span:not(.wpcf7-form-control-wrap){transform:translateY(-115%) translateX(-79%)}
