@@ -515,7 +515,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha{display:block;background:none!important;text-align:center}
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha>div{display:inline-block}
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha~.wpcf7-not-valid-tip{display:block;margin:-1em 0 2em;padding:0;position:relative;text-align:center;background:none}
-.wpcf7-form-control.wpcf7-recaptcha.g-recaptcha iframe{transform:scale(.8);border:1px solid var(--lightgrayColor)}
+.wpcf7-form-control.wpcf7-recaptcha.g-recaptcha iframe{transform:scale(.8)}
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha.wpcf7-not-valid iframe{border:1px solid var(--errorColor)}
 
 /* Botones */
