@@ -466,7 +466,8 @@ jQuery(document).ready(function() {
 				value: sending_lang,
 				readonly: 'readonly'
 			});
-			var form_id = jQuery(this).parent().parent().parent().attr('id');
+			var form_id = jQuery('this').closest('.wpcf7').attr('id');
+			console.log(form_id);
 			jQuery('#'+form_id).addClass('sending');
 			jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').addClass('sending');
 		}
