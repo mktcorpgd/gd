@@ -604,7 +604,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-pricing-table .panel-footer{padding:0 1em 1em}
 
 /* Videos */
-.wp-video-shortcode.mejs-video,.fusion-video:not(.no-radius) iframe,iframe{border:2px solid rgba(0,0,0,.2);border-radius:12px;overflow:hidden}
+.wp-video-shortcode.mejs-video,.fusion-video:not(.no-radius) iframe,iframe{border-radius:12px;overflow:hidden}
 .ilightbox-holder iframe{border:none}
 .mejs-container,.mejs-container .mejs-controls,.mejs-embed,.mejs-embed body{background:rgba(0,0,0,.4)}
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,.mejs-controls .mejs-time-rail span{border-radius:6px;overflow:hidden}
