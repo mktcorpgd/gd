@@ -7,23 +7,22 @@
 body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title{background:#D51525;border-radius:0 68px 68px 0}
 body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.page-id-53273 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
 .fusion-imageframe.xerox-badge{padding:.4em 1em .4em 11.8em;margin-left:-12em;background:#d51525;border-radius:0 68px 68px 0!important}
+.fusion-imageframe.xerox-badge img{width:150px}
   
 /* Desktop */
 @media (min-width:920px) {
 	body.page-id-39954 #pilares-4 .fusion-read-more-button{visibility:hidden;display:block;margin-top:0;width:100%;height:100%;position:absolute;top:0;left:0}
 	.pilares .fusion-column-wrapper .fusion-text{height:0;transition:all 1s ease-in-out;overflow:hidden}
-	body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title{padding:.4em 1em .4em 23.8em;margin-left:-24em}
-	body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title img{width:200px}
 	body.page-id-53273 .tfs-slider ul.slides li.slide-id-53318 .slide-content-container .slide-content{padding-right:52%!important}
 }
 
 /* Mobile */
 @media (max-width:920px) {
 	.hidden_link,#text-7 .textwidget .fusion-button i,#nav_menu-3 h4{display:none}
+	.fusion-imageframe.xerox-badge{padding:.4em 1em .4em 1.9em;margin-left:-2em}
+	.fusion-imageframe.xerox-badge img{width:120px!important}
+	.tfs-slider .slide-content-container .buttons{margin-top:.4em}
 	body.page-id-53273 .tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:32%!important}
 	body.page-id-53273 .tfs-slider .fusion-title:not(.fusion-title-size-one){margin-top:0!important;margin-bottom:.2em!important}
-	body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title{padding:.2em .8em .2em 2em;margin-left:-2em!important}
-	body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title img{width:120px!important}
-	.tfs-slider .slide-content-container .buttons{margin-top:.4em}
 	body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.page-id-53273 .fusion-filters li a{font-size:1.2rem!important}
 }
