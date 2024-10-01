@@ -6,7 +6,7 @@
 .fusion-social-links-footer .fusion-social-networks .fusion-social-networks-wrapper:after{content:'#SocialChannel';color:#6F6F6F;font-size:.9em;font-family:var(--titleFont);position:relative;bottom:2px;right:4px}
 body.page-id-53273 .tfs-slider .slide-content-container .heading .fusion-title{background:#D51525;border-radius:0 68px 68px 0}
 body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.page-id-53273 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
-.xerox-badge{padding:.4em 1em .4em 11.8em;margin-left:-12em;background:#d51525;border-radius:0 68px 68px 0!important}
+.fusion-imageframe.xerox-badge{padding:.4em 1em .4em 11.8em;margin-left:-12em;background:#d51525;border-radius:0 68px 68px 0!important}
   
 /* Desktop */
 @media (min-width:920px) {
