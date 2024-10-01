@@ -467,7 +467,6 @@ jQuery(document).ready(function() {
 				readonly: 'readonly'
 			});
 			var form_id = jQuery(this).closest('.wpcf7').attr('id');
-			console.log(form_id);
 			jQuery('#'+form_id).addClass('sending');
 			jQuery('.wpcf7.sending input,.wpcf7.sending select,.wpcf7.sending textarea').addClass('sending');
 		}
