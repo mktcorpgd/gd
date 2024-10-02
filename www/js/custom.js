@@ -45,6 +45,9 @@ jQuery(document).ready(function() {
 	if ( jQuery('#content .window').length ) {
 		jQuery('#wrapper').addClass('window');
 	}
+	if ( jQuery('#content .no-overlay').length ) {
+		jQuery('#wrapper').addClass('no-overlay');
+	}
 	if ( jQuery('.menu-item.country-flag').length ) {
 		jQuery('.menu-item.country-flag').removeClass('hidden');
 	}
