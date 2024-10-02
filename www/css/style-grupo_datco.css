@@ -5,7 +5,7 @@
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
 .fusion-social-links-footer .fusion-social-networks .fusion-social-networks-wrapper:after{content:'#SocialChannel';color:#6F6F6F;font-size:.9em;font-family:var(--titleFont);position:relative;bottom:2px;right:4px}
 body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.page-id-53273 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
-.fusion-imageframe.xerox-badge{max-width:100%!important;padding:.4em 1em .4em 31.8em;margin-left:-32em;background:#d51525;border-radius:0 68px 68px 0!important}
+.fusion-imageframe.xerox-badge{padding:.4em 1em .4em 31.8em;margin-left:-32em;background:#d51525;border-radius:0 68px 68px 0!important}
 .fusion-imageframe.xerox-badge img{width:150px}
   
 /* Desktop */
