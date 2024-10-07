@@ -170,7 +170,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .modal.in .modal-dialog{display:flex;align-items:center;align-content:center;justify-content:center;height:100%;visibility:visible;opacity:1}
 .ua-mobile .modal-open .fusion-modal .modal-dialog{height:auto}
 .fusion-modal .modal-dialog{max-height:calc(100% - 80px)}
-.modal-content{padding:1em;box-shadow:none}
+.modal-content{width:100%;padding:1em;box-shadow:none}
 .modal .modal-body>h4{margin-top:0;margin-bottom:10px}
 .modal-body .fusion-fullwidth{border-radius:12px}
 .fusion-modal .modal-header{margin-bottom:.5em;min-height:auto;padding:0;border:none}
