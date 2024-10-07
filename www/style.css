@@ -487,7 +487,7 @@ div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div
 .wpcf7-select+.wpcf7-not-valid-tip{right:16px;}
 .wpcf7-select-parent+.wpcf7-not-valid-tip{top:24px;right:32px}
 .wpcf7-radio+.wpcf7-not-valid-tip{top:20px}
-.wpcf7-phonetext-country-code+.wpcf7-not-valid-tip{top:24px}
+.wpcf7-phonetext-country-code+.wpcf7-not-valid-tip{top:22px}
 .wpcf7-validation-errors,.wpcf7-acceptance-missing{color:var(--warningColor)}
 .wpcf7-form textarea+.wpcf7-not-valid-tip{top:0}
 .wpcf7 .fusion-one-full>a i{display:inline-block;padding-right:.4em}
