@@ -1,5 +1,5 @@
 /* Global */
-:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#222222;--successColor:#419466;--warningColor:#FF9101;--errorColor:#FF5151;--infoColor:#046AB2;}
+:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#333333;--blackColor:#222222;--successColor:#419466;--warningColor:#FF9101;--errorColor:#FF5151;--xeroxColor:#D51525;--infoColor:#046AB2;}
 
 /* Menú */
 .fusion-main-menu .sub-menu .current-menu-item>a,.fusion-main-menu .sub-menu .current-menu-parent>a,.fusion-main-menu .sub-menu .current_page_item>a{background-color:transparent!important}
@@ -66,6 +66,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .wpcf7-response-inner.warning,.wpcf7 form div.wpcf7-response-output.info{background-color:var(--warningColor);color:var(--whiteColor)}
 .wpcf7 .wpcf7-form.sent .wpcf7-response-output,.wpcf7-response-inner.sent{background-color:var(--successColor);color:var(--whiteColor)}
 .wpcf7 .wpcf7-notif,.wpcf7 .wpcf7-info,.tribe-events-notices{background-color:var(--infoColor);color:var(--whiteColor)}
+.wpcf7 .wpcf7-info.xerox{background-color:var(--xeroxColor)}
 .wpcf7-response-inner .menu-text.fusion-button{background:var(--whiteColor);border-color:var(--whiteColor)}
 .wpcf7-response-inner.sent .menu-text.fusion-button{color:var(--successColor)}
 .wpcf7-response-inner.warning .menu-text.fusion-button{color:var(--warningColor)}
