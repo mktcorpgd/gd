@@ -435,7 +435,7 @@ div.wpcf7>form p{margin-top:0;margin-right:1em}
 .wpcf7 input:not([type='submit']):not([type='checkbox']):not([type='radio']),.wpcf7 textarea,#respond input:not([type='submit']),#respond textarea,#main .searchform .fusion-search-form-content .fusion-search-field input,#pac,.post-password-form label input[type='password'],.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select,.intl-tel-input{margin:.6rem 0 0}
 .wpcf7 input[type='checkbox']:not([name*='mc4wp']){float:left;margin:.4em .8em .4em 0}
 .wpcf7 input[type='checkbox'][name*='telsfchk[]']{margin-right:.4em}
-.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor);padding:.525em .55rem}
+.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{color:var(--metaColor)}
 .wpcf7-checkbox.smaller{font-size:.9em}
 .intl-tel-input.allow-dropdown .flag-container,.intl-tel-input.separate-dial-code .flag-container{padding:0;z-index:99}
 .intl-tel-input .country-list{max-height:208px;border-radius:6px}
@@ -640,7 +640,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .controls.pac-target-input.sent,.wpcf7 input:not([type='submit']).highlight.sent{border-color:var(--successColor);background:var(--successColor)!important;color:var(--whiteColor)}
 .controls.pac-target-input.sent::placeholder,.controls.pac-target-input.warning::placeholder{color:var(--whiteColor)}
 
-/* Content boxes */
+/* Cajas de íconos */
 .fusion-content-boxes .link-area-box{cursor:inherit}
 .fusion-content-boxes .link-area-box-hover{color:inherit}
 .fusion-content-boxes.content-boxes-icon-on-top .content-container,.fusion-content-boxes.no-heading .heading,.fusion-content-boxes.no-heading-title .heading{margin-bottom:0}
@@ -841,7 +841,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.tfs-slider ul.slides li.slide-id-52381 .slide-content-container .slide-content,.tfs-slider ul.slides li.slide-id-43450 .slide-content-container .slide-content{padding-right:34%}
 	.slide-id-50794 .slide-content,.slide-id-50828 .slide-content{padding-right:30%!important}
 
-	/* Content */
+	/* Contenido */
 	.width-800:not(.fusion-tabs),.width-800 .tab-content{margin-left:auto!important;margin-right:auto!important;width:800px!important}
 	.width-600{margin:0 auto!important;max-width:600px}
 	.hero-img{padding-top:3em!important;padding-bottom:3em!important}
@@ -875,7 +875,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.hover-boxes .fusion-layout-column{margin-top:-5em}
 	.hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper:hover .fusion-buttons{bottom:-20px;opacity:1}
 
-	/* Related */
+	/* Relacionados */
 	.related-posts .awb-carousel .swiper-slide{width:30%!important}
 	.related-posts .awb-carousel .swiper-slide:hover{box-shadow:0 0 12px 0 rgba(0,0,0,.6)}
 	
@@ -893,6 +893,10 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-portfolio article .more-info.open i{line-height:normal;transform:rotateX(180deg)}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;overflow:visible}
 	.fusion-portfolio .fusion-post-content p,.fusion-portfolio-layout-grid .fusion-post-content p{margin-bottom:.5em}
+
+	/* Formularios */
+	.wpcf7-form .wpcf7-select,.wpcf7-select-parent .wpcf7-select{padding:.525em .55rem}
+
 }
 
 /* Mobile */
@@ -953,7 +957,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v2 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v3 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v4 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v5 .fusion-header,.fusion-mobile-menu-design-modern.fusion-header-v7 .fusion-header{padding-top:10px;padding-bottom:10px}
 	.fusion-secondary-menu>ul>li>a{text-align:center}
 
-	/* Forms */
+	/* Formularios */
 	.wpcf7 .fusion-one-half:not(.fusion-column-last) input:not([type='submit']),.wpcf7 .fusion-one-half:not(.fusion-column-last) select,.widget select,#respond .fusion-one-half:not(.fusion-column-last) input,.wpcf7 .fusion-one-half.fusion-column-last input:not([type='submit']),.wpcf7 .fusion-one-half.fusion-column-last select,#respond .fusion-one-half.fusion-column-last input{border-radius:6px}
 	.wpcf7 .fusion-one-half select{padding:1.025em .8rem;-webkit-appearance:none;-moz-appearance:none;appearance:none}
 	.button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
@@ -968,7 +972,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.wpcf7 .fusion-layout-column>label>span:not(.wpcf7-form-control-wrap){top:21px}
 	.button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.tfs-slider .buttons a,.fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button:not(.button-small):not(.button-xlarge){font-size:1em}
 
-	/* Content */
+	/* Contenido */
 	.fusion-body .header-transparent .fusion-title.fusion-title-size-one:not(.custom-size) h1,.tfs-slider .fusion-title h1,.tfs-slider .fusion-title h2{font-size:1.8rem!important}
 	.fusion-body .pilares .fusion-title.fusion-sep-none .title-heading-right,.fusion-body .pilares .fusion-text{text-align:left}
 	body.single article>.flexslider{margin:0 -30px 30px;border-radius:0}
@@ -990,16 +994,16 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:-11px}
 	.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{width:24px;height:24px}
 
-	/* Pricing */
+	/* Precios */
 	.fusion-pricingtable-column .panel-container{border-radius:24px!important;border:8px solid rgba(0,0,0,.2)}
 
-	/* Buttons */
+	/* Botones */
 	.fusion-button-wrapper{margin:.5em 0 0!important;display:block}
 	.fusion-button-wrapper+.fusion-button-wrapper{margin:0!important}
 	.fusion-portfolio .fusion-button .fusion-button-text{font-size:1.2rem}
 	.hover-boxes .fusion-layout-column .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper .fusion-buttons{bottom:-20px;opacity:1}
 
-	/* Tabs */
+	/* Pestañas */
 	.fusion-filters{display:block}
 
 	/* Footer */
