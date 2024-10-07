@@ -16,8 +16,7 @@ html .fusion-main-menu ul li:not(.fusion-menu-item-button) a:not(.awb-justify-ti
 html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-column:not(.white) .fusion-title:not(.custom-color) *{color:var(--textColor)!important}
 
 /* Negro */
-.fusion-modal[class*='contacto-rapido'] .fusion-fullwidth,.fusion-modal[class*='contacto-rapido'] .modal-content,
-.fusion-modal[class*='empresas'] .fusion-fullwidth,.fusion-modal[class*='empresas'] .modal-content,.fusion-secondary-header{background:var(--blackColor)}
+.fusion-modal .fusion-fullwidth,.fusion-modal .modal-content,.fusion-secondary-header{background:var(--blackColor)}
 .fusion-footer-widget-area,.fusion-footer-copyright-area{background:var(--blackColor)!important}
 
 /* Principal */
