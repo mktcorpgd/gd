@@ -632,8 +632,8 @@ jQuery(document).ready(function() {
 
 
 	// FOOTER - Mover bloque de partners
-	if ( jQuery('#partners_footer').length && !jQuery('body').hasClass('page-id-45066') ) {
-		jQuery('#partners_footer').insertBefore('.fusion-footer-widget-area');
+	if ( jQuery('.partners-logos').length && !jQuery('body').hasClass('page-id-45066') ) {
+		jQuery('.partners-logos').insertBefore('.fusion-footer-widget-area');
 	}
 
 
