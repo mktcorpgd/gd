@@ -538,7 +538,7 @@ jQuery(document).ready(function() {
 	});
 
 
-	// FORMULARIOS [Merchandising] - Cambiar opción por ítem con costo según cantidad
+	/*// FORMULARIOS [Merchandising] - Cambiar opción por ítem con costo según cantidad
 	if ( jQuery('.MERCH1').length ) {
 		var obj_scosto = 0;
 		jQuery('.MERCH1 option').each(function(i) {
@@ -578,7 +578,7 @@ jQuery(document).ready(function() {
 				}
 			}
 		});
-	}
+	}*/
 
 
 	// FORMULARIOS - Reemplazar nombres de usuarios con espacio
