@@ -138,6 +138,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .fusion-widget-menu li:last-child a{border-right:none!important}
 .wpml-ls-menu-item.menu-item-has-children>a{border:none;font-size:.8em!important;text-transform:uppercase;letter-spacing:1px}
 .fusion-contact-info{line-height:1}
+.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li>a{font-family:var(--titleFont)}
 
 /* Menú - Mega */
 .fusion-megamenu-wrapper{overflow:hidden}
