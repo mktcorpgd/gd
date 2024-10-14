@@ -1,2 +1,6 @@
 /* Focus */
 :root{--mainColor:#D51525;--subColor:#D51525;--highlightColor:#D51525;}
+
+/* Header */
+#side-header .fusion-logo, .fusion-header .fusion-logo,.fusion-logo-link{margin:0!important}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img{margin-top:0;padding:1em 2em;background:var(--mainColor);border-radius: 0 0 var(--largeRadius) var(--largeRadius)}
