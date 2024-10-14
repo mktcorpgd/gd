@@ -70,7 +70,7 @@ body .fusion-events-single-title-content,.fusion-event-meta-wrapper.no-date{disp
 .tribe-events-start-time,.tribe-venue{display:inline-block;font-family:var(--titleFont);font-weight:500;font-size:1.3em}
 .fusion-content-widget-area .tribe-events-start-time .tribe-events-time-zone:before{content:' h '}
 .tribe-venue{padding-bottom:0}
-.tribe-events-venue-map>div,.fusion-body .tribe-filter-bar .tribe-filter-bar__filters-container .tribe-filter-bar-c-filter__container{border-radius:12px;background:none;border:2px solid var(--lightgrayColor);}
+.tribe-events-venue-map>div,.fusion-body .tribe-filter-bar .tribe-filter-bar__filters-container .tribe-filter-bar-c-filter__container{border-radius:12px;background:none}
 .tribe-events-single>.tribe_events>:not(.primary,.secondary,.tribe-events-related-events-title,.tribe-related-events){background-position:center 20%!important;position:relative}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-ec-hover-type.hover-type-none{position:relative}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featured-image:before{content:'';background:rgb(0,0,0);background:linear-gradient(135deg,rgba(0,0,0,.8) 0%,rgba(0,0,0,.4) 100%);width:100%;height:100%;position:absolute;left:0;z-index:0;top:0}.tribe-common--breakpoint-medium.tribe-events .tribe-events-l-container{min-height:auto;padding:0}
