@@ -2,11 +2,4 @@
 :root{--mainColor:#0E316E;--subColor:#0E316E;--highlightColor:#1F4483;}
 
 /* Header */
-#side-header .fusion-logo, .fusion-header .fusion-logo,.fusion-logo-link{margin:0!important}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img[href*='xeroxwhite']{margin-top:0;padding:1em 2em;height:auto;background:var(--xeroxColor);border-radius: 0 0 var(--largeRadius) var(--largeRadius)}
-
-/* Mobile */
-@media (max-width:920px) {
-	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img{padding:.4em .8em;width:250px}
-	body.tribe_events-template-default.avada-has-titlebar-hide .fusion-header{padding:0!important}
-}
