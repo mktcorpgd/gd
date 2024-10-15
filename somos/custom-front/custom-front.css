@@ -390,6 +390,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 label strong .wpcf7-list-item-label{font-weight:600}
 .wpcf7 input[type='checkbox'],.wpcf7 input[type='radio']{margin:0 .3em 0 0}
 .wpcf7 .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em;border-radius:var(--regularRadius)}
+.wpcf7 .highlight .wpcf7-list-item.first label{margin-left:0}
 input.inline{max-width:200px}
 input[type='number'].inline{max-width:50px}
 input.inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{border:2px solid var(--lightgrayColor2)}
@@ -397,6 +398,7 @@ input.inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{bord
 input.small{margin-top:0;font-size:.9rem}
 div.wpcf7 input[type='file']:disabled{cursor:default}
 .wpcf7 .highlight .wpcf7-list-item label input+span{color:var(--textColor)}
+.wpcf7 .highlight.wpcf7-not-valid .wpcf7-list-item label{border-color:var(--errorColor)}
 #content .wpcf7-form #qr{display:inline-block;position:absolute;top:23px;left:23px;width:82px;height:82px;border-radius:var(--xsmallRadius);border:none}
 .wpcf7-form .wpcf7-not-valid,input.inline.highlight.wpcf7-not-valid{border-color:var(--errorColor)}
 .wpcf7-not-valid .wpcf7-list-item-label{color:var(--errorColor)}
