@@ -56,7 +56,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input,
 .fusion-pricing-table .panel-wrapper:hover .fusion-panel,.ilightbox-toolbar.smooth a:hover,.hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:var(--highlightColor);color:var(--whiteColor)}
 .tribe-events-c-subscribe-dropdown__button-text{background:var(--highlightColor)!important;color:var(--whiteColor)!important}
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:none;border:2px solid rgba(255,255,255.2)!important}
+.fusion-main-menu .fusion-menu-item-button .menu-text{background:none;border:1px solid rgba(255,255,255.2)!important}
 
 /* Formularios */
 .wpcf7-captchar:hover,.wpcf7-form .wpcf7-date:hover,.wpcf7-form .wpcf7-number:hover,.wpcf7-form .wpcf7-quiz:hover,.wpcf7-form .wpcf7-select:hover,.wpcf7-select-parent .wpcf7-select:hover,.wpcf7-form .wpcf7-text:hover,.wpcf7 textarea:hover,.wpcf7 input:not([type='submit']):hover,
@@ -83,9 +83,9 @@ body .wpcf7 .wpcf7-info a,.button-default .fusion-button-text,
 #main #comment-submit:hover,#main .comment-submit:hover,.comment-form input[type='submit']:hover,
 #main #comment-submit .fusion-button-text,.comment-form input[type="submit"] .fusion-button-text,
 .fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button-wrapper+.fusion-button-wrapper .fusion-button:not(.primary) .fusion-button-text,.slide-content-container .tfs-button-2 .button-default:not(.portfolio-button):not(.primary) .fusion-button-text,.white .pagination .pagination-prev:before,.white .pagination .pagination-next:after{color:var(--whiteColor)}
-.white .pagination>a:not(.pagination-next):not(.pagination-prev){border:2px solid #FFFFFF!important;background:none;color:#FFFFFF}
+.white .pagination>a:not(.pagination-next):not(.pagination-prev){border:1px solid #FFFFFF!important;background:none;color:#FFFFFF}
 .white .pagination>a:not(.pagination-next):not(.pagination-prev):hover{background:rgba(0,0,0,.2)}
-.white .pagination .current{background:none;color:rgba(255,255,255,.4)!important;border:2px solid rgba(255,255,255,.4)!important}
+.white .pagination .current{background:none;color:rgba(255,255,255,.4)!important;border:1px solid rgba(255,255,255,.4)!important}
 html .fusion-main-menu ul li:not(.fusion-menu-item-button):hover a i,html .fusion-main-menu ul li:hover a img{color:var(--whiteColor)!important;opacity:1!important}
 .white .widget .widget-title,
 .white h1,.white h2,.white h3,.white h4,.white h5,.white h6,
@@ -104,7 +104,7 @@ html .fusion-open-submenu,
 .white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
 .white.button-default .fusion-button-text{color:var(--highlightColor)}
 .white.button-default:hover{background:var(--whiteAltColor)!important}
-.white.button-default:hover .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:var(--whiteColor);color:var(--subColor)}
+.white.button-default:hover .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:var(--whiteColor)!important;color:var(--subColor)}
 
 /* Extras */
 .fusion-reading-box-container .reading-box,
