@@ -103,7 +103,7 @@ html .fusion-open-submenu,
 .white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
 .white.button-default .fusion-button-text{color:var(--highlightColor)}
 .white.button-default:hover{background:var(--whiteAltColor)!important}
-.white.button-default:hover .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover{color:var(--subColor)}
+.white.button-default:hover .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:var(--whiteColor);color:var(--subColor)}
 
 /* Extras */
 .fusion-reading-box-container .reading-box,
