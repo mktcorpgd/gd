@@ -378,6 +378,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7-form-control-wrap.SAMEDATAPAX{display:block;margin-bottom:.3em;font-size:.8em}
 .wpcf7-form-control.wpcf7-checkbox,.wpcf7-form-control.wpcf7-checkbox{position:relative;top:3px}
 .wpcf7 .wpcf7-checkbox:not(.check_add),.wpcf7 .wpcf7-radio{display:block;margin:.4em 0 .8em}
+.wpcf7-radio.two{display:grid;grid-template-columns:1fr 1fr;grid-gap:.4em}
 .wpcf7 .wpcf7-list-item{margin:0 1em .25em 0;display:inline-block;font-family:var(--textFont),sans-serif;font-weight:400}
 .wpcf7 .wpcf7-list-item.last{margin-right:0}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
@@ -1122,4 +1123,5 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 	#post-content .ui-tabs .ui-tabs-nav li a{border-radius:var(--smallRadius)}
 	.gp-responsive .ui-tabs .ui-tabs-nav li{margin:0 .3em .4em 0!important;width:auto;border:none!important;border-radius:var(--smallRadius);box-shadow:var(--regularShadow);overflow:hidden}
 	.gp-responsive .ui-tabs .ui-tabs-nav li:last-child{margin-right:0!important}
+	.wpcf7-radio.two{grid-template-columns:1fr}
 }
