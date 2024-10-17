@@ -56,7 +56,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .wpcf7-form input[type='submit'],.fusion-menu .searchform .fusion-search-form-content .fusion-search-field input,
 .fusion-pricing-table .panel-wrapper:hover .fusion-panel,.ilightbox-toolbar.smooth a:hover,.hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button{background:var(--highlightColor);color:var(--whiteColor)}
 .tribe-events-c-subscribe-dropdown__button-text{background:var(--highlightColor)!important;color:var(--whiteColor)!important}
-.fusion-main-menu .fusion-menu-item-button .menu-text{background:none;border:2px solid rgba(255,255,255.2)}
+.fusion-main-menu .fusion-menu-item-button .menu-text{background:none;border:2px solid rgba(255,255,255.2)!important}
 
 /* Formularios */
 .wpcf7-captchar:hover,.wpcf7-form .wpcf7-date:hover,.wpcf7-form .wpcf7-number:hover,.wpcf7-form .wpcf7-quiz:hover,.wpcf7-form .wpcf7-select:hover,.wpcf7-select-parent .wpcf7-select:hover,.wpcf7-form .wpcf7-text:hover,.wpcf7 textarea:hover,.wpcf7 input:not([type='submit']):hover,
