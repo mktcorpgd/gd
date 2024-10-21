@@ -59,10 +59,12 @@ jQuery('select[name=LOC]').change(function() {
 				jQuery('.caption,.price span,.legales').hide();
 			}
 			else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
+				jQuery('.caption,.price span,.legales').show();
 				jQuery('.not-selected').hide();
 				jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 			}
 			else {
+				jQuery('.caption,.price span,.legales').show();
 				jQuery('.not-selected').removeClass('not-selected');
 				jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 				jQuery('.plan:not(.'+lugar_class+')').hide();
