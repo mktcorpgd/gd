@@ -18,16 +18,16 @@ var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
-		jQuery('.caption,.price span,.legales').hide();
+		jQuery('.caption,.price span,.legales,.not-selected').hide();
 	}
 	else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
-		jQuery('.caption,.price span,.legales').show();
-		jQuery('.not-selected').hide();
+		jQuery('.caption,.price span,.legales,.not-selected').show();
+		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
+		jQuery('.plan:not(.'+lugar_class+')').hide();
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 	}
 	else {
-		jQuery('.caption,.price span,.legales').show();
-		jQuery('.not-selected').removeClass('not-selected');
+		jQuery('.caption,.price span,.legales,.not-selected').show();
 		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 		jQuery('.plan:not(.'+lugar_class+')').hide();
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
@@ -56,17 +56,14 @@ jQuery('select[name=LOC]').change(function() {
 		}
 		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
 			if ( lugar_class == 'null' ) {
-				jQuery('.not-selected').hide();
-				jQuery('.caption,.price span,.legales').hide();
+				jQuery('.caption,.price span,.legales,.not-selected').hide();
 			}
 			else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
-				jQuery('.caption,.price span,.legales').show();
-				jQuery('.not-selected').hide();
+				jQuery('.caption,.price span,.legales,.not-selected').show();
 				jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 			}
 			else {
-				jQuery('.caption,.price span,.legales').show();
-				jQuery('.not-selected').removeClass('not-selected');
+				jQuery('.caption,.price span,.legales,.not-selected').show();
 				jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 				jQuery('.plan:not(.'+lugar_class+')').hide();
 				jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
