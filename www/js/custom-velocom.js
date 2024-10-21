@@ -23,7 +23,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,.legales').hide();
 	}
-	else if ( lugar_class == 'barrio-cerrado-country-amba' ) {
+	else if ( lugar_class == 'otro-barrio-cerrado-country-amba' ) {
 		jQuery('.not-selected').hide();
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 	}
