@@ -18,12 +18,12 @@ var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 console.log('lugar_class='+lugar_class);
 var site_name = jQuery("meta[property='og:site_name']").attr("content");
-console.log(lugar_class == 'otro-barrio-cerrado-country-amba');
+console.log(lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1);
 if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,.legales').hide();
 	}
-	else if ( lugar_class == 'otro-barrio-cerrado-country-amba' ) {
+	else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
 		jQuery('.not-selected').hide();
 		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 	}
