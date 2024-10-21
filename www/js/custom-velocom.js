@@ -56,6 +56,7 @@ jQuery('select[name=LOC]').change(function() {
 		}
 		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
 			if ( lugar_class == 'null' ) {
+				jQuery('.not-selected').hide();
 				jQuery('.caption,.price span,.legales').hide();
 			}
 			else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
