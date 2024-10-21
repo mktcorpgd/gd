@@ -25,6 +25,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 	}
 	else if ( lugar_class == 'barrio-cerrado-country-amba' ) {
 		jQuery('.not-selected').hide();
+		jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 	}
 	else {
 		jQuery('.not-selected').removeClass('not-selected');
