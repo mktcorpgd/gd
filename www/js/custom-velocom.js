@@ -46,33 +46,31 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 var doc_href = window.location.href;
 doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 jQuery('select[name=LOC]').change(function() {
-    if ( jQuery(this).val() !== 'Otro barrio cerrado - Country (AMBA)' ) {
-		var lugar_name = jQuery(this).val();
-		var lugar_index = jQuery('option:selected',this).index();
-		var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-		if ( jQuery('body').hasClass('home') ) {
-			jQuery('#cargando-btn').trigger('click');
-			document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
+	var lugar_name = jQuery(this).val();
+	var lugar_index = jQuery('option:selected',this).index();
+	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+	if ( jQuery('body').hasClass('home') ) {
+		jQuery('#cargando-btn').trigger('click');
+		document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
+	}
+	if ( jQuery('body').hasClass('single-avada_portfolio') ) {
+		if ( lugar_class == 'null' || lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
+			jQuery('.caption,.price span,.legales,.not-selected').hide();
 		}
-		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-			if ( lugar_class == 'null' || lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
-				jQuery('.caption,.price span,.legales,.not-selected').hide();
-			}
-			else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
-				jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
-			}
-			else {
-				jQuery('.caption,.price span,.legales,.not-selected').show();
-				jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-				jQuery('.plan:not(.'+lugar_class+')').hide();
-				jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
-				jQuery('select[name="LOC"]').parents('.fusion-layout-column').addClass('focused');
-				jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
-				var lugar_index = jQuery('option:selected',this).index();
-				if ( jQuery('.map iframe').length ) {
-					jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
-					jQuery('.map').show();	
-				}
+		else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
+			jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
+		}
+		else {
+			jQuery('.caption,.price span,.legales,.not-selected').show();
+			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
+			jQuery('.plan:not(.'+lugar_class+')').hide();
+			jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
+			jQuery('select[name="LOC"]').parents('.fusion-layout-column').addClass('focused');
+			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
+			var lugar_index = jQuery('option:selected',this).index();
+			if ( jQuery('.map iframe').length ) {
+				jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
+				jQuery('.map').show();	
 			}
 		}
 	}
