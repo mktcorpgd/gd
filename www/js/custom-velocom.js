@@ -55,11 +55,10 @@ jQuery('select[name=LOC]').change(function() {
 			document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
 		}
 		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-			if ( lugar_class == 'null' ) {
+			if ( lugar_class == 'null' || lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
 				jQuery('.caption,.price span,.legales,.not-selected').hide();
 			}
 			else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
-				jQuery('.caption,.price span,.legales,.not-selected').show();
 				jQuery('select[name="LOC"] option.'+lugar_class+',select[name="LOC"] option:contains('+lugar_name+')').attr('selected','selected');
 			}
 			else {
