@@ -22,6 +22,9 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,.legales').hide();
 	}
+	else if ( lugar_class == 'barrio-cerrado-country-amba' ) {
+		jQuery('.not-selected').hide();
+	}
 	else {
 		jQuery('.not-selected').removeClass('not-selected');
 		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
@@ -87,7 +90,7 @@ if ( jQuery('.address_maps').length ) {
 
 
 // velocomfibra.com.ar
-if ( jQuery('body').hasClass('postid-25656') ) {
+/*if ( jQuery('body').hasClass('postid-25656') ) {
 	
 	// MAPA DE COBERTURA
 	var map;
@@ -242,4 +245,4 @@ if ( jQuery('body').hasClass('postid-25656') ) {
 	// IMPORTANTE
 	initMap();
 
-}
+}*/
