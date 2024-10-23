@@ -581,9 +581,19 @@ jQuery(document).ready(function() {
 	});
 		
 
-
 	// FORMULARIOS - Deshabilitar opciones
 	jQuery('.prox').attr('disabled',true);
+
+
+	// FORMULARIOS - Uruguay: Tecnología
+	jQuery(document).on('click','.fusion-button.cta-uy',function(e) {
+		var data_tech = jQuery(this).attr('aria-label');
+		jQuery('select[name="TECHUY"] option:contains('+data_tech+')').prop('selected',true);
+		/*var srv_index = jQuery('select[name=TECHUY]').prop('selectedIndex');
+		if ( srv_index == 1 || srv_index == 2 ) {
+			jQuery('div[data-id="internet-velocidad"]').show();
+		}*/
+	});
 	
 
 	// SIDEBAR - Si existe link a datasheet: asignar URL
