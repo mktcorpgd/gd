@@ -52,7 +52,7 @@ jQuery('select[name=LOC]').change(function() {
 	console.log(lugar_name);
 	console.log(lugar_class);
 	if ( jQuery('body').hasClass('home') ) {
-		jQuery('#cargando-btn').trigger('click');
+		jQuery('#open-cargando').trigger('click');
 		document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
 	}
 	if ( jQuery('body').hasClass('single-avada_portfolio') ) {
@@ -74,6 +74,7 @@ jQuery('select[name=LOC]').change(function() {
 		}
 		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
 			jQuery('.caption,.price span,.legales,.not-selected').hide();
+			jQuery('#open-contacto-rapido-internet-tv').trigger('click');
 		}
 	}
 });
