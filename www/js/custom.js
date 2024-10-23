@@ -357,7 +357,7 @@ jQuery(document).ready(function() {
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
-		ctry_url = urlParams.get('ctry');
+		var ctry_url = urlParams.get('ctry');
 		jQuery('input[name="RESP"]').val(ctry_url+'@grupodatco.com');
 	}	
 	if ( jQuery('#RESPCV').length ) {
