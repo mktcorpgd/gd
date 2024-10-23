@@ -293,11 +293,11 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 
 /* Portfolio */
 .fusion-portfolio-post .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
-.fusion-portfolio-post:not(.not-collapsable) .fusion-portfolio-content{text-align:right!important}
+.fusion-portfolio:not(.not-collapsable) .fusion-portfolio-post .fusion-portfolio-content{text-align:right!important}
 .fusion-portfolio-post .fusion-portfolio-content h2{text-align:left}
 .fusion-portfolio .fusion-post-content{padding-bottom:0}
-.fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 1.5rem;position:absolute;top:-8px;font-size:0;color:transparent;z-index:10}
+.fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
 .meta-on .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem;background:var(--whiteColor);padding:.1em .4em;border-radius:var(--smallRadius);border-top:1px solid var(--lightgrayColor);position:relative;top:3px;color:var(--metaColor)}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{float:left;display:inline-block;margin-right:.4rem;width:16px;height:16px;color:transparent!important;box-shadow:0 0 0 2px rgba(0,0,0,.1);border-radius:32px;overflow:hidden;pointer-events:none;position:relative;top:-1px;background-size:100%!important}
