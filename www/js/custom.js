@@ -583,6 +583,7 @@ jQuery(document).ready(function() {
 	else {
 		country = title.split(':')[0];
 	}
+	console.log(country);
 	jQuery('input[name="CTRYSF"]').val(country);
 	jQuery(document).on('click', 'li.country', function() {
 		var title = jQuery('li.country .country-name',this).text();
