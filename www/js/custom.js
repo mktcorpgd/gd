@@ -577,7 +577,12 @@ jQuery(document).ready(function() {
 	console.log(country);
 	jQuery('input[name="CTRYSF"]').val(country);
 	jQuery(document).on('click', 'li.country', function() {
-		var country = jQuery('li.country .country-name',this).text();
+		var $this = jQuery(this);
+		var country = $this.find('.country-name').text();
+		var match = country.match(/\(([^)]+)\)/);
+		if (match) {
+			country = match[1];
+		}
 		console.log(country);
 		jQuery('input[name="CTRYSF"]').val(country);
 	});
