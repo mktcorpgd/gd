@@ -590,6 +590,7 @@ jQuery(document).ready(function() {
 		var data_tech = jQuery(this).attr('aria-label');
 		console.log(data_tech);
 		jQuery('select[name="TECHUY"] option:contains('+data_tech+')').prop('selected',true);
+		jQuery('label[for="TECHUY"]').parents('.fusion-layout-column').addClass('focused');
 		/*var srv_index = jQuery('select[name=TECHUY]').prop('selectedIndex');
 		if ( srv_index == 1 || srv_index == 2 ) {
 			jQuery('div[data-id="internet-velocidad"]').show();
