@@ -573,7 +573,7 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Asignar país según prefijo de teléfono elegido
-	var title = jQuery('li.country.active .country-name').text();
+	var title = jQuery('li.country.active:first .country-name').text();
 	var regex = /\(([^)]+)\)/;
 	var match = title.match(regex);
 	var country = '';
