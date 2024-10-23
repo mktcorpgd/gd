@@ -71,7 +71,7 @@ jQuery('select[name=LOC]').change(function() {
 					$('[name="opciones"]').val('grupo3').trigger('change'); // Cambia a Grupo 3
 				  }
 			  */
-			jQuery('select[name="LOC"]').parents('.fusion-layout-column').addClass('focused');
+			jQuery('label[for="LOC"]').parents('.fusion-layout-column').addClass('focused');
 			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 			var lugar_index = jQuery('option:selected',this).index();
 			if ( jQuery('.map iframe').length ) {
