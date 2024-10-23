@@ -258,6 +258,8 @@ body.has-sidebar #main .sidebar h3{margin-top:0}
 .fullwidth-video video{width:100vw!important}
 .swiper-autoheight,.swiper-autoheight .swiper-slide{max-width:auto!important}
 body.error404 .fusion-title.fusion-sep-none *{text-align:center!important}
+#wrapper #main .fullwidth-box .fusion-row{max-width:1140px!important}
+#wrapper #main .fullwidth-box .fusion-row>.fusion-layout-column>.fusion-column-wrapper.fusion-flex-justify-content-flex-start{margin-left:0}
 
 /* Buscador */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor);background:rgba(0,0,0,.4)}
