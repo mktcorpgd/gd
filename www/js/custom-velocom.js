@@ -49,8 +49,6 @@ jQuery('select[name=LOC]').change(function() {
 	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
 	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-	console.log(lugar_name);
-	console.log(lugar_class);
 	if ( jQuery('body').hasClass('home') ) {
 		jQuery('#open-cargando').trigger('click');
 		document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
@@ -64,6 +62,15 @@ jQuery('select[name=LOC]').change(function() {
 			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 			jQuery('.plan:not(.'+lugar_class+')').hide();
 			jQuery('select[name="LOC"]').val(lugar_name);
+			jQuery('select[name="LOC"]').each(function() {
+				jQuery(this).find('option').each(function() {
+					if (jQuery(this).val() == lugar_name) {
+						jQuery(this).attr('selected', 'selected');
+					}
+					jQuery(this).removeAttr('selected');
+				});
+				jQuery$(this).trigger('change');
+			});
 			jQuery('select[name="LOC"]').parents('.fusion-layout-column').addClass('focused');
 			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 			var lugar_index = jQuery('option:selected',this).index();
