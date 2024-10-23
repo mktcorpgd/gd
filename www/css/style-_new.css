@@ -359,7 +359,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-post-grid.has-post-thumbnail .fusion-post-slideshow+.fusion-post-content-wrapper h2 a{padding-top:1rem}
 .fusion-post-grid.has-post-thumbnail .fusion-post-slideshow+.fusion-post-content-wrapper .fusion-single-line-meta{padding-bottom:1rem}
 .fusion-portfolio-content-wrapper h2 a{padding-bottom:1rem}
-.no-link .fusion-portfolio-content-wrapper h2 a{pointer-events:none}
+.no-title-link .fusion-portfolio-content-wrapper h2 a{pointer-events:none}
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper,.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-top-left-radius:var(--regularRadius);border-top-right-radius:var(--regularRadius)}
 .fusion-image-wrapper,.fusion-portfolio-content h2{margin-bottom:0!important}
 
