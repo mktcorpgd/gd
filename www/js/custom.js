@@ -574,9 +574,11 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Asignar país según prefijo de teléfono elegido
 	var country = jQuery('li.country.active:first .country-name').text();
+	console.log(country);
 	jQuery('input[name="CTRYSF"]').val(country);
 	jQuery(document).on('click', 'li.country', function() {
 		var country = jQuery('li.country .country-name',this).text();
+		console.log(country);
 		jQuery('input[name="CTRYSF"]').val(country);
 	});
 		
