@@ -64,7 +64,7 @@ jQuery('select[name=LOC]').change(function() {
 			jQuery('.caption,.price span,.legales,.not-selected').show();
 			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 			jQuery('.plan:not(.'+lugar_class+')').hide();
-			jQuery('select[name="LOC"]').val(lugar_name);
+			jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
 			 /*   // Auto seleccionar y mostrar el grupo adecuado basado en la selección
 				if (selectedGroup === 'grupo1') {
 					$('[name="opciones"]').val('grupo1').trigger('change'); // Cambia a Grupo 1
