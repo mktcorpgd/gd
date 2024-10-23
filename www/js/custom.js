@@ -574,7 +574,10 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Asignar país según prefijo de teléfono elegido
 	var country = jQuery('li.country.active:first .country-name').text();
-	console.log(country);
+	var match = country.match(/\(([^)]+)\)/);
+	if (match) {
+		country = match[1];
+	}
 	jQuery('input[name="CTRYSF"]').val(country);
 	jQuery(document).on('click', 'li.country', function() {
 		var $this = jQuery(this);
@@ -583,7 +586,6 @@ jQuery(document).ready(function() {
 		if (match) {
 			country = match[1];
 		}
-		console.log(country);
 		jQuery('input[name="CTRYSF"]').val(country);
 	});
 		
