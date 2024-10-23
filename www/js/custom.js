@@ -212,7 +212,7 @@ jQuery(document).ready(function() {
 
 
 	// PORTFOLIO - Agregar botones en cards
-	if ( jQuery('.fusion-portfolio:not(.expanded)').length && !jQuery('.more-info').length ) {
+	if ( jQuery('.fusion-portfolio:not(.not-collapsable)').length && !jQuery('.more-info').length ) {
 		var btn_info;
 		var btn_left;
 		var btn_right
