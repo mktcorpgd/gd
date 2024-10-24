@@ -79,10 +79,10 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 			jQuery('#open-contacto-rapido').trigger('click');
 			//document.getElementById('fname').focus();
 			jQuery('#fname').off('blur');
+			jQuery('#fname').focus();
 			jQuery('#fname').focus(function() {
 				this.setSelectionRange(this.value.length, this.value.length);
 			});
-			jQuery('#fname').focus();
 		}
 	}
 });
