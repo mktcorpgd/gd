@@ -49,9 +49,6 @@ jQuery('select[name="LOC"]').off('change').change(function() {
     var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
 	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-	console.log(lugar_name);
-	console.log(lugar_index);
-	console.log(lugar_class);
 	if ( jQuery('body').hasClass('home') ) {
 		jQuery('#open-cargando').trigger('click');
 		document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
