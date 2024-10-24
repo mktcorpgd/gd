@@ -581,7 +581,6 @@ jQuery(document).ready(function() {
 	if (country === 'Brazil') {
 		country = 'Brasil';
 	}
-	console.log(country);
 	jQuery(document).on('click', 'li.country', function() {
 		var $this = jQuery(this);
 		var country = $this.find('.country-name').text();
@@ -592,7 +591,6 @@ jQuery(document).ready(function() {
 		if (country === 'Brazil') {
 			country = 'Brasil';
 		}
-		console.log(country);
 		jQuery('input[name="CTRYSF"]').val(country);
 	});
 			
