@@ -574,21 +574,28 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Asignar país según prefijo de teléfono elegido
 	var country = jQuery('li.country.active:first .country-name').text();
-	var match = country.match(/\(([^)]+)\)/);
+	var match = country.match(/^[^(]+/);  // Tomamos el valor antes de los paréntesis
 	if (match) {
-		country = match[1];
+		country = match[0].trim();  // Eliminamos posibles espacios
 	}
-	jQuery('input[name="CTRYSF"]').val(country);
+	if (country === 'Brazil') {
+		country = 'Brasil';
+	}
+	console.log(country);
 	jQuery(document).on('click', 'li.country', function() {
 		var $this = jQuery(this);
 		var country = $this.find('.country-name').text();
-		var match = country.match(/\(([^)]+)\)/);
+		var match = country.match(/^[^(]+/);  // Tomamos el valor antes de los paréntesis
 		if (match) {
-			country = match[1];
+			country = match[0].trim();  // Eliminamos posibles espacios
 		}
+		if (country === 'Brazil') {
+			country = 'Brasil';
+		}
+		console.log(country);
 		jQuery('input[name="CTRYSF"]').val(country);
 	});
-		
+			
 
 	// FORMULARIOS - Deshabilitar opciones
 	jQuery('.prox').attr('disabled',true);
