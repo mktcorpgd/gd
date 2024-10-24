@@ -77,7 +77,13 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
 			jQuery('.caption,.price span,.legales,.not-selected').hide();
 			jQuery('#open-contacto-rapido').trigger('click');
-			jQuery('#fname').focus();
+			document.getElementById('fname').focus();
+			//jQuery('#fname').focus();
+			/*
+			$('#idDelElemento').focus(function() {
+				this.setSelectionRange(this.value.length, this.value.length);
+			});
+			*/
 		}
 	}
 });
