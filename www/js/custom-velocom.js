@@ -92,7 +92,9 @@ if ( jQuery('.address_maps').length ) {
 	// FORMULARIO - Domicilio a través de Google Maps
 	inputs_address = document.getElementsByClassName('address_maps');
 	for (var i = 0; i < inputs_address.length; i++) {
-		var autocomplete = new google.maps.places.Autocomplete(inputs_address[i]);
+		var input = inputs_address[i];
+		var autocomplete = new google.maps.places.Autocomplete(input);
+		input.placeholder = '';
 		autocomplete.addListener('place_changed', function() {
 			selected = true;
 		});
