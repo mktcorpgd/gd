@@ -20,7 +20,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,.legales,.not-selected').hide();
 	}
-	else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
+	else if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
 		jQuery('.caption,.price span,.legales,.not-selected').show();
 		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 		jQuery('.plan:not(.'+lugar_class+')').hide();
@@ -68,13 +68,13 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 				jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
 				jQuery('.map').show();	
 			}
-			if ( !lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
+			if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') == -1 ) {
 				jQuery('html,body').animate({
 					scrollTop: jQuery('#precios').offset().top-96
 				}, 1000);	
 			}
 		}
-		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
+		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
 			jQuery('.caption,.price span,.legales,.not-selected').hide();
 			jQuery('#open-contacto-rapido').trigger('click');
 			jQuery('#fname').focus();
