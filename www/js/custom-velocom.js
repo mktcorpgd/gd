@@ -79,11 +79,9 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 			jQuery('#open-contacto-rapido').trigger('click');
 			document.getElementById('fname').focus();
 			//jQuery('#fname').focus();
-			/*
-			$('#idDelElemento').focus(function() {
+			jQuery('#fname').focus(function() {
 				this.setSelectionRange(this.value.length, this.value.length);
 			});
-			*/
 		}
 	}
 });
