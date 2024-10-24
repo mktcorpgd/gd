@@ -46,9 +46,11 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 var doc_href = window.location.href;
 doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 jQuery('select[name="LOC"]').off('change').change(function() {
-	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
 	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+    if (isChanging) return;
+    isChanging = true;
+    var lugar_name = jQuery(this).val();
 	console.log(lugar_name);
 	console.log(lugar_index);
 	console.log(lugar_class);
@@ -64,16 +66,8 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 			jQuery('.caption,.price span,.legales,.not-selected').show();
 			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 			jQuery('.plan:not(.'+lugar_class+')').hide();
-			jQuery('select[name="LOC"]').val(lugar_name);
-			 /*   // Auto seleccionar y mostrar el grupo adecuado basado en la selección
-				if (selectedGroup === 'grupo1') {
-					$('[name="opciones"]').val('grupo1').trigger('change'); // Cambia a Grupo 1
-				  } else if (selectedGroup === 'grupo2') {
-					$('[name="opciones"]').val('grupo2').trigger('change'); // Cambia a Grupo 2
-				  } else if (selectedGroup === 'grupo3') {
-					$('[name="opciones"]').val('grupo3').trigger('change'); // Cambia a Grupo 3
-				  }
-			  */
+			jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
+			isChanging = false;
 			jQuery('label[for="LOC"]').parents('.fusion-layout-column').addClass('focused');
 			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 			console.log(jQuery('.map iframe').length);
