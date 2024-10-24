@@ -74,7 +74,7 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 		}
 		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
 			jQuery('.caption,.price span,.legales,.not-selected').hide();
-			jQuery('#open-contacto-rapido-internet-tv').trigger('click');
+			jQuery('#open-contacto-rapido').trigger('click');
 		}
 	}
 });
