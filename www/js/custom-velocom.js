@@ -45,7 +45,7 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 // CONTENIDO - Si cambia la localidad recargar con información respectiva
 var doc_href = window.location.href;
 doc_href = doc_href.substring(0,doc_href.indexOf('?'));
-jQuery('select[name=LOC]').change(function() {
+jQuery('select[name="LOC"]').off('change').change(function() {
 	var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
 	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
@@ -64,7 +64,7 @@ jQuery('select[name=LOC]').change(function() {
 			jQuery('.caption,.price span,.legales,.not-selected').show();
 			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 			jQuery('.plan:not(.'+lugar_class+')').hide();
-			jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
+			jQuery('select[name="LOC"]').val(lugar_name);
 			 /*   // Auto seleccionar y mostrar el grupo adecuado basado en la selección
 				if (selectedGroup === 'grupo1') {
 					$('[name="opciones"]').val('grupo1').trigger('change'); // Cambia a Grupo 1
