@@ -71,9 +71,9 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 				jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
 				jQuery('.map').show();	
 			}
-			jQuery('html, body').animate({
+			jQuery('html,body').animate({
 				scrollTop: jQuery('#precios').offset().top
-			}, 1000); // 1000 es el tiempo del desplazamiento en milisegundos			
+			}, 1000);
 		}
 		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
 			jQuery('.caption,.price span,.legales,.not-selected').hide();
