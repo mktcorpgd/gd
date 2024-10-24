@@ -46,9 +46,9 @@ if ( jQuery('body').hasClass('home') || jQuery('body').hasClass('single-avada_po
 var doc_href = window.location.href;
 doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 jQuery('select[name="LOC"]').off('change').change(function() {
+    var lugar_name = jQuery(this).val();
 	var lugar_index = jQuery('option:selected',this).index();
 	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-    var lugar_name = jQuery(this).val();
 	console.log(lugar_name);
 	console.log(lugar_index);
 	console.log(lugar_class);
