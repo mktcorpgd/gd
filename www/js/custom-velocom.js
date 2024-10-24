@@ -69,7 +69,7 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 				jQuery('.map').show();	
 			}
 			jQuery('html,body').animate({
-				scrollTop: jQuery('#precios').offset().top
+				scrollTop: jQuery('#precios').offset().top-96
 			}, 1000);
 		}
 		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') >- 1 ) {
