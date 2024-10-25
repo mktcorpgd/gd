@@ -512,7 +512,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7 .fusion-layout-column:not(.no-country)>label[for='PHONE']>span:not(.wpcf7-form-control-wrap){left:80px}
 .wpcf7 .fusion-layout-column.focused>label>span:not(.wpcf7-form-control-wrap){transform:translateY(-115%) translateX(0);background:var(--whiteAltColor);color:var(--grayColor);font-size:.65em}
 .wpcf7 .fusion-layout-column.focused:not(.no-country)>label[for='PHONE']>span:not(.wpcf7-form-control-wrap){transform:translateY(-115%) translateX(-79%)}
-#wrapper .select-arrow,.avada-select-parent .select-arrow,.fusion-modal-content .select-arrow,.select2-dropdown{background:none!important;top:14px;color:var(--textColor)!important}
+#wrapper .select-arrow,.avada-select-parent .select-arrow,.fusion-modal-content .select-arrow,.select2-dropdown{background:none!important;top:11px;color:var(--textColor)!important}
 .wpcf7-select-parent .wpcf7-select:focus+.select-arrow{transform:rotateX(180deg)}
 .fusion-column-wrapper>.wpcf7-select-parent{max-width:500px;margin:0 auto}
 .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight:not(.wpcf7-validates-as-required){margin-top:0;padding:.4em;font-size:1.4em;text-align:center;color:var(--whiteColor);font-weight:600;background:var(--highlightColor);border:none;border-radius:64px}
