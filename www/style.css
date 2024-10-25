@@ -478,7 +478,6 @@ div[data-id="telsf"]{margin-bottom:-10px}
 .white .mc4wp-checkbox-contact-form-7 i{color:var(--whiteAltColor);opacity:.6}
 .mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor);opacity:1}
 .wpcf7-form-control-wrap{position:relative}
-div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:var(--titleFont);letter-spacing:1px;color:var(--grayColor);z-index:10}
 .wpcf7-free-text{margin-top:10px}
 .wpcf7-free-text:not([disabled]){display:block}
 .wpcf7-not-valid:not(.highlight):not(.wpcf7-radio),.white .fusion-layout-column .wpcf7-not-valid:not(.highlight){background:var(--whiteColor)}
