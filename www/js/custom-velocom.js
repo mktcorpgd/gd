@@ -6,120 +6,121 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){str=str.replace(/\?swcfpc=1/g,'');var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
 
 
-// HEADER - Transformar teléfonos en link:
-jQuery('.fusion-contact-info-phone-number').each(function(i) {
-	var value = jQuery(this).text();
-	jQuery(this).html('<a href="tel:'+value+'">'+value+'</a>');
-});
+// AL CARGAR
+jQuery(document).ready(function() {
 
-
-// CONTENIDO - Página dinámica para servicio de internet
-var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
-lugar_name = lugar_name.replace(/\?swcfpc=1/g,'');
-var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-	if ( lugar_class == 'null' ) {
-		jQuery('.caption,.price span,.legales,.not-selected').hide();
-	}
-	else {
-		jQuery('.caption,.price span,.legales,.not-selected').show();
-		jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-		jQuery('.plan:not(.'+lugar_class+')').hide();
-		jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
-		jQuery('label[for="LOC"]').parent().addClass('focused');
-		jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
-		if ( jQuery('.map iframe').length ) {
-			jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
-			jQuery('.map').show();	
-		}
-	}
-	if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
-		jQuery('.caption,.price span,.legales,.not-selected').hide();
-		jQuery('#open-contacto-rapido').trigger('click');
-	}
-}
-
-
-// CONTENIDO - Si cambia la localidad recargar con información respectiva
-var doc_href = window.location.href;
-doc_href = doc_href.substring(0,doc_href.indexOf('?'));
-var isChanging = false;
-jQuery('select[name="LOC"]').on('change', function() {
-    var lugar_name = jQuery(this).val();
-	lugar_name = lugar_name.replace(/\?swcfpc=1/g,'');
-	var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-	console.log(lugar_name);
-	console.log(lugar_class);
-	if ( jQuery('body').hasClass('home') ) {
-		jQuery('#open-cargando').trigger('click');
-		document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
-	}
-	if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-		if ( !isChanging ) {
-			isChanging = true;	
-			if ( lugar_class == 'null' ) {
-				jQuery('.caption,.price span,.legales,.not-selected').hide();
-			}
-			else {
-				jQuery('.caption,.price span,.legales,.not-selected').show();
-				jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-				jQuery('.plan:not(.'+lugar_class+')').hide();
-				jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
-				jQuery('label[for="LOC"]').parent().addClass('focused');
-				jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
-				if ( jQuery('.map iframe').length ) {
-					jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
-					jQuery('.map').show();	
-				}
-				if ( jQuery('body').hasClass('postid-25544') && lugar_class.indexOf('otro-barrio-cerrado---country-amba') == -1 ) {
-					jQuery('html,body').animate({
-						scrollTop: jQuery('#precios').offset().top-96
-					}, 1000);	
-				}
-			}
-			if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
-				jQuery('.caption,.price span,.legales,.not-selected').hide();
-				jQuery('#open-contacto-rapido').trigger('click');
-			}
-			isChanging = false;
-		}
-	}
-});
-jQuery('.wpcf7-select option:contains("Próximamente")').attr('disabled',true);
-
-
-// Google Maps
-if ( jQuery('.address_maps').length ) {
-
-	// FORMULARIO - Domicilio a través de Google Maps
-	inputs_address = document.getElementsByClassName('address_maps');
-	for (var i = 0; i < inputs_address.length; i++) {
-		var input = inputs_address[i];
-		if (input.getAttribute('name') === 'LOCL') {
-			input.setAttribute('placeholder','Localidad');
-		}
-		else if (input.getAttribute('name') === 'ADDRESS1') {
-			input.setAttribute('placeholder','Domicilio');
-		}
-		var autocomplete = new google.maps.places.Autocomplete(input);
-		autocomplete.addListener('place_changed', function() {
-			selected = true;
-		});
-	}
-	var selected = false;
-
-	// Limpiar campo de dirección si no se selecciona un resultado
-	jQuery('.address_maps,.pac_input').on('focus',function() {
-		selected = false;
-		var cur_value = jQuery(this).val();
-		jQuery(this).data('cur_value',cur_value);
-	}).on('blur', function() {
-		if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
-			jQuery(this).val('');
-		}
+	// HEADER - Transformar teléfonos en link:
+	jQuery('.fusion-contact-info-phone-number').each(function(i) {
+		var value = jQuery(this).text();
+		jQuery(this).html('<a href="tel:'+value+'">'+value+'</a>');
 	});
 
-}
+	// CONTENIDO - Página dinámica para servicio de internet
+	var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
+	lugar_name = lugar_name.replace(/\?swcfpc=1/g,'');
+	var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+	if ( jQuery('body').hasClass('single-avada_portfolio') ) {
+		if ( lugar_class == 'null' ) {
+			jQuery('.caption,.price span,.legales,.not-selected').hide();
+		}
+		else {
+			jQuery('.caption,.price span,.legales,.not-selected').show();
+			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
+			jQuery('.plan:not(.'+lugar_class+')').hide();
+			jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
+			jQuery('label[for="LOC"]').parent().addClass('focused');
+			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
+			if ( jQuery('.map iframe').length ) {
+				jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
+				jQuery('.map').show();	
+			}
+		}
+		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
+			jQuery('.caption,.price span,.legales,.not-selected').hide();
+			jQuery('#open-contacto-rapido').trigger('click');
+		}
+	}
+
+	// CONTENIDO - Si cambia la localidad recargar con información respectiva
+	var doc_href = window.location.href;
+	doc_href = doc_href.substring(0,doc_href.indexOf('?'));
+	var isChanging = false;
+	jQuery('select[name="LOC"]').on('change', function() {
+		var lugar_name = jQuery(this).val();
+		lugar_name = lugar_name.replace(/\?swcfpc=1/g,'');
+		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+		if ( jQuery('body').hasClass('home') ) {
+			jQuery('#open-cargando').trigger('click');
+			document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
+		}
+		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
+			if ( !isChanging ) {
+				isChanging = true;	
+				if ( lugar_class == 'null' ) {
+					jQuery('.caption,.price span,.legales,.not-selected').hide();
+				}
+				else {
+					jQuery('.caption,.price span,.legales,.not-selected').show();
+					jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
+					jQuery('.plan:not(.'+lugar_class+')').hide();
+					jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
+					jQuery('label[for="LOC"]').parent().addClass('focused');
+					jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
+					if ( jQuery('.map iframe').length ) {
+						jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
+						jQuery('.map').show();	
+					}
+					if ( jQuery('body').hasClass('postid-25544') && lugar_class.indexOf('otro-barrio-cerrado---country-amba') == -1 ) {
+						jQuery('html,body').animate({
+							scrollTop: jQuery('#precios').offset().top-96
+						}, 1000);	
+					}
+				}
+				if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
+					jQuery('.caption,.price span,.legales,.not-selected').hide();
+					jQuery('#open-contacto-rapido').trigger('click');
+				}
+				isChanging = false;
+			}
+		}
+	});
+	jQuery('.wpcf7-select option:contains("Próximamente")').attr('disabled',true);
+
+	// Google Maps
+	if ( jQuery('.address_maps').length ) {
+
+		// FORMULARIO - Domicilio a través de Google Maps
+		inputs_address = document.getElementsByClassName('address_maps');
+		for (var i = 0; i < inputs_address.length; i++) {
+			var input = inputs_address[i];
+			if (input.getAttribute('name') === 'LOCL') {
+				input.setAttribute('placeholder','Localidad');
+			}
+			else if (input.getAttribute('name') === 'ADDRESS1') {
+				input.setAttribute('placeholder','Domicilio');
+			}
+			var autocomplete = new google.maps.places.Autocomplete(input);
+			autocomplete.addListener('place_changed', function() {
+				selected = true;
+			});
+		}
+		var selected = false;
+
+		// Limpiar campo de dirección si no se selecciona un resultado
+		jQuery('.address_maps,.pac_input').on('focus',function() {
+			selected = false;
+			var cur_value = jQuery(this).val();
+			jQuery(this).data('cur_value',cur_value);
+		}).on('blur', function() {
+			if ( !selected && jQuery(this).data('cur_value') != jQuery(this).val() ) {
+				jQuery(this).val('');
+			}
+		});
+
+	}
+
+
+});
 
 
 // velocomfibra.com.ar
