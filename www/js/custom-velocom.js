@@ -96,7 +96,7 @@ if ( jQuery('.address_maps').length ) {
 	for (var i = 0; i < inputs_address.length; i++) {
 		var input = inputs_address[i];
 		var autocomplete = new google.maps.places.Autocomplete(input);
-		input.placeholder = '';
+		input.setAttribute('placeholder',a'Domicilio');
 		autocomplete.addListener('place_changed', function() {
 			selected = true;
 		});
