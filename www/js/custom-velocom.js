@@ -95,7 +95,12 @@ if ( jQuery('.address_maps').length ) {
 	inputs_address = document.getElementsByClassName('address_maps');
 	for (var i = 0; i < inputs_address.length; i++) {
 		var input = inputs_address[i];
-		input.setAttribute('placeholder','Domicilio');
+		if (input.getAttribute('name') === 'LOCL') {
+			input.setAttribute('placeholder','Localidad');
+		}
+		else if (input.getAttribute('name') === 'ADDRESS1') {
+			input.setAttribute('placeholder','Domicilio');
+		}
 		var autocomplete = new google.maps.places.Autocomplete(input);
 		autocomplete.addListener('place_changed', function() {
 			selected = true;
