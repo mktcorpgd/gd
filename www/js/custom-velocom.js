@@ -71,7 +71,7 @@ jQuery('select[name="LOC"]').on('change', function() {
 				jQuery('select[name="LOC"]').each(function() {
 					jQuery(this).val(lugar_name).trigger('change');
 				});
-						jQuery('label[for="LOC"]').parent().addClass('focused');
+				jQuery('label[for="LOC"]').parent().addClass('focused');
 				jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 				if ( jQuery('.map iframe').length ) {
 					jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
