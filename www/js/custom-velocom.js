@@ -34,11 +34,6 @@ if ( jQuery('body').hasClass('single-avada_portfolio') ) {
 			jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
 			jQuery('.map').show();	
 		}
-		if ( jQuery('body').hasClass('postid-25544') && lugar_class.indexOf('otro-barrio-cerrado---country-amba') == -1 ) {
-			jQuery('html,body').animate({
-				scrollTop: jQuery('#precios').offset().top-96
-			}, 1000);	
-		}
 	}
 	if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
 		jQuery('.caption,.price span,.legales,.not-selected').hide();
