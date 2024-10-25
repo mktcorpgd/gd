@@ -115,6 +115,7 @@ if ( jQuery('.address_maps').length ) {
 	});
 
 }
+jQuery('.address_maps,.pac_input').removeAttr('placeholder');
 
 
 // velocomfibra.com.ar
