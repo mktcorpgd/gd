@@ -50,7 +50,6 @@ doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 var isChanging = false;
 jQuery('select[name="LOC"]').on('change', function() {
     var lugar_name = jQuery(this).val();
-	var lugar_index = jQuery('option:selected',this).index();
 	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 	if ( jQuery('body').hasClass('home') ) {
 		jQuery('#open-cargando').trigger('click');
