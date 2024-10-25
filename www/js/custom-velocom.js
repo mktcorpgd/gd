@@ -15,7 +15,7 @@ jQuery('.fusion-contact-info-phone-number').each(function(i) {
 
 // CONTENIDO - Página dinámica para servicio de internet
 var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
-var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 if ( jQuery('body').hasClass('single-avada_portfolio') ) {
 	if ( lugar_class == 'null' ) {
 		jQuery('.caption,.price span,.legales,.not-selected').hide();
@@ -50,7 +50,9 @@ doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 var isChanging = false;
 jQuery('select[name="LOC"]').on('change', function() {
     var lugar_name = jQuery(this).val();
-	var lugar_class = normalize(lugar_name.toLowerCase());if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+	var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+	console.log(lugar_name);
+	console.log(lugar_class);
 	if ( jQuery('body').hasClass('home') ) {
 		jQuery('#open-cargando').trigger('click');
 		document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
