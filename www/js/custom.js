@@ -598,7 +598,6 @@ jQuery(document).ready(function() {
 	// FORMULARIOS - Uruguay: Tecnología
 	jQuery(document).on('click','.fusion-button.cta-uy',function(e) {
 		var data_tech = jQuery(this).attr('aria-label');
-		console.log(data_tech);
 		jQuery('select[name="TECHUY"] option:contains('+data_tech+')').prop('selected',true);
 		jQuery('label[for="TECHUY"]').parents('.fusion-layout-column').addClass('focused');
 		/*var srv_index = jQuery('select[name=TECHUY]').prop('selectedIndex');
