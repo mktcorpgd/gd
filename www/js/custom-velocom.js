@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
 		jQuery(this).html('<a href="tel:'+value+'">'+value+'</a>');
 	});
 
-	// CONTENIDO - Página dinámica para servicio de internet
+	// CONTENIDO - Página dinámica según LOC
 	var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 	lugar_name = lugar_name.replace(/\?swcfpc=1/g,'');
 	var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
@@ -41,7 +41,7 @@ jQuery(document).ready(function() {
 		}
 	}
 
-	// CONTENIDO - Si cambia la localidad recargar con información respectiva
+	// CONTENIDO - Si cambia LOC
 	var doc_href = window.location.href;
 	doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 	var isChanging = false;
