@@ -61,6 +61,7 @@ jQuery('select[name="LOC"]').off('change').change(function() {
 			jQuery('.caption,.price span,.legales,.not-selected').show();
 			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 			jQuery('.plan:not(.'+lugar_class+')').hide();
+			console.log(lugar_name);
 			jQuery('#wpcf7-f25235-p25544-o2 select[name="LOC"]').val(lugar_name).trigger('change');
 			jQuery('label[for="LOC"]').parents('.fusion-layout-column').addClass('focused');
 			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
