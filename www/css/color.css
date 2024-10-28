@@ -73,6 +73,10 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .wpcf7-response-inner.warning .menu-text.fusion-button{color:var(--warningColor)}
 .wpcf7-spam{background-color:var(--warningColor);color:var(--whiteColor)}
 #content .wpcf7-response-inner .menu-text.fusion-button:hover{color:var(--whiteColor);background:none}
+.white .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha~.wpcf7-not-valid-tip{color:var(--whiteColor)}
+.wpcf7-form-control.wpcf7-recaptcha.g-recaptcha.wpcf7-not-valid iframe{border:1px solid var(--errorColor)}
+input.wpcf7-not-valid,input.wpcf7-not-valid:out-of-range{border-width:1px!important;border-color:var(--errorColor)!important}
+input.filled{border-width:1px!important;border-color:var(--successColor)!important}
 
 /* Blanco */
 body .wpcf7 .wpcf7-info a,.button-default .fusion-button-text,

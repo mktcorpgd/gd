@@ -522,10 +522,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha{display:block;background:none!important;text-align:center}
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha>div{display:inline-block}
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha~.wpcf7-not-valid-tip{display:block;margin:-1em 0 2em;padding:0;position:relative;text-align:center;background:none}
-.white .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha~.wpcf7-not-valid-tip{color:var(--whiteColor)}
 .wpcf7-form-control.wpcf7-recaptcha.g-recaptcha iframe{transform:scale(.8);border:1px solid transparent}
-.wpcf7-form-control.wpcf7-recaptcha.g-recaptcha.wpcf7-not-valid iframe{border:1px solid var(--errorColor)}
-.invalid input.wpcf7-not-valid:not([type='submit']),input.wpcf7-not-valid:out-of-range{border-width:1px!important;border-color:var(--errorColor)!important}
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
