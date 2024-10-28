@@ -44,8 +44,6 @@ jQuery(document).ready(function() {
 	}
 
 	// CONTENIDO - Si cambia LOC
-	var doc_href = window.location.href;
-	doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 	var isChanging = false;
 	jQuery('select[name="LOC"]').on('change', function() {
 		var lugar_name = jQuery(this).val();
@@ -53,6 +51,8 @@ jQuery(document).ready(function() {
 		console.log(lugar_name);
 		console.log(lugar_class);
 		if ( jQuery('body').hasClass('home') ) {
+			var doc_href = window.location.href;
+			doc_href = doc_href.substring(0,doc_href.indexOf('?'));
 			jQuery('#open-cargando').trigger('click');
 			if ( jQuery(this).hasClass('inalambrico') ) {
 				document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
