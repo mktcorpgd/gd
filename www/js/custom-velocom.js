@@ -51,6 +51,7 @@ jQuery(document).ready(function() {
 		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 		if ( jQuery('body').hasClass('home') ) {
 			jQuery('#open-cargando').trigger('click');
+			console.log(jQuery(this).hasClass('inalambrico'));
 			if ( jQuery(this).hasClass('inalambrico') ) {
 				document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
 			}
