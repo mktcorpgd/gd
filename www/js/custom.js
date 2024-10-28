@@ -453,6 +453,7 @@ jQuery(document).ready(function() {
 		if ( attr_name.indexOf('mc4wp-') > -1 ) {
 			attr_name = attr_name.substring(6,attr_name.length);
 		}
+		jQuery('input[name="'+attr_name+'"]').parents('.fusion-layout-column').addClass('focused');
 		jQuery('input[name="'+attr_name+'"]').val(jQuery(this).val());
 	});
 
