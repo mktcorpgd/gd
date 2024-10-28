@@ -49,8 +49,9 @@ jQuery(document).ready(function() {
 	var isChanging = false;
 	jQuery('select[name="LOC"]').on('change', function() {
 		var lugar_name = jQuery(this).val();
-		lugar_name = lugar_name.replace(/\?swcfpc=1/g,'');
 		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+		console.log(lugar_name);
+		console.log(lugar_class);
 		if ( jQuery('body').hasClass('home') ) {
 			jQuery('#open-cargando').trigger('click');
 			console.log(lugar_name);
