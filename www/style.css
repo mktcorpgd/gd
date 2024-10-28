@@ -459,7 +459,7 @@ div.wpcf7 input[type='file']:disabled,div.wpcf7 .wpcf7-submit:disabled{cursor:de
 .wpcf7-list-item.last{margin-right:0}
 .wpcf7-list-item-label{cursor:pointer}
 input[name='telsfchk[]']+.wpcf7-list-item-label{position:relative;top:-2px;font-size:.7rem}
-div[data-id="telsf"]{margin-bottom:-10px}
+div[data-id="telsf"]{margin-bottom:-8px}
 .wpcf7 textarea,#respond textarea{height:57px}
 .wpcf7-form input[disabled],.wpcf7-form select[disabled],.wpcf7-form textarea[disabled]{opacity:.4}
 .wpcf7.sending,.wpcf7 input.sending,.wpcf7 select.sending,.wpcf7 input.sending{cursor:wait}
