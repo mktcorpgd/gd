@@ -98,7 +98,12 @@ jQuery(document).ready(function() {
 					jQuery('.caption,.price span,.legales,.not-selected').show();
 					jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 					jQuery('.plan:not(.'+lugar_class+')').hide();
-					jQuery('select[name="LOC"]').val(lugar_name);
+					if ( jQuery(this).hasClass('inalambrico') ) {
+						jQuery('select[name="LOC"]').val(lugar_name);
+					}
+					else {
+						jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
+					}		
 					jQuery('label[for="LOC"]').parent().addClass('focused');
 					jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 					if ( jQuery('.map iframe').length ) {
