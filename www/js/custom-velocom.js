@@ -45,7 +45,7 @@ jQuery(document).ready(function() {
 
 	// CONTENIDO - Si cambia LOC
 	var isChanging = false;
-	jQuery('select[name="LOC"]').off('change').on('change', function() {
+	jQuery('select[name="LOC"]').on('change', function() {
 		var lugar_name = jQuery(this).val();
 		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 		console.log(lugar_name);
