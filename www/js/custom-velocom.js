@@ -72,7 +72,7 @@ jQuery(document).ready(function() {
 
 	// CONTENIDO - Si cambia LOC
 	var isChanging = false;
-	jQuery('select[name="LOC"]').off('change').on('change', function() {
+	jQuery('select[name="LOC"]').on('change', function() {
 		var lugar_name = jQuery(this).val();
 		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 		console.log(lugar_name);
@@ -98,7 +98,7 @@ jQuery(document).ready(function() {
 					jQuery('.caption,.price span,.legales,.not-selected').show();
 					jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 					jQuery('.plan:not(.'+lugar_class+')').hide();
-					jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
+					jQuery('select[name="LOC"]').val(lugar_name);
 					jQuery('label[for="LOC"]').parent().addClass('focused');
 					jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 					if ( jQuery('.map iframe').length ) {
