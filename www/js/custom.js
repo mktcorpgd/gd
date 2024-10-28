@@ -448,8 +448,11 @@ jQuery(document).ready(function() {
 	jQuery('input[name*="FNAME"],input[name*="LNAME"],input[name*="ROLE"]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
-	jQuery('.wpcf7 input[type="TEXT"]').on('input',function (e) {
+	jQuery('.wpcf7 input[type="text"],.wpcf7 input[type="email"]').on('input',function (e) {
 		var attr_name = jQuery(this).attr('name');
+		if ( attr_name.indexOf('mc4wp-') > -1 ) {
+			attr_name = attr_name.substring(6,attr_name.length);
+		}
 		jQuery('input[name="'+attr_name+'"]').val(jQuery(this).val());
 	});
 
