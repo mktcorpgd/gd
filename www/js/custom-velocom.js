@@ -3,7 +3,7 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 
 
 // GENERAL - Función para normalizar textos
-var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
+var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){str=str.replace(/\?swcfpc=1/g,'');var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
 
 
 // AL CARGAR
@@ -19,6 +19,8 @@ jQuery(document).ready(function() {
 	var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
 	lugar_name = lugar_name.replace(/\?swcfpc=1/g,'').replace(/\+/g,' ');
 	var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+	console.log(lugar_name);
+	console.log(lugar_class);
 	if ( jQuery('body').hasClass('single-avada_portfolio') ) {
 		if ( lugar_class == 'null' ) {
 			jQuery('.caption,.price span,.legales,.not-selected').hide();
@@ -27,7 +29,7 @@ jQuery(document).ready(function() {
 			jQuery('.caption,.price span,.legales,.not-selected').show();
 			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
 			jQuery('.plan:not(.'+lugar_class+')').hide();
-			jQuery('select[name="LOC"]').val(lugar_name);
+			jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
 			jQuery('label[for="LOC"]').parent().addClass('focused');
 			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
 			if ( jQuery('.map iframe').length ) {
@@ -47,6 +49,7 @@ jQuery(document).ready(function() {
 	var isChanging = false;
 	jQuery('select[name="LOC"]').on('change', function() {
 		var lugar_name = jQuery(this).val();
+		lugar_name = lugar_name.replace(/\?swcfpc=1/g,'');
 		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 		if ( jQuery('body').hasClass('home') ) {
 			jQuery('#open-cargando').trigger('click');
