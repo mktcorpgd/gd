@@ -6,6 +6,33 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
 
 
+// GENERAL - Actualizar contenido según LOC
+function updateContent(lugar_name, lugar_class) {
+    console.log(lugar_name);
+    console.log(lugar_class);
+    if (jQuery('body').hasClass('single-avada_portfolio')) {
+        if (lugar_class === 'null') {
+            jQuery('.caption,.price span,.legales,.not-selected').hide();
+        } else {
+            jQuery('.caption,.price span,.legales,.not-selected').show();
+            jQuery('div:not(.not-selected) .' + lugar_class + '+.not').hide();
+            jQuery('.plan:not(.' + lugar_class + ')').hide();
+            jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
+            jQuery('label[for="LOC"]').parent().addClass('focused');
+            jQuery('div:not(.not-selected) .' + lugar_class + ', .tfs-slider span.' + lugar_class + ', .caption span.' + lugar_class + ', .legales .panel-body span.' + lugar_class + ', .legales .cur_month, .legales .cur_year, .legales .last_day, .step2').show();
+            if (jQuery('.map iframe').length) {
+                jQuery('.map iframe').attr('src', 'https://www.velocom.com.ar/_velocom/cobertura/' + lugar_class);
+                jQuery('.map').show();
+            }
+        }
+        if (lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1) {
+            jQuery('.caption,.price span,.legales,.not-selected').hide();
+            jQuery('#open-contacto-rapido').trigger('click');
+        }
+    }
+}
+
+
 // AL CARGAR
 jQuery(document).ready(function() {
 
@@ -21,27 +48,7 @@ jQuery(document).ready(function() {
 	var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
 	console.log(lugar_name);
 	console.log(lugar_class);
-	if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-		if ( lugar_class == 'null' ) {
-			jQuery('.caption,.price span,.legales,.not-selected').hide();
-		}
-		else {
-			jQuery('.caption,.price span,.legales,.not-selected').show();
-			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-			jQuery('.plan:not(.'+lugar_class+')').hide();
-			jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
-			jQuery('label[for="LOC"]').parent().addClass('focused');
-			jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
-			if ( jQuery('.map iframe').length ) {
-				jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
-				jQuery('.map').show();	
-			}
-		}
-		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
-			jQuery('.caption,.price span,.legales,.not-selected').hide();
-			jQuery('#open-contacto-rapido').trigger('click');
-		}
-	}
+	updateContent(lugar_name, lugar_class);
 
 	// CONTENIDO - Si cambia LOC
 	var isChanging = false;
@@ -61,36 +68,7 @@ jQuery(document).ready(function() {
 				document.location = doc_href+'/servicio/internet-fibra-optica/?lugar='+lugar_name;
 			}
 		}
-		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-			if ( !isChanging ) {
-				isChanging = true;	
-				if ( lugar_class == 'null' ) {
-					jQuery('.caption,.price span,.legales,.not-selected').hide();
-				}
-				else {
-					jQuery('.caption,.price span,.legales,.not-selected').show();
-					jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-					jQuery('.plan:not(.'+lugar_class+')').hide();
-					jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
-					jQuery('label[for="LOC"]').parent().addClass('focused');
-					jQuery('div:not(.not-selected) .'+lugar_class+',.tfs-slider span.'+lugar_class+',.caption span.'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
-					if ( jQuery('.map iframe').length ) {
-						jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
-						jQuery('.map').show();	
-					}
-					if ( jQuery('body').hasClass('postid-25544') && lugar_class.indexOf('otro-barrio-cerrado---country-amba') == -1 ) {
-						jQuery('html,body').animate({
-							scrollTop: jQuery('#precios').offset().top-96
-						}, 1000);
-					}
-				}
-				if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
-					jQuery('.caption,.price span,.legales,.not-selected').hide();
-					jQuery('#open-contacto-rapido').trigger('click');
-				}
-				isChanging = false;
-			}
-		}
+		updateContent(lugar_name, lugar_class);
 	});
 	jQuery('.wpcf7-select option:contains("Próximamente")').attr('disabled',true);
 
