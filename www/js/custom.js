@@ -448,6 +448,10 @@ jQuery(document).ready(function() {
 	jQuery('input[name*="FNAME"],input[name*="LNAME"],input[name*="ROLE"]').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
+	jQuery('.wpcf7 input[type="TEXT"]').on('input',function (e) {
+		var attr_name = jQuery(this).attr('name');
+		jQuery('input[name="'+attr_name+'"]').val(jQuery(this).val());
+	});
 
 
 	// FORMULARIOS - Deshabilitar botón para enviar formulario una vez presionado
