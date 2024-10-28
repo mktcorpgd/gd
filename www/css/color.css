@@ -18,6 +18,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 /* Negro */
 .fusion-modal .fusion-fullwidth,.fusion-modal .modal-content,.fusion-secondary-header{background:var(--blackColor)}
 .fusion-footer-widget-area,.fusion-footer-copyright-area{background:var(--blackColor)!important}
+.fusion-modal.modal.xerox.in,.fusion-modal.modal.trabajo.in{background:rgba(0,0,0,.4)}
 
 /* Principal */
 .fusion-accordian:not(.white) .panel-heading .panel-title a .fusion-toggle-heading,.fusion-accordian:not(.white) .panel-heading .panel-title a.active .fusion-toggle-heading,
