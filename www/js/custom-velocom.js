@@ -54,7 +54,6 @@ jQuery(document).ready(function() {
 		console.log(lugar_class);
 		if ( jQuery('body').hasClass('home') ) {
 			jQuery('#open-cargando').trigger('click');
-			console.log(lugar_name);
 			if ( jQuery(this).hasClass('inalambrico') ) {
 				document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
 			}
