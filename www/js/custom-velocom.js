@@ -90,6 +90,9 @@ jQuery('select[name="LOC"]').on('change', function() {
 				if ( jQuery(this).hasClass('highlight') ) {
 					jQuery('.wpcf7 select[name="LOC"]').val(lugar_name).trigger('change');
 				}
+				else {
+					jQuery('select.highlight[name="LOC"]').val(lugar_name);
+				}
 				jQuery('label[for="LOC"]').parent().addClass('focused');
 				if (jQuery('.map iframe').length) {
 					jQuery('.map iframe').attr('src', 'https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
