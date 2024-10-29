@@ -51,7 +51,6 @@ jQuery(document).ready(function() {
 	// CONTENIDO - Si cambia LOC
 // CONTENIDO - Si cambia LOC
 var isChanging = false;
-
 jQuery('select[name="LOC"]').on('change', function() {
     if (!isChanging) {
         isChanging = true;
@@ -63,27 +62,30 @@ jQuery('select[name="LOC"]').on('change', function() {
             var doc_href = window.location.href;
             doc_href = doc_href.substring(0, doc_href.indexOf('?'));
             jQuery('#open-cargando').trigger('click');
-            if (jQuery(this).hasClass('inalambrico')) {
+            if ( jQuery(this).hasClass('inalambrico') ) {
                 document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
             } else {
                 document.location = doc_href+'/servicio/internet-fibra-optica/?lugar='+lugar_name;
             }
         }
-        if (jQuery('body').hasClass('single-avada_portfolio')) {
-            if (lugar_class === 'null') {
-                jQuery('.price span, .legales, .not-selected').hide();
-            } else {
-                jQuery('.price span, .legales, .not-selected').show();
-                if ( !jQuery(this).hasClass('inalambrico') ) {
+        if ( jQuery('body').hasClass('single-avada_portfolio') ) {
+            if ( lugar_class === 'null' ) {
+                jQuery('.price span,.legales,.not-selected').hide();
+            }
+			else {
+                jQuery('.price span,.not-selected').show();
+                if ( jQuery(this).hasClass('inalambrico') ) {
+					jQuery('.legales,.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day').show();
+                }
+				else {
                     jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
                     jQuery('.plan:not(.'+lugar_class+')').hide();
                     jQuery('div:not(.not-selected) .'+lugar_class).show();
-                }
+				}
 				if ( jQuery(this).hasClass('highlight') ) {
 					jQuery('.wpcf7 select[name="LOC"]').val(lugar_name).trigger('change');
 				}
 				jQuery('label[for="LOC"]').parent().addClass('focused');
-                jQuery('.legales .panel-body span.'+lugar_class+', .legales .cur_month, .legales .cur_year, .legales .last_day').show();
                 if (jQuery('.map iframe').length) {
                     jQuery('.map iframe').attr('src', 'https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
                     jQuery('.map').show();    
