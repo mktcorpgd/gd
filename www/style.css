@@ -257,7 +257,10 @@ body.has-sidebar #main .sidebar h3{margin-top:0}
 .fullwidth-video video{width:100vw!important}
 .swiper-autoheight,.swiper-autoheight .swiper-slide{max-width:auto!important}
 body.error404 .fusion-title.fusion-sep-none *{text-align:center!important}
-.fusion-countdown .fusion-dash{background:none;font-family:var(--titleFont);font-size:1.4em}
+.fusion-countdown .fusion-dash{background:var(--mainColor);border-radius:var(--regularRadius);font-family:var(--titleFont)}
+.fusion-countdown .fusion-dash,.fusion-countdown .fusion-dash-title{font-size:1.4rem}
+.fusion-countdown .fusion-digit-wrapper{font-weight:400}
+.fusion-countdown .fusion-dash-title{font-weight:500}
 
 /* Buscador */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor);background:rgba(0,0,0,.4)}
