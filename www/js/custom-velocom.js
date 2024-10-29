@@ -91,7 +91,7 @@ jQuery('select[name="LOC"]').on('change', function() {
 					jQuery('.wpcf7 select[name="LOC"]').val(lugar_name).trigger('change');
 				}
 				else {
-					jQuery('select.highlight[name="LOC"]').val(lugar_name);
+					jQuery('select[name="LOC"]').val(lugar_name);
 				}
 				jQuery('label[for="LOC"]').parent().addClass('focused');
 				if (jQuery('.map iframe').length) {
