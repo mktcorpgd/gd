@@ -104,12 +104,12 @@ jQuery('select[name="LOC"]').on('change', function() {
 					}, 1000);
 				}
 			}
-			if (lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1) {
-				jQuery('.caption, .price span, .legales, .not-selected').hide();
+			if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
+				jQuery('.price span,.legales,.not-selected').hide();
 				jQuery('#open-contacto-rapido').trigger('click');
 			}
         }
-        isChanging = false;  // Restablece la variable al final del proceso
+        isChanging = false;
     }
 });
 	jQuery('.wpcf7-select option:contains("Próximamente")').attr('disabled',true);
