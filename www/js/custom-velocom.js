@@ -1,5 +1,8 @@
 // GENERAL - Función para obtener variables GET
-jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
+jQuery.getPrm = function(name) {
+    var results = new RegExp('[?&]' + name + '=([^&#]*)').exec(window.location.href);
+    return results ? decodeURIComponent(results[1]) : null; // Cambiar para que devuelva null si no se encuentra
+}
 
 
 // GENERAL - Función para normalizar textos
@@ -16,86 +19,91 @@ jQuery(document).ready(function() {
 	});
 
 	// CONTENIDO - Página dinámica según LOC
-	var lugar_name = decodeURIComponent(jQuery.getPrm('lugar'));
-	lugar_name = lugar_name.replace(/\?swcfpc=1/g,'').replace(/\+/g,' ');
-	var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
-	console.log(lugar_name);
-	console.log(lugar_class);
-	if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-		if ( lugar_class == 'null' ) {
-			jQuery('.price span,.legales,.not-selected').hide();
-		}
-		else {
-			jQuery('.price span,.legales,.not-selected').show();
-			jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-			jQuery('.plan:not(.'+lugar_class+')').hide();
-			jQuery('select[name="LOC"]').val(lugar_name);
-			jQuery('label[for="LOC"]').parent().addClass('focused');
-			jQuery('div:not(.not-selected) .'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
-			if ( jQuery('.map iframe').length ) {
-				jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
-				jQuery('.map').show();	
+	var lugar_name = jQuery.getPrm('lugar');
+	if (lugar_name) {
+		lugar_name = decodeURIComponent(lugar_name).replace(/\?swcfpc=1/g, '').replace(/\+/g, ' ');
+		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+		console.log(lugar_name);
+		console.log(lugar_class);
+		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
+			if ( lugar_class == 'null' ) {
+				jQuery('.price span,.legales,.not-selected').hide();
+			}
+			else {
+				jQuery('.price span,.legales,.not-selected').show();
+				jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
+				jQuery('.plan:not(.'+lugar_class+')').hide();
+				jQuery('select[name="LOC"]').val(lugar_name);
+				jQuery('label[for="LOC"]').parent().addClass('focused');
+				jQuery('div:not(.not-selected) .'+lugar_class+',.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day,.step2').show();
+				if ( jQuery('.map iframe').length ) {
+					jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
+					jQuery('.map').show();	
+				}
+			}
+			if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
+				jQuery('.price span,.legales,.not-selected').hide();
+				jQuery('#open-contacto-rapido').trigger('click');
 			}
 		}
-		if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
-			jQuery('.price span,.legales,.not-selected').hide();
-			jQuery('#open-contacto-rapido').trigger('click');
-		}
 	}
-
+	
 	// CONTENIDO - Si cambia LOC
 	var isChanging = false;
 	jQuery('select[name="LOC"]').on('change', function() {
 		var lugar_name = jQuery(this).val();
-		var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
+		var lugar_class = normalize(lugar_name);
+		if (lugar_class.slice(-1) == '-') {
+			lugar_class = lugar_class.slice(0, -1);
+		}
 		console.log(lugar_name);
 		console.log(lugar_class);
-		if ( jQuery('body').hasClass('home') ) {
+		
+		if (jQuery('body').hasClass('home')) {
 			var doc_href = window.location.href;
-			doc_href = doc_href.substring(0,doc_href.indexOf('?'));
+			doc_href = doc_href.substring(0, doc_href.indexOf('?'));
 			jQuery('#open-cargando').trigger('click');
-			if ( jQuery(this).hasClass('inalambrico') ) {
-				document.location = doc_href+'/servicio/internet/?lugar='+lugar_name;
-			}
-			else {
-				document.location = doc_href+'/servicio/internet-fibra-optica/?lugar='+lugar_name;
+			if (jQuery(this).hasClass('inalambrico')) {
+				document.location = doc_href + '/servicio/internet/?lugar=' + lugar_name;
+			} else {
+				document.location = doc_href + '/servicio/internet-fibra-optica/?lugar=' + lugar_name;
 			}
 		}
-		if ( jQuery('body').hasClass('single-avada_portfolio') ) {
-			if ( !isChanging ) {
-				isChanging = true;	
-				if ( lugar_class == 'null' ) {
-					jQuery('.price span,.legales,.not-selected').hide();
+		
+		if (jQuery('body').hasClass('single-avada_portfolio') && !isChanging) {
+			isChanging = true;
+			
+			if (!lugar_class) {
+				jQuery('.price span,.legales,.not-selected').hide();
+			} else {
+				jQuery('.price span,.legales,.not-selected').show();
+				if (jQuery(this).hasClass('inalambrico')) {
+					// Evitar un cambio recursivo
+					jQuery('select[name="LOC"]').val(lugar_name);
+				} else {
+					jQuery('div:not(.not-selected) .' + lugar_class + '+.not').hide();
+					jQuery('.plan:not(.' + lugar_class + ')').hide();
+					jQuery('select[name="LOC"]').val(lugar_name).trigger('change'); // Cuidado con esto
+					jQuery('div:not(.not-selected) .' + lugar_class).show();
 				}
-				else {
-					jQuery('.price span,.legales,.not-selected').show();
-					if ( jQuery(this).hasClass('inalambrico') ) {
-						jQuery('select[name="LOC"]').val(lugar_name);
-					}
-					else {
-						jQuery('div:not(.not-selected) .'+lugar_class+'+.not').hide();
-						jQuery('.plan:not(.'+lugar_class+')').hide();
-						jQuery('select[name="LOC"]').val(lugar_name).trigger('change');
-						jQuery('div:not(.not-selected) .'+lugar_class).show();
-					}		
-					jQuery('label[for="LOC"]').parent().addClass('focused');
-					jQuery('.legales .panel-body span.'+lugar_class+',.legales .cur_month,.legales .cur_year,.legales .last_day').show();
-					if ( jQuery('.map iframe').length ) {
-						jQuery('.map iframe').attr('src','https://www.velocom.com.ar/_velocom/cobertura/'+lugar_class);
-						jQuery('.map').show();	
-					}
-					if ( jQuery('body').hasClass('postid-25544') && lugar_class.indexOf('otro-barrio-cerrado---country-amba') == -1 ) {
-						jQuery('html,body').animate({
-							scrollTop: jQuery('#precios').offset().top-96
-						}, 1000);
-					}
+				jQuery('label[for="LOC"]').parent().addClass('focused');
+				jQuery('.legales .panel-body span.' + lugar_class + ',.legales .cur_month,.legales .cur_year,.legales .last_day').show();
+				if (jQuery('.map iframe').length) {
+					jQuery('.map iframe').attr('src', 'https://www.velocom.com.ar/_velocom/cobertura/' + lugar_class);
+					jQuery('.map').show();
 				}
-				if ( lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1 ) {
-					jQuery('.caption,.price span,.legales,.not-selected').hide();
-					jQuery('#open-contacto-rapido').trigger('click');
+				if (jQuery('body').hasClass('postid-25544') && lugar_class.indexOf('otro-barrio-cerrado---country-amba') == -1) {
+					jQuery('html,body').animate({
+						scrollTop: jQuery('#precios').offset().top - 96
+					}, 1000);
 				}
-				isChanging = false;
 			}
+			if (lugar_class.indexOf('otro-barrio-cerrado---country-amba') > -1) {
+				jQuery('.caption,.price span,.legales,.not-selected').hide();
+				jQuery('#open-contacto-rapido').trigger('click');
+			}
+			
+			isChanging = false; // Asegúrate de que esto se ejecute al final
 		}
 	});
 	jQuery('.wpcf7-select option:contains("Próximamente")').attr('disabled',true);
