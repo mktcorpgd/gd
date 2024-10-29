@@ -83,7 +83,7 @@ jQuery(document).ready(function() {
 				} else {
 					jQuery('div:not(.not-selected) .' + lugar_class + '+.not').hide();
 					jQuery('.plan:not(.' + lugar_class + ')').hide();
-					jQuery('select[name="LOC"]').val(lugar_name).trigger('change'); // Cuidado con esto
+					jQuery('select[name="LOC"]').val(lugar_name); // Cuidado con esto
 					jQuery('div:not(.not-selected) .' + lugar_class).show();
 				}
 				jQuery('label[for="LOC"]').parent().addClass('focused');
