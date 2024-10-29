@@ -55,7 +55,7 @@ jQuery('select[name="LOC"]').on('change', function() {
     if (!isChanging) {
         isChanging = true;
         var lugar_name = jQuery(this).val();
-        var lugar_class = normalize(lugar_name);
+        var lugar_class = normalize(lugar_name);if(lugar_class.slice(-1)=='-'){lugar_class=lugar_class.slice(0,-1);}
         console.log(lugar_name);
         console.log(lugar_class);
         if (jQuery('body').hasClass('home')) {
