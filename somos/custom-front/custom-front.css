@@ -854,6 +854,7 @@ a.button.fullwidth{width:100%}
 #text-4 h3 a{display:block}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.6em .8em;font-size:1rem}
 .page-id-55300 .sc-button.large,.wpcf7 button.large,.page-id-41477 .sc-button.large,.wpcf7 button.large,.page-id-15131 .sc-button.large,.wpcf7 button.large {font-size: 1.2em;display: block;margin: 0 auto}
+.wpcf7 input[type='submit']:disabled{background:var(--lightgrayColor1)}
 
 /* Tarjeta digital */
 #custom_html-23{text-align:center}
