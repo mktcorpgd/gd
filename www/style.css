@@ -73,7 +73,7 @@ h3 img[src*='flag-'],h4 img[src*='flag-'],h5 img[src*='flag-'],.fusion-body .fus
 .no-radius,.no-radius iframe{border:none!important;border-radius:0!important}
 .no-border,.modal-content,.tfs-slider .overlay-link{border:none!important}
 #sliders-container.has-content .background:after{content:'';display:block;width:100%;height:100%;position:absolute;top:0;left:0;background:radial-gradient(circle,rgba(0,0,0,.8) -10%,rgba(0,0,0,0) 100%)!important}
-.slide-content-container.slide-content-left .background:after{margin-left:-30%}
+.slide-content-container.slide-content-left+.background:after{margin-left:-30%}
 #wrapper.no-overlay .tfs-slider .overlay{background:none!important}
 .fusion-imageframe img[src*='svg']{width:100%;height:auto}
 .fusion-caret .fusion-dropdown-indicator:before,.fusion-main-menu-icon:after,.main-flex .flex-next,.main-flex .flex-prev,.wooslider .wooslider-next,.wooslider .wooslider-prev,.fusion-open-submenu:before,.awb-icon-bars:before,.fusion-accordian .fusion-toggle-icon-wrapper i:before,.fusion-accordian .collapsed .fusion-toggle-icon-wrapper i:before,div.pdfemb-toolbar button:before,.yt-video:not(.playing):after{font-family:'Font Awesome 6 Pro'!important}
