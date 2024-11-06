@@ -949,7 +949,7 @@ figcaption{text-align:left;padding:.4em .3em;color:var(--grayColor);font-size:.8
 .wp-block-gallery figure.wp-block-image a img{border:1px solid var(--lightgrayColor2);border-bottom:none}
 .wp-block-gallery.has-nested-images figure.wp-block-image figcaption{margin-top:0;padding:.4em;position:relative;font-size:.7em;line-height:1.4;font-style:normal;color:var(--textColor);background:var(--lightgrayColor2);border-bottom-left-radius:var(--regularRadius);border-bottom-right-radius:var(--regularRadius)}
 figure.wp-block-gallery{float:left}
-.wp-block-gallery.has-nested-images figure.wp-block-image img{border-radius:var(--regularRadius)}
+.wp-block-gallery.has-nested-images figure.wp-block-image img,img[class*='align']{border:1px solid var(--lightgrayColor2);border-radius:var(--regularRadius)}
 figure.wp-block-gallery.inline-gallery{display:flex;max-width:100%;margin-top:1em;gap:0;flex-wrap:nowrap;overflow:auto;border-radius:var(--smallRadius) var(--regularRadius);box-shadow:var(--smallShadow)}
 figure.wp-block-gallery.inline-gallery .wp-block-image{min-width:300px}
 figure.wp-block-gallery.inline-gallery .wp-block-image img{border-radius:0!important;box-shadow:none!important}
