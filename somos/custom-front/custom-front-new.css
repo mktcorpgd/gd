@@ -521,6 +521,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 h3.toggle{display:flex;flex-direction:row-reverse;justify-content:space-between;position:relative;font-size:1.2em;line-height:1.2}
 h3.toggle a{display:block}
 h3.toggle i{padding-right:0}
+h3.toggle i:before{content:'\2b'}
 h3.toggle.gp-active i:before{content:'\f068'}
 h3.toggle i:before{color:var(--darkgrayColor)}
 h3.toggle i:before:hover{color:var(--textColor)}
