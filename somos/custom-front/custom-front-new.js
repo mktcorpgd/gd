@@ -301,10 +301,8 @@ jQuery(document).ready(function() {
 
 
 	// CONTENIDOS - Desplegables abiertos
-	jQuery('body.postid-49885 #content .toggle-box').show();
-	jQuery('body.postid-49885 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	jQuery('body.page-id-42920 #content .toggle-box').show();
-	jQuery('body.page-id-42920 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
+	jQuery('body.postid-49885 #content .toggle,body.page-id-42920 #content .toggle,#custom_html-11 .toggle,#custom_html-24 .toggle,#custom_html-28 .toggle,#custom_html-29 .toggle').addClass('gp-active');
+	jQuery('body.postid-49885 #content .toggle-box,body.page-id-42920 #content .toggle-box,#custom_html-11 .toggle-box,#custom_html-24 .toggle-box,#custom_html-28 .toggle-box,#custom_html-29 .toggle-box').show();
 
 		
 	// FORMULARIOS - Atributos
@@ -538,49 +536,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	/*// FORMULARIOS [Merchandising] - Cambiar opción por ítem con costo según cantidad
-	if ( jQuery('.MERCH1').length ) {
-		var obj_scosto = 0;
-		jQuery('.MERCH1 option').each(function(i) {
-			if ( jQuery(this).val() != '—Con costo') {
-				obj_scosto++;
-			}
-			else {
-				obj_scosto = obj_scosto-1;
-				return false;
-			}
-		});
-		var limit_obj_scosto = obj_scosto*2+1;
-		jQuery('input[name^=CANT]').keyup(function(e) {
-			var inp_index = jQuery(this).attr('name');
-			inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
-			if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
-				var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-				// Si la cantidad es mayor a 10, se convierte con costo
-				if ( jQuery(this).val() > 10 && opt_index <= obj_scosto ) {
-					opt_index = opt_index+obj_scosto;
-					jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
-				}
-				// Si la cantidad es menor o igual a 10 y es un objeto elegido que no tiene costo, se convierte sin costo
-				else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
-					opt_index = opt_index-obj_scosto;
-					jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
-				}
-			}
-		});
-		jQuery('select[name^=MERCH]').change(function(e) {
-			var inp_index = jQuery(this).attr('name');
-			inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
-			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-			if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
-				if ( opt_index <= obj_scosto ) {
-					jQuery('.CANT'+inp_index+' input').val(10);
-				}
-			}
-		});
-	}*/
-
-
 	// FORMULARIOS - Reemplazar nombres de usuarios con espacio
 	if ( jQuery('input[name=USRURL]').length ) {
 		var usrurl = jQuery('input[name=USRURL]').val().replace(' ','-');
@@ -596,68 +551,6 @@ jQuery(document).ready(function() {
 		//jQuery('select[name="CC_UNIT"] option:not(:contains("AR"))').hide();
 	}
 	
-
-	// LATERAL - Desplegables
-	jQuery('#custom_html-11 .toggle-box').show();
-	jQuery('#custom_html-11 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	jQuery('#custom_html-24 .toggle-box').show();
-	jQuery('#custom_html-24 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	jQuery('#custom_html-28 .toggle-box').show();
-	jQuery('#custom_html-28 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	jQuery('#custom_html-29 .toggle-box').show();
-	jQuery('#custom_html-29 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	/*jQuery(document).on('click','.toggle',function(e) {
-		jQuery(this).next('.toggle-box').slideToggle();
-		if ( jQuery(this).find('i').hasClass('fa-plus-square') ) {
-			jQuery(this).find('i').removeClass('fa-plus-square').addClass('fa-minus-square');
-		}
-		else if ( jQuery(this).find('i').hasClass('fa-minus-square') ) {
-			jQuery(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
-		}
-		e.preventDefault();
-	});*/
-
-	/*
-	// LATERAL - Expandir widget
-	jQuery('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
-	jQuery(document).on('click','.widget .widgettitle .topopup',function(e) {
-		e.preventDefault();
-		var get_widget = jQuery(this).parent().parent().attr('id');
-		var cloned_widget = jQuery('#'+get_widget).clone();
-		jQuery.magnificPopup.open({
-			items: {
-				src: cloned_widget,
-			},
-			type: 'inline'
-		});
-	});
-
-	// LATERAL - Convertir a galería las referencias
-	jQuery('.widget_ref').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		mainClass: 'mfp-img-mobile',
-		tClose: 'Cerrar (Esc)',
-		tLoading: 'Cargando...',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1],
-			tPrev: 'Anterior (tecla ←)',
-			tNext: 'Siguiente (tecla →)',
-			tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
-		},
-		image: {
-			tError: 'La imagen no pudo ser cargada.',
-			titleSrc: function(item) {
-				return item.el.siblings('figcaption').html();
-			},
-		},
-		ajax: {
-			tError: 'La solicitud falló.'
-		}
-	});
-	*/
 
 	// EVENTOS - Agregar referencias para calendario de eventos y capacitaciones
 	jQuery('#sidebar-left .eo-widget-cal-wrap').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="otros" href="/eventos/categoria/otros/">Otro</a></div>');
