@@ -521,7 +521,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 h3.toggle{display:flex;flex-direction:row-reverse;justify-content:space-between;position:relative;font-size:1.2em;line-height:1.2}
 h3.toggle a{display:block}
 h3.toggle i{padding-right:0}
-h3.toggle .fa-plus-square:before{content:'\f067'}
+h3.toggle .fa-plus-square:before{content:'\2b'}
 h3.toggle .fa-minus-square:before{content:'\f068'}
 h3.toggle .fa-plus-square:before,h3.toggle .fa-minus-square:before{color:var(--highlightColor)}
 #content h3.toggle{font-weight:400;font-size:1.1em;line-height:1}
