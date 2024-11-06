@@ -526,7 +526,7 @@ h3.toggle.gp-active i:before{content:'\f068'}
 h3.toggle i:before{color:var(--metaColor)}
 h3.toggle i:before:hover{color:var(--textColor)}
 #content h3.toggle{font-weight:400;font-size:1.1em;line-height:1}
-.widget h3.toggle{margin-bottom:0;font-size:1.2em;font-weight:400}
+.widget h3.toggle{margin-bottom:0;font-size:1.2em}
 .widget h3.toggle:not(:first-child):not(:last-child){margin-top:.6em}
 .toggle-box{margin:5px 0 0;overflow:visible}
 .widget .toggle-box h5,.widget .toggle-box h6{color:var(--textColor);text-align:left;text-transform:none}
