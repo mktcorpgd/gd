@@ -606,7 +606,7 @@ jQuery(document).ready(function() {
 	jQuery('#custom_html-28 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 	jQuery('#custom_html-29 .toggle-box').show();
 	jQuery('#custom_html-29 .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-	jQuery(document).on('click','.toggle',function(e) {
+	/*jQuery(document).on('click','.toggle',function(e) {
 		jQuery(this).next('.toggle-box').slideToggle();
 		if ( jQuery(this).find('i').hasClass('fa-plus-square') ) {
 			jQuery(this).find('i').removeClass('fa-plus-square').addClass('fa-minus-square');
@@ -615,7 +615,7 @@ jQuery(document).ready(function() {
 			jQuery(this).find('i').removeClass('fa-minus-square').addClass('fa-plus-square');
 		}
 		e.preventDefault();
-	});
+	});*/
 
 	/*
 	// LATERAL - Expandir widget
