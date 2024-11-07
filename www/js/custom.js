@@ -399,6 +399,9 @@ jQuery(document).ready(function() {
 		else if ( window.location.href.indexOf('#trabajo') > -1 ) {
 			jQuery('#open-trabajo').trigger('click');
 		}
+		else if ( window.location.href.indexOf('#evento-registro') > -1 ) {
+			jQuery('#open-evento-registro').trigger('click');
+		}
 	}
 
 
