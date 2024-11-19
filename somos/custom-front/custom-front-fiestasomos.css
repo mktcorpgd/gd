@@ -1,5 +1,5 @@
 body {background-color:var(--whiteColor1)!important;background-image:url(https://somos.grupodatco.com/wp-content/uploads/bg-somossunset.png)!important;background-position:top center;background-repeat:no-repeat;background-size:100%;background-attachment:fixed!important}
-body.page-id-68876{background:#111B33!important}
+body.page-id-68876{background: radial-gradient(circle, rgba(14,48,109,1) 0%, rgba(67,194,151,1) 100%)!important}
 #header,.is-search-form,#copyright,#wpadminbar,.gp-post-meta,#webpushr-prompt-wrapper,.asp_w_container,.asp_w_container_1,.asp_w_container_1_1,#menu-header-destacado{display:none!important}
 #page-wrapper{padding-top:1em;padding-bottom:1em}
 body:not(.home) .padder{background:var(--whiteColor1)!important;color:var(--textColor)!important}
