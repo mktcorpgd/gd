@@ -72,10 +72,10 @@ jQuery(document).ready(function($) {
 			var input_name = this.attrName;
 			selected = true;
 			if ( $('input[name='+input_name+'].static_gmap').length ) {
-				var address = this.getPlace().formatted_address;
-				var address_text = this.text;
+				var address = this.getPlace();
 				console.log(address);
-				console.log(address_text);
+				var address_formatted = this.getPlace().formatted_address;
+				console.log(address_formatted);
 				var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=600x150&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 				var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
 				$('input[name='+input_name+'].static_gmap').addClass('filled');
