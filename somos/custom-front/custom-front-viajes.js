@@ -70,12 +70,11 @@ jQuery(document).ready(function($) {
 		}
 		function fillInStaticGMap() {
 			var input_name = this.attrName;
-			var input_value = this.value;
-			console.log(input_value);
 			selected = true;
 			if ( $('input[name='+input_name+'].static_gmap').length ) {
 				var address = this.getPlace().formatted_address;
-				console.log(address);
+				var address_text =  $('input[name='+input_name+'].static_gmap').val();
+				console.log('address_text='+address_text);
 				var img_src = 'https://maps.googleapis.com/maps/api/staticmap?size=600x150&maptype=roadmap&markers=size:mid%7Ccolor:red%7C'+address+'&zoom=14&key=AIzaSyBgKiaX5D3Pp4Jx16S_JBH4_vUJngmX3PM';
 				var html_map = '<a href="https://www.google.com/maps/search/'+address+'" target="_blank"><img src="'+img_src+'" /></a>';
 				$('input[name='+input_name+'].static_gmap').addClass('filled');
