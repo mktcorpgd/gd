@@ -522,11 +522,13 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight:not(.wpcf7-validates-as-required){margin-top:0;padding:.4em;font-size:1.4em;text-align:center;color:var(--whiteColor);font-weight:600;background:var(--highlightColor);border:none;border-radius:64px}
 #wrapper .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight+.select-arrow{top:0;color:var(--whiteColor)!important}
 .fusion-column-wrapper>.wpcf7-select-parent .wpcf7-select.highlight:not(.wpcf7-validates-as-required):hover{background:var(--mainColor)!important}
-.wpcf7-select.highlight{border-width:4px;border-radius:var(--largeRadius);font-size:1.1em;text-align:center;font-weight:600;color:var(--highlightColor)}
 .g-recaptcha~.wpcf7-not-valid-tip{display:block;margin:-1em 0 2em;padding:0;position:relative;text-align:center;background:none}
-.g-recaptcha{display:block;background:none!important;text-align:center}
-.g-recaptcha>div{display:inline-block}
+.g-recaptcha{display:block;margin-top:.6em;background:none!important}
+.g-recaptcha>div{display:inline-block;height:auto!important}
 .g-recaptcha iframe{transform:scale(.8);border:1px solid transparent}
+.wpcf7-select.highlight{border-width:4px;border-radius:var(--largeRadius);font-size:1.1em;text-align:center;font-weight:600;color:var(--highlightColor)}
+.wpcf7 .g-recaptcha{margin-top:0;text-align:center}
+.wpcf7 .g-recaptcha iframe{transform:scale(.8);border:1px solid transparent}
 
 /* Botones */
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
@@ -542,6 +544,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .fusion-button.fusion-button-span-yes{width:100%;text-align:center}
 .button-default,.fusion-button-default-size,.fusion-button,.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,.button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,#main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],.wpcf7-form input[type='submit'],.fusion-button.button-flat,
 .tribe-events-c-subscribe-dropdown__button-text{box-shadow:none!important}
+#main #comment-submit{margin-top:0!important}
 .button-default.button-small,.button-small,.fusion-body .fusion-button-small,.fusion-button_size-small .fusion-button-default-size,.wpcf7-form input[type='submit'].button-small,.wpcf7-form input[type='submit'].fusion-button-small{padding:.5rem 1rem;font-size:.9em}
 .button-default.button-large,.button-large,.fusion-body .fusion-button-large,.fusion-button_size-large .fusion-button-default-size,.wpcf7-form input[type='submit'].button-large,.wpcf7-form input[type='submit'].fusion-button-large,.fusion-fullwidth.header-transparent:not(.portfolio) .fusion-button:not(.button-small):not(.button-xlarge){padding:.6rem 1rem;font-size:1.2em}
 .tfs-slider .slide-content-container .buttons a{padding:.6em 1em;font-size:1.3em}
