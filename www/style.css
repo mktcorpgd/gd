@@ -611,7 +611,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-pricing-table .panel-footer{padding:0 1em 1em}
 
 /* Videos */
-.wp-video-shortcode.mejs-video,.fusion-video:not(.no-radius) iframe,iframe{border-radius:var(--regularRadius);overflow:hidden}
+.wp-video-shortcode.mejs-video,.fusion-video:not(.no-radius) iframe:not([src*='google.com']),iframe:not([src*='google.com']){border-radius:var(--regularRadius);overflow:hidden}
 .ilightbox-holder iframe{border:none}
 .mejs-container,.mejs-container .mejs-controls,.mejs-embed,.mejs-embed body{background:rgba(0,0,0,.4)}
 .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current,.mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total,.mejs-controls .mejs-time-rail span{border-radius:var(--smallRadius);overflow:hidden}
