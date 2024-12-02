@@ -569,7 +569,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 
 /* Comentarios */
 .comment-form .form-submit{margin-top:0}
-.comment-form #comment-submit{margin-top:.4em;border-top-left-radius:var(--smallRadius)!important;border-top-right-radius:var(--smallRadius)!important}
+.comment-form #comment-submit{margin-top:.4em}
 .comment>div>div.comment-box>div.comment-text>em{display:block;font-size:.8em;color:var(--grayColor)}
 .commentlist{margin-bottom:30px}
 .commentlist .comment-author strong{margin-bottom:.4em;text-transform:capitalize;padding-right:0;display:block;color:var(--textColor);font-family:var(--titleFont);font-size:1.6em;font-weight:500;line-height:1.5}
