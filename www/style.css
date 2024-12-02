@@ -525,7 +525,6 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .g-recaptcha~.wpcf7-not-valid-tip{display:block;margin:-1em 0 2em;padding:0;position:relative;text-align:center;background:none}
 .g-recaptcha{display:block;margin-top:.6em;background:none!important}
 .g-recaptcha>div{display:inline-block;height:auto!important}
-.g-recaptcha iframe{transform:scale(.8);border:1px solid transparent}
 .wpcf7-select.highlight{border-width:4px;border-radius:var(--largeRadius);font-size:1.1em;text-align:center;font-weight:600;color:var(--highlightColor)}
 .wpcf7 .g-recaptcha{margin-top:0;text-align:center}
 .wpcf7 .g-recaptcha iframe{transform:scale(.8);border:1px solid transparent}
