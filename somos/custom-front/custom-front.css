@@ -979,7 +979,7 @@ body .yotuwp.yotu-playlist{padding-top:0;background:none!important}
 .yotu-column-3 li{padding-bottom:.5em!important;margin-right:4%!important;margin-bottom:1.5em!important;width:30.66%;background:var(--mainColor);border-radius:var(--regularRadius);box-shadow:var(--regularShadow);overflow:hidden}
 .yotu-column-3 li:hover{background:var(--highlightColor);box-shadow:var(--regularShadowHover);transform:translateY(-2px)}
 .yotu-column-3 li a:hover,.yotu-videos a:hover h3{text-decoration:none!important}
-.wp-block-embed{margin-bottom:2em}
+#post-content .wp-block-embed{margin-bottom:2em}
 
 /* Kit */
 body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:auto;max-width:800px}
