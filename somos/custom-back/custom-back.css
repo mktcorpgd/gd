@@ -55,6 +55,7 @@ span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;
 #adminmenu li,#adminmenu a{transition:all .3s ease-in-out!important}
 
 /* Admin menu */
+#adminmenuwrap{box-shadow:0 0 32px rgba(0,0,0,.4)!important}
 #adminmenu,#adminmenu .wp-submenu,#adminmenuback,#adminmenuwrap{width:165px}
 #adminmenu .wp-not-current-submenu .wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu{width:170px;box-shadow:0 0 12px rgba(0,0,0,.2)!important}
 #adminmenu .wp-submenu a{font-family:'open-sans',sans-serif;font-weight:400}
