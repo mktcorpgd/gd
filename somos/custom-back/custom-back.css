@@ -59,6 +59,7 @@ span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;
 #adminmenuwrap{box-shadow:0 0 32px rgba(0,0,0,.4)}
 #adminmenu,#adminmenu .wp-submenu,#adminmenuback,#adminmenuwrap{width:165px}
 #adminmenu .wp-not-current-submenu .wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu{width:170px;box-shadow:0 0 12px rgba(0,0,0,.2)!important}
+#wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 0 12px rgba(0,0,0,.2)!important}
 #adminmenu .wp-submenu a{font-family:'open-sans',sans-serif;font-weight:400}
 #adminmenu .wp-not-current-submenu li>a,.folded #adminmenu .wp-has-current-submenu li>a{padding-right:10px}
 #wpadminbar,#wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input,#adminmenu,#adminmenuback,#adminmenuwrap{background:#0E316E!important}
@@ -86,7 +87,6 @@ input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,in
 .wp-core-ui .button-primary:focus,.wp-core-ui .button-primary:hover{background:#1F4483!important}
 .supsystic-plugin .button-primary,.ui-dialog .button.button-hero{background:#F0582B!important}
 .supsystic-plugin .button:hover,.supsystic-plugin .button-primary:hover{background:#1F4483!important}
-#wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important}
 li.wp-not-current-submenu ul.wp-submenu.wp-submenu-wrap{box-shadow:0 2px 0 0 rgba(0,0,0,.2)!important;border-top-right-radius:12px!important;border-bottom-right-radius:12px!important}
 #wpadminbar .ab-submenu .ab-item,#wpadminbar .quicklinks .menupop ul li a,#wpadminbar .quicklinks .menupop ul li a strong,#wpadminbar .quicklinks .menupop.hover ul li a,#wpadminbar.nojs .quicklinks .menupop:hover ul li a,#collapse-button{color:#EAEAEA!important}
 #wp-admin-bar-site-name>div,#wp-admin-bar-new-content>div,#wp-admin-bar-my-account>div{border-bottom-left-radius:12px!important;border-bottom-right-radius:12px!important}
