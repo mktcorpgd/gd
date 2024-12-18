@@ -71,6 +71,7 @@ input[type='text']:focus,input[type='search']:focus,input[type='radio']:focus,in
 #wpadminbar #adminbarsearch:before,#wpadminbar .ab-icon:before,#wpadminbar .ab-item:before,#adminmenu div.wp-menu-image:before,#collapse-button .collapse-button-icon{color:rgba(240,245,250,.6)!important}
 #adminmenu a:hover,#adminmenu a:hover div.wp-menu-image:before,#collapse-button:focus,#collapse-button:hover,#collapse-button:hover .collapse-button-icon{color:#FFFFFF!important}
 #adminmenu a:hover,#adminmenu li.menu-top:hover,#adminmenu li.opensub>a.menu-top,#adminmenu li>a.menu-top:focus,#adminmenu li.current a.menu-top,#adminmenu li.wp-has-current-submenu .wp-submenu .wp-submenu-head,#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,.folded #adminmenu li.current.menu-top,#adminmenu .wp-has-current-submenu .wp-submenu,#adminmenu .wp-has-current-submenu.opensub .wp-submenu,#adminmenu .wp-submenu,#adminmenu a.wp-has-current-submenu:focus+.wp-submenu,.folded #adminmenu .wp-has-current-submenu .wp-submenu,.wp-submenu:after{background-color:#1F4483!important}
+.wp-submenu:after{border-color:#1F4483!important}
 #major-publishing-actions{background:#FAFAFA;border:0!important}
 #titlediv #title{font-family:'neo-sans',sans-serif;font-weight:400}
 .wrap .add-new-h2,.wrap .add-new-h2:active,.wrap .page-title-action,.wrap .page-title-action:active{font-family:'neo-sans',sans-serif;color:#0E316E;box-shadow:none!important;border-radius:6px;font-size:14px;font-weight:400!important;text-shadow:none!important}
