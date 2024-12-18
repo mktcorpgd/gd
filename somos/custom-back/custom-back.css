@@ -96,7 +96,7 @@ li.wp-has-submenu.wp-has-current-submenu>a+ul{padding-top:0!important}
 .wp-editor-container{border-top-right-radius:0!important}
 #contextual-help-link-wrap,#screen-options-link-wrap{box-shadow:none!important;border-bottom-left-radius:12px;border-bottom-right-radius:12px}
 #post-status-info{background:none!important;border:0!important;box-shadow:none!important}
-.js .postbox .handlediv:focus .toggle-indicator:before,#adminmenu a:focus,#adminmenu a:hover,.folded #adminmenu .wp-submenu-head:hover{box-shadow:none!important}
+.js .postbox .handlediv:focus .toggle-indicator:before,#adminmenu a:focus,#adminmenu a:hover,.folded #adminmenu .wp-submenu-head:hover{border:none!important;box-shadow:none!important}
 .quicktags-toolbar{border-right:2px solid #EAEAEA!important;border-bottom:0!important}
 .js.plugins-php .search-box .wp-filter-search{height:auto!important}
 .wp-ui-highlight{background:#0E316E;border-radius:6px}
