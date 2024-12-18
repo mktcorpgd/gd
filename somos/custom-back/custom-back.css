@@ -62,6 +62,8 @@ span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;
 #wpadminbar,#wpadminbar .menupop .ab-sub-wrapper,#wpadminbar .shortlink-input,#adminmenu,#adminmenuback,#adminmenuwrap{background:#0E316E!important}
 #adminmenu .wp-submenu-head,#adminmenu a.menu-top,#adminmenu .wp-submenu li.current a{font-weight:400!important}
 #adminmenu li.menu-top:hover,#adminmenu li.opensub>a.menu-top,#adminmenu li>a.menu-top:focus{color:#FFFFFF}
+#adminmenu a.menu-top:focus+.wp-submenu, .js #adminmenu .opensub .wp-submenu, .js #adminmenu .sub-open, .no-js li.wp-has-submenu:hover .wp-submenu{top:0!important}
+#adminmenu .wp-not-current-submenu .wp-submenu, .folded #adminmenu .wp-has-current-submenu .wp-submenu{border-radius:6px 12px 12px 6px!important}
 
 /* Admin bar */
 #wpadminbar .ab-empty-item,#wp-admin-bar-site-name>a,#wp-admin-bar-my-account>a,#wp-admin-bar-my-account>a>.display-name,#wpadminbar>#wp-toolbar span.ab-label,#wpadminbar>#wp-toolbar .ab-item,#wpadminbar>#wp-toolbar span.noticon,#adminmenu a,#collapse-button{font-family:'neo-sans',sans-serif}
