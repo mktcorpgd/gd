@@ -90,7 +90,7 @@ section,article,a,button,input,select,textarea,body.complete>:not(.preloader-plu
 .wp-classic-menu-block>.menu ul,.kit>.menu li{transition:all .3s ease-in-out!important}
 body{background-color:var(--lightgrayColor1);letter-spacing:-.1px}
 body,input,textarea,select,#sidebar .menu li .menu-subtitle{color:var(--textColor);font-size:16px}
-h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:500;font-family:var(--titleFont),sans-serif}
+h1,h2,h3,h4,h5,h6,h1 strong,h2 strong,h3 strong,h4 strong,h5 strong,h6 strong,.widget .widgettitle,.neosans,.neosans li{font-weight:400;font-family:var(--titleFont),sans-serif}
 h4,h5,h6{font-weight:400}
 h1:not(#logo):not(.page-title),h2,h3,h4,h5,h6{margin:1em 0 .5em;width:100%;color:var(--textColor);line-height:125%}
 h5,h6{font-weight:400}
