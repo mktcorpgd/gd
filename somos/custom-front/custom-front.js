@@ -126,7 +126,7 @@ jQuery(document).ready(function() {
 
 
 	// MOBILE
-	jQuery('#mobile-nav-button').click(function(e) {
+	/*jQuery('#mobile-nav-button').click(function(e) {
 		jQuery(this).toggleClass('gp-active');
 		jQuery('#mobile-nav').toggle();
 	});
@@ -147,7 +147,7 @@ jQuery(document).ready(function() {
 			}	
 		});
 	}
-	gpHeaderMobileTopNav();
+	gpHeaderMobileTopNav();*/
 
 
 	// ADMIN - Etiquetas
