@@ -125,31 +125,6 @@ jQuery(document).ready(function() {
 	}
 
 
-	// MOBILE
-	/*jQuery('#mobile-nav-button').click(function(e) {
-		jQuery(this).toggleClass('gp-active');
-		jQuery('#mobile-nav').toggle();
-	});
-	jQuery('#mobile-nav .menu li').each( function() {
-		if ( jQuery(this).find('ul').length > 0 ) {
-			jQuery('<i class="mobile-dropdown-icon" />').insertAfter(jQuery(this).children(':first'));		
-		}		
-	});
-	function gpHeaderMobileTopNav() {
-		jQuery('#mobile-nav ul > li').each(function() {
-			var navItem = jQuery(this);
-			if ( jQuery(navItem).find('ul').length > 0 ) {	
-				jQuery(navItem).children('.mobile-dropdown-icon').click(function() {
-					jQuery(navItem).toggleClass('gp-active');
-					jQuery(navItem).children('.sub-menu').toggle();
-					jQuery('#mobile-nav').toggleClass('auto-height');
-				});
-			}	
-		});
-	}
-	gpHeaderMobileTopNav();*/
-
-
 	// ADMIN - Etiquetas
 	jQuery('#wp-admin-bar-site-name>.ab-item').text('Escritorio');
 
