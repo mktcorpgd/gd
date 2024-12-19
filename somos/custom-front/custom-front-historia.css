@@ -101,7 +101,7 @@ body:not(.home):not(.archive):not(.search) #post-content .content-details p{marg
 .ctl_info a{color:var(--metaColor)}
 .mfp-container #content{background:var(--whiteColor1)}
 #post-content a[href*='myalbum'] img{padding:.4em;background:var(--lightgrayColor2)}
-#post-content a[href*='myalbum']:hover img{padding:.4em;background:var(--highlightColor)}
+#post-content a[href*='myalbum']:hover img{padding:.4em;background:var(--subColor)}
 
 /* Desktop */
 @media (min-width:960px) {
