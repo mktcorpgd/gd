@@ -588,7 +588,7 @@ jQuery(document).ready(function() {
 	if (country === 'Brazil') {
 		country = 'Brasil';
 	}
-	var country = jQuery('li.country.active .country-name').text();
+	var country = jQuery('li.country.active:first .country-name').text();
 	console.log(country);
 	jQuery(document).on('click', 'li.country', function() {
 		var $this = jQuery(this);
