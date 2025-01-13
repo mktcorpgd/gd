@@ -581,15 +581,14 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Asignar país según prefijo de teléfono elegido
 	var country = jQuery('li.country.active:first .country-name').text();
-	var match = country.match(/^[^(]+/);  // Tomamos el valor antes de los paréntesis
+	var match = country.match(/^[^(]+/);
 	if (match) {
-		country = match[0].trim();  // Eliminamos posibles espacios
+		country = match[0].trim();
 	}
 	if (country === 'Brazil') {
 		country = 'Brasil';
 	}
-	var country = jQuery('li.country.active:first .country-name').text();
-	console.log(country);
+	jQuery('input[name="CTRYSF"]').val(country);
 	jQuery(document).on('click', 'li.country', function() {
 		var $this = jQuery(this);
 		var country = $this.find('.country-name').text();
@@ -600,7 +599,6 @@ jQuery(document).ready(function() {
 		if (country === 'Brazil') {
 			country = 'Brasil';
 		}
-		console.log(country);
 		jQuery('input[name="CTRYSF"]').val(country);
 	});
 			
