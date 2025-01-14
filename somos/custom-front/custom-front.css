@@ -25,7 +25,7 @@ body.single article[class*='category-politicas-procesos'] .gp-meta-date,
 .mo_doc_lib_file_download img,.mo_sps_class_doc_container .mo_sps_class_doc__list>div iframe+div>div+div a img,.mo_doc_lib_search_box,.mo_doc_lib_col.mo_doc_lib_fcol-2>button,.mo_doc_lib_col.mo_doc_lib_fcol-3,[id*='mo_doc_lib_file_icon'],[id*='mo_doc_lib_container__loader']>img,.mo_sps_class_embed_file[data-sharepoint_name="Grupo_Datco-Manual_Identidad.pdf"],.mo_doc_lib_table-header .mo_doc_lib_col.mo_doc_lib_fcol-5,
 /* Comentarios */
 #commentform .logged-in-as,#commentform>p.comment-form-comment>label,#comments h2,#comments #reply-title,#comments h3,
-#wpdcom .wpd-form-head,[wpd-tooltip]::after,[wpd-tooltip]::before,.wpd-comment-label,#wpdcom .wpd-comment .wpd-reply-to,.user-tooltip,.wpd-comment-link,#wpdcom .ql-toolbar button.ql-spoiler,#wpdcom .ql-toolbar button.ql-sourcecode,#wpdcom button.ql-code-block,
+#wpdcom .wpd-form-head,[wpd-tooltip]::after,[wpd-tooltip]::before,.wpd-comment-label,#wpdcom .wpd-comment .wpd-reply-to,.user-tooltip,.wpd-comment-link,#wpdcom .ql-toolbar button.ql-spoiler,#wpdcom .ql-toolbar button.ql-sourcecode,#wpdcom button.ql-code-block,.gp-post-meta.gp-meta-comments,
 /* Formularios */
 .wpcf7 .hidden,div.wpcf7 .ajax-loader,.wpcf7 .wpcf7-validates-as-required.valid~label,.mc4wp-checkbox,#content .wpcf7+h2,.wpcf7-radio.wpcf7-not-valid+.wpcf7-not-valid-tip,.wpcf7-checkbox.wpcf7-not-valid+.wpcf7-not-valid-tip,span.phone_ext_block,#wpcf7-f16691-p18546-o1>div:nth-child(7),.wpcf7-display-none,div.wpcf7 div.ajax-error,.wpcf7 a[href='#map'],.screen-reader-response,
 /* Galería de fotos */
@@ -217,7 +217,7 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{color:var(--metaColor);font-size:1.1em;font-weight:400}
 .eo-event-date,.gp-meta-comments{margin:0}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none;color:var(--grayColor)}
-#content .gp-meta-comments a:after{content:''}
+#content .gp-meta-comments a:after{}
 #content .gp-meta-comments a:hover,.eo-event-meta a:not([rel='tag']):hover{color:var(--metaColor)}
 .eo-event-date{margin:.2em 0;font-family:var(--titleFont),sans-serif;font-weight:500}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .7em;background:var(--whiteColor2);border-radius:var(--regularRadius);font-weight:400;line-height:normal}
