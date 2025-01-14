@@ -217,7 +217,7 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{color:var(--metaColor);font-size:1.1em;font-weight:400}
 .eo-event-date,.gp-meta-comments{margin:0}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none;color:var(--grayColor)}
-.post-loop.no_comments .gp-meta-comments a:before,.post-loop.with_comments .gp-meta-comments a:before{display:inline-block;padding-right:.4em;content:'\f075'}
+.post-loop.no_comments .gp-meta-comments a:before,.post-loop.with_comments .gp-meta-comments a:before{display:inline-block;padding-right:.4em;content:'\f086'}
 .post-loop.no_comments .gp-meta-comments a:before{font-weight:normal}
 .post-loop.with_comments .gp-meta-comments a:before{font-weight:bold}
 #content .gp-meta-comments a:hover,.eo-event-meta a:not([rel='tag']):hover{color:var(--metaColor)}
