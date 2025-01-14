@@ -281,6 +281,23 @@ jQuery(document).ready(function() {
 	jQuery('body.page-id-42920 #content .toggle-box').show();
 	jQuery('body.page-id-42920 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 
+
+	// CONTENIDOS - Home: según cantidad de comentarios agregar una clase u otra
+	jQuery('.post-loop').each(function () {
+		const commentMeta = jQuery(this).find('.gp-meta-comments a');
+		if (commentMeta.length) {
+			const commentCount = parseInt(commentMeta.text().trim(), 10);
+			if (commentCount > 0) {
+				jQuery(this).addClass('with_comments');
+			} else {
+				jQuery(this).addClass('no_comments');
+			}
+		} else {
+			jQuery(this).addClass('no_comments');
+		}
+	});
+	
+
 		
 	// FORMULARIOS - Atributos
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
