@@ -217,8 +217,8 @@ h1.page-title+.gp-meta-cats{margin-bottom:1rem}
 .gp-meta-date,.eo-event-date,.gp-meta-comments{color:var(--metaColor);font-size:1.1em;font-weight:400}
 .eo-event-date,.gp-meta-comments{margin:0}
 #content .gp-meta-comments a,.eo-event-meta a:not([rel='tag']){text-decoration:none;color:var(--grayColor)}
-.post-loop.no_comments .gp-meta-comments a:after{content:'\f075';font-weight:normal}
-.post-loop.with_comments .gp-meta-comments a:after{content:'\f075';font-weight:bold}
+.post-loop.no_comments .gp-meta-comments a:before{content:'\f075';font-weight:normal}
+.post-loop.with_comments .gp-meta-comments a:before{content:'\f075';font-weight:bold}
 #content .gp-meta-comments a:hover,.eo-event-meta a:not([rel='tag']):hover{color:var(--metaColor)}
 .eo-event-date{margin:.2em 0;font-family:var(--titleFont),sans-serif;font-weight:500}
 h1+div:not(.gp-blog-wrapper) .gp-meta-cats a,h1+.gp-meta-cats a,body.single article .eo-event-meta>li a[rel='tag']{padding:.3em .7em;background:var(--whiteColor2);border-radius:var(--regularRadius);font-weight:400;line-height:normal}
