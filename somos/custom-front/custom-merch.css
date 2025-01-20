@@ -45,9 +45,10 @@ form.cart {
 }
 form.cart .quantity input[type="number"] {
     width: 60px;
-	padding: 0!important;
+	margin: 0!important;
+	padding: .4em!important;
     text-align: center;
-	background: none!important;
+	background: rgba(0,0,0,.2)!important;
 	border: none!important;
 	color: var(--whiteColor1);
 }
