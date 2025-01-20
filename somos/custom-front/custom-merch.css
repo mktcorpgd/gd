@@ -35,20 +35,20 @@ form.cart {
 	background: var(--highlightColor);
 }
 
-form.cart .quantity input[type="number"] {
-    width: 60px;
-    text-align: center;
-	background: none!important;
-	border: none!important;
-}
-
-form.cart button {
+.woocommerce ul.products li.product .button {
+	margin-top: 0;
 	padding: .4em;
 	background: none!important;
 	box-shadow: none!important;
 	color: var(--whiteColor1);
 }
 
-form.cart button:hover {
+.woocommerce ul.products li.product .button:hover {
     background-color: #005f86;
+}
+form.cart .quantity input[type="number"] {
+    width: 60px;
+    text-align: center;
+	background: none!important;
+	border: none!important;
 }
