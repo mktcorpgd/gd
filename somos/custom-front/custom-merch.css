@@ -12,3 +12,9 @@
     border-radius: 50%;
     z-index: 1;
 }
+.woocommerce ul li.product, .woocommerce-page ul li.product {
+	padding: .4em;
+	border-radius: var(--smallRadius);
+	box-shadow: var(--xsmallShadow);
+	background: var(--whiteColor2);
+}
