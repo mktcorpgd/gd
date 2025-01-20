@@ -28,7 +28,7 @@
 .woocommerce ul.products li.product .price {
 	padding: 0 .8em;
 }
-.cart {
+:is(.cart,.no-stock) {
     display: flex;
     align-items: center;
     gap: 10px;
