@@ -32,7 +32,7 @@ form.cart {
     display: flex;
     align-items: center;
     gap: 10px;
-	background: var(--hightlightColor);
+	background: var(--highlightColor);
 }
 
 form.cart .quantity input[type="number"] {
