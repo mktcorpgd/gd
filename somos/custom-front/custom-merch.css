@@ -17,32 +17,34 @@
 	box-shadow: var(--xsmallShadow);
 	background: var(--whiteColor1);
 }
+.woocommerce ul.products li.product a img {
+	margin-bottom: .4em;
+}
 .woocommerce ul.products li.product .woocommerce-loop-category__title, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product h3 {
 	padding: .4em
 }
-.woocommerce ul.products li.product .button {
-	padding: .4em;
-	background: none!important;
-	box-shadow: none!important;
-	color: var(--highlightColor);
+.woocommerce ul.products li.product .price {
+	padding: 0 .4em;
 }
 form.cart {
     display: flex;
     align-items: center;
     gap: 10px;
+	background: var(--hightlightColor);
 }
 
 form.cart .quantity input[type="number"] {
     width: 60px;
     text-align: center;
+	background: none!important;
+	border: none!important;
 }
 
 form.cart button {
-    padding: 10px 15px;
-    background-color: #0071a1;
-    color: white;
-    border: none;
-    cursor: pointer;
+	padding: .4em;
+	background: none!important;
+	box-shadow: none!important;
+	color: var(--whiteColor1);
 }
 
 form.cart button:hover {
