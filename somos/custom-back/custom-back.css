@@ -116,7 +116,6 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 #adminmenu #menu-comments ul>li:nth-child(3) a:hover{color:#F0582B!important}
 .row-title{font-family:'neo-sans';font-weight:400}
 #the-list th#userlogin{width:160px!important}
-#the-list .row-actions{color:transparent}
 #wpadminbar #wp-admin-bar-my-account.with-avatar>.ab-empty-item img, #wpadminbar #wp-admin-bar-my-account.with-avatar>a img{border:none!important;border-radius:12px}
 #wp-admin-bar-user-info .avatar{border-radius:12px}
 
