@@ -32,7 +32,12 @@
     display: flex;
     align-items: center;
     gap: 10px;
+}
+.cart {
 	background: var(--highlightColor);
+}
+.no-stock {
+	background: var(--grayColor);
 }
 
 .woocommerce ul.products li.product .button {
