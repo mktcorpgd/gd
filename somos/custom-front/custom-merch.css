@@ -43,14 +43,11 @@ form.cart {
 	box-shadow: none!important;
 	color: var(--whiteColor1);
 }
-
-.woocommerce ul.products li.product .button:hover {
-    background-color: #005f86;
-}
 form.cart .quantity input[type="number"] {
     width: 60px;
 	padding: 0!important;
     text-align: center;
 	background: none!important;
 	border: none!important;
+	color: var(--whiteColor1);
 }
