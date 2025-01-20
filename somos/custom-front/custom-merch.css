@@ -21,7 +21,9 @@
 	padding: .4em
 }
 .woocommerce ul.products li.product .button {
-	background: none;
+	float: left;
+	background: none!important;
+	box-shadow: none!important;
 	color: var(--highlightColor);
 }
 form.cart {
