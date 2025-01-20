@@ -13,9 +13,11 @@
     z-index: 1;
 }
 .woocommerce ul li.product, .woocommerce-page ul li.product {
-	border-radius: var(--smallRadius);
+	margin-bottom: 1em!important;
+	border-radius: var(--regularRadius);
 	box-shadow: var(--xsmallShadow);
 	background: var(--whiteColor1);
+	overflow: hidden;
 }
 .woocommerce ul.products li.product a img {
 	margin-bottom: .4em;
