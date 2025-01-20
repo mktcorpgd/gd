@@ -37,7 +37,7 @@
 	background: var(--highlightColor);
 }
 .no-stock {
-	background: var(--grayColor);
+	background: var(--lightgrayColor2);
 	pointer-events: none;
 }
 :is(.cart,.no-stock) .quantity input[type="number"] {
