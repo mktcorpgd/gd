@@ -28,7 +28,7 @@
 .woocommerce ul.products li.product .price {
 	padding: 0 .8em;
 }
-form.cart {
+.cart {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -43,7 +43,7 @@ form.cart {
 	box-shadow: none!important;
 	color: var(--whiteColor1);
 }
-form.cart .quantity input[type="number"] {
+.cart .quantity input[type="number"] {
     width: 60px;
 	margin: 0!important;
     text-align: center;
