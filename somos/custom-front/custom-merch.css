@@ -64,63 +64,21 @@
 	box-shadow: none!important;
 	color: var(--whiteColor1);
 }
-.number-input {
-	display: flex;
-	align-items: center;
-	gap: 0;
-	width: 120px;
-	position: relative;
+.quantity input[type="number"] button {
+	background: none!important;
+	color: var(--whiteColor1);
+	position:absolute;
 }
-
-.number-input input {
-	width: 100%;
-	text-align: center;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	padding: 5px;
-	appearance: textfield; /* Quita los spinners predeterminados */
+.quantity input[type="number"] button.increment {
+	top:0;
+	right: 0
 }
-
-.number-input button {
-	background-color: #f0f0f0;
-	border: 1px solid #ccc;
-	color: #333;
-	font-size: 16px;
-	cursor: pointer;
-	width: 30px;
-	height: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	margin-left: 5px;
-}
-
-.number-input button:active {
-	background-color: #e0e0e0;
+.quantity input[type="number"] button.decrement {
+	background: none!important;
+	bottom: 0;
+	right: 0;
 }
 .custom-quantity {
 	display: flex;
 	align-items: center;
-}
-.quantity-button {
-	background-color: #f0f0f0;
-	border: 1px solid #ccc;
-	color: #333;
-	font-size: 16px;
-	cursor: pointer;
-	width: 30px;
-	height: 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
-	margin: 0 5px;
-}
-.quantity-button:active {
-	background-color: #e0e0e0;
-}
-.custom-quantity input {
-	width: 60px;
-	text-align: center;
 }
