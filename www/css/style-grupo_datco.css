@@ -4,11 +4,14 @@
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
 .fusion-social-links-footer .fusion-social-networks .fusion-social-networks-wrapper:after{content:'#SocialChannel';color:#6F6F6F;font-size:.9em;font-family:var(--titleFont);position:relative;bottom:2px;right:4px}
-body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.page-id-53273 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
 .fusion-imageframe.xerox-badge{padding:.4em 1em .4em 31.8em;margin-left:-32em;background:var(--xeroxColor);border-radius:0 68px 68px 0!important}
 span.fusion-imageframe.xerox-badge{max-width:100%!important}
 .fusion-imageframe.xerox-badge img{width:150px}
-  
+body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
+body.page-id-53273 .fusion-filters li a,
+body.page-id-54838 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
+body.page-id-54838 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
+
 /* Desktop */
 @media (min-width:920px) {
 	body.page-id-39954 #pilares-4 .fusion-read-more-button{visibility:hidden;display:block;margin-top:0;width:100%;height:100%;position:absolute;top:0;left:0}
@@ -24,5 +27,8 @@ span.fusion-imageframe.xerox-badge{max-width:100%!important}
 	.tfs-slider .slide-content-container .buttons{margin-top:2em}
 	body.page-id-53273 .tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:32%!important}
 	body.page-id-53273 .tfs-slider .fusion-title:not(.fusion-title-size-one){margin-top:0!important;margin-bottom:.2em!important}
-	body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,body.page-id-53273 .fusion-filters li a{font-size:1.2rem!important}
+	body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
+	body.page-id-53273 .fusion-filters li a,
+	body.page-id-54838 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
+	body.page-id-54838 .fusion-filters li a{font-size:1.2rem!important}
 }
