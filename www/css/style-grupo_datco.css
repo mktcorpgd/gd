@@ -9,8 +9,8 @@ span.fusion-imageframe.xerox-badge{max-width:100%!important}
 .fusion-imageframe.xerox-badge img{width:150px}
 body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
 body.page-id-53273 .fusion-filters li a,
-body.page-id-54838 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
-body.page-id-54838 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
+body.page-id-54861 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
+body.page-id-54861 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem!important;padding:10px}
 
 /* Desktop */
 @media (min-width:920px) {
@@ -29,6 +29,6 @@ body.page-id-54838 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem
 	body.page-id-53273 .tfs-slider .fusion-title:not(.fusion-title-size-one){margin-top:0!important;margin-bottom:.2em!important}
 	body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
 	body.page-id-53273 .fusion-filters li a,
-	body.page-id-54838 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
-	body.page-id-54838 .fusion-filters li a{font-size:1.2rem!important}
+	body.page-id-54861 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
+	body.page-id-54861 .fusion-filters li a{font-size:1.2rem!important}
 }
