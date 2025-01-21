@@ -63,29 +63,4 @@
 	font-size: .9rem;
 	background: none!important;
 	box-shadow: none!important;
-	color: var(--whiteColor1);
-}
-.quantity {
-	position: relative;
-}
-.quantity input[type="number"]~button {
-	background: none!important;
-	color: var(--whiteColor1);
-    position: absolute;
-    padding: .05em;
-    min-width: 16px;
-    text-align: center;
-    font-weight: normal;
-	background: rgba(0,0,0,.2)!important
-}
-.quantity input[type="number"]~button:hover {
-	background: rgba(0,0,0,.4)!important	
-}
-.quantity input[type="number"]~button.increment {
-	top:0;
-	right: 0
-}
-.quantity input[type="number"]~button.decrement {
-	bottom: 0;
-	right: 0;
 }
