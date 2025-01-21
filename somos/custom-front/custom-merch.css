@@ -99,3 +99,28 @@
 .number-input button:active {
 	background-color: #e0e0e0;
 }
+.custom-quantity {
+	display: flex;
+	align-items: center;
+}
+.quantity-button {
+	background-color: #f0f0f0;
+	border: 1px solid #ccc;
+	color: #333;
+	font-size: 16px;
+	cursor: pointer;
+	width: 30px;
+	height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+.quantity-button:active {
+	background-color: #e0e0e0;
+}
+.custom-quantity input {
+	width: 60px;
+	text-align: center;
+}
