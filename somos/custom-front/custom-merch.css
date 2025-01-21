@@ -36,6 +36,9 @@
 .cart {
 	background: var(--highlightColor);
 }
+.cart:hover {
+	background: var(--subColor);
+}
 .no-stock {
 	background: var(--lightgrayColor2);
 	pointer-events: none;
