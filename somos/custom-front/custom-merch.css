@@ -64,6 +64,9 @@
 	box-shadow: none!important;
 	color: var(--whiteColor1);
 }
+.quantity {
+	position: relative;
+}
 .quantity input[type="number"]+button {
 	background: none!important;
 	color: var(--whiteColor1);
