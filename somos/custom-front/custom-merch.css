@@ -36,7 +36,10 @@
 .cart {
 	background: var(--highlightColor);
 }
-.cart:hover {
+.woocommerce ul.products li.product:hover {
+	box-shadow: var(--smallShadow);
+}
+.woocommerce ul.products li.product:hover .cart {
 	background: var(--subColor);
 }
 .no-stock {
