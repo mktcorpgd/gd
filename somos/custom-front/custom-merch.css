@@ -1,32 +1,3 @@
-/* Tipografía base para WooCommerce */
-.woocommerce {
-    font-family: 'open-sans', sans-serif;
-}
-
-.woocommerce h1, 
-.woocommerce h2, 
-.woocommerce h3, 
-.woocommerce h4, 
-.woocommerce h5, 
-.woocommerce h6 {
-    font-family: 'neo-sans', sans-serif;
-    font-weight: bold;
-    color: inherit; /* Mantén el color que tenga el tema */
-}
-
-/* Eliminar bordes y colores de los elementos */
-.woocommerce input, 
-.woocommerce textarea, 
-.woocommerce select, 
-.woocommerce button, 
-.woocommerce .button, 
-.woocommerce input[type="submit"] {
-    border: none;
-    box-shadow: none;
-    background-color: transparent; /* Elimina fondo por defecto */
-    color: inherit; /* Mantén el color del texto */
-}
-
 /* Estilo específico para eliminar íconos */
 .woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,
 .woocommerce ul.products li.product .onsale,
@@ -35,27 +6,12 @@
 .woocommerce .star-rating span::before {
     display: none;
 }
-
-/* Eliminar bordes de tarjetas de productos */
+/* Eliminar bordes */
 .woocommerce ul.products li.product,
 .woocommerce div.product {
     border: none;
     box-shadow: none;
 }
-
-/* Botones más consistentes */
-.woocommerce button, 
-.woocommerce .button, 
-.woocommerce input[type="submit"] {
-    background-color: transparent; /* Elimina fondo */
-    text-transform: uppercase;
-    padding: 10px 15px;
-    font-size: 14px;
-    cursor: pointer;
-    border-radius: 0; /* Evita bordes redondeados */
-}
-
-/* Otros elementos específicos */
 .woocommerce div.product .summary, 
 .woocommerce div.product .woocommerce-tabs {
     border: none;
