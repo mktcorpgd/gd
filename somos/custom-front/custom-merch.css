@@ -335,8 +335,11 @@
 .admin-bar .pswp {
 	z-index: 9999;
 }
-.woocommerce img.pswp__img, .woocommerce-page img.pswp__img {
+.woocommerce img.pswp__img, .woocommerce-page img.pswp__img, .woocommerce div.product div.images .woocommerce-product-gallery__wrapper {
 	border-radius: var(--regularRadius);
+}
+.woocommerce div.product div.images .woocommerce-product-gallery__wrapper {
+	border: 1px solid var(--lightgrayColor1);
 }
 
 /* Responsive */
