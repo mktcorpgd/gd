@@ -11,7 +11,7 @@
 	background: var(--mainColor);
     border-radius: 50%;
     z-index: 1;
-	transform:scale(1);
+	transform:scale(1)!important;
 }
 .woofc-count span, promptnotificationicon {
     background: red;
@@ -33,8 +33,6 @@
     display: flex;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    border: 2px solid #fff;
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
