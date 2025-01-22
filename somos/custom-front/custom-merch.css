@@ -193,6 +193,9 @@
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special,.woofc-area.woofc-style-01 .woofc-area-top .woofc-close {
 	color: var(--metaColor);
 }
+.woocommerce .woocommerce-result-count {
+	margin-top: .4em;
+}
 .woocommerce .woocommerce-result-count, .woocommerce .woocommerce-ordering select {
 	font-size: .8rem!important;
 }
