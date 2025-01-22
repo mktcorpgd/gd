@@ -368,6 +368,13 @@
 .woo-pagination .current {
     color: var(--grayColor);
 }
+.woocommerce ul.products img, 
+.woocommerce div.product div.images img {
+    max-height: 300px; /* Ajusta la altura máxima */
+    width: auto; /* Mantiene las proporciones */
+    object-fit: contain; /* Evita deformaciones */
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
