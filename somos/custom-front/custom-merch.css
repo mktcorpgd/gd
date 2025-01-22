@@ -14,8 +14,8 @@
 	transform:scale(1)!important;
 }
 .woofc-count span, promptnotificationicon {
-    background: red;
-    color: #fff;
+    background: var(--highlightColor);
+    color: var(--whiteColor1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +36,7 @@
     box-sizing: border-box;
     align-items: center;
     justify-content: center;
+	color: var(--whiteColor1);
 }
 .woocommerce ul li.product, .woocommerce-page ul li.product {
 	margin-bottom: 1em!important;
@@ -95,13 +96,4 @@
 }
 .woocommerce ul.products li.product .button.loading {
 	opacity: .4;
-}
-.woocommerce ul.products li.product .button::after {
-
-}
-
-.stock-available {
-    font-size: 14px;
-    color: #555;
-    margin-bottom: 5px;
 }
