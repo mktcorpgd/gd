@@ -193,85 +193,85 @@
 	color: var(--metaColor);
 }
 
-/* Estilo base para modernizar el carrito de WooCommerce */
+/* Estilo minimalista para el carrito de WooCommerce */
 .woocommerce-cart table.shop_table {
-	display: table;
 	width: 100%;
 	border-collapse: collapse;
 	margin-bottom: 20px;
-	font-size: 16px;
+	font-size: inherit;
+	font-family: inherit;
 }
 
 .woocommerce-cart table.shop_table th,
 .woocommerce-cart table.shop_table td {
-	padding: 15px;
+	padding: 10px;
 	text-align: left;
-	border-bottom: 1px solid #e0e0e0;
+	border-bottom: 1px solid #ddd;
 }
 
 .woocommerce-cart table.shop_table th {
-	background-color: #f9f9f9;
-	color: #333;
-	font-weight: 600;
+	font-weight: bold;
 	text-transform: uppercase;
+	color: inherit;
 }
 
 .woocommerce-cart table.shop_table td {
-	color: #555;
+	color: inherit;
 }
 
 .woocommerce-cart table.shop_table .product-thumbnail img {
-	max-width: 80px;
-	border-radius: 8px;
+	max-width: 60px;
+	border-radius: 4px;
 }
 
 .woocommerce-cart table.shop_table .product-name {
 	font-weight: 500;
-	color: #333;
+	color: inherit;
 }
 
 .woocommerce-cart table.shop_table .product-quantity input {
-	width: 60px;
+	width: 50px;
 	padding: 5px;
 	text-align: center;
 	border: 1px solid #ccc;
 	border-radius: 4px;
+	background: none;
+	color: inherit;
 }
 
 .woocommerce-cart table.shop_table .product-subtotal {
 	font-weight: bold;
-	color: #444;
 }
 
 /* Botones */
 .woocommerce-cart .actions .button {
-	background-color: #007cba;
-	color: #fff;
-	border: none;
-	padding: 10px 20px;
+	background: none;
+	color: inherit;
+	border: 1px solid #ccc;
+	padding: 8px 15px;
 	border-radius: 4px;
-	font-size: 16px;
+	font-size: inherit;
 	cursor: pointer;
-	transition: background-color 0.3s ease;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .woocommerce-cart .actions .button:hover {
-	background-color: #005f8d;
+	background-color: #f0f0f0;
 }
 
 /* Totales del carrito */
 .woocommerce-cart .cart_totals {
-	margin-top: 30px;
-	background: #f9f9f9;
+	margin-top: 20px;
 	padding: 20px;
-	border: 1px solid #e0e0e0;
-	border-radius: 8px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
 }
 
 .woocommerce-cart .cart_totals h2 {
-	font-size: 20px;
-	margin-bottom: 20px;
-	color: #333;
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: inherit;
 }
 
 .woocommerce-cart .cart_totals table {
@@ -281,20 +281,19 @@
 
 .woocommerce-cart .cart_totals table th,
 .woocommerce-cart .cart_totals table td {
-	padding: 10px;
+	padding: 10px 0;
 	text-align: left;
 }
 
 .woocommerce-cart .cart_totals .order-total {
-	font-size: 18px;
+	font-size: 16px;
 	font-weight: bold;
-	color: #007cba;
 }
 
 .woocommerce-cart .cart_totals .order-total th,
 .woocommerce-cart .cart_totals .order-total td {
-	border-top: 2px solid #e0e0e0;
-	padding-top: 15px;
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
 }
 
 /* Responsive */
@@ -302,11 +301,11 @@
 	.woocommerce-cart table.shop_table th,
 	.woocommerce-cart table.shop_table td {
 		font-size: 14px;
-		padding: 10px;
+		padding: 8px;
 	}
 
 	.woocommerce-cart .actions .button {
 		font-size: 14px;
-		padding: 8px 15px;
+		padding: 6px 10px;
 	}
 }
