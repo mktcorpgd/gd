@@ -191,6 +191,10 @@
 	font-size: 1.6em;
     font-weight: normal;
 }
+.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-plus:hover, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-minus:hover {
+	background: none;
+	color: var(--subColor);
+}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special,.woofc-area.woofc-style-01 .woofc-area-top .woofc-close {
 	color: var(--metaColor);
 }
