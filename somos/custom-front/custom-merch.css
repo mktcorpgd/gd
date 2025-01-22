@@ -111,3 +111,9 @@
 	padding-top: .1em;
 	font-weight: bold;
 }
+.woofc-area.woofc-style-01 .woofc-inner {
+	background: var(--mainColor);
+}
+.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner input {
+	min-width: 40px;
+}
