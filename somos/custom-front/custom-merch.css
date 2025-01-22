@@ -329,7 +329,7 @@
 	padding: .4em .8em;
 	border-radius: var(--regularRadius);
 	border: 2px solid var(--mainColor);
-	background: var(--lightgrayColor1);
+	background: var(--lightgrayColor1)
 }
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product .out-of-stock {
 	color: var(--errorColor);
@@ -340,11 +340,12 @@
 .admin-bar .pswp {
 	z-index: 9999;
 }
-.woocommerce img.pswp__img, .woocommerce-page img.pswp__img, .woocommerce div.product div.images .woocommerce-product-gallery__wrapper {
+.woocommerce img.pswp__img, .woocommerce-page img.pswp__img, .woocommerce div.product div.images .woocommerce-product-gallery {
 	border-radius: var(--regularRadius);
 }
-.woocommerce div.product div.images .woocommerce-product-gallery__wrapper {
-	border: 1px solid var(--lightgrayColor1);
+.woocommerce div.product div.images .woocommerce-product-gallery {
+	border: 2px solid var(--grayColor);
+	overflow: hidden;
 }
 
 /* Responsive */
