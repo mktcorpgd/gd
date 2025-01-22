@@ -14,7 +14,7 @@
 	transform:scale(1)!important;
 }
 .woofc-count span, promptnotificationicon {
-    background: var(--highlightColor);
+    background: var(--highlightColor)!important;
     color: var(--whiteColor1);
     display: flex;
     align-items: center;
@@ -28,6 +28,9 @@
     font-family: sans-serif;
     font-size: 12px;
     z-index: 1;
+}
+#woofc-count:hover span,prompticon3:hover promptnotificationicon {
+	background: var(--subColor)!important;
 }
 .woofc-count i, prompticonimage {
     display: flex;
