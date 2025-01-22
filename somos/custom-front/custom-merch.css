@@ -142,6 +142,7 @@
 }
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner input {
 	min-width: 40px;
+	border-radius: var(--smallRadius);
 }
 .woofc-area.woofc-rounded-yes .woofc-inner {
 	border-radius: var(--regularRadius);
@@ -174,6 +175,8 @@
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-plus, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-minus {
 	background: none;
 	color: var(--highlightColor);
+	font-size: 1.6em;
+    font-weight: normal;
 }
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special,.woofc-area.woofc-style-01 .woofc-area-top .woofc-close {
 	color: var(--metaColor);
