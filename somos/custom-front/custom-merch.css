@@ -328,6 +328,7 @@
 	font-size: 1.4rem;
 }
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product .out-of-stock {
+	display: inline-block;
 	font-size: .6rem!important;
 	padding: .4em .8em;
 	border-radius: var(--regularRadius);
@@ -350,6 +351,7 @@
 }
 .woocommerce div.product div.images.woocommerce-product-gallery {
 	border: 1px solid var(--lightgrayColor1);
+	border-radius: var(--regularRadius);
 	overflow: hidden;
 }
 .woo-pagination {
