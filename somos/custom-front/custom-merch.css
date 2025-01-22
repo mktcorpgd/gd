@@ -200,7 +200,6 @@
 	margin-bottom: 20px;
 	font-size: inherit;
 	font-family: inherit;
-	background: none;
 }
 
 .woocommerce-cart table.shop_table th,
@@ -214,8 +213,6 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	color: inherit;
-	background: none!important;
-	font-family: 'neo-sans',sans-serif;
 }
 
 .woocommerce-cart table.shop_table td {
