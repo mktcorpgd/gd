@@ -105,3 +105,6 @@
 	right: 11px;
 	color: var(--grayColor)!important;
 }
+.woofc-icon-cart7:before {
+	content: '\f07a';
+}
