@@ -4,7 +4,7 @@
 .woocommerce ul.products li.product .price ins:before,
 .woocommerce .star-rating::before,
 .woocommerce .star-rating span::before, .cart-subtotal, .woocommerce-cart .cart_totals .order-total th,
-.woocommerce-shop .woocommerce-breadcrumb, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner > div.woofc-action-left,.product_meta {
+.woocommerce-shop .woocommerce-breadcrumb, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner > div.woofc-action-left,.product_meta,.woocommerce-pagination {
     display: none;
 }
 /* Eliminar bordes */
@@ -352,7 +352,7 @@
 	border: 2px solid var(--grayColor);
 	overflow: hidden;
 }
-.custom-pagination {
+.woo-pagination {
     text-align: center;
     margin-top: 20px;
 }
