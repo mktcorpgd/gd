@@ -73,6 +73,7 @@
 	padding: 0 .8em .1em;
 }
 .woocommerce ul.products li.product .price {
+	margin-bottom: 0;
 	padding: 0 .8em;
 }
 :is(.cart,.no-stock):not(.shop_table) {
