@@ -107,4 +107,7 @@
 }
 .woofc-icon-cart7:before {
 	content: '\f07a';
+	font-family: 'Font Awesome 6 Pro',sans-serif;
+	padding-top: .1em;
+	font-weight: bold;
 }
