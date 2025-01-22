@@ -348,18 +348,21 @@
 .woocommerce img.pswp__img, .woocommerce-page img.pswp__img, .woocommerce div.product div.images .woocommerce-product-gallery {
 	border-radius: var(--regularRadius);
 }
-.woocommerce div.product div.images .woocommerce-product-gallery {
+.woocommerce div.product div.images.woocommerce-product-gallery {
 	border: 2px solid var(--grayColor);
 	overflow: hidden;
 }
 .woo-pagination {
+    margin-top: 1em;
+}
+
+.woo-pagination div {
 	display: flex;
 	justify-content: center;
-    margin-top: 1em;
+	padding: .4em;
     background-color: var(--whiteColor1);
     border-radius: var(--regularRadius);
 }
-
 .woo-pagination a, .woo-pagination span {
     margin: 0;
     padding: .4em .8em;
