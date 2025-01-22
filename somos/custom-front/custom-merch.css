@@ -320,17 +320,21 @@
 
 .woocommerce div.product .product_title {
 	margin-top: 0!important;
+	margin-bottom: .2em!important;
 	font-weight: normal;
 }
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price, .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product span.price {
 	color: var(--mainColor);
-	font-size: 1.6rem;
+	font-size: 1.4rem;
 }
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product .out-of-stock {
 	font-size: .6rem!important;
+	padding: .4em .8em;
+	border-radius: var(--regularRadius);
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	color: var(--errorColor);
+	background: var(--errorColor);
+	color: var(--whiteColor1)
 }
 .related.products {
 	clear: both;
@@ -345,7 +349,7 @@
 	border-radius: var(--regularRadius);
 }
 .woocommerce div.product div.images.woocommerce-product-gallery {
-	border: 2px solid var(--grayColor);
+	border: 1px solid var(--lightgrayColor1);
 	overflow: hidden;
 }
 .woo-pagination {
