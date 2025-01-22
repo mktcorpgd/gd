@@ -117,3 +117,9 @@
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner input {
 	min-width: 40px;
 }
+.woofc-area.woofc-rounded-yes .woofc-inner {
+	border-radius: var(--regularRadius);
+}
+.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-thumb img {
+	border-radius: var(--smallRadius);
+}
