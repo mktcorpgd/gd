@@ -1022,7 +1022,6 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 /* Desktop */
 @media (min-width:960px) {
 	input:not(.default)::-webkit-outer-spin-button,input:not(.default)::-webkit-inner-spin-button {margin:0;-webkit-appearance:none!important;-moz-appearance:none!important;appearance:none!important}
-	input:not(.default)[type=number]{-webkit-appearance:textfield;-moz-appearance:textfield;appearance:textfield}
 	li.only-mobile,#mobile-nav-button{display:none!important}
 	body.home section.post-loop.category-reportes .gp-blog-wrapper section .gp-meta-cats{display:none}
 	.sidebar{font-size:14px}
