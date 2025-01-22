@@ -58,13 +58,23 @@
 	color: var(--whiteColor1);
 }
 .woocommerce ul.products li.product .button {
+	display:block;
+	width: 100%;
 	margin-top: 0;
 	padding: .8em;
 	font-size: .9rem;
 	background: none!important;
 	box-shadow: none!important;
 	color: var(--highlightColor);
+	text-align: left;
 }
+.woocommerce ul.products li.product .button.loading {
+	opacity: .4;
+}
+.woocommerce ul.products li.product .button::after {
+
+}
+
 .stock-available {
     font-size: 14px;
     color: #555;
