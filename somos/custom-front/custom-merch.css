@@ -98,5 +98,10 @@
 	text-align: left;
 }
 .woocommerce ul.products li.product .button.loading {
-	opacity: .4;
+	opacity: .6;
+}
+.woocommerce input.button::after {
+	top: 11px;
+	right: 11px;
+	color: var(--grayColor)!important;
 }
