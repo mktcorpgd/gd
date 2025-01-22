@@ -4,7 +4,7 @@
 .woocommerce ul.products li.product .price ins:before,
 .woocommerce .star-rating::before,
 .woocommerce .star-rating span::before, .cart-subtotal, .woocommerce-cart .cart_totals .order-total th,
-.woocommerce-shop .woocommerce-breadcrumb, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner > div.woofc-action-left {
+.woocommerce-shop .woocommerce-breadcrumb, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner > div.woofc-action-left,.product_meta {
     display: none;
 }
 /* Eliminar bordes */
@@ -316,6 +316,14 @@
 .woocommerce .cart-collaterals .cart_totals, .woocommerce-page .cart-collaterals .cart_totals {
 	width: 100%;
 	border: none;
+}
+
+.woocommerce div.product .product_title {
+	margin-top: 0;
+	font-weight: normal;
+}
+.related.products {
+	clear: both;
 }
 
 /* Responsive */
