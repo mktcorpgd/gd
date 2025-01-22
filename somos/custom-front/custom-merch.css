@@ -372,6 +372,17 @@
 .woocommerce-product-details__short-description{
 	margin:0 0 1em;
 }
+.woocommerce .quantity .qty {
+	margin: 0!important;
+	border: 2px solid var(--highlightColor);
+	border-top-right-radius: var(--smallRadius);
+	border-bottom-right-radius: var(--smallRadius);
+}
+.woocommerce div.product form.cart .button {
+	border-top-left-radius: var(--smallRadius);
+	border-bottom-left-radius: var(--smallRadius);
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
