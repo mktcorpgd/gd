@@ -324,7 +324,12 @@
 }
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price, .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product span.price {
 	color: var(--mainColor);
-
+}
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price span {
+	padding: .4em .8em;
+	border-radius: var(--regularRadius);
+	border: 2px solid var(--mainColor);
+	background: var(--lightgrayColor1);
 }
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product .out-of-stock {
 	color: var(--errorColor);
