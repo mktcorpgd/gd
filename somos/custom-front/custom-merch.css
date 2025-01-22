@@ -74,18 +74,18 @@
 .woocommerce ul.products li.product .price {
 	padding: 0 .8em;
 }
-:is(.cart,.no-stock) {
+:is(.cart,.no-stock):not(.shop_table) {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.cart {
+.cart:not(.shop_table) {
 	background: var(--highlightColor);
 }
 .woocommerce ul.products li.product:hover {
 	box-shadow: var(--smallShadow);
 }
-.woocommerce ul.products li.product:hover .cart {
+.woocommerce ul.products li.product:hover .add_to_cart_button {
 	background: var(--subColor);
 }
 .no-stock {
