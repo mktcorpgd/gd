@@ -61,7 +61,7 @@ article.category-salesforce .gp-entry-meta,section.category-salesforce .gp-meta-
 popup_poweredby,notification_time,popup_close+popup_heading,
 body:not(.role-administrator) #custom_html-30,
 /* Merchandising */
-.added_to_cart.wc-forward,[class*='hint--']:after{display:none!important}
+.added_to_cart.wc-forward,[class*='hint--']:after,[class*='hint--']:before{display:none!important}
 body:not(.home) section.category-comerciales .gp-loop-meta time+span,.hidden,
 .mfp-align-top .mfp-container:before,.mfp-loading.mfp-figure,.mfp-s-error .mfp-content,.mfp-s-ready .mfp-preloader,label[for='TIPCASO']+em,#message_today,.bdays_today .widgettitle,.filledwithmap+a,
 body:not(.logged-in) #custom_html-23,.offhours,

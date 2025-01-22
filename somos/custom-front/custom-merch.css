@@ -134,3 +134,6 @@
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span {
 	text-transform: none;
 }
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span:hover, .woofc-close {
+	opacity: .6;
+}
