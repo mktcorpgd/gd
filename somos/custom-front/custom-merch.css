@@ -375,12 +375,14 @@
 .woocommerce .quantity .qty {
 	margin: 0!important;
 	border: 2px solid var(--highlightColor);
+	border-top-left-radius: var(--regularRadius);
+	border-bottom-left-radius: var(--regularRadius);
 	border-top-right-radius: var(--smallRadius);
 	border-bottom-right-radius: var(--smallRadius);
 }
 .woocommerce div.product form.cart .button {
-	border-top-left-radius: var(--smallRadius);
-	border-bottom-left-radius: var(--smallRadius);
+	border-top-left-radius: var(--smallRadius)!important;
+	border-bottom-left-radius: var(--smallRadius)!important;
 }
 
 
