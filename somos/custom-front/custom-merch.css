@@ -3,7 +3,8 @@
 .woocommerce ul.products li.product .onsale,
 .woocommerce ul.products li.product .price ins:before,
 .woocommerce .star-rating::before,
-.woocommerce .star-rating span::before, .cart-subtotal, .woocommerce-cart .cart_totals .order-total th {
+.woocommerce .star-rating span::before, .cart-subtotal, .woocommerce-cart .cart_totals .order-total th,
+.woocommerce-shop .woocommerce-breadcrumb {
     display: none;
 }
 /* Eliminar bordes */
