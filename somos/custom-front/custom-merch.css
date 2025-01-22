@@ -182,7 +182,7 @@
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span {
 	text-transform: none;
 }
-.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span:hover, .woofc-close {
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span:hover, .woofc-close:hover, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove:hover {
 	opacity: .6;
 }
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-plus, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-minus {
