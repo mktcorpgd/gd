@@ -1,6 +1,6 @@
 /* Tipografía base para WooCommerce */
 .woocommerce {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'open-sans', sans-serif;
 }
 
 .woocommerce h1, 
@@ -9,7 +9,7 @@
 .woocommerce h4, 
 .woocommerce h5, 
 .woocommerce h6 {
-    font-family: 'Neo Sans', sans-serif;
+    font-family: 'neo-sans', sans-serif;
     font-weight: bold;
     color: inherit; /* Mantén el color que tenga el tema */
 }
@@ -174,7 +174,13 @@
 	font-weight: bold;
 }
 .woofc-area.woofc-style-01 .woofc-inner {
-	background: var(--mainColor);
+	background: var(--whiteColor2);
+}
+.woofc-area.woofc-style-01 .woofc-area-top, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span {
+	color: var(--textColor);
+}
+.woofc-area.woofc-style-01 .woofc-area-top {
+	font-family:'neo-sans'
 }
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner input {
 	min-width: 40px;
