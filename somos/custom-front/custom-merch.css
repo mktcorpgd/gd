@@ -123,3 +123,14 @@
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-thumb img {
 	border-radius: var(--smallRadius);
 }
+.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-bot .woofc-action .woofc-action-inner > div a {
+	border-radius: var(--largeRadius);
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: none;
+}
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span {
+	text-transform: none;
+}
