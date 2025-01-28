@@ -12,6 +12,8 @@ div.TYPE2,
 .avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):hover,.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button):hover>a:not(.fusion-icon-sliding-bar),.avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li:not(.fusion-middle-logo-menu-logo):not(.fusion-menu-item-button)>a:not(.fusion-icon-sliding-bar):not([href^='#']):hover{background:rgba(0,0,0,.1)!important}
 .fusion-mobile-menu-design-modern .fusion-mobile-nav-item.fusion-modal-text-link-button a:not([data-target*=".faq"]) .menu-text{color:var(--whiteColor)!important}
 body.site-id-6 .fusion-footer-widget-area{padding:0!important}
+.wa_chat{transition:all .1s ease-in-out!important;width:56px;height:56px;position:fixed;bottom:20px;right:20px;font-size:36px;line-height:56px;color:#fff!important;text-align:center;background-color:#24cd63;border-radius:18px;box-shadow:0 2px 16px rgba(0,0,0,.4)!important;z-index:999999999999!important}
+.wa_chat:hover{transform:scale(1.05);background-color:#11887b}
 
 /* Fibra */
 body.postid-25544 .fusion-header-wrapper .fusion-secondary-header{display:none!important}
