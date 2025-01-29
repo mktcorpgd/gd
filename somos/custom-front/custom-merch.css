@@ -16,7 +16,7 @@
 .woocommerce div.product .woocommerce-tabs {
     border: none;
 }
-#woofc-count,prompticon3 {
+#yith-wacp-mini-cart,prompticon3 {
     display: inline-block;
     padding: .45rem;
     width: 55px;
@@ -31,7 +31,7 @@
     z-index: 1;
 	transform:scale(1)!important;
 }
-.woofc-count span, promptnotificationicon {
+#yith-wacp-mini-cart .yith-wacp-mini-cart-count, promptnotificationicon {
     background: var(--highlightColor)!important;
     color: var(--whiteColor1);
     display: flex;
@@ -47,10 +47,10 @@
     font-size: 12px;
     z-index: 1;
 }
-#woofc-count:hover span,prompticon3:hover promptnotificationicon {
+#yith-wacp-mini-cart:hover span,prompticon3:hover promptnotificationicon {
 	background: var(--subColor)!important;
 }
-.woofc-count i, prompticonimage {
+#yith-wacp-mini-cart .yith-wacp-mini-cart-icon, prompticonimage {
     display: flex;
     width: 100%;
     height: 100%;
@@ -116,73 +116,6 @@
 	padding-top: .1em;
 	font-weight: bold;
 }
-.woofc-area.woofc-style-01 .woofc-inner {
-	background: var(--whiteColor2);
-}
-.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner, .woofc-area.woofc-style-01 .woofc-area-top, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span {
-	color: var(--textColor);
-}
-.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner {
-	border: none;
-	background: var(--lightgrayColor1);
-	font-size: .9em;
-}
-.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner a, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-data, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-total {
-	color: var(--textColor);
-}
-.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner a:hover {
-	color: var(--subColor);
-}
-.woofc-area.woofc-style-01 .woofc-area-top .woofc-area-heading {
-	font-family:'neo-sans';
-	font-weight: normal;
-	text-transform: none;
-}
-.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner input {
-	min-width: 40px;
-	border-radius: var(--smallRadius);
-}
-.woofc-area.woofc-rounded-yes .woofc-inner {
-	border-radius: var(--regularRadius);
-}
-.woofc-area.woofc-style-01 .woofc-area-top {
-	height: 38px;
-	line-height: 38px;
-	background: var(--lightgrayColor1);
-}
-.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner, .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-thumb img {
-	border-radius: var(--smallRadius);
-}
-.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner {
-	border: 2px solid var(--lightgrayColor1);
-}
-.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-bot .woofc-action .woofc-action-inner > div a {
-	border-radius: var(--largeRadius);
-    font-weight: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: none;
-}
-.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span {
-	text-transform: none;
-}
-.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span:hover, .woofc-close:hover, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove:hover {
-	opacity: .6;
-}
-.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-plus, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-minus {
-	background: none;
-	color: var(--highlightColor);
-	font-size: 1.6em;
-    font-weight: normal;
-}
-.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-plus:hover, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-minus:hover {
-	background: none;
-	color: var(--subColor);
-}
-.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special,.woofc-area.woofc-style-01 .woofc-area-top .woofc-close {
-	color: var(--metaColor);
-}
 .woocommerce .woocommerce-result-count {
 	margin-top: .4em;
 }
@@ -191,9 +124,6 @@
 }
 .woocommerce .woocommerce-ordering select {
 	margin-top: 0!important;
-}
-.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner {
-	justify-content: center;
 }
 
 /* Estilo minimalista para el carrito de WooCommerce */
