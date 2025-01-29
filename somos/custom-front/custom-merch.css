@@ -38,11 +38,15 @@
 .woo-pagination div{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
 .woo-pagination a,.woo-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}.woo-pagination a:hover{color:var(--highlightColor)}.woo-pagination .current{color:var(--grayColor)}
 
+/* Botones */
+.yith-wacp-popup-actions{margin-bottom:2em}
+
 /* Notificaciones */
 #yith-wacp-popup .yith-wacp-content .yith-wacp-message{background-color:var(--successColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
 
 /* Otros */
 .no-stock{background:var(--lightgrayColor2);pointer-events:none}
+.yith-wacp-main{padding-bottom:0;border-radius:var(--largeRadius)}
 
 /* Responsive */
 @media (max-width: 768px) {
