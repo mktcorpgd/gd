@@ -36,7 +36,12 @@
 .woocommerce .woocommerce-ordering select{margin-top:0!important}
 .woo-pagination{margin-top:1em}
 .woo-pagination div{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
-.woo-pagination a,.woo-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}.woo-pagination a:hover{color:var(--highlightColor)}.woo-pagination .current{color:var(--grayColor)}
+.woo-pagination a,.woo-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
+.woo-pagination a:hover{color:var(--highlightColor)}.woo-pagination .current{color:var(--grayColor)}
+.woocommerce ul.products li.product .quantity .qty{width:100%;position:relative}
+.woocommerce ul.products li.product .quantity input{background:none}
+.woocommerce ul.products li.product .cart{width:25%}
+.woocommerce ul.products li.product .ajax_add_to_cart {width:75%}
 
 /* Botones */
 .yith-wacp-popup-actions{margin-bottom:2em}
