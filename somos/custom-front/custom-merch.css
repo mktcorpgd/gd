@@ -40,6 +40,9 @@
 
 /* Botones */
 .yith-wacp-popup-actions{margin-bottom:2em}
+.wbu-qty-button{height:auto!important;border:none;background:none;color:var(--highlightColor);position:absolute;right:0}
+.wbu-qty-button.wbu-btn-inc{top:0}
+.wbu-qty-button.wbu-btn-sub{bottom:0}
 
 /* Notificaciones */
 #yith-wacp-popup .yith-wacp-content .yith-wacp-message{background-color:var(--successColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
