@@ -1,5 +1,5 @@
 /* Ocultar */
-.woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta{display:none}
+.woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.product.stock-1 .cart{display:none}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
@@ -16,8 +16,8 @@
 
 /* Tienda */
 .woocommerce ul li.product,.woocommerce-page ul li.product{padding-bottom:.4em!important;margin-bottom:1em!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
-.woocommerce ul li.product:not(.outofstock),.woocommerce-page ul li.product:not(.outofstock){display:grid;gap:.4em;grid-template-columns:30% 70%;grid-template-rows:auto auto}
-.woocommerce ul li.product:not(.outofstock)>a{grid-column:span 2}
+.woocommerce ul li.product:not(.outofstock):not(.stock-1),.woocommerce-page ul li.product:not(.outofstock):not(.stock-1){display:grid;gap:.4em;grid-template-columns:30% 70%;grid-template-rows:auto auto}
+.woocommerce ul li.product:not(.outofstock):not(.stock-1)>a{grid-column:span 2}
 .woocommerce ul.products li.product a img{margin-bottom:.4em}
 .woocommerce ul.products li.product .woocommerce-loop-category__title,.woocommerce ul.products li.product .woocommerce-loop-product__title,.woocommerce ul.products li.product h3{padding:0 .8em .1em;font-size:1.1em;font-weight:normal}
 .woocommerce ul.products li.product .price{margin-bottom:0;color:var(--textColor);padding:0 .8em}
