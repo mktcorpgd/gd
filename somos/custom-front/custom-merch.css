@@ -16,8 +16,9 @@
 .admin-bar .pswp{z-index:9999}
 
 /* Tienda */
-.woocommerce ul li.product,.woocommerce-page ul li.product{display:grid;grid-template-columns:25% 75%;padding-bottom:1em;grid-template-rows:auto auto;margin-bottom:1em!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
-.woocommerce ul li.product>a{grid-column:span 2}
+.woocommerce ul li.product,.woocommerce-page ul li.product{padding-bottom:1em;margin-bottom:1em!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
+.woocommerce ul li.product:not(.outofstock),.woocommerce-page ul li.product:not(.outofstock){display:grid;grid-template-columns:25% 75%;grid-template-rows:auto auto}
+.woocommerce ul li.product:not(.outofstock)>a{grid-column:span 2}
 .woocommerce ul.products li.product a img{margin-bottom:.4em}
 .woocommerce ul.products li.product .woocommerce-loop-category__title,.woocommerce ul.products li.product .woocommerce-loop-product__title,.woocommerce ul.products li.product h3{padding:0 .8em .1em}
 .woocommerce ul.products li.product .price{margin-bottom:0;padding:0 .8em}
