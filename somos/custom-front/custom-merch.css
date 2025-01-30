@@ -24,12 +24,13 @@
 .woocommerce ul.products li.product:hover{box-shadow:var(--smallShadow)}
 .woocommerce ul.products li.product:hover .add_to_cart_button{background:var(--subColor)}
 .woocommerce ul.products li.product .button{grid-column:auto!important;margin-top:0;padding:.8em .4em;font-size:.9rem;background:none!important;box-shadow:none!important;color:var(--highlightColor);text-align:left}
-.woocommerce ul.products li.product.outofstock .button{padding-left:.8em}
+.woocommerce ul.products li.product.outofstock .button,.woocommerce ul.products li.product .stock{padding-left:.8em}
 .woocommerce ul.products li.product .button.loading{opacity:.6}
 .woocommerce .button::after{position:absolute;top:11px!important;right:16px!important;color:var(--grayColor)!important}
 .woocommerce .woocommerce-result-count{margin-top:.4em}
 .woocommerce .woocommerce-result-count,.woocommerce .woocommerce-ordering select,.woocommerce-breadcrumb{font-size:.8rem!important}
 .woocommerce .woocommerce-ordering select{margin-top:0!important}
+.woocommerce ul.products li.product .stock{padding:.4em .6em;background:var(--lightgrayColor2);border-radius:var(--smallRadius);font-size:.8rem;color:var(--textColor)}
 .woocommerce-pagination{margin-top:1em}
 .woocommerce-pagination ul{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
 .woocommerce-pagination ul li{font-size:1rem}
