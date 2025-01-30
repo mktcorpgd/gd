@@ -1,5 +1,5 @@
 /* Ocultar */
-.woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.woocommerce-pagination,.woocommerce div.product p.in-stock,.woocommerce-tabs.wc-tabs-wrapper{display:none}
+.woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.woocommerce div.product p.in-stock,.woocommerce-tabs.wc-tabs-wrapper{display:none}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
@@ -30,10 +30,10 @@
 .woocommerce .woocommerce-result-count{margin-top:.4em}
 .woocommerce .woocommerce-result-count,.woocommerce .woocommerce-ordering select,.woocommerce-breadcrumb{font-size:.8rem!important}
 .woocommerce .woocommerce-ordering select{margin-top:0!important}
-.woo-pagination{margin-top:1em}
-.woo-pagination div{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
-.woo-pagination a,.woo-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
-.woo-pagination a:hover{color:var(--highlightColor)}.woo-pagination .current{color:var(--grayColor)}
+.woocommerce-pagination{margin-top:1em}
+.woocommerce-pagination div{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
+.woocommerce-pagination a,.woocommerce-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
+.woocommerce-pagination a:hover{color:var(--highlightColor)}.woocommerce-pagination .current{color:var(--grayColor)}
 .woocommerce ul.products li.product .quantity{margin-left:.8em;position:relative}
 
 /* Flotante */
