@@ -23,7 +23,7 @@
 .woocommerce ul.products li.product .price{margin-bottom:0;color:var(--textColor);padding:0 .8rem}
 .woocommerce ul.products li.product:hover{box-shadow:var(--smallShadow)}
 .woocommerce ul.products li.product:hover .add_to_cart_button{background:var(--subColor)}
-.woocommerce ul.products li.product .button{grid-column:auto!important;margin-top:0;padding:.8em .4em;font-size:.9rem;background:none!important;box-shadow:none!important;color:var(--highlightColor);text-align:left}
+.woocommerce ul.products li.product .button{grid-column:auto!important;margin-top:0;padding:.4em .8rem;font-size:.9rem;background:none!important;box-shadow:none!important;color:var(--highlightColor);text-align:left}
 .woocommerce ul.products li.product .button.loading{opacity:.6}
 .woocommerce .button::after{position:absolute;top:11px!important;right:16px!important;color:var(--grayColor)!important}
 .woocommerce .woocommerce-result-count{margin-top:.4em}
