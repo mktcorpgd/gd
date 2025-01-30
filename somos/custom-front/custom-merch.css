@@ -36,8 +36,6 @@
 .woocommerce ul.products li.product .quantity{position:relative}
 .woocommerce ul.products li.product .quantity .qty{width:100%}
 .woocommerce ul.products li.product .quantity input{background:none}
-.woocommerce ul.products li.product .cart{width:25%}
-.woocommerce ul.products li.product .ajax_add_to_cart {width:75%}
 
 /* Flotante */
 #yith-wacp-mini-cart,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
