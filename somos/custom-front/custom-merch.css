@@ -1,15 +1,12 @@
 /* Ocultar */
 .woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.woocommerce-pagination,.woocommerce div.product p.in-stock,.woocommerce-tabs.wc-tabs-wrapper{display:none}
 
-/* General */
-.woocommerce ul.products li.product,.woocommerce div.product,.woocommerce div.product .summary,.woocommerce div.product .woocommerce-tabs{border:none}
-
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
 .woocommerce div.product div.images.woocommerce-product-gallery{border:1px solid var(--lightgrayColor1);border-radius:var(--regularRadius);overflow:hidden}
 .woocommerce ul.products img,.woocommerce div.product div.images img{max-height:300px;width:auto;object-fit:contain}
 .woocommerce-product-details__short-description{margin:0 0 1em}
-.woocommerce .quantity .qty{margin:0!important;border:2px solid var(--highlightColor);border-top-left-radius:var(--regularRadius);border-bottom-left-radius:var(--regularRadius);border-top-right-radius:var(--smallRadius);border-bottom-right-radius:var(--smallRadius)}
+.woocommerce .quantity .qty{margin:0!important;padding:.4em 1em .4em .4em!important;border-top-left-radius:var(--regularRadius);border-bottom-left-radius:var(--regularRadius);border-top-right-radius:var(--smallRadius);border-bottom-right-radius:var(--smallRadius)}
 .woocommerce div.product form.cart .button{border-top-left-radius:var(--smallRadius)!important;border-bottom-left-radius:var(--smallRadius)!important}
 .related.products{clear:both}
 .related.products h2{font-size:.8rem}
@@ -17,7 +14,7 @@
 
 /* Tienda */
 .woocommerce ul li.product,.woocommerce-page ul li.product{padding-bottom:1em;margin-bottom:1em!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
-.woocommerce ul li.product:not(.outofstock),.woocommerce-page ul li.product:not(.outofstock){display:grid;grid-template-columns:25% 75%;grid-template-rows:auto auto}
+.woocommerce ul li.product:not(.outofstock),.woocommerce-page ul li.product:not(.outofstock){display:grid;gap:.4em;grid-template-columns:25% 75%;grid-template-rows:auto auto}
 .woocommerce ul li.product:not(.outofstock)>a{grid-column:span 2}
 .woocommerce ul.products li.product a img{margin-bottom:.4em}
 .woocommerce ul.products li.product .woocommerce-loop-category__title,.woocommerce ul.products li.product .woocommerce-loop-product__title,.woocommerce ul.products li.product h3{padding:0 .8em .1em}
@@ -35,8 +32,6 @@
 .woo-pagination a,.woo-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
 .woo-pagination a:hover{color:var(--highlightColor)}.woo-pagination .current{color:var(--grayColor)}
 .woocommerce ul.products li.product .quantity{margin-left:.8em;position:relative}
-.woocommerce ul.products li.product .quantity .qty{width:100%}
-.woocommerce ul.products li.product .quantity input{background:none}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
@@ -46,7 +41,7 @@
 
 /* Botones */
 .yith-wacp-popup-actions{margin-bottom:2em}
-.wbu-qty-button{height:auto!important;border:none;background:none;color:var(--highlightColor);position:absolute;right:0}
+.wbu-qty-button{width:20px;height:auto!important;border:none;background:none;color:var(--highlightColor);position:absolute;right:0}
 .wbu-qty-button.wbu-btn-inc{top:0}
 .wbu-qty-button.wbu-btn-sub{bottom:0}
 
