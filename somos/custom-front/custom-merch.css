@@ -41,7 +41,7 @@
 
 /* Botones */
 .yith-wacp-popup-actions{margin-bottom:2em}
-.wbu-qty-button{width:20px;height:auto!important;border:none;background:none;color:var(--highlightColor);position:absolute;right:0}
+.wbu-qty-button{padding:0;width:20px;height:auto!important;text-align:center;border:none;background:none;color:var(--highlightColor);position:absolute;right:0}
 .wbu-qty-button.wbu-btn-inc{top:0}
 .wbu-qty-button.wbu-btn-sub{bottom:0}
 
