@@ -31,7 +31,7 @@
 .woocommerce .woocommerce-result-count,.woocommerce .woocommerce-ordering select,.woocommerce-breadcrumb{font-size:.8rem!important}
 .woocommerce .woocommerce-ordering select{margin-top:0!important}
 .woocommerce ul.products li.product .stock{margin-left:.8rem;font-size:.7rem;color:var(--metaColor)}
-.woocommerce ul.products li.product .stock.agotado{letter-spacing:1px;text-transform:uppercase}
+.woocommerce ul.products li.product .stock strong{display:inline-block}
 .woocommerce-pagination{margin-top:1em}
 .woocommerce-pagination ul{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
 .woocommerce-pagination ul li{font-size:1rem}
