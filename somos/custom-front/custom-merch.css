@@ -42,7 +42,7 @@
 /* Carrito/Checkout */
 .woofc-area.woofc-style-01 .woofc-inner{background:var(--whiteColor1)}
 .woofc-area.woofc-rounded-yes .woofc-inner{border-radius:var(--regularRadius)}
-.woofc-area.woofc-style-01 .woofc-area-top{background:var(--lightgrayColor1)}
+.woofc-area.woofc-style-01 .woofc-area-top,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{background:var(--lightgrayColor1)}
 .woofc-area-heading{font-family:'neo-sans',sans-serif}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span{color:var(--textColor)}
 
