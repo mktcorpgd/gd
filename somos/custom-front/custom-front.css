@@ -392,7 +392,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 .wpcf7-list-item.last{margin-right:0}
 .wpcf7 label li{font-size:.8em;line-height:1;list-style:none;margin:0}
 .wpcf7 label{color:var(--metaColor);font-size:.8em}
-.wpcf7 label>span:not(.wpcf7-list-item-label):not(.wpcf7-form-control-wrap){display:block;font-size:.6rem;line-height:1;margin-bottom:-10px;position:relative;right:6px;text-align:right;top:9px;pointer-events:none}
+.wpcf7 label>span:not(.wpcf7-list-item-label):not(.wpcf7-form-control-wrap):not(.sr-only){display:block;font-size:.6rem;line-height:1;margin-bottom:-10px;position:relative;right:6px;text-align:right;top:9px;pointer-events:none}
 .wpcf7 label div{color:var(--textColor);font-size:1em}
 .wpcf7-form>label{float:left}
 .wpcf7 div[data-id='paxb']{clear:both}
