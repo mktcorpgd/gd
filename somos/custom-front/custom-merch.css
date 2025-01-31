@@ -42,6 +42,9 @@
 /* Carrito/Checkout */
 .woofc-area.woofc-style-01 .woofc-inner{background:var(--whiteColor1)}
 .woofc-area.woofc-rounded-yes .woofc-inner{border-radius:var(--regularRadius)}
+.woofc-area.woofc-style-01 .woofc-area-top{background:var(--lightgrayColor1)}
+.woofc-area-heading{font-family:'neo-sans',sans-serif}
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span{color:var(--textColor)}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
