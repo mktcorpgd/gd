@@ -378,6 +378,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7-submit.sending{opacity:.6;pointer-events:none}
 .wpcf7-subscribers-only{margin:40px 0;text-align:center;font-style:italic}
 .wpcf7-form-control-wrap{position:relative}
+[data-class="wpcf7cf_group"] .wpcf7-form-control-wrap{position:inherit}
 .wpcf7-form-control-wrap.inline{display:inline-block}
 .wpcf7-form-control-wrap .check_add{float:right}
 .wpcf7-form-control-wrap .check_add .wpcf7-list-item{margin-right:0;padding-left:0}
