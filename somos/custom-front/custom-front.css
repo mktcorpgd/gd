@@ -404,7 +404,7 @@ body form.sending,form.sending input,form.sending select,form.sending input{curs
 .wpcf7 .highlight .wpcf7-list-item label{float:none;display:inline-block;margin:0 .4em;padding:.5em .7em;border-radius:var(--regularRadius)}
 .wpcf7 .highlight .wpcf7-list-item.first label{margin-left:0}
 input.inline{max-width:200px}
-input[type='number'].inline{max-width:50px}
+input[type='number'].inline{max-width:60px}
 input.inline.highlight,.wpcf7 .highlight .wpcf7-list-item label{border:2px solid var(--lightgrayColor2)}
 input.inline.highlight:hover,.wpcf7 .highlight .wpcf7-list-item label:hover{border-color:var(--grayColor)}
 input.small{margin-top:0;font-size:.9rem}
