@@ -40,7 +40,7 @@
 .woocommerce ul.products li.product .quantity{margin-left:.8rem;position:relative}
 
 /* Carrito/Checkout */
-.woofc-area.woofc-position-05{max-width:800px}
+.woofc-area.woofc-position-05{max-width:600px}
 .woofc-area.woofc-style-01 .woofc-inner{background:var(--whiteColor1)}
 .woofc-area.woofc-rounded-yes .woofc-inner{border-radius:var(--regularRadius)}
 .woofc-area.woofc-style-01 .woofc-area-top,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{background:var(--lightgrayColor1)}
