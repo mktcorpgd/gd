@@ -47,7 +47,7 @@
 .woofc-area-heading{font-family:'neo-sans',sans-serif}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span{color:var(--textColor)}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special{color:var(--metaColor)}
-.woofc-inner .woocommerce .col2-set .col-1, .woofc-inner .woocommerce-page .col2-set .col-1{width:100%}
+.woofc-inner .woocommerce .col2-set .col-1, .woofc-inner .woocommerce-page .col2-set .col-2{width:100%}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
