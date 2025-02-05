@@ -58,7 +58,10 @@
 /* Inputs */
 .woocommerce-input-wrapper {
 	display: flex;
-	gap: 15px; /* Espacio entre los grupos */
+	gap: .4em; /* Espacio entre los grupos */
+}
+.woocommerce-input-wrapper input[typr=radio] {
+	margin: 0
 }
 
 .radio-group {
