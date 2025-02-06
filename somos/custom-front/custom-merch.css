@@ -75,6 +75,61 @@
 	align-items: center;
 	gap: 5px; /* Espacio entre input y label */
 }
+contenedor del autocompletado dentro del div */
+#cuenta_salesforce_checkout .ui-autocomplete {
+    position: absolute !important; /* Posicionamos dentro del contenedor */
+    top: 100% !important; /* Lo coloca justo debajo del campo de entrada */
+    left: 0 !important; /* Alinea con el lado izquierdo del input */
+    z-index: 9999; /* Asegura que esté por encima de otros elementos */
+    background-color: #fff; /* Fondo blanco */
+    border: 1px solid #ccc; /* Borde gris claro */
+    max-height: 300px; /* Limita la altura para evitar que se salga de la pantalla */
+    overflow-y: auto; /* Si hay más elementos, agrega barra de desplazamiento */
+    width: 100%; /* Alinea con el tamaño del input */
+    box-sizing: border-box; /* Para que el padding y borde no afecten el tamaño */
+    border-radius: 4px; /* Esquinas redondeadas */
+    margin-top: 4px; /* Separación del input */
+}
+
+/* Estilo para los ítems de la lista */
+.ui-menu .ui-menu-item {
+    padding: 8px; /* Espaciado dentro de cada ítem */
+    cursor: pointer; /* Cambio de cursor al pasar por encima */
+    font-size: 14px; /* Tamaño de la fuente */
+    color: #333; /* Color de texto */
+}
+
+/* Estilo cuando un ítem está seleccionado (hover) */
+.ui-menu .ui-menu-item:hover {
+    background-color: #f0f0f0; /* Fondo gris claro al pasar el mouse */
+    color: #007cba; /* Color de texto azul */
+}
+/* Estilo para el campo de entrada mientras está cargando */
+#billing_cuenta_salesforce_field.loading {
+    position: relative; /* Necesario para posicionar el spinner dentro del input */
+}
+
+/* Estilo para el spinner de carga */
+#billing_cuenta_salesforce_field.loading::after {
+    content: ""; /* Necesario para mostrar el spinner */
+    position: absolute;
+    right: 10px; /* Alinea el spinner a la derecha del input */
+    top: 50%;
+    transform: translateY(-50%); /* Centra el spinner verticalmente */
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ccc;
+    border-top: 3px solid #007cba;
+    border-radius: 50%;
+    animation: spin 1s linear infinite; /* Hace que el spinner gire */
+}
+
+/* Animación para el spinner */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 
 
 /* Botones */
