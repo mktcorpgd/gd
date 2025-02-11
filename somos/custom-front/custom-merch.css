@@ -60,9 +60,8 @@
 /* Inputs */
 .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{line-height:1.2}
 .woocommerce form .form-row label{line-height:1.4}
-.woocommerce-input-wrapper{display:flex;gap:.4em}
+.woocommerce-input-wrapper{display:flex;align-items:flex-start;gap:.4em}
 .woocommerce-input-wrapper input[typr=radio]{margin:0}
-.woocommerce-input-wrapper input[name=billing_oficina]{margin-top:8px}
 .radio-group{display:inline-flex;align-items:center;gap:5px}
 #cuenta_salesforce_checkout .ui-autocomplete{position:absolute!important;top:100%!important;left:0!important;z-index:9999;background-color:#fff;border:1px solid #ccc;max-height:300px;overflow-y:auto;width:100%;box-sizing:border-box;border-radius:4px;margin-top:4px}
 .ui-menu .ui-menu-item{padding:8px;cursor:pointer;font-size:14px;color:#333}
