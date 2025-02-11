@@ -48,12 +48,7 @@
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span{color:var(--textColor)}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special{color:var(--metaColor)}
 .woofc-inner .woocommerce .col2-set .col-1, .woofc-inner .woocommerce .col2-set .col-2{width:100%}
-.woocommerce-billing-fields .form-third {
-    width: 33.33% !important;
-    float: left;
-    clear: none;
-}
-
+.woocommerce-billing-fields .form-third{width:33.33%!important;float:left;clear:none}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
@@ -62,19 +57,11 @@
 #woofc-count i[class*='woofc-icon-cart'],prompticonimage{display:flex;width:100%;height:100%;box-sizing:border-box;align-items:center;justify-content:center;color:var(--whiteColor1)}
 
 /* Inputs */
-.woocommerce form .form-row label {
-	line-height: 1.4;
-}
-.woocommerce-input-wrapper {
-	display: flex;
-	gap: .4em; /* Espacio entre los grupos */
-}
-.woocommerce-input-wrapper input[typr=radio] {
-	margin: 0
-}
-.woocommerce-input-wrapper input[name=billing_oficina] {
-	margin-top: 8px;
-}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{line-height:1.2}
+.woocommerce form .form-row label{line-height:1.4}
+.woocommerce-input-wrapper{display:flex;gap:.4em}
+.woocommerce-input-wrapper input[typr=radio]{margin:0}
+.woocommerce-input-wrapper input[name=billing_oficina]{margin-top:8px}
 
 .radio-group {
 	display: inline-flex;
