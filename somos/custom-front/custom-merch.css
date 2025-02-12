@@ -54,7 +54,7 @@ table.woocommerce-table tfoot:nth-child(1),table.woocommerce-table tfoot:nth-chi
 .woocommerce form .form-row-first, .woocommerce-page form .form-row-first,.woocommerce form .form-row-last, .woocommerce-page form .form-row-last,.woocommerce-billing-fields .form-third{clear:none!important}
 .woocommerce ul.order_details{display:flex}
 #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{background:none}
-p[class*='woocommerce-customer-details']{margin-bottom:0}
+p[class*='woocommerce-customer-details']{padding-left:0!important;margin-bottom:0!important}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
