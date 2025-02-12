@@ -56,6 +56,7 @@
 #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{background:none}
 .woocommerce .woocommerce-customer-details address{border:none;border-radius:0}
 .woocommerce .woocommerce-customer-details address,p[class*='woocommerce-customer-details']{padding:0!important;margin:0!important;line-height:normal}
+table.woocommerce-table--order-details tbody tr td{border-bottom:none!important}
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
 table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--highlightColor);border-bottom-left-radius:var(--regularRadius);border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
