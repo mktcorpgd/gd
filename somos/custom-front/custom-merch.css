@@ -1,7 +1,7 @@
 /* Ocultar */
 .woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.product.stock-1 .cart,.woocommerce-billing-fields>h3,.woocommerce-additional-fields>h3,
 .woocommerce-order-overview__payment-method,
-table.woocommerce-table tfoot:nth-child(1),table.woocommerce-table tfoot:nth-child(2),.wc_payment_methods,.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone::before,.woocommerce-customer-details--email::before{display:none}
+section.woocommerce-order-details > table > tfoot > tr:nth-child(1),section.woocommerce-order-details > table > tfoot > tr:nth-child(2),.wc_payment_methods,.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone::before,.woocommerce-customer-details--email::before{display:none}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
