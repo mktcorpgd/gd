@@ -138,11 +138,6 @@ jQuery(document).ready(function($) {
 		}
 		const enRangoHorario = estaEnRangoHorario(hora, minutos);
 		const esFinDeSemana = (diaSemana === 0 || diaSemana === 6);
-		console.log(esFinDeSemana );
-		console.log(esFeriado );
-		console.log(diaSemana );
-		console.log(enRangoHorario );
-		console.log(esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario) );
 		if ( esFinDeSemana || esFeriado || (diaSemana >= 1 && diaSemana <= 5 && enRangoHorario) ) {
 			$('.wpcf7-response-msg.offhours').show();
 			$('.wpcf7-submit,.wpcf7-form').addClass('confirm');
