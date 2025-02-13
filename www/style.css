@@ -1018,7 +1018,3 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-footer-widget-area ul li a{font-size:1em}
 
 }
-
-@media only screen and (max-width: 800px) {
-    .fusion-column.content-box-column{float:left;width:50%}
-}
