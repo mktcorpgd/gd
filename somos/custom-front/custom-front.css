@@ -128,6 +128,7 @@ input[type='text'],input[type='search'],input[type='url'],input[type='date'],inp
 input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='time'],input[type='email'],input[type='tel'],input[type='number'],textarea,select,
 #post-content .probox .proinput input.orig{margin:.3em 0 .6em!important;width:100%;height:auto;color:var(--textColor);background:var(--whiteColor2);border:1px solid var(--lightgrayColor2);border-radius:var(--smallRadius);box-shadow:none}
 input[type='text'],input[type='search'],input[type='url'],input[type='date'],input[type='time'],input[type='email'],input[type='tel'],input[type='number'],textarea{padding:.5em .6em!important}
+input[type='time']{padding:.44em .6em!important}
 select{position:relative;padding:.37em .6em}
 textarea{height:auto;line-height:1.3}
 #commentform textarea{height:80px}
