@@ -219,7 +219,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .awb-swiper-button-next>i,.awb-swiper-button-prev>i{position:relative;bottom:2px;color:rgba(0,0,0,.4)}
 .awb-swiper-button-next>i{left:2px}
 .awb-swiper-button-prev>i{right:2px}
-.fusion-body .header-transparent .fusion-title.fusion-title-size-one:not(.custom-size) h1, .tfs-slider .fusion-title h1, .tfs-slider .fusion-title h2,html body :not(.header-transparent) .fusion-title:not(.custom-color) :is(h2.fusion-title-heading,h3.fusion-title-heading){color:var(--whiteColor)!important;text-align:center!important}
+.fusion-body .header-transparent .fusion-title.fusion-title-size-one:not(.custom-size) h1, .tfs-slider .fusion-title h1, .tfs-slider .fusion-title h2,html body :not(.header-transparent) .fusion-title:not(.custom-color) :is(h2.fusion-title-heading,h3.fusion-title-heading){color:var(--whiteColor)!important}
 .tfs-slider .slide-content-container.slide-content-left .buttons{text-align:center}
 .fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
 
