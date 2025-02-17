@@ -274,6 +274,7 @@ body:not(.home) .padder{background:var(--whiteColor1);border-top-width:12px;bord
 body.error404 .padder{background:none;box-shadow:none}
 .post .padder .wp-block-media-text,.single .padder .wp-block-media-text{align-items:flex-start}
 #content .gp-blog-wrapper section .post-text p{margin-bottom:0;font-size:.9em;line-height:1.4}
+.column.one.shorter{float:none;display:block;margin:0 auto !important;width:75%}
 
 /* Imagen destacada */
 .post-thumbnail{border-radius:var(--largeRadius);overflow:hidden}
