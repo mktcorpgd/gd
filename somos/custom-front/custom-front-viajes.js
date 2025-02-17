@@ -101,15 +101,12 @@ jQuery(document).ready(function($) {
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
 	function assignResp() {
 		if ( gdOFFICE_mc == 'AR' ) {
-			$('input[name=RESP]').val($('input[name=RESPAR]').val());
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}
 		else if ( gdOFFICE_mc == 'CL' ) {
-			$('input[name=RESP]').val($('input[name=RESPCL]').val());
 			$('input[name=MSGADD]').val($('input[name=MSGADDCL]').val());
 		}
 		else {
-			$('input[name=RESP]').val($('input[name=RESPAR]').val());
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}	
 	}
