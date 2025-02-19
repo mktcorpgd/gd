@@ -96,25 +96,24 @@ jQuery(document).ready(function($) {
 	});
 
 
-	// Asignar responsable según oficina
 	var gdOFFICE_mc = $('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
 	console.log(gdOFFICE_mc == 'AR');
 	function assignResp() {
-		if ( gdOFFICE_mc == 'AR' ) {
-			$('select[name=RESP] option').val('Argentina');
+		if (gdOFFICE_mc == 'AR') {
+			$('select[name=RESP]').val('Argentina');
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}
-		else if ( gdOFFICE_mc == 'CL' ) {
-			$('select[name=RESP] option').val('Chile');
+		else if (gdOFFICE_mc == 'CL') {
+			$('select[name=RESP]').val('Chile');
 			$('input[name=MSGADD]').val($('input[name=MSGADDCL]').val());
 		}
 		else {
-			$('select[name=RESP] option').val('Argentina');
+			$('select[name=RESP]').val('Argentina');
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}
 	}
-
+	assignResp();	
 
 	// Asignar asistente si es UAC
 	var gdUNIT_mc = $('input[name=gdUNIT_mc]').val();
