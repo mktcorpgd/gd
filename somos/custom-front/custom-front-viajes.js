@@ -119,6 +119,7 @@ jQuery(document).ready(function($) {
 	// Asignar asistente si es UAC
 	var gdUNIT_mc = $('input[name=gdUNIT_mc]').val();
 	gdUNIT_mc = gdUNIT_mc.substring(0,2);
+	console.log(gdUNIT_mc);
 	console.log(gdUNIT_mc.indexOf('UAC') > -1);
 	if ( gdUNIT_mc.indexOf('UAC') > -1 ) {
 		$('input[name=CCASIST]').val('mariel.loreto@datco.net');
