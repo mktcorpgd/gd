@@ -1,7 +1,8 @@
 /* Ocultar */
 .woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.product.stock-1 .cart,.woocommerce-billing-fields>h3,.woocommerce-additional-fields>h3,
 .woocommerce-order-overview__payment-method,.woocommerce-order-overview__email,
-.wc_payment_methods,.woocommerce .woocommerce-customer-details .woocommerce-customer-details--phone::before,.woocommerce-customer-details--email::before{display:none}
+.wc_payment_methods,.woocommerce .woocommerce-user-details .woocommerce-user-details--phone::before,.woocommerce-user-details--email::before,
+.woocommerce-customer-details{display:none}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
@@ -54,8 +55,8 @@
 .woocommerce form .form-row-first, .woocommerce-page form .form-row-first,.woocommerce form .form-row-last, .woocommerce-page form .form-row-last,.woocommerce-billing-fields .form-third{clear:none!important}
 .woocommerce ul.order_details{display:flex}
 #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{background:none}
-.woocommerce .woocommerce-customer-details address{border:none;border-radius:0}
-.woocommerce .woocommerce-customer-details address,p[class*='woocommerce-customer-details']{padding:0!important;margin:0!important;line-height:normal}
+.woocommerce .woocommerce-user-details address{border:none;border-radius:0}
+.woocommerce .woocommerce-user-details address,p[class*='woocommerce-user-details']{padding:0!important;margin:0!important;line-height:normal}
 table.woocommerce-table--order-details tbody tr td{border-bottom:none!important}
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
