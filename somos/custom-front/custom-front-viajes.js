@@ -98,7 +98,6 @@ jQuery(document).ready(function($) {
 
 	var gdOFFICE_mc = $('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
-	console.log(gdOFFICE_mc == 'AR');
 	function assignResp() {
 		if (gdOFFICE_mc == 'AR') {
 			$('select[name=RESP]').val('Argentina');
