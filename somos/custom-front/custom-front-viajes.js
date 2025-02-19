@@ -102,20 +102,20 @@ jQuery(document).ready(function($) {
 	console.log(gdOFFICE_mc == 'AR');
 	function assignResp() {
 		if ( gdOFFICE_mc == 'AR' ) {
-			$('select[name=RESP] option:contains("Argentina")').prop('selected','selected');
+			$('select[name=RESP] option').val('Argentina');
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}
 		else if ( gdOFFICE_mc == 'CL' ) {
-			$('select[name=RESP] option:contains("Chile")').prop('selected','selected');
+			$('select[name=RESP] option').val('Chile');
 			$('input[name=MSGADD]').val($('input[name=MSGADDCL]').val());
 		}
 		else {
-			$('select[name=RESP] option:contains("Argentina")').prop('selected','selected');
+			$('select[name=RESP] option').val('Argentina');
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
-		}	
+		}
 	}
 
-	
+
 	// Asignar asistente si es UAC
 	var gdUNIT_mc = $('input[name=gdUNIT_mc]').val();
 	gdUNIT_mc = gdUNIT_mc.substring(0,2);
