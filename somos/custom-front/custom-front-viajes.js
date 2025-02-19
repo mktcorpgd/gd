@@ -101,16 +101,18 @@ jQuery(document).ready(function($) {
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
 	function assignResp() {
 		if ( gdOFFICE_mc == 'AR' ) {
+			$('select[name=RESP] option:contains("Argentina")').prop('selected','selected');
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}
 		else if ( gdOFFICE_mc == 'CL' ) {
+			$('select[name=RESP] option:contains("Chile")').prop('selected','selected');
 			$('input[name=MSGADD]').val($('input[name=MSGADDCL]').val());
 		}
 		else {
+			$('select[name=RESP] option:contains("Argentina")').prop('selected','selected');
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}	
 	}
-	assignResp();
 	$('select[name=RESPBOSS]').change(function() {
 		assignResp();
 	});
