@@ -99,6 +99,7 @@ jQuery(document).ready(function($) {
 	// Asignar responsable según oficina
 	var gdOFFICE_mc = $('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
+	console.log(gdOFFICE_mc == 'AR');
 	function assignResp() {
 		if ( gdOFFICE_mc == 'AR' ) {
 			$('select[name=RESP] option:contains("Argentina")').prop('selected','selected');
@@ -113,9 +114,15 @@ jQuery(document).ready(function($) {
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}	
 	}
-	$('select[name=RESPBOSS]').change(function() {
-		assignResp();
-	});
+
+	
+	// Asignar asistente si es UAC
+	var gdUNIT_mc = $('input[name=gdUNIT_mc]').val();
+	gdUNIT_mc = gdUNIT_mc.substring(0,2);
+	console.log(gdUNIT_mc.indexOf('UAC') > -1);
+	if ( gdUNIT_mc.indexOf('UAC') > -1 ) {
+		$('input[name=CCASIST]').val('mariel.loreto@datco.net');
+	}
 
 
 	// Confirmación de envío según día y horario
