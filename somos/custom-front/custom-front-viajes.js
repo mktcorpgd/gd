@@ -116,9 +116,11 @@ jQuery(document).ready(function($) {
 
 	// Asignar asistente si es UAC
 	var gdUNIT_mc = $('input[name=gdUNIT_mc]').val();
+	var usremail = $('input[name=usremail]').val();
 	console.log(gdUNIT_mc);
-	console.log(gdUNIT_mc.indexOf('UAC') > -1);
-	if ( gdUNIT_mc.indexOf('UAC') > -1 ) {
+	console.log(usremail);
+	console.log(gdUNIT_mc.indexOf('UAC') > -1 || usremail == 'pablo.perez@datco.net' || usremail == 'veronica.martinez@datco.net');
+	if ( gdUNIT_mc.indexOf('UAC') > -1 || usremail == 'pablo.perez@datco.net' || usremail == 'veronica.martinez@datco.net' ) {
 		$('input[name=CCASIST]').val('mariel.loreto@datco.net');
 	}
 
