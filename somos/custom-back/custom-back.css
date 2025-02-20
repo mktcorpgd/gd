@@ -189,9 +189,10 @@ body.wps_page #wpbody{padding-left:5px}
 html body #wpcontent{padding-left:20px!important}
 
 /* Merchandising */
-.order-status.status-pendiente_aprobacion{background:#ffc107!important;color:#000!important}
-.order-status.status-aprobado{background:#28a745!important;color:#fff!important}
-.order-status.status-rechazado{background:#dc3545!important;color:#fff!important}
+.order-status.status-pendiente_aprobacion{background:#F1B500!important;color:#333333!important}
+.order-status.status-aprobado{background:#497718!important;color:#FFFFFF!important}
+.order-status.status-rechazado{background:#FF5151!important;color:#FFFFFF!important}
+.order-status.status-completed{background:#0E316E!important;color:#FFFFFF!important}
 
 /* Toggle */
 .toggle ul li{margin-left:40px!important;list-style:disc!important}
