@@ -23,7 +23,7 @@ body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-
 /* Notificaciones */
 popup_poweredby,notification_time,popup_close+popup_heading,
 /* Merchandising */
-#toplevel_page_admin-page-wc-settings-tab-checkout
+#toplevel_page_admin-page-wc-settings-tab-checkout,.tiptip_content
 {display:none!important}
 /* Oculto no forzado */
 .toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
