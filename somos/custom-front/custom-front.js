@@ -440,15 +440,19 @@ jQuery(document).ready(function() {
 
 		
 	// FORMULARIOS - Si existe un select
-	if ( jQuery('.wpcf7-select').length ) {
-		var id_form = jQuery('.wpcf7:first').attr('id');
-		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
-		jQuery('.wpcf7-select option').each(function() {
+	if ( jQuery('select').length ) {
+		jQuery('select option').each(function() {
 			var text_opc = jQuery(this).text().trim();
 			if (text_opc.startsWith('—') && text_opc.length > 1) {
 				jQuery(this).attr('disabled', 'disabled');
 			}
-			if (id_form == 29440) {
+		});
+	}
+	if ( jQuery('.wpcf7-select').length ) {
+		var id_form = jQuery('.wpcf7:first').attr('id');
+		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
+		if (id_form == 29440) {
+			jQuery('.wpcf7-select option').each(function() {
 				if (text_opc.includes(';')) {
 					var id_opc = text_opc.substring(text_opc.indexOf(';') + 1);
 					text_opc = text_opc.substring(0, text_opc.indexOf(';'));
@@ -457,8 +461,8 @@ jQuery(document).ready(function() {
 						'value': id_opc
 					});
 				}
-			}
-		});
+			});
+		}
 		jQuery(document).on('change','.wpcf7-select',function() {
 			var input_name = jQuery(this).attr('name');
 			// Si es un select multiple
