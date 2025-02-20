@@ -188,6 +188,11 @@ body.wps_page #wpbody{padding-left:5px}
 #step-2>div:nth-child(23){margin-bottom:20px!important}
 html body #wpcontent{padding-left:20px!important}
 
+/* Merchandising */
+.order-status.status-pendiente_aprobacion{background:#ffc107!important;color:#000!important}
+.order-status.status-aprobado{background:#28a745!important;color:#fff!important}
+.order-status.status-rechazado{background:#dc3545!important;color:#fff!important}
+
 /* Toggle */
 .toggle ul li{margin-left:40px!important;list-style:disc!important}
 .toggle ul li ul li{margin-left:20px!important;margin-bottom:0;list-style:circle!important}

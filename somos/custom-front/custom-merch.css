@@ -63,7 +63,6 @@ table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--
 table.woocommerce-table--order-details tfoot tr td:last-child{border-bottom-right-radius:var(--regularRadius);border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 .woocommerce table.shop_table th{padding:.6rem .8rem;font-weight:500;border-top:1px solid rgba(0,0,0,.1);letter-spacing:1px;font-size:.7em;text-transform:uppercase}
 
-
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
 #woofc-count:hover,prompticon3:hover promptnotificationicon{background:var(--subColor)!important}
