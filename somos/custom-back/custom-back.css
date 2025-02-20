@@ -189,7 +189,7 @@ body.wps_page #wpbody{padding-left:5px}
 html body #wpcontent{padding-left:20px!important}
 
 /* Merchandising */
-.order-status.status-pendiente_aprobacion{background:#F1B500!important;color:#333333!important}
+.order-status.status-pending{background:#F1B500!important;color:#FFFFFF!important}
 .order-status.status-aprobado{background:#497718!important;color:#FFFFFF!important}
 .order-status.status-rechazado{background:#FF5151!important;color:#FFFFFF!important}
 .order-status.status-completed{background:#0E316E!important;color:#FFFFFF!important}
