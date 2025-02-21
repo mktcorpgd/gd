@@ -298,7 +298,7 @@ body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 
 /* Portfolio */
 .fusion-portfolio-post .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
-.not-collapsable .fusion-portfolio-post .fusion-portfolio-content{height:100%}
+.not-collapsable .fusion-portfolio-wrapper .fusion-portfolio-content{height:100%!important}
 .fusion-portfolio:not(.not-collapsable) .fusion-portfolio-post .fusion-portfolio-content{text-align:right!important}
 .fusion-portfolio-post .fusion-portfolio-content h2{text-align:left}
 .fusion-portfolio .fusion-post-content{padding-bottom:0}
