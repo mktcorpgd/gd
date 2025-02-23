@@ -55,6 +55,7 @@ span.description>span{font-size:90%;text-transform:uppercase;letter-spacing:2px;
 #wpadminbar .ab-icon{margin-right:6px!important}
 #wpwrap.wp-responsive-open,div#post-body.metabox-holder.columns-1{overflow-x:visible!important}
 #adminmenu li,#adminmenu a{transition:all .3s ease-in-out!important}
+.widefat tfoot td input[type=checkbox], .widefat th input[type=checkbox], .widefat thead td input[type=checkbox], input[type=checkbox]{appearance:auto!important;-webkit-appearance:auto!important}
 
 /* Admin menu */
 #adminmenubar{box-shadow:0 0 16px rgba(0,0,0,.2)}
@@ -134,7 +135,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
 body.wps_page #wpbody{padding-left:5px}
-.form-table tr.user-tags td{display:grid;grid-template-columns:1fr 1fr 1fr}
+.form-table tr.user-tags td{display:grid;grid-gap:.4em;grid-template-columns:1fr 1fr 1fr}
 
 /* Primeros pasos */
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap .about-text{width:100%}
@@ -228,7 +229,7 @@ popup_close:hover{opacity:1}
 @media (max-width:960px) {
 	#adminmenuwrap:after{display:none!important}
 	.wp-core-ui .button, .wp-core-ui .button.button-large, .wp-core-ui .button.button-small, a.preview, input#publish, input#save-post{font-size:16px}
-	.form-table th{padding-bottom:0}
+	.form-table th{padding-bottom:0!important}
 	.form-table label{font-size:1em}
 	.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half>h4.desktop{display:none!important}
 	.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_half,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .one_third{margin-top:1em;padding:0;width:100%}
@@ -241,6 +242,6 @@ popup_close:hover{opacity:1}
 	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a{}
 	.auto-fold #wpwrap:not(.wp-responsive-open) #adminmenuwrap ul#adminmenu .menu-logo{width:24px;left:6px!important}
 	.auto-fold #wpwrap.wp-responsive-open #adminmenuwrap ul#adminmenu .menu-logo{left:64px!important}
-	#your-profile .user-tags.form-field td{display:grid;grid-template-columns:1fr}
+	.form-table tr.user-tags td{display:grid;grid-template-columns:1fr 1fr}
 	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a{background:var(--subColor)}
 }
