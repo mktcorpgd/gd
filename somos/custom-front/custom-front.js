@@ -120,7 +120,12 @@ jQuery(document).ready(function() {
 		}
 		// Firmas corporativas
 		else if ( jQuery('body').hasClass('page-id-42920') ) {
-			jQuery('.kit.firmas .menu-item:not(:contains("'+org+'"))').hide();
+			if ( unit.indexOf('UMAC') > -1 || unit.indexOf('UN') > -1 || unit.indexOf('PM') > -1 ) {
+				jQuery('.kit.firmas .menu-item:not(:contains("'+org+'"))').hide();
+			}
+			else {
+				jQuery('.kit.firmas .menu-item:not(:contains("Grupo Datco"))').hide();
+			}
 		}
 	}
 
