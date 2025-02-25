@@ -88,6 +88,9 @@ table.woocommerce-table--order-details tfoot tr td:last-child{border-bottom-righ
 .wbu-qty-button.wbu-btn-inc{top:0}
 .wbu-qty-button.wbu-btn-sub{bottom:0}
 
+/* Mi cuenta */
+.woocommerce-account .woocommerce-MyAccount-content{width:1005}
+
 /* Notificaciones */
 #yith-wacp-popup .yith-wacp-content .yith-wacp-message{background-color:var(--successColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
 
