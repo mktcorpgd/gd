@@ -81,8 +81,6 @@ table.woocommerce-table--order-details tfoot tr td:last-child{border-bottom-righ
 #billing_cuenta_salesforce_field.loading{position:relative}
 #billing_cuenta_salesforce_field.loading::after{content:"";position:absolute;right:10px;top:50%;transform:translateY(-50%);width:20px;height:20px;border:3px solid #ccc;border-top:3px solid #007cba;border-radius:50%;animation:spin 1s linear infinite}
 @keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
-.woocommerce form .form-row.woocommerce-invalid label,.woocommerce form .form-row.woocommerce-invalid .select2-container, .woocommerce form .form-row.woocommerce-invalid input.input-text, .woocommerce form .form-row.woocommerce-invalid select{color:var(--errorColor);border-color:var(--errorColor)}
-.woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select{color:var(--successColor);border-color:var(--successColor)}
 
 /* Botones */
 .yith-wacp-popup-actions{margin-bottom:2em}
