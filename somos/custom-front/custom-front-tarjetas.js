@@ -76,7 +76,7 @@ jQuery(document).ready(function() {
 	tp_phone['pr_san-juan'] = '';
 
 
-	// 1. Habilitar oficina después de seleccionar empresa
+	// Habilitar oficina después de seleccionar empresa
 	jQuery('#tp_frente').attr('src','/wp-content/uploads/tp-grupo_datco-frente.png');
 	jQuery('#tp_dorso').attr('src','/wp-content/uploads/tp-grupo_datco-dorso.png');
 	jQuery('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
