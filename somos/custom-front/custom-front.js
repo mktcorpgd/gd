@@ -353,6 +353,17 @@ jQuery(document).ready(function() {
 	jQuery('input[name*=FNAME],input[name*=LNAME],.capitalize').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
+
+
+	// FORMULARIOS - Convertir a letras capitales
+	jQuery('input[name=RESPBOSSEMAIL]').on('input', function() {
+		let value = $(this).val();
+		value = value.replace(/[\s;]+/g, ',');
+		value = value.replace(/,+/g, ',');
+		value = value.replace(/^,|,$/g, '');
+		jQuery(this).val(value);
+	});
+
 	
 
 	// FORMULARIOS - Ir hacia el primer error
