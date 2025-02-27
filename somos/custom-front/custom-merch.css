@@ -56,6 +56,7 @@ body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-alig
 .woofc-area.woofc-style-01 .woofc-area-mid{margin:0;padding:1em 0}
 .woofc-area-heading{font-weight:normal;font-size:1.2em;font-family:var(--titleFont);text-transform:none}
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{background:var(--lightgrayColor1);border-radius:var(--smallRadius)}
+.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-thumb img{border-radius:var(--smallRadius)}
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-minus,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-plus{background:none;font-size:1.4em;color:var(--highlightColor)}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner input{padding:0!important;background:var(--whiteColor1);border-radius:var(--smallRadius);text-align:center}
 .woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner,.woofc-area.woofc-style-01 .woofc-no-item, .woofc-area.woofc-style-01 .woofc-error,.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-info .woofc-item-title{color:var(--textColor)}
