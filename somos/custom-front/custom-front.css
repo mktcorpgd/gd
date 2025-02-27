@@ -139,7 +139,9 @@ span.resaltado-naranja{color:var(--highlightColor)}
 span.resaltado-azul{color:var(--infoColor)}
 span.resaltado-verde{color:var(--successColor)}
 #content .no-borders img{border:none!important}
-.bkg-gray{background:var(--grayColor)}
+.bkg-gray th,.bkg-gray td{background:var(--lightgrayColor1)!important;color:var(--textColor)!important}
+.notes td{font-weight:normal}
+.woocommerce-additional-info th{white-space:nowrap;width:1%}
 
 /* Admin */
 #wpadminbar{position:fixed;top:0;border-bottom:1px solid rgba(0,0,0,.2);z-index:999999}
