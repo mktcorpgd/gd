@@ -55,11 +55,14 @@ body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-alig
 .woofc-area.woofc-style-01 .woofc-area-mid,.woofc-area.woofc-style-01 .woofc-area-bot{background:var(--whiteColor1)}
 .woofc-area.woofc-style-01 .woofc-area-mid{margin:0;padding:1em 0}
 .woofc-area-mid .woofc-item .woofc-item-inner{background:var(--lightgrayColor2)}
-.woofc-area-heading{font-weight:normal;font-size:1.2em;font-family:'neo-sans',sans-serif;text-transform:none}
+.woofc-area-heading{font-weight:normal;font-size:1.2em;font-family:var(--titleFont);text-transform:none}
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{border-radius:var(--smallRadius)}
-.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span,.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner,.woofc-area.woofc-style-01 .woofc-no-item, .woofc-area.woofc-style-01 .woofc-error{color:var(--textColor)}
+.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner,.woofc-area.woofc-style-01 .woofc-no-item, .woofc-area.woofc-style-01 .woofc-error{color:var(--textColor)}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special{color:var(--metaColor)}
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span{color:var(--highlightColor);text-transform:none;font-family:var(--titleFont)}
 .woofc-inner .woocommerce .col2-set .col-1, .woofc-inner .woocommerce .col2-set .col-2{width:100%}
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner{justify-content:center}
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner > div{width:auto}
 .woocommerce-billing-fields .form-third{width:33.33%!important;float:left}
 .woocommerce form .form-row-first, .woocommerce-page form .form-row-first,.woocommerce form .form-row-last, .woocommerce-page form .form-row-last,.woocommerce-billing-fields .form-third{clear:none!important}
 .woocommerce ul.order_details{display:flex}
