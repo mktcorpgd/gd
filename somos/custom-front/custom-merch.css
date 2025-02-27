@@ -2,7 +2,7 @@
 .woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.product.stock-1 .cart,.woocommerce-billing-fields>h3,.woocommerce-additional-fields>h3,
 .woocommerce-order-overview__payment-method,.woocommerce-order-overview__email,
 .wc_payment_methods,.woocommerce .woocommerce-user-details .woocommerce-user-details--phone::before,.woocommerce-user-details--email::before,
-.woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock,body.single-product .tabs.wc-tabs,body.single-product .woocommerce-Tabs-panel h2{display:none}
+.woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock,body.single-product .tabs.wc-tabs,body.single-product .woocommerce-Tabs-panel h2,.woofc-area-count{display:none}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
@@ -76,7 +76,7 @@ body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-alig
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span:hover,.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner a:hover{opacity:1;color:var(--subColor)}
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-undo .woofc-undo-inner, .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-notices .woocommerce-message{border-radius:var(--smallRadius);background:var(--lightgrayColor1)}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-data, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-total{padding:1em 2em;background:var(--subColor);color:var(--whiteColor1)}
-.woocommerce form .form-row label, .woocommerce-page form .form-row label,.woocommerce form .form-row.woocommerce-invalid label{font-size:.8em;color:var(--metaColor);cursor:pointer}
+.woocommerce form .form-row label:not(.radio), .woocommerce-page form .form-row label:not(.radio),.woocommerce form .form-row.woocommerce-invalid label:not(.radio){font-size:.8rem;color:var(--metaColor);cursor:pointer}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item.woofc-item-has-remove:hover .woofc-item-inner{transform:translate3d(-15px, 0, 0);background:none;box-shadow:inset 0 0 0 4px var(--lightgrayColor1)}
 .woofc-inner .woocommerce .col2-set .col-1, .woofc-inner .woocommerce .col2-set .col-2{width:100%}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner{justify-content:center}
@@ -100,7 +100,7 @@ table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-
 table.shop_table.order_details{margin-top:2em}
 .woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select{border-color:var(--lightgrayColor2)}
 .woocommerce form .form-row.woocommerce-invalid .select2-container, .woocommerce form .form-row.woocommerce-invalid input.input-text, .woocommerce form .form-row.woocommerce-invalid select{border-color:var(--errorColor)}
-.woocommerce table.shop_table{border:2px solid 2px solid var(--lightgrayColor1);border-radius:var(--smallRadius)}
+.woocommerce table.shop_table{padding:0;border:none;border-radius:var(--smallRadius)}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
