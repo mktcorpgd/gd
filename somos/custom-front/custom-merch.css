@@ -41,7 +41,7 @@
 .woocommerce-pagination a,.woocommerce-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
 .woocommerce-pagination a:hover{color:var(--highlightColor)}.woocommerce-pagination .current{color:var(--grayColor)}
 .woocommerce ul.products li.product .quantity{margin-left:.8rem;position:relative}
-body.woocommerce-order-received #content{text-align:left}
+body.woocommerce-order-received #content{text-align:left!important}
 
 /* Carrito/Checkout */
 .woofc-area.woofc-position-05{max-width:600px}
@@ -66,6 +66,7 @@ table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!im
 table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
 .woocommerce table.shop_table th{padding:.6rem .8rem}
 #content table.additional_info>tbody>tr:first-child>th:first-child{border-top-left-radius:var(--regularRadius)}
+table.shop_table.order_details{margin-top:2em}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
