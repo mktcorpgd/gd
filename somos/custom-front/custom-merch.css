@@ -60,9 +60,13 @@ body.woocommerce-order-received #content{text-align:left}
 .woocommerce .woocommerce-user-details address,p[class*='woocommerce-user-details']{padding:0!important;margin:0!important;line-height:normal}
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
-table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--highlightColor)!important;border-bottom-left-radius:var(--regularRadius);border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
-table.woocommerce-table--order-details tfoot tr td:last-child{border-bottom-right-radius:var(--regularRadius);border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
-.woocommerce table.shop_table th{padding:.6rem .8rem;font-weight:500;border-top:1px solid rgba(0,0,0,.1);letter-spacing:1px;font-size:.7em;text-transform:uppercase}
+table.woocommerce-table--order-details tfoot tr th:first-child{border-bottom-left-radius:var(--regularRadius)}
+table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--highlightColor)!important;border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
+table.woocommerce-table--order-details tfoot tr:last-child th:first-child{border-bottom-left-radius:var(--regularRadius)}
+table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
+table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
+.woocommerce table.shop_table th{padding:.6rem .8rem}
+#content table.additional_info>tbody>tr>th:first-child{border-top-left-radius:var(--regularRadius)}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;right:75px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;z-index:1;transform:scale(1)!important}
