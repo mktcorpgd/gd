@@ -41,6 +41,7 @@
 .woocommerce-pagination a,.woocommerce-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
 .woocommerce-pagination a:hover{color:var(--highlightColor)}.woocommerce-pagination .current{color:var(--grayColor)}
 .woocommerce ul.products li.product .quantity{margin-left:.8rem;position:relative}
+body.woocommerce-order-received #content{text-align:left}
 
 /* Carrito/Checkout */
 .woofc-area.woofc-position-05{max-width:600px}
