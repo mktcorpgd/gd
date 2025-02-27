@@ -42,13 +42,21 @@
 .woocommerce-pagination a:hover{color:var(--highlightColor)}.woocommerce-pagination .current{color:var(--grayColor)}
 .woocommerce ul.products li.product .quantity{margin-left:.8rem;position:relative}
 body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-align:left}
+.bkg-gray th,.bkg-gray td{background:var(--lightgrayColor1)!important;color:var(--textColor)!important}
+.notes td{font-weight:normal}
+.woocommerce-additional-info th{white-space:nowrap;width:1%}
 
 /* Carrito/Checkout */
 .woofc-area.woofc-position-05{max-width:600px}
 .woofc-area.woofc-style-01 .woofc-inner{background:var(--whiteColor1)}
-.woofc-area.woofc-rounded-yes .woofc-inner{border-radius:var(--regularRadius)}
-.woofc-area.woofc-style-01 .woofc-area-top,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{background:var(--lightgrayColor1)}
-.woofc-area-heading{font-family:'neo-sans',sans-serif}
+.woofc-area.woofc-rounded-yes .woofc-inner{border-radius:var(--regularRadius);box-shadow:var(--smallShadow)}
+.woofc-area.woofc-style-01 .woofc-area-top,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{background:var(--mainColor)}
+.woofc-area.woofc-style-01 .woofc-inner{background:none}
+.woofc-area.woofc-style-01 .woofc-area-mid,.woofc-area.woofc-style-01 .woofc-area-bot{background:var(--whiteColor1)}
+.woofc-area.woofc-style-01 .woofc-area-mid{margin:0;padding:1em 0}
+.woofc-area-mid .woofc-item .woofc-item-inner{background:var(--lightgrayColor2)}
+.woofc-area-heading{font-weight:normal;font-size:1.2em;font-family:'neo-sans',sans-serif;text-transform:none}
+.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{border-radius:var(--smallRadius)}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span{color:var(--textColor)}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special{color:var(--metaColor)}
 .woofc-inner .woocommerce .col2-set .col-1, .woofc-inner .woocommerce .col2-set .col-2{width:100%}
