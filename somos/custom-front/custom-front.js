@@ -359,10 +359,7 @@ jQuery(document).ready(function() {
 	jQuery('input[name=RESPBOSSEMAIL]').on('input', function() {
 		let value = jQuery(this).val();
 		value = value.replace(/[;\s]+/g, ',');
-		value = value.replace(/,{2,}/g, ',');
-		value = value.replace(/^,|,$/g, '');
-		let emails = value.split(',').filter(email => email.match(/^[\w.-]+@[a-zA-Z\d.-]+\.[a-zA-Z]{2,}$/));
-		jQuery(this).val(emails.join(','));
+		jQuery(this).val(value);
 	});
 
 	
