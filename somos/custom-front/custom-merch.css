@@ -51,8 +51,8 @@ body.single-product .woocommerce div.product form.cart{display:flex}
 body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-align:left}
 .bkg-gray th,.bkg-gray td{background:var(--lightgrayColor1)!important;color:var(--textColor)!important}
 .notes td{font-weight:normal}
-.woocommerce-additional-info th{white-space:nowrap;width:1%}
-.woofc-icon-cart7:before{content:'\f07a';font-family:var(--iconFont)}
+.woocommerce-additional-info th,table.shop_table tfoot th{white-space:nowrap;width:1%}
+.woofc-icon-cart7:before{content:'\f07a';font-weight:bold;position:relative;top:1px;font-family:var(--iconFont)}
 
 /* Carrito/Checkout */
 .woofc-area.woofc-position-05{max-width:600px}
@@ -92,11 +92,12 @@ body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-alig
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{float:none;display:block;margin:0 auto;font-size:1.2em}
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
-table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--highlightColor)!important;border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
+table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--highlightColor)!important;color:var(--whiteColor1);border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
 table.woocommerce-table--order-details tfoot tr:last-child th:first-child{border-bottom-left-radius:var(--regularRadius)}
 table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
-.woocommerce table.shop_table th{padding:.6rem .8rem}
+.woocommerce table.shop_table th,.woocommerce table.shop_table td{padding:.6rem .8rem}
+.woocommerce table.shop_table th{padding-top:.75rem}
 #content table.additional_info>tbody>tr:first-child>th:first-child{border-top-left-radius:var(--regularRadius)}
 table.shop_table.order_details{margin-top:2em}
 .woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select{border-color:var(--lightgrayColor2)}
