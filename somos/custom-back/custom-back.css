@@ -193,6 +193,9 @@ html body #wpcontent{padding-left:20px!important}
 .order-status.status-aprobado{background:#497718!important;color:#FFFFFF!important}
 .order-status.status-rechazado{background:#FF5151!important;color:#FFFFFF!important}
 .order-status.status-completed{background:#0E316E!important;color:#FFFFFF!important}
+.widefat .column-wc_actions a.button{text-indent:0;text-align:center}
+.widefat .column-wc_actions a.button::after{width:auto;left:7px}
+.post-type-shop_order .wp-list-table .column-wc_actions{text-align:center}
 
 /* Toggle */
 .toggle ul li{margin-left:40px!important;list-style:disc!important}
