@@ -2,7 +2,7 @@
 .woocommerce .woocommerce-product-gallery .woocommerce-product-gallery__trigger,.woocommerce ul.products li.product .onsale,.woocommerce ul.products li.product .price ins:before,.woocommerce .star-rating::before,.woocommerce .star-rating span::before,.cart-subtotal,.woocommerce-cart .cart_totals .order-total th,.woocommerce-shop .woocommerce-breadcrumb,.woofc-area.woofc-style-01 .woofc-area-bot .woofc-action .woofc-action-inner>div.woofc-action-left,.product_meta,.product.stock-1 .cart,.woocommerce-billing-fields>h3,.woocommerce-additional-fields>h3,
 .woocommerce-order-overview__payment-method,.woocommerce-order-overview__email,
 .wc_payment_methods,.woocommerce .woocommerce-user-details .woocommerce-user-details--phone::before,.woocommerce-user-details--email::before,
-.woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock{display:none}
+.woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock,body.single-product .tabs.wc-tabs,body.single-product .woocommerce-Tabs-panel h2{display:none}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
