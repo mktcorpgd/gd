@@ -301,7 +301,6 @@ jQuery(document).ready(function() {
 			jQuery(this).addClass('no_comments');
 		}
 	});
-	
 
 		
 	// FORMULARIOS - Atributos
@@ -311,7 +310,7 @@ jQuery(document).ready(function() {
 	jQuery('img[title],.read-more[title]').each(function(){jQuery(this).removeAttr('title');});
 	jQuery('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
 	
-		
+
 	// FORMULARIOS - [Mailchimp] Agregar textos para la opción free_text en checkbox
 	jQuery('.wpcf7-free-text').blur(function(e) {
 		if ( jQuery(this).attr('data-usage') != 'true') {
@@ -362,7 +361,6 @@ jQuery(document).ready(function() {
 		jQuery(this).val(value);
 	});
 
-	
 
 	// FORMULARIOS - Ir hacia el primer error
 	jQuery(document).on('click','.wpcf7-response-output',function(e) {
