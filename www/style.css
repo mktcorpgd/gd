@@ -943,7 +943,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Menu */
 	.awb-icon-bars:before{content:'\f0c9'}
 	.fusion-open-submenu:before{content:'\f107'}
-	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px}
+	.fusion-mobile-menu-design-modern .fusion-mobile-menu-text-align-left .fusion-open-submenu{padding-right:32px;height:43px;list-style: non;}
 	.fusion-mobile-menu-icons a.awb-icon-bars:before{display:block;}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded='false']:before{display:block;transform:rotateX(0deg)}
 	.fusion-mobile-menu-design-modern .fusion-open-submenu[aria-expanded='true']:before{transform:rotateX(180deg)}
