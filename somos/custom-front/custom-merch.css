@@ -58,7 +58,9 @@ body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-alig
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner{background:var(--lightgrayColor1);border-radius:var(--smallRadius)}
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-minus,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner .woofc-item-qty-plus{background:none;font-size:1.4em;color:var(--highlightColor)}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-qty .woofc-item-qty-inner input{padding:0!important;background:var(--whiteColor1);border-radius:var(--smallRadius);text-align:center}
-.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner,.woofc-area.woofc-style-01 .woofc-no-item, .woofc-area.woofc-style-01 .woofc-error{color:var(--textColor)}
+.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner,.woofc-area.woofc-style-01 .woofc-no-item, .woofc-area.woofc-style-01 .woofc-error,.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-info .woofc-item-title{color:var(--textColor)}
+.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-info .woofc-item-title{font-family:var(--titleFont);font-weight:normal;font-size:1.1em}
+.woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-info .woofc-item-price{font-size:1em;color:var(--metaColor)}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-remove, .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item .woofc-item-inner .woofc-item-special{color:var(--metaColor)}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span{color:var(--highlightColor);text-transform:none;font-family:var(--titleFont)}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-data, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-total{padding:1em 2em;background:var(--subColor);color:var(--whiteColor1)}
