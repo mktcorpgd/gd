@@ -357,7 +357,7 @@ jQuery(document).ready(function() {
 
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery('input[name=RESPBOSSEMAIL]').on('input', function() {
-		let value = $(this).val();
+		let value = jQuery(this).val();
 		value = value.replace(/[\s;]+/g, ',');
 		value = value.replace(/,+/g, ',');
 		value = value.replace(/^,|,$/g, '');
