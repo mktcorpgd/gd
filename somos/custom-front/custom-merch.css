@@ -6,16 +6,17 @@
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
-.woocommerce div.product div.images.woocommerce-product-gallery{border:1px solid var(--lightgrayColor1);border-radius:var(--regularRadius);overflow:hidden}
+.woocommerce div.product div.images.woocommerce-product-gallery{overflow:hidden}
 .woocommerce div.product .product_title{margin-top:0!important;font-weight:normal}
-.woocommerce ul.products img,.woocommerce div.product div.images img{max-height:300px;width:auto;object-fit:contain}
+.woocommerce ul.products img,.woocommerce div.product div.images img{border:1px solid var(--lightgrayColor1);border-radius:var(--regularRadius);}
 .woocommerce-product-details__short-description{margin:0 0 1em}
 .woocommerce .quantity .qty{margin:0!important;padding:.4em 1em .4em .4em!important;border-top-left-radius:var(--regularRadius);border-bottom-left-radius:var(--regularRadius);border-top-right-radius:var(--smallRadius);border-bottom-right-radius:var(--smallRadius)}
 .woocommerce div.product form.cart .button{border-top-left-radius:var(--smallRadius)!important;border-bottom-left-radius:var(--smallRadius)!important}
 .related.products{clear:both}
 .related.products h2{font-size:.8rem}
 .admin-bar .pswp{z-index:9999}
-.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price .woocommerce-Price-amount{padding:.8em .4em;background:var(--lightgrayColor2);color:var(--textColor);border-radius:var(--regularRadius)}
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price .woocommerce-Price-amount{color:var(--textColor);font-family:var(--titleFont);border-radius:var(--regularRadius)}
+.woocommerce div.product p.out-of-stock{padding:.2em .6em;font-size:.8em;color:var(--whiteColor1);background:var(--grayColor);border-radius:var(--smallRadius)}
 
 /* Tienda */
 .woocommerce ul li.product,.woocommerce-page ul li.product{padding-bottom:.8em!important;margin-bottom:1em!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
