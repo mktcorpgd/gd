@@ -46,11 +46,12 @@ body.single-product .woocommerce div.product form.cart{display:flex}
 .woocommerce-pagination ul{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
 .woocommerce-pagination ul li{font-size:1rem}
 .woocommerce-pagination a,.woocommerce-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
-.woocommerce-pagination a:hover{color:var(--highlightColor)}.woocommerce-pagination .current{color:var(--grayColor)}
+.woocommerce-pagination a:hover{color:var(--highlightColor)}
+.woocommerce-pagination .current{color:var(--grayColor)}
 .woocommerce ul.products li.product .quantity{margin-left:.8rem;position:relative}
 body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-align:left}
 .bkg-gray th,.bkg-gray td{background:var(--lightgrayColor1)!important;color:var(--textColor)!important}
-.notes td{font-weight:normal}
+.notes td{font-weight:normal!important}
 .woocommerce-additional-info th,table.shop_table:not(.woocommerce-checkout-review-order-table) tfoot th{white-space:nowrap;width:1%}
 .woofc-icon-cart7:before{content:'\f07a';font-weight:bold;position:relative;top:1px;font-family:var(--iconFont)}
 
@@ -92,7 +93,7 @@ body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-alig
 .woocommerce #payment #place_order, .woocommerce-page #payment #place_order{float:none;display:block;margin:0 auto;font-size:1.2em}
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
-table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--highlightColor)!important;color:var(--whiteColor1);border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
+table.woocommerce-table--order-details tfoot tr th:first-child{background:var(--highlightColor)!important;color:var(--whiteColor1)!important;border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
 table.woocommerce-table--order-details tfoot tr:last-child th:first-child{border-bottom-left-radius:var(--regularRadius)}
 table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
