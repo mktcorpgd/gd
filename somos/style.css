@@ -262,10 +262,10 @@ ul.page-numbers{position:relative;overflow:hidden;width:100%;margin-top:20px;tex
 ul.page-numbers .page-numbers{display:inline-block;margin:0;background:#fbfbfb;padding:7px;margin-left:3px;color:#999;font-size:12px;line-height:1;border-radius:4px}
 ul.page-numbers .page-numbers.current,ul.page-numbers .page-numbers:hover,ul.page-numbers>span.page-numbers{background:#f0f0ed}
 .gp-pagination.gp-entry-pagination ul.page-numbers .page-numbers{margin:0}
-:not(.woocommerce-pagination) ul.page-numbers .page-numbers.prev{font-size:0}
-:not(.woocommerce-pagination) ul.page-numbers .page-numbers.next{font-size:0}
-:not(.woocommerce-pagination) ul.page-numbers .page-numbers.prev:before{content:'\f053';font-family:FontAwesome;font-size:10px;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
-:not(.woocommerce-pagination) ul.page-numbers .page-numbers.next:before{content:'\f054';font-family:FontAwesome;font-size:10px;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+ul.page-numbers .page-numbers.prev{font-size:0}
+ul.page-numbers .page-numbers.next{font-size:0}
+ul.page-numbers .page-numbers.prev:before{content:'\f053';font-family:FontAwesome;font-size:10px;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+ul.page-numbers .page-numbers.next:before{content:'\f054';font-family:FontAwesome;font-size:10px;font-weight:400;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 .gp-lost-password-form-wrapper,.gp-social-login-form-wrapper{display:none}
 .gp-login-title{clear:none;font-size:24px;margin:0 0 20px 0}
 .gp-login-desc{font-size:14px;line-height:24px}
