@@ -56,7 +56,7 @@ jQuery(document).ready(function() {
 	tp_phone['ar_rosario'] = '+54 (341) 485-3803';
 	tp_address['ar_posadas'] = 'Acevedo 3241 (N3300HKQ)<br />Piso 3, Depto. F<br />Posadas, Misiones<br />Argentina';
 	tp_phone['ar_posadas'] = '';
-	tp_address['ar_munro'] = 'Cazadores de Coquimbo 2841 (B1605AZE) - Edificio 4, Piso 3° <br />Munro, Buenos Aires<br />Argentina'
+	tp_address['ar_munro'] = 'Cazadores de Coquimbo 2860 (B1605AZE) - Edificio 2, Planta Baja <br />Munro, Buenos Aires<br />Argentina'
 	tp_phone['ar_munro'] = '';
 	tp_address['ar_neuquen'] = 'Juan Larrea 595 (Q8300JVD)<br />Neuquén<br />Argentina';
 	tp_phone['ar_neuquen'] = '+54 (299) 525-9119';
