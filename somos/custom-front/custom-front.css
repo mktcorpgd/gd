@@ -747,7 +747,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .woocommerce nav.woocommerce-pagination ul li{float:none!important;font-size:.9rem;overflow:visible;border:none!important}
 .gp-pagination ul.page-numbers li .page-numbers,.woocommerce nav.woocommerce-pagination ul li span,.woocommerce nav.woocommerce-pagination ul li a{display:inline-block;margin:0;padding:.1em .7em!important;color:var(--metaColor);text-decoration:none;font-size:.9rem!important;line-height:1.8!important;font-weight:400;font-family:var(--textFont),sans-serif;border:none!important;border-radius:var(--smallRadius);box-shadow:var(--xsmallShadow)}
 .gp-pagination ul.page-numbers li a:hover,.woocommerce nav.woocommerce-pagination ul li span:hover,.woocommerce nav.woocommerce-pagination ul li A:hover{background:var(--subColor);color:var(--whiteColor1)!important;text-decoration:none!important}
-.gp-pagination ul.page-numbers li .page-numbers.current{background:var(--highlightColor);color:var(--whiteColor1)}
+.gp-pagination ul.page-numbers li .page-numbers.current,.woocommerce nav.woocommerce-pagination ul li span.current{background:var(--grayColor);color:var(--whiteColor1)}
 .gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:var(--iconFont)}
 .gp-pagination ul.page-numbers li .page-numbers.prev:before{content:'\f104'}
 .gp-pagination ul.page-numbers li .page-numbers.next:before{content:'\f105'}
