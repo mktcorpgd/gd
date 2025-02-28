@@ -141,6 +141,8 @@ prompticon3{right:15px}
 /* Otros */
 .no-stock{background:var(--lightgrayColor2);pointer-events:none}
 .yith-wacp-main{padding-bottom:0;border-radius:var(--largeRadius)}
+.woocommerce-error{background:var(--errorColor);color:var(--whiteColor1);border:none;border-radius:var(--regularRadius)}
+.woocommerce-error li{padding:.4em .8em;background:rgba(0,0,0,.2);border-radius:var(--smallRadius)}
 
 /* Responsive */
 @media (max-width: 768px) {
