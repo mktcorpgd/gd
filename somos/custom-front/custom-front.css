@@ -743,8 +743,8 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 .wp-pagenavi .current,.wp-pagenavi.cat-navi a:hover,.wp-pagenavi.comment-navi a:hover,.wp-pagenavi .page:hover,.wp-pagenavi.post-navi span,.wp-pagenavi.post-navi a span:hover,.page-links>span:hover,.page-links>a:hover{background:var(--lightgrayColor1)}
 .gallery-view-section{background:var(--whiteColor2);border-radius:var(--regularRadius)}
 .gp-pagination,.woocommerce-pagination{float:left;width:100%;margin:1em 0;grid-area:pages;grid-row:initial}
-.gp-pagination ul.page-numbers,.woocommerce nav.woocommerce-pagination ul{margin:0;text-align:center;background:none;overflow:visible}
-.gp-pagination ul.page-numbers li .page-numbers,.woocommerce nav.woocommerce-pagination ul li span{display:inline-block;padding:.1em .7em;color:var(--textColor);text-decoration:none;font-size:.9rem;line-height:1.8;font-weight:400;font-family:var(--textFont),sans-serif;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow)}
+.gp-pagination ul.page-numbers,.woocommerce nav.woocommerce-pagination ul{margin:0!important;text-align:center;border:none!important;background:none;overflow:visible}
+.gp-pagination ul.page-numbers li .page-numbers,.woocommerce nav.woocommerce-pagination ul li span{display:inline-block;padding:.1em .7em;color:var(--textColor);text-decoration:none;font-size:.9rem;line-height:1.8;font-weight:400;font-family:var(--textFont),sans-serif;border:none!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow)}
 .gp-pagination ul.page-numbers li a:hover,.woocommerce nav.woocommerce-pagination ul li span:hover{background:var(--subColor);color:var(--whiteColor1)!important;text-decoration:none!important}
 .gp-pagination ul.page-numbers li .page-numbers.current{background:var(--highlightColor);color:var(--whiteColor1)}
 .gp-pagination ul.page-numbers li .page-numbers:before{font-size:1em;font-family:var(--iconFont)}

@@ -45,8 +45,6 @@ body.single-product .woocommerce div.product form.cart{display:flex}
 .woocommerce-pagination{margin-top:1em}
 .woocommerce-pagination ul{display:flex;justify-content:center;padding:.4em;background-color:var(--whiteColor1);border-radius:var(--regularRadius)}
 .woocommerce-pagination ul li{font-size:1rem}
-.woocommerce-pagination a,.woocommerce-pagination span{margin:0;padding:.4em .8em;color:var(--textColor);text-decoration:none}
-.woocommerce-pagination a:hover{color:var(--highlightColor)}
 .woocommerce-pagination .current{color:var(--grayColor)}
 .woocommerce ul.products li.product .quantity{margin-left:.8rem;position:relative}
 body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-align:left}
