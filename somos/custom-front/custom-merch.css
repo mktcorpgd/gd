@@ -157,6 +157,20 @@ body.woocommerce-processing .woocommerce-checkout-payment::after,#billing_cuenta
 .woocommerce-error li:last-child{margin-bottom:0}
 .woocommerce-error li a{color:var(--whiteColor1)}
 .woocommerce-error li a strong{font-weight:normal;text-decoration:underline;text-underline-offset:3px}
+.toggle-error-messages {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+
+.toggle-error-messages:hover {
+    background-color: #2980b9;
+}
 
 /* Responsive */
 @media (max-width: 768px) {
