@@ -1,119 +1,70 @@
 jQuery(document).ready(function() {
+	const windowWidth = jQuery(window).width();
 
 	// Mobile - Trasladar elementos del menú
-	if ( jQuery(window).width() < 920 ) {
+	if (windowWidth < 920) {
 		jQuery('.mobile-hidden>ul>li').appendTo('.mobile-append .sub-menu');
 	}
 
-	// Escritorio - Al pasar mouse mostrar descripción de pilares
-	if ( jQuery(window).width() > 920 ) {
+	// Escritorio - Mostrar descripción de pilares al pasar el mouse
+	if (windowWidth > 920) {
 		jQuery('.pilares .fusion_builder_column_inner .fusion-column-wrapper').hover(
 			function() {
-				jQuery(this).find('.fusion-text').css('height','70px');
+				jQuery(this).find('.fusion-text').css('height', '70px');
 			}, function() {
-				jQuery(this).find('.fusion-text').css('height','0');
+				jQuery(this).find('.fusion-text').css('height', '0');
 			}
 		);
 	}
-	
-	// Si es una página de país:
-	if ( jQuery('.fusion-fullwidth.country-flag').length ) {
-		var flag = window.location.pathname;
-		flag = flag.substring(1,flag.length-1);
-		if ( flag == 'cl' ) {
-			jQuery('.fusion-social-network-icon[href*="linkedin.com"]').attr('href','https://linkedin.com/company/grupodatcocl');
-		}
-		switch(flag) {
-			case 'ar':
-				var ctry_name = 'Argentina';
-				var ctry_url = 'ar';
-				break;
-			case 'br':
-				var ctry_name = 'Brasil';
-				var ctry_url = 'br';
-				break;
-			case 'cl':
-				var ctry_name = 'Chile';
-				var ctry_url = 'cl';
-				break;
-			case 'mx':
-				var ctry_name = 'México';
-				var ctry_url = 'mx';
-				break;
-			case 'pe':
-				var ctry_name = 'Perú';
-				var ctry_url = 'pe';
-				break;
-			case 'pr':
-				var ctry_name = 'Puerto Rico';
-				var ctry_url = 'pr';
-				break;
-			case 'uy':
-				var ctry_name = 'Uruguay';
-				var ctry_url = 'uy';
-				break;
-		}
-		jQuery('.fusion-logo-link,.country-flag.menu-item>a').attr('href','/'+ctry_url);
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',ctry_name);
-		jQuery('.country-flag.menu-item > a > span.menu-text').empty().html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
-		jQuery('a.fusion-button:not(.fusion-modal-text-link):not([href^="#"]):not([href*="#"]),.menu-item:not(.country-flag):not(.country-flag-sub) a:not(.fusion-modal-text-link):not([href^="#"]),a[href*="pec-"]').each(function(i) {
-			var curhref = jQuery(this).attr('href');
-			if ( curhref.indexOf('?') > -1 ) {
-				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
-			}
-			else {
-				jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
-			}
-		});
+
+	// Datos de países
+	const countryData = {
+		'ar': { name: 'Argentina', url: 'ar' },
+		'br': { name: 'Brasil', url: 'br' },
+		'cl': { name: 'Chile', url: 'cl' },
+		'mx': { name: 'México', url: 'mx' },
+		'pe': { name: 'Perú', url: 'pe' },
+		'pr': { name: 'Puerto Rico', url: 'pr' },
+		'uy': { name: 'Uruguay', url: 'uy' }
+	};
+
+	// Función para actualizar enlaces y elementos según el país
+	function updateCountryElements(countryCode) {
+		const country = countryData[countryCode];
+		if (!country) return;
+
+		const flagUrl = `/wp-content/uploads/flag-${country.url}.svg`;
+
+		jQuery('.fusion-logo-link, .country-flag.menu-item > a').attr('href', `/${country.url}`);
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu > a > span > img').attr('src', flagUrl);
+		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title', country.name);
+		jQuery('.country-flag.menu-item > a > span.menu-text')
+			.html(`<img src="${flagUrl}" alt="${country.name}" /><span> ${country.name}</span>`);
+
+		// Agregar parámetro de país a enlaces
+		jQuery('a.fusion-button:not(.fusion-modal-text-link):not([href^="#"]), .menu-item:not(.country-flag):not(.country-flag-sub) a:not(.fusion-modal-text-link):not([href^="#"])')
+			.each(function() {
+				const curhref = jQuery(this).attr('href');
+				jQuery(this).attr('href', curhref.includes('?') ? `${curhref}&ctry=${country.url}` : `${curhref}?ctry=${country.url}`);
+			});
 	}
 
-	// Si viene de una página de país:
-	if ( window.location.href.indexOf('ctry') > -1 ) {
-		var urlParams = new URLSearchParams(window.location.search);
-		ctry = urlParams.get('ctry');
-		switch(ctry) {
-			case 'ar':
-				var ctry_name = 'Argentina';
-				var ctry_url = 'ar';
-				break;
-			case 'br':
-				var ctry_name = 'Brasil';
-				var ctry_url = 'br';
-				break;
-			case 'cl':
-				var ctry_name = 'Chile';
-				var ctry_url = 'cl';
-				break;
-			case 'mx':
-				var ctry_name = 'México';
-				var ctry_url = 'mx';
-				break;
-			case 'pe':
-				var ctry_name = 'Perú';
-				var ctry_url = 'pe';
-				break;
-			case 'pr':
-				var ctry_name = 'Puerto Rico';
-				var ctry_url = 'pr';
-				break;
-			case 'uy':
-				var ctry_name = 'Uruguay';
-				var ctry_url = 'uy';
-				break;
+	// Detectar país por URL y actualizar elementos
+	const pathCountry = window.location.pathname.replace(/^\/|\/$/g, '');
+	if (countryData[pathCountry]) {
+		updateCountryElements(pathCountry);
+
+		// Caso especial para LinkedIn en Chile
+		if (pathCountry === 'cl') {
+			jQuery('.fusion-social-network-icon[href*="linkedin.com"]').attr('href', 'https://linkedin.com/company/grupodatcocl');
 		}
-		jQuery('.fusion-logo-link,.country-flag.menu-item>a').attr('href','/'+ctry_url);
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu>a>span>img').attr('src','/wp-content/uploads/flag-'+ctry_url+'.svg');
-		jQuery('.country-flag.menu-item.fusion-dropdown-menu').attr('title',ctry_name);
-		jQuery('.country-flag.menu-item > a > span.menu-text').empty().html('<img src="/wp-content/uploads/flag-'+ctry_url+'.svg" alt="'+ctry_name+'" /><span> '+ctry_name+'</span>');
-		jQuery('a.fusion-button:not(.fusion-modal-text-link):not([href^="#"]),.menu-item:not(.country-flag):not(.country-flag-sub) a:not(.fusion-modal-text-link):not([href^="#"])').each(function(i) {
-			var curhref = jQuery(this).attr('href');
-			if ( curhref.indexOf('?') > -1 ) {
-				jQuery(this).attr('href',curhref+'&ctry='+ctry_url);
-			}
-			else {
-				jQuery(this).attr('href',curhref+'?ctry='+ctry_url);
-			}
-		});
 	}
+
+	// Si hay parámetro "ctry" en la URL
+	const urlParams = new URLSearchParams(window.location.search);
+	const paramCountry = urlParams.get('ctry');
+	if (paramCountry && countryData[paramCountry]) {
+		updateCountryElements(paramCountry);
+	}
+
 });
