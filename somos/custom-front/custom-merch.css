@@ -103,6 +103,7 @@ table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-
 table.shop_table.order_details{margin-top:2em}
 .woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select{border-color:var(--lightgrayColor2)}
 .woocommerce form .form-row.woocommerce-invalid .select2-container, .woocommerce form .form-row.woocommerce-invalid input.input-text, .woocommerce form .form-row.woocommerce-invalid select{border-color:var(--errorColor)}
+.validate-required label.radio{color:var(--errorColor)}
 .woocommerce table.shop_table{padding:0;border:none;border-radius:var(--smallRadius)}
 
 /* Flotante */
