@@ -455,6 +455,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('select').length ) {
 		jQuery('select option').each(function() {
 			var text_opc = jQuery(this).text().trim();
+			console.log(text_opc);
 			if (text_opc.startsWith('—') && text_opc.length > 1) {
 				jQuery(this).attr('disabled', 'disabled');
 			}
