@@ -141,8 +141,8 @@ prompticon3{right:15px}
 /* Otros */
 .no-stock{background:var(--lightgrayColor2);pointer-events:none}
 .yith-wacp-main{padding-bottom:0;border-radius:var(--largeRadius)}
-.woocommerce-error{padding:.2em .6em!important;background:var(--errorColor);color:var(--whiteColor1);border:none;border-radius:var(--regularRadius)}
-.woocommerce-error li{margin-bottom:.4em;padding:.4em .8em;font-size:.9em;color:var(--whiteColor1);background:rgba(0,0,0,.2);border-radius:var(--smallRadius)}
+.woocommerce-error{padding:.4em .6em!important;background:var(--errorColor);color:var(--whiteColor1);border:none;border-radius:var(--regularRadius)}
+.woocommerce-error li{margin-bottom:.4em;padding:.2em .6em!important;font-size:.9em;color:var(--whiteColor1);background:rgba(0,0,0,.2);border-radius:var(--smallRadius)}
 .checkout-inline-error-message{margin-top:-10px;color:var(--errorColor);font-size:.8em}
 .woocommerce-error li:last-child{margin-bottom:0}
 .woocommerce-error li a{color:var(--whiteColor1)}
