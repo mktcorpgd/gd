@@ -129,6 +129,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .fusion-header .sub-menu,.fusion-megamenu-wrapper .fusion-megamenu-submenu{border:none}
 .fusion-main-menu .sub-menu,.fusion-megamenu-wrapper{border-radius:var(--smallRadius);box-shadow:0 16px 32px 0 rgba(0,0,0,.4)}
 .fusion-main-menu .sub-menu{min-width:auto;width:100%}
+.fusion-main-menu .fusion-dropdown-menu .sub-menu{width:fit-content}
 .fusion-megamenu-wrapper{width:auto}
 .fusion-header-wrapper:not(.on-top) .fusion-main-menu .sub-menu,.fusion-header-wrapper:not(.on-top) .fusion-megamenu-wrapper,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-main-menu .sub-menu,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .fusion-menu.awb-menu__main-ul a{padding:0 1rem!important;font-family:var(--titleFont);font-size:1.2em}
