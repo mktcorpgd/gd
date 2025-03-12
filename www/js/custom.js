@@ -115,45 +115,34 @@ jQuery(document).ready(function() {
 
 
 	// CONTENIDO - Tooltip
-	var Delay = 100, ToolTipTimer
-	jQuery('.mc4wp-checkbox-contact-form-7 span').hover(function(e) {
+	var Delay = 100, ToolTipTimer;
+	jQuery('.mc4wp-checkbox-contact-form-7 span').each(function () {
 		var title = jQuery(this).find('.tooltip').attr('title');
 		jQuery(this).find('.tooltip').data('ToolTipText', title).removeAttr('title');
-		jQuery('<div class="wy-tooltip wy-hide">').text(title).appendTo('body');
-		ToolTipTimer  = setTimeout(function(e) {
-		jQuery('.wy-tooltip').removeClass('wy-hide').fadeIn('fast');
-		},Delay);
-	},
-	function() {
+		jQuery(this).append('<div class="wy-tooltip wy-hide">' + title + '</div>');
+	});
+	jQuery('.mc4wp-checkbox-contact-form-7 span').on('mouseenter', function (e) {
+		var toolTip = jQuery(this).find('.wy-tooltip');
 		clearTimeout(ToolTipTimer);
-		jQuery(this).find('.tooltip').attr('title', jQuery(this).find('.tooltip').data('ToolTipText'));
-		jQuery('.wy-tooltip').remove();
-	}).mousemove(function(e) {
-		var pLeft;
-		var pTop;
+		ToolTipTimer = setTimeout(function () {
+			toolTip.removeClass('wy-hide').fadeIn('fast');
+		}, Delay);
+	}).on('mouseleave', function () {
+		clearTimeout(ToolTipTimer);
+		jQuery(this).find('.wy-tooltip').addClass('wy-hide').fadeOut('fast');
+	}).on('mousemove', function (e) {
+		var toolTip = jQuery(this).find('.wy-tooltip');
 		var offset = 10;
 		var CursorX = e.pageX;
 		var CursorY = e.pageY;
 		var WindowWidth = jQuery(window).width();
 		var WindowHeight = jQuery(window).height();
-		var toolTip = jQuery('.wy-tooltip');
-		var TTWidth = toolTip.width();
-		var TTHeight = toolTip.height();			
-		if (CursorX-offset >= (WindowWidth/4)*3) {
-			pLeft = CursorX - TTWidth - offset;
-		}
-		else {
-			pLeft = CursorX + offset;
-		}
-		if (CursorY-offset >= (WindowHeight/4)*3) {
-			pTop = CursorY - TTHeight - offset;
-		}
-		else {
-			pTop = CursorY + offset;
-		}
-		jQuery('.wy-tooltip').css({top: pTop,left: pLeft})			
+		var TTWidth = toolTip.outerWidth();
+		var TTHeight = toolTip.outerHeight();
+		var pLeft = (CursorX + TTWidth + offset > WindowWidth) ? CursorX - TTWidth - offset : CursorX + offset;
+		var pTop = (CursorY + TTHeight + offset > WindowHeight) ? CursorY - TTHeight - offset : CursorY + offset;
+		toolTip.css({ top: pTop, left: pLeft });
 	});
-
 
 	// RECURSO - Mostrar preview
 	if ( jQuery('body.single-format-link').length ) {
