@@ -655,7 +655,6 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .controls.pac-target-input.sent::placeholder,.controls.pac-target-input.warning::placeholder{color:var(--whiteColor)}
 
 /* Cajas de íconos */
-.fusion-content-boxes .content-box-wrapper{padding:1.5rem 2rem;background:var(--whiteColor);border-radius:var(--regularRadius)}
 .fusion-content-boxes .link-area-box{cursor:inherit}
 .fusion-content-boxes .link-area-box-hover{color:inherit}
 .fusion-content-boxes.content-boxes-icon-on-top .content-container,.fusion-content-boxes.no-heading .heading,.fusion-content-boxes.no-heading-title .heading{margin-bottom:0}
@@ -673,7 +672,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .heading h2{font-weight:500!important}
 .fusion-content-boxes.fusion-columns-2{display:grid;grid-template-columns:1fr 1fr;grid-gap:1em}
 .fusion-content-boxes.fusion-columns-2 .fusion-column{width:100%}
-.fusion-content-boxes.fusion-columns-2 .fusion-column .content-box-wrapper{height:100%}
+.fusion-content-boxes.fusion-columns-2 .fusion-column .content-box-wrapper{height:100%;padding:1.5rem 2rem;background:var(--whiteColor);border-radius:var(--regularRadius)}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
