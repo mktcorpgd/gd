@@ -557,6 +557,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-default.button-xlarge,.fusion-body .fusion-button-xlarge,.fusion-button_size-xlarge .fusion-button-default-size,.wpcf7-form input[type='submit'].button-xlarge,.wpcf7-form input[type='submit'].fusion-button-xlarge{padding:.8rem 1.2rem;font-size:1.5em}
 .wpcf7-form input[type='submit']{display:grid}
 .wpcf7-form input[type='submit'],.fusion-body .fusion-load-more-button{margin-top:.5em}
+.recaptcha+.wpcf7-submit{margin-top:0}
 .fusion-body .fusion-load-more-button{margin-top:2em}
 a.cta-link{display:block;margin-top:-10px;text-align:center;font-family:var(--textFont)}
 a.cta-link strong{font-weight:600}
