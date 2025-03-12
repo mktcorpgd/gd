@@ -238,8 +238,8 @@ body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-met
 
 /* Contenidos */
 #content a[src*='.jpg'],#content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
-#content blockquote{margin:0 0 1em;margin-left:0;padding:2em 2.25em;background:none;border-left:4px solid rgba(0,0,0,.2);font-family:var(--textFont);font-weight:400;font-style:normal;line-height:1.5}
-body:not(.tribe_events-template-default) #content blockquote{font-size:1.2rem}
+#content blockquote{margin:0 0 1em;margin-left:0;padding:2em 2.25em;background:var(--whiteAltColor);border-top:4px solid transparent!important;border-bottom:4px solid transparent!important;border-left:4px solid rgba(0,0,0,.2);font-family:var(--textFont);font-weight:400;font-style:normal;line-height:1.5}
+body:not(.tribe_events-template-default) #content blockquote{font-size:1.1rem}
 #content blockquote.testimonials-shortcode-blockquote{margin:0;border-bottom-left-radius:0}
 #blockquote blockquote p:last-child{margin-bottom:0}
 .ilightbox-holder{background:var(--whiteColor);border-radius:var(--regularRadius);overflow:hidden}
