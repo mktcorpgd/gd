@@ -116,9 +116,9 @@ jQuery(document).ready(function() {
 
 	// CONTENIDO - Tooltip
 	var Delay = 100, ToolTipTimer
-	jQuery('.tooltip').hover(function(e) {
-		var title = jQuery(this).attr('title');
-		jQuery(this).data('ToolTipText', title).removeAttr('title');
+	jQuery('.mc4wp-checkbox-contact-form-7 span').hover(function(e) {
+		var title = jQuery(this).find('.tooltip').attr('title');
+		jQuery(this).find('.tooltip').data('ToolTipText', title).removeAttr('title');
 		jQuery('<div class="wy-tooltip wy-hide">').text(title).appendTo('body');
 		ToolTipTimer  = setTimeout(function(e) {
 		jQuery('.wy-tooltip').removeClass('wy-hide').fadeIn('fast');
@@ -126,7 +126,7 @@ jQuery(document).ready(function() {
 	},
 	function() {
 		clearTimeout(ToolTipTimer);
-		jQuery(this).attr('title', jQuery(this).data('ToolTipText'));
+		jQuery(this).find('.tooltip').attr('title', jQuery(this).find('.tooltip').data('ToolTipText'));
 		jQuery('.wy-tooltip').remove();
 	}).mousemove(function(e) {
 		var pLeft;
