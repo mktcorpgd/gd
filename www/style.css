@@ -190,7 +190,7 @@ body:not(.tribe_events-template-default.avada-has-titlebar-hide) .header-transpa
 .tfs-slider .fusion-title:not(.custom-size) h3,.tfs-slider .fusion-title:not(.custom-size) h4,.fusion-body .header-transparent .fusion-title:not(.custom-size) h4{font-family:var(--textFont);font-size:1.1rem!important;line-height:1.5!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 3vh}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.4)}
-.tfs-slider .flex-control-nav{bottom:2em!important}
+.tfs-slider .flex-control-nav{bottom:3em!important}
 .tfs-slider .flex-direction-nav a{color:transparent}
 .tfs-slider .flex-direction-nav a.flex-prev:before,.tfs-slider .flex-direction-nav a.flex-next:before{display:inline-block;text-indent:0;color:var(--whiteColor);font-family:'Font Awesome 6 Pro'}
 .tfs-slider .flex-direction-nav a.flex-prev:before{content:'\f053'}
