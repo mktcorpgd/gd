@@ -700,7 +700,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .fusion-reading-box-container .reading-box h2{margin-right:1em;text-align:left;font-size:1.3em;line-height:1.25}
 .fusion-reading-box-container.white .reading-box h2{font-size:1.6em}
 .fusion-reading-box-container .reading-box .reading-box-description{font-size:1.1em;line-height:1.5;font-family:var(--textFont);font-weight:400}
-.fusion-reading-box-container .element-bottomshadow{box-shadow:100px 50px 0px #E5E5E5,210px -60px 0px #FAFAFA}
+.fusion-reading-box-container .element-bottomshadow{box-shadow:100px 50px 0px #E5E5E5,210px -60px 0px #F6F6F6}
 
 /* Metas */
 .fusion-meta-info-wrapper span,.fusion-meta-info-wrapper a,.fusion-single-line-meta span,.fusion-single-line-meta a{color:var(--metaColor);font-size:.7rem}
