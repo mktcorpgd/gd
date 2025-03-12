@@ -485,8 +485,9 @@ div[data-id="telsf"]{margin-bottom:-8px}
 .mc4wp-checkbox-contact-form-7 span{display:inline-block;padding-left:.2em}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0;font-size:.8em;line-height:1}
 .mc4wp-checkbox-contact-form-7 i{color:var(--metaColor);cursor:pointer;position:relative;top:1px}
+.mc4wp-checkbox-contact-form-7 i:hover{color:var(--textColor)}
 .white .mc4wp-checkbox-contact-form-7 i{color:var(--whiteAltColor);opacity:.6}
-.mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor);opacity:1}
+.white .mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor);opacity:1}
 .wpcf7-form-control-wrap{position:relative}
 .wpcf7-free-text{margin-top:10px}
 .wpcf7-free-text:not([disabled]){display:block}
