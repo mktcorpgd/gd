@@ -37,7 +37,7 @@ body:not(.page-id-44832) .partners-logos div.swiper-slide[aria-label='1 / 27'],
 .pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-notices+.tribe_events .wpcf7,
 #wp-admin-bar-ate-status-bar,#wp-admin-bar-WPML_ALS .otgs-ico-help.js-otgs-popover-tooltip,#wp-admin-bar-customize,#wp-admin-bar-duplicate-post,
 body.avada-has-titlebar-hide .fusion-project-details-tb .project-info,body.avada-has-titlebar-hide .project-content .project-info,body.single-format-link .fusion-builder-row-1.no-preview img.preview,.fusion-header-sticky-height,
-body.no-future-events .menu-item.eventos,body.error404 .fusion-page-title-bar,body.error404 .error-message,body:not(.has-future-events) .eventos-menu,body.page-id-18422 .fusion-title.fusion-title-1.small-shadow,.fusion-portfolio .more-info span{display:none!important}
+body.no-future-events .menu-item.eventos,body.error404 .fusion-page-title-bar,body.error404 .error-message,body:not(.has-future-events) .eventos-menu,body.page-id-18422 .fusion-title.fusion-title-1.small-shadow,.fusion-portfolio .more-info span,.fusion-content-boxes:before{display:none!important}
 .grecaptcha-badge{visibility:hidden}
 .wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,.legales .panel-body span,.wy-hide,.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 
@@ -671,6 +671,9 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .text-align-left .heading .icon,.text-align-left .heading *,.text-align-left .content-container{text-align:left!important}
 .fusion-content-boxes.less-margin .heading-with-icon .content-box-heading{padding-left:1.4em!important}
 .heading h2{font-weight:500!important}
+.fusion-content-boxes.fusion-columns-2{display:grid;grid-template-columns:1fr 1fr;grid-gap:1em}
+.fusion-content-boxes.fusion-columns-2 .fusion-column{width:100%}
+.fusion-content-boxes.fusion-columns-2 .fusion-column .content-box-wrapper{height:100%}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
