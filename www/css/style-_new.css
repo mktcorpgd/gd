@@ -669,7 +669,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .text-align-left .heading .icon i{display:inline-block!important}
 .text-align-left .heading .icon,.text-align-left .heading *,.text-align-left .content-container{text-align:left!important}
 .fusion-content-boxes.less-margin .heading-with-icon .content-box-heading{padding-left:1.4em!important}
-.heading h2{font-weight:500!important}
+.fusion-content-boxes .heading h2{font-weight:500!important}
 .fusion-content-boxes.fusion-columns-2{display:grid;grid-template-columns:1fr 1fr;grid-gap:1em}
 .fusion-content-boxes.fusion-columns-2 .fusion-column{width:100%}
 .fusion-content-boxes.fusion-columns-2 .fusion-column .content-box-wrapper{height:100%;padding:1.5rem 2rem;background:var(--whiteColor);border-radius:var(--regularRadius)}
