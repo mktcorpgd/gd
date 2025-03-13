@@ -300,6 +300,8 @@ body.single-format-link .textwidget img,.fusion-text img{border-radius:var(--reg
 body.single-format-link .fusion-builder-row-1:not(.no-preview) .textwidget{display:grid;grid-template-columns:25% 75%}
 body.single-format-link .fusion-builder-row-1:not(.no-preview) .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
+body.single-format-link .fusion-theme-sharing-box.fusion-sharing-box{text-align:center}
+body.single-format-link .fusion-social-networks .fusion-social-networks-wrapper{justify-content:center}
 
 /* Portfolio */
 .fusion-portfolio-post .fusion-portfolio-content{margin:0;padding-bottom:.5em;position:relative}
