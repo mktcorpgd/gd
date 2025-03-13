@@ -58,7 +58,7 @@ jQuery(document).ready(function() {
 	tp_phone['ar_posadas'] = '';
 	tp_address['ar_munro'] = 'Cazadores de Coquimbo 2860 (B1605AZE) - Edificio 2, Planta Baja <br />Munro, Buenos Aires<br />Argentina'
 	tp_phone['ar_munro'] = '';
-	tp_address['ar_neuquen'] = 'Juan Larrea 595 (Q8300JVD)<br />Neuquén<br />Argentina';
+	tp_address['ar_neuquen'] = 'Fotheringham 656 (Q8300JVD)<br />Neuquén<br />Argentina';
 	tp_phone['ar_neuquen'] = '+54 (299) 525-9119';
 	tp_address['ar_otra'] = 'Localidad, Provincia<br />Argentina';
 	tp_phone['ar_otra'] = '+54';
