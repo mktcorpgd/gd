@@ -344,6 +344,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-post-content-container{margin:0!important}
 .fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-wrapper .fusion-post-content.post-content{margin-bottom:0}
 .fusion-blog-layout-grid .post .flexslider,.fusion-blog-layout-grid .post .fusion-post-wrapper,.fusion-blog-layout-timeline .fusion-timeline-arrow,.fusion-blog-layout-timeline .fusion-timeline-date,.fusion-blog-layout-timeline .fusion-timeline-line,.fusion-blog-layout-timeline .post,.fusion-blog-layout-timeline .post .flexslider,.fusion-blog-timeline-layout .post,.fusion-blog-timeline-layout .post .flexslider,.fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,.fusion-post-content-container{border:none!important}
+.fusion-blog-layout-grid .post .fusion-post-wrapper{border:2px solid rgba(0,0,0,.2)}
 .noticias [class*='tag-'] .fusion-post-content-wrapper{padding-top:.5em}
 .noticias [class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper{padding-top:0}
 .fusion-portfolio-boxed .fusion-portfolio-content,.fusion-events-post .fusion-events-content-wrapper{padding:0 0 .5em!important}
@@ -359,7 +360,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.5rem 2rem;font-weight:500}
 .fusion-events-content-wrapper h4{padding:0 1.5rem 1rem}
 .fusion-events-content-wrapper h4 span{font-size:1.2em;font-family:var(--textFont);color:var(--metaColor)}
-.fusion-post-grid.has-post-thumbnail .fusion-post-slideshow+.fusion-post-content-wrapper h2 a{padding-top:1rem}
+.fusion-post-grid.has-post-thumbnail .fusion-post-slideshow+.fusion-post-content-wrapper h2 a{padding-top:1rem;font-weight:400}
 .fusion-post-grid.has-post-thumbnail .fusion-post-slideshow+.fusion-post-content-wrapper .fusion-single-line-meta{padding-bottom:1rem}
 .fusion-portfolio-content-wrapper h2 a{padding-bottom:1rem}
 .no-title-link .fusion-portfolio-content-wrapper h2 a{pointer-events:none}
