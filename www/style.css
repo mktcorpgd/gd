@@ -292,7 +292,7 @@ body.single-format-standard:not(.single-avada_portfolio) .post-content>.fusion-f
 /* Recursos */
 body.single:not(.single-avada_portfolio) .avada-page-titlebar-wrapper.bkg{padding:2em 0 1.75em;background-size:cover;background-repeat:no-repeat;background-position:top center}
 body.single-format-link #content{width:100%}
-body.single-format-link .avada-page-titlebar-wrapper{background-color:rgba(0,0,0,.8);background-blend-mode:multiply}
+body.single-format-link .avada-page-titlebar-wrapper{background-color:rgba(0,0,0,.8);background-blend-mode:multiply;background-repeat:no-repeat;background-size:cover;background-position:center center}
 body.single-format-link .fusion-page-title-wrapper,body.single-format-link .fusion-page-title-row h1{display:block}
 body.single-format-link .fusion-page-title-row h1{text-align:center;color:var(--whiteColor)}
 body.single-format-link .fusion-builder-row-1:not(.no-preview){background:none}
