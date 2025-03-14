@@ -72,7 +72,7 @@ table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-addi
 .woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner a{color:var(--highlightColor);font-size:.9em}
 .woofc-area.woofc-style-01 .woofc-area-bot .woofc-continue span:hover,.woofc-area .woofc-area-mid .woofc-undo .woofc-undo-inner a:hover{opacity:1;color:var(--subColor)}
 .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-undo .woofc-undo-inner, .woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-mid .woofc-notices .woocommerce-message{border-radius:var(--smallRadius);background:var(--lightgrayColor1)}
-.woofc-area.woofc-style-01 .woofc-area-bot .woofc-data, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-total{padding:.8em 1.6em;font-size:1.2em;background:var(--subColor);color:var(--whiteColor1)}
+.woofc-area.woofc-style-01 .woofc-area-bot .woofc-data, .woofc-area.woofc-style-01 .woofc-area-bot .woofc-total{margin:0 1em 1em;padding:.8em 1.6em;font-size:1.2em;background:var(--subColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
 .woocommerce form .form-row label:not(.radio), .woocommerce-page form .form-row label:not(.radio),.woocommerce form .form-row.woocommerce-invalid label:not(.radio){font-size:.8rem;color:var(--metaColor);cursor:pointer}
 .woofc-area.woofc-style-01 .woofc-area-mid .woofc-item.woofc-item-has-remove:hover .woofc-item-inner{transform:translate3d(-15px, 0, 0);background:none;box-shadow:inset 0 0 0 4px var(--lightgrayColor1)}
 .woofc-inner .woocommerce .col2-set .col-1, .woofc-inner .woocommerce .col2-set .col-2{width:100%}
