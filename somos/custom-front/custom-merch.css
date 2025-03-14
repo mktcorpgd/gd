@@ -137,7 +137,7 @@ body.woocommerce-processing .woocommerce-checkout-payment::after,#billing_cuenta
 
 /* Notificaciones */
 #yith-wacp-popup .yith-wacp-content .yith-wacp-message{background-color:var(--successColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
-.woocommerce-notices-wrapper [class*='woocommerce-']{padding:1em 2em;border:none;border-radius:var(--regularRadius);color:var(--whiteColor1)}
+.woocommerce-notices-wrapper [class*='woocommerce-']{padding:1em 2em;text-align:center;border:none;border-radius:var(--regularRadius);color:var(--whiteColor1)}
 .woocommerce-message{background-color:var(--successColor)}
 .woocommerce-info{background-color:var(--infoColor)}
 .woocommerce-error{background-color:var(--errorColor)}
