@@ -241,7 +241,7 @@ body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-met
 #content a[src*='.jpg'],#content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
 #content blockquote{margin:0 0 1em;margin-left:0;padding:2em 2.25em;background:none;border-top:4px solid transparent!important;border-bottom:4px solid rgba(0,0,0,.2)!important;border-left:4px solid rgba(0,0,0,.2)!important;border-right:4px solid transparent!important;border-radius:var(--largeRadius);font-family:var(--textFont);font-weight:400;font-style:normal;line-height:1.5}
 body:not(.tribe_events-template-default) #content blockquote{font-size:1.1rem}
-#content blockquote.testimonials-shortcode-blockquote{margin:0;border-bottom-left-radius:0}
+#content blockquote.testimonials-shortcode-blockquote{margin:0;padding-left:1em;padding-bottom:1em;border-bottom-left-radius:0}
 #blockquote blockquote p:last-child{margin-bottom:0}
 .ilightbox-holder{background:var(--whiteColor);border-radius:var(--regularRadius);overflow:hidden}
 .fusion-post-title-meta-wrap{margin-bottom:0}
@@ -428,7 +428,7 @@ body:not(.archive) .fusion-blog-layout-grid article .fusion-post-content-contain
 .fusion-testimonials.clean blockquote q:before{content:'“”';font-family:'Georgia',serif;font-size:3em;line-height:1;position:absolute;top:-10px;left:20px;color:var(--lightgrayColor);z-index:-1}
 .fusion-testimonials.clean blockquote .awb-quote{padding:0;background:none;font-size:1em}
 .fusion-testimonials.clean blockquote .awb-quote,.fusion-testimonials.clean .author{letter-spacing:0;text-align:left}
-.fusion-testimonials.clean .author{margin-top:0;padding:0 20px 20px;font-size:.9em;line-height:1.25;border-left:4px solid var(--lightgrayColor);font-family:var(--textFont)}
+.fusion-testimonials.clean .author{margin-top:0;padding:0 20px 20px;font-size:.9em;line-height:1.25;border-left:4px solid rgba(0,0,0,.2);font-family:var(--textFont)}
 .fusion-testimonials.clean .author strong,.fusion-testimonials.clean .author a{font-weight:400}
 .fusion-testimonials.clean .testimonial-pagination{margin:1em 0 2em;padding-left:24px;text-align:left}
 .fusion-testimonials.clean .testimonial-pagination a{border:2px solid var(--lightgrayColor)}
