@@ -676,6 +676,11 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-content-boxes.less-margin .heading-with-icon .content-box-heading{padding-left:1.4em!important}
 .heading .icon+h3,.heading .icon+h4,.fusion-content-boxes:not(.white):not(.custom-color) .heading .content-box-heading strong,.fusion-title-heading strong{font-weight:500!important}
 .fusion-content-boxes.content-boxes-icon-on-top .heading img{border-radius:var(--regularRadius)}
+.fusion-content-boxes.grid-3-col .fusion-column.content-box-column{width:100%}
+.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 1){order:1}
+.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 2){order:2}
+.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 3){order:3}
+.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 4){order:4}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
