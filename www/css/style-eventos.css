@@ -6,7 +6,6 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link img
 .single-tribe_events #tribe-events-content .tribe-events-event-meta .tribe-events-gmap,.single-tribe_events .sidebar .tribe-events-event-meta .tribe-events-gmap{display:grid;font-size:.8em}
 .tribe-events-content h2,.tribe-events-content h3,.tribe-events-content h4,.tribe-events-content h5,.tribe-events-content h6,.tribe-common--breakpoint-medium.tribe-common .tribe-common-h3--min-medium{font-family:var(--titleFont)}
 .timezone{margin:.4em 0 0;font-size:.6em}
-body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .info-event .timezone{display:block;line-height:1;opacity:.6!important}
 .tribe-events-start-time:after{content:' h'}
 .tribe-events-single>.tribe_events{overflow:visible}
 .tribe-events.tribe-common{z-index:10}
@@ -25,7 +24,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide .fusion-events-featur
 .fusion-events-featured-image .fusion-events-single-title-content h2 strong{font-weight:500!important}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated{display:block;margin-top:1em;width:100%;text-align:center}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{font-weight:400!important;font-size:1.2em}
-body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{color:transparent}
+body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{color:var(--whiteColor)}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3 span,body.tribe_events-template-default.avada-has-titlebar-hide .info-event .tribe-event-date-start a{color:var(--whiteColor);opacity:1!important}
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event .tribe-event-date-start a{text-decoration:underline}
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin:8em auto 4em;max-width:1200px}
