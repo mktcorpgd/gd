@@ -682,6 +682,8 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 2){order:2}
 .fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 3){order:3}
 .fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 4){order:4}
+.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(3n + 2){border-left:2px solid rgba(0,0,0,.2);border-right:2px solid rgba(0,0,0,.2)}
+
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
@@ -944,6 +946,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-widget-area h5,#content h5,h5{font-size:1.2em}
 	#main .fusion-woocommerce-quick-view-container .product_title,#wrapper #main .fusion-portfolio-content > h1.fusion-post-title,#wrapper #main .fusion-portfolio-content > h2.fusion-post-title,#wrapper #main .fusion-post-content > .blog-shortcode-post-title,#wrapper #main .fusion-post-content > h1.fusion-post-title,#wrapper #main .fusion-post-content > h2.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h1.fusion-post-title,#wrapper #main .post > .fusion-post-title-meta-wrap > h2.fusion-post-title,#wrapper #main .post > h1.fusion-post-title,#wrapper #main .post > h2.fusion-post-title,.single-product #main .product h1.product_title,.single-product #main .product h2.product_title{font-size:1.5em}
 	#content{margin-bottom:0}
+	.fusion-content-boxes.grid-3-col{grid-template-columns:1fr;}
 
 	/* Sidebar */
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
