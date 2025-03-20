@@ -26,6 +26,7 @@ body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{font-weight:400!important;font-size:1.2em}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3{color:var(--whiteColor)}
 body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3 span,body.tribe_events-template-default.avada-has-titlebar-hide .info-event .tribe-event-date-start a{color:var(--whiteColor);opacity:1!important}
+body.tribe_events-template-default.avada-has-titlebar-hide #tribe-events-content .fusion-events-featured-image .updated h3 span.tribe-event-venue{margin-left:.4rem;padding-left:.8rem;border-left:2px solid rgba(255,255,255,.4)}
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event .tribe-event-date-start a{text-decoration:underline}
 body.tribe_events-template-default.avada-has-titlebar-hide .info-event{margin:8em auto 4em;max-width:1200px}
 .single-tribe_events .tribe-events .tribe-events-c-subscribe-dropdown__container{display:block;margin-top:2em;width:100%}
