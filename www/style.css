@@ -661,6 +661,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 /* Cajas de íconos */
 .fusion-content-boxes .link-area-box{cursor:inherit}
 .fusion-content-boxes .link-area-box-hover{color:inherit}
+.fusion-content-boxes:not(.white):not(.custom-color) .heading .content-box-heading strong{display:block}
 .fusion-content-boxes.content-boxes-icon-on-top .content-container,.fusion-content-boxes.no-heading .heading,.fusion-content-boxes.no-heading-title .heading{margin-bottom:0}
 .fusion-content-boxes.content-boxes-icon-with-title .heading-with-icon .fontawesome-icon{text-align:center}
 .fusion-content-boxes.no-heading .content-container *,.fusion-content-boxes.no-heading-title .content-container *,.fusion-content-boxes .fusion-read-more-button{margin-top:0}
