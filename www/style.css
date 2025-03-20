@@ -673,7 +673,7 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .text-align-left .heading .icon i{display:inline-block!important}
 .text-align-left .heading .icon,.text-align-left .heading *,.text-align-left .content-container{text-align:left!important}
 .fusion-content-boxes.less-margin .heading-with-icon .content-box-heading{padding-left:1.4em!important}
-.heading .icon+h3,.heading .icon+h4{font-weight:500!important}
+.heading .icon+h3,.heading .icon+h4,.fusion-content-boxes:not(.white):not(.custom-color) .heading .content-box-heading strong{font-weight:500!important}
 .fusion-content-boxes.content-boxes-icon-on-top .heading img{border-radius:var(--regularRadius)}
 
 /* Visor PDF */
