@@ -23,8 +23,7 @@ body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-
 /* Notificaciones */
 popup_poweredby,notification_time,popup_close+popup_heading,
 /* Merchandising */
-#toplevel_page_admin-page-wc-settings-tab-checkout,.tiptip_content,input[type=checkbox]:checked::before,.woocommerce-layout__header,.button.wc-action-button-processing,#tiptip_holder,.column-wc_actions a.wc-action-button-complete:not([aria-label="Aprobar solicitud"]),.notice:not(.somos-gd),.wp-heading-inline~.updated,.wp-heading-inline~.error,.wp-heading-inline~.notice:not(.somos-gd),.somos-gd~.updated,.somos-gd-notice~.error
-{display:none!important}
+#toplevel_page_admin-page-wc-settings-tab-checkout,.tiptip_content,input[type=checkbox]:checked::before,.woocommerce-layout__header,.button.wc-action-button-processing,#tiptip_holder,.column-wc_actions a.wc-action-button-complete:not([aria-label="Aprobar solicitud"]),.notice:not(.somos-gd),.wp-heading-inline~.updated,.wp-heading-inline~.error,.wp-heading-inline~.notice:not(.somos-gd),.somos-gd~.updated,.somos-gd-notice~.error,.wrap>.updated,.wrap>.updated~.updated{display:none!important}
 /* Oculto no forzado */
 .toggle .toggle-inner,#createuser .user-job-url-bcard-wrap,#createuser .fh-profile-upload-options{display:none}
 
