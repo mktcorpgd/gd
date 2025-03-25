@@ -37,7 +37,7 @@ body.single-product .woocommerce div.product form.cart{display:flex}
 .woocommerce ul.products li.product:hover .add_to_cart_button{background:var(--subColor)}
 .woocommerce ul.products li.product .button{display:flex;align-items:center;margin:0;grid-column:auto!important;padding:.4em .8rem;font-size:.9rem;background:none!important;box-shadow:none!important;color:var(--highlightColor);text-align:left}
 .woocommerce ul.products li.product .button.loading{opacity:.6}
-.woocommerce .button::after{position:absolute;top:11px!important;right:16px!important;font-size:.8em;color:var(--grayColor)!important}
+.woocommerce .button::after{position:absolute;top:10px!important;right:11px!important;font-size:.8em;color:var(--grayColor)!important}
 .woocommerce .woocommerce-result-count{margin-top:.4em}
 .woocommerce .woocommerce-result-count,.woocommerce .woocommerce-ordering select,.woocommerce-breadcrumb{font-size:.8rem!important}
 .woocommerce .woocommerce-ordering select{margin-top:0!important}
@@ -119,7 +119,7 @@ prompticon3{right:15px}
 body.woocommerce-processing .woocommerce-checkout-payment{}
 body.woocommerce-processing .woocommerce-checkout-payment{pointer-events:none}
 body.woocommerce-processing .woocommerce-checkout-payment .place-order{opacity:.4;}
-body.woocommerce-processing .woocommerce-checkout-payment::after,.loading::after,.ui-autocomplete-loading::after{content:'';display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor1);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
+body.woocommerce-processing .woocommerce-checkout-payment::after,.loading::after,.ui-autocomplete-loading::after{content:''!important;display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor2);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
 .loading::after,.ui-autocomplete-loading::after{left:auto!important;right:15px!important;top:35px!important}
 
 /* Inputs */
