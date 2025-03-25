@@ -246,6 +246,6 @@ popup_close:hover{opacity:1}
 	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a{}
 	.auto-fold #wpwrap:not(.wp-responsive-open) #adminmenuwrap ul#adminmenu .menu-logo{width:24px;left:6px!important}
 	.auto-fold #wpwrap.wp-responsive-open #adminmenuwrap ul#adminmenu .menu-logo{left:64px!important}
-	.form-table tr.user-tags td{display:grid;grid-template-columns:1fr 1fr}
+	.form-table tr.user-tags td .container-tags{display:grid;grid-template-columns:1fr 1fr}
 	.wp-responsive-open #wpadminbar #wp-admin-bar-menu-toggle a{background:var(--subColor)}
 }
