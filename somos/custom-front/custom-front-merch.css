@@ -119,8 +119,8 @@ prompticon3{right:15px}
 body.woocommerce-processing .woocommerce-checkout-payment{}
 body.woocommerce-processing .woocommerce-checkout-payment{pointer-events:none}
 body.woocommerce-processing .woocommerce-checkout-payment .place-order{opacity:.4;}
-body.woocommerce-processing .woocommerce-checkout-payment::after,#billing_cuenta_salesforce_field.loading::after{content:'';display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor1);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
-#billing_cuenta_salesforce_field.loading::after{left:auto!important;right:15px!important;top:35px!important}
+body.woocommerce-processing .woocommerce-checkout-payment::after,.loading::after,.ui-autocomplete-loading::after{content:'';display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor1);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
+.loading::after,.ui-autocomplete-loading::after{left:auto!important;right:15px!important;top:35px!important}
 
 /* Inputs */
 .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{line-height:1.2}
