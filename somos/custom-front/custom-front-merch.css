@@ -83,6 +83,8 @@ table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-addi
 .woocommerce-billing-fields .form-third{width:33.33%!important;float:left}
 .woocommerce form .form-row-first, .woocommerce-page form .form-row-first,.woocommerce form .form-row-last, .woocommerce-page form .form-row-last,.woocommerce-billing-fields .form-third{clear:none!important}
 .woocommerce ul.order_details{display:flex}
+.woocommerce ul.order_details li{margin-right:1em;padding-right:1em;font-size:.6em}
+.woocommerce ul.order_details li strong{font-size:.9rem;line-height:1.4}
 #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{background:none}
 .woocommerce .woocommerce-user-details address{border:none;border-radius:0}
 .woocommerce .woocommerce-user-details address,p[class*='woocommerce-user-details']{padding:0!important;margin:0!important;line-height:normal}
