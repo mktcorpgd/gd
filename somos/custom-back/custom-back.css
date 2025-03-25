@@ -123,7 +123,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 /* Campos */
 .wp-core-ui select{max-width:32em}
 #your-profile .form-table,#createuser .form-table{border:none;font-size:1.1em}
-.form-table.profile-info{font-size:1.2em}
+.form-table.profile-info{font-size:1.1em}
 .form-table.profile-info i{min-width:20px;text-align:center;font-size:.9em;position:relative;bottom:1px;color:#CCCCCC}
 #your-profile .form-table th,#createuser .form-table th{padding:.6em .4em;font-size:1.1em;font-family:'neo-sans',sans-serif;font-weight:400}
 #your-profile .form-table td,#createuser .form-table td{padding:.6em .4em}
@@ -135,7 +135,7 @@ body #toplevel_page_w3tc_dashboard .wp-menu-image{background:none!important}
 .nav-tab,#search-body .form-table h3{font-weight:500!important}
 .nav-tab-wrapper,.wrap h2.nav-tab-wrapper,h1.nav-tab-wrapper{border-bottom:0!important}
 body.wps_page #wpbody{padding-left:5px}
-.form-table tr.user-tags td{display:grid;grid-gap:.4em;grid-template-columns:1fr 1fr 1fr}
+.form-table tr.user-tags td .container-tags{display:grid;grid-gap:.4em;grid-template-columns:1fr 1fr 1fr}
 
 /* Primeros pasos */
 .dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content>.about-wrap>h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap h1,.dashboard_page_custom-dashboard #wpwrap #wpcontent #wpbody #wpbody-content .about-wrap .about-text{width:100%}
