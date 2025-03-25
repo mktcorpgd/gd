@@ -142,6 +142,7 @@ body.woocommerce-processing .woocommerce-checkout-payment::after,.loading::after
 
 /* Mi cuenta */
 .woocommerce-account .woocommerce-MyAccount-content{width:100%}
+.woocommerce .woocommerce-customer-details address{padding:0;border:none}
 
 /* Notificaciones */
 #yith-wacp-popup .yith-wacp-content .yith-wacp-message{background-color:var(--successColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
