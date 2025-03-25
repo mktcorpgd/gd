@@ -823,7 +823,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 
 /* Botones */
 #page-wrapper{overflow:visible}
-.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button,#wpdcom .wpd-second-button,btn.webpushrUnknownBtn,btn.webpushrOffBtn,.yith-wacp-popup-actions .button,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-bot .woofc-action .woofc-action-inner > div a{margin:0;padding:.6em 1.2em;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif!important;font-size:1rem;letter-spacing:0;line-height:normal;text-align:center;text-transform:none;font-weight:normal;background:var(--highlightColor)!important;border:none;box-shadow:var(--smallShadow)!important;text-decoration:none!important;text-shadow:none;outline:none}
+.wpcf7 button,.button,.sc-button,.yotu-playlist .yotu-pagination-more,#respond #submit,.wpcf7 input[type='submit'],#text-4 h3 a,#wpdcom .wpd-prim-button,#wpdcom .wpd-second-button,btn.webpushrUnknownBtn,btn.webpushrOffBtn,.yith-wacp-popup-actions .button,.woofc-area.woofc-rounded-yes .woofc-inner .woofc-area-bot .woofc-action .woofc-action-inner > div a,.woocommerce table.my_account_orders .button{margin:0;padding:.6em 1.2em;color:var(--whiteColor1);font-family:var(--titleFont),sans-serif!important;font-size:1rem;letter-spacing:0;line-height:normal;text-align:center;text-transform:none;font-weight:normal;background:var(--highlightColor)!important;border:none;box-shadow:var(--smallShadow)!important;text-decoration:none!important;text-shadow:none;outline:none}
 #wpdcom .wpd-second-button:hover,#wpdcom .wpd-prim-button:hover{opacity:1}
 #wpdcom .wpd_label__check i.wpdicon-off{border-radius:var(--smallRadius)}
 .sc-button,.sc-button:hover{margin:0}
@@ -837,7 +837,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 #post-content .sc-button.disabled,#post-content .sc-button.disabled:hover{cursor:default;border-color:var(--lightgrayColor2);background:var(--lightgrayColor2);opacity:1}
 .sc-button>i,.wpcf7 button>i{display:inline-block;padding:0 5px 0 0;position:relative;bottom:1px;text-align:center;font-size:.8em}
 .sc-button.small,.sc-button.medium,.sc-button.large,.sc-button.xlarge,.wpcf7 button.small,.wpcf7 button.medium,.wpcf7 button.large,.wpcf7 button.xlarge{padding:.4em .8em;line-height:normal}
-.sc-button.small,button.small{margin:.2em .6em .5em 0;padding:.3em .6em;font-size:.8em;border-radius:var(--smallRadius)!important}
+.sc-button.small,button.small,.woocommerce table.my_account_orders .button{margin:.2em .6em .5em 0;padding:.3em .6em;font-size:.8em;border-radius:var(--smallRadius)!important}
 .sc-button.medium,.wpcf7 button.medium{font-size:1em;font-weight:400!important}
 .sc-button.large,.wpcf7 button.large{font-size:1.2em}
 .sc-button.xlarge,.wpcf7 button.xlarge{margin-bottom:1em;font-size:1.3em}
@@ -846,7 +846,7 @@ article.category-casos-de-referencia .padder:before,body.page-id-29106 #content 
 .sidebar .sc-button-social:hover{color:var(--subColor)!important}
 .widget .toggle-box .sc-button:not(.inline){margin-top:.2em!important}
 .widget .sc-button-social+.sc-button.small{margin:.5em 0 0}
-#content .sc-button.small,#content button.small,.sidebar .widget .sc-button.small{font-weight:400!important}
+#content .sc-button.small,#content button.small,.sidebar .widget .sc-button.small,.woocommerce table.my_account_orders .button{font-weight:400!important}
 .sidebar .widget .sc-button.small{margin-top:1em;padding:0!important;background:none!important;box-shadow:none!important;color:var(--highlightColor)!important;text-decoration:underline!important;text-underline-offset:4px}
 .sidebar .widget .sc-button.small:hover{color:var(--mainColor)!important;text-decoration:underline!important}
 .sidebar .widget .sc-button.small:after{content:'›';display:inline-block;padding-left:.2em}
