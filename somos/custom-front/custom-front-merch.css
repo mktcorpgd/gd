@@ -4,7 +4,7 @@
 .wc_payment_methods,.woocommerce .woocommerce-user-details .woocommerce-user-details--phone::before,.woocommerce-user-details--email::before,
 .woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock,body.single-product .tabs.wc-tabs,body.single-product .woocommerce-Tabs-panel h2,.woofc-area-count,.woocommerce-error::before,.woocommerce-pagination ul.page-numbers .page-numbers.next:before,.woocommerce-pagination ul.page-numbers .page-numbers.next:after,
 .woocommerce-notices-wrapper [class*='woocommerce-']::before,.woocommerce-notices-wrapper [class*='woocommerce-']::after,.woocommerce-notices-wrapper .button.wc-forward,.ui-menu .ui-menu-item::marker,.form-row[id*='salesforce_id'],
-.woocommerce table.my_account_orders .button.pay,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders){display:none!important}
+.woocommerce table.my_account_orders .button.pay,.woocommerce table.my_account_orders .button.cancel,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders){display:none!important}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
@@ -45,7 +45,7 @@ body.single-product .woocommerce div.product form.cart{display:flex}
 .woocommerce ul.products li.product .stock{margin-left:.8rem;font-size:.7rem;color:var(--metaColor)}
 .woocommerce ul.products li.product .stock strong{display:inline-block}
 .woocommerce ul.products li.product .quantity{margin-left:.8rem;position:relative}
-body.woocommerce-order-received #content h1.page-title{margin-bottom:0;text-align:left}
+body.woocommerce-order-received #content h1.page-title,body.woocommerce-view-order #content h1.page-title{margin-bottom:0;text-align:left}
 .bkg-gray th,.bkg-gray td{background:var(--lightgrayColor1)!important;color:var(--textColor)!important}
 .notes td{font-weight:normal!important}
 table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-additional-info th{width:40%}
@@ -83,6 +83,8 @@ table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-addi
 .woocommerce-billing-fields .form-third{width:33.33%!important;float:left}
 .woocommerce form .form-row-first, .woocommerce-page form .form-row-first,.woocommerce form .form-row-last, .woocommerce-page form .form-row-last,.woocommerce-billing-fields .form-third{clear:none!important}
 .woocommerce ul.order_details{display:flex}
+.woocommerce ul.order_details li{margin-right:1em;padding-right:1em;font-size:.6em}
+.woocommerce ul.order_details li strong{font-size:.9rem;line-height:1.4}
 #add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment{background:none}
 .woocommerce .woocommerce-user-details address{border:none;border-radius:0}
 .woocommerce .woocommerce-user-details address,p[class*='woocommerce-user-details']{padding:0!important;margin:0!important;line-height:normal}
@@ -90,6 +92,9 @@ table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-addi
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
 table.woocommerce-table--order-details tfoot tr:first-child th:first-child{background:var(--highlightColor)!important;color:var(--whiteColor1)!important;border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
+#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number,#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number a{background:var(--highlightColor);color:var(--whiteColor1)}
+#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number a{color:var(--whiteColor1)}
+#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions{text-align:center}
 table.woocommerce-table--order-details tfoot tr:last-child th:first-child{border-bottom-left-radius:var(--regularRadius)}
 table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}

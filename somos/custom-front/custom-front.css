@@ -754,7 +754,7 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 
 /* Tablas */
 .wp-block-table{margin-bottom:2em;overflow:hidden}
-#content table td:not(.line){border:none;border-top:1px solid rgba(0,0,0,.2);border-left:1px solid rgba(0,0,0,.2)}
+#content table td:not(.line){border:none;border-top:1px solid rgba(0,0,0,.2)}
 #content table tbody tr:last-child td{border-bottom:1px solid rgba(0,0,0,.2)}
 #content table{margin-bottom:0;padding:0;border:none;border-collapse:separate}
 #content table tbody tr{background:none}
@@ -782,14 +782,6 @@ body.home .gp-blog-wrapper+.sc-button.large{display:block;margin:.5em auto}
 #content table td:last-child{border-right:1px solid var(--lightgrayColor2)}
 #content table tr:last-child td:first-child,#content table tbody tr:last-child th:first-child{border-bottom-left-radius:var(--regularRadius)}
 #content table tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
-
-/* Orgarnigrama */
-#content .jOrgChart table{margin:0;padding:0}
-#content .jOrgChart table td:not(.line){border:none}
-#content .jOrgChart table td.line.top{border-bottom:none}
-#content .jOrgChart table td.line.right{border-right:none;border-left:2px solid var(--mainColor);border-bottom:none}
-#content .jOrgChart table td.line.left{border-left:none;border-right:2px solid var(--mainColor);border-bottom:none}
-#content .jOrgChart table td:not(.line){border:none!important}
 
 /* Búsquedas */
 #content [class*='busquedas'] .buttons>.info{margin:1em 0}
@@ -1109,7 +1101,6 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 	.sidebar .widget .sc-button.small{margin-right:0;font-size:.9em}
 	.zoom-org .buttons{grid-template-columns:50% 50%}
 	.sc-button-social{font-size:2.5em}
-	.jOrgChart table tr.child_box{padding:0}
 	#copyright{padding-top:0;font-size:.7em}
 	#copyright a img{width:160px}
 	.info-material{font-size:1rem}
