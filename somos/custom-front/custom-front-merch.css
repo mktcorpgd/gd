@@ -4,7 +4,7 @@
 .wc_payment_methods,.woocommerce .woocommerce-user-details .woocommerce-user-details--phone::before,.woocommerce-user-details--email::before,
 .woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock,body.single-product .tabs.wc-tabs,body.single-product .woocommerce-Tabs-panel h2,.woofc-area-count,.woocommerce-error::before,.woocommerce-pagination ul.page-numbers .page-numbers.next:before,.woocommerce-pagination ul.page-numbers .page-numbers.next:after,
 .woocommerce-notices-wrapper [class*='woocommerce-']::before,.woocommerce-notices-wrapper [class*='woocommerce-']::after,.woocommerce-notices-wrapper .button.wc-forward,.ui-menu .ui-menu-item::marker,.form-row[id*='salesforce_id'],
-.woocommerce table.my_account_orders .button.pay,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders){display:none!important}
+.woocommerce table.my_account_orders .button.pay,.woocommerce table.my_account_orders .button.cancel,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders){display:none!important}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
@@ -92,6 +92,7 @@ table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-addi
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
 table.woocommerce-table--order-details tfoot tr:first-child th:first-child{background:var(--highlightColor)!important;color:var(--whiteColor1)!important;border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
+#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number{background:var(--highlightColor);color:var(--whiteColor1)}
 table.woocommerce-table--order-details tfoot tr:last-child th:first-child{border-bottom-left-radius:var(--regularRadius)}
 table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
