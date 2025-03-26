@@ -149,6 +149,7 @@ body.woocommerce-processing .woocommerce-checkout-payment::after,.loading::after
 .woocommerce-account .woocommerce-MyAccount-content{width:100%}
 .woocommerce table.my_account_orders .woocommerce-orders-table__cell-order-actions{text-align:center}
 .woocommerce table.my_account_orders .button{margin-bottom:0}
+.woocommerce table.my_account_orders .woocommerce-orders-table__cell-order-status{text-transform:uppercase;font-size:.7rem}
 
 /* Notificaciones */
 #yith-wacp-popup .yith-wacp-content .yith-wacp-message{background-color:var(--successColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
