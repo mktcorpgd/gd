@@ -99,7 +99,7 @@ table.woocommerce-table--order-details tfoot tr:last-child th:first-child{border
 table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
 .woocommerce table.shop_table th,.woocommerce table.shop_table td{padding:.6rem .8rem}
-.woocommerce-orders-table__row td{vertical-align:middle!important}
+.woocommerce-orders-table__row td,.woocommerce table.shop_table th{vertical-align:middle!important}
 #content table.additional_info>tbody>tr:first-child>th:first-child{border-top-left-radius:var(--regularRadius)}
 table.shop_table.order_details{margin-top:2em}
 .woocommerce form .form-row.woocommerce-validated .select2-container, .woocommerce form .form-row.woocommerce-validated input.input-text, .woocommerce form .form-row.woocommerce-validated select{border-color:var(--lightgrayColor2)}
