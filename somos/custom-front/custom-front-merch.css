@@ -92,7 +92,9 @@ table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-addi
 table.woocommerce-table--order-details tbody tr:last-child td:first-child{border-bottom-left-radius:0!important}
 table.woocommerce-table--order-details tbody tr:last-child td:last-child{border-bottom-right-radius:0!important}
 table.woocommerce-table--order-details tfoot tr:first-child th:first-child{background:var(--highlightColor)!important;color:var(--whiteColor1)!important;border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)}
-#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number{background:var(--highlightColor);color:var(--whiteColor1)}
+#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number,#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number a{background:var(--highlightColor);color:var(--whiteColor1)}
+#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-number a{color:var(--whiteColor1)}
+#content table th.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions{text-align:center}
 table.woocommerce-table--order-details tfoot tr:last-child th:first-child{border-bottom-left-radius:var(--regularRadius)}
 table.woocommerce-table--order-details tfoot tr td:last-child{border-top:none!important;border-bottom:1px solid rgba(0,0,0,.2)!important}
 table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-bottom-right-radius:var(--regularRadius)}
