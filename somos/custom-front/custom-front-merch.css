@@ -122,9 +122,10 @@ prompticon3{right:15px}
 #woofc-count i[class*='woofc-icon-cart'],prompticonimage{display:flex;width:100%;height:100%;box-sizing:border-box;align-items:center;justify-content:center;color:var(--whiteColor1)}
 .blockUI{display:none!important}
 .woocommerce-checkout-payment{position:relative}
-.woocommerce-processing .woocommerce-checkout-payment{pointer-events:none}
-.woocommerce-processing .woocommerce-checkout-payment .place-order{opacity:.4;}
-.woocommerce-processing .woocommerce-checkout-payment::after,.loading::after,.ui-autocomplete-loading::after{content:''!important;display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor2);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
+.woocommerce-checkout.processing .woocommerce-checkout-payment{pointer-events:none}
+.woocommerce-checkout.processing{opacity:.4;}
+.woocommerce-checkout.processing::after,.woocommerce-checkout.processing .woocommerce-checkout-payment::after,.loading::after,.ui-autocomplete-loading::after{content:''!important;display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor2);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
+.woocommerce-checkout.processing::after{width:2em;height:2em;left:46.6%}
 .loading::after,.ui-autocomplete-loading::after{left:auto!important;right:15px!important;top:35px!important}
 
 /* Inputs */
