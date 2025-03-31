@@ -1,5 +1,5 @@
 /* Xerox */
-:root{--mainColor:#344B57;--subColor:#344B57;--highlightColor:#D41526;}
+:root{--mainColor:#111B33;--subColor:#111B33;--highlightColor:#D41526;}
 
 /* Header */
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo img[href*='xeroxwhite']{margin-top:0;padding:1em 2em;height:auto;background:var(--xeroxColor);border-radius: 0 0 var(--largeRadius) var(--largeRadius)}
