@@ -114,7 +114,7 @@ body.post-type-archive-tribe_events .tribe-events-c-subscribe-dropdown:before{co
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-content-widget-area.fusion-event-meta-no-organizer dl,body.tribe_events-template-default.avada-has-titlebar-hide .fusion-content-widget-area.fusion-event-meta-no-organizer dd{text-align:center!important}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-fullwidth.header-transparent{border-top:12px solid var(--mainColor)!important}
 body.tribe_events-template-default.avada-has-titlebar-hide .fusion-fullwidth.header-transparent .fusion-layout-column.white .fusion-column-wrapper{background:var(--mainColor)!important}
-#content blockquote{border-left:var(--highlightColor)!important}
+#content blockquote{border-left-color:var(--highlightColor)!important}
 
 /* Desktop */
 @media (min-width:920px) {
