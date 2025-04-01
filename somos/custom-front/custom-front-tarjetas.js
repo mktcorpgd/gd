@@ -74,7 +74,7 @@ jQuery(document).ready(function() {
 	tp_phone['pe_lima'] = '+51 (1) 616-0770';
 	tp_address['pr_san-juan'] = '1055 Marginal Kennedy (00907)<br />Edificio ILA, Suite 905<br />San Juan<br />Puerto Rico';
 	tp_phone['pr_san-juan'] = '';
-	tp_address['uy_montevideo'] = 'Juncal 1305 (11000)<br />1<sup>er</sup> EP<br />Montevideo<br />Uruguay';
+	tp_address['uy_montevideo'] = 'Juncal 1305 (11000)<br />1er EP<br />Montevideo<br />Uruguay';
 	tp_phone['uy_montevideo'] = '';
 
 
