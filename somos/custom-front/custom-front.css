@@ -112,6 +112,7 @@ code{display:inline-block;margin:0;padding:.2em .4em;color:var(--grayColor);font
 code.block{width:100%;padding:.9em .6em;border-radius:var(--smallRadius)}
 .width-800{max-width:800px}
 input[type='submit'],select,textarea,button{outline:none!important}
+sup{font-size:.7rem;line-height:1}
 a{color:var(--highlightColor)}
 a:hover{color:var(--mainColor)}
 .no-margin{margin:0!important}
