@@ -676,12 +676,6 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-content-boxes.less-margin .heading-with-icon .content-box-heading{padding-left:1.4em!important}
 .fusion-content-boxes:not(.white):not(.custom-color) .heading .content-box-heading strong,.fusion-title-heading strong,.content-box-heading strong{font-weight:500!important}
 .fusion-content-boxes.content-boxes-icon-on-top .heading img{border-radius:var(--regularRadius)}
-.fusion-content-boxes.grid-3-col{display:grid;grid-template-columns:1fr 1fr 1fr}
-.fusion-content-boxes.grid-3-col .fusion-column.content-box-column{width:100%}
-.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 1){order:1}
-.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 2){order:2}
-.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 3){order:3}
-.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 4){order:4}
 
 /* Visor PDF */
 .pdfemb-pagescontainer{margin:0}
@@ -895,7 +889,13 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-theme-sharing-box.fusion-sharing-box{padding:0 3.3rem 1rem}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-theme-sharing-box.fusion-sharing-box{margin:0 auto;width:80%;border-left:4px solid var(--lightgrayColor);border-bottom-left-radius:var(--regularRadius);}
 	.first-blank.fusion-content-boxes .content-box-column-first-in-row{width:17%}
-
+	.fusion-content-boxes.grid-3-col{display:grid;grid-template-columns:1fr 1fr 1fr}
+	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column{width:100%}
+	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 1){order:1}
+	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 2){order:2}
+	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 3){order:3}
+	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 4){order:4}
+	
 	/* Tabs/Filters */
 	.fusion-filters .fusion-filter a{line-height:1.15}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
