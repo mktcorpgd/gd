@@ -239,7 +239,7 @@ body.single .fusion-post-title-meta-wrap span,body.single .fusion-post-title-met
 
 /* Contenidos */
 #content a[src*='.jpg'],#content a[src*='.png'],a.fusion-lightbox{cursor:zoom-in}
-#content blockquote{margin:0 0 1em;margin-left:0;padding:2em 2.25em;background:none;border-top:4px solid transparent!important;border-left:4px solid rgba(0,0,0,.2)!important;border-right:4px solid transparent!important;border-radius:var(--largeRadius) var(--largeRadius) 0 0;font-family:var(--textFont);font-weight:400;font-style:normal;line-height:1.5}
+#content blockquote{margin:0 0 1em;margin-left:0;padding:2em 2.25em;background:none;border-top:4px solid transparent!important;border-left:4px solid rgba(0,0,0,.2)!important;border-right:4px solid transparent!important;border-radius:var(--largeRadius) var(--largeRadius) 0 0;font-size:1em;font-family:var(--textFont);font-weight:400;font-style:normal;line-height:1.5}
 body:not(.tribe_events-template-default) #content blockquote{font-size:1.1rem}
 #content blockquote.testimonials-shortcode-blockquote{margin:0;padding-left:2rem;padding-bottom:1em;border-bottom-left-radius:0;border-bottom:none!important}
 #blockquote blockquote p:last-child{margin-bottom:0}
