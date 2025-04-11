@@ -7,7 +7,7 @@
 #content .columns.two .tp h2,#content .columns.two .tp h3,#content .columns.two .tp h4,#content .columns.two .tp h5,#content .columns.two .tp ul{margin:0;padding:0;position:absolute;left:0;text-align:left}
 #content .columns.two .tp>img{border:2px solid var(--lightgrayColor1);border-radius:24px}
 #content .columns.two .tp ul{top:77px}
-#content .columns.two .tp ul li{padding-left:38px}
+#content .columns.two .tp ul li{padding-left:21px}
 #content .columns.two .tp ul li{margin:0;padding-bottom:4px;min-height:19.5px;color:var(--textColor);font-size:14px;line-height:1}
 #content .columns.two .tp ul li:last-child{margin-top:15px}
 #content .columns.two .tp img+em{font-size:.8em}
