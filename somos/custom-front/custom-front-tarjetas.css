@@ -28,7 +28,7 @@
 #content .columns .tp.digital li>span{display:block;font-size:1rem;text-transform:none;font-weight:400;color:var(--whiteColor1)}
 #content .columns .tp.digital #mobile-logo{background:none;border:none;border-radius:0}
 #content .columns .tp.digital:not(.zerog_networks) #mobile-logo{height:40px}
-#content .columns .tp.digital.zerog_networks #mobile-logo{height:32px}
+#content .columns .tp.digital.zerog_networks #mobile-logo{max-width:220px;max-height:32px}
 #content .columns .tp.digital #mobile-content,#content .columns .tp.digital.grupo_datco #mobile-content{background-color:rgba(0,0,0,.2);background-image:url(https://www.grupodatco.com/_qr/img/grupo_datco-bkg_1920_1080.jpg);background-position:center left;background-size:cover;background-blend-mode:multiply}
 #content .columns .tp.digital.grupo_datco li{border:1px solid var(--extraColor)}
 #content .columns .tp.digital.gd_xerox #mobile-content{background-image:url(https://www.grupodatco.com/_qr/img/grupo_datco_xerox-bkg_1920_1080.jpg)}
