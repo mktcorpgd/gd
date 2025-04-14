@@ -161,7 +161,7 @@ jQuery(document).ready(function() {
 			link_ref = link_ref.substring(3,link_ref.length);
 		}
 		jQuery('.avada-page-titlebar-wrapper').css('background-image','url(/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg');
-		jQuery('<img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" />').insertBefore('#main .wpcf7');
+		jQuery('<div class="preview-container"><img src="/wp-content/uploads/'+site_id+link_ref+'-pdf-large.jpg" width="300" class="preview" /></div>').insertBefore('#main .wpcf7');
 	}
 
 
