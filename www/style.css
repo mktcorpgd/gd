@@ -267,6 +267,7 @@ body.error404 .fusion-title.fusion-sep-none *{text-align:center!important}
 .fusion-countdown .fusion-dash-title{font-weight:400;text-transform:lowercase}
 .fusion-text li{margin:.4em 0}
 .fusion-text li:last-child{margin-bottom:1em}
+.fusion-text img{border-radius:var(--regularRadius);border:2px solid var(--lightgrayColor)}
 
 /* Buscador */
 .fusion-header-wrapper .searchform .fusion-search-form-content .fusion-search-field input[type='search']{padding:.4em .8em;font-size:1.4em;text-align:center;color:var(--whiteColor);background:rgba(0,0,0,.4)}
@@ -296,8 +297,8 @@ body.single-format-link .avada-page-titlebar-wrapper{background-color:rgba(0,0,0
 body.single-format-link .fusion-page-title-wrapper,body.single-format-link .fusion-page-title-row h1{display:block}
 body.single-format-link .fusion-page-title-row h1{text-align:center;color:var(--whiteColor)}
 body.single-format-link .fusion-builder-row-1:not(.no-preview){background:none}
-body.single-format-link .textwidget img,.fusion-text img{border-radius:var(--regularRadius);border:2px solid var(--lightgrayColor)}
-body.single-format-link .fusion-builder-row-1:not(.no-preview) .textwidget{display:grid;grid-template-columns:25% 75%}
+body.single-format-link .fusion-builder-row-1:not(.no-preview) .textwidget{display:grid;grid-template-columns:25% 75%;border-radius:var(--regularRadius);border:2px solid var(--lightgrayColor);overflow:hidden;pointer-events:none}
+body.single-format-link .fusion-builder-row-1:not(.no-preview) .textwidget img{border:none;border-radius:0}
 body.single-format-link .fusion-builder-row-1:not(.no-preview) .widget_text .wpcf7{margin-left:2em}
 body.single-format-link .widget_text .wpcf7-form>div em{font-size:.8em}
 body.single-format-link .fusion-theme-sharing-box.fusion-sharing-box{text-align:center}
