@@ -16,6 +16,7 @@ body.dashboard_page_custom-dashboard[class*='office-ar']:not(.office-ar-munro) .
 body.dashboard_page_custom-dashboard[class*='office-cl']:not(.office-cl-santa-clara) .changelog .step-1:not(.office-cl),
 body.dashboard_page_custom-dashboard[class*='office-ar-munro'] .changelog .step-1:not(.office-ar-munro),
 body.dashboard_page_custom-dashboard[class*='office-cl-santa-clara'] .changelog .step-1:not(.office-cl-santa-clara),
+body:not(.role-administrator) #application-passwords-section,
 /* Eventos */
 body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-type-event .check-column,
 /* Footer */
