@@ -113,7 +113,7 @@ table.shop_table.order_details{margin-top:2em}
 .ui-menu.ui-autocomplete{box-shadow:var(--xsmallShadow);border-radius:var(--smallRadius);margin-top:-.4em;background:white;margin:-15px auto;position:absolute;top:auto!important;border:1px solid #CCCCCC!important;z-index:10;overflow:hidden}
 
 /* Flotante */
-#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;bottom:15px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1;transform:scale(1)!important}
+#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:15px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1;transform:scale(1)!important}
 #woofc-count{right:15px}
 prompticon3{right:15px}
 #woofc-count:not(.woofc-count-hide-empty)~#webpushr-prompt-wrapper prompticon3{right:80px}
