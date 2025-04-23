@@ -452,7 +452,7 @@ jQuery(document).ready(function() {
 
 		
 	// FORMULARIOS - Si existe un select
-	if ( jQuery('select').length ) {
+	function deshabilitarSeparadores() {
 		jQuery('select option').each(function() {
 			var text_opc = jQuery(this).text().trim();
 			if (text_opc.startsWith('—') && text_opc.length > 1) {
@@ -460,6 +460,7 @@ jQuery(document).ready(function() {
 			}
 		});
 	}
+	deshabilitarSeparadores();
 	if ( jQuery('.wpcf7-select').length ) {
 		var id_form = jQuery('.wpcf7:first').attr('id');
 		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
