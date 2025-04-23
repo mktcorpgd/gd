@@ -547,49 +547,6 @@ jQuery(document).ready(function() {
 	});
 
 
-	/*// FORMULARIOS [Merchandising] - Cambiar opción por ítem con costo según cantidad
-	if ( jQuery('.MERCH1').length ) {
-		var obj_scosto = 0;
-		jQuery('.MERCH1 option').each(function(i) {
-			if ( jQuery(this).val() != '—Con costo') {
-				obj_scosto++;
-			}
-			else {
-				obj_scosto = obj_scosto-1;
-				return false;
-			}
-		});
-		var limit_obj_scosto = obj_scosto*2+1;
-		jQuery('input[name^=CANT]').keyup(function(e) {
-			var inp_index = jQuery(this).attr('name');
-			inp_index = inp_index.substring(inp_index.indexOf('CANT')+4,inp_index.length);
-			if ( jQuery('.MERCH'+inp_index+' select').prop('selectedIndex') != 0 && jQuery('.MERCH'+inp_index+' .wpcf7-response-info').length == 0 ) {
-				var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-				// Si la cantidad es mayor a 10, se convierte con costo
-				if ( jQuery(this).val() > 10 && opt_index <= obj_scosto ) {
-					opt_index = opt_index+obj_scosto;
-					jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)
-				}
-				// Si la cantidad es menor o igual a 10 y es un objeto elegido que no tiene costo, se convierte sin costo
-				else if ( jQuery(this).val() <= 10 && (opt_index > obj_scosto && opt_index < limit_obj_scosto) ) {
-					opt_index = opt_index-obj_scosto;
-					jQuery('.MERCH'+inp_index+' select').prop('selectedIndex',opt_index)	
-				}
-			}
-		});
-		jQuery('select[name^=MERCH]').change(function(e) {
-			var inp_index = jQuery(this).attr('name');
-			inp_index = inp_index.substring(inp_index.indexOf('MERCH')+5,inp_index.length);
-			var opt_index = jQuery('.MERCH'+inp_index+' select').prop('selectedIndex');
-			if ( jQuery('.CANT'+inp_index+' input').val() > 10 ) {
-				if ( opt_index <= obj_scosto ) {
-					jQuery('.CANT'+inp_index+' input').val(10);
-				}
-			}
-		});
-	}*/
-
-
 	// FORMULARIOS - Reemplazar nombres de usuarios con espacio
 	if ( jQuery('input[name=USRURL]').length ) {
 		var usrurl = jQuery('input[name=USRURL]').val().replace(' ','-');
