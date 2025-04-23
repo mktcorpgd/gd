@@ -111,7 +111,7 @@ table.shop_table.order_details{margin-top:2em}
 .ui-menu .ui-menu-item{margin:0;padding:.4em .8em!important;list-style:none;font-size:0.9em!important}
 .ui-menu .ui-menu-item:hover{background:var(--subColor)!important}
 .ui-menu .ui-menu-item:hover .ui-menu-item-wrapper{color:var(--whiteColor1)!important}
-.ui-menu.ui-autocomplete{box-shadow:var(--xsmallShadow);border-radius:var(--smallRadius);margin-top:-.4em;background:white;margin:-15px auto;position:absolute;top:auto!important;border:1px solid #CCCCCC!important;z-index:10;overflow:hidden}
+.ui-menu.ui-autocomplete{box-shadow:var(--xsmallShadow);border-radius:var(--smallRadius);margin-top:-.4em;background:white;margin:-15px auto;position:absolute;top:auto!important;border:1px solid var(--lightgrayColor1)!important;z-index:10;overflow:hidden}
 
 /* Flotante */
 #woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:15px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1;transform:scale(1)!important}
@@ -135,9 +135,9 @@ prompticon3{right:15px}
 .woocommerce-input-wrapper{display:flex;align-items:flex-start;gap:.4em}
 .woocommerce-input-wrapper input[typr=radio]{margin:0}
 .radio-group{display:inline-flex;align-items:center;gap:5px}
-#cuenta_salesforce_checkout .ui-autocomplete{position:absolute!important;top:100%!important;left:0!important;z-index:9999;background-color:#fff;border:1px solid #ccc;max-height:300px;overflow-y:auto;width:100%;box-sizing:border-box;border-radius:4px;margin-top:4px}
-.ui-menu .ui-menu-item{padding:8px;cursor:pointer;font-size:14px;color:#333}
-.ui-menu .ui-menu-item:hover{background-color:#f0f0f0;color:#007cba}
+#cuenta_salesforce_checkout .ui-autocomplete{position:absolute!important;top:100%!important;left:0!important;z-index:9999;background-color:var(--whiteColor1);border:1px solid var(--lightgrayColor1);max-height:300px;overflow-y:auto;width:100%;box-sizing:border-box;border-radius:4px;margin-top:4px}
+.ui-menu .ui-menu-item{padding:8px;cursor:pointer;font-size:14px;color:var(--textColor)}
+.ui-menu .ui-menu-item:hover{background-color:var(--whiteColor2);color:var(--highlightColor)}
 #billing_cuenta_salesforce_field.loading{position:relative}
 
 /* Botones */
@@ -171,9 +171,11 @@ prompticon3{right:15px}
 .woocommerce-error li a strong{font-weight:normal;text-decoration:underline;text-underline-offset:3px}
 @keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
 
-/* Responsive */
+/* Mobile */
 @media (max-width: 768px) {
 	ul.products.columns-3{grid-template-columns:1fr 1fr}
 	.woocommerce-cart table.shop_table td,.woocommerce-cart table.shop_table th{font-size:14px;padding:8px}
 	.woocommerce-cart .actions .button{font-size:14px;padding:6px 10px}
+	.woocommerce ul.products li.product .button.loading{color:var(--whiteColor1)!important}
+	.woocommerce ul.products li.product .button.loading:after{right:50%!important}
 }
