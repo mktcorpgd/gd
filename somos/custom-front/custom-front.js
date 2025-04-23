@@ -10,6 +10,9 @@ jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').e
 // Convertir texto a letras capitales
 jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
 
+// Función para deshabilitar separadores en selects
+window.deshabilitarSeparadores=function(){$("select option").each((function(){var t=$(this).text().trim();t.startsWith("—")&&t.length>1&&$(this).attr("disabled","disabled")}))};
+
 // FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit:not(.confirm)',function(e) {
 	jQuery(this).addClass('sending');
@@ -452,14 +455,6 @@ jQuery(document).ready(function() {
 
 		
 	// FORMULARIOS - Si existe un select
-	function deshabilitarSeparadores() {
-		jQuery('select option').each(function() {
-			var text_opc = jQuery(this).text().trim();
-			if (text_opc.startsWith('—') && text_opc.length > 1) {
-				jQuery(this).attr('disabled', 'disabled');
-			}
-		});
-	}
 	deshabilitarSeparadores();
 	if ( jQuery('.wpcf7-select').length ) {
 		var id_form = jQuery('.wpcf7:first').attr('id');
