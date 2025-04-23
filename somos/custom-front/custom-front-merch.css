@@ -27,6 +27,7 @@ body.woocommerce-shop .quantity .qty{padding:.4em 1em .4em .4em!important}
 body.single-product .woocommerce div.product form.cart{display:flex}
 
 /* Tienda */
+ul.products.columns-3{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1.2em}
 .woocommerce ul li.product,.woocommerce-page ul li.product{display:grid!important;padding-bottom:.8em!important;margin-bottom:0!important;align-content:space-between!important;width:100%!important;grid-template-columns:30% 70%!important;grid-template-rows:auto auto!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
 .woocommerce ul li.product>a{margin-bottom:.8em;grid-column:span 2}
 .woocommerce ul.products li.product a img{margin-bottom:.4em}
@@ -170,6 +171,7 @@ prompticon3{right:15px}
 
 /* Responsive */
 @media (max-width: 768px) {
+	ul.products.columns-3{grid-template-columns:1fr 1fr}
 	.woocommerce-cart table.shop_table td,.woocommerce-cart table.shop_table th{font-size:14px;padding:8px}
 	.woocommerce-cart .actions .button{font-size:14px;padding:6px 10px}
 }
