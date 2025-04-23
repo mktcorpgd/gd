@@ -27,7 +27,7 @@ body.woocommerce-shop .quantity .qty{padding:.4em 1em .4em .4em!important}
 body.single-product .woocommerce div.product form.cart{display:flex}
 
 /* Tienda */
-.woocommerce ul li.product,.woocommerce-page ul li.product{display:grid;padding-bottom:.8em!important;margin-bottom:0!important;align-content:space-between;width:100%;grid-template-columns:30% 70%;grid-template-rows:auto auto;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
+.woocommerce ul li.product,.woocommerce-page ul li.product{display:grid!important;padding-bottom:.8em!important;margin-bottom:0!important;align-content:space-between!important;width:100%!important;grid-template-columns:30% 70%!important;grid-template-rows:auto auto!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
 .woocommerce ul li.product:not(.outofstock):not(.stock-1)>a{grid-column:span 2}
 .woocommerce ul li.product>a{margin-bottom:.8em}
 .woocommerce ul.products li.product a img{margin-bottom:.4em}
