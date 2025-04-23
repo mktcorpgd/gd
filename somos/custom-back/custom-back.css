@@ -17,8 +17,6 @@ body.dashboard_page_custom-dashboard[class*='office-cl']:not(.office-cl-santa-cl
 body.dashboard_page_custom-dashboard[class*='office-ar-munro'] .changelog .step-1:not(.office-ar-munro),
 body.dashboard_page_custom-dashboard[class*='office-cl-santa-clara'] .changelog .step-1:not(.office-cl-santa-clara),
 body:not(.role-administrator) #application-passwords-section,
-/* Eventos */
-body.wp-admin.edit-php.post-type-event .row-actions,body.wp-admin.edit-php.post-type-event .check-column,
 /* Footer */
 #wpfooter,
 /* Notificaciones */
@@ -211,7 +209,6 @@ html body .widefat .column-wc_actions a.button::after{width:auto!important;posit
 .toggle .toggle-inner div{max-width:100%}
 .table-inner-structure{max-height:500px}
 .form-table .form-required.form-invalid td:after{position:relative;bottom:2px}
-body.wp-admin.post-type-event .row-title{pointer-events:none}
 
 /* Notificaciones */
 prompticon3{filter:none!important;box-shadow:0 12px 18px 0 rgba(0,0,0,.2)}
