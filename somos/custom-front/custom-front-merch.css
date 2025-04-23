@@ -177,5 +177,5 @@ prompticon3{right:15px}
 	.woocommerce-cart table.shop_table td,.woocommerce-cart table.shop_table th{font-size:14px;padding:8px}
 	.woocommerce-cart .actions .button{font-size:14px;padding:6px 10px}
 	.woocommerce ul.products li.product .button.loading{color:var(--whiteColor1)!important}
-	.woocommerce ul.products li.product .button.loading:after{right:50%!important}
+	.woocommerce ul.products li.product .button.loading:after{width:2em;height:2em;right:50%!important}
 }
