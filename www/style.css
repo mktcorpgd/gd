@@ -892,11 +892,8 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.single-format-standard:not(.single-avada_portfolio) .fusion-theme-sharing-box.fusion-sharing-box{margin:0 auto;width:80%;border-left:4px solid var(--lightgrayColor);border-bottom-left-radius:var(--regularRadius);}
 	.first-blank.fusion-content-boxes .content-box-column-first-in-row{width:17%}
 	.fusion-content-boxes.grid-3-col{display:grid;grid-template-columns:1fr 1fr 1fr}
-	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column{width:100%}
-	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 1){order:1}
-	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 2){order:2}
-	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 3){order:3}
-	.fusion-content-boxes.grid-3-col .fusion-column.content-box-column:nth-child(4n + 4){order:4}
+	.fusion-content-boxes.grid-2-col{display:grid;grid-template-columns:1fr 1fr}
+	.fusion-content-boxes[class*='grid-'] .fusion-column.content-box-column{width:100%}
 	
 	/* Tabs/Filters */
 	.fusion-filters .fusion-filter a{line-height:1.15}
