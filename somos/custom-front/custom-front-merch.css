@@ -4,7 +4,7 @@
 .wc_payment_methods,.woocommerce .woocommerce-user-details .woocommerce-user-details--phone::before,.woocommerce-user-details--email::before,
 .woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock,body.single-product .tabs.wc-tabs,body.single-product .woocommerce-Tabs-panel h2,.woofc-area-count,.woocommerce-error::before,.woocommerce-pagination ul.page-numbers .page-numbers.next:before,.woocommerce-pagination ul.page-numbers .page-numbers.next:after,
 .woocommerce-notices-wrapper [class*='woocommerce-']::before,.woocommerce-notices-wrapper [class*='woocommerce-']::after,.woocommerce-notices-wrapper .button.wc-forward,.ui-menu .ui-menu-item::marker,.form-row[id*='salesforce_id'],
-.woocommerce table.my_account_orders .button.pay,.woocommerce table.my_account_orders .button.cancel,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders),.woocommerce-error{display:none!important}
+.woocommerce table.my_account_orders .button.pay,.woocommerce table.my_account_orders .button.cancel,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders),.woocommerce-error,ul.products li:before{display:none!important}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
@@ -28,7 +28,7 @@ body.single-product .woocommerce div.product form.cart{display:flex}
 
 /* Tienda */
 .woocommerce ul li.product,.woocommerce-page ul li.product{padding-bottom:.8em!important;margin-bottom:1em!important;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow);background:var(--whiteColor1);overflow:hidden}
-.woocommerce ul li.product:not(.outofstock):not(.stock-1),.woocommerce-page ul li.product:not(.outofstock):not(.stock-1){display:grid;margin-bottom:0!important;align-content: space-between;width:100%;grid-template-columns:30% 70%;grid-template-rows:auto auto}
+.woocommerce ul li.product:not(.outofstock):not(.stock-1),.woocommerce-page ul li.product:not(.outofstock):not(.stock-1){display:grid;margin-bottom:0!important;align-content:space-between;width:100%;grid-template-columns:30% 70%;grid-template-rows:auto auto}
 .woocommerce ul li.product:not(.outofstock):not(.stock-1)>a{grid-column:span 2}
 .woocommerce ul li.product>a{margin-bottom:.8em}
 .woocommerce ul.products li.product a img{margin-bottom:.4em}
