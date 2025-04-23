@@ -1053,6 +1053,7 @@ body.page-id-54299 #content-wrapper{float:none;margin-left:auto;margin-right:aut
 	.bottom_logos{font-size:1.2em;line-height:1.5}
 	.bottom_logos a img{width:120px}
 	div.asp_r.asp_r_1.vertical .results{max-height:400px!important}
+	ul.products.columns-3{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1.2em}
 }
 
 /* Mobile */
