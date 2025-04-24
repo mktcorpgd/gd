@@ -4,7 +4,7 @@
 .wc_payment_methods,.woocommerce .woocommerce-user-details .woocommerce-user-details--phone::before,.woocommerce-user-details--email::before,
 .woocommerce-customer-details,.woocommerce-order-items,.woocommerce-order-details,.woocommerce form .form-row .required,.woocommerce-MyAccount-navigation,.woocommerce div.product p.in-stock,body.single-product .tabs.wc-tabs,body.single-product .woocommerce-Tabs-panel h2,.woofc-area-count,.woocommerce-error::before,.woocommerce-pagination ul.page-numbers .page-numbers.next:before,.woocommerce-pagination ul.page-numbers .page-numbers.next:after,
 .woocommerce-notices-wrapper [class*='woocommerce-']::before,.woocommerce-notices-wrapper [class*='woocommerce-']::after,.woocommerce-notices-wrapper .button.wc-forward,.ui-menu .ui-menu-item::marker,.form-row[id*='salesforce_id'],
-.woocommerce table.my_account_orders .button.pay,.woocommerce table.my_account_orders .button.cancel,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders),.woocommerce-error,ul.products:before,ul.products:after,body:not(.woofc-show) #woofc-area,.woocommerce-Tabs-panel--description.panel{display:none!important}
+.woocommerce table.my_account_orders .button.pay,.woocommerce table.my_account_orders .button.cancel,.woocommerce-MyAccount-navigation-link:not(.woocommerce-MyAccount-navigation-link--orders),.woocommerce-error,ul.products:before,ul.products:after,body:not(.woofc-show) #woofc-area,.woocommerce-Tabs-panel--description.panel,.woocommerce-info::before{display:none!important}
 
 /* Producto */
 .woocommerce img.pswp__img,.woocommerce-page img.pswp__img,.woocommerce div.product div.images .woocommerce-product-gallery{border-radius:var(--regularRadius)}
