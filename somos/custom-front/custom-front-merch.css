@@ -155,9 +155,10 @@ prompticon3{right:15px}
 
 /* Notificaciones */
 #yith-wacp-popup .yith-wacp-content .yith-wacp-message{background-color:var(--successColor);border-radius:var(--regularRadius);color:var(--whiteColor1)}
-.woocommerce-notices-wrapper [class*='woocommerce-'],.woocommerce-error, .woocommerce-info, .woocommerce-message{float:left;padding:1em 2em;text-align:center;border:none;border-radius:var(--regularRadius);color:var(--whiteColor1)}
+.woocommerce-notices-wrapper [class*='woocommerce-'],.woocommerce-error, .woocommerce-info, .woocommerce-message{float:left;padding:1em 2em;line-height:1.3;font-size:.9em;border:none;border-radius:var(--regularRadius);color:var(--whiteColor1)}
 .woocommerce-message{background-color:var(--successColor)}
 .woocommerce-info{background-color:var(--infoColor)}
+.woocommerce-info a{color:var(--whiteColor1)!important;text-decoration:underline}
 .woocommerce-error{background-color:var(--errorColor)}
 
 /* Otros */
