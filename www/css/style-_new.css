@@ -370,7 +370,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-portfolio-content,.fusion-post-content-wrapper{border-radius:9px}
 .fusion-image-wrapper+.fusion-portfolio-content,.fusion-post-slideshow+.fusion-post-content-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper,.no-featured-image .fusion-events-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
-.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.5rem 2rem;font-weight:500}
+.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.5rem 2rem;font-weight:400}
 .fusion-events-content-wrapper h4{padding:0 1.5rem 1rem}
 .fusion-events-content-wrapper h4 span{font-size:1.2em;font-family:var(--textFont);color:var(--metaColor)}
 .fusion-post-grid.has-post-thumbnail .fusion-post-slideshow+.fusion-post-content-wrapper h2 a{padding-top:1rem;font-weight:400}
@@ -725,7 +725,7 @@ ul.fusion-checklist .fusion-li-item .fusion-li-item-content h6{margin-top:0;marg
 .meta-tags{pointer-events:none}
 .meta-tags a{cursor:text}
 .fusion-meta-info-wrapper .fusion-inline-sep{color:var(--lightgrayColor)}
-.fusion-blog-layout-grid .fusion-post-content-wrapper .fusion-single-line-meta,.fusion-blog-layout-grid .fusion-portfolio-content .fusion-portfolio-meta{margin-top:-8px!important;padding:0 1.5rem .8rem;line-height:1.2}
+.fusion-blog-layout-grid .fusion-post-content-wrapper .fusion-single-line-meta,.fusion-blog-layout-grid .fusion-portfolio-content .fusion-portfolio-meta{margin-top:-8px!important;padding:0 2rem .8rem;line-height:1.2}
 .post .fusion-meta-info{margin:.5em 0;padding:0;border:none;background:none}
 .post .fusion-meta-info a[rel='author'],.fusion-breadcrumbs span a{color:var(--metaColor)}
 .awb-breadcrumb-list{font-size:0}
