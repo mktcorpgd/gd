@@ -12,9 +12,9 @@ div.wpcf7 .ajax-loader,.wpcf7 .alert-icon,.wpcf7 .wpcf7-response-output button,.
 .no-buttons .fusion-post-content,.no-read-button .fusion-buttons>.fusion-button:first-child,.fusion-portfolio-post .fusion-portfolio-buttons,
 .no-tags .meta-tags,
 #wrapper.country-flag .not-ctry,
-article.category-recursos .fusion-single-line-meta,body:not(.search) article.category-blog .fusion-single-line-meta,article.category-casos .fusion-single-line-meta,article.category-datasheets .fusion-single-line-meta,article.category-whitepapers .fusion-single-line-meta,body.search article.page .fusion-single-line-meta,
+article.category-cat-recursos .fusion-single-line-meta,body:not(.search) article.category-blog .fusion-single-line-meta,article.category-cat-casos .fusion-single-line-meta,article.category-cat-datasheets .fusion-single-line-meta,article.category-whitepapers .fusion-single-line-meta,article.category-cat-casos .fusion-meta-info,body.search article.page .fusion-single-line-meta,
 .related-posts .fusion-carousel-meta .fusion-inline-sep,.related-posts .fusion-carousel-meta .fusion-inline-sep+span,
-article.category-blog+.related-posts .fusion-carousel-meta,article.category-casos+.related-posts .fusion-carousel-meta,article.category-datasheets+.related-posts .fusion-carousel-meta,article.category-whitepapers+.related-posts .fusion-carousel-meta,
+article.category-blog+.related-posts .fusion-carousel-meta,article.category-cat-datasheets+.related-posts .fusion-carousel-meta,article.category-whitepapers+.related-posts .fusion-carousel-meta,
 article.category-tips .fusion-post-content-wrapper,
 body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .fusion-portfolio-meta a[href*='solo-contacto'],.fusion-portfolio:not(.meta-on) .fusion-portfolio-content .fusion-portfolio-meta a:not([href*='flag-']),.meta-on .fusion-portfolio-content .fusion-portfolio-meta a[href*='aceleracion-digital'],body.page-id-44832 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],
@@ -23,7 +23,7 @@ body.archive .fusion-portfolio-content .fusion-portfolio-meta,
 .no-title .widget-title,
 body.single .fusion-post-title-meta-wrap h2,body.single .fusion-post-title-meta-wrap span.fusion-inline-sep,
 .fusion-search-button,body.search #sidebar,body.search article.avada_portfolio .fusion-single-line-meta span:first-child,body.search article.avada_portfolio .fusion-single-line-meta span:first-child+.fusion-inline-sep,.fusion-error-page-search>h3,.fusion-error-page-search>p,.search-page-search-form-bottom>p,.error-page .oops,
-body.single-format-link article>.flexslider,body.single-format-link #sidebar,
+body.single-format-link article>.flexslider,body.single-format-link #sidebar,body.single-format-link .fusion-meta-info,
 body.single-format-video article .fusion-flexslider,.fusion-events-shortcode .fusion-events-thumbnail,
 html.avada-is-100-percent-template body.single-avada_portfolio #sidebar,
 body.single-avada_portfolio .partners-logos,body.category-tips .partners-logos,
@@ -37,9 +37,9 @@ body:not(.page-id-44832) .partners-logos div.swiper-slide[aria-label='1 / 27'],
 .pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-notices+.tribe_events .wpcf7,
 #wp-admin-bar-ate-status-bar,#wp-admin-bar-WPML_ALS .otgs-ico-help.js-otgs-popover-tooltip,#wp-admin-bar-customize,#wp-admin-bar-duplicate-post,
 body.avada-has-titlebar-hide .fusion-project-details-tb .project-info,body.avada-has-titlebar-hide .project-content .project-info,body.single-format-link .fusion-builder-row-1.no-preview img.preview,.fusion-header-sticky-height,
-body.no-future-events .menu-item.eventos,body.error404 .fusion-page-title-bar,body.error404 .error-message,body:not(.has-future-events) .eventos-menu,body.page-id-18422 .fusion-title.fusion-title-1.small-shadow,.fusion-portfolio .more-info span,.fusion-content-boxes:before{display:none!important}
+body.no-future-events .menu-item.eventos,body.error404 .fusion-page-title-bar,body.error404 .error-message,body:not(.has-future-events) .eventos-menu,body.page-id-18422 .fusion-title.fusion-title-1.small-shadow,.fusion-reading-box-container .element-bottomshadow:before,.fusion-reading-box-container .element-bottomshadow:after,#wrapper.landing li.country-flag,.grid-2-col:before,.grid-3-col:before{display:none!important}
 .grecaptcha-badge{visibility:hidden}
-.wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,.legales .panel-body span,.wy-hide,.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
+.not-selected,.wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,.legales .panel-body span,.fusion-portfolio .more-info,.wy-hide,.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 
 /* General */
 :root{--textFont:'open-sans';--titleFont:'neo-sans';--iconFont:'Font Awesome 6 Pro';--awb-padding-left:0;--awb-padding-right:0;--smallRadius:6px;--regularRadius:12px;--largeRadius:24px;}
