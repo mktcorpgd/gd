@@ -314,7 +314,7 @@ body.single-format-link .fusion-social-networks .fusion-social-networks-wrapper{
 .not-collapsable .fusion-portfolio-wrapper .fusion-portfolio-content{height:100%!important}
 .fusion-portfolio:not(.not-collapsable) .fusion-portfolio-post .fusion-portfolio-content{text-align:right!important}
 .fusion-portfolio-post .fusion-portfolio-content h2{text-align:left}
-.fusion-portfolio .fusion-post-content{padding-bottom:0}
+.fusion-portfolio .fusion-post-content{padding-bottom:0;text-align:left}
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 1.5rem;position:absolute;top:-8px;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
