@@ -937,7 +937,6 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* General */
 	select{appearance:none;-webkit-appearance:none;-moz-appearance:none}
 	body{font-size:18px;line-height:1.6}
-	#main,.tribe-mobile #main{padding-top:0;padding-bottom:0}
 	.fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){padding-top:1em;padding-bottom:1em}
 	.modal-content{margin-left:1em;margin-right:1em}
 	.fusion-author .fusion-author-title,.fusion-modal .modal-title,.fusion-widget-area h3,#content h3,.project-content h3,h3{font-size:1.4em}
