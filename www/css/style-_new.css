@@ -581,7 +581,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .slide-content-container .button-default:active,.fusion-main-menu .menu-text.fusion-button:active,.wpcf7-form input[type='submit']:active,.fusion-body .fusion-blog-button:active,.fusion-body .fusion-button:active{transform:scale(.985)}
 
 /* Botones - Portfolio */
-.fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:0;margin-bottom:1em;padding:.5rem 1.25rem}
+.fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:0;margin-bottom:1em;padding:0 2rem}
 .fusion-portfolio.not-collapsable .fusion-portfolio-content .fusion-buttons{margin-top:0}
 .fusion-buttons.two .fusion-button+.fusion-button{margin-left:.4em}
 .fusion-portfolio.fusion-portfolio-four .fusion-button,.fusion_builder_column_1_2 .fusion-portfolio .fusion-button{padding:.5rem .4rem}
