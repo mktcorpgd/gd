@@ -341,7 +341,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-portfolio:not(.expanded) article .more-info{display:inline-block;margin:0 2rem 1rem 0;padding:.5rem 1.5rem;border:1px solid var(--textColor);border-radius:var(--largeRadius);cursor:pointer;line-height:normal;color:var(--textColor);font-family:var(--textFont),var(--iconFont),sans-serif;font-weight:600}
 .fusion-portfolio:not(.expanded) article:not(.expanded):hover .more-info span,.fusion-portfolio article .more-info:hover span{text-decoration:underline}
 .fusion-portfolio:not(.expanded) article .more-info.open i{transform:rotateX(180deg);position:relative;top:-2px}
-.fusion-portfolio .fusion-portfolio-post.expanded article .more-info{font-size:.8em}
+.fusion-portfolio .fusion-portfolio-post.expanded .more-info{font-size:.8em}
 
 /* Hover Boxes */
 .hover-boxes .fusion-layout-column .fusion-column-wrapper{margin-bottom:0;padding:2rem 1.5rem;position:relative;box-shadow:0 4px 24px 0 rgba(0,0,0,.2);border-radius:var(--regularRadius)}
