@@ -36,7 +36,7 @@ body:not(.page-id-44832) .partners-logos div.swiper-slide[aria-label='1 / 27'],
 .pac-icon,.pac-logo:after,.fusion-mobile-menu-sep,.tribe-events-notices+.tribe_events .wpcf7,
 #wp-admin-bar-ate-status-bar,#wp-admin-bar-WPML_ALS .otgs-ico-help.js-otgs-popover-tooltip,#wp-admin-bar-customize,#wp-admin-bar-duplicate-post,
 body.avada-has-titlebar-hide .fusion-project-details-tb .project-info,body.avada-has-titlebar-hide .project-content .project-info,body.single-format-link .fusion-builder-row-1.no-preview img.preview,.fusion-header-sticky-height,
-body.no-future-events .menu-item.eventos,body.error404 .fusion-page-title-bar,body.error404 .error-message,body:not(.has-future-events) .eventos-menu,body.page-id-18422 .fusion-title.fusion-title-1.small-shadow,.fusion-reading-box-container .element-bottomshadow:before,.fusion-reading-box-container .element-bottomshadow:after,#wrapper.landing li.country-flag,.grid-2-col:before,.fusion-content-boxes.fusion-columns-2:before,.grid-3-col:before{display:none!important}
+body.no-future-events .menu-item.eventos,body.error404 .fusion-page-title-bar,body.error404 .error-message,body:not(.has-future-events) .eventos-menu,body.page-id-18422 .fusion-title.fusion-title-1.small-shadow,.fusion-reading-box-container .element-bottomshadow:before,.fusion-reading-box-container .element-bottomshadow:after,#wrapper.landing li.country-flag,.grid-2-col:before,.fusion-content-boxes.fusion-columns-2:before,.grid-3-col:before,.fusion-portfolio article .more-info span{display:none!important}
 .grecaptcha-badge{visibility:hidden}
 .not-selected,.wpcf7-error,.wpcf7-notif,.fusion-main-menu span.partner,div.wpcf7 div.ajax-error,.wpcf7-display-none.wpcf7-free-text:disabled,.country-name,.legales .panel-body span,.fusion-portfolio .more-info,.wy-hide,.project-info h3,.project-info-box h4,.project-terms a+br,.project-content > div.project-info > div:nth-child(2) .project-terms a:not([href*='/flag-']),.project-content > div.project-info > div:nth-child(3) .project-terms a:not([href*='pilar-']),.fusion-breadcrumb-item a[href*='flag-']{display:none}
 
@@ -924,7 +924,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-portfolio:not(.not-collapsable) article:not(.expanded) .fusion-buttons{margin:0;padding:0;opacity:0;height:0;overflow:hidden}
 	.fusion-portfolio:not(.not-collapsable) article.expanded .fusion-buttons{opacity:1;height:auto}
 	.fusion-portfolio article.opacity:not(.expanded){opacity:.6;pointer-events:none}
-	.fusion-portfolio:not(.not-collapsable) article:not(.expanded) .fusion-post-content{height:0;overflow:hidden}
+	.fusion-portfolio:not(.not-collapsable) article:not(.expanded) .fusion-post-content{padding:0;height:0;overflow:hidden}
 	.fusion-portfolio:not(.not-collapsable) article:not(.expanded) .fusion-post-content *{opacity:0}
 	.fusion-portfolio article .wp-video-shortcode.mejs-video{margin-bottom:.4em}
 	.fusion-portfolio .fusion-portfolio-wrapper .fusion-col-spacing .fusion-portfolio-content-wrapper{position:relative;z-index:90;overflow:visible}
