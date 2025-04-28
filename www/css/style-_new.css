@@ -559,7 +559,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-button.button-flat,
-.tribe-common-c-btn.tribe-events-c-search__button{padding:.8rem 1.6rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:400;font-size:1.1rem;line-height:normal;letter-spacing:0;text-transform:none;border-radius:var(--largeRadius)}
+.tribe-common-c-btn.tribe-events-c-search__button{padding:.8rem 1.6rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:400;font-size:1.1rem;line-height:normal;letter-spacing:0;text-transform:none;border-radius:var(--regularRadius)}
 .button-default:not(.portfolio-button),.fusion-button-default-size,.fusion-button:not(.portfolio-button),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
@@ -584,8 +584,6 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:0;margin-bottom:1em;padding:.5rem 1.25rem}
 .fusion-portfolio.not-collapsable .fusion-portfolio-content .fusion-buttons{margin-top:0}
 .fusion-buttons.two .fusion-button+.fusion-button{margin-left:.4em}
-.fusion-buttons.two .fusion-button:first-child{border-top-right-radius:var(--regularRadius);border-bottom-right-radius:var(--regularRadius)}
-.fusion-buttons.two .fusion-button+.fusion-button{border-top-left-radius:var(--regularRadius);border-bottom-left-radius:var(--regularRadius)}
 .fusion-portfolio.fusion-portfolio-four .fusion-button,.fusion_builder_column_1_2 .fusion-portfolio .fusion-button{padding:.5rem .4rem}
 .fusion-portfolio .fusion-button .fusion-button-text{font-size:1rem}
 .fusion-portfolio.solo-contacto .fusion-buttons.two .fusion-button+.fusion-button,article[class*='solo-contacto'] .fusion-buttons.two .fusion-button+.fusion-button,.no-info-btn .fusion-buttons.two .fusion-button+.fusion-button,.no-contact-btn .fusion-buttons.two .fusion-button{margin-left:0;font-size:1em;border-radius:var(--regularRadius)}
