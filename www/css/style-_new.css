@@ -340,7 +340,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .project-content > div.project-info > div:nth-child(3) .project-terms a{color:var(--mainColor)}
 .fusion-portfolio:not(.expanded) article .more-info{display:inline-block;margin:0 1.5rem 1rem 0;padding:.5rem 1.5rem;border:1px solid var(--textColor);border-radius:var(--largeRadius);cursor:pointer;line-height:normal;color:var(--textColor);font-family:var(--textFont),var(--iconFont),sans-serif;font-weight:600}
 .fusion-portfolio:not(.expanded) article:not(.expanded):hover .more-info span,.fusion-portfolio article .more-info:hover span{text-decoration:underline}
-.fusion-portfolio:not(.expanded) article .more-info.open i{transform:rotateX(180deg)}
+.fusion-portfolio:not(.expanded) article .more-info.open i{transform:rotateX(180deg);position:relative;top:-2px}
 .fusion-portfolio.expanded article .more-info{font-size:.8em}
 
 /* Hover Boxes */
