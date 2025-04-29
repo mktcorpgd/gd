@@ -692,7 +692,8 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-content-boxes[class*='grid-'] .heading-with-icon .icon{vertical-align:top;position:relative;top:2px}
 .fusion-content-boxes[class*='grid-'] .heading-with-icon .content-box-heading{font-size:1em}
 .fusion-content-boxes[class*='grid-'] .heading-with-icon .content-box-heading strong{font-size:1.1em}
-.portfolio-style.fusion-columns-2{display:grid;grid-gap:1em 2em;grid-template-columns:1fr 1fr}
+.portfolio-style.fusion-columns-2,.fusion-blog-shortcode .fusion-blog-layout-grid-2{display:grid;grid-gap:1em 2em;grid-template-columns:1fr 1fr}
+.fusion-blog-shortcode .fusion-blog-layout-grid-2 article{position:relative!important;top:0!important;width:100%;height:auto!important;left:0!important}
 .portfolio-style .content-box-column{width:100%;padding:2em;background:var(--whiteColor);border-radius:var(--largeRadius)}
 
 /* Visor PDF */
