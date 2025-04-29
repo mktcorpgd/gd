@@ -1039,7 +1039,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-text[class*='fusion-text-columns-']{column-count:1}
 	.no-featured-image .fusion-portfolio-content .fusion-portfolio-meta{top:-11px}
 	.fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{width:24px;height:24px}
-	.portfolio-style[class*='fusion-columns-']{grid-template-columns:1fr}
+	.portfolio-style[class*='fusion-columns-'],.fusion-blog-shortcode [class*='fusion-blog-layout-grid-']{grid-template-columns:1fr}
 
 	/* Precios */
 	.fusion-pricingtable-column .panel-container{border-radius:var(--largeRadius)!important;border:8px solid rgba(0,0,0,.2)}
