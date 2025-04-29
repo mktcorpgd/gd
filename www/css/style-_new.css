@@ -371,7 +371,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-portfolio-content,.fusion-post-content-wrapper{border-radius:9px}
 .fusion-image-wrapper+.fusion-portfolio-content,.fusion-post-slideshow+.fusion-post-content-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper,.no-featured-image .fusion-events-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
-.fusion-post-content-wrapper h2 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.5rem 2rem;font-weight:400}
+.fusion-post-content-wrapper h2 a,.fusion-post-content-wrapper h3 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.5rem 2rem;font-weight:400}
 .fusion-post-content-wrapper h3 a{padding:1.2rem 1.5rem}
 .fusion-events-content-wrapper h4{padding:0 1.5rem 1rem}
 .fusion-events-content-wrapper h4 span{font-size:1.2em;font-family:var(--textFont);color:var(--metaColor)}
