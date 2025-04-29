@@ -957,7 +957,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	#content{margin-bottom:0}
 	#content{margin-bottom:0}
 	.fusion-content-boxes.grid-3-col{grid-template-columns:1fr}
-	.hoverlight .fusion-layout-column:hover .fusion-title{text-align:left!important}
+	.hoverlight .fusion-layout-column .fusion-title{text-align:left!important}
 
 	/* Sidebar */
 	body.has-sidebar #main .sidebar .fusion-sidebar-inner-content{margin:0 -30px;padding:2em 30px}
