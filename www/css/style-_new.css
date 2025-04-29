@@ -265,7 +265,6 @@ body.has-sidebar #main .sidebar h3{margin-top:0}
 .fullwidth-video video{width:100vw!important}
 .swiper-autoheight,.swiper-autoheight .swiper-slide{max-width:auto!important}
 body.error404 .fusion-title.fusion-sep-none *{text-align:center!important}
-#wrapper #main .fullwidth-box .fusion-row{max-width:1140px!important}
 #wrapper #main .fullwidth-box .fusion-row>.fusion-layout-column>.fusion-column-wrapper.fusion-flex-justify-content-flex-start{margin-left:0}
 .fusion-countdown .fusion-dash{background:var(--mainColor);border-radius:var(--regularRadius);font-family:var(--titleFont)}
 .fusion-countdown .fusion-dash,.fusion-countdown .fusion-dash-title{font-size:1.4rem}
