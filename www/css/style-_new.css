@@ -382,7 +382,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper,.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-top-left-radius:var(--regularRadius);border-top-right-radius:var(--regularRadius)}
 .fusion-image-wrapper,.fusion-portfolio-content h2{margin-bottom:0!important}
 .hoverlight .fusion-layout-column:hover .fusion-title{text-shadow:0 0 48px rgba(255,255,255,.6)}
-.fusion-flex-column .fusion-blog-layout-grid .fusion-post-grid{position:relative!important;top:0!important}
+.fusion-flex-column .fusion-blog-layout-grid .fusion-post-grid{position:relative!important;top:0!important;height:auto!important}
 
 /* Blog */
 .noticias [class*='tag-'] .fusion-post-wrapper:after,body.archive.category-noticias [class*='tag-'] .fusion-post-wrapper:after{display:block;box-sizing:border-box;width:100%;padding:.1em 1.5rem;position:absolute;top:0;right:0;font-size:.6em;font-family:var(--textFont);background:rgba(0,0,0,.4);color:var(--whiteColor);z-index:10}
