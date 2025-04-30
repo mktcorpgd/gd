@@ -923,7 +923,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-tabs.vertical-tabs .tab-content{padding-left:2em}
 
 	/* Blog/Portfolio */
-	.hover-boxes .fusion-layout-column{margin-top:-5em}
+	.hover-boxes .fusion-layout-column{margin-top:-3em}
 	.hover-boxes .fusion-layout-column:hover .fusion-button,.fusion-portfolio.hover-boxes.not-collapsable .fusion-portfolio-content-wrapper:hover .fusion-buttons{bottom:-20px;opacity:1}
 
 	/* Relacionados */
