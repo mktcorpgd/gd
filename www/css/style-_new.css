@@ -849,7 +849,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 #footer>div>div>div.fusion-copyright-notice>div>p{margin:0}
 .clients img,.partners-logos img{opacity:.8!important}
 .partners-logos img{margin-top:0}
-.partners-logos{z-index:1}
+.partners-logos{margin:0 auto!important;max-width:--site_width;z-index:1}
 .partners-logos .fusion-layout-column.fusion-one-fifth,.partners-logos .fusion-layout-column.fusion-one-sixth{margin-bottom:0!important}
 .partners-logos .fusion-builder-row-inner{margin-bottom:3em}
 .partners-logos .fusion-imageframe{border:none!important}
