@@ -867,6 +867,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	/* Header */
 	.fusion-header{height:66px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
+	/*
 	.header-transparent .flexslider{height:auto!important}
 	.header-transparent .hundred-percent-height,.header-transparent #sliders-container.has-content,#sliders-container.has-content .background{height:calc(100vh)!important}
 	body.customize-support .header-transparent .hundred-percent-height,body.customize-support #sliders-container.has-content,body.customize-support #sliders-container.has-content .background{max-width:100%!important;height:calc(100vh - 32px)!important;background-size:cover}
@@ -874,7 +875,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.header-transparent #main>.fusion-row{max-width:100%}
 	.fusion-megamenu-holder{width:500px!important}
 	.fusion-slider-container{max-width:100%!important;max-height:100%!important}
-
+	*/
 	/* Sidebar */
 	body:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{position:sticky;top:95px}
 	body.customize-support:not(.not-stucked) .sidebar .fusion-layout-column.fusion-sidebar-stuck{top:127px}
