@@ -1,5 +1,5 @@
 /* Global */
-:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#686C70;--blackColor:#010205;--successColor:#419466;--warningColor:#FF9101;--errorColor:#FF5151;--xeroxColor:#D51525;--infoColor:#046AB2;--site_width:1140px;}
+:root{--whiteColor:#FFFFFF;--whiteAltColor:#FAFAFA;--lightgrayColor:#CCCCCC;--grayColor:#999999;--metaColor:#666666;--darkgrayColor:#404040;--textColor:#686C70;--awb-title-color:#686C70;--blackColor:#010205;--successColor:#419466;--warningColor:#FF9101;--errorColor:#FF5151;--xeroxColor:#D51525;--infoColor:#046AB2;--site_width:1140px;}
 
 /* Menú */
 .fusion-main-menu .sub-menu .current-menu-item>a,.fusion-main-menu .sub-menu .current-menu-parent>a,.fusion-main-menu .sub-menu .current_page_item>a{background-color:transparent!important}
