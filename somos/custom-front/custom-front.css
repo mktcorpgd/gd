@@ -302,7 +302,7 @@ body.error404 .padder{background:none;box-shadow:none}
 
 /* Comentarios */
 .comments-area{margin:0 auto;width:100%}
-#comments{margin:0;padding-bottom:1em}
+#comments{margin:0;padding-bottom:1em;overflow:visible}
 #comments #reply-title{margin-top:0;margin-bottom:0;padding:5px 30px;line-height:150%;background:var(--whiteColor2)}
 #comments #reply-title a{color:var(--whiteColor1)}
 #comments .comment-reply-link,#comments #cancel-comment-reply-link{padding:.2em .4em;color:var(--highlightColor);font-weight:400;font-size:.8em;font-family:var(--titleFont),sans-serif;background:var(--whiteColor2);border-radius:var(--smallRadius)}
@@ -316,7 +316,6 @@ body.error404 .padder{background:none;box-shadow:none}
 #comments .commentlist li .gp-comment-content{margin-left:0}
 .gp-comment-description,.gp-comment-description>p{font-size:1.1rem;line-height:1.5}
 #comments .commentlist .children li.comment{margin:1em 0 0 0;padding-left:1em;border-left:2px solid rgba(0,0,0,.1)}
-body.postid-61069 #comments{margin:0;padding:0;overflow:visible}
 #wpdcom .ql-editor > *,#wpdcom .ql-editor::before{letter-spacing:0;font-family:var(--textFont),sans-serif}
 .ql-snow .ql-toolbar .ql-picker-item.ql-selected,.ql-snow .ql-toolbar .ql-picker-item:hover,.ql-snow .ql-toolbar .ql-picker-label.ql-active,.ql-snow .ql-toolbar .ql-picker-label:hover,.ql-snow .ql-toolbar button.ql-active,.ql-snow .ql-toolbar button:focus,.ql-snow .ql-toolbar button:hover,.ql-snow.ql-toolbar .ql-picker-item.ql-selected,.ql-snow.ql-toolbar .ql-picker-item:hover,.ql-snow.ql-toolbar .ql-picker-label.ql-active,.ql-snow.ql-toolbar .ql-picker-label:hover,.ql-snow.ql-toolbar button.ql-active,.ql-snow.ql-toolbar button:focus,.ql-snow.ql-toolbar button:hover,#wpdcom .ql-toolbar button:hover .ql-stroke,#wpdcom .ql-toolbar button.ql-spoiler:hover,#wpdcom .ql-toolbar button.ql-sourcecode:hover,#wpdcom .ql-toolbar .wmu-upload-wrap .wmu-add i:hover,#wpdcom .wpd_label__check i.wpdicon-on{color:var(--highlightColor)!important}
 #wpdcom .ql-toolbar button.ql-active .ql-stroke{color:var(--highlightColor)!important;stroke:var(--highlightColor)!important}
