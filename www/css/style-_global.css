@@ -868,7 +868,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.fusion-header{height:66px!important}
 	.fusion-secondary-header .fusion-contact-info-phone-number a{padding-left:0!important}
 	.header-transparent .flexslider{height:auto!important}
-	.header-transparent .hundred-percent-height,.header-transparent #sliders-container.has-content,#sliders-container.has-content .background{height:calc(100vh)!important}
+	.header-transparent .hundred-percent-height,.header-transparent #sliders-container.has-content,#sliders-container.has-content .background{max-width:100%!important;height:calc(100vh)!important}
 	body.customize-support .header-transparent .hundred-percent-height,body.customize-support #sliders-container.has-content,body.customize-support #sliders-container.has-content .background{max-width:100%!important;height:calc(100vh - 32px)!important;background-size:cover}
 	.tfs-slider video{margin-top:-15vh!important}
 	.header-transparent #main>.fusion-row{max-width:100%}
