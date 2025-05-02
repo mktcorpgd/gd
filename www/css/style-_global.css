@@ -873,6 +873,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	.tfs-slider video{margin-top:-15vh!important}
 	.header-transparent #main>.fusion-row{max-width:100%}
 	.fusion-megamenu-holder{width:500px!important}
+	.flexslider .slides{max-width:100%!important}
 	.fusion-slider-container{max-width:100%!important;max-height:100%!important}
 
 	/* Sidebar */
