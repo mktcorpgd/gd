@@ -21,7 +21,6 @@ body.page-id-54861 .fusion-filters li a{color:var(--metaColor);font-size:1.55rem
 /* Mobile */
 @media (max-width:920px) {
 	.hidden_link,#text-7 .textwidget .fusion-button i,#nav_menu-3 h4{display:none}
-	.fusion-imageframe.xerox-badge{padding:.4em 1em .4em 1.9em;margin-left:-2em}
 	.fusion-imageframe.xerox-badge img{width:120px!important}
 	.tfs-slider .slide-content-container .buttons{margin-top:2em}
 	body.page-id-53273 .tfs-slider ul.slides li .slide-content-container .slide-content{padding-right:32%!important}
