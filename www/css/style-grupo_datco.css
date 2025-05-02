@@ -4,7 +4,7 @@
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
 .fusion-social-links-footer .fusion-social-networks .fusion-social-networks-wrapper:after{content:'#SocialChannel';color:#6F6F6F;font-size:.9em;font-family:var(--titleFont);position:relative;bottom:2px;right:4px}
-.fusion-imageframe.xerox-badge{padding:1em 2em;background:var(--xeroxColor);border-radius:32px!important}
+.fusion-imageframe.xerox-badge{padding:.4em .4em .4em .8em;background:var(--xeroxColor);border-radius:32px!important}
 .fusion-imageframe.xerox-badge img{width:150px}
 body.page-id-53273 .fusion-tabs .nav-tabs>li .tab-link .fusion-tab-heading,
 body.page-id-53273 .fusion-filters li a,
