@@ -128,8 +128,8 @@ prompticon3{right:15px}
 .woocommerce-checkout.processing::after,.woocommerce-checkout.processing .woocommerce-checkout-payment::after,.loading::after,.ui-autocomplete-loading::after{content:''!important;display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor2);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
 .woocommerce-checkout.processing::after{width:2em;height:2em;left:46.6%}
 .loading::after,.ui-autocomplete-loading::after{left:auto!important;right:15px!important;top:35px!important}
-.woofc-count-shake{animation:bell-shake .6s ease-in-out;transform-origin:top center}
-@keyframes bell-shake{0%{transform:rotate(0deg)}15%{transform:rotate(10deg)}30%{transform:rotate(-10deg)}45%{transform:rotate(8deg)}60%{transform:rotate(-8deg)}75%{transform:rotate(4deg)}100%{transform:rotate(0deg)}}
+.woofc-count-shake{animation:bell-shake .6s ease-in-out!important;transform-origin:top center!important}
+@keyframes bell-shake{0%{transform:rotate(0deg)!important}15%{transform:rotate(10deg)!important}30%{transform:rotate(-10deg)!important}45%{transform:rotate(8deg)!important}60%{transform:rotate(-8deg)!important}75%{transform:rotate(4deg)!important}100%{transform:rotate(0deg)!important}}
 
 /* Inputs */
 .woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{line-height:1.2}
