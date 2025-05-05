@@ -114,12 +114,12 @@ table.shop_table.order_details{margin-top:2em}
 .ui-menu.ui-autocomplete{box-shadow:var(--xsmallShadow);border-radius:var(--smallRadius);margin-top:-.4em;background:white;margin:-15px auto;position:absolute;top:auto!important;border:1px solid var(--lightgrayColor1)!important;z-index:10;overflow:hidden}
 
 /* Flotante */
-#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:15px;text-align:center;box-shadow:none;background:var(--mainColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1;transform:scale(1)!important}
+#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:80px;text-align:center;box-shadow:none;background:var(--highlightColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1;transform:scale(1)!important}
 #woofc-count{right:15px}
 prompticon3{right:15px}
-#woofc-count:not(.woofc-count-hide-empty)~#webpushr-prompt-wrapper prompticon3{right:80px}
+#woofc-count:not(.woofc-count-hide-empty)~#webpushr-prompt-wrapper prompticon3{right:15px}
 #woofc-count:hover,prompticon3:hover promptnotificationicon{background:var(--subColor)!important}
-#woofc-count .woofc-count-number,promptnotificationicon{background:var(--highlightColor)!important;color:var(--whiteColor1);display:flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;position:absolute;top:-5px;right:-2px;font-family:sans-serif;font-size:12px;z-index:1}
+#woofc-count .woofc-count-number,promptnotificationicon{background:var(--mainColor)!important;color:var(--whiteColor1);display:flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;position:absolute;top:-5px;right:-2px;font-family:sans-serif;font-size:12px;z-index:1}
 #woofc-count i[class*='woofc-icon-cart'],prompticonimage{display:flex;width:100%;height:100%;box-sizing:border-box;align-items:center;justify-content:center;color:var(--whiteColor1)}
 .blockUI{display:none!important}
 .woocommerce-checkout-payment{position:relative}
