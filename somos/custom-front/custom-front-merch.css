@@ -115,9 +115,9 @@ table.shop_table.order_details{margin-top:2em}
 
 /* Flotante */
 .woofc-overlay{background:rgba(0,0,0,.2)!important}
-#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:80px;text-align:center;box-shadow:none;background:var(--highlightColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1;transform:scale(1)!important}
+#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:80px;text-align:center;box-shadow:none;background:var(--highlightColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1}
 #woofc-count{right:15px}
-prompticon3{right:15px}
+prompticon3{right:15px;transform:scale(1)!important}
 #woofc-count:not(.woofc-count-hide-empty)~#webpushr-prompt-wrapper prompticon3{right:15px}
 #woofc-count:hover,prompticon3:hover promptnotificationicon{background:var(--mainColor)!important}
 #woofc-count .woofc-count-number,promptnotificationicon{background:var(--subColor)!important;color:var(--whiteColor1);display:flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;position:absolute;top:-5px;right:-2px;font-family:sans-serif;font-size:12px;z-index:1}
