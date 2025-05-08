@@ -114,12 +114,13 @@ table.shop_table.order_details{margin-top:2em}
 .ui-menu.ui-autocomplete{box-shadow:var(--xsmallShadow);border-radius:var(--smallRadius);margin-top:-.4em;background:white;margin:-15px auto;position:absolute;top:auto!important;border:1px solid var(--lightgrayColor1)!important;z-index:10;overflow:hidden}
 
 /* Flotante */
-#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:80px;text-align:center;box-shadow:none;background:var(--highlightColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1;transform:scale(1)!important}
+.woofc-overlay{background:rgba(0,0,0,.2)!important}
+#woofc-count,prompticon3{display:inline-block;padding:.45rem;width:55px;height:55px;position:fixed;top:auto;bottom:80px;text-align:center;box-shadow:none;background:var(--highlightColor);border-radius:50%;box-shadow:var(--smallShadow);z-index:1}
 #woofc-count{right:15px}
-prompticon3{right:15px}
+prompticon3{right:15px;transform:scale(1)!important}
 #woofc-count:not(.woofc-count-hide-empty)~#webpushr-prompt-wrapper prompticon3{right:15px}
-#woofc-count:hover,prompticon3:hover promptnotificationicon{background:var(--subColor)!important}
-#woofc-count .woofc-count-number,promptnotificationicon{background:var(--mainColor)!important;color:var(--whiteColor1);display:flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;position:absolute;top:-5px;right:-2px;font-family:sans-serif;font-size:12px;z-index:1}
+#woofc-count:hover,prompticon3:hover promptnotificationicon{background:var(--mainColor)!important}
+#woofc-count .woofc-count-number,promptnotificationicon{background:var(--subColor)!important;color:var(--whiteColor1);display:flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;position:absolute;top:-5px;right:-2px;font-family:sans-serif;font-size:12px;z-index:1}
 #woofc-count i[class*='woofc-icon-cart'],prompticonimage{display:flex;width:100%;height:100%;box-sizing:border-box;align-items:center;justify-content:center;color:var(--whiteColor1)}
 .blockUI{display:none!important}
 .woocommerce-checkout-payment{position:relative}
@@ -128,7 +129,7 @@ prompticon3{right:15px}
 .woocommerce-checkout.processing::after,.woocommerce-checkout.processing .woocommerce-checkout-payment::after,.loading::after,.ui-autocomplete-loading::after{content:''!important;display:block;width:1em;height:1em;position:absolute;top:35%;left:49%;border:2px solid var(--lightgrayColor2);border-top:2px solid var(--highlightColor);border-radius:50%;animation:spin 1s linear infinite}
 .woocommerce-checkout.processing::after{width:2em;height:2em;left:46.6%}
 .loading::after,.ui-autocomplete-loading::after{left:auto!important;right:15px!important;top:35px!important}
-.woofc-count-shake{animation-iteration-count:2!important}
+.woofc-count-shake{animation:bell-shake .6s ease-in-out!important}
 @keyframes bell-shake{0%{transform:rotate(0deg)}15%{transform:rotate(10deg)}30%{transform:rotate(-10deg)}45%{transform:rotate(8deg)}60%{transform:rotate(-8deg)}75%{transform:rotate(4deg)}100%{transform:rotate(0deg)}}
 
 /* Inputs */
