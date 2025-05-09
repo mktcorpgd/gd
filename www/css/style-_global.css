@@ -621,14 +621,14 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-pricing-table .list-group-item:last-child{padding-bottom:1em}
 .fusion-pricingtable-column .panel-container{padding:0;background:none;box-shadow:none;cursor:initial}
 .fusion-pricingtable-column .panel-heading{padding:1em .5em!important;border-bottom:none}
-.fusion-pricingtable-column .panel-heading h3{font-family:var(--titleFont),'Font Awesome 6 Pro',sans-serif;font-size:1.6em}
+.fusion-pricingtable-column .panel-heading h3{font-family:var(--titleFont),'Font Awesome 6 Pro',sans-serif;font-size:1.4em}
 .fusion-pricingtable-column .panel-body,.sep-boxed-pricing .panel-wrapper{padding:0}
 .fusion-pricingtable-column .panel-body .price{padding:.5em}
 .fusion-pricingtable-column .panel-body .price .integer-part{font-size:2.4em;font-weight:500;letter-spacing:-2px}
 .fusion-pricingtable-column .panel-body .price .time{font-size:.9em;font-style:normal;font-weight:normal;line-height:1}
 .fusion-pricingtable-column .panel-body .price .currency{top:-18px;left:-2px;font-size:1.4em;font-weight:400;opacity:.6}
 .fusion-pricingtable-column .panel-body .price .currency,.fusion-pricingtable-column .panel-body .price .time{color:var(--metaColor);font-weight:400}
-.fusion-pricingtable-column .list-group-item{padding-top:.4em;padding-bottom:.4em;font-size:.9em;line-height:1.4;border:none}
+.fusion-pricingtable-column .list-group-item{padding-top:.4em;padding-bottom:.4em;font-size:.9rem;line-height:1.4;border:none}
 .fusion-pricingtable-column .fusion-button.fusion-button-default-size{margin-bottom:0;width:65%}
 .fusion-pricingtable-column.standout .panel-container{border-radius:var(--regularRadius);border:4px solid rgba(0,0,0,.2);box-shadow:0 0 36px -12px rgba(0,0,0,.2)}
 .fusion-pricingtable-column.standout .panel-container:hover{box-shadow:0 0 36px 12px rgba(0,0,0,.2)}
