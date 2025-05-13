@@ -262,7 +262,7 @@ body.single article>.flexslider{border-radius:var(--largeRadius);overflow:hidden
 .project-content .fusion-image-carousel:not(.no-radius) .awb-carousel .swiper-slide .fusion-image-wrapper{border-radius:var(--smallRadius)!important}
 body.has-sidebar #main .sidebar h3{margin-top:0}
 .absolute .fusion-builder-row.fusion-row{position:initial}
-.wy-tooltip{max-width:600px;color:#FFFFFF;background:var(--textColor);position:absolute;padding:.6em .8em;text-align:left;border-radius:var(--smallRadius);font-size:.65em;line-height:1.2;z-index:99999999}
+.wy-tooltip{margin-left:-50%;padding:.6em .8em;max-width:600px;position:absolute;top:auto!important;bottom:24px!important;left:50%!important;color:#FFFFFF;background:var(--textColor);border-radius:var(--smallRadius);text-align:left;font-size:.65em;line-height:1.2;z-index:99999999}
 .fullwidth-video video{width:100vw!important}
 .swiper-autoheight,.swiper-autoheight .swiper-slide{max-width:auto!important}
 body.error404 .fusion-title.fusion-sep-none *{text-align:center!important}
@@ -508,8 +508,8 @@ div[data-id="telsf"]{margin-bottom:-8px}
 .mc4wp-checkbox-contact-form-7~em{display:block;margin:.5em 0;font-size:.8em;line-height:1}
 .mc4wp-checkbox-contact-form-7 i{color:var(--metaColor);cursor:pointer;position:relative;top:1px}
 .mc4wp-checkbox-contact-form-7 i:hover{color:var(--textColor)}
-.white .mc4wp-checkbox-contact-form-7 i{color:var(--whiteAltColor);opacity:.6}
-.white .mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor);opacity:1}
+.white .mc4wp-checkbox-contact-form-7 i,.modal .mc4wp-checkbox-contact-form-7 i{color:var(--whiteAltColor);opacity:.6}
+.white .mc4wp-checkbox-contact-form-7 i:hover,.modal .mc4wp-checkbox-contact-form-7 i:hover{color:var(--whiteAltColor);opacity:1}
 .wpcf7-form-control-wrap{position:relative}
 div.wpcf7 .wpcf7-form-control-wrap:not(.wpcf7-acceptance):not(.TITLE):before,div.wpcf7 .wpcf7-validates-as-required:before{pointer-events:none;position:absolute;padding:2px 1px;top:8px;right:8px;font-size:.8em;line-height:1;font-weight:400;font-family:var(--titleFont);letter-spacing:1px;color:var(--grayColor);z-index:10}
 .wpcf7-free-text{margin-top:10px}
