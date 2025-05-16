@@ -101,7 +101,7 @@ html .fusion-open-submenu,
 .fusion-content-boxes.box-shadow .fusion-column .content-box-wrapper:hover,.bkg-white:not(.fusion-title),.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:var(--whiteColor)}
 .hover-boxes .fusion-column-wrapper,.fusion-pricing-table .panel-wrapper:hover .button-default,.white.button-default{background:var(--whiteColor)!important}
 .fusion-fullwidth.header-transparent:not(.portfolio) .button-default:not(.portfolio-button),.white .wpcf7-form input[type='submit'],.white .button-default:not(.portfolio-button),.white .fusion-portfolio-element .fusion-load-more-button.fusion-portfolio-button,.white .fusion-blog-shortcode .fusion-load-more-button,.slide-content-container .button-default:not(.portfolio-button),.fusion.fusion-pricing-table .button-default{background:var(--whiteColor);color:var(--highlightColor)}
-.white img[src*='flag-'],#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
+#wrapper .white blockquote,.fusion-body .white blockquote{border-color:var(--whiteColor)}
 .white.button-default .fusion-button-text{color:var(--highlightColor)}
 .white.button-default:hover{background:var(--whiteAltColor)!important}
 .white.button-default:hover .fusion-button-text,.fusion-main-menu .fusion-menu-item-button .menu-text:hover{background:var(--whiteColor)!important;color:var(--subColor)}
@@ -121,6 +121,7 @@ html body .fusion-fullwidth:not(.header-transparent):not(.white) .fusion-layout-
 .fusion-button.only-icon{background:transparent;box-shadow:none!important}
 .fusion-button.only-icon i{margin:0!important}
 .fusion-page-title-bar .fusion-breadcrumbs a,.fusion-page-title-bar .fusion-breadcrumbs a:hover{color:var(--grayColor)}
+.white img[src*='flag-']{border-width:rgba(0,0,0,.2)}
 
 /* Mobile */
 @media (max-width: 920px) {
