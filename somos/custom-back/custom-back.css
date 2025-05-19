@@ -23,7 +23,7 @@ body:not(.role-administrator) #application-passwords-section,
 /* Footer */
 #wpfooter,
 /* Notificaciones */
-popup_poweredby,notification_time,popup_close+popup_heading,.wrap>.updated:not(.is-dismissible),.wrap>.updated~.updated,.wp-heading-inline~.updated:not(.is-dismissible),.wp-heading-inline~.error,.wp-heading-inline~.notice:not(.somos-gd),.somos-gd~.updated,.somos-gd-notice~.error,
+popup_poweredby,notification_time,popup_close+popup_heading,.wrap>.updated:not(.is-dismissible),.wrap>.updated~.updated,.wp-heading-inline~.updated:not(.is-dismissible),.wp-heading-inline~.error,.wp-heading-inline~.notice:not(.somos-gd):not(.is-dismissible),.somos-gd~.updated,.somos-gd-notice~.error,
 /* Merchandising */
 #toplevel_page_admin-page-wc-settings-tab-checkout,.tiptip_content,input[type=checkbox]:checked::before,.woocommerce-layout__header,.button.wc-action-button-processing,#tiptip_holder,.column-wc_actions a.wc-action-button-complete:not([aria-label="Aprobar solicitud"]){display:none!important}
 /* Oculto no forzado */
