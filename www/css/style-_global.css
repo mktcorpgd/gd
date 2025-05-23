@@ -366,7 +366,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-portfolio-boxed .fusion-portfolio-content,.fusion-events-post .fusion-events-content-wrapper{padding:0 0 .5em!important}
 .fusion-portfolio{overflow:visible}
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-events-post .fusion-column-wrapper{position:relative;border-radius:var(--largeRadius);border:none!important}
-.fusion-portfolio-post .fusion-portfolio-content-wrapper{overflow:visible}
+.fusion-portfolio-post .fusion-portfolio-content-wrapper{overflow:visible;box-shadow:var(--smallShadow)}
 .fusion-portfolio-content,.fusion-post-content-wrapper,.fusion-events-post .fusion-column-wrapper{background:var(--whiteColor)!important}
 .fusion-portfolio-content,.fusion-post-content-wrapper{border-radius:9px}
 .fusion-image-wrapper+.fusion-portfolio-content,.fusion-post-slideshow+.fusion-post-content-wrapper{border-top-left-radius:0;border-top-right-radius:0}
