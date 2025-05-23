@@ -35,7 +35,7 @@ ul.products.columns-3{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1.
 .woocommerce ul.products li.product .price{margin-bottom:0;color:var(--textColor);padding:0 .8rem}
 .woocommerce ul.products li.product:hover{box-shadow:var(--smallShadow)}
 .woocommerce ul.products li.product:hover .add_to_cart_button{background:var(--subColor)}
-.woocommerce ul.products li.product .button{display:flex;align-items:center;margin:0;grid-column:auto!important;padding:.4em .8rem;font-size:.9rem;background:none!important;box-shadow:none!important;color:var(--highlightColor);text-align:left}
+.woocommerce ul.products li.product .button{display:flex;align-items:center;white-space:nowrap;margin:0;grid-column:auto!important;padding:.4em .8rem;font-size:.9rem;background:none!important;box-shadow:none!important;color:var(--highlightColor);text-align:left}
 .woocommerce ul.products li.product .button.loading{opacity:.6}
 .woocommerce .button::after{position:absolute;top:10px!important;right:11px!important;font-size:.8em;color:var(--grayColor)!important}
 .woocommerce .woocommerce-result-count{margin-top:.4em}
