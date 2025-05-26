@@ -49,8 +49,6 @@ body.woocommerce-order-received #content h1.page-title,body.woocommerce-view-ord
 .notes td{font-weight:normal!important}
 table.woocommerce-table--order-details tbody tr td:first-child,.woocommerce-additional-info th{width:40%}
 .woofc-icon-cart7:before{content:'\f07a';font-weight:bold;position:relative;top:1px;font-family:var(--iconFont)}
- .woocommerce form .form-row label,.woocommerce label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
- .woocommerce form .form-row label{max-width:100%}
  
  /* Carrito/Checkout */
 .woofc-area.woofc-position-05{max-width:600px}
@@ -182,4 +180,6 @@ prompticon3{right:15px;transform:scale(1)!important}
 	.woocommerce-cart .actions .button{font-size:14px;padding:6px 10px}
 	.woocommerce ul.products li.product .button.loading{color:var(--whiteColor1)!important}
 	.woocommerce ul.products li.product .button.loading:after{width:2em;height:2em;right:50%!important}
+	.woocommerce form .form-row label,.woocommerce label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+	.woocommerce form .form-row label{max-width:100%}
 }
