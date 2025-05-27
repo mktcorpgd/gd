@@ -1,14 +1,12 @@
-// Precarga
-!function(){function t(){document.body.classList.add("loaded")}var e=document.getElementById("loftloader-wrapper");if(e){if(window.addEventListener("load",function(e){t()}),e.dataset&&e.dataset.showCloseTime){var a=parseInt(e.dataset.showCloseTime,10),n=!1,o=e.getElementsByClassName("loader-close-button");a&&o.length&&(setTimeout(function(){o[0].style.display=""},a),o[0].addEventListener("click",function(e){t()}))}e.dataset.maxLoadTime&&(n=e.dataset.maxLoadTime,(n=parseInt(n,10))&&setTimeout(function(){t()},n))}}();
-
-// Eliminar caracteres especiales
+// Función para eliminar caracteres especiales
 var normalize=(function(){var from="ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç",to="AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuunncc",mapping={};for(var i=0,j=from.length;i<j;i++)mapping[from.charAt(i)]=to.charAt(i);return function(str){var ret=[];for(var i=0,j=str.length;i<j;i++){var c=str.charAt(i);if(mapping.hasOwnProperty(str.charAt(i))){ret.push( mapping[c]);}else{ret.push(c);}}return ret.join('').replace(/[^-A-Za-z0-9]+/g,'-').toLowerCase();}})();
 
-// Obtener variables GET
+// Función para obtener variables GET
 jQuery.getPrm = function(name){var results=new RegExp('[?&]'+name+'=([^&#]*)').exec(window.location.href);if(results==null){return null;}else{return results[1]||0;}}
 
-// Convertir texto a letras capitales
+// Función para convertir texto a letras capitales
 jQuery.fn.capitalize=function(t){return jQuery.each(this,(function(){for(var t=this.value.split(" "),e=0,i=t.length;e<i;e++)t[e]=t[e].charAt(0).toUpperCase()+t[e].substr(1).toLowerCase();this.value=t.join(" ")})),this};
+
 
 // FORMULARIOS - Al enviar un form
 jQuery(document).on('click','.wpcf7-submit:not(.confirm)',function(e) {
@@ -52,6 +50,33 @@ document.addEventListener('DOMContentLoaded', function() {
 		});
 	}
 });
+
+// FORMULARIOS - Deshabilitar separadores en selects
+function deshabilitarSeparadoresEnSelect(select) {
+	const opciones = select.querySelectorAll('option');
+	opciones.forEach(opc => {
+		const texto = opc.textContent.trim();
+		if (texto.startsWith('—') && texto.length > 1) {
+			opc.disabled = true;
+		}
+	});
+}
+document.querySelectorAll('select').forEach(deshabilitarSeparadoresEnSelect);
+const observer = new MutationObserver(mutations => {
+	mutations.forEach(mutation => {
+		mutation.addedNodes.forEach(node => {
+			if (node.nodeType === 1) { // Elemento
+				if (node.tagName === 'SELECT') {
+					deshabilitarSeparadoresEnSelect(node);
+				} else {
+					const selects = node.querySelectorAll?.('select');
+					selects?.forEach(deshabilitarSeparadoresEnSelect);
+				}
+			}
+		});
+	});
+});
+observer.observe(document.body, { childList: true, subtree: true });
 
 
 jQuery(document).ready(function() {
@@ -139,9 +164,9 @@ jQuery(document).ready(function() {
 		e.preventDefault()
 	});
 
+
 	// GENERAL - Buscador
 	jQuery('.asl_w_container').insertBefore('#left-content-wrapper');
-
 
 	// GENERAL - Si hay cumpleaños:
 	if ( jQuery('.bdays_today').length ) {
@@ -153,7 +178,6 @@ jQuery(document).ready(function() {
 	jQuery('.bdays_upcom').click(function(e){
 		jQuery(this).removeClass('collapse');
 	});
-
 
 	// GENERAL - Ir hacia parte de la página
 	jQuery('a[href^=#goto]').on('click',function(e) {
@@ -168,7 +192,7 @@ jQuery(document).ready(function() {
         }
 	});
 
-		
+
 	// CASOS - Marcar filas vacías
 	if ( jQuery('body.post-template-default').length ) {
 		if ( jQuery('article').attr('class').indexOf('category-casos-') > -1 ) {
@@ -185,14 +209,12 @@ jQuery(document).ready(function() {
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)===''}).remove();
 	jQuery('p').filter(function(){return jQuery.trim(this.innerHTML)==='&nbsp;'}).remove();
 
-
 	// CONTENIDOS - Referencia de Internet Explorer para módulos de Dropbox
 	if ( jQuery('.yotu-playlist').length && !jQuery('body').hasClass('fullwidth')) {
 		if ( !jQuery('body.post-template-default article').hasClass('category-salesforce') ) {
 			jQuery('.yotu-playlist').prepend('<div class="info-material"><a href="https://www.youtube.com/grupodatco" target="_blank">Nuestro canal de YouTube</a> funciona como único repositorio para videos públicos e internos. Todo material de video interno o no autorizado a difundir públicamente son visibles sólo en nuestro portal.</div>');
 		}
 	}
-
 
 	// CONTENIDOS - Convertir a popup
 	jQuery('.wp-block-gallery').magnificPopup({
@@ -272,20 +294,17 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
 	// CONTENIDOS - Ver foto al clickear en figcaption
 	jQuery('.blocks-gallery-item figcaption').on('click',function(e) {
 		e.preventDefault();
 		jQuery(this).prev('a').trigger('click');
 	});
 
-
 	// CONTENIDOS - Desplegables abiertos
 	jQuery('body.postid-49885 #content .toggle-box').show();
 	jQuery('body.postid-49885 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
 	jQuery('body.page-id-42920 #content .toggle-box').show();
 	jQuery('body.page-id-42920 #content .toggle .fa-plus-square').removeClass('fa-plus-square').addClass('fa-minus-square');
-
 
 	// CONTENIDOS - Home: según cantidad de comentarios agregar una clase u otra
 	jQuery('.post-loop').each(function () {
@@ -302,14 +321,13 @@ jQuery(document).ready(function() {
 		}
 	});
 
-		
+
 	// FORMULARIOS - Atributos
 	jQuery('#commentform textarea').attr('placeholder','Escribir un comentario...');
 	jQuery('body.page-id-26272 .is-search-input,article[class*=category-casos-] .is-search-input').attr('placeholder','Buscar por cliente, solución, UN o UAC');
 	jQuery('body.page-id-41477 .is-search-input').attr('placeholder','Buscar por tema');
 	jQuery('img[title],.read-more[title]').each(function(){jQuery(this).removeAttr('title');});
 	jQuery('#post-content .post-text h2 a,#post-content>div>ul>li a').removeAttr('tmp_title').removeAttr('title');
-	
 
 	// FORMULARIOS - [Mailchimp] Agregar textos para la opción free_text en checkbox
 	jQuery('.wpcf7-free-text').blur(function(e) {
@@ -319,7 +337,6 @@ jQuery(document).ready(function() {
 		}
 		jQuery(this).parent().find('input[type=checkbox]').val(jQuery(this).attr('data-text')+': '+jQuery(this).val());
 	});
-
 
 	// FORMULARIOS - Agregar clase en .wpcf7-form-control-wrap si es un select
 	jQuery('.wpcf7-form-control-wrap').each(function(i) {
@@ -331,28 +348,23 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
 	// FORMULARIOS - Agregar clase "last" en el último bloque de 1 columna
 	jQuery('.columns.one:last').addClass('last');
-
 
 	// FORMULARIOS - Convertir a mayúsculas
 	jQuery('input[name*=ORG],.uppercase').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toUpperCase());
 	});
 
-
 	// FORMULARIOS - Convertir a minúsculas
 	jQuery('input[name*=EMAIL],input[name=RESPBOSSEMAIL],.lowercase').on('input',function(e) {
 		jQuery(this).val(jQuery(this).val().toLowerCase());
 	});
 
-
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery('input[name*=FNAME],input[name*=LNAME],.capitalize').on('input',function (e) {
 		jQuery(this).capitalize();
 	});
-
 
 	// FORMULARIOS - Convertir a letras capitales
 	jQuery('input[name=RESPBOSSEMAIL]').on('input', function() {
@@ -360,7 +372,6 @@ jQuery(document).ready(function() {
 		value = value.replace(/[;\s]+/g, ',');
 		jQuery(this).val(value);
 	});
-
 
 	// FORMULARIOS - Ir hacia el primer error
 	jQuery(document).on('click','.wpcf7-response-output',function(e) {
@@ -371,12 +382,10 @@ jQuery(document).ready(function() {
 		);
 	});
 
-
 	// FORMULARIOS - Ir al :input al clickear en aviso de error
 	jQuery(document).on('click','label.error',function(e) {
 		jQuery(this).parent().find(':input').focus();
 	});
-
 
 	// FORMULARIOS - Limpiar espacios al salir del campo
 	jQuery(document).on('blur','.wpcf7 input[type=text]',function(){
@@ -384,7 +393,6 @@ jQuery(document).ready(function() {
 			this.value = jQuery(this).val().trim();
 		});
 	});
-
 
 	// FORMULARIOS - Limpiar validación al escribir al completar
 	jQuery(document).on('blur','.wpcf7-not-valid',function(){
@@ -398,7 +406,6 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
 	// FORMULARIOS - Ir a página en cambio de select para .nav-posts
 	jQuery('.nav-posts select').val(window.location.href);
 	jQuery(document).on('change','.nav-posts select', function() {
@@ -409,10 +416,8 @@ jQuery(document).ready(function() {
 		return false;
 	});
 
-
 	// FORMULARIOS - Deshabilitar autocompletado
 	jQuery('.autocompleteoff').attr('autocomplete','off');
-
 
 	// FORMULARIOS - Deshabilitar scroll wheel
 	jQuery('form').on('focus','input[type=number]',function(e) {
@@ -423,7 +428,6 @@ jQuery(document).ready(function() {
 	jQuery('form').on('blur','input[type=number]',function(e) {
 		jQuery(this).off('wheel.disableScroll');
 	});
-	  
 
 	// FORMULARIOS - Si existe un checkbox para información adicional
 	if ( jQuery('.check_add').length ) {
@@ -449,19 +453,6 @@ jQuery(document).ready(function() {
 			}
 		});	
 	}
-
-		
-	// FORMULARIOS - Si existe un select
-	function deshabilitarSeparadores() {
-		jQuery('select option').each(function() {
-			var text_opc = jQuery(this).text().trim();
-			if (text_opc.startsWith('—') && text_opc.length > 1) {
-				jQuery(this).attr('disabled', 'disabled');
-			}
-		});
-	}
-	deshabilitarSeparadores();
-
 	if ( jQuery('.wpcf7-select').length ) {
 		var id_form = jQuery('.wpcf7:first').attr('id');
 		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
@@ -504,7 +495,6 @@ jQuery(document).ready(function() {
 		});
 	}
 
-
 	// FORMULARIOS - Comportamiento según se agreguen/quiten grupos
 	jQuery('.wpcf7 .control_group').click(function(e){
 		var what_todo = jQuery(this).attr('id');
@@ -546,13 +536,11 @@ jQuery(document).ready(function() {
 		}
 	});
 
-
 	// FORMULARIOS - Reemplazar nombres de usuarios con espacio
 	if ( jQuery('input[name=USRURL]').length ) {
 		var usrurl = jQuery('input[name=USRURL]').val().replace(' ','-');
 		jQuery('input[name=USRURL]').val(usrurl);
 	}
-
 
 	// FORMULARIOS - Ocultar en ABM:
 	if ( jQuery('body').hasClass('page-id-49605') ) {
@@ -561,7 +549,7 @@ jQuery(document).ready(function() {
 	if ( jQuery('body').hasClass('page-id-40285') ) {
 		//jQuery('select[name="CC_UNIT"] option:not(:contains("AR"))').hide();
 	}
-	
+
 
 	// LATERAL - Desplegables
 	jQuery('#custom_html-11 .toggle-box').show();
@@ -583,51 +571,9 @@ jQuery(document).ready(function() {
 		e.preventDefault();
 	});
 
-	/*
-	// LATERAL - Expandir widget
-	jQuery('.widget .widgettitle').append('<a class="topopup" href="#topopup"><i class="far fa-expand-arrows"></i></a>');
-	jQuery(document).on('click','.widget .widgettitle .topopup',function(e) {
-		e.preventDefault();
-		var get_widget = jQuery(this).parent().parent().attr('id');
-		var cloned_widget = jQuery('#'+get_widget).clone();
-		jQuery.magnificPopup.open({
-			items: {
-				src: cloned_widget,
-			},
-			type: 'inline'
-		});
-	});
-
-	// LATERAL - Convertir a galería las referencias
-	jQuery('.widget_ref').magnificPopup({
-		delegate: 'a',
-		type: 'image',
-		mainClass: 'mfp-img-mobile',
-		tClose: 'Cerrar (Esc)',
-		tLoading: 'Cargando...',
-		gallery: {
-			enabled: true,
-			navigateByImgClick: true,
-			preload: [0,1],
-			tPrev: 'Anterior (tecla ←)',
-			tNext: 'Siguiente (tecla →)',
-			tCounter: '<span class="mfp-counter">%curr% de %total%</span>'
-		},
-		image: {
-			tError: 'La imagen no pudo ser cargada.',
-			titleSrc: function(item) {
-				return item.el.siblings('figcaption').html();
-			},
-		},
-		ajax: {
-			tError: 'La solicitud falló.'
-		}
-	});
-	*/
 
 	// EVENTOS - Agregar referencias para calendario de eventos y capacitaciones
 	jQuery('#sidebar-left .eo-widget-cal-wrap').after('<div class="widget_ref"><a class="propios" href="/eventos/categoria/propios/">Propios</a><a class="patrocinamos" href="/eventos/categoria/patrocinamos/">Patrocinamos</a><a class="asistimos" href="/eventos/categoria/asistimos/">Asistimos</a><a class="otros" href="/eventos/categoria/otros/">Otro</a></div>');
-
 
 	// EVENTOS - Agregar enlace a eventos del mes en menú y calendario
 	var yy = new Date().getFullYear();
@@ -639,19 +585,16 @@ jQuery(document).ready(function() {
 	jQuery('#menu-item-18425>a').attr('href','/eventos/fecha/'+yy+'/'+mm+'/');
 	jQuery('.eo_widget_calendar .widget_ref').after('<a href="/eventos/fecha/'+yy+'/'+mm+'/" class="sc-button blue small">Ver eventos del mes</a>');
 
-
 	// EVENTOS - Convertir textos en descripción con "http" en link:
 	if ( jQuery('article.event').length ) {
 		!function(t){"use strict";var n=/\b(?:\b[a-z\d.-]+:\/\/[^<>\s]+|\b(?:(?:(?:[^\s!@#$%^&*()_=+[\]{}\|;:'",.<>\/?]+)\.)+(?:ac|ad|aero|ae|af|ag|ai|al|am|an|ao|aq|arpa|ar|asia|as|at|au|aw|ax|az|ba|bb|bd|be|bf|bg|bh|biz|bi|bj|bm|bn|bo|br|bs|bt|bv|bw|by|bz|cat|ca|cc|cd|cf|cg|ch|ci|ck|cl|cm|cn|coop|com|co|cr|cu|cv|cx|cy|cz|de|dj|dk|dm|do|dz|ec|edu|ee|eg|er|es|et|eu|fi|fj|fk|fm|fo|fr|ga|gb|gd|ge|gf|gg|gh|gi|gl|gm|gn|gov|gp|gq|gr|gs|gt|gu|gw|gy|hk|hm|hn|hr|ht|hu|id|ie|il|im|info|int|in|io|iq|ir|is|it|je|jm|jobs|jo|jp|ke|kg|kh|ki|km|kn|kp|kr|kw|ky|kz|la|lb|lc|li|lk|lr|ls|lt|lu|lv|ly|ma|mc|md|me|mg|mh|mil|mk|ml|mm|mn|mobi|mo|mp|mq|mr|ms|mt|museum|mu|mv|mw|mx|my|mz|name|na|nc|net|ne|nf|ng|ni|nl|no|np|nr|nu|nz|om|org|pa|pe|pf|pg|ph|pk|pl|pm|pn|pro|pr|ps|pt|pw|py|qa|re|ro|rs|ru|rw|sa|sb|sc|sd|se|sg|sh|si|sj|sk|sl|sm|sn|so|sr|st|su|sv|sy|sz|tc|td|tel|tf|tg|th|tj|tk|tl|tm|tn|to|tp|travel|tr|tt|tv|tw|tz|ua|ug|uk|um|us|uy|uz|va|vc|ve|vg|vi|vn|vu|wf|ws|xn--0zwm56d|xn--11b5bs3a9aj6g|xn--80akhbyknj4f|xn--9t4b11yi5a|xn--deba0ad|xn--g6w251d|xn--hgbk6aj7f53bba|xn--hlcj6aya9esc7a|xn--jxalpdlp|xn--kgbechtv|xn--zckzah|ye|yt|yu|za|zm|zw)|(?:(?:[0-9]|[1-9]\d|1\d{2}|2[0-4]\d|25[0-5])\.){3}(?:[0-9]|[1-9]\d|1\d{2}|2[0-4]\d|25[0-5]))(?:[;\/][^#?<>\s]*)?(?:\?[^#<>\s]*)?(?:#[^<>\s]*)?(?!\w))/gi;t.fn.urlToLink=function(e){return e=t.extend({},t.fn.urlToLink.defaults,e),this.each(function(){t(this).html(t(this).html().replace(n,function(t){var n=t,s="",a="",m=0;if(e.removeHttp&&(n=n.replace("http://","").replace("https://","")),s=n,e.compressTo&&n.length>e.compressTo&&(m=(e.compressTo-e.compressWith.length)/2,s=n.substring(0,m)+e.compressWith+n.slice(-m)),e.domainOnly){var i=-1;if(s.indexOf("http")>-1){var r=s.indexOf("/"),l=r+2+s.substring(r+2).indexOf("/");l>r+2&&(i=l)}else i=s.indexOf("/");i>3&&(s=s.substring(0,i))}return e.nofollow&&(a="nofollow"),' <a href="'+t+'" title="'+t+'" target="'+e.target+'" rel="'+a+'">'+s+"</a>"}))})},t.fn.urlToLink.defaults={domainOnly:!0,nofollow:!0,target:"_self",compressWith:"&hellip;"}}(jQuery);
 		jQuery('.entry-content p').urlToLink();
 	}
 
-
 	// EVENTOS - Quitar link de venue
 	if ( jQuery('body').hasClass('archive') ) {
 		jQuery('.eo-event-meta li:first-child strong+a:not([rel=tag])').contents().unwrap();
 	}
-
 
 	// EVENTOS - Sumar/Restar año y mes al clickear en links de cambio de mes
 	jQuery(document).on('click','#wp-calendar tfoot a',function(e) {
@@ -684,5 +627,5 @@ jQuery(document).ready(function() {
 		}
 	}
 
-	
+
 });
