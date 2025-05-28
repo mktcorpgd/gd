@@ -624,7 +624,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-pricingtable-column .panel-body,.sep-boxed-pricing .panel-wrapper{padding:0}
 .fusion-pricingtable-column .panel-body .price{padding:.5em}
 .fusion-pricingtable-column .panel-body .price .integer-part{font-size:2.4em;font-weight:500;letter-spacing:-2px}
-.fusion-pricingtable-column .panel-body .price .time{font-size:.9em;font-style:normal;font-weight:normal;line-height:1}
+.fusion-pricingtable-column .panel-body .price .time{margin-left:.2em;font-size:.9em;font-style:normal;font-weight:normal;line-height:1}
 .fusion-pricingtable-column .panel-body .price .currency{top:-18px;left:-2px;font-size:1.4em;font-weight:400;opacity:.6}
 .fusion-pricingtable-column .panel-body .price .currency,.fusion-pricingtable-column .panel-body .price .time{color:var(--metaColor);font-weight:400}
 .fusion-pricingtable-column .list-group-item{padding-top:.4em;padding-bottom:.4em;font-size:.9rem;line-height:1.4;border:none}
