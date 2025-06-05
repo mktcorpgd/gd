@@ -190,7 +190,7 @@ body:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li>a{f
 /* Hero/Slider */
 #sliders-container.has-content .background-image{background-size:cover!important}
 .fusion-body .header-transparent .fusion-title.fusion-title-size-one:not(.custom-size) h1,.tfs-slider .fusion-title h1,.tfs-slider .fusion-title h2{color:var(--whiteColor)!important;font-size:3rem!important;line-height:1.15!important}
-.tfs-slider .fusion-title:not(.custom-size) h3,.tfs-slider .fusion-title:not(.custom-size) h4,.fusion-body .header-transparent .fusion-title:not(.custom-size) h4{font-family:var(--textFont);font-size:1.1rem!important;line-height:1.5!important}
+.tfs-slider .fusion-title:not(.custom-size) h3,.tfs-slider .fusion-title:not(.custom-size) h4,.fusion-body .header-transparent.fusion-builder-row-1 .fusion-title:not(.custom-size) h4{font-family:var(--textFont);font-size:1.1rem!important;line-height:1.5!important}
 .tfs-slider .slide-content-container .heading{margin:0 0 3vh}
 .tfs-slider .background-image,.hero-img{background-blend-mode:multiply;background-color:rgba(0,0,0,.4)}
 .tfs-slider .flex-control-nav{bottom:2em!important}
