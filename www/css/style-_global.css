@@ -319,7 +319,7 @@ body.single-format-link .fusion-social-networks .fusion-social-networks-wrapper{
 .fusion-portfolio-content .fusion-portfolio-meta{padding:0 2rem;position:absolute;top:-8px;font-size:0;color:transparent;z-index:10}
 .fusion-portfolio-meta span{display:inline-block;color:var(--grayColor)!important}
 .fusion-portfolio .fusion-portfolio-content .fusion-portfolio-meta+h2 a{padding-top:.4em}
-.meta-on .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem;background:var(--whiteColor);padding:.1em .4em;border-radius:var(--smallRadius);box-shadow:0 0 0 2px rgba(0,0,0,.1);position:relative;top:-1px;color:var(--metaColor)}
+.meta-on .fusion-portfolio-content .fusion-portfolio-meta a{margin-right:.7em;font-size:.7rem;background:var(--whiteColor);padding:.1em .4em;border-radius:var(--smallRadius);box-shadow:0 0 0 1px rgba(0,0,0,.1);position:relative;top:-1px;color:var(--metaColor)}
 .fusion-portfolio-content .fusion-portfolio-meta a[href*='/flag-'],.project-terms a[href*='/flag-']{float:left;display:inline-block;margin-right:.6rem;width:16px;height:16px;color:transparent!important;box-shadow:0 0 0 2px rgba(0,0,0,.1);border-radius:32px;overflow:hidden;pointer-events:none;position:relative;top:-1px;background-size:100%!important}
 .project-terms{width:100%;text-align:center}
 .project-terms a[href*='/flag-']{float:none;margin:.2rem .4rem 0;width:24px;height:24px}
@@ -360,7 +360,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-blog-layout-grid.fusion-blog-equal-heights .fusion-post-wrapper .fusion-post-content.post-content{margin-bottom:0}
 .fusion-blog-layout-grid .post .flexslider,.fusion-blog-layout-grid .post .fusion-post-wrapper,.fusion-blog-layout-timeline .fusion-timeline-arrow,.fusion-blog-layout-timeline .fusion-timeline-date,.fusion-blog-layout-timeline .fusion-timeline-line,.fusion-blog-layout-timeline .post,.fusion-blog-layout-timeline .post .flexslider,.fusion-blog-timeline-layout .post,.fusion-blog-timeline-layout .post .flexslider,.fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,.fusion-post-content-container{border:none!important}
 .fusion-blog-layout-grid .post .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-content-wrapper{border:4px solid rgba(0,0,0,.1)!important}
-.fusion-blog-layout-grid .post:hover .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-post:hover .fusion-portfolio-content-wrapper{border:4px solid rgba(0,0,0,.2)!important}
+.fusion-blog-layout-grid .post:hover .fusion-post-wrapper,.fusion-portfolio-grid .fusion-portfolio-post:hover .fusion-portfolio-content-wrapper{border-radius:var(--largeRadius);border:4px solid rgba(0,0,0,.2)!important;overflow:hidden}
 .noticias [class*='tag-'] .fusion-post-content-wrapper{padding-top:.5em}
 .noticias [class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper{padding-top:0}
 .fusion-portfolio-boxed .fusion-portfolio-content,.fusion-events-post .fusion-events-content-wrapper{padding:0 0 .5em!important}
@@ -368,8 +368,6 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-events-post .fusion-column-wrapper{position:relative;border-radius:var(--largeRadius)}
 .fusion-portfolio-content,.fusion-post-content-wrapper,.fusion-events-post .fusion-column-wrapper{background:var(--whiteColor)!important}
 .fusion-portfolio-content,.fusion-post-content-wrapper{border-radius:9px}
-.fusion-image-wrapper+.fusion-portfolio-content,.fusion-post-slideshow+.fusion-post-content-wrapper{border-top-left-radius:0;border-top-right-radius:0}
-.no-featured-image .fusion-portfolio-content,.no-featured-image .fusion-post-content-wrapper,.no-featured-image .fusion-events-content-wrapper{border-top-left-radius:9px;border-top-right-radius:9px}
 .fusion-post-content-wrapper h2 a,.fusion-post-content-wrapper h3 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.5rem 2rem;font-weight:400}
 .fusion-post-content-wrapper h3 a{padding:1.2rem 1.5rem}
 .fusion-events-content-wrapper h4{padding:0 1.5rem 1rem}
@@ -378,7 +376,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .fusion-post-grid.has-post-thumbnail .fusion-post-slideshow+.fusion-post-content-wrapper .fusion-single-line-meta{padding-bottom:1rem}
 .fusion-portfolio-content-wrapper h2 a{padding-bottom:1rem}
 .no-title-link .fusion-portfolio-content-wrapper h2 a{pointer-events:none}
-.fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper,.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor);border-top-left-radius:var(--regularRadius);border-top-right-radius:var(--regularRadius)}
+.fusion-post-grid .fusion-image-wrapper,.fusion-portfolio-post .fusion-image-wrapper,.related-posts .awb-carousel .swiper-slide .fusion-image-wrapper{border-bottom:1px solid var(--lightgrayColor)}
 .fusion-image-wrapper,.fusion-portfolio-content h2{margin-bottom:0!important}
 .hoverlight .fusion-layout-column:hover .fusion-title{text-shadow:0 0 48px rgba(255,255,255,.6)}
 .hoverlight .fusion-column-inner-bg{margin:0!important}
