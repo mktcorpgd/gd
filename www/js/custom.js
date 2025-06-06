@@ -334,16 +334,26 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Si existen otros responsables:
-	if ( jQuery('#RESP').length ) {
-		var resps = '';
-		jQuery('#RESP a').each(function(i) {
-			var new_resp = jQuery(this).attr('href');
-			new_resp = new_resp.substring(new_resp.indexOf('mailto:')+7,new_resp.length);
-			resps += new_resp+', ';
+	if (jQuery('#RESP').length) {
+		var resps = [];
+		jQuery('#RESP').contents().each(function() {
+			if (this.nodeType === 3) {
+				var mails = this.nodeValue.split(',');
+				mails.forEach(function(mail) {
+					mail = mail.trim();
+					if (mail) resps.push(mail);
+				});
+			} else if (this.nodeType === 1 && this.tagName === 'A') {
+				var href = jQuery(this).attr('href');
+				if (href && href.indexOf('mailto:') === 0) {
+					var mail = href.substring(7).trim();
+					if (mail) resps.push(mail);
+				}
+			}
 		});
-		resps = resps.substring(0,resps.length-2);
-		console.log(resps);
-		jQuery('input[name="RESP"]').val(resps);
+		var resultado = resps.join(',');
+		console.log(resultado);
+		jQuery('input[name="RESP"]').val(resultado);
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
