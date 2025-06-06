@@ -342,6 +342,7 @@ jQuery(document).ready(function() {
 			resps += new_resp+', ';
 		});
 		resps = resps.substring(0,resps.length-2);
+		console.log(resps);
 		jQuery('input[name="RESP"]').val(resps);
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
