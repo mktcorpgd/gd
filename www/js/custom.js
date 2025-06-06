@@ -334,27 +334,34 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Si existen otros responsables:
-	if (jQuery('#RESP').length) {
-		var resps = [];
-		jQuery('#RESP').find('a[href^="mailto:"]').each(function() {
-			var mail = jQuery(this).attr('href').substring(7).trim();
-			if (mail) resps.push(mail);
+if (jQuery('#RESP').length) {
+	var resps = new Set();
+
+	// 1) mails en links
+	jQuery('#RESP').find('a[href^="mailto:"]').each(function() {
+		var mail = jQuery(this).attr('href').substring(7).trim();
+		if (mail) resps.add(mail);
+	});
+
+	// 2) mails en texto
+	var textContent = jQuery('#RESP').clone();
+	textContent.find('a').remove();
+	var text = textContent.text();
+
+	var emailRegex = /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi;
+	var textMails = text.match(emailRegex);
+	if (textMails) {
+		textMails.forEach(function(mail) {
+			mail = mail.trim();
+			if (mail) resps.add(mail);
 		});
-		var textContent = jQuery('#RESP').clone(); // clonamos para no afectar el DOM
-		textContent.find('a').remove(); // sacamos los <a> para que no duplique
-		var text = textContent.text();
-		var emailRegex = /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi;
-		var textMails = text.match(emailRegex);
-		if (textMails) {
-			textMails.forEach(function(mail) {
-				mail = mail.trim();
-				if (mail && resps.indexOf(mail) === -1) resps.push(mail);
-			});
-		}
-		var resultado = resps.join(',');
-		console.log('resultado=' + resultado);
-		jQuery('input[name="RESP"]').val(resultado);
 	}
+
+	// Convertir Set a string
+	var resultado = Array.from(resps).join(',');
+	console.log('resultado=' + resultado);
+	jQuery('input[name="RESP"]').val(resultado);
+}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
 		var ctry_url = urlParams.get('ctry');
