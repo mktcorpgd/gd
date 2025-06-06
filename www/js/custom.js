@@ -352,7 +352,7 @@ jQuery(document).ready(function() {
 			}
 		});
 		var resultado = resps.join(',');
-		console.log(resultado);
+		console.log('resultado='+resultado);
 		jQuery('input[name="RESP"]').val(resultado);
 	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
