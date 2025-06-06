@@ -359,7 +359,7 @@ if (jQuery('#RESP').length) {
 
 	// Convertir Set a string
 	var resultado = Array.from(resps).join(',');
-	console.log('resultado=' + resultado);
+	console.log('resultado1=' + resultado);
 	jQuery('input[name="RESP"]').val(resultado);
 }
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
