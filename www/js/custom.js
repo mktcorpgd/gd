@@ -334,34 +334,43 @@ jQuery(document).ready(function() {
 
 
 	// FORMULARIOS - Si existen otros responsables:
-if (jQuery('#RESP').length) {
-	var resps = new Set();
+	if (jQuery('#RESP').length) {
+		console.log('RESP encontrado');
+		console.log('Contenido:', jQuery('#RESP').html());
+		
+		var resps = new Set();
 
-	// 1) mails en links
-	jQuery('#RESP').find('a[href^="mailto:"]').each(function() {
-		var mail = jQuery(this).attr('href').substring(7).trim();
-		if (mail) resps.add(mail);
-	});
-
-	// 2) mails en texto
-	var textContent = jQuery('#RESP').clone();
-	textContent.find('a').remove();
-	var text = textContent.text();
-
-	var emailRegex = /\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b/gi;
-	var textMails = text.match(emailRegex);
-	if (textMails) {
-		textMails.forEach(function(mail) {
-			mail = mail.trim();
+		// 1) mails en links
+		jQuery('#RESP').find('a[href^="mailto:"]').each(function() {
+			var mail = jQuery(this).attr('href').substring(7).trim();
+			console.log('Mail en link:', mail);
 			if (mail) resps.add(mail);
 		});
-	}
 
-	// Convertir Set a string
-	var resultado = Array.from(resps).join(',');
-	console.log('resultado1=' + resultado);
-	jQuery('input[name="RESP"]').val(resultado);
-}
+		// 2) mails en texto
+		var textContent = jQuery('#RESP').clone();
+		textContent.find('a').remove();
+		var text = textContent.text();
+		console.log('Texto:', text);
+
+		var emailRegex = /[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}/g;
+		var textMails = text.match(emailRegex);
+		console.log('Mails en texto:', textMails);
+
+		if (textMails) {
+			textMails.forEach(function(mail) {
+				mail = mail.trim();
+				if (mail) resps.add(mail);
+			});
+		}
+
+		// Convertir Set a string
+		var resultado = Array.from(resps).join(',');
+		console.log('resultado1=' + resultado);
+
+		console.log('Input RESP:', jQuery('input[name="RESP"]').length);
+		jQuery('input[name="RESP"]').val(resultado);
+	}
 	if ( window.location.href.indexOf('?ctry') > -1 ) {
 		var urlParams = new URLSearchParams(window.location.search);
 		var ctry_url = urlParams.get('ctry');
