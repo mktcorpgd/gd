@@ -3,6 +3,7 @@
 
 /* Custom */
 .fusion-modal[class*='contacto-rapido'] .modal-title{text-align:center}
+body.tribe_events-template-default.avada-has-titlebar-hide .fusion-logo-link img{display:block}
 
 /* Landing RISE with SAP */
 body.page-id-31819 .awb-imageframe-caption{text-align:left}
