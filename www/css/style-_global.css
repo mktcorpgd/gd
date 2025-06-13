@@ -135,7 +135,6 @@ body:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li>a{f
 .fusion-main-menu .sub-menu{min-width:auto;width:100%}
 .fusion-main-menu .fusion-dropdown-menu .sub-menu{width:fit-content}
 .fusion-main-menu .fusion-dropdown-menu .sub-menu li a{white-space:nowrap}
-.fusion-megamenu-wrapper{width:auto}
 .fusion-header-wrapper:not(.on-top) .fusion-main-menu .sub-menu,.fusion-header-wrapper:not(.on-top) .fusion-megamenu-wrapper,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-main-menu .sub-menu,#wrapper:not(.header-transparent) .fusion-header-wrapper .fusion-megamenu-wrapper{border-top-left-radius:0;border-top-right-radius:0}
 .fusion-menu.awb-menu__main-ul a{padding:0 1rem!important;font-family:var(--titleFont);font-size:1.2em}
 .fusion-main-menu>ul>li>a .fusion-caret{margin-left:5px;opacity:.5}
@@ -147,7 +146,7 @@ body:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li>a{f
 .avada-menu-highlight-style-background:not(.fusion-header-layout-v6) .fusion-main-menu>ul>li>a{font-family:var(--titleFont)}
 
 /* Menú - Mega */
-.fusion-megamenu-wrapper{overflow:hidden}
+.fusion-megamenu-wrapper{padding:0 1.4em;width:auto;overflow:hidden}
 .fusion-megamenu-wrapper .fusion-megamenu-border{border-bottom:none}
 .fusion-megamenu-wrapper .fusion-megamenu-submenu{padding:10px 0}
 .fusion-megamenu-title{margin-bottom:.25em;font-size:.6em;letter-spacing:1px;text-transform:uppercase;font-family:var(--textFont);opacity:.8}
