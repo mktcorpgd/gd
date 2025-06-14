@@ -23,19 +23,6 @@ function scrollHeaderTransp() {
 	}
 }
 
-function isForXerox(field) {
-    field = typeof jQuery === 'function' && field instanceof jQuery ? field[0] : field;
-    if (!field || typeof field.value === 'undefined') {
-        return false;
-    }
-    const textContent = field.value;
-    const keywordsRegex = /(xerox|cartucho|cartridg|impresora|imprsora|impresion|printer|toner|consumible|insumo|drum|fuser|ribbon|ink|tinta|recarga|cabezal|plotter|copiadora|multifunción|multifuncional|fax|laser|deskjet|inkjet|dot matrix|matriz de punto|papel|rollo|transfer belt|banda de transferencia|ribbon|wc)/i;
-    return keywordsRegex.test(textContent);
-}
-function isNotForXerox(field) {
-    return !isForXerox(field);
-}
-
 // Cuando temrine de cargar:
 jQuery(document).ready(function() {
 
