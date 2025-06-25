@@ -875,7 +875,7 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 
 	/* Slider */
 	.tfs-slider ul.slides li .slide-content-container.slide-content-center .slide-content{padding:0 clamp(16rem,5vw,5rem)}
-	.tfs-slider ul.slides li .slide-content-container.slide-content-left .slide-content{padding:0 clamp(40rem,5vw,5rem) 0 2rem}
+	.tfs-slider ul.slides li .slide-content-container.slide-content-left .slide-content{padding:0 clamp(25rem,5vw,5rem) 0 2rem}
 	.tfs-slider ul.slides li .slide-content-container .slide-content{padding:0 clamp(16rem,5vw,5rem)}
 	.tfs-slider ul.slides li.slide-id-51333 .slide-content-container .slide-content,
 	.tfs-slider ul.slides li.slide-id-51359 .slide-content-container .slide-content{padding-right:32%}
