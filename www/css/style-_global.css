@@ -224,9 +224,10 @@ body:not(.fusion-header-layout-v6) .fusion-is-sticky .fusion-main-menu>ul>li>a{f
 .awb-swiper-button-next>i,.awb-swiper-button-prev>i{position:relative;bottom:2px;color:rgba(0,0,0,.4)}
 .awb-swiper-button-next>i{left:2px}
 .awb-swiper-button-prev>i{right:2px}
-.fusion-body .header-transparent .fusion-title.fusion-title-size-one:not(.custom-size) h1, .tfs-slider .fusion-title h1, .tfs-slider .fusion-title h2,html body :not(.header-transparent) .fusion-title:not(.custom-color) :is(h2.fusion-title-heading,h3.fusion-title-heading){color:var(--whiteColor)!important}
-.tfs-slider .slide-content-container.slide-content-left .buttons{text-align:center}
+.fusion-body .header-transparent .fusion-title.fusion-title-size-one:not(.custom-size) h1,.tfs-slider .fusion-title h1,.tfs-slider .fusion-title h2,html body :not(.header-transparent) .fusion-title:not(.custom-color) :is(h2.fusion-title-heading,h3.fusion-title-heading){color:var(--whiteColor)!important}
 .fusion-flexslider .flex-direction-nav .flex-next,.fusion-flexslider .flex-direction-nav .flex-prev{padding:0 .5em}
+.tfs-slider .slide-content-container.slide-content-center .buttons{text-align:center}
+.tfs-slider .slide-content-container.slide-content-left .buttons{text-align:left}
 
 /* Barra de título */
 .fusion-page-title-bar,.fusion-body .fusion-page-title-bar:not(.fusion-tb-page-title-bar){height:auto;padding-top:2em;padding-bottom:2em;background:none;border:none}
@@ -873,8 +874,9 @@ body.customize-support .fusion-tabs.sticky-tabs>.nav{top:110px}
 	body.not-stucked .fusion-sidebar-inner-content{position:relative!important;top:0!important}
 
 	/* Slider */
-	.tfs-slider ul.slides li .slide-content-container .slide-content{padding:0 clamp(16rem, 5vw, 5rem)}
-	.tfs-slider ul.slides li .slide-content-container.slide-content-center .slide-content{padding:0 18%!important}
+	.tfs-slider ul.slides li .slide-content-container.slide-content-center .slide-content{padding:0 clamp(16rem,5vw,5rem)}
+	.tfs-slider ul.slides li .slide-content-container.slide-content-left .slide-content{padding:0 clamp(40rem,5vw,5rem) 0 2rem}
+	.tfs-slider ul.slides li .slide-content-container .slide-content{padding:0 clamp(16rem,5vw,5rem)}
 	.tfs-slider ul.slides li.slide-id-51333 .slide-content-container .slide-content,
 	.tfs-slider ul.slides li.slide-id-51359 .slide-content-container .slide-content{padding-right:32%}
 	.tfs-slider ul.slides li.slide-id-52381 .slide-content-container .slide-content,.tfs-slider ul.slides li.slide-id-43450 .slide-content-container .slide-content{padding-right:34%}
