@@ -171,7 +171,7 @@ prompticon3{right:15px;transform:scale(1)!important}
 .checkout-inline-error-message{margin-top:-10px;color:var(--errorColor);font-size:.8em}
 .woocommerce-error li:last-child{margin-bottom:0}
 .woocommerce-error li a{color:var(--whiteColor1)}
-.woocommerce-error li a strong{font-weight:normal;text-decoration:underline;text-underline-offset:3px}
+.woocommerce-error li a strong{font-weight:normal;cursor:default}
 @keyframes spin{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}
 
 /* Mobile */
