@@ -103,8 +103,8 @@ table.woocommerce-table--order-details tfoot tr:last-child td:last-child{border-
 #content table.additional_info>tbody>tr:first-child>th:first-child{border-top-left-radius:var(--regularRadius)}
 table.shop_table.order_details{margin-top:2em}
 .woocommerce form .form-row.woocommerce-validated .select2-container,.woocommerce form .form-row.woocommerce-validated input.input-text,.woocommerce form .form-row.woocommerce-validated select{border-color:var(--lightgrayColor2)}
-.woocommerce form .form-row.woocommerce-invalid .select2-container,.woocommerce form .form-row.woocommerce-invalid input.input-text,.woocommerce form .form-row.woocommerce-invalid select,.form-row.validate-required:not(.woocommerce-validated) .input-radio{border-color:var(--errorColor)}
-.woocommerce-invalid label.radio,.form-row.validate-required:not(.woocommerce-validated) label.radio{color:var(--errorColor)}
+.woocommerce form .form-row.woocommerce-invalid .select2-container,.woocommerce form .form-row.woocommerce-invalid input.input-text,.woocommerce form .form-row.woocommerce-invalid select,.form-row.validate-required:not(.woocommerce-validated) input,.form-row.validate-required:not(.woocommerce-validated) select{border-color:var(--errorColor)}
+.woocommerce-invalid label.radio,.form-row.validate-required:not(.woocommerce-validated) label{color:var(--errorColor)}
 .woocommerce table.shop_table{padding:0;border:none;border-radius:var(--smallRadius)}
 .woocommerce form .form-row-wide,.woocommerce-page form .form-row-wide{position:relative}
 .ui-menu .ui-menu-item{margin:0;padding:.4em .8em!important;list-style:none;font-size:0.9em!important}
