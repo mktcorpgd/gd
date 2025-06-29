@@ -1,8 +1,0 @@
-button[name="mailchimp"],
-.moneMcModal.moneMcCampaignDetail.moneMcMemberActivity > section > div > div.slds-modal__content.b12-model-content > div > div:nth-child(2) > div:nth-child(1) > ul>li:not(:first-child),
-li[data-target-selection-name="tab-statsTab"],li[data-target-selection-name="tab-segmentTab"],
-div[role="tabpanel"]#tab-stats,div[role="tabpanel"]#tab-segment,
-.slds-button.b12-help-link,
-.slds-tabs_default__item.slds-tabs_default__overflow-button{display:none!important}
-.moneMcModal.moneMcCampaignDetail.moneMcMemberActivity > section > div > div.slds-modal__content.b12-model-content .slds-grid{display:block;text-align:center}
-.slds-modal__content.b12-model-content > div > div:nth-child(2) > div.slds-tabs_default.b12-tab.slds-var-m-top_small > lightning-tab-bar > ul{justify-content:center!important}
