@@ -16,6 +16,7 @@ body:not(.home) .padder{background:none;box-shadow:none}
 body.home #content .container_countdown h1{margin-bottom:.5em;font-size:2.1em}
 .mfp-content #content h1{overflow:initial;padding-top:0;text-align:left;font-size:3em;line-height:1}
 .wp-block-columns.no-margin-bottom{margin-bottom:0}
+#post-content{float:left}
 #content ul#content ul.icons,#content ul.icons li{margin:0;padding:0}
 #content ul.icons li{list-style:none}
 #content ul.icons li i{display:inline-block;min-width:22px;text-align:center;color:rgba(0,0,0,.2)}
