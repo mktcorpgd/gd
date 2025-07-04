@@ -443,6 +443,7 @@ body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item{dis
 body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item.first{display:none}
 .wpcf7-acceptance .wpcf7-list-item-label{font-size:0.8rem}
 span.wpcf7-list-item-label.bold{font-size:1.4rem;font-weight:500;font-family:var(--titleFont);float:none}
+[data-class="wpcf7cf_group"]{clear:left}
 
 /* Datepicker */
 .xdsoft_time.xdsoft_old{pointer-events:none;opacity:.6}
