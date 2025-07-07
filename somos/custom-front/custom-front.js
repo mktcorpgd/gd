@@ -458,12 +458,13 @@ jQuery(document).ready(function() {
 		id_form = parseInt(id_form.substring(id_form.indexOf('wpcf7-f')+7,id_form.indexOf('-p')));
 		if (id_form == 29440) {
 			jQuery('.wpcf7-select option').each(function() {
+				var text_opc = jQuery(this).text();
 				if (text_opc.includes(';')) {
-					var id_opc = text_opc.substring(text_opc.indexOf(';') + 1);
-					text_opc = text_opc.substring(0, text_opc.indexOf(';'));
-					jQuery(this).text(text_opc).attr({
-						'data-cat-id': id_opc,
-						'value': id_opc
+					var textoVisible = text_opc.substring(0, text_opc.indexOf(';'));
+					var valor = text_opc.substring(text_opc.indexOf(';') + 1);
+					jQuery(this).text(textoVisible).attr({
+						'data-cat-id': valor,
+						'value': valor
 					});
 				}
 			});
