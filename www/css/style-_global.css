@@ -365,7 +365,7 @@ body.avada-has-titlebar-hide .fusion-project-details-tb .project-description,bod
 .noticias [class*='tag-'] .fusion-post-slideshow+.fusion-post-content-wrapper{padding-top:0}
 .fusion-portfolio-boxed .fusion-portfolio-content,.fusion-events-post .fusion-events-content-wrapper{padding:0 0 .5em!important}
 .fusion-portfolio{overflow:visible}
-.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-events-post .fusion-column-wrapper{position:relative;border-radius:var(--largeRadius)}
+.fusion-blog-layout-grid .fusion-post-wrapper,.fusion-portfolio-post .fusion-portfolio-content-wrapper,.fusion-portfolio-layout-grid .fusion-portfolio-content-wrapper,.fusion-events-post .fusion-column-wrapper{position:relative;border-radius:var(--largeRadius);overflow:hidden}
 .fusion-portfolio-content,.fusion-post-content-wrapper,.fusion-events-post .fusion-column-wrapper{background:var(--whiteColor)!important}
 .fusion-post-content-wrapper h2 a,.fusion-post-content-wrapper h3 a,.fusion-portfolio-content-wrapper h2 a,.fusion-events-content-wrapper h2 a{display:block;padding:1.5rem 2rem;font-weight:400}
 .fusion-post-content-wrapper h3 a{padding:1.2rem 1.5rem}
@@ -560,7 +560,7 @@ input+.wpcf7-response-inner{border-top-left-radius:0;border-top-right-radius:0;f
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
 .wpcf7-form input[type='submit'],.fusion-button.button-flat,
-.tribe-common-c-btn.tribe-events-c-search__button{padding:.8rem 1.6rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:400;font-size:1.1rem;line-height:normal;letter-spacing:0;text-transform:none;border-radius:var(--regularRadius)}
+.tribe-common-c-btn.tribe-events-c-search__button{padding:.8rem 1.4rem;width:auto;height:auto;font-family:var(--titleFont),var(--iconFont),sans-serif;font-weight:400;font-size:1.1rem;line-height:normal;letter-spacing:0;text-transform:none;border-radius:var(--regularRadius)}
 .button-default:not(.portfolio-button),.fusion-button-default-size,.fusion-button:not(.portfolio-button),.fusion-body .fusion-button-default-size,button.button,.button.default,.fusion-button-default,.fusion-body .fusion-load-more-button,.fusion-blog-shortcode .fusion-load-more-button.fusion-blog-button,
 .button-medium,.fusion-body .fusion-button-medium,.fusion-button_size-medium .fusion-button-default-size,
 #main #comment-submit,#main .comment-submit,.comment-form input[type='submit'],
