@@ -122,9 +122,9 @@ jQuery(document).ready(function($) {
 	// Completar Subcentro como 096 si es un Evento
 	jQuery('select[name="OBJ"]').change(function() {
 		if (this.value === 'Evento') {
-			jQuery('input[name="SCC_UNIT"]').val('096');
+			jQuery('input[name="SUBCTA"]').val('096');
 		} else {
-			jQuery('input[name="SCC_UNIT"]').val('');
+			jQuery('input[name="SUBCTA"]').val('');
 		}
 	});
 
