@@ -132,7 +132,6 @@ jQuery(document).ready(function() {
 		var ctry = this_value.substring(0,2).toLowerCase();
 		var office = normalize(this_value.substring(this_value.indexOf('-')+2,this_value.length).toLowerCase());
 		var ctry_office = ctry+'_'+office;
-		console.log(ctry_office);
 		if ( ctry_office == 'cl_santiago' ) {
 			jQuery('input[name=CTRYMAIL]').val('libreria_cl@datco.net')
 		}
