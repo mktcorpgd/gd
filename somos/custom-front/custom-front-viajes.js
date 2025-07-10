@@ -1,6 +1,5 @@
 jQuery(document).ready(function($) {
 
-	
 	// Copiar datos del solicitante
 	$('select[name=ORG] option[value="Datco Soluciones"],select[name=ORG] option[value="IT4W"]').hide();
 	$('input[name=PHONE]').val($('input[name=gdPHONE_mc]').val());
@@ -39,7 +38,6 @@ jQuery(document).ready(function($) {
 			}
 		}
 	});
-
 
 	// Autocompletado por Google Maps API
 	ApplyAutoComplete($('.address_maps'));
@@ -95,7 +93,7 @@ jQuery(document).ready(function($) {
 		}
 	});
 
-
+	// Asignar responsable de cotización de viaje
 	var gdOFFICE_mc = $('input[name=gdOFFICE_mc]').val();
 	gdOFFICE_mc = gdOFFICE_mc.substring(0,2);
 	function assignResp() {
@@ -112,18 +110,23 @@ jQuery(document).ready(function($) {
 			$('input[name=MSGADD]').val($('input[name=MSGADDAR]').val());
 		}
 	}
-	assignResp();	
+	assignResp();
 
 	// Asignar asistente si es UAC
 	var gdUNIT_mc = $('input[name=gdUNIT_mc]').val();
 	var usremail = $('input[name=usremail]').val();
-	console.log(gdUNIT_mc);
-	console.log(usremail);
-	console.log(gdUNIT_mc.indexOf('UAC') > -1 || usremail == 'pablo.perez@datco.net' || usremail == 'veronica.martinez@datco.net');
 	if ( gdUNIT_mc.indexOf('UAC') > -1 || usremail == 'pablo.perez@datco.net' || usremail == 'veronica.martinez@datco.net' ) {
 		$('input[name=CCASIST]').val('mariel.loreto@datco.net');
 	}
 
+	// Completar Subcentro como 096 si es un Evento
+	jQuery('select[name="OBJ"]').change(function() {
+		if (this.value === 'Evento') {
+			jQuery('input[name="SCC_UNIT"]').val('096');
+		} else {
+			jQuery('input[name="SCC_UNIT"]').val('');
+		}
+	});
 
 	// Confirmación de envío según día y horario
 	if ( gdOFFICE_mc == 'AR' ) {
