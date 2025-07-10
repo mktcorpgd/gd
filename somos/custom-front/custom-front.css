@@ -948,7 +948,7 @@ body.archive .eo-event-meta li:first-child{margin:.2em 0;font-size:.9em}
 /* Imágenes */
 img.mfp-img{max-height:90vh}
 .gallery-item img,.wp-block-image img,.wp-block-image:not(.is-style-rounded) img,#post-content p>img:not(.no-radius),#post-content li>img{background:none;border-radius:var(--regularRadius);box-shadow:var(--xsmallShadow)}
-#post-content>img.wp-block-image.size-full{margin-bottom:2em}
+#post-content>figure.wp-block-image.size-full{margin-bottom:2em}
 .gallery-item{margin:0;padding:16px;box-sizing:border-box}
 .gallery-item img{width:100%}
 figcaption{text-align:left;padding:.4em .3em;color:var(--grayColor);font-size:.8em;line-height:1.2;font-style:italic}
