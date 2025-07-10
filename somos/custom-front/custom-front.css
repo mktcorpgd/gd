@@ -502,7 +502,7 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 .widget .widgettitle a i{display:inline-block;font-size:1em;line-height:1;font-weight:bold;font-style:normal}
 .widget ul:not(.birthday_list):not(.ui-tabs-nav),.bdays_upcom{margin:.2em 0 .4em 0;max-height:165px;border-bottom:1px solid rgba(0,0,0,.1);overflow-x:hidden;overflow-y:auto}
 .widget .sc-tab-panel>ul{margin-top:.4em;border-top:2px solid var(--lightgrayColor2)}
-.widget h3.cta{margin:.75em 0 0;text-align: center;font-size:1.4em}
+.widget h3.cta{margin:.75em 0 0;text-align:center;font-size:1.4em}
 .widget h3.cta a{color:var(--highlightColor)}
 .widget h3.cta a:hover{color:var(--subColor)}
 #sidebar-right .widget .widgettitle,#custom_html-11 .toggle{font-size:1.4em}
@@ -851,7 +851,7 @@ a.button.fullwidth{width:100%}
 #text-4 h3{margin:0 0 .8em;font-size:1.15em}
 #text-4 h3 a{display:block}
 .yotu-playlist .yotu-pagination-more{margin:0 auto!important;padding:.6em .8em;font-size:1rem}
-.page-id-55300 .sc-button.large,.wpcf7 button.large,.page-id-41477 .sc-button.large,.wpcf7 button.large,.page-id-15131 .sc-button.large,.wpcf7 button.large {font-size: 1.2em;display: block;margin: 0 auto}
+.page-id-55300 .sc-button.large,.wpcf7 button.large,.page-id-41477 .sc-button.large,.wpcf7 button.large,.page-id-15131 .sc-button.large,.wpcf7 button.large{display:block;margin:0 auto;padding:.6em 1.2em;font-size:1rem}
 .wpcf7 input[type='submit']:disabled{background:var(--lightgrayColor1)!important;cursor:no-drop}
 
 /* Tarjeta digital */
