@@ -533,11 +533,11 @@ input.static_gmap+a:hover{border-color:var(--highlightColor)}
 /* Colapsables */
 h3.toggle{display:flex;flex-direction:row-reverse;justify-content:space-between;position:relative;font-size:1.2em;line-height:1.2}
 h3.toggle a{display:block}
-h3.toggle i{display:flex;align-items:center;padding-right:0}
+h3.toggle i{display:flex;align-items:flex-start;padding-top:3px;padding-right:0;font-size:.8em}
 h3.toggle i.fa-plus-square:before{content:'\2b'}
 h3.toggle i.fa-minus-square:before{content:'\f068'}
-h3.toggle i:before{color:var(--metaColor)}
-h3.toggle:hover i:before{color:var(--textColor)}
+h3.toggle i:before{color:var(--grayColor)}
+h3.toggle:hover i:before{color:var(--metaColor)}
 #content h3.toggle{display:flex;flex-direction:row;justify-content:flex-start;font-weight:400;font-size:1.1em}
 #content h3.toggle i{padding-right:.4em}
 .widget h3.toggle{margin-bottom:0;font-size:1.2em}
