@@ -446,7 +446,7 @@ body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item.fir
 span.wpcf7-list-item-label.bold{font-size:1.4rem;font-weight:500;font-family:var(--titleFont);float:none}
 :not(.columns.three)+[data-class="wpcf7cf_group"]{clear:left}
 .choices__inner{margin:.3em 0 .6em!important;padding:.34em .6em!important;width:100%;height:auto;min-height:auto;color:var(--textColor);background:var(--whiteColor2);border:1px solid var(--lightgrayColor2);border-radius:var(--smallRadius)!important;box-shadow:none}.choices__inner:hover{background:var(--whiteColor1);border:1px solid var(--grayColor)}
-.choices__list--dropdown,.choices__list[aria-expanded]{margin-top:-1em;padding:0 .4em;max-height:240px;border-radius:var(--smallRadius);box-shadow:var(--smallShadow)}
+.choices__list--dropdown,.choices__list[aria-expanded]{margin-top:-1em;padding:0 .4em;max-height:240px;border-radius:var(--smallRadius)!important;box-shadow:var(--smallShadow)!important}
 .choices__list--single .choices__item{width:100%;font-size:1rem;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
 .choices__list--dropdown .choices__item,.choices__list[aria-expanded] .choices__item{padding:.4em .8em;font-size:.8rem;word-break:break-word}
 
