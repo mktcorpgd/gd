@@ -444,7 +444,7 @@ body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item{dis
 body.page-id-52937 span.wpcf7-form-control-wrap.DIGITAL span.wpcf7-list-item.first{display:none}
 .wpcf7-acceptance .wpcf7-list-item-label{font-size:0.8rem}
 span.wpcf7-list-item-label.bold{font-size:1.4rem;font-weight:500;font-family:var(--titleFont);float:none}
-:not(.columns.three)+[data-class="wpcf7cf_group"]{clear:left}
+:not(.columns)+[data-class="wpcf7cf_group"]{clear:left}
 [data-class="wpcf7cf_group"]+[data-class="wpcf7cf_group"]{clear:none}
 .choices__inner{margin:.3em 0 .6em!important;padding:.34em .6em!important;width:100%;height:auto;min-height:auto;color:var(--textColor);background:var(--whiteColor2);border:1px solid var(--lightgrayColor2);border-radius:var(--smallRadius)!important;box-shadow:none}.choices__inner:hover{background:var(--whiteColor1);border:1px solid var(--grayColor)}
 .choices__list--dropdown,.choices__list[aria-expanded]{margin-top:-1em;padding:0 .4em;max-height:240px;border-radius:var(--smallRadius)!important;box-shadow:var(--smallShadow)!important}
