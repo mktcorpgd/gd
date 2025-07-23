@@ -398,6 +398,7 @@ body:not(.archive) .fusion-blog-layout-grid article .fusion-post-content-contain
 .fusion-portfolio article .fusion-post-content .wp-video,.fusion-blog-layout-grid article .fusion-post-content-container .wp-video{margin:.5em 0 0}
 .fusion-portfolio article .fusion-post-content blockquote,.fusion-blog-layout-grid article .fusion-post-content-container blockquote{padding-top:0;padding-bottom:0}
 .fusion-portfolio article .fusion-post-content ul,.fusion-blog-layout-grid article .fusion-post-content-container ul{margin-top:5px}
+.fusion-portfolio article.expanded .fusion-post-content{padding-bottom:1rem}
 
 /* Contador */
 .no-padding-top .fusion-counters-box .fusion-counter-box .counter-box-container{padding-top:0}
@@ -580,6 +581,7 @@ a.cta-link i[class*='fa']{padding-right:4px;position:relative;bottom:1px}
 .fusion-button-wrapper+.fusion-button-wrapper{margin-left:1em}
 .no-label>i{margin-right:0}
 .slide-content-container .button-default:active,.fusion-main-menu .menu-text.fusion-button:active,.wpcf7-form input[type='submit']:active,.fusion-body .fusion-blog-button:active,.fusion-body .fusion-button:active{transform:scale(.985)}
+.buttons .button{padding:.6rem 1.2rem}
 
 /* Botones - Portfolio */
 .fusion-portfolio .fusion-portfolio-content .fusion-buttons{margin-top:0;margin-bottom:1em;padding:0 2rem}
