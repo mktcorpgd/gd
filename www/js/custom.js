@@ -10,6 +10,7 @@ document.addEventListener('wpcf7submit', function(e) {
 document.addEventListener('wpcf7mailsent', function(e) {
 	jQuery('.focused').removeClass('focused');
 	jQuery('.filled').removeClass('filled');
+	jQuery('.wpcf7-not-valid-tip').hide();
 }, false);
 
 // Menú transparente
