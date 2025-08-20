@@ -696,8 +696,8 @@ article.category-tips .fusion-post-wrapper{border-bottom-right-radius:32px}
 .fusion-blog-shortcode [class*='fusion-blog-layout-grid-'] article{transform:none!important;transition:none!important;position:relative!important;top:0!important;width:100%!important;height:auto!important;left:0!important}
 .fusion-blog-shortcode .fusion-blog-layout-grid-1{grid-template-columns:1fr}
 .fusion-blog-shortcode .fusion-blog-layout-grid-2,.portfolio-style.fusion-columns-2{grid-template-columns:1fr 1fr}
-.portfolio-style.fusion-columns-2{grid-gap:1em 2em}
-.fusion-blog-shortcode .fusion-blog-layout-grid-3{grid-template-columns:1fr 1fr 1fr}
+.fusion-blog-shortcode .fusion-blog-layout-grid-3,.portfolio-style.fusion-columns-3{grid-template-columns:1fr 1fr 1fr}
+.portfolio-style[class*='fusion-columns-']{grid-gap:1em 2em}
 #wrapper #main .fullwidth-box.hundred-percent-fullwidth .fusion-row{margin-left:0!important;margin-right:0!important}
 .portfolio-style .content-box-column{width:100%;padding:2em;background:var(--whiteColor);border-radius:var(--largeRadius)}
 
