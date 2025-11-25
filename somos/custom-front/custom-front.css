@@ -71,7 +71,8 @@ body:not(.logged-in) #custom_html-23,.offhours,
 body:not([class*='munro']):not([class*='santa-clara']):not([class*='montevideo']) .kit.xerox,
 body[class*='munro'] .kit:not(.xerox):not(.firmas),body[class*='santa-clara'] .kit:not(.xerox):not(.firmas),body[class*='montevideo'] .kit:not(.xerox):not(.firmas),
 body:not([class*='munro']):not([class*='santa-clara']):not([class*='montevideo']) iframe.xerox,
-body[class*='munro'] iframe:not(.xerox),body[class*='santa-clara'] iframe:not(.xerox),body[class*='montevideo'] iframe:not(.xerox){display:none}
+/*body[class*='munro'] iframe:not(.xerox),body[class*='santa-clara'] iframe:not(.xerox),body[class*='montevideo'] iframe:not(.xerox){display:none}*/
+body.page-id-11181[class*='munro'] iframe:not(.xerox),body.page-id-11181[class*='santa-clara'] iframe:not(.xerox),body.page-id-11181[class*='montevideo'] iframe:not(.xerox){display:none}
 
 /* Menú y widgets (no Kit) - Mostramos según oficina */
 body[class*='office-ar']:not([class*='munro']) .menu .menu-item.ar,body[class*='office-br'] .menu .menu-item.br,body[class*='office-cl']:not([class*='santa-clara']) .menu .menu-item.cl,body[class*='office-mx'] .menu .menu-item.mx,body[class*='office-pe'] .menu .menu-item.pe,body[class*='office-pr'] .menu .menu-item.pr,body[class*='office-uy'] .menu .menu-item.uy,body[class*='munro'] .menu .menu-item.munro,body[class*='santa-clara'] .menu .menu-item.santa-clara,
