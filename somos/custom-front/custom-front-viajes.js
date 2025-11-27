@@ -116,7 +116,7 @@ jQuery(document).ready(function($) {
 	var gdUNIT_mc = $('input[name=gdUNIT_mc]').val();
 	var usremail = $('input[name=usremail]').val();
 	if ( gdUNIT_mc.indexOf('UAC') > -1 || usremail == 'pablo.perez@datco.net' || usremail == 'veronica.martinez@datco.net' ) {
-		$('input[name=CCASIST]').val('mariel.loreto@datco.net');
+		$('input[name=CCASIST]').val('servicioscomerciales@datco.net');
 	}
 
 	// Completar Subcentro como 096 si es un Evento
