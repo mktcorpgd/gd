@@ -1,4 +1,26 @@
+# Salesforce / VS Code
 .sfdx/
+.sf/
+.force/
+.vscode/*
+!.vscode/settings.json
+
+# Node
 node_modules/
+**/node_modules/
+
+# Entornos
 .env
+.env.*
+
+# Logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Locks: ignorá todos salvo el de la raíz
+**/package-lock.json
+!/package-lock.json
+
+# ⚠️ NO ignores package.json (quitamos la línea que lo ignoraba)
