@@ -1,4 +1,4 @@
-body {background-color:var(--whiteColor1)!important;background-image:url(https://somos.grupodatco.com/wp-content/uploads/bg-modofuturo2-100-1-scaled.jpg)!important;background-position:top center;background-repeat:no-repeat;background-size:100%;background-attachment:fixed!important}
+body {background-color:var(--whiteColor1)!important;background-image:url(https://somos.grupodatco.com/wp-content/uploads/fondo-somos.png)!important;background-position:top center;background-repeat:no-repeat;background-size:100%;background-attachment:fixed!important}
 body.page-id-68876{background: radial-gradient(circle, rgba(14,48,109,1) 0%, rgba(17,27,51,1) 100%)!important}
 #header,.is-search-form,#copyright,#wpadminbar,.gp-post-meta,#webpushr-prompt-wrapper,.asp_w_container,.asp_w_container_1,.asp_w_container_1_1,#menu-header-destacado{display:none!important}
 #page-wrapper{padding-top:1em;padding-bottom:1em}
@@ -20,10 +20,10 @@ a:hover{color:var(--textColor)!important}
 }
 
 p.infoutil {background: #333;border-radius: 15px;padding: 20px;color: white;}
-p.infoutil a {color:#871fac!important;}
+p.infoutil a {color:#A34BAC!important;}
 p.infoutil a:hover {color:#ffffff!important;}
 
-.wpcf7 button, .button, .sc-button, .yotu-playlist .yotu-pagination-more, #respond #submit, .wpcf7 input[type='submit'], #text-4 h3 a { background: #43c3a7!important;color:#ffffff!important }
+.wpcf7 button, .button, .sc-button, .yotu-playlist .yotu-pagination-more, #respond #submit, .wpcf7 input[type='submit'], #text-4 h3 a { background: #A34BAC!important;color:#ffffff!important }
 body.page-id-68876 .wpcf7 button, body.page-id-68876 .button, body.page-id-68876 .sc-button, body.page-id-68876 .yotu-playlist .yotu-pagination-more, body.page-id-68876 #respond #submit, body.page-id-68876 .wpcf7 input[type='submit'], #text-4 h3 a { background: #0e316e!important;color:#ffffff!important }
 
 .sc-button:hover{color:#ffffff!important}
