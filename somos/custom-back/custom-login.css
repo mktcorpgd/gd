@@ -28,6 +28,7 @@ body.login input[type='text']:focus,body.login input[type='password']:focus,body
 form.sending input,form.sending label,form.sending select,form.sending input,form.sending button,form.sending+#nav a{pointer-events:none}
 form.sending,form.sending+#nav{opacity:.6;cursor:wait}
 body.login form input[type='checkbox']{width:20px;height:20px;border-radius:4px}
+body.login form input[type='checkbox']:checked{background:#0E316E;border-color:#0E316E!important}
 body.login .button.wp-hide-pw{top:6px;color:#0E316E!important;box-shadow:none!important;border:none!important;outline:none!important}
 body.login #nav{margin-top:0;padding:0 24px 2em;background:#FFFFFF;border-bottom-left-radius:24px;border-bottom-right-radius:24px}
 body:not(.login-action-lostpassword).login #nav>span#info_access{display:block;margin-top:1em;padding:.5em 1em;background:#1F4483;border-radius:12px;color:#FFFFFF;font-style:italic;line-height:1.3}
