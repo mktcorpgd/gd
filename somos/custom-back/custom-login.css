@@ -44,11 +44,25 @@ input[type='radio']:checked:before,input[type='checkbox']:checked:before{width:2
 .wp-core-ui .button-group.button-large .button:active,.wp-core-ui .button.button-large:active{background:#0E316E!important}
 .login #pass-strength-result{margin-top:10px;border:none;border-radius:6px}
 #user_login+span{margin:-1em 0 2em;color:#777777;font-size:.9em;line-height:1.2;font-style:italic}
+/* Doble factor (SiteGround Security) */
+body.login form[name='sgs2fa_form']{border-radius:24px;padding-bottom:24px}
+body.login form[name='sgs2fa_form'] h1{margin:0;font-family:'neo-sans',sans-serif;font-size:1.5em;font-weight:500;line-height:1.2;color:#0E316E;text-align:left}
+body.login form[name='sgs2fa_form'] br{display:none}
+body.login form[name='sgs2fa_form'] p.sg-2fa-title{margin:1em 0 1.5em!important;color:#555555;font-size:1em;line-height:1.4}
+body.login form[name='sgs2fa_form'] .input{margin-bottom:20px;border:2px solid #EAEAEA!important;letter-spacing:4px}
+body.login form[name='sgs2fa_form'] .input:focus{background:#FFFFFF;border:2px solid #999999!important}
+body.login form[name='sgs2fa_form'] input[type='checkbox']{margin:0 10px 0 0;padding:0;vertical-align:top}
+body.login form[name='sgs2fa_form'] label[for='do_not_challenge']{display:inline-block;width:calc(100% - 34px);font-size:100%;line-height:1.4;vertical-align:top}
+body.login form[name='sgs2fa_form'] p.submit{margin:24px 0 0!important;padding:0;text-align:left}
+body.login form[name='sgs2fa_form'] .button-primary{float:none;padding:.6em .8em;font-size:1.2em;line-height:1.25;font-weight:600;height:auto;min-height:0;background:#F0582B!important;color:#FFFFFF;border:0!important;border-radius:12px;box-shadow:0 2px 0px 0px rgba(0,0,0,.2)!important;text-shadow:none}
+body.login form[name='sgs2fa_form'] .button-primary:hover{background:#1F4483!important}
+body.login form[name='sgs2fa_form'] .button-primary:active{background:#0E316E!important}
+body.login form[name='sgs2fa_form']+a{margin-top:1em;color:#FFFFFF!important;text-decoration:underline}
 @media only screen and (min-width:800px){
 }
 /* Desktop */
 @media (min-width:960px) {
-	#login{width:400px}
+	#login,body.login #login{width:400px}
 }
 /* Mobile */
 @media (max-width:960px) {
